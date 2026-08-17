@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-03"
 reading_time_minutes: 2
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Integrate ServiceNow with Amazon S3. Manage buckets, objects, tags, and related 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon S3 spoke v1.2.1 is the latest version.
+Amazon S3 spoke v1.3.0 is the latest version.
 
 ## Supported version
 
@@ -51,6 +51,7 @@ The Amazon S3 spoke provides actions to automate Amazon S3 tasks when events occ
 |--------|------|-----------|
 |Bucket Management|Create Bucket|Creates a bucket in Amazon S3.|
 |Look up Buckets|List Amazon S3 buckets.|
+|Look up Bucket Region|Retrieves the AWS region in which an Amazon S3 bucket was created.|
 |Object Management|Copy Object|Copies object from source to destination.|
 |Delete Object|Deletes specified object from a bucket.|
 |Look up Objects by Bucket Stream|Lists the objects in the specified Amazon S3 bucket.|
@@ -68,4 +69,10 @@ The Amazon S3 spoke provides actions to automate Amazon S3 tasks when events occ
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
 For information about setting up the spoke, see [Set up the Amazon S3 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-amazon-s3.md).
+
+## MID Server requirements
+
+This spoke can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the Amazon S3 alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

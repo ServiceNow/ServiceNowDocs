@@ -16,6 +16,10 @@ breadcrumb: [Use, Change Management, IT Service Management]
 
 Platform Analytics Solutions and in-form analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
+**Important:**
+
+Starting in Xanadu release, the Core UI Change Management dashboards are deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view the information about the Change requests in one place.
+
 ## Platform Analytics Solutions
 
 Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.

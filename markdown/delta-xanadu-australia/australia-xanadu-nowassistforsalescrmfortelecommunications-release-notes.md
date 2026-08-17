@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsalescrmfortelecommunications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,34 +99,7 @@ Zurich
 
 </td><td>
 
--   **[Image to task plan template AI agent](https://www.servicenow.com/docs/access?context=now-assist-task-template-generation-somt&family=zurich&ft:locale=en-US)**
-
-Use this agent to process an uploaded image file, extract task dependencies and store them as a task plan template for the given specification.
-
--   **[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)[Order enrichment agent](https://www.servicenow.com/docs/access?context=order-enrichment-agent-somt&family=zurich&ft:locale=en-US)**
-
-Use the order enrichment AI agent to collect the customer order information, identify if the order needs enrichment, and create the enrichment tasks. The AI agent creates a task and triggers the order fulfillment AI agent on its completion.
-
--   **[Order fulfillment agent](https://www.servicenow.com/docs/access?context=order-fulfillment-agent-somt&family=zurich&ft:locale=en-US)**
-
-Use the order fulfillment agent to identify the tasks for domain orders using historical data from similar orders. After decomposition, the fulfillment AI agent creates and fulfills order tasks by checking the historical and applicable tasks.
-
--   **[Task plan template](https://www.servicenow.com/docs/access?context=somt-flow-action-catalog-task&family=zurich&ft:locale=en-US)**
-
-Define tasks and their dependencies using the task plan template to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
-
--   **[Move order voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=zurich&ft:locale=en-US)**
-
-Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
-
--   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
-
-Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
--   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
-
-Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they won't execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add. After the roles are configured, users must have the specified role to invoke the agentic workflow or AI agent.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -142,8 +115,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
 
@@ -189,10 +162,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -327,7 +297,7 @@ Zurich
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -335,7 +305,7 @@ Australia
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -552,27 +522,7 @@ Zurich
 
 </td><td>
 
--   Use the task template generation agent to create a task plan template for the given specification based on the uploaded image file.
-
- -   Now Assist for Sales and Order Management for Telecommunications is now known as Now Assist for Sales CRM for Telecommunications to align with the updated product taxonomy. There is no change to functionality or existing customer configurations.
-
- [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
-
--   Sales and Order Management for Telecommunications \(SOMT\) is now known as Sales Customer Relationship Management for Telecommunication \(Sales CRM for Telecommunications\) to align with the updated product taxonomy. There is no change to functionality or existing customer configurations.
--   Review changes to Now Assist usage measurement.
-
- [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
-
--   Collects the customer order information, identifies if the order needs enrichment, and creates the enrichment tasks. On closure of the enrichment task, it invokes the order fulfillment agent.
--   Uses the historic order tasks to create the order tasks. If the historic data doesn't return any results, the large language model \(LLM\) is used to get the response.
--   Checks the automation flow and fulfill order tasks.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
- -   Automatically create the fallout records based on reported issues in the order task work notes.
--   Provide customers with the option to configure product workflows using the data-driven catalog subflow as an alternative to Flow Designer, giving more options for implementing product configurations.
--   Automate the customer move order capture journey to reduce the manual effort.
-
- See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com/docs/access?context=somt-now-assist&family=zurich&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 

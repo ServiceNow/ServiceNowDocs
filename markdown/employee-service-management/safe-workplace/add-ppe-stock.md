@@ -18,7 +18,7 @@ Add stock for a PPE model to track the availability of the item at different loc
 
 ## Before you begin
 
-Create stockrooms for your PPE. To create a stockroom, navigate to **PPE Inventory Management** &gt; **Inventory** &gt; **Stockrooms**. For more information, see Stockrooms.
+Create stockrooms for your PPE. To create a stockroom, navigate to **PPE Inventory Management** &gt; **Inventory** &gt; **Stockrooms**.
 
 Role required: sn\_imt\_ppe.ppe\_admin
 

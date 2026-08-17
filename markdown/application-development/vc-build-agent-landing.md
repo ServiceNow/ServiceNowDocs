@@ -1,5 +1,5 @@
 ---
-title: AI-assisted ServiceNow AI Platform development with Build Agent
+title: Agentic ServiceNow AI Platform development with Build Agent
 description: Build Agent is the primary AI-powered development tool that works directly with the ServiceNow AI Platform to help you build applications. It generates code based on natural language descriptions, suggests improvements, and automates repetitive development tasks while you retain control of your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agent-landing.html
@@ -11,7 +11,7 @@ keywords: [AI-assisted development, Build Agent, vibe coding, application develo
 breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# AI-assisted ServiceNow AI Platform development with Build Agent
+# Agentic ServiceNow AI Platform development with Build Agent
 
 Build Agent is the primary AI-powered development tool that works directly with the ServiceNow AI Platform to help you build applications. It generates code based on natural language descriptions, suggests improvements, and automates repetitive development tasks while you retain control of your application.
 
@@ -22,7 +22,7 @@ Build Agent is not a one-shot tool, but enables enterprise-grade agentic develop
 -   Build Agent requires you to review and actively participate in the development process.
 -   Build Agent requires the admin role.
 
-**Note:** While Build Agent is part of Now Assist for Creator, it's the primary ServiceNow tool for agentic development, and thus highlighted in its own section of this document.
+**Note:** While Build Agent is part of ServiceNow Otto for Creator, it's the primary ServiceNow tool for agentic development, and thus highlighted in its own section of this document.
 
 ## Key benefits of Build Agent
 
@@ -48,7 +48,7 @@ Some sample use cases for app development with Build Agent include the following
 -   Extending existing applications
 -   Designing agentic workflows that chain actions across ServiceNow tables, approvals, and integrations
 -   Creating custom AI agents tailored to your organization's specific workflows, such as service desk, HR, or IT operations
--   Generating skills that extend Now Assist with domain-specific capabilities
+-   Generating skills that extend ServiceNow Otto with domain-specific capabilities
 
 ## Accessing Build Agent
 

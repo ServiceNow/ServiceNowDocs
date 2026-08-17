@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-06"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,7 +37,7 @@ When indexing records from the Catalog Item \[sc\_cat\_item\] table and tables t
 
 Other variable types aren't supported for catalog variable indexing.
 
-Catalog variable indexing is not active in the base system, but it's activated if you've installed the Now Assist in AI Search application. To learn how to activate and configure catalog variable indexing, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-catalog-variable-indexing.md). For details on the Now Assist in AI Search application, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md).
+Catalog variable indexing is not active in the base system, but it's activated if you have the ServiceNow® Otto for AI Search application installed. To learn how to activate and configure catalog variable indexing, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-catalog-variable-indexing.md). For details on the ServiceNow Otto for AI Search application, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md).
 
 For the full list of available Service Catalog variable types, see [Types of Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_VariableTypes.md).
 

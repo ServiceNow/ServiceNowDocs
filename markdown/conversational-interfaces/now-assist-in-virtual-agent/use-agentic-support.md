@@ -7,9 +7,9 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-03-18"
 reading_time_minutes: 1
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Use agentic support for a chat assistant
@@ -26,15 +26,15 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Select the operational mode of an assistant. For more information about agentic AI, see [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
+Select the operational mode of an assistant. For more information about agentic AI, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
 
 ## Procedure
 
-1.  Toggle on **Use AI agent skills and orchestration**.
+1.  Use AI agent skills and agentic orchestration.
 
-    The option to toggle on **Use AI agent skills and orchestration** only appears for existing customers that previously had the AI agent skill turned off for the assistant. Turning on **Use AI agent skills and orchestration** is an irreversible action. Agentic orchestration is a prerequisite to assign AI agents to an assistant.
+    The option to toggle on **Prioritize AI agents during skills discovery** only appears for existing customers that previously had the AI agent skill turned off for the assistant. Turning it on is an irreversible action. Agentic orchestration is a prerequisite to assign AI agents to an assistant.
 
-    \[Omitted image "NAinVA-agentic-support-122025.png"\] Alt text: Deselect check box if you don't want to prioritize AI agents during skills discovery.
+    \[Omitted image "sno-agentic-support-0826.png"\] Alt text: Deselect check box if you don't want to prioritize AI agents during skills discovery.
 
 2.  Select **Prioritize AI agents during skills discovery**.
 

@@ -27,7 +27,7 @@ Dependent plugins and apps for Talent Development:
 
 -   [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md)
 
-Role required: admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

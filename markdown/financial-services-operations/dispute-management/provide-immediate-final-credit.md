@@ -42,7 +42,7 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Immediate final credit** activity under the Investigation playbook stage.
+6.  Select the **Immediate final credit** task under the Investigation playbook stage.
 
 7.  Select the immediate final credit task that you want to complete.
 

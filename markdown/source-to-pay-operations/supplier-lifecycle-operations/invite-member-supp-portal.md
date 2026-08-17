@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Supplier Collaboration PortalContacts widget, supplier contacts, self-registration, Invite contacts dialog box, Contact emails, Send invites]
 breadcrumb: [Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

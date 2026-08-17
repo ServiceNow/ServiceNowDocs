@@ -38,15 +38,15 @@ Role required: sn\_shift\_planning.admin
 
 9.  Select one of the following options from the Repeats list.
 
-<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d237138e148">
+<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d235615e148">
 
 Option
 
-</th><th align="left" id="d237138e151">
+</th><th align="left" id="d235615e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d237138e157">
+</th></tr></thead><tbody><tr><td id="d235615e157">
 
 **Does not repeat**
 
@@ -54,7 +54,7 @@ Steps
 
 It is a one-time meeting only.
 
-</td></tr><tr><td id="d237138e166">
+</td></tr><tr><td id="d235615e166">
 
 **Daily**
 
@@ -64,7 +64,7 @@ It is a one-time meeting only.
 2.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d237138e190">
+</td></tr><tr><td id="d235615e190">
 
 **Weekly**
 
@@ -75,7 +75,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d237138e217">
+</td></tr><tr><td id="d235615e217">
 
 **Monthly**
 
@@ -89,7 +89,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d237138e265">
+</td></tr><tr><td id="d235615e265">
 
 **Yearly**
 

@@ -28,8 +28,8 @@ Connection Manager enables you to add data from a third-party tool into Automati
 Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
 -   **[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-integrations.md)**  
 Automation Center integrations enable you to discover, analyze, and automate work from other ServiceNow applications. Rather than manually identifying automation opportunities, integrations help you to tap into existing analysis and user workflow data to find and build automations efficiently.
--   **[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)**  
-Use Now Assist for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
+-   **[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)**  
+Use ServiceNow Otto for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
 
 **Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-landing-page.md)
 

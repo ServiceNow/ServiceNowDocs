@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-ot-d
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -44,7 +44,7 @@ Role required: admin
 
 9.  Choose the OT Discovery Collector OS package that matches your machine's OS.
 
-    **Note:** If you have a closed network, download the Sensor package and the containerized versions of the Console and Collector packages. When ready, in stall the Console first, install the Sensor after that and, finally, install the Collector. See [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md) for more information.
+    **Note:** If you have a closed network, download the Sensor package and the containerized versions of the Console and Collector packages. When ready, in stall the Console first, install the Sensor after that and, finally, install the Collector. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
 
 10. Return to the previous page and select **Mark as complete**.
 
@@ -90,4 +90,6 @@ Role required: admin
 ## What to do next
 
 The next step in the Guided Setup is [Configure the OT Discovery connections &amp; credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-the-ot-discovery-connections-credentials.md).
+
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Explore, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Explore, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Supporting information for Now Assist in Document Intelligence

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using agentic workflows in Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for POM, ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Automated purchase order exception creation from emails
@@ -45,10 +45,10 @@ The supplier receives an email notification when a purchase order exception or a
     -   ServiceNow® purchase order number when it contains only one line
 -   The workflow processes emails in any of these languages: English, French, Canadian French, German, Japanese, or Dutch.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/using-agentic-wf-na-for-pom.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/using-agentic-wf-na-for-pom.md)
 
 **Related topics**  
 
 
-[Identify and execute mitigation strategies for purchase order exceptions]()
+[Identify and execute mitigation strategies for PO exceptions]()
 

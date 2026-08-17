@@ -23,6 +23,10 @@ You can navigate to the Enterprise Architecture Workspace in the following two w
 
 -   **[Enterprise Architecture Workspace Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-overview.md)**  
 The Enterprise Architecture Workspace has a consolidated user interface and is designed for different user roles.
+-   **[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)**  
+The Enterprise Architecture query agent answers natural language questions about your enterprise architecture portfolio, returning AI-generated answers grounded into their Enterprise Architecture data.
+-   **[Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)**  
+Elaborate or shorten text in the description or reasoning fields in forms using ServiceNow Otto in the Enterprise Architecture Workspace. You can also use prompts to generate content for the **Reasoning** field found in **Planned Disposition** section of a business application form.
 -   **[Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-stakeholder-role.md)**  
 The Business Stakeholder \(com.snc.business\_stakeholder\) plugin contains the business stakeholder role for Enterprise Architecture Workspace application. Users with this role can view or read records in the Enterprise Architecture Workspace.
 -   **[Viewing insights of your portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-insights.md)**  
@@ -39,16 +43,16 @@ Get an overview of your profile and monitor your portfolio health.
 Using the Setup page in the Enterprise Architecture Workspace, as an Enterprise Architect, you can configure Enterprise Architecture \(formerly Application Portfolio Management\) features within the EA Workspace.
 -   **[Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-business-portfolio.md)**  
 As an Enterprise Architect, view the capability hierarchy, manage capabilities, and assign business applications to the capabilities.
--   **[Gantt view of TPM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)**  
-A Gantt chart in the Enterprise Architecture Workspace is a visual representation of the Technology Portfolio Management \(TPM\) and Technology Reference Model \(TRM\) timelines of business applications, and their associated application services like software products and hardware models.
+-   **[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)**  
+A Gantt chart in the Enterprise Architecture Workspace displays TLM and TRM timelines for business applications and their associated application services.
 -   **[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**  
 As an Enterprise Architect, you can use application rationalization to evaluate your business applications.
 -   **[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/portfolio-list-view.md)**  
-As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio of your organization and also manage your own entities.
+As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio, and custom entities.
 -   **[Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-application-tco.md)**  
-The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects to evaluate the cost of business applications and leverage the application costs to prioritize the application portfolio and align with the organization's business strategy.
+The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects evaluate the cost of business applications. Use application costs to prioritize the application portfolio and align with the organization's business strategy.
 -   **[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-portfolio-view.md)**  
-As an Enterprise Architect, use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage your Technology Portfolio Management \(TPM\) lifecycles and risk and your Technology Reference Model \(TRM\) catalog \(software and hardware\).
+Use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage TLM lifecycles and risk, and your TRM catalog.
 -   **[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)**  
 Enterprise Modeling and Visualization in EA Workspace helps you with diagramming and modeling capabilities and enable you to model the future state of your IT and its relationship to the business landscape.
 -   **[Exploring digital integration management in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-digital-integ-management.md)**  

@@ -19,7 +19,7 @@ The Natural Language Understanding \(NLU\) Virtual Agent chat widget interface c
 
 The chat widget interface uses the Service Portal web widget, which you can configure for custom service portals. This widget is available in the CSM, HR Service Delivery, and ITSM Service Portals.
 
-**Note:** The information in this content is applicable to only Natural Language Understanding \(NLU\) Virtual Agent. For more information about the LLM Virtual Agent end-user experience, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+**Note:** The information in this content is applicable to only Natural Language Understanding \(NLU\) Virtual Agent. For more information about the LLM Virtual Agent end-user experience, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 A simple conversation typically includes the following elements:
 

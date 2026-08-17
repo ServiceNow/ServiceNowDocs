@@ -28,28 +28,30 @@ Role required: virtual\_agent\_admin or admin
 
 There are two ways to integrate Google Dialogflow intents with Bot Interconnect
 
--   Create one Virtual Agent Bot Interconnect topic per Dialogflow intent.
+-   Create one Bot Interconnect topic per Dialogflow intent.
 
-    In case of NLU topics, each Virtual Agent topic has the same name as a single Dialogflow intent. For example, if you have two Dialogflow intents named **order a drink** and **book a ticket**, then you would create two Virtual Agent topics also named **order a drink** and **book a ticket**.
+    For NLU/Keyword topics, each Virtual Agent topic has the same name as a single Dialogflow intent. For example, if you have two Dialogflow intents, **order a drink** and **book a ticket**, create two topics to match.
 
-    In case of LLM topics, each Bot Interconnect topic has the same name and description as the corresponding Google Dialogflow topic.
+    For LLM topics, each Bot Interconnect topic has the same name and description as the corresponding Google Dialogflow topic.
 
 -   Map multiple Dialogflow intents to a single Virtual Agent Bot Interconnect topic. This scenario is applicable only for NLU topics.
 
-    Create a Virtual Agent topic for your Dialogflow intents and name it accordingly. For example, **DG ordering issues**. In this scenario, the Dialogflow intents are mapped to the topic as either keywords or utterances, depending on your method of topic discovery. So if you have two Dialogflow intents named **order a drink** and **book a ticket**, you would add both phrases to the topic as keywords or you would add them as utterances to the topic's corresponding intent.
+    Create a Virtual Agent topic for your Dialogflow intents and name it accordingly. For example, **DG ordering issues**. In this scenario, the Dialogflow intents are mapped to the topic as either keywords or utterances, depending on your method of topic discovery. If you have two Dialogflow intents named **order a drink** and **book a ticket**, add both phrases to the topic as keywords. Alternatively, add them as utterances to the topic's corresponding intent.
 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for your Dialogflow intents.
+2.  Select the **Asset library** tab.
+
+3.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for your Dialogflow intents.
 
     In case of NLU topics, include the Dialogflow intent names as either keywords or utterances in the corresponding ServiceNow Virtual Agent intent. In case of LLM topics, the topic name and description of the Bot Interconnect topic should match the topic name and description of the Google Dialogflow topic.
 
-3.  On the **Flow** tab, drag a Topic Block utility node onto the canvas.
+4.  On the **Flow** tab, drag a Topic Block utility node onto the canvas.
 
-4.  Select the node, and then fill in the form as follows:
+5.  Select the node, and then fill in the form as follows:
 
     |Property|Description|
     |--------|-----------|
@@ -57,9 +59,9 @@ There are two ways to integrate Google Dialogflow intents with Bot Interconnect
     |Action Name|Enter: `sn_va_bot_ic.dialogflow_bot_interconnect_integration`|
     |Action Type|Enter `subflow`.|
 
-5.  Click **Save**.
+6.  Select **Save**.
 
-6.  Click **Publish**.
+7.  Select **Publish**.
 
 
 ## What to do next

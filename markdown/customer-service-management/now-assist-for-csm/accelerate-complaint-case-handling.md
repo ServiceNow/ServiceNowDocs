@@ -1,6 +1,6 @@
 ---
-title: Customer Service Management accelerate complaint case handling AI agent collection
-description: The Accelerate complaint case handling agents can work alongside human complaint agents to intake complaints, triage complaints, summarize cases, and answer research queries. The agents review previously attempted troubleshooting steps and propose resolution plans based on similar complaint cases or knowledge articles.
+title: AI Agents for CSM - Complaint Case
+description: The AI Agents for CSM - Complaint Case can work alongside human complaint agents to intake complaints, triage complaints, summarize cases, and answer research queries. The agents review previously attempted troubleshooting steps and propose resolution plans based on similar complaint cases or knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/accelerate-complaint-case-handling.html
 release: australia
@@ -9,22 +9,22 @@ classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Customer Service Management accelerate complaint case handling AI agent collection
+# AI Agents for CSM - Complaint Case
 
-The Accelerate complaint case handling agents can work alongside human complaint agents to intake complaints, triage complaints, summarize cases, and answer research queries. The agents review previously attempted troubleshooting steps and propose resolution plans based on similar complaint cases or knowledge articles.
+The AI Agents for CSM - Complaint Case can work alongside human complaint agents to intake complaints, triage complaints, summarize cases, and answer research queries. The agents review previously attempted troubleshooting steps and propose resolution plans based on similar complaint cases or knowledge articles.
 
-The Accelerate complaint case handling collection includes AI agents and a specialized AI workflow that systematically analyzes complaint cases, determines optimal processing paths, and coordinates seamless hand-offs between specialized sub-agents. This agent excels at complaint intake, contextual triage, prioritization logic, and ensuring comprehensive case resolution based on case state, complexity factors, and historical resolution patterns.
+The AI Agents for CSM - Complaint Case application includes AI agents and an AI workflow. Together, they analyze complaint cases, choose the best way to process each one, and hand off work between sub-agents. These agents handle complaint intake, triage, and prioritization, and resolve cases based on their state, complexity, and history.
 
-## AI agents used in the Accelerate complaint case handling collection and the Accelerate complaint case handling agentic workflow
+## AI agents used in the AI Agents for CSM - Complaint Case application and the AI Agents for CSM - Complaint Case workflow
 
-The accelerate complaint case handling collection and agentic workflow uses a team of AI agents and skills to triage customer complaints, summarize cases, and help research customer cases. The complaint case intake agent is not part of the agentic workflow, since it is used with Virtual Agent.
+The AI Agents for CSM - Complaint Case workflow uses a team of AI agents and skills to triage customer complaints, summarize cases, and help research customer cases. The complaint case intake agent is not part of the agentic workflow, since it is used with Virtual Agent.
 
-To install the AI agents and skills for the Accelerate complaint case handling collection, see [Install the Now Assist for Complaint Case \(CSM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-collection.md).
+To install the AI agents and skills for the AI Agents for CSM - Complaint Case application, see [Install the ServiceNow Otto for CSM Complaint Case application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-collection.md).
 
-For more information on configuring the Accelerate complaint case handling agentic workflow, see [Configure the Accelerate Complaint Case Handling agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
+For more information on configuring the AI Agents for CSM - Complaint Case agentic workflow, see [Configure AI Agents for CSM - Complaint Case workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
 
 <table id="table_bst_k4t_mhc"><thead><tr><th>
 
@@ -40,7 +40,7 @@ Complaint case intake agent
 
 </td><td>
 
-Manages customer complaints by collecting relevant information, such as customer details, the nature of the complaint, and any supporting documentation, before initiating the resolution process. 
+Manages customer complaints by collecting relevant information, such as customer details, the nature of the complaint, and any supporting documentation, before starting the resolution process. 
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Complaint case triage agent
 
 </td><td>
 
-Derives category, subcategory, and priority of the case. The agent also analyzes tone, sentiment, word choice, and speech patterns to detect frustration of the customers. It uses this information to determine the priority of the case.
+Determines the case's category, subcategory, and priority. The agent also analyzes tone, sentiment, word choice, and speech patterns to detect frustration of the customers. It uses this information to determine the priority of the case.
 
 </td></tr><tr><td>
 
@@ -64,9 +64,9 @@ Complaint case summarization skill
 
 </td><td>
 
-Produces structured summaries of complaint cases surfacing complaint-specific context, including the product or location at the center of the complaint, related parties involved, key actions taken, and SLA urgency ranked by time remaining. The skill allows agents to understand the full complaint picture without reading through the entire activity stream.
+Produces structured summaries of complaint cases surfacing complaint-specific context, including the product or location at the center of the complaint, related parties involved, key actions taken, and SLA urgency ranked by time remaining. With this skill, agents get the full complaint picture without reading the entire activity stream.
 
- It is especially valuable during complaint intake reviews, escalations, cross-team handoffs, or when returning to an active complaint after a period of inactivity.
+ It is especially valuable during complaint intake reviews, escalations, cross-team handoffs, or when going back to an active complaint after a period of inactivity.
 
 </td></tr></tbody>
 </table>

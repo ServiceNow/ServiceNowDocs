@@ -23,7 +23,7 @@ Set up an integration for streaming log data from Apache Kafka to your ServiceNo
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
 -   Consider whether to pull the log data to a single MID Server or to a MID Server cluster.
 
@@ -48,13 +48,13 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
+Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -82,19 +82,20 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
     For a description of the fields, see the **Advanced settings** table in [Apache Kafka integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.md).
 
-10. Select **Test and save** to save the integration to the database and test connectivity.
+10. Do one of the following.
 
-11. Do one of the following:
+    -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option.
 
-    -   If you completed all the prerequisites before starting the configuration, select **Activate**.
+        -   **Activate with AI** enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts.
 
-        In the pop-up window, select **Test &amp; Save** to save the integration to the database and test connectivity. If an error is returned, adjust the configuration as suggested in the error message and then try to activate the integration again.
+            When the integration is activated successfully, the **Overview** tab is displayed. ServiceNow Otto for ITOM collects and analyzes log data. An AI icon indicates that AI is active.
 
-        When the test is successful, the integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+        -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
+        On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
 
     -   If you didn't complete all the prior requirements, select **Save draft**.
 
-        The system saves the integration as a draft in the Integrations Launchpad. It appears in the **Installed integrations** tab, under **Waiting for your action**. You can complete the prerequisites and activate the integration later. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
+        The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. At a later time, complete the prerequisites and activate the installation. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
 
 
 ## What to do next

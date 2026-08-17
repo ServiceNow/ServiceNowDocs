@@ -54,7 +54,7 @@ Default related record
 
 </th></tr></thead><tbody><tr><td>
 
-lntake
+Intake
 
 </td><td>
 

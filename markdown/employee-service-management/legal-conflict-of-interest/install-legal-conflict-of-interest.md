@@ -65,7 +65,7 @@ For more information, see [Components installed with Legal Conflict of Interest]
 
 ## What to do next
 
-To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
+To submit conflict of interest request using conversational intake from ServiceNow Otto in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 

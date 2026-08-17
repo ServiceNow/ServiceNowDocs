@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer
 
 This task describes how to create an invoice case using the playbook experience in the Business Portal. The playbook experience enables you to dispute various invoice discrepancies depending on the scope you select, including quantity, part number, billing location, and shipping location issues.
 
-Creating invoice cases using the Now Assist panel limits disputes to quantity issues only. For more information, see [Dispute invoice issues using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
+Creating invoice cases using the ServiceNow Otto panel limits disputes to quantity issues only. For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
 
 ## Procedure
 

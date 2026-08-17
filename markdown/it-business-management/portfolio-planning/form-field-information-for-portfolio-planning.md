@@ -8,7 +8,7 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -44,6 +44,16 @@ Learn the field information for the List Applicability form. Use this informatio
 Learn about the fields of the planning item milestone form. Use this form to create milestones for the planning items in your roadmap in Portfolio Planning.
 -   **[Project planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/project-form-portfolio-planning.md)**  
 Learn about the fields of the project form. Use this form to create or edit the details of a planning item of the type Project in Portfolio Planning.
+-   **[RIDAC Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-action-form-ppw.md)**  
+Use the RIDAC Action form to create and track action items related to your demand or project planning items. Manage action item ownership, status, and completion.
+-   **[RIDAC Change Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-change-request-form-ppw.md)**  
+Use the RIDAC Change Request form to document and track proposed changes to your demand or project planning items. Manage change requests and monitor implementation status.
+-   **[RIDAC Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-decision-form-ppw.md)**  
+Use the RIDAC Decision form to document and track critical planning decisions related to your demand or project planning items. Manage decision rationale and implementation status.
+-   **[RIDAC Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-issue-form-ppw.md)**  
+Use the RIDAC Issue form to create and manage issues that affect your demand or project planning items. Track planning challenges, obstacles, and problems that need resolution.
+-   **[RIDAC Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ridac-risk-form-ppw.md)**  
+Use the RIDAC Risk form to identify and track potential risks that could impact your demand or project planning items. Manage risk mitigation strategies and monitor risk exposure.
 -   **[Roadmap configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmap-configuration-form.md)**  
 Learn about the fields of the roadmap configuration form. Use this form to add new tables to roadmap preferences and configure their details in Portfolio Planning.
 -   **[Table map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/table-map-form-ppw.md)**  

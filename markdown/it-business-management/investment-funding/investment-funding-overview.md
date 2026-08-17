@@ -40,7 +40,7 @@ Keeping the investment and investment entity separate provides the following adv
 
 A generic investment is an investment that is tied an owner without being associated to any entity. You can fund any entity or other generic investment from a generic investment.
 
-For example, as the CEO of a company you might want to set aside some funds for a training or research initiative and there might not be a transaction table to enable such an entity. You could then create a generic entity to fund the investment.
+For example, as the CEO of a company you might want to set aside some funds for a training or research initiative. However, there might not be a transaction table to enable such an entity. You could then create a generic entity to fund the investment.
 
 ## Top-down and bottom-up funding
 
@@ -69,13 +69,13 @@ Investment co-owners manage, request, and allocate funds on your behalf to the i
 -   **[Request funds for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/request-funds-for-investment.md)**  
 Request funds from a funding source for your investment.
 -   **[Plan fund allocations for investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/plan-fund-allocations-for-investments.md)**  
-Plan your fund allocations if you are not yet ready to finalize the allocation of your funds.
+Plan your fund allocations if you aren't yet ready to finalize the allocation of your funds.
 -   **[Allocate funds to an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/allocate-funds-to-investment.md)**  
 Allocate funds to investments based on your business goals and available funds.
 -   **[Enter actual spends for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/enter-actuals-for-investment.md)**  
 Enter actual spends for your investments to track fund utilization.
 -   **[Reject a fund request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/reject-fund-requests.md)**  
-You can reject an incoming fund request based on your business priorities or if you do not have sufficient funds.
+You can reject an incoming fund request based on your business priorities or if you don't have sufficient funds.
 -   **[Review the use of your funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/track-funds.md)**  
 Review the flow of your funds from your investment to other investments to make an informed decision when you allocate or request funds.
 -   **[View past funding details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/view-past-funding-details.md)**  

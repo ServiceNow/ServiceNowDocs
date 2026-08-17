@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 

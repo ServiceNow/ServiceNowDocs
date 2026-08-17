@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-segment-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Segment Management
@@ -26,8 +26,10 @@ The Segment Management plugin \(com.snc.segment\_mgmt\) provides a general frame
 Install the Segment Management plugin \(com.snc.segment\_mgmt\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
 -   **[Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-segment-management.md)**  
 The Segment Management data model provides a framework to map customers to specific segments to track partner progression toward the next tier.
+-   **[Roles and components of Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-segment-management.md)**  
+The Segment Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between segments and partners.
 
-**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

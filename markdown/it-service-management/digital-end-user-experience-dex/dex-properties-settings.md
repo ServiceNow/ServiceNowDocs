@@ -216,7 +216,7 @@ Application and Device Health
 
 </td><td>
 
-If set to true, table cmn\_location is updated by DEX when valid location isn’t found and a new location record is created
+If set to true, table dex\_location is updated by DEX when valid location isn’t found and a new location record is created
 
 </td></tr><tr><td>
 

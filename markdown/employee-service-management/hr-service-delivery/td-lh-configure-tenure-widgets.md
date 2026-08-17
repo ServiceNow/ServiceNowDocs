@@ -18,7 +18,7 @@ Use the Leader Hub Team Composition Configuration table to configure the time ra
 
 ## Before you begin
 
-Role required: admin \[sn\_egd\_lh.admin\]
+Role required: sn\_egd\_lh.admin
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Buying Group
@@ -17,7 +17,7 @@ Sales teams can track decision‑makers, influencers, and evaluators collectivel
 -   **[View buying group engagement metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-buying-group-engagement-metrics.md)**  
 View a buying group engagement metrics to track how individual members and the group as a whole interact across marketing and sales activities, providing a consolidated view of participation, engagement levels, and buying readiness throughout the buying group lifecycle.
 
-**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 

@@ -9,7 +9,7 @@ classification: access-control
 topic_type: reference
 last_updated: "2026-06-03"
 reading_time_minutes: 3
-breadcrumb: [Access Control Lists, Access Management]
+breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Contextual Security Manager

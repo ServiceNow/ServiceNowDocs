@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Azure Monitor with OAuth authentication
@@ -40,7 +40,7 @@ Configure the Event Management environment for the collection of events from Azu
 
         **Note:** If you have multiple tenants on the Azure portal and you want to use bidirectional functionality to acknowledge, close, or reopen an alert on the Azure Portal, then the URL for the secure webhook has to be in the following format: `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&event_class=<new_connector_instance_name>`. The &lt;new\_connector\_instance\_name&gt; is the new Azure pull connector instance that you need to create for each tenant with other Azure service principal credentials. To know how to create the pull connector, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
-        For servicenowservices.com instances, the rest endpoint has to be `https://<instance-name>.servicenowservices.com/api/sn_em_connector/em/inbound_event?source=instana&x-sn-apikey=<api-key>`.
+        For servicenowservices.com instances, the rest endpoint has to be `https://<instance-name>.servicenowservices.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&x-sn-apikey=<api-key>`.
 
         For more information about adding a secure webhook to an action group, see [https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups).
 
@@ -94,15 +94,15 @@ Configure the Event Management environment for the collection of events from Azu
 
 8.  Enter the `OIDC Metadata URL` according to the Azure token used by the registered application, as shown in the following table.
 
-<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d459886e498">
+<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d461106e498">
 
 Azure token
 
-</th><th align="left" id="d459886e501">
+</th><th align="left" id="d461106e501">
 
 OIDC Metadata URL
 
-</th></tr></thead><tbody><tr><td id="d459886e507">
+</th></tr></thead><tbody><tr><td id="d461106e507">
 
 **V2**
 
@@ -114,7 +114,7 @@ In the OIDC Provider Configuration form, add the following URL to the **OIDC Met
 
  **Note:** If attempting to integrate Azure Gov Cloud with the ServiceNow Azure Monitor Connector, remember to change the claim value to `f1f34126-d4ef-40e1-ad4b-bf5d47b4860d`.
 
-</td></tr><tr><td id="d459886e534">
+</td></tr><tr><td id="d461106e534">
 
 **V1**
 

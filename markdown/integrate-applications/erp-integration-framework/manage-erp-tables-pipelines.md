@@ -23,7 +23,7 @@ Changes that you could promote from a development instance to a production insta
 -   Tables or BAPIs \(Business Application Programming Interface\) to ERP models
 -   Table joins and fields to link tables
 -   Create, read, and update operations
--   Flows built with the **Use ERP Data** action to query and update the system of record
+-   Flows built with the **Use ERP Data** action to query and update the ERP system
 
 **Note:** You should do your development on a non-production instance. If you make changes on a production instance, then promote changes from a non-production instance to the production instance, changes previously made on the production instance are overwritten.
 
@@ -33,6 +33,4 @@ There are several ways to move changes to your production instance on the Servic
 2.  Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see .
 
 For more information on ways to publish your ERP updates, see .
-
-**Parent Topic:**[Build with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

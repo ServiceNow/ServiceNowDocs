@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/impact-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Impact reference, Tables in Impact application, Roles in Impact application]
 breadcrumb: [Impact]
 ---
@@ -21,12 +21,14 @@ Manual registration is generally used by advanced users or to obtain configurati
 Data transfer between the Impact Delivery Instance and Impact Store Application is facilitated via Service Bridge.
 -   **[Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md)**  
 Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
+-   **[Impact storage estimation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-store-app-storage-estimation.md)**  
+The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
 -   **[Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-sync-idi-store.md)**  
 Following is a comprehensive overview of the dependent apps that are included with the installation of the Impact Store Application Each section delineates the features that activate event-based synchronization within the various product capabilities.
 -   **[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)**  
 Following is information on the data that is synchronized between the Impact Delivery Instance and the Impact Store Application.
--   **[Impact storage estimation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-store-app-storage-estimation.md)**  
-The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
+-   **[Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md)**  
+The Scan Engine uses a large set of definitions to correct coding and workflow findings in real-time and perform scans across your entire instance to detect existing findings.
 -   **[Domain Separation in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-domain-separation.md)**  
 Domain separation is unsupported for Impact. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/proactive-code-check.md)**  

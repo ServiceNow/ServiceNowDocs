@@ -86,5 +86,5 @@ For information about configuring domain separation in Dynamic Translation, see 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

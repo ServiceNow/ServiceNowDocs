@@ -1,18 +1,18 @@
 ---
-title: Lead and opportunity management
-description: ServiceNow lead and opportunity management applications support your sales life cycle from capturing leads to forecasting revenue. Explore each module to streamline engagement, optimize territory coverage, and drive conversion.
+title: Sales automation
+description: ServiceNow sales automation applications support your sales life cycle from capturing leads to forecasting revenue. Explore each module to streamline engagement, optimize territory coverage, and drive conversion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-opportunity-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 2
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
-# Lead and opportunity management
+# Sales automation
 
-ServiceNow® lead and opportunity management applications support your sales life cycle from capturing leads to forecasting revenue. Explore each module to streamline engagement, optimize territory coverage, and drive conversion.
+ServiceNow® sales automation applications support your sales life cycle from capturing leads to forecasting revenue. Explore each module to streamline engagement, optimize territory coverage, and drive conversion.
 
 
 
@@ -32,5 +32,5 @@ Select a link from the following table to learn about key features and benefits 
 
 ## What to explore next
 
-Configure the lead and opportunity applications, so your agents can use them in their sales workflows. For more information, see [Configuring the lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md).
+Configure the sales automation applications, so your agents can use them in their sales workflows. For more information, see [Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md).
 

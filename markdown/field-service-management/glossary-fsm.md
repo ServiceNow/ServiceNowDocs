@@ -46,10 +46,6 @@ A centralized dashboard for monitoring, managing, and optimizing resource capaci
 
 A record defining how capacity is calculated, allocated, and reserved for a specific group or territory and task type, specifying the source, such as agent schedules or hours, and frequency, such as daily or weekly.
 
-## capacity definition
-
-A record defining how capacity is calculated, allocated, and reserved for a specific group or territory and task type, specifying the source, such as agent schedules or hours, and frequency, such as daily or weekly.
-
 ## capacity management
 
 A method for planning and controlling work across a territory or group, measured in hours or task counts. It reserves portions of capacity for specific tasks to prevent overload and prioritize urgent needs.
@@ -114,7 +110,7 @@ The process of tracking and managing all physical parts and supplies, including 
 
 A specialized feature for managing work on assets that have a physical length or dimension, such as roads, railways, or pipelines, allowing work orders to be associated with specific segments of the asset.
 
-## Now Assist for Field Service Management \(FSM\)
+## ServiceNow Otto for Field Service Management \(FSM\)
 
 A suite of generative AI features that improves productivity by automating tasks such as creating work orders and generating work order summaries, closure notes, and knowledge articles.
 

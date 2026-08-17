@@ -27,14 +27,14 @@ You can also view and manage the following in Assistant Designer:
 
     Virtual Agent conversations can include subflows and actions if they were made conversational in Workflow Studio or topics that include subflows and actions through the Action utility node.
 
-    -   Conversational subflows and actions are available in Assistant Designer only if Now Assist in Virtual Agent has been configured.
-    -   Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
-    -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in Now Assist Admin. For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
+    -   Conversational subflows and actions are available in Assistant Designer only if ServiceNow Otto in Virtual Agent has been configured.
+    -   Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto Panel is available. For more information on the ServiceNow Otto Panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in ServiceNow Otto Admin. For more information, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
     **Note:** Conversational subflows and actions aren't applicable to the Virtual Agent Designer legacy topic cards page view.
 
 -   Custom skills
 
-    You can view custom skills created in Now Assist Skill Kit through Assistant Designer. For more information, see [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-custom-skills.md).
+    You can view custom skills created in AI Skill Kit through Assistant Designer. For more information, see [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-custom-skills.md).
 
 -   AI agents
 
@@ -43,15 +43,15 @@ You can also view and manage the following in Assistant Designer:
 
 Virtual Agent can use either large language model \(LLM\) or Natural Language Understanding \(NLU\) to match the user's request with the appropriate conversation or topic.
 
-With LLM topic discovery, you can use generative AI through Now Assist in Virtual Agent to match the user's request with the desired conversation or topic. With Now Assist in Virtual Agent, you can test and publish your models from within Assistant Designer. Now Assist in Virtual Agent uses LLMs and generative AI skills to improve deflection rates. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
+With LLM topic discovery, you can use generative AI through ServiceNow Otto in Virtual Agent to match the user's request with the desired conversation or topic. With ServiceNow Otto in Virtual Agent, you can test and publish your models from within Assistant Designer. ServiceNow Otto in Virtual Agent uses LLMs and generative AI skills to improve deflection rates. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
 
 With NLU/keyword topic discovery, the topic author associates the topic with an intent within an NLU model. An intent describes what the user wants to achieve. User utterances are matched with intents to determine the most appropriate topic for the user. Associating a topic with a model and intent is called mapping.
 
-If you're using ServiceNow NLU/keyword topic discovery, then Assistant Designer integrates with NLU Workbench so that you can map topics to new or existing models and intents without leaving the interface. In addition, you can also modify utterances, test, train, and publish your models from within Virtual Agent Designer.
+If you're using ServiceNow NLU/keyword topic discovery, then Assistant Designer integrates with NLU Workbench. You can then map topics to new or existing models and intents without leaving the interface. You can also modify utterances, test, train, and publish your models from within Assistant Designer Asset library.
 
 ## Assistant Designer Asset library
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 When you open Assistant Designer, the Asset library lists the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
@@ -61,7 +61,7 @@ In the Asset library, you can access and edit any of these assets, and create to
 
 \[Omitted image "vad-home-page.png"\] Alt text: Assistant Designer Asset library page.
 
-**Note:** Conversational subflows and actions are available in Assistant Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+**Note:** Conversational subflows and actions are available in Assistant Designer if ServiceNow Otto in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto Panel is available. For more information on the ServiceNow Otto Panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md).
 
@@ -86,10 +86,10 @@ When you open a subflow or action, a tab is displayed in the navigation header b
 
 For LLM topics, the **Select assistant** list enables you to filter the assets based on the LLM Virtual Agent \(assistant\) selected. By default the following assistants are available for Assistant Designer Asset library:
 
--   Now Assist in Virtual Agent \(default\)
--   Now Assist Panel - Platform \(default\)
+-   ServiceNow Otto in Virtual Agent \(default\)
+-   ServiceNow Otto Panel - Platform \(default\)
 
-    For the Now Assist Panel - Platform \(default\) assistant, if you want AI agents to be Discoverable, Visible, or Promoted, set the **Value** field in the system property **sn\_aia.enable\_aiagents\_discovery** to **True**. If the **Value** field is set to **False**, then AI agents can't be set as Discoverable, Visible, or Promoted. To enable this property, you must contact ServiceNow support.
+    For the ServiceNow Otto Panel - Platform \(default\) assistant, if you want AI agents to be Discoverable, Visible, or Promoted, set the **Value** field in the system property **sn\_aia.enable\_aiagents\_discovery** to **True**. If the **Value** field is set to **False**, then AI agents can't be set as Discoverable, Visible, or Promoted. To enable this property, you must contact ServiceNow support.
 
 
 \[Omitted image "vad-home-assist.png"\] Alt text: Select an assistant.
@@ -100,13 +100,13 @@ For more information about LLM assistants, see [LLM assistants](https://raw.gith
 
 ## Topic properties
 
-Use the topic **Properties** tab to identify a Virtual Agent asset and how it’s used. The properties you can specify depend on the method of topic discovery used in your instance: LLM or NLU/keyword. For example, if you have activated Now Assist and are working with an LLM topic, the **Properties** tab includes fields for what you want the topic to do and which assistants to use. If you have activated NLU, you can select **NLU/keyword** from the Type drop-down menu when you create a topic. The **Properties** tab includes fields for identifying the NLU model and intent for the topic.
+Use the topic **Properties** tab to identify a Virtual Agent asset and how it’s used. The properties you can specify depend on the method of topic discovery used in your instance: LLM or NLU/keyword. For example, if you've activated ServiceNow Otto and are working with an LLM topic, the **Properties** tab includes fields for the topic function and which assistants to use. If you have activated NLU, you can select **NLU/keyword** from the Type drop-down menu when you create a topic. The **Properties** tab includes fields for identifying the NLU model and intent for the topic.
 
 Use the **Properties** tab to do the following:
 
 -   Specify the name and type of asset, such as [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md), [custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md), and so on.
--   Specify the model type, purpose of the topic, and which assistants can run this topic for Now Assist customers.
--   Specify the model type, add a topic description, specify the purpose of the topic, and select which assistants can run this topic for Now Assist customers.
+-   Specify the model type, purpose of the topic, and which assistants can run this topic for ServiceNow Otto customers.
+-   Specify the model type, add a topic description, specify the purpose of the topic, and select which assistants can run this topic for ServiceNow Otto customers.
 -   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
 -   Associate [live agent variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md) with a topic.
 -   Add keywords to the topic or map the topic to a ServiceNow NLU model and intent.
@@ -166,7 +166,7 @@ For more information about this tab, see [Topic Languages tab](https://raw.githu
 -   **[Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/design-va-topic.md)**  
 Walk through the design of an example Virtual Agent topic that enables users to view incidents they submitted. The example highlights various design controls that can be used to build the conversation flow.
 -   **[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)**  
-Use Virtual Agent Designer to create and modify Virtual Agent topics \(conversations\). Build your topic to meet a specific objective or goal, such as fulfilling a user's request or helping a user complete a task.
+Use Assistant Designer Asset library to create and modify Virtual Agent topics \(conversations\). Build your topic to meet a specific objective or goal, such as fulfilling a user's request or helping a user complete a task.
 -   **[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md)**  
 The topic migration workflow enables you to migrate your existing Natural Language Understanding \(NLU\)/keyword topics into new large language model \(LLM\) topics.
 -   **[Duplicating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md)**  
@@ -187,8 +187,8 @@ Delete a Virtual Agent topic that is no longer needed.
 Promote assets including conversational subflows, conversational actions, and topics in Assistant Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
 -   **[Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md)**  
 Rearrange LLM assets like conversational subflows, conversational actions, and topics to the desired order after promoting them for recommendation by the Virtual Agent.
--   **[Conversational settings for Assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md)**  
-Manage asset settings from the Asset library for individual assets.
+-   **[Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md)**  
+Manage asset settings from the Asset library for individual active assets.
 -   **[Add a condition builder to promoted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-condition-builder-promoted-topics.md)**  
 You can define a condition for a given promoted Virtual Agent asset to bring it higher up on the list of promoted assets in a panel conversation.
 -   **[Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-subflows.md)**  

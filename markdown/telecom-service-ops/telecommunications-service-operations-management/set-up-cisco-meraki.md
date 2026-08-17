@@ -1,20 +1,20 @@
 ---
 title: Set up the Service Graph Connector for Cisco Meraki schedule
-description: Set up and configure the Service Graph Connector for Cisco Meraki. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for seamless Configuration Management Database \(CMDB\) integration.
+description: Set up and configure the Service Graph Connector for Cisco Meraki. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for Configuration Management Database \(CMDB\) integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Configure Cisco Meraki SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Set up the Service Graph Connector for Cisco Meraki schedule
 
-Set up and configure the Service Graph Connector for Cisco Meraki. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for seamless Configuration Management Database \(CMDB\) integration.
+Set up and configure the Service Graph Connector for Cisco Meraki. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for Configuration Management Database \(CMDB\) integration.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: TSOM Visibility admin
 
 3.  On the Guided setup home page, create and configure the MID Server or skip based on your environment.
 
-    **Note:** For more information on how to activate and configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-mid-server.md).
+    **Note:** For more information about how to activate and configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-mid-server.md).
 
     1.  Select **Get Started**.
 
@@ -44,9 +44,11 @@ Role required: TSOM Visibility admin
 
     4.  Select **Mark as Complete** when done.
 
-        Once all MID Server steps are complete, proceed to **Configure Connectivity**.
+        After all MID Server steps are complete, proceed to **Configure Connectivity**.
 
-4.  Enable the Service Graph Connector to reference the Meraki connection by name, extracting active aliases from the CMDB, and initiate data collection on the associated HTTP connection by creating connection aliases, credentials, and HTTP connections.
+4.  Create connection aliases, credentials, and HTTP connections.
+
+    This enables the Service Graph Connector to reference the Meraki connection by name and extract active aliases from the CMDB.
 
     1.  Select **Get Started**.
 
@@ -88,19 +90,19 @@ Role required: TSOM Visibility admin
 
         1.  In the **Name** field, provide a name for the scheduler.
         2.  Select the data source based on whether the schedule should be for bulk discovery or filtered discovery.
-            -   To use the bulk discovery data source for all devices in connection alias, select the data source SGC-Meraki Bulk Discovery.
-            -   To set specific filter criteria for each connection alias, select the data source SGC-Meraki Filtering Discovery.
-        3.  Determine whether the schedule should automatically run or you want to have it run it manually.
-        4.  -   Select the **Active** check box, to run the schedule automatically based on the values in the **Run** and **Time** fields.
--   Clear the**Active** check box to run the schedule manually.
-        5.  From the **Run** drop-down list, select the frequency at which you want the scheduler to run automatically. The available choices are Daily, Weekly, Monthly, Periodically, after Parent Runs, or once.
+            -   To use the bulk discovery data source for all devices in the connection alias, select the data source Cisco Meraki Full Discovery.
+            -   To set specific filter criteria for each connection alias, select the data source Cisco Meraki Filtered Discovery.
+        3.  Determine whether the schedule should run automatically or manually.
+        4.  -   Select the **Active** check box to run the schedule automatically based on the values in the **Run** and **Time** fields.
+-   Clear the **Active** check box to run the schedule manually.
+        5.  From the **Run** drop-down list, select the frequency at which the scheduler runs automatically. The available choices are Daily, Weekly, Monthly, Periodically, after Parent Runs, or once.
         6.  In the **Time** field, set the time of day at which the scheduler should run in hours, minutes, and seconds.
         7.  Provide the connection information.
             1.  Select the **Use Connection** check box.
             2.  From the **Connection** drop-down list, select the connection alias. For example, sn\_sgc\_meraki.Meraki\_Alias.
     4.  Set specific filter criteria for each connection alias.
 
-        1.  Ensure that the \[FIELD NAME FOR DATA SOURCE\] field is set to the data source SGC-Meraki Filtering Discovery.
+        1.  Verify that the \[FIELD NAME FOR DATA SOURCE\] field is set to the data source Cisco Meraki Filtered Discovery.
         2.  In the **Connection Alias** field, choose a connection alias.
         3.  Set the filtering parameters.
             -   To filter by IP address, in the **Filtered IPs** field, add IP filters in the desired format.
@@ -118,7 +120,7 @@ Role required: TSOM Visibility admin
 
 ## Result
 
-Once the setup is complete, a confirmation screen appears indicating all tasks have been completed successfully.
+After the setup is complete, a confirmation screen appears indicating all tasks have been completed successfully.
 
 You can access the configured connections, aliases, credentials, and import schedules by navigating to **All** &gt; **Service Graph Connectors** &gt; **Meraki**.
 

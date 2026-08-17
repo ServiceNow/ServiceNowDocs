@@ -16,7 +16,7 @@ breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Deli
 
 Complete the Journey designer related tasks from Employee Center using the Now Assist Virtual Agent topics.
 
-To use the following Now Assist Virtual Agent topics in Employee Center, verify that the Journey designer and Now Assist for HRSD applications are installed from ServiceNow Store.
+To use the following Now Assist Virtual Agent topics in Employee Center, verify that the Journey designer and ServiceNow Otto for HRSD applications are installed from ServiceNow Store.
 
 ## Create JA task
 

@@ -14,7 +14,7 @@ breadcrumb: [Configure the Edge configurations, Configure the Main node configur
 
 Use the Edge configuration form to configure the Edge configurations settings such as the label, tooltip, default edge type for the edge of the selected node.
 
-## Edge configuration new record form
+## Edge configuration record form
 
 |Field|Description|
 |-----|-----------|

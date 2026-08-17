@@ -205,13 +205,13 @@ The relevant priority information is based on the prioritization you have set in
 
 ### View technique detection coverage
 
-To view the overall technique detection coverage in the heat map, select the **Display technique detection coverage** filter. The heat map highlights the visual spectrum of the detection coverage including the blind spots where you do not have any coverage. The base system scoring definition and the colors have been defined in the [technique detection coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-technique-coverage.md). The information has been auto-extracted from the overall technique detection coverage.
+To view the overall technique detection coverage in the heat map, select the **Display technique detection coverage** filter. The heat map highlights the visual spectrum of the detection coverage including the blind spots where you don't have any coverage. The base system scoring definition and the colors have been defined in the [technique detection coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-technique-coverage.md). The information has been auto-extracted from the overall technique detection coverage.
 
 For example, areas of the heat map that are marked in red indicate a lack of detection. Areas that are marked in blue indicate the presence of full detection capabilities. Areas that are marked in orange, yellow, and light blue reflect partial detection capabilities.
 
 -   The color visualization is based on the [technique definition and color coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-technique-coverage.md) that you define.
 -   The coverage visualization is based on the [technique detection coverage mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-technique-coverage.md) that you define.
--   If you modify the base system coverage definition, the Coverage Type icons do not display with the techniques in the heat map.
+-   If you modify the base system coverage definition, the Coverage Type icons don't display with the techniques in the heat map.
 
     **Note:** The heat map works as expected when you modify the same fields as the base system's-defined technique detection coverage and coverage colors.
 
@@ -220,22 +220,20 @@ In this illustration, you see the technique detection coverage for all the techn
 
 ### View technique mitigation coverage
 
-To view the overall technique mitigation coverage in the heat map, select the Display technique mitigation coverage filter. The heat map highlights the visual spectrum of the mitigation coverage including areas that you do not have any coverage. The mitigation coverage, colors, and percentage ranges have been defined in the [Mitigation Coverage Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-the-mitigation-coverage.md). The information is extracted from the [Overall Technique Mitigation Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md).
+To view the overall technique mitigation coverage in the heat map, select the Display technique mitigation coverage filter. The heat map highlights the visual spectrum of the mitigation coverage including areas that you don't have any coverage. The mitigation coverage, colors, and percentage ranges have been defined in the [Mitigation Coverage Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-the-mitigation-coverage.md). The information is extracted from the [Overall Technique Mitigation Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md).
 
 For example, techniques highlighted in red indicate no mitigation coverage, orange indicates poor mitigate coverage, and blue indicate excellent mitigation coverage.
 
 -   The color visualization is based on the [technique mitigation definition and color coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-the-mitigation-coverage.md) that you define.
 -   The coverage visualization is based on the [technique mitigation coverage mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md) that you define.
--   If you modify the base system mitigation coverage definition, the Mitigation Coverage Type icons do not display with the techniques in the heat map.
+-   If you modify the base system mitigation coverage definition, the Mitigation Coverage Type icons don't display with the techniques in the heat map.
 
     **Note:** The heat map works as expected when you modify the same fields as the base system's-defined technique mitigation coverage and coverage colors.
 
 
 ### View detection and mitigation coverage
 
-You can use the technique detection and technique mitigation coverage filters together to gain an insight into the relevance of the technique detection and mitigate coverage for your organization.
-
-\[Omitted image "mitre-heatmap-detection-mitigation.gif"\] Alt text: This illustration shows how to use the detection and mitigation filter together.
+Combine the technique detection and mitigation coverage filters. This reveals which techniques are most relevant to your organization.
 
 ### View threat group
 
@@ -243,33 +241,40 @@ To view the threat group to technique information on the heat map, select **Disp
 
 -   The color visualization for the heat map and text is based on the [threat group to technique heatmap definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-group-to-technique-heatmap-definition.md).
 -   The threat group range visualization is based on the [threat group to technique mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-threat-group-and-techniques-mapping.md).
--   You cannot use the **Display threat group heat map** filter when the technique detection coverage or technique mitigation coverage are enabled.
+-   You can't use the **Display threat group heat map** filter when the technique detection coverage or technique mitigation coverage are enabled.
 
 ### View Security incidents associated with technique
 
-To view the techniques that are frequently exploited in your organization and that have resulted in security incidents, click **Display security incident associated with technique**. You can view more information about each of the associated security incidents when you click the link that open in a new window for analysis.
+To view the techniques that are frequently exploited in your organization and that have resulted in security incidents, select **Display security incident associated with technique**. You can view more information about each of the associated security incidents when you select the link that open in a new window for analysis.
 
 -   Priority: Select **Security Incident Priority** to filter by the security incident priority.
 -   Date range: Select the **Security Incident Date Range** to filter security issues by the date range.
 -   False positives: Select **Filter false positives security incident** to remove false positive issues. Selecting this filter reduces the number of security incidents you see in the heat map.
 
-When you use this filter with the **Display technique detection coverage** filter, it provides you with an insight into the relevance of the technique detection coverage for your organization until the selected date.
+Using this with **Display technique detection coverage** provides an insight into the relevance of the technique detection coverage for your organization until the selected date.
 
 For example, when you turn on both filters, you can see that under the Defense Evasion tactic, the Masquerading technique has no coverage. When you look further, the Masquerading technique is related to the Masquerade Task or Service, which also has a security incident that is associated with it. This shows that there is a gap in the technique detection coverage for the Masquerading technique and you may want to revise the overall technique detection coverage.
 
 ### View detection rules
 
-To view if you have the detection rules defined for a particular technique, click **Display detection rules**. You can also see each associated detection rule with their definition.
+To view if you have the detection rules defined for a particular technique, select **Display detection rules**. You can also see each associated detection rule with their definition.
 
 This information is based on the [detection rules mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-detection-rules.md) that you have defined.
 
 ### View CVEs associated with technique
 
-To view the Common Vulnerabilities and Exposures \(CVE\) information that is associated with each of the techniques, click **Display CVEs associated with technique**. The CVE to technique information is based on the information available in the [CVE - Technique Mapping module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/manage-cve-and-technique-mapping.md). This provides you insight into known vulnerabilities and lets you know if adversaries can potentially exploit your organization.
+To view the Common Vulnerabilities and Exposures \(CVE\) information that is associated with each of the techniques, select **Display CVEs associated with technique**. The CVE to technique information is based on the information available in the [CVE - Technique Mapping module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/manage-cve-and-technique-mapping.md). This provides you insight into known vulnerabilities and lets you know if adversaries can potentially exploit your organization.
 
 **Important:** The heat map is enhanced to display only the relevant CVEs that is associated with the VITs
 
 To view VITs associated with CVEs and techniques, select **Display VITs associated with CVE and techniques**. Additionally, to further filter techniques without VITs, select **Hide techniques without VITs**. The CVE and VIT information you view is fetched from the Vulnerability Response product in your environment. You can view the filtered list of CVEs and VITs in the heat map and navigate to each CVE or VIT for every technique from the heat map.
+
+The following describes the relationships between CVEs, VITs, TPEs, and ATT&amp;CK techniques:
+
+-   **CVE to Technique \(Many-to-Many\)**: A single CVE can be exploited by multiple ATT&amp;CK techniques, and a single technique can exploit multiple CVEs. This mapping is stored in the CVE - Technique Mapping table.
+-   **TPE to CVE \(Many-to-Many\)**: A Third Party Entry \(vulnerability advisory\) can reference multiple CVEs, and a single CVE can appear in multiple TPEs from different sources.
+-   **VIT to TPE \(Many-to-One\)**: Each Vulnerable Item is linked to one TPE. A single TPE can have many VITs, one per affected asset where the vulnerability is detected.
+-   **VIT to Technique \(Many-to-Many, derived\)**: A single VIT can relate to multiple techniques, and a technique can relate to many VITs. The MITRE ATT&amp;CK Technique-CVE-VIT Count view aggregates this data to show the number of CVEs and VITs associated with each technique.
 
 **Note:**
 
@@ -282,11 +287,11 @@ You can view more information about each CVE to analyze if the CVE is relevant t
 
 ### Analyze Security Incidents
 
-To analyze security incidents and review the techniques that are used by an adversary for an attack, click **Analyze Security Incidents**. You can add multiple security incidents for analysis by using comma-separated strings.
+To analyze security incidents and review the techniques that are used by an adversary for an attack, select **Analyze Security Incidents**. You can add multiple security incidents for analysis by using comma-separated strings.
 
-This filter helps you to analyze a security incident. You can learn why the incident occurred, what techniques were exploited, if any known threat actors were involved, if the threat actors used a particular sequence for an attack, and so on. Because you can analyze multiple security incidents at the same time, you can correlate the information to see if they are related or if they are an isolated incident. If the security incidents are related and you observe a pattern, you can review their progress on the kill chain to stop the attack or to form a defense strategy for your organization.
+This filter helps you to analyze a security incident. Why the incident occurred, what techniques were exploited, if any known threat actors were involved, if the threat actors used a particular sequence for an attack, and so on. Because you can analyze multiple security incidents at the same time, you can correlate the information to see if they are related or if they are an isolated incident. If the security incidents are related and you observe a pattern, you can review their progress on the kill chain to stop the attack or to form a defense strategy for your organization.
 
-When you use the **Analyze Security Incidents** filter with primary filters, such as an **Adversary Group**, you can correlate if known adversaries are involved. For example, when multiple security incidents are being analyzed, the techniques that are associated with the security incidents are present in the form of a kill chain. As you overlap the information with the adversary, you will notice an overlap between the techniques that are associated with the security incident and the techniques that are associated with the adversary. Only the overlapped technique information is shown if both filters are enabled.
+When you use **Analyze Security Incidents** with primary filters, such as **Adversary Group**, you can correlate if known adversaries are involved. For example, when multiple security incidents are being analyzed, the techniques that are associated with the security incidents are present in the form of a kill chain. As you overlap the information with the adversary, you will notice an overlap between the techniques that are associated with the security incident and the techniques that are associated with the adversary. Only the overlapped technique information is shown if both filters are enabled.
 
 ### Using overlay to analyze security incidents and adversary groups
 
@@ -301,6 +306,4 @@ Once you enable the overlay analyze filter, use the color palette to assign colo
 -   Analyze Security Incident
 -   Adversary Group
 -   Overlay
-
-The following illustration shows that the adversary group APT18 is spread across multiple techniques and tactics in the kill chain. The analysis also shows that there are three techniques which overlay the adversary group and security incidents that you are tracking.
 

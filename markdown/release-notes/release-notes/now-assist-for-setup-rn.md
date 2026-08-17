@@ -1,6 +1,6 @@
 ---
-title: Setup Hub release notes
-description: The ServiceNow Setup Hub application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. Setup Hub is a new application in the Australia release.
+title: ServiceNow Otto for Setup release notes
+description: The ServiceNow ServiceNow Otto for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. ServiceNow Otto for Setup is a new application in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -8,22 +8,22 @@ last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 
-# Setup Hub release notes
+# ServiceNow Otto for Setup release notes
 
-The ServiceNow® Setup Hub application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. Setup Hub is a new application in the Australia release.
+The ServiceNow® ServiceNow Otto for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. ServiceNow Otto for Setup is a new application in the Australia release.
 
-## Setup Hub highlights for the Australia release
+## ServiceNow Otto for Setup highlights for the Australia release
 
 -   Automates setup and configuration by installing required products and applying default settings.
 -   Simplifies administration with a clear, modular Admin Home UI that centralizes access and accelerates task completion.
 -   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled Now Assist products through guided, modular setup flows.
 -   Delivers an intuitive, customizable experience with streamlined access to critical tools based on user entitlements.
 
-See [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md) for more information.
+See [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md) for more information.
 
-**Important:** Setup Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Setup is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Setup Hub features
+## ServiceNow Otto for Setup features
 
 -   **[Enhanced Admin Home experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**
 
@@ -43,7 +43,7 @@ See [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 -   **[Tiered SKU support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**
 
-    Setup Hub added support for Advanced and Prime SKUs across Simplified ITSM and CBS, including entitlement-driven experiences and flows.
+    ServiceNow Otto for Setup added support for Advanced and Prime SKUs across Simplified ITSM and CBS, including entitlement-driven experiences and flows.
 
 -   **[Product Hub experience enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-apps.md)**
 
@@ -68,7 +68,7 @@ See [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 ## Activation information
 
-Install Setup Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for Setup by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 

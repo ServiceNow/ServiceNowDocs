@@ -33,6 +33,8 @@ As a portfolio manager, show or hide the features \(for example, Goals, Scoring,
 Share your portfolio plan with stakeholders and other planning managers so that they have visibility into the plan's progress and start collaborating.
 -   **[Collaborate on a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)**  
 Add comments and attachments to your portfolio plan so that users can review and share their feedback. Collaborate with stakeholders and drive shared outcomes.
+-   **[View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/view-portfolio-insights.md)**  
+View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays, monitor active projects showing early risk indicators,analyze root causes, and review recommended actions.
 
 **Parent Topic:**[Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 

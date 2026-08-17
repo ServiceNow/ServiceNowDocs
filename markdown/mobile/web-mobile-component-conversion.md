@@ -30,12 +30,12 @@ Choose what card will serve as the template for your mobile record screen. You c
 
     Start with a basic card template that has the essential components to get you started. You can preview the card and make changes before confirming your selection.
 
--   **Use Now Assist**
+-   **Use ServiceNow Otto®**
 
-    Use AI-powered Now Assist to create a card for your record screen. Now Assist will use semantic search to populate the card with the fields that best match your web component. You can preview the generated card and make changes before confirming your selection. If you want to see more options, you can ask Now Assist to regenerate the card with different fields.
+    Use AI-powered ServiceNow Otto to create a card for your record screen. Otto will use semantic search to populate the card with the fields that best match your web component. You can preview the generated card and make changes before confirming your selection. If you want to see more options, you can ask Otto to regenerate the card with different fields.
 
 
-Records created using Now Assist will have a sparkle icon \(\[Omitted image "na-sparkle.png"\] Alt text:\)next to their name to indicate they were generated using AI. Once the records have been edited and reviewed, the indicator will disappear.
+Records created using Otto will have a sparkle icon \(\[Omitted image "na-sparkle.png"\] Alt text:\)next to their name to indicate they were generated using AI. Once the records have been edited and reviewed, the indicator will disappear.
 
 ## Previewing your generated record
 
@@ -43,7 +43,7 @@ Records created using Now Assist will have a sparkle icon \(\[Omitted image "na-
 
 The web to mobile selection page presents a list of all available tables and web forms that can be used as templates. When selecting a web component to serve as the template, a preview of the new record is generated.
 
-You can freely switch between the existing card, generic card, and Now Assist generated card previews to compare them and see which option looks best. Selecting **Looks good, continue** will generate the relevant records using the selected card.
+You can freely switch between the existing card, generic card, and Otto generated card previews to compare them and see which option looks best. Selecting **Looks good, continue** will generate the relevant records using the selected card.
 
 \[Omitted image "web-mobile-generated-record.png"\] Alt text: generated mobile record screen
 

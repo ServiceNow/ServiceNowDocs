@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-analytics-list.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 8
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -40,11 +40,13 @@ In the Zurich release, this List replaces the simple list visualization. Upon mi
 
 4.  Select **Add data source**.
 
+5.  Select a table, using either the dropdown list or the Search sources box.
+
     You can only select Table data sources, such as the Incident \[incident\] table.
 
-    The list appears, populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
+    The list of records for that table appears. It is populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
 
-5.  Configure the **Header and border**. Header and border options are the same for all data sources.
+6.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
     |Header and border fields|Description|
     |------------------------|-----------|
@@ -58,7 +60,7 @@ In the Zurich release, this List replaces the simple list visualization. Upon mi
     |Header background color|Specify the color behind the title of the visualization.|
     |Title color|Specify the text color. The default title color is black, but you can choose a color that contrasts better with the header background.|
 
-6.  Configure the data fields.
+7.  Configure the data fields.
 
 <table id="table_list-data"><thead><tr><th>
 
@@ -173,7 +175,7 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>7.  Configure the presentation fields.
+</table>8.  Configure the presentation fields.
 
 <table id="table_presentation"><thead><tr><th>
 
@@ -265,7 +267,7 @@ Show column filtering
 
 </td><td>
 
-Enable users to apply filters from column headings at runtime.
+Enable users to apply filters from column headings at runtime. For more information, see [Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/column-filters-in-lists.md).
 
 </td></tr><tr><td>
 
@@ -320,6 +322,14 @@ Enables the user to view all the rows in the visualization, not just the maximum
 
 </td></tr><tr><td>
 
+Show record count
+
+</td><td>
+
+Show the number of rows in the list \(taking filters into account\) at the top of the visualization.
+
+</td></tr><tr><td>
+
 Allow list pagination
 
 </td><td>
@@ -330,6 +340,8 @@ Enables the list to be divided across multiple pages. When cleared, list paginat
 </table>
 -   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-list-dv-with-var-col.md)**  
 You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+-   **[Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/column-filters-in-lists.md)**  
+If column filters are activated, viewers of a List can filter the list by the contents of individual columns. Filter options depend on the column type.
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
 

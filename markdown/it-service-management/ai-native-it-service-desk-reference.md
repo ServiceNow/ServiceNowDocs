@@ -19,6 +19,8 @@ Reference topics provide additional information about Simplified IT Service Mana
 Use conversational AI-native experience for administrators, employees, and fulfillers using Simplified IT Service Management \(Simplified ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
 -   **[Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/catalog-items-base-system.md)**  
 Few commonly requested catalog items are auto-installed in the base system for Simplified IT Service Management.
+-   **[Roles in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/simplified-itsm-roles.md)**  
+You can configure the user access for Simplified ITSM pages using various roles.
 
 **Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md)
 

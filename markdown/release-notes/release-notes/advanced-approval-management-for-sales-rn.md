@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Advanced Approval Management release notes
@@ -14,6 +14,7 @@ The ServiceNow® Advanced Approval Management application enables you to define 
 
 ## Advanced Approval Management highlights for the Australia release
 
+-   In the approval card for a step in the Requested or Escalated state, view the automatically-calculated elapsed time that has passed for taking action on a pending approval, to help identify requests needing immediate attention.
 -   Enable requesters and approvers to insert ad-hoc approvers at valid positions within an existing approval chain.
 -   Enable requesters to recall submitted quotes directly from the quote header for quick edits, without navigating to the Approvals tab to use the approval workflow interface.
 -   Display approval rejection reasons near the associated approval step card to give approvers and requesters clear context on why a quote was rejected.
@@ -27,9 +28,18 @@ See [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/
 
 The default value for the **Rule order** field in a chain is now 10. If you have rule orders in chains configured with different order values, review and update them as needed to align with the new default.
 
-Assign the approval\_request\_submitter role to requesters who submit approval requests only and don't have access to the full advanced approval workflow functionality and interface for requesters, such as recalling or updating approval requests. For more information, see [Components installed with Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-advanced-approval-management-for-sales.md).
+Assign the approval\_request\_submitter role to requesters who submit approval requests only and don't have access to the full advanced approval workflow functionality and interface. Users with this role can't recall recall or update approval requests. For more information, see [Components installed with Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-advanced-approval-management-for-sales.md).
 
 ## Advanced Approval Management features
+
+-   **Approval duration on approval cards**
+
+    As an approver or requester, view the amount of time that has elapsed for an approval step in a Requested or Escalated state. The time amount is highlighted and displayed in
+
+    -   Hours, if the duration is under 24 hours
+    -   Days and hours, if the duration is under seven days
+    -   Weeks and days, if the duration is over seven days
+    The elapsed time starts when the approval request is submitted or when an escalation is triggered based on escalation rules.
 
 -   **[Add ad-hoc approvers to approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md)**
 
@@ -41,7 +51,7 @@ Assign the approval\_request\_submitter role to requesters who submit approval r
 
 -   **[Rejection reason in Approvals tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)**
 
-    Inform approval requesters of rejected approval requests by displaying the rejection reason near the related step card in the Approvals tab of the entity, reducing the need to contact approvers for clarification
+    Inform approval requesters of rejected approval requests by displaying the rejection reason near the related step card in the Approvals tab of the entity. Displaying the rejection reason helps requesters understand the issue with the request, without contacting approvers for clarification.
 
 -   **[Configure delegate approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-approval-delegation.md)**
 
@@ -62,11 +72,11 @@ Assign the approval\_request\_submitter role to requesters who submit approval r
 
 -   **[Escalations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md)**
 
-    Enable approval rule admins to escalate an approval request by reassigning a pending approval request to another approver automatically when the original approver does not act within a specified time.
+    Enable approval rule admins to define escalation rules for reassigning pending requests to another approver automatically, when the original approver does not act within a specified time.
 
 -   **[Override an approval step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/override-approval-step.md)**
 
-    As an approval rule writer who also has the approval admin role, override or bypass a pending approval request step to unblock an approval request when the approval is no longer required.
+    As an approval rule writer who also has the approval admin role, override or bypass a pending approval request step to unblock an approval request when an approval is no longer required.
 
 -   **[Automated notifications of approval status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setting-up-approval-notifications.md)**
 
@@ -78,7 +88,7 @@ Assign the approval\_request\_submitter role to requesters who submit approval r
 
 -   **[Real-time status tracking and approval history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/tracking-approval-status.md)**
 
-    Monitor approval progress and access an audit trail with detailed status for each approval step including assigned approvers, actual approvers \(for completed steps\), approval comments, and assignment and completion timestamps.
+    Monitor approval progress and access approval history that provides detailed status for each approval step including assigned approvers, actual approvers \(for completed steps\), approval comments, and assignment and completion timestamps.
 
 -   **[Approval management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)**
     -   Accept or reject approvals using multiple channels, such as email, push notifications, the CSM Configurable Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.
@@ -86,7 +96,7 @@ Assign the approval\_request\_submitter role to requesters who submit approval r
 
 ## Activation information
 
-Install Advanced Approval Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Advanced Approval Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -99,7 +109,7 @@ Install Advanced Approval Management by requesting it from the ServiceNow Store.
 
 ## Related ServiceNow applications and features
 
--   **[Quote Experience in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)**
+-   **[Quote Experience in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)**
 
     The ServiceNow Quote Experience application enables sales teams to create, configure, and manage customer quotes so that they accurately reflect products, pricing, and discounts throughout the sales cycle. Sales agents can submit quotes for approval using workflows defined in the Advanced Approval Management application.
 

@@ -17,11 +17,11 @@ Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## What you can do with AI
 
-Use Now Assist for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements. For more information, see [Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
+Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
 
 The following generative AI capabilities are available:
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CMDB based alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [CMDB based alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Add a CI relationship to CMDB Group CI Relations
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Configure the **sa\_analytics.agg.query\_cmdb\_suggested\_relationship\_enabled** property to further enhance alert grouping by using suggested relationships. For more information on properties, see [CMDB alert grouping — properties and functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-group-properties.md).
 
-To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 

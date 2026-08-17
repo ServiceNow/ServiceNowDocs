@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist Skill Kit
-description: Use Now Assist Skill Kit to create and publish prompts and custom skills for Now Assist.
+title: Using AI Skill Kit
+description: Use AI Skill Kit to create and publish prompts and custom skills for Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.html
 release: australia
@@ -9,18 +9,18 @@ classification: now-assist-skill-kit
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 4
-breadcrumb: [Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [AI Skill Kit, Enable AI experiences]
 ---
 
-# Using Now Assist Skill Kit
+# Using AI Skill Kit
 
-Use Now Assist Skill Kit to create and publish prompts and custom skills for Now Assist.
+Use AI Skill Kit to create and publish prompts and custom skills for Otto.
 
-Building a custom skill in Now Assist Skill Kit is a sequential process. The following steps take you from an empty skill through to activation, where end users can trigger it from the platform.
+Building a custom skill in AI Skill Kit is a sequential process. The following steps take you from an empty skill through to activation, where end users can trigger it from the platform.
 
 ## Create a skill
 
-Create a skill or clone an existing base system skill. Clone a Now Assist skill if it's close to what you need but requires modification.
+Create a skill or clone an existing base system skill. Clone a Otto skill if it's close to what you need but requires modification.
 
 -   [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 -   [Clone a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md)
@@ -44,7 +44,7 @@ Before publishing, test your prompt against real records on your instance to ver
 
 ## Publish and activate
 
-When your skill is ready, finalize the prompt and publish it. Publishing makes the skill visible to a Now Assist admin, who then activates it in Now Assist Admin to make it available to your users.
+When your skill is ready, finalize the prompt and publish it. Publishing makes the skill visible to a Otto admin, who then activates it in AI Admin Hub to make it available to your users.
 
 -   [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md)
 -   [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md)
@@ -56,21 +56,21 @@ After a skill is published, you can call it from a server-side script, allowing 
 -   [Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md)
 
 -   **[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)**  
-Create a custom skill for Now Assist. Creating a custom skill enables you to have greater flexibility with Now Assist's generative AI capabilities.
+Create a custom skill for Otto. Creating a custom skill enables you to have greater flexibility with Otto's generative AI capabilities.
 -   **[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)**  
 After you create a custom skill, create a prompt. Creating a prompt enables you to choose what skill inputs to use, as well as the type of tool.
 -   **[Use prompt assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/use-prompt-assistance.md)**  
-Use prompt assistance to get a jump start with your prompt development by selecting an example from the prompt library or using Now Assist to generate one.
+Use prompt assistance to get a jump start with your prompt development by selecting an example from the prompt library or using ServiceNow Otto to generate one.
 -   **[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)**  
 After you create a prompt for your custom skill, test the prompt template before you finalize it. Testing the prompt verifies that you’re seeing the expected prompt results before it’s activated.
 -   **[Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md)**  
-Use the Now Assist Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 -   **[Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md)**  
-When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Now Assist admin to activate it.
+When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Otto admin to activate it.
 -   **[Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md)**  
-After you publish a skill, a Now Assist admin must activate it in Now Assist Admin. Activating the skill makes it available for users to trigger within the platform.
+After you publish a skill, a Otto admin must activate it in AI Admin Hub. Activating the skill makes it available for users to trigger within the platform.
 -   **[Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md)**  
 You can use a script to call a custom skill.
 
-**Parent Topic:**[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+**Parent Topic:**[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

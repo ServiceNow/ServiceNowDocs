@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definition suites
@@ -27,7 +27,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 4.  Fill in the fields as needed.
 
-<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d29235e106">
+<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d29444e106">
 
 **Number**
 
@@ -35,7 +35,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 The unique identifier of the definition suite. This number is generated automatically.
 
-</td></tr><tr><td id="d29235e115">
+</td></tr><tr><td id="d29444e115">
 
 **Active**
 
@@ -43,7 +43,7 @@ The unique identifier of the definition suite. This number is generated automati
 
 Makes the definition suite active and useable.
 
-</td></tr><tr><td id="d29235e124">
+</td></tr><tr><td id="d29444e124">
 
 **Short Description**
 
@@ -51,7 +51,7 @@ Makes the definition suite active and useable.
 
 Brief description of the definition suite.
 
-</td></tr><tr><td id="d29235e133">
+</td></tr><tr><td id="d29444e133">
 
 **Description**
 
@@ -109,3 +109,5 @@ Displays findings found during on-demand or instance scans as defined by the def
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+

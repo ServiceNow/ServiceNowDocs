@@ -29,8 +29,6 @@ Track an application on a job requisition and view its corresponding details as 
 Collaborate with the recruiter for the job requisition on the activity stream.
 -   **[View hiring content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-hiring-content.md)**  
 See different hiring materials available in the Hiring tab.
--   **[Use AI agents to create job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-ai-agents-to-create-job-req.md)**  
-Use AI agents to automate the job requisition creation process from the Virtual Agent chat window and use the inputs from the hiring manager to create a refined job requisition.
 
 **Parent Topic:**[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hiring-landing.md)
 

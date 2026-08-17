@@ -18,7 +18,9 @@ If you previously used Guided Application Creator or the legacy Studio product t
 
 ## What does ServiceNow Studio improve over legacy products?
 
-ServiceNow Studio provides a unified environment where you can find, organize, and edit your work using a consistent navigation structure and metadata taxonomy. Every development tool you need is accessible in one place, so you can switch between tools without leaving ServiceNow Studio. When your app is ready to deploy, manage the deployment using update sets or pipelines. ServiceNow Studio also includes native support for Now Assist, providing access to generative AI capabilities and low-code development tools.
+ServiceNow Studio provides a unified environment where you can find, organize, and edit your work using a consistent navigation structure and metadata taxonomy. Every development tool you need is accessible in one place, so you can switch between tools without leaving ServiceNow Studio. When your app is ready to deploy, manage the deployment using update sets or pipelines. ServiceNow Studio also includes native support for ServiceNow Otto, providing access to generative AI capabilities and low-code development tools.
+
+As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio.
 
 ## ServiceNow Studio and changed functionality
 

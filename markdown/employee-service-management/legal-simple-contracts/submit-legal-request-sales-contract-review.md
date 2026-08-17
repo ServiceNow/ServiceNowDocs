@@ -28,15 +28,15 @@ You can submit a request for review of a sales contract to engage legal counsel,
 
 1.  Access the sales contract review intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d487313e54">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d487511e54">
 
 Option
 
-</th><th align="left" id="d487313e57">
+</th><th align="left" id="d487511e57">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d487313e63">
+</th></tr></thead><tbody><tr><td id="d487511e63">
 
 **Using __Employee Center__**
 
@@ -47,7 +47,7 @@ Description
 3.  Search for and open the **Sales Contract Review** request item.
 
 
-</td></tr><tr><td id="d487313e106">
+</td></tr><tr><td id="d487511e106">
 
 **Using __Legal Service Portal__**
 

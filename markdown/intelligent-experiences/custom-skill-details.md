@@ -8,18 +8,18 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Now Assist, Analytics, skills details, dashboard, generative AI, Gen AI, sn\_na\_analytics\_viewer]
-breadcrumb: [Skills performance, Using Now Assist Analytics, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Skills performance, Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Custom skill details
 
 Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 
-The Custom skill details dashboard page contains indicators pertaining to a custom skill. The indicators provide insight into skill usage and performance. Select a skill from the Skills drop-down list to view the indicators. The drop-down lists both active and inactive skills. Each skill has a subtitle that identifies the skill family that it belongs to, for example, ITSM, HR, and so on. Use the date range filter to view skill usage and performance over a certain period. The date range filter selection applies to all visualizations on the page. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Custom skill details dashboard page contains indicators pertaining to a custom skill. The indicators provide insight into skill usage and performance. Select a skill from the Skills drop-down list to view the indicators. The drop-down lists both active and inactive skills. Each skill has a subtitle that identifies the skill family that it belongs to, for example, ITSM, HR, and so on. Use the date range filter to view skill usage and performance over a certain period. The date range filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 \[Omitted image "naa-custom-skill-details.png"\] Alt text: Custom skill details dashboard page.
 
-The indicators on the Custom skill details dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Custom skill details dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Skill engagement trend visualizations for a selected period can reveal patterns in skill usage across workflows, products, and features.
 -   The daily unique users visualization shows a breakdown of daily unique users by the selected skill to help you see user activity and engagement with the skill.
@@ -76,13 +76,13 @@ The following indicators are common across all custom skills.
 
 -   **Skill engagement trend by products**
 
-    This area of the dashboard shows the skill usage across Now Assist products in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the products.
+    This area of the dashboard shows the skill usage across ServiceNow Otto products in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the products.
 
     \[Omitted image "naa-skill-engagement-trend-by-products.png"\] Alt text: Skill engagement trend by products.
 
 -   **Skill engagement trend by features**
 
-    This area of the dashboard shows the skill usage across Now Assist features in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the features.
+    This area of the dashboard shows the skill usage across ServiceNow Otto features in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the features.
 
     \[Omitted image "naa-skill-engagement-trend-by-features.png"\] Alt text: Skill engagement trend by features indicator.
 

@@ -26,4 +26,6 @@ A store plan can be deleted when it is active and in the Draft state or deactiva
 Monitor progress, completion rates, or delays across all stores for a single plan by tracking and monitoring in-store operations case and task progress.
 -   **[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)**  
 Use Retail Mobile to review, track, and complete In-store operations cases and tasks generated from store plans.
+-   **[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)**  
+Use the Retail Portal to review and complete In-store operations cases and tasks generated from store plans, including embedded questionnaires.
 

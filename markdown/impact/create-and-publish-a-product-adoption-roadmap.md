@@ -30,15 +30,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In **How do you want to start?**, complete any of the following actions.
 
-<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d44721e107">
+<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d44739e107">
 
 How do you want to start?
 
-</th><th align="left" id="d44721e110">
+</th><th align="left" id="d44739e110">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d44721e116">
+</th></tr></thead><tbody><tr><td id="d44739e116">
 
 **Create from a Template**
 
@@ -48,7 +48,7 @@ Actions
 2.  Select a template in **Choose a template**.
 
 
-</td></tr><tr><td id="d44721e143">
+</td></tr><tr><td id="d44739e143">
 
 **Create a roadmap manually**
 
@@ -94,7 +94,7 @@ Enter the **Name** and **Description**.
 
 You can also edit the published roadmap by selecting **Edit roadmap** to manage the adoption phases and capabilities.
 
-This feature is in the Impact Delivery Instance Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 

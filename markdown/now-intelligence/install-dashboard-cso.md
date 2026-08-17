@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cso.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Information Security Officer \(CISO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -17,6 +17,8 @@ The Chief Information Security Officer \(CISO\) Dashboard provides a single pane
 ## Before you begin
 
 Role required: admin, platform\_analytics\_admin, sn\_ciso\_dashboard.admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The CISO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -56,7 +58,7 @@ Applications:
 
         Assign the role sn\_ciso\_dashboard.admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CISO dashboard.
+        **Note:** Only users with this role can configure the CISO dashboard.
 
     -   **CISO Dashboard end users**
 
@@ -64,7 +66,7 @@ Applications:
 
     -   **Viewer**
 
-        Assign the pa\_viewer role to those who need to view Performance Analytics scores.
+        Assign the pa\_viewer role to those who must view Performance Analytics scores.
 
     Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
 

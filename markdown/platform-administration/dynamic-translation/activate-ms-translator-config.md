@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Azure Translator Service spoke, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,8 @@ Make the Microsoft translation service available for use by activating the Micro
 
 ## Before you begin
 
-Role required: admin
+-   Create an account with Microsoft Azure for machine translation services, and set up the integration. For information see [Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md) and [Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md).
+-   Role required: admin.
 
 ## Procedure
 
@@ -28,14 +29,12 @@ Role required: admin
 
 3.  Select the **Active** check box.
 
-4.  In the **Preferences** section, choose a translator as default either for translation or detection, or for both.
+4.  In the **Preferences** section, choose this translator as default for translation or detection, or for both.
 
     |Field|Description|
     |-----|-----------|
     |Mark as default for translation|Option to mark the translator as default for translation.|
-    |Mark as default for detection|Option to mark the translator as default for detection.|
-
-    **Note:** Make at least one translator configuration as the default configuration either for translation to enable the Dynamic Translation experience on forms and activity streams.
+    |Mark as default for detection|Option to mark the translator as default for detection of the language of a text.|
 
 5.  Select **Update**.
 

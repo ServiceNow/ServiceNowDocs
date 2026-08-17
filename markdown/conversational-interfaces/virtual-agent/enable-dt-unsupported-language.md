@@ -115,7 +115,7 @@ Language to be used if a translation is not available. The language plugin must 
 
 6.  When the languages have been added, enable Dynamic Translation.
 
-    For more information on enabling Dynamic Translation, see [Enable Dynamic Translation for languages in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md) and [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
+    For more information on enabling Dynamic Translation, see [Enable Dynamic Translation for languages in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md) and [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
 
 
 **Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)

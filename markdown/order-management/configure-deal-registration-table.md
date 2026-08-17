@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-deal-registration-table.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Data model for Deal Registration Management, Install Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Data model for Deal Registration Management, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Deal Registration table

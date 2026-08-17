@@ -18,13 +18,13 @@ Enable the auto-renewal options in your System Properties to configure your syst
 
 ## Before you begin
 
-Check that you have completed the tasks, [Configure the MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md), and [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md).
+Check that you have completed the tasks, [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md), and [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md).
 
 Role required: pki\_admin or admin
 
 ## About this task
 
-Configuring your system properties to enable automatic certificate renewal is required for using the automatic renewal workflow and the Now Assist AI certificate renewal agent.
+Configuring your system properties to enable automatic certificate renewal is required for using the automatic renewal workflow and the AI certificate renewal agent.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Configuring your system properties to enable automatic certificate renewal is re
 
 2.  Search for **auto\_renew**.
 
-3.  Select**sn\_disco\_certmgmt.enable\_auto\_renewal\_options\_in\_service\_catalog**
+3.  Select **sn\_disco\_certmgmt.enable\_auto\_renewal\_options\_in\_service\_catalog**
 
 4.  Set the **Value** field to **true**.
 
@@ -43,5 +43,5 @@ Your system is configured to renew automatically certificates before they expire
 
 ## What to do next
 
-You can [Set a certificate to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-certificate-to-renew-automatically.md) or use the [Now Assist certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-cert-renewal-ai-agent.md).
+You can [Set a certificate to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-certificate-to-renew-automatically.md) or use the [Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/now-assist-cert-renewal-ai-agent.md).
 

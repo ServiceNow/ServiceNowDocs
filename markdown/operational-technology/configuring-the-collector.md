@@ -18,7 +18,7 @@ The OT Discovery Collector is an application that you can install on a Windows o
 
 Depending on how you have deployed the Console, you may have to manually edit the hostname value in the `config.json` file to validate the Collector's credentials. If you install an offline Console or install into cloud environments, the `hostname` value may not be correct. For the OT Discovery Collector, the hostname needs to be set to the Console hosts external/network IP address. It is important to check this setting and adjust it as needed.
 
-**Note:** If you want to download and install the Console and Collector containerized packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md) for more information.
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
 
 **Collector minimum system requirements**
 
@@ -40,9 +40,9 @@ Windows
 
 The OT Discovery Collector installation is compatible with Windows 10 or Windows 11 systems.
 
- The required Windows \(10 or 11\) environment for the OT Discovery Collector is x86\_64. ARM or Apple Silicon devices are not supported.
+ The required Windows \(10 or 11\) environment for the OT Discovery Collector is x86\_64. ARM or Apple Silicon devices aren't supported.
 
- See [Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/installing-collector-on-windows.md).
+ For more information, see [Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/installing-collector-on-windows.md).
 
 </td></tr><tr><td>
 
@@ -50,13 +50,13 @@ Linux
 
 </td><td>
 
-See [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/linux-install-ot-discovery-collector.md) for specific information.
+For more information, see [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/linux-install-ot-discovery-collector.md).
 
 </td></tr></tbody>
-</table>## What to explore next
+</table>-   **[Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/installing-collector-on-windows.md)**  
+Install the OT Discovery Collector on a Windows system. The OT Discovery Collector installation is compatible on Windows 10 or Windows 11 systems.
+-   **[Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/linux-install-ot-discovery-collector.md)**  
+Install the OT Discovery Collector on a Linux system.
 
-To install the OT Discovery Collector, see the installation steps compatible with your OS:
-
--   [Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/installing-collector-on-windows.md)
--   [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/linux-install-ot-discovery-collector.md)
+**Parent Topic:**[Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-collectors-landing.md)
 

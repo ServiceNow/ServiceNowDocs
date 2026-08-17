@@ -64,11 +64,11 @@ Users with the admin role perform the following steps to implement AI Search for
 
     Skip this step if you're a new customer using the Australia release or if your instance was zBooted in the Australia release. AI Search for Next Experience is automatically installed.
 
-2.  [Configure Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-now-assist-som.md).
+2.  [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md).
 
-    Depending on your entitlements, the Now Assist for Sales Force Automation \(SFA\) plugin might be automatically installed. If it is not automatically installed but you have the appropriate entitlements, install the Now Assist for Sales Force Automation \(SFA\) plugin \(sn\_som\_gen\_ai\). This plugin installs the AI Search RAG plugin \(sn\_ais\_rag\) and the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) for the AI Search Retrieval Augmented Generation \(RAG\) application used by AI Search for product catalog.
+    Depending on your entitlements, the ServiceNow Otto for Sales Automation plugin might be automatically installed. If it is not automatically installed but you have the appropriate entitlements, install the ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\). This plugin installs the AI Search RAG plugin \(sn\_ais\_rag\) and the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) for the AI Search Retrieval Augmented Generation \(RAG\) application used by AI Search for product catalog.
 
-    **Note:** If you do not install Now Assist for Sales Force Automation \(SFA\) plugin \(sn\_som\_gen\_ai\), the product catalog interface provides simple keyword search, also known as Zing search.
+    **Note:** If you do not install ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\), the product catalog interface provides simple keyword search, also known as Zing search.
 
 3.  [Run scheduled job to populate product offering categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/run-scheduled-job-prod-offer-categories.md) only if you upgraded to the Australia.
 

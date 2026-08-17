@@ -8,7 +8,7 @@ product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -21,6 +21,8 @@ Several types of components are installed with the Workplace Visitor Management 
 Demo data is available for this feature.
 
 ## Roles installed with Workplace Visitor Management
+
+**Note:** In Workplace Visitor Management version 2.0.0 or later, the role and access control model has been updated. The update includes 90 role bindings, 15 new security attributes, and additional portal and internal-user roles such as visitor public, kiosk viewer, internal user, and agent roles. Phone number and visitor photo access controls have been tightened, and requirements tables are restricted to admin access. Verify required-role callouts in your procedures against the updated V2 ACL set.
 
 <table id="table_wfr_4yr_cnb"><thead><tr><th>
 
@@ -157,7 +159,7 @@ Location Policy\[sn\_wsd\_visitor\_m2m\_location\_policy\]
 
 </td><td>
 
-Stores information about the visitor policies added to workplace locations.
+Stores information about the visitor policies added to workplace locations.**Warning:** In Workplace Visitor Management version 2.0.0 or later, this table has been removed. Policy-to-location assignment is no longer supported through this table.
 
 </td></tr><tr><td>
 
@@ -223,6 +225,62 @@ Kiosk Next Step\[sn\_wsd\_visitor\_next\_step\]
 
 Store information about the next steps added to an end page configuration.
 
+</td></tr><tr><td>
+
+Visitor User\[sn\_wsd\_visitor\_user\]
+
+</td><td>
+
+Stores information about visitor user records. Added in Workplace Visitor Management version 2.0.0 or later.
+
+</td></tr><tr><td>
+
+Visitor Type\[sn\_wsd\_visitor\_type\]
+
+</td><td>
+
+Stores information about visitor type configurations. Added in Workplace Visitor Management version 2.0.0 or later.
+
+</td></tr><tr><td>
+
+Visitor Auth\[sn\_wsd\_visitor\_auth\]
+
+</td><td>
+
+Stores authentication information for visitors. Added in Workplace Visitor Management version 2.0.0 or later.
+
+</td></tr><tr><td>
+
+Visit Requirements\[sn\_wsd\_visitor\_visit\_requirements\]
+
+</td><td>
+
+Stores information about the visit requirements configured for a visit. Added in Workplace Visitor Management version 2.0.0 or later.
+
+</td></tr><tr><td>
+
+Visit Requirements Item\[sn\_wsd\_visitor\_visit\_requirements\_item\]
+
+</td><td>
+
+Stores information about individual items within a visit requirements record. Added in Workplace Visitor Management version 2.0.0 or later.
+
+</td></tr><tr><td>
+
+Requirements Instance\[sn\_wsd\_visitor\_requirements\_instance\]
+
+</td><td>
+
+Stores information about instances of visit requirements applied to visitor registrations. Added in Workplace Visitor Management version 2.0.0 or later.
+
+</td></tr><tr><td>
+
+HTML Signing Template\[sn\_wsd\_core\_html\_signing\_template\]
+
+</td><td>
+
+Stores HTML-based signing templates used to capture visitor signatures during policy acknowledgment. Added in Workplace Visitor Management version 2.0.0 or later.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
@@ -244,4 +302,6 @@ Store information about the next steps added to an end page configuration.
 [New visit form]()
 
 [Additional requirement form]()
+
+[Differences between Workplace Visitor Management versions]()
 

@@ -24,4 +24,5 @@ After you set up the Employee Relations integration with Navex Ethicspoint appli
 |----|-----------|
 |Update Employee Relation Cases|Pushes data from ServiceNow Platform into Navex EthicsPoint. For example, when an employee relation case is closed its status is pushed to Navex EthicsPoint.|
 |Get Employee Relation Cases|Pulls employee relation cases from Navex EthicsPoint into ServiceNow Platform.|
+|Update Employee Relation cases to Navex|Pushes data to Navex EthicPoint when Employee Relation case is updated in ServiceNow.|
 

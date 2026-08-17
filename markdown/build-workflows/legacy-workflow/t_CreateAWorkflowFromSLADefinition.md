@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-10"
 reading_time_minutes: 1
 breadcrumb: [Create a workflow, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -18,6 +18,7 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
 ## Before you begin
 
+-   You must have the snc\_required\_script\_writer\_permission and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
 -   If you’re designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
 
 ## Procedure

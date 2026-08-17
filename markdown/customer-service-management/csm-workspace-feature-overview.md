@@ -126,7 +126,7 @@ Global search enables you to search multiple record types at once from the Next 
 
 </td><td>
 
-Use the Now Assist for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
+Use the ServiceNow Otto for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ A number of additional applications are available for use with CSM Configurable 
 |[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md)|Use Workforce Optimization for Customer Service to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
 |[Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)|Use case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue, such as a lost or missing credit card.|
 |[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)|Use this feature to track the digital services used by your customers and to proactively create cases for service disruptions.|
-|[Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
+|[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
 |[Guided Decisions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md)|Use guided decisions to resolve complex cases faster and more efficiently by guiding customer service agents through a structured troubleshooting process.|
 |[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr.md)|Use machine learning to predict the estimated time to resolve a case \(ETTR\) based on case attributes such as the short description, category, priority, and assignment group.|
 

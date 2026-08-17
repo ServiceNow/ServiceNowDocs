@@ -1,5 +1,5 @@
 ---
-title: Map Cisco Meraki CIs and relationships
+title: Mapping Cisco Meraki CIs and relationships
 description: Use the Service Graph Connector \(SGC\) for Cisco Meraki to map discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/map-cisco-meraki-cis-and-relationships.html
@@ -8,17 +8,17 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure Cisco Meraki SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Map Cisco Meraki CIs and relationships
+# Mapping Cisco Meraki CIs and relationships
 
 Use the Service Graph Connector \(SGC\) for Cisco Meraki to map discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
 
 To confirm accurate CI classification and insertion, the connector uses the Robust Transform Engine \(RTE\) and Identification and Reconciliation Engine \(IRE\).
 
-The connector classifies and relates discovered CIs using telecom-specific models based on device type, function, and chassis structure. This organization helps maintain a clean and normalized CMDB across vendors. Discovered model names from Fortinet are automatically transformed into ServiceNow AI Platform standard model identifiers and categories for slot and subslot components.
+The connector classifies and relates discovered CIs using telecom-specific models based on device type, function, and chassis structure. This organization helps maintain a clean and normalized CMDB across vendors. Discovered model names from Cisco Meraki are automatically transformed into ServiceNow AI Platform standard model identifiers and categories for slot and subslot components.
 
 ## CI mapping and relationships
 
@@ -26,15 +26,15 @@ The following table lists the CI object types in the CMDB that can be discovered
 
 <table id="table_m5l_m1b_wfc"><thead><tr><th>
 
-CMDB CI Class
+CMDB CI class
 
 </th><th>
 
-CMDB CI Table
+CMDB CI table
 
 </th><th>
 
-CMDB Hierarchy
+CMDB hierarchy
 
 </th><th>
 
@@ -42,7 +42,7 @@ Object types / models
 
 </th><th>
 
-Description and Relationships
+Description and relationships
 
 </th></tr></thead><tbody><tr><td>
 
@@ -65,6 +65,50 @@ Organization network
 -   Represents the physical location of IP routers according to their longitude, latitude, and address.
 -   Network site contains IP routers and network interfaces.
 -   Network site is a member of a group.
+
+</td></tr><tr><td>
+
+IP Camera
+
+</td><td>
+
+`cmdb_ci_ip_camera`
+
+</td><td>
+
+
+
+</td><td>
+
+IP Camera
+
+</td><td>
+
+-   Represents an IP camera device discovered from a Meraki network.
+-   Related to the network site.
+-   Related to the network service instance.
+
+</td></tr><tr><td>
+
+OT industrial sensor
+
+</td><td>
+
+`cmdb_ci_ot_industrial_sensor`
+
+</td><td>
+
+
+
+</td><td>
+
+Industrial Sensor
+
+</td><td>
+
+-   Represents an industrial sensor device discovered from a Meraki network.
+-   Related to the network site.
+-   Related to the network service instance.
 
 </td></tr><tr><td>
 
@@ -129,11 +173,11 @@ Subslot
 </td><td>
 
 -   Network card is the main device in the network hierarchy.
--   Contains IP router, IP switch sublots \(small form-factor pluggable or child cards\).
+-   Contains IP router, IP switch subslots \(small form-factor pluggable or child cards\).
 
 </td></tr><tr><td>
 
-Network Interface CI
+Network interface CI
 
 </td><td>
 
@@ -196,7 +240,7 @@ Network sites and network service instance are members.
 
 </td></tr><tr><td>
 
-IP Address CI
+IP address CI
 
 </td><td>
 

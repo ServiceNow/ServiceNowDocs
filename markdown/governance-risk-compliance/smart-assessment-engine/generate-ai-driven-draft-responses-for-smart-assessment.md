@@ -9,7 +9,7 @@ classification: smart-assessment-engine
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist, Smart Assessment Engine, Governance, Risk, and Compliance]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Generate AI-driven draft responses for smart assessment

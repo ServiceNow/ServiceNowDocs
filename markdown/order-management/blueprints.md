@@ -1,20 +1,20 @@
 ---
 title: Blueprints
-description: Learn how blueprints define the structure of configuration experiences in ServiceNow CPQ and act as containers for fields, rules, layouts, and configurable products.
+description: Learn how blueprints define the structure of configuration experiences in CPQ and act as containers for fields, rules, layouts, and configurable products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/blueprints.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Blueprints
 
-Learn how blueprints define the structure of configuration experiences in ServiceNow CPQ and act as containers for fields, rules, layouts, and configurable products.
+Learn how blueprints define the structure of configuration experiences in CPQ and act as containers for fields, rules, layouts, and configurable products.
 
-Blueprints are the foundation of every configuration experience in ServiceNow CPQ. They define the structure, behavior, and visual layout of configurations by linking together all key elements—Fields, Rules, Layouts, and Configurable Products—into a single, manageable container. A blueprint represents the complete configuration logic for one product or experience and ensures consistent behavior across environments.
+Blueprints are the foundation of every configuration experience in CPQ. They define the structure, behavior, and visual layout of configurations by linking together all key elements—Fields, Rules, Layouts, and Configurable Products—into a single, manageable container. A blueprint represents the complete configuration logic for one product or experience and ensures consistent behavior across environments.
 
 By using blueprints, administrators can design, deploy, and manage configuration workflows without duplicating content or logic. Each blueprint provides a modular, versioned space to build and refine configuration experiences safely before deploying them to production.
 
@@ -63,7 +63,7 @@ Deployment behavior varies by environment type:
 
 Blueprints can be exported and imported across environments to support development life cycles and version control. The exported package includes all related elements such as fields, rules, and layouts, allowing you to migrate configurations without manually recreating components.
 
-When importing, administrators can update Product IDs, rule mappings, and environment-specific references to ensure compatibility in the target org. ServiceNow CPQ maintains unique IDs for each Configurable Product to preserve data integrity across environments.
+When importing, administrators can update Product IDs, rule mappings, and environment-specific references to ensure compatibility in the target org. CPQ maintains unique IDs for each Configurable Product to preserve data integrity across environments.
 
 ## General guidelines
 

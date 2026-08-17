@@ -1,5 +1,5 @@
 ---
-title: Additional information for onboarding DevOps tools and apps using the Service catalog
+title: Onboarding DevOps tools and apps
 description: Use the onboarding catalog items as a self-service approach to onboard your DevOps tools and apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
 
-# Additional information for onboarding DevOps tools and apps using the Service catalog
+# Onboarding DevOps tools and apps
 
 Use the onboarding catalog items as a self-service approach to onboard your DevOps tools and apps.
 

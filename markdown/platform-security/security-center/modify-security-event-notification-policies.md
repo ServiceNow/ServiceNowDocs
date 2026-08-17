@@ -1,6 +1,6 @@
 ---
 title: Modify security event notification policies
-description: Learn how to modify the settings of your security event notification policies.
+description: Modify the settings of your security event notification policies to align with your organization's requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/modify-security-event-notification-policies.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Security Event Notifications, Security monitoring console, Security
 
 # Modify security event notification policies
 
-Learn how to modify the settings of your security event notification policies.
+Modify the settings of your security event notification policies to align with your organization's requirements.
 
 ## Before you begin
 

@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure sentiment analysis case
@@ -50,7 +50,7 @@ The Sentiment Reasoning field in the record provides details on which factors we
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub&gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -98,7 +98,7 @@ Input fields
 </td></tr></tbody>
 </table>6.  Select **Role attribution**
 
-    **Note:** You cannot modify the input data source.
+    **Note:** You can't modify the input data source.
 
 <table id="table_erm_mzt_pfc"><thead><tr><th>
 
@@ -155,7 +155,7 @@ Requestor fields
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-11. In **Select Display** toggle to determine if chat recommendation appears in In-product desktop, displaying Now Assist skills on forms and workspaces.
+11. In **Select Display** toggle to determine if chat recommendation appears in In-product desktop, displaying AI skills on forms and workspaces.
 
 12. After selecting **Review and Activate** to examine changes, select **Done** to close the Sentiment Analysis generation settings.
 
@@ -166,6 +166,6 @@ Additional information:
 
 -   Verify that CSM Configurable Workspace Foundation plugin version is 25.1.4
 -   To access the Sentiment field, refer to the information available at these KB links:
-    -   [Sentiment analysis card is missing in case records in both CSM UI16 and workspace UIs on Now Assist CSM Sentiment Analysis feature activation](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2105461).
+    -   [Sentiment analysis card is missing in case records in both CSM UI16 and workspace UIs on ServiceNow Otto for CSM Sentiment Analysis feature activation](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2105461).
     -   [Sentiment analysis card display on a record in CSM workspace](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2105452)
 

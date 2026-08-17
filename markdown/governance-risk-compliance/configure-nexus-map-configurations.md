@@ -68,7 +68,7 @@ Role required: sn\_oper\_res.admin
 
     The **Main node** tab displays the name of the Main node table along with its associated conditions. The **Node UI details** tab shows the Node UI type, which is set to "Node map default node" by default.
 
-    After creating the Nexus map configuration, if any changes are made at the Main node level, such as adding or modifying relationships, you can synchronize those changes into the Nexus map configuration by using the **Sync from main node configuration** UI action.
+    You can make changes at the Main node level after creating the Nexus map configuration, such as adding or modifying relationships. To synchronize those changes into the Nexus map configuration, use the **Sync from main node configuration** UI action.
 
     The Node configurations and Edge configurations related lists for the selected Nexus map configuration, as shown in the examples, are displayed in the record.
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-05-18"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [AI voice agent, Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
+breadcrumb: [AI voice agents, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Components installed with voice
@@ -19,7 +19,7 @@ Information about the roles, tables, and scheduled jobs that are installed with 
 
 ## AI voice agent roles
 
-The following table lists the roles installed with the Voice for Now Assist plugin.
+The following table lists the roles installed with the Voice for ServiceNow Otto plugin.
 
 |Role|Description|
 |----|-----------|

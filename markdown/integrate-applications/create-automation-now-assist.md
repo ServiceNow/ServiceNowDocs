@@ -1,33 +1,33 @@
 ---
-title: Create an automation with Now Assist
-description: Create an automation from text instructions and preview options by using the Now Assist for RPA Hub application.
+title: Create an automation with AI
+description: Create an automation from text instructions and preview options by using the ServiceNow Otto for RPA Hub application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-automation-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Use, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Create an automation with Now Assist
+# Create an automation with AI
 
-Create an automation from text instructions and preview options by using the Now Assist for RPA Hub application.
+Create an automation from text instructions and preview options by using the ServiceNow Otto for RPA Hub application.
 
 ## Before you begin
 
 Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
 
-To access the Now Assist for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
+To access the AI features in RPA Desktop Design Studio, perform the following steps:
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Install Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
 -   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 
-If you skip these steps, the Now Assist for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
+If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
-Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
+Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md), [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md), and [Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/example-instructions-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer or sn\_rpa\_fdn.rpa\_admin
 
@@ -39,59 +39,59 @@ To create an automation project manually, see [Create an automation project manu
 
 1.  On the RPA Desktop Design Studio home page, select **Create Automation**.
 
-2.  In the Build an automation window, select the **Build with Now Assist** option.
+2.  In the Build an automation window, select the **Build with AI** option.
 
-    \[Omitted image "start-build-now-assist-rpa.png"\] Alt text: Build an automation window that displays Build with Now Assist and Build manually options to start creating automations. The Build with Now Assist option is selected.
+    \[Omitted image "build-now-assist-screen-rpa.png"\] Alt text: RPA Desktop Design Studio user interface that shows the \(1\) Create automation option and \(2\) Build with AI option.
 
 3.  Select **Next**.
 
-4.  In the Build with Now Assist window, enter the Now Assist instructions.
+4.  In the Build with AI window, enter instructions for AI.
 
     The instruction text is used by the RPA bot generation skill to create your automation. Use short, direct, and clear sentences to describe the expected actions. Be specific and provide detailed descriptions of the automation logic. Avoid jargon and abbreviations.
 
-    The following example shows that the Now Assist instructions are provided so that you can build an automation to get PDF files from a location and then merge all PDF documents into a single PDF document.
+    The following example shows that the AI instructions are provided so that you can build an automation to get PDF files from a location and then merge all PDF documents into a single PDF document.
 
-    \[Omitted image "build-now-assist-example.png"\] Alt text: Build with Now Assist window that shows the instructions that are used by Now Assist to generate an automation workflow.
+    \[Omitted image "build-now-assist-example.png"\] Alt text: Build with AI window that shows the instructions that are used by AI to generate an automation workflow.
 
     An example instruction is displayed for your reference.
 
     **Note:**
 
-    For more information on example instructions and general guidelines for writing Now Assist instructions, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md).
+    For more information on example AI instructions and general guidelines, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md).
 
 5.  Select **Generate preview**.
 
-6.  In the Build with Now Assist window, regenerate a preview, clear the workflow, stop creating an automation, or select next if you like the automation preview.
+6.  In the Build with AI window, regenerate a preview, clear the workflow, stop creating an automation, or select next if you like the automation preview.
 
     **Note:** You can’t make any changes In the Automation preview screen because it’s read-only. You can maximize it and use the scroll options to view the entire generated automation workflow.
 
-    \[Omitted image "text-bot-preview-options.png"\] Alt text: Build with Now Assist window displays options to regenerate a preview, clear the workflow, stop creating an automation, or select next if you like the automation preview.
+    \[Omitted image "text-bot-preview-options.png"\] Alt text: Build with AI window displays options to regenerate a preview, clear the workflow, stop creating an automation, or select next if you like the automation preview.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d210551e337">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d202550e320">
 
 Option
 
-</th><th align="left" id="d210551e340">
+</th><th align="left" id="d202550e323">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d210551e346">
+</th></tr></thead><tbody><tr><td id="d202550e329">
 
 **Regenerate preview**
 
 </td><td>
 
-If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
+If the generated automation preview doesn’t meet your needs, you can update the AI instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your AI subscription. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d210551e372">
+</td></tr><tr><td id="d202550e347">
 
 **Clear**
 
 </td><td>
 
-If you want to clear the workflow that was created by Now Assist and the instruction in Now Assist, select **Clear** and then select **Yes** in the Confirm clear automation window.
+If you want to clear the workflow that was created by AI and the AI instruction, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d210551e393">
+</td></tr><tr><td id="d202550e362">
 
 **Cancel**
 
@@ -99,7 +99,7 @@ If you want to clear the workflow that was created by Now Assist and the instruc
 
 If you want to stop creating an automation and return to the RPA Desktop Design Studio home page, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The generated automation workflows, if any, aren’t saved.
 
-</td></tr><tr><td id="d210551e413">
+</td></tr><tr><td id="d202550e382">
 
 **Next**
 
@@ -161,7 +161,7 @@ Location of the automation project or the default location.
 </td></tr></tbody>
 </table>8.  Select **Save and Edit**.
 
-    **Important:** The automation is generated by Now Assist. Be sure to check it for accuracy and make any edits before running.
+    **Important:** The automation is generated by AI. Be sure to check it for accuracy and make any edits before running.
 
     Close the displayed message for a clearer view.
 

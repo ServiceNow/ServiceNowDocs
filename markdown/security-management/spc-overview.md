@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-07-31"
 reading_time_minutes: 4
 breadcrumb: [Security Posture Control, Security Operations]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Security Posture Control, Security Operations]
 
 Security Posture Control enables cybersecurity teams to get visibility into their complete enterprise asset inventory and determine their overall security posture.
 
-Security analysts gain insights into how well security tools are deployed and covering their assets based on their asset inventory and imported data from service graph connectors and ServiceNow products such as Hardware Asset Management \(HAM\) and ITOM Discovery.
+Security analysts gain insights into how well security tools are deployed and covering their assets based on their asset inventories. This asset data is imported from service graph connectors and ServiceNow products such as Hardware Asset Management \(HAM\) and ITOM Discovery.
 
 Security analysts can also create custom policies and configure insights to monitor the compliance of assets with internal security standards. Vulnerability managers can use insights from Security Posture Control \(SPC\) to prioritize remediation of vulnerabilities on high-risk assets.
 
@@ -30,7 +30,7 @@ Release notes
 
 </th></tr></thead><tbody><tr><td>
 
-Security Posture Control Core: v6.2, v6.1, v6.0.
+Security Posture Control Core: v7.1, v7.0
 
 </td><td>
 
@@ -38,7 +38,7 @@ For compatibility information, see [KB0856498 Vulnerability Response Compatibili
 
 </td></tr><tr><td>
 
-Asset Security Posture Management: v5.3, v5.1, v5.0
+Asset Security Posture Management: v5.5
 
 </td><td>
 
@@ -46,14 +46,14 @@ Asset Security Posture Management: v5.3, v5.1, v5.0
 
 </td></tr><tr><td>
 
-Mitigation Controls Monitoring v4.0, v3.0, v2.0
+Mitigation Controls Monitoring v4.2
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+</table>Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 With the SPC product, Info-Sec teams can perform the following tasks:
 
@@ -105,7 +105,7 @@ Identifying security tool gaps involves the following steps:
 
 With Asset Security Posture Management, you can also identify assets that have high-risk combinations. An example of a high-risk combination might show assets that are missing security tools, have critical vulnerabilities, and are exposed to the internet.
 
-Some of the policies shipped with the Security Posture Control application look for these high-risk combinations of critical vulnerabilities and security tool coverage gaps. However, for these combination policies to work, you must have the Vulnerability Response application and at least one vulnerability scanner integration product such as Qualys, Rapid7, or the Tenable Vulnerability Integration application installed. These applications are available with separate subscriptions from the ServiceNow Store.
+Some of the policies shipped with the Security Posture Control application look for these high-risk combinations of critical vulnerabilities and security tool coverage gaps. However, for these combination policies to work, you must have the Vulnerability Response application and at least one vulnerability scanner integration product. Products such as Qualys, Rapid7, or the Tenable Vulnerability Integration application installed. These applications are available with separate subscriptions from the ServiceNow Store.
 
 ## Mitigation Controls Monitoring
 

@@ -105,7 +105,7 @@ Dynamic placeholders within Microsoft Word documents that integrate with Service
 
 ### contract analysis
 
-A Now Assist skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
+A AI skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
 
 ### contract dashboard
 
@@ -161,7 +161,7 @@ In Contract Management Pro, an internal review is a review task raised by a cont
 
 ### metadata extraction
 
-A Now Assist skill used to extract metadata from signed contracts and add the information to the system, streamlining the data entry process
+A AI skill used to extract metadata from signed contracts and add the information to the system, streamlining the data entry process
 
 ### Microsoft Word Add-in
 
@@ -172,10 +172,6 @@ A program that integrates with Microsoft Word that enables a user to add content
 ### non-self-served request
 
 A contract request that requires legal team involvement for drafting, negotiation, or finalization of the contract.
-
-### Now Assist in Contract Management Pro
-
-A generative AI-powered feature that enhances productivity by suggesting contract clauses, and extracting metadata from a signed contract.
 
 ## O
 
@@ -232,6 +228,10 @@ A contract request that is initiated and managed by the requester. The contract 
 ### ServiceNow Store
 
 A marketplace where users can find and install applications, plugins, and enhancements for ServiceNow, including contract management extensions.
+
+### ServiceNow Otto for Contract Management Pro
+
+A generative AI-powered feature that enhances productivity by suggesting contract clauses, and extracting metadata from a signed contract.
 
 ## T
 

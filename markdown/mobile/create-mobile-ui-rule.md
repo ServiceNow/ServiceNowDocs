@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/create-mobile-ui-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-13"
 reading_time_minutes: 2
 breadcrumb: [Mobile UI Rules, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -93,6 +93,9 @@ The condition that triggers the mobile UI rule. Select one or both of the follow
 -   **onUserAction**: The mobile UI rule triggers when the user performs the specified action.
 
 **Note:** To use the **onUserAction** trigger, a User Action Id must be associated with the UI rule.
+
+-   **onSubmit**: The mobile UI rule triggers when the input form is submitted.
+
 
 </td></tr><tr><td>
 

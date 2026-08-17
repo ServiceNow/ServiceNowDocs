@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -18,7 +18,7 @@ The SAP ECC RFC spoke is built by Bristlecone, Inc. Manage items, journals, proc
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP ECC RFC spoke v2.10.0 is the latest version.
+SAP ECC RFC spoke v2.11.0 is the latest version.
 
 ## Supported versions
 
@@ -212,7 +212,7 @@ Look up RFC Output Metadata
 
 Dynamically retrieves the output schema from SAP ECC - RFC, for the selected RFC.
 
-</td></tr><tr><td rowspan="21">
+</td></tr><tr><td rowspan="22">
 
 Procurement
 
@@ -279,6 +279,14 @@ Create Non Purchase Order Invoice
 </td><td>
 
 Creates a non purchase order invoice document in SAP ECC – RFC.
+
+</td></tr><tr><td>
+
+Cancel Non Purchase Order Invoice
+
+</td><td>
+
+Cancels a non purchase order invoice document in SAP ECC – RFC.
 
 </td></tr><tr><td>
 

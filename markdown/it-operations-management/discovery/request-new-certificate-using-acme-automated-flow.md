@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using ACME, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Request certificates using ACME manual DNS challenge flow

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a pull connector
@@ -36,7 +36,7 @@ You can use a connector instance to control the location and manner in which eve
 -   The connector instance value fields are valid.
 -   A connection can be made to the event source, using API, to retrieve events.
 
-[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md), available in the Service Operations Workspace, consolidates all Event Management connector integrations in one place. Use it to pull or push events from external or internal devices, create or manage connector configurations from a single interface.
+[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md), available in the Service Operations Workspace, consolidates all Event Management connector integrations in one place. Use it to pull or push events from external or internal devices, create or manage connector configurations from a single interface.
 
 ## Procedure
 

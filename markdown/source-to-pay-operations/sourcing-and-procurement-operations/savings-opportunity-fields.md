@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-05-13"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [savings opportunity, data model, opportunity fields, field reference]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -314,7 +314,9 @@ Date/Time
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
-[SPO and ITAM data model mappings]()
+[SPO and Asset Management data model mappings]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
 
 [Domain separation and Sourcing and Procurement Operations]()
 

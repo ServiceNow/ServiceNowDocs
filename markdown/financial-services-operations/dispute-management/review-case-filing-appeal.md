@@ -42,7 +42,7 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
     The **Chargeback** stage is initiated for the transaction.
 
-6.  Select the **Review case filing appeal** activity.
+6.  Select the **Review case filing appeal** task.
 
 7.  Review the case filing details and select **Get acknowledgement letter**.
 

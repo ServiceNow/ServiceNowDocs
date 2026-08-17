@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-13"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Buying Group
@@ -104,5 +104,5 @@ Opportunity Buying Group
 Association records that link buying groups to opportunities, enabling sellers to connect a purchasing committee to one or more active deals.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
 

@@ -61,5 +61,3 @@ Utilize the Smart Assessment Engine to perform smart assessments on regulatory a
 
 [Next Experience Discuss and Chat Collaboration]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
-

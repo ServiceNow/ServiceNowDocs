@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Review AI results, Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review AI results, Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review AI-extracted obligations
@@ -28,15 +28,15 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d83429e68">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d83033e68">
 
 Method
 
-</th><th align="left" id="d83429e71">
+</th><th align="left" id="d83033e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d83429e77">
+</th></tr></thead><tbody><tr><td id="d83033e77">
 
 **Contract Workspace**
 
@@ -49,7 +49,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d83429e124">
+</td></tr><tr><td id="d83033e124">
 
 **Workspace used by your application**
 
@@ -61,7 +61,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d83429e151">
+</td></tr><tr><td id="d83033e151">
 
 **Email notification**
 

@@ -38,7 +38,7 @@ Health score
 
 The health score represents the percentage of definition occurrences used across the platform that did not return any findings. It is calculated as:
 
- `1 - (F / D) * 100`
+ `(1 - (F / D)) * 100`
 
  -   F: The number of findings
 -   D: The number of definition occurrences which is the total number of times a definition has been executed by the Scan Engine to generate findings.

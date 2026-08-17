@@ -7,9 +7,9 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-15"
 reading_time_minutes: 2
-breadcrumb: [Indexed source attributes, Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Enable indexing of attachments for an AI Search indexed source
@@ -25,6 +25,8 @@ Role required: ais\_admin
 By default, AI Search indexes searchable content and metadata \(such as file size and date\) for attachments found on source table records. Indexing supports the following attachment file formats:
 
 -   Active Server Page Extended \(`.aspx`\)
+-   Email Message \(`.eml`, `.msg`\)
+-   Extensible Markup Language \(`.xml`\)
 -   Hypertext Markup Language \(`.html`, `.htm`\)
 -   Microsoft Excel \(`.xls`, `.xlsx`\)
 -   Microsoft PowerPoint \(`.pot`, `.potx`, `.ppt`, `.pptm`, `.pptx`\)

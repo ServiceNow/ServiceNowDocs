@@ -1,5 +1,5 @@
 ---
-title: Create Security Operations workflow triggers
+title: Legacy: Create Security Operations workflow triggers
 description: Create a workflow trigger that contains a condition on a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-workflow-triggers.html
@@ -7,14 +7,18 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Security Operations workflow triggers, Security Operations common functionality, Security Operations]
+breadcrumb: [Legacy: Security Operations workflow triggers, Security Operations common functionality, Security Operations]
 ---
 
-# Create Security Operations workflow triggers
+# Legacy: Create Security Operations workflow triggers
 
 Create a workflow trigger that contains a condition on a table.
 
 ## Before you begin
+
+**Important:**
+
+This feature is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Security Operations contains several workflow triggers in the base system:
 
@@ -129,5 +133,5 @@ Select the filter group to use for defining workflow triggers. This field appear
 6.  Select **Update**.
 
 
-**Parent Topic:**[Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/workflow-triggers.md)
+**Parent Topic:**[Legacy: Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/workflow-triggers.md)
 

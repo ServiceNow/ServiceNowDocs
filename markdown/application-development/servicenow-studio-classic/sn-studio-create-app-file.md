@@ -32,15 +32,15 @@ Use this procedure to create files from anywhere in ServiceNow Studio. To add fi
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Select either the create icon \[Omitted image "sn-studio-add-icon.png"\] Alt text: create icon next to the Navigator panel or the **Create** button.
+2.  Select either the create icon \[Omitted image "sn-studio-add-icon.png"\] Alt text: next to the Navigator panel or the **Create** button.
 
-    \[Omitted image "sn-studio-create-button-zs1.png"\] Alt text: There are two create buttons, one on either side of the screen. Select either Create button to start developing an app.
+    \[Omitted image "sn-studio-create-button-as2.png"\] Alt text: There are two create buttons, one on either side of the screen. Select either Create button to start developing an app.
 
 3.  If an app is already open in the Navigator panel, select the create icon **+** next to any file type to create a file of that type.
 
     To create a new file of any type, select the create icon **+** next to the application name.
 
-    \[Omitted image "sn-studio-create-file-zs2.png"\] Alt text: Create files of any type from an app open in the Navigator panel.
+    \[Omitted image "sn-studio-create-file-as2.png"\] Alt text: Create files of any type from an app open in the Navigator panel.
 
 4.  Select **File**.
 
@@ -61,7 +61,7 @@ Use this procedure to create files from anywhere in ServiceNow Studio. To add fi
     -   Select from the list of **Recent** file types.
     **Note:** Available file types depend on your permissions. If you do not see a file type you expect, contact your administrator.
 
-    \[Omitted image "sn-studio-create-file-page.png"\] Alt text: The Create File page opens in a new tab so you can select the file type you want to create.
+    \[Omitted image "sn-studio-create-file-page-as2.png"\] Alt text: The Create file page opens in a new tab, where you can select the file type you want to create.
 
     For a list of all available file types, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md). For more information about each file type, see [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
 
@@ -82,7 +82,7 @@ Use this procedure to create files from anywhere in ServiceNow Studio. To add fi
 
 Select the refresh icon in the Navigator panel to display the new file in the list of app files.
 
-\[Omitted image "sn-studio-refresh-list-icon-zs1.png"\] Alt text: Refresh the Navigator panel to see the new files you created.
+\[Omitted image "sn-studio-refresh-list-as2.png"\] Alt text: Refresh the Navigator panel to see the new metadata records.
 
 **Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

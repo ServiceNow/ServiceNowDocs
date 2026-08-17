@@ -1,6 +1,6 @@
 ---
 title: Enhanced Access Control for Operational Technology
-description: Enhanced Access Control for Operational Technology \(Operational Technology\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
+description: Enhanced Access Control for Operational Technology \(OT\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-enhanced-access-control.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Operational Technology Manager, Operational Technology]
 
 # Enhanced Access Control for Operational Technology
 
-Enhanced Access Control for Operational Technology \(Operational Technology\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
+Enhanced Access Control for Operational Technology \(OT\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 
 ## Enhanced Access Control overview
 
@@ -110,7 +110,7 @@ To edit OT devices, users with the **cmdb\_ot\_editor** role should be assigned 
 </td></tr></tbody>
 </table>## Enhanced Access Control for OT CMDB CI related record tables
 
-Non-OT users can't view OT devices in the following related record OT-related CMDB CI related record tables:
+Non-OT users can't view OT devices in the following OT CMDB CI related record tables:
 
 -   IP Address \[cmdb\_ci\_ip\_address\]
 -   Network Adapter \[cmdb\_ci\_network\_adapter\]

@@ -40,5 +40,5 @@ Customize the validation process of a CI \(Configuration Item\) using the Teleco
 **Related topics**  
 
 
-[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
+[Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
 

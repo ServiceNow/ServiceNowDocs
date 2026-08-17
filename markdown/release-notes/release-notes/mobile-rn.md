@@ -126,6 +126,10 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     -   Expanded the supported file types to include all of the following: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, JPG, JPEG, PNG
     -   Field service agents can now upload attachments in the background after submitting a work order task form, eliminating wait time caused by slow or unreliable network connections. Failed uploads retry automatically, so agents can move to their next task without interruption.
+-   **[Redesigned Settings screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/manager-user-settings.md)**
+
+    Navigate the redesigned Settings screen in the Now Mobile and Mobile Agent apps to manage entries like preferences, profile, and account switching in one place. Tap the arrow next to a heading to expand or collapse its related options.
+
 
 ## Activation information
 

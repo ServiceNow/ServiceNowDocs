@@ -102,23 +102,23 @@ Store and manage all kinds of documentation for Agile teams and their work items
 
 </td></tr><tr><td>
 
-Gain insights into the page content by summarizing it or improve content quality by refining it using Now Assist.
+Gain insights into the page content by summarizing it or improve content quality by refining it using ServiceNow Otto.
 
 </td><td>
 
-[Summarize and refine Docs content in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.md)
+[Summarize and refine Docs content in EAP using ServiceNow for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.md)
 
 </td></tr><tr><td>
 
-Save time and reduce manual effort by automatically generate stories for work items using Now Assist.
+Save time and reduce manual effort by automatically generate stories for work items using ServiceNow Otto.
 
 </td><td>
 
-[Generate stories for epics and features using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)
+[Generate stories for epics and features using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)
 
 </td></tr><tr><td>
 
-Define goals at the iteration level or the team level iterations so that teams are aligned with the business value and have greater visibility into the work they contribute toward organizational objectives.
+Define goals at the iteration level or the team level iterations. Teams then align with the business value and gain greater visibility into the work they contribute toward organizational objectives.
 
 </td><td>
 

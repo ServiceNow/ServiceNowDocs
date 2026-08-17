@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-06-23"
 reading_time_minutes: 1
-breadcrumb: [Datatype ACL, ACL types, Explore Access Control Lists, Access Control Lists, Access Management]
+breadcrumb: [Datatype ACL, ACL types, Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Create a datatype ACL

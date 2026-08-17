@@ -14,10 +14,16 @@ The ServiceNow® Knowledge Graph application enables you to create and manage a 
 
 ## Knowledge Graph highlights for the Australia release
 
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
+
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
--   Knowledge Graph can now be used as a tool within MCP server console from a subset of Now Assist\[var.now-assist\] skills.
 -   Knowledge Graph now supports queries with Glidelist references.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
 -   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 -   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.
@@ -30,17 +36,26 @@ See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 ## New in the Australia release
 
+-   ****
+
+    A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
 -   **[Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ci-relationships-knowledge-graph.md)**
 
-    CI relationship support in Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+    Enables users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
 
 
 -   **[Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/tagging-in-knowledge-graph.md)**
 
-    The Knowledge landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+    The Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 
 
 ## UI changes
+
+-   ****
+
+    New Query Builder section on Knowledge Graph Designer landing page. You can also directly access it from the main menu.
 
 -   **[Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-knowledge-graph-tags.md)**
 
@@ -53,19 +68,19 @@ Knowledge Graph is a ServiceNow AI Platform feature that is active on installati
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
-    ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
+    ServiceNow®AI Admin Hub uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
 
--   **[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)**
+-   **[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)**
 
-    The Now Assist in AI Search ServiceNow® Store application combines the power of search with the Now LLM Service generative AI model to answer questions in user searches with actionable AI-generated summaries of relevant Knowledge articles.
+    The ServiceNow Otto for AI Search application combines the power of search with the Now LLM Service generative AI model to answer questions in user searches with actionable AI-generated summaries of relevant Knowledge articles.
 
 
 -   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md)**
 
-    Unlock your enterprise productivity with ServiceNow® Virtual Agent. Increase deflections by empowering your employees and customers to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.
+    Unlock your enterprise productivity with ServiceNow Otto for Virtual Agent. Increase deflections by empowering your employees and customer to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.
 
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)

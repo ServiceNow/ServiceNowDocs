@@ -1,23 +1,23 @@
 ---
-title: View your AI readiness assessment in Now Assist Center
+title: View your AI readiness assessment in AI Admin Center
 description: Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/view-ai-readiness-now-assist-center.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI, Now Assist Readiness Evaluation]
-breadcrumb: [Using Now Assist Readiness Evaluation, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using AI readiness assessments, Use, AI Admin Center, Enable AI experiences]
 ---
 
-# View your AI readiness assessment in Now Assist Center
+# View your AI readiness assessment in AI Admin Center
 
 Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance.
 
 ## Before you begin
 
-Before you can review your readiness assessments in Now Assist Center, you must first run the AI readiness assessment job. For more information, see Run the AI readiness assessment job in Now Assist Center.
+Before you can review your readiness assessments in AI Admin Center, you must first run the AI readiness assessment job. For more information, see [Run the AI readiness assessment job in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-run-assessment-job.md).
 
 Role required: sn\_na\_center.nac\_admin
 
@@ -27,7 +27,7 @@ Follow these steps to review the AI readiness assessments based on your instance
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Review the AI Readiness section of the home page to see the overall AI readiness assessment for the instance.
 
@@ -62,10 +62,10 @@ Follow these steps to review the AI readiness assessments based on your instance
 
 Resolve the reported issues to improve AI implementation readiness.
 
-**Parent Topic:**[Using Now Assist Readiness Evaluation in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
+**Parent Topic:**[Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 **Related topics**  
 
 
-[Run the AI readiness assessment job in Now Assist Center]()
+[Run the AI readiness assessment job in AI Admin Center]()
 

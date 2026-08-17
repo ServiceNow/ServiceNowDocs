@@ -37,7 +37,7 @@ If you are the BCP administrator, you can view [Setup for a business continuity 
 
 ## Creating a business continuity plan in Business Continuity Workspace
 
-if you are the business continuity plan owner, you can create a business continuity plan in Business Continuity Workspace by using one of these options:
+If you are the business continuity plan owner, you can create a business continuity plan in Business Continuity Workspace by using one of these options:
 
 -   You can navigate to the **Planning** tab in the Home page and select **Create BCP** as shown in the example.
 

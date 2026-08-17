@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use Recommendation of similar control objectives skill to generate suggestions, Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Use Recommendation of similar control objectives skill, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Review actions taken on rationalization process

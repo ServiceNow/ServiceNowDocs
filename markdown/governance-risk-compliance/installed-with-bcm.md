@@ -1,6 +1,6 @@
 ---
 title: Components installed with Business Continuity Management
-description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several scripts includes are added to your instance.Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
+description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several script includes are added to your instance.Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/installed-with-bcm.html
 release: australia
@@ -285,7 +285,7 @@ Create, read, write, and delete access to all approver configurator setup tables
 
 </td><td>
 
-**Note:** To approve an approval configuration record in the BCM application, you must have a BCM role. If you add a user with a non- BCM role to the approval process of an approval configuration record, the record may become inaccessible due to being in an inaccessible state.
+**Note:** To approve an approval configuration record in the BCM application, you must have a BCM role. If you add a user with a non-BCM role to the approval process of an approval configuration record, the record may become inaccessible due to being in an inaccessible state.
 
 </td><td>
 
@@ -933,7 +933,7 @@ For properties installed with the Business Continuity Management application, se
 
 ## Script includes in Business Continuity Management
 
-When you download the Business Continuity Management application, several scripts includes are added to your instance.
+When you download the Business Continuity Management application, several script includes are added to your instance.
 
 ### Script includes updated for the Australia release
 
@@ -952,7 +952,7 @@ When you download the Business Continuity Management application, several script
 |BCPRecordAPI|Contains the utility functions that are used in the BCP record API.|
 |BCPTemplateUtilsBase|Contains the utility functions that are used in the BCP template utilities base.|
 |BIAAjaxProcessor|Helper class to handle Ajax requests from client scripts. Implementing methods:1. To determine visibility of "Include CIA" field on BIA Template form.2. To set "Applies to table" field with source table name of primary element assessed.|
-|BIARecordAPIBase|An API built to interact with BIA records. The goal of this API is to hide the implementation details about BIA records, and provide the consumers with a structured API to retrieve and update data for BIA records.|
+|BIARecordAPIBase|An API built to interact with BIA records. The goal of this API is to hide the implementation details about BIA records. It provides a structured API to retrieve and update data for BIA records.|
 |BIAAssessmentUIBase|Utility class to support Business Impact Analysis Assessment UI pages.|
 |BIAUtil|Script to handle insert and updates on BIA table, including validationsSetting depends on table field based on dependency group element definition.|
 |BIASmartAssessmentBase|Utility class to support all Smart Assessment functionality.|

@@ -8,7 +8,7 @@ product: Workplace Central
 classification: workplace-central
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -111,4 +111,6 @@ As a move manager, create, track, and work on move projects to fulfill multiple 
 [Neighborhood User Assignment Rule form]()
 
 [User Workplace Profile form]()
+
+[Resolving custom variant issues in Workplace Central]()
 

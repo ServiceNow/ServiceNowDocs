@@ -1,5 +1,5 @@
 ---
-title: Generate an Agent Client Collector allow list
+title: Generate an Agent Client Collector allowlist
 description: Specify the checks to be included in the list of checks that are enabled to run on the agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-generate-allow-list.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Enabling ACC data collection, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Generate an Agent Client Collector allow list
+# Generate an Agent Client Collector allowlist
 
 Specify the checks to be included in the list of checks that are enabled to run on the agent.
 
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-The default allow list includes all validated checks, and is included in the base system policies. If the allow list cannot be read correctly, no checks run on the agent.
+The default allowlist includes all validated checks, and is included in the base system policies. If the allowlist cannot be read correctly, no checks run on the agent.
 
 ## Procedure
 
@@ -30,9 +30,9 @@ The default allow list includes all validated checks, and is included in the bas
 
     The **Check Definitions** page appears.
 
-2.  In the **Related Links** section at the bottom of the page, click **Generate allow list**.
+2.  In the **Related Links** section at the bottom of the page, click **Generate allow-list content**.
 
-    **Note:** Alternatively, you can click a check definition or check instance record and click **Generate allow list** to generate a complete allow list.
+    **Note:** Alternatively, you can click a check definition or check instance record and click **Generate allow-list content** to generate a complete allowlist.
 
     The **Agent Client Collector Command Allow-list Generator** page appears, with the list of checks scanned from the **Command** field of the check instance records.
 
@@ -68,8 +68,8 @@ skip\_arguments
 
 </td><td>
 
-Boolean. Determines whether to verify that the argument was added to the allow list.-   **true**: Skips argument validation and checks only for illegal characters, specifically \|;\\&lt;&gt;&amp;'$\(\)
--   **false**: Executes argument validation to ensure that the argument is included in the allow list. If it is not, the command cannot execute.
+Boolean. Determines whether to verify that the argument was added to the allowlist.-   **true**: Skips argument validation and checks only for illegal characters, specifically \|;\\&lt;&gt;&amp;'$\(\)
+-   **false**: Executes argument validation to ensure that the argument is included in the allowlist. If it is not, the command cannot execute.
 
 
 </td></tr><tr><td>
@@ -88,15 +88,17 @@ allow\_shell
 
 </td><td>
 
-Boolean. Allow for the given entry to be executed in shell mode and for check definitions to default to **execv**. -   **true**: This allow list entry permits execution in shell mode.
--   **false**: This allow list entry doesn't permit execution in shell mode.
+Boolean. Allow for the given entry to be executed in shell mode and for check definitions to default to **execv**. -   **true**: This allowlist entry permits execution in shell mode.
+-   **false**: This allowlist entry doesn't permit execution in shell mode.
 
 
 </td></tr></tbody>
-</table>3.  Copy the entries you want to include in the allow list and add them to the agent's `check-allow-list.json` file, either manually or using an automation tool.
+</table>3.  Copy the entries you want to include in the allowlist and add them to the agent's `check-allow-list.json` file, either manually or using an automation tool.
 
-    The location of this file is indicated in the **allow-list** parameter of the agent's `acc.yml` file.
+    The location of this file is indicated in the **allow-list** parameter of the agent's `acc.yml` file. The default location is:
 
+    -   Windows: `C:\ProgramData\ServiceNow\Agent Client Collector\check-allow-list.json`
+    -   Linux: `/etc/servicenow/agent-client-collector/check-allow-list.json`
 
 **Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

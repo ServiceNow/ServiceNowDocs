@@ -32,7 +32,7 @@ Use the Industrial Standards Library \(Standards hub\) to manage standards for t
 Scheduling of standards and tasks enables a proactive planning approach in manufacturing.
 -   **[Skill-based task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/skill-based-task-management.md)**  
 Use skill-based task management to assign manufacturing tasks only to workers who hold the necessary skills and certifications. This method helps reduce operational risk, supports compliance efforts, and contributes to higher job satisfaction by matching tasks to worker capabilities.
--   **[Relationship between industrial standards and published standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/relationship-industrial-published-standards.md)**  
+-   **[Industrial standards and published standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/relationship-industrial-published-standards.md)**  
 Industrial standards and published standards are stored in separate back-end tables. See how they relate. Choose the correct version of a standard depending on whether you need a specific version or the latest published one.
 -   **[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)**  
 A life cycle is the list of states that a work set standard or work set task can go through from creation to closure.

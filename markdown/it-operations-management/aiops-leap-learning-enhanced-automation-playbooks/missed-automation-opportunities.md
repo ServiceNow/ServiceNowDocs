@@ -7,23 +7,23 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 1
+last_updated: "2026-08-17"
+reading_time_minutes: 2
 keywords: [missed opportunities, LEAP, automation tracking, resolution steps, playbooks, knowledge base]
-breadcrumb: [Automation opportunities, Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Automation opportunities overview, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Missed automation opportunities
 
 Track instances where users could have benefited from generated resolution steps, knowledge base articles, or playbooks but didn't have access to them.
 
-Missed automation opportunities occur when users working on incidents that could have benefited from existing LEAP automation artifacts that aren't available.
+Missed automation opportunities occur when users working on incidents could have benefited from existing LEAP automation artifacts that aren't available.
 
 LEAP automatically logs missed opportunities when there are no artifacts recommended in Service Operations Workspace. These artifacts include resolution steps, knowledge base articles, and playbooks that could have assisted with faster incident resolution. The system helps administrators identify these gaps in automation coverage and prioritize them for future improvements.
 
 ## How missed opportunities are tracked
 
-When an incident is resolve in SOW, and the Recommendation section does not show any artifacts, the automation opportunity is marked as 'missed automation'.
+When an incident occurs and appears in SOW, and the Recommendation section of the incident does not show any artifacts, the automation opportunity is marked as 'missed automation'.
 
 Missed opportunities are logged in a dedicated table that captures:
 

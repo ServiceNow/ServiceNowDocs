@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
-reading_time_minutes: 8
+reading_time_minutes: 7
 keywords: [Amazon Connect, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, PSTN, Lambda]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Amazon Connect
@@ -32,15 +32,17 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
 2.  Find the voice assistant that you want to connect to Amazon Connect and select **Edit**.
 
-3.  Select **Communication channels** from the guided setup navigation.
+3.  Select the **Settings** tab.
 
-4.  In the **Provider application** field, select the provider application to deploy the voice assistant to.
+4.  Select **Communication channels** from the guided setup navigation.
 
-5.  Select the **Telephony provider** tab.
+5.  In the **Provider application** field, select the provider application to deploy the voice assistant to.
 
-6.  From the **Select communication channels** dropdown, select **Public Switched Telephone Network \(PSTN\)**.
+6.  Select the **Telephony provider** tab.
 
-7.  From the **CCaaS provider** dropdown, select **Amazon Connect**.
+7.  From the **Communication channels** dropdown, select **Public Switched Telephone Network \(PSTN\)**.
+
+8.  From the **CCaaS provider** dropdown, select **Amazon Connect**.
 
     The following read-only fields are generated in the **Call context service** section. Copy and save these values — you will need them to configure the integration on the Amazon Connect side.
 
@@ -55,19 +57,23 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
     Also note the voice service `sys_id`, which you can find in the URL when viewing the voice service record. You will need this value in the Amazon Connect configuration steps.
 
-8.  Enable context data persistence for the voice service.
+9.  Enable context data persistence for the voice service.
 
-    1.  Navigate to `sys_now_assist_deployment_config_attributes.list`.
+    1.  Navigate to `sys_now_assist_deployment_config_attributes.list` and check whether a `persist_context_data` attribute exists for your voice service.
 
-    2.  Filter the list to find the configuration attribute records for your voice service.
-
-    3.  Locate the attribute named `persist_context_data` and change its value from `false` to `true`.
+    2.  If the attribute exists, open it and set **Value** to `true`.
 
         This setting allows the Lambda function to retrieve interaction context data from ServiceNow after the voice assistant completes the call.
 
-        \[Omitted image "voice-agents-amazon-connect-persist-context-data.png"\] Alt text: The persist\_context\_data configuration attribute record for the voice service with its value set to true.
+        \[Omitted image "voice-agents-persist-context-data.png"\] Alt text: The persist\_context\_data configuration attribute record for the voice service with its value set to true.
 
-9.  In your AWS account, create the Lambda function that connects Amazon Connect to the voice assistant.
+    3.  If the attribute does not exist, navigate to `sys_now_assist_deployment_config.list`, open your voice assistant's deployment configuration record, and copy its `sys_id`.
+
+        To copy the `sys_id`, right-click the record header bar and select **Copy sys\_id**.
+
+    4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
+
+10. In your AWS account, create the Lambda function that connects Amazon Connect to the voice assistant.
 
     1.  From the AWS console, create a new Lambda function.
 
@@ -115,7 +121,7 @@ The name portion of your ServiceNow instance URL. For example, `myinstance`, not
 
 </td><td>
 
-The base path for OAuth credentials in AWS Parameter Store: `/com.servicenow.cti/<sn-instance-id>/<voice-service-id>`. Set after completing the Parameter Store setup in the following steps.
+The base path for OAuth credentials in AWS Parameter Store: `/com.servicenow.cti/<sn-instance-id>`.
 
 </td></tr><tr><td>
 
@@ -181,7 +187,7 @@ Client Secret from the ServiceNow voice service configuration.
 
         In the Lambda console, navigate to the Lambda function and select **Layers**. Add the AWS layer `AWSLambdaPowertoolsTypeScriptV2`, version 2.33.0 or later.
 
-10. Import and configure the Amazon Connect contact flow.
+11. Import and configure the Amazon Connect contact flow.
 
     1.  In your Amazon Connect instance, create a new contact flow by importing the Voice AI inbound flow JSON.
 
@@ -189,17 +195,19 @@ Client Secret from the ServiceNow voice service configuration.
 
         In the Amazon Connect console, navigate to **Routing** &gt; **Flows**, select **Create flow**, then use the import option. Replace all placeholder values with your own before importing.
 
-    2.  In the first AWS Lambda function block of the contact flow, set the function ARN to the Lambda you created and set the `voice_service_id` input parameter to the `sys_id` of the voice service.
+        \[Omitted image "voice-agents-amazon-connect-contact-flow.png"\] Alt text: The imported Voice AI inbound contact flow showing two AWS Lambda function blocks and a Transfer to phone number block.
 
-    3.  In the second AWS Lambda function block, set the function ARN to the same Lambda function.
+    2.  In both AWS Lambda function blocks, set the function ARN to your Lambda and set the `voice_service_id` parameter to the voice service `sys_id`.
 
-    4.  Save and publish the contact flow.
+        \[Omitted image "voice-agents-amazon-connect-lambda-block.png"\] Alt text: The Destination Key dialog in an AWS Lambda function block showing the voice\_service\_id key with its value set to the voice service sys\_id.
+
+    3.  Save and publish the contact flow.
 
         **Note:** When Amazon Connect transfers the call to ServiceNow, the contact flow must pass the original caller's phone number as the caller ID. Verify that your contact flow is configured to preserve the original caller ID during the transfer, not the Amazon Connect transfer number.
 
         \[Omitted image "voice-agents-amazon-connect-transfer-block.png"\] Alt text: The Transfer to phone number block configured with Transfer to set dynamically using the pstnNumber contact attribute, and Resume flow after disconnect set to Yes.
 
-11. Associate a phone number with the contact flow.
+12. Associate a phone number with the contact flow.
 
     1.  In the Amazon Connect service dashboard, navigate to **Channels** &gt; **Phone numbers**.
 

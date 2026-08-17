@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-
 release: australia
 topic_type: task
 last_updated: "2026-05-29"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Create subflow tool type for MCP server]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
@@ -21,7 +21,7 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 Perform these steps before creating a tool:
 
-1.  Create a subflow in Flow Designer using supported input and output data types. See  to learn more.
+1.  Create a subflow in Flow Designer using supported input and output data types. See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md) to learn more.
 2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create AI ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-acl.md) to learn more.
 3.  Confirm the compatibility status in the staging table. See [Check compatibility of Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
 4.  Register the component as a tool within the MCP Server.
@@ -79,6 +79,16 @@ Description
 The description of what the tool intends to do. This input is exposed to AI clients and used to determine when to call this tool.
 
 **Note:** Admins must add specific and action-oriented description as the AI clients access it to decide when to invoke the tool.
+
+</td></tr><tr><td>
+
+Annotations
+
+</td><td>
+
+Indication of the tool's behavior with MCP clients, including whether it only reads data, is idempotent, makes destructive changes or updates, or can call external links. You can also specifically combine these annotations as needed.
+
+ The MCP client will use the selected annotations to categorise tools according to their behavior.
 
 </td></tr><tr><td>
 

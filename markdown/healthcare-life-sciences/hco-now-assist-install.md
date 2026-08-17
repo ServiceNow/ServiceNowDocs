@@ -1,30 +1,30 @@
 ---
-title: Install Now Assist for Care Team Operations
-description: Install the Now Assist for Care Team Operations application \[sn\_cto\_now\_assist\].
+title: Install ServiceNow Otto for Care Team Operations
+description: Install the ServiceNow Otto for Care Team Operations application \[sn\_cto\_now\_assist\].
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
-# Install Now Assist for Care Team Operations
+# Install ServiceNow Otto for Care Team Operations
 
-Install the Now Assist for Care Team Operations application \[sn\_cto\_now\_assist\].
+Install the ServiceNow Otto for Care Team Operations application \[sn\_cto\_now\_assist\].
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** Now Assist for Care Team Operations capabilities require HCLS Prime or HCLS Advanced scoped applications.
+**Note:** ServiceNow Otto for Care Team Operations capabilities require HCLS Prime or HCLS Advanced scoped applications.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Now Assist for Care Team Operations application \[sn\_cto\_now\_assist\] using the filter criteria and search bar.
+2.  Find the ServiceNow Otto for Care Team Operations application \[sn\_cto\_now\_assist\] using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store. Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 

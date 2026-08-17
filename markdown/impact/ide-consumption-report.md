@@ -1,16 +1,16 @@
 ---
-title: Consumption Report
+title: Consumption Report in Impact Delivery Instance
 description: Get an overview of your Impact tier features and their usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/ide-consumption-report.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Using Impact, Impact]
+reading_time_minutes: 1
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
-# Consumption Report
+# Consumption Report in Impact Delivery Instance
 
 Get an overview of your Impact tier features and their usage.
 
@@ -20,9 +20,7 @@ The Consumption Report filters usage to an adjustable specific period of time, a
 
 **Note:** Impact Guided customers will not see the Premium role or Advisory Sessions section.
 
-## Impact Delivery Instance Consumption Report
-
-To access the Consumption Report in Impact Delivery Instance, navigate to**Impact** &gt; **Impact Benefits &amp; Usage** &gt; **Consumption Report**.
+You can find this report within the Impact menu under **Impact &gt; Impact Benefits &amp; Usage**.
 
 <table id="table_thg_wf5_gwb"><thead><tr><th>
 
@@ -54,7 +52,7 @@ Other Initiatives
 
 </td><td>
 
-Identify unused or underused Accelerators by reviewing the status details for ongoing, completed, and not yet started Initiatives associated with your plan.View Accelerator details including name, owner, state, creation and completion dates.
+Identify unused or underused initiatives by reviewing the status details for ongoing, completed, and not yet started Initiatives associated with your plan.View initiative details including name, owner, state, creation and completion dates.
 
 </td></tr><tr><td>
 
@@ -68,61 +66,11 @@ Check the overview of additional features including:-   Enhanced case response t
 -   Users with premium access
 
 </td></tr></tbody>
-</table>## Impact Store Application Consumption Report
+</table>## Upgrade to the Impact Store Application
 
-To access the Consumption Report in Impact store application, navigate to **All** &gt; **Impact** &gt; **Consumption Report**, and then select the **Consumption Report** menu item in the Impact workspace.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
 
-<table id="table_k1r_nz3_dhc"><thead><tr><th>
+**Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-Report
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-**Accelerator and initiatives Usage**
-
-</td><td>
-
-Identify unused or underused Accelerators by reviewing the status details for ongoing, completed, and not yet started Accelerators and Initiatives associated with your plan.The In progress usage section provides an overview of the number of Architecture, Strategy, and Technical Accelerators that are currently in use or remain unused.
-
-</td></tr><tr><td>
-
-**Company Active cases breakdown**
-
-</td><td>
-
-Track the number of active Now Support cases for your company by priority level ranging from P1 \(Severe\) to P4 \(Low\). Links enable you to access details for the cases in the case level groups on the Now Support portal.
-
-</td></tr><tr><td>
-
-**Enhanced Case Response Time**
-
-</td><td>
-
-Check the overview of the enhanced case response time for Impact P1 and P2 support cases for your account. The **View response time** link provides access to a case list on the Now Support portal.
-
-</td></tr><tr><td>
-
-**Instance Observer Users**
-
-</td><td>
-
-View the Instance observer seats that grant users the ability to monitor, analyze and gain insights from ServiceNow instances.
-
- View additional details about Instance Observer users such as username, access status, locked status, and access permissions by selecting the **View Users** link.
-
-</td></tr><tr><td>
-
-**Developer Support Users**
-
-</td><td>
-
-See who is available to assist with real-troubleshooting and get timely support for issues with your customizations by viewing detailed information on your developer support user seats.View additional details about developer support users such as username, access status, locked status, and access permissions by selecting the **View Users** link.
-
-**Note:** Impact developer support users are managed in Impact Delivery Instance. For more information, see [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md).
-
-</td></tr></tbody>
-</table>

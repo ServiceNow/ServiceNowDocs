@@ -27,7 +27,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager or admin
     1.  Install Manufacturing recall claim management \[sn\_rcl\_claim\_mgmt\]: [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-manufacturing-commercial-operations-core.md).
     2.  Set up product models and parts: and [Configure product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-product-model.md).
     3.  Set up assets and install base items: [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-assets.md) and [Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-install-base-item.md).
-    4.  Set up dealers: [Dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-dealer-setup.md)
+    4.  Set up dealers: [Set up Dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-dealer-setup.md)
     5.  Assign recall roles: [Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/assign-mco-roles.md).
 3.  Work with recall campaign \(OEM\): Use the Agents \(CSM/FSM\) workspace to create and manage recall campaigns, phases, and claims.
 

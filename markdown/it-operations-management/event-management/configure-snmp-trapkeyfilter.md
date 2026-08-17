@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure event collection for SNMP traps, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure event collection for SNMP traps, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure message keys to spread SNMP object identifiers

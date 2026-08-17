@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Refresh impacted services and CIs for Change, Process a change request, Use, Change Management, IT Service Management]
 ---
 
@@ -23,6 +23,8 @@ By configuring these properties, you can control the capabilities, such as:
 -   Populate Service Offerings and Business Applications from the Impacted Services related list.
 
 The following properties can be found in sys\_properties.list and on the Change properties page.
+
+The `com.snc.change_request.populate_service-offering` and `com.snc.change_request.populate_business_application` properties rely on CMDB relationships between the impacted service and its service offerings or business applications. For an offering or application to be added it its related list, it must be associated with an impacted configuration item identified by the refresh process. For more information on how, affected CIs roll up to impacted services, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 <table id="table_ydl_qdx_v4b"><thead><tr><th>
 
@@ -68,6 +70,7 @@ If this property is set to true, then the `ChangeCollisionHelper` script include
 
 </td><td>
 
+-   When true, the Service Offerings related list is populated from the Impacted Services/CIs related list. A service offering is added only when it has a Depends on and Used by relationship with an impacted service in the CMDB. Offerings without this relationship to an impacted service are not added.
 -   When false, the related list is not populated or amended in any way.
 
 </td></tr><tr><td>

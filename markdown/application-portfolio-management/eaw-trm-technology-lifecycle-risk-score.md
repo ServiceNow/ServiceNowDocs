@@ -1,6 +1,6 @@
 ---
 title: Technology lifecycle risk score in Enterprise Architecture Workspace
-description: The Technology Portfolio Management \(TPM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
+description: The Technology Lifecycle Management \(TLM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.html
 release: australia
@@ -12,11 +12,17 @@ breadcrumb: [Rationalization of business applications, Exploring Enterprise Arch
 
 # Technology lifecycle risk score in Enterprise Architecture Workspace
 
-The Technology Portfolio Management \(TPM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
+The Technology Lifecycle Management \(TLM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
 
 ## Technology lifecycle risk scores
 
-Technologies without lifecycle data, or that have passed all lifecycle milestones, receive the maximum risk score of 100. Technologies more than 18 months from their next milestone receive a risk score of 0. Between those extremes, the score scales by proximity to the next milestone and by which milestone type is approaching — with end of life weighted more heavily than end of support.
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
+
+Technologies without lifecycle data, or that have passed all lifecycle milestones, receive the maximum risk score of 100. Technologies more than 18 months from their next milestone receive a risk score of 0. Between those extremes, the score scales by proximity to the next milestone and by which milestone type is approaching. End of life is weighted more heavily than end of support.
 
 Two scheduled jobs must complete before lifecycle risk scores are available in Enterprise Architecture Workspace: one to discover technologies and link them to lifecycle records, and one to calculate the risk scores from those records.
 
@@ -24,13 +30,13 @@ Two scheduled jobs must complete before lifecycle risk scores are available in E
 
 |Table|Label|Description|
 |-----|-----|-----------|
-|sn\_apm\_tpm\_discovered\_technology|TPM Discovered Technologies|Links each discovered technology to a business application, application service, server CI, and lifecycle record. Populated by the data collection scheduled job.|
-|sn\_apm\_tpm\_technology\_lifecycle|TPM Technology Lifecycle|Holds the lifecycle milestone dates for each software product or hardware model: end-of-support date, end-of-extended-support date, and end-of-life date.|
-|sn\_apm\_tpm\_technology\_risk|TPM Technology Risk|Stores the calculated risk score per technology, per application service, and per business application. Distinguished by the Table name \[table\_name\] field.|
+|sn\_apm\_tpm\_discovered\_technology|TLM Discovered Technologies|Links each discovered technology to a business application, application service, server CI, and lifecycle record. Populated by the data collection scheduled job.|
+|sn\_apm\_tpm\_technology\_lifecycle|TLM Technology Lifecycle|Holds the lifecycle milestone dates for each software product or hardware model: end-of-support date, end-of-extended-support date, and end-of-life date.|
+|sn\_apm\_tpm\_technology\_risk|TLM Technology Risk|Stores the calculated risk score per technology, per application service, and per business application. Distinguished by the Table name \[table\_name\] field.|
 
 ## Lifecycle milestone fields
 
-The risk calculation uses the following date fields from the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table.
+The risk calculation uses the following date fields from the TLM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table.
 
 |Field|Meaning|
 |-----|-------|
@@ -41,14 +47,14 @@ The risk calculation uses the following date fields from the TPM Technology Life
 
 ## Data collection
 
-The **Populate TPM Discovered Technologies and Lifecycles** scheduled job traverses CMDB and Service Mapping relationships to create records in the TPM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table. Each record links a discovered technology to:
+The **Populate TLM Discovered Technologies and Lifecycles** scheduled job traverses CMDB and Service Mapping relationships to create records in the TLM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table. Each record links a discovered technology to:
 
 -   A business application \(cmdb\_ci\_business\_app\)
 -   An application service \(cmdb\_ci\_service\)
 -   A server or host CI \(cmdb\_ci\)
 -   A technology lifecycle record \(sn\_apm\_tpm\_technology\_lifecycle\)
 
-Without this job, no lifecycle dates are available for risk calculation. For instructions on running the job, see [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+Without this job, no lifecycle dates are available for risk calculation. For instructions on running the job, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## Risk score calculation
 
@@ -84,7 +90,7 @@ The base score reflects how much time remains before the next milestone.
 
 The maximum possible score from the formula is 80 \(base score 20 × multiplier 4, when a technology is within 30 days of its end-of-life date\). The absolute maximum of 100 applies only when all lifecycle dates have passed or no lifecycle data exists.
 
-Scores are stored per fiscal period in the TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table.
+Scores are stored per fiscal period in the TLM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table.
 
 **Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
@@ -98,15 +104,15 @@ This example shows how the risk score is calculated for a single technology.
 |Next milestone type|End of Life \(EOL\)|The approaching date is the End of life date \[eol\_date\].|
 |Base score|10|60 days falls in the 31–90 day range.|
 |Multiplier|4|EOL carries the highest multiplier.|
-|Risk score|40|10 × 4 = 40. Stored in the TPM Technology Risk table \[sn\_apm\_tpm\_technology\_risk.risk\_score\].|
+|Risk score|40|10 × 4 = 40. Stored in the TLM Technology Risk table \[sn\_apm\_tpm\_technology\_risk.risk\_score\].|
 
 ## Risk score aggregation
 
-After individual technology risk scores are calculated, the scores aggregate up the hierarchy by summation. All three levels are stored in the TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table, distinguished by the table name \[table\_name\] field.
+After individual technology risk scores are calculated, the scores aggregate up the hierarchy by summation. All three levels are stored in the TLM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table, distinguished by the table name \[table\_name\] field.
 
 |Level|Table name \[table\_name\] value|How the score is computed|
 |-----|--------------------------------|-------------------------|
-|Technology|TPM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table|Individual risk score from the two-factor formula mentioned earlier.|
+|Technology|TLM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table|Individual risk score from the two-factor formula mentioned earlier.|
 |Application Service|Application Service \[cmdb\_ci\_service\] table|Sum of all technology risk scores associated with that application service.|
 |Business Application|Business Application \[cmdb\_ci\_business\_app\] table|Sum of all technology risk scores across all application services linked to the business application.|
 
@@ -166,7 +172,7 @@ The lifecycle risk score for the selected application appears alongside other in
 
 [Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-indicator-score.md)
 
-[Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
+[Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
 
 [Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-scoring-profiles.md)
 

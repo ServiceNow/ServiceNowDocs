@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 2
+breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View event rules
@@ -22,7 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+
+To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 

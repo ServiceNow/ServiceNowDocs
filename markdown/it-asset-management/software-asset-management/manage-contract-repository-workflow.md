@@ -31,7 +31,7 @@ The AI agent uses the Now Assist contract metadata extraction skill to extract k
 
 The following workflow explains the metadata extraction and contract reminder setup process.
 
-1.  As a Contract Admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the contract metadata extraction skill and the contract obligation extraction skill in the Now Assist Admin console.
+1.  As a Contract Admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the contract metadata extraction skill and the contract obligation extraction skill in the AI Admin Hub console.
 
     For more information, see [Configure the manage contract repository agentic workflow for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.md).
 

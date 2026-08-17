@@ -45,3 +45,5 @@ Role required: admin
 
 The Sensor is deregistered, and the Sensor is reset to the default network configuration, which is the DHCP with the link-local fallback.
 
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+

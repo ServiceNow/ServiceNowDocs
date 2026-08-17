@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitLab.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d337717e97">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d343542e97">
 
 Option
 
-</th><th align="left" id="d337717e100">
+</th><th align="left" id="d343542e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d337717e106">
+</th></tr></thead><tbody><tr><td id="d343542e106">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitLab as coding tool, you'd select GitLab under the **Code** category.
 
 
-</td></tr><tr><td id="d337717e136">
+</td></tr><tr><td id="d343542e136">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitLab as coding tool, you'd select GitLab under the **Code** category.
 
 
-</td></tr><tr><td id="d337717e191">
+</td></tr><tr><td id="d343542e191">
 
 **Tools module**
 

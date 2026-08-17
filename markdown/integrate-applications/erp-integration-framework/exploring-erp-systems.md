@@ -17,9 +17,17 @@ breadcrumb: [Explore, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 Create an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to connect to an external ERP system.
 
-In Zero Copy Connector for ERP, an ERP system is a configuration record that represents a connection to a specific section or domain of your external ERP system of record, for example, SAP ECC. The record contains information that tells the ServiceNow AI Platform where to connect and how to communicate with your ERP, using a connection and credential alias.
+In Zero Copy Connector for ERP, an ERP system is a configuration record that represents a connection to a specific section or domain of your external ERP system. The record contains information that tells the ServiceNow AI Platform where to connect and how to communicate with your ERP, using a connection and credential alias.
 
-Each ERP system record organizes the connection to the system of record and points to ERP data rather than copying it. Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform; it mirrors data that lives in the ERP system of record, where it remains protected.
+The following ERP systems are supported:
+
+-   SAP ECC
+-   SAP S/4HANA
+-   SAP S/4HANA Cloud
+-   SuccessFactors
+-   Workday
+
+Each ERP system record organizes the connection to the ERP system and points to ERP data rather than copying it. Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform; it mirrors data that lives in the ERP system, where it remains protected.
 
 You can have multiple ERP system records on one instance \(license-dependent\). Once created, each system is regularly pinged to confirm that the connection is healthy.
 

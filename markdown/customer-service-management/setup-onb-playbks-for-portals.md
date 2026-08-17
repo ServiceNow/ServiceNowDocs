@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+reading_time_minutes: 2
+breadcrumb: [Portal, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set up predefined Playbooks for Portals
@@ -27,7 +27,7 @@ Plugins required:
 -   Case Playbook for Onboarding: sn\_onboarding \(required if you need the predefined playbook experience\)
 -   Case Playbook for Product Support: sn\_product \(required if you want to use the product case playbook and record generator\)
 
-Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md).
+Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Summary of steps for setting up predefined Playbooks for Portals
 
@@ -44,7 +44,7 @@ You can set up Playbooks for Portals using the following high level steps.
 
 [Set up custom Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-playbooks-for-portals.md)
 
-[Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbooks-for-portals.md)
+[Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbooks-for-portals.md)
 
 [Using Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-playbooks-for-portals.md)
 

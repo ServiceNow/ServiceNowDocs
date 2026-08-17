@@ -50,12 +50,12 @@ Enabled by default for the following when AI Search is activated:-   Global sear
 
 </td></tr><tr><td>
 
-Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search results from Knowledge article.
+Q&amp;A Genius Results - Provides concise, actionable answers search results from Knowledge article.
 
 </td><td>
 
--   Legal Counsel Center - Enabled by default when AI Search and Now Assist for Legal Service Delivery \(LSD\) both are activated.
--   Global search - Enable it manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enabling-now-assist-qa-grs.md).
+-   Legal Counsel Center - Enabled by default when AI Search and ServiceNow Otto for Legal Service Delivery \(LSD\) both are activated.
+-   Global search - Enable it manually. For more information, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enabling-now-assist-qa-grs.md).
 -   Employee Center - Enable it manually. For more information, see [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-qa-activate.md)
 
 </td></tr></tbody>
@@ -63,5 +63,5 @@ Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search 
 
 -   [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ZingTextSearch.md)
 -   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Playbooks for Portals
+title: Portal
 description: With Customer Service Management \(CSM\) playbooks on service portals, you get the step-by-step guidance for the case flow process and the contextual information that you need to successfully complete each stage of the flow and its associated activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/playbooks-for-portals.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Playbooks for Portals
+# Portal
 
 With Customer Service Management \(CSM\) playbooks on service portals, you get the step-by-step guidance for the case flow process and the contextual information that you need to successfully complete each stage of the flow and its associated activities.
 

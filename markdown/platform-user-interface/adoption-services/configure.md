@@ -20,7 +20,15 @@ Configure Dynamic Guidance to be available in the Help Center and Now Assist pan
 
 Role required: sn\_dyn\_guidance\_admin and sn\_nowassist\_admin.nsa\_admin
 
-**Note:** By default, Dynamic Guidance as a skill is active for applicable users but not accessible. The admin \(with role sn\_dyn\_guidance\_admin\) must assign sn\_dyn\_guidance\_user role to users who can access Dynamic Guidance.
+**Note:**
+
+-   By default, Dynamic Guidance as a skill is active for applicable users but not accessible. The admin \(with role sn\_dyn\_guidance\_admin\) must assign sn\_dyn\_guidance\_user role to users who can access Dynamic Guidance.
+-   When sn\_dyn\_guidance\_user role is assigned, it also includes the genai\_admin role.
+
+**Note:** The genai\_admin role does not grant administrative privileges.
+
+
+.
 
 Follow these steps to enable Dynamic Guidance on Help Center and Now Assist panel:
 
@@ -28,14 +36,14 @@ Follow these steps to enable Dynamic Guidance on Help Center and Now Assist pane
 
 1.  Log in to the relevant instance.
 
-2.  Navigate to **Now Assist Admin**.
+2.  Navigate to **ServiceNow Otto Admin**.
 
-3.  Select **Platform** &gt; **Knowledge** under **Now Assist Skills**.
+3.  Select **Platform** &gt; **Knowledge** under ServiceNow Otto Skills.
 
 4.  Search for **Dynamic guidance** and select **Activate skills**.
 
     -   Dynamic Guidance gets enabled on Help Center.
-    -   External Content Connectors\(XCC\) ServiceNow Docs plugin is automatically installed as a dependency. This ensures that the XCC infrastructure for documentation search is available.
+    -   External Content Connectors\(XCC\) ServiceNow Docs plugin is automatically installed as a dependency. This verifies that the XCC infrastructure for documentation search is available.
 
 ## What to do next
 

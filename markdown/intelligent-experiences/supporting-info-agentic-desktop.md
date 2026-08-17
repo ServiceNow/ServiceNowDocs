@@ -20,7 +20,7 @@ Support for adaptive desktop actions is added from Australia Patch 2.
 
 ## Supported user interfaces
 
-To design and run AI-powered desktop actions using Now Assist AI agents, install the AI Desktop Actions application. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
+To design and run AI-powered desktop actions using ServiceNow AI agents, install the AI Desktop Actions application. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
 
 ## Licensing requirements
 
@@ -31,6 +31,6 @@ The AI Desktop Actions application requires a ServiceNow Pro Plus or Enterprise 
 This app has the following dependencies:
 
 -   AI Desktop Actions Core \(sn\_desktop\_core\)
--   Now Assist AI web agents \(sn\_naa\)
--   Now Assist AI agents
+-   ServiceNow Otto AI web agents \(sn\_naa\)
+-   ServiceNow AI agents
 

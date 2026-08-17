@@ -159,7 +159,7 @@ Filter choices
 
 </td><td>
 
-Option to use the Virtual Agent Designer condition builder or provide a script. Select one of the following:
+Option to use the condition builder or provide a script. Select one of the following:
 
 -   **Condition Builder**: Creates a filter used to select a subset of records from the table.
 -   **Script**: Defines the enumeration list for the options \(choice list\) to be displayed. The name-value pair is stored as a string object.
@@ -268,12 +268,12 @@ Skip reprompting if
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
 
 </td></tr></tbody>
 </table>## Example Dynamic Choice user input control for LLM topic discovery
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_uby_wtv_zzb"><thead><tr><th>
 
@@ -412,7 +412,7 @@ Filter choices
 
 </td><td>
 
-Option to use the Virtual Agent Designer condition builder or provide a script. Select one of the following:
+Option to use the condition builder or provide a script. Select one of the following:
 
 -   **Condition Builder**: Creates a filter used to select a subset of records from the table.
 -   **Script**: Defines the enumeration list for the options \(choice list\) to be displayed. The name-value pair is stored as a string object.
@@ -521,12 +521,12 @@ Skip reprompting if
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
 
 </td></tr></tbody>
 </table>## Example Dynamic Choice user input control for NLU topic discovery
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 The dynamic choice list displays 10 items per page. When 10 or more results are returned:
 
@@ -601,7 +601,7 @@ The script in the Choice Value Expression property defines and returns an array 
 |-------|-----------|-------------------|-----------|
 |Web UI|Not supported|Supported|None|
 |Mobile UI|Not supported|Supported|None|
-|Now Assist panel|Not supported|Supported|None|
+|ServiceNow Otto panel|Not supported|Supported|None|
 |Microsoft Teams|Supported|Supported|None|
 |Slack|Not supported|Supported|Header cards aren’t supported.|
 |Workplace|Not supported|Supported|Header cards aren’t supported.|

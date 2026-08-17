@@ -55,3 +55,5 @@ The Sensor is no longer displayed on the Discovery Sensor for OT list page. Exis
 
 **Important:** If you remove a lost Sensor from the Console, it may still be powered on and operating at its installed location. Verify that the Sensor is properly powered down and removed from the field after removing them from the Console. If a lost Sensor is found to be operational after having been removed and must be reinstalled on the network, you must contact the Technical Support team for assistance in reconfiguring the Sensor.
 
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+

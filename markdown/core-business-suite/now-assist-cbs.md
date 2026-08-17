@@ -1,39 +1,39 @@
 ---
-title: Now Assist for Core Business Suite
-description: Now Assist for Core Business Suite supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.
+title: ServiceNow Otto for Core Business Suite \(CBS\)
+description: ServiceNow Otto for Core Business Suite \(CBS\) supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/now-assist-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-22"
 reading_time_minutes: 4
-breadcrumb: [Configure Core Business Suite using Now Assist, Configure, Core Business Suite]
+breadcrumb: [Configure Core Business Suite using Otto, Configure, Core Business Suite]
 ---
 
-# Now Assist for Core Business Suite
+# ServiceNow Otto for Core Business Suite \(CBS\)
 
-Now Assist for Core Business Suite supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.
+ServiceNow Otto for Core Business Suite \(CBS\) supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.
 
-## Now Assist for Core Business Suite overview
+## ServiceNow Otto for Core Business Suite \(CBS\) overview
 
-Now Assist for Core Business Suite overview describes how the conversational setup experience is implemented using Now Assist panel, AI agents, skills, and tools. Now Assist maintains context across setup steps and reflects the current system state to help guide configuration activities through a structured conversational flow.
+ServiceNow Otto for Core Business Suite \(CBS\) overview describes how the conversational setup experience is implemented using Now Assist panel, AI agents, skills, and tools. Now Assist maintains context across setup steps and reflects the current system state to help guide configuration activities through a structured conversational flow.
 
-## Now Assist for Core Business Suite conversational flow
+## ServiceNow Otto for Core Business Suite \(CBS\) conversational flow
 
-Now Assist for Core Business Suite conversational flow guides administrators through Core Business Suite setup using an interactive, chat‑based experience. The conversational flow provides context-based recommendations, displays default configurations, and dynamically triggers setup tasks such as intake form creation, role assignment, and notification configuration. This guided approach can help reduce setup effort and might enable faster completion of Core Business Suite business unit configurations.
+ServiceNow Otto for Core Business Suite \(CBS\) conversational flow guides administrators through Core Business Suite setup using an interactive, chat‑based experience. The conversational flow provides context-based recommendations, displays default configurations, and dynamically triggers setup tasks such as intake form creation, role assignment, and notification configuration. This guided approach can help reduce setup effort and might enable faster completion of Core Business Suite business unit configurations.
 
 The flow adapts based on completed steps and current configuration status, helping administrators move through the setup in a logical sequence.
 
 ## AI Skills
 
-The following AI skills are available in Now Assist for Core Business Suite:
+The following AI skills are available in ServiceNow Otto for Core Business Suite \(CBS\):
 
 -   Next Best Action: Identifies the next setup task based on the current configuration state. Recommendations update as the setup progresses and additional configuration steps are available.
 -   Error Resolution: Provides contextual guidance when a configuration step doesn’t complete successfully. The skill displays possible actions that might help address common setup issues and continue the setup process.
 
 ## AI capabilities
 
-The following generative AI capabilities are available in Now Assist for Core Business Suite:
+The following generative AI capabilities are available in ServiceNow Otto for Core Business Suite \(CBS\):
 
 -   Conversational Setup Guidance: Guides administrators through Core Business Suite business unit setup steps using the Now Assist panel conversational interface.
 -   Contextual Awareness: Maintains awareness of completed setup steps and installed business units, enabling administrators to continue configuration from the current setup state.
@@ -60,8 +60,8 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 
--   **[Agentic Workflow in Now Assist for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/using-ai-agent-workflows-na-cbs.md)**  
-Agentic workflow in Now Assist for Core Business Suite supports the Core Business Suite setup process through a conversational interface.
+-   **[Agentic Workflow in ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/using-ai-agent-workflows-na-cbs.md)**  
+Agentic workflow in ServiceNow Otto for Core Business Suite \(CBS\) supports the Core Business Suite setup process through a conversational interface.
 -   **[Configure groups and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-groups.md)**  
 Configure groups and roles for Core Business Suite business units through the Now Assist conversational experience.
 -   **[Create a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/create-notification-using-na.md)**  
@@ -73,5 +73,5 @@ Upload records in bulk for Core Business Suite business units through the Now As
 -   **[Bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/manage-bulk-edit-using-na.md)**  
 Edit records in bulk for Core Business Suite business units through the Now Assist conversational experience.
 
-**Parent Topic:**[Configure Core Business Suite using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)
+**Parent Topic:**[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)
 

@@ -19,15 +19,15 @@ Learn more about the Legal Conflict of Interest application through a sample wor
 
 ## Legal Conflict of Interest overview
 
-The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of Now Assist in Virtual Agent or intake form available in the Employee Center. The Requests are evaluated against predefined risk factors to calculate an overall risk score. Based on this score, requests are routed to the appropriate approval workflow for faster resolution.
+The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center. The Requests are evaluated against predefined risk factors to calculate an overall risk score. Based on this score, requests are routed to the appropriate approval workflow for faster resolution.
 
-**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
+**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
 
-For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
+For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
 
 ## Risk assessment
 
-When an employee submits a COI disclosure—either through the Employee Center intake form or via Now Assist in Virtual Agent conversational intake—the risk assessment utility evaluates the submission against a set of predefined risk factors. Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing.
+When an employee submits a COI disclosure—either through the Employee Center intake form or via ServiceNow Otto in Virtual Agent conversational intake—the risk assessment utility evaluates the submission against a set of predefined risk factors. Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing.
 
 The risk level determines whether the request needs approval or can be auto-approved.
 
@@ -96,11 +96,11 @@ Users
 
 </th></tr></thead><tbody><tr><td>
 
-Submit COI request using natural language from the conversational interface of Now Assist in Virtual Agent.This is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application.
+Submit COI request using natural language from the conversational interface of ServiceNow Otto in Virtual Agent.This is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application.
 
 </td><td>
 
-[Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
+[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
 
 </td><td>
 

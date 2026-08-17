@@ -20,6 +20,8 @@ Role required: admin
 
 Verify that custom scripts have proper error handling to avoid issues. Without proper error handling, failing customized scripts can help prevent subsequent scripts from executing.
 
+**Note:** After your clone completes, you can monitor the execution status of each cleanup script on the target instance. See [Monitor cleanup script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitor-cleanup-script-execution.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Home**.
@@ -56,6 +58,10 @@ To create a cleanup script to disable emails, do the following.
 
 -   Select **Update**.
 
+## What to do next
+
+After your clone completes, go to the target instance to monitor cleanup script execution and retry any failed scripts. See [Monitor cleanup script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitor-cleanup-script-execution.md).
+
 ## Cleanup scripts \(lists and forms\)
 
 Use cleanup scripts to modify data after your clone completes.
@@ -63,6 +69,8 @@ Use cleanup scripts to modify data after your clone completes.
 ### Before you begin
 
 Role required: admin
+
+**Note:** For current versions of the Clone Admin Console, you can monitor cleanup script execution after a clone. See [Monitor cleanup script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitor-cleanup-script-execution.md).
 
 ### Procedure
 

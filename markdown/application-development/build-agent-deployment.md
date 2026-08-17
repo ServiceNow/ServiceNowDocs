@@ -20,7 +20,7 @@ Learn about deployment methods and workflows for moving applications created wit
 After development, review, and testing are complete, a typical deployment workflow includes the following steps:
 
 1.  Collaborative design: Business owners and IT collaborate on requirements and ideas using their preferred tools.
-2.  AI-driven app development: Build Agent and Now Assist process files, chat history, and diagrams to generate and implement app updates.
+2.  AI-driven app development: Build Agent and ServiceNow Otto process files, chat history, and diagrams to generate and implement app updates.
 3.  Review and testing: Teams preview updates, make revisions, and run rounds of performance and readiness testing.
 4.  Developer review: A developer reviews the AI-generated changes, compares versions, and confirms the changes are ready for deployment.
 5.  Deployment approval: The project is handed off to a deployment manager, who initiates the deployment approval process.
@@ -38,9 +38,10 @@ The way isolation works depends on the environment:
 
 Build Agent supports the following deployment methods for apps created and edited with agentic development:
 
--   Git-based source control integration with ServiceNow IDE: ServiceNow supports Git-based workflows for version control and CI/CD.
-    -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow IDE supports bring-your-own Git integration, such as GitHub or Bitbucket.
-    -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
+-   Git-based source control integration: ServiceNow supports Git-based workflows for version control and CI/CD.
+    -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow supports bring-your-own Git integration, such as GitHub or Bitbucket.
+    -   You must be on Australia Patch 5 to use source control in ServiceNow Studio.
+    -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md) and [Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).
     -   For more information on System Update Sets, see [System update sets]().

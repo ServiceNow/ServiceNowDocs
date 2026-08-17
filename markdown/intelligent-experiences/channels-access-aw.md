@@ -1,18 +1,18 @@
 ---
 title: Select channels and access for an agentic workflow
-description: In the guided setup for an agentic workflow, activate the agentic workflow to use in the Now Assist panel or UI actions in the Core UI and workspaces.
+description: In the guided setup for an agentic workflow, activate the agentic workflow to use in the ServiceNow Otto panel or UI actions in the Core UI and workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aw.html
 release: australia
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Select channels and access for an agentic workflow
 
-In the guided setup for an agentic workflow, activate the agentic workflow to use in the Now Assist panel or UI actions in the Core UI and workspaces.
+In the guided setup for an agentic workflow, activate the agentic workflow to use in the ServiceNow Otto panel or UI actions in the Core UI and workspaces.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-The final step of the agentic workflow guided setup includes options for where a user can invoke the agentic workflow. The Now Assist panel is available to users with the correct role. You can specify the exact conditions when a UI action is available to users on a table.
+The final step of the agentic workflow guided setup includes options for where a user can invoke the agentic workflow. The ServiceNow Otto panel is available to users with the correct role. You can specify the exact conditions when a UI action is available to users on a table.
 
 ## Procedure
 
-1.  Select whether you want users to use the Now Assist panel to invoke the agentic workflow.
+1.  Select whether you want users to use the ServiceNow Otto panel to invoke the agentic workflow.
 
 2.  Add a UI action to your agentic workflow.
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Bind host CIs using CI field matching
@@ -48,7 +48,7 @@ There may be cases where no match is found because the column names in the event
 
 7.  Select **Submit**.
 
-    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 
 **Related topics**  

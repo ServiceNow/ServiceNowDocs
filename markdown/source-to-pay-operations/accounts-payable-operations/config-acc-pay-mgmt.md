@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, Accounts Payable Operations, invoice automation, AP automation, finance automation]
+keywords: [APO, Accounts Payable Operations, Generative AI skills, AI agent, Invoice processing, Exception handling]
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---
 

@@ -28,7 +28,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-The Provider Task and Remote Task tables have domain separation available. When data is added to these tables, Service Exchange inserts them into the domain of the parent task if available, or the connected instance based on the associated company by default. If necessary, the instance admin can apply their own business rule to redirect the data after the Service Exchange default rule has been applied. However, this should only be done by setting a different company on the records before inserting them.
+The Provider Task and Remote Task tables have domain separation available. When data is added to these tables, Service Exchange inserts them into the domain of the parent task if available. Otherwise, it inserts them into the connected instance based on the associated company by default. If necessary, the instance admin can apply their own business rule to redirect the data after the Service Exchange default rule has been applied. However, this should only be done by setting a different company on the records before inserting them.
 
 ## How domain separation works in Service Exchange
 

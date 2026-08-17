@@ -1,20 +1,20 @@
 ---
 title: Allocate IP address slots in a subnetwork
-description: The system creates one allocated IP record for each address in the subnetwork's CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and cannot be promoted to IP Address records.
+description: Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and cannot be promoted to IP Address records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/allocate-ip-address-slots-in-a-subnetwork.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Allocate IP address slots in a subnetwork
 
-The system creates one allocated IP record for each address in the subnetwork's CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and cannot be promoted to IP Address records.
+Allocate IP address slots to create one Allocated IP Address record for each address in a subnetwork CIDR. Reserved addresses \(the first and last for IPv4, or the first for IPv6\) are flagged automatically and cannot be promoted to IP Address records.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: `core.dc_ops_agent, sn_ni_core.inventory_agent`
 
 ## About this task
 
-Allocating IP address slots creates one Allocated IP Address record for every address in the subnetwork's CIDR. Each record carries an Is Reserved flag, set automatically for protocol-reserved addresses. It also carries an Is Managed flag, set automatically once an IP Address record is created from the slot. The slot records form the inventory you draw from when creating individual IP Address records using the from allocated IPs method.
+Allocating IP address slots creates one Allocated IP Address record for every address in the subnetwork's CIDR. Each record carries an Is Reserved flag, set automatically for protocol-reserved addresses. It also carries an Is Managed flag, set automatically once an IP Address record is created from the slot. The slot records form the inventory that you draw from when creating individual IP Address records using the from allocated IPs method.
 
 This task is the first step of the per-host allocation method. If you instead want to create a single IP Address record representing the subnetwork as a whole \(the at-subnet-level method\), do not run this task. See [Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md).
 
@@ -40,7 +40,9 @@ This task is the first step of the per-host allocation method. If you instead wa
 
 2.  Open the IP Subnetwork record.
 
-    \(**Inventory Number Allocation** &gt; **IP Network Subnets** &gt; select the subnetwork.\)
+    1.  Go to **Inventory Number Allocation** &gt; **IP Network Subnets**.
+
+    2.  Select the subnetwork.
 
 3.  Select the **Allocated IP Address** tab.
 
@@ -50,7 +52,7 @@ This task is the first step of the per-host allocation method. If you instead wa
 
 6.  Select **OK** to confirm.
 
-    The system creates the allocated IP records and displays a confirmation banner.
+    The allocated IP records are created and a confirmation banner appears.
 
 7.  Review the allocated IP records on the **Allocated IP Address** tab.
 
@@ -58,23 +60,23 @@ This task is the first step of the per-host allocation method. If you instead wa
 
     |Field|Description|
     |-----|-----------|
-    |Name|The address value.|
-    |IP Address|The address value.|
-    |**Is Reserved**|Selected for addresses that cannot be promoted to IP Address records \(first and last for IPv4; first only for IPv6\). Cleared otherwise.|
+    |Name|Address value.|
+    |IP Address|Address value.|
+    |**Is Reserved**|Option to mark that an ddress cannot be promoted to IP Address records \(first and last for IPv4; first only for IPv6\).|
     |**Is Managed**|Cleared until an IP Address record is created from this slot. Not user-editable.|
-    |Managed Network|Inherited from the parent subnetwork.|
+    |Managed Network|Parent subnetwork.|
 
 
 ## What to do next
 
-Create IP Address records from one or more of the allocated IP slots. See [Create IP Address records from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md).
+Create IP Address records from one or more of the allocated IP slots. See [Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md).
 
 **Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
 
 **Related topics**  
 
 
-[Create IP Address records from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
+[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
 
 [Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md)
 

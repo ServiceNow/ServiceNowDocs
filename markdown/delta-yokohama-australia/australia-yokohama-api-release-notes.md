@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-api-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 22
+last_updated: "2026-08-17"
+reading_time_minutes: 25
 breadcrumb: [Products combined by family]
 ---
 
@@ -1444,13 +1444,58 @@ Release month
 
 </th><th>
 
-API
+Class
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v19.2.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[CatalogSearchAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-scoped_global&family=australia&ft:locale=en-US)
+
+</td><td>
+
+The new getEligibleCatalogCategoryHierarchy\(\) method lets you retrieve the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The API automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that customers see only the offerings they qualify for.**Note:** The REST version of this endpoint is [Product Catalog Search - POST /api/sn\_prd\_pm/v1/catalog/eligible-catalog-category-hierarchy](https://www.servicenow.com/docs/access?context=prod_catalog_search-POST-hierarchy&family=australia&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[CatalogSearchAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-scoped_global&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named to `CatalogSearch` Server API, the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The [Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US) REST API wraps this Server API.
+
+</td></tr><tr><td>
 
 Lead to Cash Core
 
@@ -1576,13 +1621,62 @@ Release month
 
 </th><th>
 
-API
+Class
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
+
+Automated Test Framework
+
+</td><td>
+
+v3.1
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Cloud Runner TestRunnerApi – Scoped, Global](https://www.servicenow.com/docs/access?context=cloudrnr-TestRunnerAPI-scoped&family=australia&ft:locale=en-US)
+
+</td><td>
+
+Three new methods enable asynchronous test job management without requiring `sn_boq` record creation:-   cancelJobByTracker
+-   progressFromTracker
+-   startJob
+
+Use these methods when you start a test run with `startJobAsync` and only have the `rootTrackerId`; no need to poll for a `sn_boq` record.
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[CatalogSearchAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-scoped_global&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named, to `CatalogSearch`, the new `CatalogSearchAPI` is used within the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The [Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US) REST API wraps this Server API.
+
+</td></tr><tr><td>
 
 Lead to Cash Core
 
@@ -1684,6 +1778,127 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
+Product Catalog Management
+
+</td><td>
+
+v19.2.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+POST /eligible-catalog-category-hierarchy is a new endpoint that retrieves the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The endpoint automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that only offerings qualified for the requesting customer are returned.**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-getCatHierarchy&family=australia&ft:locale=en-US) JavaScript API.
+
+</td></tr><tr><td>
+
+Smart Assessment Engine
+
+</td><td>
+
+ 
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Reassign Assessment API](https://www.servicenow.com/docs/access?context=reassign-assessment-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+The new Reassign Assessment API provides a streamlined way to transfer assessment ownership within Smart Assessment workflows. This endpoint enables dynamic reassignment of in-progress assessments when team members change roles, leave the organization, or when assessments need to be delegated to more appropriate team members.
+
+</td></tr><tr><td>
+
+AI Control Tower
+
+</td><td>
+
+v6.0.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[AI Assets Inventory API](https://www.servicenow.com/docs/access?context=ai-assets-inventory-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   GET /asset-class
+-   GET /details
+
+</td></tr><tr><td>
+
+Healthcare and Life Sciences Service Management Core
+
+</td><td>
+
+v1.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[HL7 Inbound API](https://www.servicenow.com/docs/access?context=hl7-inbound-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+POST /message
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+POST /api/sn\_prd\_pm/catalog/search**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-getCatHierarchy&family=australia&ft:locale=en-US) JavaScript API.
+
+</td></tr><tr><td>
+
+Usage Insight Data Export
+
+</td><td>
+
+1.0.1
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[UXA Data Export Service API](https://www.servicenow.com/docs/access?context=usage-insight-data-exp-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+POST /sn\_uxa\_data\_export/data\_export
+
+</td></tr><tr><td>
+
 Workplace Service Delivery
 
 </td><td>
@@ -1778,6 +1993,83 @@ Synthetic monitoring
 </table>|API|Operations|
 |---|----------|
 |[Warranty Claims SOAP API](https://www.servicenow.com/docs/access?context=warranty-claims-SOAP-API&family=australia&ft:locale=en-US)|ProcessRepairOrder: A STAR SOAP operation used to process and exchange repair operation–level information between systems in a standardized STAR XML format.|
+
+<table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Release month
+
+</th><th>
+
+Module
+
+</th><th>
+
+Types
+
+</th></tr></thead><tbody><tr><td>
+
+Mobile SDK Libraries - Android
+
+</td><td>
+
+2.22.0
+
+</td><td>
+
+2026-06
+
+</td><td>
+
+NowVoice
+
+</td><td>
+
+-   [NowVoiceCallbacks interface - Android](https://www.servicenow.com/docs/access?context=NowVoiceCallbacksAndroidInt&family=australia&ft:locale=en-US)
+-   [NowVoiceEndpoint class - Android](https://www.servicenow.com/docs/access?context=NowVoiceEndpointAndroidClass&family=australia&ft:locale=en-US)
+-   [NowVoiceSDK object - Android](https://www.servicenow.com/docs/access?context=NowVoiceSDKAndroidAPI&family=australia&ft:locale=en-US)
+-   [NowVoiceService class - Android](https://www.servicenow.com/docs/access?context=NowVoiceServiceAndroidAPI&family=australia&ft:locale=en-US)
+-   [NowVoiceTheme interface - Android](https://www.servicenow.com/docs/access?context=NowVoiceThemeAndroidInterface&family=australia&ft:locale=en-US)
+-   [NowVoiceThemeDark class - Android](https://www.servicenow.com/docs/access?context=NowVoiceThemeDarkAndroidClass&family=australia&ft:locale=en-US)
+-   [NowVoiceUiConfiguration class - Android](https://www.servicenow.com/docs/access?context=NVoiceUiConfigAndroidClass&family=australia&ft:locale=en-US)
+-   [TranscriptMessage class - Android](https://www.servicenow.com/docs/access?context=TranscriptMsgAndroidClass&family=australia&ft:locale=en-US)
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - iOS
+
+</td><td>
+
+2.22.0
+
+</td><td>
+
+2026-06
+
+</td><td>
+
+NowVoice
+
+</td><td>
+
+-   [NowVoice API - iOS](https://www.servicenow.com/docs/access?context=NowVoiceiOSAPI&family=australia&ft:locale=en-US)
+-   [NowVoiceCallbacks structure - iOS](https://www.servicenow.com/docs/access?context=NowVoiceCallbacksiOSStruct&family=australia&ft:locale=en-US)
+-   [NowVoiceDefaultTheme structure - iOS](https://www.servicenow.com/docs/access?context=NVoiceDefThemeiOSStruct&family=australia&ft:locale=en-US)
+-   [NowVoiceEndpoint structure - iOS](https://www.servicenow.com/docs/access?context=NowVoiceEndpointiOSStruct&family=australia&ft:locale=en-US)
+-   [NowVoiceService class - iOS](https://www.servicenow.com/docs/access?context=NowVoiceServiceiOSAPI&family=australia&ft:locale=en-US)
+-   [NowVoiceThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NVoiceThemeableiOSProtocol&family=australia&ft:locale=en-US)
+-   [NowVoiceTranscriptMessage typealias - iOS](https://www.servicenow.com/docs/access?context=NVoiceTrnstMsgiOSta&family=australia&ft:locale=en-US)
+-   [NowVoiceUIConfiguration structure - iOS](https://www.servicenow.com/docs/access?context=NowVoiceUIConfigiOSStruct&family=australia&ft:locale=en-US)
+
+</td></tr></tbody>
+</table>
 
 </td></tr></tbody>
 </table>## Changes
@@ -2703,7 +2995,9 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
+-   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsSDK has been removed from Mobile SDK - Android.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -2748,7 +3042,7 @@ Australia
 
 </td><td>
 
--   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -2865,7 +3159,7 @@ The following APIs are available by default:
 -   GlideElementDescriptor
 -   GlideElementDynamicAttributeStore
 -   GlideForm
--   GlideForm \(Next Experience\)
+-   GlideForm\(Next Experience\)
 
  The following APIs require plugin activation:
 

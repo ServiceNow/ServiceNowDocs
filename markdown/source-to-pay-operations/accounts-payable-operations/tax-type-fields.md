@@ -69,6 +69,30 @@ Active
 
 The status of the tax type. By default the active check box is inactive.
 
+</td></tr><tr><td>
+
+Jurisdiction
+
+</td><td>
+
+Taxing jurisdiction that applies to the tax line, as determined by the third-party tax calculation engine. For example, Santa Clara County.
+
+</td></tr><tr><td>
+
+Jurisdiction type
+
+</td><td>
+
+Level of the taxing jurisdiction, such as District, State, County, or City.
+
+</td></tr><tr><td>
+
+Tax authority
+
+</td><td>
+
+Taxing authority or tax levy that imposes the tax within the jurisdiction. For example, Local Sales and Use Tax.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

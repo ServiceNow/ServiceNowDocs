@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Buyside user interface
 
 The configurator buyside user interface is a modern, intuitive platform designed to simplify the configuration of complex products and services. Integrated with Salesforce CPQ and other enterprise systems, it enables users to create, manage, and visualize detailed product configurations, ensuring accuracy and efficiency throughout the sales and fulfillment process.
 
--   The buyside user interface \(UI\) in ServiceNow CPQ is where sales reps or customers configure products in Salesforce CPQ.
+-   The buyside user interface \(UI\) in CPQ is where sales reps or customers configure products in Salesforce CPQ.
 -   Provides guided, attribute-based product configuration with rules, enrichments, and integrations.
 -   Ensures accurate Bills of Materials \(BOMs\) are generated for quoting, manufacturing, or service operations.
 
@@ -45,7 +45,7 @@ The configurator buyside user interface is a modern, intuitive platform designed
 
 ## Workflow
 
-1.  Access the ServiceNow CPQ configurator: Users launch the configurator from Salesforce CPQ or a ServiceNow portal.
+1.  Access the CPQ configurator: Users launch the configurator from Salesforce CPQ or a ServiceNow portal.
 2.  Configure products and services:
     -   Use multi-BOM displays to separate sales, installation, and support items.
     -   Filter and select products using sections, subsections, and nested tiers.
@@ -72,5 +72,5 @@ Jack, a sales representative, receives a request from a SaaS customer for a tail
 **Related topics**  
 
 
-[The ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/understand-the-commerce-logic-engine.md)
+[The CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/understand-the-commerce-logic-engine.md)
 

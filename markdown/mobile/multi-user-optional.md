@@ -28,7 +28,7 @@ There are three optional settings that can be used when working with the multi-u
 
 -   Enable the **EnablePushNotificationinSharedDeviceMode** property. By default, push notifications in a shared device are not enabled. Only use this property and set to true if you want to display push notifications to the active user.
 
-    **Note:** When enabling push notifications on a shared device, be aware that other users using the device may be able to view other users’ notifications and banners.
+    **Note:** Enabling push notifications on a shared device shows full message content in notifications and banners, risking exposure of other users' sensitive information. For this reason, push notifications are turned off by default.
 
 -   Set the maximum idle time before users are prompted to re-enter their PIN. The default is 300 seconds. This feature is described in the topic [PIN timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/pin-timeout.md).
 

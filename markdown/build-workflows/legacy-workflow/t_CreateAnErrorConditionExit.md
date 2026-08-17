@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow error handling, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Workflow error handling, Workflow administration, Classic Workflow,
 # Create an error condition exit
 
 An administrator can reroute the workflow when a script error occurs by creating an error condition exit for specific activities within the workflow. This allows the workflow to process script errors in a predictable way and not create undesirable results.
+
+## Before you begin
+
+Role required: snc\_required\_script\_writer\_permission and workflow\_admin, workflow\_creator, or admin
 
 ## Procedure
 

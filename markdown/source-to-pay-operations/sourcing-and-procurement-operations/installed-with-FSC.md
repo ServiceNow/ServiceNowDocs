@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Install Finance Common, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Install SPO, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Components installed with Sourcing and Procurement Operations

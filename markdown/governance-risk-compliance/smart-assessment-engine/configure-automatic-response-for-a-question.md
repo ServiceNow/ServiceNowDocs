@@ -41,7 +41,7 @@ Role required:
 
 5.  In the **Default response is** field of the **Automated response** pop-up window, select a default response for the question based on the question type or create a script.
 
-    1.  Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
+    1.  Create a script for a dynamic response by selecting the script icon.
 
     2.  Update the `result.value = <null>` with the required input.
 

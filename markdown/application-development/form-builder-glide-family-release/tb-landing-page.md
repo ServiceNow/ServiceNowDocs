@@ -37,7 +37,7 @@ The Table Builder for App Engine application has been combined with the standalo
 </td></tr></tbody>
 </table>## Get help with Table Builder
 
-Contact your company's Customer Admin to unlock or add user accounts, perform restores or zBoots, and more.
+Contact your company's Customer admin to unlock or add user accounts, perform restores or zBoots, and more.
 
 Following is the intro video about the table builder.
 

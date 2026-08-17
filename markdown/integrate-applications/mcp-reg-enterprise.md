@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-reg-
 release: australia
 topic_type: reference
 last_updated: "2026-06-04"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [ServiceNow MCP Registry, Connect, Workflow Data Fabric]
 ---
 
@@ -308,6 +308,32 @@ OAuth \(browser-based authentication via Prisma Console on first use\)
 </td><td>
 
 Dual-mode architecture: local server handles development workflows \(migrations, schema, queries\); remote server manages Prisma Postgres infrastructure.
+
+</td></tr><tr><td>
+
+Box
+
+</td><td>
+
+`https://mcp.box.com`
+
+</td><td>
+
+-   File management and operations
+-   Folder operations and navigation
+-   Content search and retrieval
+-   Metadata extraction
+-   Sharing and permissions
+-   Collaboration context
+-   Comments and workflows
+
+</td><td>
+
+OAuth 2.1
+
+</td><td>
+
+Cloud-based bridge for Box file content access. All actions respect existing user permissions. Supports natural-language file discovery, content summarization, and document retrieval. Users must have appropriate Box folder/file permissions.
 
 </td></tr></tbody>
 </table>**Note:** Some connectors may require additional configurations. See [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/additional-configs-mcr.md) for the list of supported connectors that require additional configurations. If your connector is listed, perform the required configurations before registering the client manually.

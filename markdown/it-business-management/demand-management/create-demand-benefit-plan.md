@@ -26,7 +26,7 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 **Note:** Converting a demand to a project or EAP entity transfers the benefit plan from the demand to the target project or EAP entity.
 
-If you’re creating benefit plan for a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, the fields in the **Financials** section differ from the Default view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-fields-demand.md).
+If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the fields in the **Financials** section differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-fields-demand.md).
 
 ## Procedure
 

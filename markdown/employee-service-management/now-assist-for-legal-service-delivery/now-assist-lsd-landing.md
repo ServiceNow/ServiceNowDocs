@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Legal Service Delivery \(LSD\)
-description: Use the ServiceNow Now Assist for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter, generate actionable answers from Knowledge article search results. You can also a submit Conflict of Interest request using conversational intake from the Now Assist panel in Virtual Agent.
+title: ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: Use the ServiceNow Otto for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter, generate actionable answers from Knowledge article search results. You can also submit a Conflict of Interest request using conversational intake from the ServiceNow Otto panel in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.html
 release: australia
@@ -9,13 +9,17 @@ classification: now-assist-for-legal-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Now Assist, generative AI, Gen AI, installing Now Assist, AI features, AI products, updating Now Assist, solutions, configure Now Assist, Conversational request submission]
+keywords: [Now Assist, ServiceNow Otto, generative AI, Gen AI, installing Now Assist, AI features, AI products, updating Now Assist, solutions, configure Now Assist, Conversational request submission]
 breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Now Assist for Legal Service Delivery \(LSD\)
+# ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-Use the ServiceNow® Now Assist for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter, generate actionable answers from Knowledge article search results. You can also a submit Conflict of Interest request using conversational intake from the Now Assist panel in Virtual Agent.
+Use the ServiceNow Otto for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter, generate actionable answers from Knowledge article search results. You can also submit a Conflict of Interest request using conversational intake from the ServiceNow Otto panel in Virtual Agent.
+
+**Note:**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Legal Service Delivery \(LSD\).
 
 None of the Advanced AI and Data Products provide legal or professional advice. The outputs provided by the Advanced AI and Data Products are for informational purposes only and are not a substitute for advice from a qualified professional. Customer assumes all responsibility and obligations with respect to any decisions, advice, conclusions, legal opinions, recommendations made or given as a result of the use of the services, including without limitation, any decision made, or action taken by Customer in reliance upon the Advanced AI and Data Products.
 
@@ -25,19 +29,19 @@ The Advance AI and Data Products and services do not and are not intended to con
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for LSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for LSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for LSD application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for LSD application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for LSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use AI capabilities offered by ServiceNow Otto for LSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
 
 </td><td>
 
-[Use agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the agentic workflows in Now Assist for Legal Service Delivery
+ 
 
 </td></tr></tbody>
 </table>**Important:**

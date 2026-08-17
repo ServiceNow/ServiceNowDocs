@@ -28,14 +28,14 @@ The flow process actions include:
 
 -   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-config-FQDN-activity.md)
 -   [Determine Shell Script by OS activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/determine-shell-script-by-os-activity.md)
--   [Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
+-   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
 -   [Get Running Processes via PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-running-processes-via-pwrshell-activity.md)
 -   [Execute Shell Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execute-shell-script-activity.md)
--   [Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
 -   [Extract Shell Script from MID Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/extract-shell-script-mid-script-activity.md)
 -   [Combine Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/combine-results-activity.md) and return values in an array
 -   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-enrich-data-records.md)
--   [Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
 
 \[Omitted image "get-running-processes-flows.png"\] Alt text: Security Operations System Command Integration- Get Running Processes flow
 

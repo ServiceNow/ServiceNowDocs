@@ -40,7 +40,7 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Recovery option** activity under the Investigation playbook stage.
+6.  Select the **Recovery option** task under the Investigation playbook stage.
 
 7.  Select the recovery task that you want to complete.
 

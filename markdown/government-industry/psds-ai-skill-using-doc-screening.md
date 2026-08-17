@@ -1,18 +1,18 @@
 ---
 title: Screen an uploaded document type using the Document Screening Al skill
-description: Use Now Assist for PSDS gen-AI to screen documents in the Social Benefits Playbook, classifying document types, validating them against what's expected for the case, flagging issues and providing clear explanations, and giving agents Al-composed messages to send back to constituents with specific resubmission instructions.
+description: Use ServiceNow Otto for PSDS gen-AI to screen documents in the Social Benefits Playbook, classifying document types, validating them against what's expected for the case, flagging issues and providing clear explanations, and giving agents Al-composed messages to send back to constituents with specific resubmission instructions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skill-using-doc-screening.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Screen an uploaded document type using the Document Screening Al skill
 
-Use Now Assist for PSDS gen-AI to screen documents in the Social Benefits Playbook, classifying document types, validating them against what's expected for the case, flagging issues and providing clear explanations, and giving agents Al-composed messages to send back to constituents with specific resubmission instructions.
+Use ServiceNow Otto for PSDS gen-AI to screen documents in the Social Benefits Playbook, classifying document types, validating them against what's expected for the case, flagging issues and providing clear explanations, and giving agents Al-composed messages to send back to constituents with specific resubmission instructions.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.constitue
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The Document screening generative AI skill automatically analyzes documents uploaded by applicants, identifies the type or category of each document \(for example, driver's license, passport, budget, or narrative\), and validates whether the uploaded document matches what was requested in an application checklist. If there is a mismatch, the agent flags it and helps government employees generate Al-assisted messages requesting corrected documentation.
 

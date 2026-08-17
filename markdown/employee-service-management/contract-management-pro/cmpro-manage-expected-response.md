@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Update expected response mappings, Modify expected response mappings, Edit expected response mappings, Delete expected response mappings, Deactivate expected response mappings]
-breadcrumb: [Manage skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manage skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage expected response mappings for contract analysis
@@ -23,11 +23,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the **Contract analysis** tile, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
+3.  On the **Contract analysis** tile, select **Edit Configuration**.
 
     \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract management pro.
 
@@ -56,20 +56,20 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Result
 
-Now Assist uses the updated response mappings to identify non-standard clauses in a contract document.
+AI uses the updated response mappings to identify non-standard clauses in a contract document.
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Managing skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
 
 **Related topics**  
 
 
-[Manage use cases for Now Assist in Contract Management]()
+[Manage use cases for ServiceNow Otto for Contract Management Pro]()
 
-[Manage use case mappings for Now Assist in Contract Management]()
+[Manage use case mappings for ServiceNow Otto for Contract Management Pro]()
 
 [Manage clause mappings for contract analysis]()
 
-[Deactivate skills for Now Assist in Contract Management]()
+[Deactivate skills for ServiceNow Otto for Contract Management Pro]()
 
 [Map a field to an expected response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.md)
 

@@ -38,8 +38,6 @@ After activating HR Performance Analytics, the collection job runs daily by defa
 
     After the PA jobs run, you can view the collected data from the **Dashboard**.
 
-    See Dashboards overview.
-
 -   **HR Manager**
 
     Provides detailed data about open cases that helps managers quickly assign agents and look deeper into opened cases. You can sort this dashboard by assignment group.

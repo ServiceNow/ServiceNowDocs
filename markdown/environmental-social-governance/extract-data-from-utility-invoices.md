@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Extract data from utility invoices
@@ -61,5 +61,5 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
     The fields extracted by AI must be verified for accuracy before use.
 
 
-**Parent Topic:**[Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

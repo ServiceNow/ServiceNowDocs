@@ -9,7 +9,7 @@ classification: discovery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Firewall Audits and Reporting reference, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall Admin Workspace dashboard

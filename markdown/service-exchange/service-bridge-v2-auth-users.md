@@ -17,7 +17,7 @@ breadcrumb: [Remote catalogs, Explore, Service Exchange]
 
 The Authorized Users feature enables a provider to categorize remote catalog items by user personas so that only authorized users with these personas can access the catalog items. It also allows consumer admins to associate these personas to users in their instances to allow access.
 
-When a provider and a consumer initially register the Service Exchange application, the active contacts on the consumer's account in the provider's ServiceNow instance are automatically added to the Authorized Users table and synced with the consumer's ServiceNow instance.
+When providers and consumers initially register the Service Exchange application, the active contacts on the consumer's account in the provider's ServiceNow instance are added to the Authorized Users table. These contacts are synced with the consumer's ServiceNow instance.
 
 Enables the provider to subdivide services by user personas giving the consumers an easy way to define access in their instance to the provider’s services. By using the Authorized Users feature, you can identify the specific users between the provider and consumer instances to manage the consumer requests for the provider's services. You can then assign personas to the authorized users so that you can control the access to remote catalog items.
 

@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice management]
+keywords: [APO, Accounts Payable Operations, invoice automation, Accounts Payable Specialist, invoice processing, invoice management]
 breadcrumb: [Create New Invoice case form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-13"
 reading_time_minutes: 1
 breadcrumb: [Channels in Conversational Interfaces, Exploring Conversational Interfaces Console, Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -23,6 +23,8 @@ Role required: admin
 ## About this task
 
 The **disable\_live\_agent** property is replacing the **com.glide.cs.exclude.liveagent.support** system property to indicate that the channel doesn't support a live agent. If the **disable\_live\_agent** parameter is not set for the channel, the older system property will still be honored for the time being.
+
+**Note:** This feature is usable only for NLU/Keyword conversations. It is unavailable in Virtual Agent conversations using Large Language Model \(LLM\) topic discovery.
 
 ## Procedure
 

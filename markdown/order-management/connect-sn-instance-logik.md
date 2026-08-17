@@ -1,18 +1,18 @@
 ---
-title: Connect your instance with ServiceNow CPQ instance
-description: Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
+title: Connect your instance with CPQ instance
+description: Set up the connections between the ServiceNow instance and the CPQ instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/connect-sn-instance-logik.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Connect your instance with ServiceNow CPQ instance
+# Connect your instance with CPQ instance
 
-Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
+Set up the connections between the ServiceNow instance and the CPQ instance.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: admin
 
     1.  Update the Redirect URL to `https://<tenant-url>/login/oauth2/code/<tenant-name>-login`.
 
-        -   The tenant-name is the name of the ServiceNow CPQ site. The tenant-url is the full URL of the site \(for example, cpq-som.test.logik.io\)
+        -   The tenant-name is the name of the CPQ site. The tenant-url is the full URL of the site \(for example, cpq-som.test.logik.io\)
         -   Example: `https://logiksite-som.test.logik.io/login/oauth2/code/logiksite-som-login`
     2.  Select the **Activate** property.
 
@@ -42,13 +42,13 @@ Role required: admin
 
     3.  Select **Update**.
 
-4.  Validate that the connection to the ServiceNow CPQ site is valid by navigating to **All** &gt; **CPQ Administration** and open the ServiceNow CPQ site \(listing no blueprints by default\).
+4.  Validate that the connection to the CPQ site is valid by navigating to **All** &gt; **CPQ Administration** and open the CPQ site \(listing no blueprints by default\).
 
     If this fails to open, check the previous steps for typos and trailing slashes.
 
-5.  Generate the admin API key in ServiceNow CPQ.
+5.  Generate the admin API key in CPQ.
 
-    1.  In ServiceNow CPQ, login as admin user and navigate to **Select Utilities** &gt; **Admin API Keys**.
+    1.  In CPQ, login as admin user and navigate to **Select Utilities** &gt; **Admin API Keys**.
 
     2.  Specify a name and user ID \(with the same name: by default, "admin"\).
 
@@ -83,10 +83,10 @@ Role required: admin
 
 ## What to do next
 
-[Set up an external connection in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-external-connection-logik.md)
+[Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-external-connection-logik.md)
 
 **Related topics**  
 
 
-[Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
+[Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
 

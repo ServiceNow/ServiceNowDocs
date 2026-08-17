@@ -1,5 +1,5 @@
 ---
-title: Start the processing for an invoice imported via integration with third-party applications
+title: Start processing a third-party invoice
 description: Start the processing for an invoice that doesn't have an associated invoice processing case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, Processing Invoice, Invoice processing case, Orphan Invoices flow, PO matching, Accounts Payable Workspace]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Start the processing for an invoice imported via integration with third-party applications
+# Start processing a third-party invoice
 
 Start the processing for an invoice that doesn't have an associated invoice processing case.
 
@@ -24,7 +25,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 In a few scenarios, the invoice can be imported via integration with third-party applications. If an invoice is ingested into Accounts Payable Operations via integration, the invoice processing is not initiated. No invoice processing case is created for the invoice.
 
-In such situations, the Accounts Payable Specialist must open the invoice and select the **Start invoice processing** option, which creates an invoice processing case for the invoice and starts processing the invoice.
+In such situations, the Accounts Payable Specialist must open the invoice and select the **Start invoice processing** option. This creates an invoice processing case and starts processing the invoice.
 
 The **Start invoice processing** option is displayed for invoices of type PO and Non-PO only.
 
@@ -50,9 +51,12 @@ You don't need to perform this manual task if you've activated the Start Invoice
 
     After an invoice processing case is created for the invoice, the **Start invoice processing** option is replaced by the **View invoice processing case** option on the Invoice form.
 
-    The invoice is processed based on its current status. For example, if the invoice is in the Received status, the duplicate check process is run, if the invoice is in the PO matching completed status, the exception engine is run, if the invoice is in the No exceptions found status, the approval engine is run, and so on.
+    The invoice is processed based on its current status:
 
-    The invoices for which an invoice processing case is not created automatically, a scheduled job runs at regular intervals to pick up such invoices, creates an invoice case for each invoice, and starts the processing for the invoices. The scheduled job enables you to start the processing for all such invoices in bulk, without requiring you to start the processing for each invoice individually.
+    -   If the invoice is in the **Received** status, the duplicate check process runs.
+    -   If the invoice is in the **PO matching completed** status, the exception engine runs.
+    -   If the invoice is in the **No exceptions found** status, the approval engine runs.
+    For invoices that don't have an invoice processing case created automatically, a scheduled job runs at regular intervals. The job picks up each invoice, creates an invoice case, and starts processing. You can use the scheduled job to start processing for all such invoices in bulk, without starting each invoice individually.
 
 
 -   **[Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md)**  
@@ -67,7 +71,7 @@ Activate the **Start Invoice Processing for Orphan Invoices** flow to process in
 
 [Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice]()
+[Enter missing invoice information and submit an invoice]()
 
 [Confirm whether an invoice is a duplicate]()
 

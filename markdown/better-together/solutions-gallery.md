@@ -32,6 +32,16 @@ Learn more about the benefits of each solution and how to implement and use them
 -   ITSM
 -   ITOM
 
+\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:
+
+[Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md)
+
+-   Process Mining
+-   Task Mining
+-   Automation Center
+-   AI Agent Studio
+-   AI Desktop Actions
+
 \[Omitted image "bus-risk-management.svg"\] Alt text:
 
 [Minimize risk by assessing suppliers during the onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/better-tprm-slo.md)

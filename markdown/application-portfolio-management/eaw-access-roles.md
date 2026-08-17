@@ -221,7 +221,7 @@ Activate the EA Workspace plugin
 
 </td></tr><tr><td>
 
-Activate the Technology Portfolio Management \(TPM\) plugin
+Activate the Technology Lifecycle Management \(TLM\) plugin
 
 </td><td align="center">
 
@@ -2323,7 +2323,7 @@ View TRM products, categories, phases, technical debt, and lifecycle timelines
 
 </td></tr><tr><td>
 
-Run the scheduled job to sync TRM product names with linked SAM software product names
+Run the scheduled job to sync TRM product names with linked ServiceNow Otto for SAM software product names
 
 </td><td align="center">
 

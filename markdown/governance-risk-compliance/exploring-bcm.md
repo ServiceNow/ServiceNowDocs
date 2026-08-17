@@ -29,7 +29,7 @@ A workflow in the Business Continuity Management application involves steps for 
 3.  Create a business impact analysis \(BIA\) with BCM program manager role to understand the impact of disruptions and estimate recovery times.
 4.  Review and approve the BIA with BCM program manager or BCM lead roles to verify findings and recommendations.
 5.  Create a business continuity plan \(BCP\) that includes assets, scope, documentation, recovery teams, loss scenarios, related plans, and recovery tasks. Send a request to review and approve the business continuity plan.
-6.  Create exercise events to test plans, tracks the assets and their dependencies, and validate recovery capabilities.
+6.  Create exercise events to test plans, track the assets and their dependencies, and validate recovery capabilities.
 7.  Respond to crisis events, track recovery actions, and mitigate operational disruptions.
 8.  Manage alerts from the Crisis map and initiate response workflows.
 9.  Send emergency notifications in Everbridge notifications system to alert stakeholders.

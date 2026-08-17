@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrate Grafana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate Grafana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Grafana events with basic authentication
@@ -21,11 +21,14 @@ Integrate Grafana with Event Management by adding a standard webhook in the Graf
 -   Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 -   The Event Management plugin must be installed on the ServiceNow AI Platform instance.
 -   The CI binding happens through the IP, instances should be discovered as servers to initiate the binding. CIs discovered through cloud or CIs in **cmdb\_ci\_vm\_object** don’t get bounded as Grafana doesn't provide any information for object IDs.
+-   Ensure you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 -   Role required: evt\_mgmt\_integration
 
 ## About this task
 
 Configure the Event Management environment for the collection of events from Grafana. In your Grafana console, set your ServiceNow AI Platform instance as the rest endpoint using a standard webhook.
+
+You can also configure Grafana as an event push connector from the Integrations Launchpad. For more information, see [Configure an event push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/push-connector.md).
 
 **Note:** Perform steps 1 and 2 for Grafana v7.4.3. For Grafana v9.3.2. skip to step 3.
 

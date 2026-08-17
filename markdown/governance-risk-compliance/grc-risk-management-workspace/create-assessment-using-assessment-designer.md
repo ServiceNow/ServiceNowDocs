@@ -57,7 +57,7 @@ Role required: sn\_risk.asmt\_creator, sn\_risk.manager
 
 5.  Click one of the following tabs to change the view in the canvas.
 
-<table id="choicetable_lvf_45v_lz"><tbody><tr><td id="d178901e347">
+<table id="choicetable_lvf_45v_lz"><tbody><tr><td id="d179205e347">
 
 **Design**
 
@@ -65,7 +65,7 @@ Role required: sn\_risk.asmt\_creator, sn\_risk.manager
 
 Add categories and questions, and configure the properties of each. This is the default view of the canvas when you open the designer.
 
-</td></tr><tr><td id="d178901e356">
+</td></tr><tr><td id="d179205e356">
 
 **Configuration**
 
@@ -73,7 +73,7 @@ Add categories and questions, and configure the properties of each. This is the 
 
 Create introductions and end notes for attestations, and select a signature.
 
-</td></tr><tr><td id="d178901e365">
+</td></tr><tr><td id="d179205e365">
 
 **Availability**
 
@@ -86,7 +86,7 @@ Select the recipients for each category in the attestation.
 
     **Note:** The availability of each option depends on the status of the assessment that is opened in the designer.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d178901e390">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d179205e390">
 
 **Save**
 
@@ -94,7 +94,7 @@ Select the recipients for each category in the attestation.
 
 Save the current assessment.
 
-</td></tr><tr><td id="d178901e399">
+</td></tr><tr><td id="d179205e399">
 
 **Preview**
 
@@ -102,7 +102,7 @@ Save the current assessment.
 
 Display a preview to the selected recipients.
 
-</td></tr><tr><td id="d178901e408">
+</td></tr><tr><td id="d179205e408">
 
 **Publish**
 
@@ -110,7 +110,7 @@ Display a preview to the selected recipients.
 
 Distributes the assessment to the selected recipients.
 
-</td></tr><tr><td id="d178901e417">
+</td></tr><tr><td id="d179205e417">
 
 **Save and Publish**
 
@@ -118,7 +118,7 @@ Distributes the assessment to the selected recipients.
 
 Saves and distributes the assessment in one step.
 
-</td></tr><tr><td id="d178901e426">
+</td></tr><tr><td id="d179205e426">
 
 **New Attestation**
 
@@ -126,7 +126,7 @@ Saves and distributes the assessment in one step.
 
 Opens a fresh canvas for a new assessment.
 
-</td></tr><tr><td id="d178901e436">
+</td></tr><tr><td id="d179205e436">
 
 **Load Attestation**
 

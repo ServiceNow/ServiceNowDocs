@@ -26,7 +26,7 @@ The advanced scenario analysis references the following Smart Assessment templat
 -   Input assessment template — Questions presented to analysts, such as minimum loss, maximum loss, and tolerance thresholds.
 -   Output assessment template — How simulation results are displayed, such as average expected loss and probability of breaching the loss tolerance.
 
-Statistical Model Profile defines the end-to-end configuration for a modelling flow — including which input and output templates are used, which statistical model is applied, and which reference table it draws from.
+Statistical Model Profile defines the end-to-end configuration for a modelling flow. It specifies which input and output templates are used, which statistical model is applied, and which reference table it draws from.
 
 Both templates are managed through the Smart Assessment Engine \(SAE\) to support dynamic field configurations. For more information, see [Building a scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-playbook-experience.md).
 
@@ -40,11 +40,11 @@ Both templates are managed through the Smart Assessment Engine \(SAE\) to suppor
 
 2.  Verify that the input and output Smart Assessment templates are set up and published by your administrator.
 
-    The input assessment template as shown in the example defines the questions that auto-populate from the selected reference data and that analysts can override before submitting. The questions are written in plain language — for example, "What is the maximum credible financial loss?" — and map to the simulation model's mathematical parameters in the statistical modelling profile.
+    The input assessment template as shown in the example defines the questions that auto-populate from the selected reference data and that analysts can override before submitting. The questions are written in plain language. For example, "What is the maximum credible financial loss?" — and map to the simulation model's mathematical parameters in the statistical modelling profile.
 
     \[Omitted image "sa-temp-for-sca-input-risk.png"\] Alt text: Input risk template for advanced scenario analysis.
 
-    The output assessment template defines how the Monte Carlo simulation results are displayed to analysts. The output template renders the simulation outputs, such as the average expected loss, the maximum expected loss, the probability that the loss tolerance will be exceeded, and other financial impact metrics. The example shows the output risk template configuration.
+    The output assessment template defines how the Monte Carlo simulation results are displayed to analysts. The output template renders simulation outputs, such as average expected loss, maximum expected loss, probability that the loss tolerance will be exceeded, and other financial impact metrics. These outputs help analysts understand the financial impact. The example shows the output risk template configuration.
 
     \[Omitted image "sa-temp-for-sca-output-risk.png"\] Alt text: Output risk template for advanced scenario analysis.
 
@@ -56,14 +56,14 @@ Both templates are managed through the Smart Assessment Engine \(SAE\) to suppor
 
     The input assessment template and output assessment template — both are automatically linked to the Statistical modelling profile and are treated as fixed. Deleting or modifying the mapped parameters breaks the model.
 
-    You may update the question text for clarity, but the underlying parameters must remain intact. Do not add or remove any parameter in the question-parameter mapping; the fixed set of questions must remain mapped to its parameters, otherwise the simulation model does not work. You can change only the wording of the questions.
+    You may update the question text for clarity, but the underlying parameters must remain intact. Don't add or remove any parameter in the question-parameter mapping. The fixed set of questions must remain mapped to its parameters, otherwise the simulation model does not work. You can change only the wording of the questions.
 
-    **Note:** This restriction applies only to the statistical modelling templates. For the manual method, you can create any published template with no restrictions.
+    **Note:** This restriction applies only to the statistical modeling templates. For the manual method, you can create any published template with no restrictions.
 
     For information on the manual method, see [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/run-sca-manual-method.md).
 
     \[Omitted image "sca-ip-asmt-temp.png"\] Alt text: Input template.\[Omitted image "sca-op-asmt-temp.png"\] Alt text: Output template.\[Omitted image "sca-smp-table-ip-op-asmt.png"\] Alt text: Parameter mappings.
 
-    After both the input and output Smart Assessment templates are published, the Statistical model profile can reference them, and analysts can run the advanced scenario analysis using the guided playbook experience. For more information, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md).
+    After both the input and output Smart Assessment templates are published, the Statistical model profile can reference them. Analysts can run the advanced scenario analysis using the guided playbook experience. For more information, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md).
 
 

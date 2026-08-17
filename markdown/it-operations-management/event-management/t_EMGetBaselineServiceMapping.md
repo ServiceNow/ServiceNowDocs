@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Application services in Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Activate and configure Service Mapping for top-down discovery

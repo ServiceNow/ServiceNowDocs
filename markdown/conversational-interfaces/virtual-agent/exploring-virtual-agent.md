@@ -19,15 +19,15 @@ The ServiceNow Virtual Agent platform provides user assistance through conversat
 
 ## Overview of Virtual Agent
 
-Virtual Agent helps solve ordinary issues and delivers results for common requests, leaving your agents and technicians free to focus on more complex user issues. You can change the look and feel of the chat experience to suit each audience for your business, including running your chatbot in a variety of common or custom messaging channels. Monitor your bot's success with the Conversational Analytics dashboard.
+Virtual Agent helps solve ordinary issues and delivers results for common requests. This leaves agents and technicians free to focus on more complex user issues. Change the look and feel of the chat experience to suit each audience for your business, including a variety of common or custom messaging channels. Monitor your bot's success with the Conversational Analytics dashboard.
 
-When you add Now Assist in Virtual Agent skills, your developers have access to large language model \(LLM\) topic discovery. The Now Assist topics skill includes LLM controls that make topic authoring easier so that you can deliver self-service solutions more quickly.
+When you add ServiceNow Otto in Virtual Agent skills, your developers have access to large language model \(LLM\) topic discovery. The ServiceNow Otto topics skill includes LLM controls that make topic authoring easier so that you can deliver self-service solutions more quickly.
 
-\[Omitted image "va-landing-page-overview.png"\] Alt text: Virtual Agent increases deflection and improves self-service in a customizable environment. With Now Assist in Virtual Agent, development time is faster and uses generative AI LLM topic discovery.
+\[Omitted image "va-landing-page-overview.png"\] Alt text: Virtual Agent increases deflection and improves self-service in a customizable environment. With ServiceNow Otto for Virtual Agent, development time is faster and uses generative AI LLM topic discovery.
 
 ## AI agents in Virtual Agent
 
-Virtual Agent supports AI agents. When a user ask a question to the virtual agent, the agent understands the query and can reason, plan, and execute across AI agents, virtual agent topics, conversational actionsand sub-flows, catalog, KB, AI agent skill kit, and any Now Assist for Virtual Agent supported skills to help the user. Virtual Agent supports multi-intent query with AI agents if there are associated AI agents per user query.
+Virtual Agent supports AI agents. When a user ask a question to the virtual agent, the agent understands the query and uses it and reasons, plans, and executes across multiple assets. These assets include AI agents, virtual agent topics, conversational actions and sub-flows. The AI agent also works with catalogs, KBs, AI agent skill kits, and any ServiceNow Otto for Virtual Agent supported skills to help the user. Virtual Agent supports multi-intent query with AI agents if there are associated AI agents per user query.
 
 ## Pre-built Virtual Agent topics
 
@@ -93,11 +93,11 @@ virtual\_agent\_admin or admin
 
 </td></tr><tr><td>
 
-Use LLM topic discovery instead of Natural Language Understanding \(NLU\) or keywords to create more conversational experiences. Now Assist in Virtual Agent uses LLMs and generative AI skills to improve deflection rates and reduce the amount of time-consuming work that NLU topic discovery requires.
+Use LLM topic discovery instead of Natural Language Understanding \(NLU\) or keywords to create more conversational experiences. ServiceNow Otto in Virtual Agent uses LLMs and generative AI skills to improve deflection rates and reduce the amount of time-consuming work that NLU topic discovery requires.
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
+[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
 
  [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md)
 

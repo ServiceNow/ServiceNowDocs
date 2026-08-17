@@ -24,7 +24,7 @@ Once the settings are saved, the **Business services overview** tab is displayed
 
 ## Showing the Services overview tab
 
-To show the **Services overview** tab and hide the **Business services overview** tab, UI Builder administrators can open the **Settings** tab in the UI Builder and deselect the **Active** flag \(mark it as inactive\) as shown in the example.
+To show the **Services overview** tab and hide the **Business services overview** tab, UI Builder administrators can open the **Settings** tab in the UI Builder. Deselect the **Active** flag \(mark it as inactive\) as shown in the example.
 
 \[Omitted image "hide-b-services-overview-tab.png"\] Alt text: Hiding the Business services overview tab.
 

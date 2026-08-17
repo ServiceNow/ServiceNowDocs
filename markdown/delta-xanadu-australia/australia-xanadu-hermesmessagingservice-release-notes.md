@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hermesmessagingservice-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -144,9 +144,13 @@ Restrict access to Hermes by enabling IP address access control rules.
 
 Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
 
--   **Hermes Settings page**
+-   **[Hermes Settings page](https://www.servicenow.com/docs/access?context=c-hermes-settings&family=australia&ft:locale=en-US)**
 
 Enable maintenance users and administrators to view and modify Hermes configuration properties and manage background jobs directly from the Hermes Settings page.
+
+-   **[Encryption at rest for Hermes topics](https://www.servicenow.com/docs/access?context=encryption-at-rest&family=australia&ft:locale=en-US)**
+
+Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
 
 
 </td></tr></tbody>
@@ -574,6 +578,7 @@ Australia
 -   View granular usage metrics in the Hermes Usage Dashboard.
 -   Restrict access to the Hermes cluster based on the client IP address.
 -   Manage Hermes configuration properties and background jobs from the Hermes Settings page.
+-   Protect message data on broker disks with encryption at rest, with support for customer-supplied keys.
 
  See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=australia&ft:locale=en-US) for more information.
 

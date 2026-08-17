@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-24"
 reading_time_minutes: 1
 keywords: [Armis Early Warning, integration health, ingestion health, integration runs]
-breadcrumb: [Early Warning for Security Exposure Management integration, Integrate, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # View Early Warning for Security Exposure Management integration health
@@ -17,9 +17,9 @@ Monitor the Early Warning for Security Exposure Management integration by review
 
 ## Before you begin
 
-The Early Warning for Security Exposure Managementintegration must be installed and at least one integration run must have completed successfully.
+The Early Warning for Security Exposure Management integration must be installed and at least one integration run must have completed successfully.
 
-Role required: \[VERIFY\]
+Role required: sn\_vul\_int\_fw.read\_integrations
 
 ## Procedure
 
@@ -27,7 +27,7 @@ Role required: \[VERIFY\]
 
 2.  In the **Integrations** list, select **Review** under Early Warning for Security Exposure Management tile.
 
-    The Early Warning for Security Exposure ManagementOverview page opens, displaying integration health charts and the integrations table.
+    The Early Warning for Security Exposure Management Overview page opens, displaying integration health charts and the integrations table.
 
 3.  Review the **Integration runs** chart to confirm that recent runs completed successfully.
 
@@ -46,5 +46,5 @@ Role required: \[VERIFY\]
     A status of **Success** with the note "Successfully completed integration run. No more data to process at this time." confirms that the integration is current and no new CVEs arrived in the last run.
 
 
-**Parent Topic:**[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
 

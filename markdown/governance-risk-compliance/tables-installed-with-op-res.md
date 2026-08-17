@@ -47,15 +47,15 @@ Several types of tables are installed with the Operational Resilience applicatio
 |M2M service importance impact tolerance assessment \[sn\_oper\_res\_m2m\_service\_importance\_impact\_tolerance\_assessment\]|Association between service and importance of the impact tolerance assessment.|
 |Operational Resilience profile \[sn\_oper\_res\_profile\]|Operational Resilience entity.|
 |Profile type \[sn\_grc\_profile\_type\]|List of all GRC entity types.|
-|Risk \[sn\_oper\_res\_risk\]|Risk defined in the application. Starting with the Xanadu release \(Release 19.0.4\), the Advanced Risk Assessment \(ARA\) integration with Operational Resilience uses the **Status** field. When an entity is shared between Operational Resilience and Advanced Risk Assessment \(ARA\), and the ARA has the highest risk rating with a status of **Completed**, a record is created for the ARA integration and stored in the \[sn\_oper\_res\_risk\] table.|
+|Risk \[sn\_oper\_res\_risk\]|Risk defined in the application. Starting with the Xanadu release \(Release 19.0.4\), the Advanced Risk Assessment \(ARA\) integration with Operational Resilience uses the **Status** field. When an entity is shared between Operational Resilience and ARA, and ARA has highest risk rating with a **Completed** status, a record is created for the ARA integration. The record is stored in the \[sn\_oper\_res\_risk\] table.|
 |Scenario \[sn\_oper\_res\_scenario\]|Scenario defined in the application.|
-|Scenario analysis \[sn\_oper\_res\_scenario analysis\]|Scenario analysis defined in the application.|
+|Scenario analysis \[sn\_oper\_res\_scenario\_analysis\]|Scenario analysis defined in the application.|
 |Service impact analysis \[sn\_oper\_res\_service\_impact\_analysis\]|Service impact analysis defined in the application.|
 |Service process pillar \[sn\_oper\_res\_service\_process\_pillar\]|Service process pillar defined in the application.|
 |Task \[sn\_oper\_res\_task\]|Task defined in the application.|
 |Vulnerability profile \[sn\_oper\_res\_vul\_profile\]|Vulnerability profile defined in the application.|
 |Services with operational vulnerabilities \[sn\_oper\_res\_vulnerability\_profile\]|Services with operational vulnerabilities.|
-|M2M scenario event participant \[sn\_opres\_res\_m2m\_scenario\_event\_participant\]|Each participant can be associated with one or more scenario events. This table stores many-to-many relationships between the participant and scenario events.|
+|M2M scenario event participant \[sn\_oper\_res\_m2m\_scenario\_event\_participant\]|Each participant can be associated with one or more scenario events. This table stores many-to-many relationships between the participant and scenario events.|
 |M2M scenario event issue \[sn\_oper\_res\_m2m\_scenario\_event\_issue\]|Stores many-to-many relationships between the issues and scenario events.|
 |Service related information \[sn\_oper\_res\_service\_related\_info\]|Service related information defined in the application.|
 |Service Summary \[sn\_oper\_res\_service\_summary\]|Service summary defined in the application.|

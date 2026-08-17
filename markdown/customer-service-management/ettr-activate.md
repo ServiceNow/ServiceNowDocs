@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr-activate.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
 breadcrumb: [Configure settings for estimated time to resolve values, Estimated time to resolve a case, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -19,6 +19,8 @@ Activate the **ETTR Experience Card** so that you can display the time to resolv
 Role required: admin
 
 ## About this task
+
+**Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-regression-solution.md).
 
 The Time to resolve ribbon component is available by default and can be displayed in both CSM Agent Workspace and CSM Configurable Workspace. You must activate the component in CSM Agent Workspace before you activate it in CSM Configurable Workspace.
 

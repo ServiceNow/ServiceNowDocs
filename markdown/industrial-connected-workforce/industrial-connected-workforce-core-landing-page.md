@@ -22,7 +22,7 @@ Industrial Connected Workforce \(ICW\) Core helps industrial organizations struc
 
 </td></tr><tr><td>
 
-[Industrial Connected Workforce reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/icw-reference.md)Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up additional technical details about ICW Core.
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up additional technical details about ICW Core.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/icw-reference.md)
 
 </td></tr></tbody>
 </table>ICW Core provides the structural foundation for the Industrial Connected Workforce suite. It converts industrial operational elements, such as organizational structure, equipment hierarchies, and worker shifts, into digital models. These models combine with knowledge and workflows to enable precise, contextual, and compliant execution of industrial tasks.

@@ -109,7 +109,7 @@ CWM AI user
 
 </td><td>
 
-Enables users to use the generative AI skills that are available with the Now Assist for CWM application.
+Enables users to use the generative AI skills that are available with the ServiceNow Otto for CWM application.
 
 </td><td>
 

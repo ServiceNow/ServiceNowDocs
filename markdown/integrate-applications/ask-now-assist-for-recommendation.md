@@ -1,5 +1,5 @@
 ---
-title: Ask Now Assist for Workflow Data Fabric \(WDF\) for recommendations
+title: Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations
 description: Find guidance on setting up integrations, understand the advantages of different integration tools, and get links to sources of information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/ask-now-assist-for-recommendation.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
-# Ask Now Assist for Workflow Data Fabric \(WDF\) for recommendations
+# Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations
 
 Find guidance on setting up integrations, understand the advantages of different integration tools, and get links to sources of information.
 
@@ -22,9 +22,9 @@ Role required: df\_data\_steward, connection\_admin, wdf\_operator, wdf\_builder
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  On the landing page, enter your question in the Now Assist search field \[Omitted image "now-assist-sparkle-icon-dark.png"\] Alt text:.
+2.  On the landing page, enter your question in the ServiceNow Otto conversation interface.
 
-    You can also use the Now Assist panel embedded in the top-right corner of the Workflow Data Fabric \(WDF\) home page header.
+    You can also use the ServiceNow Otto panel embedded in the top-right corner of the Workflow Data Fabric \(WDF\) home page header by clicking the sparkle \[Omitted image "image.now-assist-sparkle-icon-dark"\] icon.
 
 3.  Enter your question in plain language.
 
@@ -34,12 +34,12 @@ Role required: df\_data\_steward, connection\_admin, wdf\_operator, wdf\_builder
 
 4.  Select source links to see more information about a topic.
 
-    **Note:** You can access support information and toggle audio notifications from the Support and setting icon \[Omitted image "wdf-na-support-icon.png"\] Alt text:.
+    **Note:** You can access support information and toggle audio notifications from thes Support and setting icon \[Omitted image "wdf-na-support-icon.png"\] Alt text:.
 
 
 ## Result
 
-Now Assist for Workflow Data Fabric \(WDF\) provides the information that you requested, including alternatives, sources, and a summary.
+ServiceNow Otto for Workflow Data Fabric \(WDF\) provides the information that you requested, including alternatives, sources, and a summary.
 
 \[Omitted image "wdf-na-request-1.png"\] Alt text: Screenshot showing query and the Now Assist response.
 

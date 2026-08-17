@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/stru
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -28,7 +28,7 @@ Consider the example where BCM administrator has configured an intolerable impac
 
 ## Multiple impact ratings for an impact category
 
-If your BCM administrator has configured the assessment questionnaire to include multiple impact ratings for an impact category, the impact category ratings are displayed in the Impact Category view as shown in the example.\[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
+If BCM administrator has configured the assessment questionnaire to include multiple impact ratings for an impact category, the impact category ratings are displayed in the Impact Category view.\[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
 
 BCM administrators specify a threshold of non-tolerance for the impact ratings, per impact category. The disruption duration for the first non-tolerable impact category is selected for the recovery time objective \(RTO\). The impact ratings have the specified values:
 
@@ -113,13 +113,13 @@ If the administrator has set all the impact ratings as tolerable, the value spec
 </td></tr></tbody>
 </table>-   **Calculation of category score from impact analysis questions for an impact category that contributes to Recovery Point Objective \(RPO\)**
 
-    If the impact category contributes to **RPO**, then evaluate each impact analysis question in that RPO category based on the value of your data like business critical, operation critical, business essential, or operation essential. The maximum value among all the questions of that RPO is considered as the Category Score of that Impact Category and stored in the Impact Category Results table \[sn\_bia\_category\_result\].
+    If the impact category contributes to **RPO**, then evaluate each impact analysis question in that RPO category based on data value. You can check business critical, operation critical, business essential, or operation essential. The maximum value among all the questions of that RPO is considered as the Category Score of that Impact Category. It is then stored in the Impact Category Results table \[sn\_bia\_category\_result\].
 
 -   **Calculation of overall impact assessment result for a BIA**
 
     When you update the **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category.
 
-    For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the disruption duration value of the legal impact category, then the RTO value of the BIA is recalculated based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
+    For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the legal impact category disruption duration, the BIA RTO value is recalculated based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
 
     |RTO value|Recovery Tier|
     |---------|-------------|

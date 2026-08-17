@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/auto
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,7 +16,7 @@ Automate the manual recovery task within the business continuity plan. You can c
 
 ## Before you begin
 
-Role required: admin for the Workflow Studio, sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
+Role required: sn\_bcm.core\_manager, sn\_bcp.plan\_manager, sn\_recovery.event\_manager
 
 ## About this task
 
@@ -54,7 +54,7 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
 6.  Create the subflow inputs to specify the data available to the subflow when it starts running.
 
-    To establish a reference to the record linked to the task, you can specify the name and type for the input in the Inputs &amp; Outputs section of the subflow. By defining the inputs, you can create a reference to the task responsible for executing the automation.
+    To reference the record linked to the task, specify the input name and type in the Inputs &amp; Outputs section of the subflow. By defining the inputs, you can create a reference to the task responsible for executing the automation.
 
     \[Omitted image "automated-tasks-input.png"\] Alt text: Reference to the task.
 

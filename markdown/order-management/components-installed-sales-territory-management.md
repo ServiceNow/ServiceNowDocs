@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Sales Territory Management​
@@ -124,5 +124,5 @@ Role for viewing the sales territory associated on the CRM entities like Lead, O
 -   sn\_sales\_territory.sales\_territory\_basic
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
 

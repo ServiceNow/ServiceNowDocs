@@ -23,7 +23,7 @@ Business impact analysis \(BIA\) owner performs these tasks:
 
 ## BIA updates
 
-Beginning with the Xanadu and later releases, the reliability of business impact analysis is enhanced through the implementation of following updates.
+Beginning with the Xanadu and later releases, the reliability of business impact analysis is enhanced through the implementation of the following updates.
 
 -   Access the latest BIAs of the dependent items and their recovery objectives such as Recovery Time Objectives \(RTOs\), Recovery Point Objectives \(RPOs\), and Recovery Tiers.
 -   Configure the columns in the dependency assessment of a BIA.
@@ -45,13 +45,13 @@ Beginning with the Xanadu and later releases, the reliability of business impact
 -   **[Impact categories and ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-impact-categories.md)**  
 Impact categories are the types of an impact that you can assess during a business impact analysis. The BCM administrator of an organization is responsible for defining the impact categories and the timeframe during which an organization may experience a downtime. This information is used to determine the recovery time objective and recovery point objective of the assets.
 -   **[RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md)**  
-Due to unforeseen disruptive events, the business processes in your organization can face a downtime. It is important to classify your business processes in the recovery tiers and calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
+Due to unforeseen disruptive events, the business processes in your organization can face a downtime. Therefore, it is important to classify your business processes in the recovery tiers. You can then calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
 -   **[Calculating RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-calculation.md)**  
 The BCM application provides an assessment questionnaire for calculating the recovery time objective \(RTO\) and recovery point objective \(RPO\) in the business impact analysis \(BIA\). As a pre-requisite to the BIA, BCM administrator defines the impact ratings and sets up the assessment questions. After receiving the responses to the assessment, the BCM application calculates the RTO and RPO.
 -   **[BIA states and UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/states-ui-actions-bia.md)**  
 When you create a business impact analysis \(BIA\), certain UI actions are associated with each state.
 -   **[Configuring dictionary, UI policy, and element variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-enhanced-bia-logic.md)**  
-Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
+Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view, which determine columns, required fields, and display in dependency assessment views.
 -   **[Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md)**  
 Beginning with the Yokohama release, you can use the latest assessment template for conducting a Business Impact Analysis \(BIA\). The BIA template is now integrated with the Smart Assessment Engine, enabling you to use the Smart Assessment along with the legacy assessment.
 -   **[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)**  
@@ -63,11 +63,11 @@ Assess the impact categories and dependencies in BCM UIB Workspace to get the ne
 -   **[Approve the business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/approve-bia-in-uib-ws.md)**  
 Approve the business impact analysis in BCM UI Builder Workspace in the BCM application. If you’re the business impact analysis owner or the BCM lead for the business impact analysis, you can approve the business impact analysis.
 -   **[Update dependencies of BIAs in Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-dependency-details-of-BIA-in-self-service-as-contributor.md)**  
-Use the contributor role to update the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the **Activity** section in the BCM application.
+Use contributor role to update the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the **Activity** section.
 -   **[Visualize 360° relationships for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/visualize-360-degree-view-for-bia.md)**  
 Visualize the 360° relationships for a business impact analysis and its associated entities in BCM UIB Workspace. You can access the 360° view at any time while creating a business impact analysis.
 -   **[Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-bia.md)**  
-Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for a future reference.
+Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for future reference.
 
 **Parent Topic:**[Managing BCM workflow tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-bcm-with-uib-workspace.md)
 

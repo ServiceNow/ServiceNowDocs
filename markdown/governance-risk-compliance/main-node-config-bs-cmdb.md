@@ -18,7 +18,7 @@ For the Service \(CMDB\) Main node configuration, the source typically used is O
 
 ## Node relationship configurations
 
-You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag in the Service \(CMDB\) Main node configuration as shown in the example.
+You can configure the node relationships in the Service \(CMDB\) Main node configuration. Configure the sequence, source table, relationship table, target table, and active flag as shown in the example.
 
 \[Omitted image "node-rel-config-bs.png"\] Alt text: Business Service \(CMDB\) Main node configuration.
 

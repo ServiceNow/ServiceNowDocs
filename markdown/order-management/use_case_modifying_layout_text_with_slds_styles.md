@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Modifying layout text with SLDS styles
 
 Learn how to implement styles in the Salesforce Lightning Design System to control the appearance of text.
 
-Using Salesforce Lightning Design System \(SLDS\) styles, admins have some control over the appearance of text in the ServiceNow CPQ configurator UI. Note that this functionality is not fully supported and may be limited in a number of scenarios. Consult [this Salesforce documentation](https://www.lightningdesignsystem.com/utilities/text/) for the available SLDS styles.
+Using Salesforce Lightning Design System \(SLDS\) styles, admins have some control over the appearance of text in the CPQ configurator UI. Note that this functionality is not fully supported and may be limited in a number of scenarios. Consult [this Salesforce documentation](https://www.lightningdesignsystem.com/utilities/text/) for the available SLDS styles.
 
 Due to the lack of complete support, utilizing an SLDS class will affect everything in the field. That means if you use “slds- text-title\_bold”, everything in the field will be bolded. Therefore, consider whether you can use SLDS styling for your use case, as a new field will need to be created for us to insert the class and isolate the styling. A good use case as a result is using styles to make headers, and weʼll use that as the basis for this article.
 

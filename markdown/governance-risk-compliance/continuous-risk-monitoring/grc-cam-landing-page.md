@@ -32,7 +32,7 @@ The video gives you an overview of the seven steps of the Risk Management Framew
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: UseDefine, categorize, secure, implement, and continuously assess to manage risk effectively.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Define, categorize, secure, implement, and continuously assess to manage risk effectively.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ The video gives you an overview of the seven steps of the Risk Management Framew
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The Continuous Authorization and Monitoring \(com.sn\_irm\_cont\_auth\_monitor\) plugin is available as a separate subscription and requires activation.
 

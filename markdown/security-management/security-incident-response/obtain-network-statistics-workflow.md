@@ -33,12 +33,12 @@ The flow process actions include:
 -   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-config-FQDN-activity.md)
 -   Determine Shell Script by OS
 -   If statement is executed by Powershell
--   [Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
+-   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
 -   [Get Network Statistics via netstat Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-network-stats-netstat-activity.md)
--   [Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
 -   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-enrich-data-records.md)
--   [Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md) - Returns enrichment ID.
--   [Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md) - Returns enrichment ID.
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
 
 ## Procedure
 

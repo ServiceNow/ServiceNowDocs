@@ -34,7 +34,7 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
     The layers on the map appear just as pins on a Google map and are configurable. All the layer details like the asset locations, assets, datacenters, and core companies are displayed on the map by their configured icons.
 
-    Use the layers control to view only the selected or all assets that can be toggled on and off on the map. As a crisis manager, when viewing the active alerts you can make an informed decision by concentrating on a single asset that can be critical at that moment from the rest.
+    Use the layers control to view only the selected or all assets that can be toggled on and off on the map. As a crisis manager, when viewing active alerts you can make informed decisions by focusing on the most critical asset at that moment.
 
 4.  To display a selective resource or asset on the map, select the check box of that asset.
 
@@ -46,14 +46,14 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
     For example, if you click a datacenter icon \(\[Omitted image "BCMDatacenterIcon.png"\] Alt text: datacenter icon.\) that has no number or a count next to it, a pop over appears with the display information that you have configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
 
-    If you have configured **Power** and **Power consumption** fields of the datacenter table \[cmdb\_co\_datacenter\] as the display fields in the Resource Configuration form, then the power consumption details of that datacenter are displayed on the pop over along with its location coordinates.
+    If you configure **Power** and **Power consumption** fields from the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form, the popover displays power consumption details and location coordinates.
 
-6.  Click an asset icon with a number next to it.
+6.  Select an asset icon with a number next to it.
 
-    The map zooms in to show all the assets that match with the count in that cluster. You can further click each asset within the cluster and drill down to any asset to view its details on the pop over.
+    The map zooms in to show all the assets that match with the count in that cluster. You can further select each asset within the cluster and drill down to any asset to view its details on the pop over.
 
     You can view only one pop over at a time. The pop over disappears on clicking another node.
 
-7.  Click the reset icon \(\[Omitted image "BCMResetIcon.png"\] Alt text: Map reset icon.\) to clear the search results on the map.
+7.  Select the reset icon \(\[Omitted image "BCMResetIcon.png"\] Alt text: Map reset icon.\) to clear the search results on the map.
 
 

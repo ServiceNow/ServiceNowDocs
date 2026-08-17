@@ -76,3 +76,5 @@ The following sections describe the pages available on the DMI.
 
 \[Omitted image "dmi-sans-rabbitmq.png"\] Alt text: DMI page
 
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+

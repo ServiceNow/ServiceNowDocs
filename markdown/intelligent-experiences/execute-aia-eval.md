@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/execute-aia-eval.html
 release: australia
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-07-21"
 reading_time_minutes: 6
-breadcrumb: [Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Execute an agentic evaluation run
@@ -16,7 +16,7 @@ Evaluate agentic AI assets against datasets to monitor performance and compare b
 
 ## Before you begin
 
-Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI in Now Assist. You can also create execution log data after setting up your evaluation run.
+Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI. You can also create execution log data after setting up your evaluation run.
 
 For more information about testing agentic workflows, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
@@ -26,7 +26,7 @@ Role required: sn\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
     You can also start from the testing page of the AI Agent Studio. Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**. Select **Start automated evaluation** to access the guided setup.
 
@@ -34,7 +34,7 @@ Role required: sn\_aia.admin
 
 3.  In the modal, select **Chat agent or workflow**, then select **Proceed**.
 
-    The following steps are for chat agentic AI assets. If you are evaluating an AI voice agentic asset, see [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-voice-aia-eval.md). Many steps are similar, but there are aspects specific to AI voice agentic assets that require special attention.
+    The following steps are for chat agentic AI assets. If you're evaluating an AI voice agentic asset, see [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-voice-aia-eval.md). Many steps are similar, but there are aspects specific to AI voice agentic assets that require special attention.
 
 4.  In the **Add general info** step, add a name and select the agentic AI asset that you want to evaluate.
 
@@ -163,7 +163,7 @@ Added filters
 
 Conditions for narrowing down the AI execution log records you want to include in the dataset.
 
- **Note:** Filter conditions are not supported for creating datasets of AI voice agent execution logs.
+ **Note:** Filter conditions aren't supported for creating datasets of AI voice agent execution logs.
 
 </td></tr><tr><td>
 

@@ -1,31 +1,31 @@
 ---
 title: AI in RPA Hub
-description: Use Now Assist for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
+description: Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and AI generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-now-assist-rpa-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+breadcrumb: [Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # AI in RPA Hub
 
-Use Now Assist for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
+Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and AI generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
 
-## Now Assist for RPA Hub overview
+## ServiceNow Otto for RPA Hub overview
 
-The Now Assist for RPA Hub application offers generative AI capabilities to accelerate your automation development process. The following generative AI capabilities are available in the RPA Desktop Design Studio application:
+The ServiceNow Otto for RPA Hub application offers generative AI capabilities to accelerate your automation development process. The following generative AI capabilities are available in the RPA Desktop Design Studio application:
 
 -   Build simple, brand-new automations quickly and efficiently.
 -   Easily add new activities to existing automations, ensuring modularity and scalability.
 -   Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one.
 
-Both new and experienced users can develop and build faster automation by using the Now Assist for RPA Hub application.
+Both new and experienced users can develop and build faster automation by using the ServiceNow Otto for RPA Hub application.
 
-## Now Assist skill - RPA bot generation
+## Generative AI skills
 
 The RPA bot generation skill helps users to build an automation that is based on text input. Access the RPA bot generation skill from the RPA Desktop Design Studio user interface.
 
@@ -37,45 +37,45 @@ By using the RPA bot generation skill, your users can perform the following task
 
 -   **Create an automation with AI**
 
-    Create an automation from text instructions and preview the options from the RPA Desktop Design Studio user interface. First, your user selects the **Create automation** option and then selects the **Build with Now Assist** option to get started. For more information, see [Create an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
+    Create an automation from text instructions and preview the options from the RPA Desktop Design Studio user interface. First, your user selects the **Create automation** option and then selects the **Build with AI** option to get started. For more information, see [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
 
-    The following example shows how an automation is created with the Now Assist in the RPA Desktop Design Studio user interface.
+    The following example shows how an automation is created with AI in the RPA Desktop Design Studio user interface.
 
-    \[Omitted image "build-now-assist-screen-rpa.png"\] Alt text: RPA Desktop Design Studio user interface that shows the \(1\) Create automation option and \(2\) Build with Now Assist option.
+    \[Omitted image "build-now-assist-screen-rpa.png"\] Alt text: RPA Desktop Design Studio user interface that shows the \(1\) Create automation option and \(2\) Build with AI option.
 
 -   **Create an activity with AI**
 
-    Create an activity from the text instructions and preview options. For more information, see [Create an activity with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).
+    Create an activity from the text instructions and preview options. For more information, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).
 
-    The following example shows how an activity is created with Now Assist in the RPA Desktop Design Studio user interface.
+    The following example shows how an activity is created with AI in the RPA Desktop Design Studio user interface.
 
-    \[Omitted image "create-activity-now-assist-rpa.png"\] Alt text: RPA Desktop Design Studio user interface that shows the New activity by using Now Assist option.
+    \[Omitted image "create-activity-now-assist-rpa.png"\] Alt text: RPA Desktop Design Studio user interface that shows the New activity by using AI option.
 
 -   **Extend automation logic with AI**
 
-    Enhance an automation logic by using text instructions with the **Build automation** option, either from an empty activity or by selecting a component in an existing activity. For more information, see [Build an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
+    Enhance an automation logic by using text instructions with the **Build automation** option, either from an empty activity or by selecting a component in an existing activity. For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
 
-    The following example shows an automation logic that is built with Now Assist from an empty activity on the design surface in the RPA Desktop Design Studio user interface.
+    The following example shows an automation logic that is built with AI from an empty activity on the design surface in the RPA Desktop Design Studio user interface.
 
     \[Omitted image "canvas-level-inline-prompt.png"\] Alt text: RPA Desktop Design Studio user interface that shows the Build automation option from an empty activity on the design surface.
 
-    The following example shows an automation logic that is built with Now Assist by selecting a component in the RPA Desktop Design Studio user interface.
+    The following example shows an automation logic that is built with AI by selecting a component in the RPA Desktop Design Studio user interface.
 
     \[Omitted image "comp-level-inline-prompt-example.png"\] Alt text: RPA Desktop Design Studio user interface that shows the Build automation option after a component is selected, for example, Start.
 
 
 ## Licensing requirements
 
-The Now Assist for RPA Hub application requires a Workflow Data Fabric \(previously known as Automation Engine\) license and a Now Assist for Creator license.
+The ServiceNow Otto for RPA Hub application requires a Workflow Data Fabric \(previously known as Automation Engine\) license and a ServiceNow Otto for Creator license.
 
 ## Application information
 
-Activate the Now Assist for RPA Hub store app \(com.sn\_rpa\_na\) to use the RPA bot generation skill.
+Activate the ServiceNow Otto for RPA Hub store app \(com.sn\_rpa\_na\) to use the RPA bot generation skill.
 
 This store app has the following dependencies:
 
 -   RPA Hub \(com.sn\_rpa\_fdn\)
--   Now Assist for Creator \(com.sn\_now\_creator\)
+-   ServiceNow Otto for Creator \(com.sn\_now\_creator\)
 
 **Important:**
 
@@ -97,4 +97,21 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 **Note:** We have controls in place to enable/disable the data collection and data processing.
+
+**Related topics**  
+
+
+[Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
+
+[Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md)
+
+[Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md)
+
+[Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md)
+
+[Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md)
+
+[Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md)
+
+[Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/example-instructions-rpa.md)
 

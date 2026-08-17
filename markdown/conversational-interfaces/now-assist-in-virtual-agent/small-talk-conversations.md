@@ -1,6 +1,6 @@
 ---
 title: Small talk in conversations
-description: Small talk topics and small talk utterances from the Semantic Filter Framework are recognized in Now Assist in Virtual Agent chat conversations.
+description: Small talk topics and small talk utterances from the Semantic Filter Framework are recognized in ServiceNow Otto for Virtual Agent chat conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/small-talk-conversations.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Virtual Agent, Small talk, genius results, generative AI]
-breadcrumb: [Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Small talk in conversations
 
-Small talk topics and small talk utterances from the Semantic Filter Framework are recognized in Now Assist in Virtual Agent chat conversations.
+Small talk topics and small talk utterances from the Semantic Filter Framework are recognized in ServiceNow® Otto for Virtual Agent chat conversations.
 
 Small talk is supported by your primary and fallback languages. The semantic filtering recognizes these types of small talk:
 

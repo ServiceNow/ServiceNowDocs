@@ -1,20 +1,20 @@
 ---
-title: Use case: Embed ServiceNow CPQ UI in a Lightning Web Component
-description: Learn how to embed ServiceNow CPQ in a LWC in a Salesforce org.
+title: Use case: Embed CPQ UI in a Lightning Web Component
+description: Learn how to embed CPQ in a LWC in a Salesforce org.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_embed\_logik\_in\_a\_lightning\_web\_component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Use case: Embed ServiceNow CPQ UI in a Lightning Web Component
+# Use case: Embed CPQ UI in a Lightning Web Component
 
-Learn how to embed ServiceNow CPQ in a LWC in a Salesforce org.
+Learn how to embed CPQ in a LWC in a Salesforce org.
 
-You can embed ServiceNow CPQ in a Lightning Web Component \(LWC\) in a Salesforce org. This eliminates the need to directly navigate to ServiceNow CPQ through a particular product or the ServiceNow CPQ custom URL.
+You can embed CPQ in a Lightning Web Component \(LWC\) in a Salesforce org. This eliminates the need to directly navigate to CPQ through a particular product or the CPQ custom URL.
 
 ## Steps for Embedding
 
@@ -30,12 +30,12 @@ You can embed ServiceNow CPQ in a Lightning Web Component \(LWC\) in a Salesforc
 
         \[Omitted image "cpq-embed-logik-lightning-code-deploy.png"\] Alt text: Menu
 
-3.  Go into the Salesforce page where you want to embed ServiceNow CPQ.
+3.  Go into the Salesforce page where you want to embed CPQ.
 4.  On the Setup menu, click Edit Page.
 
     \[Omitted image "cpq-embed-logik-lightning-edit-page.png"\] Alt text: User interface
 
-5.  Drag the ServiceNow CPQ LWC from the menu at the bottom left into the page layout where you want to embed ServiceNow CPQ.
+5.  Drag the CPQ LWC from the menu at the bottom left into the page layout where you want to embed CPQ.
 
     \[Omitted image "cpq-embed-logik-lightning-drag.png"\] Alt text: Menu bar
 

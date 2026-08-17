@@ -1,0 +1,51 @@
+---
+title: Categorize alerts displayed in Express List
+description: Create different views of alerts by adding tags in Express List to enable you to easily identify and group alerts without the need for discovery or accessing the CMDB.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-remove-tags-filter.html
+release: australia
+product: Event Management
+classification: event-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+---
+
+# Categorize alerts displayed in Express List
+
+Create different views of alerts by adding tags in Express List to enable you to easily identify and group alerts without the need for discovery or accessing the CMDB.
+
+## Before you begin
+
+Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  In the primary navigation, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
+
+3.  In the left filter pane, select the **Edit filter attributes** icon \(\[Omitted image "icon-edit-filter-attirbutes.png"\] Alt text: Edit filter attributes icon\).
+
+4.  In the **Edit filter attributes** dialog box, select the **Alert tags** tab.
+
+    \[Omitted image "edit-filter-attributes2.png"\] Alt text: Edit filter attributes dialog boxThe **Alert tags** tab title displays the number of selected alert tags.
+
+    The left column displays the number of available tags in the **Available columns** column title.
+
+    The selected tags are displayed in the right column. The number of selected tags is displayed in the **Selected columns** column title.
+
+5.  Find a specific tag by entering its name in the **Search** field.
+
+6.  Rearrange the selected tags by dragging them up or down in the right column.
+
+7.  Deselect a tag by selecting the \(**X**\) next to it.
+
+8.  Select **Apply**.
+
+
+## Result
+
+All the selected tags are displayed in the **Filters** pane under the **Alert tags** tab.
+

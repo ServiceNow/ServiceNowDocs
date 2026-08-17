@@ -1,19 +1,19 @@
 ---
-title: Configure chat summarization and chat reply recommendation skills in the Now Assist Admin console
-description: Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the Now Assist Admin console. The activation steps are conceptually same for both the skills.
+title: Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console
+description: Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the AI Admin Hub console. The activation steps are conceptually same for both the skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Configure, chat, summarization, Now Assist Admin, console, technology, trigger, skill, input]
-breadcrumb: [Activate a Now Assist skill, Using Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Activate an AI skill, Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Configure chat summarization and chat reply recommendation skills in the Now Assist Admin console
+# Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console
 
-Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the Now Assist Admin console. The activation steps are conceptually same for both the skills.
+Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the AI Admin Hub console. The activation steps are conceptually same for both the skills.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Now Assist Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Features** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Features** tab.
 
 2.  On the navigation panel, select a workflow that has chat recommendation, either **Technology** or **Customer**.
 
@@ -63,7 +63,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 13. Select any additional data sources that you want the Large language model \(LLM\) to take into account when generating a recommendation.
 
-14. Select a portal for the data source to enable chat summarization/recommendation to be generated for the conversation occurring on that portal.
+14. Select a portal for the data source to allow chat summarization/recommendation to be generated for the conversation occurring on that portal.
 
     This is a mandatory step. The admin must specify a portal and enable a specific channel on **Choose Input** page, to enable the skill for chats sent in the selected portal/channel. Else, the agent will receive an error message, "Chat summaries won't appear until your IT administrator completes all the required steps involved in the setup".
 
@@ -94,7 +94,7 @@ Chat recommendation or reply recommendation for the workflow is active on the in
 
 ## What to do next
 
-Analyze your skill performance and usage on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at .
+Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

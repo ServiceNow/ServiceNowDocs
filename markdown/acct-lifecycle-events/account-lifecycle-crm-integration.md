@@ -26,7 +26,7 @@ To set up the integration, follow these steps:
 
 **Note:** Before you set the integration, you must configured the Recommended Actions application. See [Set up recommended actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-rec-action.md) for details.
 
-1.  Set up the Microsoft Dynamics CRM spoke. See  for details.
+1.  Set up the Microsoft Dynamics CRM spoke. See [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md) for details.
 2.  On the Microsoft Dynamics CRM platform, you must do the following:
 
     -   Create an account with the same name as the account associated with your internal play task.
@@ -61,7 +61,7 @@ To set up the integration, follow these steps:
 
 3.  Update the `getRiskSysIdFromCRMRequest()` function in the `DynamicsCRMTaskUpdateHandlerUtilOOB` script include to handle the task updates from Microsoft Dynamics CRM by processing the input parameters and updating the associated risk signal record.
 
-    The Process Task Update Event demo action can be further configured and added as part of sub flow which you would need to create and add it in the decision table \(Dynamics CRM Webhook Decision Policy\) of Microsoft Dynamics CRM Spoke.
+    The Process Task Update Event demo action can be further configured and added as part of a sub flow. Create the sub flow and add it to the decision table \(Dynamics CRM Webhook Decision Policy\) of Microsoft Dynamics CRM Spoke.
 
 4.  \(Optional\) You can optionally configure an UI action to create a CRM task in your ServiceNow instance.
 5.  Use the `AleCRMUtilOOB` script include to interact with CRM platforms like Microsoft Dynamics CRM.

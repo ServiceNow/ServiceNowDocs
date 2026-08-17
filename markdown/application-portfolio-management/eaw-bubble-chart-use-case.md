@@ -117,7 +117,7 @@ Applications Not Assessed — Visibility on the chart
 
 If a business application has not been assessed for one or both axis indicators for the selected fiscal period, it will not appear on the bubble chart. A bubble requires indicator scores for both the X-axis and Y-axis indicator for the same fiscal period.
 
-Applications with scores for only one axis are silently excluded. This applies regardless of data source type — an application that was not included in a PA breakdown, not assessed in a survey, or not returned by a custom script will have no score record and therefore no bubble is displayed.
+Applications with scores for only one axis are silently excluded. This applies regardless of data source type. An application that was not included in a PA breakdown, not assessed in a survey, or not returned by a custom script will have no score record. Therefore, no bubble is displayed.
 
 To identify applications that are scored on one axis but not the other:
 
@@ -255,7 +255,7 @@ The default value is:
 install_status!=2@install_status!=2000@life_cycle_stage!=End of Life@life_cycle_stage!=EMPTY
 ```
 
-This means the chart excludes any business application that is in *Retired* or *Decommissioned* install status, or whose lifecycle stage is *End of Life* or empty. In this scenario, all five Acme Corp applications have an active install status and a current lifecycle stage, so all five pass the filter and are eligible to appear as bubbles.
+This means the chart excludes any business application that is in **Retired** or **Decommissioned** install status, or whose lifecycle stage is **End of Life** or empty. In this scenario, all five Acme Corp applications have an active install status and a current lifecycle stage. All five pass the filter and are eligible to appear as bubbles.
 
 **Important:** If your organization has customized this property — for example, by adding a company scope filter such as company.sys\_id=YOURCOMPANYID — any scored application that does not match the custom filter will be silently excluded from the chart, even if it has valid indicator scores for both axes. This is one of the most common causes of missing bubbles. To verify, apply the encoded query on the Business Applications \[cmdb\_ci\_business\_app.list\] table and confirm your scored applications appear in the results.
 
@@ -390,7 +390,7 @@ Grouped bubble
 </td></tr></tbody>
 </table>\[Omitted image "bubblechart-create-demand.png"\] Alt text: Create demand from the bubble chart page
 
-The architect also notes that App E \(Internal Wiki\) sits in the Migrate quadrant but has a slightly higher Technical Risk normalized value \(2.43\) compared to App B. Before setting a disposition, the architect selects the App E bubble to open the side panel, then selects **Full details** to review the full business application record without leaving the bubble chart. For more details, see [Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md).
+The architect also notes that App E \(Internal Wiki\) sits in the Migrate quadrant but has a slightly higher Technical Risk normalized value \(2.43\) compared to App B. Before setting a disposition, the architect selects the App E bubble to open the side panel. The architect then selects **Full details** to review the full business application record without leaving the bubble chart. For more details, see [Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md).
 
 ## Summary: the full flow at a glance
 
@@ -414,7 +414,7 @@ The following sequence summarizes how a raw assessment score is set to a bubble 
 
 **Fiscal period alignment is critical.** If the indicators are set to *Quarter* frequency and the fiscal period filter on the chart is set to a month, no data appears. The period filter must match the indicator frequency.
 
-**Bubble size adds a third dimension.** Configuring an indicator or the overall score as the Bubble Size lets you compare a third metric visually without adding another axis — for example, using Portfolio TCO as the bubble size shows cost alongside value and risk.
+**Bubble size adds a third dimension.** Configuring an indicator or the overall score as the Bubble Size lets you compare a third metric visually without adding another axis. For example, using Portfolio TCO as the bubble size shows cost alongside value and risk.
 
 **Closely scored applications are grouped.** Bubbles whose X and Y axis values are within +/-0.25 of each other are combined into a single grouped bubble showing a count. Select a grouped bubble to open the info pane and see the individual applications inside.
 

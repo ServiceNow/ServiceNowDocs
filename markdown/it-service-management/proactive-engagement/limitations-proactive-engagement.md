@@ -9,7 +9,7 @@ classification: proactive-engagement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Proactive Engagement, Digital End-User Experience, IT Service Management]
+breadcrumb: [Proactive Engagement reference, Proactive Engagement, Digital End-User Experience, IT Service Management]
 ---
 
 # Limitations in Proactive Engagement

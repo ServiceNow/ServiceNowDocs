@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Schedule a meeting from an opportunity

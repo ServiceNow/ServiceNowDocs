@@ -18,6 +18,8 @@ You can configure the user access for Service Operations Workspace \(SOW\) pages
 
 **Important:** Install and activate the ITSM Roles plugin `(com.snc.itsm.roles)` before assigning the SOW user roles. Without this plugin, role inheritance chains such as \(`sn_incident_read` inheriting `sn_sow.sow_home` and `sn_sow.sow_list`\) may not function correctly and users may not be able to access the SOW workspace even with the expected roles assigned.
 
+The following table lists the roles available in Service Operations Workspace for ITSM. Rows with a shaded sub-heading indicate role categories.
+
 <table id="table_qkn_j4g_1cc"><thead><tr><th>
 
 Role
@@ -77,6 +79,10 @@ Provides access to SOW list pages.
 </td><td>
 
 sn\_sow.sow\_user
+
+</td></tr><tr><td class="sub-head" colspan="3">
+
+SOW Admin Center
 
 </td></tr><tr><td>
 

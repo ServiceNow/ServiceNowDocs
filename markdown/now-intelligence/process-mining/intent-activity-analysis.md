@@ -27,7 +27,7 @@ This results in a structured summary that reflects what analysts and technicians
 
 The intent and activity analysis is configured for process tables. This enables you to use it in your projects. To know about how to configure intent and activity analysis, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/investigative-features.md).
 
-You need Now Assist for Creator and the Intent and Activity Analysis skill enabled to use the analysis. For more information, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
+You need ServiceNow Otto for Creator and the Intent and Activity Analysis skill enabled to use the analysis. For more information, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
 
 To know more about running an intent and activity analysis, see [Run intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-intent-and-activity-analysis.md).
 

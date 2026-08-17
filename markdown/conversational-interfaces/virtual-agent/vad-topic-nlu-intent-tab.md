@@ -17,7 +17,7 @@ breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Vi
 
 You can edit and refine ServiceNow NLU models from within Assistant Designer. When a conversation topic is bound to an associated NLU model and intent, use the **NLU Intent** tab to review and edit utterances and associated entities.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 If your topic uses NLU discovery, the topic **NLU Intent** tab appears on the Assistant Designer interface. Test your topic to see the prediction results for topic discovery and the corresponding confidence scores for the results. Depending on the results, you can modify the associated utterances and entities in the NLU model for your topic intent.
 

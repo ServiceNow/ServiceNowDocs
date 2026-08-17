@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-operations-management/explor
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
@@ -23,6 +23,14 @@ For example, you might create a monitor that tests the GET HTTP endpoint of a se
 The synthetic monitoring tests can be run by an Agent Client Collector \(ACC\) deployed in your network, on a MID Server, or on the ServiceNow platform.
 
 **Note:** The HTTP endpoints must exist in the HTTP Endpoints \[cmdb\_ci\_endpoint\_http\] table. Endpoints tested from the ServiceNow platform must be publicly accessible.
+
+## Monitor creation options
+
+You can create synthetic monitors in the following ways:
+
+-   Manual monitor creation: Create monitors for any HTTP endpoint by manually configuring the endpoint details. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md)
+-   Monitors for discovered APIs: Create monitors for APIs discovered through API Insights. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md)
+-   Monitors from incidents: Create monitors directly from incident records to prevent future occurrences. See [Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitors-from-incidents.md).
 
 ## Synthetic monitoring users
 
@@ -150,6 +158,7 @@ To learn more about configuring and using synthetic monitoring, see:
 -   [Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
 -   [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md)
 -   [Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
--   -   [Synthetic Monitoring Developer Guide](https://www.servicenow.com/docs/r/api-reference/developer-guides/synth-monitor_dev-guide.html)
+-   [Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
+-   [Synthetic Monitoring Developer Guide](https://www.servicenow.com/docs/r/api-reference/developer-guides/synth-monitor_dev-guide.html)
 -   [SyntheticsAsyncBulkCreate API](https://www.servicenow.com/docs/r/api-reference/rest-apis/synth-async-api.html)
 

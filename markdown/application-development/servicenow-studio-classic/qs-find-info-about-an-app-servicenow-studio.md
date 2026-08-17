@@ -20,7 +20,7 @@ Use the App details page in ServiceNow Studio to view metadata about an existing
 
 When you open ServiceNow Studio for the first time, open your apps from the Navigator panel on the left side of the screen. Search for the app by name or select it from the list.
 
-\[Omitted image "sn-studio-app-list-zs2.png"\] Alt text: The Navigator panel shows a list of applications in ServiceNow Studio
+\[Omitted image "sn-studio-app-list-as2.png"\] Alt text: The Navigator panel shows a list of applications in ServiceNow Studio.
 
 Selecting an app opens its full contents in the Navigator panel, with all file types organized by category, such as Automation. Select **App details** to open the app in a new tab.
 
@@ -49,5 +49,5 @@ The App details page shows information about your app and provides access to com
 5.  **File records**: Select a file to open it, select **Add** to create files of that type, or bookmark files directly from the record. For more information, see [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
 6.  **Scope and update set**: View the scope and update set associated with the current app at the bottom of the page. The scope switches automatically when you switch between tabs in ServiceNow Studio. Create an update set and associate app changes to it so your changes are ready to deploy. For more information, see [Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md) and [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
 
-\[Omitted image "sn-studio-app-details-full-page-zs2.png"\] Alt text: The App details page shows information about your application and enables you to perform tasks directly from the app.
+\[Omitted image "sn-studio-app-details-full-page-as2.png"\] Alt text:
 

@@ -1,5 +1,5 @@
 ---
-title: Add a new filter
+title: Add a filter
 description: Add a new filter to a UI Builder dashboard to enable users to refine data views based on additional fields such as consumer, product, or other custom fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-a-new-filter.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
-breadcrumb: [Trending topics dashboard, Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Add a new filter
+# Add a filter
 
 Add a new filter to a UI Builder dashboard to enable users to refine data views based on additional fields such as consumer, product, or other custom fields.
 
@@ -34,7 +34,7 @@ gr.insert();
 
 ## About this task
 
-Filters allow users to refine dashboard data by specific fields. This procedure demonstrates how to add a new filter to any base system dashboard such as trending topics dashboard or sentiment analysis dashboard by duplicating and configuring an existing filter carousel item.
+Filters allow users to refine dashboard data by specific fields. This procedure demonstrates how to add a filter to any base system dashboard such as trending topics dashboard or sentiment analysis dashboard. You can add filters by duplicating and configuring an existing filter carousel item.
 
 ## Procedure
 
@@ -44,8 +44,8 @@ Filters allow users to refine dashboard data by specific fields. This procedure 
 
     The different UI Builder Component names:
 
-    -   Trending topics dashboard: OOB Trending Topics Dashboard, Top Trends, Trending topics by Field Insight \(accounts, products, assignment group, channels\), OOB Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, Topic Affected Regions Visualization.
-    -   Sentiment analysis dashboard: OOB Sentiment Analysis Dashboard, Sentiment Over Time Visualization, Sentiment Breakdown Visualization, Sentiment Top Drivers Insight \(Negative sentiment and Positive sentiment drivers\), Sentiment by Assignment Group Insight, Sentiment After Escalation Insight, Sentiment by Channel Insight.
+    -   Trending topics dashboard: Default Trending Topics Dashboard, Top Trends, Trending topics by Field Insight \(accounts, products, assignment group, channels\), default Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, Topic Affected Regions Visualization.
+    -   Sentiment analysis dashboard: Default Sentiment Analysis Dashboard, Sentiment Over Time Visualization, Sentiment Breakdown Visualization, Sentiment Top Drivers Insight \(Negative sentiment and Positive sentiment drivers\), Sentiment by Assignment Group Insight, Sentiment After Escalation Insight, Sentiment by Channel Insight.
     If working with the base system component, create a clone before making modifications.
 
 3.  Select a **Filter Carousel Item 2** in the component tree.
@@ -118,5 +118,5 @@ The new filter appears in the dashboard filter carousel and enables users to fil
 
 [Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Change an insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
+[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
 

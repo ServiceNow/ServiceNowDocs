@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case]
+keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case, Accounts Payable Workspace, Exceptions resolved]
 breadcrumb: [Invoice inquiry cases, Using Invoice Case Management, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -50,7 +50,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
     -   **Canceled by requester**
     -   **Information provided**
     -   **Exceptions resolved**
-7.  In the **Closure details** field, enter the reason why you're closing the case.
+7.  In the **Closure details** field, enter the reason you're closing the case.
 
     **Note:** This field is required when you close an invoice inquiry case as **Close incomplete**.
 

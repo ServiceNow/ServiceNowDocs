@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-13"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -25,11 +25,11 @@ The indexed content and metadata are stored as records in a connector-specific i
 
 Microsoft SharePoint Online pages built primarily with static text content authored in the Microsoft SharePoint Online editor produce searchable content that more closely matches what users see in a web browser. By contrast, pages that rely on dynamic web parts may not contain all of the content that users see in a web browser.
 
-Microsoft SharePoint Online pages are stored as `.aspx` files in a site's Site Pages library. These files can include static content in their CanvasContent1 and WikiFields metadata fields, but they can also include scripts that call a server-side engine to dynamically render viewable content at request time. The exact content rendered depends on user context, permissions, and web parts loaded as part of the page request.
+Microsoft SharePoint Online pages are stored as `.aspx` files in a site's Site Pages library. These files can include static content in their CanvasContent1 and WikiFields metadata fields. They can also include scripts that call a server-side engine to dynamically render viewable content at request time. The exact content rendered depends on user context, permissions, and web parts loaded as part of the page request.
 
 Rendering a page's full viewable content requires an authenticated user session. The Microsoft SharePoint Online connector can't impersonate a user to trigger this rendering process. As a result, the connector cannot capture the final HTML output that a web browser would display.
 
-For each page retrieved, the Microsoft SharePoint Online connector queries the SharePoint REST API's `_api/web/lists('<list-id>')/items(<item-id>)` endpoint to access the page's underlying list item. Via this API endpoint, the connector retrieves content primarily from the page's CanvasContent1 and WikiFields metadata fields, and also captures the page's other metadata fields such as title, author, and modification date where available. Page content stored exclusively in dynamic web parts may be retrieved only partially or not at all, since that content doesn't exist in the list item metadata.
+For each page retrieved, the Microsoft SharePoint Online connector queries the SharePoint REST API's `_api/web/lists('<list-id>')/items(<item-id>)` endpoint to access the page's underlying list item. Via this API endpoint, the connector retrieves content primarily from the page's CanvasContent1 and WikiFields metadata fields. It also captures the page's other metadata fields such as title, author, and modification date where available. Page content stored exclusively in dynamic web parts may be retrieved only partially or not at all, since that content doesn't exist in the list item metadata.
 
 To learn how to view the portion of a page's content that can be retrieved using the Microsoft SharePoint Online connector, see [View retrievable page content using the Microsoft SharePoint Online REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.md).
 

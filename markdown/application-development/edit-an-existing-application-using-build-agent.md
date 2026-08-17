@@ -39,7 +39,7 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the Sparkle icon \[Omitted image "ba-sns-ai-sparkle.png"\] Alt text: in the application banner.
+    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
 
     \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
 

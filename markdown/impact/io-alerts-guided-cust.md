@@ -56,7 +56,7 @@ If you’re an Impact Guided tier customer, then the important top 6 and commonl
 
 8.  Select **Save**.
 
-    For more information on configuring alerts and setting notifications, see [Configure key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    For more information on configuring alerts and setting notifications, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 
 **Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)

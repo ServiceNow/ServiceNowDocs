@@ -16,8 +16,6 @@ breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 
 As the Service Mapping administrator, you support companies in their efforts to map and maintain critical application services so that they remain service-aware.
 
--   **[AI capabilities in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)**  
-Service Mapping AI capabilities helps Service Mapping Administrators speed-up mapping processes and manage team flows more efficiently.
 -   **[Create a service instance from various data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-create-service-instance.md)**  
 Search for mapped and unmapped services to unify. The flow is available using the Service Mapping workspace.
 -   **[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**  

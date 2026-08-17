@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 keywords: [Nokia MPN, connector instance, Elastic, fault management, alarm collection]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
@@ -31,7 +31,7 @@ The MPN connector collects alarm and event data from managed network infrastruct
 
 You can create multiple connector instances, one per index, and assign each to a dedicated MID Server to distribute the polling workload across your deployment. A default index value is provided for each connector instance.
 
-The alarm collection instance also clears stale alarms: alarms that were cleared at the source but were missed during a normal collection cycle and would otherwise remain open in Event Management. At a regular interval, the connector rechecks the source for active alarms that have not been updated within a set time window and clears any that are no longer active. Default values are provided, so no action is required unless you want to tune this behavior.
+The alarm collection instance also clears stale alarms: alarms that were cleared at the source but were missed during a normal collection cycle and would otherwise remain open in Event Management. At a regular interval, the connector rechecks the source for active alarms that have not been updated within a set time window. It then clears any that are no longer active. Default values are provided, so no action is required unless you want to tune this behavior.
 
 ## Procedure
 

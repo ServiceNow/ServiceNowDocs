@@ -1,5 +1,5 @@
 ---
-title: Using the Next Experience Unified Navigation
+title: Next Experience Unified Navigation
 description: Improved navigation to access records and data, check your notifications, and set your preferences in the Next Experience Unified Navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/using-the-next-experience-global-header.html
@@ -11,7 +11,7 @@ keywords: [unified navigation, navigation]
 breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Using the Next Experience Unified Navigation
+# Next Experience Unified Navigation
 
 Improved navigation to access records and data, check your notifications, and set your preferences in the Next Experience Unified Navigation.
 
@@ -169,15 +169,15 @@ Select the scope of your instance and the scope of your update sets. You can als
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto®
 
 </td><td>
 
-\[Omitted image "icon-now-assist.png"\] Alt text: Now Assist.
+\[Omitted image "icon-now-assist.png"\] Alt text: ServiceNow Otto.
 
 </td><td>
 
-Enables you to address and resolve customer issues. The [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The Now Assist panel is configured using the Now Assist Admin console.
+Enables you to address and resolve customer issues. The [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The ServiceNow Otto® panel is configured using the AI Admin Hub console.
 
 </td></tr><tr><td>
 

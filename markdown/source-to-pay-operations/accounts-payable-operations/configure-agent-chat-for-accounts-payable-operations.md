@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, Source-to-Pay workspace, Conversational Interfaces, Agent control, Configurable Toolbar Controls, AP automation, Inquiry resolution]
 breadcrumb: [Configure Advanced Work Assignment for Accounts Payable Operations, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -44,5 +44,14 @@ Role required: admin
 
 The agent chat settings are configured to interact with an Accounts Payable Operations agent.
 
+## What to do next
+
+[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
+
 **Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
+
+**Related topics**  
+
+
+[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
 

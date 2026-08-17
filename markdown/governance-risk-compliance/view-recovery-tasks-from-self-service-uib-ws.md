@@ -22,7 +22,7 @@ Role required: sn\_bcm.recovery\_team\_member
 
 1.  Navigate to **Self-Service** &gt; **My Recovery Tasks**.
 
-2.  View the list of the event tasks that are assigned to you, the assigned group that you are part of, or a recovery team that you belong to and the state of the event is not in the **Pending** state.
+2.  View event tasks assigned to you, your assigned group, or your recovery team where the event state is not **Pending**.
 
     You can view the name and description of the recovery task.
 

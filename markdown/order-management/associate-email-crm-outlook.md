@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [ServiceNow CRM for Outlook, associate email, link email, log email]
-breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Associate an email with an existing CRM record

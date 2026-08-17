@@ -1,6 +1,6 @@
 ---
 title: View approval state flows for a business impact analysis
-description: View the approval state transitions sent at each level of the approval process, and the details of the approvers as you direct the business impact analysis through multiple levels of approvals.
+description: View approval state transitions and approver details at each level as you direct the business impact analysis through the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-approval-state-flows-bia.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Assess impact categories and dependencies of process, Structured wo
 
 # View approval state flows for a business impact analysis
 
-View the approval state transitions sent at each level of the approval process, and the details of the approvers as you direct the business impact analysis through multiple levels of approvals.
+View approval state transitions and approver details at each level as you direct the business impact analysis through the approval process.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, sn\_bcm.viewer
 
 2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
-    You can view approval records for a business impact analysis \(BIA\) that is any state except **Draft** and **In Review** states.
+    You can view approval records for a business impact analysis \(BIA\) that is in any state except **Draft** and **In Review**.
 
 3.  Click the link to the business impact analysis record in the **Name** column.
 
@@ -40,7 +40,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, sn\_bcm.viewer
 
 6.  To view the approval history of the impact analysis, click the **Details** tab.
 
-    1.  Click the Approval History related item.
+    1.  Click the Approval History related list.
 
         You can view the complete approval history of the approvers and the details as to when it was created.
 

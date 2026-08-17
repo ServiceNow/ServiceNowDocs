@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
+keywords: [APO, Accounts Payable Operations, exception handling, invoice automation, Invoice attributes, Accounts Payable specialist, invoice processing]
 breadcrumb: [Invoice processing case form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -17,8 +17,8 @@ breadcrumb: [Invoice processing case form, Reference, Accounts Payable Operation
 
 Field descriptions for the Invoice attributes form stored in the \[sn\_apm\_invoice\_attribute\] table, including invoice processing details such as approval status, exception handling, and matching errors.
 
-|Tab|Description|
-|---|-----------|
+|Field|Description|
+|-----|-----------|
 |Approval date|The date, in DD/MM/YYYY format, on which an invoice was approved for payment, either automatically or manually.|
 |Auto approved|Indicates that the invoice was approved automatically without requiring manual Accounts Payable specialist review.|
 |Created|The date and time the invoice was created in DD/MM/YYYY and HH:MM:SS format.|

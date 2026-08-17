@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Q&amp;A Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Knowledge base articles Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set the factoid extraction mode for Q&amp;A Genius Results
@@ -48,5 +48,5 @@ As a search administrator, you can specify the factoid extraction mode for Q&amp
 4.  Save the modified System Property record by selecting **Submit** or **Update**.
 
 
-**Parent Topic:**[Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)
+**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)
 

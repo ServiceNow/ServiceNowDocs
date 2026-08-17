@@ -1,6 +1,6 @@
 ---
 title: LLM-powered SIR integration builder
-description: The LLM-powered SIR integration builder \(Now Assist for Security Incident Response integrations\) enables you to integrate capabilities into the Security Incident Response application.
+description: The LLM-powered SIR integration builder \(ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit\) enables you to integrate capabilities into the Security Incident Response application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sir-integration-builder-now-assist.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Security Operations]
 
 # LLM-powered SIR integration builder
 
-The LLM-powered SIR integration builder \(Now Assist for Security Incident Response integrations\) enables you to integrate capabilities into the Security Incident Response application.
+The LLM-powered SIR integration builder \(ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit\) enables you to integrate capabilities into the Security Incident Response application.
 
 ## Get started
 

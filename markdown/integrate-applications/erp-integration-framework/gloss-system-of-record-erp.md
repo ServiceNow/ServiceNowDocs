@@ -14,7 +14,5 @@ breadcrumb: [Zero Copy Connector for ERP and ERP Semantic Mining glossary, Refer
 
 # system of record
 
-The ERP system of record is where the data lives and is distributed from, for example, SAP.
-
 **Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

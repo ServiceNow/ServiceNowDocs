@@ -9,7 +9,7 @@ classification: scripts
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Explore, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # General guidelines for code generation

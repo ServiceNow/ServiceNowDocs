@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector check definition page, ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC check definition page, ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Test check dialog box fields

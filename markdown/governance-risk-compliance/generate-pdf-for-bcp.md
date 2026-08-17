@@ -51,7 +51,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 6.  Save the PDF on your system.
 
-    You can save the PDF for a future reference.
+    You can save the PDF for future reference.
 
 7.  To create the BCP report in Microsoft Word, select **Generate MS Word**.
 

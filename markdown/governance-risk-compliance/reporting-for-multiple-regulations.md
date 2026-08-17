@@ -1,5 +1,5 @@
 ---
-title: Reporting incidents or security incidents for multiple regulations
+title: Reporting incidents for multiple regulations
 description: You can now report incidents or security incidents for multiple regulations for various legal entities in Digital resilience incident reporting. The application streamlines operations by automating tasks, migrating data, helping to prevent duplicates, and verifying accurate reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/reporting-for-multiple-regulations.html
@@ -10,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Reporting incidents or security incidents for multiple regulations
+# Reporting incidents for multiple regulations
 
 You can now report incidents or security incidents for multiple regulations for various legal entities in Digital resilience incident reporting. The application streamlines operations by automating tasks, migrating data, helping to prevent duplicates, and verifying accurate reporting.
 
@@ -35,15 +35,15 @@ For information on setting up the entities, see [Set up entities for the targets
 
 ## Sequence of action tasks
 
-The sequence of action tasks in the Digital Resilience Incident Reporting \(DIR\) process, as outlined in the document "Digital resilience incident reporting for multiple regulations," is primarily driven by template configurations. Here's an overview of how action tasks are created and sequenced:
+The sequence of action tasks in the DIR process is outlined in the document "Digital resilience incident reporting for multiple regulations." It is primarily driven by template configurations. Here's an overview of how action tasks are created and sequenced:
 
-Action task creation and sequence are explained:
+Action task creation and sequence are explained.
 
 1.  Initial action task creation: When a DIR case is created \(triggered by sources like incidents\), the system automatically generates action tasks. For example, the template shown creates the 'Regulatory reporting assessment of IT incidents' action task.
-2.  Template configuration: Templates are configured to create specific action tasks. For example, the 'DRI Initial report' template, which runs only once, automatically creates the 'DRI Initial report' action task when the regulation’s reporting status changes to 'Reportable.' Administrators can then update its name, due date, and termination conditions.
+2.  Template configuration: Templates are configured to create specific action tasks. For example, the 'DRI Initial report' template runs only once. It automatically creates the 'DRI Initial report' action task when the regulation’s reporting status changes to 'Reportable.' Administrators can then update its name, due date, and termination conditions.
 3.  Closure of action tasks:
 
-    When the 'DRI Initial report' is closed, the 'DRI Intermediate report' action task is created. If the 'DRI Initial report' task remains open, the system creates the 'DRI Intermediate report' action task every three days until the DIR case is closed or canceled, or the source incident is closed.
+    When the 'DRI Initial report' is closed, the 'DRI Intermediate report' action task is created. If the 'DRI Initial report' task remains open, the 'DRI Intermediate report' action task is created every three days until the DIR case or source incident is closed.
 
     **Note:** It is not mandatory to close every intermediate report assessment that was generated during the lifecycle of the incident. The Final report action task is created automatically when the source incident is closed, independent of the open intermediate assessments. Any intermediate assessments that remain open after the source incident is closed are no longer required - the periodic generation stops as soon as the termination conditions configured on the DRI Intermediate report template are met \(typically when the source incident state is 'Closed' or the DRI case state is 'Closed'/'Canceled'\).
 
@@ -56,5 +56,5 @@ Action task creation and sequence are explained:
 
 For information on mapping regulations and setting up action task templates, see [Map regulations to the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-case-types-map-regu.md) and [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-action-task-templates.md).
 
-For information on completing action tasks, refer to [Complete action tasks and report incidents associated with regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/work-on-action-tasks.md).
+For information on completing action tasks, refer to [Complete action tasks and report incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/work-on-action-tasks.md).
 

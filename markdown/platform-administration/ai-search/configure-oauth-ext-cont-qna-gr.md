@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Content Q&amp;A Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [External Content Q&amp;A Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure OAuth settings for External Content Q&amp;A Genius Results
@@ -19,7 +19,7 @@ Configure the settings that External Content Q&amp;A Genius Results need to inte
 
 ## Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 You must have already completed the following tasks:
 

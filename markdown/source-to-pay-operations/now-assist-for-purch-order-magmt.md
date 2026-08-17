@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Purchase Order Management \(POM\)
-description: Use the ServiceNow Now Assist for Purchase Order Management \(POM\) application to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and leverage a conversation-like experience to mitigate purchase order exceptions.
+title: ServiceNow Otto for Purchase Order Management \(POM\)
+description: Use ServiceNow Otto for Purchase Order Management \(POM\) to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and for a conversation-like experience to mitigate purchase order exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-purch-order-magmt.html
 release: australia
@@ -11,23 +11,23 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Purchase Order Management \(POM\)
+# ServiceNow Otto for Purchase Order Management \(POM\)
 
-Use the ServiceNow® Now Assist for Purchase Order Management \(POM\) application to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and leverage a conversation-like experience to mitigate purchase order exceptions.
+Use ServiceNow Otto for Purchase Order Management \(POM\) to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and for a conversation-like experience to mitigate purchase order exceptions.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for POM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for POM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for POM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for POM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use agentic workflows in Now Assist for POM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/using-agentic-wf-na-for-pom.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for POM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/using-agentic-wf-na-for-pom.md)
 
 </td></tr></tbody>
 </table>**Important:**

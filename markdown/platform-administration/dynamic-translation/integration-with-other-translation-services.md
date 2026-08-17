@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-13"
 reading_time_minutes: 2
 breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,6 +23,8 @@ Alternatively, you can also create a custom spoke. In addition to your account c
 Also listed in the Translator Configurations table is a default record for the **ServiceNow** translator. This translator can be used for language detection only, not for translation, so its **Mark as default for translation** check box is not selectable. This optional language detection service is included in your Dynamic Translation subscription.
 
 **Note:** If you activate dynamic translation in the Generative AI Controller, a fully preconfigured spoke to [Microsoft Azure OEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md) Translator Service is added as a row in Translator Configurations.
+
+Consult your service provider's portal for details regarding data privacy policies, cost and usage structure, and other information related to your account with that provider. Test your integration in a non-production instance, including examining logs, before deploying to production.
 
 -   **[Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)**  
 Integrate with a third-party translation provider of your choice for machine translation of user-generated text.

@@ -1,25 +1,25 @@
 ---
 title: Validate Legal Entity Identifier codes for DORA reporting
-description: Review and resolve Legal Entity Identifier \(LEI\) validation results for DORA Register of Information reporting. LEI validation runs automatically during Plain-CSV Reporting Package generation and Microsoft Excel upload to verify that LEI codes in the digital resilience registers exist in the GLEIF database and have an active and issued status.
+description: Review and resolve Legal Entity Identifier \(LEI\) validation results for DORA Register of Information reporting. LEI validation runs automatically during Plain-CSV Reporting Package generation and Microsoft Excel upload. The validation verifies that LEI codes in the digital resilience registers exist in the GLEIF database with active and issued status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/validate-lei.html
 release: australia
 topic_type: task
 last_updated: "2026-05-15"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [LEI validation, GLEIF, DORA, Register of Information, Level 4]
 breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Validate Legal Entity Identifier codes for DORA reporting
 
-Review and resolve Legal Entity Identifier \(LEI\) validation results for DORA Register of Information reporting. LEI validation runs automatically during Plain-CSV Reporting Package generation and Microsoft Excel upload to verify that LEI codes in the digital resilience registers exist in the GLEIF database and have an active and issued status.
+Review and resolve Legal Entity Identifier \(LEI\) validation results for DORA Register of Information reporting. LEI validation runs automatically during Plain-CSV Reporting Package generation and Microsoft Excel upload. The validation verifies that LEI codes in the digital resilience registers exist in the GLEIF database with active and issued status.
 
 ## Before you begin
 
-Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
+Role required: sn\_oper\_res.manager
 
-Generate a Plain-CSV Reporting Package. For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md).
+Generate a Plain-CSV Reporting Package. For more information, see [Register of Information \(ROI\) regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-dora-roi-reg-pkg.md).
 
 ## About this task
 
@@ -27,7 +27,7 @@ Level 4 LEI validation checks LEI codes in the Digital resilience third-party re
 
 -   **Plain-CSV Reporting Package generation**: All LEI codes in the package are validated in a single batch GLEIF API call. A `Level4_LEI_Validation_Report.csv` file is included in the `Consolidated_Reports.zip` attachment on the request record when generation completes. The request record shows a timestamped validation status message. Package generation is never blocked by LEI validation failures.
 -   **Microsoft Excel upload**: When uploading Legal entity, Branch, Third party, or Third-party engagement records, all LEI codes are collected, deduplicated, and batch-validated against GLEIF before rows are processed. The **Save rows with LEI GLEIF errors during Excel upload** system property controls whether rows with GLEIF data failures are saved with a warning or blocked. Format and checksum failures always block rows regardless of this property. If the GLEIF API is unavailable, rows are always saved regardless of this property.
--   **UI forms**: When you enter or update an LEI code field on a [Legal entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-legal-entity.md), [Branch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-branch.md), [Third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-third-party.md), or [Third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-tp-engagement.md) record, the system validates the LEI against GLEIF and auto-populates the name and country fields. If you then edit the name or country field to a value that no longer matches GLEIF data, an inline warning is displayed. Records can still be saved with mismatched values.
+-   When you update an LEI code on a legal entity branch, Third party, or Third party engagement record, the system validates against GLEIF. It then auto-populates name and country fields. If you edit the name or country field to a value that no longer matches GLEIF data, an inline warning is displayed. Records can still be saved with mismatched values.
 
 ## Procedure
 
@@ -88,7 +88,7 @@ Maximum number of LEI codes sent in a single batch GLEIF API call. Valid range: 
 </td></tr></tbody>
 </table>    3.  Select **Save**.
 
-2.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon and navigate to **Digital resilience third-party registers**, then open **Excel download/upload requests** and select the request record.
+2.  In the workspace, select the list icon and navigate to **Digital resilience third-party registers**, then open **Excel download/upload requests** and select the request record.
 
 3.  Review the **Messages** field in the **Result** section for the LEI validation status message.
 
@@ -108,7 +108,7 @@ Maximum number of LEI codes sent in a single batch GLEIF API call. Valid range: 
     -   **N/A**: The GLEIF API was unavailable, rate-limited, or timed out during validation. No action required for data accuracy; regenerate the package to retry.
 6.  Update the affected records in the system and regenerate the Plain-CSV Reporting Package to confirm that issues are resolved.
 
-    For more information on resolving validation issues, see [Validate Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-dora.md).
+    For more information on resolving validation issues, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
 
 
 ## Result
@@ -116,7 +116,7 @@ Maximum number of LEI codes sent in a single batch GLEIF API call. Valid range: 
 When all LEI codes pass validation, the Level 4 LEI Validation Report is still included in the `Consolidated_Reports.zip` attachment and the request record message confirms successful validation.
 
 -   **[Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/lei-validation-report.md)**  
-The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is generated during Plain-CSV Reporting Package download and lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
+The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is generated during Plain-CSV Reporting Package download. It lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

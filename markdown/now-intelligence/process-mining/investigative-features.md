@@ -51,7 +51,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 5.  Select an existing clustering definition in the **Intent and activity analysis** field.
 
-    **Note:** Intent and activity analysis isn’t available unless specified in the process configuration. Also, if the Intent and Activity Analysis skill is not activated in Now Assist for Creator, then the section is not available for edit. For more information on Intent and Activity Analysis skill, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
+    **Note:** Intent and activity analysis isn’t available unless specified in the process configuration. Also, if the Intent and Activity Analysis skill is not activated in ServiceNow Otto for Creator, then the section is not available for edit. For more information on Intent and Activity Analysis skill, see [Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md).
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
@@ -83,7 +83,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     **Note:** Work notes analysis isn’t available unless it’s set up in the process configuration.
 
-    You can use the Now Assist feature for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
+    You can use the AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
 
 <table id="table_wmj_zsq_ndc"><thead><tr><th>
 

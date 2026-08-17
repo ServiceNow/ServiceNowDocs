@@ -42,7 +42,7 @@ If you refuse the acquirer's pre-arbitration request, the acquirer may create an
 
     The **Chargeback** stage is initiated for the transaction.
 
-6.  Select the **Review incoming case filing appeal** activity.
+6.  Select the **Review incoming case filing appeal** task.
 
 7.  Select **Get case filing detail** to get the details about the amount and reason for case filing.
 
@@ -78,7 +78,7 @@ After the request executes successfully, the transaction state moves to **Awaiti
 
 ## What to do next
 
-Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting `Get acknowledgement letter` in the**Review case filing appeal** activity.
+Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting `Get acknowledgement letter` in the**Review case filing appeal** task.
 
 **Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

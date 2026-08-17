@@ -124,3 +124,5 @@ Additional requirements or a private note to the receptionist.
 
 [Additional requirement form]()
 
+[Differences between Workplace Visitor Management versions]()
+

@@ -16,6 +16,8 @@ breadcrumb: [Hardening settings, Platform Security]
 
 The Configuration category ensures applications have a secure build environment and hardened third party library components. Specifically, ensuring a build and deploy pipeline is repeatable and includes automated testing and prevents known security issues from being deployed. This includes keeping dependencies up to date and free from known vulnerabilities.
 
+-   **[Allow CORS Origins for OAuth Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-allow-cors-origins-for-oauth-endpoints.md)**  
+Use a system property to configure to specify which domains are allowed to make cross-origin requests.
 -   **[Auto set content type options \[Removed in Security Center 1.3.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-auto-set-content-type-options.md)**  
 Configure the Auto set content type options property on your instance to prevent MIME confusion attacks.
 -   **[Cache-Control HTTP Header Value \[Updated in Security Center 1.3 and removed in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-cache-control-http-header-value.md)**  

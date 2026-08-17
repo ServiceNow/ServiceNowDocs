@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating Ansible with Cloud Services Catalog, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Integrating Ansible with Cloud Services Catalog, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Ansible as a Day 1 task

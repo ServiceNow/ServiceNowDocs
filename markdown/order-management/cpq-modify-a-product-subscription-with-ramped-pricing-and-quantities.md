@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-10"
 reading_time_minutes: 2
-breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Modify a product subscription with ramped pricing and quantities
 
 Add pricing or quantity ramps to quote line items to set incremental changes during the life of a contract.
 
-In the ServiceNow CPQ configurator, you can modify the configuration of a product subscription so that prices and quantities change during the term of the subscription. This is called ramped pricing because the price or quantity increases or decreases during the term of the contract.
+In the CPQ configurator, you can modify the configuration of a product subscription so that prices and quantities change during the term of the subscription. This is called ramped pricing because the price or quantity increases or decreases during the term of the contract.
 
 To enable the ramped pricing feature, select the **Enable Ramps** check box on the **Pricing** tab of the product offering configuration page.
 
@@ -37,7 +37,7 @@ In each segment, the **Quantity** field is editable. For example, to specify a c
 
 **Note:** By default, ramps are hidden in a product’s list of line items. To display the ramps in the line items view, set the hierarchy toggle at the top of the list. Then, select **conditions** and remove the default conditions for the view.
 
-**Parent Topic:**[Using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
 
 **Related topics**  
 

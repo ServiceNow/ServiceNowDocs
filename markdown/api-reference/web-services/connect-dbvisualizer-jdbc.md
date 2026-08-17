@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
 breadcrumb: [Integrate, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -58,7 +58,7 @@ Step-by-step instructions for external tools in this guide are illustrative — 
 
     The Connection window opens.
 
-7.  Configure the connection properties.
+7.  Configure the connection details to connect via basic authentication.
 
     1.  In the **Database URL** field, enter the JDBC connection string for your ServiceNow instance in the format: `jdbc:servicenow://https://<servicenow_instance_url>.service-now.com`
 
@@ -66,7 +66,7 @@ Step-by-step instructions for external tools in this guide are illustrative — 
 
     3.  In the **Database Password** field, enter the password for your Service Account.
 
-        \[Omitted image "sql-api-dbvisualizer-2.png"\] Alt text: DB Visualizer UI screen to configure the connection properties and test the connection.
+        \[Omitted image "sql-api-dbvisualizer-2.png"\] Alt text: DB Visualizer UI screen to configure the connection details.
 
 8.  Select **Connect**.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Resources, Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Resources, Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add members to a territory

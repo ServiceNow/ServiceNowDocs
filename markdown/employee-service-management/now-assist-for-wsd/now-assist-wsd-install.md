@@ -1,20 +1,20 @@
 ---
-title: Install Now Assist for Workplace Service Delivery \(WSD\)
-description: install and activate Now Assist for Workplace Service Delivery \(WSD\) from ServiceNow Store.
+title: Install ServiceNow Otto for Workplace Service Delivery \(WSD\)
+description: install and activate ServiceNow Otto for Workplace Service Delivery \(WSD\) from ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/now-assist-wsd-install.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Install Now Assist for Workplace Service Delivery \(WSD\)
+# Install ServiceNow Otto for Workplace Service Delivery \(WSD\)
 
-install and activate Now Assist for Workplace Service Delivery \(WSD\) from ServiceNow® Store.
+install and activate ServiceNow Otto for Workplace Service Delivery \(WSD\) from ServiceNow® Store.
 
 ## Before you begin
 
@@ -22,11 +22,15 @@ The System Admin \(admin\) role is required to install the application.
 
 Make sure that you have installed and configured the following dependent applications:
 
--   Now Assist for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for platform \(sn\_genai\_platform\)
 -   Workplace Reservation Management
 -   Workplace Case Management
+-   Workplace Indoor Mapping
+-   Workplace Maintenance Management
 -   Workplace Visitor Management
 -   Workplace Concierge
+-   Workplace Case Management
+-   Workplace Core
 
 Role required: admin
 
@@ -35,15 +39,15 @@ Role required: admin
 1.  Navigate to **System Definition** &gt; **Plugins**.
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Select **Sync now** to synchronize the plugins page with your freshly entitled store application.
 
-3.  Search in the search bar for a Now Assist product.
+3.  Search in the search bar for a ServiceNow Otto product.
 
-    Search for Now Assist for Workplace Service Delivery \(WSD\) \(sn\_wsd\_gen\_ai\).
+    Search for ServiceNow Otto for Workplace Service Delivery \(WSD\) \(sn\_wsd\_gen\_ai\).
 
-4.  Install the plugin and return to your instance.
+4.  Install the plugin and login to your instance.
 
-    **Note:** Installing Now Assist for Workplace Service Delivery \(WSD\) \(sn\_wsd\_gen\_ai\) activates and installs the Now Assist for Platform \(sn\_genai\_platform\).
+    **Note:** Installing ServiceNow Otto for Workplace Service Delivery \(WSD\) \(sn\_wsd\_gen\_ai\) activates and installs the ServiceNow Otto for Platform \(sn\_genai\_platform\).
 
 

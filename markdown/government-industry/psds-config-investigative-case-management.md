@@ -21,8 +21,8 @@ As a user with the admin role, complete the following configuration tasks to set
 |[Install Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install-icm.md)|Install Investigative Case Management \(sn\_gsm\_icm\) from the ServiceNow® Store.|
 |[Assign user personas, roles, groups, and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md)|Assign user persona roles and groups in Investigative Case Management, as well as gain an understanding of user configurations at the case level, such as case teams and responsibilities.|
 |[Create a case team for an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-create-case-team.md)|Create a case team to organize a team and delegate access to users at the case level.|
-|[Configure the investigative case narrative refinement skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-config-nar-refin.md)|Configure the Now Assist for PSDS case narrative refinement generative AI skill that can be used in the Investigative Case Management workspace.|
-|[Configure the investigative case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-config-inv-case-summ.md)|Configure the Now Assist for PSDS case summarization generative AI skill that can be used in the Investigative Case Management workspace.|
+|[Configure the investigative case narrative refinement skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-config-nar-refin.md)|Configure the ServiceNow Otto for PSDS case narrative refinement generative AI skill that can be used in the Investigative Case Management workspace.|
+|[Configure the investigative case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-config-inv-case-summ.md)|Configure the ServiceNow Otto for PSDS case summarization generative AI skill that can be used in the Investigative Case Management workspace.|
 |[Configure relationship types for an evidence record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-evidence-relationship-type.md)|Add or remove the relationship types used to classify the relationship between a piece of evidence and another entity related to the case.|
 |[Configure entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-add-entity-type.md)|Configure the entity types that are displayed in the Entity Management tab.|
 |[Configure terms and conditions for an ICM chain of custody log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-pitc-terms.md)|Configure the terms and conditions that are displayed at signature when submitting a chain of custody log entry.|
@@ -32,6 +32,6 @@ As a user with the admin role, complete the following configuration tasks to set
 
 The main ServiceNow capabilities that are leveraged to support the Investigative Case Management workflows are:
 
--   Now Assist for Public Sector Digital Services \(PSDS\)
+-   ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 -   CSM Configurable Workspace: Provides a process platform for investigators to capture key details and complete key processes.​
 

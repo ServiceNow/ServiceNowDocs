@@ -1,5 +1,5 @@
 ---
-title: Create a part availability
+title: Create a parts availability
 description: Track current part availability and expected availability dates for required parts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-part-availability.html
@@ -7,10 +7,11 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [parts availability, recall campaign part availability, recall management, part requirement, RCPPA, quantity allocated]
 breadcrumb: [Generate a part requirement, Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Create a part availability
+# Create a parts availability
 
 Track current part availability and expected availability dates for required parts.
 
@@ -38,8 +39,8 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 7.  On the form, fill in the following fields.
 
-    |Fields|Description|
-    |------|-----------|
+    |Field|Description|
+    |-----|-----------|
     |Number|Parts availability number that is automatically generated. The number starts with RCPPA.|
     |Earliest available|Date and time when parts will be available.|
     |Quantity available|Quantity of the item available.|

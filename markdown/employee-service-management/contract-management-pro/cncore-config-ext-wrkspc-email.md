@@ -1,5 +1,5 @@
 ---
-title: Configure the workspace URL for contract metadata extraction notifications
+title: Configure the URL for metadata extraction notifications
 description: Configure an extension point to update the workspace URL in email notifications, so that users can navigate to the correct workspace and view the extracted metadata.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.html
@@ -9,10 +9,10 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure metadata extraction, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure the workspace URL for contract metadata extraction notifications
+# Configure the URL for metadata extraction notifications
 
 Configure an extension point to update the workspace URL in email notifications, so that users can navigate to the correct workspace and view the extracted metadata.
 

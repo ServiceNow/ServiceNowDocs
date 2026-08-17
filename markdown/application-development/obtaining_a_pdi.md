@@ -28,19 +28,22 @@ If you do not have a PDI because you released your PDI or went longer than ten d
 
 1.  Sign in to the [Developer Site](https://developer.servicenow.com).
 
-2.  Click the **Request Instance** button in the header.
+2.  Select **Request Instance**.
 
-3.  In the **Request an Instance** dialog, select a ServiceNow® release for the instance and click the **Request** button.
+3.  In the **Request an Instance** dialog, select a ServiceNow® release for the instance, and select **Request**.
 
-    \[Omitted image "request-instance-pdi.png"\] Alt text: Page to request an instance
+    \[Omitted image "request-pdi-instance.png"\] Alt text: Select the instance release you want to use.
 
-    -   PDIs are a limited resource. If no PDIs are available for the desired release, select the release card for the release and click the **Join Waitlist** button. You will be notified when a PDI becomes available.
-    -   To leave the waitlist, click the **Leave Waitlist** link in the header. You will lose your place in the waitlist if you leave and rejoin.\[Omitted image "waitlist-pdi.png"\] Alt text: Join a waitlist page
+    -   PDIs are a limited resource. If no PDIs are available for the desired release, select the release card for the release and select the **Join Waitlist** button. You will be notified when a PDI becomes available.
+
+        \[Omitted image "request-pdi-waitlist.png"\] Alt text: If the release you want is not available, join the waitlist.
+
+    -   To leave the waitlist, select the **Leave Waitlist** link in the header. You will lose your place in the waitlist if you leave and rejoin.
 4.  When an instance is assigned to you, the **Your instance is ready!** dialog supplies your instance URL and password.
 
     \[Omitted image "open-instance-pdi.png"\] Alt text: Your instance is ready confirmation page
 
-5.  Click the **Open Instance** button to open the instance in a new browser tab.
+5.  Select **Open Instance** to open the instance in a new browser tab.
 
 
 **Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)

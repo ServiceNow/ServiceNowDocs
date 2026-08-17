@@ -9,7 +9,7 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for FSM]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for FSM]
 ---
 
 # Generate work order task closure summaries in ServiceNow Agent
@@ -38,14 +38,12 @@ Role required: agent
 
 4.  Tap the **Closure notes** field.
 
-5.  Tap \[Omitted image "icon-ai-sparkle.png"\] Alt text: Generate closure notes icon. **Generate closure notes**.
-
-    \[Omitted image "mobile-generate-closure-notes.png"\] Alt text: Generate closure notes action on the Closure summary screen.
+5.  Tap **Generate closure notes**.
 
 
 ## Result
 
 A closure summary is generated for the work order task. You can edit the summary after it's generated. Because the information in these fields is automatically generated, it’s a good idea to review the text and make sure that it's accurate.
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

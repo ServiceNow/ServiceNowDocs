@@ -1,5 +1,5 @@
 ---
-title: Configure the memory limit of the Informer pod
+title: Informer Pod memory limit and memory request
 description: Set the memory limit of the Kubernetes Visibility Agent Informer pod.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-informer-memory.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, memory, consumption, resources, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure the memory limit of the Informer pod
+# Informer Pod memory limit and memory request
 
 Set the memory limit of the Kubernetes Visibility Agent Informer pod.
 

@@ -8,7 +8,7 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -18,7 +18,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator Overview
 
-Jumpstart Your Major Incident Management \(MIM\) provides ServiceNow administrators and technical teams with a ready-to-use temporary instance to explore base-system Major Incident workflows. It showcases core capabilities such as incident prioritization, cross-team collaboration, communication templates, and post-incident reviews. This helps teams envision how to accelerate response times and reduce business impact during critical outages. Additionally, this offering provides key resources and leading practices to get started with Major Incident Management.
+Jumpstart Your Major Incident Management \(MIM\) provides ServiceNow administrators and technical teams with a ready-to-use temporary instance to explore base-system Major Incident workflows. It showcases core capabilities such as incident prioritization, cross-team collaboration, communication templates, and post-incident reviews and includes *ServiceNow Otto for ITSM* capabilities to accelerate incident summarization and resolution documentation. This helps teams envision how to accelerate response times and reduce business impact during critical outages. Additionally, this offering provides key resources and leading practices to get started with Major Incident Management.
 
 ## Package Availability
 
@@ -39,7 +39,7 @@ Jumpstart Your Major Incident Management \(MIM\) provides ServiceNow administrat
     Includes the following:
 
     -   Overview of MIM
-    -   Guided walk-through of the MIM process scope, including:
+    -   Guided walk-through of the MIM process scope powered by *ServiceNow Otto for ITSM*, including:
         -   Major Incident identification
         -   Incident communication plans
         -   Playbooks
@@ -48,7 +48,7 @@ Jumpstart Your Major Incident Management \(MIM\) provides ServiceNow administrat
     -   Key metrics and reporting
     -   Steps to successfully adopt MIM
     -   Temporary instance provided with 30 days access
--   **Customer Coaching Session \#2 \(Optional upon Customer request-up to 60 min\)**
+-   **Customer Coaching Session \#2 \(Optional up on Customer request-up to 60 min\)**
 
     Opportunity for QA related to MIM
 

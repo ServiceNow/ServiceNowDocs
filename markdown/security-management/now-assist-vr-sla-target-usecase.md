@@ -28,5 +28,5 @@ If you want to modify this agentic workflow, you can [duplicate](https://raw.git
 
 The Remediation Compliance Insights Provider is used by the Analyze vulnerability remediation status agentic workflow.
 
-**Parent Topic:**[Now Assist for Vulnerability Response reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
+**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
 

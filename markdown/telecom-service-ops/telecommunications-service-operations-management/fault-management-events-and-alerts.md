@@ -22,7 +22,7 @@ Alerts are central to detecting and responding to configuration issues. Each ale
 
 -   Device name: The affected device \(for example, IP router, IP switch, access point\)
 -   Alert type: The category of the event
--   Alert level: The severity level \(informational, warning, critical\)
+-   Alert severity: One of Critical, Major, Minor, Warning, or Clear. The source system's severity or alert level is mapped to one of these values.
 
 When a monitored event occurs, you can create an alert with these attributes and begin tracking it. You can configure event rules to control what happens next: grouping related alerts, escalating critical ones, or suppressing noise so your team only sees issues that require action. The Integrations Launchpad provides a central place to manage integrations with external systems.
 
@@ -38,7 +38,7 @@ Event rules and alert suppression give you control over how alerts are generated
 For instructions on how to configure Event Management solutions, see the following documentation:
 
 -   [Configure a webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.md)
--   [Configure an event pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.md)
+-   [Configure a metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.md)
 -   [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
 -   [Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
 

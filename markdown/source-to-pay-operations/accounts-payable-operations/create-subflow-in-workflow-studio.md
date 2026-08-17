@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice exception, invoice automation]
+keywords: [APO, Accounts Payable Operations, Exception Definition Record, Accounts Payable Invoice Processing, Generate Exception, Line Exceptions, workflow studio, Flow variables]
 breadcrumb: [Create an invoice exception definition, Invoice exceptions, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

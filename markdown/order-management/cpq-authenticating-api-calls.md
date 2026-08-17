@@ -1,28 +1,28 @@
 ---
-title: Authenticating ServiceNow CPQ API calls
-description: Secure ServiceNow CPQ API calls with admin API keys, JWT tokens, session cookies, or Google IdP for runtime and Admin tasks.
+title: Authenticating CPQ API calls
+description: Secure CPQ API calls with admin API keys, JWT tokens, session cookies, or Google IdP for runtime and Admin tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-authenticating-api-calls.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Authenticating ServiceNow CPQ API calls
+# Authenticating CPQ API calls
 
-Secure ServiceNow CPQ API calls with admin API keys, JWT tokens, session cookies, or Google IdP for runtime and Admin tasks.
+Secure CPQ API calls with admin API keys, JWT tokens, session cookies, or Google IdP for runtime and Admin tasks.
 
 ## Authenticating runtime API calls
 
-When using ServiceNow CPQ in a headless manner, you authenticate your configuration session by using a runtime client. To create a runtime client, navigate to the ServiceNow CPQ Admin UI, click **Utilities** in the sidebar, and then click **Runtime Clients**. From here, specify the origin of your call, whether it is an external URL or an origin specified in the header of your call. You can also give your client an expiration date. After you save your client, you can copy the token and use it as the bearer token in other runtime API calls.
+When using CPQ in a headless manner, you authenticate your configuration session by using a runtime client. To create a runtime client, navigate to the CPQ Admin UI, click **Utilities** in the sidebar, and then click **Runtime Clients**. From here, specify the origin of your call, whether it is an external URL or an origin specified in the header of your call. You can also give your client an expiration date. After you save your client, you can copy the token and use it as the bearer token in other runtime API calls.
 
 \[Omitted image "cpq-menu-runtime-clients.png"\] Alt text: Menu
 
 \[Omitted image "cpq-edit-runtime-client-dialog.png"\] Alt text: Edit Run time client
 
-For more information on ServiceNow CPQ runtime calls, see [Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/intro_to_runtime_api_calls.md).
+For more information on CPQ runtime calls, see [Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/intro_to_runtime_api_calls.md).
 
 ## Authenticating admin API calls
 
@@ -32,7 +32,7 @@ There are four ways to authenticate your admin API calls:
 
     Admin API keys are the recommended way of authenticating admin API calls. For information about setting up admin API Keys, see:
 
-    [ServiceNow CPQ: admin API Keys](https://logikio.atlassian.net/wiki/spaces/CS/pages/1615331503).
+    [CPQ: admin API Keys](https://logikio.atlassian.net/wiki/spaces/CS/pages/1615331503).
 
 -   JWT token
 

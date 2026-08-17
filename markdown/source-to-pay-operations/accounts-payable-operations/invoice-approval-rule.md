@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, Approval rule form]
 breadcrumb: [Invoice approvals, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -41,7 +41,7 @@ Role required: admin
 You can also associate approval rules with approval groups and define the sequence to determine when these rules should be triggered. For more information, see [Approval rule grouping and sequencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.md).
 
 -   **[Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.md)**  
-Reference information for the approval rule types available in the invoice approval process, including approval conditions, routing methods, and decision methods.
+Reference information for invoice approval rule types, including approval conditions, routing methods, and decision methods.
 
 **Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

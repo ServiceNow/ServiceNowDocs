@@ -84,7 +84,7 @@ For information on creating a Resource configuration in Crisis map, see [Configu
 
 ## Alert details page
 
-When you select an alert, the map zooms into a smaller area centered on the latitude and longitude of the alert, providing a focused view of the specific location.
+When you select an alert, the map zooms into a smaller area centered on the alert's latitude and longitude, providing a focused view of the specific location.
 
 In the alert details, additional information on the alert is listed.
 

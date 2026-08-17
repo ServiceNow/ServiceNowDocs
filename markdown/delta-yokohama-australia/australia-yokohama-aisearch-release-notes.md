@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aisearch-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
+last_updated: "2026-08-17"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -116,6 +116,11 @@ Zurich
 
 </td><td>
 
+-   **[\[Placeholder link text to key bundle-platadm.generate-multi-content-synthezised-sources\]](https://www.servicenow.com/docs/access?context=generate-multi-content-synthezised-sources&family=zurich&ft:locale=en-US)**
+
+AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
+
+
 -   **[Improve search precision and contextual relevance with hybrid search](https://www.servicenow.com/docs/access?context=hybrid-search-ais&family=zurich&ft:locale=en-US)**
 
 Beginning with Now Assist in AI Search 15.0, customers with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
@@ -148,6 +153,11 @@ Australia
 
 </td><td>
 
+-   **[Generate multi-content synthesized responses](https://www.servicenow.com/docs/access?context=generate-multi-content-synthesized-sources&family=australia&ft:locale=en-US)**
+
+AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
+
+
 -   **[Multimodal captioning for attachments](https://www.servicenow.com/docs/access?context=activate-multimodal-captioning&family=australia&ft:locale=en-US)**
 
 Multimodal captioning automatically generates searchable descriptive captions for images, tables, charts, and other visual elements in indexed attachments. Find attachments by searching for keywords from generated captions.
@@ -157,7 +167,7 @@ Multimodal captioning automatically generates searchable descriptive captions fo
 
 Beginning with Now Assist in AI Search 15.0, administrators on instances with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
 
--   **[Configure AI Search as the source for Ask Now Assist suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=australia&ft:locale=en-US)**
+-   **[Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=australia&ft:locale=en-US)**
 
 Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
 
@@ -217,7 +227,7 @@ Zurich
 
 </td><td>
 
--   **[Now Assist Multi-Content Response Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US)**
+-   **[Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US)**
 
 If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
 
@@ -253,7 +263,7 @@ Australia
 
 </td><td>
 
--   **[Now Assist Multi-Content Response Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=australia&ft:locale=en-US)**
+-   **[Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=australia&ft:locale=en-US)**
 
 If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
 
@@ -569,7 +579,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   Improve search precision and contextual relevance with hybrid search, available for customers with Now Assist in AI Search installed.
 -   Gain insights into search behavior with a refreshed and updated Search Preview UI.
@@ -591,7 +603,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+ Display actionable information from any indexed source in your system using multi-source synthesis.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
  Find Knowledge \[kb\_knowledge\] table attachments containing images, tables, charts, and other visual elements by searching for keywords from automatically generated multimodal descriptive captions.
 

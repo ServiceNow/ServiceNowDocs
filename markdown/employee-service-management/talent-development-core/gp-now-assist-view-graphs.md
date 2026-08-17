@@ -18,7 +18,7 @@ From the Now Assist Admin console, view related information for Growth plans cre
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_na\_analytics.viewer, platform\_analytics\_admin, or sn\_td\_na.admin
 
 ## About this task
 
@@ -43,7 +43,7 @@ To view Growth plans related information from the Now Assist Admin console, you 
 
 ## What to do next
 
-To learn more about the Now Assist Admin console, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+To learn more about the Now Assist Admin console, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 **Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
 

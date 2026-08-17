@@ -52,7 +52,7 @@ Create a subflow for the activity. [Create subflow for Design and Assign functio
 **Related topics**  
 
 
-[bundle-platcap.c_ServiceCatalogVariableSets]
+[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariableSets.md)
 
 [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

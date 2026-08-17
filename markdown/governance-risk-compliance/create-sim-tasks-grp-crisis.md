@@ -49,7 +49,7 @@ For information on the state changes for event tasks in similar tasks groups, se
 
         **Note:** When you select **Add** in the **Event tasks** tab, the modal displays only applicable event tasks, helping to prevent cyclic dependencies.
 
-    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task cannot be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 is dependent on task 4, then task 5 cannot be added into the same group as task 4 as shown in the example.
+    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task can't be added to the same similar task group. For example, if you add task 4 to an event task group and task 5 depends on it, task 5 can't be added to the same group.
 
     \[Omitted image "event-task-cyclic-check.png"\] Alt text: Cyclic check.
 

@@ -1,6 +1,6 @@
 ---
 title: Invoice payment detail import inbound table
-description: Field descriptions and data types for the Invoice Payment Detail Import Inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table used to store imported invoice payment detail data from ERP systems before transfer to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
+description: Field descriptions and data types for the Invoice Payment Detail Import Inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table. This table stores imported invoice payment detail data from ERP systems before transfer to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/invoice-payment-detail-staging-table.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Inbound staging tables for Accounts Payable Operations, Inbound sta
 
 # Invoice payment detail import inbound table
 
-Field descriptions and data types for the Invoice Payment Detail Import Inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table used to store imported invoice payment detail data from ERP systems before transfer to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
+Field descriptions and data types for the Invoice Payment Detail Import Inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table. This table stores imported invoice payment detail data from ERP systems before transfer to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
 
 ## Invoice payment detail import inbound staging table
 

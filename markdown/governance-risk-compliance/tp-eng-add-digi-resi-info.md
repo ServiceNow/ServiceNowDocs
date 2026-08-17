@@ -1,5 +1,5 @@
 ---
-title: Add Digital resilience information to third-party engagements
+title: Add Digital resilience info to third-party engagements
 description: Add Digital resilience information to third-party engagements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/tp-eng-add-digi-resi-info.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a third-party engagement and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third-party engagement and enhance data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Add Digital resilience information to third-party engagements
+# Add Digital resilience info to third-party engagements
 
 Add Digital resilience information to third-party engagements.
 
@@ -26,11 +26,11 @@ Role required: sn\_oper\_res.manager
 
 3.  Select **New**.
 
-    The Create New ICT third-party service provider form is displayed.
+    The Create ICT third-party service provider form is displayed.
 
 4.  Set up the digital resilience information details.
 
-    For more information, see [Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md).
+    For more information, see [Create ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md).
 
 5.  Select **Save**.
 
@@ -39,5 +39,5 @@ Role required: sn\_oper\_res.manager
 6.  Navigate to the Contractual arrangements tab and view the details.
 
 
-**Parent Topic:**[Create a third-party engagement and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+**Parent Topic:**[Create a third-party engagement and enhance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

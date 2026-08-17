@@ -1,6 +1,6 @@
 ---
 title: Configure forms and lists
-description: Configure forms to add the fields and related lists that are necessary to support the business location and household data models.
+description: Configure forms to add the fields and related lists that are necessary to support the business organization \(formerly business location\) and household data models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-forms.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 # Configure forms and lists
 
-Configure forms to add the fields and related lists that are necessary to support the business location and household data models.
+Configure forms to add the fields and related lists that are necessary to support the business organization \(formerly business location\) and household data models.
 
 ## Before you begin
 
@@ -39,7 +39,7 @@ Role required: One of the following:
     -   Sold Products
 5.  Add the **Service Organization** field to the Case form for these views: Case and Workspace.
 
-6.  Add the **Requesting Service Organization** field to the Case form for these views: Case and Workspace.
+6.  Add the **Requestor Organization \(formerly Requesting Service Organization\)** field to the Case form for these views: Case and Workspace.
 
 7.  Add the **Updated by** field to the Case form for these views: Case and Workspace.
 

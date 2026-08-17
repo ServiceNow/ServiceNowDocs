@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/in-product-agentic-ai.html
 release: australia
 topic_type: concept
-last_updated: "2025-11-04"
+last_updated: "2026-07-21"
 reading_time_minutes: 4
-breadcrumb: [Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # In-product experience for agentic workflows
@@ -41,7 +41,7 @@ Each card displays the current or final processing message. To view the full lis
 
 For currently running workflows, time estimates based on previous executions are displayed. For completed workflows, the cards show the total time taken.
 
-The execution list also displays the results of any workflows triggered in the Now Assist panel or triggered automatically by events, once they are complete.
+The execution list also displays the results of any workflows triggered in the ServiceNow Otto panel or triggered automatically by events, once they are complete.
 
 ## Agentic workflow execution details
 
@@ -59,7 +59,7 @@ To copy the text of the final output of an agentic workflow, select the copy ico
 
 ## Fields updated with agentic AI
 
-When an agentic workflow changes the value of a field, Now Assist displays a label beneath the field value indicating that the value was modified by AI.
+When an agentic workflow changes the value of a field, ServiceNow Otto displays a label beneath the field value indicating that the value was modified by AI.
 
 ## AI presence indicator
 

@@ -33,7 +33,6 @@ Activate the following Solutions when you have the Performance Analytics for APM
 
 -   Application Portfolio Management and Change Management \(com.snc.pa.apm.change\_request\)
 -   Application Portfolio Management and Problem Management \(com.snc.pa.apm.problem\)
--   Financial Management \(com.snc.pa.fm\)
 -   Financial Management for Customer Service \(com.snc.pa.fm.csm\)
 -   Financial Management for Field Service Management \(com.snc.pa.fm.fsm\)
 -   Financial Management for Financial Planning \(com.snc.pa.financial\_planning\)
@@ -68,7 +67,7 @@ Activate the following Solutions when you have the Performance Analytics for Cus
 
     **Note:** To use Performance Analytics with Self-Service Analytics for applications other than Customer Service Management, see [Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service-analytics.md).
 
--   Virtual Agent content pack: This Platform Analytics Solution has been deprecated starting in the Quebec release. Use the Conversational Analytics Dashboard instead.
+-   Virtual Agent content pack: This Platform Analytics Solution has been deprecated starting in the Quebec release. Use the [Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md) instead.
 
 ## Performance Analytics for Governance, Risk, and Compliance Solutions
 
@@ -95,7 +94,6 @@ Activate the following Solutions when you have the Performance Analytics for Hum
 Activate the following solutions if you have an entitlement to Performance Analytics for Business Management, Performance Analytics for Financial Management, or Performance Analytics for Service Strategy:
 
 -   [Essential SaFE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/pa-content-pack-essential-safe.md)
--   Financial Management \(com.snc.pa.fm\)
 -   Financial Management for Application Portfolio Management \(com.snc.pa.fm.apm\)
 -   Financial Management for Customer Service \(com.snc.pa.fm.csm\)
 -   Financial Management for Field Service Management \(com.snc.pa.fm.fsm\)

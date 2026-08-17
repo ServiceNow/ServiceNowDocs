@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -14,89 +14,9 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Create relationships between an agent and a customer or between two consumers that provide additional access to customer data.
 
-With the Service Model Foundation feature, you can create relationships between the following users:
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
--   Between an internal user and an account, household, or consumer.
--   Between two consumers.
-
-Relationships are based on responsibilities, or responsibility definitions. When you create a relationship, you select the users involved in the relationship and the responsibility that one user performs on behalf of another. The responsibility that is assigned to a relationship provides access to customer cases and information.
-
-The following relationships are provided with the Service Model Foundation plugins.
-
-<table id="table_ygc_wsk_jlb"><thead><tr><th>
-
-Relationship
-
-</th><th>
-
-Responsibility used in the relationship
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Account Team Member\[sn\_customerservice\_team\_member\]
-
-</td><td>
-
-Account Manager
-
-</td><td>
-
-Create a relationship between an internal user and an account.**Note:** The internal user in this relationship must also be assigned the relationship agent role \(sn\_customerservice.relationship\_agent\).
-
-</td></tr><tr><td>
-
-Consumer Team Member\[sn\_customer\_rel\_consumer\_to\_user\]
-
-</td><td>
-
-Relationship Manager
-
-</td><td>
-
-Create a relationship between an internal user and a consumer.**Note:** The internal user in this relationship must also be assigned the relationship agent role \(sn\_customerservice.relationship\_agent\).
-
-</td></tr><tr><td>
-
-Household Team Member\[sn\_customer\_rel\_household\_to\_user\]
-
-</td><td>
-
-Relationship Manager
-
-</td><td>
-
-Create a relationship between an internal user and a household.**Note:** The internal user in this relationship must also be assigned the relationship agent role \(sn\_customerservice.relationship\_agent\).
-
-</td></tr><tr><td>
-
-Consumer to Consumer\[sn\_customer\_rel\_consumer\_to\_consumer\]
-
-</td><td>
-
-Authorized Representative
-
-</td><td>
-
-Create a relationship between two consumers, regardless of household.
-
-</td></tr><tr><td>
-
-Household Member Relationships\[sn\_customer\_rel\_household\_member\_relationship\]
-
-</td><td>
-
-Authorized Representative
-
-</td><td>
-
-Create a relationship between two consumers within a household.
-
-</td></tr></tbody>
-</table>## Relationships between internal users and customers
+## Relationships between internal users and customers
 
 Internal users can have relationships with accounts, consumers, and households. These relationships provide internal users with additional access to customer cases and information. An internal user with a relationship to a customer can create and manage cases on behalf of that customer.
 

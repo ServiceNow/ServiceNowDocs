@@ -18,7 +18,7 @@ The Workday HR spoke is built by Bristlecone, Inc. Manage staffing, resources, p
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store website](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store website](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v3.0.1 is the latest version.
+Workday HR spoke v3.0.2 is the latest version.
 
 ## Supported versions
 
@@ -1035,7 +1035,11 @@ The Workday HR spoke provides sample subflows to demonstrate automating Workday 
 
 Workday itself organizes its APIs into two major categories: SOAP Public API and REST API. Thus, the Workday HR spoke also reflects the same. You can use the spoke by using one of these two APIs, but not necessarily both, depending on the spoke actions you must use.
 
-The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance. Available actions include:
+The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance.
+
+**Note:** The legacy SOAP actions are deprecated but remain fully functional with Basic Authentication and System Authentication.
+
+Available actions include:
 
 **Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-wd-hr-spoke.md).
 
@@ -1135,7 +1139,7 @@ Request Time Off \(Deprecated\)
 
 Creates a short-term leave request.**Note:** This action uses WS-Security policy.
 
-</td></tr><tr><td rowspan="3">
+</td></tr><tr><td rowspan="4">
 
 Approval Management
 
@@ -1154,6 +1158,14 @@ Reject Business Process
 </td><td>
 
 Rejects the specified business process in Workday.
+
+</td></tr><tr><td>
+
+Reject Business Process \(Deprecated\)
+
+</td><td>
+
+Rejects the specified business process in Workday. **Note:** This action uses WS-Security policy.
 
 </td></tr><tr><td>
 
@@ -1523,7 +1535,7 @@ Look up Tax Withholding Information Details US \(Deprecated\)
 
 Retrieves all types of income withholding orders from US for the required employees, based on the provided filter criteria.**Note:** This action uses WS-Security policy.
 
-</td></tr><tr><td rowspan="50">
+</td></tr><tr><td rowspan="51">
 
 Resource Management
 
@@ -1713,11 +1725,19 @@ Retrieves details such as, position, position organizations, position management
 
 </td></tr><tr><td>
 
-Update My Address
+Update My Contact Info
 
 </td><td>
 
 Updates employees details, such as address, phone number, email address, instant messenger, and web address.
+
+</td></tr><tr><td>
+
+Update My Contact Info \(Deprecated\)
+
+</td><td>
+
+Updates employees details, such as address, phone number, email address, instant messenger, and web address. **Note:** This action uses WS-Security policy.
 
 </td></tr><tr><td>
 
@@ -2696,12 +2716,12 @@ Install Now Assist for Integration Hub and start using the available AI agents. 
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
--   See  for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
+-   See [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
 |AI Agent|Description|
 |--------|-----------|
@@ -2717,7 +2737,7 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 
 Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
-In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see .
+In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
 
 <table id="table_emr_pyw_c3c"><thead><tr><th>
 
@@ -2750,7 +2770,7 @@ Retrieves an employee’s profile information, rewards details, and latest perfo
 
 </td><td>
 
-No**Note:** To activate the workflow, see .
+No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
 </td></tr><tr><td>
 
@@ -2767,7 +2787,7 @@ Retrieves employee‑specific time‑off information along with the applicable h
 
 </td><td>
 
-No**Note:** To activate the workflow, see .
+No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
 </td></tr></tbody>
 </table>## Spoke modules

@@ -16,6 +16,8 @@ breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Source-to-Pay in
 
 You can manually trigger flows or subflows in Oracle Financial Cloud on demand. Follow these steps to manually trigger a flow or subflow.
 
+\[Omitted video\] Description: Video demonstrating how to manually trigger inbound flows or subflows in Oracle Financial Cloud
+
 ## Before you begin
 
 Role required: sn\_fcms\_intg.integration\_user

@@ -54,7 +54,7 @@ Associating a record to an interaction leverages data to streamline processes, e
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Live Agent chat in Service Operations Workspace]()
 

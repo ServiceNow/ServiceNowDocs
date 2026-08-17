@@ -1,6 +1,6 @@
 ---
-title: Explain the risk of a change request by using Now Assist for IT Service Management \(ITSM\)
-description: Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the Now Assist for IT Service Management \(ITSM\) application.
+title: Explain the risk of a change request by using ServiceNow Otto for IT Service Management \(ITSM\)
+description: Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/change-risk-exp-now-assist.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Explain the risk of a change request by using Now Assist for IT Service Management \(ITSM\)
+# Explain the risk of a change request by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the Now Assist for IT Service Management \(ITSM\) application.
+Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 
@@ -50,11 +50,11 @@ You can generate the explanation of the calculated risk rating for a change requ
 
 1.  In Core UI or Service Operations Workspace for ITSM, open a change request that is assigned to you.
 
-2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. for the **Explain Risk** field.
+2.  Select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] for the **Explain Risk** field.
 
-    **Note:** The Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. isn’t available if the risk for the change request hasn’t already been calculated.
+    **Note:** The ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] isn’t available if the risk for the change request hasn’t already been calculated.
 
-    The risk explained by Now Assist appears in a window on the change request record.
+    The risk explained by ServiceNow Otto appears in a window on the change request record.
 
     \[Omitted image "now-assist-itsm-change-risk-citation.png"\] Alt text: The Change Risk explanation includes a list of relevant change requests to help you understand which risk factors contributed to the calculated risk
 
@@ -64,15 +64,15 @@ You can generate the explanation of the calculated risk rating for a change requ
     -   To shorten the generated response, select **Refine** &gt; **Shorten**.
 4.  When you're finished generating the explanation for a change request risk rating, you can provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d266944e245">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d270418e237">
 
 Option
 
-</th><th align="left" id="d266944e248">
+</th><th align="left" id="d270418e240">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d266944e254">
+</th></tr></thead><tbody><tr><td id="d270418e246">
 
 **Provide feedback for the change request risk explanation**
 
@@ -80,7 +80,7 @@ Procedure
 
 If you think that the change request risk explanation was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the change request risk explanation wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d266944e277">
+</td></tr><tr><td id="d270418e269">
 
 **Copy the change request risk explanation**
 
@@ -88,7 +88,7 @@ If you think that the change request risk explanation was helpful, select the he
 
 If you want to reuse the change request risk explanation, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d266944e292">
+</td></tr><tr><td id="d270418e284">
 
 **View the information about the change request risk explanation**
 

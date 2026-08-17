@@ -55,8 +55,8 @@ Basic system configuration encompasses changes made to the platform as well as s
 Admin Center provides a central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 -   **[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md)**  
 You can install, update, and remove applications without leaving your instance.
--   **[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**  
-The Setup Hub provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
+-   **[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**  
+The ServiceNow Otto for Setup provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
 -   **[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)**  
 Subscription Management enables you to proactively manage your subscriptions and monitor subscription usage on your instances.
 -   **[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-support-administration.md)**  

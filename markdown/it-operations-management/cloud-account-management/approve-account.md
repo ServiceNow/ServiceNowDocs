@@ -9,7 +9,7 @@ classification: cloud-account-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Creating a cloud account, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Approve a cloud account request

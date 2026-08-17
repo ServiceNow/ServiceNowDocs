@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-21"
 reading_time_minutes: 2
 breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,29 +18,36 @@ Create a flow or subflow that runs with assigned roles. Assigning roles enables 
 
 ## Before you begin
 
-Role required: flow\_designer or admin
+Role required:
+
+-   flow\_designer or admin to run a flow with a standard role
+-   an application administrator role to run a flow with a high-security role
 
 ## About this task
 
-Create a user-initiated flow that runs with its own roles and not the roles of the user. For more information about assigning roles to a flow, go to [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md). For example, allow a flow to run with the itil role so that it can access data belonging to IT Service Management applications such as incidents and problems.
+Create a flow that runs with its own roles rather than just inheriting the roles of the user who starts the flow. For more information about assigning roles to a flow, go to [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md). For example, allow a flow to run with the itil role so that it can access data belonging to IT Service Management applications such as incidents and problems.
+
+For information about application administration and the special roles that it requires, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  If necessary, log in with a user who has an application administrator role.
 
-2.  Click **+ New** &gt; **Flow** or **+ New** &gt; **Subflow**.
+2.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-3.  On the Flow Properties form, define the Name, Application, and Description for the flow.
+3.  Click **+ New** &gt; **Flow** or **+ New** &gt; **Subflow**.
+
+4.  On the Flow Properties form, define the Name, Application, and Description for the flow.
 
     For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
-4.  Expand the **Additional properties** section.
+5.  Expand the **Additional properties** section.
 
-5.  In the **Run As** field, select **User who initiates session**.
+6.  In the **Run As** field, select **User who initiates session**.
 
     Role selection is not available if the **System User** option is selected in the **Run As** field.
 
-6.  In the **Run with roles** field, select one or more roles that you want the flow to use while it runs.
+7.  In the **Run with roles** field, select one or more roles that you want the flow to use while it runs.
 
     \[Omitted image "example-flow-properties-run-with-roles.png"\] Alt text: Run with roles property using the itil role.
 
@@ -50,7 +57,17 @@ Create a user-initiated flow that runs with its own roles and not the roles of t
 
     For example, an inbound email flow normally runs as an existing user or as the Guest user when there is no existing user. Guest users don't have access to IT Service Management data such as incidents and problems. Running a flow without any roles may produce access errors when the flow tries to access restricted data on the guest user's behalf. Running a flow with a role such as itil ensures that the flow can access the data it needs.
 
-7.  Select **Build Flow**.
+8.  To add one or more application administrator roles, select **+ Add high-security roles**.
+
+    \[Omitted image "add-high-security-roles-option.png"\] Alt text: The Add high-security roles option is after the Run with roles option
+
+9.  In the **High-security roles** field, select one or more application administration roles that you want the flow to run with.
+
+    \[Omitted image "example-high-security-roles-field.png"\] Alt text: The High-security roles field contains two example application administration roles for the Employee Center and the Secrets Management applications.
+
+    **Important:** This field only displays high-security roles to users who logged in with an application administrator role.
+
+10. Select **Build Flow**.
 
 
 ## What to do next

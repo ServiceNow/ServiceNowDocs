@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
@@ -20,7 +20,11 @@ sn\_chg\_probability\_risk\_lookup table is used to fetch the data to calculate 
 
 ## Defining probability ranges
 
+The **Calculated Risk Score** lookup does not define probability ranges. It consumes a success probability band that is calculated from the success probability definitions that produce each band. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/success-probability-definition.md). Also see [Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-score-calculation.md)on how the resulting band combines with impact to produce the risk value.
+
 By default, there are nine records with all the possible mappings for Impact and Success Probability along with their corresponding risk values.
+
+The lookup maps banded success Probability values - High, Medium, and Low - against Impact values rather than raw percentages. The probability ranges that determine these bands are configured in the success probability definitions. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/success-probability-definition.md).
 
 ## Managing risk lookup records
 
@@ -32,7 +36,7 @@ All risk calculating engines calculate their corresponding risk value. The syste
 
 You can view the success probability definition that set the success probability on the change request by accessing the sn\_chg\_probability\_details table. Users with read access to change requests can access this table.
 
-On the Change Request form, in the **Related Links** section, select **Calculate risk**. The risk engines calculate the risk for the change and populates the **Risk** and **Impact** fields with the risk scores. Select the icon next to the **Risk** field to view the risk set for the change.
+On the change request form, in the **Related Links** section, select **Calculate risk**. The risk engines calculate the risk for the change. Select the icon next to the **Risk** field to view the risk set for the change.
 
 Select the icon next to **Calculated Risk Score** to find which type of success probability definition sets the risk for the change. There are three types of calculated risk score:
 

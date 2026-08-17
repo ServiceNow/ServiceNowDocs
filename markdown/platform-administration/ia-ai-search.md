@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-25"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search
@@ -34,5 +34,5 @@ See [Create a Microsoft SharePoint Online external content connector](https://ra
 
 See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

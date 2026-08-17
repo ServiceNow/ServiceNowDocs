@@ -1,20 +1,20 @@
 ---
 title: Configure the Matrix Loader
-description: Use the Matrix Loader to efficiently add, edit, and migrate fields, field options, rules, and layouts in ServiceNow CPQ. Upload CSV files, validate configurations, and streamline bulk updates or environment migrations with error-handling and verification support.
+description: Use the Matrix Loader to efficiently add, edit, and migrate fields, field options, rules, and layouts in CPQ. Upload CSV files, validate configurations, and streamline bulk updates or environment migrations with error-handling and verification support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-using-the-matrix-loader.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure the Matrix Loader
 
-Use the Matrix Loader to efficiently add, edit, and migrate fields, field options, rules, and layouts in ServiceNow CPQ. Upload CSV files, validate configurations, and streamline bulk updates or environment migrations with error-handling and verification support.
+Use the Matrix Loader to efficiently add, edit, and migrate fields, field options, rules, and layouts in CPQ. Upload CSV files, validate configurations, and streamline bulk updates or environment migrations with error-handling and verification support.
 
-The Matrix Loader is the most efficient means of adding and editing fields, field options, rules, and layouts, particularly when the number of elements gets large. When using the Matrix Loader, administrators define their configuration elements in a spreadsheet file. This spreadsheet artifact provides a backup of data in ServiceNow CPQ; it also facilitates fast test-to-production migration processes.
+The Matrix Loader is the most efficient means of adding and editing fields, field options, rules, and layouts, particularly when the number of elements gets large. When using the Matrix Loader, administrators define their configuration elements in a spreadsheet file. This spreadsheet artifact provides a backup of data in CPQ; it also facilitates fast test-to-production migration processes.
 
 Here is a quick tutorial on how to use the Matrix Loader.
 

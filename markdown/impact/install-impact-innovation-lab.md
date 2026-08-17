@@ -27,9 +27,9 @@ Role required: Any Impact role, admin
 
 ## Procedure
 
-1.  Navigate to the ServiceNow Store.
+1.  Navigate to the [ServiceNow Store](https://store.servicenow.com/store).
 
-2.  Select **Apps and Solutions**.
+2.  Select **Apps and Solutions** from the Explore menu.
 
 3.  Find Impact using the filter criteria and search bar.
 

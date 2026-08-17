@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Splunk - Incident Enrichment integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -55,6 +55,10 @@ Role required: sn\_si.admin
 7.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
 
 8.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
+
+9.  Add the **Sightings Search Details** and **Sightings Search Results** related lists to the **Show IoC** related list group on the security incident form.
+
+    **Note:** These related lists aren't added to the form automatically when you configure the integration.
 
 
 **Parent Topic:**[Splunk - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-in-enrich-landing-page.md)

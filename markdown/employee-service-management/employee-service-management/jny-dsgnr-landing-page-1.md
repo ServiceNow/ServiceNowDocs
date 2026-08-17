@@ -12,6 +12,8 @@ reading_time_minutes: 2
 
 The ServiceNow® Journey designer application enables employees and managers in your organization to initiate and manage journeys to drive employee engagement and productivity.
 
+\[Omitted video\] Description: Journey designer application overview
+
 Journey designer uses Journey Accelerator and Lifecycle Events to create a unified journey experience for employees and managers in the Employee Center. Journeys offer a unique user experience. In the back-end, records are created using Journey designer, Journey Accelerator, and Lifecycle Events components to pull together a customized journey for employees.
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
@@ -53,7 +55,7 @@ Journey designer uses Journey Accelerator and Lifecycle Events to create a unifi
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional resources
 

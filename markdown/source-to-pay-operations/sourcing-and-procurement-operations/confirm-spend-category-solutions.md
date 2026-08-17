@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-23"
 reading_time_minutes: 2
 keywords: [spend category prediction, similarity solution, retrieval-augmented generation, machine learning solution, Spend Category by PRL, Spend Category by POL]
-breadcrumb: [Activate the Spend categorization agent, Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Activate the Spend categorization agent, Configure ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Confirm spend category similarity solutions

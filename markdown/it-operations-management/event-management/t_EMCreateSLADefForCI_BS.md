@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [SLAs for application services and CIs, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [SLAs for application services and CIs, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an SLA definition for a CI or application service

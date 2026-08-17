@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Updates page
@@ -30,4 +30,6 @@ The Updates page is organized into the following sections.
 
 
 \[Omitted image "new-ui-updates2.png"\] Alt text: Updates
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/int
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
@@ -85,9 +85,9 @@ Enable agent movement between screens in the ServiceNow instance by displaying r
 
 An interaction record is automatically created for each call. Opening the interaction record expands any voice interaction to show additional call details, including call transcript, wrap-up options, and customer context. The agent can view and update this record during the call and in the wrap-up interaction.
 
-**Note:** You can use an identity property and extension point to hide the conversation panel when real-time transcription is turned on or off. See: [Show or hide the conversation panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/show-hide-conversation-panel.md)
+**Note:** You can use an identity property and extension point, to hide the conversation panel when real-time transcription is turned on or off. See: [Show or hide the conversation panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/show-hide-conversation-panel.md)
 
-The Interaction record page contains several other features that can be used to assist agents resolve customer issues while on call. Description of these features, such as record information, customer history, and KB search are available in the next table.
+The Interaction record page contains several other features that can be used to assist agents resolve customer issues while on call. Description of these features, such as record information, customer history, and KB search are available in the next table. For feature information, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
 
 Agents can also view interaction record details in unsupported workspaces with the call resiliency capability. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-call-resiliency.md).
 
@@ -115,7 +115,7 @@ Record information
 
 </td><td>
 
-An agent is able to view and update the record during their call. This section displays details of the task or case linked to the interaction.
+An agent is able to view and update the record during their call. This section displays details of the task or case linked to the interaction. See [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Customer history
 
 </td><td>
 
-Agents can open an overview of the customer and their interaction history, as well as display a timeline of the all previous agent interactions. The agent can use this context to identify recurring issues or follow up on earlier cases.
+Agents can open an overview of the customer and their interaction history, and also display a timeline of all previous agent interactions. The agent can use this context to identify recurring issues or follow up on earlier cases.
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ The agent can monitor interactions and access them using the call control panel,
 
         Agents get notified when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system. See [Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md).
 
-    -   **Real time availability update**
+    -   **Real-time availability update**
 
         Agents get accurate availability status updates for other agents, supporting informed transfer decisions. Agent availability status updates in the transfer list and phone directory in real-time during call transfers.
 
@@ -186,10 +186,10 @@ The agent can monitor interactions and access them using the call control panel,
 
     -   **Choose transfer method**
 
-        Consult: Talk to the agent before transferring the call. You can then either 'Merge calls' by combining your call with the new agent's call, or 'Leave &amp; Transfer calls' by disconnecting from the call and transferring the call directly.
+        Choose **Consult** or **Blind** transfer methods:
 
-        Blind: Transfer the call directly without consultation.
-
+        -   Use **Consult** to talk to the agent before transferring the call. You can **Merge** calls by combining your call with the new agent's call, or **Leave &amp; Transfer** calls by disconnecting from the call and transferring the call directly.
+        -   Blind: Transfer the call directly without consultation.
 
 ## Global call component
 
@@ -197,7 +197,7 @@ The global call component enables agents to access call controls and embedded fu
 
 This component is used to make and manage outbound and incoming calls. Agents can switch between workspace anywhere within the application while taking ongoing calls. If an agent switches to a non-interaction tab during an ongoing call, the call continues to be active. All other active call controls can be accessed from this component.
 
--   Outbound call: Initiates outbound calls to contact customers, using the phone keypad to dial manually, or by selecting the call icon on the record phone field for direct calls. Avail the phone directory for ease of making outbound calls.
+-   Outbound call: Initiates outbound calls to contact the customer. Use the phone keypad to dial manually, or select the call icon on the record phone field for direct calls. Avail the phone directory for ease of making outbound calls.
 -   -   Callbacks: Outbound calls also support customer callback requests. When enabled and integrated within CSM, the agent can follow up on a callback request by manually completing an outbound call.
 
     **Note:** For more information on callbacks, view [Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)

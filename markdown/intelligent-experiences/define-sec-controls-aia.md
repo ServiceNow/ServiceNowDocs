@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-controls-aia.html
 release: australia
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Define security controls for an AI agent
@@ -35,7 +35,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
     -   Public
     If you select **Users with specified roles**, you can select exactly which roles can access the AI agent.
 
-    AI agents installed with Now Assist applications each require specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
+    AI agents installed with applications each require specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
 
 2.  Select **Save and continue** to move to the next step.
 
@@ -47,7 +47,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the AI agent or the dynamic user of the agentic workflow calling on the AI agent. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user.
 
-    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See Create a user. Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role masking must be applied for all AI agents and agentic workflows to run as dynamic users.
 

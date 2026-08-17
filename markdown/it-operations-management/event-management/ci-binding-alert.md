@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Binding alerts to CIs
@@ -68,7 +68,7 @@ Result: The alert now shows that MailServer-01 is the affected system.
 
 This direct link helps streamline troubleshooting by pointing to the exact problem source.
 
-To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 **Related topics**  
 

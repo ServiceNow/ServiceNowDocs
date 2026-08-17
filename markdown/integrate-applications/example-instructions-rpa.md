@@ -1,5 +1,5 @@
 ---
-title: Example instructions for Now Assist for RPA Hub
+title: Example instructions for ServiceNow Otto for RPA Hub
 description: Example instructions you can use with Now Assist for RPA Hub to get relevant, accurate responses. Refer to these examples when crafting instructions to guide automation tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/example-instructions-rpa.html
@@ -10,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Example instructions for Now Assist for RPA Hub
+# Example instructions for ServiceNow Otto for RPA Hub
 
 Example instructions you can use with Now Assist for RPA Hub to get relevant, accurate responses. Refer to these examples when crafting instructions to guide automation tasks.
 
@@ -79,7 +79,7 @@ The following examples show how you can create automations, activities, and auto
 
 ## General guidelines
 
-Follow these general guidelines when writing Now Assist instructions:
+Follow these general guidelines when writing AI instructions:
 
 -   **Be clear and specific**
 

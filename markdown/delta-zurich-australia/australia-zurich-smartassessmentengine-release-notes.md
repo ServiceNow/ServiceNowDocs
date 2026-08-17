@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-smartassessmentengine-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -94,12 +94,12 @@ Australia
 
 </td><td>
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-smart-assessment-engine&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto for SAE](https://www.servicenow.com/docs/access?context=servicenow-otto-for-smart-assessment-engine&family=australia&ft:locale=en-US)**
 
 Starting with version 22.3.5, responders can use AI Response Assist to draft answers to assessment questions and auto-apply the top suggestion — drawing from multiple sources with citations instead of starting from scratch.
 
     -   **Previous assessments:** Reuse answers from past SAE and classic assessments, eliminating re-entry across annual refreshes, new regulations, and recurring questionnaires.
-    -   **Documents:** Generate answers from documents attached to the assessment or pulled from a document management system \(DMS\). Responders can upload or select PDF, Word, and image \(up to 5 documents, 200 pages each\), preview the document, and trace each answer to a source snippet within the original document.
+    -   **Documents:** Generate answers from documents attached to the assessment or pulled from a document management system \(DMS\). Responders can upload or select PDF, Word, and image files \(up to 5 documents, 200 pages each\). Responders can also preview documents and trace each answer to a source snippet.
 Responders choose suggestion only mode \(review each suggestion with Apply or Discard\) or Auto-apply mode \(the top suggestion is applied to each question automatically\). Either way, responders can edit any answer before submission.
 
 -   **[Embedded assessments](https://www.servicenow.com/docs/access?context=embedded-assessments&family=australia&ft:locale=en-US)**
@@ -160,6 +160,25 @@ No updates for this release.
 Australia
 
 </td><td>
+
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[ServiceNow Otto® name announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Hide conditional questions](https://www.servicenow.com/docs/access?context=sae-q-text-create&family=australia&ft:locale=en-US)**
 
@@ -255,7 +274,7 @@ Australia
 
 </td><td>
 
-Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Smart Assessment Engine by requesting it from the ServiceNow Store. 
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -406,13 +425,15 @@ Australia
 
 </td><td>
 
-[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)ServiceNow Otto® is the new name for the Now Assist experience in SAE. All Now Assist references have been updated to ServiceNow Otto.
+
+ [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
 
 -   Collaborate inline with question-level flags, question-level comments, and a new Work Notes tab.
 -   Draft assessment responses automatically with AI Response Assist, which suggests answers from prior assessments and attached documents with full source traceability.
 -   Embed assessments inside any parent record, playbook, or workspace with the new embedded assessments capability and configurable UI Builder properties
 -   Update published templates safely with template versioning while preserving auditability of in-flight assessments.
--   Streamline the responder experience with continuous scrolling inside sections and sub-sections, fully hidden conditional questions, multi-filter support on the question list, and scope item fields visible directly in the assessment task list.
+-   Streamline the responder experience with continuous scrolling inside sections and sub-sections, fully hidden conditional questions, and multi-filter support on the question list. View scope item fields directly in the assessment task list.
 
  [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 

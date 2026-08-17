@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [view solution BOM, bill of materials, View Full Solution, buyer]
-breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # View the solution bill of materials
@@ -41,7 +41,7 @@ After reviewing the solution BOM:
 -   To remove a child configuration whose products are no longer needed, see [Remove a configurable product from a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/remove-child-configuration.md).
 -   To continue configuring individual components, return to the navigation sidebar. See [Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigate-solution.md).
 
-**Parent Topic:**[Using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
 
 **Related topics**  
 

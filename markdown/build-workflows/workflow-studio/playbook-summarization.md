@@ -1,6 +1,6 @@
 ---
 title: Playbook summarization
-description: Use AI-generated overviews of a playbook's stages, activities, triggers, and inputs to understand its purpose and flow without going into the details of what is being done at activity and stage level.
+description: Use AI to generate overviews of a playbook's stages, activities, triggers, and inputs. Understand a playbook's purpose and flow without going into the details of what is being done at activity and stage level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-summarization.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workfl
 
 # Playbook summarization
 
-Use AI-generated overviews of a playbook's stages, activities, triggers, and inputs to understand its purpose and flow without going into the details of what is being done at activity and stage level.
+Use AI to generate overviews of a playbook's stages, activities, triggers, and inputs. Understand a playbook's purpose and flow without going into the details of what is being done at activity and stage level.
 
 Playbooks can grow complex over time, with multiple stages and activities that make it difficult for users unfamiliar with a playbook to understand quickly its purpose and flow. The playbook summarization feature lets you generate a structured summary of a playbook's contents without manually reading through each activity.
 

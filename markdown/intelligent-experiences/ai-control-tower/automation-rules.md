@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Automation rules

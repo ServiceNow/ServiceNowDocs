@@ -1,6 +1,6 @@
 ---
 title: Assign roles and responsibilities to recovery teams
-description: Identify individuals and groups and assign them to the recovery team so that they are aware of their roles and the responsibilities of the role to act in a crisis situation.
+description: Identify and assign individuals and groups to the recovery team so they are aware of their roles and responsibilities during a crisis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-responsibility-bcp-recovery-team.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Cl
 
 # Assign roles and responsibilities to recovery teams
 
-Identify individuals and groups and assign them to the recovery team so that they are aware of their roles and the responsibilities of the role to act in a crisis situation.
+Identify and assign individuals and groups to the recovery team so they are aware of their roles and responsibilities during a crisis.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## About this task
 
-Business continuity planning workspace guides you step by step to complete your plan by creating a recovery team, defining roles and responsibilities for users, assigning the users and groups appropriately to the recovery team, and directing the team to execute the plan.
+The business continuity planning workspace helps you complete your plan by creating recovery teams, defining roles and responsibilities, assigning members, and directing plan execution.
 
 ## Procedure
 

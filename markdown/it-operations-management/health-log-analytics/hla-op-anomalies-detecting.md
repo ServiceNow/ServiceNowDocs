@@ -45,7 +45,7 @@ For information about managing global keywords, see [Add, edit, or delete lexica
 
 ## Correlations
 
-Log correlators are keys or values in log data that detect correlations between alerts. For example, a log correlator could detect when the ID of a particular network device occurs simultaneously in multiple warnings across different service instances. For more information, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
+Log correlators are keys or values in log data that detect correlations between alerts. For example, a log correlator could detect when the ID of a particular network device occurs simultaneously in multiple warnings across different service instances. For more information, see [Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 ## Advanced alert filtering
 

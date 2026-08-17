@@ -31,15 +31,19 @@ Consider duplicating topics in the following scenarios:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and in the Assistant Designer Asset library, select the topic you want to duplicate.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
+2.  Select the **Asset library** tab.
+
+3.  Open the topic you want to duplicate.
+
+4.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
 
     1.  In the Duplicate window, enter the new name for the item.
 
     2.  Select **Save**.
 
-3.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
+5.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
 
     **Note:** Keep in mind the goal or purpose of your new topic as you set the properties and update the flow. For example, if you're using keyword-based topics, you might need to change certain keywords based on the purpose of your new topic. For LLM topics, you might need to select one or more LLM assistants. For Natural Language Understanding \(NLU\)-enabled topics, you might need to change the NLU model and intent associated with the topic.
 
@@ -68,7 +72,7 @@ Topic blocks
 See [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-blocks.md) for a description of the topic block properties that you set and the input and output parameters that you define for the block.
 
 </td></tr></tbody>
-</table>4.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
+</table>6.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
 
     For details on test features of LLM topics, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-llm-topics.md).
 

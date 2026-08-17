@@ -37,7 +37,7 @@ The **Complete analysis** button is active only after all required steps are mar
 
 3.  Select **Complete analysis** in the top-right of the form.
 
-    To capture additional vulnerabilities or issues for the same scope after completion, you can create them directly from the Operational Vulnerabilities or Issues list in the workspace and link them back to this scenario analysis using the **Source record** field.
+    To capture additional vulnerabilities or issues for the same scope after completion, you can create them directly from the Operational Vulnerabilities or Issues list in the workspace. You can link them back to this scenario analysis using the **Source record** field.
 
     An information banner `Scenario Analysis successfully completed` is displayed at the top of the record. The record state transitions to **Completed**. The **Operational Vulnerabilities** and **Issues** steps remain visible in read-only mode after completion; the **New**, **Add**, and **Mark as complete** actions on those steps are removed.
 

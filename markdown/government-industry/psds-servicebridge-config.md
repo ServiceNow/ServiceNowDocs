@@ -1,6 +1,6 @@
 ---
 title: Configuring Service Exchange for Public Sector Digital Services
-description: Whether you're a government agency provider communicating with other agencies, or an agency provider connecting with their constituents, you can establish an integration between multiple types of instances with Service Exchange for Public Sector Digital Services.
+description: Government agency providers communicating with other agencies, or agency providers connecting with constituents can establish an integration between multiple types of instances with Service Exchange for Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config.html
 release: australia
@@ -12,5 +12,5 @@ breadcrumb: [Case Management, Configure agent workspaces, Configure, Public Sect
 
 # Configuring Service Exchange for Public Sector Digital Services
 
-Whether you're a government agency provider communicating with other agencies, or an agency provider connecting with their constituents, you can establish an integration between multiple types of instances with Service Exchange for Public Sector Digital Services.
+Government agency providers communicating with other agencies, or agency providers connecting with constituents can establish an integration between multiple types of instances with Service Exchange for Public Sector Digital Services.
 

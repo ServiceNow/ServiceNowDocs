@@ -1,6 +1,6 @@
 ---
 title: Work Progress Status for SAFe
-description: The Work Progress Status for SAFe application provides you with indicators such as estimated completion date and progress status \(green, yellow, red\) for all your SAFe epics and features.
+description: The Work Progress Status for SAFe application provides you with indicators such as estimated completion date and progress status \(green, yellow, red\) for your SAFe epics and features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/work-progress-status-safe-overview.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 
 # Work Progress Status for SAFe
 
-The Work Progress Status for SAFe application provides you with indicators such as estimated completion date and progress status \(green, yellow, red\) for all your SAFe epics and features.
+The Work Progress Status for SAFe application provides you with indicators such as estimated completion date and progress status \(green, yellow, red\) for your SAFe epics and features.
 
 **Important:**
 
@@ -22,7 +22,7 @@ Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Pe
 
 For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-As a product owner or a team lead, these indicators help you understand if your SAFe team could complete the work by the planned end dates so that you can adjust your plans accordingly. As a team member working on SAFe stories, these status indicators help you understand your contribution to the overall work and your progress so that you can review your work strategy if necessary.
+As a product owner or a team lead, these indicators help you understand if your SAFe team could complete the work by the planned end dates. You can then adjust your plans accordingly. As a team member working on SAFe stories, these status indicators help you understand your contribution to the overall work and your progress . You can then review your work strategy if necessary.
 
 **Note:** You must enter a value for the **Planned end date** field for a SAFe feature or epic for these work progress status indicators to populate.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add an MCP Server with Connection and Credential Alias
@@ -19,7 +19,7 @@ Add an MCP Server by selecting a Connection and Credential Alias record.
 -   Role required: sn\_mcp\_client.admin
 -   Verify that you have a Connection and Credential alias record created before adding an MCP Server with Others as the option.
 
-    For more information, see .
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
 
 
 ## About this task

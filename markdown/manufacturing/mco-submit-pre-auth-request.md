@@ -1,18 +1,19 @@
 ---
 title: Submit a pre-authorization request
-description: Submit a pre-authorization request to confirm whether certain parts, fees, or repairs are covered under a warranty or service contract.
+description: Confirm whether certain parts, fees, or repairs are covered under a warranty or service contract before submitting a claim.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-submit-pre-auth-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [pre-authorization request, warranty claim, repair claim, goodwill repair, claim jobs, dealer portal]
 breadcrumb: [Pre-authorization request, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Submit a pre-authorization request
 
-Submit a pre-authorization request to confirm whether certain parts, fees, or repairs are covered under a warranty or service contract.
+Confirm whether certain parts, fees, or repairs are covered under a warranty or service contract before submitting a claim.
 
 ## Before you begin
 
@@ -51,5 +52,5 @@ You can only submit a repair claim while the pre-authorization is valid. If the 
 
 You have successfully submitted your claim for review.
 
-**Note:** The claim is available in the Agents portal for review and approval. After the warranty advisor approves the claim, **Create claim** option is enabled. For more information on create claim, see [Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-dealer.md).
+**Note:** The claim is available in the Agents portal for review and approval. After the warranty advisor approves the claim, the **Create claim** option is enabled. For more information about create claim, see [Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-dealer.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -115,6 +115,10 @@ Create an additional clone request even if there’s already a future clone for 
 -   **[Clone summary](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
 
 Help prevent clone conflicts with the Clone summary, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
+
+-   **[Updated authentication model](https://www.servicenow.com/docs/access?context=configure-target-instance&family=australia&ft:locale=en-US)**
+
+Clone Admin Console now uses JWT certificate-based authentication instead of username and password authentication, improving security and simplifying cross-instance authentication.
 
 
 </td></tr></tbody>

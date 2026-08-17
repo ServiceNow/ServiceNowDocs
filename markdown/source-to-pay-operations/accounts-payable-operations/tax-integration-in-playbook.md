@@ -1,6 +1,6 @@
 ---
 title: Tax integration in playbook
-description: The Accounts Payable Operations playbook enables AP specialists and tax specialists to perform invoice tax validation using tax engine integration. Use the playbook for implementing and viewing the different stages of tax validation using the tax engine integration.
+description: The Accounts Payable Operations playbook enables AP specialists and tax specialists to perform invoice tax validation using tax engine integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-integration-in-playbook.html
 release: australia
@@ -9,12 +9,13 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Tax Engine Integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [Tax integration, playbook, Invoice Processing, AP specialists, Tax specialists, tax engine integration, Source-to-Pay Workspace]
+breadcrumb: [Tax engine integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Tax integration in playbook
 
-The Accounts Payable Operations playbook enables AP specialists and tax specialists to perform invoice tax validation using tax engine integration. Use the playbook for implementing and viewing the different stages of tax validation using the tax engine integration.
+The Accounts Payable Operations playbook enables AP specialists and tax specialists to perform invoice tax validation using tax engine integration.
 
 ## Before you begin
 
@@ -30,7 +31,7 @@ Role required: AP specialist, tax specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
 
 4.  Select **View Invoice processing case**.
 
@@ -38,7 +39,7 @@ Role required: AP specialist, tax specialist
 
     1.  Select the **Review header** details.
 
-        Review the invoice header details and make any required changes. Tax mentioned in the invoice copy is entered or extracted as supplier tax \(editable\) at header level and the system tax is the sum total of system tax \(read only, derived from external tax engine\) for all the tax lines.
+        Review the invoice header details and make any required changes. Tax mentioned in the invoice copy is entered or extracted as supplier tax \(editable\) at header level. The system tax is the sum total of system tax \(read only, derived from external tax engine\) for all the tax lines.
 
     2.  Select **Save**.
 
@@ -46,7 +47,7 @@ Role required: AP specialist, tax specialist
 
     4.  Select the **Review invoice lines** activity and manually review the invoice lines associated with the invoice.
 
-        **Note:** When tax integration is disabled, you can create tax lines from related list of invoice lines or invoice case. For more information on tax lines in related list see [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md). If tax integration is enabled, you can add tax lines using the related list but the tax lines are deleted and new tax lines are added as a response from external tax engine. Tax mentioned for each invoice line in the invoice copy is entered or extracted as supplier tax \(editable\) at invoice line level and the system tax \(read only, derived from external tax engine\) is the sum total of system tax \(read only\) for all the tax lines of that particular invoice line.
+        **Note:** When tax integration is inactive, you can create tax lines from related list of invoice lines or invoice case. For more information on tax lines in related list see [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md). If tax integration is enabled, you can add tax lines using the related list but the tax lines are deleted and new tax lines are added as a response from external tax engine. Tax mentioned for each invoice line in the invoice copy is entered or extracted as supplier tax \(editable\) at invoice line level and the system tax \(read only, derived from external tax engine\) is the sum total of system tax \(read only\) for all the tax lines of that particular invoice line.
 
     5.  Select **Add new invoice lines** to create invoice lines.
 
@@ -54,7 +55,7 @@ Role required: AP specialist, tax specialist
 
     7.  Select **Submit invoice**.
 
-        **Note:** During invoice processing \(straight-through processing\), when the invoice is sent to tax engine for validation, you can view the progress in the **Review compliance** swim lane. You will be prompted with a message "No action is needed. The system automatically runs a tax validation using a third-party tax engine. This verifies tax details from the invoice and ensures compliance by validating tax rates and jurisdictions. After tax validation is complete, the system moves to the next step automatically.\[Omitted image "tax-validation-in-progress.png"\] Alt text: Tax validation in progress
+        **Note:** During invoice processing \(straight-through processing\), when the invoice is sent to tax engine for validation, you can view the progress in the **Review compliance** swim lane. You will be prompted with a message "No action is needed. The system automatically runs a tax validation using a third-party tax engine. This verifies tax details from the invoice and confirms compliance by validating tax rates and jurisdictions. After tax validation is complete, the system moves to the next step automatically.\[Omitted image "tax-validation-in-progress.png"\] Alt text: Tax validation in progress
 
         Tax Validation in progress.
 

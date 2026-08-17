@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Set up Azure cloud with Cloud Workspace]
-breadcrumb: [Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Setting up Azure cloud

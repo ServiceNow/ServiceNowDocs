@@ -1,5 +1,5 @@
 ---
-title: Configure the donuts in the tier 1 landing page
+title: Configure tier 1 landing page metric cards
 description: Configure the data displayed in donuts in the Overview section of the tier 1 landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-first-level-cards.html
@@ -12,17 +12,13 @@ reading_time_minutes: 3
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Configure the donuts in the tier 1 landing page
+# Configure tier 1 landing page metric cards
 
 Configure the data displayed in donuts in the **Overview** section of the tier 1 landing page.
 
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-You can customize header label, data source, metric, group by field, and viewAllQuery for all donuts. For example, Problems assigned to me donut.
 
 ## Procedure
 

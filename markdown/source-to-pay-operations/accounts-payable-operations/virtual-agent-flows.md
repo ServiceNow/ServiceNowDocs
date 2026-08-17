@@ -1,6 +1,6 @@
 ---
 title: Virtual agent flows
-description: Suppliers can check the invoice and inquiry statuses, create inquiry cases in the supplier portal using the chat channel. Suppliers can also use the virtual agent to view predefined chatbot topics.
+description: Suppliers can check invoice and inquiry statuses, create cases via chat, and use the virtual agent for chatbot topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/virtual-agent-flows.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [Using Supplier Collaboration Portal in APO, Use, Accounts Payable O
 
 # Virtual agent flows
 
-Suppliers can check the invoice and inquiry statuses, create inquiry cases in the supplier portal using the chat channel. Suppliers can also use the virtual agent to view predefined chatbot topics.
+Suppliers can check invoice and inquiry statuses, create cases via chat, and use the virtual agent for chatbot topics.
 
 Suppliers can switch between a virtual agent and a live agent to address their issues. The customer service virtual agent topics \(chatbot conversations\) help suppliers complete common self-service tasks. The supplier initiates a conversation topic that consists of dialogs with the virtual agent chatbot to accomplish a goal.
 
-Natural Language understanding \(NLU\) is integrated with the virtual agent chatbot to help suppliers with invoice and inquiry-related queries. NLU also helps suppliers to analyze, understand, and navigate to the right topic.
+Natural Language Understanding \(NLU\) is integrated with the virtual agent chatbot to help suppliers with invoice and inquiry-related queries. NLU also helps suppliers to analyze, understand, and navigate to the right topic.
 
 For more information, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md) and [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
@@ -29,7 +29,7 @@ Supplier can choose to view the following Virtual agent flows.
 
 ## Check invoice status
 
-The supplier provides an invoice number and the virtual agent displays the status of the invoice. The invoice status is a clickable link, which navigates suppliers to view invoice case details. For more details about the invoice, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+The supplier provides an invoice number and the virtual agent displays the status of the invoice. The invoice status is a clickable link, which navigates suppliers to view invoice case details. For more details about the invoice, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 The chatbot prompts the supplier to perform the following.
 
@@ -44,13 +44,13 @@ Suppliers are routed directly to a live Accounts Payable Operations to initiate 
 
 ## Check inquiry status
 
-The supplier provides an invoice number and the virtual agent displays the status of the inquiry. The Accounts Payable Operations agent can create a new inquiry on the invoice.
+The supplier provides an invoice number and the virtual agent displays the status of the inquiry. The Accounts Payable Operations agent can create an inquiry on the invoice.
 
-## Create new inquiry
+## Create inquiry
 
 The supplier can choose to create an inquiry case related to the invoice using the **Create inquiry** link. The **Create inquiry** link enables suppliers to choose the type of inquiry case. Suppliers use **Add new comment** to add comments related to the inquiry.
 
-For more information on creating inquiry case, see [Submit an Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md).
+For more information on creating inquiry case, see [Submit an invoice inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md).
 
 ## Prechat Survey
 

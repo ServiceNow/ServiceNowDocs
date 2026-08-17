@@ -20,19 +20,19 @@ Role required: sn\_mcp\_server.admin or admin
 
 ## About this task
 
-Depending on your requirements, you can create one or more servers that expose different tools for different use cases, such as for HR or IT workflows, or for different clients. You can also use the preconfigured Quickstart Server.
+Depending on your requirements, create one or more servers that expose different tools for different use cases, such as for HR or IT workflows, or for different clients. You can also use the preconfigured Quickstart Server.
 
 This page also provides explore search, refresh and many other page view options.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **MCP Server Console**.
+1.  Navigate to **All** &gt; **MCP Server Console** or **Admin** &gt; **MCP Server Console**.
 
 2.  From the Configuration tab, select **Servers**.
 
 3.  Select **Create server**.
 
-    \[Omitted image "image.mcp-create-server"\] Alt text: Create server for MCP client
+    \[Omitted image "mcp-create-server.png"\] Alt text: Create server for MCP client
 
 4.  On the form, fill in the fields.
 

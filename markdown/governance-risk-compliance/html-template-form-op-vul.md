@@ -248,7 +248,7 @@ Top/Bottom margin
 
 </td><td>
 
-Space from the top of the page until the starting of the HTML content or space from the bottom of the page until the ending of the HTML content.
+Space from the top of the page until the starting of the HTML content. Similarly, space from the bottom of the page until the ending of the HTML content.
 
 </td></tr><tr><td>
 

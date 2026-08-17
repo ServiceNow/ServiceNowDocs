@@ -129,7 +129,7 @@ Date and time by which the task has to be completed.
 
 [Field mappings]()
 
-[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
+[ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
 
 [Use HCM AI agents for HR Service Delivery Integration with SuccessFactors]()
 

@@ -35,7 +35,7 @@ This information was returned by an Nmap Application/Version Detection port scan
 
 ## Default application mappings
 
-The CredentialLessApplicationClassNameMapper MID Server script include is configured with a subset of the most common application tables available for Discovery and Service Mapping. A user with the agent\_admin role can edit this script include to add additional CI tables that credential-less application Discovery can use for mapping to a derived application CI class.
+The CredentialLessApplicationClassNameMapper MID Server script include is configured with a subset of the most common application tables available for Discovery and Service Mapping. A user with the agent\_admin role can edit this script include to add CI tables that credential-less application Discovery can use for mapping to a derived application CI class.
 
 Shown in this table are examples of close matches returned by Nmap on a test system that [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md) was able to resolve into defined products. In many cases, the service name returned by Nmap was not needed to determine a match. Service names that appear in the table were required to determine a match.
 

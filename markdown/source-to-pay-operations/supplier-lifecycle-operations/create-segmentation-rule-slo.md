@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [SLO, Supplier Lifecycle Operations, segmentation rule, segmentation table, condition builder, categorizing suppliers, Supplier Relationship and Performance Management]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

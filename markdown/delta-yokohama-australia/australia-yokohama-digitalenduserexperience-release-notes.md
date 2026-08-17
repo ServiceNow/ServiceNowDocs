@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-digitalenduserexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -225,7 +225,11 @@ Australia
 
 </td><td>
 
--   **[Review top processes by resource usage](https://www.servicenow.com/docs/access?context=process-snapshot&family=australia&ft:locale=en-US)**
+-   **[DEX remedial actions](https://www.servicenow.com/docs/access?context=dex-diff-ra&family=australia&ft:locale=en-US)**
+
+Resolve device performance and network connectivity issues with two new remedial actions. The Reset Network Adapter remedial action restores WiFi connectivity and resolves poor network performance despite strong signal strength. The Disable Startup Program remedial action reduces boot time and improves device performance after login by disabling non-essential startup programs.
+
+-   **[Reviewing top processes by resource usage](https://www.servicenow.com/docs/access?context=process-snapshot&family=australia&ft:locale=en-US)**
 
 Service desk agents can now view automated snapshots of the top 10 CPU and memory-consuming processes directly in the **Investigation** tab of incident records. The snapshots that are captured every 30 minutes are initially triggered when an incident is created and a configuration item is tagged. You can refresh and filter snapshots over different time ranges and monitor processes causing device issues.
 
@@ -276,8 +280,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -660,7 +664,7 @@ Australia
 
 </td><td>
 
--   Enable service desk agents to view and manage the top 10 CPU and memory-consuming processes in the **Investigation** tab of incident records, with automated snapshots every 30 minutes to quickly identify and end processes causing device issues, thus improving service desk productivity.
+-   Enable service desk agents to view and manage the top 10 CPU and memory-consuming processes in the **Investigation** tab of incident records. Automated snapshots captured every 30 minutes enable you to quickly identify and end processes causing device issues, thus improving service desk productivity.
 -   Diagnose and resolve Zoom call issues with the new Zoom AI capability, which provides device-level root cause analysis and suggested resolutions.
 -   Monitor device boot time and use Now Assist to quickly diagnose startup delays and get actionable resolutions to resolve boot performance issues.
 -   View device boot time metrics to assess system startup health and identify potential issues.

@@ -7,14 +7,14 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service organization install base, Business locations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Service organization install base, Business Organizations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Sold products and install base plugins for service organizations
 
 Track sold products &amp; install base items for service organizations.
 
-## Sold Products and install base plugins for service organizations
+## Sold Products and install base plugins forservice organizations
 
 Plugins are used by service organizations to track sold products and install base items.
 
@@ -48,7 +48,7 @@ This plugin enables customers to capture the current state of their install base
 
 [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md)
 
-[Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sp-for-business-location.md)
+[Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sp-for-business-location.md)
 
-[Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-ib-items-for-business-locations.md)
+[Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-ib-items-for-business-locations.md)
 

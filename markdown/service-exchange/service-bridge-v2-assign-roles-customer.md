@@ -30,17 +30,17 @@ Roles control which actions are available to users and grant access to remote re
 
 2.  Select the group that you want to update.
 
-3.  To assign roles and personas to a group, do the following steps.To assign roles to the group, in the Roles related list, select **Edit**, add the roles, and then select **Save**.
+3.  To assign roles and personas to a group, do the following steps.
 
-<table id="choicetable_rh3_h3m_mjc"><thead><tr><th align="left" id="d36704e108">
+<table id="choicetable_rh3_h3m_mjc"><thead><tr><th align="left" id="d36707e102">
 
 Option
 
-</th><th align="left" id="d36704e111">
+</th><th align="left" id="d36707e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36704e117">
+</th></tr></thead><tbody><tr><td id="d36707e111">
 
 **To assign roles**
 
@@ -51,7 +51,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d36704e144">
+</td></tr><tr><td id="d36707e138">
 
 **To assign personas**
 

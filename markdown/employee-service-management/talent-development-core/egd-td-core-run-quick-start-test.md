@@ -18,7 +18,7 @@ Run quick start tests to verify the Talent Development Core app and features sti
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_egd\_core.admin
 
 ## Procedure
 

@@ -1,5 +1,5 @@
 ---
-title: Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)
+title: Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.html
@@ -10,10 +10,10 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Configure, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)
+# Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
@@ -23,9 +23,9 @@ Inputs identify the data used for a skill. Inputs include the table and fields u
 
 You can modify inputs, but you can't modify a skill's data source. The data source contains the tables and fields that the skill relies on.
 
-## Now Assist skill for Now Assist for SLO
+## AI skills for ServiceNow Otto for SLO
 
-The Now Assist for SLO includes the following skills:
+The ServiceNow Otto for SLO includes the following skills:
 
 -   Supplier case summarization
 -   Supplier performance summarization
@@ -34,7 +34,7 @@ The Now Assist for SLO includes the following skills:
 
 Inputs for the Supplier case summarization skill identify the table and fields that are used when the summary is generated for a supplier request.
 
-The following table lists the inputs for the Supplier case summarization skill from the Choose input for supplier request page in the Now Assist Admin console.
+The following table lists the inputs for the Supplier case summarization skill from the Choose input for supplier request page in the AI Admin Hub.
 
 <table id="table_arz_fk3_1cc"><thead><tr><th>
 
@@ -77,7 +77,7 @@ Base input fields
 
 Inputs for the Supplier performance summarization skill identify the table and fields that are used when the summary is generated for a supplier's KPIs.
 
-The following table lists the inputs for the Supplier performance summarization skill from the Choose input for supplier request page in the Now Assist Admin console.
+The following table lists the inputs for the Supplier performance summarization skill from the Choose input for supplier request page in the AI Admin Hub.
 
 <table id="table_wtw_13w_j3c"><thead><tr><th>
 
@@ -114,7 +114,7 @@ Base input fields
 </table>**Related topics**  
 
 
-[Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.md)
+[Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.md)
 
-[Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
+[Customize ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Now Assist skills: Developer-oriented list
+title: ServiceNow Otto skills: Developer-oriented list
 description: The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-skills-list-2.html
@@ -11,13 +11,13 @@ keywords: [Now Assist, skills, developer, AI, automation, code generation, flow 
 breadcrumb: [Reference, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# ServiceNow Now Assist skills: Developer-oriented list
+# ServiceNow Otto skills: Developer-oriented list
 
 The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.
 
 If you're an experienced developer, this list can help you identify which tasks AI automates on your behalf. Each skill represents a previously manual task, a complex business rule, or a classification system that AI automates. Architect the data flow and governance for these skills, rather than writing the repetitive logic they replace.
 
-See [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md) for a complete list of Now Assist skills.
+See [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md) for a complete list of ServiceNow Otto skills.
 
 ## Application and artifact creation
 

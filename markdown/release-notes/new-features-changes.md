@@ -26,7 +26,7 @@ The Australia release includes new products.
 
     [Care Team Work Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hco-ctwm-rn.md)
 
-    [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)
+    [ServiceNow Otto for Care Team Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)
 
 -   **HR Service Delivery**
 
@@ -46,9 +46,13 @@ The Australia release includes new products.
 
 
 
+-   **IT Operations Management**
+
+    [ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/itom-visibility-rn.md)
+
 -   **Operational Technology**
 
-    [Now Assist for Operational Technology Service Management \(OTSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-operational-technology-service-management-otsm-rn.md)
+    [ServiceNow Otto for Operational Technology \(OT\) Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-operational-technology-service-management-otsm-rn.md)
 
 
 
@@ -68,7 +72,7 @@ The Australia release includes new products.
 
 -   **Source-to-Pay Operations**
 
-    [Now Assist for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-source-to-pay-operations-rn.md)
+    [ServiceNow Otto for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-source-to-pay-operations-rn.md)
 
 -   **Telecommunications, Media, and Technology**
 
@@ -120,7 +124,7 @@ IT Operations Management has new and updated features in the Australia release.
 -   **[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)**  
 IT Service Management has new and updated features in the Australia release.
 -   **[Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/manufacturing-commercial-operations-rn.md)**  
-The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and Dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
+The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
 -   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md)**  
 The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
 -   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**  

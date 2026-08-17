@@ -1,29 +1,29 @@
 ---
-title: Manage update set for Setup Hub
+title: Manage update set for ServiceNow Otto for Setup
 description: Upload a batch update set to promote validated configuration changes from a non-production instance to production in a single, controlled deployment, ensuring consistency and reducing manual errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-update-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Administer, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+reading_time_minutes: 4
+breadcrumb: [Administer, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Manage update set for Setup Hub
+# Manage update set for ServiceNow Otto for Setup
 
 Upload a batch update set to promote validated configuration changes from a non-production instance to production in a single, controlled deployment, ensuring consistency and reducing manual errors.
 
 ## Before you begin
 
-Before performing this task you must install Setup Hub application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
+Before performing this task you must install ServiceNow Otto for Setup application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
 This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, and ESM, and Pro+ SKUs for ITSM and HRSD.
 
 The following conditions should be met:
 
 -   Preset and manual configurations are completed and verified in the non-production instance.
--   The batch update set is packaged in the non-production instance, and the XML file is downloaded. These update set files are then uploaded in the production instances. See [Understand the Configuration page flow in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md) for more information.
+-   The batch update set is packaged in the non-production instance, and the XML file is downloaded. These update set files are then uploaded in the production instances. See [Understand the Configuration page flow in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md) for more information.
 -   The production instance version is compatible with the source non-production instance.
 
 The following task is performed on a production instance only after the above conditions are met:
@@ -82,7 +82,7 @@ Role required: admin
 
 9.  Navigate back to the Product Hub page to see the progress.
 
-    The extraction of these update sets are done on the Configuration Console page. See [Understand the Configuration page flow in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md) for more information.
+    The extraction of these update sets are done on the Configuration Console page. See [Understand the Configuration page flow in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md) for more information.
 
 10. Once the update set commit completes, you can either select **Upload another update set** or **Configure** depending on the requirement.
 
@@ -93,5 +93,5 @@ Role required: admin
 
 These steps complete the successful uploading and committing of the update set batch file.
 
-**Parent Topic:**[Administer Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
 

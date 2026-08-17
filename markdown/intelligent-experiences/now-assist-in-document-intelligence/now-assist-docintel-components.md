@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Reference, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Reference, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Components installed with Now Assist in Document Intelligence
@@ -37,8 +37,6 @@ For more information, see [Components installed with Document Intelligence](http
 [Data extraction modes in Now Assist in Document Intelligence]()
 
 [Document and visual insights AI agent]()
-
-[Document Intelligence tool for Now Assist Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

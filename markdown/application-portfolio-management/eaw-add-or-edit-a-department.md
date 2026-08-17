@@ -1,6 +1,6 @@
 ---
 title: Add or edit a department
-description: You can create or edit departments to effectively manage and optimize business applications by providing a structured approach to align the business applications with the strategic goals of the organization.
+description: Create or edit departments to manage and optimize business applications and align them with organizational strategic goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-a-department.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Manage departments, Using business architecture, Working with Portf
 
 # Add or edit a department
 
-You can create or edit departments to effectively manage and optimize business applications by providing a structured approach to align the business applications with the strategic goals of the organization.
+Create or edit departments to manage and optimize business applications and align them with organizational strategic goals.
 
 ## Before you begin
 

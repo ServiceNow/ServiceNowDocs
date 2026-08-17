@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -39,6 +39,10 @@ You can perform the following actions when working with a business process map:
 
 To keep connector ports visible on shapes at all times without hovering, enable the **Show all buttons without the need to hover** preference in **Preferences** &gt; **Accessibility**. For more information, see [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-show-shape-ports.md).
 
+-   **[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)**  
+Upload an image of an existing process diagram to generate a new, editable business process map diagram in EA Workspace using the ServiceNow AI Lens ServiceNow Otto® skill.
+-   **[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)**  
+After ServiceNow AI lens generates a business process map \(BPM\) diagram from an uploaded image, review the diagram and resolve any low-confidence shapes, and accept or discard it.
 -   **[Create a diagram for a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bp-map.md)**  
 Create business process diagrams and model the future state of the business processes using the Enterprise Modeling and Visualization.
 -   **[Update a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-bp-map.md)**  
@@ -55,5 +59,5 @@ Business Process Model and Notation \(BPMN\) diagram element directly from the d
 
 [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
 
-[Review a AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 

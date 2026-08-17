@@ -9,7 +9,7 @@ classification: now-assist-in-knowledge-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure Now Assist skills for merging articles
@@ -31,7 +31,7 @@ Role required: admin
 
 Verify that the skills display an **Active** or **Deactivated** status based on your selection. Once activated, you can merge duplicate articles.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 

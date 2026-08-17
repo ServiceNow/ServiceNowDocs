@@ -18,7 +18,7 @@ You can use the Workflow Studio functionality that is integrated within Table Bu
 
 Workflow Studio is a ServiceNow AI Platform® feature that enables process owners to automate work. Build multi-step flows from reusable components without having to code.
 
-The **Flows** tab within Table Builder is where you can view and work with record-based flows for a selected data table \(that is, actions that are triggered when a table record is created or updated or both\).
+The **Flows** tab within Table Builder is where you can view and work with record-based flows for a selected data table. These are actions triggered when a table record is created, updated, or both.
 
 The following diagram shows flow cards in Table Builder.
 
@@ -116,9 +116,9 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
 2.  Select the **Flows** tab.
 
-3.  Select the **Add new flow** button.
+3.  Select **Add flow**.
 
-4.  On the New Flow form, fill in the following fields for your new flow.
+4.  On the Add flow form, fill in the following fields.
 
     |Field|Description|
     |-----|-----------|
@@ -170,7 +170,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d79513e740">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d82043e740">
 
 **When the record is created**
 
@@ -178,7 +178,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d79513e749">
+</td></tr><tr><td id="d82043e749">
 
 **When the record is updated**
 
@@ -186,7 +186,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d79513e758">
+</td></tr><tr><td id="d82043e758">
 
 **When the record is created or updated**
 
@@ -271,7 +271,7 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
 ### About this task
 
-The **Flows** tab in Table Builder provides a list of flows that are triggered by record changes to a table and enables you to manage them from the record table that triggers the workflow.
+The **Flows** tab in Table Builder lists flows triggered by record changes to a table. You can manage these flows from the record table that triggers the workflow.
 
 ### Procedure
 
@@ -361,9 +361,9 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
 4.  Select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu in the top-right corner of the flow that you want to delete, and then select **Copy** from the list of options.
 
-5.  In the Create a copy of the flow window that appears, enter a name for the new flow that you want to create from the existing flow, and then select **Copy**.
+5.  In the Create a copy of the flow window, enter a name for the copied flow and select **Copy**.
 
-6.  Edit your new flow by using Workflow Studio.
+6.  Edit the flow using Workflow Studio.
 
     For detailed information on how to work with flows for your application, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
 

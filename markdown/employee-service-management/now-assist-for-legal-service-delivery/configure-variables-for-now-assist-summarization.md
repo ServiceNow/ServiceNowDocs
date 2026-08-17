@@ -1,6 +1,6 @@
 ---
-title: Configure variables for Now Assist summarization
-description: Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the Now Assist application.
+title: Configure variables for AI summarization
+description: Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.html
 release: australia
@@ -9,12 +9,13 @@ classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customize summarization skill, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Customize summarization skill, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure variables for Now Assist summarization
+# Configure variables for AI summarization
 
-Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the Now Assist application.
+Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the AI.
 
 ## Before you begin
 
@@ -36,15 +37,15 @@ Role required: admin or sn\_lg\_ops.legal\_admin
 
 6.  Add a single variable or multiple variables to an intake form of the practice area.
 
-<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d230531e134">
+<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d230222e129">
 
 Option
 
-</th><th align="left" id="d230531e137">
+</th><th align="left" id="d230222e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230531e143">
+</th></tr></thead><tbody><tr><td id="d230222e138">
 
 **Add a single variable**
 
@@ -55,7 +56,7 @@ Steps
 3.  Select the variable to add.
 
 
-</td></tr><tr><td id="d230531e170">
+</td></tr><tr><td id="d230222e165">
 
 **Add multiple variables**
 
@@ -83,5 +84,5 @@ All the selected variables are added to the intake form of the practice area.
 
 You can add variables to the intake forms of other practice areas by repeating the steps in this procedure.
 
-To summarize a legal request or legal matter, see [Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md).
+To summarize a legal request or legal matter, see [Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md).
 

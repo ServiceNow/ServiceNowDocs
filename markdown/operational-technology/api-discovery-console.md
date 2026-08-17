@@ -1,46 +1,46 @@
 ---
 title: Discovery Console for OT API
-description: You can access the Console Discovery data via the API. On the Settings page, select the API tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
+description: You can access the discovery data from the Console via the API. On the Settings page, select the API tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/api-discovery-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-08-17"
+reading_time_minutes: 4
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Discovery Console for OT API
 
-You can access the Console Discovery data via the API. On the Settings page, select the **API** tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
+You can access the discovery data from the Console via the API. On the Settings page, select the **API** tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
 
-**Note:** To learn more about the Service Graph Connector, see [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Note:** For more information, see [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md).
 
 ## API settings
 
-The API settings are used to set up the active tokens, denied tokens, and endpoints needed to communicate with the SGC for ServiceNow Operational Technology Discovery.
+The API settings are used to set up the active tokens, denied tokens, and endpoints needed to communications between the Service Graph Connector for ServiceNow OT Discovery and the Operational Technology Discovery components.
 
 Tokens can be imported or exported, and endpoints can be downloaded.
 
-The SGC enables the API to communicate data from the Discovery Console for OT and other Discovery components to the ServiceNow instance. Data can also be communicated to and from external APIs.
+The Service Graph Connector for ServiceNow OT Discovery enables the API to communicate data from the Discovery Console for OT and other Discovery components to the ServiceNow instance. Data can also be communicated to and from external APIs.
 
 ## Functionality
 
-The SGC has been enhanced for better connection to and from the Discovery components, the Discovery Console for OT API, and your ServiceNow instance.
+The Service Graph Connector for ServiceNow OT Discovery has been enhanced for better connection to and from the Discovery components, the Discovery Console for OT API, and your ServiceNow instance.
 
-The SGC provides Discovery Console for OT API functions such as:
+The Service Graph Connector for ServiceNow OT Discovery makes available for the Discovery Console for OT API functions such as:
 
 -   Sends the status of the user license.
 -   Imports all software programs that are identified on the devices and returns a paginated list from the SoftwaresAPI view.
 
     The API ingests software and provides the following program attributes:
 
-    -   `inputProduct`: the software name
-    -   `Version`: the version of the installed software
-    -   `inputVendor`: the manufacturer of the software
-    -   `lastSeenOn`: the assets' LastSeenOn field added to the object
-    -   `assetId`: derived fro the \_id for the asset document containing the software array.
-    -   `_id`: for the document; should be the \_id for the object in the software array
+    -   `inputProduct`: Software name
+    -   `Version`: Version of the installed software
+    -   `inputVendor`: Manufacturer of the software
+    -   `lastSeenOn`: Assets' LastSeenOn field added to the object
+    -   `assetId`: Derived from the \_id for the asset document containing the software array.
+    -   `_id`: For the document; should be the \_id for the object in the software array
 -   Transfers images and screen shots from the Console to the ServiceNow instance. This returns images in a paginated list with these filters:
     -   `UpdateOn`
     -   `CreatedOn`
@@ -51,8 +51,8 @@ The SGC provides Discovery Console for OT API functions such as:
 -   Pushes Discovery Sensor for OT information to the ServiceNow instance.
     -   The API can be used to return the `sensorId`.
     -   You can gather information about the Sensor and use it to discover assets.
-    -   Sensor information can be pushed via the API to the ServiceNow.
--   Send to the Console virtual machine \(VM\) health metrics and host metrics of the Sensor and the Collector. This helps with visibility of version, installed processes, and the health of the host machine of Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector.
+    -   Sensor information can be pushed via the API to the ServiceNow instance.
+-   Sends to the Console virtual machine \(VM\) health metrics and host metrics of the Sensor and the Collector. This helps with visibility of version, installed processes, and the health of the host machine for the Discovery Console for OT, the Discovery Sensor for OT, and the OT Discovery Collector.
 
 ## Indirect network connection \(air-gapped\)
 
@@ -60,11 +60,21 @@ For security reasons, a computer or system may not be directly connected to the 
 
 To solve the air-gap issue, the Discovery Console for OT can generate JSON files. These JSON files are physical files and can be manually copied and then moved to the MID Server via an external drive. They can then be manually copied to a specific directory on the MID Server and then consumed through the SGC to the ServiceNow instance.
 
-**Note:** For information about installing containerized versions of the Discovery Console for OT and the OT Discovery Collector, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
-
 For example, if you navigate to **Settings &gt; Exports** on the Discovery Console for OT, you can download data generated by the Discovery components as a JSON export file. You can schedule the frequency of these downloads setting the number of days and time of day. These files are saved to the `/opt/MSi/srv/apiexports` directory. From there you can move them to physical media like a thumb drive. You can then copy or import the JSON files to the MID Server and through Service Graph Connector for ServiceNow OT Discovery and then on to the ServiceNow instance.
 
-For information regarding Exporting data, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/export-data-json.md).
+-   **[Edit API settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-api-settings-console.md)**  
+Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector for ServiceNow OT Discovery.
 
-To edit the Console API, see [Edit API settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-api-settings-console.md). For information on creating a Console database backup, see [Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-console-backup-concept.md).
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+
+**Related topics**  
+
+
+[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md)
+
+[Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/export-data-json.md)
+
+[Edit API settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-api-settings-console.md)
+
+[Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/console-create-backup.md)
 

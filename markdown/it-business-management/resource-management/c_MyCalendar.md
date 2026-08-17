@@ -16,7 +16,7 @@ breadcrumb: [Resource Management classic, Project Portfolio Management, Strategi
 
 Any user with the resource\_user role can open My Calendar to view, add, and modify their planned work, actual work, operational work, administrative tasks, and personal activities.
 
-After a user adds an event to the calendar, the time blocks for that event appear as red, indicating busy, on the resource console and the resource availability dashboard.
+After a user adds an event to the calendar, the time blocks for that event appear as red. This indicates busy status on the resource console and the resource availability dashboard.
 
 Resource managers view users' calendars to determine who has open time to complete tasks, and can add tasks to any resource's personal calendar. For every event that is created on a user's calendar, a record is created in the User Calendar Event \[user\_calendar\_event\] table. Resource events are chunks of busy time for the user. Users and resource managers can sometimes modify these records. See [Resource event modifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ModifyAResourceEvent.md).
 

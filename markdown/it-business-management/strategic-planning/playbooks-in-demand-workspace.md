@@ -71,7 +71,7 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 -   AI playbook - This playbook has an additional AI checkpoint stage where you can associate new or existing AI systems to your demand. The AI Control Tower plugin must be installed. The investment type of the demand must be set to artificial intelligence.
 
-    The demand AI playbook is a standard playbook comprising the following stages:
+    The demand AI playbooks is a standard playbook comprising the following stages:
 
     -   Create demand brief
     -   Define demand alignment
@@ -80,11 +80,9 @@ Next Experience for Demand Management includes two predefined playbooks availabl
     -   Confirm demand readiness for review
     -   Approve and finalize demand
     -   Complete demand
-    \[Omitted image "demand-playbook.png"\] Alt text: The stages and activities of a demand AI playbook.
+    Each stage includes activities, action items, or steps for completing the demand. You can view the **Playbook** menu only if the demand matches the trigger condition defined for that playbook.\[Omitted image "demand-playbook.png"\] Alt text: The stages and activities of a demand AI playbook
 
     **Note:** The AI checkpoint stage is available if the AI Control Tower plugin is installed and the investment type of the demand is set to artificial intelligence.
-
-    Each stage includes activities, action items, or steps for completing the demand. You can view the **Playbook** menu only if the demand matches the trigger condition defined for that playbook.
 
 
 **Note:**

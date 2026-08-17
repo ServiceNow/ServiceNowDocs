@@ -14,7 +14,7 @@ breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compl
 
 Perform the structured workflows that are outlined in this section to create a business continuity plan in Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
-Business continuity plan owner creates a business continuity plan as per the plan template, adds an asset and scope to the plan, creates documentation sections, adds the related plan and recovery team, adds a loss scenario with recovery strategy and recovery task, and generates and saves the PDF of the analysis for reference.
+The business continuity plan owner creates plans using templates, adds assets and scope, creates documentation sections, adds recovery teams, defines loss scenarios with recovery strategies, and generates PDFs.
 
 -   For information on creating a business continuity plan, see [Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md). For information on adding an asset and scope to the plan, see [Add asset and scope to the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.md).
 -   For information on creating a documentation section, see [Create documentation sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-documentation-section-bcp.md). For information on adding the related plan and recovery team, see [Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md).
@@ -23,11 +23,11 @@ Business continuity plan owner creates a business continuity plan as per the pla
 
 ## Hierarchical plan structure enhancement
 
-Starting with BCM, version 9.x.x, the hierarchical structure of parent-child plans verifies logical organization and execution of recovery tasks. With this enhancement, when an event is triggered, only relevant child plans are brought into the scope, allowing plan execution and dependencies to cascade downward in a controlled manner.
+Starting with BCM, version 9.x.x, the hierarchical structure of parent-child plans verifies logical organization and execution of recovery tasks. When an event is triggered, only relevant child plans are included, allowing plan execution and dependencies to cascade downward in a controlled manner.
 
 Parent plans are excluded to prevent the inclusion of unrelated scenarios that may require subsequent cancellation. This approach confirms that only relevant plans are considered, maintaining a focused and efficient recovery process.
 
-The system also performs cyclic dependency checks automatically, ensuring that the hierarchy always flows one directionally—from parent plans to child plans.
+The system also performs cyclic dependency checks automatically, ensuring that the hierarchy flows uni directionally—from parent plans to child plans.
 
 Implementing the hierarchical plan structure offers these key benefits:
 
@@ -41,7 +41,7 @@ By introducing this hierarchical structure, the system provides an organized and
 
 Beginning with the Xanadu release, the handling of nested related plans has improved. This enhancement helps in managing potential cyclic dependencies by detecting and highlighting any problems that could cause cyclic dependencies during the execution of tasks.
 
-Additionally, the refined recovery timelines enable you to monitor the planned and actual timeframes. A task may be applied to all assets within a plan or to none at all, facilitating an accurate aggregation of recovery timeframes across various levels, including assets, tasks, and plans.
+Additionally, the refined recovery timelines enable you to monitor the planned and actual timeframes. A task can be applied to all assets within a plan or to none, facilitating accurate aggregation of recovery timeframes across assets, tasks, and plans.
 
 ## Additional information on Business Continuity Planning
 
@@ -76,12 +76,12 @@ Starting with BCM, version 9.x.x, BCM administrators set up active phases for pl
 -   **[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md)**  
 Add a recovery task as part of the planned recovery strategy. You can add one or more recovery tasks for a loss scenario and those recovery tasks are displayed in the loss scenario itself. Automate the recovery tasks in a plan for a faster recovery.
 -   **[Apply Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reco-task-tem-groups.md)**  
-Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or inserted into existing ones. You can also generate templates directly from tasks and plans that already exist in the system.
+Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing plans. You can also generate templates directly from tasks and plans that already exist in the system.
 -   **[Create a quick recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task.md)**  
 Create a quick recovery task from Recovery tasks or as part of the planned recovery strategy for a business continuity plan. Using the quick insert feature, you can create tasks without navigating to a separate form. Tasks can be ordered, inserted in sequence \(before, after, or in parallel with existing tasks\), and dependencies are updated automatically.
 -   **[Visualize recovery tasks on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-gantt-chart-for-reco-tasks.md)**  
 Use the Gantt chart component on recovery task pages to provide a visual timeline view of tasks associated with the current plan. Customize the view by adding, removing, or reordering columns as needed. The chart is implemented as a UI page to enable customizations and to support multiple versions without requiring changes to existing page behavior.
--   **[Synchronize assets between loss scenarios and recovery strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/syn-ast-be-lo-sce-and-rec-stgy.md)**  
+-   **[Synchronize assets between loss scenarios and strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/syn-ast-be-lo-sce-and-rec-stgy.md)**  
 Use the asset syncing fields in the plan template to configure whether assets synchronize to loss scenarios, to recovery strategies, or both. Syncing is a two-step process: assets flow from the plan to loss scenarios first, and then from loss scenarios to recovery strategies.
 -   **[Automate recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/automate-the-recovery-tasks.md)**  
 Automate the manual recovery task within the business continuity plan. You can classify the manual recovery task as an automated task first and then attach an automated flow to it.

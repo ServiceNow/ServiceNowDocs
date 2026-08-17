@@ -203,7 +203,7 @@ If
 
 </td><td>
 
-Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is**Medium
+Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is** Medium
 
  **and**
 
@@ -242,7 +242,7 @@ If
 
 </td><td>
 
-Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is**Low
+Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is** Low
 
  **and**
 
@@ -269,7 +269,7 @@ Set recovery point objective: **1 week**
 
         A new version is required when a change affects question meaning, scoring, or structure. When a new version is published, the Smart Assessment Engine automatically copies the existing Post Assessment Actions to the new version in the **Draft** state.
 
-        Draft Post Assessment Actions do not run until published — BIAs triggered from the new version do not update RTO, RPO, MTPD, or Recovery Tier fields until you publish the Post Assessment Actions.
+        Draft Post Assessment Actions do not run until published. Once you publish the Post Assessment Actions, BIAs triggered from the new version update the RTO, RPO, MTPD, or Recovery Tier fields.
 
         BIAs triggered from the retired version continue to use that version's Post Assessment Actions.
 

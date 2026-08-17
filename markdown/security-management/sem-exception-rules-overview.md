@@ -38,6 +38,10 @@ Approving an exception rule request is a two-level process. If only the first-le
 
 **Note:** The Change Approval \(CA\) is now also created during exception rule submission. This enhancement ensures consistency across exception workflows and improves traceability.
 
+When you review an exception rule request, you can view the **Impacted findings** metric, which shows how many existing findings match the rule's conditions as of the last calculated time. Use this metric to assess the impact of the rule before approving or rejecting the request. Select the count to view a filtered list of matching findings or select **Refresh** to recalculate the count.
+
+**Note:** The **Impacted findings** count may change over time as the active exception rule continues to evaluate findings.
+
 After an exception rule request is approved, you can perform the following actions:
 
 -   Cancel

@@ -1,6 +1,6 @@
 ---
-title: Now Assist in Contract Management
-description: Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository. It also provides conversational search using natural language, enabling you to search the contract repository and perform semantic search in signed contract documents from the Now Assist panel.
+title: ServiceNow Otto for Contract Management Pro
+description: Use ServiceNow Otto for Contract Management Pro to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository. It also provides conversational search using natural language, enabling you to search the contract repository and perform semantic search in signed contract documents from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-now-assit-landing.html
 release: australia
@@ -9,13 +9,17 @@ classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [contract metadata extraction, contract analysis, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro]
+keywords: [contract metadata extraction, contract analysis, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro, AI in contract management pro]
 breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Now Assist in Contract Management
+# ServiceNow Otto for Contract Management Pro
 
-Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository. It also provides conversational search using natural language, enabling you to search the contract repository and perform semantic search in signed contract documents from the Now Assist panel.
+Use ServiceNow Otto for Contract Management Pro to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository. It also provides conversational search using natural language, enabling you to search the contract repository and perform semantic search in signed contract documents from the ServiceNow Otto panel.
+
+**Note:**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Contract Management Pro.
 
 None of the Advanced AI and Data Products provide legal or professional advice. The outputs provided by the Advanced AI and Data Products are for informational purposes only and are not a substitute for advice from a qualified professional. Customer assumes all responsibility and obligations with respect to any decisions, advice, conclusions, legal opinions, recommendations made or given as a result of the use of the services, including without limitation, any decision made, or action taken by Customer in reliance upon the Advanced AI and Data Products.
 
@@ -25,19 +29,19 @@ The Advance AI and Data Products and services do not and are not intended to con
 
 <table id="table_rzz_55j_qcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about generative AI skills and agentic workflows available in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AI skills and agentic workflows available in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use generative AI capabilities and agentic workflows offered by Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use AI capabilities and agentic workflows offered by ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
 
 </td><td>
 
-[Use agentic workflows\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-workflows.md)
+ 
 
 </td></tr></tbody>
 </table>**Important:**

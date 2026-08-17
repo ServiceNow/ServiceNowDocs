@@ -1,5 +1,5 @@
 ---
-title: Configure and customize the AI Voice Agent for Now Assist for CSM
+title: Configure and customize the AI Voice Agent for ServiceNow Otto for CSM
 description: Configure the AI Voice Agent to let callers check case status, create cases, and update existing cases through voice interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-06-03"
 reading_time_minutes: 3
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [AI voice agent, Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
+breadcrumb: [AI voice agents, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure and customize the AI Voice Agent for Now Assist for CSM
+# Configure and customize the AI Voice Agent for ServiceNow Otto for CSM
 
 Configure the AI Voice Agent to let callers check case status, create cases, and update existing cases through voice interactions.
 
@@ -21,12 +21,12 @@ Configure the AI Voice Agent to let callers check case status, create cases, and
 
 Verify the following prerequisites are in place before you begin:
 
--   Now Assist for CSM is activated on your instance.
+-   ServiceNow Otto for CSM is activated on your instance.
 -   A supported CCaaS integration is configured. Supported providers are Genesys, Twilio, NICE, Five9, 3CLogic, and Amazon Connect.
 -   The platform-level AI Voice Agent plugin is auto-installed. No separate installation is required.
 -   Your instance is on Zurich Patch 4 or Yokohama Patch 11 at minimum.
 
-The AI Voice Agent for Now Assist for CSM includes the following default agents:
+The AI Voice Agent for ServiceNow Otto for CSM includes the following default agents:
 
 -   Case Status AI Voice Agent — retrieves live case state, priority, assigned group, product, and latest work notes.
 -   Create Case AI Voice Agent — collects issue description and creates a new CSM case in real time.

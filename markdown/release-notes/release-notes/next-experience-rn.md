@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Next Experience release notes
@@ -49,6 +49,13 @@ See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 -   **New Works with ServiceNow badge added to user menu**
 
     The Works with ServiceNow badge now appears in the user menu for custom-branded accounts. This applies to web and mobile experiences with Next Experience or Core UI enabled. All other branding and theme settings remain unchanged. This update applies automatically.
+
+
+## Changed in the Australia release
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 ## Deprecated features

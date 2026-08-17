@@ -1,6 +1,6 @@
 ---
-title: Now Assist for HR Service Delivery \(HRSD\)
-description: Use the ServiceNow Now Assist for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
+title: ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: Use the ServiceNow ServiceNow Otto for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.html
 release: australia
@@ -12,15 +12,15 @@ reading_time_minutes: 4
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist for HR Service Delivery \(HRSD\)
+# ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
+Use the ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills and capabilities offered by ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.md)
 
 </td><td>
 
@@ -28,11 +28,11 @@ Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to 
 
 </td><td>
 
-[Use \[Omitted image "bus-task-list.svg"\] Alt text: Provide higher levels of service by using the generative AI skills and capabilities that are offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+[Use \[Omitted image "bus-task-list.svg"\] Alt text: Provide higher levels of service by using the generative AI skills and capabilities that are offered by ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 </td></tr><tr><td>
 
-[Use Agent Collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+[Use Agent Collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 
 </td><td>
 
@@ -43,7 +43,9 @@ Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to 
  
 
 </td></tr></tbody>
-</table>**Important:**
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+**Important:**
 
 -   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
 -   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
@@ -76,5 +78,5 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+-   Connect with other ServiceNow Otto for HR Service Delivery \(HRSD\) users at [Now Community](https://www.servicenow.com/community/).
 

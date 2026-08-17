@@ -30,7 +30,7 @@ The dashboard card on the CMDB success advisor landing page displays a badge wit
 Auto-setup runs only when all the following conditions are met. If any condition is not met, you can configure the Data Foundations advisor dashboard manually.
 
 -   The instance has no existing Data Foundations dashboard.
--   The total number of CIs on the instance is fewer than 65 million.
+-   The total number of CIs on the instance is fewer than 5 million.
 -   No more than 200 principal classes are already marked on the instance.
 
 ## Scope selected by auto-setup
@@ -49,9 +49,11 @@ The **CMDB Advisor - Check Job Completion and Notify** scheduled job checks whet
 
 When you first open the Data Foundations advisor after auto-setup completes, a notification indicates that the advisor is ready and shows the number of principal classes automatically selected based on incident, problem, and change \(IPC\) activity.
 
+This notification lets you refresh the dashboard view from anywhere in the ServiceNow AI Platform, including the CMDB success advisor landing page. You can also check Data Foundations setup progress from the side panel in the Governance view of Service Graph Workspace. For more information about accessing the Governance view, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
+
 ## Reviewing and modifying the auto-setup scope
 
 You can review and update the model categories selected by auto-setup at any time.
 
-To modify the Data Foundations scope, see [Manage Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
+To modify the Data Foundations scope, see [Managing Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
 

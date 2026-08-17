@@ -1,6 +1,6 @@
 ---
 title: Purchase order
-description: Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used for reviewing or completing purchase order details for invoice processing.
+description: Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used to review or complete purchase order details for invoice processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/purchase-order-table.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, supplier, purchase order, PO]
+keywords: [APO, Accounts Payable Operations, supplier, purchase order, ERP, invoice processing]
 breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Purchase order
 
-Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used for reviewing or completing purchase order details for invoice processing.
+Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used to review or complete purchase order details for invoice processing.
 
 ## sn\_shop\_purchase\_order table
 

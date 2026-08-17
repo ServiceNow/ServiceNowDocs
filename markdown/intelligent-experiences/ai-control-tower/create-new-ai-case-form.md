@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Create an AI case in the AI Control Tower, Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Create an AI case in the AI Control Tower, Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create new AI case form

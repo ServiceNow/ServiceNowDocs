@@ -34,6 +34,26 @@ Workday REST and Report-as-a-Service \(RAAS\) API works with OAuth 2.0 to author
 
 Configure your ServiceNow instance to use the Workday REST API if you need to use these REST-based spoke actions:
 
+-   Download Workday RAAS CSV
+-   Get Access Token \(Metadata\)
+-   Look up Data Source
+-   Look up Data Source Field
+-   Look up Data Source Filter
+-   Look up Employee Goals
+-   Look up Employee Latest Performance Review
+-   Look up Employee Performance Review Historical Data
+-   Look up Employee Skills
+-   Look up Feedback Received
+-   Look up In-Progress Approval Requests
+-   Look up Skills
+-   Look up Succession Planning
+-   Look up Succession Pool
+-   Look up Termination Details
+-   Look up Worker Job History Report
+-   Look up Worker Time Off And Leave Of Absence Request
+-   Look up Data Source Fields Stream
+-   Look up Data Source Filters Stream
+-   Look up Data Sources Stream
 -   Get My Reporting Structure
 -   Look up Object Custom Fields
 -   Update Object Custom Fields

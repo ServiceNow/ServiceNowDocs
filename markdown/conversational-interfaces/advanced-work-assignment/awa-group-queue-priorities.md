@@ -16,7 +16,7 @@ breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversa
 
 Use the group queue priority feature to set a queue or work item preference for a given group of agents. For a given group or agent with limited capacity, this feature controls which queues should be preferred if matching work items are found in both.
 
-For each group defined across the eligibility pools for a given queue, a corresponding group queue priority record will automatically be created for that group and queue combination, with the order set to a default of 100.
+For each group defined across the eligibility pools for a given queue, a corresponding group queue priority record will automatically be created for that group and queue combination. The order defaults to 100.
 
 ## Example
 
@@ -48,7 +48,7 @@ The English agent group now has a group queue priority hierarchy of two levels:
 1.  Level 1: Work items in the P1 chat queue
 2.  Level 2: Work items in the chat queue
 
-With the above hierarchy, agents in the English agent group will prefer work items in the P1 chat queue over the chat queue. The assignment engine will try to assign all work items under the P1 chat queue to the English agent group, before trying to assign any work items under chat queue to that same group \(assuming some agents still have free capacity\).
+With the above hierarchy, agents in the English agent group will prefer work items in the P1 chat queue over the chat queue. The assignment engine prioritizes assigning P1 chat queue work items to the English agent group. It only assigns regular chat queue work items to this group if agents still have free capacity.
 
 ## Group queue priority processing: tiers
 
@@ -78,9 +78,9 @@ The above tier ordering translates into the following rounds of assignment:
 
 ## Side effect of tier organization
 
-A side effect of the tier setup is that the Spanish agent group may receive more work items under the chat queue, since they will be considered earlier during the first run of assignment. Since agents from English agent group may have been assigned work items in the P1 chat queue in the first assignment run, they will have less capacity to handle work items assigned in the second assignment run. Both factors influence the likelihood of groups in later tiers in receiving work items.
+A side effect of the tier setup is that the Spanish agent group may receive more work items under the chat queue. This is due to the system considering the group earlier during the first run of assignment. Agents from the English agent group may be assigned work items in the P1 chat queue during the first assignment run. As a result, they will have less capacity to handle work items assigned in the second assignment run. Both factors influence the likelihood of groups in later tiers in receiving work items.
 
-These side effects are important as this implies that the group queue priority setup hierarchy across different groups could also affect the distribution of work items within a queue.
+These side effects are important because the group queue priority setup hierarchy across different groups may also affect the distribution of work items within a queue.
 
 Consider a more complex scenario where three groups are all eligible for three different queues, with the following group queue priority setup:
 

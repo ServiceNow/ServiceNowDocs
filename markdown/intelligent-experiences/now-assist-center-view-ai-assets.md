@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-view-ai-assets.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-07-30"
 reading_time_minutes: 4
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Using the asset inventory, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using the asset inventory, Use, AI Admin Center, Enable AI experiences]
 ---
 
 # View your AI assets in the asset inventory
@@ -23,11 +23,11 @@ Role required: sn\_na\_center.nac\_admin
 
 Follow these steps to view the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics.They also include datasets, knowledge graphs, and catalog items.
 
-For more information, see [Now Assist AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-assets-section.md).
+For more information, see [AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-assets-section.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Select **Asset inventory** \(\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text: Asset inventory icon.\) in the side navigation bar.
 
@@ -85,9 +85,9 @@ Skills
 
 </td><td>
 
-Displays a list of all Now Assist skills.
+Displays a list of all generative AI skills.
 
- A Now Assist skill is a capability that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on. You can have base system skills or custom skills created in Now Assist Skill Kit.
+ A generative AI skill is a capability that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on. You can have base system skills or custom skills created in AI Skill Kit.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Data assets
 
 Displays a list of all datasets.
 
- A custom dataset and data collection in Now Assist Data Kit is used for evaluations in Now Assist Skill Kit.
+ A custom dataset and data collection in AI Data Kit is used for evaluations in AI Skill Kit.
 
 </td></tr><tr><td>
 
@@ -195,10 +195,10 @@ Displays a list of all knowledge graphs.
     -   Select the **New from ServiceNow** filter to see all base system assets provided by ServiceNow within the last 90 days.
 7.  Select the asset name in the list to view the asset details.
 
-    The asset details page may open on a separate workspace tab if the selected asset is managed using an application that is fully integrated in Now Assist Center. If it is managed in another application, the application opens to the asset details page.
+    The asset details page may open on a separate workspace tab if the selected asset is managed using an application that is fully integrated in AI Admin Center. If it is managed in another application, the application opens to the asset details page.
 
 
-**Parent Topic:**[Using the asset inventory in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)
+**Parent Topic:**[Using the asset inventory in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)
 
 **Related topics**  
 

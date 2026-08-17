@@ -14,7 +14,7 @@ breadcrumb: [Plan implementation, Configure, Field Service Management]
 
 Use extension points to customize various configurations.
 
-In the application navigator, enter `sys_extension_point.list` and click **Enter** to view the extension points used in the Field Service Management application.
+In the application navigator, enter `sys_extension_point.list` and select **Enter** to view the extension points used in the Field Service Management application.
 
 You can create multiple implementations for each extension point and provide an order number for each implementation. The implementation that has the lowest order number is executed.
 
@@ -230,9 +230,7 @@ sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks
 
 </td><td>
 
-Customize CRUD operations for the tasks, cases, or incidents created from task plan templates linked to a work plan.For example, for a business unit of your organization, you can customize the extension point to create cases for a work plan and link them to schedule occurrences through a new field in the Cases record.
-
-For another business unit, you can customize the extension point to create cases and link them to the schedule occurrences through a new table.
+Customize CRUD operations for the tasks, cases, or incidents created from task plan templates linked to a work plan.
 
 </td></tr></tbody>
 </table>**Related topics**  

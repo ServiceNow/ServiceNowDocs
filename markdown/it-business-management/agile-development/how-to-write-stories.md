@@ -47,7 +47,7 @@ Typically, a story description is expressed as: "As a &lt;role&gt;, I want &lt;g
     -   The description does not include any benefit information, so the business value is not clear.
     It could be better written as:
 
-    Description: As an incident creator, I want email notifications to be sent to a predefined set of interested parties when I create an incident, so that they can be informed when an incident affecting them is created.
+    Description: As an incident creator, I want email notifications to be sent to a predefined set of interested parties when I create an incident. This way, they can be informed when an incident affecting them is created.
 
 
 ## Story acceptance criteria

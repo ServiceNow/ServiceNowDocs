@@ -62,7 +62,7 @@ See [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/Servic
 
 ## Activation information
 
-Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

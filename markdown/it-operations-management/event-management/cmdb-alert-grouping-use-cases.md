@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CMDB based alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [CMDB based alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Use cases for CMDB based alert grouping

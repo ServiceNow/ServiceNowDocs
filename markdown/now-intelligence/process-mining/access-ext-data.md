@@ -28,7 +28,11 @@ Role required: admin
 
     You can search for the application by its name or ID. If you can’t find an application, you may have to request it from the ServiceNow® Store.
 
+    The name and ID of the application is Process Mining for External data: sn\_po\_extdata.
+
 3.  Select **Install**.
+
+    To use Process Mining for external data, see [Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md).
 
 
 **Parent Topic:**[Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activating-process-mining.md)

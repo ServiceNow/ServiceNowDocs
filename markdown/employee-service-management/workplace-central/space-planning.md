@@ -39,7 +39,7 @@ You must install the following plugins to use the Space Planning module:
     The Space Management plugin provides additional features like space metrics and summaries.
 
 
-You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Important:** You must configure your workplace locations to use Space Planning. For more information about configuring workplace locations, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [exclude correlator from source, log source, log correlator exclusion, source exclusion]
-breadcrumb: [Find correlations between alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use log correlators to find related alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Exclude a source from a log correlator in Health Log Analytics
@@ -32,5 +32,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 4.  In the Actions on selected items list, select **Exclude from this source**.
 
 
-**Parent Topic:**[Identifying related alerts in log data by using log correlators in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

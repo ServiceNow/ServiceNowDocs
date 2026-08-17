@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-guided-selling-exit-criteria.html
 release: australia
 topic_type: task
-last_updated: "2026-07-03"
-reading_time_minutes: 3
+last_updated: "2026-07-21"
+reading_time_minutes: 4
 keywords: [guided selling, playbook, stage exit criteria, opportunity stages, process compliance, mandatory activities]
-breadcrumb: [Install and configure Opportunity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure guided selling activities in a playbook
@@ -58,6 +58,17 @@ The system records activity completion state in the Sales CRM Progression Checkp
 
 6.  Save and activate the playbook.
 
+7.  Enforce the win or loss reason fields when agents close an opportunity by enabling the corresponding system properties.
+
+    By default, agents can move an opportunity to a closed stage without completing the win or loss reason fields. Enable one or both of the following system properties to make these fields mandatory. Both properties are set to `false` by default.
+
+    |System property|Description|
+    |---------------|-----------|
+    |`sn_opty_mgmt_core.enable_mandatory_fields_on_closed_won`|When enabled, requires agents to complete the **Win reason** and **Outcome notes** fields before they move an opportunity to the Closed Won stage.|
+    |`sn_opty_mgmt_core.enable_mandatory_fields_on_closed_lost`|When enabled, requires agents to complete the **Loss reason**, **Outcome notes**, and **Lost to** fields before they move an opportunity to the Closed Lost stage.|
+
+    When a required field is empty, the system prevents the stage change and displays a message that names the mandatory field and the target stage.
+
 
 ## Result
 
@@ -70,5 +81,5 @@ The playbook is active. When an opportunity with the configured sales cycle type
 
 [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md)
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 

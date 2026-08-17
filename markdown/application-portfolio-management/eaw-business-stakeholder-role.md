@@ -31,7 +31,7 @@ The Business Stakeholder role is designed to give users read-only access to all 
 
 ## Business stakeholder read-only access limitations in Enterprise Architecture Workspace
 
-Enterprise Architecture Workspace users with Business stakeholder role for Enterprise Architecture Workspace \(sn\_apm.apm\_read\) role have only view access to all the pages and they can't create or update any data in the Enterprise Architecture Workspace.
+Users with the Business stakeholder role for Enterprise Architecture Workspace \(sn\_apm.apm\_read\) have view-only access to all pages. They can't create or update any data in Enterprise Architecture Workspace.
 
 **Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

@@ -32,7 +32,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
     -   Business Services
     -   Service Offerings
     -   Business Process
-2.  To add a service offering to the Operational Resilience application, select **New** in the Service offerings list view and fill in the details regarding the service offering on the [Create New Offering form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-offering-form.md).
+2.  To add a service offering to the Operational Resilience application, select **New** in the Service offerings list view and fill in the details regarding the service offering on the [Create an offering form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-offering-form.md).
 
 3.  Select **Save**.
 

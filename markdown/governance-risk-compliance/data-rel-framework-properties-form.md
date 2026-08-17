@@ -45,7 +45,7 @@ Maximum number of nodes to be processed
 
 Maximum number of nodes to be processed when the Data Relationships Framework API is called.
 
- The default value is 10,000. For example, when the API is called, it displays the results for a maximum 10,000 nodes.
+ The default value is 10,000. For example, when the API is called, it displays the results for a maximum of 10,000 nodes.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Maximum number of levels to be processed
 
 Maximum number of levels to be processed when the Data Relationships Framework API is called.
 
- The default value is 5. For example, when the API is called, it processes maximum 5 levels of the relationships and does not go deeper than 5 levels.
+ The default value is 5. For example, when the API is called, it processes maximum of 5 levels of the relationships and does not go deeper than 5 levels.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md)

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Event forwarding, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event forwarding, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Periodically run an event forwarding job

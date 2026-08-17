@@ -113,5 +113,3 @@ Enter the number of Asset used. It provides insights into how customers use a pr
 
 [Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-submit-repair-claim.md)
 
-[mco-submit-repair-claim-for-recall]
-

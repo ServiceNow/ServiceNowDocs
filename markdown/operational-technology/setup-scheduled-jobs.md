@@ -77,3 +77,5 @@ Role required: admin
 
 You have completed the Service Graph Connector for ServiceNow OT Discovery Guided Setup. Review the [Use advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/advanced-configuration-sgc-ot-discovery.md) section.
 
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+

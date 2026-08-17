@@ -110,7 +110,7 @@ Activity Stream
 
 </td><td>
 
-The activity stream displays a list of activities occurring on a case record. For more information, see [Playbook activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-activity-stream-component.md).
+The activity stream displays a list of activities occurring on a case record. For more information, see Playbook activity stream component.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ The Related Items tab provides access to the case-related lists.The Case playboo
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
-For more information, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md).
+For more information, see Playbook related items component.
 
 </td></tr><tr><td>
 

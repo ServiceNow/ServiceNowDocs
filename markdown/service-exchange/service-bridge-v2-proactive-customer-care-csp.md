@@ -41,7 +41,8 @@ Some common Service Exchange Remote Catalog items are as follows:
 
     The Actions menu displays the following options, **Accept**, **Reject**, or **Cancel**.
 
-9.  If the consumer accepts the resolution, the state of the provider task on the consumer's instance, and the state of the request on the provider's instance, are updated to **Closed**.
+    If the consumer accepts the resolution, the state of the provider task on the consumer's instance is updated to **Closed**. The state of the request on the provider's instance is also updated to **Closed**.
+
 
 **Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
 

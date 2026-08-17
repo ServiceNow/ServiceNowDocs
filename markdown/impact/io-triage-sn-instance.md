@@ -72,5 +72,5 @@ Role required: admin
 -   **[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage.md)**  
 You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Quote transaction rules and rule groupings
-description: Rules in ServiceNow Quote Experience evaluate conditions and perform actions on quote fields and layouts. Rule groupings bundle rules together to run at stages and events in ServiceNow CPQ.
+description: Rules in ServiceNow Quote Experience evaluate conditions and perform actions on quote fields and layouts. Rule groupings bundle rules together to run at stages and events in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-rules-and-rule-groups.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 8
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction rules and rule groupings
 
-Rules in ServiceNow Quote Experience evaluate conditions and perform actions on quote fields and layouts. Rule groupings bundle rules together to run at stages and events in ServiceNow CPQ.
+Rules in ServiceNow Quote Experience evaluate conditions and perform actions on quote fields and layouts. Rule groupings bundle rules together to run at stages and events in CPQ.
 
 Rules in ServiceNow Quote Experience govern what actions occur when a user interacts with the quote interface. Rules are similar to configuration rules — each rule has three components: level, conditions, and actions.
 

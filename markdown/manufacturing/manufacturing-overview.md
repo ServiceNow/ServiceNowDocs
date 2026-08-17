@@ -43,7 +43,7 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 </td><td>
 
-[Now Assist for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/now-assist-for-MCO.md)
+[ServiceNow Otto for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use ServiceNow Otto for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/now-assist-for-MCO.md)
 
 </td><td>
 
@@ -53,8 +53,8 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 </table>## Additional resources
 
 -   Learn more about what's new and changed at [Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/manufacturing-commercial-operations-rn.md).
--   Find useful resources related to your role and explore best practices at the [Best Practices library](https://mynow.servicenow.com/now/best-practices/home).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Manufacturing Commercial Operations features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/manufacturing.html).
--   Connect with other Manufacturing Commercial Operations users at [Now Community](https://www.servicenow.com/community/).
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/impact.html).
+-   Connect with other Manufacturing Commercial Operations users at [Now Community](https://www.servicenow.com/community/manufacturing/ct-p/manufacturing).
 

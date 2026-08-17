@@ -78,7 +78,7 @@ As part of our mission to continually deliver the best customer experience and a
 
 -   **U.S. Public Sector \(USPS\)**
 
-    The US Public Sector Accelerators provide U.S. Public Sector customers an option to leverage aspects of these Accelerators without the need to accept the supplemental terms or in scenarios in which an environment may have serviceability restrictions.
+    The US Public Sector Accelerators provide U.S. Public Sector customers an option to use aspects of these Accelerators without the need to accept the supplemental terms or in scenarios in which an environment may have serviceability restrictions.
 
 
 Accelerators that offer USPS specific versions are indicated in the specific sub-catalog.

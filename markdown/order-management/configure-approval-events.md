@@ -1,6 +1,6 @@
 ---
 title: Configure approval events
-description: Configure the approval system events that control the approval buttons and stage transitions for a ServiceNow CPQ implementation.
+description: Configure the approval system events that control the approval buttons and stage transitions for a CPQ implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-approval-events.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Set up the environment to manage approvals, Advanced Approval Manag
 
 # Configure approval events
 
-Configure the approval system events that control the approval buttons and stage transitions for a ServiceNow CPQ implementation.
+Configure the approval system events that control the approval buttons and stage transitions for a CPQ implementation.
 
 ## Before you begin
 
@@ -38,7 +38,7 @@ Configure these events. Do not create additional ones. The events fall into two 
 1.  Configure the Preview Approval event \(**txn.approval.preview**\). The UI effect on the Preview Approval button opens the embedded SN approval component in Preview mode, showing the seller which approvals are triggered and who the approvers are before submitting. The **Request Approval** button inside this component triggers the Request Approval event.
 2.  Configure the event access that controls when the Preview Approval button is visible.
 
-    1.  Navigate to **Admin** &gt; **Transaction** &gt; **Events**.
+    1.  Navigate to **CPQ Administration** &gt; **Transaction** &gt; **Events**.
 
     2.  Open the Preview Approval event \(**txn.approval.preview**\).
 
@@ -54,7 +54,7 @@ Configure these events. Do not create additional ones. The events fall into two 
 
 3.  Add the Preview Approval button to the layout.
 
-    1.  Navigate to **Admin** &gt; **Transaction** &gt; **Layouts** and open your layout.
+    1.  Navigate to **Transaction** &gt; **Layouts** and open your layout.
 
     2.  In the **Header Buttons** section, add a new button and label it **Preview Approval** or a label of your choice.
 
@@ -108,7 +108,7 @@ Configure these events. Do not create additional ones. The events fall into two 
 
     This event is triggered when the seller selects **Request Approval** inside the embedded SN component.
 
-    1.  Navigate to **Admin** &gt; **Transaction** &gt; **Events**.
+    1.  Navigate to **Transaction** &gt; **Events**.
 
     2.  Open the Request Approval event \(**txn.approval.request**\).
 
@@ -116,9 +116,13 @@ Configure these events. Do not create additional ones. The events fall into two 
 
     4.  Enable the **Transition after actions** toggle.
 
-    5.  Set **After all actions run, transition to** to **forward**.
+    5.  Set **After all actions run, transition to** **forward**.
 
-    6.  Select **Save**.
+    6.  Select **Add New Action**.
+
+    7.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.submission** rule grouping.
+
+    8.  Select **Save**.
 
     **Tip:** If your stage sequence differs from the default, verify the forward transition points to the correct next stage. You can also add a Rule Grouping action on this event if additional rules need to run at submission time.
 
@@ -134,9 +138,13 @@ Configure these events. Do not create additional ones. The events fall into two 
 
     3.  Enable the **Transition after actions** toggle.
 
-    4.  Set **After all actions run, transition to** to **forward**.
+    4.  Set **After all actions run, transition to** **forward**.
 
-    5.  Select **Save**.
+    5.  Select **Add New Action**.
+
+    6.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.completion** rule grouping.
+
+    7.  Select **Save**.
 
     **Tip:** If you have additional stages between Pending Approval and Approved, verify the forward transition lands on the correct destination. Entry criteria on the Approved stage validates the state before allowing entry regardless.
 
@@ -152,11 +160,15 @@ Configure these events. Do not create additional ones. The events fall into two 
 
     3.  Enable the **Transition after actions** toggle.
 
-    4.  Set **After all actions run, transition to** to **backward**.
+    4.  Set **After all actions run, transition to** **backward**.
 
-    5.  Set **If available from current stage, go back to** to **Draft**.
+    5.  Set **If available from current stage, go back to** **Draft**.
 
-    6.  Select **Save**.
+    6.  Select **Add New Action**.
+
+    7.  To add rule group to an event, select the **Rule grouping** and then assign the **txn.approval.revision** rule grouping.
+
+    8.  Select **Save**.
 
     **Tip:** If you want the transaction to return to a different stage on recall or rejection—for example, a dedicated Rejected stage rather than Draft—change the target stage here and verify that stage exists in your blueprint with appropriate entry criteria.
 

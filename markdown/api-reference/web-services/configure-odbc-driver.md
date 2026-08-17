@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
 breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -36,7 +36,7 @@ After installing the ServiceNow SQL API ODBC driver on your client machine, you 
 
 3.  Select **Run as Administrator**.
 
-4.  Navigate to **ServiceNow SQL API - ODBC Manager** &gt; **Manager \(local configuration\)** &gt; **&lt;drive&gt;:\\Program Files\\ServiceNow\\ODBC\\cfg\\oadm.in** &gt; **Services** &gt; **&gt;ServiceNow\_ODBC** &gt; **Service Settings** &gt; **IP Parameters**.Navigate to **ServiceNow SQL API - ODBC Manager** &gt; **Manager \(local configuration\)** &gt; **&lt;drive&gt;:\\Program Files\\ServiceNow\\ODBC\\cfg\\oadm.in** &gt; **Services** &gt; **&gt;ServiceNow\_ODBC** &gt; **Service Settings** &gt; **IP Parameters**.
+4.  Navigate to **ServiceNow SQL API - ODBC Manager** &gt; **Manager \(local configuration\)** &gt; **&lt;drive&gt;:\\Program Files\\ServiceNow\\ODBC\\cfg\\oadm.in** &gt; **Services** &gt; **ServiceNow\_ODBC** &gt; **Service Settings** &gt; **IP Parameters**.
 
 5.  Open the `ServiceJVMClassPath` parameter.
 
@@ -110,7 +110,7 @@ Custom Properties
 
 </td><td>
 
-`url=https://<instance>.service-now.com`Enter your ServiceNow instance URL.
+Enter connection properties as semicolon-separated key-value pairs. At minimum, include your instance URL: `url=https://<instance>.service-now.com`.
 
 </td></tr></tbody>
 </table>    \[Omitted image "sql-api-odbcdriver-dns-setting.png"\] Alt text: UI screen of ODBC driver DNS settings.

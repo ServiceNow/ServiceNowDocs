@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-platform-manager-landing.html
 release: australia
 topic_type: reference
-last_updated: "2025-08-08"
-reading_time_minutes: 3
+last_updated: "2026-06-11"
+reading_time_minutes: 2
 breadcrumb: [Enable AI experiences]
 ---
 
 # MCP Server Console
 
 MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows or AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 \[Omitted video\] Description: MCP Server Console overview
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Azure Monitor with basic authentication
@@ -19,6 +19,8 @@ Integrate Microsoft Azure with Event Management by adding a standard webhook in 
 ## Before you begin
 
 Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
+
+Ensure you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Roles required: evt\_mgmt\_admin and web\_service\_admin
 

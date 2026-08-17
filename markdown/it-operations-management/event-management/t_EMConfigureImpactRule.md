@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Adjust impact rules for a CI
@@ -30,7 +30,7 @@ You can view and adjust the impact rules of CIs from the application service map
 
 1.  Open the application service map from either the Event Management dashboard or the Application service list.
 
-<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d562112e131">
+<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d565140e131">
 
 **From the Event Management dashboard**
 
@@ -40,7 +40,7 @@ You can view and adjust the impact rules of CIs from the application service map
 2.  Double-click the tile of the application services.
 
 
-</td></tr><tr><td id="d562112e161">
+</td></tr><tr><td id="d565140e161">
 
 **From the Application Service list**
 

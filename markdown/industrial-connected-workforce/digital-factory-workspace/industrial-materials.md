@@ -20,7 +20,7 @@ Use Industrial Materials to manage the materials used for the Industrial Connect
 
 The Industrial Materials feature provides a hierarchical view of all material classes defined in your system. It helps you manage and navigate through material classifications. Classes represent types, and materials are the actual products within each level of the tree.
 
-You can access the Industrial Materials feature by selecting the **Material model** icon \(\[Omitted image "icw-material-model-icon.png"\] Alt text:\) in the Digital Factory Workspace. The tree displays all material classes defined in your system, enabling you to navigate through the parent and child relationships. Select any material class to view its details, such as material instances with the **Materials** tab.
+You can access the Industrial Materials feature by selecting the **Material model** icon \(\[Omitted image "icw-material-model-icon.png"\] Alt text: Material model icon.\) in the Digital Factory Workspace. The tree displays all material classes defined in your system, enabling you to navigate through the parent and child relationships. Select any material class to view its details, such as material instances with the **Materials** tab.
 
 When you select a material class, a form loads displaying detailed information about the selected class. If you have sufficient permissions, you can edit the details. When you create classes and materials using the forms, the new entries appear at the configured level within the tree. The system supports inheritance behavior, which enables materials and classes to be configured at different levels.
 
@@ -39,7 +39,7 @@ The Industrial Materials feature has the following benefits.
 
 ## Material compatibility with equipment
 
-When you create a task in the Digital Factory Workspace, the materials available for selection are scoped to what's compatible with the task's operational equipment, asset, or ISA-95 functional location. This scoping is based on interoperability mappings that relate materials to specific product models. According to the interoperability mappings configured by an admin, the material list for a task reflects only the materials relevant to that piece of equipment or location, instead of every material defined in your instance.
+When you create a task in the Digital Factory Workspace, the available materials are scoped based on compatibility. Compatibility is determined by the operational equipment, asses, or ISA-95 functional location associated with the task. This is based on interoperability mappings that relate materials to specific product models. According to the interoperability mappings configured by an admin, the material list for a task reflects only the materials relevant to that piece of equipment or location. It doesn't include every material defined in your instance.
 
 An admin configures these interoperability mappings outside of the Digital Factory Workspace. For more information, see [Create interoperability mappings between assets and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-interoperability-mappings-assets-models.md).
 

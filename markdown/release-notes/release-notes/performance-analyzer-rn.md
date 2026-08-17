@@ -14,11 +14,11 @@ The ServiceNow® Performance Analyzer application enables you to access page loa
 
 ## Performance Analyzer highlights for the Australia release
 
--   Group pages by variant to identity performance issues
+-   Group pages by variant to identity performance issues.
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 
-See Performance Analyzer for more information.
+See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer-landing.md) for more information.
 
 **Important:** Performance Analyzer is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -47,7 +47,7 @@ Starting with the Zurich release, Performance Analyzer is available on your inst
 
 ## Activation information
 
-Install Performance Analyzer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Performance Analyzer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

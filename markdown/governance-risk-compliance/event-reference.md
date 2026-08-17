@@ -1,6 +1,6 @@
 ---
-title: Event New record form
-description: Use the Event New record form to create an event that you can associate with a scenario and assess its impact on your services.
+title: Event record form
+description: Use the Event record form to create an event that you can associate with a scenario and assess its impact on your services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/event-reference.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Create an event for the scenario, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Event New record form
+# Event record form
 
-Use the Event New record form to create an event that you can associate with a scenario and assess its impact on your services.
+Use the Event record form to create an event that you can associate with a scenario and assess its impact on your services.
 
-## Event New record form
+## Event record form
 
 For a description of the field values, see the following table.
 

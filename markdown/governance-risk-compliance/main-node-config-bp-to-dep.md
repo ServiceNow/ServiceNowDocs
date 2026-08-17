@@ -18,7 +18,7 @@ For the Business process to dependencies Main node configuration, the source is 
 
 ## Node relationship configurations
 
-You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag in the Business process to dependencies Main node configuration as shown in the example.
+You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag. The following example shows the Business process to dependencies Main node configuration.
 
 \[Omitted image "node-rel-config-bp-to-dep.png"\] Alt text: Business process to dependencies Main node configuration.
 

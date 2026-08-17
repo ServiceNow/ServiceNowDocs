@@ -78,7 +78,7 @@ Determines the stride value for recalculating the purge dates for employee docum
 
 </td></tr><tr><td>
 
-sn\_hr\_ef.purge\_authorization\_interval \(The number of days before the next month a purge notification is sent \(value between 1-30\):\)
+sn\_hr\_ef.purge\_authorization\_interval \(The number of days before the next month a purge notification is sent \(value between 1-15\):\)
 
 </td><td>
 

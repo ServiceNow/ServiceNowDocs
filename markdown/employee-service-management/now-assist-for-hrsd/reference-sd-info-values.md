@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Sensitivity detection filters mapping
@@ -35,5 +35,5 @@ Modify the condition that is associated with your `awa_queue`record so that you 
 |Workplace misconduct: Workplace harassment, Violence, and discrimination|Report misconduct|Employee relations|
 |Workplace Substance Abuse and Support|Report misconduct|Employee relations|
 
-**Parent Topic:**[Reference for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

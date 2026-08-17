@@ -1,5 +1,5 @@
 ---
-title: Define, save, and share a search of log data in Health Log Analytics
+title: Define, save, and share a log data search
 description: Define, save, and share searches of log data to help determine the causes of Log Analytics alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.html
@@ -8,12 +8,12 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [search queries, save search, share search, log data search, search parameters, Elasticsearch, query definition, search filters, assignment group sharing, time range selection, component selection]
 breadcrumb: [Review alert-related logs on the Log Viewer, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Define, save, and share a search of log data in Health Log Analytics
+# Define, save, and share a log data search
 
 Define, save, and share searches of log data to help determine the causes of Log Analytics alerts.
 

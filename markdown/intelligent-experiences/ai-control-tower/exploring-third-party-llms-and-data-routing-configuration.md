@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Explore the third-party LLMs and regions

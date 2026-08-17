@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-reversetunnel-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -107,9 +107,9 @@ Australia
 
 </td><td>
 
--   **[Private connectivity for Zero Copy Connectors](https://www.servicenow.com/docs/access?context=exploring-reverse-tunnel&family=australia&ft:locale=en-US)**
+-   **[Private connectivity for zero copy connectors](https://www.servicenow.com/docs/access?context=exploring-reverse-tunnel&family=australia&ft:locale=en-US)**
 
-Connect Zero Copy Connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network, without decrypting that traffic.
+Connect zero copy connectors to data sources hosted in private cloud or on-premises networks without exposing data source credentials or IP addresses. The Reverse Tunnel gateway routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network without decrypting that traffic.
 
 -   **[Private relay deployment](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US)**
 
@@ -302,9 +302,9 @@ Australia
 
 </td><td>
 
-Reverse Tunnel is available in the ServiceNow Store. Install the following:
+Reverse Tunnel is available in the ServiceNow Store as the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\).
 
- For details, see [\[Placeholder link text to key connect-customer-relay\]](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US).
+ For details, see [Connect a private relay to the Reverse Tunnel gateway](https://www.servicenow.com/docs/access?context=connect-customer-relay&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -529,11 +529,11 @@ Australia
 
 </td><td>
 
--   Connect Zero Copy Connectors to private cloud or on-premises data sources without opening inbound firewall ports.
+-   Connect zero copy connectors to private cloud or on-premises data sources without opening inbound firewall ports.
 -   Establish encrypted outbound connections to private cloud or on-premises data sources by deploying a private relay in your network.
 -   Monitor relay heartbeat data directly from your ServiceNow instance.
 
- See [\[Placeholder link text to key reverse-tunnel\]](https://www.servicenow.com/docs/access?context=reverse-tunnel&family=australia&ft:locale=en-US).
+ See [Reverse Tunnel](https://www.servicenow.com/docs/access?context=reverse-tunnel&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

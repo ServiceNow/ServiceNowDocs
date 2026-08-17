@@ -18,7 +18,7 @@ The numerical value of the current state of the record is highlighted in the ste
 
 \[Omitted image "bcm-record-with-record-template.png"\] Alt text: Highlighted state in the stepper component.
 
-A typical record moves through progression of these states:
+A typical record moves through a progression of these states:
 
 -   **Draft**
 -   **In review**

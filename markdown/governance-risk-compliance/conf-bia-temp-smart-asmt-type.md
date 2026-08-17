@@ -20,13 +20,13 @@ Role required: sn\_bcm.admin
 
 ## About this task
 
-A BIA created using the Smart Assessment template includes Smart Assessment instances in the assessment section. BCM users can complete the assessment, and upon submission, the automation set up by the BCM admin triggers to update impact analysis data, including RTO, RPO, and recovery tier, based on the defined configuration.
+A BIA created using the Smart Assessment template includes Smart Assessment instances in the assessment section. BCM users complete the assessment. Upon submission, the automation set up by the BCM admin triggers to update impact analysis data, including RTO, RPO, and recovery tier, based on the defined configuration.
 
 Impact category completion configuration for Smart Assessment: To configure Impact category completion for Smart Assessment, navigate to **All &gt; Business Continuity &gt; General Administration &gt; Properties**. Set the **Mark the Impact Assessment as Complete once all required questions are answered, or all questions \(required and optional\) are answered** property. Choose the preferred option to show completion based on required or all questions.
 
 For the initial setup checklist for Smart Assessment Engine, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md).
 
-**Note:** The BIA template references the impact assessment template by template family, not by a specific version, therefore future BIAs automatically use the latest published version. Verify that the Post Assessment Actions on the new version are reviewed and published before triggering new BIAs — otherwise, the RTO, RPO, MTPD, and Recovery Tier fields will not be populated. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md).
+**Note:** The BIA template references the impact assessment template by template family and not by a specific version. Therefore, future BIAs automatically use the latest published version. Verify that the Post Assessment Actions on the new version are reviewed and published before triggering new BIAs — otherwise, the RTO, RPO, MTPD, and Recovery Tier fields will not be populated. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-smart-asmt-template.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
 7.  To save the BIA template, select **Submit**.
 
-8.  To display result fields on the assessment card in the Impact analysis record within the Workspace, open the BIA template, map the BIA fields to the Impact assessment template, and save the mapping.
+8.  To display result fields on the assessment card in Impact analysis record, open the BIA template, map BIA fields to the Impact assessment template, and save the mapping.
 
     The BIA template with the Smart Assessment type is set up in the instance. The related list for the BIA template depends on the selected impact assessment template. For example, choosing the Recovery Point Objective template shows the same related list mapped to the BIA fields. For more information, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
 
@@ -70,7 +70,7 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
     \[Omitted image "bia-asmts-based-on-imp-asmt-templates.png"\] Alt text: Cards.
 
-    Previously, the **Assessments** tab showed a single assessment card and an **Open assessment** button. Beginning with the Yokohama release, the layout has been updated to a two-column arrangement. Assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For example, one card is shown alone in a row, while seven cards are arranged in four rows \(three rows with two cards each and one row with one card\).
+    Previously, the **Assessments** tab showed a single assessment card and an **Open assessment** button. The layout has been updated to a two-column arrangement. Assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For example, one card appears in a single row, while seven cards are distributed across four rows: three rows of two cards and one row of one card.
 
     **Note:** The selected BIA fields are populated on the cards only if they are not empty.
 

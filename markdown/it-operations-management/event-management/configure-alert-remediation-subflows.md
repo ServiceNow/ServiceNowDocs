@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure alert remediation actions
@@ -41,14 +41,14 @@ Role required: evt\_mgmt\_admin or flow\_designer
 
 ## About this task
 
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Procedure
 
 1.  Access remediation actions in one of the following ways:
 
     -   Quick actions in an alert, as described in [Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md).
-    -   The Playbook tab in Service Operations Workspace, as described in [Run actions to resolve alert issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/run-alert-remediation.md) .
+    -   The Playbook tab in Service Operations Workspace, as described in [Run actions to resolve alert issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/run-alert-remediation.md) .
 2.  Configure additional input in the alert's **Additional Information** field, using this format:
 
     `{"remediation_action_resource":"<mandatory input>"}`

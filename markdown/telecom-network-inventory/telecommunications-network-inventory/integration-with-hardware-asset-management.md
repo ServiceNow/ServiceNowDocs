@@ -18,7 +18,7 @@ By integrating the Telecommunications Network Inventory application with the Har
 
 ## HAM integration overview
 
-With this integration, you can enable the Telecommunications Network Inventory application to create the bill of materials for your assets by using a record producer. Then, you can create a service request to get those assets. To learn more about record producers, see .
+With this integration, you can enable the Telecommunications Network Inventory application to create the bill of materials for your assets by using a record producer. Then, you can create a service request to get those assets. To learn more about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
 
 Before creating the service request, you must publish the asset to the hardware catalog by adding it to the Catalog Definition table. To learn more, see [Publish an asset to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Assign group or team to Event Management operator role
+title: Assign Event Management operator role to group
 description: Assign the evt\_mgmt\_operator role to groups to enable operations teams to work with alerts and manage Event Management workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-aiops-role-grp.html
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, operators, role assignment]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Assign group or team to Event Management operator role
+# Assign Event Management operator role to group
 
 Assign the evt\_mgmt\_operator role to groups to enable operations teams to work with alerts and manage Event Management workflows.
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you are in the Configure IT Operations Management page.
 
@@ -31,18 +31,28 @@ The evt\_mgmt\_operator role provides the necessary permissions for operations t
 
 ## Procedure
 
-1.  Navigate to **Configuration Summary** &gt; **Event Management** &gt; **Promote to Production**.
+1.  Navigate to **Configuration Summary** &gt; **Event Management** &gt; **Platform foundations**.
 
-2.  Expand **Promote to Production**.
+2.  Expand **Platform foundations**.
 
 3.  Select **Assign Event Management operators**.
 
-4.  In the **Group or team** field, select the team to be assigned the evt\_mgmt\_operator role.
+4.  Select **Add group**.
 
-    The Role field is read-only and displays **evt\_mgmt\_operator**.
+    By default, the **Assign role to existing group** is selected.
 
-5.  Select **Assign role**.
+5.  If you want to create your group, select **Create new group** and perform the following steps:
 
-6.  To complete the setup, select **Mark as configured**.
+    1.  In the **Group name** field, enter the name of the group.
+    2.  In the **Description** field, enter a description.
+    3.  In the **Users** field, select the users to add to the group.
+    4.  Select **Save**.
+6.  In the **Group** field, select the group to assign the evt\_mgmt\_operator role to.
+
+7.  Select **Save**.
+
+    The role is assigned to the selected group.
+
+8.  To complete the setup, select **Mark as configured**.
 
 

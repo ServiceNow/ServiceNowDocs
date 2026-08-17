@@ -106,15 +106,15 @@ You can't change this field.
     4.  To create a product offering from the specification, navigate to the Product Offerings related
 5.  When you finish creating the specification version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d42399e271">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d43165e273">
 
 Action
 
-</th><th align="left" id="d42399e274">
+</th><th align="left" id="d43165e276">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42399e280">
+</th></tr></thead><tbody><tr><td id="d43165e282">
 
 **Publish**
 
@@ -124,7 +124,7 @@ Publish the draft specification so that you can use it in a product catalog as f
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d42399e298">
+</td></tr><tr><td id="d43165e300">
 
 **Update**
 
@@ -132,7 +132,7 @@ Publish the draft specification so that you can use it in a product catalog as f
 
 Update the specification with the new data that you added, but do not publish it for use in a product catalog.
 
-</td></tr><tr><td id="d42399e307">
+</td></tr><tr><td id="d43165e309">
 
 **Copy**
 

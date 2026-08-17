@@ -52,7 +52,7 @@ The previously integrated data model did not support service offerings and appli
 
 ## Staging tables and pillars
 
-The Operational Resilience application uses the Entity Hierarchy table, \[sn\_grc\_m2m\_profile\_profile\], to save hierarchical relationships. For example, if a record has `upstream_profile` as a business service \(BS\) and `downstream_profile` as a service offering \(SO\), it indicates that the business service \(BS\) directly connects to the service offering \(SO\) in the CSDM data model.
+The Operational Resilience application uses the Entity Hierarchy table, \[sn\_grc\_m2m\_profile\_profile\], to save hierarchical relationships. For example, a record can have `upstream_profile` as a business service \(BS\) and `downstream_profile` as a service offering \(SO\). This indicates that the business service \(BS\) directly connects to the service offering \(SO\) in the CSDM data model.
 
 The Service Process pillar is the parent table for all staging tables in Operational Resilience. Other staging tables inherit the profile field from it.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/channel-partner-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
 # Channel Partner components on workspace
@@ -113,5 +113,5 @@ Register Partner Staff
 Register staff to an enterprise. To learn more about registering partner staff, see [Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-partner-staff-on-workspace.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 

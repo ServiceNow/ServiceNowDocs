@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Explore, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -76,7 +76,7 @@ Verify that you have successfully setup Microsoft SharePoint v1.0.0 configuratio
 
 Microsoft SharePoint manages sites, folders, files, groups, and users in Microsoft SharePoint.
 
- Add Microsoft SharePoint data to your ServiceNow® instance. To do this, you must have to setup Graph and Rest connections.
+ Add Microsoft SharePoint data to your ServiceNow® instance. To do this you must setup Graph and Rest connections.
 
  For information, see [Microsoft SharePoint spoke v1.1.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sharepoint-online-spoke.md) documentation on how to setup REST and Graph connections Configuration.
 
@@ -114,7 +114,7 @@ Verify that you have created and configured Microsoft SharePoint Drive and neces
 
 To verify the drive configurations, setup Microsoft SharePoint File Explorer Connector, Folder, and File Actions and Folder Templates:
 
--   [Configure File Explorer Repository Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-repository-config.md): Create connection from Microsoft SharePoint to ServiceNow® instance.
+-   [Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-repository-config.md): Create connection from Microsoft SharePoint to ServiceNow® instance.
 -   [Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/folder-file-action-settings.md): Configure and control the individual Folder and File Actions displayed on the File Explorer Component.
 -   [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-folder-templates.md): Configure to create unique folders for different Major Security Incident types.
 
@@ -157,6 +157,14 @@ Verify that the Major Security Incident Administration - Notifications settings 
 
 As an MSI Administrator, trigger email notifications when a security incident is proposed and are sent to all those users and groups who are configured to the notifications list. For more information, see [Set notification preferences for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-msi-administration-settings.md).
 
+</td></tr><tr><td>
+
+Verify that the SI to MSI Promotion Flow Designer flows are copied and activated.
+
+</td><td>
+
+Both the **SI to MSI Promotion \(SharePoint\)** and **SI to MSI Promotion \(Teams\)** flows must be copied and activated independently. If only one flow is active, only the corresponding component \(File Explorer or Chat\) is set up when a security incident is promoted.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
@@ -168,4 +176,6 @@ As an MSI Administrator, trigger email notifications when a security incident is
 [Get started with MSIM]()
 
 [Major Security Incident Management roles]()
+
+[Environment reference for MSIM setup]()
 

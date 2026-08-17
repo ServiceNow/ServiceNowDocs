@@ -115,9 +115,7 @@ Accelerator availability is defined by your Impact Package and is classified int
 
 </td></tr><tr><td colspan="4" align="center">
 
-[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md)
-
- \[Omitted image "bus-service-catalog.svg"\] Alt text: Browse the complete Accelerator catalog that combines all three sub-catalogs into one consolidated list.
+[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md)\[Omitted image "bus-service-catalog.svg"\] Alt text: Browse the complete Accelerator catalog that combines all three sub-catalogs into one consolidated list.
 
 </td></tr></tbody>
 </table>## Accelerator Recommendations

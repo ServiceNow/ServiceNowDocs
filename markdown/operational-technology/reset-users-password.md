@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Users page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Force a password reset
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-An Administrator can force another user to change their password on that user's next log into the Console.
+An administrator can force another user to change their password the next time that user logs on to the Console.
 
 ## Procedure
 
@@ -44,4 +44,6 @@ An Administrator can force another user to change their password on that user's 
 
 5.  Select **Change Password**.
 
+
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
 

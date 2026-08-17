@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Search application configurations, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure source facet buckets in an AI Search application configuration

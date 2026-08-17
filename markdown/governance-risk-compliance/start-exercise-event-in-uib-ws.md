@@ -20,7 +20,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-Before linking a plan to the exercise, verify that the plan has progressed through the required state lifecycle stages. The plan's Overview tab shows the current state as a numbered stage indicator Only plans in the appropriate state can be activated for an exercise.
+Before linking a plan to the exercise, verify that the plan has progressed through the required state lifecycle stages. The plan's Overview tab shows the current state as a numbered stage indicator. Only plans in the appropriate state can be activated for an exercise.
 
 ## Procedure
 

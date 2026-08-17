@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/delete-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Delete an AI agent
@@ -22,7 +22,7 @@ Role required: sn\_aia\_admin
 
 You must assign appropriate permissions by using the access control lists \(ACLs\) to delete AI agents on AI Agent Studio.
 
-**Note:** You can't delete the AI agents that come installed with Now Assist applications.
+**Note:** You can't delete the AI agents that come installed with applications.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You must assign appropriate permissions by using the access control lists \(ACLs
 
     You can also delete multiple AI agents by selecting multiple AI agent records at a time.
 
-    **Note:** Some AI agents installed with Now Assist applications can't be deleted.
+    **Note:** Some AI agents installed with ServiceNow applications can't be deleted.
 
 3.  In the confirmation pop-up window, select **Delete**.
 

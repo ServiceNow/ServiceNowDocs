@@ -146,7 +146,7 @@ Command+Shift+k
 
 </td></tr><tr><td>
 
-Now Assist menu \(text entry mode\)
+ServiceNow Otto® menu \(text entry mode\)
 
 </td><td>
 
@@ -158,7 +158,7 @@ Option+Shift+a
 
 </td></tr><tr><td>
 
-Now Assist menu \(voice input mode\)**Note:** Availability of voice input mode in the Now Assist menu is controlled by a user preference. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
+ServiceNow Otto® menu \(voice input mode\)**Note:** Availability of voice input mode in the ServiceNow Otto® menu is controlled by a user preference. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
 </td><td>
 

@@ -1,24 +1,24 @@
 ---
 title: Set up Solution Configuration
-description: Solution configuration lets ServiceNow CPQ admins link multiple blueprints into a single, connected configuration session so that end users can work across related products without relaunching the configurator. Configurable product actions trigger child configurations automatically and can pass data between blueprints via field mappings.
+description: Solution configuration lets CPQ admins link multiple blueprints into a single, connected configuration session so that end users can work across related products without relaunching the configurator. Configurable product actions trigger child configurations automatically and can pass data between blueprints via field mappings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configuration-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up Solution Configuration
 
-Solution configuration lets ServiceNow CPQ admins link multiple blueprints into a single, connected configuration session so that end users can work across related products without relaunching the configurator. Configurable product actions trigger child configurations automatically and can pass data between blueprints via field mappings.
+Solution configuration lets CPQ admins link multiple blueprints into a single, connected configuration session so that end users can work across related products without relaunching the configurator. Configurable product actions trigger child configurations automatically and can pass data between blueprints via field mappings.
 
 ## Solution configuration overview
 
 Solution configuration is an environment-level feature that links multiple blueprints into a parent-child hierarchy. When a configurable product action rule is triggered during a buyer's configuration session, a child configuration is created automatically. The buyer navigates between configurations using the solution navigation sidebar, and the full bill of materials rolls up across all configurations at the solution root.
 
-Solution configuration is off by default. To enable solution configuration in your environment, contact ServiceNow CPQ Support by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+Solution configuration is off by default. To enable solution configuration in your environment, contact CPQ Support by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ## Key features of solution configuration
 

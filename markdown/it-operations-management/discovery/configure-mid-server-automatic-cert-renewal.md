@@ -1,5 +1,5 @@
 ---
-title: Configure the MID Server for automatic certificate renewal
+title: Configure MID Server for automatic certificate renewal
 description: Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure the MID Server for automatic certificate renewal
+# Configure MID Server for automatic certificate renewal
 
 Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 

@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-A customer play is used to monitor external activities of an unplanned set of actions that a provider may take to support a customer touchpoint, stakeholder request, or an engagement activity. A customer play may not be associated with an objective or outcome, but can be based on the nature of the customer play and why it was created. A customer play is a form of case type with its own case tasks.
+A customer play monitors external activities of unplanned actions that a provider may take to support a customer touchpoint, stakeholder request, or engagement activity. It may not be associated with an objective or outcome, but can be based on the nature of the customer play and why it was created. A customer play is a form of case type with its own case tasks.
 
 ## Procedure
 

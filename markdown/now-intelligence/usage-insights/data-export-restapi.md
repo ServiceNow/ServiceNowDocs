@@ -1,20 +1,20 @@
 ---
-title: Export data in bulk export via REST API
-description: Usage Insights data export is a store app that enables you to programmatically export Usage Insights \(UXA\) usage data from your ServiceNow instance for integration with your enterprise analytics platform.
+title: Bulk export of Usage Insights data via REST API
+description: Usage Insights data export is a store app that enables you to programmatically export Usage Insights usage data from your ServiceNow instance for integration with your enterprise analytics platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/data-export-restapi.html
 release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 2
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Export data in bulk export via REST API
+# Bulk export of Usage Insights data via REST API
 
-Usage Insights data export is a store app that enables you to programmatically export Usage Insights \(UXA\) usage data from your ServiceNow® instance for integration with your enterprise analytics platform.
+Usage Insights data export is a store app that enables you to programmatically export Usage Insights usage data from your ServiceNow® instance for integration with your enterprise analytics platform.
 
 ## Overview of Usage Insights data export with REST API
 
@@ -32,24 +32,17 @@ The data export process follows a request-and-response model:
 
 ## Data export compared to Usage Insights dashboard export
 
-The Usage Insights dashboard provides a built-in export function for quick and small-volume data downloads. Data export is a different capability designed for different use cases:
+The Usage Insights dashboard provides a built-in export function for quick and small-volume data downloads. Bring ServiceNow® usage data into tools like Microsoft Power BI, Tableau, or your enterprise data warehouse so you can analyze it alongside data from other sources.
+
+Create end-to-end views of user behavior that spans ServiceNow and other platforms in your technology stack. Data export is a different capability designed for different use cases:
 
 |Feature|Usage Insights Dashboard Export|Data Export Store App|
 |-------|-------------------------------|---------------------|
 |Volume|Suitable for small-volume, quick exports|Handles large volumes on a recurring schedule \(up to 100 GB per account per month\)|
-|Frequency|Manual export triggered by dashboard user|Programmatic export driven by automated API calls and scheduled jobs|
+|Frequency|Manual export triggered by dashboard user|Programmatic export driven by automated API calls and scheduled jobs so that so data flows directly to your analytics infrastructure without manual intervention.|
 |Result format|Downloaded as CSV or JSON file|Streamed as JSON batches to a Kafka topic|
 |Integration|User downloads and transfers file manually|Results flow directly into your Kafka consumer environment for real-time ingestion|
 |Asynchronous processing|Synchronous response; export completes before download|Asynchronous; results arrive on the topic as processing completes|
-
-## When to use data export
-
-Use data export to:
-
--   Integrate with analytics platforms: Bring ServiceNow® usage data into tools like Power BI, Tableau, or your enterprise data warehouse so you can analyze it alongside data from other sources.
--   Build cross-platform user journeys: Create end-to-end views of user behavior that spans ServiceNow and other platforms in your technology stack.
--   Move large volumes on a recurring schedule: Export large amounts of usage data daily, weekly, or on another recurring cadence without the manual overhead of dashboard export.
--   Automate data pipelines: Embed export requests into scheduled workflows so data flows directly to your analytics infrastructure without manual intervention.
 
 ## Rate and usage limits
 
@@ -62,10 +55,12 @@ Use data export to:
 
 **Note:** Select the columns you need and apply filters to keep export volume within the rate and usage limits.
 
--   **[Setting up data export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-submit-request.md)**  
-Submit an export request to the Usage Insights data export API to extract UXA usage data asynchronously and consume results from a Kafka topic.
+-   **[Preparing for the Usage Insights data export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-submit-request.md)**  
+Submit an export request to the Usage Insights data export API to extract usage data asynchronously and consume results from a Kafka topic.
 -   **[Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-setup-hermes.md)**  
 Configure SSL encryption for your Kafka consumers by generating an instance-signed certificate and configuring your Kafka client with SSL to securely connect to the managed Hermes cluster and consume data export results.
+-   **[Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/consuming-data-export-results.md)**  
+Consume the results of usage insights data exported via REST API, from the Kafka topic.
 
 **Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
 

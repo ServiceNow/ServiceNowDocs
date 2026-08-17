@@ -1,23 +1,23 @@
 ---
 title: Using catalogs and autopilot in Virtual Agent
-description: Use catalogs to search for and request services and products in chat widget conversations.
+description: Use catalogs to search for and request services and products in Natural Language Understanding \(NLU\)/Keyword chat widget conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-catalogs.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-07-13"
+reading_time_minutes: 3
 keywords: [virtual agent, catalogs, autopilot, requested, item, RITM, web, client, live agent]
 breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Using catalogs and autopilot in Virtual Agent
 
-Use catalogs to search for and request services and products in chat widget conversations.
+Use catalogs to search for and request services and products in Natural Language Understanding \(NLU\)/Keyword chat widget conversations.
 
-The catalog feature lets you use natural language to search for and request service items in a Virtual Agent conversation. The Virtual Agent recognizes your request and presents you with the best answer. You complete the entire order in the chat, without going to a new page.
+The catalog feature lets you use natural language to search for and request service items in a Virtual Agent conversation that uses Natural Language Understanding \(NLU\)/Keyword topic discovery. The Virtual Agent recognizes your request and presents you with the best answer. You complete the entire order in the chat, without going to a new page.
 
 For example, if you enter `iPad`, the Virtual Agent shows you the service catalog info for an iPad. You can request the item, ask for more information on the item before deciding, or ask for something else.
 
@@ -31,13 +31,13 @@ If you cancel the order instead, you receive a message confirming the cancellati
 
 \[Omitted image "va-catalogs-06.png"\] Alt text: The user requests an iPhone.\[Omitted image "va-catalogs-07.png"\] Alt text: While completing the request, the user chooses to cancel the order instead.\[Omitted image "va-catalogs-08.png"\] Alt text: The request is closed with a message informing the user that the order is Canceled.
 
-**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md). For information on Multi-turn catalog ordering instead, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+**Note:** Catalogs for Virtual Agent are separate from ServiceNow Otto and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md). For information on Multi-turn catalog ordering instead, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 ## Catalog live agent autopilot experience
 
-Autopilot is available for live agents in the CSM Workspace, and allows the live agent to assist a customer with a catalog order as well as view all information on the customer's transaction.
+Autopilot is available for live agents in the CSM Workspace. This allows the live agent to assist a customer with a catalog order, and view all information on the customer's transaction.
 
-To use the feature, the live agent enters `/autopilot "[topic]"`, substituting `[topic]` for the catalog item topic name. The catalog item appears in the customer's chat window, and they choose any preferences for the order as usual. The live agent can see the full catalog order in the chat panel, but cannot change any details of the order themselves.
+To use the feature, the live agent enters `/autopilot "[topic]"`, substituting `[topic]` for the catalog item topic name. The catalog item appears in the customer's chat window. They choose any preferences for the order as usual. The live agent can see the full catalog order in the chat panel, but can't change any details of the order themselves.
 
 \[Omitted image "va-catalogs-autopilot-2.png"\] Alt text: CSM Workspace view next to customer chat window. The live agent has activated autopilot.
 

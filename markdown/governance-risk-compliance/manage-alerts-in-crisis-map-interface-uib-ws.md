@@ -72,7 +72,7 @@ The Crisis map interface has been optimized to handle over 10,000 resources and 
 
     2.  In the Edit Impacted Area pop over that opens on the map, select either **Custom Shape** or **Custom Radius** depending on the shape of the impacted area.
 
-        -   Select **Custom Shape** if the impacted area is polygonal shape.
+        -   Select **Custom Shape** if the impacted area is a polygonal shape.
         -   Select **Custom Radius** if the impacted area is a circle.
     3.  Select and drag the vertex on the boundary of the impacted area to include the asset location.
 

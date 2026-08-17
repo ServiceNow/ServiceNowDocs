@@ -1,6 +1,6 @@
 ---
 title: Configure sensitivity detection
-description: Configure sensitivity detection in the Now Assist for HR Service Delivery \(HRSD\) application.
+description: Configure sensitivity detection in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure sensitivity detection
 
-Configure sensitivity detection in the Now Assist for HR Service Delivery \(HRSD\) application.
+Configure sensitivity detection in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 
 ## Before you begin
 
@@ -22,17 +22,17 @@ Role required:sn\_hr\_core.admin
 
 ## About this task
 
-This capability helps you configure sensitivity detection and filters for the types of sensitive cases such as the harassment complaints, discrimination allegations, workplace violence, safety, employee behavior, and employee personal issues. You can also block Now LLM Service from engaging with these sensitive case types to allow agents to create cases for these sensitive case types.
+This capability helps you configure sensitivity detection for harassment complaints, discrimination allegations, workplace violence, safety, employee behavior, and employee personal issues. You can also block Now LLM Service from engaging with these sensitive cases and redirect employees to work with live agents.
 
 **Note:**
 
-Configurations are available on the Now Assist Admin Panel settings as part of Now Assist guardian. The **sn\_hr\_gen\_ai.admin** role can only **Edit**, **Activate** and **Deactivate** skills on **Guided** setup view only.
+Configurations are available on the ServiceNow Otto Admin Panel settings as part of AI Guardian. The **sn\_hr\_gen\_ai.admin** role can only **Edit**, **Activate** and **Deactivate** skills on **Guided** setup view only.
 
 ## Procedure
 
-1.  Navigate to the **Now Assist Admin Panel** and select the **Settings** tab. \[Omitted image "sd-na-admin-panel-settings.png"\] Alt text: Access to Now Assist Admin Panel and Settings tab
+1.  Navigate to the **ServiceNow Otto Panel** and select the **Settings** tab. \[Omitted image "sd-na-admin-panel-settings.png"\] Alt text: Access to ServiceNow Otto Admin Panel and Settings tab
 
-2.  Select **Now Assist Guardian** and select **Filters**.\[Omitted image "sd-na-admin-panel-filters.png"\] Alt text: Filters tab view that lists the existing filters
+2.  Select **ServiceNow Otto Guardian** and select **Filters**.\[Omitted image "sd-na-admin-panel-filters.png"\] Alt text: Filters tab view that lists the existing filters
 
     Filter configurations include the ability to **Edit** or **Deactivate** a filter. Only **sn\_hr\_gen\_ai.admin** can **Edit** or **Deactivate**.\[Omitted image "sd-na-admin-panel-editdeact.png"\] Alt text: Shows the ability to Edit or Deactivate a filter from the list
 
@@ -45,16 +45,12 @@ Configurations are available on the Now Assist Admin Panel settings as part of N
 5.  Select **Applicability** to choose what filters apply to active virtual agents.\[Omitted image "sd-na-admin-panel-applicability.png"\] Alt text: Shows the ability to add virtual agents to sensitive phrases
 
 
-## Result
-
-When an employee enters one of the configured sensitive phrases, the virtual agent offers to either redirect the employee to a live agent, create a case, or if the virtual agent incorrectly identifies a sensitive topic, the employee can select to proceed with the interaction.
-
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[bundle-platai.now-assist-guardian]
+[bundle-platai.add-semantic-filtering-for-sensitive-information]
 
 [Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md)
 

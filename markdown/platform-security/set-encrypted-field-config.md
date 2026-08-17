@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/set-encrypted-field-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 3
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -92,7 +92,7 @@ Table
 
 </td><td>
 
-Table whose fields or attachments are to be encrypted.
+Table whose fields or attachments are to be encrypted. **Important:** Attachment-type Encrypted Field Configurations \(EFCs\) don't automatically apply to extended \(child\) tables. For example, if you create an EFC for attachments on the task table, attachments on extended tables such as incident, case, or problem aren't automatically encrypted. You must create a separate EFC for each extended table that requires attachment encryption.
 
 </td></tr><tr><td>
 

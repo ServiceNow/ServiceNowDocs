@@ -1,28 +1,28 @@
 ---
 title: Configuring a Guardrail Service Provider
-description: Now Assist Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
+description: AI Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configuring-byog.html
 release: australia
 topic_type: concept
 last_updated: "2026-02-13"
 reading_time_minutes: 2
-breadcrumb: [Now Assist Guardian, Agentic AI security and governance]
+breadcrumb: [AI Guardian, Agentic AI security and governance]
 ---
 
 # Configuring a Guardrail Service Provider
 
-Now Assist Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
+AI Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
 
 ## Guardrail Service Provider overview
 
-Now Assist Guardian includes default guardrails to detect offensive content, block prompt injection attacks, and filter sensitive topics. In addition to these guardrails, Now Assist Guardian supports third-party guardrail service providers. You can also create your own custom guardian using the Bring Your Own Guardrail \(BYOG\) feature to monitor and detect malicious content.
+AI Guardian includes default guardrails to detect offensive content, block prompt injection attacks, and filter sensitive topics. In addition to these guardrails, AI Guardian supports third-party guardrail service providers. You can also create your own custom guardian using the Bring Your Own Guardrail \(BYOG\) feature to monitor and detect malicious content.
 
 Custom guardian evaluates prompts and responses in real time, just like the default guardrails. You can set each custom guardrail to log events, block content, or both based on your specific security or content policies.
 
 ## Supported guardrail service providers
 
-Now Assist Guardian supports the following guardrail service provider types:
+AI Guardian supports the following guardrail service provider types:
 
 -   **ServiceNow Guardrail**
 
@@ -30,16 +30,16 @@ Now Assist Guardian supports the following guardrail service provider types:
 
 -   **Third-party providers**
 
-    Supported cloud AI safety services that you can integrate with Now Assist Guardian. Supported providers include Microsoft Content Safety, Amazon Bedrock, and Google Model Armor.
+    Supported cloud AI safety services that you can integrate with AI Guardian. Supported providers include Microsoft Content Safety, Amazon Bedrock, and Google Model Armor.
 
 -   **Custom guardrail**
 
     A guardrail you create using the Bring Your Own Guardrail \(BYOG\) feature to apply your organization's specific compliance, security, or content policies.
 
 
-## Custom guardrails for Now Assist Guardian
+## Custom guardrails for AI Guardian
 
-The Bring Your Own Guardrail \(BYOG\) feature lets you create and connect a custom guardrail in Now Assist Guardian. A custom guardrail connects to an external endpoint that you control, allowing you to apply policies specific to your organization. It evaluate prompts and responses in real time, the same as default guardrails. You can configure each custom guardrail to log events, block content, or both.
+The Bring Your Own Guardrail \(BYOG\) feature lets you create and connect a custom guardrail in AI Guardian. A custom guardrail connects to an external endpoint that you control, allowing you to apply policies specific to your organization. It evaluate prompts and responses in real time, the same as default guardrails. You can configure each custom guardrail to log events, block content, or both.
 
 Setting up a custom guardrail involves three steps:
 
@@ -59,7 +59,7 @@ Setting up a custom guardrail involves three steps:
 -   **[Create a custom guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-custom-guardian.md)**  
 Create your own custom guardian to monitor and detect requests sent to LLM.
 -   **[Setup a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-guardrail-model.md)**  
-Select a guardrail service provider of your choice in Now Assist Guardian to monitor and detect Now Assist interactions for harmful, offensive, and prompt injection content.
+Select a guardrail service provider of your choice in AI Guardian to monitor and detect Now Assist interactions for harmful, offensive, and prompt injection content.
 
-**Parent Topic:**[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
 

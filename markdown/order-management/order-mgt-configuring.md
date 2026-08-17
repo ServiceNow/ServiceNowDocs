@@ -30,12 +30,12 @@ Associate fulfillment subflows with the resource specifications by using the Res
 Order fulfillment is the process for fulfilling customer orders by using Workflow Studio.
 -   **[Configuring Fallout Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-fallout-management.md)**  
 As a provider, you can use Fallout Management to identify, investigate, and resolve order processing issues so that orders can continue processing through to completion.
--   **[Configuring inflight changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-inflight-order-change-mgt.md)**  
-You can use inflight change order management to manage the receipt of changes for customer or service orders that are still in the process of being orchestrated and fulfilled.
 -   **[Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-compatibility-management.md)**  
 As a provider, you can use compatibility rules to establish horizontal relationships between the specifications of multiple products, services, or resources.
 -   **[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/asynchronous-order-processing.md)**  
 Asynchronous order processing handles high-volume enterprise and consumer orders without waiting for immediate processing, improving system performance for communications service providers \(CSP\) using Order Management.
+-   **[Customize an order summarization skill in ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-order-summarization-skill-now-assist-order-management.md)**  
+Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 
 **Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md)
 

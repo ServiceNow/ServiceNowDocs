@@ -16,8 +16,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Pending to-dos widget displays a list of to-do items assigned to a patient.
 
-\[Omitted image "hcls-widget-pending-to-dos.png"\] Alt text: Screenshot displaying thePending to-dos widget. For the text description, refer to the Key features section.
-
 ## Key features
 
 -   Displayed only for a logged-in user with the personal information completed.

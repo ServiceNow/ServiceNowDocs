@@ -22,14 +22,14 @@ Role required: sn\_si.analyst
 
 The flow process activities include:
 
--   [Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begins-cis-activity.md)
+-   [Legacy: Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begins-cis-activity.md)
 -   [Get IP from CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-ip-from-ci-activity.md)
 -   [Collect Carbon Black configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/collect-cb-config-activity.md)
--   [Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)
 -   [Get Sensor ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-sensor-id-activity.md)
 -   [Set Network Isolation Enabled activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 -   [Update Sensor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/update-sensor-activity.md) - returns Isolate Host result.
--   [Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)
 
 \[Omitted image "carbon-black-integration-isolate-host-flow-v1.png"\] Alt text: Flow designer for Security Operations Carbon Black Integration - Isolate Host\[Omitted image "carbon-black-integration-isolate-host-flow-v1-2.png"\] Alt text: Flow designer for Security Operations Carbon Black Integration - Isolate Host
 

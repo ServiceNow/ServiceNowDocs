@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure real-time scanning properties
@@ -44,5 +44,5 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
     This sets the maximum number of code lines that can be scanned in real-time. Scripts exceeding this limit will not be scanned during editing.
 
 
-**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
 

@@ -1,21 +1,21 @@
 ---
-title: Configure AI Search as the source for Ask Now Assist suggestions
-description: Enable term highlighting in enhanced chat's Ask Now Assist suggestions by configuring AI Search as the source for those suggestions.
+title: Configure AI Search as the source for Ask ServiceNow Otto suggestions
+description: Enable term highlighting in enhanced chat's Ask ServiceNow Otto suggestions by configuring AI Search as the source for those suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-ai-search-source-ask-now-assist-suggestions.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-25"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Configure AI Search as the source for Ask Now Assist suggestions
+# Configure AI Search as the source for Ask ServiceNow Otto suggestions
 
-Enable term highlighting in enhanced chat's Ask Now Assist suggestions by configuring AI Search as the source for those suggestions.
+Enable term highlighting in enhanced chat's Ask ServiceNow Otto suggestions by configuring AI Search as the source for those suggestions.
 
 ## Before you begin
 
@@ -25,27 +25,27 @@ Role required: admin
 
 ## About this task
 
-By default, Ask Now Assist suggestions are generated using a prefix-based GlideAggregate query against the Utterance Suggestion \[sys\_suggested\_utterance\] table.
+By default, Ask ServiceNow Otto suggestions are generated using a prefix-based GlideAggregate query against the Utterance Suggestion \[sys\_suggested\_utterance\] table.
 
-Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
+Admins can configure the system to use AI Search as the source for Ask ServiceNow Otto suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask ServiceNow Otto and provides improvements such as wildcard searching and lemmatization for suggestions.
 
-For more information on Ask Now Assist suggestions in enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
+For more information on Ask ServiceNow Otto suggestions in enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
 ## Procedure
 
-1.  Index all content for the Ask Now Assist Suggestions indexed source.
+1.  Index all content for the Ask ServiceNow Otto Suggestions indexed source.
 
     1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**.
 
-    2.  Open the record for the Ask Now Assist Suggestions indexed source.
+    2.  Open the record for the Ask ServiceNow Otto Suggestions indexed source.
 
     3.  Select **Index All Tables**.
 
-2.  Publish the Ask Now Assist Suggestions search profile.
+2.  Publish the Ask ServiceNow Otto Suggestions search profile.
 
     1.  Navigate to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Profiles**.
 
-    2.  Open the record for the Ask Now Assist Suggestions search profile.
+    2.  Open the record for the Ask ServiceNow Otto Suggestions search profile.
 
     3.  Select **Publish**.
 
@@ -62,5 +62,5 @@ For more information on Ask Now Assist suggestions in enhanced chat, see [Enhanc
 5.  On the System Property form, set the system property's value to **true**, then select **Update**.
 
 
-**Parent Topic:**[Configuring Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
+**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 

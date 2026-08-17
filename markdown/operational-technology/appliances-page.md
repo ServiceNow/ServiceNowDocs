@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-07"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Appliances page
@@ -29,7 +29,7 @@ The Appliances page displays the current Sensors and Collectors that have run or
 
 \[Omitted image "appliances-page.png"\] Alt text: Appliances page
 
-Selecting the appliance name in the list, opens its record. See  for more information.
+For more information, see [Edit an Appliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-an-appliance.md).
 
 ## Search by type
 
@@ -47,5 +47,10 @@ The Discovery Sensor for OT executes the query to discovery assets and creates t
 
 When you create an Auto Query in the Console, you can choose specific Appliances in the Assets section. When choosing Assets for the query, you can assign the Target to all appliances, specific appliances, or auto targeting. If you select **Specific Appliances**, you can select the appliances you want from a provided list. One restriction is that you must select at least one Sensor from the list as well.\[Omitted image "use-appliances-create-auto-query.png"\] Alt text: Select Assets and Targets
 
-For more information on Auto Queries and creating an Auto Query, see [Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md) and [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md).
+For more information, see [Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md) and [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md).
+
+-   **[Edit an Appliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-an-appliance.md)**  
+This section describes what information that is available and that is setup on an Appliance record
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

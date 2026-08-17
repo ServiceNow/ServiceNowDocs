@@ -21,7 +21,7 @@ The Visitor Portal enables visitors to manage their visits to an organization. T
 -   Internal visitors: Visitors who already have an account in the instance
 -   External visitors: Guests who authenticate using a one-time password sent to their registered email
 
-After logging in as a visitor, you can view a personalized dashboard that displays your scheduled visits, RSVP status, pre-check task progress, and profile information.
+After logging in as a visitor, you can view a personalized dashboard that displays your scheduled visits, visit response and pre-check status, and profile information.
 
 You can use the pre-check workflow to complete required tasks in advance of your visit. These tasks include adding personal and professional details, uploading a profile picture or ID, and signing any visitor policies. The portal tracks the status of each task and displays them on the visit detail page. For recurring visits, the portal displays all upcoming instances of the event and you can respond, edit your response, or complete pre-check tasks for each occurrence.
 

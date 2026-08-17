@@ -31,21 +31,19 @@ Canvas enables you to personalize your workspace by adding widgets from the libr
 
     The canvas opens with default widgets: **Calendar**, **My Requests**, and **Featured Apps**.
 
-2.  Select the **plus icon** to add a widget.
+2.  Select the **New** \(plus icon\) to add a widget.
 
     A widget selection dialog appears showing available widgets from the library.
 
-3.  Select the widget to add from the available options.
-
-    Available widgets depend on administrator configuration and may include **Quick Links**, **Announcements**, or other custom widgets.
+3.  Select the widget to add from the available options such as **Quick Links**, **Announcements**, or other custom widgets.
 
     The selected widget appears on the canvas.
 
 4.  Resize and reposition a widget by dragging the widget corners.
 
-    Resize and rearrange widgets to suit your preferred information and layout requirements.
+    The widget adjusts to the new size and position on the canvas.
 
-5.  Select **Save changes** to preserve your canvas configuration.
+5.  Select **Save** to preserve your canvas configuration.
 
     Your personalized canvas layout is saved and appears the same way when you return to **Canvas**.
 

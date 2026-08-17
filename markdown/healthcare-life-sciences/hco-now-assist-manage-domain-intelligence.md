@@ -1,18 +1,18 @@
 ---
 title: Manage domain intelligence for AI agents
-description: When you install Now Assist for Care Team Operations, a knowledge base article is added that lets agents in the Request care team assistance agentic workflow create different Care Team Operations cases.
+description: When you install ServiceNow Otto for Care Team Operations, a knowledge base article is added that lets agents in the Request care team assistance agentic workflow create different Care Team Operations cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-manage-domain-intelligence.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
 # Manage domain intelligence for AI agents
 
-When you install Now Assist for Care Team Operations, a knowledge base article is added that lets agents in the Request care team assistance agentic workflow create different Care Team Operations cases.
+When you install ServiceNow Otto for Care Team Operations, a knowledge base article is added that lets agents in the Request care team assistance agentic workflow create different Care Team Operations cases.
 
 Each Care Team Operations application has its own knowledge base article explaining case requirements, like required fields.
 
@@ -28,4 +28,13 @@ These articles can be found within the knowledge base for each Care Team Operati
 |Care Team Operations for Healthcare IT|CTO HCIT Case Definition and Submission Guidelines|
 
 **Note:** These articles have user criteria associated with them to help prevent care team members from accessing and editing these articles. Only users with the admin role for each scoped app can access and change those articles.
+
+## Example: Expand case intake for Care Team Operations for Biomed
+
+The following example shows how editing a knowledge base article changes what the Care team operations case intake AI agent asks for during conversational intake.
+
+-   **To make a field required**
+
+    Open the CTO Biomed Case Definition and Submission Guidelines article and in the description, add the field as a requirement during case intake. For example, if you add Asset tag as a required field, users will be prompted to provide the asset tag during AI agent case intake.
+
 

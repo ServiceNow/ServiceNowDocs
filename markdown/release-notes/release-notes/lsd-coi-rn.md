@@ -14,30 +14,30 @@ The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure
 
 ## Legal Conflict of Interest highlights for the Australia release
 
-Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
+Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
-See  for more information.
+See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
 
 **Important:** Legal Conflict of Interest is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   ****
+-   **[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-coi-config-risk-fac.md)**
 
     The risk assessment utility evaluates conflict of interest disclosures against predefined risk factors to calculate a risk score and determine the risk level \(Low, Medium, or High\). The risk level automatically triggers the appropriate approval workflow. The utility supports three evaluation types: Condition, Subflow, and AI skill.
 
-    **Note:** AI skill evaluation is available once you have installed and configured Now Assist for Legal Service Delivery \(LSD\).
+    **Note:** AI skill evaluation is available once you have installed and configured ServiceNow Otto for Legal Service Delivery \(LSD\).
 
--   ****
+-   **[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-convi.md)**
 
-    Using natural language to submit a conflict of interest request from Now Assist in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
+    Using natural language to submit a conflict of interest request from ServiceNow Otto in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
 
-    **Note:** The conversational intake functionality is available only once you have installed and configured Now Assist for Legal Service Delivery \(LSD\).
+    **Note:** The conversational intake functionality is available only once you have installed and configured ServiceNow Otto for Legal Service Delivery \(LSD\).
 
 
 ## Activation information
 
-Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -50,11 +50,11 @@ Install Legal Conflict of Interest by requesting it from the ServiceNow Store. V
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-practice-app-landing.md)**
 
     Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
 
--   ****
+-   **[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)**
 
     Summarize a legal request or legal matter to understand its context, refresh its summary, and post the summary to work notes.
 

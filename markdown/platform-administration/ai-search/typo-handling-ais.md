@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Typo handling
@@ -114,7 +114,7 @@ Interaction with typo handling
 
 </td><td>
 
-Auto-corrected search query terms can't trigger Genius Result configurations with Term trigger conditions. When computing Q&amp;A Genius Results for a search query, AI Search corrects terms in the query.
+Auto-corrected search query terms can't trigger Genius Result configurations with Term trigger conditions. When computing Knowledge base articles Genius Results for a search query, AI Search corrects terms in the query.
 
 </td></tr><tr><td>
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [use]
-breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Activity Management
@@ -55,7 +55,7 @@ View emails that have been linked to CRM records using the Microsoft Outlook dir
 -   **[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)**  
 Create a new lead or contact record and associate an email with it directly from Microsoft Outlook, enabling you to capture new prospects without having to leave your email inbox.
 
-**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 

@@ -33,7 +33,7 @@ James uses the MCO Dealer Portal to submit the recall claim through four key ste
 3.  Review: Check auto-populated details including problem description, required tools, parts, quantities, and labor codes.
 4.  Submit and Track: Submit the complete claim and monitor status in real time via the activity stream.
 
-The [Using dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) enables completeness and compliance before submission.
+The [Using the dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) enables completeness and compliance before submission.
 
 ## Benefits
 

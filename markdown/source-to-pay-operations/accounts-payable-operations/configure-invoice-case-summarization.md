@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, generative AI, AP case]
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice management, AP case]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Invoice case summarization
@@ -25,7 +25,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab of the AI Admin Hub.
 
 2.  Expand the **Finance and Supply Chain** workflow group and select **Accounts Payable Operations**.
 
@@ -38,7 +38,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 4.  For Invoice case summarization skill:
 
-    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in Now Assist
+    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in ServiceNow Otto
 
     1.  Select **General Details**, review the details about the skill, and then select **Save and continue** to go to the next step.
 
@@ -52,15 +52,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d211744e254">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d218090e251">
 
 Option
 
-</th><th align="left" id="d211744e257">
+</th><th align="left" id="d218090e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d211744e263">
+</th></tr></thead><tbody><tr><td id="d218090e260">
 
 **Skill is always available**
 
@@ -68,7 +68,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d211744e272">
+</td></tr><tr><td id="d218090e269">
 
 **Customize skill availability**
 
@@ -81,15 +81,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d211744e308">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d218090e305">
 
 Option
 
-</th><th align="left" id="d211744e311">
+</th><th align="left" id="d218090e308">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d211744e317">
+</th></tr></thead><tbody><tr><td id="d218090e314">
 
 **In-product desktop**
 
@@ -97,13 +97,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d211744e328">
+</td></tr><tr><td id="d218090e325">
 
-**Now Assist panel**
+**ServiceNow Otto panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+ServiceNow Otto skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.
@@ -118,4 +118,8 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 ## Result
 
 The Invoice case summarization skill is activated.
+
+## What to do next
+
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.md)
 

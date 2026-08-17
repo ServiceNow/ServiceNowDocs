@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Playbooks for Customer Service Management, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Activities, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure playbook stage and activity visibility
@@ -39,15 +39,15 @@ Use the following fields in the playbook experience configuration record to cont
 
 5.  In the **Pending Item Visibility** field, select one of the following options.
 
-<table id="choicetable_zlx_32h_vpb"><thead><tr><th align="left" id="d301646e121">
+<table id="choicetable_zlx_32h_vpb"><thead><tr><th align="left" id="d298203e121">
 
 Option
 
-</th><th align="left" id="d301646e124">
+</th><th align="left" id="d298203e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301646e130">
+</th></tr></thead><tbody><tr><td id="d298203e130">
 
 **Show pending stages and activities**
 
@@ -58,7 +58,7 @@ Description
 -   Default setting.
 
 
-</td></tr><tr><td id="d301646e151">
+</td></tr><tr><td id="d298203e151">
 
 **Hide pending activity**
 
@@ -68,7 +68,7 @@ Description
 -   If all activities are pending and hidden, the stage is grayed out.
 
 
-</td></tr><tr><td id="d301646e169">
+</td></tr><tr><td id="d298203e169">
 
 **Hide pending activities and stages**
 

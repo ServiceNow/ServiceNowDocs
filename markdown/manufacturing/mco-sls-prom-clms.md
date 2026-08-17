@@ -1,5 +1,5 @@
 ---
-title: Sales promotion
+title: Sales promotion claims
 description: OEMs create sales promotions and target them to specific criteria or customers. The dealers or channel partners extend these promotions to end customers and submit reimbursement claims to the OEM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sls-prom-clms.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
-# Sales promotion
+# Sales promotion claims
 
 OEMs create sales promotions and target them to specific criteria or customers. The dealers or channel partners extend these promotions to end customers and submit reimbursement claims to the OEM.
 

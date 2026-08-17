@@ -19,11 +19,11 @@ Reassign or unassign any assigned work from the Resource Management Workspace. Y
 ## Before you begin
 
 -   When you reassign work, the primary attributes of both the resource should match. For more information about mapping primary attributes to resources, see [Map primary attributes to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/map-primary-attributes-cp.md).
--   You can reassign a work item for the period for which actual hours are not captured.
--   You cannot reassign a work item if it has associated actual hours captured for the entire duration.
--   You cannot unassign a work item if it has any associated actual hours captured.
--   You cannot unassign an assignment if it has any associated actual hours captured.
--   You cannot reassign or unassign group resource assignments.
+-   You can reassign a work item for the period for which actual hours aren't captured.
+-   You can't reassign a work item if it has associated actual hours captured for the entire duration.
+-   You can't unassign a work item if it has any associated actual hours captured.
+-   You can't unassign an assignment if it has any associated actual hours captured.
+-   You can't reassign or unassign group resource assignments.
 
 Role required: resource\_user, resource\_manager
 
@@ -73,7 +73,7 @@ Consider a development task spanning from January 1, 2024 to September 30, 2024 
 
 Tom has actual hours captured from January 1, 2024 through March 31, 2024 and will be unavailable for next 2 months.
 
-As a resource manager, you can either reassign this task in it's entirety starting from April 1, 2024 till September 30, 2024 to Raj, who has the same primary attributes. Or reassign the task from April 1, 2024 to May 31, 2024 to Raj, leaving the rest of the assignment to Tom.
+As a resource manager, you can either reassign this task in its entirety starting from April 1, 2024 till September 30, 2024 to Raj. Raj has the same primary attributes. Or reassign the task from April 1, 2024 to May 31, 2024 to Raj, leaving the rest of the assignment to Tom.
 
 The actual hours captured by Tom are retained even though the task is reassigned. Raj can capture the actuals hours for the assigned period after completing the work.
 

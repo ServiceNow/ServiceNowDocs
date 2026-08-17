@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-07"
 reading_time_minutes: 3
-breadcrumb: [Use, Now Assist for CPQ, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Manage quotes using the Quote AI Agent
@@ -24,7 +24,7 @@ The Quote AI Agent supports three operations on quotes. Choose the operation tha
 
 -   **Create**—Ask the agent to build a new quote for an opportunity. The agent retrieves the opportunity line items, builds the quote, and presents it for your review. If a primary quote already exists, the agent uses it. If no primary quote exists, the agent creates one.
 -   **Modify**—Ask the agent to update an existing open quote. The agent interprets your request, applies the changes, and checks that all discounts and pricing conform to company policies.
--   **Trigger-generated**—Review a draft quote that the agent created automatically when a trigger condition was met on an opportunity, for example when the opportunity stage is set to **Propose** or when a task or note contains a recognized keyword. The agent notifies you through Microsoft Teams and Now Assist for CPQ when the draft is ready.
+-   **Trigger-generated**—Review a draft quote that the agent created automatically when a trigger condition was met on an opportunity, for example when the opportunity stage is set to **Propose** or when a task or note contains a recognized keyword. The agent notifies you through Microsoft Teams and ServiceNow Otto for CPQ when the draft is ready.
 
 If a change requires approval, the agent notifies you and starts the approval workflow. If the agent can't find enough information to continue, it sends you a message asking for the missing details.
 
@@ -36,21 +36,21 @@ If a change requires approval, the agent notifies you and starts the approval wo
     |---------|--------------|
     |**Create a quote**|Open the opportunity for which you want to create a quote.|
     |**Modify a quote**|Open the quote you want to modify, or open the linked opportunity.|
-    |**Review a trigger-generated quote**|Open the notification from the Quote AI Agent in Microsoft Teams or Now Assist for CPQ, then open the opportunity linked in the notification.|
+    |**Review a trigger-generated quote**|Open the notification from the Quote AI Agent in Microsoft Teams or ServiceNow Otto for CPQ, then open the opportunity linked in the notification.|
 
-2.  Open the Now Assist for CPQ chat panel.
+2.  Open the ServiceNow Otto for CPQ chat panel.
 
 3.  Enter your request or respond to the agent, depending on your operation.
 
-<table><thead><tr><th align="left" id="d79223e138">
+<table><thead><tr><th align="left" id="d79837e138">
 
 Operation
 
-</th><th align="left" id="d79223e141">
+</th><th align="left" id="d79837e141">
 
 What to do
 
-</th></tr></thead><tbody><tr><td id="d79223e147">
+</th></tr></thead><tbody><tr><td id="d79837e147">
 
 **Create a quote**
 
@@ -65,7 +65,7 @@ Enter your request in the chat, including the opportunity number and any pricing
 -   `Create a quote for Opportunity OPT001 and generate an email with the document.`
 
 
-</td></tr><tr><td id="d79223e177">
+</td></tr><tr><td id="d79837e177">
 
 **Modify a quote**
 
@@ -81,7 +81,7 @@ Enter your modification request in the chat, including the quote number and the 
 -   `Change the price list on this quote to the EMEA price list.`
 
 
-</td></tr><tr><td id="d79223e211">
+</td></tr><tr><td id="d79837e211">
 
 **Review a trigger-generated quote**
 
@@ -116,5 +116,7 @@ Review the draft quote that the agent created, including the products, quantitie
 
 ## Result
 
-The quote is created, updated, or finalized and attached to the opportunity. The agent updates the opportunity work notes with a summary of the actions taken and notifies you through Microsoft Teams and Now Assist for CPQ.
+The quote is created, updated, or finalized and attached to the opportunity. The agent updates the opportunity work notes with a summary of the actions taken and notifies you through Microsoft Teams and ServiceNow Otto for CPQ.
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

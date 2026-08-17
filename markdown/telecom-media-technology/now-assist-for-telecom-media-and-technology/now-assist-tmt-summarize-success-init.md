@@ -1,5 +1,5 @@
 ---
-title: Summarize a success initiative using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Summarize a success initiative using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generate a summary from a success initiative record and all associated success tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-success-init.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Summarize a success initiative using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize a success initiative using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generate a summary from a success initiative record and all associated success tasks.
 
@@ -24,7 +24,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 The success initiative summary skill provides you with a summary of the success initiative record and associated success initiative tasks. This skill available in CSM/FSM Configurable Workspace and in Core UI.
 
--   In CSM/FSM Configurable Workspace, you use the Success initiative summary by Now Assist component to generate a summary. This component appears above the Activities card.
+-   In CSM/FSM Configurable Workspace, you use the Success initiative summary by ServiceNow Otto component to generate a summary. This component appears above the Activities card.
 -   In Core UI, you select the **Summarize** button on the success initiative record to generate a summary.
 
 **Note:** The success initiative summarization skill must be active. If it isn’t active, summaries are generated using the out of the box case summarization skill.
@@ -42,7 +42,7 @@ The success initiative summarization skill checks the record to determine if the
 
 2.  Open a success initiative and select **Summarize**.
 
-    The Success initiative summary by Now Assist component appears above the Activities card. The component is collapsed by default and expands to display the summary. Based on the inputs provided in the Engagement, account, and Short Description, the summary is generated with the following details:
+    The Success initiative summary by ServiceNow Otto component appears above the Activities card. The component is collapsed by default and expands to display the summary. Based on the inputs provided in the Engagement, account, and Short Description, the summary is generated with the following details:
 
     -   Overview: Summarizes the primary goal \(subject, description\), engagement, account, product, progress, due date, squad, and customer contact details.
     -   Progress updates: Summarizes current status \(work notes, recent emails\), total number of tasks, number of open and closed tasks, and any related tables.
@@ -51,15 +51,15 @@ The success initiative summarization skill checks the record to determine if the
 
 3.  After you're finished summarizing the success initiative, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23866e149">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23804e149">
 
 Option
 
-</th><th align="left" id="d23866e152">
+</th><th align="left" id="d23804e152">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d23866e158">
+</th></tr></thead><tbody><tr><td id="d23804e158">
 
 **View more or less summary details**
 
@@ -69,7 +69,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d23866e188">
+</td></tr><tr><td id="d23804e188">
 
 **Provide feedback for the summary**
 
@@ -79,7 +79,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d23866e221">
+</td></tr><tr><td id="d23804e221">
 
 **Copy the summary**
 
@@ -87,7 +87,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d23866e236">
+</td></tr><tr><td id="d23804e236">
 
 **View the information about the summary**
 
@@ -97,5 +97,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

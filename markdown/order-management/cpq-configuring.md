@@ -1,6 +1,6 @@
 ---
-title: Configuring ServiceNow CPQ Configurator
-description: Learn how to set up products, rules, pricing, and layouts in ServiceNow CPQ using configuration engine. You can define how users select, customize, and validate products during the quoting process.
+title: Configuring CPQ Configurator
+description: Learn how to set up products, rules, pricing, and layouts in CPQ using configuration engine. You can define how users select, customize, and validate products during the quoting process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-configuring.html
 release: australia
@@ -10,15 +10,15 @@ reading_time_minutes: 3
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Configuring ServiceNow CPQ Configurator
+# Configuring CPQ Configurator
 
-Learn how to set up products, rules, pricing, and layouts in ServiceNow CPQ using configuration engine. You can define how users select, customize, and validate products during the quoting process.
+Learn how to set up products, rules, pricing, and layouts in CPQ using configuration engine. You can define how users select, customize, and validate products during the quoting process.
 
 ## Configuration workflow
 
-The following workflow describes the tasks involved in configuring and using ServiceNow CPQ to configure customizable products when embedded in Sales Customer Relationship Management.
+The following workflow describes the tasks involved in configuring and using CPQ to configure customizable products when embedded in Sales Customer Relationship Management.
 
-\[Omitted image "configurable-product-offering-setup.svg"\] Alt text: Workflow that shows the tasks involved in configuring and using ServiceNow CPQ, as described in the following steps
+\[Omitted image "configurable-product-offering-setup.svg"\] Alt text: Workflow that shows the tasks involved in configuring and using CPQ, as described in the following steps
 
 1.  If upgrading from a release before Zurich, the system admin enables the system property that runs the configurator in Sales Customer Relationship Management applications.
 2.  The product catalog admin creates and saves a configurable product offering in Product Catalog Management.
@@ -26,7 +26,7 @@ The following workflow describes the tasks involved in configuring and using Ser
 4.  The product catalog admin publishes the configurable product offering so that it is available in the product catalog and deployed as a blueprint.
 5.  The agent creates a transaction, such as a quote or order, in the CSM Configurable Workspace. Alternatively, a customer uses the Business Portal for a self-service transaction, for example, placing an order.
 6.  The agent or customer selects a configurable product from the product catalog.
-7.  The agent or customer configures the product using ServiceNow CPQ.
+7.  The agent or customer configures the product using CPQ.
 8.  The agent or customer saves and closes the product offering configuration. The offering is added as a line item for the transaction, such as a quote line or order line item.
 
 ## Key components of the Commerce Logic Engine
@@ -35,7 +35,7 @@ The Commerce Logic Engine is built from modular components that define how produ
 
 |Component|Description|
 |---------|-----------|
-|Configured products|Salesforce objects that require configuration in ServiceNow CPQ before being added to the Quote Line Editor \(QLE\).|
+|Configured products|Salesforce objects that require configuration in CPQ before being added to the Quote Line Editor \(QLE\).|
 |Blueprints|Containers for all components needed to render the UI.|
 |Fields|Attributes that capture user inputs.|
 |Layouts|Define how the configuration UI is displayed.|
@@ -49,7 +49,7 @@ The Commerce Logic Engine is built from modular components that define how produ
 |Associated picklist sets|Dynamically sized sets based on menu choices.|
 |Field grids|Tabular field groups for structured data entry.|
 |Advanced product actions|Scripts to define which line items are sent to the configuration BOM.|
-|Twinning|Copies Salesforce quote data into ServiceNow CPQ fields.|
+|Twinning|Copies Salesforce quote data into CPQ fields.|
 |Enrichments|Scripts that run outside the rules engine during configuration.|
 |External connections|Connect to third-party data sources to retrieve configuration data.|
 
@@ -65,11 +65,11 @@ To build your first configuration:
 
 -   **Sales enablement**
 
-    A sales rep enters requirements, such as the number of users. ServiceNow CPQ applies rules and generates a valid configuration instantly, and the results flow into Salesforce CPQ quotes.
+    A sales rep enters requirements, such as the number of users. CPQ applies rules and generates a valid configuration instantly, and the results flow into Salesforce CPQ quotes.
 
 -   **Headless eCommerce**
 
-    A customer answers guided questions in a web storefront, ServiceNow CPQ delivers a tailored recommendation, and the customer purchases without sales intervention.
+    A customer answers guided questions in a web storefront, CPQ delivers a tailored recommendation, and the customer purchases without sales intervention.
 
 -   **Manufacturing integration**
 

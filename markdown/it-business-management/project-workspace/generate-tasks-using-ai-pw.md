@@ -20,10 +20,10 @@ Use project plan generation skill to populate an empty project with tasks by pro
 
 Role required: it\_project\_manager
 
--   Install Now Assist for Strategic Portfolio Management \(SPM\) plugin.
+-   Install ServiceNow Otto for Strategic Portfolio Management plugin.
 -   To use attachments to generate a project, activate the document intelligence skill. The default LLM is Azure OpenAI. Switching to a different model may affect accuracy.
 
--   The project plan generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+-   The project plan generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub]().
 
 
 ## Procedure
@@ -41,7 +41,7 @@ Role required: it\_project\_manager
 4.  Provide your project task input using one or more of these methods.
 
     -   In the text field, describe your project tasks using natural language. If you provide only natural language input, the document intelligence skill is not required.
-    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. A preview of the attachment appears before you proceed. To use file attachments, activate the document intelligence skill. For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-in-document-intelligence-skill.md).
+    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. A preview of the attachment appears before you proceed. To use file attachments, activate the document intelligence skill. For more information, see [Activate document intelligent skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-in-document-intelligence-skill.md).
     **Note:** Attach a file or enter context as free-form text before proceeding. No input returns an error. Insufficient context may also trigger an error.
 
 5.  Select **Submit** to generate the project.
@@ -50,7 +50,7 @@ Role required: it\_project\_manager
 
     \[Omitted image "generated-tasks-page-na-spm.png"\] Alt text: AI-generated tasks for a project in Project Workspace.
 
-    **Note:** Because the information in these fields is automatically generated, it's a good idea to review the text and make sure it's accurate.
+    **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 
 
 ## Result

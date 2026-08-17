@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, inbound integration]
-breadcrumb: [Inbound Invoice Fields, Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice management, Inbound Invoice Line, integration framework, inbound integration]
+breadcrumb: [Inbound invoice fields, Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Inbound invoice line fields
@@ -19,7 +19,7 @@ Field definitions and data types for the Inbound Invoice Line \[u\_inbound\_invo
 
 <table id="table_c3s_fj1_dwb"><thead><tr><th>
 
-Column
+Field
 
 </th><th>
 
@@ -35,7 +35,7 @@ External invoice source \(required\)
 
 </td><td>
 
-Name of the third party application associated with the invoice. Derive logic from external invoice number.
+Name of the third-party application associated with the invoice. Derive logic from external invoice number.
 
 </td><td>
 
@@ -191,7 +191,7 @@ External invoice source
 
 </td><td>
 
-Invoice source number originated from a third party application.
+Invoice source number originated from a third-party application.
 
 </td><td>
 
@@ -227,12 +227,12 @@ External invoice source \(required\)
 
 </td><td>
 
-Name of the third party application associated with the invoice.
+Name of the third-party application associated with the invoice.
 
 </td><td>
 
 String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
+</table>**Parent Topic:**[Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
 

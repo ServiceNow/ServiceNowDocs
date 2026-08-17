@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 2
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, settings, override, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Override Informer parameters from the Instance

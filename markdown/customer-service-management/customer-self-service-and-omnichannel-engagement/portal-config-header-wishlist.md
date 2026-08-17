@@ -32,7 +32,7 @@ Role required: sp\_admin
 
     4.  Select **Open Record** on the Instance with Menu pop-up window.
 
-    5.  On the Portal revamp demo menu page, in the **Additional options, JSON format** field, modify the JSON as shown.
+    5.  On the Instance with Menu page, in the **Additional options, JSON format** field, modify the JSON as shown.
 
         ```
         {

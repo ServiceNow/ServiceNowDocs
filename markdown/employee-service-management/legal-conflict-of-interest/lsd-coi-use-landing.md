@@ -19,7 +19,7 @@ Employees who engage in activities that could potentially conflict with their pr
 
 ## Overview of Legal Conflict of Interest workflow
 
-Employees can submit disclosures using the intake form in the Employee Center or through the conversational interface of Now Assist in Virtual Agent.
+Employees can submit disclosures using the intake form in the Employee Center or through the conversational interface of ServiceNow Otto in Virtual Agent.
 
 1.  The legal user submits a new conflict of interest disclosure request by selecting the appropriate conflict type.
 2.  The risk assessment evaluates the request and assigns a risk level \(Low, Medium, or High\) based on the calculated risk score.

@@ -1,0 +1,71 @@
+---
+title: Configure an event handler with ServiceNow Otto
+description: Use ServiceNow Otto in UI Builder to configure event handlers. At present, you can configure Open page or URL, Open or close modal, and View load requested event handlers.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/configure-an-event-handler-with-now-assist.html
+release: australia
+product: UI Builder
+classification: ui-builder
+topic_type: task
+last_updated: "2026-08-17"
+reading_time_minutes: 2
+breadcrumb: [Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
+---
+
+# Configure an event handler with ServiceNow Otto
+
+Use ServiceNow Otto in UI Builder to configure event handlers. At present, you can configure Open page or URL, Open or close modal, and View load requested event handlers.
+
+## Before you begin
+
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+
+Role required: ui\_builder\_admin
+
+## Procedure
+
+1.  In the application navigator, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+
+2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
+
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+
+3.  Open or create a page.
+
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+
+4.  Add a component to your page, such as a button.
+
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+
+5.  To add an event handler to your component's event, go to the configuration panel and select **Events**.
+
+    An event handler lets you assign an event to a component. For example, if you add a button component to your page, you want it to perform an action when a user selects it.
+
+6.  In the event handler, select **Open page or URL** and select **Continue**.
+
+7.  In the Configure section, select **Get Started**.
+
+8.  In the **Generate configuration with Now Assist** field:
+
+    -   Type the action you want to perform \(For example, open www.servicenow.com\) or select an option from the dynamic prompts.
+    -   You can reference data from page context.
+    \[Omitted image "event-handler-NowAssist.png"\] Alt text: Generate configuration with Now Assist
+
+9.  Select the right arrow icon.
+
+    The configurations are set.
+
+10. You can either reject, or accept and edit the configurations.
+
+11. After you review the changes, select **Add**.
+
+12. Test the event by selecting **Preview** in the header and trigger the action.
+
+
+## Result
+
+The event handler configurations are updated.
+
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+

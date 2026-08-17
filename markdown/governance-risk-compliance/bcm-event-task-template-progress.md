@@ -28,7 +28,7 @@ About ten seconds after the last event task is created, the **Event tasks** list
 
 Opening **Add groups** or **Add tasks** from the **Event tasks** tab of an activated plan skips the **Select activated plan** step in the dialog, because the activated plan context is already known. Refresh behavior is identical to the exercise or crisis event **Event tasks** list.
 
-\[Omitted image "activated-plan-event-tasks-grouped.png"\] Alt text: Exercise event Event tasks tab grouped by activated plan.
+\[Omitted image "activated-plan-event-tasks-grouped.png"\] Alt text: Event tasks tab grouped by activated plan.
 
 \[Omitted image "activated-plan-event-task-list.png"\] Alt text: Activated plan event task list showing tasks created from a task template group.
 

@@ -4,13 +4,17 @@ description: Use AI to automatically evaluate incoming approval requests against
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-07-01"
+last_updated: "2026-08-03"
 reading_time_minutes: 3
 ---
 
 # Intelligent approvals
 
 Use AI to automatically evaluate incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval.
+
+\[Omitted video\] Description: Video overview of Intelligent Approvals showing how AI interprets natural-language policies to automate approval decisions.
+
+Learn how Intelligent Approvals connects policy intent directly to approval execution through AI-powered automation.
 
 ## Get started
 
@@ -45,7 +49,7 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-## Now Assist language availability notice
+## ServiceNow Otto language availability notice
 
 **Important:**
 

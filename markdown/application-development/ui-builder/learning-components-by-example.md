@@ -24,6 +24,8 @@ Create an interactive card layout to display records, add a dropdown to filter v
 Learn how alert messages help you communicate feedback and status updates using both default and scripted approaches.
 -   **[Filter records by priority with a flyout menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/comp-ex-filter-flyout-menu.md)**  
 Configure a flyout menu that filters a task record list based on priority.
+-   **[Search list selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/search-list-selector.md)**  
+How to address dot-walked child fields that don't display following a search action. List selector search filters both list panes. Dot-walked reference may not appear when searching.
 
 **Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
 

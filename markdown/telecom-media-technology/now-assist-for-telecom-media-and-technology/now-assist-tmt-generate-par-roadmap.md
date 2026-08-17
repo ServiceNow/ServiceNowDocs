@@ -1,5 +1,5 @@
 ---
-title: Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generate a product adoption roadmap with products or capabilities organized into lanes based on engagement data and insights from similar engagements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-par-roadmap.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generate a product adoption roadmap with products or capabilities organized into lanes based on engagement data and insights from similar engagements.
 
@@ -23,7 +23,7 @@ Generate a product adoption roadmap with products or capabilities organized into
 
 ## About this task
 
-Use Now Assist to generate a roadmap by analyzing the engagement's details including health, success blueprints, product adoption data, and renewal date. The AI agent identifies similar engagements in the system that have existing roadmaps and uses those patterns to organize items into lanes. After the roadmap is generated, you can further refine the roadmap as needed.
+Use ServiceNow Otto to generate a roadmap by analyzing the engagement's details including health, success blueprints, product adoption data, and renewal date. The AI agent identifies similar engagements in the system that have existing roadmaps and uses those patterns to organize items into lanes. After the roadmap is generated, you can further refine the roadmap as needed.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Use Now Assist to generate a roadmap by analyzing the engagement's details inclu
 
     -   By product: Organize entire products to create a high-level, strategic adoption plan. Use this as a guideline on how to implement products over time.
     -   By capability: Organize specific capabilities within products for short term, tactical planning. Use this to focus on adopting features and functions.
-6.  Select **Now Assist** to create a quick draft of your roadmap.
+6.  Select **ServiceNow Otto** to create a quick draft of your roadmap.
 
 7.  Select a value from the **Phase** drop down field to determine the lanes for your roadmap.
 
@@ -52,25 +52,21 @@ Use Now Assist to generate a roadmap by analyzing the engagement's details inclu
     -   If similar engagements are present, it identifies the ones with existing roadmaps.
     -   Analyzes how the roadmap was organized in the most relevant similar engagement.
     -   Arranges products or capabilities into lanes based on the patterns identified.
-    You can view the steps in the Now Assist panel.
+    You can view the steps in the ServiceNow Otto panel.
 
-    \[Omitted image "now-assist-par-1.jpg"\] Alt text: Product adoption roadmap using Now Assist steps
-
-10. After the roadmap has been generated, you will see the following details in the Now Assist panel.
+10. After the roadmap has been generated, you will see the following details in the panel.
 
     -   A link to view the completed roadmap.
 
         **Note:** The roadmap is in a Draft state and you can make changes before you finalize it.
 
     -   A summary of the rearrangements logic and the organization of the lanes.
-    \[Omitted image "now-assist-par-2.jpg"\] Alt text: Product adoption roadmap Now Assist summary
-
-    **Note:** You can also request an explanation of the rearrangement logic in the Now Assist panel.
+    **Note:** You can also request an explanation of the rearrangement logic in the ServiceNow Otto panel.
 
 11. Review the generated roadmap, make any necessary adjustments by dragging items between lanes and select **Finalize roadmap**.
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 **Related topics**  
 

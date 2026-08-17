@@ -1,6 +1,6 @@
 ---
 title: Element variable record form
-description: Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is specific custom columns, which are required for a particular dependency of an element.
+description: Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is a specific custom column required for a particular dependency of an element.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/element-variable-record-form.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure element variables for element definitions, General admini
 
 # Element variable record form
 
-Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is specific custom columns, which are required for a particular dependency of an element.
+Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is a specific custom column required for a particular dependency of an element.
 
 ## Element variable record form
 

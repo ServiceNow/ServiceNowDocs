@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -40,12 +40,12 @@ For any board type, you can define what items appear using advanced filter condi
 
 \[Omitted image "strategy-goals-goals-page.png"\] Alt text: Goals page within a strategy and goals-based board.
 
-## Now Assist for Strategic Portfolio Management \(SPM\) capabilities for Strategy and Goals
+## ServiceNow Otto for Strategic Portfolio Management capabilities for Strategy and Goals
 
-If Now Assist for Strategic Portfolio Management \(SPM\) is installed, you can use the following capabilities to enhance your strategic planning and goal management:
+If ServiceNow Otto for Strategic Portfolio Management is installed, you can use the following capabilities to enhance your strategic planning and goal management:
 
 -   With the Goals insights skill, you can generate AI-powered insights for goals and review the results to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track. For details, see [Generate insights for a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/generate-insights-for-goal-strategy.md).
--   With the Target generation skill, you can generate measurable targets for your goals, reducing the effort required to define quantifiable success criteria. For details, see [Generate targets for a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.md).
+-   With the Target generation skill, you can generate measurable targets for your goals, reducing the effort required to define quantifiable success criteria. For details, see [Generate targets for a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/generate-targets-for-goal.md).
 
 ## Reminders for target actuals check-in
 
@@ -74,8 +74,8 @@ If you are already managing goals in portfolio plans, you can create correspondi
 |Add targets|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Associate work with goals or targets|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Send reminders to owners and contributors for target actuals check in|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Generate goal insights with Now Assist for SPM|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Generate targets for goals with Now Assist for SPM|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Generate goal insights with ServiceNow Otto for SPM|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Generate targets for goals with ServiceNow Otto for SPM|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 **Note:** Strategic plans and strategic priorities for portfolio plans can still be created using the list view within the Strategic Planning Workspace or the classic UI. The key difference is that in Strategy and Goals, you can create these directly within the workspace — whereas for portfolio plans, they must be created outside the workspace and then associated with goals inside it.
 

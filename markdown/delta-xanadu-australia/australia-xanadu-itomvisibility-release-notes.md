@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-itomvisibility-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
@@ -168,7 +168,7 @@ Generate a Certificate Signing Request and a private key with the Employee Cente
 
 Service Graph Connectors are a collection of predefined integrations that ingest data into the Configuration Management Database \(CMDB\) from third-party sources.
 
-    -   Discover device details from Chromebook and ingest them into the CMDB by using Service Graph Connector for Google Console store version 1.8.
+    -   Discover device details from Chromebook and ingest them into the CMDB by using Service Graph Connector for Google Chromebooks store version 1.8.
     -   Discover data from public cloud instances and resources in AWS, Azure, and GCP environments and ingest them into the CMDB by using Service Graph Connector for Wiz. 
 -   **[Detect anomalies in Discovery schedules](https://www.servicenow.com/docs/access?context=discovery-admin-workspace-diagnostics&family=yokohama&ft:locale=en-US)**
 
@@ -436,7 +436,7 @@ Starting with KVA version 3.11.0, and Informer version 2.5.0, map application se
 
 The HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. This change enhances security by helping prevent potential exposure of credentials over unencrypted connections. To override this behavior, a new MID Server property, **mid.http\_classy.allow\_credentials\_over\_http**, has been introduced. Enabling this setting might expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to false and use HTTPS whenever possible.
 
--   **[Automated Certificate Renewal](https://www.servicenow.com/docs/access?context=automated-certificate-renewal&family=zurich&ft:locale=en-US)**
+-   **[Automated certificate renewal](https://www.servicenow.com/docs/access?context=automated-certificate-renewal&family=zurich&ft:locale=en-US)**
 
 Starting with version 3.8.2, Certificate Inventory and Management introduces automated renewal capabilities. Administrators can set certificates to renew automatically, either when creating the certificate or by applying the setting to an existing one. The system also enables you to define the renewal window by specifying the number of days before expiration that the process should begin.
 
@@ -447,7 +447,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[AWS patterns updated in Discovery and Service Mapping Patterns](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-patterns.html)**
+
+AWS is updating account information structure on September 9, 2026. AWS discovery patterns have been updated accordingly. Upgrade to at least the 1.31.2 release of Discovery and Service Mapping Patterns to maintain AWS discovery.
+
+-   **[AWS patterns updated in Visibility Content](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-visibility-content.html)**
+
+AWS is updating account information structure on September 9, 2026. AWS discovery patterns have been updated accordingly. Upgrade to at least the 6.32.2 release of Visibility Content to maintain AWS discovery.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -801,7 +808,7 @@ Yokohama
 </td><td>
 
 -   Discovery and Service Mapping Patterns: Gain enhanced visibility into your AWS cloud services with 27 additional patterns starting with store version 1.25.0.
--   Starting with store version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility - Content. The CNO for Visibility feature has been extracted from Agent Client Collector for Visibility - Content and is now a separate application.
+-   Starting with store version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility Content. The CNO for Visibility feature has been extracted from Agent Client Collector for Visibility Content and is now a separate application.
 -   Starting with Service Graph Connector for GCP store release 1.8, Service Graph Connector for AWS store release 2.9, and Service Graph Connector for Microsoft Azure store release 1.11, you can use Service Graph Connectors to ingest data into the Configuration Management Database \(CMDB\) from third-party sources.
 -   Starting with store version 1.8.0, Discovery admins gain improved visibility into discovery issues and can address root causes using anomaly detection in the Discovery Admin Workspace.
 
@@ -833,10 +840,15 @@ Australia
 -   AI Agent Topology Mapping: Discover AI agent infrastructure and dependencies using the new AI Agent Topology Mapping application, including:
     -   Amazon Bedrock AI agents, models, and prompts
     -   Microsoft Foundry \(Classic\) AI agents, models, and prompts
+-   Cryptographic Asset Compliance: Inventory, assess, and manage cryptographic assets, including certificates and keys, across cloud and on-premises environments to support post-quantum cryptography \(PQC\) readiness and maintain security compliance.
 
  -   **[Store updates for ITOM Visibility](https://www.servicenow.com/docs/access?context=store-rn-itom-visibility-landing&family=australia&ft:locale=en-US)**
 
 The majority of Visibility apps are updated monthly or quarterly via the ServiceNow Store. The latest updates are available in the ServiceNow Store. For cumulative release notes and compatibility information, see the ServiceNow Store version details.
+
+    -   [Cryptographic Asset Compliance](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-advanced.html)
+
+Cryptographic Asset Compliance is a part of the ITOM - Advanced app. This app helps you manage cryptographic assets, including certificates and cloud keys \(AWS KMS and Azure Key Vault\) discovered across on-premises and cloud environments from a centralized inventory. You can identify at-risk cryptographic assets with policy-based risk indicators and focus remediation efforts where they matter most.
 
     -   [Service Mapping Plus](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-mapping-plus.html)
 
@@ -877,9 +889,9 @@ The Project Number field is populated in the GCP Project \[cmdb\_ci\_gcp\_projec
 
 Enhanced functionality for better visualization and navigation.
 
-    -   [Learning Enhanced Automation Playbook \(LEAP\)](https://www.servicenow.com/docs/access?context=aiops-leap&family=australia&ft:locale=en-US)
+    -   [Learning Enhanced Automation Playbook \(LEAP\)](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-leap.html)
 
-The Learning Enhanced Automation Playbook \(LEAP\) application uses AI to analyze incident data and facilitate the creation of automations that resolve high-impact issues for Service Operations teams. By leveraging data-driven analytics to accurately identify critical incidents, LEAP enables a more proactive problem management approach.
+The Learning Enhanced Automation Playbook \(LEAP\) application uses AI to analyze incident data and facilitate the creation of automation that resolves high-impact issues for Service Operations teams. By leveraging data-driven analytics to accurately identify critical incidents, LEAP enables a more proactive problem management approach.
 
     -   [AI Agent Topology Mapping](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-agent-topology-mapping.html)
 

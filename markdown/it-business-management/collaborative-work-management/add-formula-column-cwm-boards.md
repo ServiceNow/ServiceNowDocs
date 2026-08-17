@@ -29,7 +29,7 @@ You need to have either Editor or Owner access to the Space to add a custom colu
 
 Formula columns in the List view of a CWM Board compute values from existing CWM columns. Examples include calculating date differences from existing Date columns or deriving metrics such as Profit from existing values of Revenue and Cost columns.
 
-Use the built-in Math, String, Date &amp; Time, and Logical functions in the Formula Builder side panel to define a formula expression. To automatically generate a formula from a plain language description using Now Assist instead, see [Generate a formula using Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md).
+Use the built-in Math, String, Date &amp; Time, and Logical functions in the Formula Builder side panel to define a formula expression. To automatically generate a formula from a plain language description using Now Assist instead, see [Generate a formula using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md).
 
 The steps in this procedure use the example of a formula column that calculates the number of days remaining until a task's due date. Follow the steps as guidelines to build a formula of your choice.
 
@@ -65,8 +65,8 @@ The steps in this procedure use the example of a formula column that calculates 
 
 \[Omitted image "cwm-formula-on-board.png"\] Alt text: CWM Board List view displaying the new formula column with computed values populated for each task.
 
--   **[Generate a formula using Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**  
-Use Now Assist to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
+-   **[Generate a formula using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**  
+Use ServiceNow Otto to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
 **Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 
@@ -75,5 +75,5 @@ Use Now Assist to automatically generate formulas to compute values such as summ
 
 [Add custom columns for tasks in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.md)
 
-[Generate a formula using Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)
+[Generate a formula using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)
 

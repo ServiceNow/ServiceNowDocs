@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI assets
@@ -24,7 +24,7 @@ For information on AI asset Lifecycle, see [AI asset lifecycle](https://raw.gith
 
 For information on approval playbook workflow, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 
-For information on creating Now Assist approvals task, see [Create a Now Assist approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
+For information on creating Now Assist approvals task, see [Create a ServiceNow Otto approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
 
 For information on AI security tasks, see [AI Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-task-all-security-tasks.md).
 

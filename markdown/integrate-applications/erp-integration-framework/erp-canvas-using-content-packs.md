@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, sample, example, model, application]
-breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using Zero Copy Connector for ERP content packs
@@ -92,6 +92,4 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 ## What to do next
 
 Explore the new, cloned model and make changes as needed. For example, edit the mappings, inputs, or outputs. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
-
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

@@ -19,7 +19,7 @@ Complete your document task by filling in the required details and submitting th
 ## Before you begin
 
 -   Role required: none
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to .
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates.
 
 ## Procedure
 

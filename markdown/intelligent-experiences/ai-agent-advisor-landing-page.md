@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-15"
+last_updated: "2026-07-30"
 reading_time_minutes: 3
-keywords: [AI Agent Advisor, AI agents, Now Assist, Now Assist Center, Gen AI, Generative AI]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [Enable AI experiences]
 ---
 

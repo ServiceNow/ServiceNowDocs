@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations,, invoice capture, invoice processing, invoice management, ERP integration, outbound integration]
+keywords: [APO, payment extraction, invoice capture, invoice processing, invoice management, ERP integration, outbound integration]
 breadcrumb: [Accounts Payable Operations integration framework, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -33,4 +33,8 @@ Role required: sn\_spend\_intg\_admin or sn\_spend\_intg\_procurement\_integrato
 ## Result
 
 The invoice **Status** is automatically set to **Pending payment**. The invoice is extracted for payment, and the invoice status is set to **Paid**.
+
+## What to do next
+
+[Working with integration error tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.md)
 

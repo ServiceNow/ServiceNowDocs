@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Filter conditions in a decision table
@@ -26,18 +26,18 @@ Role required: admin
 
 2.  On the homepage, select **Decision tables**.
 
-3.  From the list of decision tables, select any desired decision table.
+3.  From the list of decision tables, select a decision table.
 
 4.  In the **Decision table**, select \[Omitted image "ellipses.png"\] Alt text: Ellipses to view the filtering options.
 
-5.  In the **Filter by Value** field, select any desired condition from the drop-down list.
+5.  In the **Filter by Value** field, select a condition from the list.
 
-6.  Enter a suitable condition value and select **Apply** to run the filter.
+6.  Enter a condition value and select **Apply**.
 
 
 ## Result
 
-After applying the filters, you’ll see a table with the data focused on the conditions and values you set.
+The table displays rows that match the conditions and values you set.
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

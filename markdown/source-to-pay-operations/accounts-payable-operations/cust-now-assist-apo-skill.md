@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Accounts Payable Operations \(APO\) skill
-description: Customize a Now Assist skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
+title: Customize ServiceNow Otto for Accounts Payable Operations \(APO\) skill
+description: Customize a ServiceNow Otto skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-skill.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-keywords: [APO, Accounts Payable Operations, generative AI, Now Assist, AI automation, Accounts Payable Workspace]
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, generative AI, ServiceNow Otto, Accounts Payable Workspace]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Customize a Now Assist for Accounts Payable Operations \(APO\) skill
+# Customize ServiceNow Otto for Accounts Payable Operations \(APO\) skill
 
-Customize a Now Assist skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
+Customize a ServiceNow Otto skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Invoice case Summarization, Invoice data extraction skill and then configure the prompt headers to be included in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the Invoice case Summarization, Invoice data extraction skill. You can then configure the prompt headers to be included in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub console.
 
 2.  In the **Finance and Supply Chain** workflow group, select **Accounts Payable Operations** to view the skills for the APO features.
 
@@ -65,7 +65,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 <table id="table_c53_vp5_dbc"><thead><tr><th>
 
-Field
+Input field
 
 </th><th>
 
@@ -112,7 +112,7 @@ Description of the base input field value.
 
     1.  For each input template state, select the prompt sections from the list of available sections to include in the generated summary.
 
-        To add a section, you must configure the relevant input data prior to this step.
+        To add a section, you must configure the relevant input data before this step.
 
         The available prompt sections that you can select:
 
@@ -169,7 +169,7 @@ Closed
 
     1.  Select **In-product**.
 
-        **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+        **In-product**: When selected, the ServiceNow Otto skills are displayed on the forms and workspaces.
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
@@ -204,5 +204,5 @@ Closed
 
 ## Result
 
-You can now leverage the generative AI skill for matching invoice lines with purchase order.
+You can now use the generative AI skill for matching invoice lines with purchase order.
 

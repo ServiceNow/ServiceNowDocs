@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Exploring LEAP
@@ -20,7 +20,10 @@ LEAP categorizes similar incidents into groups and uses AI to generate resolutio
 
 LEAP helps you manage incidents and operational tasks efficiently. It uses AI to gather information from existing incidents and generates resolutions that can be automated. The LEAP automation provides tools to manage incidents early, speed up resolution, use prebuilt automation, and follow clear steps to handle issues. These tools help support smooth operations.
 
-**Note:** The plugin name has been updated from AIOps Learning Enhanced Automation Playbook to Learning Enhanced Automation Platform \(LEAP\) to reflect its expanded capabilities and strategic direction.
+**Note:**
+
+-   The plugin name has been updated from AIOps Learning Enhanced Automation Playbook to Learning Enhanced Automation Platform \(LEAP\) to reflect its expanded capabilities and strategic direction.
+-   Now Assist is renamed to ServiceNow Otto.
 
 \[Omitted image "aiops-leap-landing-page.png"\] Alt text: LEAP landing page
 
@@ -151,16 +154,6 @@ A buyer or a business goal owner gains strategic and operational advantages usin
 |Improves MTTR|Measure and enhance performance|
 |Optimize Resource Allocation|Identify and prioritize high impact areas|
 |Provides cost predictability|Fixed pricing model for incident analysis operations|
-
-## LEAP AI agent
-
-The LEAP AI agent uses automation opportunities created by LEAP analysis to generate artifacts — problem records, knowledge base articles, or playbooks — based on user requests.
-
-|AI agent|AI agent role|
-|--------|-------------|
-|LEAP AI agent|Uses the automation opportunities created by LEAP analysis, and creates artifacts — problem records, AI-enhanced knowledge base articles, or playbooks — based on user requests.|
-
-**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## What to explore next
 

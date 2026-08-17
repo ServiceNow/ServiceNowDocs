@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-07"
 reading_time_minutes: 1
 keywords: [Ansible integration, configuration, MCP server, automation]
-breadcrumb: [Configuring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Configure Ansible automation integration

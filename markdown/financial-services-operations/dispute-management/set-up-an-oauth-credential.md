@@ -57,7 +57,7 @@ The credential record is created.
 
 ## What to do next
 
-For Verifi integration, see .
+For Verifi integration, see [Set up the Verifi Connection &amp; Credential Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-verifi-connection-credential-alias.md).
 
 For card network integration, see [Set up the API REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.md).
 

@@ -1,26 +1,28 @@
 ---
 title: Industry-specific data model scenarios
-description: The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external business locations, service organizations, and customer relationships are structured to support real-world operational models.
+description: The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external organizations \(formerly internal and external business locations\), and customer relationships are structured to support real-world operational models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/smf-data-model-example.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 9
+last_updated: "2026-08-17"
+reading_time_minutes: 10
 breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Industry-specific data model scenarios
 
-The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external business locations, service organizations, and customer relationships are structured to support real-world operational models.
+The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external organizations \(formerly internal and external business locations\), and customer relationships are structured to support real-world operational models.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 ## Exploring Service Model Foundation across industries
 
-The following examples showcase how organizations in various industries, such as Public Sector Digital Services, Financial Services Operations, Healthcare and Life Sciences, Manufacturing Commercial Operations, and Retail Operations can configure service organizations and define relationships between internal users, external entities, and customers. These scenarios highlight the flexibility of SMF in modeling complex hierarchies, managing service delivery, and aligning roles with real-world use cases.
+The following examples showcase how organizations in various industries, such as Public Sector Digital Services, Financial Services Operations, Healthcare and Life Sciences, Manufacturing Commercial Operations, and Retail Operations can configure business organizations and define relationships between internal users, external entities, and customers. These scenarios highlight the flexibility of SMF in modeling complex hierarchies, managing service delivery, and aligning roles with real-world use cases.
 
 ## Use case: Managing customers and accounts across branch locations in Financial Services Operations
 
-**Overview**: This use case demonstrates how multinational financial institutions operate through a network of business locations including corporate headquarters \(HQs\), regional HQs, company branches, and independent advisor locations.
+**Overview**: This use case demonstrates how multinational financial institutions operate through a network of business organizations \(formerly business locations\) including corporate headquarters \(HQs\), regional HQs, company branches, and independent advisor organizations.
 
 Each location serves a specific purpose and employs staff such as managers, employees, and advisors who manage customers or accounts.
 
@@ -47,16 +49,16 @@ These challenges led to data governance risks, reduced customer trust, and incre
 
 **Prerequisites**:
 
--   The organization’s business hierarchy \(corporate HQ, regional HQs, branches, independent advisors\) is defined in SMF as business locations.
+-   The organization’s business hierarchy \(corporate HQ, regional HQs, branches, independent advisors\) is defined in SMF as business organizations.
 -   Internal and external users are assigned to their respective locations with appropriate personas \(for example, manager, employee, relationship manager\).
 -   Customers and accounts are registered in the system and linked to a responsible employee.
 
-\[Omitted image "smf-fso-usecase.png"\] Alt text: Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a financial organization.
+\[Omitted image "smf-fso-usecase.png"\] Alt text: Hierarchical diagram of internal and external organizations showing role-based relationships and data access in a financial organization.
 
 **Resolution workflow/ Solution implementation**:
 
-1.  Define the business location hierarchy
-    -   The organization establishes a structured hierarchy of business locations:
+1.  Define the business organization hierarchy
+    -   The organization establishes a structured hierarchy of business organizations:
         -   Corporate HQ: Parent company
         -   Regional HQs: Oversee multiple internal branches
         -   Company branches: Manage business customers
@@ -65,7 +67,7 @@ These challenges led to data governance risks, reduced customer trust, and incre
 2.  Assign staff to locations
     -   Corporate HQ and branches are staffed by internal users.
     -   Independent advisor locations include external users operating under partnership agreements.
-    -   Each staff member is mapped to their business location and assigned a role \(like, manager, employee, and advisor\).
+    -   Each staff member is mapped to their business organization and assigned a role \(like, manager, employee, and advisor\).
 3.  Establish customer and account relationships
 
     -   Customers \(business, consumer, or household\) are linked to specific employees.
@@ -77,10 +79,10 @@ These challenges led to data governance risks, reduced customer trust, and incre
 
 4.  Determine access control and data visibility
 
-    SMF automatically applied access rules based on persona and business location.
+    SMF automatically applied access rules based on persona and business organization.
 
     -   Access to records such as accounts or customer profiles is based on:
-        -   The employee’s assigned business location.
+        -   The employee’s assigned business organization.
         -   Their relationship role \(for example, account manager, relationship manager, and the likes\).
         -   The hierarchy defined in SMF.
     -   For example:
@@ -96,11 +98,11 @@ These challenges led to data governance risks, reduced customer trust, and incre
 
 **Result**:
 
-By applying the Service Model Foundation data model, FinServe Ltd resolved access inconsistencies and ownership conflicts across multiple business locations. The framework provided a unified, secure, and transparent approach to managing customer relationships in a large-scale financial environment.
+By applying the Service Model Foundation data model, FinServe Ltd resolved access inconsistencies and ownership conflicts across multiple business organizations. The framework provided a unified, secure, and transparent approach to managing customer relationships in a large-scale financial environment.
 
 ## Use case: Managing patients, healthcare providers, and accounts in Healthcare and Life Sciences
 
-**Overview**: This use case demonstrates how a multinational healthcare organization operates through a network of business locations, including corporate headquarters \(HQs\), regional clinical HQs, hospitals or clinics, and independent provider or research locations.
+**Overview**: This use case demonstrates how a multinational healthcare organization operates through a network of business organizations, including corporate headquarters \(HQs\), regional clinical HQs, hospitals or clinics, and independent provider or research locations.
 
 Each location serves a specific purpose and employs staff such as administrators, clinicians, and external partners who manage patient accounts, clinical studies, or healthcare services.
 
@@ -127,16 +129,16 @@ These challenges led to compliance risks, reduced patient trust, and increased m
 
 **Prerequisites**:
 
--   The organization’s business hierarchy \(corporate HQ, regional HQs, hospitals or clinics, independent providers\) is defined in SMF as business locations.
+-   The organization’s business hierarchy \(corporate HQ, regional HQs, hospitals or clinics, independent providers\) is defined in SMF as business organizations.
 -   Internal and external users are assigned to their respective locations with appropriate personas \(for example, administrator, clinician, researcher, relationship manager\).
 -   Patients and healthcare accounts are registered in the system and linked to a responsible employee.
 
-\[Omitted image "smf-hcls-usecase.png"\] Alt text: Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a healthcare organization.
+\[Omitted image "smf-hcls-usecase.png"\] Alt text: Hierarchical diagram of internal and external organizationsshowing role-based relationships and data access in a healthcare organization.
 
 **Resolution workflow/ Solution implementation**:
 
-1.  Define the business location hierarchy
-    -   The organization establishes a structured hierarchy of business locations:
+1.  Define the business organization hierarchy
+    -   The organization establishes a structured hierarchy of business organizations:
         -   Corporate HQ: Parent organization
         -   Regional HQs: Oversee multiple hospitals or clinics
         -   Hospitals or clinics: Manage patient and clinical accounts
@@ -145,7 +147,7 @@ These challenges led to compliance risks, reduced patient trust, and increased m
 2.  Assign staff to locations
     -   Corporate HQ and hospitals or clinics are staffed by internal users.
     -   Independent provider or research locations include external users operating under partnership agreements.
-    -   Each staff member is mapped to their business location and assigned a role \(for example, administrator, clinician, researcher, relationship manager\).
+    -   Each staff member is mapped to their business organization and assigned a role \(for example, administrator, clinician, researcher, relationship manager\).
 3.  Establish patient and account relationships
 
     -   Patients or accounts \(individuals, households, clinical studies\) are linked to specific employees.
@@ -157,10 +159,10 @@ These challenges led to compliance risks, reduced patient trust, and increased m
 
 4.  Determine access control and data visibility
 
-    SMF automatically applies access rules based on persona and business location.
+    SMF automatically applies access rules based on persona and business organization.
 
     -   Access to records such as patient data, clinical studies, or accounts are based on:
-        -   The employee’s assigned business location.
+        -   The employee’s assigned business organization.
         -   Their relationship role \(for example, clinician, researcher, account manager, and the likes\).
         -   The hierarchy defined in SMF.
     -   For example:
@@ -180,7 +182,7 @@ By applying the Service Model Foundation data model, HealthCorp Ltd resolved acc
 
 ## Use case: Managing citizen households, government services, and staff in Public Sector Digital Services
 
-This use case demonstrates how a public sector organization manages the delivery of digital services such as child support and other welfare programs across multiple internal business locations including state HQs, regional centers, and local offices.
+This use case demonstrates how a public sector organization manages the delivery of digital services such as child support and other welfare programs across multiple internal organizations including state HQs, regional centers, and local offices.
 
 Each center has staff responsible for assigned citizen households, confirming accurate data, role-based access, and efficient service delivery through the Service Model Foundation data model.
 
@@ -202,12 +204,12 @@ These challenges led to data inconsistencies, compliance risks, and service inef
 -   Relationship managers: Primary contacts for assigned households.
 -   Citizens: Household members, including head of household and authorized representatives.
 
-\[Omitted image "smf-psds-usecase.png"\] Alt text: Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a public sector organization.
+\[Omitted image "smf-psds-usecase.png"\] Alt text: Hierarchical diagram of internal and external organizationsshowing role-based relationships and data access in a public sector organization.
 
 **Resolution workflow/ Solution implementation**:
 
-1.  Define the business location hierarchy
-    -   The organization establishes a structured hierarchy of business locations like, State HQ → Centers → Households.
+1.  Define the business organization hierarchy
+    -   The organization establishes a structured hierarchy of business organizations like, State HQ → Centers → Households.
     -   Each location defined as internal and tied to defined service delivery responsibilities.
 2.  Assign staff to locations
     -   HQ employees \(HQE1 and HQE2\): Manage statewide accounts and monitor regional activity.

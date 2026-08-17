@@ -1,6 +1,6 @@
 ---
 title: Use capabilities in SIR Workspace
-description: Use the capabilities created using Now Assist for Security Incident Response integrations in the SIR Workspace.
+description: Use the capabilities created using ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit in the SIR Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/use-capabilities-sir-workspace.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Use SIR Integration Builder, LLM-powered SIR integration builder, S
 
 # Use capabilities in SIR Workspace
 
-Use the capabilities created using Now Assist for Security Incident Response integrations in the SIR Workspace.
+Use the capabilities created using ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit in the SIR Workspace.
 
 ## Before you begin
 

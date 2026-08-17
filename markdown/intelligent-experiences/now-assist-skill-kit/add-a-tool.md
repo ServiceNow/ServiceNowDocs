@@ -1,21 +1,21 @@
 ---
 title: Add a tool
-description: Add and configure tools in the Now Assist Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
+description: Add and configure tools in the AI Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-a-tool.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-04-23"
+last_updated: "2026-08-03"
 reading_time_minutes: 5
-keywords: [tool, tool node, decision node, Now Assist Skill Kit]
-breadcrumb: [Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+keywords: [tool, tool node, decision node, AI Skill Kit]
+breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a tool
 
-Add and configure tools in the Now Assist Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
+Add and configure tools in the AI Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Two types of nodes are available:
 
 -   **Tool Nodes**
 
-    Tool nodes run a single tool such as a script, flow action, retriever, or web search. Tool nodes execute sequentially by default. When adding a tool node, you can select **Add as parallel node** to place it alongside an existing node at the same level in the flow, so both tools run simultaneously and their outputs are both available downstream.
+    Tool nodes run a single tool such as a script, flow action, retriever, or web search. Tool nodes execute sequentially by default. When adding a tool node, you can select **Add as parallel node** to place it alongside an existing node at the same level in the flow. Then, both tools run simultaneously and their outputs are both available downstream.
 
 -   **Decision nodes**
 
@@ -42,7 +42,7 @@ Two types of nodes are available:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to add a tool to.
 

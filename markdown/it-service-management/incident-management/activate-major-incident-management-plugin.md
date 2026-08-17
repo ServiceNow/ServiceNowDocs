@@ -1,5 +1,5 @@
 ---
-title: Activate Incident Management - Major Incident Management
+title: Activate Major Incident Management
 description: You can activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-major-incident-management-plugin.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Major Incident Management plugins, Managing major incidents, Incident Management, IT Service Management]
 ---
 
-# Activate Incident Management - Major Incident Management
+# Activate Major Incident Management
 
 You can activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 

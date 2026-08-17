@@ -1,6 +1,6 @@
 ---
 title: Capture initiator details form
-description: The Capture initiator details form enables you to collect the complaint requester details for an Alternative Dispute Resolution \(ADR\) case.
+description: The Capture initiator details form enables you to collect the complaint requester details for an Customer Dispute Management \(CDM\) case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/capture-initiator-details-form.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Reference, Customer Service Problem Management, Telecommunications,
 
 # Capture initiator details form
 
-The Capture initiator details form enables you to collect the complaint requester details for an Alternative Dispute Resolution \(ADR\) case.
+The Capture initiator details form enables you to collect the complaint requester details for an Customer Dispute Management \(CDM\) case.
 
 <table id="table_wym_qgy_f3c"><thead><tr><th>
 
@@ -52,21 +52,25 @@ Complaint submitted by
 
 </td><td>
 
-Type of complaint stakeholder. Select one of the following.-   **Regulatory**
+Type of complaint stakeholder. Select one of the following.-   **Customer**
 
-A statutory authority that oversees compliance and investigate or act on complaints.
+Consumer or business customer.
 
 -   **Legal guardian**
 
 A person legally authorized to act on behalf of another individual in raising or managing a complaint.
 
--   **Customer**
-
-Consumer or business customer.
-
 -   **Legal firm**
 
 A law firm that represents a party in handling a complaint.
+
+-   **Regulatory**
+
+A statutory authority that oversees compliance and investigate or act on complaints.
+
+-   **External user**
+
+Any external user.
 
 
 </td></tr><tr><td>
@@ -115,7 +119,7 @@ Regulatory body name
 
 </td><td>
 
-Name of the third party regulatory body based on the location.
+Name of the third party regulatory body based on the location.**Note:** This field is available when you select **Regulatory** in the **Complaint submitted by** field.
 
 </td></tr><tr><td>
 
@@ -123,7 +127,7 @@ Intake channel
 
 </td><td>
 
-Channel through which the complaint progress must be communicated.
+Channel through which the complaint progress must be communicated.**Note:** This field is available when you select **Regulatory** in the **Complaint submitted by** field.
 
 </td></tr><tr><td>
 
@@ -131,11 +135,11 @@ External reference number
 
 </td><td>
 
-Reference number related to your complaint.
+Reference number related to your complaint.**Note:** This field is available when you select **Regulatory** in the **Complaint submitted by** field.
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Create an Alternative Dispute Resolution case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md)
+[Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Generate automations from a Task Mining request
-description: Use the Automations tab on an automation request to decompose a Task Mining recording into discrete automations that Automation Center categorizes as UI-block or non-UI-block interactions.
+description: Use the Automations tab on an automation request to break down a Task Mining recording into discrete automations that Automation Center categorizes as UI-block or non-UI-block interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/generate-automations-tm.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Automating tasks from Task Mining, Integration with Task Mining, Au
 
 # Generate automations from a Task Mining request
 
-Use the **Automations** tab on an automation request to decompose a Task Mining recording into discrete automations that Automation Center categorizes as UI-block or non-UI-block interactions.
+Use the **Automations** tab on an automation request to break down a Task Mining recording into discrete automations that Automation Center categorizes as UI-block or non-UI-block interactions.
 
 ## Before you begin
 
@@ -27,17 +27,17 @@ Before you begin:
     ServiceNow AI Lens confirms that the description of the agent is more accurate. The ServiceNow AI Lens skill is activated.
 
 -   Automation Center must be installed on your instance.
--   Now Assist for Automation Center plugin must be installed and the User task step summarization skill must be activated.
+-   ServiceNow Otto for Automation Center plugin must be installed and the User task step summarization skill must be activated.
 -   AI Desktop Actions must be installed on your instance.
--   A business user in Task Mining must have submitted an automation request that contains a task recording attachment. Confirm with the business user before proceeding. For more information, see .
+-   A business user in Task Mining must have submitted an automation request that contains a task recording attachment. Confirm with the business user before proceeding. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-automation-center.md).
 
 ## About this task
 
-When a business user submits an automation request from Task Mining, the request appears in Automation Center with the task recording summary saved as an attachment. Use this procedure to instruct Automation Center to read that attachment and use AI to decompose the task into discrete automations. Each automation is categorized as a UI block \(browser-based interaction\) or a non-UI block \(background application interaction\), which determines how AI Desktop Actions handles it when the agent runs.
+When a business user submits an automation request from Task Mining, the request appears in Automation Center with the task recording summary saved as an attachment. Use this procedure to instruct Automation Center to read that attachment and use AI to break down the task into discrete automations. Each automation is categorized as a UI block \(browser-based interaction\) or a non-UI block \(background application interaction\), which determines how AI Desktop Actions handles it when the agent runs.
 
 **Important:**
 
-Because the decomposition uses AI, results may vary between runs. Review all generated automations before proceeding to agent creation.
+As the automations are created using AI, results may vary between runs. Review all generated automations before proceeding to agent creation.
 
 ## Procedure
 
@@ -59,7 +59,7 @@ Because the decomposition uses AI, results may vary between runs. Review all gen
 
 3.  Select the **Automations** tab on the automation request page.
 
-    The **Automations** tab displays the decomposed automations after you generate them.
+    The **Automations** tab displays the automations after you generate them.
 
 4.  Select **Generate automations**.
 
@@ -67,13 +67,13 @@ Because the decomposition uses AI, results may vary between runs. Review all gen
 
     \[Omitted image "unified-gen-auto.png"\] Alt text: Generate automations window
 
-5.  Enter additional instructions in the **Optional context** field to guide the decomposition.
+5.  Enter additional instructions in the **Optional context** field to guide the automation generation.
 
     Use additional instructions to focus or constrain the output. For example, you can specify steps to exclude or applications to prioritize. If you skip this step, Automation Center uses only the task recording attachment as input.
 
-    Automation Center reads the task recording attachment and uses AI to decompose the task into discrete automations. A status message is displayed while the decomposition runs.
+    Automation Center reads the task recording attachment and uses AI to break down the task into discrete automations. A status message is displayed while the automations are generated.
 
-    **Important:** AI-generated decompositions may be inaccurate or incomplete. Always review the results before proceeding.
+    **Important:** AI-generated automations may be inaccurate or incomplete. Always review the results before proceeding.
 
 6.  Review the generated automations.
 
@@ -140,7 +140,7 @@ A summary of the steps the automation performs. This field is used as the basis 
 
 ## Result
 
-The **Automations** tab displays the decomposed automations. You can now create an agent from the decomposed automations.
+The **Automations** tab displays the automations. You can now create an agent from the automations.
 
 **Parent Topic:**[Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
 
@@ -149,5 +149,5 @@ The **Automations** tab displays the decomposed automations. You can now create 
 
 [Automating tasks from Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automate-tasks-from-task-mining.md)
 
-[Create an agent from decomposed automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-agent-automations.md)
+[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-agent-automations.md)
 

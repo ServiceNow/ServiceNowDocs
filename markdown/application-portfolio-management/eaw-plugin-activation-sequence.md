@@ -35,8 +35,8 @@ You must have the admin role to activate plugins and store apps. Verify that you
 |4|sn\_4\_q\_bubble|Four-Quadrant Bubble Chart|Yes|UI component required by the workspace. Must be active before \#5.|
 |5|com.snc.apm\_workspace|Enterprise Architecture Workspace|Yes|Main workspace UI. Requires \#1–4 to be active first.|
 |Feature plugins — activate after core \(\#1–5\) in any order|
-|6|`com.snc.apm_trm`|TRM|Yes|Technology reference model, lifecycle tracking, and technical debt calculation. Activate before TPM \(\#7\).|
-|7|com.snc.apm\_tpm|Technology Portfolio Management|Yes|Software lifecycle data, capability scores, and software model mapping in the workspace. Activate after TRM \(\#6\).|
+|6|`com.snc.apm_trm`|TRM|Yes|Technology reference model, lifecycle tracking, and technical debt calculation. Activate before TLM \(\#7\).|
+|7|com.snc.apm\_tpm|Technology Lifecycle Management|Yes|Software lifecycle data, capability scores, and software model mapping in the workspace. Activate after TRM \(\#6\).|
 |8|com.snc.apm\_tco|Total Cost of Ownership|No|TCO cost data on application records.|
 |9|com.snc.apm\_digital\_integration|Digital Integration Management|No|Digital integration entities. If you plan to use Enterprise Modeling and Visualization \(\#15–17\), activate this plugin first.|
 |10|com.snc.apm\_cloud\_readiness|Cloud Readiness Assessment|No|Cloud readiness scoring on application records.|
@@ -66,7 +66,7 @@ After activating all required plugins and any optional add-ons, verify that the 
 -   The Application Rationalization bubble chart is visible.
 -   The Business Applications list populates with data.
 -   The Capability Heatmap renders correctly.
--   If TPM \(\#7\) is active, lifecycle data is visible on application records and capability scores display in the Business Capability Hierarchy.
+-   If TLM \(\#7\) is active, lifecycle data is visible on application records and capability scores display in the Business Capability Hierarchy.
 -   If Enterprise Modeling and Visualization \(\#15–17\) is active, the **Modeling and Visualization** section is available in the workspace navigation and EA entity shapes appear in the diagram shape library.
 
 ## Resolving missing features
@@ -81,7 +81,7 @@ If a feature is missing after activation, use the following table to identify th
 |Digital Integration shapes missing from diagrams|Digital Integration Management was activated after Enterprise Modeling and Visualization|Activate com.snc.apm\_digital\_integration, then reactivate com.snc.apm\_modelling\_tool\_common.|
 |Lucidchart spoke actions missing in Flow Designer|IntegrationHub was not active before the Lucidchart spoke was activated|Activate IntegrationHub, then reactivate com.sn.lucidchart.spoke.|
 |Architectural Documents section missing|The Document Management platform plugin was not active whenEnterprise Architecture was activated|Activate com.snc.platform\_document\_management, then reactivate com.snc.apm.|
-|Now Assist buttons not visible in the workspace|The Now Assist for Enterprise Architecture \(EA\) plugin is not active|Activate sn\_apm\_gen\_ai.|
+|Now Assist buttons not visible in the workspace|The ServiceNow Otto for Enterprise Architecture \(EA\) plugin is not active|Activate sn\_apm\_gen\_ai.|
 
 **Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)
 

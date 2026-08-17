@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/assets-p
 release: australia
 topic_type: concept
 last_updated: "2026-03-30"
-reading_time_minutes: 5
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+reading_time_minutes: 6
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Assets page
@@ -347,4 +347,13 @@ The Comments section provides an area to enter additional information about the 
 4.  Select **Save**.
 
 The added comment is listed in the Comments section of the asset.
+
+-   **[Create an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-asset-console.md)**  
+Manually create an asset to the Discovery Console for OT.
+-   **[Deleting assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/bulk-delete-assets.md)**  
+Filter assets and do a bulk deletion in the Discovery Console for OT.
+-   **[Import or export assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/import-export-assets.md)**  
+You can import or export assets, and ignored assets, to either CSV or JSON formats.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

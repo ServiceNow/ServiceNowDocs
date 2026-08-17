@@ -1,6 +1,6 @@
 ---
 title: Using Advanced Work Assignment for Accounts Payable Operations
-description: Advanced Work Assignment \(AWA\) enables suppliers to interact withtions Accounts Payable Operations agents to raise invoice inquiries for resolution.
+description: Advanced Work Assignment \(AWA\) enables suppliers to interact with Accounts Payable Operations agents to raise invoice inquiries for resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/using-awa-for-apo.html
 release: australia
@@ -8,14 +8,14 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, invoice management, supplier, Advanced Work Assignment, AWA]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Using Advanced Work Assignment for Accounts Payable Operations
 
-Advanced Work Assignment \(AWA\) enables suppliers to interact withtions Accounts Payable Operations agents to raise invoice inquiries for resolution.
+Advanced Work Assignment \(AWA\) enables suppliers to interact with Accounts Payable Operations agents to raise invoice inquiries for resolution.
 
 Use AWA for the following benefits:
 
@@ -30,7 +30,7 @@ Use AWA for the following benefits:
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 
@@ -46,7 +46,7 @@ Use AWA for the following benefits:
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 

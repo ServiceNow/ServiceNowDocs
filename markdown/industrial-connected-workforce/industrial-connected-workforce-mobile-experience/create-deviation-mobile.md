@@ -74,9 +74,9 @@ The opened deviation can be:
 
 **Note:** The actions Close, Cancel, and Reopen are restricted to users with the sn\_icw.deviation\_expert role. Other actions are supported for both the sn\_icw.deviation\_user and sn\_icw.deviation\_expert role.
 
--   **[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)**  
-With the AI Enhanced recommended actions for Industrial Connected Workforce Mobile Experience, you can contextualize an external document to get an explanation of why the document is relevant to a deviation.
--   **[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.md)**  
+-   **[Contextualize an external document in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)**  
+With the AI Enhanced Recommended Actions for Industrial Connected Workforce Mobile Experience, you can contextualize an external document to get an explanation of why the document is relevant to a deviation.
+-   **[Generate an action plan in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.md)**  
 Generate an action plan to document and track remediation steps for an Industrial Connected Workforce Mobile Experience \(ICW Mobile\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 
 **Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)

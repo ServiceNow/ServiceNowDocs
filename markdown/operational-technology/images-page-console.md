@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Images page
@@ -50,4 +50,6 @@ To add an image, select the add icon \[Omitted image "add-icon-msi.jpg"\] Alt te
 To delete an image, select the delete icon \[Omitted image "delete-image-msi-console.png"\] Alt text:.
 
 **Note:** To capture screenshots during the Operational Technology Discovery process, the Full Web Extractor Auto Query needs to be selected and executed. This captures the screenshots over ports 443 and 80 and extracts the content from the web pages.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

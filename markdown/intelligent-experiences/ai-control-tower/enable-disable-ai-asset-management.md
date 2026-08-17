@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Enable or disable the management of an AI asset

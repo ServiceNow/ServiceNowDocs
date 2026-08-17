@@ -90,7 +90,7 @@ scrum\_user
 
 -   **Percent Completed**
 
-    Indicates the percentage of work \(in story points\) that has been completed in the release. This widget lets you see at a glance how much work has been completed in the release. Together with the adjacent Time Elapsed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the release goal on schedule.
+    Indicates the percentage of work \(in story points\) that has been completed in the release. This widget lets you see at a glance how much work has been completed in the release. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the release goal on schedule.
 
 -   **Scope**
 
@@ -98,7 +98,7 @@ scrum\_user
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the release. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the Release goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the release. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the Release goal on schedule.
 
 -   **Blocked Work**
 
@@ -232,7 +232,7 @@ Identify the time taken for each story in the release to move from an in-progres
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
+ If there are too many stories at any area of the chart and the bubbles appear crowded on the report. You can zoom in on that particular area of the report for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

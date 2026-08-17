@@ -30,15 +30,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a multi-day.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d519023e102">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d518694e102">
 
 Location
 
-</th><th align="left" id="d519023e105">
+</th><th align="left" id="d518694e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d519023e111">
+</th></tr></thead><tbody><tr><td id="d518694e111">
 
 **Application navigation filter**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d519023e135">
+</td></tr><tr><td id="d518694e135">
 
 **From Employee Center Portal**
 

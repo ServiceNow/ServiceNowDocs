@@ -1,20 +1,20 @@
 ---
-title: Use case: Using Apex to call or test ServiceNow CPQ APIs
-description: Learn how to use Apex to call or to test ServiceNow CPQ APIs.
+title: Use case: Using Apex to call or test CPQ APIs
+description: Learn how to use Apex to call or to test CPQ APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_how\_to\_use\_apex\_to\_calltest\_logik\_apis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Use case: Using Apex to call or test ServiceNow CPQ APIs
+# Use case: Using Apex to call or test CPQ APIs
 
-Learn how to use Apex to call or to test ServiceNow CPQ APIs.
+Learn how to use Apex to call or to test CPQ APIs.
 
-The easiest way to test Apex code for use of ServiceNow CPQ is through the developer console in SFDC.
+The easiest way to test Apex code for use of CPQ is through the developer console in SFDC.
 
 \[Omitted image "cpq-using-apex-developer-console.png"\] Alt text: User interface
 
@@ -30,7 +30,7 @@ Save the code, and then in the Debug menu, click Execute Anonymous Window.
 
 In the execute anonymous window, execute the code `functionName.exec();`
 
-## Example Apex code to call a ServiceNow CPQ API
+## Example Apex code to call a CPQ API
 
 The following code is an example of an Apex class that will get information about a potential configuration:
 

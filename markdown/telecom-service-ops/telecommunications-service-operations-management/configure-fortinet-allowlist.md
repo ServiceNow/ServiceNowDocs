@@ -1,20 +1,20 @@
 ---
-title: Configure Fortinet allowlist
-description: Configure connector definitions to limit polling to specific Fortinet ADOMs using allowlist settings.
+title: Configure Fortinet ADOM for connector instance
+description: Configure a connector instance to poll a specific Fortinet ADOM for metric data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-fortinet-allowlist.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Configure Fortinet allowlist
+# Configure Fortinet ADOM for connector instance
 
-Configure connector definitions to limit polling to specific Fortinet ADOMs using allowlist settings.
+Configure a connector instance to poll a specific Fortinet ADOM for metric data.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: tsom\_visibility\_admin
 
 ## About this task
 
-Use multiple connector instances with disjoint allowlists to distribute collection across MID Servers and avoid polling interval overruns in large-scale deployments. Specify the ADOM from which the connector pulls data.
+Each connector instance polls a single ADOM. To collect data from multiple ADOMs, create multiple connector instances, each configured with a different ADOM value. Distribute connector instances across MID Servers to avoid polling interval overruns in large-scale deployments.
 
 ## Procedure
 

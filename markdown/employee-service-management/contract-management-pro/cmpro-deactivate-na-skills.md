@@ -1,6 +1,6 @@
 ---
-title: Deactivate skills for Now Assist in Contract Management
-description: Deactivate the skills in Now Assist in Contract Management when they are not in use.
+title: Deactivate skills for ServiceNow Otto for Contract Management Pro
+description: Deactivate the skills in ServiceNow Otto for Contract Management Pro when they are not in use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.html
 release: australia
@@ -9,13 +9,13 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Deactivate skills in Now Assist in Contract Management, Deactivate contract metadata extraction, Deactivate contract analysis, Turn off contract metadata extraction, Turn off contract analysis, Turn off Now Assist in Contract Management]
-breadcrumb: [Manage skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Deactivate skills in Now Assist in Contract Management, ServiceNow Otto for Contract Management Pro, Deactivate contract metadata extraction, Deactivate contract analysis, Turn off contract metadata extraction, Turn off contract analysis]
+breadcrumb: [Manage skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Deactivate skills for Now Assist in Contract Management
+# Deactivate skills for ServiceNow Otto for Contract Management Pro
 
-Deactivate the skills in Now Assist in Contract Management when they are not in use.
+Deactivate the skills in ServiceNow Otto for Contract Management Pro when they are not in use.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
@@ -31,25 +31,25 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 4.  On the tile of your skill that you want to deactivate, select **Deactivate skill** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
 
-    \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract Management Pro.
+    \[Omitted image "cmpro-na-skills-deactivate.png"\] Alt text: Deactive skills in Contract Management Pro.
 
 5.  In the pop-up messages, select **Deactivate**.
 
 
 ## Result
 
-The skill is deactivated for Now Assist in Contract Management and displayed in the **All available Contract Management Pro skills** section.
+The skill is deactivated for ServiceNow Otto for Contract Management Pro and displayed in the **All available Contract Management Pro skills** section.
 
-To reactivate the skill, select **Activate skill**. For more information, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+To reactivate the skill, select **Activate skill**. For more information, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Managing skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
 
 **Related topics**  
 
 
-[Manage use cases for Now Assist in Contract Management]()
+[Manage use cases for ServiceNow Otto for Contract Management Pro]()
 
-[Manage use case mappings for Now Assist in Contract Management]()
+[Manage use case mappings for ServiceNow Otto for Contract Management Pro]()
 
 [Manage clause mappings for contract analysis]()
 

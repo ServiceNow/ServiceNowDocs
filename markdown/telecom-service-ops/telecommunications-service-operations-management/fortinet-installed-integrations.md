@@ -18,8 +18,14 @@ Predefined system integrations use Fortinet REST APIs to pull metric data into y
 
 |Fortinet integration|Description|
 |--------------------|-----------|
-|Performance status|Monitors resource utilization and system health for FortiGate devices, including CPU, memory, and session data.|
-|SD-WAN SLA log|Collects SD-WAN link performance data, including latency, jitter, and packet loss against configured SLA thresholds.|
+|Fortinet Performance Status|Monitors resource utilization and system health for FortiGate devices, including CPU and memory usage.|
+|Fortinet SD-WAN SLA Log|Collects SD-WAN link performance data, including latency, jitter, and packet loss against configured SLA thresholds.|
+|Fortinet SD-WAN Interface Log|Monitors interface transmit and receive bandwidth and bytes metrics.|
 
 **Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+
+**Related topics**  
+
+
+[Metric type IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-metric-type-ids.md)
 

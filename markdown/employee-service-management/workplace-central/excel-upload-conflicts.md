@@ -176,3 +176,5 @@ If the uploaded Excel sheet has the same location listed in two different rows, 
 
 [User Workplace Profile form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

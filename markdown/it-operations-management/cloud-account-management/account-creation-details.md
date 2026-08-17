@@ -9,7 +9,7 @@ classification: cloud-account-management
 topic_type: reference
 last_updated: "2026-06-09"
 reading_time_minutes: 2
-breadcrumb: [Cloud Account Management reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # New cloud account request fields

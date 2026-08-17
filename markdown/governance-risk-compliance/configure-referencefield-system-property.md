@@ -62,7 +62,7 @@ You can configure the **referenceFieldLoadLimit** system property for the refere
 
     You’ve configured the **referenceFieldLoadLimit** property for the selected assessment as shown in the example. \[Omitted image "configured-value.png"\] Alt text: Property set for the assessment.
 
-    **Note:** As outlined in the context of this task, you can set the **referenceFieldLoadLimit** property to control the number the reference fields on different grid configuration pages.
+    **Note:** As outlined in the context of this task, you can set the **referenceFieldLoadLimit** property to control the number of the reference fields on different grid configuration pages.
 
     The example shows the updated number of the records for the **Disruption Duration** field in the **RTO Impact Assessment** tab.
 

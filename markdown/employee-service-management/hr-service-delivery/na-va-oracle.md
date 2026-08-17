@@ -20,7 +20,7 @@ You can use the Now Assist Virtual Agent topics in Employee Center to place requ
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure the Now Assist for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
+-   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
 -   Role required: sn\_hr\_oracle\_adv.admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM

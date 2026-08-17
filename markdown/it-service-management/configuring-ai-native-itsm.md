@@ -17,7 +17,7 @@ Configure your ITSM workflows using an AI-first, centralized, and intuitive admi
 
 ## Configuration overview
 
-1.  Ensure that the Setup Hub application is installed on ServiceNow instance. See [Set up Now Assist with Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md).
+1.  Ensure that the ServiceNow Otto for Setup application is installed on ServiceNow instance. See [Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md).
 2.  Based on your subscription, one of the following relevant ITSM applications should be auto-installed. If not auto-installed, request for the entitlement of the required application from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install it. See [Install IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/install-native-ai-itsm.md).
 
 <table><thead><tr><th>

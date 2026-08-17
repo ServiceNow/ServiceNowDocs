@@ -1,6 +1,6 @@
 ---
 title: Set up the environment to manage approvals
-description: Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a ServiceNow CPQ implementation.
+description: Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a CPQ implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setup-approvals-prerequisites.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configu
 
 # Set up the environment to manage approvals
 
-Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a ServiceNow CPQ implementation.
+Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a CPQ implementation.
 
 ## Before you begin
 
@@ -132,5 +132,5 @@ Proceed with the following tasks:
 -   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-users.md)
 -   [Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-groups.md)
 
-After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Submit a quote for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-quote-for-approval-process.md) and [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-quote.md).
+After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-quote.md).
 

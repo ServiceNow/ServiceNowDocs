@@ -1,18 +1,18 @@
 ---
 title: Roles and components of Partner Relationship Management
-description: The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
+description: The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
-breadcrumb: [Partner Relationship Management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Roles and components of Partner Relationship Management
 
-The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
+The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
 
 The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of functional and granular roles, each with varying levels of access to raise and address queries.
 
@@ -208,6 +208,11 @@ Navigate to **All** &gt; **Partner Relationship Management** &gt; **Properties**
 -   glide.service\_portal.resize\_text.partner.enable\_rem\_conversion
 -   glide.ui.sn\_prm\_partner\_program\_relationship\_activity.fields
 -   glide.ui.sn\_prm\_channel\_partner\_activity.fields
+
+-   **[Add responsibilities to PRM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-responsibilities-to-prm-roles.md)**  
+A responsibility describes a role or function that supports a user. Use responsibility definitions to create relationships between any two partner entities.
+
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

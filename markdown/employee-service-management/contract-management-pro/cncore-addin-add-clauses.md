@@ -56,15 +56,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     \[Omitted image "cmpro-waddin-use-clause.png"\] Alt text: Map clauses in ServiceNow Contracts add-in
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147302e247">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147022e247">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d147302e250">
+</th><th align="left" id="d147022e250">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147302e256">
+</th></tr></thead><tbody><tr><td id="d147022e256">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -72,7 +72,7 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d147302e276">
+</td></tr><tr><td id="d147022e276">
 
 **Create a clause and do not create any clause variation**
 
@@ -95,7 +95,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d147302e349">
+</td></tr><tr><td id="d147022e349">
 
 **Create a clause variation for an existing clause**
 

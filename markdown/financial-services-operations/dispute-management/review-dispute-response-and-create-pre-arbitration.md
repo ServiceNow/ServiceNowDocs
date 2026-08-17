@@ -38,7 +38,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     The **Chargeback** stage is initiated for the transaction.
 
-6.  Select the **Review dispute response and create pre-arbitration** activity.
+6.  Select the **Review dispute response and create pre-arbitration** task.
 
 7.  Review the merchant response in the **Dispute response** field of the record.
 
@@ -50,15 +50,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 9.  Select one of the following options.
 
-<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d60585e224">
+<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d59590e224">
 
 Selection
 
-</th><th align="left" id="d60585e227">
+</th><th align="left" id="d59590e227">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d60585e235">
+</th></tr></thead><tbody><tr><td id="d59590e235">
 
 **Unresolved**
 
@@ -74,7 +74,7 @@ Result
 8.  Select **Submit**.
 
 
-</td></tr><tr><td id="d60585e299">
+</td></tr><tr><td id="d59590e299">
 
 **Resolved**
 
@@ -91,7 +91,7 @@ Accept the dispute response and resolve the dispute.1.  Provide the **Descriptio
 
 12. Initiate pre-arbitration by selecting **Create pre-arbitration**.
 
-    The activity stream updates with the result of the request.
+    The task stream updates with the result of the request.
 
 
 ## Result

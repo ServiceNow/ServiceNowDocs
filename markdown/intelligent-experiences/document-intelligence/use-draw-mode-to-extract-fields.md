@@ -9,14 +9,14 @@ classification: document-intelligence
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Complete a document task, Use, Document Intelligence, Enable AI experiences]
+breadcrumb: [Complete a document task, Use, Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Extract fields using the draw tool
 
 Use the draw tool to extract information directly from text andtables on the document image.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the draw tool
 
@@ -66,15 +66,15 @@ If the field is auto-filled, a box already appears over the extracted text. You 
 
 5.  Adjust the box as needed.
 
-<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d168770e258">
+<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d240086e258">
 
 Option
 
-</th><th align="left" id="d168770e261">
+</th><th align="left" id="d240086e261">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168770e267">
+</th></tr></thead><tbody><tr><td id="d240086e267">
 
 **Resize the box**
 
@@ -84,7 +84,7 @@ Select the box. Drag the box edge or corner to the desired position.
 
  The updated text in the box is extracted and fills the related field in the document fields panel.
 
-</td></tr><tr><td id="d168770e282">
+</td></tr><tr><td id="d240086e282">
 
 **Remove the box**
 
@@ -94,7 +94,7 @@ Select the Remove the box icon \(\[Omitted image "icon-docintel-delete-grid.png"
 
  The box is deleted and the extracted value is removed from the field.
 
-</td></tr><tr><td id="d168770e303">
+</td></tr><tr><td id="d240086e303">
 
 **Extract to a different field**
 
@@ -218,15 +218,15 @@ Use the following steps to make changes to a grid. You can then extract the upda
 
     The text in the cell appears surrounded by a solid-line box if it’s already extracted. It appears in a dotted-line box if it isn’t extracted yet.
 
-<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d168770e723">
+<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d240086e723">
 
 Option
 
-</th><th align="left" id="d168770e726">
+</th><th align="left" id="d240086e726">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168770e732">
+</th></tr></thead><tbody><tr><td id="d240086e732">
 
 **Move the grid**
 
@@ -234,7 +234,7 @@ Description
 
 Drag the Move icon \(\[Omitted image "icon-docintel-dm-move-table.png"\] Alt text: Move icon.\) to the desired position.
 
-</td></tr><tr><td id="d168770e750">
+</td></tr><tr><td id="d240086e750">
 
 **Change a column header**
 
@@ -242,7 +242,7 @@ Drag the Move icon \(\[Omitted image "icon-docintel-dm-move-table.png"\] Alt tex
 
 Select the column header and select the column where the data will be extracted to in the table fields.
 
-</td></tr><tr><td id="d168770e762">
+</td></tr><tr><td id="d240086e762">
 
 **Make the first row a header row**
 
@@ -250,7 +250,7 @@ Select the column header and select the column where the data will be extracted 
 
 Select the row header and check the **This is a header row** check box.
 
-</td></tr><tr><td id="d168770e777">
+</td></tr><tr><td id="d240086e777">
 
 **Move a column or row border**
 
@@ -258,7 +258,7 @@ Select the row header and check the **This is a header row** check box.
 
 Drag the border to the desired position.
 
-</td></tr><tr><td id="d168770e790">
+</td></tr><tr><td id="d240086e790">
 
 **Add a new column or row**
 
@@ -268,7 +268,7 @@ Go to the outside border of the grid and select the Add a line icon \(\[Omitted 
 
  Adding a line splits the affected cells so they can be extracted to separate fields.
 
-</td></tr><tr><td id="d168770e811">
+</td></tr><tr><td id="d240086e811">
 
 **Remove a column or row border**
 
@@ -278,7 +278,7 @@ Select the Remove a line icon \(\[Omitted image "icon-docintel-delete-grid-line.
 
  Removing a line merges the affected cells so they can be extracted to the same fields.
 
-</td></tr><tr><td id="d168770e832">
+</td></tr><tr><td id="d240086e832">
 
 **Remove the grid**
 
@@ -288,7 +288,7 @@ Select the Remove the grid icon \(\[Omitted image "icon-docintel-delete-grid.png
 
  This action only removes the grid, not the extracted data.
 
-</td></tr><tr><td id="d168770e853">
+</td></tr><tr><td id="d240086e853">
 
 **Ignore a table column or row**
 

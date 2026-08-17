@@ -8,7 +8,7 @@ product: Dispute Management
 classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [card disputes]
 breadcrumb: [Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Processing a Visa dispute, Managing disputes integrated with Visa, 
 
 The **Investigate** stage of the card dispute includes activities such as issuing provisional credit, reviewing participating merchant alerts, and investigating the transaction.
 
-The dispute agent manages disputed transactions through various activities in the **Dispute Workspace**. The **Investigate** stage of the card dispute includes the following key activities:
+The dispute agent manages disputed transactions through various tasks in the **Dispute Workspace**. The **Investigate** stage of the card dispute includes the following key tasks:
 
 |Activity|Description|
 |--------|-----------|

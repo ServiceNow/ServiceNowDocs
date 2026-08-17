@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 1
 keywords: [Cilium, service maps, Kubernetes Visibility Agent, Hubble, connection discovery]
-breadcrumb: [Enabling application service maps, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable service maps using Cilium

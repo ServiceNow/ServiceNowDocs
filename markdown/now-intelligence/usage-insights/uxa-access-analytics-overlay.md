@@ -48,5 +48,8 @@ Role required: analytics\_admin or analytics\_viewer
     **Note:** On the dashboard, in addition to individual application or portal pages, you can also gain insights by analyzing the entire application as a whole.
 
 
+-   **[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-experience-analytics-reference.md)**  
+Roles and properties installed with Usage Insights.
+
 **Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
 

@@ -29,7 +29,7 @@ Report any privacy breaches and complaints to help reduce and avert losses.
 -   **[Report a privacy case through email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-issues-email.md)**  
 Identify and manage issues related to the impacted areas for the reported privacy case. You can also create issues from the Privacy Case Management landing page.
 -   **[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)**  
-Use the Anonymous Reporting Center \(ARC\) to submit any suspected or confirmed privacy case without disclosing your identity.
+Submit any suspected or confirmed privacy case without having to disclose your identity using the Anonymous Reporting Center \(ARC\).
 
 **Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

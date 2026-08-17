@@ -53,7 +53,7 @@ Use this feature to track the digital services used by your customers and to pro
 
 </td></tr><tr><td>
 
-[Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md)
+[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
 
 </td><td>
 

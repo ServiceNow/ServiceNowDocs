@@ -53,7 +53,8 @@ Strategic Planning Workspace user\[sn\_align\_core.apw\_user\]
 
 </td><td>
 
-Can create, update, and delete portfolio plans, free-form roadmaps, and planning items.
+-   Can create, update, and delete portfolio plans, free-form roadmaps, and planning items.
+-   Can create, update, and delete RIDAC \(Risk, Issue, Decision, Action, Change request\) items on planning items and EAP iterations.
 
  This role can be given to users such as portfolio or product managers, business unit leads, and other planning personas.
 
@@ -65,6 +66,7 @@ Can create, update, and delete portfolio plans, free-form roadmaps, and planning
 -   sn\_gf.goal\_user
 -   sn\_align\_core.ap\_read\_only
 -   model\_manager
+-   sn\_align\_ws.ridac\_user
 
 </td></tr><tr><td>
 
@@ -78,12 +80,14 @@ sn\_align\_core.ap\_read\_only
 
 **Note:** Only the owner can edit or delete a portfolio plan view or a free-form roadmap view.
 
+-   Can view RIDAC \(Risk, Issue, Decision, Action, Change request\) items on planning items and EAP iterations.
 
 </td><td>
 
 -   sn\_milestones.milestone\_viewer
 -   sn\_dpr\_model.product\_enhancement\_read
 -   sn\_dpr\_model.product\_feature\_read
+-   sn\_align\_ws.ridac\_read\_only
 
 </td></tr><tr><td>
 
@@ -252,12 +256,14 @@ sn\_apw\_advanced.spw\_goal\_user
 
 </td><td>
 
-Can view the Goals page in the Strategic Planning Workspace and edit goals and targets.
+-   Can view the Goals page in the Strategic Planning Workspace and edit goals and targets.
+-   Can create, update, and delete RIDAC \(Risk, Issue, Decision, Action, Change request\) items on goals.
 
 </td><td>
 
 -   sn\_apw\_advanced.spw\_goal\_user\_read
 -   sn\_gf.goal\_user
+-   sn\_align\_ws.ridac\_user
 
 </td></tr><tr><td>
 
@@ -265,11 +271,13 @@ sn\_apw\_advanced.spw\_goal\_user\_read
 
 </td><td>
 
-Can view the Goals page in the Strategic Planning Workspace.
+-   Can view the Goals page in the Strategic Planning Workspace.
+-   Can view RIDAC \(Risk, Issue, Decision, Action, Change request\) items on goals.
 
 </td><td>
 
-sn\_gf.goal\_user\_read
+-   sn\_gf.goal\_user\_read
+-   sn\_align\_ws.ridac\_read\_only
 
 </td></tr></tbody>
 </table><table id="table_nnx_q51_fdc"><thead><tr><th>

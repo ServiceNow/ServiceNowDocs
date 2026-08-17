@@ -104,7 +104,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 </td></tr></tbody>
 </table>## Related applications and features
 
--   **[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)**
+-   **[Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)**
 
     Use Decision Builder to create and manage decision tables. Embed business logic into a series of if-then decision rules.
 

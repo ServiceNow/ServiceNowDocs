@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Source control integration, Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Link an app to source control in ServiceNow Studio
@@ -118,7 +118,7 @@ An optional description of the repository or application.
     The ServiceNow AI Platform validates the connection and user credentials and displays a success message. All application developers on the instance can now use the linked Git repository to manage changes.
 
 
-**Parent Topic:**[Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-integration.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 
 **Related topics**  
 

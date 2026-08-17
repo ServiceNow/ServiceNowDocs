@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, email ingestion, Advanced Work Assignment, AWA]
+keywords: [APO, Accounts Payable Operations, email ingestion, Advanced Work Assignment, AWA, Invoice Inquiry Cases, service channel]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -53,7 +53,7 @@ Configure agent chat settings in Accounts Payable Operations to enable AP agents
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 
@@ -69,7 +69,7 @@ Configure agent chat settings in Accounts Payable Operations to enable AP agents
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 

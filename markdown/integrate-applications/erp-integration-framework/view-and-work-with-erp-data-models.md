@@ -1,5 +1,5 @@
 ---
-title: View and edit the foundation of ERP models
+title: View and edit models
 description: Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, edit, change, view]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# View and edit the foundation of ERP models
+# View and edit models
 
 Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
 
@@ -32,7 +32,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 A model functions as a staging area that contains all potential fields you can add to remote and extraction tables, as well as, create, read, and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
 
-Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
+Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
 ## Procedure
 
@@ -78,7 +78,7 @@ ERP module
 
 </td><td>
 
-Brief name of the ERP business area on the system of record.
+Brief name of the ERP business area on the ERP system.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ ERP system
 
 </td><td>
 
-ERP system that represents a connection to a business section of your ERP system of record.
+ERP system that represents a connection to a business section of your ERP system.
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Name
 
 </td><td>
 
-Name of the model table on the system of record.
+Name of the model table on the ERP system.
 
 </td></tr><tr><td>
 
@@ -199,6 +199,4 @@ Number of times the model entity was updated.
 ## What to do next
 
 After you have noted the available fields and tables, you can add new table entities to a model by managing the model. When you manage the model, you can also create read, update, and create operations using table reads and BAPIs \(Business Application Programming Interface\). For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

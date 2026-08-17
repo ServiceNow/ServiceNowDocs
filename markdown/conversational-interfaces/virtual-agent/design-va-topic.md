@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-keywords: [Virtual Agent, designer, design, topic, control, node, Now Assist, NLU, LLM, conversation]
+keywords: [Virtual Agent, designer, design, topic, control, node, Otto, NLU, LLM, conversation]
 breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -21,9 +21,9 @@ Using Virtual Agent tools and features, you can develop conversations that addre
 
 To get started more quickly, the following resources are available for Virtual Agent:
 
--   **[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)**
+-   **[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)**
 
-    Create natural-language–based conversations with Now Assist. Virtual Agent uses large language models \(LLMs\) to improve conversation experience and self-service workflow success by way of generative AI skills.
+    Create natural-language–based conversations with ServiceNow Otto. Virtual Agent uses large language models \(LLMs\) to improve conversation experience and self-service workflow success by way of generative AI skills.
 
 -   **[Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md)**
 
@@ -36,7 +36,7 @@ To get started more quickly, the following resources are available for Virtual A
 
 ## Getting started with conversation design
 
-Use Virtual Agent Designer controls and reusable conversational elements to create the dialogue for your conversations between Virtual Agent and the end user. Before you begin, make sure you do the following:
+Use Assistant Designer controls and reusable conversational elements to create the dialogue for your conversations between Virtual Agent and the end user. Before you begin, make sure you do the following:
 
 -   **Identify the use case for a conversation.**
 
@@ -46,11 +46,11 @@ Use Virtual Agent Designer controls and reusable conversational elements to crea
 
 -   **Determine the structure of a conversation.**
 
-    As you think about your conversation flow, identify the direct path to resolution. Then consider alternate paths where the conversation might branch, depending on the information supplied by the user. Consider how to handle each branch and whether users might loop back to an earlier point in the conversation.
+    As you think about your conversation flow, identify the direct path to resolution. Consider alternate paths where the conversation might branch, depending on the information supplied by the user. Consider how to handle each branch and whether users might loop back to an earlier point in the conversation.
 
     Conversations have a beginning \(the greeting\), a middle, and an end, which may include a survey or an incident number to follow up on. In the middle, consider how the user might need to switch topics, depending on the issue.
 
-    If you're using LLM, consider whether you want to add or restrict any data collection from the user through means such as additional instructions to the LLM or customized slot-filling.
+    If you're using LLM, consider whether to add or restrict data collection from the user through means such as additional instructions to the LLM or customized slot-filling.
 
     If you're using Natural Language Understanding \(NLU\), consider scenarios where a user might want to switch topics during a conversation session. For example, a user might want to change topics entirely. Or a user might get sidetracked and ask a question that seems out of context, maybe to engage in "small talk" with the virtual agent. Determine whether you want to let the user resume the original conversation after switching topics during the conversation.
 
@@ -63,7 +63,7 @@ Use Virtual Agent Designer controls and reusable conversational elements to crea
     When you create a topic in Assistant Designer Asset library, the design process involves these basic steps:
 
     1.  Decide what use case the topic will address.
-    2.  Create the topic and set properties that define the scope, what portal it will be published in \(what assistant will be used\), and a thorough topic description that will be used for discovery.
+    2.  Create the topic and set properties that define the scope, and what portal it will be published in \(what assistant will be used\). Include a thorough topic description that will be used for discovery.
     3.  Build the conversation flow in Assistant Designer's Asset library topic flow tab.
     4.  Test and fine-tune the conversation flow.
     5.  Publish your topic.

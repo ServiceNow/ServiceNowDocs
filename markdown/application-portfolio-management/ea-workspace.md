@@ -1,6 +1,6 @@
 ---
 title: Enterprise Architecture Workspace
-description: The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive user interface to enable enterprise architects to stay up to date with their tasks, get insights, and monitor the health of the portfolio from a single location.
+description: The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive interface for enterprise architects to manage tasks, gain insights, and monitor portfolio health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/ea-workspace.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Enterprise Architecture]
 
 # Enterprise Architecture Workspace
 
-The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive user interface to enable enterprise architects to stay up to date with their tasks, get insights, and monitor the health of the portfolio from a single location.
+The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive interface for enterprise architects to manage tasks, gain insights, and monitor portfolio health.
 
 \[Omitted video\] Description: Enterprise Architecture Workspace Overview
 

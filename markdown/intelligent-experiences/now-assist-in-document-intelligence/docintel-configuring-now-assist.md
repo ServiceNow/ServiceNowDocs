@@ -8,9 +8,9 @@ product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Configuring Now Assist in Document Intelligence
@@ -48,5 +48,5 @@ Deactivate a use case that you don’t want to use for your documents.
 -   **[Delete a use case in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/delete-now-assist-document-intelligence-use-case.md)**  
 Delete a use case when it is no longer needed for your documents.
 
-**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

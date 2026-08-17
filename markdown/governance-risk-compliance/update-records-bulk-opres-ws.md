@@ -61,7 +61,7 @@ Repeat these steps for each data type to ensure consistency across all categorie
 
     It creates a Microsoft Excel sheet that you can use to make bulk updates for the records you selected.
 
-    After downloading the templates to add options on the reference fields, the upload templates are updated to a dynamic format with drop-downs for choice and reference fields, rather than hard-coding the values.
+    After downloading the templates, you can add options on the reference fields. The upload templates are updated to a dynamic format with drop-downs for choice and reference fields, rather than hard-coding the values.
 
     The dynamic templates automatically handle translations for headers and reference field options. They fetch these elements in real-time, ensuring they remain up-to-date without the need for manual updates. The default template stays up-to-date because the options are generated dynamically.
 

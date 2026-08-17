@@ -1,6 +1,6 @@
 ---
 title: Federal plugin
-description: The ServiceNow, Inc. Federal plugin provides additional data elements for public sector customers that align with the Human Capital Information Model \(HCIM\). The HCIM is a set of data standards for Federal human capital management developed by the Human Resources Line of Business \(HRLOB\) at the Office of Personnel Management \(OPM\).
+description: The ServiceNow, Inc. Federal plugin provides data elements for public sector customers. These align with HCIM \(Human Capital Information Model\), the Federal human capital management data standard. HCIM was developed by the Human Resources Line of Business at the Office of Personnel Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/fed-view.html
 release: australia
@@ -8,15 +8,15 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
 # Federal plugin
 
-The ServiceNow, Inc. Federal plugin provides additional data elements for public sector customers that align with the Human Capital Information Model \(HCIM\). The HCIM is a set of data standards for Federal human capital management developed by the Human Resources Line of Business \(HRLOB\) at the Office of Personnel Management \(OPM\).
+The ServiceNow, Inc. Federal plugin provides data elements for public sector customers. These align with HCIM \(Human Capital Information Model\), the Federal human capital management data standard. HCIM was developed by the Human Resources Line of Business at the Office of Personnel Management.
 
-This plugin is intended for the use of extending the tables such as HR Profile, Location, Position with additional fields and tables relevant to the Federal, State, and Local public sectors.
+This plugin extends HR Profile, Location, and Position tables with additional fields and tables for Federal, State, and Local public sectors.
 
 ## Key benefits
 
@@ -36,15 +36,15 @@ The following are some key benefits of the Federal plugin:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the plugin to get started Configure the plugin to get started
+[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the plugin to get started
 
 </td><td>
 
-[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers. Use the plugin to promote interoperability between agencies or shared service providers.
+[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers.
 
 </td><td>
 
-[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about tables in Federal plugin Get details about tables in the plugin
+[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about tables in the plugin
 
 </td></tr></tbody>
 </table>## Additional resources

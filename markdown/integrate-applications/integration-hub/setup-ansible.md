@@ -7,8 +7,8 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-08-03"
+reading_time_minutes: 3
 breadcrumb: [Ansible Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -21,6 +21,20 @@ Integrate your ServiceNow instance and Ansible Tower to automate Ansible spoke a
 -   Request an Integration Hub subscription.
 -   Activate the Ansible spoke.
 -   Role required: admin.
+
+**Note:** Ansible spoke supports MID Server from v2.4.0 onwards. If you are using a previous version of the spoke and want to use MID Server, upgrade to the latest version of Ansible spoke and delete the existing connection and credential record.
+
+To delete the existing connection and credential record:
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+2.  Search and open the default connection and credential record for the Ansible spoke. For example, **AnsibleTowerAlias**.
+3.  Under the **Connections** tab, open the default HTTP\(s\) Connection record. For example, **Ansible Spoke Connection**.
+4.  Click **Delete**. System prompts you confirm delete action.
+5.  Click **Delete**.
+6.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+7.  Search and open the default credential record for the Ansible spoke. For example, **Ansible credential**.
+8.  Click **Delete**. System prompts you confirm delete action.
+9.  Click **Delete**.
 
 ## Create an OAuth application in the Ansible Tower
 
@@ -52,7 +66,7 @@ Ensure that you have the administrator's access to the Ansible Tower instance.
     |Description|Description of the application. This field is optional.|
     |Organization|Organization the OAuth application is associated with.|
     |Authorization grant type|The basis of the OAuth application granting access to the client. The basis could be an authorization code given to the client or a resource-owner password.|
-    |Redirect URIs|Redirect the URI to the client after access is granted. Enter the redirect URI in the format `https://<instance name>.service.now.com/api/sn_ansible_spoke/ansible_oauth_redirect`.|
+    |Redirect URIs|Redirect the URI to the client after access is granted. Enter the redirect URI in the format `https://<ServiceNow-Instance-Name>.service-now.com/oauth_redirect.do`.|
     |Client type|Type of client that requests authentication from the OAuth application.|
 
 5.  Select **Save**.
@@ -103,7 +117,7 @@ Ensure you have set up an OAuth application on the Ansible Tower instance.
     |Oauth Entity Profile Name|Name of the OAuth application that you created on the Ansible Tower instance.|
     |Authorization URL|The URL that the client uses to request access to the Ansible Tower instance. The URL format is `https://<ansible-tower-instancename>.com/api/o/authorize`.|
     |Token URL|The URL that the client uses to request a token to access the Ansible Tower instance. The URL format is `https://<ansible-tower-instance-name>.com/api/o/token`.|
-    |OAuth Redirect URL|The redirect URL that the OAuth application uses to redirect to your ServiceNow instance. The URL must be in the format `https://<your instance name>.service-now.com/api/sn_ansible_spoke/ansible_oauth_redirect`.|
+    |OAuth Redirect URL|The redirect URL that the OAuth application uses to redirect to your ServiceNow instance. The URL must be in the format `https://<ServiceNow-Instance-Name>.service-now.com/oauth_redirect.do`.|
 
 8.  Select **Configure and Get OAuth Token**.
 

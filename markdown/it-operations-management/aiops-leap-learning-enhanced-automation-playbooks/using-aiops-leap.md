@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Using LEAP
@@ -25,11 +25,11 @@ AOs are categorized depending on how critical the services are, number of hand o
 -   Moderate
 -   Low
 
-LEAP groups incidents into AOs categorized by priority. Use AOs to research incidents, identify root causes, and develop resolutions. You can also map AOs to Ansible job templates and execute automated remediations directly from the SOW.
+LEAP groups incidents into AOs categorized by priority. Use AOs to research incidents, identify root causes, and develop resolutions. You can also map AOs to Ansible job templates and execute automated remediation directly from the SOW.
 
 AOs enable you to create problem records for deeper analysis, knowledge base articles for future reference, and playbooks that give IT operators access to resolution steps.
 
-The Now Assist Explore feature streamlines artifact creation. Select **Explore** to open the Now Assist panel, where a workflow menu guides you through creating the artifacts you need. You can also generate artifacts using the **Actions** button.
+The Ask Otto feature of ServiceNow Otto streamlines artifact creation. Select \[Omitted image "Otto-01.svg"\] Alt text: Ask Otto button to open the ServiceNow Otto panel, where a workflow menu guides you through creating the artifacts you need. You can also generate artifacts using the **Actions** button.
 
 1.  [Generate and modify resolution steps in LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generating-and-modifying-resolution-steps.md)
 

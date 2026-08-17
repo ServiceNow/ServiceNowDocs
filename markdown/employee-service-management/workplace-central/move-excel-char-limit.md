@@ -66,3 +66,5 @@ The Excel columns must be within the specified length to create a move project.
 
 [User Workplace Profile form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

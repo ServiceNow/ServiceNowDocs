@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/clone-aia-usecase.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Duplicate an agentic workflow
@@ -56,7 +56,7 @@ Custom columns, such as the Tools and Knowledge sources, Status, and a column wi
 
     **Note:** The triggers that you see in the duplicated agentic workflows are from the original agentic workflow. They aren’t active by default but you can activate them if necessary.
 
-6.  In the Toggle display section, turn on the Display toggle for the duplicated agentic workflow to be visible in the Now Assist panel and select **Save and test**.
+6.  In the Toggle display section, turn on the Display toggle for the duplicated agentic workflow to be visible in the ServiceNow Otto panel and select **Save and test**.
 
 
 ## Result

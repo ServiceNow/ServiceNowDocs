@@ -42,15 +42,15 @@ View details of every change made in the scenario. You can view details such as 
 
 3.  Open the scenario that you want to view by using any of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d778063e142">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d778420e142">
 
 Path
 
-</th><th align="left" id="d778063e145">
+</th><th align="left" id="d778420e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d778063e151">
+</th></tr></thead><tbody><tr><td id="d778420e151">
 
 **From the Scenarios list section**
 
@@ -64,7 +64,7 @@ A list of all the scenarios created in the application is displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d778063e176">
+</td></tr><tr><td id="d778420e176">
 
 **From the Buildings list section**
 

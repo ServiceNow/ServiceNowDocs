@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Code roles
-description: Understand the roles needed to use Now Assist for Code. These roles are created when Now Assist for Creator is installed.
+title: ServiceNow Otto for Code roles
+description: Understand the roles needed to use ServiceNow Otto for Code. These roles are created when ServiceNow Otto for Creator is installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/now-assist-code-roles.html
 release: australia
@@ -9,18 +9,18 @@ classification: scripts
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Code reference, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Reference, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Now Assist for Code roles
+# ServiceNow Otto for Code roles
 
-Understand the roles needed to use Now Assist for Code. These roles are created when Now Assist for Creator is installed.
+Understand the roles needed to use ServiceNow Otto for Code. These roles are created when ServiceNow Otto for Creator is installed.
 
 To learn more about managing subscriptions for individual users, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative for assistance.
 
-## Now Assist Code Admin \[now\_assist\_code\_admin\]
+## Admin \[now\_assist\_code\_admin\]
 
-Manage the preferences and configurations for Now Assist for Code.
+Manage the preferences and configurations for ServiceNow Otto for Code.
 
 -   **Groups**
 
@@ -39,5 +39,5 @@ Manage the preferences and configurations for Now Assist for Code.
     None
 
 
-**Parent Topic:**[Now Assist for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
 

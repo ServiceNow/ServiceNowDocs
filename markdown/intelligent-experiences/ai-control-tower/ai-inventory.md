@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI asset inventory
@@ -46,5 +46,5 @@ For information on AI asset record details, see [View AI asset record details](h
 
 For information on creating AI assets, see [Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 
-For information on process flow of the MCP servers, see [Process flow of MCP Servers Via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.md)
+For information on process flow of the MCP servers, see 
 

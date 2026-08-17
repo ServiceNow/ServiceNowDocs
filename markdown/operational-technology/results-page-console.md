@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/results-
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+reading_time_minutes: 2
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Results page
@@ -56,4 +56,11 @@ The Results page **Action** button lets you export the scan results. You can **E
 \[Omitted image "results-export-raw.png"\] Alt text: Results page Action button
 
 The RAW data format is useful for debugging and verification.
+
+-   **[Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/filtering-results.md)**  
+The Results page provides a filter to find specific types of queries of information.
+-   **[Filter results for Host Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/results-filter-host-status.md)**  
+Filter your query results by Host Status. Verify whether devices were reachable when the query was executed.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

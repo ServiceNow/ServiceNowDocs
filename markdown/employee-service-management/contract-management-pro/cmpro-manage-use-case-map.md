@@ -1,6 +1,6 @@
 ---
-title: Manage use case mappings for Now Assist in Contract Management
-description: Manage use case mappings for Now Assist in Contract Management by updating the mapped tables for use cases, deactivating the mappings when not in use, or deleting them when no longer required.
+title: Manage use case mappings for ServiceNow Otto for Contract Management Pro
+description: Manage use case mappings for ServiceNow Otto for Contract Management Pro by updating the mapped tables for use cases, deactivating the mappings when not in use, or deleting them when no longer required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-manage-use-case-map.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Update use case mappings, Modify use case mappings, Edit use case mappings, Delete use case mappings, Deactivate use case mappings]
-breadcrumb: [Manage skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manage skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Manage use case mappings for Now Assist in Contract Management
+# Manage use case mappings for ServiceNow Otto for Contract Management Pro
 
-Manage use case mappings for Now Assist in Contract Management by updating the mapped tables for use cases, deactivating the mappings when not in use, or deleting them when no longer required.
+Manage use case mappings for ServiceNow Otto for Contract Management Pro by updating the mapped tables for use cases, deactivating the mappings when not in use, or deleting them when no longer required.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
+3.  On the tile of your activated skill, select **Edit Configuration** to modify it.
 
     \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract management pro.
 
@@ -56,20 +56,20 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Result
 
-Now Assist uses the updated use case mapping for contract analysis or metadata extraction.
+AI uses the updated use case mapping for contract analysis or metadata extraction.
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Managing skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
 
 **Related topics**  
 
 
-[Manage use cases for Now Assist in Contract Management]()
+[Manage use cases for ServiceNow Otto for Contract Management Pro]()
 
 [Manage clause mappings for contract analysis]()
 
 [Manage expected response mappings for contract analysis]()
 
-[Deactivate skills for Now Assist in Contract Management]()
+[Deactivate skills for ServiceNow Otto for Contract Management Pro]()
 
 [Map a use case for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.md)
 

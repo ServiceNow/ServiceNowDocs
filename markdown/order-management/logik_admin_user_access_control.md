@@ -1,5 +1,5 @@
 ---
-title: ServiceNow CPQ: User Access Control
+title: CPQ: User Access Control
 description: View access types, access areas, and user roles that can be managed via the User Access utility.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_admin\_user\_access\_control.html
@@ -7,18 +7,18 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ admin settings, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# ServiceNow CPQ: User Access Control
+# CPQ: User Access Control
 
 View access types, access areas, and user roles that can be managed via the User Access utility.
 
 **Note:** This feature must be enabled by support request. Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
-Use the User Access utility to manage access to ServiceNow CPQ Admin. Admin users have full admin access unless their access level is modified via CSV import.
+Use the User Access utility to manage access to CPQ Admin. Admin users have full admin access unless their access level is modified via CSV import.
 
-For basic user access in ServiceNow CPQ, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For basic user access in CPQ, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Access levels
 

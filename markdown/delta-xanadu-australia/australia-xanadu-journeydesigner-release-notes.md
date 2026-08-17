@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-journeydesigner-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-08-17"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,7 +114,12 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
+-   **[Offboarding knowledge transfer plan generation agentic workflow](https://www.servicenow.com/docs/access?context=offboarding-knowledge-x-agentic-wf&family=zurich&ft:locale=en-US)**
+
+The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
+
 
 -   **[Generate onboarding ramp-up agentic workflow](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&family=zurich&ft:locale=en-US)**
 
@@ -124,9 +129,9 @@ Use the Generate onboarding ramp-up plan agentic workflow to establish an effici
     |---------------------|-----------|
     |Generate onboarding ramp-up plan|AI agents work together to generate personalized plans that are designed to ramp up the knowledge and skills of new employees who are beginning to embark on their onboarding journey.|
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 Zurich Early Availability

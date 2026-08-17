@@ -1,19 +1,19 @@
 ---
-title: Configure Now Assist settings in Now Assist Center
-description: Use Now Assist Admin console configuration features on the Now Assist Admin page in the Now Assist Center workspace.
+title: Configure AI settings in AI Admin Center
+description: Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-configure-admin-settings.html
 release: australia
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-07-30"
 reading_time_minutes: 5
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Using Now Assist Admin console features, Using other Now Assist applications from Now Assist Center, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using AI Admin Hub features, Using other AI applications from AI Admin Center, Use, AI Admin Center, Enable AI experiences]
 ---
 
-# Configure Now Assist settings in Now Assist Center
+# Configure AI settings in AI Admin Center
 
-Use Now Assist Admin console configuration features on the Now Assist Admin page in the Now Assist Center workspace.
+Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 
 ## Before you begin
 
@@ -21,25 +21,25 @@ Role required: sn\_na\_center.nac\_admin
 
 ## About this task
 
-Follow these steps to configure Now Assist settings.
+Follow these steps to configure AI settings.
 
-Now Assist Admin console features from the Experiences and Settings sections are accessible on the Now Assist Center admin page. The features are regrouped in Now Assist Center based on the type of action to perform.
+AI Admin Hub features from the Experiences and Settings sections are accessible on the AI Admin Hub page. The features are regrouped in AI Admin Center based on the type of action to perform.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Select **Admin** \(\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin icon. \) in the side navigation bar.
 
-    The Now Assist Admin page opens.
+    The AI Admin Hub page opens.
 
-    \[Omitted image "now-assist-center-admin-2.png"\] Alt text: Now Assist Admin page in Now Assist Center.
+    \[Omitted image "ai-admin-center-admin-hub.png"\] Alt text: AI Admin Hub page in AI Admin Center.
 
-3.  Select one of the options to on the Now Assist Admin page.
+3.  Select one of the options to on the AI Admin Hub page.
 
-    The selection opens in a new tab in the Now Assist Center workspace.
+    The selection opens in a new tab in the AI Admin Center workspace.
 
-    The following table lists the Now Assist Admin console options on the Now Assist Admin page.
+    The following table lists the options on the AI Admin Hub page.
 
 <table id="table_m2x_x3b_1jc"><thead><tr><th>
 
@@ -55,47 +55,47 @@ Account
 
 </td><td>
 
-Opens the Account page from Now Assist Admin console.
+Opens the Account page from AI Admin Hub.
 
- Review your Now Assist license details to make sure that you're up to date on what's available to you.
+ Review your ServiceNow AI license details to make sure that you're up to date on what's available to you.
 
  For more information, see [Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-now-assist-account-information.md).
 
 </td></tr><tr><td>
 
-Multilingual service
+Multilingual Service
 
 </td><td>
 
-Opens the Multilingual Service page from Now Assist Admin console.
+Opens the Multilingual Service page from AI Admin Hub.
 
- Turn on multilingual service for user-entered text with native translation or Dynamic Translation in Now Assist applications.
+ Turn on multilingual service for user-entered text with native translation or Dynamic Translation in AI applications.
 
- For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+ For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
 </td></tr><tr><td>
 
-Now Assist plugins
+AI Plugins
 
 </td><td>
 
-Opens the Plugins page from Now Assist Admin console.
+Opens the Plugins page from AI Admin Hub.
 
- Install Now Assist plugins to enable generative AI on your instance.
+ Install AI plugins to enable generative AI on your instance.
 
- For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+ For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
-Prompt injection
+Prompt Injection
 
 </td><td>
 
-Opens the Prompt Injection page from Now Assist Admin console.
+Opens the Prompt Injection page from AI Admin Hub.
 
  Activate or deactivate prompt injection attack detection to protect all generative AI applications and AI-generated text and conversations on your instance from malicious inputs and unintended model behaviors.
 
- For more information, see .
+ For more information, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md).
 
 </td></tr><tr><td>
 
@@ -103,43 +103,43 @@ Offensiveness
 
 </td><td>
 
-Opens the Offensiveness page from Now Assist Admin console.
+Opens the Offensiveness page from AI Admin Hub.
 
- Activate offensiveness detection to log or block offensive content generated by Now Assist skills and workflows.
+ Activate offensiveness detection to log or block offensive content generated by AI skills and workflows.
 
- For more information, see .
-
-</td></tr><tr><td>
-
-Sensitive filters
-
-</td><td>
-
-Opens the Filters page from Now Assist Admin console.
-
- Set up filters in Now Assist Guardian to redirect Virtual Agent users to a live agent or HR case when a sensitive subject is detected in a conversation.
-
- For more information, see .
+ For more information, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-offensiveness-protection-for-generative-ai.md).
 
 </td></tr><tr><td>
 
-Model providers
+Sensitive Filters
 
 </td><td>
 
-Opens the Manage model providers page from Now Assist Admin console.
+Opens the Filters page from AI Admin Hub.
 
- Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization and view the change history.
+ Set up filters in AI Guardian to redirect Virtual Agent users to a live agent or HR case when a sensitive subject is detected in a conversation.
+
+ For more information, see [Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-sensitive-topic-filters.md).
+
+</td></tr><tr><td>
+
+Model Providers
+
+</td><td>
+
+Opens the Manage model providers page from AI Admin Hub.
+
+ Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers. You can also review the model policy set by your organization and view the change history.
 
  For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 
 </td></tr><tr><td>
 
-Model versions
+Model Versions
 
 </td><td>
 
-Opens the Manage model versions page from Now Assist Admin console.
+Opens the Manage model versions page from AI Admin Hub.
 
  Manage the version of the model providers across skills and instance levels. You can change and update versions for the base system and custom skills.
 
@@ -147,35 +147,35 @@ Opens the Manage model versions page from Now Assist Admin console.
 
 </td></tr><tr><td>
 
-Manage integrations
+Manage Integrations
 
 </td><td>
 
-Opens the Manage Integration tab on the Manage model providers page from Now Assist Admin console.
+Opens the Manage Integration tab on the Manage model providers page from AI Admin Hub.
 
- Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in Now Assist Admin. You can select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
+ Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
 
  For more information, see [Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-integration.md).
 
 </td></tr><tr><td>
 
-Data privacy policies
+Data Privacy Policies
 
 </td><td>
 
-Opens the Privacy policies page from Now Assist Admin console.
+Opens the Privacy policies page from AI Admin Hub.
 
- Configure privacy policies to anonymize data in Now Assist.
+ Configure privacy policies to anonymize data in AI applications.
 
  For more information, see [Configure Now Assist privacy policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-privacy-policies.md).
 
 </td></tr><tr><td>
 
-Data sharing
+Data Sharing
 
 </td><td>
 
-Opens the Data sharing page from Now Assist Admin console.
+Opens the Data sharing page from AI Admin Hub.
 
  Data sharing improves ServiceNow AI products. You can opt out of data sharing from this page.
 
@@ -183,41 +183,41 @@ Opens the Data sharing page from Now Assist Admin console.
 
 </td></tr><tr><td>
 
-Data processing
+Data Processing
 
 </td><td>
 
-Opens the Data overflow processing page from Now Assist Admin console.
+Opens the Data overflow processing page from AI Admin Hub.
 
- Configure where Now Assist data is processed during periods of high traffic.
+ Configure where AI data is processed during periods of high traffic.
 
  For more information, see [Configure Now Assist data overflow processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-na-data-overflow.md).
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto Panel
 
 </td><td>
 
-Opens the Now Assist Panel page from Now Assist Admin console.
+Opens the ServiceNow Otto Panel page from AI Admin Hub.
 
- With the Now Assist panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+ With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 
- For more information, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+ For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 </td></tr><tr><td>
 
-Now Assist context menu
+ServiceNow Otto Context Menu
 
 </td><td>
 
-Opens the Now Assist Context Menu page from Now Assist Admin console.
+Opens the ServiceNow Otto Context Menu page from AI Admin Hub.
 
- The Now Assist context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
+ The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
 
- For more information, see [Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md).
+ For more information, see [ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist Admin console features in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-admin-console.md)
+**Parent Topic:**[Using AI Admin Hub features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-admin-console.md)
 

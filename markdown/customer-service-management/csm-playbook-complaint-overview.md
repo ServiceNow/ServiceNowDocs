@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
-breadcrumb: [Playbook applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+reading_time_minutes: 12
+breadcrumb: [Applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case Playbook for Complaints
@@ -55,7 +55,7 @@ Create a complaint case using the Case Playbook for Complaints
 
 Feature that opens the complaint playbook and initiates the first activity in the Intake stage, which is gathering complaint details. The agent can complete and save this activity to create the record.
 
- For more information, see [Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md).
+ For more information, see Create a record using a playbook.
 
 </td></tr><tr><td>
 
@@ -63,9 +63,9 @@ Focused activity view
 
 </td><td>
 
-Feature that determines how the stages and activities appear in the playbook.
+Feature that determines how the stages and activities appear in the playbook. [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md)
 
- The Case Playbook for Complaints uses the [Focused activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-layout.md), which enables agents to see
+ The Case Playbook for Complaints uses the Focused Activity View, which enables agents to see:
 
 -   The end-to-end life cycle of the complaint workflow in the playbook life-cycle panel.
 -   The current stage is expanded and the current activity is highlighted within the playbook life-cycle panel.
@@ -87,9 +87,9 @@ Feature that displays the following information in the contextual side panel:
 
  For more information about using the contextual side panel, see
 
--   [Using activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
--   [Viewing the ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
--   [Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
+-   Using activity stream in the contextual side panel
+-   Viewing the ribbon information in the contextual side panel
+-   Viewing dynamic related records in the contextual side panel
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Feature that displays the records in the contextual side panel. These records dy
 
 **Note:** The dynamic related records feature is available in CSM Configurable Workspace only.
 
- For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md).
+ For more information, see Viewing related records in the contextual side panel.
 
 </td></tr><tr><td>
 
@@ -479,5 +479,5 @@ The Case Playbook for Complaints v5.0 application includes a process-based page 
 -   Email templates that are displayed in the contextual side panel.
 -   Customization of the start and end states of the approval flow as fields in the Approval request activity.
 
-Agents can create tasks as needed as well as view and update case details. For more information, see [Playbook pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-pages.md).
+Agents can create tasks as needed as well as view and update case details. For more information, see .
 

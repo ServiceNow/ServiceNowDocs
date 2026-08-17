@@ -1,22 +1,22 @@
 ---
 title: Date and time field fields
-description: Reference for how date and time fields behave in ServiceNow CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
+description: Reference for how date and time fields behave in CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-date-time-field-behavior.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Fields, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Fields, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Date and time field fields
 
-Reference for how date and time fields behave in ServiceNow CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
+Reference for how date and time fields behave in CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
 
 ## Date and time fields in quoting
 
-Date and time fields in ServiceNow CPQ serve two primary purposes in a quoting context.
+Date and time fields in CPQ serve two primary purposes in a quoting context.
 
 -   **Term calculations**
 

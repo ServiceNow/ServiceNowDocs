@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, entity]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP ERP model table field descriptions
@@ -35,7 +35,7 @@ Field name
 
 </td><td>
 
-Name of the field on the system of record.
+Name of the field on the ERP system.
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ Name
 
 </td><td>
 
-Name of the table on the system of record that contains the field.
+Name of the table on the ERP system that contains the field.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Is custom
 
 </td><td>
 
-Option to indicate whether the field on the system of record is standard or customized.
+Option to indicate whether the field on the ERP system is standard or customized.
 
 </td></tr><tr><td>
 

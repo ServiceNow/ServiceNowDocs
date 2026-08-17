@@ -30,27 +30,27 @@ Use the following steps to create an app manually, or use Build Agent to create 
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Select either the create icon \[Omitted image "sn-studio-add-icon.png"\] Alt text: create icon next to the Navigator panel or the **Create** button.
+2.  Select either the create icon \[Omitted image "sn-studio-add-icon.png"\] Alt text: next to the Navigator panel or the **Create** button.
 
-    \[Omitted image "sn-studio-create-button-zs1.png"\] Alt text: There are two create buttons, one on either side of the screen. Select either Create button to start developing an app.
+    \[Omitted image "sn-studio-create-button-as2.png"\] Alt text: There are two create buttons, one on either side of the screen. Select either Create button to start developing an app.
 
 3.  Select **App** from the options that appear.
 
 4.  Select how to create your app from the available options.
 
-    \[Omitted image "sn-studio-create-app-as2.png"\] Alt text: Create your app independently, using Now Assist, or using Creator Studio. Select Explore the App Gallery to browse completed applications for reference.
+    \[Omitted image "sn-studio-create-app-otto.png"\] Alt text: Create your app independently, using ServiceNow Otto, or using Creator Studio. Select Explore the app gallery to browse completed applications for reference.
 
     **Note:** To browse completed apps for reference, select **Explore the App Gallery**. After signing in with your ServiceNow credentials, you can access a library of apps and app files.
 
-<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d291674e193">
+<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d297763e192">
 
 How to create
 
-</th><th align="left" id="d291674e196">
+</th><th align="left" id="d297763e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d291674e202">
+</th></tr></thead><tbody><tr><td id="d297763e201">
 
 **On your own**
 
@@ -58,17 +58,17 @@ Description
 
 Create the application independently, adding content and files of your choosing.Select **On your own** &gt; **Continue** and continue with step 5 in this procedure.
 
-</td></tr><tr><td id="d291674e222">
+</td></tr><tr><td id="d297763e221">
 
-**With Now Assist, which opens Build Agent**
+**With ServiceNow Otto, which opens Build Agent**
 
 </td><td>
 
-Begin a conversation with Build Agent to create your application.Select **With Now Assist** &gt; **Start a chat**. The Build Agent chat panel opens. Select **Create an application** or describe what you want to build.
+Begin a conversation with Build Agent to create your application.Select **With ServiceNow Otto** &gt; **Start a chat**. The Build Agent chat panel opens. Select **Create an application** or describe what you want to build.
 
 For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md).
 
-</td></tr><tr><td id="d291674e273">
+</td></tr><tr><td id="d297763e272">
 
 **With Creator Studio**
 

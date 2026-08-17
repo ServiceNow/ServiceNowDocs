@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -45,7 +45,7 @@ Enable custom actions to integrate with external systems by activating Integrati
 -   **[Ask for Approval step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-action-designer.md)**  
 Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 -   **[Call Now Assist Skill step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/call-now-assist-skill-step.md)**  
-Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 -   **[Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-action-designer.md)**  
 Creates a record on any table. You can dynamically add and configure fields for the record.
 -   **[Create or Update Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-update-record-step.md)**  

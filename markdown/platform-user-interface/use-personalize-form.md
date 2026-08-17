@@ -22,7 +22,7 @@ Role required: workspace\_user
 
 1.  Open a record in your instance.
 
-2.  From the form header, select the Additional actions icon \(\) or right-click the form header.
+2.  From the form header, select the Additional actions icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon.\) or right-click the form header.
 
     The More form options list opens.
 

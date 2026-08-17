@@ -9,14 +9,16 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Source control integration in ServiceNow Studio
 
 Link your application to a Git source control repository in ServiceNow Studio to save, manage, and share multiple versions of a global or scoped application from a non-production instance.
 
-Linking an application to source control enables all application developers on a non-production instance to:
+## Metadata source control
+
+Metadata source control processes changes in the metadata of your application. Linking an application to source control enables all application developers on a non-production instance to:
 
 -   Import applications from a Git repository.
 -   Pull and apply remote changes from a Git repository.
@@ -28,7 +30,7 @@ Linking an application to source control enables all application developers on a
 
 To link an application to source control:
 
--   The user must have the admin role.
+-   You must have the admin role.
 -   The non-production instance must have network access to the Git repository.
 -   Each application must be in its own Git repository.
 -   The repository user credentials must grant read and write access.
@@ -37,7 +39,7 @@ To link an application to source control:
 
 ## What can you do with source control in ServiceNow Studio?
 
-After linking an application to source control, application developers can use ServiceNow Studio to manage the repository. From ServiceNow Studio, developers can:
+After linking an application to source control, you can use ServiceNow Studio to manage the repository. From ServiceNow Studio, you can:
 
 -   Edit the application repository credentials.
 -   Commit all local changes on the instance.
@@ -74,10 +76,10 @@ Use an existing MID Server to connect to a source control repository. Connecting
 
 For more information about roles and collaborators, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
 
--   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)**  
-Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
--   **[Edit a Git repository configuration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.md)**  
-Edit a Git repository configuration in ServiceNow Studio to update the network protocol, credentials, or other connection details.
+-   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)**  
+Use metadata source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
+-   **[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)**  
+Integrate with remote Git repositories to manage Fluent applications in source control ServiceNow Studio.
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Add NLU to an existing keyword topic
-description: Create and map an NLU model group and intent for the topic from Assistant Designer.
+description: Create and map an NLU model group and intent for the topic from Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-nlu-existing-keyword-topic.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset libr
 
 # Add NLU to an existing keyword topic
 
-Create and map an NLU model group and intent for the topic from Assistant Designer.
+Create and map an NLU model group and intent for the topic from Assistant Designer Asset library.
 
 ## Before you begin
 
@@ -24,17 +24,19 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assisant Designer**.
 
-2.  Set the discovery type toggle switch to **NLU/Keyword**.
+2.  Select the **Asset library** tab.
 
-3.  Open an existing topic.
+3.  Set the discovery type toggle switch to **NLU/Keyword**.
 
-4.  Select the **Properties** tab.
+4.  Open an existing topic.
 
-5.  In the **NLU Model** field, do one of the following:
+5.  Select the **Properties** tab.
 
-    **Note:** If the **NLU model** field does not appear and you have Now Assist enabled, ensure that you haven't selected an LLM topic. Navigate back to the Topics page and select a topic that has the **Model Type** set to **NLU/Keywords**.
+6.  In the **NLU Model** field, do one of the following:
+
+    **Note:** If the **NLU model** field does not appear and you have ServiceNow Otto enabled, ensure that you haven't selected an LLM topic. Navigate back to the Topics page and select a topic that has the **Model Type** set to **NLU/Keywords**.
 
     -   Choose an existing model.
     -   Select **Create Model** to create a new model group.
@@ -43,24 +45,24 @@ Role required: virtual\_agent\_admin or admin
         2.  In the **Intent name** field, accept the default value or enter a name for the new intent.
         **Note:** New models are created in **Draft** state.
 
-6.  In the **Associated Intent** field, do one of the following:
+7.  In the **Associated Intent** field, do one of the following:
 
     -   Choose an existing intent.
     -   Select **Create intent** to create a new intent.
 
         In the **Intent Name** field, accept the default value or enter a name for the new intent.
 
-7.  In the **Keywords** field, enter key phrases or terms that users enter to initiate the conversation with the Virtual Agent.
+8.  In the **Keywords** field, enter key phrases or terms that users enter to initiate the conversation with the Virtual Agent.
 
     Press **Enter** after each phrase. Keywords are also used for languages that are currently not available in NLU.
 
-8.  Select the **NLU Intent** tab, and then add utterances and associate entities with them.
+9.  Select the **NLU Intent** tab, and then add utterances and associate entities with them.
 
     For more information about adding utterances, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-nlu-intent.md). For more information about defining entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md).
 
-9.  Make any other changes on the **Flow** tab, such as associating entities with a node or adding entities as input variables for the topic.
+10. Make any other changes on the **Flow** tab, such as associating entities with a node or adding entities as input variables for the topic.
 
-10. When you're finished with the topic, select **Save** in the topic header bar.
+11. When you're finished with the topic, select **Save** in the topic header bar.
 
 
 ## Result

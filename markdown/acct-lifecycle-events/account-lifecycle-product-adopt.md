@@ -14,7 +14,7 @@ breadcrumb: [Customer success, Explore, Customer Success Management]
 
 Product adoption and capability usage measure how effectively customers are adopting or engaging with a product.
 
-It provides insights into how a product is used and integrated into customer workflows.​ Product adoption and capability scores are calculated based on the product usage metrics such as licenses used, tasks completed, and number of active users. Higher product adoption is associated with greater customer satisfaction, retention, and potential for expansion.
+It provides insights into how a product is used and integrated into customer workflows.​ Product adoption and capability scores are calculated based on product usage metrics. These metrics include licenses used, tasks completed, and number of active users. Higher product adoption is associated with greater customer satisfaction, retention, and potential for expansion.
 
 You can use this feature to:
 

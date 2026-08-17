@@ -1,5 +1,5 @@
 ---
-title: Using ServiceNow CPQ
+title: Using CPQ
 description: Use ServiceNow CPQ to configure complex products, apply dynamic rules, and generate accurate quotes with speed and precision. You can understand how the CPQ experience works end-to-end—from guided configuration and real-time pricing to document generation and seamless integration with the rules engine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-using.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Using ServiceNow CPQ
+# Using CPQ
 
 Use ServiceNow CPQ to configure complex products, apply dynamic rules, and generate accurate quotes with speed and precision. You can understand how the CPQ experience works end-to-end—from guided configuration and real-time pricing to document generation and seamless integration with the rules engine.
 
@@ -27,11 +27,11 @@ Remove a child configuration from a solution by changing the condition of its co
 -   **[View the solution bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-solution-bom.md)**  
 View the solution bill of materials to see all products added across every configuration in the session.
 -   **[Document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/generating_documents_with_logik_io_configuration_data.md)**  
-You can use third-party document generation software to output configuration data by pushing information from ServiceNow CPQ to Salesforce.
+You can use third-party document generation software to output configuration data by pushing information from CPQ to Salesforce.
 -   **[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)**  
-View a list of example use cases for ServiceNow CPQ.
+View a list of example use cases for CPQ.
 -   **[Modify a product subscription with ramped pricing and quantities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-modify-a-product-subscription-with-ramped-pricing-and-quantities.md)**  
 Add pricing or quantity ramps to quote line items to set incremental changes during the life of a contract.
 
-**Parent Topic:**[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
 

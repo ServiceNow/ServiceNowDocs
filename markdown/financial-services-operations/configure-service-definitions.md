@@ -38,7 +38,7 @@ Service definitions are configured for both cases and tasks for each service in 
 
     The details you enter in this form are used to configure a service definition and store the details about a service that you provide to customers.
 
-    For more information about the form fields, see [Service Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-definition-form-fields.md).
+    For more information about the form fields, see .
 
 4.  Click **Submit** \(for new service definitions\) or **Update**\(for modified service definitions\).
 

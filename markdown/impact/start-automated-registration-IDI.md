@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/start-automated-registration-IDI.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-07-23"
+reading_time_minutes: 2
 breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
@@ -16,7 +16,7 @@ The automated registration process simplifies the configuration process and conn
 
 ## Before you begin
 
-[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) before this procedure.
+[Use Guided Setup to onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/onboard_users_impact_store_application.md)
 
 **Important:** Impact Store Application features that require a connection to the Impact Delivery Instance:
 
@@ -30,6 +30,10 @@ The automated registration process simplifies the configuration process and conn
 See [Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md) for additional information.
 
 Role required: impact app admin and impact admin \(IDI\)
+
+## About this task
+
+This task automates the secure connection to the provider, the Impact Delivery Instance and runs the full onboarding process automatically.
 
 ## Procedure
 
@@ -45,118 +49,31 @@ Role required: impact app admin and impact admin \(IDI\)
 
 5.  Select **Start Automated Registration \(preferred method\)** from the Activities pane.
 
-6.  Select the **Create registration** link.
-
-    \[Omitted image "guided-setup-start-auto-registration.png"\] Alt text: Create registration link and the check registration status links on the registration page.
+6.  Select the **Connect to Impact** link.
 
     **Note:** It may take a few moments to connect to the Impact Delivery Instance and process the registration.
 
-7.  Select **Check registration status** to monitor the provider connection progress and generate the connection link.
+7.  Select **Check registration status** to monitor the provider connection progress.
 
-    **Important:** After your instance registration is established, a success message is generated with the **Create provider connection** link. The status updates only after the registration has been successfully created. You may need to repeat this step to allow the registration to complete.
+    **Important:** After your instance registration is established, a success message is generated with the and the status updates only after the registration has been successfully created. You may need to repeat this step to allow the registration to complete.\[Omitted image "guided-setup-start-auto-registration.png"\] Alt text: Connect to Impact link and the check registration status links on the Automated registration page.
 
-8.  Select the **Create provider connection** link in the success message.
+8.  When the status updates to Onboarding Complete, select **Close**.
 
-    A new Provider connection registration record is created and linked to your Impact Delivery Instance.
-
-    \[Omitted image "provider-connection.png"\] Alt text: The Impact Store App provider connection record with the ServiceNow Company, URL, and pre-connection statuses populated.
-
-9.  Refer to the Provider Connection record table for information about the form:
-
-<table id="table_fbs_gqq_zfc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Company
-
-</td><td>
-
-ServiceNow Impact is pre-populated. If necessary, select ServiceNow Impact from the field selector.
-
-</td></tr><tr><td>
-
-State \(read-only\)
-
-</td><td>
-
--   Pending: Connection is in progress.
--   Awaiting validation: After saving the record, Service Exchange Health scan checks are performed.
--   Validated: Health checks succeed and the provider is connected.
--   Validation failed: Health checks failed, the provider isn't connected.
-
-
-</td></tr><tr><td>
-
-URL \(read-only\)
-
-</td><td>
-
-The URL to the Impact provider instance is pre-populated.
-
-</td></tr><tr><td>
-
-Outbound status \(read-only\)
-
-</td><td>
-
--   Blank: No status available prior to initiating the connection to the provider.
--   Not onboarded: Status prior to connecting to IDI.
--   Up
-
-
-</td></tr><tr><td>
-
-Inbound status \(read-only\)
-
-</td><td>
-
--   Blank: No status available prior to initiating the connection to the provider.
--   Not onboarded: Status prior to connecting to IDI.
--   Up
-
-
-</td></tr></tbody>
-</table>10. Select **Save** to continue.
-
-    Validation checks are performed during the onboarding process while the state reflects Awaiting validation.
-
-    When the state reflects Validated, the health checks processed successfully and the **Connect to provider** button becomes available.
+    The Outbound and Inbound statuses for the Provider connection will display Up when successfully connected and onboarded.
 
     If the state updates to Validation failed, health checks failed and the provider isn't connected.
 
     \[Omitted image "onboarding-failed.png"\] Alt text: Failed validation banner with the link to the Health Dashboard.
 
     1.  Select the **Health Dashboard** link in the error banner to be directed to the Service Exchange health dashboard.
-    2.  View and diagnose the errors.
+    2.  View and diagnose the errors. See [Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md) for additional information.
     3.  Follow the steps provided to resolve the issues.
 
         **Important:** If you are unable to resolve the issues, contact your Customer Service Manager for assistance.
 
-    4.  Select the **Provider connection record link** and restart the Automated registration.
-11. Select **Connect to provider**.
+9.  Return to the open tab, **Start automated registration \(Preferred method\)** in Guided Setup and select the **Connect to Impact** link to restart the Automated Registration.
 
-    A status message displays and updates confirming the synchronization process:
-
-    -   Provider onboarding started...: The connection is validated between the Impact Store App and the Impact Delivery Instance.
-    -   Syncing settings to complete onboarding...: Necessary components and settings are synchronizing and required for alignment.
-    -   Onboarding Complete: All settings have synced and you are ready to sync data from the Impact Delivery Instance.
-    \[Omitted image "onboarding-complete-png.png"\] Alt text: Provider and onboarding connection status and confirmation message.
-
-12. When the status updates to Onboarding Complete, select **Close**.
-
-    The Outbound and Inbound statuses for the Provider connection will display Up when successfully connected and onboarded.
-
-13. Return to the open tab, **Start automated registration a provider instance** in Guided Setup, and select **Mark Complete** to continue to verify the connection.
-
-    \[Omitted image "create-provider-connection-automated-mark-complete.png"\] Alt text: The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.
-
-    Upon successful connection, you can skip, manual registration and proceed to the **Verify the connection** activity in Guided Setup.
+10. Upon successful connection, select **Mark Complete** to continue to verify the connection.
 
 
 ## What to do next

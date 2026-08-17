@@ -1,6 +1,6 @@
 ---
 title: Resource Plan related links and lists
-description: Use the resource plan related links and list to clone the resource plan details, view resource workbench, update cost plans, recalculate resource costs, or work on the modifying the request allocations.
+description: Use the resource plan related links and list to clone the resource plan details. You can also view resource workbench, update cost plans, recalculate resource costs, or modify the request allocations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-plan-rltd-links-lists.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Resource Management reference, Resource Management classic, Project
 
 # Resource Plan related links and lists
 
-Use the resource plan related links and list to clone the resource plan details, view resource workbench, update cost plans, recalculate resource costs, or work on the modifying the request allocations.
+Use the resource plan related links and list to clone the resource plan details. You can also view resource workbench, update cost plans, recalculate resource costs, or modify the request allocations.
 
 <table id="table_ctq_4fq_gbb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Update Cost Plan
 
 </td><td>
 
-If you are using Project Portfolio Management, resource plans automatically create cost plans for a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) or [demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md).
+If you're using Project Portfolio Management, resource plans automatically create cost plans for a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) or [demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md).
 
  Whenever you update the resource plan, click **Update Cost Plan** to [keep the cost plan up-to-date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_UpdateRelatedCostPlan.md).
 

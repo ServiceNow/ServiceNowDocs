@@ -1,5 +1,5 @@
 ---
-title: Set up CMDB success advisor for HAM
+title: CMDB success advisor for HAM setup
 description: Use the CMDB success advisor application to configure and manage the CMDB success advisor for Hardware Asset Management \(HAM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Set up CMDB success advisor for HAM
+# CMDB success advisor for HAM setup
 
 Use the CMDB success advisor application to configure and manage the CMDB success advisor for Hardware Asset Management \(HAM\).
 
 ## Plugins and dependencies
 
-Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5b87bba254221e8409dabb355c) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5b87bba254221e8409dabb355c) application listing in the ServiceNow Store for information about dependencies, licensing or subscription requirements, and release compatibility.
 
 ## Set up overview
 

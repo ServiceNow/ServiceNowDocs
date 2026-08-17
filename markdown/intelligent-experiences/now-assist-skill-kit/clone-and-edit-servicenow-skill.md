@@ -9,8 +9,8 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-04-30"
 reading_time_minutes: 2
-keywords: [clone, clone skill, Now Assist Skill Kit]
-breadcrumb: [Create a skill, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+keywords: [clone, clone skill, AI Skill Kit]
+breadcrumb: [Create a skill, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Clone a skill
@@ -29,7 +29,7 @@ Cloning a skill creates a copy in Draft state with the original prompt content, 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to clone.
 

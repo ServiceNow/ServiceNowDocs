@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Enterprise Architecture workspace home page, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View or update your TRM requests
@@ -31,7 +31,7 @@ Role required: sn\_apm.apm\_user
 4.  Update the details and select **Save**.
 
 
-**Parent Topic:**[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 

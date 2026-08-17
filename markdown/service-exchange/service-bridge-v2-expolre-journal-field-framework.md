@@ -53,7 +53,7 @@ With JFF, you can do the following:
 
     Synchronize all historical journal entries between consumer and provider instances for a remote task.
 
-    If the **Sync pre-existing entries** option is configured during Remote Task Definition \(RTD\) setup and while activating the RTD, all journal comments made in a task are synchronized between the consumer and provider instances when a remote task is connected.
+    If the **Sync pre-existing entries** option is configured during Remote Task Definition \(RTD\) setup and RTD activation, journal comments made in a task are synchronized between the consumer and provider instances.
 
 
 ## Considerations

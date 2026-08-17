@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Certificate tab
@@ -29,5 +29,7 @@ On the Certificate tab you can select from the following actions to update a Con
 
 After you generate a New Bundle, you can select the link **Download Console Certificate Bundle \(.zip\)**. The bundle contains the Console's Collector Certificate Authority and the RabbitMQ certificate. These certificates establish trust between the Console and Collector and confirms their communications are secure and encrypted.
 
-**Note:** For instructions in how to renew a certificate, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md). The steps are similar but the Certificate tab only pertains to the Console Certificate.
+**Note:** For more information, see [Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md). The steps are similar but the Certificate tab only pertains to the Console Certificate.
+
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
 

@@ -29,7 +29,7 @@ Role required: admin or virtual\_agent\_admin.
 
 **Note:** The two bot types for integrating Virtual Agent with other channels have notable differences. Use the appropriate bot for your instance.
 
--   The Now Virtual Agent bot is prebuilt, and is faster and easier to deploy, but is limited to one instance per tenant.
+-   The Virtual Agent bot is prebuilt, and is faster and easier to deploy, but is limited to one instance per tenant.
 -   The self-configured bot takes more time to create and deploy, but you have full control over the bot's registration, and it's available for multiple instances per tenant.
 
 ## Procedure

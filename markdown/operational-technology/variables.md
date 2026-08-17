@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/variable
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+reading_time_minutes: 3
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Variables
@@ -73,4 +73,13 @@ If the encrypted password is exported as plain text, it is no longer hidden and 
 \[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
 
 **Note:** For information on creating a Site-specific Variable set, refer to [Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/creating-site-specific-variable-set.md).
+
+-   **[Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-variable-set.md)**  
+Create a Variable set for an Auto Query scan created in the Discovery Console for OT.
+-   **[Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/editing-a-variable-set.md)**  
+Edit a Variable set for an Auto Query scan created in the Discovery Console for OT.
+-   **[Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-variable-site-auto-query.md)**  
+Create a Site-specific Variable set for use in Auto Queries.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

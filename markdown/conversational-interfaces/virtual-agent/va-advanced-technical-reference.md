@@ -36,7 +36,7 @@ Use globally defined NLU entities to identify system information that Virtual Ag
 -   **[Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-sysparm.md)**  
 Virtual Agent provides various system parameters that admins can add to an instance URL to control how page content is rendered.
 -   **[Latency feedback in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/latency-feedback.md)**  
-The **com.glide.cs.message.processing.enabled** system property notifies requesters whenever the generative AI large language model \(LLM\) is processing their request in the Virtual Agent chat widget and Now Assist panel.
+The **com.glide.cs.message.processing.enabled** system property notifies requesters whenever the generative AI large language model \(LLM\) is processing their request in the Virtual Agent chat widget and ServiceNow Otto panel.
 
 **Parent Topic:**[Virtual Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-parent-reference.md)
 

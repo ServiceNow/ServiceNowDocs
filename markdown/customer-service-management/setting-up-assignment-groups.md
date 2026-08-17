@@ -1,6 +1,6 @@
 ---
 title: Setting up assignment groups
-description: Associate your assignment groups with an internal or an external business location. This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
+description: Associate your assignment groups with an internal or external business organization \(formerly internal or external business location\). This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-up-assignment-groups.html
 release: australia
@@ -12,12 +12,14 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 # Setting up assignment groups
 
-Associate your assignment groups with an internal or an external business location. This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
+Associate your assignment groups with an internal or external business organization \(formerly internal or external business location\). This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 |Task|Description|
 |----|-----------|
 |[Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-group-so.md)|Create a group to associate it with a service organization.|
 |[Configuring a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-a-group.md)|Configure a group that includes adding group members and assigning them required roles.|
-|[Associate a group to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-a-group-to-a-business-location-so.md)|Establish a one-to-many \(1:M\) relationship between a group and a business location.|
-|[Add group members to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-group-members-to-a-business-location-so.md)|Enroll group members to a business location and have a dedicated group working on cases.|
+|[Associate a group to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-a-group-to-a-business-location-so.md)|Establish a one-to-many \(1:M\) relationship between a group and a business organization.|
+|[Add group members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-group-members-to-a-business-location-so.md)|Enroll group members to a business organization and have a dedicated group working on cases.|
 

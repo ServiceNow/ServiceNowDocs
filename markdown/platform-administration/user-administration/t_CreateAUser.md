@@ -158,17 +158,6 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
 </td></tr><tr><td>
 
-Identity Subtype
-
-</td><td>
-
-Displays the identity type subtype based on the user login. For example:-   External
--   Internal
--   Guest
-
-
-</td></tr><tr><td>
-
 Language
 
 </td><td>

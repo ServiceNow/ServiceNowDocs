@@ -43,5 +43,3 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
     4.  In the list, select **sn\_erp\_integration\_log\_heartbeat**.
     5.  Edit the **Age in seconds**.
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
-

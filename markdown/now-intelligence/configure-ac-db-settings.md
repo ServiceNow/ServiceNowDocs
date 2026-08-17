@@ -67,7 +67,7 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     -   In the **Dashboard Summary** section, choose whether to enable AI summary generation.
 
-        When you select **AI summary generation**, viewers see a banner with a button to generate a summary of the contents of the dashboard, including the visualizations, filters, and other elements. The summary also includes highlights and what has changed in the dashboard since the last summary generation request. You can also add the Now Assist Context Menu as an individual component to dashboard or individual dashboard tabs.
+        When you select **AI summary generation**, viewers see a banner with a button to generate a summary of the contents of the dashboard, including the visualizations, filters, and other elements. The summary also includes highlights and what has changed in the dashboard since the last summary generation request. You can also add the ServiceNow Otto context menu as an individual component to dashboard or individual dashboard tabs.
 
     -   Choose whether and which analytics to show in the **Insights** section.
 

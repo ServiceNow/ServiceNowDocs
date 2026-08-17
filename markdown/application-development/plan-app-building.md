@@ -29,7 +29,7 @@ The key steps in planning are mentioned in the following list.
 Plan upfront, use approved development tools, follow governance guidelines, and document your plan for stakeholder review. Planning upfront saves time and ensures a smooth development life cycle.
 
 -   **[Design an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/design-an-app.md)**  
-Horizon is a modern UX framework that enables developers to create responsive, accessible, and consistent user experiences across applications. Horizon provides a unified design system that improves usability and performance. It supports accessibility standards and ensures a consistent look and feel across the ServiceNow AI Platform.
+ServiceNow provides a unified design system that improves usability and performance. It supports accessibility standards and ensures a consistent look and feel across the ServiceNow AI Platform.
 -   **[Check timelines and SDLC guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/check-timelines-sdlc-best-practices.md)**  
 Engage your platform administrator early to confirm development timelines and follow ServiceNow software development lifecycle \(SDLC\) best practices. Coordinating with your admin ensures that your app development aligns with organizational governance, avoids delays, and uses approved environments and tools.
 -   **[Plan data for reuse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-data-reuse.md)**  

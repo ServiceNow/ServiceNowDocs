@@ -20,7 +20,7 @@ To access the ServiceNow Vault console dashboard, navigate to **All** &gt; **Vau
 
 ## Vault console dashboard page
 
-\[Omitted image "vault-dashboard.png"\] Alt text: The Vault console dashboard
+\[Omitted image "vault-dashboard-2.png"\] Alt text: The Vault console dashboard
 
 <table id="table_v3f_qsx_rfc"><thead><tr><th>
 
@@ -36,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td rowspan="4">
 
-Vault Overview, Resources, and Ask Now Assist
+Vault Overview, Resources, and ServiceNow Otto panel
 
 </td><td>
 
@@ -64,11 +64,11 @@ Get answers to commonly asked questions about ServiceNow Vault
 
 </td></tr><tr><td>
 
-Ask Now Assist
+ServiceNow Otto panel
 
 </td><td>
 
-Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask Now Assist to schedule a data discovery job for you. Prerequisite: Enable skills in Now Assist Admin console. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) and [Use generative AI skills in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md).
+Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask ServiceNow Otto to schedule a data discovery job for you. Prerequisite: Enable skills in . For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) and [Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md).
 
 </td></tr><tr><td>
 

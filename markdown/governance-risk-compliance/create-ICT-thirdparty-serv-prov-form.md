@@ -1,6 +1,6 @@
 ---
-title: Create New ICT third-party service provider form
-description: On the Create New ICT third-party service provider form, fill in the fields.
+title: Create ICT third-party service provider form
+description: On the Create ICT third-party service provider form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Create a third party and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New ICT third-party service provider form
+# Create ICT third-party service provider form
 
-On the Create New ICT third-party service provider form, fill in the fields.
+On the Create ICT third-party service provider form, fill in the fields.
 
 <table id="table_yrz_2qh_ddc"><thead><tr><th>
 

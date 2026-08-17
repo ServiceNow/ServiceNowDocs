@@ -9,7 +9,7 @@ last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [roles, tables, permissions, explorations, AI canvas, notebook, now assist explorer, semantic data layer, workspaces, metadata]
 audience: administrator
-breadcrumb: [Reference, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Roles and tables installed with AI Data Explorer
@@ -130,5 +130,5 @@ PAAI Canvas Workspace Config\[paai\_canvas\_workspace\_config\]
 Workspaces/experiences for which links from data visualizations to AI Data Explorer are turned off.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-explorer-reference.md)
+</table>**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-reference.md)
 

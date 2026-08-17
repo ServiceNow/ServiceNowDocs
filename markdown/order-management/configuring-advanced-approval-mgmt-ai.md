@@ -18,5 +18,5 @@ Install and set up the Advanced Approval Management AI application, which enable
 ## Configuration overview
 
 1.  Install Advanced Approval Management AI.
-2.  Connect the Sales CRM MCP server to the MCP client.
+2.  [Connect Sales CRM server to an AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/connect-CRM-server-to-AI-assistant.md).
 

@@ -1,20 +1,20 @@
 ---
 title: Guidelines for creating prompts
-description: The guidelines help to write prompts for Out-of-Box \(OOB\) and custom knowledge article templates. Follow these instructions to create ideal prompts that optimize the use of AI models for generating knowledge articles.
+description: Guidelines for writing prompts for out-of-box \(OOB\) and custom knowledge article templates to optimize the use of AI models for generating knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-20"
 reading_time_minutes: 5
-breadcrumb: [Configure skills with custom prompts for knowledge article templates, Configure Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure custom prompts skills for knowledge article templates, Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Guidelines for creating prompts
 
-The guidelines help to write prompts for Out-of-Box \(OOB\) and custom knowledge article templates. Follow these instructions to create ideal prompts that optimize the use of AI models for generating knowledge articles.
+Guidelines for writing prompts for out-of-box \(OOB\) and custom knowledge article templates to optimize the use of AI models for generating knowledge articles.
 
 ## Create prompts for a how-to article template for a case
 
@@ -40,7 +40,7 @@ Use the following prompt draft structure to create a prompt:
 -   Guidelines for generating the article
 -   Output structure along with mapping details, according to your requirements
 
-    **Important:** When mapping, it’s important that the mapping key matches with the article template’s field key. The value must contain the sections that you intend to add.
+    **Note:** When mapping, it’s important that the mapping key matches with the article template’s field key. The value must contain the sections that you intend to add.
 
 
 ## Sample prompt for generating a single KB how-to template article
@@ -148,5 +148,5 @@ Generate a JSON response in the following format:
 
 ```
 
-**Parent Topic:**[Configure skills with custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+**Parent Topic:**[Configure custom prompts skills for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
 

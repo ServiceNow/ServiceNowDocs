@@ -16,7 +16,7 @@ breadcrumb: [Manage asset repair in stockrooms, Use, Hardware Asset Management, 
 
 Repair order fulfillment tracks the resolution of defective and out-of-warranty hardware assets. Repair asset tasks associated with each repair order line must be completed before an order is fulfilled. Orders can be completed manually or through the Help repair hardware assets agentic workflow.
 
--   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.md)**  
+-   **[ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.md)**  
 Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 -   **[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)**  
 Fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.

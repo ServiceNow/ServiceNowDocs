@@ -9,7 +9,7 @@ classification: cloud-account-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Viewing Cloud Account Management dashboards, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Viewing the cloud asset explorer

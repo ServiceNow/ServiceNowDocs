@@ -1,6 +1,6 @@
 ---
 title: Deploy a MID Server
-description: Deploying a MID Server allows ServiceNow to securely communicate with systems inside a private network by installing and validating a trusted runtime that performs discovery, integrations, and automation tasks without requiring inbound network access.
+description: Deploying a MID Server lets ServiceNow securely communicate with systems inside a private network by installing and validating a trusted runtime that performs discovery, integrations, and automation tasks without requiring inbound network access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/deploy-mid-server.html
 release: australia
@@ -15,22 +15,22 @@ breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery,
 
 # Deploy a MID Server
 
-Deploying a MID Server allows ServiceNow to securely communicate with systems inside a private network by installing and validating a trusted runtime that performs discovery, integrations, and automation tasks without requiring inbound network access.
+Deploying a MID Server lets ServiceNow securely communicate with systems inside a private network by installing and validating a trusted runtime that performs discovery, integrations, and automation tasks without requiring inbound network access.
 
 ## Before you begin
 
 Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the Now Assist for IT Operations Management plugin. For more information, see [Install Now Assist for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
 -   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 Role required: admin
 
 ## About this task
 
-Discovery requires a MID Server to securely detect and collect data from systems in your private network, enabling accurate identification of infrastructure and dependencies without exposing internal resources to the internet.
+Discovery requires a MID Server to securely detect and collect data from your private network, identifying infrastructure and dependencies without exposing internal resources to the internet.
 
 ## Procedure
 

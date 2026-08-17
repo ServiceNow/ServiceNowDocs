@@ -25,7 +25,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 

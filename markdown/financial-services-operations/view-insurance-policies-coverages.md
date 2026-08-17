@@ -60,5 +60,5 @@ The **Policies** section on the Customer 360 page shows all insurance policies a
 
 [View insurance cases in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-insurance-cases.md)
 
-[Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-insurance-customer-profile.md)
+[Summarize an insurance customer profile in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-profile.md)
 

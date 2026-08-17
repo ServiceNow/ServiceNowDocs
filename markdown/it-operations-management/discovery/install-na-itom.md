@@ -1,6 +1,6 @@
 ---
-title: Install Now Assist for IT Operations Management
-description: Install the Now Assist for IT Operations Management plugin to enable generative AI and agentic AI on your instance.
+title: Install ServiceNow Otto for IT Operations Management \(ITOM\)
+description: Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin to enable generative AI and agentic AI on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/install-na-itom.html
 release: australia
@@ -13,9 +13,9 @@ keywords: [ITOM AIOps, plugin installation, Now Assist, IT Operations Management
 breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Install Now Assist for IT Operations Management
+# Install ServiceNow Otto for IT Operations Management \(ITOM\)
 
-Install the Now Assist for IT Operations Management plugin to enable generative AI and agentic AI on your instance.
+Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin to enable generative AI and agentic AI on your instance.
 
 ## Before you begin
 
@@ -27,22 +27,20 @@ Role required: admin
 
     The Admin Home page displays.
 
-    \[Omitted image "aiops-admin-conf-home-page1.png"\] Alt text: Admin home page showing the product families.
+    \[Omitted image "admin-home-itom.png"\] Alt text: Admin home page showing the product families.
 
-2.  On the IT Operations Management tile, select **View product overview**.
+2.  Select the IT Operations Management tile.
 
     The IT Operations Management page in the Product Hub displays.
 
 3.  Select the **Not Installed** tab.
 
-    \[Omitted image "na-itom-not-installed.png"\] Alt text: IT Operations Management page in the Product Hub showing the plugins to be installed.
-
-4.  On the Now Assist for IT Operations Management card, select the Application manager icon \(\[Omitted image "application-manager-icon.png"\] Alt text: Application manager icon\).
+4.  On the ServiceNow Otto for IT Operations Management \(ITOM\) card, select the **Application Manager** icon \(\[Omitted image "application-manager-icon.png"\]\).
 
     The Application Manager page displays.
 
 5.  Select **Install**.
 
-    Once the installation completes, Now Assist for IT Operations Management displays in the Installed tab of the Product Hub.
+    Once the installation completes, ServiceNow Otto for IT Operations Management \(ITOM\) displays in the Installed tab of the Product Hub.
 
 

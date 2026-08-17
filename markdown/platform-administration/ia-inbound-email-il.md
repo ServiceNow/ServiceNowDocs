@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2025-12-05"
 reading_time_minutes: 3
-breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Inbound email
@@ -153,5 +153,5 @@ Email actions determine how and when the system responds to service requests. On
 
 See [Inbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_InboundMailConfiguration.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

@@ -24,13 +24,13 @@ Recovery tiers are also associated with other organizational expectations such a
 
 Recovery tiers are used in these areas:
 
--   BIA scores and impact assessment result.
--   Element recovery times.
+-   BIA scores and impact assessment results
+-   Element recovery times
 
 Some examples of recovery tiers include:
 
--   Tier 1 – Mission Critical: 2 hours RTO.
--   Tier 5 – Non-Essential: 1 week RTO.
+-   Tier 1 – Mission Critical: 2 hours RTO
+-   Tier 5 – Non-Essential: 1 week RTO
 
 Although there is no limitation to the number of recovery tiers, an organization can set 4 to 6 recovery tiers.
 

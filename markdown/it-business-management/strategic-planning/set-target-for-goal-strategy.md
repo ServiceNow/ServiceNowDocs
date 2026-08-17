@@ -22,7 +22,7 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 ## About this task
 
-If you’re using Now Assist for SPM, you can use the Target generation skill to generate targets for a goal. The skill uses the goal’s details and provided context to create a precise target for the goal. The more specific the input, the stronger the recommendations. For details, see [Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.md).
+If you’re using ServiceNow Otto for SPM, you can use the Target generation skill to generate targets for a goal. The skill uses the goal’s details and provided context to create a precise target for the goal. The more specific the input, the stronger the recommendations. For details, see [Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/generate-targets-for-goal.md).
 
 Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically. For more information on target automation, see [Target actuals automation in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-actuals-automation-spw.md).
 
@@ -43,15 +43,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 3.  Add a target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d141095e142">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d144207e142">
 
 Option
 
-</th><th align="left" id="d141095e145">
+</th><th align="left" id="d144207e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d141095e151">
+</th></tr></thead><tbody><tr><td id="d144207e151">
 
 **From the Goals page**
 
@@ -59,7 +59,7 @@ Steps
 
 Next to the goal that you want to add a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
-</td></tr><tr><td id="d141095e169">
+</td></tr><tr><td id="d144207e169">
 
 **From the Strategy page**
 

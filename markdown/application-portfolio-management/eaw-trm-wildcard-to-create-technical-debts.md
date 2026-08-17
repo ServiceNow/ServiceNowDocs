@@ -1,6 +1,6 @@
 ---
 title: Work with TRM lifecycle with wildcard
-description: You can use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple TRM software product lifecycles simultaneously without having to specify the exact minor version details of individual TRM software products.
+description: Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.html
 release: australia
@@ -12,11 +12,11 @@ breadcrumb: [Manage the Technology Reference Model in Enterprise Architecture Wo
 
 # Work with TRM lifecycle with wildcard
 
-You can use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple TRM software product lifecycles simultaneously without having to specify the exact minor version details of individual TRM software products.
+Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 
 A TRM lifecycle with a wildcard is a TRM software product that has lifecycle version that ends with a '\*'. The '\*' means that exact specific version details aren’t provided.
 
-**Note:** To define a version for a specific TRM product, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
+**Note:** To define a version for a specific TRM product, see [Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
 
 ## Use of TRM lifecycle with wildcard
 
@@ -28,7 +28,7 @@ Suppose you use Microsoft PowerPoint and have multiple versions like 1.1, 1.2, 1
 
 ## Create a TRM lifecycle with wildcard
 
-A TRM lifecycle with wildcard is created in a similar process as to how you would request a TRM product lifecycle. For information on how to add a TRM product lifecycle, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
+A TRM lifecycle with wildcard is created in a similar process as to how you would request a TRM product lifecycle. For information on how to add a TRM product lifecycle, see [Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
 
 The only difference is, the TRM wildcard version ends with a ‘\*’.
 
@@ -51,5 +51,5 @@ A TRM wildcard can’t create technical debts when the full version of a particu
 
 [Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+[Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 

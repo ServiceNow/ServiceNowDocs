@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/explore-aia-eval.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
 keywords: [explore]
-breadcrumb: [Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Explore agentic evaluations
@@ -19,9 +19,9 @@ Automated evaluations test your agentic AI assets and help determine when they'r
 
 Automated agentic evaluations help give AI agent builders the confidence to deploy with objective, explainable evidence that their agents are ready for production. They remove the guesswork from quality assurance by running your agent against a defined dataset and applying LLM-powered judges to score quality, such as task completeness, response accuracy, and tool use. From there, the system generates recommended optimizations you can apply before triggering a re-evaluation to confirm improvements.
 
-Building agentic AI assets like AI agents and agentic workflows is an iterative process. Agentic evaluations are designed to verify the quality of the AI asset with in a structured way to help speed up the process. Because you're testing against representative datasets, you can be more confident in the performance of your agentic AI asset to handle real-world situations.
+Building agentic AI assets like AI agents and agentic workflows is an iterative process. Agentic evaluations can verify the quality of the AI asset with in a structured way to help speed up the process. Because you're testing against representative datasets, you can be more confident in the performance of your agentic AI asset to handle real-world situations.
 
-Agentic evaluations can be run in non-production environments and don't require live deployment. They can be run during testing phases of agentic AI assets to help ensure that they can be deployed to a production environment while meeting your benchmarks and standards.
+Agentic evaluations can be run in non-production environments and don't require live deployment. They can be run during testing phases of agentic AI assets to help confirm that they can be deployed to a production environment while meeting your benchmarks and standards.
 
 ## Agentic evaluations users
 

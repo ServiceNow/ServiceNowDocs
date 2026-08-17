@@ -30,6 +30,8 @@ The following CCaaS Store Apps offer voice channel integration:
 -   [Unified Experience from Genesys](https://store.servicenow.com/store/app/cdff6b621ba46a50a85b16db234bcba3#linksAndDocuments)
 -   [ServiceNow Voice for Amazon Connect](https://store.servicenow.com/store/app/9d6927ee1be06a50a85b16db234bcb4a)
 
+To enable this feature see [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md).
+
 The following visual displays the voice workflow when CCaaS integrates with ICC within the CSM Configurable Workspace .
 
 \[Omitted image "icc-integration-with-nvc-workflow-brand2-updated-MMASSET0020993.png"\] Alt text: Voice call flow using Interaction Controls Component \(ICC\)
@@ -54,4 +56,6 @@ The primary benefits of this integration are as follows:
 
     Streamlines workflows with direct access to consult and blind call transfer controls in the CSM Configurable Workspace.
 
+
+See [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
 

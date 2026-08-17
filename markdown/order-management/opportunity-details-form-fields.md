@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Opportunity Management reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Opportunity details form

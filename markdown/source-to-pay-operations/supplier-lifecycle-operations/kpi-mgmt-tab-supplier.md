@@ -43,7 +43,7 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 -   You can add new KPIs or remove existing KPIs for the selected supplier from the **KPI management** view.
 -   You can generate comprehensive performance summary including overall performance scores, trends, and action items by using supplier performance summarization.
 
-    **Note:** This functionality is available with the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+    **Note:** This functionality is available with the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 
 
 **Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)

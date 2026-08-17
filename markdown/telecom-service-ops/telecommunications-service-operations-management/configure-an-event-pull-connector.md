@@ -1,20 +1,20 @@
 ---
-title: Configure an event pull connector
-description: Configure event pull connectors that require a script, connector definition, and connector instance to pull events from external management systems. These connectors automate the data retrieval process, promoting the seamless integration of external events into your system for efficient monitoring and management.
+title: Configure a metric pull connector
+description: Configure metric pull connectors to retrieve performance data from external management systems such as Meraki, Fortinet, or VeloCloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
-reading_time_minutes: 1
+last_updated: "2026-08-17"
+reading_time_minutes: 2
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
-# Configure an event pull connector
+# Configure a metric pull connector
 
-Configure event pull connectors that require a script, connector definition, and connector instance to pull events from external management systems. These connectors automate the data retrieval process, promoting the seamless integration of external events into your system for efficient monitoring and management.
+Configure metric pull connectors to retrieve performance data from external management systems such as Meraki, Fortinet, or VeloCloud.
 
 ## Before you begin
 
@@ -46,7 +46,7 @@ Role required: TSOM Assurance admin
 
 12. In the **Metrics collection schedule \(seconds\)** field, enter the polling interval for metric collection.
 
-    **Important:** For a CPU usage \(`devicePerformance`\) connector instance, the **Metrics collection schedule \(seconds\)** field must be set to 1800 or greater \(30 minutes minimum\). The system displays a validation error for lower values. For a Fortinet interface logs connector instance, the **Metrics collection schedule \(seconds\)** field must be set to 600 or less \(10 minutes maximum\). The system displays a validation error for higher values.
+    **Important:** For a device performance \(CPU usage\) connector instance, if you enter a value below 1800 seconds \(30 minutes\), the system automatically resets the schedule to 1800 seconds and displays a message. For a Fortinet interface logs connector instance, if you enter a value above 600 seconds \(10 minutes\), the system automatically resets the schedule to 600 seconds and displays a message. In both cases, the record saves successfully. This enforcement applies only when a numeric value is entered; an empty or blank field bypasses it.
 
 13. Validate the connectivity of the connector before activating it by selecting **Test Connector**.
 
@@ -64,7 +64,7 @@ Role required: TSOM Assurance admin
 
 [Exploring Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-metric-intelligence.md)
 
-[arista-velocloud-installed-integrations]
+[Arista VeloCloud installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-installed-integrations.md)
 
 [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
 

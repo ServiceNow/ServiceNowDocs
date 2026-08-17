@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Rules
@@ -16,7 +16,7 @@ Learn how to create and manage rules to deliver dynamic configuration experience
 
 As the end user navigates through the configuration experience and populates information, rules provide its dynamic elements: hiding and showing content, calculating values, delivering recommendations and messages, and building the bill of materials \(BOM\).
 
-With a focus on administering rules in the administration user interface, this article discusses the two components of rules, conditions and actions, and the six action types available in ServiceNow CPQ. Much like other elements in the application, the UI is a good place to add or edit small numbers of rules. When many rules need manipulation, we recommend using the Matrix Loader. For more information, see [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md).
+With a focus on administering rules in the administration user interface, this article discusses the two components of rules, conditions and actions, and the six action types available in CPQ. Much like other elements in the application, the UI is a good place to add or edit small numbers of rules. When many rules need manipulation, we recommend using the Matrix Loader. For more information, see [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md).
 
 In the administration UI, rules are accessible in two ways:
 
@@ -25,7 +25,7 @@ In the administration UI, rules are accessible in two ways:
 
 ## Conditions
 
-ServiceNow CPQ rule conditions consist of a logical expression. At runtime, the rules engine executes the rule if the expression evaluates true.
+CPQ rule conditions consist of a logical expression. At runtime, the rules engine executes the rule if the expression evaluates true.
 
 The administrator can define several kinds of conditions:
 
@@ -37,7 +37,7 @@ The administrator can define several kinds of conditions:
 
 ## Actions
 
-The actions section of a rule defines the tasks the rule accomplishes when it runs \(when its condition evaluates true\). ServiceNow CPQ, unlike other engines, allows multiple actions and action types under one condition. This is a handy organizational feature that consolidates all tasks that need to be performed in the same scenario in one rule. The consolidation of multiple tasks with one condition also increases the efficiency with which the rules engine evaluates and accomplishes tasks. Increased efficiency translates to performance that the end user can see.
+The actions section of a rule defines the tasks the rule accomplishes when it runs \(when its condition evaluates true\). CPQ, unlike other engines, allows multiple actions and action types under one condition. This is a handy organizational feature that consolidates all tasks that need to be performed in the same scenario in one rule. The consolidation of multiple tasks with one condition also increases the efficiency with which the rules engine evaluates and accomplishes tasks. Increased efficiency translates to performance that the end user can see.
 
 On the rule administration page, review the Actions section located below the summary and conditions area.
 
@@ -75,7 +75,7 @@ During runtime, if a picklist option is selected \(either by an end user or via 
 
 A determination action programmatically sets the value of a field. The administrator can choose whether the determined value is soft-set or read-only \(forceset\).
 
-If an end user changes the value of a field that had been soft-set by a determination rule, ServiceNow CPQ displays a message to the user reminding them of the recommended value. The message does not limit the user from quoting the configuration; it is informational only. If the user reverts the value of the field to the determination-recommended value, the message goes away. The Admin can choose not to display this message.
+If an end user changes the value of a field that had been soft-set by a determination rule, CPQ displays a message to the user reminding them of the recommended value. The message does not limit the user from quoting the configuration; it is informational only. If the user reverts the value of the field to the determination-recommended value, the message goes away. The Admin can choose not to display this message.
 
 ## Product actions
 
@@ -95,7 +95,7 @@ Product
 
 </td><td>
 
-When BOM Type = Sales, the value in Product can be a 15-18 digit &lt;SFDC Product2 Id&gt; with format, 01t5f0000001tElAAI. ServiceNow CPQ pulls product code, description, and price from the SFDC Product2 record, or &lt;SFDC Product2 Product Code&gt;, or External ID depending on environment Product Id field settings.
+When BOM Type = Sales, the value in Product can be a 15-18 digit &lt;SFDC Product2 Id&gt; with format, 01t5f0000001tElAAI. CPQ pulls product code, description, and price from the SFDC Product2 record, or &lt;SFDC Product2 Product Code&gt;, or External ID depending on environment Product Id field settings.
 
  When BOM Type = Manufacturing, four options are available:
 
@@ -339,7 +339,7 @@ O
 
 </td><td>
 
-Negative and zero allowed. If unassigned, ServiceNow CPQ retrieves the base price from the product master.
+Negative and zero allowed. If unassigned, CPQ retrieves the base price from the product master.
 
 </td></tr><tr><td>
 
@@ -409,11 +409,11 @@ Unit of measure
 </table>**Note:**
 
 1.  The ProductList.extended parameter can take a shallow JSON object. Example: `{ “key1”: “val1”, “key2”: “val2” }` Also, the Admin can define the extended key : value pairs for a ProductList record using JavaScript. Examples:`ProductList.extended[“key”] = “val”; ProductList.extended.key = “val”;`
-2.  To simplify the migration of product data between test and production environments, particularly in SF-integrated environments, administrators can request product actions to reference a ProductCode or External Id rather than ProductId. In the ServiceNow CPQ Admin, go to the Utilities menu in the navigation pane, and then click **Settings**. You can then set the Product Id field to Product Code, Partner Id, or External Id. If considering migrating from ProductId to ProductCode after go-live, you must coordinate the setting change with the values referenced in your Product actions and the implicit product actions in any picklist extension data you have defined.
+2.  To simplify the migration of product data between test and production environments, particularly in SF-integrated environments, administrators can request product actions to reference a ProductCode or External Id rather than ProductId. In the CPQ Admin, go to the Utilities menu in the navigation pane, and then click **Settings**. You can then set the Product Id field to Product Code, Partner Id, or External Id. If considering migrating from ProductId to ProductCode after go-live, you must coordinate the setting change with the values referenced in your Product actions and the implicit product actions in any picklist extension data you have defined.
 
 ## Unique Identifier attribute
 
-ServiceNow CPQ passes the unique identifier of a product in ServiceNow CPQ to the Unique Line Id field on the quote line in Salesforce, allowing users to assign unique IDs to specific Salesforce quote lines.
+CPQ passes the unique identifier of a product in CPQ to the Unique Line Id field on the quote line in Salesforce, allowing users to assign unique IDs to specific Salesforce quote lines.
 
 When using the parentProduct and uniqueIdentifier attributes for product hierarchy, if two child products have the same parent product and Product ID but need to be displayed separately in the BOM, each requires a unique “uniqueIdentifier”. This ensures that the UI treats them as unique products when listing them.
 

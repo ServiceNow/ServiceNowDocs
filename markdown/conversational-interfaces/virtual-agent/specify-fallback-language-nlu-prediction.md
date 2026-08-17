@@ -19,7 +19,7 @@ Provide language locale support by specifying a fallback language for Virtual Ag
 
 ## Before you begin
 
-**Note:** The fallback language plugin must be installed on the instance. Once installed, the language is available in the Languages \[sys\_language\] table. If Now Assist in Virtual Agent is on and you work with LLM-enabled conversations, you can only establish a fallback language in the Languages \[sys\_language\] table rather than use the following steps.
+**Note:** The fallback language plugin must be installed on the instance. Once installed, the language is available in the Languages \[sys\_language\] table. If ServiceNow Otto in Virtual Agent is on and you work with LLM-enabled conversations, you can only establish a fallback language in the Languages \[sys\_language\] table rather than use the following steps.
 
 Role required: virtual\_agent\_admin or admin
 

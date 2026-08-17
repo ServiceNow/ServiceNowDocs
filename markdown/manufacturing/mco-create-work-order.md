@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a work order
@@ -22,7 +22,7 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 
 -   In the work order, specify the nature of the work required and identify the configuration items \(CI\) affected.
 -   To create work orders for common tasks, you can use work order model templates to create all the necessary records automatically.
--   Restrict access to work orders and tasks so that users can only view and manage those assigned to their own service organization, ensuring sensitive information is securely managed within the appropriate organization.
+-   Restrict access to work orders and tasks so that users can only view and manage those assigned to their own service organization. This keeps sensitive information securely managed within the appropriate organization.
 
 ## Procedure
 

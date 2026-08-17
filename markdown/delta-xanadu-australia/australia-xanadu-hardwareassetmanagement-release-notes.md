@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hardwareassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 15
+last_updated: "2026-08-17"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -95,6 +95,7 @@ Zurich
     -   sn\_hamp.enable\_shipping\_carrier\_validation\_asn
     -   sn\_hamp.model\_lifecycle\_phase\_order
     -   sn\_hamp.update\_assets\_norm\_model\_name
+-   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
 
 </td></tr><tr><td>
 
@@ -113,6 +114,7 @@ Australia
     -   asset\_licensing\_admin: Provides access to the ITAM licensing module.
     -   asset\_recommendation\_admin: Provides access to recommendation actions.
 -   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
+-   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Australia Patch 5, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
 
 </td></tr></tbody>
 </table>## New features
@@ -202,8 +204,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Manage your assets with comprehensive and real-time data](https://www.servicenow.com/docs/access?context=generate-asset-analysis-now-assist-ham&family=australia&ft:locale=en-US)**
 
@@ -234,6 +236,10 @@ Upload ASN files and trigger the import process from the Procurement view within
 -   **[Streamline model creation by copying a model directly from the Content lookup portal](https://www.servicenow.com/docs/access?context=copy-hardware-model&family=australia&ft:locale=en-US)**
 
 Reduce manual effort by copying a model from the Content lookup portal to create a record in the Product Model \[cmdb\_model\] table. The copied model is automatically normalized, where applicable, and relevant fields are pre-populated with information from the content record.
+
+-   **[Gain visibility into the hardware asset life cycle with improved CMDB data quality](https://www.servicenow.com/docs/access?context=cmdb-sa-ham-use&family=australia&ft:locale=en-US)**
+
+Improve the accuracy and completeness of hardware CI data by identifying and prioritizing remediation for missing, duplicate, and inconsistent hardware CIs using CMDB success advisor for HAM.
 
 
 </td></tr></tbody>
@@ -289,7 +295,15 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&family=australia&ft:locale=en-US)**
+
+
+
+
+-   **[Now LLM Service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -679,7 +693,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)- Gain real-time visibility into critical asset data through generative AI-driven asset analysis summaries.
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)- ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Hardware Asset Management \(HAM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)- Prepare for Now LLM Service to be deprecated in a future release.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)- Gain real-time visibility into critical asset data through generative AI-driven asset analysis summaries.
 
  Australia Patch 0
 

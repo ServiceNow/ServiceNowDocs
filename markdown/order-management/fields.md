@@ -1,20 +1,20 @@
 ---
 title: Fields
-description: Learn how fields provide the foundational data model for ServiceNow CPQ configurations—what they are, how they relate to blueprints, rules, and layouts, and how to choose the right type and display for reliable, reusable experiences.
+description: Learn how fields provide the foundational data model for CPQ configurations—what they are, how they relate to blueprints, rules, and layouts, and how to choose the right type and display for reliable, reusable experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/fields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Fields
 
-Learn how fields provide the foundational data model for ServiceNow CPQ configurations—what they are, how they relate to blueprints, rules, and layouts, and how to choose the right type and display for reliable, reusable experiences.
+Learn how fields provide the foundational data model for CPQ configurations—what they are, how they relate to blueprints, rules, and layouts, and how to choose the right type and display for reliable, reusable experiences.
 
-Fields are the smallest unit of the ServiceNow CPQ configuration model and represent a single piece of data \(for example, a quantity, a choice, or a note\). They power the user experience \(what the user sees and edits\), the logical model \(what rules read and act on\), and downstream outputs \(what is written to the bill of materials or passed to external systems\). Because fields are global in an environment, the same field can be reused across blueprints, rules, and layouts to ensure consistency and reduce duplication.
+Fields are the smallest unit of the CPQ configuration model and represent a single piece of data \(for example, a quantity, a choice, or a note\). They power the user experience \(what the user sees and edits\), the logical model \(what rules read and act on\), and downstream outputs \(what is written to the bill of materials or passed to external systems\). Because fields are global in an environment, the same field can be reused across blueprints, rules, and layouts to ensure consistency and reduce duplication.
 
 Fields become part of a specific configuration only when they are associated with a blueprint. When all fields referenced by a rule are associated to a blueprint, the rule is intrinsically related to the blueprint—no extra linking step is required.
 

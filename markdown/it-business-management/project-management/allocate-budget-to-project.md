@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -38,10 +38,12 @@ Role required: it\_portfolio\_manager
 
     -   If the project does not have any cost plan associated, then project budget is distributed by honoring planned start and end dates of the project.
     -   If the project has any cost plan associated, then project budget is distributed by honoring the cost plan fiscal periods.
+    **Note:** Negative budget amounts are supported. If you enter a negative **Capex Budget** or **Opex Budget** amount, or the associated cost plan has a negative total planned cost, the project budget is still distributed across the cost plan breakdowns and rolled up to the project financials.
+
 
 ## Result
 
-The project budget for the selected year appears in the **Project Budget** related list. You can click the amounts in the list to revise them.
+The project budget for the selected year appears in the **Project Budget** related list. You can select the amounts in the list to revise them.
 
 **Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-26"
 reading_time_minutes: 1
 keywords: [zero copy connector, erp, data, fabric, table]
-breadcrumb: [Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP data fabric tables
@@ -29,6 +29,4 @@ For details about the SAP connectors and data fabric tables, see:
 -   [SAP S/4HANA connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-s4hana-primary-zcc.md)
 -   [Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-fabric-tables-zcc.md)
 -   [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
-
-**Parent Topic:**[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-retrieving-data.md)
 

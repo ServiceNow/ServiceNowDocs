@@ -33,5 +33,5 @@ Table that lists the plugins that are activated with the ITOM Optimization appli
 
 [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md)
 
-[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/app-now-assist-itom.md)
 

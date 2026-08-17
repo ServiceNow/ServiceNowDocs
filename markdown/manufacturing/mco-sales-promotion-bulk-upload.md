@@ -1,18 +1,19 @@
 ---
 title: Upload a bulk sales promotion claim
-description: Upload a bulk sales promotion claim request.
+description: Upload a template file containing multiple sales promotion claims to submit them together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sales-promotion-bulk-upload.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [sales promotion bulk upload, sales promotion claim, dealer portal, manufacturing commercial operations, bulk upload template]
 breadcrumb: [Sales promotion for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Upload a bulk sales promotion claim
 
-Upload a bulk sales promotion claim request.
+Upload a template file containing multiple sales promotion claims to submit them together.
 
 ## Before you begin
 

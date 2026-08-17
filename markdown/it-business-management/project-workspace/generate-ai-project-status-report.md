@@ -1,6 +1,6 @@
 ---
 title: Generate a project status report with Now Assist
-description: Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
+description: Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-ai-project-status-report.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, S
 
 # Generate a project status report with Now Assist
 
-Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
+Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-When the Project status generation skill is enabled, project managers can generate a status report pre‑populated by Now Assist. Now Assist predicts overall and dimension‑level project health \(such as schedule, cost, resources, and scope\), generates an executive summary using weekly project data, and provides a rationale for each prediction.
+AI predicts overall and dimension‑level project health \(such as schedule, cost, resources, and scope\). It generates an executive summary using weekly project data and provides a rationale for each prediction.
 
 After generation, project managers can review:
 
@@ -67,7 +67,7 @@ After submission, the same information appears in the report view, including rat
 
 8.  Select **Now Assist** to ask more questions on the generated status report or select **Summarize** to generate a short summary of generated report.
 
-    You can export and edit the AI‑generated status report. You cannot duplicate an AI‑generated status report.
+    You can export and edit the AI‑generated status report. You can't duplicate an AI‑generated status report.
 
 
 ## Result

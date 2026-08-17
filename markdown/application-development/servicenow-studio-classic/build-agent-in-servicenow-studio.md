@@ -22,14 +22,14 @@ For full documentation on Build Agent, see [Build Agent](https://raw.githubuserc
 
 Use Build Agent in ServiceNow Studio by following these steps.
 
-1.  The Build Agent chat interface opens automatically during a new ServiceNow Studio session. If it is not open, select the Now Assist icon \[Omitted image "sn-studio-now-assist-icon.png"\] Alt text:or select **Open Build Agent** from the lower right corner status bar.
+1.  The Build Agent chat interface opens automatically during a new ServiceNow Studio session. If it is not open, select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: or select **Open Build Agent** from the lower right corner status bar.
 2.  Prompt Build Agent to create or update an application.
 3.  Refine the application through conversational interaction, providing feedback and requesting changes.
 4.  Roll back changes at any point using checkpoints created by Build Agent.
 5.  Deploy the app through update sets, pipelines, or the Application Repository.
 6.  Reopen the conversation at any time to make further updates.
 
-For more information, see [AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md).
+For more information, see [Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md).
 
 ## What can Build Agent do in ServiceNow Studio?
 
@@ -50,7 +50,7 @@ For more information, see [Update sets in ServiceNow Studio](https://raw.githubu
 
 Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.
 
-\[Omitted image "sn-studio-ba-new-chat.png"\] Alt text: Begin a conversation by selecting an option to create or update an app or app file.
+\[Omitted image "ba-new-chat.png"\] Alt text: OTTO New Chat screen showing five quick-action buttons: Create an app, Update an app, Create a file, Update a file, and Add AI to an app.
 
 Continue your conversation in the chat panel until you're happy with the results.
 

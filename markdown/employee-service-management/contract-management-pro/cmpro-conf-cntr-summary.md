@@ -1,6 +1,6 @@
 ---
 title: Configuring contract summarization for Contract Management Pro
-description: Configure the smart documents skill in Now Assist in Document Management to generate a contract summary in Contract Management Pro.
+description: Configure the smart documents skill in Document Management to generate a contract summary in Contract Management Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.html
 release: australia
@@ -9,19 +9,19 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Contract summarization, Summarize contract, Ask Now Assist]
+keywords: [Contract summarization, Summarize contract, Ask Now Assist, Ask ServiceNow Otto]
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configuring contract summarization for Contract Management Pro
 
-Configure the smart documents skill in Now Assist in Document Management to generate a contract summary in Contract Management Pro.
+Configure the smart documents skill in Document Management to generate a contract summary in Contract Management Pro.
 
 You can summarize contracts, generate frequently asked questions \(FAQs\), and retrieve specific information from contracts in Contract Management Pro by using the Smart Documents feature.
 
 To enable this feature in Contract Management Pro, do the following:
 
-1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+1.  Activate the smart documents skill in Document Management. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 2.  To enable contract summarization for contract documents, supporting documents, and signed contracts, add the following tables in the **Define availability** tab of smart documents skill.
     -   Contract \[ast\_contract\]
     -   Contract Document Revision \[sn\_cm\_core\_document\_revision\]
@@ -36,7 +36,7 @@ To enable this feature in Contract Management Pro, do the following:
     -   Legal contract fulfiller \[sn\_lg\_cnt.contract\_fulfiller\]
     -   Legal contract administrator \[sn\_lg\_cnt.contract\_admin\]
     -   Legal contract owner \[sn\_lg\_cnt.contract\_owner\]
-4.  Enable the Now Assist panel for your instance. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+4.  Enable the ServiceNow Otto panel for your instance. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 **Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 

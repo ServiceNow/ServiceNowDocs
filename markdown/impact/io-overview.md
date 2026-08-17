@@ -1,5 +1,5 @@
 ---
-title: Monitor instance performance with IO
+title: Monitor instance performance with Instance Observer
 description: Instance Observer \(IO\) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real time, while also providing historical insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-overview.html
@@ -10,7 +10,7 @@ reading_time_minutes: 7
 breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
-# Monitor instance performance with IO
+# Monitor instance performance with Instance Observer
 
 Instance Observer \(IO\) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real time, while also providing historical insights.
 

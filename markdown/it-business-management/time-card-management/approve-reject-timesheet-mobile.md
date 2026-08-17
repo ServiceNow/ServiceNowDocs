@@ -1,6 +1,6 @@
 ---
 title: Approve or reject a time sheet or time card from your mobile device
-description: As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week in a single step by approving or rejecting a time sheet.
+description: As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week. Do this in a single step by approving or rejecting a time sheet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/approve-reject-timesheet-mobile.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Mobile Time Sheets, Time Card management, Project Portfolio Managem
 
 # Approve or reject a time sheet or time card from your mobile device
 
-As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week in a single step by approving or rejecting a time sheet.
+As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week. Do this in a single step by approving or rejecting a time sheet.
 
 ## Before you begin
 
@@ -47,7 +47,7 @@ A manager can [delegate another user](https://raw.githubusercontent.com/ServiceN
 -   All time cards associated with the time sheet are also approved or rejected automatically.
 -   Time cards that are of non-task type are in moved to the processed state.
 -   If any time cards in the time sheet are pending approval by one of the approvers, the sheet remains in the Submitted state.
--   If a time card in a time sheet is in the Rejected state, the time sheet also moves to the Rejected state regardless of the state of any other time cards in the time sheet.
+-   If a time card in a time sheet is in the Rejected state, the time sheet also moves to the Rejected state. This occurs regardless of the state of any other time cards in the time sheet.
 
 -   **[Track your time sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/track-timesheet.md)**  
 View and track the time sheets grouped according to the date of submission such as the current week, last week, or older.

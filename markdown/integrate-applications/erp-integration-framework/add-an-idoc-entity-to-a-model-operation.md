@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an IDoc entity to a model operation
@@ -55,6 +55,4 @@ Explore the API for interacting with Zero Copy Connector for ERP models. For det
 
     \[Omitted image "erp-add-idoc-entity-to-model2.png"\] Alt text: IDoc operation entities card with retrieval date and time.
 
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

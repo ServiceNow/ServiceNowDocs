@@ -69,10 +69,10 @@ The Virtual Agent interface for the Conversational Integration apps \(Slack, Mic
     In live agent conversations, users and agents can upload and exchange any type of attachment file when prompted.
 
 
-## Now Assist support
+## ServiceNow Otto support
 
-|Existing channel integrations|Supports Now Assist|Supports synthesized response|
-|-----------------------------|-------------------|-----------------------------|
+|Existing channel integrations|Supports ServiceNow Otto|Supports synthesized response|
+|-----------------------------|------------------------|-----------------------------|
 |Microsoft Teams/Copilot|Yes|Yes|
 |Slack|Yes|Yes|
 |WhatsApp|Yes|No|

@@ -50,5 +50,5 @@ This flow creates an invoice processing case, associates the invoice with that c
 9.  Select **Activate**.
 
 
-**Parent Topic:**[Start the processing for an invoice imported via integration with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)
+**Parent Topic:**[Start processing a third-party invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)
 

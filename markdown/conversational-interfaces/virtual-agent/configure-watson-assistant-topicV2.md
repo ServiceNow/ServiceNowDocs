@@ -19,7 +19,7 @@ Configure the IBM Watson Assistant Chat Integration to run a dialog skill \(conv
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 With the IBM Watson Assistant v2 API chat integration, the chat widget communicates with an assistant instead of with a workspace. Workspaces are referred to as dialog skills. For information on IBM Watson Assistant, see [Migrating to the v2 API](https://cloud.ibm.com/docs/services/assistant?topic=assistant-api-migration&locale=en-us#overview) in the IBM Watson Assistant documentation.
 
@@ -63,7 +63,7 @@ The IBM Watson Assistant V2 API enables the chat widget to use the Watson Assist
 
         \[Omitted image "WatsonDisambiguation.png"\] Alt text: Disambiguation form in IBM Watson Assistant. Disambiguation tab, on-off toggle, disambiguation message, anything else message, and suggestion maximum are highlighted.
 
-3.  Navigate to **Dialog**, select a node to which the disambiguation feature will apply, and provide a summary of the node that will be displayed to users if it's one of the intent suggestions.
+3.  Navigate to **Dialog**, select a node to apply the disambiguation feature, and provide a summary of the node to display to users if it's one of the intent suggestions.
 
     \[Omitted image "WatsonDialogNodeSummary.png"\] Alt text: Dialog node with a node purpose summary displayed to users as an alternate intent choice for disambiguation. Optional node summary is highlighted.
 
@@ -73,13 +73,17 @@ The IBM Watson Assistant V2 API enables the chat widget to use the Watson Assist
     -   IBM Watson Assistant Integration V2 plugin \(com.glide.cs.ibm.watson.assistant.topicV2\)
 5.  In Virtual Agent Designer, publish the IBM Watson Assistant V2 topic:
 
-    1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and select the **NLU/keyword** toggle.**All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+    1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**
 
-    2.  In the Virtual Agent Designer home page, select the IBM Watson Assistant V2 topic to open the Topic Properties page.
+    2.  Select the **Asset library** tab.
+
+    3.  Set the topic discovery toggle switch to **NLU/Keyword**
+
+    4.  Select the IBM Watson Assistant V2 topic to open the Topic Properties page.
 
         Notice that the **Keyword** for this topic is IBM Watson Assistant V2.
 
-    3.  In the Topic Properties page, select **Publish** to deploy the topic to your Virtual Agent chat widget.
+    5.  In the Topic Properties page, select **Publish** to deploy the topic to your Virtual Agent chat widget.
 
 6.  Navigate to **All**, and then enter `sys_properties.list` in the filter.
 
@@ -121,7 +125,7 @@ The IBM Watson Assistant V2 API enables the chat widget to use the Watson Assist
 
 10. Configure the Virtual Agent widget by selecting the edit icon \[Omitted image "edit-icon.png"\] Alt text: Edit icon. in the upper right corner to set the URL parameters passed to the chat client and change the color of the floating chat button.
 
-    1.  In the **Virtual Agent Client URL Parameters** field, enter the **sysparm\_skip\_load\_history=true** parameter so that the topic history doesn't display in the chat client and the **sysparm\_topic** parameter with the sys\_id of the published IBM Watson Assistant V2 topic to be run.
+    1.  In the **Virtual Agent Client URL Parameters** field, enter **sysparm\_skip\_load\_history=true** so the topic history isn't displayed in chat, and add the sys\_id of the published IBM Watson Assistant V2 topic to the **sysparm\_topic**.
 
         You can find the sys\_id of a topic in the Topics \[sys\_cs\_topic\] table.
 

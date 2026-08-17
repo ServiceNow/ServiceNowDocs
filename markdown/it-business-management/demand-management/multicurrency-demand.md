@@ -1,6 +1,6 @@
 ---
 title: Multicurrency in Demand Management
-description: Manage and track the financials of your demands in the corporate currency, regional currency, or the same currency that you want to use for managing the project using the multicurrency feature. The corporate policy typically governs the choice of this preference.
+description: The multicurrency feature tracks demand financials in the corporate currency, regional currency, or the project currency. Corporate policy typically governs this preference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/multicurrency-demand.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Demand Management, Project Portfolio Management, Strateg
 
 # Multicurrency in Demand Management
 
-Manage and track the financials of your demands in the corporate currency, regional currency, or the same currency that you want to use for managing the project using the multicurrency feature. The corporate policy typically governs the choice of this preference.
+The multicurrency feature tracks demand financials in the corporate currency, regional currency, or the project currency. Corporate policy typically governs this preference.
 
 **Important:**
 
@@ -29,7 +29,7 @@ If you have Portfolio Planning Workspace or Strategic Planning Workspace, you ca
 
 In global or multinational organizations, demands are often managed and tracked at one geographic location and executed at a different geographic location. As each location might use a different currency to spend the budget, this difference in geographic location makes it difficult to monitor and track financials for such demands.
 
-The multicurrency feature in Demand Management makes it easier for you to manage and track your demands from any geographical location in any currency. You can monitor and track the financials of your demands in one currency and spend the budget in a different currency such as the functional currency, regional currency, or the currency that you want to later use to manage your projects. You can also choose to manage your demands in one currency and specify a different currency for managing your future projects.
+The multicurrency feature in Demand Management enables you to manage and track demands from any geographic location in any currency. Monitor financials in one currency while spending the budget in another, such as the functional currency or regional currency. You can also manage demands in one currency and specify a different currency for future projects.
 
 ## Activation information
 
@@ -53,7 +53,7 @@ The **Demand currency** field of a demand becomes read only once you create a co
 
 ## Multicurrency in Demand Tasks
 
-Track the expenses incurred while performing the demand tasks in demand currency. When the time card for a demand task is submitted and processed, the actual cost is calculated based on the rate model, the default labor rate, or the rate defined in the system property. You can view this actual cost in the Demand Task form in the **Demand currency** and **Actual cost in demand currency** fields. For more information, see [Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-task.md).
+Track the expenses incurred while performing the demand tasks in demand currency. After a demand task time card is submitted and processed, the actual cost is calculated. The calculation uses the rate model, the default labor rate, or the rate defined in the system property. View this actual cost in the Demand Task form in the **Demand currency** and **Actual cost in demand currency** fields. For more information, see [Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-task.md).
 
 ## Multicurrency in Demand Baseline
 

@@ -1,6 +1,6 @@
 ---
 title: Universal Request in Accounts Payable Operations
-description: Universal Request provides a centralized entry point for suppliers and invoice owners to submit requests that are converted into invoice cases for processing in Accounts Payable Operations.
+description: Universal Request enables suppliers and invoice owners to submit requests converted into invoice cases in Accounts Payable Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 
 # Universal Request in Accounts Payable Operations
 
-Universal Request provides a centralized entry point for suppliers and invoice owners to submit requests that are converted into invoice cases for processing in Accounts Payable Operations.
+Universal Request enables suppliers and invoice owners to submit requests converted into invoice cases in Accounts Payable Operations.
 
 The Universal Request \(UR\) is a key ServiceNow capability that serves as a centralized entry point for both invoice owners and suppliers. The primary purpose of UR is to simplify the process of raising general case requests, thereby removing any uncertainty regarding the appropriate department to contact for assistance.
 
@@ -31,7 +31,7 @@ UR can be created by:
 UR seamlessly integrates with the APO system, enabling more efficient management of invoice cases. This integration not only streamlines the overall invoice handling process but also enhances cross-departmental service delivery, confirming that case requests are addressed promptly and accurately across the organization. UR works in APO in the following order:
 
 1.  Request submission- Invoice owners or suppliers initiate a UR via the Employee portal or the Supplier portal. The UR records essential information and uses predefined mappings.
-2.  Routing and case creation- Accounts Payable \(AP\) agents within the Accounts Payable Universal Request group are authorized to review Universal Requests \(URs\) and, based on the provided details, can create an invoice case as the primary ticket. This process can be executed either within the Source-to-Pay workspace or directly from the platform.
+2.  Routing and case creation- AP agents within the Accounts Payable Universal Request group review URs and create an invoice case as the primary ticket. Agents can do this from the Source-to-Pay workspace or directly from the platform.
 3.  Processing and automation- The updates are synchronized back to the UR. The invoice owner or supplier tracks progress and receives updates through the UR case in the employee portal or supplier portal.
 
 \[Omitted image "universal-request.png"\] Alt text: Universal Request
@@ -61,7 +61,7 @@ Validate incoming Universal Request items in the Source-to-Pay Workspace and cre
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 
@@ -79,7 +79,7 @@ Validate incoming Universal Request items in the Source-to-Pay Workspace and cre
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Playbook for updating the invoice primary data]()
 

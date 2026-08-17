@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, admin, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, admin, invoice automation, APO Admin, approval plan]
 breadcrumb: [Invoice approvals, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

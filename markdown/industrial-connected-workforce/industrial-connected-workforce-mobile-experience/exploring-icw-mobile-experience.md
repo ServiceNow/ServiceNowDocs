@@ -160,7 +160,7 @@ The Industrial Standards Library or Standards hub in the Industrial Connected Wo
 -   **[AI Search in Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Access the AI Search for Industrial Connected Workforce Mobile Experience by using the search bar on the home page. The system interprets queries to return the most relevant results across configured record types, such as standards, tasks, and knowledge articles.
 -   **[Recommended Actions in the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/recommended-actions-icw-mobile-experience.md)**  
-The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task and are intended to support you during manufacturing processes by providing relevant guidance at the point of need.
+The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task. They provide relevant guidance at the point of need to support you during manufacturing processes.
 
 **Parent Topic:**[Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-exp-landing-page.md)
 

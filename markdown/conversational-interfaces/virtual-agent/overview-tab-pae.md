@@ -18,7 +18,7 @@ Use the Overview tab to view key indicators that help you evaluate the performan
 
 The **Overview** tab is the landing page for the dashboard. The visualizations in the **Overview** tab are important indicators of how VA is performing. You must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role to use the **Overview** tab.
 
-**Note:** Now Assist in Virtual Agent Analytics appears in the left navigation only when you have [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) enabled.
+**Note:** ServiceNow Otto in Virtual Agent Analytics appears in the left navigation only when you have [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) enabled.
 
 \[Omitted image "vaa-next-exp-overview-pae.png"\] Alt text: Virtual agent analytics dashboard overview tab
 

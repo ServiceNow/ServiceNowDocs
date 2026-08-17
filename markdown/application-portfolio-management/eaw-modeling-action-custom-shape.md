@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-After creating custom shapes and adding the custom shapes to the shape library, you can define actions that you want to associate with each custom shape that you have created. Diagram actions can enhance the user experience by making diagrams more interactive and functional.
+After creating custom shapes and adding them to the shape library, you can define actions to associate with each shape. Diagram actions enhance the user experience by making diagrams more interactive and functional.
 
 ## Procedure
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-add-component.html
 release: australia
 topic_type: task
-last_updated: "2026-05-27"
-reading_time_minutes: 2
-breadcrumb: [Telecommunications Customer 360 component, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
+last_updated: "2026-07-26"
+reading_time_minutes: 3
+breadcrumb: [Telecommunications Customer 360 component, Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Add the Telecom Customer 360 component to a record page
@@ -22,10 +22,11 @@ Role required: sn\_telecom\_c360.admin
 
 Add the Telecom Customer 360 component as a dedicated tab on a record page in the CSM/FSM Configurable Workspace. The component displays configurable cards scoped to a single customer record. Cards cover customer contact details, products and services, billing, tasks, interaction history, data visualizations, and Now Assist AI insights.
 
-**Note:**
+**Important:** This procedure adds the component as a standalone tab. If you are adding the component to a CSM case record page and want Recommended Actions and Run Diagnostics to work in the contextual side panel, use the page collection approach instead. See [Add Telecom Customer 360 to any record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-page-collection.md).
 
--   After adding the component, you must also add the **Setup Customer360 Context** data resource to the page. This data resource resolves the record to the associated account or consumer. Without it, the component context cannot be determined. See [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-data-resource.md).
--   The component can be only be added as a new tab on the record page. You can't embed it within an existing tab.
+After adding the component, you must also add the **Setup Customer360 Context** data resource to the page. This data resource resolves the record to the associated account or consumer. Without it, the component context can't be determined. See [Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-data-resource.md).
+
+The component can be added only as a new tab on the record page. You can't embed it within an existing tab.
 
 ## Procedure
 

@@ -57,6 +57,8 @@ For the ITSM Software Asset Management feature of Asset Management, see [ITSM So
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 -   **[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)**  
 Configure the various aspects of the Software Asset Management application based on the needs of your organization.
+-   **[Using AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-ai-in-software-asset-workspace.md)**  
+Streamline your software asset operations by using the ServiceNow Otto for Software Asset Management \(SAM\) agentic AI workflows and generative AI skills.
 -   **[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization.
 -   **[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)**  
@@ -77,6 +79,6 @@ Software Asset Management administration tasks include adding custom part number
 This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 -   **[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)**  
 Use the descriptions provided to help you fill in the Software Asset Management forms.
--   **[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
-Use the Now Assist for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
+-   **[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
+Use the ServiceNow Otto for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
 

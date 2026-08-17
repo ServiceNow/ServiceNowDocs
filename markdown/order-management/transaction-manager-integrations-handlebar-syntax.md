@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience Integrations - Handlebars syntax
 
 You can use the Handlebars templating language when you build an integration transformation template.
 
-Handlebars is a lightweight templating language used to generate dynamic content. Administrators building integration transformation templates use the following key elements of Handlebars syntax, together with enhancements specific to ServiceNow CPQ:
+Handlebars is a lightweight templating language used to generate dynamic content. Administrators building integration transformation templates use the following key elements of Handlebars syntax, together with enhancements specific to CPQ:
 
 -   Handlebars expressions: Enclosed in double curly braces **\{\{ \}\}**, expressions enable administrators to insert variables, functions, or properties into the template. For example, **\{\{user.name\}\}** renders the value of the name property of the user object.
 -   Built-in helpers include conditional helpers and iteration helpers.

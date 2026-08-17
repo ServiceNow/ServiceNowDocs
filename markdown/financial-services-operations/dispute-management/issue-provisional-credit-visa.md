@@ -42,7 +42,7 @@ A temporary credit is provided to the card holder to notify that the case is und
 
 5.  Select the transaction ID from the playbook.
 
-6.  In the **Issue provisional credit** activity, enter the refund amount and details.
+6.  In the **Issue provisional credit** task, enter the refund amount and details.
 
 7.  In the  **Remarks** field, enter any comments.
 

@@ -16,13 +16,13 @@ Add your business continuity associated plans and recovery teams to your busines
 
 ## Before you begin
 
-Role required: sn\_bcm.admin, sn\_bcm.program\_manager, sn\_bcm.planner, sn\_bcp.plan\_manager
+Role required: sn\_bcm.program\_manager, sn\_bcm.planner, sn\_bcp.plan\_manager
 
 ## About this task
 
 You can add the associated plans that are listed in the Workspace view. When an associated plan is added in an exercise or event, it gets triggered from a task if the task is tagged as a dependency.
 
-Previously, adding an associated plan would automatically include a link to the plan record in its record list. However, with the introduction of the Xanadu release, this process has changed to a one-way relationship, and the associated plan record no longer displays the link to the original plan record. To manually insert the link, you can navigate to the tab and add the link. This update provides the flexibility to designate the plan relationship as either a parent-child or sibling relationship.
+Previously, adding an associated plan would automatically include a link to the plan record in its record list. However, with the introduction of the Xanadu release, this process has changed to a one-way relationship. The associated plan record no longer displays the link to the original plan record. To manually insert the link, you can navigate to the tab and add the link. This update provides the flexibility to designate the plan relationship as either a parent-child or sibling relationship.
 
 ## Procedure
 
@@ -73,7 +73,7 @@ Previously, adding an associated plan would automatically include a link to the 
 
     With the cyclic dependency check, you can add recovery tasks from the same downstream plan and upstream plan as dependencies. This provides a hierarchical approach to managing complex recovery sequences.
 
-    The following example shows that recovery task t3 has a dependency on t4 \(another recovery task from same plan\) and on t1 which is a recovery task from the upstream plan.
+    The example shows that recovery task t3 depends on t4 \(from the same plan\) and t1 \(from the upstream plan\).
 
     **Note:** Recovery tasks inside a business continuity plan \(BCP\) can now be linked to tasks from other plans, provided they belong to a direct parent plan. These recovery tasks are carried across to the event tasks.
 

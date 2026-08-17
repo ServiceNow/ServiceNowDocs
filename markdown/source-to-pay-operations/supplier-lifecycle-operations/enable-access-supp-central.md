@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Supplier Collaboration Portal, user criteria, admin, fix script, self-register]
 breadcrumb: [Post-upgrade tasks, Install Supplier Collaboration Portal, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

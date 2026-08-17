@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-documentservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-08-17"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -110,6 +110,14 @@ Organize, access, and collaborate on files efficiently with unified Document Man
 
 Enable developers and administrators to complete administrative configuration tasks for Document Services without requiring the full admin role.
 
+-   **[Redact sensitive data from documents using AI](https://www.servicenow.com/docs/access?context=redact-sensitive-data-using-AI&family=australia&ft:locale=en-US)**
+
+Redact sensitive information in documents using AI-powered detection and policy-based redaction. Review AI-suggested redactions, assign compliance codes, and help protect confidential data before sharing documents.
+
+-   **[Voice Assist for Docs skill](https://www.servicenow.com/docs/access?context=configure-skill-voice-assist&family=australia&ft:locale=en-US)**
+
+Generate audio summaries and interact using voice-based questions to understand and extract key information from documents.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -204,7 +212,17 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Smart documents](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=australia&ft:locale=en-US)**
+
+Use Smart Document skill across all tables.
+
+Existing configurations remain unchanged during upgrade, including those on specific tables or when the feature is disabled.
+
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -534,6 +552,10 @@ Australia
 -   Manage documents quickly and get complete visibility across all entity-level folders and business records in a single unified view.
 -   Streamline operations with drag-and-drop uploads and direct cloud integration, allowing file management through quick actions directly from file cards.
 -   Enhanced control provides teams with real-time visibility over the document life cycle via in-line metadata editing, automatic version tracking, granular permissions, and embedded workflow assignments on the file card.
+-   Manage documents using a common document viewer across Platform/UI16 and Workspace.
+-   Enable Smart Document Skill across all tables by default, removing the need for manual configuration.
+-   Redact sensitive information in documents using AI-powered detection and policy-based redaction to help protect confidential data and support compliance requirements
+-   Generate audio summaries of documents and retrieve document information using voice queries, enabling a more accessible and hands-free document experience.
 
  See [Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&family=australia&ft:locale=en-US) for more information.
 

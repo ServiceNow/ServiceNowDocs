@@ -24,8 +24,8 @@ Role required: sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
 
 Consider the following when using this feature:
 
--   Only requests created from Task Mining are supported. For more information, see .
--   Now Assist AI Agents skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md).
+-   Only requests created from Task Mining are supported. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-automation-center.md).
+-   User task step summarization skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ Consider the following when using this feature:
 
 4.  Select **Create agent** from the options at the top.
 
-    **Note:** The **Create agent** option is available only if the Now Assist AI Agents skill is activated and the automation request is in **In progress** state.
+    **Note:** The **Create agent** option is available only if the User task step summarization skill is activated and the automation request is in **In progress** state.
 
     The **Choose destination instance** dialog box is displayed.
 
@@ -57,7 +57,7 @@ Consider the following when using this feature:
 
 6.  Select **Create agent in AI studio** after reviewing the content.
 
-    For the detailed procedure to create an agent in Now Assist AI Agent studio, see .
+    For the detailed procedure to create an agent in AI Agent Studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     The agent is created for the automation request.
 

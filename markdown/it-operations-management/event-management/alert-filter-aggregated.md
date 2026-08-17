@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure filters for automatic alert groups, Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure filters for automatic alert groups, Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Apply alert group filters to aggregated groups

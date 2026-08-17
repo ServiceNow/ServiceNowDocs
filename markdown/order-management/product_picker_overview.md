@@ -7,16 +7,18 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Product pickers
 
 Learn how to create and configure product pickers to add products to a bill of materials \(BOM\) without writing rules. Define product options, subfields, aggregates, and display settings to enhance user interactions, automate data mapping, and present product information directly in layouts.
 
-A product picker is similar to a picklist with extended data. product pickers can add products to a bill of materials and map additional data to product list fields, including extended data, without writing standard rules. Bulk actions provide additional, table based rules that can be used with the product picker Field.
+A product picker is similar to a picklist with extended data. Product pickers can add products to a bill of materials and map additional data to product list fields, including extended data, without writing standard rules. Bulk actions provide additional, table based rules that can be used with the product picker Field.
 
-## Creating a new product picker
+**Note:** You can update only manually created fields, actions, or options of product pickers that are synced to CPQ Administrator.
+
+## Creating a product picker
 
 Product Pickers can be created in the fields tab of the Admin. To make a new product picker functional, all you need to do is add some options, then place it on a Layout. Select product picker as the new field type.
 
@@ -137,7 +139,7 @@ Aggregate fields can be added to the layout and will automatically be calculated
 
 ## Product Info fields
 
-Product Pickers can optionally display some read-only information about a product. The values are pulled from the product template that is cached in ServiceNow CPQ. These fields can then be added to the layout.
+Product Pickers can optionally display some read-only information about a product. The values are pulled from the product template that is cached in CPQ. These fields can then be added to the layout.
 
 **Note:** These values are read-only and cannot be set by rules.
 
@@ -160,7 +162,7 @@ Product pickers have additional properties that can be set, both to control the 
 -   \(6\) BOM Type: Which BOM to set by default for the product options
 -   \(7\) Parent Product: Name of the parent product to use by default for the product options
 
-This table shows scenarios where the user changes Quantity and ServiceNow CPQ changes Select, or vice versa. In all other cases, the value is not changed.
+This table shows scenarios where the user changes Quantity and CPQ changes Select, or vice versa. In all other cases, the value is not changed.
 
 |Change|Status of Quantity field|Status of Select field|Result|
 |------|------------------------|----------------------|------|
@@ -187,7 +189,7 @@ Product Pickers can be added and edited in Layouts both through the Layout Wizar
 
 If a product picker Field is associated with a blueprint, it will be included in the exports of that blueprint.
 
-From the Fields page in the ServiceNow CPQ Admin, select a product picker to export and a ZIP file will be generated containing the following:
+From the Fields page in the CPQ Admin, select a product picker to export and a ZIP file will be generated containing the following:
 
 -   Product Picker fields
 -   Product Picker field options

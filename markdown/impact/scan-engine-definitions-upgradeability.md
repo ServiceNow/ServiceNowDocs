@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-upgradeability.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
-breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine definitions, Impact reference, Impact]
 ---
 
 # Scan Engine definitions: Upgradeability
@@ -39,4 +39,6 @@ The following upgradeability definitions have been added for the Australia 2026 
 |sn\_SE10543|1|Suggest| |ACLs on PA tables have changed|Since Performance Analytics ACLs are preconfigured, additional attention will be required if they are changed.|Revert the ACL back to out-of-box.|[Documentation](https://www.servicenow.com/docs/access?context=access-control-rules)|
 |sn\_SE10583|1|Act| |Use of deprecated API RESTMessage \(V1\)|The API is deprecated and no longer supported.|Replace RESTMessageV1 with RESTMessageV2.|[Documentation](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API)|
 |sn\_SE10615|1|Review| |Ownership Metrics|Knowledge articles without an author or group ownership can lead to a poor user experience and difficulty in maintaining article quality.|Assign an Ownership Group or Author to the knowledge articles.|[Documentation](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219)|
+
+**Parent Topic:**[Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md)
 

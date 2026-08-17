@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/identify-escalation.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-07-21"
 reading_time_minutes: 6
-breadcrumb: [Platform agentic workflows, Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Identify escalation signals agentic workflow
@@ -27,13 +27,13 @@ The Identify escalation signals agentic workflow identifies high-risk tasks that
 -   SLA proximity
 -   Similar record history
 
-The agents, tools, and triggers for the Identify escalation signals agentic workflow are provided by Now Assist applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the Now Assist panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings, and activate the duplicated version.
+The agents, tools, and triggers for the Identify escalation signals agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings, and activate the duplicated version.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance. You can get this by installing any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have ServiceNow Otto for Platform installed on your instance. You can get this by installing any other AI application.
 
 For this agentic workflow to behave as expected, configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
 
@@ -41,7 +41,7 @@ For this agentic workflow to behave as expected, configure Group Action Framewor
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_proactive\_escalation.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, add the necessary roles to enable reading of the tables for the records you want to access for identification. For example, add the itil role to the agentic workflow's list of approved roles so it can access Incident records.
 
@@ -91,7 +91,7 @@ AIS Search Profile
 
 </td><td>
 
-Profile for AI search, such as Now Assist in Virtual Agent.
+Profile for AI search, such as ServiceNow Otto for Virtual Agent.
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ If you want to evaluate the agentic workflow over many different execution logs,
 
 ## Sample utterance
 
-After activating the workflow in AI Agent Studio, enter "Identify my tickets that might escalate" or similar phrases in the Now Assist panel to trigger the workflow. You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
+After activating the workflow in AI Agent Studio, enter "Identify my tickets that might escalate" or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 
 ## AI agents used in the Identify escalation signals agentic workflow
 

@@ -23,7 +23,7 @@ Once the workflow is activated, it triggers automatically when a case meets both
 -   Priority is **P1** or **P2**
 -   The case has **no parent case**
 
-**Note:** You can configure the similarity thresholds and other detection parameters. For more information see [Configure Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-na-for-csm-major-issue-management.md).
+**Note:** You can configure the similarity thresholds and other detection parameters. For more information see [Configure ServiceNow Otto for CRM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-na-for-csm-major-issue-management.md).
 
 ## How the workflow runs
 

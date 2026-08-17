@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Related log entities alert grouping
@@ -36,5 +36,5 @@ Related log entities alert grouping recognizes that all these alerts share the s
 
 Use case 1 is good if you want to highlight the cross-component nature of the grouping — showing that alerts about different infrastructure pieces get linked together. Use case 2 is better if you want to highlight the multi-host scenario, which maps more directly to how HLA alert hierarchies actually work \(top-level + secondary alerts per host\).
 
-For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 

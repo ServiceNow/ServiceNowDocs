@@ -148,5 +148,5 @@ Content Governance provides a streamlined way for employees to request content t
 [Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
 
 </td></tr></tbody>
-</table>For more information, see the [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).
+</table>For more information, see the [Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-regulatorychangemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
+last_updated: "2026-08-17"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -102,9 +102,9 @@ Zurich
 
 </td><td>
 
--   **[Now Assist for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=now-assist-for-irm-rn&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=now-assist-for-irm-rn&family=zurich&ft:locale=en-US)**
 
-You can review the Now Assist for Integrated Risk Management \(IRM\) release notes for full descriptions of the Now Assist in Regulatory Change Management \(RCM\) features.
+You can review the ServiceNow Otto for Integrated Risk Management \(IRM\) release notes for full descriptions of the Now Assist in Regulatory Change Management \(RCM\) features.
 
 -   **[Add multiple regulatory tasks](https://www.servicenow.com/docs/access?context=regulatory-change-tasks&family=zurich&ft:locale=en-US)**
 
@@ -137,7 +137,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Smart assessment versioning of regulatory assessment templates](https://www.servicenow.com/docs/access?context=update-reg-assessment-template&family=australia&ft:locale=en-US)**
+
+You can create a version of an existing regulatory assessment template to revise the questionnaire and response options, without disrupting assessments that are already in progress. New regulatory assessments use the latest published version of the template.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -242,14 +245,27 @@ Australia
 
 </td><td>
 
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **[Default AI model provider for regulatory alert recommendation skills](https://www.servicenow.com/docs/access?context=configure-recommendation-skill-for-a-regulatory-alert&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.4.0, the regulatory alert recommendation skills in ServiceNow Otto for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
+
+-   **[Default AI model provider for agentic workflows](https://www.servicenow.com/docs/access?context=using-agentic-ai-workflows&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
+
+
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -347,7 +363,7 @@ Yokohama
 
 </td><td>
 
-Install Regulatory Change Management and Now Assist for IRM by requesting them from ServiceNow Store. 
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. 
 
 </td></tr><tr><td>
 
@@ -355,7 +371,7 @@ Zurich
 
 </td><td>
 
-Install Regulatory Change Management and Now Assist for IRM by requesting them from the ServiceNow Store. 
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. 
 
 </td></tr><tr><td>
 
@@ -363,7 +379,7 @@ Australia
 
 </td><td>
 
-Install Regulatory Change Management and Now Assist for IRM by requesting them from the ServiceNow Store. 
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. 
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -563,6 +579,9 @@ Zurich
 Australia
 
 </td><td>
+
+-   ServiceNow Otto is the new name for the Now Assist experience, delivering agentic AI, multimodal interactions, and autonomous cross-system workflow orchestration.
+-   Update an assessment template to send new assessments with the latest version, without disrupting the ones that are already in progress.
 
 [Early availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
 

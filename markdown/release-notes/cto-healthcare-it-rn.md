@@ -17,7 +17,7 @@ The ServiceNow® Care Team Operations for Healthcare IT application contains the
 ## Care Team Operations for Healthcare IT highlights for the Australia release
 
 -   Use the conversational abilities of Now Assist in Virtual Agent in Care Team Portal or Care Team Mobile to create requests for support departments.
--   Leverage the Care Team Operations Case Creation Voice AI Agent enables to create cases conversationally over the phone.
+-   Leverage the Care Team Operations Case Creation AI voice agent enables to create cases conversationally over the phone.
 -   Care Team Operations for Healthcare IT has received security enhancements in the Australia release.
 
 See [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-it-app.md) for more information.
@@ -36,11 +36,11 @@ If you have the feature administrator role you can now complete tasks that were 
 
     Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case Creation AI agents and is available in Care Team Portal and Care Team Mobile.
 
--   **[Care Team Operations Case Creation Voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-voice-agent.md)**
+-   **[Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-voice-agent.md)**
 
-    The Care Team Operations Case Creation Voice AI Agent enables care team members to create cases conversationally over the phone.
+    The Care Team Operations Case Creation AI voice agent enables care team members to create cases conversationally over the phone.
 
-    **Note:** For the Care Team Operations Case Creation Voice AI Agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
+    **Note:** For the Care Team Operations Case Creation AI voice agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
 
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
@@ -55,7 +55,7 @@ If you have the feature administrator role you can now complete tasks that were 
 
 ## Activation information
 
-Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

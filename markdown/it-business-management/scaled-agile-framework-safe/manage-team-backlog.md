@@ -101,7 +101,7 @@ The tab displays only the sprints of the current program increment.
 
 ### About this task
 
-In SAFe, the main portion of sprint planning occurs during the Big Room Planning process. The team backlog and the sprint planning portion of it is designed for refinement sessions. Though the overall plan of each sprint of a program increment already exists, the team still has sprint planning sessions every two weeks to add any missing stories and adjust the initial plan.
+In SAFe, the main portion of sprint planning occurs during the Big Room Planning process. The team backlog and the sprint planning portion of it is designed for refinement sessions. The overall plan of each sprint of a program increment already exists. However, the team still has sprint planning sessions every two weeks to add any missing stories and adjust the initial plan.
 
 ### Procedure
 

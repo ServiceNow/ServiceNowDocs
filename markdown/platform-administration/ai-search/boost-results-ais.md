@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Result improvement rules, Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Result improvement rules, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Boost search results using a result improvement rule
@@ -86,7 +86,7 @@ Boost By User Context \(dynamic\)
 
 Applies relevancy boost to search results from the selected indexed source if they include a value for the selected field that matches a field value specified in the dynamically populated user context. As an example, you might boost all results from the Knowledge Table indexed source with Short description field values that contain matches for the city specified in the current search user's location, as set in their user context. This configuration could end up boosting different records when you search from Paris than when you search from New York City.
 
-**Note:** Starting in the Xanadu release, AI Search expands user context field values using published, active synonyms defined in dictionaries linked to the current search profile. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on synonym expansion, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md).
+**Note:** Starting with the Xanadu release, AI Search expands user context field values using published, active synonyms defined in dictionaries linked to the current search profile. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on synonym expansion, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md).
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 3
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace Concierge agentic workflow
@@ -20,7 +20,7 @@ Use the Workplace Concierge agentic workflow to register visitors from existing 
 
 ## Workplace Concierge workflow overview
 
-Workplace Concierge is an agentic workflow that operates directly from communication tools like email, calendar, and Now Assist in Virtual Agent. When you add the Workplace Concierge to a conversation, it identifies the intent to schedule a meeting, gathers and validates the necessary visit details, confirms the information with the host, and then creates the visit and visitor invitations. If any mandatory detail is absent or ambiguous, Workplace Concierge pauses and communicates with the host before proceeding.
+Workplace Concierge is an agentic workflow that operates directly from communication tools like email, calendar, and . When you add the Workplace Concierge to a conversation, it identifies the intent to schedule a meeting and gathers the necessary visit details. It validates the information with the host and then creates the visit and visitor invitations. If any mandatory detail is absent or ambiguous, Workplace Concierge pauses and communicates with the host before proceeding.
 
 Workplace Concierge supports the following communication channels:
 
@@ -53,18 +53,18 @@ The following agents are used in the Workplace Concierge workflow:
 
 ## Select display
 
-In the Select a UI display section, select **Display** to display the Now Assist panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the Select a UI display section, select **Display** to display the ServiceNow Otto panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to hosts in the Now Assist panel about updates to the import tasks.
+Select this option to receive and review notifications sent by AI agents in the ServiceNow Otto panel. AI agents send notifications to hosts in the Now Assist panel about updates to the import tasks.
 
--   **[Use Workplace Concierge with Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/use-concierge-virtual-agent.md)**  
-Invoke Workplace Concierge from Now Assist in Virtual Agent to invite visitors to your organization.
+-   **[Use Workplace Concierge with ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/use-concierge-virtual-agent.md)**  
+Invoke Workplace Concierge from to invite visitors to your organization.
 -   **[Use Workplace Concierge with email or calendar invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/use-concierge-email.md)**  
 Add the Workplace Concierge to an email thread or a calendar invite.
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
@@ -79,11 +79,11 @@ Add the Workplace Concierge to an email thread or a calendar invite.
 
 [Workplace Advisor Overview]()
 
-[]()
+[Implement Autonomous L1 Agent for Workplace]()
 
-[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
-[Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
+[Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configuring Quote Management - Basic
+title: Configuring Quote Management
 description: Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-quote-management.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Configuring Quote Management - Basic
+# Configuring Quote Management
 
 Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 
@@ -38,18 +38,6 @@ Install Quote Management from the ServiceNow® Store Store. It provides these ke
 -   Use the product configurator to select simple and configurable product offerings.
 -   Add pricing adjustments to products.
 -   Convert quotes to product orders once customers have approved.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-
-
-</td><td>
-
-Set the roles for Quote Management users and your product catalog and pricing administrators.
 
 </td><td>
 
@@ -125,10 +113,15 @@ After completing the configuration tasks, you can start using Quote Management t
 
 Optionally, configure [Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-management.md) to build automated approval workflows for customer quotes and other Sales Customer Relationship Management entities.
 
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md)**  
+
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
+
 **Related topics**  
 
 
-[Quote Experience in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)
+[Quote Experience in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)
 
 [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

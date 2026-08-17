@@ -18,7 +18,7 @@ The following checklist helps to ensure your environment is properly configured,
 ## Agentic development access and setup
 
 1.  Ensure you have credentials for the development instance.
-2.  Confirm that you have the appropriate license for the tools you want to use, for example for Build Agent or Now Assist for Creator.
+2.  Confirm that you have the appropriate license for the tools you want to use, for example for Build Agent or ServiceNow Otto for Creator.
 
     **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -27,7 +27,7 @@ The following checklist helps to ensure your environment is properly configured,
 
         **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
 
-    -   [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+    -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
 
 ServiceNow Studio and ServiceNow IDE are automatically available on every instance, so you don't need to confirm their installation.
@@ -41,7 +41,7 @@ ServiceNow Studio and ServiceNow IDE are automatically available on every instan
 ## Learn core features
 
 1.  Practice converting natural language prompts into apps using Build Agent.
-2.  If you're using Now Assist for Creator tools, familiarize yourself with the following:
+2.  If you're using ServiceNow Otto for Creator tools, familiarize yourself with the following:
     -   Text-to-form/App scaffolding
     -   Code explanation and refactoring, though Build Agent has a more robust implementation.
 3.  Explore multi-turn chat for iterative development through conversational prompting.

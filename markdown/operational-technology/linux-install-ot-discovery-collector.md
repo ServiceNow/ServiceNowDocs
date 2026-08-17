@@ -20,13 +20,13 @@ Install the OT Discovery Collector on a Linux system.
 
     **Note:** An example of the file name format is`linuxCollectorinstaller_3.3.1_20250917.1.tar.gz`.
 
--   You need to SCP the `CollectorBundle` file you generated and downloaded from the Discovery Console to the Linux system.
+-   SCP the `CollectorBundle` file you generated and downloaded from the Discovery Console to the Linux system.
 -   To go into OT Discovery Collector Linux host, use `ssh`.
 -   Use `su` or `sudo -s` to switch to the root user.
 
 Role required: admin
 
-**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information on installing a containerized package, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 
@@ -96,4 +96,6 @@ journalctl -f -a -u SNDiscoveryCollector
 ```
 
 .
+
+**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)
 

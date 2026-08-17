@@ -9,7 +9,7 @@ classification: itom-cloud-accelerate
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Cloud Configuration Governance reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Cloud Configuration Governance roles and system properties

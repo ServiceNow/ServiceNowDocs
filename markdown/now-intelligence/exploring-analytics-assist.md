@@ -1,22 +1,22 @@
 ---
-title: Explore generating or exporting dashboards and visualizations in the Now Assist panel
-description: Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the Now Assist panel.
+title: Explore generating or exporting dashboards and visualizations in the ServiceNow Otto panel
+description: Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/exploring-analytics-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
-# Explore generating or exporting dashboards and visualizations in the Now Assist panel
+# Explore generating or exporting dashboards and visualizations in the ServiceNow Otto panel
 
-Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the Now Assist panel.
+Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
 
 ## Overview of skills
 
-There are two skills pertaining to working with data visualizations and dashboards conversationally in the Now Assist panel:
+There are two skills pertaining to working with data visualizations and dashboards conversationally in the ServiceNow Otto panel:
 
 -   **Data visualization generation**
 
@@ -41,13 +41,13 @@ The data visualization generation and dashboard and visualization export skills 
 
 ## Supported user interfaces
 
-Access the data visualization generation skill by starting a conversation in the Now Assist panel and asking for information available from a Platform Analytics table.
+Access the data visualization generation skill by starting a conversation in the ServiceNow Otto panel and asking for information available from a Platform Analytics table.
 
-Similarly, access the dashboard and visualization export skill by starting a conversation in the Now Assist panel and asking to export a specific visualization or dashboard.
+Similarly, access the dashboard and visualization export skill by starting a conversation in the ServiceNow Otto panel and asking to export a specific visualization or dashboard.
 
 \[Omitted image "nowass-dv-intro.png"\] Alt text: Query asking Now Assist to show all indicators that have not been resolved for over 30 days.
 
 \[Omitted image "nowass-dv-list.png"\] Alt text: Result of the query showing a list of indicators.
 
-**Parent Topic:**[Generate or export dashboards and data visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
+**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
 

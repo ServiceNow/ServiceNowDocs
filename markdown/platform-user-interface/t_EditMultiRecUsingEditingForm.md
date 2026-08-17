@@ -24,7 +24,7 @@ Depending on your ACL settings, some of these options might not be available eve
 
 1.  Perform one of the following actions.
 
-<table id="choicetable_f1q_l2n_pv"><tbody><tr><td id="d84823e60">
+<table id="choicetable_f1q_l2n_pv"><tbody><tr><td id="d84863e60">
 
 **Update selected records**
 
@@ -34,7 +34,7 @@ Depending on your ACL settings, some of these options might not be available eve
 2.  Select and hold \(or right-click\) any column header and select **Update Selected**.
 
 
-</td></tr><tr><td id="d84823e81">
+</td></tr><tr><td id="d84863e81">
 
 **Update all records in the list**
 

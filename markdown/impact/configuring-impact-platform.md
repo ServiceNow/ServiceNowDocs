@@ -32,8 +32,8 @@ Use Impact Guided Setup to follow a sequence of tasks that help you configure th
 Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 4.  [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/hop-access-impact-squad.md)  
 Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
-5.  [Activate Now Assist skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)  
-Activate a Now Assist skill before you can use the generative AI capabilities for Impact.
+5.  [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)  
+Activate the Now Assist skill before you can use the generative AI capabilities for Impact.
 6.  [Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)  
 The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 

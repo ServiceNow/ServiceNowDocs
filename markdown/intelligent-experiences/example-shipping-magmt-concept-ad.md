@@ -16,7 +16,7 @@ Automate various tasks related to shipping management through desktop actions us
 
 Your shipping coordinators frequently handle repetitive data-entry tasks. For example, entering PO numbers, invoice details, customer information, shipping addresses, item dimensions, and weights from Excel into the Shipping Management application on their desktops. When there are dozens of rows to process, it becomes time-consuming, error-prone, and significantly slows down their daily workflow.
 
-To streamline this process, you can create a dedicated desktop action that reads each row from the Excel file and automatically inputs the data into the Shipping Management application. You can then assign this action to an AI Agent. When new shipping batches arrive, shipping coordinators simply trigger the AI Agent from the Now Assist panel. The agent then automatically processes each line item by selecting and running the appropriate desktop action.
+To streamline this process, you can create a dedicated desktop action that reads each row from the Excel file and automatically inputs the data into the Shipping Management application. You can then assign this action to an AI Agent. When new shipping batches arrive, shipping coordinators simply trigger the AI Agent from the ServiceNow Otto panel. The agent then automatically processes each line item by selecting and running the appropriate desktop action.
 
 ## Create Process shipping orders desktop action in AI Desktop Actions
 
@@ -312,7 +312,7 @@ List of steps
 
 ### What to do next
 
-Enable shipping coordinators to trigger AI agents from the Now Assist panel to enter data automatically into the Shipping Management application.
+Enable shipping coordinators to trigger AI agents from the ServiceNow Otto panel to enter data automatically into the Shipping Management application.
 
 For more information, see [Example: Use AI agents to automatically enter data into the shipping management app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-shipping-ai-agent-ad.md).
 

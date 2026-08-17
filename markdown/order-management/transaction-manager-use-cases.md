@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Quote Experience: Use cases
-description: View a list of example use cases for ServiceNow CPQ ServiceNow Quote Experience.
+description: View a list of example use cases for CPQ ServiceNow Quote Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience: Use cases
 
-View a list of example use cases for ServiceNow CPQ ServiceNow Quote Experience.
+View a list of example use cases for CPQ ServiceNow Quote Experience.
 
 -   **[ServiceNow Quote Experience use case: Apply parent line discounts to child lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-case-apply-parent-line-discounts-to-child-lines.md)**  
 ServiceNow Quote Experience can help manage transactions whose configurable products have many child and grandchild transaction line items.
@@ -25,5 +25,5 @@ How to display the line item group line number in the line detail.
 -   **[ServiceNow Quote Experience use case: Document generation with Google Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-case-document-generation-with-google-docs.md)**  
 Generate documents from ServiceNow Quote Experience by using Google Docs and Google Apps Script.
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

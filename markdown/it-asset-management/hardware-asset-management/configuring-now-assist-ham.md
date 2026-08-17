@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist for Hardware Asset Management \(HAM\)
-description: Configure the Now Assist for Hardware Asset Management \(HAM\) application to use the agentic workflow capabilities for managing your hardware asset requests autonomously.
+title: Configuring ServiceNow Otto for Hardware Asset Management \(HAM\)
+description: Configure the ServiceNow Otto for Hardware Asset Management \(HAM\) application to use the agentic workflow capabilities for managing your hardware asset requests autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configuring-now-assist-ham.html
 release: australia
@@ -13,7 +13,7 @@ keywords: [AI Agents, Agentic AI]
 breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Configuring Now Assist for Hardware Asset Management \(HAM\)
+# Configuring ServiceNow Otto for Hardware Asset Management \(HAM\)
 
-Configure the Now Assist for Hardware Asset Management \(HAM\) application to use the agentic workflow capabilities for managing your hardware asset requests autonomously.
+Configure the ServiceNow Otto for Hardware Asset Management \(HAM\) application to use the agentic workflow capabilities for managing your hardware asset requests autonomously.
 

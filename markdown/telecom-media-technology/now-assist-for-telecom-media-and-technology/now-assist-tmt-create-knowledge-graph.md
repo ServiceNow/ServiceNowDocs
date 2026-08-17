@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate product inventory summary, Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Generate product inventory summary, Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create a knowledge graph schema
@@ -74,5 +74,5 @@ Role required: sn\_sprb\_mgmt\_admin
     To edit the Knowledge Graph schema, see [Edit a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/editing-a-knowledge-graph-schema.md).
 
 
-**Parent Topic:**[Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
+**Parent Topic:**[Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
 

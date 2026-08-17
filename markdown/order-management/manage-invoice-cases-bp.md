@@ -20,7 +20,7 @@ Role required: sn\_customerservice.customer
 
 ## About this task
 
-After an invoice case is created either through the Now Assist Virtual Assistant or manually via the playbook experience, you can use the invoice case record in the Business Portal to stay engaged throughout the resolution process. View case history or send messages to the billing specialist handling your case and respond to any requests they raise using the Activity tab. Upload supporting documents, such as proof of delivery, goods receipt notes, or any other evidence relevant to your dispute, using the Attachments tab.
+After an invoice case is created either through the ServiceNow Otto Virtual Agent or manually via the playbook experience, you can use the invoice case record in the Business Portal to stay engaged throughout the resolution process. View case history or send messages to the billing specialist handling your case and respond to any requests they raise using the Activity tab. Upload supporting documents, such as proof of delivery, goods receipt notes, or any other evidence relevant to your dispute, using the Attachments tab.
 
 You can use these tabs proactively without waiting to be contacted, for example, to share additional context or upload documents immediately after your case is created.
 

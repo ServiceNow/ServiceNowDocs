@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Workflow Data Fabric \(WDF\)
-description: The Now Assist for Workflow Data Fabric \(WDF\) application provides AI-guided assistance for discovering data fabric assets and configuring integrations. Use it to receive contextual recommendations and take actions directly without leaving your workflow.
+title: ServiceNow Otto for Workflow Data Fabric \(WDF\)
+description: The ServiceNow Otto for Workflow Data Fabric \(WDF\) application provides AI-guided assistance for discovering data fabric assets and configuring integrations. Use it to receive contextual recommendations and take actions directly without leaving your workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-now-assist-for-workflow-data-fabric.html
 release: australia
@@ -11,28 +11,28 @@ keywords: [explore]
 breadcrumb: [Explore, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
-# Now Assist for Workflow Data Fabric \(WDF\)
+# ServiceNow Otto for Workflow Data Fabric \(WDF\)
 
-The Now Assist for Workflow Data Fabric \(WDF\) application provides AI-guided assistance for discovering data fabric assets and configuring integrations. Use it to receive contextual recommendations and take actions directly without leaving your workflow.
+The ServiceNow Otto for Workflow Data Fabric \(WDF\) application provides AI-guided assistance for discovering data fabric assets and configuring integrations. Use it to receive contextual recommendations and take actions directly without leaving your workflow.
 
-## Now Assist entry points from WDF
+## AI entry points from WDF
 
-Now Assist for WDF is accessible from two locations:
+ServiceNow Otto for WDF is accessible from two locations:
 
--   Now Assist for WDF search field: Use the Now Assist search field on WDF Home for comprehensive AI-assisted guidance on integrations, data products, and WDF configuration.
--   Now Assist panel: Access the Now Assist panel by selecting the sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) in the page header for AI-assisted guidance while working in WDF Home or any other WDF application.
+-   ServiceNow Otto for WDF conversational interface: Use the ServiceNow Otto conversational interface on WDF Home for comprehensive AI-assisted guidance on integrations, data products, and WDF configuration.
+-   ServiceNow Otto panel: Access the ServiceNow Otto panel by selecting the sparkle \[Omitted image "image.now-assist-sparkle-icon-dark"\] icon in the page header for AI-assisted guidance while working in WDF Home or any other WDF application.
 
-## Now Assist for WDF overview
+## ServiceNow Otto for WDF overview
 
-You can use both, the Now Assist for WDF search field or the Now Assist panel to discover data fabric tables, connectors, and collectors, and request guidance on how to set up integrations.
+You can use both, the ServiceNow Otto for WDF conversational interface or the ServiceNow Otto panel to discover data fabric tables, connectors, and collectors, and request guidance on how to set up integrations.
 
-The advantage of the Now Assist for WDF search field is that you receive in-depth answers. The search field renders a visualized view of the search sources \(from KBs, data catalog, other applications\) in the home page interactive view.
+The advantage of the ServiceNow Otto for WDF conversational interface is that you receive in-depth answers. The conversational interface renders a visualized view of the search sources \(from KBs, data catalog, other applications\) in the home page interactive view.
 
-The advantage of the Now Assist panel embedded in WDF Home page is that you get answers to a broader spectrum of questions related to different WDF and other applications. You get assistance for data integration, discovery, and action-taking tasks without leaving your current work context, across all WDF applications.
+The advantage of the ServiceNow Otto panel embedded in WDF Home page is that you get answers to a broader spectrum of questions related to different WDF and other applications. You get assistance for data integration, discovery, and action-taking tasks without leaving your current work context, across all WDF applications.
 
-Now Assist for WDF includes the oneExtend LLM skill that enables you to find information about collectors, connectors, data fabric tables, data products, and more.
+ServiceNow Otto for WDF includes the oneExtend LLM skill that enables you to find information about collectors, connectors, data fabric tables, data products, and more.
 
-## Now Assist for WDF users
+## ServiceNow Otto for WDF users
 
 <table id="table_zq2_52f_zhc"><thead><tr><th>
 
@@ -55,9 +55,9 @@ All Workflow Data Fabric user roles
 -   WDF Consumer
 
 </td></tr></tbody>
-</table>## Panel features and behavior
+</table>## ServiceNow Otto Panel features and behavior
 
-The Now Assist panel in WDF Home page includes these features:
+The ServiceNow Otto panel in WDF Home page includes these features:
 
 -   Right-side positioning: Panel opens on the right side of your screen, preserving the main WDF Home page content on the left.
 -   Resizable: Drag the panel's left edge to adjust its width based on your preferences and screen size.
@@ -69,27 +69,27 @@ The Now Assist panel in WDF Home page includes these features:
 
 ## Prerequisites
 
-To access the Now Assist for WDF search and Now Assist panel in WDF Home page, you must meet the following requirements.
+To access the ServiceNow Otto for WDF search and ServiceNow Otto panel in WDF Home page, you must meet the following requirements.
 
--   Install and activate the Now Assist for WDF plugin \(sn\_nowassist\_wdf\).
+-   Install and activate the ServiceNow Otto for WDF plugin \(sn\_nowassist\_wdf\).
 -   You must have one of these roles assigned:
     -   df\_data\_steward: Full data governance and curation access
     -   connection\_admin: Full connection management access
     -   wdf\_operator: WDF operator/consumer access
     -   wdf\_builder: Custom connector and integration development access
     -   wdf\_consumer: Data discovery and request access
--   To use the Now Assist panel across WDF applications, you may need access to:
+-   To use the ServiceNow Otto panel across WDF applications, you may need access to:
     -   Connect Hub \(for connection creation and management\)
     -   Data Catalog \(for asset discovery\)
     -   Data Workbench \(for interface and product creation\)
     -   Other WDF applications as needed
 
-If the sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) is not visible, confirm with your administrator that the Now Assist plugin is installed and your role is assigned.
+If the sparkle \[Omitted image "image.now-assist-sparkle-icon-dark"\] icon is not visible, confirm with your administrator that the ServiceNow Otto plugin is installed and your role is assigned.
 
 ## What to explore next
 
-To learn more about configuring and using Now Assist for WDF, see:
+To learn more about configuring and using ServiceNow Otto for WDF, see:
 
--   [Configure Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-workflow-data-fabric.md)
--   [Ask Now Assist for Workflow Data Fabric \(WDF\) for recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ask-now-assist-for-recommendation.md)
+-   [Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-workflow-data-fabric.md)
+-   [Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ask-now-assist-for-recommendation.md)
 

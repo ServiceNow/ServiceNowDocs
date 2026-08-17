@@ -1,6 +1,6 @@
 ---
 title: Sidebar discussion subject mapping
-description: Create a requester mapping to customize which field is used as the discussion title in Sidebar conversations. The discussion title defaults to the short description field.
+description: Create a requester mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Setting up Sidebar, Configuring Sidebar, Sidebar, Conversational In
 
 # Sidebar discussion subject mapping
 
-Create a requester mapping to customize which field is used as the discussion title in Sidebar conversations. The discussion title defaults to the short description field.
+Create a requester mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
 
 ## Before you begin
 

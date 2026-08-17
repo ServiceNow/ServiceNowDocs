@@ -1,6 +1,6 @@
 ---
 title: Add a new ERP extraction table in Zero Copy Connector for ERP
-description: Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the system of record every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
+description: Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table, data, transform]
-breadcrumb: [Extracting and transforming data, Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a new ERP extraction table in Zero Copy Connector for ERP
 
-Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the system of record every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
+Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
 
 ## Before you begin
 
@@ -45,6 +45,4 @@ You can create multiple ERP extraction tables, and multiple extraction tables ca
 
 5.  Select **Save**.
 
-
-**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

@@ -104,7 +104,7 @@ See [Advanced Approval Management release notes](https://raw.githubusercontent.c
 
 ## Activation information
 
-Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -112,7 +112,7 @@ Install Quote Management by requesting it from the ServiceNow Store. Visit the [
 
     Submit customer quotes for approval and track approval status using approval workflows created in Advanced Approval Management.
 
--   **[ServiceNow CPQ Configurator - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
+-   **[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
 
     The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 

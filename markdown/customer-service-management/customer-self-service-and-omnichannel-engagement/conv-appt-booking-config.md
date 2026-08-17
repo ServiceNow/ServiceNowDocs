@@ -20,11 +20,13 @@ Install and set up the Conversational Appointment Booking application to enable 
 
 Role required: va\_admin
 
-**Note:** A Now Assist for CSM license must be active on your instance.
+**Important:** Conversational Appointment Booking is currently supported on the Portal only.
 
 ## About this task
 
 This procedure provides general steps to set up the Conversational Appointment Booking application so that your customers can book appointments on your ServiceNow instance with a Virtual Agent.
+
+**Note:** A Now Assist for CSM license must be active on your instance.
 
 ## Procedure
 

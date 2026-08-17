@@ -8,8 +8,8 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
-keywords: [APO, Accounts Payable Operations, invoice processing, playbook, guided resolution, AP specialist]
+reading_time_minutes: 5
+keywords: [APO, Accounts Payable Operations, invoice processing, playbook, Source-to-Psy-Workspace, AP specialist, Supplier tax rate]
 breadcrumb: [Playbook for updating the invoice primary data, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -31,7 +31,7 @@ Role required: Accounts Payable specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View Invoice processing case**.
 
@@ -103,7 +103,7 @@ Role required: Accounts Payable specialist
 
 7.  Select the **Map invoice lines** card.
 
-    If the invoice is a PO invoice or credit memo invoice of type PO and the invoice doesn't run into a matching error, then the **Map invoice lines** card is set to auto-complete. However, if the invoice is of type Non-PO invoice or a credit memo invoice of type Non-PO, the stage is skipped.
+    For PO invoices and credit memo invoices of type PO, the **Map invoice lines** card is set to auto-complete if no matching error occurs. For Non-PO invoices and credit memo invoices of type Non-PO, the stage is skipped.
 
     1.  Verify the **Map invoice lines** card.
 
@@ -111,13 +111,13 @@ Role required: Accounts Payable specialist
 
         Verify the purchase order details associated with an invoice.
 
-    3.  You can edit the changes to the purchase order form and select **Update**.
+    3.  Edit the purchase order form and select **Update**.
 
     4.  Select **Continue** after you save the changes.
 
     5.  In the **Review PO line mapping** card, review the PO lines associated with the purchase order to identify the lines that is mapped to the invoice line.
 
-    6.  You can edit the invoice lines and match the invoice lines with the corresponding purchase order lines.
+    6.  Edit the invoice lines and match the invoice lines with the corresponding purchase order lines.
 
     The swim lane moves to **Review compliance**. For more details on tax compliance, see [Tax integration in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-integration-in-playbook.md).
 

@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-05-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [SBOM, software bill of materials, due diligence, vendor risk assessment, processing]
 breadcrumb: [Collecting software bill of materials, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,7 +49,6 @@ Third-party assessment reviewers can view SBOM component records on engagement a
     |**Processing**|The uploaded file has been sent to the SBOM API and is being parsed.|
     |**Errored**|The file could not be parsed. The source assessment is reopened so the engagement can resubmit a corrected file.|
     |**Processed**|The file was parsed and component records were created. Review the SBOM document related list on the engagement for results.|
-    |**Declined**|The third party selected a No response option and did not provide an SBOM file. The assessment is closed and a comment is logged. No component records are created.|
 
     An entry is created in the SBOM document related list on the engagement for each submission attempt, including failed attempts.
 

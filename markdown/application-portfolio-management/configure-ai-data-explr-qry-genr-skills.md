@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
+breadcrumb: [Configure, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Configure AI Data Explorer and Query Generation skills
@@ -31,7 +31,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
 
 1.  AI Data Explorer skills.
 
-    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-now-ass-explorer.md).
+    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md).
 
     **Note:**
 
@@ -54,7 +54,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     For information on how to configure AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md)
 
 
-**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 

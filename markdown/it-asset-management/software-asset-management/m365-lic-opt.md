@@ -78,7 +78,7 @@ Potential savings by optimizing licenses
 
 Potential cost savings for licenses on your physical hosts and clusters that are based on recommended license optimizations.**Note:** This report is available only for Microsoft Windows Server licenses.
 
-Select the report to view details about the recommended license optimizations and associated cost savings for each host or cluster. License optimizations include the recommended license, recommended rights, and recommended spending.
+Select the report to view details about the recommended license optimizations and associated cost savings for each host or cluster. License optimizations include the recommended license, recommended rights, and recommended spending.For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
 
 </td></tr><tr><td>
 

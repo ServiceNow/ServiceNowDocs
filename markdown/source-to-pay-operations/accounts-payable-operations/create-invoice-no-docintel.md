@@ -1,6 +1,6 @@
 ---
 title: Create an invoice manually when Document Intelligence is unavailable
-description: Manually create an invoice as an Accounts Payable Specialist when Document Intelligence is unavailable and an invoice processing case has been auto-created without invoice data.
+description: Manually create an invoice when Document Intelligence is unavailable and an invoice processing case has been created without invoice data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-no-docintel.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Invoice ingestion process when Document Intelligence is unavailable
 
 # Create an invoice manually when Document Intelligence is unavailable
 
-Manually create an invoice as an Accounts Payable Specialist when Document Intelligence is unavailable and an invoice processing case has been auto-created without invoice data.
+Manually create an invoice when Document Intelligence is unavailable and an invoice processing case has been created without invoice data.
 
 ## Before you begin
 

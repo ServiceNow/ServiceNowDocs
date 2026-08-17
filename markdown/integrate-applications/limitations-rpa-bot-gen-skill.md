@@ -1,23 +1,23 @@
 ---
-title: Limitations of Now Assist for RPA Hub
+title: Limitations of ServiceNow Otto for RPA Hub
 description: The limitations of the RPA bot generation skill are as follows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/limitations-rpa-bot-gen-skill.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
 breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Limitations of Now Assist for RPA Hub
+# Limitations of ServiceNow Otto for RPA Hub
 
 The limitations of the RPA bot generation skill are as follows.
 
 -   **AI Search and LLM timeout**
 
-    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see . For more information about API rate limits, see . For more information about configuring rate limiting for providers, see .
+    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-properties-ais.md). For more information about API rate limits, see . For more information about configuring rate limiting for providers, see [Configure rate limiting for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-rate-limit.md).
 
 -   **Component scope in Yokohama release**
 
@@ -35,7 +35,7 @@ The limitations of the RPA bot generation skill are as follows.
 
     \[Omitted image "unknown-comp-rpa-na-t2b.png"\] Alt text: Design surface displays UNKNOWN components.
 
--   **Usage of existing connectors in new activity using Now Assist or build automation context menu options**
+-   **Usage of existing connectors in new activity using AI or build automation context menu options**
 
     During the automation workflow creation, if a method, such as the AddNewWorksheet method of Microsoft Excel connector is created, RPA Desktop Design Studio checks for an existing global object of the same connector type and uses the most recent one. In the following example, the Badging Data Microsoft Excel connector is used.
 
@@ -63,6 +63,4 @@ The limitations of the RPA bot generation skill are as follows.
 
 
 **Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
-
-**Parent Topic:**[Now Assist for RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-rpa-hub-reference.md)
 

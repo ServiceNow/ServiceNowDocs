@@ -48,9 +48,9 @@ Each reporting level generates progressively more flow execution details.
 
 -   **Full: Action configuration and runtime values \(for debugging only\)**
 
-    The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action. This reporting level is only valid on non-production instances. Production instances prevent you from setting the Full reporting level and instead revert the reporting level back to the Basic option.
+    The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action.
 
-    **Important:** Only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
+    **Important:** This reporting level is only valid on non-production instances. Production instances prevent you from setting the Full reporting level and instead revert the reporting level back to the Basic option. Also, only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
 
 -   **Trace: All values \(for testing and Support only\)**
 
@@ -145,7 +145,7 @@ The following types of execution details are available.
 
 -   **Integration Metadata**
 
-    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see Integration steps.
+    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-steps.md).
 
 -   **Configuration Details**
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 2
 keywords: [field mapping, source field, target field, configurable product action, admin]
-breadcrumb: [Enable solution configuration, Set up Solution Configuration, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Enable solution configuration, Set up Solution Configuration, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Define field mappings for a solution configuration

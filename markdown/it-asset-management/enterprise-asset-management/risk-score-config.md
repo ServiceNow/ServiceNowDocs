@@ -30,15 +30,15 @@ Role required: sn\_eam.enterprise\_admin
 
 3.  Fill in the form details.
 
-<table id="choicetable_or4_fxl_stb"><thead><tr><th align="left" id="d167004e89">
+<table id="choicetable_or4_fxl_stb"><thead><tr><th align="left" id="d168323e89">
 
 Field
 
-</th><th align="left" id="d167004e92">
+</th><th align="left" id="d168323e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d167004e98">
+</th></tr></thead><tbody><tr><td id="d168323e98">
 
 **Start**
 
@@ -46,7 +46,7 @@ Description
 
 Start value of the risk score band.
 
-</td></tr><tr><td id="d167004e107">
+</td></tr><tr><td id="d168323e107">
 
 **End**
 
@@ -54,7 +54,7 @@ Start value of the risk score band.
 
 End value of the risk score band. The value is automatically populated using the maximum likelihood and impact configuration values.
 
-</td></tr><tr><td id="d167004e116">
+</td></tr><tr><td id="d168323e116">
 
 **Label**
 
@@ -62,7 +62,7 @@ End value of the risk score band. The value is automatically populated using the
 
 Label of the risk score band.
 
-</td></tr><tr><td id="d167004e125">
+</td></tr><tr><td id="d168323e125">
 
 **Color**
 

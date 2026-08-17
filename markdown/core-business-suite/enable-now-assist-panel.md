@@ -1,6 +1,6 @@
 ---
 title: Activate Now Assist panel
-description: Enable the Now Assist panel to provide generative AI assistance through a conversational interface in Now Assist for Core Business Suite.
+description: Enable the Now Assist panel to provide generative AI assistance through a conversational interface in ServiceNow Otto for Core Business Suite \(CBS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/enable-now-assist-panel.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure, Core Business Suite]
 
 # Activate Now Assist panel
 
-Enable the Now Assist panel to provide generative AI assistance through a conversational interface in Now Assist for Core Business Suite.
+Enable the Now Assist panel to provide generative AI assistance through a conversational interface in ServiceNow Otto for Core Business Suite \(CBS\).
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: admin
 
 4.  On the Visit Assistant Designer page, select **Activate**.
 
-    The Now Assist panel is activated. For more information, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    The Now Assist panel is activated. For more information, see .
 
 
 **Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)

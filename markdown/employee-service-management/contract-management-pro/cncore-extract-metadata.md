@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract metadata extraction, Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract metadata extraction, Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Initiate metadata extraction from a contract
@@ -18,7 +18,7 @@ Use generative AI capabilities to extract metadata from a signed contract attach
 
 ## Before you begin
 
-Ensure that Now Assist has data access or your role. For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
+Verify that AI has data access or your role. For more information, see [Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
@@ -32,15 +32,15 @@ You can also configure the system properties to automatically initiate the metad
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d208081e98">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d207813e86">
 
 Method
 
-</th><th align="left" id="d208081e101">
+</th><th align="left" id="d207813e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d208081e107">
+</th></tr></thead><tbody><tr><td id="d207813e95">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d208081e155">
+</td></tr><tr><td id="d207813e143">
 
 **Workspace used by your application**
 
@@ -77,5 +77,5 @@ Steps
 
 [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-metatdata.md)
 
-**Parent Topic:**[Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Contract metadata extraction using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

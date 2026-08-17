@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-key-requirements.html
 release: australia
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-21"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Define key requirements for an agentic workflow
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 The first step of the guided setup includes defining the fundamentals of the agentic workflow. The description and list of steps fields are used by the large language model \(LLM\) to achieve its objectives. Descriptions and list of steps should be clear and well-defined. For guidelines for writing these fields, see [Writing effectively for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md). For an example agentic workflow, see an [example agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-aw.md).
 
-You also assign the AI agents that the agentic workflow has access to in this step. The AI agents should be clearly defined and referred to in your list of steps so that the LLM knows how to use them. You can use existing AI agents installed with Now Assist applications or create your own. See [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md) for the steps to create your own custom AI agents.
+You also assign the AI agents that the agentic workflow has access to in this step. The AI agents should be clearly defined and referred to in your list of steps so that the LLM knows how to use them. You can use existing AI agents installed with AI applications or create your own. See [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md) for the steps to create your own custom AI agents.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You also assign the AI agents that the agentic workflow has access to in this st
 
 4.  Add AI agents to perform the tasks described in the list of steps.
 
-    You can use Now Assist to generate a list of AI agents for you.
+    You can use ServiceNow Otto to generate a list of AI agents for you.
 
 5.  Determine unsupported model providers.
 

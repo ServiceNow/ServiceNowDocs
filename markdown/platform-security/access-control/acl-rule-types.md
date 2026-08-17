@@ -9,7 +9,7 @@ classification: access-control
 topic_type: concept
 last_updated: "2026-06-23"
 reading_time_minutes: 4
-breadcrumb: [Explore Access Control Lists, Access Control Lists, Access Management]
+breadcrumb: [Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # ACL types

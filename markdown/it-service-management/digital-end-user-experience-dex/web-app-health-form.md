@@ -1,6 +1,6 @@
 ---
 title: Web application — Performance page
-description: Monitor the application performance to enable proactive detection and resolution of issues, maintain optimal performance, improve user experience, troubleshoot the performance issues, and confirm that the application meets its intended purpose.
+description: Monitoring application performance helps detect and resolve issues before they affect users. Use performance data to identify bottlenecks, troubleshoot problems, and verify that the application behaves as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/web-app-health-form.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Applications list, DEX Application and Device Health reference, Ref
 
 # Web application — Performance page
 
-Monitor the application performance to enable proactive detection and resolution of issues, maintain optimal performance, improve user experience, troubleshoot the performance issues, and confirm that the application meets its intended purpose.
+Monitoring application performance helps detect and resolve issues before they affect users. Use performance data to identify bottlenecks, troubleshoot problems, and verify that the application behaves as expected.
 
 <table id="table_r4m_pkr_bgc"><thead><tr><th>
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aidesktopactions-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
+last_updated: "2026-08-17"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -85,7 +85,7 @@ Zurich
 
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
-Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 -   **[Support for different screen resolutions and scaling](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=zurich&ft:locale=en-US)**
 
@@ -138,6 +138,30 @@ Automate form filling, application clicks, and Windows OS file handling. Create 
 Australia
 
 </td><td>
+
+-   **[Preserve context across long-running sessions](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=australia&ft:locale=en-US)**
+
+Preserve context across long-running sessions by summarizing older step history instead of discarding it. When history exceeds the configured window, older steps are automatically summarized instead of being discarded. They preserve context about earlier actions, failed approaches, and application state.
+
+-   **[New system properties introduced to manage compaction](https://www.servicenow.com/docs/access?context=components-installed-with-agentic-desktop&family=australia&ft:locale=en-US)**
+
+Three new system properties are included to manage the compaction feature:
+
+    |Property|Type|Default|Purpose|
+    |--------|----|-------|-------|
+    |sn\_naa.web\_agent.compaction\_enabled|true \| false|true|Enables summarization of steps that exceed the history limit, rather than discarding them. When turned off, only the most recent configured number of steps are retained.|
+    |sn\_naa.web\_agent.compaction\_history\_limit|Integer|15|Sets the maximum number of unsummarized steps allowed before the oldest batch is summarized. When unsummarized steps exceed this value, compaction is triggered.|
+    |sn\_naa.web\_agent.summarization\_batch\_size|Integer|10|Sets the number of steps combined into a single summary. Larger batches reduce how often summarization runs, but produce less granular summaries.|
+
+
+-   **[Unified automation workflow](https://www.servicenow.com/docs/access?context=explore-agentic-desktop&family=australia&ft:locale=en-US)**
+
+Use the unified automation creation journey that eliminates manual intervention and saves time.
+
+    -   Request automations from Task Mining to automate desktop activities collected by the Task Mining agent.
+    -   Generate automations in Automation Center to create on-screen and background desktop actions.
+    -   From Automation Center, automatically create an AI agent that uses these desktop action tools.
+    -   Test and deploy the AI agent in AI Agent Studio.
 
 -   **[Record desktop actions with AI](https://www.servicenow.com/docs/access?context=record-with-ai-ad&family=australia&ft:locale=en-US)**
 
@@ -226,13 +250,21 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Renamed ServiceNow AI experience](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including AI Desktop Actions. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
+
+-   **[Renamed ServiceNow AI experience](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including AI Desktop Actions. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 
 -   **[Optional Application name field](https://www.servicenow.com/docs/access?context=add-details-desktop-action-ad&family=australia&ft:locale=en-US)**
 
@@ -387,7 +419,7 @@ The following are required to use AI Desktop Actions:
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
- You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&family=zurich&ft:locale=en-US).
+ You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install ServiceNow Otto AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&family=zurich&ft:locale=en-US).
 
  You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -403,7 +435,7 @@ The following are required to use AI Desktop Actions:
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
- You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&family=australia&ft:locale=en-US).
+ You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&family=australia&ft:locale=en-US).
 
  You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -545,7 +577,20 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
+[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Preserve context across long-running sessions by summarizing older step history instead of discarding it.
+-   Three new system properties are included to manage the compaction feature.
+-   Adaptive desktop actions are now batched for better performance. Multiple actions execute per LLM call instead of one call per action that reduces the round-trip latency that previously limited production readiness.
+
+ [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   Use the unified automation creation journey that spans seamlessly across Task Mining, Automation Center, and AI Agent Studio eliminating context switching and streamlining automation development.
+-   Automatically generate desktop actions from real user task patterns captured by using Task Mining.
+-   Automatically create an AI agent from desktop actions context from Automation Center.
+
+ [Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
 
 -   Record desktop actions more accurately by using the new AI-powered recording mode when creating desktop actions.
 -   Save time on manual setup by letting AI automatically insert anchors and generate screen context for each captured screen and add desktop action description after recording.
@@ -597,7 +642,20 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Preserve context across long-running sessions by summarizing older step history instead of discarding it.
+-   Three new system properties are included to manage the compaction feature.
+-   Adaptive desktop actions are now batched for better performance. Multiple actions execute per LLM call instead of one call per action that reduces the round-trip latency that previously limited production readiness.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Use the unified automation creation journey that spans seamlessly across Task Mining, Automation Center, and AI Agent Studio eliminating context switching and streamlining automation development.
+-   Automatically generate desktop actions from real user task patterns captured by using Task Mining.
+-   Automatically create an AI agent from desktop actions context from Automation Center.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Record desktop actions more accurately by using the new AI-powered recording mode when creating desktop actions.
 -   Save time on manual setup by letting AI automatically insert anchors and generate screen context for each captured screen and add desktop action description after recording.

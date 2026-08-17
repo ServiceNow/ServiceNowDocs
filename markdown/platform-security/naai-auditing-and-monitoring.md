@@ -18,26 +18,26 @@ Monitoring your AI agents gives you visibility into how they are performing, wha
 
 ## Guardian logs and guardrail monitoring
 
-The following topics describe how to monitor and export logs from Now Assist Guardian, which tracks offensive content, prompt injection attempts, and sensitive topic detections across your AI interactions.
+The following topics describe how to monitor and export logs from AI Guardian, which tracks offensive content, prompt injection attempts, and sensitive topic detections across your AI interactions.
 
 -   ****
 
-    Export logs from Now Assist Guardian to get insights into how often different guardrails are being detected and used.
+    Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
 
--   **[Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md)**
+-   **[AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md)**
 
-    Monitor the performance of guardrails enabled through Now Assist Guardian.
+    Monitor the performance of guardrails enabled through AI Guardian.
 
 
 ## Agent and skill analytics
 
-The following topics describe how to use Now Assist Analytics and the AI Agent Analytics dashboard to monitor usage, performance, and adoption of Now Assist skills and AI agents across your instance.
+The following topics describe how to use AI Analytics and the AI Agent Analytics dashboard to monitor usage, performance, and adoption of Now Assist skills and AI agents across your instance.
 
--   **[Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)**
+-   **[Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)**
 
     Monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 
--   **[Analyzing Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-and-monitoring.md)**
+-   **[Analyzing generative AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-and-monitoring.md)**
 
     Review summaries, skill usage information, and issues that need your attention from the Now Assist Overview page.
 

@@ -20,7 +20,7 @@ Based on calendar and schedule information, resource managers view resource avai
 
 ## Soft and hard allocations
 
-When a resource plan moves to the Confirmed state, resource allocations corresponding to [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md) are created automatically. The **Booking type** for these allocations is **Soft**. Soft allocations are like temporary allocations for the requested users and do not create any calendar events.
+When a resource plan moves to the Confirmed state, resource allocations corresponding to [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md) are created automatically. The **Booking type** for these allocations is **Soft**. Soft allocations are like temporary allocations for the requested users and don't create any calendar events.
 
 When the plan is moved to the Allocated state, the **Booking type** changes from **Soft** to **Hard**. For a hard booking, the resource is assigned to the plan and is not available for other plans during the allocated times. The booked time also appears on the user calendar. If the requested resource cannot be allocated for the entire allocation duration, the allocation record booking type remains as soft.
 
@@ -118,7 +118,7 @@ Resource allocations use this property to create allocations with a decimal valu
 
 -   **Example: 4 hours for 1 week, with an allocation interval of 30 minutes**
 
-    If the value of this property is set to  30  minutes, and  1  hour needs to be allocated to the user, the allocation is divided into the two 30-minute blocks when the user is available.  This setting creates a 60-minute block from Monday through Wednesday and 30-minutes blocks for Thursday and Friday.
+    If the value of this property is set to 30 minutes and 1 hour needs to be allocated to the user. The allocation is then divided into two 30-minute blocks when the user is available. This setting creates a 60-minute block from Monday through Wednesday and 30-minutes blocks for Thursday and Friday.
 
     |Monday|Tuesday|Wednesday|Thursday|Friday|
     |------|-------|---------|--------|------|
@@ -129,14 +129,14 @@ Resource allocations use this property to create allocations with a decimal valu
 
 ## Time-off handling
 
-Resource events from a resource plan are not created for the days where the resource has marked time-off or engaged in other events \(such as training and meetings\). An administrator can manage the resource capacity and allocation with the property, **com.snc.resource\_management.exclude\_events\_from\_schedule**, to specify:
+Resource events from a resource plan aren't created for the days where the resource has marked time-off or engaged in other events \(such as training and meetings\). An administrator can manage the resource capacity and allocation with the property, **com.snc.resource\_management.exclude\_events\_from\_schedule**, to specify:
 
 -   Which events must be excluded for capacity calculations. For example, if a resource has time-off between Monday and Wednesday, the weekly capacity for the resource is calculated as 16 hours \(as opposed to 40 hours\).
 -   When the system must not create allocations. For example, if a resource is in training on Friday, the resource is not allocated for a task on Friday.
 
 ## Over-allocation
 
-Over-allocated resources are allowed. Over-allocating resources creates overlapping events in the user calendar within the user's scheduled hours. However, a maximum of 24 total hours can be allocated in any given day. Overlapping events appear overlapped in the calendar in the weekly view. In the monthly view, overlapping events appear above or below another event.
+Over-allocated resources are allowed. Over-allocating resources creates overlapping events in the user calendar within the user's scheduled hours. However, a maximum of 24 total hours can be allocated in any given day. Overlapping events appear overlapped in the calendar in the weekly view. In the monthly view, overlapping events appear before or following another event.
 
 For example, a user has a schedule that specifies the daily work day from 08:00 to 17:00. Event 1 is in the user's calendar from 08:00 to 14:00. If an additional five hours are added for the same day for Event 2, an event is created for the three hours of free time \(14:00 to 17:00\). An overlapping event is also created for the remaining two hours, starting at the beginning of the day \(08:00 to 10:00\).
 

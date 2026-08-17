@@ -66,7 +66,7 @@ Set up decision policy tables to retrieve jeopardy information. Policy tables in
 
 </td></tr><tr><td>
 
-Set business hours for tasks in Jeopardy Management
+[Set business hours for tasks in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-business-hrs-jmtasks.md)
 
 </td><td>
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [ITSM, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Incident assist agentic workflow
@@ -19,7 +19,7 @@ Use the Incident assist agentic workflow to get answers to questions about an in
 
 **Important:** Starting with the Australia Patch 2, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
 
-As an IT support agent, use the Incident assist agentic workflow to ask questions about an incident. Based on your question, the workflow routes to the appropriate specialist AI agent, which retrieves data from the incident record and related tables and returns a direct answer in the Now Assist panel.
+As an IT support agent, use the Incident assist agentic workflow to ask questions about an incident. Based on your question, the workflow routes to the appropriate specialist AI agent, which retrieves data from the incident record and related tables and returns a direct answer in the ServiceNow Otto panel.
 
 The Incident assist agentic workflow is available by default.
 
@@ -57,7 +57,7 @@ The Incident assist agentic workflow consists of the following specialist agents
 
 ## How the Incident assist agentic workflow works
 
-Here's the workflow sequence when you ask a question in the Now Assist panel on an incident record.
+Here's the workflow sequence when you ask a question in the Otto panel on an incident record.
 
 |Steps|Task|Description|
 |-----|----|-----------|
@@ -80,15 +80,15 @@ In the agentic workflow record:
 
 **Example of Incident assist agentic workflow output with the Additional incident context AI agent in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-incident-assist-add-inc-context-aiagent.png"\] Alt text: Additional Incident context AI agent in the Incident assist agentic workflow
 
-In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-## Generating answers to user questions in the Now Assist panel
+## Generating answers to user questions in the ServiceNow Otto panel
 
-As a user, follow these steps in the Now Assist panel. You need the itil role to access this workflow in the Now Assist panel.
+As a user, follow these steps in the ServiceNow Otto panel. You need the itil role to access this workflow in the ServiceNow Otto panel.
 
 **Note:** The Incident assist agentic workflow loads automatically with the current incident in context when you open the Now Assist panel on an incident record.
 
-1.  Open an incident record in Service Operations Workspace or in the Core UI and select the Now Assist panel icon.
+1.  Open an incident record in Service Operations Workspace or in the Core UI and select the Otto panel icon.
 
     The Incident assist workflow loads automatically with the current incident in context.
 
@@ -110,9 +110,9 @@ To refine or ask a new question, do any of the following:
 
 The agent continues until you ask something outside its scope or end the conversation.
 
-See examples of the screens for different use cases for this workflow in the Now Assist panel.
+See examples of the screens for different use cases for this workflow in the Otto panel.
 
-**Example of options available using the Incident assist agentic workflow in the Now Assist panel**\[Omitted image "now-assist-itsm-incident-assist-nap.png"\] Alt text: Example of options available using the Incident assist agentic workflow in the Now Assist panel
+**Example of options available using the Incident assist agentic workflow in the Otto panel**\[Omitted image "now-assist-itsm-incident-assist-nap.png"\] Alt text: Example of options available using the Incident assist agentic workflow in the Otto panel
 
-**Example of getting similar resolved incidents using the Incident assist agentic workflow in the Now Assist panel**\[Omitted image "now-assist-itsm-incident-assist-similar-incidents.png"\] Alt text: Example of getting similar resolved incidents using the Incident assist agentic workflow in the Now Assist panel
+**Example of getting similar resolved incidents using the Incident assist agentic workflow in the Otto panel**\[Omitted image "now-assist-itsm-incident-assist-similar-incidents.png"\] Alt text: Example of getting similar resolved incidents using the Incident assist agentic workflow in the Otto panel
 

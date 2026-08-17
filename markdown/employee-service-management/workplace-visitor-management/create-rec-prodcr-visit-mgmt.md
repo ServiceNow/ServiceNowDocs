@@ -18,13 +18,17 @@ Make visitor-related services available to employees as a self-service option. C
 
 ## Before you begin
 
+**Warning:** This topic is only applicable for Workplace Visitor Management version 1.19 or earlier.
+
+Record producers aren't supported in Workplace Visitor Management version 2.0.0 or later.
+
 Role required: sn\_wsd\_visitor.admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workplace Visitor Management** &gt; **Administration** &gt; **Record producers**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 

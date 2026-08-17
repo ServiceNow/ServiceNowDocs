@@ -36,7 +36,7 @@ Identify non-compliant hardening settings with the highest score impact on your 
 
 5.  Make the hardening setting compliant.
 
-6.  If you update a non-compliant hardening score to make it compliant, go to the Homepage and select **Update score** to view the most up-to-date score.
+6.  If you update a non-compliant hardening score to make it compliant, the compliance score should be calculated automatically.
 
     The hardening score is rounded up. A score of 86.75% will be rounded up to 87.
 

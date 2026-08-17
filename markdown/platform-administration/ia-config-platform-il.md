@@ -1,5 +1,5 @@
 ---
-title: Platform module configuration in Setup Hub
+title: Platform module configuration in ServiceNow Otto for Setup
 description: Follow through all the console items configuration to configure the Platform module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-config-platform-il.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-17"
 reading_time_minutes: 1
-breadcrumb: [Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Platform module configuration in Setup Hub
+# Platform module configuration in ServiceNow Otto for Setup
 
 Follow through all the console items configuration to configure the Platform module.
 
@@ -43,5 +43,5 @@ Configure and maintain the AI-Search engine to experience a modern search experi
 -   **[Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-security-settings-il.md)**  
 Configure the security settings to maintain the security of your ServiceNow deployments.
 
-**Parent Topic:**[Configure in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
+**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
 

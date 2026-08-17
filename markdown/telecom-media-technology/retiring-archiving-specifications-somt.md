@@ -1,6 +1,6 @@
 ---
 title: Retiring or archiving versioned specifications and product offerings
-description: As a product catalog manager, you can move a published specification or a product offering to a Retired or Archived state when they are no longer in use or are being sold. When you retire a specification version, you can't use it in a product offering or create specification versions.
+description: You can move a published specification or a product offering to a Retired or Archived state when it is no longer being used. When you retire a specification version, you can't use it in a product offering or create specification versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/retiring-archiving-specifications-somt.html
 release: australia
@@ -12,5 +12,5 @@ breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relations
 
 # Retiring or archiving versioned specifications and product offerings
 
-As a product catalog manager, you can move a published specification or a product offering to a Retired or Archived state when they are no longer in use or are being sold. When you retire a specification version, you can't use it in a product offering or create specification versions.
+You can move a published specification or a product offering to a Retired or Archived state when it is no longer being used. When you retire a specification version, you can't use it in a product offering or create specification versions.
 

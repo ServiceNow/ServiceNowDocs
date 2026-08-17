@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-06-01"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Generate and manage AI‑suggested safety actions in Action planner
@@ -18,9 +18,9 @@ Generate AI-suggested safety actions in Action planner to quickly identify and c
 
 ## Before you begin
 
-Verify that the Now Assist for Health and Safety application \(sn\_hs\_gen\_ai\) is installed.
+Verify that the ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed.
 
-**Important:** The **H&amp;S Action Planner** skill is turned on by default with the Now Assist for Health and Safety application. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** The **H&amp;S Action Planner** skill is turned on by default with the ServiceNow Otto for Health and Safety application. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_ohs\_im.action\_writer
 

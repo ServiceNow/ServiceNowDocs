@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Manage allocations
@@ -28,7 +28,7 @@ Split an allocation row to divide its credit between two contributors while keep
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

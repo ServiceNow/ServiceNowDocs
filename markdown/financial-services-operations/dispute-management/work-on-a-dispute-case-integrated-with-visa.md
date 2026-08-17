@@ -29,7 +29,7 @@ This integration enables you to invoke the following at the transaction level:
 -   **[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)**  
  The Dispute management workflow integration with Visa supports pre-arbitration and arbitration workflows. These workflows help resolve disputes between issuers and acquirers.
 -   **[Processing a Visa card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)**  
-When a case is submitted, it automatically moves to the **Initiate** stage. Once the sequence of steps in the **Initiate** stage are completed, it moves to the **Processing** stage. Here, the case playbook displays the disputed transaction details, including customer details, dispute amount, timestamp, card details, merchant, transaction state, current activity, and activity SLA.
+A dispute case moves through **Initiate**, **Processing**, and **Closure** stages. The case playbook displays disputed transaction details, including customer information, dispute amount, card details, merchant, transaction state, and activity SLA.
 
 **Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
 

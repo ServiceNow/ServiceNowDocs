@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-performanceanalyzer-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -458,7 +458,7 @@ Australia
 
 </td><td>
 
--   Group pages by variant to identity performance issues
+-   Group pages by variant to identity performance issues.
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 

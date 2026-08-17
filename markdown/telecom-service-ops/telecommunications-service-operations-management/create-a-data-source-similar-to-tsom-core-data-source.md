@@ -1,6 +1,6 @@
 ---
 title: Create a data source similar to Telecom core data source
-description: Set up a schema-compliant data source in the connector’s application scope to simulate telecom data and ensure successful testing and validation of the Telecom Discovery Builder framework ETL before integrating with live device data.
+description: Set up a schema-compliant data source in the connector's application scope to simulate telecom data. Test the Telecom Discovery Builder framework ETL before integrating with live device data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/create-a-data-source-similar-to-tsom-core-data-source.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure Telecom Discovery Builder, Configure Telecom Visibility, 
 
 # Create a data source similar to Telecom core data source
 
-Set up a schema-compliant data source in the connector’s application scope to simulate telecom data and ensure successful testing and validation of the Telecom Discovery Builder framework ETL before integrating with live device data.
+Set up a schema-compliant data source in the connector's application scope to simulate telecom data. Test the Telecom Discovery Builder framework ETL before integrating with live device data.
 
 ## Before you begin
 
@@ -23,12 +23,12 @@ Role required: admin
 Ensure the following:
 
 -   Access to the TSOM Core application and its data sources.
--   Switch to the connector’s application scope.
+-   Switch to the connector's application scope.
 -   Have a sample payload that conforms to the Telco Generic Schema \(optional, but recommended for testing\).
 
 ## About this task
 
-When duplicating the Telecom Discovery Builder framework ETL into a Service Graph Connector \(SGC\) application scope, you must first create a data source that replicates the exact structure of the TSOM Core data source. This duplicated data source provides the required schema and structure for testing and validating the ETL before connecting it to live telecom data.
+When duplicating the Telecom Discovery Builder framework ETL into a Service Graph Connector \(SGC\) application scope, you must first create a data source. This data source must replicate the exact structure of the TSOM Core data source. It provides the required schema and structure for testing and validating the ETL before connecting it to live telecom data.
 
 The Telecom Discovery Builder framework expects data that conforms to the Telco Generic Schema, as defined in the Telecom Core. Duplicating the original TSOM data source ensures:
 
@@ -40,7 +40,7 @@ When to create a data source similar to the TSOM Core data source:
 
 -   Before duplicating the Telecom Discovery Builder framework ETL.
 -   When you want to run a test load using simulated or placeholder telecom data.
--   When preparing the connector’s application scope for ingestion configuration.
+-   When preparing the connector's application scope for ingestion configuration.
 
 The following screenshot can help you understand to fill the field values while you create the data source.\[Omitted image "datasource.png"\] Alt text: Create data source user interface
 

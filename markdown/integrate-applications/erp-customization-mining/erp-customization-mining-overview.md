@@ -18,11 +18,11 @@ The ServiceNow® ERP Semantic Mining \(formerly named ERP Customization Mining\)
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-Zero Copy Connector for ERP and ERP Semantic Mining help organizations modernize and orchestrate legacy code, complimenting processes and integrations that are underserved with the existing system of record, such as SAP. Together, Zero Copy Connector for ERP and ERP Semantic Mining make it faster and easier for you to build applications on the ServiceNow AI Platform using data from a legacy ERP system.
+Zero Copy Connector for ERP and ERP Semantic Mining help organizations modernize and orchestrate legacy code, complimenting processes and integrations that are underserved with the existing ERP system, such as SAP. Together, Zero Copy Connector for ERP and ERP Semantic Mining make it faster and easier for you to build applications on the ServiceNow AI Platform using data from a legacy ERP system.
 
 Replatforming is the process of scanning legacy ERP system code to find potential candidates to move onto your ServiceNow AI Platform instance as new apps. You can use data from the ERP system as a source for apps built on the ServiceNow AI Platform, improving performance, enhancing security, and reducing maintenance.
 
-The replatforming of legacy code enables innovation on top of the system of record without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the system of record and can work on other projects, such as migration.
+The replatforming of legacy code enables innovation on top of the ERP system without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the ERP system and can work on other projects, such as migration.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -74,7 +74,7 @@ ERP Semantic Mining has a number of training and learning resources for you to g
 </td></tr></tbody>
 </table>## Request ERP Semantic Mining on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use ERP Semantic Mining, you must first download ERP Semantic Mining from the ServiceNow Store. After you have completed the download, you may need to clear your local cache before ERP Semantic Mining appears on your instance.
 

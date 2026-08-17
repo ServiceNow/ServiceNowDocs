@@ -27,7 +27,7 @@ Definitions for any remedial action are predetermined based on the rules and cri
 -   **[Terminate a process on your device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/terminate-device-app.md)**  
 Terminate a process on your device to boost performance and free up valuable resources for smoother operation.
 -   **[Monitor or cancel remedial actions in DEX device page Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/manage-devices-remedial-actions-playbook.md)**  
-Use the Playbook Experience in a device page to view current and past remedial actions executed from different sources, and monitor or cancel actions initiated from the device page Action library.
+Use the Playbook Experience to view current and past remedial actions executed from different sources, and monitor or cancel actions initiated from the device page Action library.
 
 **Parent Topic:**[Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md)
 

@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Manage stashed changes

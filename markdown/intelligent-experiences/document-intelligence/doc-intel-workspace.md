@@ -9,14 +9,14 @@ classification: document-intelligence
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Complete a document task, Use, Document Intelligence, Enable AI experiences]
+breadcrumb: [Complete a document task, Use, Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Extract fields using the Document Intelligence workspace
 
 Use the Document Intelligence workspace for field extraction, searching for recommendations, flagging fields, and identifying missing fields to complete document tasks.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the Document Intelligence workspace
 
@@ -127,7 +127,7 @@ If the fields are already auto-filled with values, you can review them to ensure
 
 5.  If needed, confirm or correct any field value conversions.
 
-    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/data-normalization.md).
+    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
 
     When the extracted value is ambiguous in a document, DocIntel interprets it as defined in the field configuration. A note prompts you to confirm or edit the converted value.
 
@@ -222,7 +222,7 @@ If the fields are already auto-filled with values, you can review them to ensure
     -   If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu.To undo, select the **Edit** icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon.\) in the field.
 4.  If needed, confirm or correct any field value conversions.
 
-    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/data-normalization.md).
+    Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
 
     When the extracted value is ambiguous in a document, DocIntel interprets it as defined in the field configuration. A note prompts you to confirm or edit the converted value.
 

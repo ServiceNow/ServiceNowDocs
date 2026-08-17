@@ -237,7 +237,9 @@ Employee submits the **Request a copy of contract** catalog item in the Service 
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
-[SPO and ITAM data model mappings]()
+[SPO and Asset Management data model mappings]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
 
 [Domain separation and Sourcing and Procurement Operations]()
 

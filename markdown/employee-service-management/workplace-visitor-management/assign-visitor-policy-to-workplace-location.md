@@ -16,6 +16,12 @@ breadcrumb: [Create a visitor policy, Configure, Workplace Visitor Management, W
 
 Add one or more workplace location to a visitor policy. Visitors who are registered to arrive at that locations will receive an email notification in prior to accept the policy.
 
+## About this task
+
+**Warning:** This topic is only applicable for Workplace Visitor Management version 1.19 or earlier.
+
+In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+
 ## Before you begin
 
 Role required: sn\_wsd\_visitor.admin

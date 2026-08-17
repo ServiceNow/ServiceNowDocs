@@ -20,8 +20,8 @@ If you have an admin role, you can activate the Telecommunications Customer 360 
 Use the Telecom Customer 360 guided setup to configure the unified customer view for your organization. Complete the three setup tasks to define your cards and configure their data and settings. Verify the page layout before customer service agents use it.
 -   **[Extension points in Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-use-extension-point.md)**  
 Use scripted extension points to configure the display of the cards on the Telecommunications Customer 360 consumer page.
--   **[Telecommunications Customer 360 component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-component.md)**  
-**Telecom Customer 360** is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the **CSM/FSM Configurable Workspace**. You can embed this component as a tab on the record page of any customer record.
+-   **[Add the Customer 360 tab to a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-c360.md)**  
+Add the Customer 360 tab to any record page using either the page collection approach or the manual component approach, depending on your page type and required features.
 
 **Parent Topic:**[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-land-page.md)
 

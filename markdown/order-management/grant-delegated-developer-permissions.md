@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Grant delegated developer permissions for managing sequences

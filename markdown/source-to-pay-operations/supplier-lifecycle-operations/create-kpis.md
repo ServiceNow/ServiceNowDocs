@@ -1,6 +1,6 @@
 ---
 title: Create KPIs without using KPI template
-description: You can add new KPIs for a supplier without using the existing KPI templates. Adding new KPIs directly generates the corresponding KPI templates.
+description: Create KPIs for a supplier without using a templates,which automatically generates a corresponding KPI template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [Supplier Relationship and Performance Management, SLO, Supplier Lifecycle Operations, KPI, Performance management, KPI template, performance domain, automated KPI, manual KPI]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create KPIs without using KPI template
 
-You can add new KPIs for a supplier without using the existing KPI templates. Adding new KPIs directly generates the corresponding KPI templates.
+Create KPIs for a supplier without using a templates,which automatically generates a corresponding KPI template.
 
 ## Before you begin
 

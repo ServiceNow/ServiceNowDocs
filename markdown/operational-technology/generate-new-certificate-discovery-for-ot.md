@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Generate a certificate
@@ -26,7 +26,7 @@ After the Discovery Console for OT is installed, there are default, preloaded ce
 
 \[Omitted image "settings-certificate-download.png"\] Alt text: Console certificate
 
-**Note:** You can also select the link **Download Console Certificate Bundle \(.zip\)**. See the table for more information on this option.
+**Note:** You can also select the link **Download Console Certificate Bundle \(.zip\)**. For more information, see the table.
 
 ## Procedure
 
@@ -36,15 +36,15 @@ After the Discovery Console for OT is installed, there are default, preloaded ce
 
     **Note:** You're not obligated to use the ServiceNow provided certificates and you may choose to use your own.
 
-<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29860e113">
+<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29869e113">
 
 Option
 
-</th><th align="left" id="d29860e116">
+</th><th align="left" id="d29869e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29860e122">
+</th></tr></thead><tbody><tr><td id="d29869e122">
 
 **Generate a new bundle**
 
@@ -54,7 +54,7 @@ Description
 2.  Select the **Generate Bundle** button.
 
 
-</td></tr><tr><td id="d29860e149">
+</td></tr><tr><td id="d29869e149">
 
 **Upload an existing bundle**
 
@@ -66,7 +66,7 @@ Description
 4.  Select the **Upload Bundle** button.
 
 
-</td></tr><tr><td id="d29860e188">
+</td></tr><tr><td id="d29869e188">
 
 **Download Console Certificate Bundle \(.zip\)**
 
@@ -81,4 +81,6 @@ The bundle contains the Console's Certificate and the web browser certificate. T
 ## Result
 
 A certificate is generated. The Discovery Console for OT reboots.
+
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
 

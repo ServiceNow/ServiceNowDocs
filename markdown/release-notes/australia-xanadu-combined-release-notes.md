@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-xanadu-
 release: australia
 topic_type: reference
 last_updated: "2020-06-26"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Release notes for upgrading from Xanadu, Learn about the Australia release, Australia release notes]
 ---
 
@@ -73,6 +73,14 @@ Advanced Approval Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-advancedapprovalmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+Advanced Approval Management AI
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-advancedapprovalmanagementai-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -156,11 +164,35 @@ Agile Development 2.0
 
 </td></tr><tr><td>
 
+AI Admin Center
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aiadmincenter-release-notes.html)
+
+</td></tr><tr><td>
+
 AI Agent Advisor
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aiagentadvisor-release-notes.html)
+
+</td></tr><tr><td>
+
+AI Agent Studio
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aiagentstudio-release-notes.html)
+
+</td></tr><tr><td>
+
+AI Analytics
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aianalytics-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -201,6 +233,14 @@ AI Search
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aisearch-release-notes.html)
+
+</td></tr><tr><td>
+
+AI Skill Kit
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aiskillkit-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -572,6 +612,14 @@ Content Management System
 
 </td></tr><tr><td>
 
+Content Understanding
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-contentunderstanding-release-notes.html)
+
+</td></tr><tr><td>
+
 Continual Improvement Management
 
 </td><td>
@@ -705,6 +753,14 @@ Data Catalog
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-datacatalog-release-notes.html)
+
+</td></tr><tr><td>
+
+Data Center and Network Asset Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-datacenterandnetworkassetmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -916,6 +972,14 @@ Employee Slate
 
 </td></tr><tr><td>
 
+EMR Provider Directory Sync Sync
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-emrproviderdirectorysyncsync-release-notes.html)
+
+</td></tr><tr><td>
+
 Encryption
 
 </td><td>
@@ -1044,7 +1108,7 @@ Financial Services Operations Integration with Visa
 
 </td></tr><tr><td>
 
-Flows, Subflows, and Actions
+Flows, subflows, and actions
 
 </td><td>
 
@@ -1145,6 +1209,22 @@ Hiring
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hiring-release-notes.html)
+
+</td></tr><tr><td>
+
+HL7 FHIR Spoke
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hl7fhirspoke-release-notes.html)
+
+</td></tr><tr><td>
+
+HL7 v2.x Integration
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hl7v2xintegration-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1356,11 +1436,11 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
-IT Service Management
+ITSM Employee Slate for Moveworks
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-itservicemanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-itsmemployeeslateformoveworks-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1668,75 +1748,11 @@ Now Assist
 
 </td></tr><tr><td>
 
-Now Assist AI Agents
+Now Assist AI agents
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistaiagents-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist Analytics
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistanalytics-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistcenter-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for App Engine
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforappengine-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for CMDB
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforcmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforcollaborativeworkmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management \(CWM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforcollaborativeworkmanagementcwm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configuration Management Database \(CMDB\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforconfigurationmanagementdatabasecmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configure, Price, Quote \(CPQ\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforconfigurepricequotecpq-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1788,27 +1804,11 @@ Now Assist for Financial Services Operations \(FSO\)
 
 </td></tr><tr><td>
 
-Now Assist for FSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforfsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforhardwareassetmanagementham-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for HR Service Delivery \(HRSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforhrservicedeliveryhrsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1828,54 +1828,6 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td></tr><tr><td>
 
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforlegalservicedeliverylsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Manufacturing Commercial Operations \(MCO\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistformanufacturingcommercialoperationsmco-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Sustainability Management Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforoperationalsustainabilitymanagementmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Technology Service Management \(OTSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Order Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforordermanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Retail Service Management \(RSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforretailservicemanagementrsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Sales CRM for Telecommunications
 
 </td><td>
@@ -1884,43 +1836,11 @@ Now Assist for Sales CRM for Telecommunications
 
 </td></tr><tr><td>
 
-Now Assist for Sales Force Automation \(SFA\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsalesforceautomationsfa-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsecurityincidentresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response \(SIR\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsecurityincidentresponsesir-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Security Operations
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsecurityoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Software Asset Management \(SAM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsoftwareassetmanagementsam-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1948,43 +1868,11 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td></tr><tr><td>
 
-Now Assist for Third-party Risk Management \(TPRM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforthirdpartyriskmanagementtprm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Vault
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforvault-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Vulnerability Response
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforvulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Workplace Service Delivery \(WSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforworkplaceservicedeliverywsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Zero Copy Connector
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2025,14 +1913,6 @@ Now Assist in Virtual Agent
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistinvirtualagent-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist Skill Kit
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistskillkit-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2652,6 +2532,14 @@ ServiceNow Add-in for Microsoft 365
 
 </td></tr><tr><td>
 
+ServiceNow® AI Experience Lab for VS Code
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowaiexperiencelabforvscode-release-notes.html)
+
+</td></tr><tr><td>
+
 ServiceNow AI Lens
 
 </td><td>
@@ -2681,6 +2569,334 @@ ServiceNow IDE
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowide-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowotto-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for App Engine
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforappengine-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Care Team Operations
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcareteamoperations-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for CMDB
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcollaborativeworkmanagementcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configuration Management Database \(CMDB\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configure, Price, Quote \(CPQ\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforconfigurepricequotecpq-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Contract Management Pro
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcontractmanagementpro-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcreator-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Customer Service Management \(CSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcustomerservicemanagementcsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Enterprise Architecture \(EA\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforenterprisearchitectureea-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Field Service Management \(FSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforfieldservicemanagementfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Financial Services Operations \(FSO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforfinancialservicesoperationsfso-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for FSM
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforhardwareassetmanagementham-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for HR Service Delivery \(HRSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforhrservicedeliveryhrsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Operations Management \(ITOM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforitoperationsmanagementitom-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforitservicemanagementitsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforlegalservicedeliverylsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoformanufacturingcommercialoperationsmco-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Sustainability Management Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Technology \(OT\) Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Order Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforordermanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Platform Analytics
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforplatformanalytics-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Retail Service Management \(RSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforretailservicemanagementrsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Automation
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsalesautomation-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsalescustomerrelationshipmanagementfortelecommunications-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsecurityincidentresponsesir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsecurityincidentresponsesirsir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Setup
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsetup-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsoftwareassetmanagementsam-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Source-to-Pay Operations
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforsourcetopayoperations-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Strategic Portfolio Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforstrategicportfoliomanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Third-party Risk Management \(TPRM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforthirdpartyriskmanagementtprm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Unified Security Exposure Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforunifiedsecurityexposuremanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Vault
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforvault-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Workplace Service Delivery \(WSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforworkplaceservicedeliverywsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Zero Copy Connector
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforzerocopyconnector-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto in Platform Analytics
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoinplatformanalytics-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2748,19 +2964,19 @@ Service Reliability Management
 
 </td></tr><tr><td>
 
-Setup Hub
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-setuphub-release-notes.html)
-
-</td></tr><tr><td>
-
 Sidebar
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-sidebar-release-notes.html)
+
+</td></tr><tr><td>
+
+Simplified IT Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-simplifieditservicemanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2956,6 +3172,14 @@ Telecommunications Network Inventory
 
 </td></tr><tr><td>
 
+Telecommunications Service Operations Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-telecommunicationsserviceoperationsmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
 Telecommunications Service Operations Management \(TSOM\)
 
 </td><td>
@@ -3009,6 +3233,14 @@ Unified Security Exposure Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-unifiedsecurityexposuremanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+Unified Security Exposure Management \(USEM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-unifiedsecurityexposuremanagementusem-release-notes.html)
 
 </td></tr><tr><td>
 

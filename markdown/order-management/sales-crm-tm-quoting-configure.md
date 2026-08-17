@@ -1,18 +1,18 @@
 ---
-title: Configuring Quote Experience
-description: Configuration tasks and sequence for setting up the ServiceNow CPQ Quote Experience with Quote Experience for your organization.
+title: Configuring CPQ Quote Experience
+description: Configuration tasks and sequence for setting up the CPQ Quote Experience with Quote Experience for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sales-crm-tm-quoting-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Configuring Quote Experience
+# Configuring CPQ Quote Experience
 
-Configuration tasks and sequence for setting up the ServiceNow CPQ Quote Experience with Quote Experience for your organization.
+Configuration tasks and sequence for setting up the CPQ Quote Experience with Quote Experience for your organization.
 
 Configure the Quote Experience to control the quote layout and behavior for your users — the fields they see, how pricing is calculated, which approvals are required, and what actions are available at each stage of the quote lifecycle.
 
@@ -20,7 +20,7 @@ Complete the required configuration tasks in order before you enable the quoting
 
 ## Quote Experience
 
-Using Quote Experience, administrators can:
+Using CPQ Quote Experience, administrators can:
 
 -   Access and configure stages, associated fields, related rules, rule groups, events, layouts, views, and personas.
 -   Define the sales workflow stages your organization needs and define the conditions that must be true before a transaction can enter each stage.

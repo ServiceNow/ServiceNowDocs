@@ -50,7 +50,7 @@ The steps to set up Schedule Optimization are:
 8.  Optionally, create intraday configurations to trigger optimization in response to schedule disruptions or enable on-demand optimization for dispatchers. For more information, see [Intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md).
 9.  Optionally, for large workloads or growing organizations, configure split qualifiers to distribute optimization across multiple parallel jobs and improve processing time. For more information, see [Running Schedule Optimization jobs for large workloads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/splitting-territories-or-technicians.md).
 
-Schedule Optimization supports a high volume of tasks across all three optimization methods by default. If your scheduling needs require expanded capacity, you can contact support or submit a change control request to adjust the configuration.
+By default, Schedule Optimization processes up to 50 optimization requests across all optimization methods every 24 hours. Schedule Optimization handles high volumes of scheduling tasks within each request. If you need higher capacity, you can contact support or submit a change control request to adjust the configuration.
 
 **Related topics**  
 

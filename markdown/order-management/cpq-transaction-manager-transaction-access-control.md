@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Quote Experience: Transaction Access Control
+title: ServiceNow Quote Experience: Access Control
 description: ServiceNow Quote Experience controls access at two levels: record access, which determines who can view or modify a quote, and field access, which controls the fields a user sees within a quote. Record access can be managed by your CRM or natively within ServiceNow Quote Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-transaction-manager-transaction-access-control.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# ServiceNow Quote Experience: Transaction Access Control
+# ServiceNow Quote Experience: Access Control
 
 ServiceNow Quote Experience controls access at two levels: record access, which determines who can view or modify a quote, and field access, which controls the fields a user sees within a quote. Record access can be managed by your CRM or natively within ServiceNow Quote Experience.
 

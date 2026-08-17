@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-18"
 reading_time_minutes: 1
 keywords: [erp, rest, api, workday]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtain data from Workday using REST APIs
@@ -29,5 +29,5 @@ After uploading the file, its entities are displayed in the Model manager.
 
 For more information and detailed steps, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
+For API details, see .
 

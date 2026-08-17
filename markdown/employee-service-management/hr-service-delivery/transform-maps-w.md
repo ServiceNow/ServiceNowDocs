@@ -96,7 +96,7 @@ HRSD Workday Education and Training
 
 </td><td>
 
-Maps education and training from the Staging table to the Workday Education and Training table \[sn\_employee\_education\_training\].
+Maps education and training from the Staging table to the Workday Education and Training table \[sn\_hr\_workday\_certifying\_board\_code\_staging\].
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ HRSD Workday Employee Employment History
 
 </td><td>
 
-Maps employment history from the Staging table to the Workday Employee Employment History table \[sn\_employee\_employment\_history\].
+Maps employment history from the Staging table to the Workday Employee Employment History table \[sn\_hr\_workday\_professional\_reference\_staging\].
 
 </td></tr><tr><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Multi-factor Authentication verification methods
+title: Multi-factor authentication verification methods
 description: ServiceNow's MFA supports verification methods such as Authenticator App, Fast IDentity Online 2 \(FIDO2\) and Time-based One-Time Password \(TOTP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-methods.html
@@ -12,17 +12,19 @@ reading_time_minutes: 2
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Multi-factor Authentication verification methods
+# Multi-factor authentication verification methods
 
 ServiceNow's MFA supports verification methods such as Authenticator App, Fast IDentity Online 2 \(FIDO2\) and Time-based One-Time Password \(TOTP\).
 
 The users can use the following options in addition to their user name and password to fulfill multi-factor authentication requirements. The users can setup MFA factors such as Authenticator applications, Biometric scanners, Hardware Keys, and SMS independently.
 
-## Authenticator Applications
+## Authenticator applications
 
-An authenticator application is third-party software that generates temporary passcodes. Users can use these passcodes along with their password to log in into an instance that requires multi-factor authentication \(MFA\). For more detail on these applications, see [Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md).
+An authenticator application is third-party software that generates temporary passcodes. Users can use these passcodes along with their password to log in into an instance that requires multi-factor authentication \(MFA\). For more detail on these applications, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md).
 
 \[Omitted image "auth-app.png"\] Alt text: Authenticator
+
+**Note:** Install an authenticator app such as Google Authenticator or Microsoft Authenticator on your mobile device before scanning the QR code. The QR code configures your authenticator app for this account; it does not install the app.
 
 ## Hardware Keys and Biometric scanners \(Web Authentication\)
 
@@ -61,7 +63,7 @@ When users attempt to log in to ServiceNow, Email OTP is sent to the email addre
 
 [Web Authentication - MFA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/web-authentication-mfa.md)
 
-[Multi-factor Authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
+[Multi-factor authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
 
 [Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-with-email.md)
 

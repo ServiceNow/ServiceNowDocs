@@ -16,13 +16,13 @@ The ServiceNow® App Engine Studio application enables creators of varying skill
 
 Several Integration Hub flow templates are being deprecated.
 
-See  for more information.
+See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md) for more information.
 
 **Important:** App Engine Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Activation information
 
-Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -48,15 +48,15 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Work with access controls and roles for an application in AES.
 
--   **App details page in ServiceNow Studio**
+-   **[App details page in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-details-page.md)**
 
     Leverage the redesigned App details page in ServiceNow Studio to focus on featured application file types.
 
--   ****
+-   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center.md)**
 
     Track and manage requests, deployments, applications, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\).
 
--   ****
+-   **[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-now-assist-app-gen-landing.md)**
 
     Create applications through a conversation with generative AI.
 
@@ -72,7 +72,7 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Build logical representations of assets, services, and the relationships between them that comprise the infrastructure of your organization.
 
--   **Create applications without writing code using Creator Studio**
+-   **[Create applications without writing code using Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md)**
 
     Edit apps built in Creator Studio and add features to customize functionality.
 
@@ -88,7 +88,7 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Simplify the use of Enterprise Resource Planning \(ERP\) data from the system of record, such as SAP.
 
--   **Flows in Workflow Studio**
+-   **[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md)**
 
     Edit the flows that you create in AES.
 
@@ -100,27 +100,27 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Add mobile experiences in AES.
 
--   ****
+-   **[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)**
 
     Enhance custom applications with AI agents and skills that application users can leverage at runtime.
 
--   **Playbooks in Workflow Studio**
+-   **[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)**
 
     Edit cross-functional processes and consolidate them into automated task-oriented views.
 
--   ****
+-   **[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops-landing.md)**
 
     ReleaseOps automates the deployment process, including moving changes between instances, running scans and tests, and releasing changes, by using update sets and customizable pipelines. ReleaseOps orchestrates the process while providing transparency into the process for release managers and teams.
 
--   ****
+-   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-control-in-servicenow-studio.md)**
 
     Link applications to source control using ServiceNow Studio to manage app files a Git repository.
 
--   ****
+-   **[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md)**
 
     Work with data models in a table format. Table Builder is exclusive to AES.
 
--   ****
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
 
     Edit the experiences that you create in AES.
 
@@ -128,7 +128,7 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience.
 
--   ****
+-   **[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder-landing.md)**
 
     Edit and customize workspaces built in AES.
 

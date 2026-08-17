@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-careerconversations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,9 +67,9 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
@@ -85,7 +85,7 @@ As an admin, create reusable feedback templates using the Platform Surveys tool 
 
 As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
-**Note:** This feature is available when you have both Now Assist for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
+**Note:** This feature is available when you have both ServiceNow Otto for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
 
 -   **[Edit a conversation series](https://www.servicenow.com/docs/access?context=edit-conversations-series&family=zurich&ft:locale=en-US)**
 
@@ -367,7 +367,7 @@ Zurich
 
 [Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Make career conversations easy to create and track using the growth conversations agentic workflow.
 -   As a manager, find and share relevant resources to conduct meaningful conversations using the Manager resource recommendation AI agent.
 -   As a manager, you can now edit a series, and also specify when a series should end while creating the growth conversation.

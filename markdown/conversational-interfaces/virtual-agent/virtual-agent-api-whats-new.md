@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-27"
 reading_time_minutes: 15
 breadcrumb: [Explore, Virtual Agent API, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -22,7 +22,7 @@ For information about the request and response templates for Virtual Agent API, 
 
 **Support for synthesized response in Virtual Agent API**
 
--   With synthesized response enabled through Now Assist experience, Virtual Agent API sends the response with citations to the primary bot. Citations are included in **citations** parameter along with separate citation links.
+-   With synthesized response enabled through ServiceNow Otto, Virtual Agent API sends the response with citations to the primary bot. Citations are included in **citations** parameter along with separate citation links.
 -   Here's an example JSON for synthesized response with citations and citation links:
 
     ```
@@ -107,7 +107,7 @@ For information about the request and response templates for Virtual Agent API, 
 
 **Support for agentic response in Virtual Agent API**
 
--   Virtual Agent API supports agentic response through Now Assist experience. With agentic response enabled in Virtual Agent API, the output messages are shown to the user as loading or processing.
+-   Virtual Agent API supports agentic response through ServiceNow Otto. With agentic response enabled in Virtual Agent API, the output messages are shown to the user as loading or processing.
 -   Virtual Agent API sends message to the primary bot through a new **DynamicLoader** parameter.
 -   Here's an example JSON for agentic response:
 
@@ -155,7 +155,7 @@ For information about the request and response templates for Virtual Agent API, 
 
 **Support for response streaming in Virtual Agent API**
 
--   Virtual Agent API supports response streaming through Now Assist experience. To learn more, see [Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
+-   Virtual Agent API supports response streaming through ServiceNow Otto. To learn more, see [Enable ServiceNow Otto experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
 
     **Note:** The primary bot must pass the streaming responses to the end user. For more information, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md).
 
@@ -288,9 +288,9 @@ For information about the request and response templates for Virtual Agent API, 
         ```
 
 -   Enable streaming in Virtual Agent API by the following configuration:
-    1.  Ensure that **Allow response streaming** is selected in Now Assist in Virtual Agent. To learn more, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+    1.  Ensure that **Allow response streaming** is selected in ServiceNow Otto for Virtual Agent. To learn more, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
     2.  Navigate to **All** and enter `sys_now_assist_channel_config.list` in the navigation filter.
-    3.  In the Now Assist Channel configuration \[now\_assist\_channel\_config\] table, set the **Streaming Ready** field value to `true` for Bot to Bot device.
+    3.  In the ServiceNow Otto Channel configuration \[now\_assist\_channel\_config\] table, set the **Streaming Ready** field value to `true` for Bot to Bot device.
 
         \[Omitted image "va-api-streaming.png"\] Alt text: Set the Streaming Ready field value to true for Bot to Bot device.
 
@@ -317,10 +317,10 @@ For information about the request and response templates for Virtual Agent API, 
 -   Virtual Agent API sends chat history from primary bot to live agent anywhere in the request during an ongoing conversation. This behavior is controlled by the following system property: allow\_storing\_history\_in\_ongoing-conversation. Set the value of the property to true to send chat history anywhere in the request.
 -   Interaction record contains transcript of chat history along with timestamp of individual messages.
 
-**Support for Now Assist experience**
+**Support for ServiceNow Otto**
 
--   Now Assist experience in Virtual Agent API offers generative AI skills across multiple provider channels.
--   For more information, see [Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
+-   ServiceNow Otto experience in Virtual Agent API offers generative AI skills across multiple provider channels.
+-   For more information, see [Enable ServiceNow Otto experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
 
 **Support for configuring multiple provider applications**
 

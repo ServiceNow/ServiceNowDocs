@@ -18,7 +18,7 @@ Use the Leader Hub Metric Configurations table to configure metrics for employee
 
 ## Before you begin
 
-Role required: admin \[sn\_egd\_lh.admin\]
+Role required: sn\_egd\_lh.admin
 
 ## Procedure
 

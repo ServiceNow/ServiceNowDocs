@@ -1,6 +1,6 @@
 ---
 title: Early Warning CVD Attributes field reference
-description: The Early Warning CVD Attributes table stores threat intelligence signals for vulnerabilities. Each attribute represents a pre-disclosure threat indicator ingested from the Early Warning feed.
+description: The Early Warning CVD Attributes table stores vulnerability intelligence signals for vulnerabilities. Each attribute represents a threat indicator ingested from the Early Warning feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/r-early-warning-cvd-attributes.html
 release: australia
@@ -8,14 +8,14 @@ topic_type: reference
 last_updated: "2026-06-23"
 reading_time_minutes: 2
 keywords: [Early Warning, CVD attributes, field reference, threat intelligence, schema]
-breadcrumb: [Early Warning for Security Exposure Management integration, Integrate, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Early Warning CVD Attributes field reference
 
-The Early Warning CVD Attributes table stores threat intelligence signals for vulnerabilities. Each attribute represents a pre-disclosure threat indicator ingested from the Early Warning feed.
+The Early Warning CVD Attributes table stores vulnerability intelligence signals for vulnerabilities. Each attribute represents a threat indicator ingested from the Early Warning feed.
 
-Early warning threat signals are stored in the Armis Early Warning CVD Attributes \[sn\_vul\_ew\_cvd\_attributes\] table, a specialized extension table for vulnerability attributes. Each record in this table represents a unique CVE and stores the set of threat intelligence attributes ingested from Armis.
+Early warning threat signals are stored in the Armis Early Warning CVD Attributes \[sn\_vul\_ew\_cvd\_attributes\] table, a specialized extension table for vulnerability attributes. Each record in this table represents a unique CVE and stores the set of vulnerability intelligence attributes ingested from Armis.
 
 ## Attribute fields
 
@@ -65,7 +65,7 @@ Admiralty Score
 
 </td><td>
 
-NATO grading system for threat intelligence confidence and reliability. Scores range from A1 \(highest confidence\) to F6 \(lowest confidence\). Use this score to assess the credibility of associated threat signals.
+NATO grading system for vulnerability intelligence confidence and reliability. Scores range from A1 \(highest confidence\) to F6 \(lowest confidence\). Use this score to assess the credibility of associated threat signals.
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ External Note
 Structured free-text field containing sub-categories of intelligence detail: Intel Source, Honeypot, Research, Detection, Vulnerable, Malware hash, Analyst note, Intel note, and Admiralty score. Values are reported as `NA` when no data is available for a sub-category.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+</table>**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
 

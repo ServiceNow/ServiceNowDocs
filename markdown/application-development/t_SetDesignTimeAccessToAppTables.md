@@ -28,7 +28,7 @@ To set runtime access permissions:
 
 2.  Click the button for the application type you want to edit.
 
-<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d294335e86">
+<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d300525e86">
 
 **__Developed__**
 
@@ -36,7 +36,7 @@ To set runtime access permissions:
 
 displays applications created on this instance.
 
-</td></tr><tr><td id="d294335e96">
+</td></tr><tr><td id="d300525e96">
 
 **__Downloaded__**
 

@@ -1,21 +1,21 @@
 ---
-title: Now Assist for Creator
-description: Now Assist for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
+title: ServiceNow Otto for Creator
+description: ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/now-assist-for-creator-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-07-28"
 reading_time_minutes: 5
-keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation]
+keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation, ServiceNow Otto, ServiceNow Otto for Creator]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Now Assist for Creator
+# ServiceNow Otto for Creator
 
-Now Assist for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
+ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 
 ## Get started
 
@@ -29,23 +29,23 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 
-[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-gen-landing.md)
+[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 
 </td><td>
 
-[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-summarize-landing.md)
+[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 
 </td></tr><tr><td>
 
-[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
+[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
 
 </td><td>
 
-[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
+[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in ServiceNow Studio and the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
 
 </td><td>
 
@@ -57,15 +57,15 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-[Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-generation-landing.md)
+Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI.
 
 </td><td>
 
-[Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-recommendations-landing.md)
+Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.
 
 </td></tr><tr><td>
 
-[Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.
 
 </td><td>
 
@@ -81,23 +81,35 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
+[Release lifecycle documentation AI agent\[Omitted image "bus-documentation.svg"\] Alt text:Generate readable documentation across the application lifecycle to improve traceability and governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
 
 </td><td>
 
-[Test generation \[Omitted image "bus-siem.svg"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
+[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
 
 </td></tr><tr><td>
+
+[Test generation \[Omitted image "bus-siem.svg"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
+
+</td><td>
 
 [Theme creation\[Omitted image "bus-customize.svg"\] Alt text:Generate themes from images directly in Theme Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
 
 </td><td>
 
-[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-landing.md)
+[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-landing.md)
+
+</td></tr><tr><td>
+
+[Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-ai-widget-builder.md)
 
 </td><td>
 
-[Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-ai-widget-builder.md)
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>**Important:**

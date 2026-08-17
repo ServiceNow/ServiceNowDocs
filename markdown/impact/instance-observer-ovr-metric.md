@@ -57,5 +57,5 @@ The metrics provide the user information performance snapshot within the Service
 -   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-metrics.md)**  
 The Instance Data Replication \(IDR\) copies data updates from one instance, called the producer instance, to one or more other instances called the consumer instances.
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

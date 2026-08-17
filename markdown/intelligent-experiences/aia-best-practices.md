@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-10-23"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
 ---
 
 # Best practices for AI agents configuration

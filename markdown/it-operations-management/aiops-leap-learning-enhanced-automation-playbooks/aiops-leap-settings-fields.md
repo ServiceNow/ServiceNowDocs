@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
 last_updated: "2026-04-14"
 reading_time_minutes: 3
-breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # LEAP settings fields

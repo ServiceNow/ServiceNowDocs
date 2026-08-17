@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Change Management, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection assess conflicts for a change request agentic workflow
@@ -57,7 +57,7 @@ The Change conflict assessor AI agent is used to identify conflict types and sum
 In the agentic workflow record:
 
 1.  Review the information in the Describe and connect screen and in the Define trigger screen, make the necessary updates, and then select **Save and Continue**.
-2.  In the select a UI display screen, turn on the **Display** option to add the icon for the Now Assist panel in the menu bar.
+2.  In the select a UI display screen, turn on the **Display** option to add the icon for the ServiceNow Otto panel in the menu bar.
 3.  Select **Save and test**.
 
 The agent executes the request for the agentic workflow.
@@ -66,11 +66,11 @@ The agent executes the request for the agentic workflow.
 
 \[Omitted image "now-assist-itsm-assess-conflicts-for-a-change-request-workflow.png"\] Alt text: Assess conflicts for a change request agentic workflow output in AI Agent Studio.
 
-Access and use assess conflicts for a Change request agentic workflow from the Now Assist panel.
+Access and use assess conflicts for a Change request agentic workflow from the ServiceNow Otto panel.
 
 You can add a query using the change request number to use the AI agent.
 
 For the query instruction, follow the steps specified in the **List of steps** field of the Define key requirements screen of the agentic workflow record.
 
-In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

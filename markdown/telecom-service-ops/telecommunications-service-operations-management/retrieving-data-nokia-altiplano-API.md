@@ -1,5 +1,5 @@
 ---
-title: Examples of Retrieving Data from Nokia Altiplano via REST API
+title: Retrieve data from Nokia Altiplano via REST API
 description: Examples of Retrieving Data from Nokia Altiplano via REST API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/retrieving-data-nokia-altiplano-API.html
@@ -7,12 +7,12 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
-# Examples of Retrieving Data from Nokia Altiplano via REST API
+# Retrieve data from Nokia Altiplano via REST API
 
 Examples of Retrieving Data from Nokia Altiplano via REST API.
 

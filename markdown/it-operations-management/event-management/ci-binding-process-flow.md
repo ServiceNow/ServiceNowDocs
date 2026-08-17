@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-06-02"
 reading_time_minutes: 1
-breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Binding process flow
@@ -57,5 +57,5 @@ Learn the process of binding Configuration Items \(CIs\) to alerts. This include
 
 **Note:** To specify multiple statuses, separate each status number with a comma.
 
-To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 

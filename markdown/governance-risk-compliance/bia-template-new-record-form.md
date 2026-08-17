@@ -88,7 +88,7 @@ Option to include Confidentiality, Integrity, and Availability to BIA. Available
 -   **Yes**: Set the flag as **Yes**, if the primary element that is being analyzed has critical data and whether it must include Confidentiality, Integrity, and Availability information in the analysis.
 -   **No**: Set the flag as **No**, if the primary element that is being analyzed does not have critical data.
 
- The field appears only if the elements that selected for the **Primary Element Assessed** field in the same form require data backup.
+ The field appears only if the elements selected for the **Primary Element Assessed** field in the same form require data backup.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template-uib-ws.md)

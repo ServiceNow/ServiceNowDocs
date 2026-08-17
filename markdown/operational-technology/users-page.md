@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Users page
@@ -21,7 +21,7 @@ The following user accounts are available in the system.
 -   Administrator accounts, which have full access to the Discovery Console for OT's functionality and features
 -   Non-administrator accounts, which have limited access to the Discovery Console for OT
 
-**Note:** Each user who needs access to the console should be given a user account with private credentials. The console application logs user activity that takes place in the system. Sharing accounts or account passwords helps prevent an accurate audit of system activity. \[Prevents?\]
+**Note:** Each user who needs access to the console is given a user account with private credentials. The Console application records user activity in the system. Sharing accounts or account passwords prevents an accurate audit of system activity.
 
 ## Registering the initial user
 
@@ -58,4 +58,19 @@ When creating user accounts, you can assign the following roles.
 |Admin|Can access the full functionality of the Discovery Console for OT. Can create, edit, and remove user accounts.|
 |Reader|Can view the Discovery Console for OT with read-only permissions.|
 |User|Can access the Discovery Console for OT with limited permissions.|
+
+**Note:** For more information, see [Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-entra-id-setup.md) next.
+
+-   **[Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-entra-id-setup.md)**  
+This section describes how a Discovery Console for OT user can set up an **Microsoft Entra ID** integration.
+-   **[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-user-ot-console.md)**  
+Create a user account that can access the Discovery Console for OT.
+-   **[Edit a user's information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-user-information.md)**  
+Edit a User's information and keep the user account up to date.
+-   **[Force a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reset-users-password.md)**  
+Force a user to reset their password.
+-   **[Deactivate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/remove-user.md)**  
+Deactivating a user verifies that they can't access the Discovery Console for OT.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

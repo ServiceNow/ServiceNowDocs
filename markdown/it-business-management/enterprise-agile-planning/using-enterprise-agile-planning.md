@@ -21,7 +21,7 @@ Use the following areas of Enterprise Agile Planning to plan, track, and collabo
 
 -   **Manage team backlog**
 
-    Create, update, and prioritize work items from the Backlog page. Schedule work into Planning Intervals \(PIs\) or Sprints, make inline edits, and track progress at every level of your agile structure, from Agile Teams up through ARTs, Solution Trains, and Portfolios.
+    Create, update, and prioritize work items from the Backlog page. Schedule work into Planning Intervals \(PIs\) or Sprints, make inline edits. You can also track progress at every level of your agile structure, from Agile Teams up through ARTs, Solution Trains, and Portfolios.
 
 -   **Perform PI planning**
 

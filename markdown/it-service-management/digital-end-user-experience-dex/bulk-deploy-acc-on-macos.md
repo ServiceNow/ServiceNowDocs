@@ -69,14 +69,15 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
 
         ```
         #!/bin/bash
+        #!/bin/bash
         # === CONFIGURATION ===
         PKG_NAME="acc-yml.pkg"
-        INSTALL_PATH="/Library/Application Support/servicenow/agent-clientcollector"
+        INSTALL_PATH="/Library/Application Support/servicenow/agent-client-collector"
         YML_SOURCE_PATH="$HOME/Desktop/acc.yml" # Assuming you have your yml
         file on the Desktop folder, change it if needed
         # === CREATE BUILD STRUCTURE ===
         BUILD_DIR="$HOME/pkgbuild-yml"
-        PAYLOAD_DIR="$BUILD_DIR/payload$INSTALL_PATH"
+        PAYLOAD_DIR="$BUILD_DIR/payload"
         # Clean previous build
         rm -rf "$BUILD_DIR"
         mkdir -p "$PAYLOAD_DIR"
@@ -151,8 +152,7 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
         echo "[INFO] Sudoers file created at $SUDOERS_FILE"
         
         # === 2. Set permissions for the YAML file ===
-        YML_PATH="/Library/Application Support/servicenow/agent-clientcollector/
-        acc.yml"
+        YML_PATH="/Library/Application Support/servicenow/agent-client-collector/acc.yml"
         if [ -f "$YML_PATH" ]; then
         chmod 644 "$YML_PATH"
         echo "[INFO] Permissions set on acc.yml"

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-02-02"
 reading_time_minutes: 6
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Automated quality assurance
@@ -29,7 +29,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -89,7 +89,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 7.  Select **Define Availability** to review when the side panel on the dashboard is active and available to customize.
 
-    Admins can customize availability and set specific conditions to enable the contextual side panel on the case record page or choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions to define availability.
+    Customize availability by setting specific conditions to enable the contextual side panel on the case record page. Alternatively, choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions.
 
 8.  Select **Define triggers** to choose how a base skill is automatically triggered.
 
@@ -113,7 +113,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 14. Select **Activate skill** to turn on the skill for agents and complete the configuration.
 
-    Skill is activated for agents, and a success modal shows up with the option **Return to Now Assist skills.**
+    Skill is activated for agents, and a success modal shows up with the option **Return to AI skills.**
 
 
 **Related topics**  

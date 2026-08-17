@@ -9,7 +9,7 @@ classification: cloud-account-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Review request policies, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Review request policies, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Automate Budget Approval policy process

@@ -9,14 +9,12 @@ classification: process-mining
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Working with external datasets, Use, Process Mining, Platform Analytics]
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Managing an audit table
 
 After the audit and record tables are created with the imported data, you can use them to create a project. You can also share, edit, empty, or delete the tables.
-
-**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
 
 ## Share the audit and record tables
 

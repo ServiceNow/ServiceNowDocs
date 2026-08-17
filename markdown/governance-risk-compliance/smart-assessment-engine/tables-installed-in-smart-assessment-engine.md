@@ -406,7 +406,7 @@ Section Instance to Persona to Users\[sn\_smart\_collab\_m2m\_section\_instance\
 Many-to-many relationship table that maps section instances to personas and their contributing users within an assessment instance.
 
 </td></tr></tbody>
-</table>## Tables installed with Smart Assessment Now Assist
+</table>## Tables installed with Smart Assessment ServiceNow Otto
 
 <table id="table_now_assist"><thead><tr><th>
 

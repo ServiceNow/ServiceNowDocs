@@ -1,5 +1,5 @@
 ---
-title: Reassign Certificate Ownership
+title: Reassign certificate ownership
 description: View a list of all certificates and their respective owners, and reassign ownership for certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/reassign-certificate-ownership.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Certificate attestation for certificate owners, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Reassign Certificate Ownership
+# Reassign certificate ownership
 
 View a list of all certificates and their respective owners, and reassign ownership for certificates.
 

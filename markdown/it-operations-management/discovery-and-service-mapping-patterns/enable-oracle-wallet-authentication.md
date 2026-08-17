@@ -56,7 +56,7 @@ To apply the changes, run discovery.
 
 **Previous topic:**[Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md)
 
-**Next topic:**[AI Agent Topology Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
+**Next topic:**[Cryptographic Asset Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/CAC-landing-page.md)
 
 **Related topics**  
 

@@ -1,6 +1,6 @@
 ---
 title: Reporting incidents from SOW and SIR Workspace in DRIR
-description: When a high-impact, high-urgency incident is created or an existing incident is marked as high priority in the Service Operations Workspace \(SOW\) of Incident Management or Security Incident Response Workspace \(SIR Workspace\), it is classified as a major incident. These major incidents are then logged and reported in the Digital resilience incident reporting application.
+description: High-impact, high-urgency incidents created or marked as high priority in the SOW of Incident Management or SIR Workspace of Security Incident Response are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/integration-with-incident-management.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Manage, Using Digital resilience incident reporting, Manage, Operat
 
 # Reporting incidents from SOW and SIR Workspace in DRIR
 
-When a high-impact, high-urgency incident is created or an existing incident is marked as high priority in the Service Operations Workspace \(SOW\) of Incident Management or Security Incident Response Workspace \(SIR Workspace\), it is classified as a major incident. These major incidents are then logged and reported in the Digital resilience incident reporting application.
+High-impact, high-urgency incidents created or marked as high priority in the SOW of Incident Management or SIR Workspace of Security Incident Response are classified as major incidents. These major incidents are logged and reported in the Digital resilience incident reporting application.
 
 ## Incident reporting workflow
 
@@ -77,5 +77,5 @@ The SIR Workspace deploys a similar workflow for reporting high-impact incidents
 
 ## Where to find the case status
 
-The Regulatory reporting status of a DRI case \(Potentially reportable/Reportable/Not reportable\) is displayed in the Details panel of the Digital Resilience Incident Reporting case record in the Operational Resilience Workspace, and per regulation in the Regulation Mappings related list. The dedicated 'Reporting status' form section that existed in earlier releases has been removed; the same information is now in the Details panel.
+The Regulatory reporting status of a DRI case \(Potentially reportable/Reportable/Not reportable\) is displayed in the Details panel and per regulation in the Regulation Mappings related list. The dedicated 'Reporting status' form section that existed in earlier releases has been removed; the same information is now in the Details panel.
 

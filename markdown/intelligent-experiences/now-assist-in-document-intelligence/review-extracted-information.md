@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence, Extract information from documents]
-breadcrumb: [Use, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Use, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Review extracted information in the Document Intelligence workspace
@@ -53,15 +53,15 @@ For more information, see [Document Intelligence workspace with Now Assist](http
 
     For information on using the draw tool, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
-<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d77968e206">
+<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d106422e206">
 
 Option
 
-</th><th align="left" id="d77968e209">
+</th><th align="left" id="d106422e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77968e215">
+</th></tr></thead><tbody><tr><td id="d106422e215">
 
 **Edit the field value or answer**
 
@@ -75,7 +75,7 @@ To make a change:
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d77968e256">
+</td></tr><tr><td id="d106422e256">
 
 **Mark the field value or answer as missing in the document**
 
@@ -89,7 +89,7 @@ If you can’t find an appropriate match, mark it as missing in the document.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d77968e300">
+</td></tr><tr><td id="d106422e300">
 
 **Mark the field value or answer as reviewed**
 

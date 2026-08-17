@@ -24,7 +24,7 @@ Role required: it\_project\_manager or it\_demand\_manager
 
 ## About this task
 
-When a project or a project task moves to Closed Complete, Closed Incomplete or Closed Skipped state, the system prompts a message on the project and project task forms, and in the planning console for canceling the resource plans if one of the following conditions is met.
+When a project or project task moves to Closed Complete, Closed Incomplete or Closed Skipped state, the system prompts a message on the project and project task forms. This message also appears in the planning console for canceling the resource plans if one of the following conditions is met.
 
 -   Corresponding resource plan is in Confirmed, Planning, or Requested state.
 -   Resource plan is in Allocated state with start date later than the project or task end date.
@@ -35,7 +35,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d317753e107">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d326746e116">
 
 **Open a Closed project record**
 
@@ -46,7 +46,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d317753e146">
+</td></tr><tr><td id="d326746e155">
 
 **Open a Closed project task record**
 
@@ -57,7 +57,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d317753e185">
+</td></tr><tr><td id="d326746e194">
 
 **Open a Closed project in Planning Console**
 
@@ -68,7 +68,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d317753e224">
+</td></tr><tr><td id="d326746e233">
 
 **Open a Closed or Deferred demand record**
 

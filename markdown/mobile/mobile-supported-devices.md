@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-supported-devices.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-26"
-reading_time_minutes: 2
+last_updated: "2026-07-30"
+reading_time_minutes: 3
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -40,6 +40,7 @@ Use this table to find the minimum iOS and Android versions necessary to use Ser
 |20.0 - 20.3|iOS 18|11.0 Red Velvet Cake|Zurich|Utah|
 |20.4 +|iOS 18|12.0 Snow Cone|Zurich|Utah|
 |21.x|iOS 18|12.0 Snow Cone|Australia|Utah|
+|22.x|iOS 18|12.0 Snow Cone|Brazil|Utah|
 
 **Note:**
 
@@ -65,9 +66,7 @@ Apple ® iPhone ®
 
 </td><td>
 
--   iPhone XR
--   iPhone XS
--   iPhone XS Max
+-   iPhone Air
 -   iPhone 11
 -   iPhone 11 Pro
 -   iPhone 11 Pro Max
@@ -85,6 +84,10 @@ Apple ® iPhone ®
 -   iPhone 15 Pro Max
 -   iPhone 16 Pro
 -   iPhone 16 Pro Max
+-   iPhone 17
+-   iPhone 17e
+-   iPhone 17 Pro
+-   iPhone 17 Pro Max
 
 </td></tr><tr><td>
 
@@ -103,6 +106,11 @@ Apple ® iPad ®
 -   iPad 10.2"
 -   iPad Pro 11" \(2nd Generation\)
 -   iPad Pro 12.9" \(4th Generation\)
+-   iPad \(11th gen, A16\)
+-   iPad Air \(M4, 8th gen\)
+-   iPad Pro 13" \(M4\)
+-   iPad Pro 11" \(M5\)
+-   iPad Pro 13" \(M5\)
 
 </td></tr><tr><td>
 
@@ -110,15 +118,17 @@ Android ™
 
 </td><td>
 
--   Huawei P20
 -   OnePlus 8 Pro
--   Samsung Galaxy Note10
 -   Samsung S10 and S10+
 -   Samsung S20 and S20+
 -   Samsung S20 Ultra 5G
+-   Samsung Galaxy S21 / S21+ / S21 Ultra
+-   Samsung Galaxy S22 / S22+ / S22 Ultra
+-   Samsung Galaxy S23 / S23+ / S23 Ultra
+-   Samsung Galaxy S24 / S24+ / S24 Ultra
+-   Samsung Galaxy S25 / S25+ / S25 Ultra
+-   Samsung Galaxy S26 / S26+ / S26 Ultra
 -   Samsung Galaxy Z Flip
--   Google Pixel 3 and 3a
--   Google Pixel 3 XL and 3a XL
 -   Google Pixel 4
 -   Google Pixel 4 XL
 -   Google Pixel 5
@@ -126,7 +136,17 @@ Android ™
 -   Google Pixel 6 Pro
 -   Google Pixel 7
 -   Google Pixel 7 Pro
--   Xiaomi Mi 8
+-   Pixel 8
+-   Pixel 8 Pro
+-   Pixel 8a
+-   Pixel 9
+-   Pixel 9a
+-   Pixel 9 Pro
+-   Pixel 9 Pro XL
+-   Pixel 10
+-   Pixel 10a
+-   Pixel 10 Pro
+-   Pixel 10 Pro XL
 -   Zebra TC51
 
  **Important:**

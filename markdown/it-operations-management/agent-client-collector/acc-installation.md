@@ -1,5 +1,5 @@
 ---
-title: Agent Client Collector installation
+title: Agent Client Collector Installation
 description: You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-installation.html
@@ -12,13 +12,17 @@ reading_time_minutes: 3
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Agent Client Collector installation
+# Agent Client Collector Installation
 
 You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 
 When an agent's IP address changes, it selects a MID Server to connect to based on the agent's MID Server list.
 
+Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1)
+
 The maximum number of agents that can be connected to a single MID Server is configurable in the **sn\_agent.mid.max\_allowed\_agents** MID Server property. The default value is 4,000.
+
+For the list of required OS versions, see For a list of supported OS's and versions [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1)
 
 For ACC-VC, a default 1 GiB MID Server can support 700 agents concurrently. An 8 GiB configuration for a MID Server can support 8,000 agents concurrently. You can also scale out. For example, 5 MID Servers with 8 GiB of heap size can handle up to 40k agents.
 

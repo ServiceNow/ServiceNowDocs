@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/configur
 release: australia
 topic_type: task
 last_updated: "2026-05-19"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -91,4 +91,6 @@ For OT devices, you can select the OT device type to apply the device type to th
 </td></tr></tbody>
 </table>8.  Select **Continue** to move to the next step.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
 

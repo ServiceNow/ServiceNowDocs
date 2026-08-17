@@ -147,8 +147,8 @@ The customer tab component displays the list of consumers, accounts, and househo
 
     **Note:** You can access this component only after the Customer Household Data Model plugin \(com.snc.household\) is activated.
 
--   **Internal Business Locations** tab. Displays all the internal business locations or a filtered list of internal business locations. This information is based on the supported internal business locations that are associated with the business location​.
--   **External Business Locations** tab. Displays all the external business locations or a filtered list of external business locations. This information is based on the supported external business locations that are associated with the business location​.
+-   **Internal Organizations** tab. Displays all the internal organizationsor a filtered list of internal organizations. This information is based on the supported internal organizationsthat are associated with the business organizations​.
+-   **External Organizations** tab. Displays all the external organizations or a filtered list of external organizations. This information is based on the supported external organizations that are associated with the business organization​.
 
 The following example shows a list of the consumers that are associated with a business location.
 

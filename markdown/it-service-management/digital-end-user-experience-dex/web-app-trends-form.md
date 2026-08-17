@@ -1,6 +1,6 @@
 ---
 title: Web application — Trends page
-description: The trends page captures metrics such as alert trends, average page load time, average response time, metrics for failed web requests, total usage, and mean time to resolve incidents. This information is essential for evaluating system performance, identifying areas for improvement, and take data-driven decisions.
+description: The trends page displays alert trends, average page load time, average response time, failed web request metrics, total usage, and mean time to resolve incidents. Use this data to evaluate system performance and identify areas for improvement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/web-app-trends-form.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Applications list, DEX Application and Device Health reference, Ref
 
 # Web application — Trends page
 
-The trends page captures metrics such as alert trends, average page load time, average response time, metrics for failed web requests, total usage, and mean time to resolve incidents. This information is essential for evaluating system performance, identifying areas for improvement, and take data-driven decisions.
+The trends page displays alert trends, average page load time, average response time, failed web request metrics, total usage, and mean time to resolve incidents. Use this data to evaluate system performance and identify areas for improvement.
 
 |Cards|Description|
 |-----|-----------|

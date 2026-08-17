@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-aiagentadvisor-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,6 +106,23 @@ No updates for this release.
 Australia
 
 </td><td>
+
+-   **[Pre-generated AI agents in AI Agent Studio](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&family=australia&ft:locale=en-US)**
+
+Access AI agents pre-generated for the proposed solutions to automation opportunities.
+
+-   **[Base system AI agents proposed for automations](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+
+Deploy base system AI agents to solve common problems identified in your automation opportunities.
+
+-   **[Data from custom tables and fields analyzed for automation opportunities](https://www.servicenow.com/docs/access?context=now-assist-center-set-up-automation-discovery&family=australia&ft:locale=en-US)**
+
+Identify automation opportunities from the analysis of custom tables and fields in your instance in addition to the base system data sources.
+
+-   **[View automation opportunities in AI Control Tower](https://www.servicenow.com/docs/access?context=aict-recommendations-ai-insights&family=australia&ft:locale=en-US)**
+
+View automation opportunities as actionable insights in AI Control Tower.
+
 
 -   **[CSM automation opportunities from chat, voice, and email data](https://www.servicenow.com/docs/access?context=now-assist-center-ai-agent-advisor&family=australia&ft:locale=en-US)**
 
@@ -441,7 +458,7 @@ Australia
 
 </td><td>
 
-The AI Agent Advisor application supports all platform accessibility features.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -531,14 +548,21 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Choose from base system and pre-generated AI agents in AI Agent Studio to automate solutions to common issues.
+-   Analyze the custom tables and fields in your instance to find automation opportunities.
+-   Generate and edit AI agents through the AI Admin Center conversational experience.
+-   View automation opportunities as insights in AI Control Tower.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Discover and take action on automation opportunities for Customer Service Management \(CSM\) using interaction data from chat, voice, and email channels.
 -   Match chat and voice agents along with existing agents and tools from a unified agent registry.
 
  [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
 
--   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
+-   Let AI analyze the CSM cases and ITSM incident records in your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
  See [AI Agent Advisor](https://www.servicenow.com/docs/access?context=ai-agent-advisor-landing-page&family=australia&ft:locale=en-US) for more information.

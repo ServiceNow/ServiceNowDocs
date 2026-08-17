@@ -21,7 +21,7 @@ Workflow Data Fabric supports three setup options. Each option adds capabilities
 
 |Setup option|Best for|Capabilities enabled|
 |------------|--------|--------------------|
-|Option 1: Connect Hub|When you want to centrally manage connections to external systems for use in Flow Designer, spokes, and other integration contexts — without cataloging metadata or publishing governed data contracts.|Create and manage connections, manage credentials, grant steward access, and use Now Assist for Workflow Data Fabric \(WDF\) for guided discovery.|
+|Option 1: Connect Hub|When you want to centrally manage connections to external systems for use in Flow Designer, spokes, and other integration contexts — without cataloging metadata or publishing governed data contracts.|Create and manage connections, manage credentials, grant steward access, and use ServiceNow Otto for Workflow Data Fabric \(WDF\) for guided discovery.|
 |Option 2: ServiceNow Data Catalog and Connect Hub|When you want a full discovery and metadata experience — browse cataloged assets, view lineage, and evaluate trust — without packaging data into reusable Data Products.|Everything in Option 1, plus configure metadata collectors, populate the Data Catalog with discovered assets, view lineage and impact, and browse the catalog.|
 |Option 3: Data Products, ServiceNow Data Catalog, and Connect Hub|When you want the full end-to-end Workflow Data Fabric lifecycle — connect, understand, govern, and act on data through stable contracts.|Everything in Option 2, plus author Data Interfaces and Data Products, publish governed contracts, and enable workflows, analytics, and AI to consume data through Data Products.|
 
@@ -42,7 +42,7 @@ Workflow Data Fabric supports three setup options. Each option adds capabilities
     |----|------|--------------|
     |WDF Unified Hub \(WDF Home\)|sn\_wdf\_unified\_hub|Connect Hub, ServiceNow Data Catalog, and Data Product|
     |Connect Hub|sn\_wdf\_connect\_hub|Connect Hub, ServiceNow Data Catalog, and Data Product|
-    |Now Assist for Workflow Data Fabric \(WDF\)|sn\_nowassist\_wdf|Connect Hub, ServiceNow Data Catalog, and Data Product|
+    |ServiceNow Otto for Workflow Data Fabric \(WDF\)|sn\_nowassist\_wdf|Connect Hub, ServiceNow Data Catalog, and Data Product|
     |ServiceNow Data Catalog|sn\_dcg\_ui|ServiceNow Data Catalog and Data Product|
     |ServiceNow Data Catalog \(Core\)|sn\_dcg\_core|ServiceNow Data Catalog and Data Product|
     |ServiceNow Data Catalog Graph Explorer|sn\_hexplorer|ServiceNow Data Catalog and Data Product|
@@ -54,9 +54,9 @@ Workflow Data Fabric supports three setup options. Each option adds capabilities
 
     **Note:** You can start the installation with any of the following applications: Connect Hub \(sn\_wdf\_connect\_hub\), Data Products \(sn\_data\_product\), or ServiceNow Data Catalog \(sn\_dcg\_core\). Installing other apps separately causes errors.
 
-3.  Configure the Now Assist for Workflow Data Fabric \(WDF\) \(sn\_nowassist\_wdf\) plugin. Create a ServiceNow Product Documentation connector and activate the flow generation skill to enable full AI agent capabilities.
+3.  Configure the ServiceNow Otto for Workflow Data Fabric \(WDF\) \(sn\_nowassist\_wdf\) plugin. Create a ServiceNow Product Documentation connector and activate the flow generation skill to enable full AI agent capabilities.
 
-    For more information, see [Configure Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-workflow-data-fabric.md).
+    For more information, see [Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-workflow-data-fabric.md).
 
 4.  Assign Workflow Data Fabric roles to users to control access to features, capabilities, and data in Workflow Data Fabric Home.
 

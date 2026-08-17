@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Add an existing visualization to an exploration
@@ -63,5 +63,5 @@ Add an existing visualization to highlight an insight, add context to your explo
 
 The exploration opens in a dialog in the tab that you are in. The list or data visualization is added to the end of the exploration. You can add more lists or data visualizations. When you select **Add to exploration**, the list or data visualization is automatically added to the open exploration.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
 

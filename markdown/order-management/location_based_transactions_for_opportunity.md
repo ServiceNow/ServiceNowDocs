@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/location\_based\_transactions\_for\_opportunity.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Location-based transactions for Opportunity Management
@@ -69,7 +69,7 @@ Duplicate existing line items to another location using **Copy** on the Line ite
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

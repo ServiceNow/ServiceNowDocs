@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/upload-attachments-for-encryption.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -19,6 +19,8 @@ Protect sensitive files by encrypting record attachments using Field Encryption 
 Role required: Any role that aligns with the module access policy \(MAP\) created by the admin.
 
 **Note:** Additional setup is required when an email is matched to a record and the matched record's table has an encryption configuration. In this case, the attachments from the email are associated with that record. You need a module access policy \(MAP\) for the system user. If the sender is matched to a user in your instance, you also need a separate MAP that grants that user access to use the cryptographic module. This MAP is also required to permit impersonation. See [Module access policies for encrypting associated attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-maps-inbound-email-attachment-encryption.md).
+
+**Important:** Your administrator must create a separate Encrypted Field Configuration \(EFC\) for each table where your attachments require encryption. Attachment encryption does not automatically apply to extended \(child\) tables — for example, attachments on the incident, case, or problem table will not be encrypted unless a separate configuration is created for each of those tables.
 
 ## Procedure
 

@@ -1,28 +1,28 @@
 ---
-title: Salesforce amendments and ServiceNow CPQ
-description: A brief look at the ServiceNow CPQ amendments feature, which adds and updates fields in existing objects.
+title: Salesforce amendments and CPQ
+description: A brief look at the CPQ amendments feature, which adds and updates fields in existing objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/salesforce\_amendments\_and\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ integration with Salesforce B2B Commerce, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ integration with Salesforce B2B Commerce, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Salesforce amendments and ServiceNow CPQ
+# Salesforce amendments and CPQ
 
-A brief look at the ServiceNow CPQ amendments feature, which adds and updates fields in existing objects.
+A brief look at the CPQ amendments feature, which adds and updates fields in existing objects.
 
-The ServiceNow CPQ amendments feature follows the standard CPQ amendment model by adding additional fields to existing objects as well as triggers to update these fields appropriately.
+The CPQ amendments feature follows the standard CPQ amendment model by adding additional fields to existing objects as well as triggers to update these fields appropriately.
 
 ## Prerequisites
 
-The ServiceNow CPQ Extension for Salesforce CPQ must be installed in the org.
+The CPQ Extension for Salesforce CPQ must be installed in the org.
 
 ## How the amendments feature works
 
-When an amendment is created from a contract, generating a CPQ quote and CPQ quote lines, a ServiceNow CPQ trigger on the CPQ quote line automatically populates the Committed Configuration ID from the related subscription record and sets the Action Context to Amend.
+When an amendment is created from a contract, generating a CPQ quote and CPQ quote lines, a CPQ trigger on the CPQ quote line automatically populates the Committed Configuration ID from the related subscription record and sets the Action Context to Amend.
 
 When a reconfiguration of the quote line is saved, the configuration line item includes the prior quantity and price.
 
@@ -41,5 +41,5 @@ The following fields are added to facilitate this functionality.
 |SBQQ Subscription c|LGK ConfigurationId c|
 |SBQQ Subscription c|LGK BomData c|
 
-You can disable this functionality in Setup &gt; Custom Settings &gt; Manage ServiceNow CPQ Tenant &gt; Edit &gt; Disable Amendment Triggers.
+You can disable this functionality in Setup &gt; Custom Settings &gt; Manage CPQ Tenant &gt; Edit &gt; Disable Amendment Triggers.
 

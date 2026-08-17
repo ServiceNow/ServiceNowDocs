@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, column, remote, table, model]
-breadcrumb: [Using remote tables, Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using remote tables, Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Customize fields for an ERP remote table in Zero Copy Connector for ERP
@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-Zero Copy Connector for ERP scans the system of record for the ERP model to find all available fields that you can add to a remote table. You can view all available fields from the ERP system in the ERP model. Using the **Manage fields** modal to add available columns from the ERP system to a remote table automatically creates them in the remote table.
+Zero Copy Connector for ERP scans the ERP system for the ERP model to find all available fields that you can add to a remote table. You can view all available fields from the ERP system in the ERP model. Using the **Manage fields** modal to add available columns from the ERP system to a remote table automatically creates them in the remote table.
 
 If you don't see the fields that you want to add to the remote table, you must first add them to the model. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 

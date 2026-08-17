@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Configuring Feedback application in Strategic Planning
@@ -31,7 +31,7 @@ Configure non-planning items to link your feedback or product idea records to na
 -   **[Configure filters for feedback or product idea overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)**  
 Configure the filters for the feedback or product idea overview page to display information based on the preferences of your users. Use filters to find and engage with feedback and product ideas that are the most relevant to their interests.
 
-**Parent Topic:**[Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-landing.md)
+**Parent Topic:**[Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-landing.md)
 
 **Related topics**  
 

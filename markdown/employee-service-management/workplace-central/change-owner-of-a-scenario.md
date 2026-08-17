@@ -47,15 +47,15 @@ Change the ownership of a published scenario to enable other space planners to i
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d418897e157">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d419145e157">
 
 Path
 
-</th><th align="left" id="d418897e160">
+</th><th align="left" id="d419145e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d418897e166">
+</th></tr></thead><tbody><tr><td id="d419145e166">
 
 **From the Scenarios list section**
 
@@ -69,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d418897e191">
+</td></tr><tr><td id="d419145e191">
 
 **From the Buildings list section**
 

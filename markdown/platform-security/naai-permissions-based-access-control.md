@@ -27,11 +27,11 @@ These controls help avoid agentic overreach and verify that AI agents operate wi
 
 The following topics describe how to implement, configure, and verify access controls for Now Assist AI agents and agentic workflows.
 
--   **[Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **[Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)**
 
     Understand how ACLs and user identities work together across agentic workflows, AI agents, and tools to control who can invoke an agent and what resources it can access once invoked.
 
--   **[Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **[Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md)**
 
     Use role masking to define an allow-list of roles that agentic workflows and AI agents can inherit from invoking users, enforcing least-privilege access during tool execution.
 
@@ -53,24 +53,24 @@ The following topics describe how to implement, configure, and verify access con
 
 -   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nask-access-control.md)**
 
-    Configure access control for custom skills built with the Now Assist Skill Kit to manage who can invoke skill-based functionality.
+    Configure access control for custom skills built with the AI Skill Kit to manage who can invoke skill-based functionality.
 
 
 ## Roles and permissions reference
 
 The following reference topics describe the roles installed with Now Assist and what each role permits.
 
--   **[Now Assist Admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
+-   **[AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
-    A reference list of the roles installed with Now Assist Admin, including the permissions required to activate and manage Now Assist features and skills.
+    A reference list of the roles installed with AI Admin Hub, including the permissions required to activate and manage Now Assist features and skills.
 
--   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
+-   **[AI Admin Hub \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     Details the **sn\_nowassist\_admin.nsa\_admin** role, which allows users to create, edit, and configure Now Assist skills and settings.
 
--   **[Now Assist Admin console user \[sn\_nowassist\_admin.user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
+-   **[AI Admin Hub console user \[sn\_nowassist\_admin.user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
-    Details the **sn\_nowassist\_admin.user** role, which provides read-only access to the Now Assist Admin console.
+    Details the **sn\_nowassist\_admin.user** role, which provides read-only access to the AI Admin Hub console.
 
 
 **Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)

@@ -44,7 +44,7 @@ See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/Serv
 
     Enable maintenance users and administrators to view and modify Hermes configuration properties and manage background jobs directly from the Hermes Settings page.
 
--   **Encryption at rest for Hermes topics**
+-   **[Encryption at rest for Hermes topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/encryption-at-rest.md)**
 
     Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
 

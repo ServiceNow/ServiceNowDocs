@@ -26,7 +26,7 @@ Healthcare locations are the physical or virtual places where care and operation
 
 The Healthcare Location \[sn\_hcls\_location\] table stores details of the location associated with your healthcare organization.
 
-For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md) and [Healthcare location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md).
+For more information, see [Setting up healthcare locations and healthcare organizations]() and [Healthcare location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md).
 
 ## Procedure
 

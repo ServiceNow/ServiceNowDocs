@@ -1,5 +1,5 @@
 ---
-title: Copy and configure Invoice Processing Case for Invoice email flow
+title: Configure Invoice Processing Case for Invoice Email flow
 description: Configure the invoice processing case invoice email flow to process invoices received through email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inv-processing-case-invoice-email.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Accounts payable document classification skill, Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Document Intelligence, Invoice processing case, Invoice email flow, Invoice Processing Case for Invoice email flow]
+breadcrumb: [Configure Accounts payable document classification skill, Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Copy and configure Invoice Processing Case for Invoice email flow
+# Configure Invoice Processing Case for Invoice Email flow
 
 Configure the invoice processing case invoice email flow to process invoices received through email.
 
@@ -24,9 +25,9 @@ Scope: Accounts Payable Operations integration with Document Intelligence.
 
 Plugins required:
 
--   Now assist in Document Intelligence
+-   ServiceNow Otto in Document Intelligence
 -   Account Payable Invoice Processing
--   Now assist for Account Payable Operations
+-   ServiceNow Otto for Accounts Payable Operations \(APO\)
 -   Document Intelligence for Accounts Payable Operations Content Pack
 
 ## Procedure
@@ -53,4 +54,8 @@ Plugins required:
 
     The Invoice Processing Case for Invoice email flow is activated.
 
+
+## Result
+
+The invoice processing case invoice email flow is configured to process invoices received through email.
 

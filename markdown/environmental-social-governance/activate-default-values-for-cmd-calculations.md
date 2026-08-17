@@ -1,6 +1,6 @@
 ---
-title: Activate default values for CMD calculations
-description: Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
+title: Configure a metric definition setting record
+description: Configure a metric definition setting record to define default values for missing operands in calculated metric definition formulas, or to set a variance base value used when calculating dynamic threshold variance. Activate the default record, or create a new record for a specific metric, metric definition, calculated metric definition, or for all of them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-default-values-for-cmd-calculations.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Activate default values for CMD calculations
+# Configure a metric definition setting record
 
-Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
+Configure a metric definition setting record to define default values for missing operands in calculated metric definition formulas, or to set a variance base value used when calculating dynamic threshold variance. Activate the default record, or create a new record for a specific metric, metric definition, calculated metric definition, or for all of them.
 
 ## Before you begin
 

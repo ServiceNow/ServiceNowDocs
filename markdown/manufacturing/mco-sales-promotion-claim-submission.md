@@ -36,7 +36,7 @@ Sophie uses the Manufacturing Commercial Operations \(MCO\) Dealer Portal to sub
 7.  Document: Uploads required supporting documents \(vehicle title\) within the claim form.
 8.  Track: Submits the claim and monitors status in real-time, views OEM comments, or cancels if needed.
 
-The [Using dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) reduces manual effort and improves accuracy.
+The [Using the dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) reduces manual effort and improves accuracy.
 
 ## Benefits
 

@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
-keywords: [Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
-breadcrumb: [Explore, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+keywords: [ServiceNow Otto, ServiceNow Otto for App engine, Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
+breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Choosing the right AI capability

@@ -1,21 +1,21 @@
 ---
-title: Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
-description: If you have the sn\_nowassist\_admin.nsa\_admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+title: Customize an AI skill in Sourcing and Procurement Operations
+description: Customize an AI skill in SPO so that fulfillers and requesters can use the AI skills in the Source-to-Pay Workspace, Shopping Hub, and in the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 6
 keywords: [Now Assist for SPO skills, Customize a Now Assist for Sourcing and Procurement Operations skill]
-breadcrumb: [Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
+# Customize an AI skill in Sourcing and Procurement Operations
 
-If you have the sn\_nowassist\_admin.nsa\_admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+Customize an AI skill in SPO so that fulfillers and requesters can use the AI skills in the Source-to-Pay Workspace, Shopping Hub, and in the Core UI.
 
 ## Before you begin
 
@@ -23,13 +23,13 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill. Then configure the prompt headers to include in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub console.
 
-2.  In the **Finance and Supply Chain** workflow group, select **Sourcing and Procurement Operations** to view the skills for the Now Assist for SPO features.
+2.  In the **Finance and Supply Chain** workflow group, select **Sourcing and Procurement Operations** to view the AI skills for the ServiceNow Otto for SPO features.
 
 3.  Create a copy of a skill and customize the input fields.
 
@@ -41,7 +41,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
 
     1.  Enter a name and description for the skill.
 
@@ -166,19 +166,19 @@ Requester SR closed
 
 8.  Configure where to display the record summarization.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
-        -   **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+        -   **In-product**: When selected, the AI skills are displayed on the forms and workspaces.
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, the AI skills are available in the ServiceNow Otto panel.
 
-            Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
+            AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
 
-            **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            **Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
@@ -195,12 +195,12 @@ Requester SR closed
     -   Sourcing event
     -   Purchase order
 
-**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 
 
-[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)]()
+[Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)]()
 
 [Activate the Spend categorization agent]()
 

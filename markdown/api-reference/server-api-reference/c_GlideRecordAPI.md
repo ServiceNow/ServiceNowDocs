@@ -5510,7 +5510,7 @@ function auditOAuthInboundRequestsUsage(){
 
 Sets the specified field, or an attribute in a dynamic attribute store, to a specified value.
 
-Normally a script would do a direct assignment, for example `now_GR.category = value`. However, if in a script the element name is a variable, then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure that the data type of the field matches the data type of the value you enter.
+Normally a script would do a direct assignment, for example `now_GR.category = value`. However, if in a script the element name is a variable, then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure that the data type of the field matches the data type of the value you enter. For information about the differences between using setValue\(\) and direct assignment, see [Explanation of Assignment Behavior for Reference GlideList Fields \[KB2557324\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2557324) in the Now Support Knowledge Base.
 
 If the value parameter is null, the record isn't updated, and an error isn't thrown.
 

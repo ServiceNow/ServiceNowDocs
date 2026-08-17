@@ -1,5 +1,5 @@
 ---
-title: Help resolve tuition requests agentic workflow for Now Assist for HRSD
+title: Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 description: The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies found in knowledge articles to help employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Help resolve tuition requests agentic workflow for Now Assist for HRSD
+# Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 
 The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies found in knowledge articles to help employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 
@@ -31,7 +31,7 @@ To access the agentic workflow:
     The Define key requirements workflow is displayed. For more information, see [Help resolve tuition requests AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
 
 3.  Select **Add a preferred trigger** to review the trigger factors for this agentic workflow. For more information, see [Triggers for the Help resolve tuition requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
-4.  The **Select a UI display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
+4.  The **Select a UI display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
 
 ## Help resolve tuition requests AI agents
 
@@ -54,16 +54,16 @@ In the Help resolve tuition requests workflow, the agentic workflow begins execu
 
 ## Select display
 
-In the **Select a UI display** workflow, you can enable the Now Assist panel display, which sends notifications to HR agents for the triggered case. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the **Select a UI display** workflow, you can enable the ServiceNow Otto panel display, which sends notifications to HR agents for the triggered case. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
-Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify HR agents in the Now Assist panel with the case resolution and summarization notes.
+Select this option to receive and review notifications by AI agents in the ServiceNow Otto panel. AI agents notify HR agents in the ServiceNow Otto panel with the case resolution and summarization notes.
 
 **Related topics**  
 
 
-[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
-[Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
+[Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 

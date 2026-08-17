@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-related-parties-to-a-billing-account.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Configuring billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -31,7 +31,7 @@ Ensure the following prerequisites are in place:
 
 2.  Select a billing account from the list.
 
-    For more information on how to create a new billing account record, see [Install Billing Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-billing-account.md).
+    For more information on how to create a new billing account record, see [Install billing account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-billing-account.md).
 
 3.  Select **New** from the billing account related parties related list.
 

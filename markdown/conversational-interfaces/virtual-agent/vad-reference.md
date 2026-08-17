@@ -19,7 +19,7 @@ The Assistant Designer interface lets you create, modify, test, publish, and loc
 Assistant Designer provides the following views. Some tabs may not be available, depending on how you configured your instance or the type of topic you are working with.
 
 -   **[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md)**  
-The Assistant Designer Asset library page lists all LLM assets and NLU/Keyword topics in Virtual Agent Designer. You can also create more topics, subflows, actions, custom skills, AI agents, and agentic workflows.
+The Asset library lists all LLM assets and NLU/Keyword topics in Assistant Designer. You can also create more topics, subflows, actions, custom skills, AI agents, and agentic workflows.
 -   **[Virtual Agent Designer legacy Topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md)**  
 The Virtual Agent Designer legacy home page lists cards for available topics in your instance.
 -   **[Virtual Agent Designer All pre-built topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-additional-topics-list.md)**  

@@ -16,28 +16,28 @@ The ServiceNow® Legal Matter Management application enables you to complete leg
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See  for more information.
+See [Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management-landing-page.md) for more information.
 
 **Important:** Legal Matter Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   ****
+-   **[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-acp-landing.md)**
 
     Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 
 
 ## Activation information
 
-Install Legal Matter Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Legal Matter Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-practice-app-landing.md)**
 
     Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
 
--   ****
+-   **[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)**
 
     Summarize a legal request or legal matter to understand the context, refresh a summary, and post the summary to the work notes.
 

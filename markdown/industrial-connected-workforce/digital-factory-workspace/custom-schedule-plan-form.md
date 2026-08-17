@@ -131,7 +131,7 @@ Selected items
 
 Shifts that you selected.
 
- For shift-based schedules you are not required to manually enter start and end times.
+ For shift-based schedules you're not required to manually enter start and end times.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)

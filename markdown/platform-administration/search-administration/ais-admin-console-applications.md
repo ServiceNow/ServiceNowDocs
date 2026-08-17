@@ -1,13 +1,13 @@
 ---
 title: AI Search Admin console Applications page
-description: The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, as well as create and adjust AI Search configurations.
+description: The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, and create and adjust AI Search configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-applications.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-25"
 reading_time_minutes: 16
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,13 +15,11 @@ breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search 
 
 # AI Search Admin console Applications page
 
-The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, as well as create and adjust AI Search configurations.
+The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, and create and adjust AI Search configurations.
 
 \[Omitted image "ais-admin-02.png"\] Alt text: AI Search Admin console Applications page with 5 callouts highlighted. For a text description, see the table that follows.
 
 Each application is represented by a card on the Applications page. Each card shows the AI Search status of the application, its name, and the date when it was last modified or if its configuration isn’t started yet. Selecting a card takes you to the application's Configuration view.
-
-\[Omitted image "ais-admin-02a.png"\] Alt text: Application cards showing AI Search in use, Ready to turn on, andConfiguration needed status messages.
 
 <table id="table_lyh_wwg_rhb"><thead><tr><th>
 
@@ -89,8 +87,6 @@ Frequently asked questions related to AI Search.
 </table>## Application Configuration view
 
 When you select an application's card in the Applications page, the application's configuration data appears. In the Configuration view, you can turn AI Search on and off for the application, choose and test search profiles and application configurations before publishing, and publish profiles. Select **Search Profile** or **Search Application Configuration** to view profile summaries. You can also select an individual option from the sidebar or its matching card on the main view to display it in detail.
-
-\[Omitted image "ais-admin-02b.png"\] Alt text: AI Search Admin console Employee Center application configuration summary view. The application's Current Status and Search Profile sections respectively show the AI Search and profile publication status.
 
 **Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
@@ -293,26 +289,26 @@ The Search Profile view is where you review and publish your search profile. You
 
 You use Search Sources to make your searchable content available in search experiences. For more information, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md) and [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
 
-\[Omitted image "ais-admin-02d.png"\] Alt text: AI Search Admin console Search Sources view.
+\[Omitted image "ais-admin-02d.png"\] Alt text: AI Search Admin Console Search Sources view.
 
 |Field|Description|
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of search sources.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a Search Source.|
 |Link|Button to select a Search Source to add to the list.|
 |Unlink|Button to unlink a Search Source from the list. Select one or more Search Sources from the list before selecting **Unlink**.|
 
 Dictionaries are an optional part of your search profile that guide your searches with synonyms, stop words, and spell checking options. For more information on synonyms, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md), [Create synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-synonym-ais.md), and [Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-synonym-dict-ais.md). For more information on stop words, see [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md), [Create stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-ais.md), and [Create a stop word dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-dict-ais.md).
 
-\[Omitted image "ais-admin-02e.png"\] Alt text: AI Search Admin console Dictionaries view.
+\[Omitted image "ais-admin-02e.png"\] Alt text: AI Search Admin Console Dictionaries view.
 
 |Field|Description|
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Dictionaries.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a Dictionary.|
 |Link|Button to select a Dictionary to add to the list.|
 |Unlink|Button to unlink a Dictionary from the list. Select one or more Dictionaries from the list before selecting **Unlink**.|
@@ -325,7 +321,7 @@ Result improvement rules are an optional part of the search profile that boost, 
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of result improvement rules.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a result improvement rule.|
 |Link|Button to select a result improvement rule to add to the list.|
 |Unlink|Button to unlink a Result improvement rule from the list. Select one or more result improvement rules from the list before selecting **Unlink**.|
@@ -358,9 +354,9 @@ Q&amp;A
 </td><td>
 
 Toggle to display top search results from the Knowledge table and related tables. Select from two options:-   Q&amp;A
--   Now Assist Q&amp;A
+-   Knowledge base articles
 
-**Note:** If you activate Q&amp;A, the selected Genius Result is set with the default order. You can change the order by going to the advanced configuration. Now Assist Q&amp;A and Actions are only available to select if you have a Pro Plus license, otherwise they are greyed out.
+**Note:** If you activate Q&amp;A, the selected Genius Result is set with the default order. You can change the order by going to the advanced configuration. Knowledge base articles and Actions are only available to select if you have a Pro Plus license, otherwise they are greyed out.
 
 </td></tr><tr><td>
 
@@ -369,7 +365,7 @@ Catalog Item
 </td><td>
 
 Toggle to display top search results from the Catalog Item table. Select from two options:-   Catalog Item
--   Now Assist Actions \(only available in portals\)
+-   Actions \(only available in portals\)
 
 </td></tr><tr><td>
 
@@ -395,7 +391,7 @@ Toggle to use natural language processing to show information from tables, inclu
 |Use basic configuration|Select to switch to basic configuration.|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Genius Results.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a Genius Result.|
 |Link|Button to select a Genius Result to add to the list.|
 |Unlink|Button to unlink a Genius Result from the list. Select one or more Genius Results from the list before selecting **Unlink**.|
@@ -419,7 +415,7 @@ Auto-complete Suggestions are an optional part of your search application config
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of auto-complete suggestions.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a auto-complete suggestion.|
 |Link|Button to select an auto-complete suggestion to add to the list.|
 |Unlink|Button to unlink a auto-complete suggestion from the list. Select one or more auto-complete suggestions from the list before selecting **Unlink**.|
@@ -432,7 +428,7 @@ Navigation tabs are an optional part of your search application configuration th
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Navigation tabs.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 
 Sort options are an optional part of your search application configuration that refine your search query results by search source. For more information, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-nav-tabs-ais.md).
 
@@ -442,7 +438,7 @@ Sort options are an optional part of your search application configuration that 
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Sort options.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a Sort option.|
 |Delete|Button to delete Sort options. Select one or more Sort options before selecting **Delete**.|
 
@@ -454,7 +450,7 @@ Facet filters are an optional part of your search application configuration that
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of Facet Filters.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a Facet Filter.|
 |Delete|Button to delete Facet Filters. Select one or more Facet Filters before selecting **Delete**.|
 
@@ -466,7 +462,7 @@ Result-card interfaces are an optional part of your search application configura
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of result-card interfaces.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon. next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-conditions.md).|
 |New|Button to create a result-card interface.|
 |Link|Button to select a result-card interface to add to the list.|
 |Unlink|Button to unlink a result-card interface from the list. Select one or more Navigation tabs from the list before selecting **Unlink**.|

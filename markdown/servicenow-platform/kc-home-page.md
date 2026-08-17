@@ -40,7 +40,7 @@ Find knowledge material by title or text in the body. It lets you quickly access
 
 </td><td>
 
-When the AI Search feature is active, searches are performed using AI. If it's not enabled, contextual search is used instead.
+When the ServiceNow Otto for AI Search is active, searches are performed using AI. If it's not enabled, contextual search is used instead.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Discover areas of improvement in the knowledge base through potential knowledge 
 
 </td><td>
 
-This feature works only if the Now Assist Skills are enabled for your role.
+This feature works only if the AI skills are enabled for your role.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ The Actions panel provides options to create articles, blocks, or manage groups,
 
 </td><td>
 
-Now Assist feature should be enabled for your role. You can use Now Assist for creating or updating articles. For more information, see
+ServiceNow Otto should be enabled for your role. You can use AI for creating or updating articles.
 
 </td></tr><tr><td>
 

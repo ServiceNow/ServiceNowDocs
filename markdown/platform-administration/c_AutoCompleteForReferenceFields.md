@@ -77,12 +77,7 @@ Use these steps to define auto-complete attributes for all fields in a table tha
 
 1.  Navigate to a list of the target table, such as **All** &gt; **User Administration** &gt; **Users**.
 
-2.  Perform the appropriate action for your list version.
-
-    |Version|Action|
-    |-------|------|
-    |**List v2**|Right-click the column header and click **Configure** &gt; **Dictionary**.|
-    |**List v3**|Open the list title menu and click **Configure**, and then click **Dictionary**.|
+2.  Right-click the column header and click **Configure** &gt; **Dictionary**.
 
 3.  Select the row that does not list a column name.
 
@@ -127,12 +122,7 @@ This example describes how to remove the display value column from references to
 
 1.  Navigate to a list of the target table, such as **All** &gt; **User Administration** &gt; **Users**.
 
-2.  Perform the appropriate action for your list version.
-
-    |Version|Action|
-    |-------|------|
-    |**List v2**|Right-click the column header and click **Configure** &gt; **Dictionary**.|
-    |**List v3**|Open the list title menu and click **Configure**, and then click **Dictionary**.|
+2.  Right-click the column header and click **Configure** &gt; **Dictionary**.
 
 3.  Select the row that does not list a column name.
 

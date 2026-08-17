@@ -18,7 +18,7 @@ Set up an on-call schedule to make sure that someone is available to respond to 
 
 ## Before you begin
 
-Before creating an on-call schedule, a team must exist in Service Reliability Management \(SRM\). The Alert table \[em\_alert\] must also be added to the Trigger Rule Table Config list. See [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md) and [Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/add-alert-table-oncall.md) for more information.
+Before creating an on-call schedule, a team must exist in Service Reliability Management \(SRM\). The Alert table \[em\_alert\] must also be added to the Trigger Rule Table Config list. See [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md) and [Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/add-alert-table-oncall.md) for more information.
 
 Role required: srm\_manager, srm\_responder, or srm\_admin
 

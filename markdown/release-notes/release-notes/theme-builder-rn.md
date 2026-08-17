@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Theme Builder release notes
@@ -14,7 +14,7 @@ The ServiceNow® Theme Builder application enables you to customize the visual e
 
 ## Theme Builder highlights for the Australia release
 
--   Generate color palettes instantly by uploading a brand image or brand guidelinesand let our AI theme generator automatically detect your brand colors.
+-   Generate color palettes instantly by uploading a brand image or brand guidelines and let the AI theme generator automatically detect your brand colors.
 -   Customize fonts by category and adjust font sizes to scale typography across specific component categories like headers, buttons, and form fields, or by size groups for consistent styling.
 -   Access the new icon library to configure and override default icons using custom assets.
 
@@ -29,18 +29,18 @@ See [Working with themes in Next Experience](https://raw.githubusercontent.com/S
     As of Theme Builder, version 7.1, upload brand guidelines as a PDF in the Theme Builder wizard to generate theme colors from your documented brand standards.
 
 
--   **[Upload brand guidelines to generate theme colors in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
+-   **[Upload brand guidelines to generate theme colors in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
-    Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the Now Assist panel to generate themes aligned with your brand.
+    Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the ServiceNow Otto panel to generate themes aligned with your brand.
 
 
 -   **[AI-powered color palette theme creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
-    Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires Now Assist for Creator.
+    Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
 
--   **[Generate themes using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md)**
+-   **[Generate themes using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md)**
 
-    Leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires Now Assist for Creator and a theme creation workflow enabled in AI Agent Studio.
+    Use ServiceNow Otto to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator and a theme creation workflow enabled in AI Agent Studio.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -90,29 +90,36 @@ See [Working with themes in Next Experience](https://raw.githubusercontent.com/S
     -   Custom font upload is now available directly from the font selector.
     -   The final step is still the theme summary, with all editing options accessible directly from this page.
 
+## Changed in the Australia release
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
 ## Activation information
 
 Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from the ServiceNow Store.
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)**
 
     Use ServiceNow® App Engine Studio for developing rich web applications to store information, automate business processes, and solve business problems.
 
--   ****
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
 
     Use ServiceNow® UI Builder to build pages for workspaces that are generated with App Engine Studio or custom web experiences by using Next Experience Components and custom web components.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   ****
+-   **[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md)**
 
-    ServiceNow® Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently.
+    ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently.
 
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)**
+-   **[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)**
 
     Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 

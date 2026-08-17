@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Configure Article Optimization scans for articles in the Knowledge Center. Two types of Article Optimization scans are available in the Knowledge Center. One is a script-based scan and the other is a AI-based scan. If you are subscribed to Now Assist, you can configure both the scan types. If you are not subscribed to Now Assist, you can configure only the script-based scans, and Article Optimization runs only the script-based scans.
+Configure Article Optimization scans for articles in the Knowledge Center. Two types of Article Optimization scans are available in the Knowledge Center. One is a script-based scan and the other is a AI-based scan. If you are subscribed to ServiceNow Otto, you can configure both the scan types. If you are not subscribed to ServiceNow Otto, you can configure only the script-based scans, and Article Optimization runs only the script-based scans.
 
 ## Procedure
 
@@ -60,14 +60,14 @@ The Article Optimization scan is custom configured.
 
 ## What to do next
 
-To run the scan, you must add the configured scan to a job. For more information see, [Configuring Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md)
+To run the scan, you must add the configured scan to a job. For more information see, [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md)
 
 **Related topics**  
 
 
 [Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
 
-[Configuring Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
 
-[Activate Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
+[Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
 

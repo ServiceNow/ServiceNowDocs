@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-rpahub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 35
 breadcrumb: [Products combined by family]
 ---
@@ -345,7 +345,7 @@ Role for Create, Update, and Delete ACLs in the Robot License Distribution table
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 
@@ -617,13 +617,13 @@ Yokohama
 
 Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- Install the Now Assist for RPA Hub application to add the generative AI capability and turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations. For more information about these tasks, see [Configure Now Assist for RPA Hub](https://www.servicenow.com/docs/access?context=configure-now-assist-rpa-hub&family=yokohama&ft:locale=en-US) and [Turn on the RPA bot generation skill](https://www.servicenow.com/docs/access?context=turn-rpa-bot-generation-skill&family=yokohama&ft:locale=en-US).
+ Install the Now Assist for RPA Hub application to add the generative AI capability and turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations. For more information about these tasks, see [Configure ServiceNow Otto for RPA Hub](https://www.servicenow.com/docs/access?context=configure-now-assist-rpa-hub&family=yokohama&ft:locale=en-US) and [Turn on the RPA bot generation skill](https://www.servicenow.com/docs/access?context=turn-rpa-bot-generation-skill&family=yokohama&ft:locale=en-US).
 
  For cumulative release notes information on RPA Hub, see [RPA Hub release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-engine-rpa-hub&family=yokohama&ft:locale=en-US).
 
  For cumulative release notes information on RPA Desktop Design Studio, see [RPA Plugin Bundle release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-rpa-plugin-bundle&family=yokohama&ft:locale=en-US).
 
- For cumulative release notes information on Now Assist for RPA Hub, see [Now Assist for RPA Hub release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-engine-now-assist-rpa-hub&family=yokohama&ft:locale=en-US).
+ For cumulative release notes information on ServiceNow Otto for RPA Hub, see [Now Assist for RPA Hub release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-engine-now-assist-rpa-hub&family=yokohama&ft:locale=en-US).
 
  If you have previously downloaded the application from the ServiceNow Store and a new version is available, you can update it in your ServiceNow AI Platform instance at **All** &gt; **System Applications** &gt; **All Available Applications**.
 
@@ -1013,7 +1013,7 @@ Zurich
 
 -   **Accessibility improvements**
 
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
+Improvements were completed to support accessibility.
 
 
 </td></tr><tr><td>
@@ -1024,7 +1024,7 @@ Australia
 
 -   **Accessibility improvements**
 
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
+Improvements were completed to support accessibility.
 
 
 </td></tr></tbody>

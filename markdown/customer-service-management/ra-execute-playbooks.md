@@ -36,7 +36,7 @@ When a playbook is recommended to you, it appears as an action card in the Recom
 
 3.  Select the **Launch** button on the playbook card.
 
-    The playbook execution initiates immediately. The playbook renders in the configured location \(contextual side panel, or related tab\).
+    The playbook execution initiates immediately. The playbook renders in the configured location \(contextual side panel or related tab\).
 
 4.  Follow the playbook workflow steps.
 

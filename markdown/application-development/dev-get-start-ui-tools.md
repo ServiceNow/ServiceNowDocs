@@ -26,11 +26,11 @@ ServiceNow Studio is a centralized, integrated development environment \(IDE\) t
 
 For more information, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) and [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md).
 
-## Now Assist for Creator
+## ServiceNow Otto for Creator
 
-Use Now Assist for Creator to generate UI components and layouts using natural language prompts.
+Use ServiceNow Otto for Creator to generate UI components and layouts using natural language prompts.
 
-For more information, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
+For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 ## Configurable Workspace
 

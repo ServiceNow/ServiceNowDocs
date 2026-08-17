@@ -1,6 +1,6 @@
 ---
 title: Invoice Case Management
-description: Invoice case management enables agents to resolve invoice discrepancies and exceptions through structured workflows, including requesting information from suppliers, assigning tasks, and tracking resolution progress in the Source-to-Pay Workspace.
+description: Invoice case management enables agents to resolve invoice discrepancies and exceptions in the Source-to-Pay Workspace through structured workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Accounts Payable Operations, Finance and Supply Chain]
 
 # Invoice Case Management
 
-Invoice case management enables agents to resolve invoice discrepancies and exceptions through structured workflows, including requesting information from suppliers, assigning tasks, and tracking resolution progress in the Source-to-Pay Workspace.
+Invoice case management enables agents to resolve invoice discrepancies and exceptions in the Source-to-Pay Workspace through structured workflows.
 
 Invoice Case Management \(com.sn\_ap\_cm\) is a dependent application and is automatically installed along with the Accounts Payable Operations \(com.sn\_ap\_apm\) application. However, you can also install Invoice Case Management independently. For more information, see [Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md).
 

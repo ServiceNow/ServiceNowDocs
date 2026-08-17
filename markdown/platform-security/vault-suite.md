@@ -137,7 +137,7 @@ com.glide.platform.cloud\_encryption
 
 </td><td>
 
-Encrypts data at rest at the cloud platform level.**Note:** Cloud Encryption is not installed automatically with Vault Suite because provisioning requires explicit user consent. To provision Cloud Encryption on your instance, see [KB1117369](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117369).
+Encrypts data at rest at the cloud platform level.**Note:** Cloud Encryption is not installed automatically with Vault Suite because the product plugin is installed when a new instance is provisioned. To add Cloud Encryption to a previously provisioned instance, see [KB1117369](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117369).
 
 </td></tr></tbody>
 </table>**Note:** To install Vault Suite, check your entitlements to determine whether you have the ServiceNow Vault subscription, then request it from the ServiceNow Store. For installation steps, see [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/install-vault-suite.md).

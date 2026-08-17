@@ -53,7 +53,7 @@ Check your entitlements to determine whether you have access to Developer Sandbo
 
 For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
-**Note:** Build Agent it not yet supported in Developer Sandboxes.
+Build Agent is supported in Developer Sandboxes. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 ## Integrate sandboxes with source control
 

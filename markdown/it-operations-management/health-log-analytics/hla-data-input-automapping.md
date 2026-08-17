@@ -38,15 +38,17 @@ In the example, Health Log Analytics extracts the string "online\_store". It ana
     You can make sure that Health Log Analytics extracts specific desired terms. For more information, see [Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-extract.md).
 
 
-## AI-assisted log mapping with ServiceNow Otto
+## AI-assisted log mapping with ServiceNow Otto for ITOM
 
-AI-assisted log mapping using ServiceNow Otto recommends optimal mapping configurations based on your log patterns. This approach reduces manual setup effort and improves accuracy without requiring custom JavaScript functions.
+AI-assisted log mapping using ServiceNow Otto for ITOM recommends optimal mapping configurations based on your log patterns. This approach reduces manual setup effort and improves accuracy without requiring custom JavaScript functions.
+
+For this capability to be enabled, the integration must be activated by selecting the Activate with AI option. This option enables AI-powered automatic mapping of log data to service instances and components for contextual alerts. When the integration is activated, ServiceNow Otto for ITOM collects and analyzes log data and suggests the best log field for mapping. You can override the suggested mapping by selecting a different log field from each list, if needed. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
 For a walkthrough of how to set up and review AI-suggested mappings, see [AI-assisted log mapping in Health Log Analytics](https://player.vimeo.com/video/1204161467?h=bf31a8c144&badge=0&autopause=0&player_id=0&app_id=58479).
 
 ## Mapping data input sources manually by defining a JavaScript function
 
-You can change automatic mapping results manually by defining a JavaScript function. [Data input mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md) enables you to organize your log data by service instance and by availability zone. A single service instance can include multiple components, and a component can receive logs from many different source types. An service instance-component pair, however, is unique. Source types are based on a specific log structure and format. Service instances and components are defined more broadly and are therefore used mainly for logical mapping.
+You can also change automatic mapping results manually by defining a JavaScript function. [Data input mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md) enables you to organize your log data by service instance and by availability zone. A single service instance can include multiple components, and a component can receive logs from many different source types. An service instance-component pair, however, is unique. Source types are based on a specific log structure and format. Service instances and components are defined more broadly and are therefore used mainly for logical mapping.
 
 Activating **Test mode** avoids blowing up Elasticsearch storage with sample data that is used only for perfecting the log data mapping. When the data input is in Test mode, Health Log Analytics doesn’t create the source types, sources, or any other objects it creates in the standard flow. It saves the streamed data in dedicated temporary Elasticsearch indices that appear as components in the Log viewer. When you publish the script and exit Test mode, these temporary indices are deleted to minimize storage space consumption.
 

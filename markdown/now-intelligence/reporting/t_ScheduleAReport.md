@@ -273,7 +273,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr><tr><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications AI agent Order fallout AI agent
+title: ServiceNow Otto for Sales CRM for Telecommunications AI agent Order fallout AI agent
 description: Use the AI agent to automatically create the fallout records based on reported issues on the task's notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-order-fallout-somt.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales CRM for Telecommunications AI agent Order fallout AI agent
+# ServiceNow Otto for Sales CRM for Telecommunications AI agent Order fallout AI agent
 
 Use the AI agent to automatically create the fallout records based on reported issues on the task's notes.
 
@@ -24,7 +24,7 @@ Use the Order fallout AI agent to:
 
 The agent automatically creates a fallout in case of an order task failure. The agent identifies the correct category in which the fallout must be created. The agent doesn’t create a fallout if the fallout is already created.
 
-This agent analyzes the order fulfillment tasks when a task status is changed to on hold and automatically creates relevant fallout records based on issues identified in work notes. It leverages Now LLM Service to match task observations with predefined fallout types, streamlining the post-fulfillment issue tracking process.
+This agent analyzes the order fulfillment tasks when a task status is changed to on hold. It automatically creates relevant fallout records based on issues identified in work notes. It leverages Now LLM Service to match task observations with predefined fallout types, streamlining the post-fulfillment issue tracking process.
 
 Order fallout AI agent performs the following task:
 

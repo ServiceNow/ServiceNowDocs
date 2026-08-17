@@ -36,7 +36,7 @@ Custom control
 
 </td><td>
 
-The name of a custom control asset that has been published in Virtual Agent Designer.
+The name of a custom control asset that has been published in the Assistant Designer Asset library.
 
 </td></tr><tr><td>
 

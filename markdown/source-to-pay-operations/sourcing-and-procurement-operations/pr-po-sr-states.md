@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-04-14"
-reading_time_minutes: 11
+reading_time_minutes: 12
 keywords: [purchase requisition states, purchase order states, sourcing request states, state transitions, procurement lifecycle, Sourcing and Procurement Operations]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -588,7 +588,9 @@ Not applicable. This is the last state.
 
 [Savings opportunity fields]()
 
-[SPO and ITAM data model mappings]()
+[SPO and Asset Management data model mappings]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
 
 [Domain separation and Sourcing and Procurement Operations]()
 

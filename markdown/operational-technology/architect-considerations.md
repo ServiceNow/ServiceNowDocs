@@ -16,7 +16,7 @@ This document intends to describe the ServiceNow Operational Technology Discover
 
 ## Operational Technology Discovery software architecture
 
-Today's industrial environments are made up of hundreds — sometimes thousands — of connected devices: programmable logic controllers, remote terminal units, human-machine interfaces, protection relays, and more. Tracking all of them — what they are, where they sit in your network, and whether they behave as expected — is one of the foundational challenges of operational technology.
+Today's industrial environments are made up of hundreds — sometimes thousands — of connected devices: programmable logic controllers, remote terminal units, human-machine interfaces, protection relays, and more. Tracking all of them — what they are, where they sit in your network, and whether they behave as expected — is a foundational challenge of operational technology.
 
 The following describes the software architecture underlying the ServiceNow Operational Technology Discovery platform.
 
@@ -99,4 +99,6 @@ The result is an accurate, up-to-date inventory of your OT environment — built
 ## Wrapping up
 
 Operational Technology Discovery is built on the principle that visibility should not come at the cost of safety. By deploying the Console, Sensor, and Collector at deliberate positions within your network — and querying devices in a way that is safe for operational environments — the system adapts to your environment rather than requiring you to adapt your environment to it. Whether you're managing a single compact site or a large enterprise with dozens of segmented zones, the architecture scales accordingly. The result is a current, accurate inventory of your OT environment, fully integrated into ServiceNow and built without disrupting the operational processes your network supports.
+
+**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
 

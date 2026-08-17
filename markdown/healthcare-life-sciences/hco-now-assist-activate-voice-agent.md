@@ -1,24 +1,24 @@
 ---
-title: Activate the Care Team Operations Case Creation Voice AI Agent
-description: Activate the Care Team Operations Case Creation Voice AI Agent to enable care team members to create and manage cases over the phone.
+title: Activate the Care Team Operations Case Creation AI voice agent
+description: Activate the Care Team Operations Case Creation AI voice agent to enable care team members to create and manage cases over the phone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-activate-voice-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
-# Activate the Care Team Operations Case Creation Voice AI Agent
+# Activate the Care Team Operations Case Creation AI voice agent
 
-Activate the Care Team Operations Case Creation Voice AI Agent to enable care team members to create and manage cases over the phone.
+Activate the Care Team Operations Case Creation AI voice agent to enable care team members to create and manage cases over the phone.
 
 ## Before you begin
 
 Role required: admin
 
-For information on configuring and deploying AI Voice Agents, see .
+For information on configuring and deploying AI Voice Agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
 **Note:**
 
@@ -28,7 +28,7 @@ The voice AI assistant needs to be activated before you can add it the AI agent 
 
 1.  Navigate to **AI Agent Studio** &gt; **Create and manage** &gt; **AI agents**.
 
-2.  Select **Care Team Operations Case Creation Voice AI Agent**.
+2.  Select **Care Team Operations Case Creation AI voice agent**.
 
 3.  Navigate to **Select channels and status**.
 
@@ -43,5 +43,5 @@ The voice AI assistant needs to be activated before you can add it the AI agent 
 
 ## Result
 
-The Care Team Operations Case Creation Voice AI Agent is now activated for use with Care Team Operations.
+The Care Team Operations Case Creation AI voice agent is now activated for use with Care Team Operations.
 

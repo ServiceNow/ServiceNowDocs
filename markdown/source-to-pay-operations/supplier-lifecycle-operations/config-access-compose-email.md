@@ -7,7 +7,7 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Composing emails with predefined content, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---

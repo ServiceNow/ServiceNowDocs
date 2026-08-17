@@ -18,7 +18,7 @@ Integrate the Career Conversations ServiceNow instance and Microsoft Exchange On
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

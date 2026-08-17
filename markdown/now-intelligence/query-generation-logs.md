@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation logs
@@ -49,7 +49,7 @@ Go to **Query Generation** &gt; **Administration** &gt; **Logs** to inspect fail
 |Response|The JSON response to the query|Yes|
 |Entities|The records in the Entities table that are referenced by the query. Each record corresponds to a facts table.|Yes|
 |Query Constitutor Output|JSON of the query that is generated|Yes|
-|Source|The application from which the question was asked. If the question was asked from the Now Assist panel when it was open in a page that is not part of an application, the UUID of that page is shown instead.|Yes|
+|Source|The application from which the question was asked. If the question was asked from the ServiceNow Otto panel when it was open in a page that is not part of an application, the UUID of that page is shown instead.|Yes|
 |Response|The response that the LLM returns|Yes|
 |Generative AI Log|The LLM used for the query|Yes|
 |Conversation|Unique chat conversation ID, such as in a Now Assist Panel to Query Generation conversation|Yes|

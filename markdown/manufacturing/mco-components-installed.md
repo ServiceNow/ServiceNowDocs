@@ -1,18 +1,19 @@
 ---
 title: Components installed
-description: Several types of components are installed with installation of the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
+description: Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [installed components, roles installed, tables installed, plugins installed, business rules installed, Manufacturing Commercial Operations roles, Quality Issue Management roles]
 breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
 
 # Components installed
 
-Several types of components are installed with installation of the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
+Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
@@ -20,7 +21,7 @@ Demo data is available for this feature.
 
 ## Roles installed
 
-User roles are assigned by the use case that is being supported. For each feature, there are both roles with view-only access and roles with various levels of interactive access.
+The supported use case determines the assigned user roles. For each feature, there are both roles with view-only access and roles with various levels of interactive access.
 
 <table id="table_h1g_24n_lfc"><thead><tr><th>
 
@@ -40,7 +41,7 @@ sn\_mfg\_cmn.manufacturing\_operations\_admin
 
 </td><td>
 
-Administers who can access sensitive data by restricting how user acquire roles in the Manufacturing Commercial Operations applications.
+Administers who can access sensitive data by restricting how users acquire roles in the Manufacturing Commercial Operations applications.
 
 </td><td>
 
@@ -202,7 +203,7 @@ sn\_mfg\_qm.admin
 
 </td><td>
 
-Full access to all Quality Issue Management \(QIM\) features, tables, and configuration.
+Access all Quality Issue Management \(QIM\) features, tables, and configuration.
 
 </td><td>
 
@@ -367,7 +368,7 @@ Create, view, update, and cancel a non-conformance case. Create a correction act
 -   sn\_rm\_core.correction\_action\_creator
 -   playbook.agentic\_workflow\_user
 -   sn\_customerservice.requester knowledge
--   n\_customerservice.customer\_data\_viewer
+-   sn\_customerservice.customer\_data\_viewer
 -   sn\_prm.external\_partner\_associate
 -   sn\_mfg\_ai\_agents.submitter\_ai\_playbooks
 -   sn\_rm\_core.copq\_exp\_line\_creator
@@ -381,5 +382,5 @@ Several types of components are installed when you activate the Customer Service
 **Related topics**  
 
 
-[Explore Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-explore.md)
+[Exploring Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-explore.md)
 

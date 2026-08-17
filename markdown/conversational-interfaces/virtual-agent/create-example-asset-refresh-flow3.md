@@ -19,7 +19,7 @@ In our example, we must provide the workflow for the "more information" Decision
 
 ## Before you begin
 
--   [Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
+-   [Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
 -   [Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
 
 Role required: virtual\_agent\_admin or admin

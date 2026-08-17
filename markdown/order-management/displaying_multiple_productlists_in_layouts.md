@@ -7,22 +7,22 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Displaying multiple product lists in layouts
 
 You can configure multiple product lists for a single layout by creating and importing a layout CSV file.
 
-In ServiceNow CPQ, a layout can show multiple bills of material \(BOMs\) at once. This can help separate different types of products or separate sales items from manufacturing details.
+In CPQ, a layout can show multiple bills of material \(BOMs\) at once. This can help separate different types of products or separate sales items from manufacturing details.
 
 **Note:** To display in different BOMs, products must have different BOM types. By default, products whose BOM type is not `sales` are not created as a quote line when going through Salesforce CPQ.
 
 Use the BOM Types to Include in Save Request admin setting to add additional BOM types to a Save request. Any BOM types added here are passed in the save request and created as quote lines when going through Salesforce CPQ.
 
-Use the Push BOM Data to ServiceNow CPQ Salesforce Object admin setting to configure BOM items to be passed back and written into Salesforce as configuration line items.
+Use the Push BOM Data to CPQ Salesforce Object admin setting to configure BOM items to be passed back and written into Salesforce as configuration line items.
 
-To learn how to add additional BOM types to a Save request and to configure BOM items to be written to Salesforce as configuration line items, see [ServiceNow CPQ admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-settings.md).
+To learn how to add additional BOM types to a Save request and to configure BOM items to be written to Salesforce as configuration line items, see [CPQ admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-settings.md).
 
 To add multiple product lists to a layout, use tiers to separate the additional BOMs. Product lists can be added by editing the layout CSV file and importing it. For information about displaying multiple BOMs in a layout, view the following video:
 

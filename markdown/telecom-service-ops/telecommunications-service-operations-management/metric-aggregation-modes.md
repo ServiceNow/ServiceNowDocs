@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 keywords: [metric aggregation, hierarchy mode, flat mode, TSOM]
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -19,13 +19,13 @@ Metric aggregation rolls up raw metrics collected from individual network resour
 
 By default, a pull connector collects raw metrics and publishes one value per network resource, such as a single metric value for each mobile cell. There is no built-in way to combine those per-resource values into a higher-level metric.
 
-Metric aggregation addresses this gap. It reads the raw metric values for a set of related resources, applies an aggregate function such as average, maximum, or minimum, and publishes a calculated metric so that the result can be viewed at a higher level of the network. An aggregation runs as a scheduled job that calls the metric aggregation scripted extension point.
+Metric aggregation addresses this gap. It reads the raw metric values for a set of related resources and applies an aggregate function such as average, maximum, or minimum. It then publishes a calculated metric so that the result can be viewed at a higher level of the network. An aggregation runs as a scheduled job that calls the metric aggregation scripted extension point.
 
 ## Key benefits
 
 Metric aggregation provides the following benefits:
 
--   View metrics at higher levels of the network, such as per Baseband Unit \(BBU\) or per Network Site, instead of only per cell.
+-   View metrics at higher levels of the network, according to Baseband Unit \(BBU\) or per Network Site, instead of only per cell.
 -   Aggregate metrics across a defined range of resources, such as a range of SIM cards.
 -   Define new aggregations without changing product code by configuring scheduled jobs that call a scripted extension point.
 
@@ -35,14 +35,14 @@ Each aggregation runs in one of two modes. The mode determines how source resour
 
 -   **Hierarchy mode**
 
-    The aggregation traverses configuration management database \(CMDB\) relationships downward from each target CI to collect the matching source CIs, then writes one calculated metric onto each target CI. Use hierarchy mode to roll per-cell metrics up to each parent resource, such as per Baseband Unit or per Network Site.
+    The aggregation traverses configuration management database \(CMDB\) relationships downward from each target CI to collect the matching source CIs, then writes one calculated metric onto each target CI. Use hierarchy mode to roll per-cell metrics up to each parent resource, according to BBU or per Network Site.
 
 -   **Flat mode**
 
     The aggregation selects source CIs directly, optionally filtered by a name range or by field values, and writes a single calculated metric onto one anchor CI. Use flat mode for range-based or fleet-wide metrics where no single parent CI exists to hold the result.
 
 
-A range identifies a contiguous set of resources by name, such as a range of SIM cards. You can also apply field filters so that only resources meeting a condition are included in the aggregation, for example only resources whose operational status indicates that they are active.
+A range identifies a contiguous set of resources by name, such as a range of SIM cards. You can also apply field filters so that only resources meeting a condition are included in the aggregation. For example, you can filter to include only resources whose operational status indicates that they are active.
 
 An aggregation runs one of the following functions, set through the `aggregate` parameter: average \(`avg`\), sum \(`sum`\), maximum \(`max`\), minimum \(`min`\), count \(`count`\), and the 95th percentile \(`p95`\).
 

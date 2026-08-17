@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Change Management, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection create standard change template proposal
@@ -19,7 +19,7 @@ Use the create standard change template proposal agentic workflow to help users 
 
 ## Create standard change template proposal agentic workflow overview
 
-The create standard change template proposal agentic workflow lets users quickly create a change template proposal record from the Now Assist panel. The workflow analyzes similar change requests and lists them to the user. The user can select the preferred change request and the content for template generation, and the workflow then creates a proposal record with the specified values.
+The create standard change template proposal agentic workflow lets users quickly create a change template proposal record from the ServiceNow Otto panel. The workflow analyzes similar change requests and lists them to the user. The user can select the preferred change request and the content for template generation, and the workflow then creates a proposal record with the specified values.
 
 Using this agentic workflow, you can quickly propose a change template for a change request that you frequently create. This template is later sent for approval to the change management team, which reviews the request and approves the template as part of the approval process.
 
@@ -43,17 +43,17 @@ You can access the standard change template proposal AI agent in the Define key 
 ## Use the create standard change template proposal agentic workflow
 
 1.  Review the information in the Define key requirements screen and make the necessary updates, and then select **Save and Continue**.
-2.  In the Select display screen, turn on the **Display** option to add the icon for the Now Assist panel in the menu bar.
+2.  In the Select display screen, turn on the **Display** option to add the icon for the ServiceNow Otto panel in the menu bar.
 3.  Select **Save and test**.
 
     The agent executes the request for the workflow.
 
     \[Omitted image "now-assist-itsm-change-template-proposal-agent-studio.png"\] Alt text: Create standard change template proposal agentic workflow output in ServiceNowAI Agent Studio.
 
-4.  Access and use the create standard change template proposal agentic workflow from the Now Assist panel.
+4.  Access and use the create standard change template proposal agentic workflow from the ServiceNow Otto panel.
 
-    You can query in the Now Assist panel with the change request number. For the query instructions, read the steps specified in the **List of steps** field of the corresponding AI agent \(standard change template proposal AI\).
+    You can query in the ServiceNow Otto panel with the change request number. For the query instructions, read the steps specified in the **List of steps** field of the corresponding AI agent \(standard change template proposal AI\).
 
-    \[Omitted image "now-assist-itsm-change-template-proposal-nap.png"\] Alt text: Create standard change template proposal agentic workflow output in the Now Assist panel.
+    \[Omitted image "now-assist-itsm-change-template-proposal-nap.png"\] Alt text: Create standard change template proposal agentic workflow output in the ServiceNow Otto panel.
 
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-busi
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 6
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
 
@@ -28,7 +28,12 @@ Customers can create and view order cases for orders or order line items using t
 -   [Request updates for one or more orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-order-case-for-multiple-orders.md)
 -   [Request updates for items in a single order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-order-case-specific-order-lines.md)
 -   [View order case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-order-case.md)
--   [Request order changes using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md)
+-   [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md)
+-   [Request order changes via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)
+
+Customers can request changes to their unfulfilled orders from the ServiceNow Otto Virtual Agent in the Business Portal using chat and voice channels.
+
+-   [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md)
 -   [Request order changes via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)
 
 ## Creating requests for quotes \(RFQs\)
@@ -48,6 +53,31 @@ From the Business Portal, customers can view their invoices and invoice line det
 -   [Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-single.md)
 -   [Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-multiple.md)
 -   [View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoice-cases-business-portal.md)
+
+Customers can also chat with an AI assistant or use voice commands to report discrepancies conversationally. For eligible quantity disputes, the AI assistant can validate their claim and resolve it on the spot by issuing a credit note or replacement order. If an issue needs further review, customers are seamlessly connected to a billing specialist with full context already in hand. For more information, see:
+
+-   [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md)
+-   [Dispute invoice cases via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-invoice-mgmt-voice-aiagent.md)
+
+.
+
+## Managing order cases using ServiceNow Otto
+
+Business-to-business \(B2B\) customers can request changes to their unfulfilled orders from the ServiceNow Otto Virtual Agent in the Business Portal using chat and voice channels.
+
+-   [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md)
+-   [Request order changes via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)
+
+## Managing invoice cases using ServiceNow Otto
+
+B2B customers can dispute invoice cases from the ServiceNow Otto Virtual Agent in the Business Portal using chat and voice channels.
+
+-   [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md)
+-   [Dispute invoice cases via calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-invoice-mgmt-voice-aiagent.md)
+
+ServiceNow Otto for Order Management includes the invoice dispute assist agentic workflow. Billing specialists can invoke the invoice dispute assist agentic workflow from the ServiceNow Otto panel to review the invoice case, validate the dispute, view similar cases, and complete resolution actions using a guided experience. Using an agentic workflow helps reduce manual investigation, improves consistency, and helps agents resolve invoice disputes efficiently while keeping customers informed throughout the process. For more information, see [Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resolve-invoice-case-now-assist-agent.md).
+
+Email notifications are sent to the customer when an invoice case is created or closed, but only for cases initiated through the ServiceNow Otto Virtual Agent in the Business Portal. Notifications are triggered for the following closure outcomes: Credit note issued or replacement order placed. Case closure can be performed either by the customer using the ServiceNow Otto Virtual Agent in the Business Portal, or by a billing specialist from the ServiceNow Otto in the CSM/FSM Configurable Workspace.
 
 **Related topics**  
 

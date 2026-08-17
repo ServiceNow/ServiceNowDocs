@@ -24,7 +24,7 @@ This video provides a visual overview of Supplier Lifecycle Operations and its k
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Now Assist for Supplier Lifecycle Operations \(SLO\)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about Now Assist for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)
+[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)
 
 </td><td>
 
@@ -58,14 +58,6 @@ Here are some additional ServiceNow resources that can help you:
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     Access real-time courses, self-paced training, and career resources, such as [SLO Implementation Essentials](https://learning.servicenow.com/lxp/en/source-to-pay-operations/supplier-lifecycle-operations-slo-implementation?id=learning_course_prev&course_id=19d699b8c38cd2985922751ce001316f) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
-
--   **\[Omitted image "dcx-icon.svg"\] Now Create**
-
-    Log in to your ServiceNow account and find additional information about implementing and deploying Supplier Lifecycle Operations features at [Now Create](https://learning.servicenow.com/nowcreate).
-
--   **\[Omitted image "icon-youtube.svg"\] YouTube**
-
-    Learn more about the value that you can add to your business with the Source-to-Pay suite. Watch [Multiply the value of your ServiceNow platform with Source-to-Pay workflows](https://www.youtube.com/watch?v=crQtfrCR6DY) on YouTube.
 
 -   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
 

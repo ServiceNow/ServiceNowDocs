@@ -63,7 +63,7 @@ Fewer functions and columns are displayed for IAR than for the other application
 -   The **Create new model** button is not displayed because the prebuilt model is used directly.
 -   The section **Boost your model performance** is not displayed.
 
-For more information on setting up IAR, see .
+For more information on setting up IAR, see [Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/auto-resolution-va.md).
 
 ## NLU Models for AI Search
 
@@ -74,7 +74,7 @@ For more information on setting up IAR, see .
 
 For an introduction to managing AI Search in the NLU Workbench, watch the following video.
 
-For more information, see the  landing page.
+For more information, see the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) landing page.
 
 ## What you can do next
 

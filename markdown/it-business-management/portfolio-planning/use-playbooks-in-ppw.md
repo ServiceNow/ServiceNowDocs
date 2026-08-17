@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Use Playbook in Next Experience for Demand Management
@@ -30,9 +30,9 @@ A playbook defines the standard stages of a demand \(for example, Initiation, Pl
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-3.  Open a demand record.
+3.  Open a demand from the **List** page.
 
 4.  Select the **Playbook** tab.
 

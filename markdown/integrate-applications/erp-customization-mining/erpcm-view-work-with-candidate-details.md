@@ -115,7 +115,7 @@ Additional information about the candidate.
 
 8.  Research candidates related to the current candidate and their tables by selecting the **Similar candidates** tab.
 
-    Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
+    Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from an ERP system, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
 
     For a description of the field values, see [ERP Semantic Mining similar candidates field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-similar-candidates-field-descriptions.md).
 

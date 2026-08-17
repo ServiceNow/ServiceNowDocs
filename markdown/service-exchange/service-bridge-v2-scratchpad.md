@@ -32,7 +32,7 @@ The CSBScratchpadUtil API allows consumers to share extra information that is ou
 
 -   A consumer orders a laptop from the local catalog. The local catalog in this case is a [Remote Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-record.md).
 -   This request is immediately forwarded the provider and appears as a Provider Task on the provider's instance.
--   The provider then selects a laptop from the inventory, sets it up and adds relevant information like the serial number, model, configuration to the Scratchpad which is automatically sent to the consumer.
+-   The provider then selects a laptop from the inventory and sets it up. The provider adds relevant information like the serial number, model, configuration to the Scratchpad, which is automatically sent to the consumer.
 -   On the consumer's instance, the Scratchpad data is retrieved and updated on the local database.
 -   The laptop is then assigned to the consumer.
 

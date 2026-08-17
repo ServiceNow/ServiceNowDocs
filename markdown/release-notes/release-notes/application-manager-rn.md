@@ -64,7 +64,7 @@ Application Manager is a ServiceNow AI Platform feature that is active by defaul
 
     Get applications that haven't been licensed yet from the ServiceNow Store, then install and update them through the Application Manager.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     The Application Manager helps verify that Now Assist applications that you install or update remain compatible with any other Now Assist applications on your ServiceNow AI Platform instance.
 

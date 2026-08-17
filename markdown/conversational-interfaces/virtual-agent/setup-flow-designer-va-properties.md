@@ -24,7 +24,7 @@ If you don't already have a Virtual Agent topic, create one. For more informatio
 Become familiar with the following features:
 
 -   Workflow Studio concepts and tasks. For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
--   Assistant Designer utilities, such as the Lookup utility, and the Script Action utility.
+-   Assistant Designer Asset library utilities, such as the Lookup utility, and the Script Action utility.
 
     Use these utilities to control the actions within the Virtual Agent conversation. For more information about these utilities, see [Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md).
 
@@ -37,19 +37,21 @@ Become familiar with the following features:
     For more information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 
-**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can work with conversational actions and subflows from the home page. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via . The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up ServiceNow Otto in Virtual Agent, you can work with conversational actions and subflows from the Assistant Designer Asset library. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer Asset library. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
 
 Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and in the Asset library, select the topic that you want to use.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  From the Utilities section of the palette, drag the Action utility icon \[Omitted image "action-icon.png"\] Alt text: onto the canvas at the appropriate location on the conversation flow.
+2.  Select the **Asset library** tab.
+
+3.  From the Utilities section of the palette, drag the Action utility icon \[Omitted image "action-icon.png"\] Alt text: onto the canvas at the appropriate location on the conversation flow.
 
     The Action utility is now a node in the conversation flow, and the Action utility properties panel appears.
 
-3.  On the properties sheet, fill in the fields.
+4.  On the properties sheet, fill in the fields.
 
 <table id="action-utility-properties-sheet-table"><thead><tr><th>
 
@@ -158,7 +160,7 @@ Conditionally show this node if
 No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>5.  Select **Save**.
 
 
 **Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)

@@ -84,9 +84,9 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
     The new capabilities for outbound interactions initiated by agents through email are:
 
-    -   Initiate outbound email interactions from contact or consumer records by selecting email addresses or using the Compose Email UI option, opening a modeless email composer with the recipient's email address auto-populated.
+    -   Initiate outbound email interactions from contact or consumer records by selecting email addresses or using the Compose Email UI option. This opens a modeless email composer with the recipient's email address auto-populated.
     -   Automatic creation of Work‑In‑Progress \(WIP\) outbound email interactions when agents initiate an email to a customer.
-    -   Preserve email drafts when agents navigate away, and automatically close interactions that show no sent or received email activity and contain only unsent drafts within a rolling 30‑day period. Any agent activity on the draft resets the 30‑day window.
+    -   Preserve email drafts when agents navigate away. The system automatically closes interactions that show no sent or received email activity and contain only unsent drafts within a rolling 30‑day period. Any agent activity on the draft resets the 30‑day window.
     -   Consolidate multiple agent‑initiated drafts into a single, unified interaction within service workflows, with ownership assigned to the sending agent. You can optionally configure the system to create separate interactions for each draft for the same contact.
     -   Configurable reminder windows for sending automated reminder emails when customers don’t respond.
     -   Customer response notifications on the ongoing tab and interaction linking in contact or consumer related lists for seamless conversation tracking.
@@ -145,7 +145,7 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
     -   A **Compose Email** UI option to contact and consumer records for initiating outbound email interactions from these records.
     -   Clickable email addresses to contact and consumer records to open the email composer with the recipient address automatically inserted.
-    -   A **Transfer Email** option with list of available agents and queues has been added for AWA or CCaaS‑routed email interactions, enabling agents to transfer the interaction to the selected queues or agents.
+    -   A **Transfer Email** option with list of available agents and queues has been added for AWA or CCaaS‑routed email interactions. Agents can transfer the interaction to the selected queues or agents.
     -   A unified wrap‑up dialog has been added to provide a single closure experience for email interactions routed through AWA or CCaaS.
     -   A **Summarize** button on the email interaction page to trigger an AI summary of the full conversation.
     -   A Refresh Summary icon on the summary card to manually re-trigger summarization at any point.
@@ -156,6 +156,10 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
     -   An **Open Wrap-Up** button to initiate the wrap-up process during an active call.
     -   **Minimize** and **Expand** controls on the wrap-up modal to manage screen space while remaining on the call.
+-   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md)**
+
+    The conversation thread includes an inline audio player for received audio messages, with play, pause, and seek controls.
+
 
 ## Changed in this release
 
@@ -163,7 +167,7 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
     Starting with the Australia release, the Customer Service Portal Base plugin \(com.snc.csm\_portal\_base\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.
 
--   **Subscriptions and Activity Feed Framework**
+-   **[Subscriptions and Activity Feed Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/actsub-api.md)**
 
     Starting with the Australia release, the Subscriptions and Activity Feed Framework plugin \(com.snc.subscriptions\_activity\_feed\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Subscriptions and Activity Feed Framework store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
 
@@ -175,18 +179,24 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
     Initiate a walk-up check-in directly from the Business Portal home page without navigating away from the landing experience.
 
+-   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md)**
+
+    WhatsApp direct integration gives agents richer conversational tools and gives customers more ways to reach for support. The key updates include:
+
+    -   Access synthesized responses generated from Now Assist Virtual Agent \(NAVA\) in WhatsApp direct conversations.
+    -   Play audio messages directly in the agent chat interface.
 -   **[Portal Data List widget JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-datalist-widget-data-json.md)**
 
-    Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table and the portal builds the URL with the relevant parameters to render the correct record view at runtime.
+    Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table. The portal builds the URL with the relevant parameters to render the correct record view at runtime.
 
 -   **[Portal Object widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/port-object-inst-options.md)**
 
-    Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters and derives the card title, image field, summary view fields, and detail view from the view definition on the extended table without requiring static configuration in the widget instance.
+    Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters. The widget derives the card title, image field, summary view fields, and detail view from the view definition on the extended table. This eliminates the need for static configuration in the widget instance.
 
 
 ## Activation information
 
-Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-email-summarization-csm.md) and [Activate contextual email matching for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-contextual-email-matching-csm.md).
 

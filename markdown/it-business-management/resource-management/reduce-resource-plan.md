@@ -40,9 +40,9 @@ You can reduce the duration of an operational resource plan only if its state is
 
     Reducing the resource plan end date releases all resources by deleting resource allocations after the new end date.
 
-    If no actuals are posted for the future in the resource plan, then all the allocated or confirmed hours of the resources will be released when you reduce the resource plan.
+    If no actuals are posted for the future in the resource plan, then all the allocated or confirmed hours of the resources will be released. This release happens when you reduce the resource plan.
 
-    If actuals are posted for the future, then the resource plan end date is updated to the future date on which actuals are present, and all allocated or confirmed hours of all the resources from the date on which actuals are present to the original end date are released.
+    If actuals are posted for the future, then the resource plan end date is updated to the future date on which actuals are present. All allocated or confirmed hours of all the resources from the date on which actuals are present to the original end date are released.
 
 3.  Enter the new end date of the resource plan in the **End date** field.
 
@@ -54,7 +54,7 @@ You can reduce the duration of an operational resource plan only if its state is
 -   The end date of the resource plan is updated to the new reduced end date.
 -   The state of the resource plan remains the same.
 -   If no actuals are posted for the future in the resource plan, all allocated or confirmed hours of the resources are released.
--   If actuals are posted for the future, then the resource plan end date is updated to the future date on which actuals are present, and all the allocated or confirmed hours of all the resources from the date on which actuals are present to the original end date are released.
+-   If actuals are posted for the future, then the resource plan end date is updated to the future date on which actuals are present. All the allocated or confirmed hours of all the resources from the date on which actuals are present to the original end date are released.
 
 ## Resource allocation concerning actuals
 

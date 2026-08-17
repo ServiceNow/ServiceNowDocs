@@ -231,9 +231,9 @@ The system generates runtime execution details for each flow, subflow, and actio
 
 -   **Full: Action configuration and runtime values \(for debugging only\)**
 
-The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action. This reporting level is only valid on non-production instances. Production instances prevent you from setting the Full reporting level and instead revert the reporting level back to the Basic option.
+The system generates configuration and runtime execution details for each flow, subflow, and action run. You can see the runtime state, duration, input values, and output values for all items. For custom actions, you can also see the runtime state, duration, input values, and output values of its steps. You can also see the configuration values for flow triggers, subflows, actions, and steps that are part of a custom action.
 
-**Important:** Only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
+**Important:** This reporting level is only valid on non-production instances. Production instances prevent you from setting the Full reporting level and instead revert the reporting level back to the Basic option. Also, only users with the fd\_read\_operations\_all role can see configuration and runtime information such as record values in the flow execution details. Users without this role will only see basic details about the state and duration.
 
 -   **Trace: All values \(for testing and Support only\)**
 
@@ -369,7 +369,7 @@ com.glide.hub.flow.restricted\_caller\_access.track\_flows\_as\_source
 Allow the system to generate restricted caller access privilege requests for flows and actions. The access privileges for flows and actions supersede any existing access privileges for script includes and business rules that call flows and actions. This property is inactive on instances upgraded from San Diego and earlier releases. Customers who want to continue using script-based access privileges for flows and actions shouldn’t enable this property. Enabling this property requires you to regenerate and approve access privileges for your flows and actions.-   Type: true \| false
 -   Default value: true for Tokyo and later releases. False for San Diego and earlier releases.
 -   Location: System Properties \[sys\_properties\] table
--   More information: Restricted caller access privilege settings
+-   More information: [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 
 </td></tr><tr><td>
 
@@ -380,7 +380,7 @@ com.glide.cs.fdih.interactive.timeout
 Specify the length of time, in seconds, before the Workflow Studio Integration Hub action workflow times out.-   Type: integer
 -   Default value: 120
 -   Location: System Properties \[sys\_properties\] table
--   More information: Specify the action workflow timeout.
+-   More information: [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-fdih-action-timeout.md).
 
 </td></tr><tr><td>
 

@@ -1,18 +1,18 @@
 ---
-title: Update TPM data for a business application or application service
-description: Manually update the Technology Portfolio Management \(TPM\) lifecycle data including end of support date, end of extended support date, and end of life date for your software and hardware models for your business applications and application services.
+title: Update TLM data for a business application or application service
+description: Manually update the Technology Lifecycle Management \(TLM\) lifecycle data for software and hardware models in your business applications and application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/update-tpm-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Working with Technology Portfolio Management \(TPM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+reading_time_minutes: 2
+breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Update TPM data for a business application or application service
+# Update TLM data for a business application or application service
 
-Manually update the Technology Portfolio Management \(TPM\) lifecycle data including end of support date, end of extended support date, and end of life date for your software and hardware models for your business applications and application services.
+Manually update the Technology Lifecycle Management \(TLM\) lifecycle data for software and hardware models in your business applications and application services.
 
 ## Before you begin
 
@@ -20,15 +20,21 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-You can refresh the TPM lifecycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Lifecycles** is also run on schedule or on-demand to update the lifecycle data for all business applications and application services​​.
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
+
+You can refresh the TLM lifecycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Lifecycles** is also run on schedule or on-demand to update the lifecycle data for all business applications and application services​​.
 
 **Note:** The data for software products is displayed only when the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
-TPM lifecycle record identifiers are automatically generated on creating a TPM record using the Technology Portfolio Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TPM lifecycle records generated using previous versions of the TPM plugin don't have any lifecycle record identifiers. The TPM record identifiers of these TPM lifecycle records must be generated using the Populate Number field in TPM Discovered Technologies job. For information, see [Run a scheduled job to populate Technology Portfolio Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
+TLM lifecycle record identifiers are automatically generated on creating a TLM record using the Technology Lifecycle Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TLM lifecycle records generated using previous versions of the TLM plugin don't have any lifecycle record identifiers. The TLM record identifiers of these TLM lifecycle records must be generated using the Populate Number field in **TPM Discovered Technologies** job. For information, see [Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
 
-\[Omitted image "tpm-lifecycle-record.png"\] Alt text: TPM lifecycle record identifier highlighted on the Technology Portfolio page.
+\[Omitted image "tpm-lifecycle-record.png"\] Alt text: TLM lifecycle record identifier highlighted on the Technology Portfolio page.
 
-On selecting a TPM lifecycle record identifier, more information on the TPM lifecycle record is displayed.
+On selecting a TLM lifecycle record identifier, more information on the TLM lifecycle record is displayed.
 
 ## Procedure
 
@@ -45,12 +51,12 @@ On selecting a TPM lifecycle record identifier, more information on the TPM life
 
 ## Result
 
-An on-demand job starts to update the TPM data.
+An on-demand job starts to update the TLM data.
 
-**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
-[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+[Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 

@@ -68,5 +68,4 @@ After an employees books their appointment. As an agent, you can check all the a
 
     For more information, refer to [Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walkup-sow.md) and [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-walkup-appointment-incident-sow.md).
 
--   To check the appointments in the Agent workspace, refer to . .
 

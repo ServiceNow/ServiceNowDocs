@@ -34,7 +34,7 @@ These fields and columns are instrumental in calculating the time for plans:
 
 These fields and columns are used to calculate time for the assets:
 
--   For an asset, the start date and end time are populated based on its tasks. For example, if an asset is part of two tasks, the start date of the first task is recorded in the **Start date** field, and the end date of the final task is noted in the **End time** field.
+-   For an asset, the start date and end time are populated based on its tasks. For example, if an asset is part of two tasks, the start date of the first task is recorded in the **Start date** field. The end date of the final task is noted in the **End time** field.
 -   The Total effort column is calculated by adding up the duration of all tasks where the asset is tagged.
 -   If any tasks within the plan are not in the **Closed** state, the Total Effort and Total Time Taken columns remain blank.
 -   If new ad-hoc tasks are initiated, the Total effort, Total time taken, and Status columns are reset.
@@ -44,13 +44,13 @@ These fields and columns are used to calculate time for the assets:
 
 -   **Enhanced event asset management**
 
-    BCM version 9.x.x introduces a significant improvement in event asset management by establishing a direct link between event assets and their corresponding Business Impact Analysis \(BIA\) records. This integration enables the system to automatically import Recovery Time Objective \(RTO\) and Recovery Point Objective \(RPO\) values from the BIA into recovery events. As a result, continuity managers can now directly compare actual recovery times with target recovery times, gaining a transparent and reliable metric to evaluate recovery performance and assess organizational resilience maturity.
+    BCM version 9.x.x introduces a significant improvement in event asset management by establishing a direct link between event assets and their corresponding Business Impact Analysis \(BIA\) records. This integration enables the system to automatically import Recovery Time Objective \(RTO\) and Recovery Point Objective \(RPO\) values from the BIA into recovery events. Continuity managers can now directly compare actual and target recovery times, gaining transparent metrics to evaluate recovery performance and assess organizational resilience maturity.
 
     This enhancement streamlines the process of assessing recovery performance, allowing organizations to make more informed decisions about their business continuity strategies. By providing a clear and accurate measure of how well recovery operations align with predefined objectives, BCM 9.x.x helps organizations refine their resilience capabilities.
 
 -   **Time measurement for recovery events**
 
-    As you can exclude irrelevant task from calculation such as "Preparation" tasks, time management is enhanced.
+    As you can exclude irrelevant tasks from calculation such as "Preparation" tasks, time management is enhanced.
 
 -   **Event asset tracking**
 

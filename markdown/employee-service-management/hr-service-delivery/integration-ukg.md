@@ -29,6 +29,8 @@ First, you must activate the HR Service Delivery Integration with the Ultimate K
 
 After the activation and setup of HR Service Delivery Integration with Ultimate Kronos Group is complete, the HR Service Delivery with Ultimate Kronos Group responds to what employees or managers are saying during a conversation, and allows employees to view the following details from the Ultimate Kronos Group application in the Employee Center.
 
+**Note:** This integration syncs workforce management data such as time, attendance, scheduling, and accurals from Ultimate Kronos Group Kronos WFM. It does not synu employee profiles, organisation data, or HR records.
+
 ## Topics accessible to employees
 
 As an employee, you can view your accrual balances, work hours, list of punches, schedules, time-off requests, and upcoming shifts using the Virtual Agent.
@@ -87,15 +89,15 @@ As a manager, you can access and view the locations, schedules, and time-off req
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementationPlan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-ukg.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-ukg.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and propertiesGet details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
 
 </td></tr><tr><td>
 

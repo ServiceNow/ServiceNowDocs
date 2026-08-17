@@ -1,6 +1,6 @@
 ---
 title: Create action plan for KPIs
-description: Create action plans linked to under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the action plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal.
+description: Create action plans for under-performing KPIs to track improvement milestones and assigned tasks for suppliers in the Supplier Collaboration Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [Supplier Collaboration Portal, action plan, track improvement, action plan items, milestones, supplier tasks, Gantt chart]
 breadcrumb: [Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create action plan for KPIs
 
-Create action plans linked to under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the action plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal.
+Create action plans for under-performing KPIs to track improvement milestones and assigned tasks for suppliers in the Supplier Collaboration Portal.
 
 \[Omitted video\] Description: Create action plan for KPIs.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure quote PDF documents, Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Configure DocuSign for PDF documents
@@ -31,4 +31,6 @@ Sales operation specialists can link quote PDF documents to Docusign so that sig
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to separate Docusign account data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/separate-docusign-data.md)
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
 

@@ -67,18 +67,18 @@ The following conditions must be met for pulling the BIA dependencies in Operati
 
 For each fetched dependency, the Operational Resilience application looks for an existing valid entity first. If the dependency has an existing valid entity and the entity belongs to any entity type in Operational Resilience, it is added to the downstream of its parent's entity.
 
-To fetch the CMDB dependency updates or BIA dependency updates, the following conditions are followed:
+To fetch the CMDB dependency updates or BIA dependency updates, the following conditions are followed.
 
 -   If there is no entity for the dependency, it is skipped. Operational Resilience does not create an entity for the dependency.
 -   If a dependency entity is inactive, it is ignored.
 -   If a dependency entity is active, but it has no pillar, it is ignored.
--   If a dependency entity is active and has a pillar, but it does not belong to any Operational Resilience entity type, it is ignored.
+-   If an active dependency entity has a pillar, but it does not belong to any Operational Resilience entity type, it is ignored.
 
 ## Adding the dependencies manually
 
-If the entity does not belong to an entity type such as Facilities, People, Suppliers, Technology, Operational Resilience users must add it to the corresponding entity type manually.​ Instead of using the scheduled job, Operational Resilience administrators and managers can update the dependencies manually.
+If the entity does not belong to an entity type, manually add it to the corresponding entity type. Operational Resilience administrators and managers can manually update dependencies instead of using the scheduled job.
 
 ## Support for main node configuration in Data Relationships Framework
 
-For information on the Data Relationships Framework and main node configuration, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md) and [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md).
+For information, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md) and [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md).
 

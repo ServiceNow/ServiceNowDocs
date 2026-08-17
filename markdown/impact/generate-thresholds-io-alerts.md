@@ -24,7 +24,7 @@ Role required: admin
 
     \[Omitted image "threshold-banner-io.png"\] Alt text: Shows the Generate Threshold button in the Configure Alerts banner.
 
-    A notification banner displays. If the banner prompts to configure alerts, see [Configure key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    A notification banner displays. If the banner prompts to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 2.  Select **Generate Threshold**.
 

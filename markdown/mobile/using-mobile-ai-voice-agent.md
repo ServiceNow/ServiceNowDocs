@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using Mobile AI Voice Agent
@@ -96,5 +96,5 @@ When you end a back-grounded call, a push notification reminds you that the voic
     On Android, a persistent notification appears in the notification panel while the call is active. Tap the notification to access mute and end call controls. A separate notification entry shows the call in your notification list.
 
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Discovery Admin Workspace Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -81,19 +81,19 @@ Error Framework is enabled by default. Administrators can disable it by setting 
 
 -   **AI insights**
 
-    The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page includes an AI Insights panel powered by Now Assist for Error Framework. The panel analyzes your current Discovery errors and generates a prioritized summary to help you focus on the most important issues first. Insights are scoped to your active domain and update automatically when you change filters on the Errors tab.
+    The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page includes an AI Insights panel powered by ServiceNow Otto for Error Framework. The panel analyzes your current Discovery errors and generates a prioritized summary to help you focus on the most important issues first. Insights are scoped to your active domain and update automatically when you change filters on the Errors tab.
 
     The panel surfaces the following:
 
     -   Highest-impact errors that are affecting the most devices or schedules.
     -   Quick wins, which are errors that can be resolved with minimal effort.
-    You can also use Now Assist agents to analyze a specific error code and receive a summary with remediation steps on demand.
+    You can also use ServiceNow Otto agents to analyze a specific error code and receive a summary with remediation steps on demand.
 
     **Note:**
 
-    -   Now Assist for Error Framework \(com.sn\_ef\_gen\_ai\) is available in Australia Patch 3 and requires the Now Assist for Platform \(sn\_genai\_platform\) plugin. If the plugin is not enabled, the panel displays a prompt to enable it.
-    -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the Now Assist for Error Framework plugin.
-    -   To interact with an agent, you must first [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   ServiceNow Otto for Error Framework \(com.sn\_ef\_gen\_ai\) is available in Australia Patch 3 and requires the ServiceNow Otto for Platform \(sn\_genai\_platform\) plugin. If the plugin is not enabled, the panel displays a prompt to enable it.
+    -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the ServiceNow Otto for Error Framework plugin.
+    -   To interact with an agent, you must first [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Roles
 
@@ -103,6 +103,6 @@ The discovery\_admin role is required to access Discovery Admin Workspace and in
 
 The following are required to use Error Framework features in Discovery Admin Workspace:
 
--   Australia Patch 3.
--   Discovery Admin Workspace v1.17.0.
+-   The ServiceNow AI Platform must be running the Brazil release, or the Australia release starting with Patch 3.
+-   Discovery Admin Workspace must be installed, starting with v1.17.0.
 

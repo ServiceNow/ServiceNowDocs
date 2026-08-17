@@ -20,7 +20,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## About this task
 
-Recovery strategy templates capture the implementation profile of a strategy \(estimated time to implement, maximum duration of use, estimated % of operations achieved, and supporting comments\) so that the same strategy can be applied to multiple loss scenarios across plans. When a plan is created from a plan template that references a recovery strategy template, the strategy and its associated task template groups are pre-populated on the loss scenario without manual re-entry.
+Recovery strategy templates capture the implementation profile of a strategy \(estimated time to implement, maximum duration of use, estimated % of operations achieved, and supporting comments\). The same strategy can then be applied to multiple loss scenarios across plans. When you create a plan from a plan template that references a recovery strategy template, the strategy and task template groups are pre-populated on the loss scenario.
 
 \[Omitted image "recovery-strategy-template-form.png"\] Alt text: Recovery strategy template form showing Name, Description, and Implementation Details section.
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management Platform Analytics Solutions
@@ -22,7 +22,7 @@ Platform Analytics data visualizations use Performance Analytics [indicator](htt
 
 To enable the solution for Event Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Click **Get Started** then scroll to the section for Event Management. The guided setup takes you through the entire setup and configuration process.
 
-Data visualization in ITOM now includes a funnel component to help you track metric progression across stages, making it easier to identify drop-offs or bottlenecks in processes. For more details, see [Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/itom-data-visualization.md).
+Data visualization in ITOM now includes a funnel component to help you track metric progression across stages, making it easier to identify drop-offs or bottlenecks in processes. For more details, see [Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-data-visualization.md).
 
 -   **[Customize Platform Analytics elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/perf-analytics-widget-customize.md)**  
 Customize the appearance of widgets when viewing Platform Analytics visualizations.

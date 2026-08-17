@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience use case: Calculate prices for line-level fields
@@ -24,7 +24,7 @@ The use case involves three types of price calculations:
 
 ## Step 1: Create Custom Fields
 
--   Navigate to ServiceNow CPQ Admin &gt; Transaction &gt; Associated Fields.
+-   Navigate to CPQ Admin &gt; Transaction &gt; Associated Fields.
 -   Create all the custom fields required for your use case. For the detailed steps on how to create fields, see [Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md).
 
 In this example, we intend to use the following fields:

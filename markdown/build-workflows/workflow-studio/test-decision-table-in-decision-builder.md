@@ -1,28 +1,28 @@
 ---
 title: Test a decision table in Workflow Studio
-description: Test your decision table in Workflow Studio before publishing to make sure the rules provide the desired outcome for a given set of input data.
+description: Test your decision table in Workflow Studio before publishing to verify the rules provide the desired outcome for a given set of input data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/test-decision-table-in-decision-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Test a decision table in Workflow Studio
 
-Test your decision table in Workflow Studio before publishing to make sure the rules provide the desired outcome for a given set of input data.
+Test your decision table in Workflow Studio before publishing to verify the rules provide the desired outcome for a given set of input data.
 
 ## Before you begin
 
-You can only test saved decision tables. You can either create a table with at least one input and result and then save and test it, or you can test an existing table that has been saved.
+You can only test saved decision tables. Create a table with at least one input and result, save it, and then test it. Alternatively, test an existing saved table.
 
 Role required: admin, decision\_table\_admin, decision\_table\_reader, Change manager, or delegated developer
 
-**Note:** Test decision table inputs within the specified max input limits. For example, if the limit is 40 characters, ensure maximum length of the inputs do not exceed this length to avoid incorrect results.
+**Note:** Test decision table inputs within the specified maximum input limits. For example, if the limit is 40 characters, confirm that inputs do not exceed this length to avoid incorrect results.
 
 ## Procedure
 
@@ -34,9 +34,9 @@ Role required: admin, decision\_table\_admin, decision\_table\_reader, Change ma
 
 4.  Select **Test**.
 
-5.  If the table has draft authoring enabled and it has already been published, select whether to test the draft or published version from the **What to test** drop-down list.
+5.  If the table has draft authoring enabled and it has already been published, select whether to test the draft or published version from the **What to test** list.
 
-6.  From the **How to execute** drop-down list, select whether you want to return only the first decision where your input matches the conditions or all decisions where your input matches the conditions.
+6.  From the **How to execute** list, select whether to return only the first matching decision or all matching decisions.
 
 7.  Enter input data to test.
 
@@ -45,7 +45,7 @@ Role required: admin, decision\_table\_admin, decision\_table\_reader, Change ma
 
 ## Result
 
-The results of the test are displayed, showing either no results or one or all of the decisions where your input data matches the conditions. You can run additional tests on the table by changing the test parameters and inputs, and selecting **Test** again.
+The results display, showing either no results or the decisions where your input data matches the conditions. Run additional tests by changing the test parameters and selecting **Test** again.
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

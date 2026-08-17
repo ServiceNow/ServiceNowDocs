@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 2
 keywords: [agentic evaluation, AI agent assessment, LLM scores, evaluation metrics, traces, optimization]
-breadcrumb: [Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Review agentic evaluation outputs
@@ -27,7 +27,7 @@ Automated evaluations include scores and recommendations across the different me
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  Select the automated evaluation you want to review the results of.
 

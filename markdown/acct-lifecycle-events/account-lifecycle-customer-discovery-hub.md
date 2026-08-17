@@ -16,7 +16,7 @@ Use the Customer Discovery Hub to capture customer business context during pre-s
 
 **Note:** This feature is available only if the Customer Discovery Hub \(com.sn\_cust\_disc\_hb\) plugin is installed.
 
-When a deal closes, customer success managers \(CSMs\) receive an engagement record with product information but no insight into why the customer purchased, what problems they face, or what success looks like to them. Context about customer needs, challenges, and expectations is typically scattered across work notes, opportunity records, and documents with no structured path to the post-sale team.
+When a deal closes, customer success managers \(CSMs\) receive an engagement record with product information. They have no insight into why the customer purchased, what problems they face, or what success looks like to them. Context about customer needs, challenges, and expectations is typically scattered across work notes, opportunity records, and documents with no structured path to the post-sale team.
 
 Customer Discovery Hub provides a structured set of records for capturing business needs, challenges, and expectations during pre-sales. Those records transfer automatically to the engagement record, giving customer success managers immediate access to the full customer context.
 

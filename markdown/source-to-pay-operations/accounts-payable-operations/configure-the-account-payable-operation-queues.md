@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, supplier, email ingestion, Advanced Work Assignment, AWA]
+keywords: [APO, Accounts Payable Operations, Source to Pay Workspace, Agent assignment rule, Assignment Eligibility related, Advanced Work Assignment, AWA]
 breadcrumb: [Configure Advanced Work Assignment for Accounts Payable Operations, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -48,6 +48,10 @@ Role required: admin
 
         **Note:** The users that you add to this assignment group are automatically granted the awa\_agent role.
 
+
+## What to do next
+
+[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
 
 **Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
 

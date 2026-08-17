@@ -34,7 +34,7 @@ The self-configured bot that you created will not be available in the Microsoft 
 
     Your manifest file is uploaded and appears on the list of store apps.
 
-    **Note:** If you receive any errors, correct the listed errors in your manifest, then download the zip file and upload it through this page again. If you activated Microsoft Copilot in your manifest, the Custom Engine Agent \(CEA\) is also uploaded with it. For more information on activating Copilot, see [Activate Now Assist in Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-na-va-msteams.md).
+    **Note:** If you receive any errors, correct the listed errors in your manifest, then download the zip file and upload it through this page again. If you activated Microsoft Copilot in your manifest, the Custom Engine Agent \(CEA\) is also uploaded with it. For more information on activating Copilot, see [Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-na-va-msteams.md).
 
 5.  After you successfully published the bot, select the **All apps** tab and use the search bar to find your app.\[Omitted image "msteams-find-app.png"\] Alt text: Microsoft Teams Apps portal, with All apps tab, app search bar, and bot app highlighted.
 

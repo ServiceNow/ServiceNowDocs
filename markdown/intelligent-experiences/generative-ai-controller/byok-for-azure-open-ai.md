@@ -9,7 +9,7 @@ classification: generative-ai-controller
 topic_type: concept
 last_updated: "2026-01-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Bring your own key for third-party AI provider integration
@@ -50,7 +50,7 @@ For step-by-step instructions for each supported cloud AI provider, see [Configu
 
 2.  Configure your Azure OpenAI model and deployment name in Generative AI Controller so your ServiceNow instance can recognize and use it.
 
-    For more information, see .
+    For more information, see [Create a custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-byom.md).
 
 3.  Modify the prompt configuration to write your own prompts to send to the Azure OpenAI LLMs.
 

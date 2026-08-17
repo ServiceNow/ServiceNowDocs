@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Synchronizing alert response with automated alert grouping
@@ -26,7 +26,7 @@ By default, the alert grouping job \(**Service Analytics group alerts using RCA/
 
 **Note:** If only one alert exists when the Alert Management job runs, an incident is created. When a second alert arrives later, the next Alert Grouping job forms a group, makes the new alert as secondary, and creates a new incident.
 
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Procedure
 

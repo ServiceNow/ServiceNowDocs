@@ -54,7 +54,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Review the CSM Configurable Workspace in Financial Services Operations applications to ensure it meets your business needs. Customize its components as needed and set it up for agents to engage with customers, answer questions, create cases, and resolve issues.
 
-11. [Setting up decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md)
+11. Setting up decision tables
 
     Create decision tables.
 

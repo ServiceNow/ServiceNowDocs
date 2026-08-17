@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Source control operations in ServiceNow Studio
@@ -187,5 +187,5 @@ Grants read and write access to the repository for a specific set of credentials
 Git repository
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+</table>**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 

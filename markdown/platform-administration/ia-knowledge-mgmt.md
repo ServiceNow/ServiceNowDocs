@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-26"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Knowledge management
@@ -23,5 +23,5 @@ Implement the following steps to complete the configuration:
 
 See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

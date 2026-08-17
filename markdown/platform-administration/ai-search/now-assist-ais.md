@@ -1,60 +1,60 @@
 ---
-title: Now Assist in AI Search
-description: The Now Assist in AI Search ServiceNow Store application combines the power of search with a Large Language Model \(LLM\) to provide actionable AI-generated or AI-selected answers in user searches. Constraining the context passed to the LLM increases the likelihood that LLM responses are grounded in indexed content.
+title: ServiceNow Otto for AI Search
+description: The ServiceNow Otto for AI Search application combines the power of search with a large language model \(LLM\) to provide actionable AI-generated or AI-selected answers in user searches. By constraining the context passed to the LLM, ServiceNow Otto for AI Search can increase the likelihood that LLM responses are grounded in indexed content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/now-assist-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-25"
 reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Now Assist in AI Search
+# ServiceNow Otto for AI Search
 
-The Now Assist in AI Search ServiceNow® Store application combines the power of search with a Large Language Model \(LLM\) to provide actionable AI-generated or AI-selected answers in user searches. Constraining the context passed to the LLM increases the likelihood that LLM responses are grounded in indexed content.
+The ServiceNow Otto for AI Search application combines the power of search with a large language model \(LLM\) to provide actionable AI-generated or AI-selected answers in user searches. By constraining the context passed to the LLM, ServiceNow Otto for AI Search can increase the likelihood that LLM responses are grounded in indexed content.
 
-## Now Assist in AI Search overview
+## ServiceNow Otto for AI Search overview
 
-In Service Portal, Virtual Agent, Employee Center, and global searches, Now Assist in AI Search includes the following Genius Result configurations:
+In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceNow Otto for AI Search includes the following AI Genius Result configurations:
 
--   **[Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
+-   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
 
-    Now Assist Multi-Content Response Genius Results use your chosen LLM to generate Q&amp;A Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
+    Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
 
--   **[Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)**
+-   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)**
 
-    Now Assist Q&amp;A Genius Results use the Now LLM Service to generate actionable Q&amp;A Genius Result answers from the most relevant knowledge article results.
+    Knowledge base articles Genius Results use the LLM to generate actionable Genius Result answers from the most relevant knowledge article results.
 
 -   **[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-qna.md)**
 
     External Content Q&amp;A Genius Results generate actionable Q&amp;A Genius Result answers from documents in your Microsoft SharePoint Online instance.
 
--   **[Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)**
+-   **[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)**
 
-    Now Assist Actions Genius Results use the Now LLM Service to select, filter, and display the most relevant Catalog Item and Virtual Agent topic results as answers.
+    Actions Genius Results use the Now LLM Service to select, filter, and display the most relevant Catalog Item and Virtual Agent topic results as answers.
 
 
-If a search is broad or unclear, Now Assist in AI Search may ask follow-up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable. For configuration details, see .
+If a search is broad or unclear, ServiceNow Otto for AI Search may ask follow‑up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable. For configuration details, see .
 
-Now Assist Genius Result answers enhance search results with actionable answer cards. Each answer card includes links to its source records or external documents.
+AI Genius Result answers enhance search results with actionable answer cards. Each answer card includes links to its source records or external documents.
 
 ## Get started
 
 <table id="table_wzb_rmc_wyb" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-power.svg"\] Alt text:Activate the Now Assist in AI Search plugin on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md)
+[Install\[Omitted image "bus-power.svg"\] Alt text:Activate the ServiceNow Otto for AI Search plugin on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Now Assist in AI Search Genius Results for use in Service Portal, Virtual Agent, Employee Center, and global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for AI Search Genius Results for use in Service Portal, Virtual Agent, Employee Center, and global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:View components installed with Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-now-assist-ais.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:View components installed with ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-now-assist-ais.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -66,11 +66,11 @@ Now Assist Genius Result answers enhance search results with actionable answer c
 
 ## Language support
 
-Now Assist in AI Search natively supports searches, content, and answers in English. Additional languages are supported through Dynamic Translation. For details on translation functionality and supported languages, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md).
+ServiceNow Otto for AI Search natively supports searches, content, and answers in English. Additional languages are supported through Dynamic Translation. For details on translation functionality and supported languages, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md).
 
 ## Domain support
 
-By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 ## AI limitations
 

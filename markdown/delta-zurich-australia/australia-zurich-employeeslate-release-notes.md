@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-employeeslate-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -87,7 +87,7 @@ Employees can drag, drop, resize, and remove widgets; administrators can lock wi
 
 Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee Org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&family=zurich&ft:locale=en-US)**
+-   **[Employee org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&family=zurich&ft:locale=en-US)**
 
 Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
@@ -154,7 +154,7 @@ Employees can drag, drop, resize, and remove widgets; administrators can lock wi
 
 Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee Org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&family=australia&ft:locale=en-US)**
+-   **[Employee org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&family=australia&ft:locale=en-US)**
 
 Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
@@ -200,8 +200,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -407,7 +407,7 @@ Australia
 
 </td><td>
 
-Employee Slate includes built-in accessibility compliance through the AI widget builder. Custom widgets automatically meet accessibility standards when created through the prompt-driven interface with design components that include accessibility features by default.
+The AI widget builder in Employee Slate includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
 
 </td></tr></tbody>
 </table>## Localization information

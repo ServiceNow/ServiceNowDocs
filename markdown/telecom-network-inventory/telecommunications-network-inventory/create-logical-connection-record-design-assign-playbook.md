@@ -8,7 +8,7 @@ product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Design and Assign function, Use, Telecommunications Network Inventory]
 ---
 
@@ -422,7 +422,9 @@ Free-form operation note text for this network asset. For example, `Check diesel
 
 ## Result
 
-The change tasks are created and executed for each activity. The logical connection record is created with the associated Configuration items \(CI\).
+The change tasks are created and executed for each activity. The logical connection record is created. The created logical connection automatically associates the interface with its corresponding card or equipment.
+
+**Note:** The system now automatically associates each logical interface with its corresponding card or equipment. With the logical and physical interface alignment enhancement, logical interfaces \(such as VLANs\) and physical interfaces \(such as Gigabyte Ethernet ports\) are mapped to their parent equipment or card. The system establishes a parent relationship for each logical interface using the parent’s unique serial number for accurate identification. This enhancement ensures consistency across systems and prevents duplicate CI creation by aligning identification and relationship logic between logical and physical interfaces.
 
 **Parent Topic:**[Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
 

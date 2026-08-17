@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an alert clustering definition
@@ -22,9 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-To create a tag def users need to use filter to define on which alerts the definition will apply and define a grouping criteria by specifying which field values should be compared to create a group.
+To create a tag definition, users need to use a filter to define which alerts the definition will apply to. They then define a grouping criteria by specifying which field values should be compared to create a group.
 
-To group alerts using tag-based grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 
@@ -36,8 +36,6 @@ To group alerts using tag-based grouping, you can also create a grouping automat
 
 4.  Select **Save**.
 
+    The definition appears in the Tag Based Alert Clustering Definitions table.
 
-## Result
-
-The definition appears in the Tag Based Alert Clustering Definitions table and Service Operations Workspace \(ITOM\) &gt; Grouping automation. Alert groups created by this definition are categorized as Tag Cluster groups.
 

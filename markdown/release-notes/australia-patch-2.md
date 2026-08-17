@@ -38,15 +38,15 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 2
 
--   **[Add the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**
+-   **[Add the ServiceNow Otto context menu to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**
 
-    Use the Now Assist context menu to enable Now Assist skills to be displayed directly in the dashboard.
+    Use the ServiceNow Otto context menu to enable ServiceNow Otto skills to be displayed directly in the dashboard.
 
 -   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)**
 
     If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sl-locale-text-match.md).
 
--   ****
+-   **[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)**
 
     The guarded script evaluator enhances instance security by supporting only a restricted scripting language and detecting or rejecting untrusted scripts that use unsupported JavaScript features.
 
@@ -54,7 +54,7 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
     Install Live Archive to archive data in object storage.
 
--   ****
+-   **[JavaScript APIs supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script-allowed-apis.md)**
 
     Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 
@@ -62,16 +62,16 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
     Live Archive \(formerly Data Archiving\) moves records and attachments to object storage, freeing up space in the primary database while keeping data accessible for compliance and reporting. This capability improves query performance and provides scalable storage for large archives.
 
--   ****
+-   **[Update scripts incompatible with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/incompatible-guarded-scripts.md)**
 -   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md).
 
--   ****
+-   **[Script sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox-environment.md)**
 
     The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 
--   ****
+-   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md)**
 
     The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 

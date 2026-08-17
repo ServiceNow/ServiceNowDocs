@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure the Workplace Concierge email address

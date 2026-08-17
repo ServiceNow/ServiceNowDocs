@@ -89,7 +89,7 @@ Virtual environment within the Execution workspace where automations run in isol
 
 ### Desktop session
 
-Isolated Windows session within the Execution workspace where desktop actions run. The desktop session launches automatically when you test a desktop action or trigger an automation from the Now Assist panel.
+Isolated Windows session within the Execution workspace where desktop actions run. The desktop session launches automatically when you test a desktop action or trigger an automation from the ServiceNow Otto panel.
 
 ## E
 
@@ -101,7 +101,7 @@ Current state of an automation in the Execution workspace. Statuses include Read
 
 ### Execution workspace
 
-Isolated desktop session where desktop actions run during testing or AI agent execution. This workspace launches automatically when you test a desktop action from the Design workspace or trigger an automation from the Now Assist panel. You do not open the Execution workspace directly.
+Isolated desktop session where desktop actions run during testing or AI agent execution. This workspace launches automatically when you test a desktop action from the Design workspace or trigger an automation from the ServiceNow Otto panel. You do not open the Execution workspace directly.
 
 ## M
 
@@ -115,9 +115,9 @@ Method of creating desktop actions by taking screen captures, inserting anchors,
 
 Glossary terms are grouped alphabetically.
 
-### Now Assist panel
+### ServiceNow Otto panel
 
-ServiceNow interface from which users trigger AI agent automations. When you provide instructions through the Now Assist panel, the AI agent selects and runs the appropriate desktop actions in the Execution workspace. Accessible to users with the Now Assist panel user \(now\_assist\_panel\_user\) role.
+ServiceNow interface from which users trigger AI agent automations. When you provide instructions through the ServiceNow Otto panel, the AI agent selects and runs the appropriate desktop actions in the Execution workspace. Accessible to users with the ServiceNow Otto panel user \(now\_assist\_panel\_user\) role.
 
 ## O
 

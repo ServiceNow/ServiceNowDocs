@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Performance Domain table, KPI, SLO, Supplier Lifecycle Operations, Domain]
 breadcrumb: [Primary data tables for SRPM, Supplier Relationship and Performance Management reference, Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

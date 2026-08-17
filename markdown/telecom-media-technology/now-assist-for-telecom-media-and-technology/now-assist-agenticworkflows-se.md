@@ -1,6 +1,6 @@
 ---
-title: Agentic workflows in Now Assist for Service Exchange
-description: Agentic workflows in Now Assist for Service Exchange help users complete tasks and get product information. These workflows include registration assistance and product documentation answers.
+title: Agentic workflows in ServiceNow Otto for Service Exchange
+description: Agentic workflows in ServiceNow Otto for Service Exchange help users complete tasks and get product information. These workflows include registration assistance and product documentation answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-agenticworkflows-se.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-07-03"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Agentic workflows in Now Assist for Service Exchange
+# Agentic workflows in ServiceNow Otto for Service Exchange
 
-Agentic workflows in Now Assist for Service Exchange help users complete tasks and get product information. These workflows include registration assistance and product documentation answers.
+Agentic workflows in ServiceNow Otto for Service Exchange help users complete tasks and get product information. These workflows include registration assistance and product documentation answers.
 
 <table id="table_se_agentic_workflows"><thead><tr><th>
 

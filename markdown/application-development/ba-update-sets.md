@@ -15,7 +15,7 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 When you work with Build Agent, your changes are automatically tracked in update sets so you can review, revert, and deploy them without leaving ServiceNow Studio.
 
-Build Agent tracks every change it makes to your application in update sets. Changes from each checkpoint in a conversation are captured together in a single update set. You can access, review, and open those update sets directly from the Build Agent chat panel and the Current Changes List \(CCL\) page in ServiceNow Studio, without navigating to the platform.
+Build Agent tracks every change it makes to your application in update sets. Changes from each checkpoint in a conversation are captured together in a single update set. You can access, review, and open the update sets directly from the Build Agent chat panel. You can also open the update sets from the Current Changes List \(CCL\) page in ServiceNow Studio, without navigating to the platform.
 
 **Note:** Your instance must be on Australia Patch 3 or later to work with update sets in Build Agent.
 

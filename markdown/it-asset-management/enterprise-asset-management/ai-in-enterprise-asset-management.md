@@ -27,13 +27,13 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 For more information about AI capabilities in Enterprise Asset Management, see the following:
 
--   [Fulfill enterprise asset requests by using the help manage enterprise asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)
--   [Fulfill repair orders by using the help repair enterprise assets agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)
+-   [Fulfill enterprise asset requests by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)
+-   [Fulfill repair orders by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 
--   [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
--   [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+-   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
+-   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 **Important:**
 

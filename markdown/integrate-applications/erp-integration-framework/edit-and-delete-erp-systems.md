@@ -50,5 +50,3 @@ Role required: sn\_erp\_integration.erp\_admin
     5.  Select **Delete**.
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
-

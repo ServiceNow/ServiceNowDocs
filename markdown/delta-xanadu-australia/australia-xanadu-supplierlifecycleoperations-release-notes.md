@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-supplierlifecycleoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -154,7 +154,7 @@ The overall supplier performance dashboard provides detailed information about o
     -   M2M mapping between supplier contact and suppliers also enables supplier contacts to register using a company name across different email domains, thus simplifying onboarding for distributed supplier teams.
     -   M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards. To enable this feature, see [Enable M2M mapping between supplier contact and suppliers](https://www.servicenow.com/docs/access?context=enable-m2m-supplier-contacts&family=yokohama&ft:locale=en-US).
 
--   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
+-   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
     -   View the summarized details of supply-related cases within the **Now Assist Panel** to keep the supplier managers and fulfillers informed about their progress and action items.
     -   Case summarization supports multiple languages.
 -   **[AI driven supplier onboarding](https://www.servicenow.com/docs/access?context=supplier-onboarding-agentic-workflow&family=yokohama&ft:locale=en-US)**
@@ -696,19 +696,7 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
- Australia Early Availability
+Australia Early Availability
 
 -   Enable supplier managers and admins to create and manage smart assessments in bulk for internal and external users.
 -   Enhance email interactions for supplier managers by creating a centralized email view displaying all emails within the Source-to-Pay workspace at case, task, and supplier levels.

@@ -7,7 +7,7 @@ release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-07-31"
 reading_time_minutes: 4
 breadcrumb: [Language Asset Management, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,6 +26,8 @@ Edit the contents of your glossary in Language Asset Management. Modify existing
 Initially you create a glossary in Language Asset Management by uploading a spreadsheet template. If you want to modify any source terms or their translations, or you want to add more items, use the following procedure to make your updates directly in the UI.
 
 **Note:** The same source term may be repeated in a glossary if assigned to different Part of Speech or Product/Service categories. A source term repeated in two different categories is considered to be two different records. Any changes you make to a source term in one category aren't propagated to the same source term in other categories.
+
+The following video demonstrates how to add a translation to a source term.\[Omitted video\] Description: Adding a translation to a source term in Language Asset Management
 
 ## Procedure
 
@@ -75,7 +77,7 @@ Term
 
 Enter the source term \(the original word or phrase\). Terms can contain spaces, special characters, and punctuation marks.Source terms can be written in languages other than English. However, translation requests in Localization Workspace must be from English to non-English languages.
 
-You can enter the same source term multiple times in a glossary, but each variation must be assigned to either a different Part of Speech or a different Product/Service category.
+You can enter the same source term multiple times in a glossary. However, each variation must be assigned to either a different Part of Speech or a different Product/Service category.
 
 </td></tr><tr><td>
 

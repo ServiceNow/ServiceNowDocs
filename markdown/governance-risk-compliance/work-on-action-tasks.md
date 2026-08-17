@@ -1,5 +1,5 @@
 ---
-title: Complete action tasks and report incidents associated with regulations
+title: Complete action tasks and report incidents
 description: Report incidents or security incidents associated with multiple regulations for various legal entities. The automated workflow generates regulatory reporting assessments of IT incidents, and Digital resilience incident \(DRI\) Initial, Intermediate, and Final reports, all within regulatory timelines. Complete the action tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/work-on-action-tasks.html
@@ -10,7 +10,7 @@ reading_time_minutes: 7
 breadcrumb: [Reporting incidents or security incidents for multiple regulations, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Complete action tasks and report incidents associated with regulations
+# Complete action tasks and report incidents
 
 Report incidents or security incidents associated with multiple regulations for various legal entities. The automated workflow generates regulatory reporting assessments of IT incidents, and Digital resilience incident \(DRI\) Initial, Intermediate, and Final reports, all within regulatory timelines. Complete the action tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 
@@ -44,7 +44,7 @@ Role required: sn\_oper\_res.manager
 
 3.  Review the details of the Digital resilience incident reporting case and verify that the owner of the case is a member of the assignment group.
 
-    A sample Digital resilience incident reporting incident is shown where the source is Incident, Source record is in the New state, the source record is an Incident INC0010005, and the date of discovery is listed. The case is assigned to the 'Digital Resilience Incident Managers' assignment group.
+    A sample Digital resilience incident reporting incident is shown. The source is Incident, Source record is in the New state, the source record is an Incident INC0010005, and the date of discovery is listed. The case is assigned to the 'Digital Resilience Incident Managers' assignment group.
 
     \[Omitted image "inci-assigned.png"\] Alt text: Incident assigned.
 
@@ -108,7 +108,7 @@ Role required: sn\_oper\_res.manager
 
     The next action task, 'DRI Intermediate report' is created automatically.
 
-11. Assign the 'DRI Intermediate report' action task to a user from the assignment group, update its state to **Assigned**, respond to the questions, complete the review, and submit the assessment for the 'DRI Intermediate report' action task.
+11. Assign the 'DRI Intermediate report' action task to a user, update its state, respond to questions, complete the review, and submit assessment.
 
     Starting with Digital resilience incident reporting Release 22.0.x, export capabilities for DRIR case tasks are enhanced. Export options are now consolidated into a unified Export drop-down, replacing the previous separate buttons to support multiple formats.
 
@@ -125,7 +125,7 @@ Role required: sn\_oper\_res.manager
 
     The next action task, 'DRI Final report' is created automatically.
 
-12. Assign the 'DRI Final report' action task to a user from the assignment group, update its state to **Assigned**, respond to the questions, complete the review, and submit the assessment for the 'DRI Final report' action task.
+12. Assign the 'DRI Final report' action task to a user from the assignment group, update its state, respond to questions, complete the review, and submit the assessment.
 
     The action task, 'DRI Final report' is complete.
 

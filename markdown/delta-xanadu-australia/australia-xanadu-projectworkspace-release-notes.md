@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-projectworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 16
+last_updated: "2026-08-17"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -188,21 +188,40 @@ Australia
 
 </td><td>
 
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[CWM integration with Project Workspace](https://www.servicenow.com/docs/access?context=cwm-integration-pw&family=australia&ft:locale=en-US)**
+
+See how each project task breaks down and how its status rolls up, directly on the project's planning page, without manually tracking your team's status updates. Turn on the **Show connected tasks** setting to display the CWM tasks and stories that teams are executing as child tasks under each project task.
+
+Spot schedule risks earlier with a date-conflict indicator that flags when a connected item's planned dates fall outside its parent project task. You can review status without CWM access, while your teams continue to track progress in CWM.
+
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Now assist for SPM enhancements](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US)**
+
+Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
+
+-   **[RIDAC enhancements](https://www.servicenow.com/docs/access?context=manage-ridac-pw&family=australia&ft:locale=en-US)**
+    -   The RIDAC menu provides access to AI-Identified Risks, RIDAC by Type \(Risks, Issues, Decisions, Actions, Change Requests tabs\), and All RIDAC.
+    -   Access Risks, Issues, Decisions, Actions, and Change Requests \(RIDAC\) through tabs \(presentation list\) in the RIDAC by Type page.
+
 [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
 
 -   **[Auto-sync resource assignments](https://www.servicenow.com/docs/access?context=realign-resource-assignment-to-task&family=australia&ft:locale=en-US)**
 
 Sync resources automatically with the **sn\_pw.resource\_assignment\_auto\_sync\_enabled** property.
 
--   **[Project Answers Agent](https://www.servicenow.com/docs/access?context=project-question-answers-chatbot&family=australia&ft:locale=en-US)**
+-   **[Project Answers Agent](https://www.servicenow.com/docs/access?context=ask-question-answers-chatbot-pw&family=australia&ft:locale=en-US)**
 
 Use the project answers AI agent to open the Now Assist panel and ask questions about project details. The project answers AI agent supports a broad set of questions across project dimensions and can answer follow-up questions.
 
--   **[Work notes in project insights](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=australia&ft:locale=en-US)**
+-   **[Work notes in project insights](https://www.servicenow.com/docs/access?context=email-project-summary-pw&family=australia&ft:locale=en-US)**
 
 Use task-level work notes as additional context when generating project insights for detailed results. Review insights that reflect both standard task data and work notes content.
 
--   **[AI rationale enhancements](https://www.servicenow.com/docs/access?context=generate-risks-using-ai-na-spm&family=australia&ft:locale=en-US)**
+-   **[AI rationale enhancements](https://www.servicenow.com/docs/access?context=generate-risks-using-ai-pw&family=australia&ft:locale=en-US)**
 
 View task IDs, resource IDs, and other references in the AI Rationale column of AI Project Risks as hyperlinks instead of plain text. Select a link to navigate directly to the related task, resource,or reference.
 
@@ -210,7 +229,7 @@ View task IDs, resource IDs, and other references in the AI Rationale column of 
 
 Export RIDAC data from Project Workspace in CSV, Microsoft Excel, or XML format using the Export RIDAC option in the more actions menu. Select a file type from the export modal to download the data currently visible in the RIDAC grid. Records not visible in the grid aren't included in the export.
 
--   **[Project types](https://www.servicenow.com/docs/access?context=project-types-in-pw&family=australia&ft:locale=en-US)**
+-   **[Project types and project enhancements](https://www.servicenow.com/docs/access?context=project-types-in-pw&family=australia&ft:locale=en-US)**
 
 Configure project types with custom fields and tailored form views across different types of projects.
 
@@ -222,22 +241,22 @@ Streamline collaboration by enabling inline comments in Docs. Select text to add
 
 Email notifications with comment details, document name, workspace name, and document path are sent when a reply is added to your comment or when you're @-mentioned. Each notification includes a button that opens the document and navigates directly to the comment. Edit or delete your comments and choose to show or hide comment highlights. Users with read-only access can add comments and participate in comment threads.
 
--   **[Project plan generation](https://www.servicenow.com/docs/access?context=generate-projects-using-nowassist&family=australia&ft:locale=en-US)**
+-   **[Project plan generation](https://www.servicenow.com/docs/access?context=generate-project-using-ai-pw&family=australia&ft:locale=en-US)**
 
 Use natural language, uploaded files, or both to automatically generate a project plan with tasks, dates, and business cases.
 
 
--   **[Task generation](https://www.servicenow.com/docs/access?context=generate-tasks-using-now-assist&family=australia&ft:locale=en-US)**
+-   **[Task generation](https://www.servicenow.com/docs/access?context=generate-tasks-using-ai-pw&family=australia&ft:locale=en-US)**
 
 Use natural language, uploaded files, or both to automatically populate an empty project with tasks, hierarchy, and dates. Generate and preview AI-created tasks for any project without tasks, including demand-sourced projects, and make edits before tasks are added.
 
--   **[Risk generation](https://www.servicenow.com/docs/access?context=generate-risks-using-ai-na-spm&family=australia&ft:locale=en-US)**
+-   **[Risk generation](https://www.servicenow.com/docs/access?context=generate-risks-using-ai-pw&family=australia&ft:locale=en-US)**
 
 Analyze project data using generative AI and view suggested potential risks in the AI identified risks page. Accept risks to move them to the RIDAC list. Reject risks to remove them from risk list. Regenerate risks to get suggestions based on current project data.
 
--   **[Assign a resource using AI resource finder](https://www.servicenow.com/docs/access?context=assign-resources-using-resource-finder-na&family=australia&ft:locale=en-US)**
+-   **[Assign a resource using AI resource finder](https://www.servicenow.com/docs/access?context=assign-resources-using-resource-finder-pw&family=australia&ft:locale=en-US)**
 
-Identify and assign the best-fit resources to unassigned task assignments using generative AI, which analyzes resource data and generates a fit score and rationale for each available resource based on skills and availability for the task time period. Compare fit scores, AI rationale, and availability for each resource, then confirm the assignment when ready.
+Identify and assign the best-fit resources to unassigned task assignments using generative AI. The AI analyzes resource data and generates a fit score and rationale for each available resource based on skills and availability. Compare fit scores, AI rationale, and availability for each resource, then confirm the assignment when ready.
 
 -   **[Expanded project insights topics](https://www.servicenow.com/docs/access?context=configure-project-insights-generation-skill&family=australia&ft:locale=en-US)**
 
@@ -247,7 +266,7 @@ Use new AI insight topics within portfolio insights, project insights, and statu
     -   Task dependency: Evaluates task relationships to highlight dependency risks and impacts.
     -   Budget fluctuations: Monitors budget changes and highlights significant variances for review.
     -   Scope creep: Detects insights of unplanned growth in a project by comparing the current project state against its first baseline.
--   **[AI status report enhancements](https://www.servicenow.com/docs/access?context=generate-ai-status-report-na&family=australia&ft:locale=en-US)**
+-   **[AI status report enhancements](https://www.servicenow.com/docs/access?context=generate-ai-project-status-report&family=australia&ft:locale=en-US)**
 
 Create AI status reports from an existing template using the Generate from template. Add dynamic tokens to your template to display AI-generated field data in the report document.
 
@@ -262,8 +281,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[AI-generated project status reporting](https://www.servicenow.com/docs/access?context=create-a-status-report-in-project-workspace&family=australia&ft:locale=en-US)**
 
@@ -341,7 +360,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[AI skills in Project Workspace](https://www.servicenow.com/docs/access?context=ai-skills-project-workspace&family=australia&ft:locale=en-US)**
+
+
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -478,7 +500,7 @@ Australia
 
 Install Project Workspace by requesting it from the ServiceNow Store. 
 
- Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+ Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -719,7 +741,13 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Support added for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
+-   Third-party AI models are the default models for all ServiceNow Otto for SPM skills.
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Enable tracking of the hardware requests that are part of a Strategic Portfolio Management \(SPM\) project.
 -   View, assign, and approve resources directly from the Resources page in Project Workspace without navigating to the Resource Management Workspace.

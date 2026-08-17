@@ -1,6 +1,6 @@
 ---
 title: Analyze sentiments in supplier cases
-description: Use the Sentiment Analysis skill in Now Assist for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
+description: Use the Sentiment Analysis skill in ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.html
 release: australia
@@ -9,16 +9,17 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+keywords: [Supplier Lifecycle Operations, SLO, Source-to-Pay Workspace, Sentiment Analysis, ServiceNow Otto, sentiment trend, supplier case]
+breadcrumb: [Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Analyze sentiments in supplier cases
 
-Use the Sentiment Analysis skill in Now Assist for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
+Use the Sentiment Analysis skill in ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller and sn\_slm.fulfiller
 

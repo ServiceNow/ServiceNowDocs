@@ -55,15 +55,15 @@ Playbooks ensure that the correct process is applied consistently across every r
 
     FSO includes a broad set of predefined playbooks covering card operations, complaint management, onboarding, loan and deposit operations, and insurance servicing.
 
--   **Healthcare and Life Sciences: medical device management**
-
-    A healthcare organization configures playbooks to guide clinical engineers through the review and processing of AEM requests for medical devices, from initial request capture through assessment, regulatory review, and final approval. At each stage, configured activities ensure the required documentation and sign-offs are completed before the process can advance. Healthcare and Life Sciences includes predefined playbooks for enrollment cases and medical device workflows in the Patient Support Services and Healthcare CMMS applications.
-
 -   **Public Sector Digital Services: government service delivery**
 
-    A government agency configures playbooks for benefit applications, license renewals, and non-emergency service requests, each reflecting the stages and activities agents need to complete for that case type. Guided decision activities branch based on constituent responses to recommend the correct next action.
+    A government agency configures playbooks for benefit applications, license renewals, and non-emergency service requests, each reflecting the stages and activities agents need to complete for that case type. Guided decision activities branch based on constituent responses to recommend the correct next action. Administrators can also configure optional activities that agents can insert during a playbook run when a case requires it. For example, scheduling a follow-up appointment or requesting additional documentation from a constituent. The corresponding playbook appears automatically in the workspace when an agent creates a case, or when a constituent submits a request through the Government Service Portal.
 
-    Administrators can also configure optional activities that agents can insert during a playbook run when a case requires it. For example, scheduling a follow-up appointment or requesting additional documentation from a constituent. The corresponding playbook appears automatically in the workspace when an agent creates a case, or when a constituent submits a request through the Government Service Portal. Public Sector Digital Services includes predefined playbooks for social benefits, license and permit, information request, and service request cases.
+    Public Sector Digital Services includes predefined playbooks for social benefits, license and permit, information request, and service request cases.
+
+-   **Healthcare and Life Sciences: medical device management**
+
+    A healthcare organization configures playbooks to guide clinical engineers through the review and processing of AEM requests for medical devices, from initial request capture through assessment, regulatory review, and final approval. At each stage, configured activities ensure the required documentation and sign-offs are completed before the process can advance.
 
 
 **Note:** Playbook applications must be installed separately from the core CSM and FSM products. They are available from the ServiceNow Store. Some applications have dependencies on additional plugins. For example, Case Playbooks for Onboarding and Complaints require the Customer Service Case Types plugin \(com.snc.csm\_case\_types\) and the Customer Service Case Action Status plugin \(com.snc.csm\_action\_status\). Review the application listing in the Store for full dependency and licensing information before installation.

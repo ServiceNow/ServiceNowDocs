@@ -1,5 +1,5 @@
 ---
-title: Customize the Now Assist for IT Service Management \(ITSM\) change request summarization skill
+title: Customize the ServiceNow Otto for IT Service Management \(ITSM\) change request summarization skill
 description: Enhance the efficiency of the change request summarization skill by customizing it with different inputs and prompts using the skill configuration guided setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-change-request-summarization-skill.html
@@ -9,26 +9,26 @@ classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize the Now Assist for IT Service Management \(ITSM\) change request summarization skill
+# Customize the ServiceNow Otto for IT Service Management \(ITSM\) change request summarization skill
 
 Enhance the efficiency of the change request summarization skill by customizing it with different inputs and prompts using the skill configuration guided setup.
 
 ## About this task
 
-You can modify and edit prompts in the Now Assist Skill Kit \(NASK\) by selecting the **Edit prompt in Now Assist Skill Kit** option in step 6.
+You can modify and edit prompts in the AI Skill Kit by selecting the **Edit prompt in AI Skill Kit** option in step 6.
 
 ## Before you begin
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
-You need the sn\_skill\_builder.admin role to customize the prompt in the Now Assist Skill Kit \(NASK\).
+You need the sn\_skill\_builder.admin role to customize the prompt in the AI Skill Kit.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the **Technology** feature group, select **ITSM** from the product list.
 
@@ -48,7 +48,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -87,8 +87,6 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         **Important:** If you add a new field with the same name as an existing field, the name and description of the new field will override the description of the existing field.
 
-        \[Omitted image "now-assist-cust-change-summarization-1.png"\] Alt text: Customizing the change request summarization skill with input data
-
     2.  Add rule conditions to determine when the input template is used.
 
         By default, record state determines which input template the LLM uses.
@@ -96,8 +94,6 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
     3.  Add additional input data sources.
 
         The data sources could include related tables, activity streams, and relationships. The Change Risk Details, Conflict, Applied Change Policy, Impacted CIs, and Affected CIs related input tables are available by default. You can edit these tables or add new related tables, activity streams, or relationships by selecting **+New data source** and then selecting the desired option.
-
-        \[Omitted image "now-assist-cust-change-summarization-2.png"\] Alt text: Add new data source
 
 <table id="table_pcg_3zw_pdc"><thead><tr><th>
 
@@ -153,15 +149,15 @@ Attachment added to the change request.
 
     Review and test the prompt for each input template configuration.
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d353847e436">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d359922e428">
 
 To
 
-</th><th align="left" id="d353847e439">
+</th><th align="left" id="d359922e431">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d353847e445">
+</th></tr></thead><tbody><tr><td id="d359922e437">
 
 **Evaluate a prompt for each input template**
 
@@ -172,19 +168,19 @@ Do this
     -   Authorize &amp; Scheduled
     -   Implement &amp; Review
     -   Closed
-2.  Select **Run Test**. \[Omitted image "now-assist-cust-prompt-change-summ-1.png"\] Alt text: Evaluate prompt output for the change request summarization skill
+2.  Select **Run Test**.
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the change state selections and retest as needed.
 
-</td></tr><tr><td id="d353847e484">
+</td></tr><tr><td id="d359922e471">
 
-**Edit the prompt in the Now Assist Skill Kit and then test the prompt**
+**Edit the prompt in the AI Skill Kit and then test the prompt**
 
 </td><td>
 
-1.  Select **Edit prompt in Now Assist Skill Kit**.
-2.  Select **Go to Now Assist Skill Kit**. \[Omitted image "now-assist-cust-promt-change-summarization-2.png"\] Alt text: Edit prompt in Now Assist Skill Kit
-3.  In the **Skill contents** pane, select the **Edit Skill Input** icon and add any inputs that you'd like to add to the prompt. \[Omitted image "now-assist-cust-prompt-change-summ-3.png"\] Alt text: Edit skill input in Now Assist Skill Kit
-4.  In the **Prompt** screen, clone the required prompt and save it. \[Omitted image "now-assist-cust-prompt-change-summ-4.png"\] Alt text: Clone and edit prompt in Now Assist Skill Kit
+1.  Select **Edit prompt in AI Skill Kit**.
+2.  Select **Go to AI Skill Kit**.
+3.  In the **Skill contents** pane, select the **Edit Skill Input** icon and add any inputs that you'd like to add to the prompt.
+4.  In the **Prompt** screen, clone the required prompt and save it.
 5.  Select **Run test**.
 
 The prompt displays in the Test prompt screen.
@@ -212,17 +208,17 @@ The prompt displays in the Test prompt screen.
 
     Configure where to display the change request summarization skill.
 
-    1.  Enable either the **In-product desktop**, or **Now Assist panel** option.
+    1.  Enable either the **In-product desktop**, or **ServiceNow Otto panel** option.
 
-        -   **In-product desktop**: When selected, Now Assist skills are displayed in all ITSM products \(on forms and in workspaces\).
+        -   **In-product desktop**: When selected, AI skills are displayed in all ITSM products \(on forms and in workspaces\).
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, AI skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 

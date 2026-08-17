@@ -45,3 +45,5 @@ Troubleshooting the scheduled jobs, system properties, and Microsoft Teams flow 
 
 [Configure Slack chat connector for major security incidents]()
 
+[Customize SI to MSI flows \(optional\)]()
+

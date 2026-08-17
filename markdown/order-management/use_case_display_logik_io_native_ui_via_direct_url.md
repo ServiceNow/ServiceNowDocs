@@ -1,5 +1,5 @@
 ---
-title: Use case: Displaying the ServiceNow CPQ native UI via direct URL
+title: Use case: Displaying the CPQ native UI via direct URL
 description: Learn how to initialize a configuration UI using a URL instead of an external library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_display\_logik\_io\_native\_ui\_via\_direct\_url.html
@@ -7,19 +7,19 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Use case: Displaying the ServiceNow CPQ native UI via direct URL
+# Use case: Displaying the CPQ native UI via direct URL
 
 Learn how to initialize a configuration UI using a URL instead of an external library.
 
-This article provides an outline of how a ServiceNow CPQ Configuration UI can be initialized using a configuration URL rather than relying on an external library \(such as easyXDM\).
+This article provides an outline of how a CPQ Configuration UI can be initialized using a configuration URL rather than relying on an external library \(such as easyXDM\).
 
 The base configuration URL is in the format `https://{tenant}.cpq/ui/configure/{configurableProductId}`, where:
 
--   \{tenant\} is the ServiceNow CPQ tenant that you are using, which can be found in Salesforce or if using ServiceNow CPQ headless, the base URL of the Admin experience
--   \{configurableProductId\} is the Product ID of the ServiceNow CPQ Configurable Product to use for the configuration
+-   \{tenant\} is the CPQ tenant that you are using, which can be found in Salesforce or if using CPQ headless, the base URL of the Admin experience
+-   \{configurableProductId\} is the Product ID of the CPQ Configurable Product to use for the configuration
 
 Example configuration URL: `https://demo6.demo.logik.io/ui/configure/01t5f000006QKynAAG?v=1`
 
@@ -89,7 +89,7 @@ Configuration ID
 
 </td><td>
 
-ServiceNow CPQ UUID of existing configuration to load
+CPQ UUID of existing configuration to load
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Committed Configuration ID
 
 </td><td>
 
-When a contracted order is amended, ServiceNow CPQ identifies the prior configuration ID. That ID then becomes the committed Configuration ID.
+When a contracted order is amended, CPQ identifies the prior configuration ID. That ID then becomes the committed Configuration ID.
 
 </td></tr><tr><td>
 
@@ -255,7 +255,7 @@ See note below
 
 </td><td>
 
-Runtime token from ServiceNow CPQ Admin Setup
+Runtime token from CPQ Admin Setup
 
 </td></tr><tr><td>
 
@@ -292,7 +292,7 @@ Currency ISO Code
 </td></tr></tbody>
 </table>**Note:** When using the runtime token \(rt\) parameter, it is highly recommended to also include the rta as well to ensure that all of the requests can be authenticated when using the Firefox or Safari browsers.
 
-If you are not accessing the configuration URL where you have already authenticated \(via Salesforce or directly\), the runtime token will be required to authenticate. If you are accessing the configuration URL before authenticating through the associated SFDC environment or accessing the configuration URL for a headless environment, the ServiceNow CPQ tenant URL needs to be listed as an origin for the leveraged runtime client. For example, `https://<yourCPQUrl>.test.cpq`.
+If you are not accessing the configuration URL where you have already authenticated \(via Salesforce or directly\), the runtime token will be required to authenticate. If you are accessing the configuration URL before authenticating through the associated SFDC environment or accessing the configuration URL for a headless environment, the CPQ tenant URL needs to be listed as an origin for the leveraged runtime client. For example, `https://<yourCPQUrl>.test.cpq`.
 
 If the version parameter is not included, the UI will not load, and you will receive the following error: "Error: A version must be specified."
 
@@ -306,13 +306,13 @@ Unlike when using the easyXDM example to initialize a configuration, configurati
 
 Considerations for using the configuration URL as the top level window URL:
 
--   On the save or cancel actions, the ServiceNow CPQ UI will make the call to the ServiceNow CPQ backend to save or cancel the configuration. These calls can be viewed in the Network tab of the browser to see the data being sent and returned.
+-   On the save or cancel actions, the CPQ UI will make the call to the CPQ backend to save or cancel the configuration. These calls can be viewed in the Network tab of the browser to see the data being sent and returned.
 -   If a return URL is included, the UI will attempt to set the window location to that URL on save \("Quote"\) or on cancel.
 
 Considerations for using the configuration URL in an iframe:
 
--   If a return URL is included, the UI will attempt to set the window location to that URL on save \("Quote"\) or on cancel. If a return URL is not included, the ServiceNow CPQ UI will broadcast a postMessage up to the parent, with the UUID on save \(such as `{"uuid": "8b88c843-d10b-468b-8c49-17f8c9698799"}`\) and an empty object on cancel \(`{}`\).
--   For either implementation, after executing the save or cancel action, the configuration is removed. Subsequent save actions will result in a 404 error with an error message: "No Rules Engine found for Tenant with Config ID '&lt;ServiceNow CPQ UUID&gt;'. Subsequent cancel actions will also result in a 404 error.
+-   If a return URL is included, the UI will attempt to set the window location to that URL on save \("Quote"\) or on cancel. If a return URL is not included, the CPQ UI will broadcast a postMessage up to the parent, with the UUID on save \(such as `{"uuid": "8b88c843-d10b-468b-8c49-17f8c9698799"}`\) and an empty object on cancel \(`{}`\).
+-   For either implementation, after executing the save or cancel action, the configuration is removed. Subsequent save actions will result in a 404 error with an error message: "No Rules Engine found for Tenant with Config ID '&lt;CPQ UUID&gt;'. Subsequent cancel actions will also result in a 404 error.
 
 ## Configuration result
 

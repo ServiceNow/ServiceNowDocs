@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
+title: Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
+Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for TMT. For information needed to install the Now Assist plugins and configure generative AI skills, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for TMT. For information needed to install the ServiceNow Otto plugins and configure generative AI skills, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 <table id="table_vy3_nbk_5bc"><thead><tr><th>
 
@@ -98,31 +98,31 @@ Data Center
 Remote Hands Case Summary
 
 </td></tr></tbody>
-</table>**Note:** The ServiceNow® large language model \(Now LLM Service\) is currently the only provider for this Now Assist application's skills.
+</table>**Note:** The ServiceNow® large language model \(Now LLM Service\) is currently the only provider for this ServiceNow Otto application's skills.
 
 ## Procedure
 
-1.  Install the Now Assist for Telecommunications, Media and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
+1.  Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+2.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-    If you’re already in the Now Assist Admin console, you can select the **Now Assist Skills** tab on the screen.
+    If you’re already in the AI Admin Hub console, you can select the **AI Skills** tab on the screen.
 
-3.  Activate and configure the skills for the Now Assist for TMT features.
+3.  Activate and configure the skills for the ServiceNow Otto for TMT features.
 
     These features are grouped under the Customer workflow group. Each feature has its associated skills.
 
 4.  Select **TMT** under the **Customer** workflow group.
 
-5.  On the Now Assist skills for TMT page, select **Activate skill** for the skill that you would like to activate.
+5.  On the AI skills for TMT page, select **Activate skill** for the skill that you would like to activate.
 
     The page for the skill that you activated opens with the General details section highlighted.
 
 6.  Review the inputs for the selected skill.
 
-    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
+    The input table fields are read-only. For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
 7.  After reviewing the inputs for the selected skill, select **Save and continue** to go to the next step.
 
@@ -137,9 +137,9 @@ Remote Hands Case Summary
 10. Select where you would like to display the skill.
 
     -   To display the skill on the Mobile Agent app, select **In-product**.
-    -   To display the skill in the Now Assist panel, select **Now Assist panel**.
+    -   To display the skill in the ServiceNow Otto panel, select **panel**.
 
-        For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+        For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
 11. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Result improvement rules, Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Result improvement rules, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Share result improvement rules between search profiles
@@ -18,7 +18,7 @@ Make your search experiences more consistent by configuring a search profile to 
 
 ## Before you begin
 
-You must have [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) installed.
+You must have [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) installed.
 
 Role required: ais\_admin
 

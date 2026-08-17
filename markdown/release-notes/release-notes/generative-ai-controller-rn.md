@@ -50,11 +50,11 @@ Generative AI Controller is installed or updated when you install or update a No
 
 ## Activation information
 
-Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Localization information
 
-Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the Now Assist Admin console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the AI Admin Hub console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
 
 ## Related ServiceNow applications and features
 
@@ -82,7 +82,7 @@ Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now
 
     The ServiceNow® Generative AI Controller lets you integrate third-party LLMs with your workflows.
 
--   ****
+-   **[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery.md)**
 
     The ServiceNow® HR Service Delivery application gives your employees the service experience that they deserve. By providing employees with a single place to manage their work needs while shielding them from back-end complexity, you can deliver a great experience to meet the demands of a current-day workforce.
 

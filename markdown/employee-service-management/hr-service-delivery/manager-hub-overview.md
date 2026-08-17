@@ -58,23 +58,23 @@ A predefined set of configurations are also available to use after you have acti
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-managerhub.md) \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Manager Hub Detailed information on Manager Hub
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/explore-managerhub.md) \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Manager Hub
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started Configure the application to get started
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started
 
 </td><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-manager-hub.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Support your team and find resources to grow as leaders Support your team and find resources to grow as leaders
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-manager-hub.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Support your team and find resources to grow as leaders
 
 </td></tr><tr><td>
 
-[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-mh-jc.md) \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Manager Hub capabilities by integrating with other applications Extend Manager Hub capabilities by integrating with other applications
+[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-mh-jc.md) \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Manager Hub capabilities by integrating with other applications
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about user roles, tables, default configurations in Manager Hub Get details about user roles, tables, default configurations in Manager Hub
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about user roles, tables, default configurations in Manager Hub
 
 </td><td>
 

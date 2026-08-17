@@ -14,6 +14,8 @@ breadcrumb: [Working with digital integration management in Enterprise Architect
 
 Add or edit a digital integration, manage architectural artifacts, and information objects of a digital integration in Enterprise Architecture Workspace.
 
+-   **[Register a digital integration conversationally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/register-digital-integration-using-conv-exp.md)**  
+Use the conversational experience of ServiceNow Otto in Virtual Agent to register a digital integration from any application that supports Virtual Agent.
 -   **[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-integ.md)**  
 View the list of all your digital integrations in the Enterprise Architecture Workspace.
 -   **[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-integ.md)**  

@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring My Resources, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Explore My Resources, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Manage My Resources and resource filters

@@ -1,16 +1,16 @@
 ---
-title: Set a filter to follow another filter in a many-to-many relationship
+title: Set a filter to follow another filter
 description: In some cases, values on a pair of filters can refer to multiple values on each other. For one such filter to follow another, it must go through a connecting table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/set-filter-to-follow-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Select or cascading filters, Filters, Platform Analytics experience, Platform Analytics]
 ---
 
-# Set a filter to follow another filter in a many-to-many relationship
+# Set a filter to follow another filter
 
 In some cases, values on a pair of filters can refer to multiple values on each other. For one such filter to follow another, it must go through a connecting table.
 
@@ -24,7 +24,7 @@ In most cases, a filter follows another filter either in a one-to-one relationsh
 
 If the values on each filter can refer to multiple values on the other filter \(a many-to-many relationship\), you have to select a connecting table. This connecting table has a unique record for every possible reference between the two filters. The connecting tables between two tables are defined in the Collection \[sys\_collection\] and Many to Many Definition \[sys\_m2m\] tables. Only administrators can access these tables.
 
-Connection tables come predefined for any relevant tables included in the base system or in Platform Analytics Solutions. However, if you want to use a custom table in a many-to-many relationship, you must define that relationship in the Many to Many Definition table. For more information, see [Create a many-to-many table relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAManyToManyRelationship.md).
+**Note:** Connection tables come predefined for any relevant tables included in the base system or in Platform Analytics Solutions. However, if you want to use a custom table in a many-to-many relationship, you must define that relationship in the Many to Many Definition table. Instructions on doing so are outside the scope of this topic. For more information, see [Create a many-to-many table relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAManyToManyRelationship.md).
 
 ## Procedure
 
@@ -56,4 +56,26 @@ Connection tables come predefined for any relevant tables included in the base s
 
 6.  Save the dashboard and exit editing mode.
 
+
+## Filter users by their manager
+
+In this example, you pick an assignment group and see which incidents are assigned to each member of the group.
+
+1.  Start by creating a dashboard and adding a List of incidents.
+
+    \[Omitted image "list-incidents.png"\] Alt text: Unfiltered list of incidents.
+
+2.  Add a single select filter on the Group \[sys\_user\_group\] table, with no fields specified.\[Omitted image "group-filter-config.png"\] Alt text: Configuration panel of filter on the Group table, of Group records.
+3.  Add another single select filter, of data on the User \[sys\_user\] table with no fields specified.
+4.  On this filter, add under Data to filter the "Assigned to" field on the Incident \[incident\] table.
+
+    \[Omitted image "incident-ass-to-filter.png"\] Alt text: Filter on User data with the Incident table Assigned to field as a second target.
+
+5.  Scroll down the Configuration panel to the Follow other filters section.
+6.  Under Filters with table connections, toggle on **Follow Group** and select the Group Member \[sys\_user\_grmember\] connecting table.\[Omitted image "grmember-connecting-table.png"\] Alt text:
+7.  Save the dashboard and exit editing mode.
+
+Now, when you select a group and then select a member of that group, you filter the incidents by that member.
+
+\[Omitted image "m2m-filter-in-use.gif"\] Alt text: The example filter being used to filter incidents.
 

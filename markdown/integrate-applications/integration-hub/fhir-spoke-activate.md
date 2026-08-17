@@ -36,7 +36,7 @@ HL7 FHIR Spoke is distributed as a scoped application in the ServiceNow Store. A
 
 1.  Request the HL7 FHIR Spoke application from the ServiceNow Store and install it on your instance.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 2.  Navigate to **All** &gt; **System Definition** &gt; **Plugins** and confirm that the four required plugins listed in the prerequisites are active.
 

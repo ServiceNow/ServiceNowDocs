@@ -9,14 +9,14 @@ classification: document-intelligence
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Document Intelligence, Enable AI experiences]
+breadcrumb: [Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Integrating Document Intelligence with other applications
 
 Extend the capabilities of Document Intelligence to other ServiceNow applications. Other applications can take advantage of document classification and extraction using Document Intelligence.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 -   **[Integrate with a custom application or workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/configure-integration-setup.md)**  
 Configure an integration to trigger document task processing or value extraction. Integrations can be used to quickly set up flows with other applications.
@@ -29,5 +29,5 @@ Document Intelligence provides document extraction capabilities to Accounts Paya
 -   **[Integrate with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/integrate-docintel-automation-center.md)**  
 Use Automation Center to discover opportunities to automate document processing with Document Intelligence.
 
-**Parent Topic:**[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md)
+**Parent Topic:**[Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md)
 

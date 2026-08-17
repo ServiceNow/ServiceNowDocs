@@ -27,7 +27,7 @@ Role required:
 
 1.  Use the name and password that you created during the registration process to log in to the Customer Service Portal.
 
-    See  for details.
+    See [Using the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-customer-portal.md) for details.
 
 2.  Select **My Lists** to view the account onboarding cases and case tasks.
 
@@ -60,7 +60,7 @@ Role required:
 
     The following details are displayed for each case task:
 
-    -   Header section that provides information about the case task including case number, parent, or onboarding case with which the task is associated, the account name, and status of the task.
+    -   Header section that provides information about the case task including case number, parent, associated onboarding case, the account name, and status of the task.
     -   The left-hand section provides the following details:
         -   General instructions: Provides a short description and a detailed case description. Select **View More** to view all the details related to the case.
         -   Shared articles: Shows articles that have been shared with you. Select the article link to view details.

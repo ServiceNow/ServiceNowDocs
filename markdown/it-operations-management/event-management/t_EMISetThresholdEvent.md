@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Set a threshold to suppress alert generation
@@ -21,6 +21,8 @@ The event threshold is the rate upon which Event Management generates an alert. 
 Role required: evt\_mgmt\_admin
 
 ## About this task
+
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 You can configure the properties in an event rule to create alerts, suppress alert generation, or close existing alerts according to a specified threshold. The threshold is based on the value of event fields or number of occurrences over a specified period.
 
@@ -86,7 +88,7 @@ In this scenario, an alert is generated since in all events the elapsed time is 
 -   When configuring an event rule to create or close alerts according to a threshold, events that arrive at the same second, as determined by the **time\_of\_event** field, are skipped. This occurs because these events are considered to be duplicates.
 -   When threshold conditions are configured, alerts close when the **Close Alert Operator** condition is met, and not when an event is received with **Severity = Clear** or **Resolution state = Closing**.
 
-To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 

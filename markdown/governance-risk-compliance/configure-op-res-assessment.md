@@ -28,7 +28,7 @@ Create your own questionnaire \(assessment\) template and request the responses 
 
 2.  To create an assessment template, click **New** as shown in the following example.
 
-    \[Omitted image "admin-assess-temp-new.png"\] Alt text: New risk assessment.
+    \[Omitted image "admin-assess-temp-new.png"\] Alt text: Risk assessment.
 
 3.  On the Assessment Metric Type form, fill in the fields and click **Submit**.
 

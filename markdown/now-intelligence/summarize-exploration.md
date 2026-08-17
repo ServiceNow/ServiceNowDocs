@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Summarize an exploration
@@ -16,7 +16,7 @@ Use AI to generate a summary of an exploration. If you update the exploration, y
 
 ## Before you begin
 
-To access the AI summarization tool, the exploration summarization skill must be activated. For more information, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-now-ass-explorer.md).
+To access the AI summarization tool, the exploration summarization skill must be activated. For more information, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md).
 
 Role required: now\_assist\_explorer\_user. You need editing rights to the exploration.
 
@@ -42,5 +42,5 @@ You can also delete a summary when you no longer need it. Press the **Delete** b
 
 **Note:** The Regenerate and Delete summary actions are not available if the exploration summarization skill is deactivated or the exploration is made read-only.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
 

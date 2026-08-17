@@ -16,5 +16,5 @@ Several types of components are installed with activation of the Impact plugin, 
 
 For roles specific to Instance Observer, see [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md).
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

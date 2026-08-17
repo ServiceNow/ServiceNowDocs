@@ -17,7 +17,7 @@ breadcrumb: [Getting started with the Asset library in Assistant Designer, Build
 
 Preview, test, and debug topics that use large language models \(LLMs\) in the Assistant Designer chat window.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 ## About testing LLM topics
 
@@ -25,7 +25,7 @@ You can test your topic's functions by running your conversation in a chat test 
 
 If you're using the [Virtual Agent integrations with third-party messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md), elements in your conversation might appear differently in third-party messaging applications. Test your conversations in any third-party applications where you want to deploy Virtual Agent.
 
-**Note:** If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
+**Note:** If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 
 ## Starting a test
 
@@ -40,7 +40,7 @@ You can find LLM testing option on the Virtual Agent Designer canvas.
     \[Omitted image "va-test-ui-options-llm-4.png"\] Alt text: Assistant Designer Asset library list and topic canvas views. Test options on both are highlighted.
 
 
-The chat test window opens in the Now Assist in Virtual Agent chat widget.
+The chat test window opens in the ServiceNow Otto in Virtual Agent chat widget.
 
 \[Omitted image "test-llm-widget.png"\] Alt text:
 
@@ -54,7 +54,7 @@ If the topic is associated with multiple LLM assistants, select the **Test skill
 
 ## Feedback
 
-You can provide feedback to each utterance made by the LLM by selecting from the like thumbs-up icon \[Omitted image "llm-thumbs-up-like.png"\] Alt text: or dislike thumbs-down icon \[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: options that appear when you hover over an utterance. All LLM user inputs except the Input Collector have these feedback options.
+You can provide feedback to each utterance made by the LLM by selecting from the like thumbs-up icon \[Omitted image "llm-thumbs-up-like.png"\] Alt text: or dislike thumbs-down icon \[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: options. The options appear when you hover over an utterance. All LLM user inputs except the Input Collector have these feedback options.
 
 \[Omitted image "llm-test-thumbs-up-down.png"\] Alt text: LLM feedback options.
 

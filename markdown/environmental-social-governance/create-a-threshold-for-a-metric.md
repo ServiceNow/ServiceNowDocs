@@ -18,7 +18,9 @@ Create thresholds for metrics and metric definitions to monitor performance. Thr
 
 Role required: sn\_esg.admin, sn\_esg.program\_manager, or sn\_esg.metrics\_manager
 
-**Note:** Thresholds can be applied to quantitative metric definitions and composite metric definitions \(CMDs\). For both types, the Thresholds related list is only visible when the direction is set to Minimize or Maximize. If the direction is set to None or Milestone, the Thresholds related list is hidden.
+**Note:**
+
+Thresholds can be applied to quantitative metric definitions and composite metric definitions \(CMDs\).
 
 ## About this task
 

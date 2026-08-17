@@ -18,7 +18,7 @@ You can document the details of your business continuity plan in separate docume
 
 When a business continuity plan is created, it populates one or more documentation sections that are selected in the plan template.
 
-The Business Continuity Management application provides the documentation sections that you are installed with the demo data in the plan template:
+The Business Continuity Management application provides the documentation sections that you have installed with the demo data in the plan template:
 
 -   BCP-Assumptions
 -   BCP-Objectives

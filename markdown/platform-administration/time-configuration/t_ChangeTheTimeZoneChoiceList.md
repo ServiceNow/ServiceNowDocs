@@ -26,7 +26,7 @@ To add or remove time zones from the list of time zones:
 
     Notice that the default time zone is **System \(America/Los\_Angeles\)**.
 
-2.  Right-click **Time zone**, and then select Personalize Choices.
+2.  Right-click the Time zone label, and then select **Configure Choices**.
 
 3.  Highlight the desired time zone from the **Available** or **Selected** lists, and then **Add** or **Remove** the time zones as needed.
 

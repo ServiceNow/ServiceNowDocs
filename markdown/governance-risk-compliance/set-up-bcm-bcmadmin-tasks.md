@@ -18,7 +18,7 @@ If you are the BCM administrator, you can set up the Business Continuity Managem
 
 The administrative tasks that are associated with the BCM application are listed in the **General Administration** module in the application UI as shown in the example.\[Omitted image "gen-admin-module.png"\] Alt text: General Administration module.
 
-The Business Continuity Management administrator with the sn\_bcm.admin role is responsible to perform the administrative tasks that are associated with the Business Continuity Management application.
+The Business Continuity Management administrator with the sn\_bcm.admin role is responsible for performing the administrative tasks that are associated with the Business Continuity Management application.
 
 Business Continuity Management administrators perform these administrative tasks:
 
@@ -30,7 +30,7 @@ Business Continuity Management administrators perform these administrative tasks
 
 ## Custom queue for the Update dependencies process
 
-Previously, Update dependencies events were added to the platform default queue, which is shared across all ServiceNow applications. During periods of high activity, this could result in delays in processing BCM dependency updates — either because other applications saturated the queue, or because a long-running BCM process affected other items in it.
+Previously, Update dependencies events were added to the platform default queue, which is shared across all ServiceNow applications. During periods of high activity, this could result in delays in processing BCM dependency updates. It can happen either because other applications saturated the queue, or because a long-running BCM process affected other items in it.
 
 With the Australia release and later, the Update dependencies process uses a dedicated custom queue \(bcm\_dependencies\) instead of the platform default queue. This is a backend change with no visible indicator in the UI.
 

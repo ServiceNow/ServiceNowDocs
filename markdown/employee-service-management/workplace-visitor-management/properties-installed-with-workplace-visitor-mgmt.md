@@ -92,3 +92,5 @@ This property specifies the sys\_id of the badge template that is used if no bad
 
 [Additional requirement form]()
 
+[Differences between Workplace Visitor Management versions]()
+

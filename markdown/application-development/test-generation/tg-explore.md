@@ -8,8 +8,8 @@ product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+reading_time_minutes: 2
+breadcrumb: [Test generation, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Exploring Test generation
@@ -17,10 +17,6 @@ breadcrumb: [Test generation, Use generative AI, Now Assist for Creator, Agentic
 If you are new to Test generation application, read this overview to learn what the app can do.
 
 Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
-Follow the gif to create tests from natural language leveraging AI power.
-
-\[Omitted image "tg-gif.gif"\] Alt text: Gif showing the working of Test generation
 
 ## Test generation overview
 
@@ -31,7 +27,7 @@ Revolutionize your test automation with Test generation application. Simply outl
 -   Test generation application generates comprehensive test cases, ensuring thorough testing coverage.
 -   You can keep modifying the prompt without saving the generated tests until the final objective has been attained.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Test generation users
 
@@ -57,6 +53,4 @@ To learn more about using Test generation, see:
 
 -   [Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
 -   [Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
-
-**Parent Topic:**[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
 

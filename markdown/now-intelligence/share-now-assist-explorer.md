@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Share and collaborate on an exploration
@@ -26,7 +26,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Create or open the exploration that you want to work on with others.
 
@@ -50,7 +50,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d215583e175">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d217574e175">
 
 **Add as viewer**
 
@@ -58,7 +58,7 @@ Participants \(shared with editing rights\) in an exploration can work together 
 
 Grant only viewing rights to the users you are sharing the exploration with. They cannot edit it.
 
-</td></tr><tr><td id="d215583e184">
+</td></tr><tr><td id="d217574e184">
 
 **Add as editor**
 
@@ -76,5 +76,5 @@ Grant editing rights to the users you are sharing the exploration with. They are
 
 You can add or remove users to share the exploration with. You can also change the rights of the users who you have shared the exploration with.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
 

@@ -1,33 +1,33 @@
 ---
-title: Caching for Now Assist Q&amp;A Genius Results
-description: AI Search provides two query-time caches to improve search performance for Now Assist Q&amp;A Genius Results. Caching enables AI Search to return previously generated Now Assist Q&amp;A Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.Improve performance for Now Assist Q&amp;A Genius Results by pinning frequently used answers in the second-level cache. Pinning an answer exempts it from the cache's purge mechanism.
+title: Caching for Knowledge base articles Genius Results
+description: AI Search provides two query-time caches to improve search performance for Knowledge base articles Genius Results. Caching enables AI Search to return previously generated answers without submitting knowledge articles to the Now LLM Service for answer generation.Improve performance for Knowledge base articles Genius Results by pinning frequently used answers in the second-level cache. Pinning an answer exempts it from the cache's purge mechanism.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/caching-now-assist-q-a-gr.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-25"
 reading_time_minutes: 9
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist Q&amp;A Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Caching for Now Assist Q&amp;A Genius Results
+# Caching for Knowledge base articles Genius Results
 
-AI Search provides two query-time caches to improve search performance for Now Assist Q&amp;A Genius Results. Caching enables AI Search to return previously generated Now Assist Q&amp;A Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.
+AI Search provides two query-time caches to improve search performance for Knowledge base articles Genius Results. Caching enables AI Search to return previously generated answers without submitting knowledge articles to the Now LLM Service for answer generation.
 
-## Now Assist Q&amp;A Genius Results caching overview
+## Knowledge base articles Genius Results caching overview
 
-When a search query triggers a Now Assist Q&amp;A Genius Result configuration, AI Search uses the search query and the sys\_id of the search's top-ranked knowledge article search result to look for cached article summaries. If no article summary is found in the active caches, AI Search submits the search query and article sys\_id to the Now LLM Service for answer generation.
+When a search query triggers a Knowledge base articles Genius Result configuration, AI Search uses the search query and the sys\_id of the search's top-ranked knowledge article search result to look for cached article summaries. If no article summary is found in the active caches, AI Search submits the search query and article sys\_id to the Now LLM Service for answer generation.
 
-**Note:** By default, AI Search only uses the first-level cache and the Now LLM Service when finding Now Assist Q&amp;A Genius Result answers. To enable the second-level cache or disable use of the Now LLM Service, administrators can change the operational mode for the caches as described in this topic.
+**Note:** By default, AI Search only uses the first-level cache and the Now LLM Service when finding Knowledge base articles Genius Result answers. To enable the second-level cache or disable use of the Now LLM Service, administrators can change the operational mode for the caches as described in this topic.
 
 The query-time caches only support English-language searches, knowledge articles, and answers.
 
 ## Cache levels
 
-The cache includes two levels which work in different ways to improve search performance for Now Assist Q&amp;A Genius Results.
+The cache includes two levels which work in different ways to improve search performance for Knowledge base articles Genius Results.
 
 -   **First-level cache**
 
@@ -48,12 +48,12 @@ The cache includes two levels which work in different ways to improve search per
 
 ## Benefits of caching
 
-Caching for Now Assist Q&amp;A Genius Results provides the following benefits:
+Caching for Knowledge base articles Genius Results provides the following benefits:
 
--   Decreases average response time for common Now Assist Q&amp;A Genius Result answers
--   Lowers Now Assist entitlement consumption by reducing the number of search query results sent to the Now LLM Service for Now Assist Q&amp;A answer extraction
--   Increases the likelihood of returning a Now Assist Q&amp;A Genius Result answer
--   Improves search consistency by returning the same Now Assist Q&amp;A Genius Result answer for similar searches
+-   Decreases average response time for common Knowledge base articles Genius Result answers
+-   Lowers Now Assist entitlement consumption by reducing the number of search query results sent to the Now LLM Service for Knowledge base articles answer extraction
+-   Increases the likelihood of returning a Knowledge base articles Genius Result answer
+-   Improves search consistency by returning the same Knowledge base articles Genius Result answer for similar searches
 
 ## Content Security for cached queries
 
@@ -61,77 +61,77 @@ Because AI Search applies Content Security restrictions to your search before it
 
 ## Cache modes
 
-The Now Assist Q&amp;A Genius Result answer caches support the following operational modes:
+The Knowledge base articles Genius Result answer caches support the following operational modes:
 
--   **off**: Use the first-level cache and the Now LLM Service to find Now Assist Q&amp;A Genius Result answers.
+-   **off**: Use the first-level cache and the Now LLM Service to find Knowledge base articles Genius Result answers.
 
-    AI Search looks in the first-level cache for Now Assist Q&amp;A Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it sends your query and Knowledge article sys\_id to the Now LLM Service for answer generation.
+    AI Search looks in the first-level cache for Knowledge base articles Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it sends your query and Knowledge article sys\_id to the Now LLM Service for answer generation.
 
-    Now Assist Q&amp;A Genius Result answers generated by the Now LLM Service populate the first-level cache.
+    Knowledge base articles Genius Result answers generated by the Now LLM Service populate the first-level cache.
 
-    When using Dynamic Translation, AI Search bypasses the caches and queries the Now LLM Service to generate an answer for the Now Assist Q&amp;A Genius Result.
+    When using Dynamic Translation, AI Search bypasses the caches and queries the Now LLM Service to generate an answer for the Knowledge base articles Genius Result.
 
--   **offline**: Use the first-level and second-level caches to find Now Assist Q&amp;A Genius Result answers. Don't submit queries to the Now LLM Service.
+-   **offline**: Use the first-level and second-level caches to find Knowledge base articles Genius Result answers. Don't submit queries to the Now LLM Service.
 
-    AI Search looks in the first-level cache for Now Assist Q&amp;A Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it uses semantic vector search to look for answers that match the meaning of your query in the second-level cache. If no cached answers match your query and knowledge article result, AI Search returns no answer for the Now Assist Q&amp;A Genius Result.
+    AI Search looks in the first-level cache for Knowledge base articles Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it uses semantic vector search to look for answers that match the meaning of your query in the second-level cache. If no cached answers match your query and knowledge article result, AI Search returns no answer for the Knowledge base articles Genius Result.
 
-    Now Assist Q&amp;A Genius Result answers found in the second-level cache populate the first-level cache.
+    Knowledge base articles Genius Result answers found in the second-level cache populate the first-level cache.
 
-    When using Dynamic Translation, AI Search bypasses the caches and returns no answer for the Now Assist Q&amp;A Genius Result.
+    When using Dynamic Translation, AI Search bypasses the caches and returns no answer for the Knowledge base articles Genius Result.
 
--   **online**: Use the first-level and second-level caches and the Now LLM Service to find Now Assist Q&amp;A Genius Result answers.
+-   **online**: Use the first-level and second-level caches and the Now LLM Service to find Knowledge base articles Genius Result answers.
 
-    AI Search looks in the first-level cache for Now Assist Q&amp;A Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it uses semantic vector search to look for answers that match the meaning of your query in the second-level cache. If no cached answers match your query and knowledge article result, AI Search submits the query and article sys\_id to the Now LLM Service for answer generation.
+    AI Search looks in the first-level cache for Knowledge base articles Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it uses semantic vector search to look for answers that match the meaning of your query in the second-level cache. If no cached answers match your query and knowledge article result, AI Search submits the query and article sys\_id to the Now LLM Service for answer generation.
 
-    Now Assist Q&amp;A Genius Result answers generated by the Now LLM Service populate the first-level and second-level caches.
+    Knowledge base articles Genius Result answers generated by the Now LLM Service populate the first-level and second-level caches.
 
-    When using Dynamic Translation, AI Search bypasses the caches and queries the Now LLM Service to generate an answer for the Now Assist Q&amp;A Genius Result.
+    When using Dynamic Translation, AI Search bypasses the caches and queries the Now LLM Service to generate an answer for the Knowledge base articles Genius Result.
 
 
 The default operational mode is **off**.
 
-Administrators can change the operational mode for the Now Assist Q&amp;A Genius Result answer caches by setting the value for the **sn\_ais\_assist.semantic\_cache\_mode** system property to **off**, **offline**, or **online**. For details on system property settings, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Administrators can change the operational mode for the Knowledge base articles Genius Result answer caches by setting the value for the **sn\_ais\_assist.semantic\_cache\_mode** system property to **off**, **offline**, or **online**. For details on system property settings, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-For more details on using Dynamic Translation with Now Assist Genius Results, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md).
+For more details on using Dynamic Translation with ServiceNow Otto for AI Search Genius Results, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md).
 
 ## Scheduled job for cache management
 
 The **Update Semantic Cache** scheduled job runs daily to perform the following tasks:
 
 -   Populate the second-level cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-signal-tables.md).
--   Purge all unpinned second-level cache entries that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+-   Purge all unpinned second-level cache entries that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
-**Parent Topic:**[Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
+**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
 
-## Pin cached answers for Now Assist Q&amp;A Genius Results
+## Pin cached answers for Knowledge base articles Genius Results
 
-Improve performance for Now Assist Q&amp;A Genius Results by pinning frequently used answers in the second-level cache. Pinning an answer exempts it from the cache's purge mechanism.
+Improve performance for Knowledge base articles Genius Results by pinning frequently used answers in the second-level cache. Pinning an answer exempts it from the cache's purge mechanism.
 
 ### Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 
 ### About this task
 
-Search administrators can pin entries in the second-level cache for Now Assist Q&amp;A Genius Result answers. The **Update Semantic Cache** scheduled job ignores pinned entries when purging the second-level cache.
+Search administrators can pin entries in the second-level cache for Knowledge base articles Genius Result answers. The **Update Semantic Cache** scheduled job ignores pinned entries when purging the second-level cache.
 
-Pinning frequently used entries helps improve search performance by enabling AI Search to return previously generated Now Assist Q&amp;A Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.
+Pinning frequently used entries helps improve search performance by enabling AI Search to return previously generated Knowledge base articles Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.
 
-To learn more about the second-level Now Assist Q&amp;A Genius Result answer cache and its usage, see [Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+To learn more about the second-level Knowledge base articles Genius Result answer cache and its usage, see [Caching for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 ### Procedure
 
-1.  Navigate to the Now Assist in AI Search Semantic Cache \[sn\_ais\_assist\_semantic\_cache\] table's list view.
+1.  Navigate to the ServiceNow Otto for AI Search Semantic Cache \[sn\_ais\_assist\_semantic\_cache\] table's list view.
 
     1.  Select **All**.
 
     2.  In the **Filter** field, enter `sn_ais_assist_semantic_cache.list`.
 
-    3.  Press Enter.
+    3.  Press **Enter**.
 
-    Each record in this table represents a second-level cache entry. The table is populated with Now Assist Q&amp;A Genius Result answers previously generated by the Now LLM Service.
+    Each record in this table represents a second-level cache entry. The table is populated with Knowledge base articles Genius Result answers previously generated by the Now LLM Service.
 
 2.  Update each cache entry record that you want to pin.
 

@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Perform business actions through conversational interface like Otto. Unlock the interactive conversational experience to automate your business workflows. This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-For information about configuring the conversational settings, see . For information about the Integration Hub Spoke actions that are currently conversational ready, see .
+For information about configuring the conversational settings, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md). For information about the Integration Hub Spoke actions that are currently conversational ready, see [Available conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/available-conversational-actions.md).
 
 ## Supported versions
 
@@ -43,8 +43,8 @@ ServiceNow Otto for Conversational Spokes application offers generative AI capab
 
 After installing the ServiceNow Otto for Conversational Spokes application, you can configure the available conversational spoke actions.
 
--   See  to learn more about configuring the conversational settings.
--   See  in  to learn more about conversation experience and skills.
+-   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md) to learn more about configuring the conversational settings.
+-   See  in [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 **Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

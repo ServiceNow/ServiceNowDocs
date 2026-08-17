@@ -1,5 +1,5 @@
 ---
-title: Summarize a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Summarize a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generates a summary from a risk signal and issues summarization record and all associated tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-risk-signals-issues.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Summarize a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generates a summary from a risk signal and issues summarization record and all associated tasks.
 
@@ -24,7 +24,7 @@ Role required: sn\_acct\_lc.agent
 
 The risk signal and issues summary skill provides you with a summary of the risk signal and issues record and associated risk occurrences and solutions. This skill available in CSM/FSM Configurable Workspace and in Core UI.
 
--   In CSM/FSM Configurable Workspace, you use the Risk signal and issues summary by Now Assist component to generate a summary. This component appears above the Activities card.
+-   In CSM/FSM Configurable Workspace, you use the Risk signal and issues summary by ServiceNow Otto component to generate a summary. This component appears above the Activities card.
 -   In Core UI, you select the **Summarize** button on the risk signal and issues record to generate a summary.
 
 The risk signal and issues summarization skill checks the record to determine if there’s enough information available to create a summary:
@@ -40,7 +40,7 @@ The risk signal and issues summarization skill checks the record to determine if
 
 2.  Open a risk and select **Summarize**.
 
-    The Risk signal and issues summary by Now Assist component appears above the Activities card. The component is collapsed by default and expands to display the summary. Based on the inputs provided in the Engagement, account, and Short Description, the summary is generated with the following details:
+    The Risk signal and issues summary by ServiceNow Otto component appears above the Activities card. The component is collapsed by default and expands to display the summary. Based on the inputs provided in the Engagement, account, and Short Description, the summary is generated with the following details:
 
     -   Overview: Summarizes the primary goal \(subject, description\), engagement, account, product, progress, and customer contact details.
     -   Progress updates: Summarizes status of work notes, activities, and recent emails.
@@ -49,15 +49,15 @@ The risk signal and issues summarization skill checks the record to determine if
 
 3.  After you're finished summarizing the risk signal and issues, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d31121e147">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d31661e147">
 
 Option
 
-</th><th align="left" id="d31121e150">
+</th><th align="left" id="d31661e150">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d31121e156">
+</th></tr></thead><tbody><tr><td id="d31661e156">
 
 **View more or less summary details**
 
@@ -67,7 +67,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d31121e186">
+</td></tr><tr><td id="d31661e186">
 
 **Provide feedback for the summary**
 
@@ -77,7 +77,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d31121e219">
+</td></tr><tr><td id="d31661e219">
 
 **Copy the summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d31121e234">
+</td></tr><tr><td id="d31661e234">
 
 **View the information about the summary**
 
@@ -95,5 +95,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

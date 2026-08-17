@@ -16,8 +16,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Open requests widget displays a list of open requests including healthcare-related cases created for the patient.
 
-\[Omitted image "hcls-widget-open-requests.png"\] Alt text: Screenshot displaying the Open requests widget. For the text description, refer to the Key features section.
-
 ## Key features
 
 -   Displayed only for a logged-in user with the personal information completed.

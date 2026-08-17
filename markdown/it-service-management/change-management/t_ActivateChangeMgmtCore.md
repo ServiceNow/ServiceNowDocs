@@ -53,7 +53,7 @@ You can activate one or more of the following [plugins](https://raw.githubuserco
 
 -   State model \(com.snc.change\_management.state\_model\)
 -   Change Management - Collision Detector \(com.snc.change.collision\)
--   Best practice - change risk calculator \(com.snc.bestpractice.change\_risk\)
+-   Change Management - change risk calculator \(com.snc.bestpractice.change\_risk\)
 -   Change risk assessment \(com.snc.change\_management.risk\_assessment\)
 -   Standard change catalog \(com.snc.change\_management.standard\_change\_catalog\)
 -   Best practice - bulk CI changes \(com.snc.bestpractice.bulkchange\)

@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist in Catalog Builder
-description: Install and configure Now Assist in Catalog Builder.
+title: Configuring ServiceNow Otto in Catalog Builder
+description: Install and configure ServiceNow Otto in Catalog Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configuring-catalog-item-generation.html
 release: australia
@@ -9,24 +9,24 @@ classification: service-catalog
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [generative AI, Now Assist in Catalog Builder]
-breadcrumb: [Now Assist in Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+keywords: [generative AI, AI Authoring for Catalog Builder]
+breadcrumb: [AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configuring Now Assist in Catalog Builder
+# Configuring ServiceNow Otto in Catalog Builder
 
-Install and configure Now Assist in Catalog Builder.
+Install and configure ServiceNow Otto in Catalog Builder.
 
 ## Configuration overview
 
-Along with the installation of Now Assist in Catalog Builder application, you must activate the Catalog item generation skill.
+Along with the installation of ServiceNow Otto in Catalog Builder application, you must activate the Catalog item generation skill.
 
-**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 
 **Related topics**  
 
 
-[Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
+[Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
 
-[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

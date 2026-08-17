@@ -37,7 +37,7 @@ Relationships are added from the **Relationships** tab on the work item form in 
 
 5.  From the **Prerequisite**, **Dependent**, or **Related to** section, select **Add more**.
 
-6.  Search for the work item by name and select it.
+6.  Search for the work item by nameor number and select it.
 
     \[Omitted image "cwm-relationships-add-prereq.png"\] Alt text: Search results showing a work item being selected to add as a relationship in CWM.
 

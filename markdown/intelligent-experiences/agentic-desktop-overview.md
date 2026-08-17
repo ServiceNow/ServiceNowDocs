@@ -17,7 +17,7 @@ The Design workspace is an interactive environment within AI Desktop Actions tha
 **Important:** Access to the Design workspace and Execution workspace depends on the user’s role.
 
 -   When users with the AI Agent Admin \(sn\_aia.admin\) role sign in from their desktop, they can access the Home page and Design workspace to create desktop actions. When they test a desktop action, the Execution workspace launches automatically.
--   When users with the Now Assist panel user \(now\_assist\_panel\_user\) role trigger an automation from the Now Assist panel, the Execution workspace launches automatically to run the desktop action.
+-   When users with the ServiceNow Otto panel user \(now\_assist\_panel\_user\) role trigger an automation from the ServiceNow Otto panel, the Execution workspace launches automatically to run the desktop action.
 
 You don’t open the Execution workspace directly. It launches automatically when you test or run a desktop action.
 

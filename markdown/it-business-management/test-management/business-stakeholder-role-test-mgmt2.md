@@ -26,7 +26,7 @@ If you are an upgrade customer, you must manually activate the Read only roles f
 
 ## Test Management 2.0 tables accessible by users with the business stakeholder role
 
-When the read-only roles for Test Management 2.0 plugin \(com.snc.tm2\_read\_roles\) and Test Management 2.0 plugin \(com.snc.test\_management.2.0\) are active in your ServiceNow instance, the user with the business stakeholder role \(sn\_tm2\_read\) has read access to the following tables.
+When the read-only roles for Test Management 2.0 plugin \(com.snc.tm2\_read\_roles\) and Test Management 2.0 plugin \(com.snc.test\_management.2.0\) are active in your ServiceNow instance. The user with the business stakeholder role \(sn\_tm2\_read\) has read access to the following tables.
 
 <table id="table_dqt_pnp_kc00"><thead><tr><th>
 

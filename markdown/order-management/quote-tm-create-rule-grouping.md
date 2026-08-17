@@ -1,18 +1,18 @@
 ---
 title: Create a transaction rule grouping
-description: Create a rule grouping to bundle rules together for assignment to stages and events in ServiceNow CPQ.
+description: Create a rule grouping to bundle rules together for assignment to stages and events in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-rule-grouping.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [Rules and rule groupings, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Rules and rule groupings, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction rule grouping
 
-Create a rule grouping to bundle rules together for assignment to stages and events in ServiceNow CPQ.
+Create a rule grouping to bundle rules together for assignment to stages and events in CPQ.
 
 ## Before you begin
 
@@ -63,6 +63,6 @@ The rule grouping appears in the Rule Groupings list and is available to assign 
 
 Assign the rule grouping to a stage or event so that its rules execute during the quote lifecycle.
 
--   To assign to a stage, see .
+-   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md).
 -   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md).
 

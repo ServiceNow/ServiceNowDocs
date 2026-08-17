@@ -1,5 +1,5 @@
 ---
-title: Install Now Assist for Accounts Payable Operations \(APO\)
+title: Install ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Install the APO plugin \[sn\_ap\_gen\_ai\] to give AP fulfillers access to generative AI skills in Source-to-Pay Workspace and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-now-assist-apo.html
@@ -9,11 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, generative AI, AI automation, Accounts Payable Workspace]
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, generative AI, Accounts Payable Workspace]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Install Now Assist for Accounts Payable Operations \(APO\)
+# Install ServiceNow Otto for Accounts Payable Operations \(APO\)
 
 Install the APO plugin \[sn\_ap\_gen\_ai\] to give AP fulfillers access to generative AI skills in Source-to-Pay Workspace and Core UI.
 
@@ -25,7 +25,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the AI skills in the AI Admin Hub console.
 
 2.  Expand the **Finance and Supply Chain** workflow group and select **Accounts Payable Operations**.
 
@@ -38,10 +38,16 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
     |Purchase order line mapping|To activate the skill, on the Purchase order line mapping skill card, select **Turn on**.|
     |Invoice case summarization|On the Purchase order line mapping skill card, select **Activate skill**.|
     |Invoice data extraction|On the Invoice data extraction mapping skill card, select **Activate skill**.|
+    |Invoice inquiry solution generator|On the Invoice data extraction mapping skill card, select **Turn on**.|
+    |Sentiment analysis for invoice case|On the Sentiment analysis for invoice case skill card, select **Activate skill**.|
+    |Accounts payable document classification|On the Accounts payable document classification skill card, select **Activate skill**.|
+    |Relevant invoice finder|On the Relevant invoice finder skill card, select **Turn on**.|
+    |Email response for invoice case|Automatically turns on.|
+    |Email response for invoice task|Automatically turns on.|
 
 4.  For Invoice case summarization skill:
 
-    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in Now Assist
+    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in ServiceNow Otto
 
     1.  Select **General Details**, review the details about the skill, and then select **Save and continue** to go to the next step.
 
@@ -55,15 +61,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d185749e285">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d191169e357">
 
 Option
 
-</th><th align="left" id="d185749e288">
+</th><th align="left" id="d191169e360">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185749e294">
+</th></tr></thead><tbody><tr><td id="d191169e366">
 
 **Skill is always available**
 
@@ -71,7 +77,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d185749e303">
+</td></tr><tr><td id="d191169e375">
 
 **Customize skill availability**
 
@@ -84,29 +90,29 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d185749e339">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d191169e411">
 
 Option
 
-</th><th align="left" id="d185749e342">
+</th><th align="left" id="d191169e414">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185749e348">
+</th></tr></thead><tbody><tr><td id="d191169e420">
 
 **In-product desktop**
 
 </td><td>
 
-Now Assist skills are displayed on forms and workspaces.
+AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d185749e359">
+</td></tr><tr><td id="d191169e429">
 
-**Now Assist panel**
+**panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+AI skills are available in the ServiceNow Otto Panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.
@@ -125,7 +131,7 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 
         For more information on the fields, test outputs, and integrations in the use case, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case-for-now-assist-document-intelligence.md).
 
-        **Note:** When you create a copy of the generative AI use case in Now Assist console, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md).
+        **Note:** When you create a copy of the generative AI use case in AI Admin Hub, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md).
 
     3.  Select **Save and continue** to go to the next step.
 

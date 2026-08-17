@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, invoice management, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, invoice management, invoice automation, inquiry tasks, exception tasks]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -139,6 +139,8 @@ Descriptions of the tabs on the Invoice task form and the information each tab c
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

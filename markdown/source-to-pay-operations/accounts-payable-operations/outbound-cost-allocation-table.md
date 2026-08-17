@@ -1,6 +1,6 @@
 ---
 title: Outbound cost allocation staging table
-description: Field descriptions for the outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table used to configure ERP integrations that export cost allocation data to third-party ERP systems.
+description: Field descriptions for the Outbound Cost Allocation staging table \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\], used to configure ERP integrations for exporting cost allocation data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding, ERP integration, staging table, outbound integration]
+keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, Integration status, ERP integration, staging table, outbound integration]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Outbound cost allocation staging table
 
-Field descriptions for the outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table used to configure ERP integrations that export cost allocation data to third-party ERP systems.
+Field descriptions for the Outbound Cost Allocation staging table \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\], used to configure ERP integrations for exporting cost allocation data.
 
 ## Outbound cost allocation staging table
 
@@ -64,6 +64,8 @@ The following table lists fields for the outbound cost allocation \[sn\_spend\_i
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

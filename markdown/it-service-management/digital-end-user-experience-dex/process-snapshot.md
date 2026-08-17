@@ -1,5 +1,5 @@
 ---
-title: Reviewing top processes by resource usage in incident investigation with DEX
+title: Reviewing top processes by resource usage for DEX incident investigation
 description: Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/process-snapshot.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Service Management]
 ---
 
-# Reviewing top processes by resource usage in incident investigation with DEX
+# Reviewing top processes by resource usage for DEX incident investigation
 
 Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 
@@ -64,7 +64,7 @@ For time ranges that display snapshots of aggregated data, the average CPU and m
 
 -   Graph data aggregation based on CPU and memory usage percentages: The average CPU and memory usage percentages by the top 10 processes in each individual snapshot during the aggregation period are combined and displayed in the corresponding data point on the graph.
 
-    For example, when you select the **Last 12 hours** time range, data is aggregated hourly and shown as a data point on the graph. If three individual snapshots are captured in an hour with average memory usage of 88.88%, 92.97%, and 90.53% respectively, then the aggregated average memory usage for that data point is 90.79%.
+    For example, when you select **Last 12 hours** time range, data is aggregated hourly and shown as a data point on the graph. If three individual snapshots are captured in an hour with average memory usage of 88.88%, 92.97%, and 90.53%, the aggregated average memory usage is 90.79%.
 
 -   Table data aggregation based on process name: If the same process is listed more than once in the top processes tables across multiple snapshots within the aggregation period, its CPU usage or memory usage values are combined. The process with its combined usage value is then listed as a single entry for the corresponding data point. As a result, the top process tables might show fewer than 10 unique processes.
 

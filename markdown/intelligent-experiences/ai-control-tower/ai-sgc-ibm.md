@@ -9,18 +9,18 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for IBM
 
 The AI Service Graph Connector for IBM enables you to discover and import AI assets from your IBM environment into ServiceNow AI Control Tower.
 
-The AI Service Graph Connector for IBM integrates with your IBM account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+The AI Service Graph Connector for IBM integrates with your IBM account to catalog AI systems, agents, tools, models, and prompts. After discovery is run, usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Supported ServiceNow versions
 

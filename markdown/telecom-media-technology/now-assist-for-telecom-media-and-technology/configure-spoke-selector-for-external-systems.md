@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Help remediate bill issues, Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Help remediate bill issues, Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Configure the spoke selector for external systems
@@ -190,5 +190,5 @@ Condition to trigger the request adapter.
 
 ## Result
 
-Once the condition is set and the request condition matched, the defined flow executes and the records for the configuration are fetched from the external provider that you selected, into your ServiceNow instance.
+Once the condition is set and the request condition matched, the defined flow executes. The records for the configuration are fetched from the external provider that you selected into your ServiceNow instance.
 

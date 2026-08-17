@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case]
+keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case, Assignment group, Accounts Payable Workspace, Internal review]
 breadcrumb: [Invoice inquiry cases, Using Invoice Case Management, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

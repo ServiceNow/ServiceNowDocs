@@ -1,6 +1,6 @@
 ---
 title: Set up AI Search for GAF
-description: Configure AI Search to enable Group Action Framework \(GAF\) to improve quality and consistency of agentic AI and Now Assist generative AI on the ServiceNow AI Platform.
+description: Configure AI Search to enable Group Action Framework \(GAF\) to improve quality and consistency of agentic AI and generative AI on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/setup-ai-search-gaf.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [gaf]
-breadcrumb: [GAF, Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [GAF, Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Set up AI Search for GAF
 
-Configure AI Search to enable Group Action Framework \(GAF\) to improve quality and consistency of agentic AI and Now Assist generative AI on the ServiceNow AI Platform.
+Configure AI Search to enable Group Action Framework \(GAF\) to improve quality and consistency of agentic AI and generative AI on the ServiceNow AI Platform.
 
 ## Before you begin
 
@@ -21,11 +21,11 @@ Role required: admin
 
 ## About this task
 
-GAF is a feature on the ServiceNow AI Platform that clusters and indexes related records and executes actions on them in agentic AI and Now Assist generative AI. See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md) for more information about GAF's role in intelligent experiences and how it works.
+GAF is a feature on the ServiceNow AI Platform that clusters and indexes related records and executes actions on them in agentic AI and generative AI. See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md) for more information about GAF's role in intelligent experiences and how it works.
 
-Now Assist in AI Search is the foundation for GAF's optimized prediction feature. AI Search is the backup search for certain workflows, and if it is not enabled and ready, GAF will not return any results.
+AI Search is the foundation for GAF's optimized prediction feature. AI Search is the backup search for certain workflows, and if it is not enabled and ready, GAF will not return any results.
 
-You must index every table for each workflow or application you'd like to configure GAF for. For example, if you're configuring GAF for Now Assist for IT Service Management \(ITSM\), you must index the Incident and related tables.
+You must index every table for each workflow or application you'd like to configure GAF for. For example, if you're configuring GAF for ServiceNow Otto for IT Service Management, you must index the Incident and related tables.
 
 ## Procedure
 
@@ -33,9 +33,9 @@ You must index every table for each workflow or application you'd like to config
 
     If you see “AI Search is ready,” proceed. If not, request AI Search installation, which can take 2–24 hours.
 
-2.  Install Now Assist for AI Search by installing a Now Assist application.
+2.  Install ServiceNow Otto for AI Search by installing an application with generative or agentic AI features.
 
-    For more information, see Install Now Assist in AI Search.
+    For more information, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md).
 
 3.  Verify that your LLM provider is configured and accessible.
 
@@ -50,7 +50,7 @@ You must index every table for each workflow or application you'd like to config
 
 5.  Search the Now Assist Skill Config table for action strategy skills by searching **Name** is `*action strategy`, and select the action strategy skill for the application you want to configure.
 
-    For example, if you're configuring GAF for Now Assist for ITSM, select the GAF ITSM action strategy record.
+    For example, if you're configuring GAF for ITSM, select the GAF ITSM action strategy record.
 
     \[Omitted image "gaf-action-strategy.png"\] Alt text: Now Assist Skill Config table filtered for skill configs with name contains action strategy
 
@@ -73,7 +73,7 @@ You must index every table for each workflow or application you'd like to config
 
 ## Result
 
-The tables for Now Assist in AI Search for your Now Assist application is indexed based on the appropriate field.
+The tables for ServiceNow Otto for AI Search for your ServiceNow Otto application is indexed based on the appropriate field.
 
 ## What to do next
 

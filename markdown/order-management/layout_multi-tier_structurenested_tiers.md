@@ -1,20 +1,20 @@
 ---
 title: Multi-tier structure \(nested tiers\)
-description: Create complex, multi-tier layouts in ServiceNow CPQ by nesting tiers in other tiers using a layout CSV file. Define tier display types—such as tabs, expandable sections, and basic containers—to organize fields and achieve flexible, structured, and visually clear configuration interfaces.
+description: Create complex, multi-tier layouts in CPQ by nesting tiers in other tiers using a layout CSV file. Define tier display types—such as tabs, expandable sections, and basic containers—to organize fields and achieve flexible, structured, and visually clear configuration interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_multi-tier\_structurenested\_tiers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Multi-tier structure \(nested tiers\)
 
-Create complex, multi-tier layouts in ServiceNow CPQ by nesting tiers in other tiers using a layout CSV file. Define tier display types—such as tabs, expandable sections, and basic containers—to organize fields and achieve flexible, structured, and visually clear configuration interfaces.
+Create complex, multi-tier layouts in CPQ by nesting tiers in other tiers using a layout CSV file. Define tier display types—such as tabs, expandable sections, and basic containers—to organize fields and achieve flexible, structured, and visually clear configuration interfaces.
 
-In ServiceNow CPQ, there are two basic container types: tiers and column sets. This article focuses on the top-level container \(tiers\) and how to achieve more complex layouts by nesting different types of tiers.
+In CPQ, there are two basic container types: tiers and column sets. This article focuses on the top-level container \(tiers\) and how to achieve more complex layouts by nesting different types of tiers.
 
 **Note:** As of May 23, 2023, nesting tiers is not supported in the Layout Wizard or in the layout editor. However, you can change the display type of existing tiers, including nested tiers.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-usageinsights-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-08-17"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -117,6 +117,10 @@ Zurich
 
 </td><td>
 
+-   **[Bulk export of User Experience Analytics data via REST API](https://www.servicenow.com/docs/access?context=data-export-restapi&family=zurich&ft:locale=en-US)**
+
+Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
+
 -   **[Analytics overlay experience](https://www.servicenow.com/docs/access?context=uxa-access-analytics-overlay&family=zurich&ft:locale=en-US)**
 
 Try the new utility icon that shows you the key usage metrics for the pages that you're navigating to without having to leave the application page. The shortcut gives you faster access to the contextual analytics overlay.
@@ -131,6 +135,10 @@ Experience the enhancements by enabling UXA filters on dashboards, additional me
 Australia
 
 </td><td>
+
+-   **[Bulk export of User Experience Analytics data via REST API](https://www.servicenow.com/docs/access?context=data-export-restapi&family=australia&ft:locale=en-US)**
+
+Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
 
 -   **[Creating custom events](https://www.servicenow.com/docs/access?context=tagged-events&family=australia&ft:locale=en-US)**
 
@@ -286,7 +294,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=yokohama&ft:locale=en-US)**
+
+Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
 
 </td></tr><tr><td>
 
@@ -294,7 +305,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=zurich&ft:locale=en-US)**
+
+Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
 
 </td></tr><tr><td>
 
@@ -302,7 +316,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Usage Insights in Xanadu](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&family=australia&ft:locale=en-US)**
+
+Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -572,6 +589,7 @@ Zurich
 
 </td><td>
 
+-   Usage Insight Data Export is delivered as a store app that adds a REST API endpoint to your instance and provisions a dedicated messaging topic for result delivery.
 -   Access the analytics overlay faster via the new utility icon and then redirect to the analytics dashboard by selecting **Analyze with User Experience Analytics** on the overlay.
 -   Experience enhanced analytics with UXA filters on dashboards, configurable session metrics, Pages in User Experience Analytics, drill-down in inline dashboards, and a condition builder for Events.
 
@@ -584,7 +602,8 @@ Australia
 </td><td>
 
 -   User Experience Analytics is now known as Usage Insights.
--   Tag and create new events and update event descriptions.
+-   Usage Insight Data Export is delivered as a store app that adds a REST API endpoint to your instance and provisions a dedicated messaging topic for result delivery.
+-   Tag and create events and update event descriptions.
 -   View funnels you create in Usage Insights directly in Platform Analytics.
 -   Create dashboards for Platform Analytics directly in Usage Insights.
 

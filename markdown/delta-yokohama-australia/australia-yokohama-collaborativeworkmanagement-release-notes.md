@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-collaborativeworkmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 19
+last_updated: "2026-08-17"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -139,9 +139,9 @@ Surface the information that's most relevant to you using Card Layout settings f
 
 -   **[Dynamic data linking in CWM Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
 
-Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
+Keep record information in your documentation current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
 
-You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
+You can add references from any ServiceNow table that you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
 
 -   **[Agile sprint planning in CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
 
@@ -154,7 +154,7 @@ Plan, track, and manage work for your teams by using Agile sprint planning in th
 
 Streamline team collaboration and planning by enabling your teams to view and plan all their work in one place by connecting work across multiple ServiceNow applications. By defining the type of work you want to connect to CWM, you can bring in records from other applications into CWM Boards.
 
-After the records are added to a CWM Board, your teams can update their status and other details from within CWM, or perform sprint planning for all the work on the Board. This unified experience improves efficiency because your teams don't have to switch between multiple workspaces.
+After the records are added to a CWM Board, your teams can update their status and other details from within CWM. They can also perform sprint planning for all the work on the Board. This unified experience improves efficiency because your teams don't have to switch between multiple workspaces.
 
 -   **[Navigation panel enhancements](https://www.servicenow.com/docs/access?context=cwm-spaces&family=zurich&ft:locale=en-US)**
 
@@ -206,12 +206,18 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Project Workspace integration with CWM](https://www.servicenow.com/docs/access?context=connect-project-workspace-cwm&family=australia&ft:locale=en-US)**
+
+Deliver your part of a project without leaving CWM or duplicating work progress in Project Workspace. Track project tasks assigned to you in **My Work**, break them down into CWM tasks and stories directly from a Board, and see the project and project task that you're contributing to.
+
+Save time on status updates because your work rolls up to the project automatically. Any child tasks that you create are automatically linked to the parent project task and its project, you can reassign or remove that connection as work evolves, and project managers see the same updates in Project Workspace.
 
 -   **[Import tasks into CWM Boards using Now Assist](https://www.servicenow.com/docs/access?context=importing-tasks-cwm-boards&family=australia&ft:locale=en-US)**
 
-Reduce manual effort when onboarding existing work to CWM by importing tasks or stories from spreadsheets, documents, or images. Upload a file and Now Assist analyzes the data and proposes how each source column maps to a column on your Board.
+Reduce manual effort when onboarding existing work to CWM by importing tasks or stories from spreadsheets, documents, or images. Upload a file and Now Assist analyzes the data and proposes how each source column maps to a column on your board.
 
 Review and adjust the AI-proposed mapping, add source columns as new custom columns if needed, and preview the full task list before confirming. The import runs in the background and a workspace notification reports the outcome when it completes.
 
@@ -231,7 +237,7 @@ The team member read role lets users view project and demand tasks and leave com
 
 Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values across your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
-Build formulas manually using the Formula Builder panel, which guides you through selecting functions and referencing columns with inline suggestions. As you type, the builder validates your formula in real-time and displays clear error messages if corrections are needed.
+Build formulas manually using the Formula Builder panel, which guides you through selecting functions and referencing columns with inline suggestions. As you type, the builder validates your formula in real time and displays clear error messages if corrections are needed.
 
 You can accelerate formula creation with AI by describing your calculation in natural language. AI generates a valid formula that you can insert directly into the editor, saving you the time to manually build a valid formula.
 
@@ -239,7 +245,7 @@ You can accelerate formula creation with AI by describing your calculation in na
 
 Save time finding the work that matters most by applying quick filters directly on your Kanban board.
 
-As you adjust filter conditions in the header, the quick filter panel stays in sync, and vice versa. Your filter choices automatically apply to saved views and CWM Board templates, so the next time you open the board, your preferences are readily available.
+As you adjust filter conditions in the header, the quick filter panel stays in sync, and vice versa. Your filter choices automatically apply to saved views and CWM Board templates, so the next time that you open the board, your preferences are readily available.
 
 -   **[Scrum tasks](https://www.servicenow.com/docs/access?context=managing-scrum-tasks-for-stories-cwm&family=australia&ft:locale=en-US)**
 
@@ -306,9 +312,9 @@ Zurich
 
 -   **[My Work enhancements](https://www.servicenow.com/docs/access?context=my-work-in-cwm&family=zurich&ft:locale=en-US)**
 
-Track all your work from one place using the enhanced My Work in CWM. My Work now supports all ServiceNow task records-such as incidents, changes, and requests-whether they originate in CWM or outside, giving you a unified view of everything assigned to you. This helps you stay on top of overdue or open tasks and improves on-time delivery.
+Track all your work at one place using enhanced My Work. My Work now supports all ServiceNow task records-such as incidents, changes, and requests-whether they originate in CWM or outside, giving you a unified view of everything assigned to you. This helps you stay on top of overdue or open tasks and improves on-time delivery.
 
-Additionally, the Item type filter has been refined to show all CWM tasks \(including custom ones\) grouped under a single category, instead of listing every CWM task type individually. You’ll also only see task types in the filter that you’re actually assigned to, reducing clutter and making it easier to filter what matters.
+Additionally, the Item type filter is refined to show all CWM tasks \(including custom ones\) grouped under a single category, instead of listing every CWM task type individually. You’ll also only see task types in the filter that you’re actually assigned to, reducing clutter and making it easier to filter what matters.
 
 -   **[Enhancements to tables in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
     -   Resize the column width of a table per your preference.
@@ -320,7 +326,7 @@ Additionally, the Item type filter has been refined to show all CWM tasks \(incl
         -   Copy content from n number of cells and paste it to another set of n number of cells.
         -   Copy content from multiple cells and paste it as a new table in an empty block on the page.
 -   **[Enhancements to CWM Board templates](https://www.servicenow.com/docs/access?context=templates-in-cwm-for-spaces-boards-and-docs&family=zurich&ft:locale=en-US)**
-    -   Save template: While saving a Board as a template, choose between saving the current view or all shared views. You can see the number of Board views and custom task types that are included in this template.
+    -   While saving a Board as a template, choose between saving the current view or all shared views. You can see the number of Board views and custom task types that are included in this template.
 
 These details are displayed in the Template Center, where you can select a template that best meets your team's needs.
 
@@ -330,7 +336,7 @@ Only those custom columns that are part of these views are brought over when you
 
 -   **[Collaborate with Spaces](https://www.servicenow.com/docs/access?context=cwm-spaces&family=zurich&ft:locale=en-US)**
 
-When a user is added to the **Assigned to** field of a CWM task but doesn't yet have access to the Space, the email notification requesting access is sent only to the Space owners. This way, there's less email clutter for all the Space users because notifications are sent to only those users who need to know this information.
+When a user is added to the **Assigned to** field of a CWM task but doesn't have access to the Space yet, the email notification requesting access is sent only to the Space owners. This way, there's less email clutter for all the Space users because notifications are sent to only those users who need to know this information.
 
 -   **[New columns for CWM tasks](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
 
@@ -350,7 +356,18 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[ServiceNow Otto skills for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-explore&family=australia&ft:locale=en-US)**
+
+
+
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
+-   **[Task dependencies and relationships](https://www.servicenow.com/docs/access?context=managing-task-dependencies-relationships-cwm&family=australia&ft:locale=en-US)**
+
+You can now search by task number, in addition to name, when adding a relationship to a work item.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -589,7 +606,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 -   **Reflow**
 
-Docs in CWM Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
+Docs in CWM Configurable Workspace support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
 This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
@@ -676,10 +693,10 @@ Australia
 
 </td><td>
 
+-   Track and break down project tasks on a Board, while your work automatically rolls up to the plan in Project Workspace.
 -   Save time and effort by importing existing tasks and stories into CWM.
 -   Find relevant work easily by using filters in the Kanban view.
 -   Generate scrum tasks for user stories using AI and improve visibility into sprint work.
--   Spot bottlenecks early by linking work items as blocking or related, with visual cues that surface dependencies across Kanban, List, and Gantt views.
 -   Add inline comments and @mention colleagues in Docs and receive email notifications for replies and mentions.
 
  See [Collaborative Work Management](https://www.servicenow.com/docs/access?context=cwm-landing&family=australia&ft:locale=en-US) for more information.

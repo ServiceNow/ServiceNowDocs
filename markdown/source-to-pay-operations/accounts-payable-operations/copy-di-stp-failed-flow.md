@@ -1,5 +1,5 @@
 ---
-title: Copy and configure the DI STP Failed flow
+title: Configure the DI STP Failed flow
 description: Copy and configure the DI STP Failed flow and activate this flow to use it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-di-stp-failed-flow.html
@@ -9,11 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, APO Admin, Process automation, DI STP Failed flow, Gen AI use case, Flow Designer]
 breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Copy and configure the DI STP Failed flow
+# Configure the DI STP Failed flow
 
 Copy and configure the DI STP Failed flow and activate this flow to use it.
 
@@ -41,7 +41,7 @@ Scope: sn\_ap\_ic scope.
 
 6.  Select **Copy**.
 
-    A copy of the flow opens. Under **TRIGGER**, in the **Condition** field, copy "DI STP Failed" flow and update trigger condition to reference the use case created by the customer. Use the AND operator and select **Use case** is **copied Gen AI use case** and **Done**. Use the AND operator and, select **Use case** is **copied Gen AI use case** and **Done**. \[Omitted image "di-stp-failed-genai.png"\] Alt text: DI STP Failed trigger condition. For more information on copying use case, refer [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md) and [Copy and activate the generative AI DocIntel flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.md).
+    A copy of the flow opens. Under **TRIGGER**, in the **Condition** field, copy "DI STP Failed" flow and update trigger condition to reference the use case created by the customer. Use the AND operator and select **Use case** is **copied Gen AI use case** and **Done**. Use the AND operator and, select **Use case** is **copied Gen AI use case** and **Done**. \[Omitted image "di-stp-failed-genai.png"\] Alt text: DI STP Failed trigger condition. For more information on copying use case, refer [Create a copy of the default invoice processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md) and [Copy and activate the generative AI DocIntel flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.md).
 
 7.  Select **Save**.
 

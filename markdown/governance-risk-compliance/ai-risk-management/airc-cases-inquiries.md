@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [AI case management, AI cases, AI inquiries, AI Risk and Compliance, AI Control Tower, AI governance, Employee Center]
 breadcrumb: [AI governance life cycle, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -49,7 +49,7 @@ Before an anonymous report is saved, all free‑text fields in the forms \(such 
 
 Sanitization helps reduce the risk of unsafe or malformed input.
 
-For more information, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md), [Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md), and [Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
+For more information, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md), [Track report status or follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md), and [Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
 ## Case management and follow-up
 

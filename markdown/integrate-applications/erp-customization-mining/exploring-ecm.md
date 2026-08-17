@@ -31,7 +31,7 @@ Replatforming is the process of scanning legacy ERP system code to find potentia
 
 When you find ERP candidates to replatform, ERP Semantic Mining also provides suggestions for next actions and similar candidates. ERP Semantic Mining supports any ERP modules, or functional areas that admins configure in Zero Copy Connector for ERP. Some example modules are Finance, Procurement, and Sales. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
-Replatformed data is immediately available, mirrored in easy-to-manage tables and apps. Users no longer must request information from database administrators, which can take weeks. Replatformed apps use the ERP system of record as the live data source.
+Replatformed data is immediately available, mirrored in easy-to-manage tables and apps. Users no longer must request information from database administrators, which can take weeks. Replatformed apps use the ERP system as the live data source.
 
 ## Workflow for replatforming customized ERP applications
 
@@ -93,7 +93,7 @@ ERP Semantic Mining retrieves data from the ERP \(Enterprise Resource Planning\)
 -   **[Determining candidate score and potential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-potential-and-recommendations.md)**  
 ERP Semantic Mining generates a score to rank the potential for replatforming legacy ERP \(Enterprise Resource Planning\) candidates onto the ServiceNow AI Platform.
 -   **[How ERP Semantic Mining works with Zero Copy Connector for ERP and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/ecm-and-erp-integration.md)**  
-Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
+Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system, and to organize its data.
 -   **[Recommendations and similar candidates in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-recommendations-and-similar-candidates.md)**  
 The record for each candidate in ERP Semantic Mining displays information on suggested next steps and similar candidates to help you in replatforming an ERP \(Enterprise Resource Planning\) app.
 -   **[Next steps when replatforming apps to ServiceNow using ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/ecm-next-steps-replatforming.md)**  

@@ -20,7 +20,7 @@ Role required: sn\_oper\_res.manager
 
 ## About this task
 
-Before saving an ICT service supply chain record, the system checks for duplicates. A duplicate is detected when an existing supply chain row at the same rank shares the same Identification code of the recipient of sub-contracted ICT services and the same Type of ICT services. If a duplicate is detected, the save is blocked and an error message identifies the conflicting record. Update either the recipient identification code, the type of ICT services, or the rank to resolve the conflict.
+Before saving an ICT service supply chain record, the system checks for duplicates. A duplicate is detected when an existing supply chain row at the same rank shares the same Identification code of the recipient. The row must also share the same Type of ICT services. If a duplicate is detected, the save is blocked and an error message identifies the conflicting record. Update either the recipient identification code, the type of ICT services, or the rank to resolve the conflict.
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 
 2.  In the **ICT service supply chains** tab on the Contract form, select **New**.
 
-    The Create New ICT service supply chain form is displayed.
+    The Create ICT service supply chain form is displayed.
 
     The example shows the ICT service supply chains tab on a contract record listing existing supply chain entries.
 
@@ -38,7 +38,7 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create New ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md).
+    For more information, see [Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md).
 
 4.  Select **Save**.
 
@@ -59,8 +59,8 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 10. To delete the supply chain record, select it from the list and select **Delete**.
 
 
--   **[Create New ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md)**  
-On the Create New ICT service supply chain form, fill in the fields.
+-   **[Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md)**  
+On the Create an ICT service supply chain form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

@@ -31,7 +31,7 @@ As a contract configurator, specify the user roles to enable users to view email
 -   **[Enable keyword search for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.md)**  
 Enable keyword search in contract templates.
 -   **[Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md)**  
-Configure the smart documents skill in Now Assist in Document Management to generate a contract summary in Contract Management Pro.
+Configure the smart documents skill in Document Management to generate a contract summary in Contract Management Pro.
 -   **[Configure conditions to send reminder notifications for expiring contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-rem-exp-cont.md)**  
 Configure contract repository rules to determine the expiration conditions under which reminder notifications for expiring contracts are sent.
 -   **[Copy fields from parent request to amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cpy-fld-parent-amedreq.md)**  

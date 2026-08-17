@@ -1,6 +1,6 @@
 ---
-title: Train and test your NLU model in Virtual Agent Designer
-description: Use the NLU Intent tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Virtual Agent Designer.
+title: Train and test your NLU model in Assistant Designer Asset library
+description: Use the NLU Intent tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Testing NLU/Keyword topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Train and test your NLU model in Virtual Agent Designer
+# Train and test your NLU model in Assistant Designer Asset library
 
-Use the **NLU Intent** tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Virtual Agent Designer.
+Use the **NLU Intent** tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Assistant Designer Asset library.
 
 ## Before you begin
 
@@ -26,17 +26,19 @@ As you make changes to a topic's intent, train the model so that your updates ar
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Set the discovery type toggle switch to **NLU/Keyword**.
+2.  Select the **Asset library** tab.
 
-3.  Open a topic and view the **NLU Intent** tab.
+3.  Set the discovery type toggle switch to **NLU/Keyword**.
 
-4.  Select **Train model**.
+4.  Open a topic and view the **NLU Intent** tab.
+
+5.  Select **Train model**.
 
     A message indicates that the model was successfully trained.
 
-5.  Select **Try model**.
+6.  Select **Try model**.
 
     In the Try model panel, manually enter an utterance to test. The prediction results display in the panel.
 
@@ -50,7 +52,7 @@ As you make changes to a topic's intent, train the model so that your updates ar
 
     **Note:** You can compare the draft NLU model to its most recent published version. For more information, see [Compare draft and published versions of your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/compare-draftmodel-to-last-published-version.md).
 
-6.  When you're satisfied with the prediction results, publish the model from NLU Workbench or select **Publish** in the topic Header bar and select **NLU Model**.
+7.  When you're satisfied with the prediction results, publish the model from NLU Workbench or select **Publish** in the topic Header bar and select **NLU Model**.
 
 
 ## What to do next

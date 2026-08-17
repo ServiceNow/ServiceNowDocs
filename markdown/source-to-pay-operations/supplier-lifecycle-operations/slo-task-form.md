@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Task form, Supplier case, Task audience, Watch list, Procurement Workspace, Employee task]
 breadcrumb: [Create new task form, Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

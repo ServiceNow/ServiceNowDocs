@@ -1,6 +1,6 @@
 ---
 title: Exploring ServiceNow AI Lens
-description: ServiceNow AI Lens is a ServiceNow Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and take action—such as automatically filling in forms with scanned information—to help improve your workflows.
+description: ServiceNow AI Lens is a ServiceNow AI application that uses generative AI to scan images and screens, extract information, understand visual data, and take action—such as automatically filling in forms with scanned information—to help improve your workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/servicenow-lens-explore.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
 
 # Exploring ServiceNow AI Lens
 
-ServiceNow AI Lens is a ServiceNow® Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and take action—such as automatically filling in forms with scanned information—to help improve your workflows.
+ServiceNow AI Lens is a ServiceNow® AI application that uses generative AI to scan images and screens, extract information, understand visual data, and take action—such as automatically filling in forms with scanned information—to help improve your workflows.
 
 ## ServiceNow AI Lens overview
 
@@ -31,7 +31,7 @@ You can leverage Lens actions to customize the Lens behavior by providing defaul
 
 Extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and autofill catalog item forms in the Service Portal. For example, autofill a new vendor onboarding form by extracting key details such as vendor name, address, contact email, and banking information from multiple artifacts, including Excel files, emails, images, and PDF documents. For more information, see [Autofill catalog item forms on Service Portal using ServiceNow AI Lens.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md)
 
-Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.
+Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see [Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/servicenow-lens-mobile.md)
 
 Get started with ServiceNow AI Lens directly from your browser - no downloading or installation required orby downloading and installing the desktop application for Windows and macOS
 
@@ -46,9 +46,9 @@ ServiceNow AI Lens can do the following tasks automatically for you:
 
 ## ServiceNow AI Lens skill
 
-Now Assist for Platform includes the AI-powered ServiceNow AI Lens skill to read, understand, respond, and act on visual data such as hand-written texts, images, and websites and take powerful actions to boost productivity.
+ServiceNow Otto for Platform includes the AI-powered ServiceNow AI Lens skill to read, understand, respond, and act on visual data such as hand-written texts, images, and websites and take powerful actions to boost productivity.
 
-Admins can enable the ServiceNow AI Lens skill in the Now Assist Admin console. Once enabled, users can perform the following actions:
+Admins can enable the ServiceNow AI Lens skill in the AI Admin Hub console. Once enabled, users can perform the following actions:
 
 -   Create or update ServiceNow records by auto-filling forms using the extracted data.
 -   Preview the extracted data.
@@ -59,11 +59,11 @@ Beyond individual user actions, the ServiceNow AI Lens skill can be used by the 
 
 To view the procedure to enable the ServiceNow AI Lens skill, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
 
-The ServiceNow AI Lens application requires a Workflow Data Fabric \(previously known as Automation Engine\) license and a Now Assist license.
+The ServiceNow AI Lens application requires a Workflow Data Fabric \(previously known as Automation Engine\) license and a ServiceNow Otto license.
 
 ## Available LLMs
 
-You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for ServiceNow AI Lens skill. You can set skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for ServiceNow AI Lens skill. You can set skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 ## What to explore next
 

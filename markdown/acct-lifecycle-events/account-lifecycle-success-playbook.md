@@ -22,5 +22,5 @@ The customer play consists of three stages:
 
 \[Omitted image "success-playbook.jpg"\] Alt text: customer play playbook
 
-For more details on the playbook layout and the different cards, see . For instructions on how to create the customer play playbook, see [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
+For instructions on how to create the customer play playbook, see [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
 

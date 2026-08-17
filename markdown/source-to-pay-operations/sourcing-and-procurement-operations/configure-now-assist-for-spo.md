@@ -1,20 +1,20 @@
 ---
-title: Configure Now Assist for Sourcing and Procurement Operations \(SPO\)
-description: If you have the sn\_nowassist\_admin.nsa\_admin role, you can configure the Now Assist for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and Core UI.
+title: Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
+description: Configure the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 7
-breadcrumb: [Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Configure Now Assist for Sourcing and Procurement Operations \(SPO\)
+# Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-If you have the sn\_nowassist\_admin.nsa\_admin role, you can configure the Now Assist for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and Core UI.
+Configure the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and Core UI.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-The following Now Assist for Sourcing and Procurement Operations \(SPO\) fulfillers skills are activated by default:
+The following AI skills for fulfillers are activated by default:
 
 -   Email response for acknowledgement task
 -   Email response for negotiation
@@ -41,15 +41,15 @@ The following Now Assist for Sourcing and Procurement Operations \(SPO\) fulfill
 -   Purchase requisition summarization for fulfillers
 -   Procurement case summarization for fulfillers
 
-If the Now Assist for Sourcing and Procurement Operations \(SPO\) fulfillers skills are turned off, you can reactivate them or configure them using the Now Assist Admin console. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+If the AI skills are turned off, you can reactivate them or configure them using the AI Admin Hub. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub.
 
-|Now Assist for SPO skills|Description|
-|-------------------------|-----------|
-|Document extraction|Enables requesters to define and customize the fields that Now Assist extracts from uploaded Statements of Work \(SOWs\), quotes, and other supporting attachments.|
+|AI skills|Description|
+|---------|-----------|
+|Document extraction|Enables requesters to define and customize the fields that ServiceNow Otto extracts from uploaded Statements of Work \(SOWs\), quotes, and other supporting attachments.|
 |Email response for acknowledgement task|Generate email responses and suggest templates for acknowledgement tasks based on conversation context to help fulfillers draft emails quickly and maintain clear communication.|
 |Email response for negotiation|Generate email responses and suggest templates for negotiations based on conversation context to help fulfillers draft emails quickly and maintain clear communication.|
 |Email response for procurement case|Generate email responses and suggest templates for procurement cases based on conversation context to help fulfillers draft emails quickly and maintain clear communication.|
@@ -70,21 +70,21 @@ The following table lists the features and skills that you can access from the N
 |Sourcing request summarization for requesters|Summarize sourcing requests to keep requesters informed about their status, progress, and action items.|
 |Spend category predictor|Suggests the appropriate spend category for a fulfiller when primary ML-based category prediction doesn’t meet the confidence threshold.|
 
-\[Omitted image "now-assist-spo-explore.png"\] Alt text: Skills available on Now Assist for Sourcing and Procurement Operations.
+\[Omitted image "now-assist-spo-explore.png"\] Alt text: AI Skills available for Sourcing and Procurement Operations.
 
 ## Procedure
 
-1.  Install the Now Assist for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
+1.  Install the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Features** tab of the Now Assist Admin console.
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Sourcing and Procurement Operations**.
 
     The Sourcing and Procurement Operations features are grouped under the Finance and Supply Chain workflow group. Each feature has its associated skills.
 
-4.  Activate and configure the skills for Now Assist for Sourcing and Procurement Operations \(SPO\).
+4.  Activate and configure the AI skills for Sourcing and Procurement Operations.
 
 <table id="table_bcq_z34_tcc"><thead><tr><th>
 
@@ -141,15 +141,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d210095e696">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d216463e687">
 
 Option
 
-</th><th align="left" id="d210095e699">
+</th><th align="left" id="d216463e690">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210095e705">
+</th></tr></thead><tbody><tr><td id="d216463e696">
 
 **Skill is always available**
 
@@ -157,7 +157,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d210095e714">
+</td></tr><tr><td id="d216463e705">
 
 **Customize skill availability**
 
@@ -170,31 +170,31 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d210095e750">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d216463e741">
 
 Option
 
-</th><th align="left" id="d210095e753">
+</th><th align="left" id="d216463e744">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210095e759">
+</th></tr></thead><tbody><tr><td id="d216463e750">
 
 **In-product desktop**
 
 </td><td>
 
-Now Assist skills are displayed on forms and workspaces.
+AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d210095e770">
+</td></tr><tr><td id="d216463e759">
 
-**Now Assist panel**
+**ServiceNow Otto panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
+AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
 
-**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.
@@ -206,12 +206,12 @@ Now Assist skills are available in the Now Assist panel. Now Assist skills are a
     The skill is activated.
 
 
--   **[Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.md)**  
-If you have the sn\_nowassist\_admin.nsa\_admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
--   **[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md)**  
+-   **[Customize an AI skill in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.md)**  
+Customize an AI skill in SPO so that fulfillers and requesters can use the AI skills in the Source-to-Pay Workspace, Shopping Hub, and in the Core UI.
+-   **[Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 -   **[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)**  
-The Spend categorization agent predicts product and spend categories on purchase requisition lines. Complete the configuration tasks that activate the agent and its supporting prediction services in Now Assist for SPO.
+The Spend categorization agent predicts product and spend categories on purchase requisition lines. Complete the configuration tasks that activate the agent and its supporting prediction services in ServiceNow Otto for SPO.
 
-**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

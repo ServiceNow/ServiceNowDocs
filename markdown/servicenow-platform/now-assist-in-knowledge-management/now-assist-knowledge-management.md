@@ -1,34 +1,34 @@
 ---
-title: Now Assist in Knowledge Management
-description: Use ServiceNow Now Assist in Knowledge Management to generate a new knowledge article for a case or incident via the Now Assist panel, classic environment, or the respective configurable workspace. Agents can use these articles to propose quicker resolutions to customers.
+title: ServiceNow Otto in Knowledge Management
+description: Use ServiceNow ServiceNow Otto in Knowledge Management to generate a knowledge article for a case or incident via the ServiceNow Otto panel, classic environment, or the respective configurable workspace. Agents can use these articles to propose quicker resolutions to customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-20"
 reading_time_minutes: 3
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Now Assist in Knowledge Management
+# ServiceNow Otto in Knowledge Management
 
-Use ServiceNow Now Assist in Knowledge Management to generate a new knowledge article for a case or incident via the Now Assist panel, classic environment, or the respective configurable workspace. Agents can use these articles to propose quicker resolutions to customers.
+Use ServiceNow ServiceNow Otto in Knowledge Management to generate a knowledge article for a case or incident via the ServiceNow Otto panel, classic environment, or the respective configurable workspace. Agents can use these articles to propose quicker resolutions to customers.
 
 ## Get started
 
 <table id="table_xbm_vww_m1c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Now Assist in Knowledge Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/exploring-now-assist-KM.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in ServiceNow Otto in Knowledge Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/exploring-now-assist-KM.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist in Knowledge Management and configure the generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto in Knowledge Management and configure the generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Generate new articles with Now Assist in Knowledge Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Generate articles with ServiceNow Otto in Knowledge Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

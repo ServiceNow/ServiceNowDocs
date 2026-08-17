@@ -1,6 +1,6 @@
 ---
 title: Invoice case categories and subcategories
-description: Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage different types of payment and processing issues, with each case type having specific role requirements and workflows.
+description: Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage payment and processing issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/working-with-cases.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 
 # Invoice case categories and subcategories
 
-Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage different types of payment and processing issues, with each case type having specific role requirements and workflows.
+Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage payment and processing issues.
 
 The following table provides information about the invoice case categories and subcategories, when the cases are created, and which roles can access and work on these cases.
 
@@ -105,7 +105,7 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Using Invoice Case Management]()
 
@@ -121,7 +121,7 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 

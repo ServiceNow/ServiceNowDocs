@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/self
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -30,7 +30,7 @@ With the sn\_oper\_res.manager role, you can complete the following self-attesta
 2.  Select the assessment type as Smart Assessment.
 3.  Select the Operational Resilience Attestation Template as the attestation template.
 4.  Use the Default Self Attestation HTML Template as the PDF template for the self-attestation in the self-attestation form. This template provides the format for the PDF and an option to include your e-signature in the report. For instructions on configuring the attestation template, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-attestation-template.md).
-5.  Add the services that you want to certify the status for in the self-attestation form. Respond to the pre-defined set of questions in the assessment, such as the names and description of the services, details on the scenario analysis of the important services, your approach for the scenario analysis, and so on.
+5.  Add the services that you want to certify the status for in the self-attestation form. Respond to the pre-defined set of questions in the assessment. These questions include the names and description of the services, details on the scenario analysis of the important services, and your approach for the scenario analysis.
 6.  Submit the assessment and attest for the services.
 7.  Download a PDF of the self-attestation from the Activity section of the self-attestation form and save a copy of the report for your records. For instructions on configuring the attestation PDF template, see [Create HTML and PDF document templates​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-an-html-template.md).
 8.  Close the self-attestation so that the self-attestation process is complete.
@@ -140,7 +140,7 @@ If you're a user of Operational Resilience Workspace, you can perform different 
 
 For more information on submitting a self-attestation in Operational Resilience Workspace, see [Perform the self-attestation assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-attestation-in-ws.md).
 
-For the description of the field values that are listed in the self-attestation form in the Operational Resilience Workspace, see [Create New Self attestation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/self-attestation-new-record-reference-form-in-ws.md).
+For the description of the field values that are listed in the self-attestation form in the Operational Resilience Workspace, see [Create Self attestation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/self-attestation-new-record-reference-form-in-ws.md).
 
-As an optional task, when you have the sn\_oper\_res.admin role, you can create a customized attestation template instead of using the default attestation template that is provided with the base system. For more information on creating a customized attestation template, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-attestation-template.md).
+When you have the sn\_oper\_res.admin role, you can create a customized attestation template instead of using the default template. For more information, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-attestation-template.md).
 

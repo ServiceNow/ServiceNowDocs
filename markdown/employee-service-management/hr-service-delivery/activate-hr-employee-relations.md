@@ -197,6 +197,8 @@ Allegation Subtype\[sn\_hr\_er\_allegation\_subtype\]
 Metadata table that provides 59 records to the base system. Allegation subtypes further define an allegation. For example:-   Allegation type = Discrimination
 -   Allegation subtypes: Age, disability, Race, and so on.
 
+**Note:** This table is installed only with the ER plugin.
+
 </td></tr><tr><td>
 
 Allegation Type\[sn\_hr\_er\_allegation\_type\]

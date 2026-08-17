@@ -1,6 +1,6 @@
 ---
-title: Now Assist AI Agents release notes
-description: The ServiceNow Now Assist AI Agents application provides solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. Now Assist AI Agents was enhanced and updated in the Australia release.
+title: AI Agent Studio release notes
+description: The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -8,23 +8,27 @@ last_updated: "2026-03-30"
 reading_time_minutes: 8
 ---
 
-# Now Assist AI Agents release notes
+# AI Agent Studio release notes
 
-The ServiceNow® Now Assist AI Agents application provides solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. Now Assist AI Agents was enhanced and updated in the Australia release.
+The ServiceNow® AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.
 
-## Now Assist AI Agents highlights for the Australia release
+## AI Agent Studio highlights for the Australia release
+
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+-   Custom headers in external agents configuration.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   Add or remove AI agents or tools from the built-in AI agents.
--   Detect and disable runaway AI agent triggers to prevent unintended Now Assist consumption.
+-   Detect and disable runaway AI agent triggers to prevent unintended consumption.
 -   Support conversation history for Knowledge Graph tool.
 -   Enforce deny-by-default ACLs for new agentic ACL types.
 -   Enable AI Agent Studio skill migration to Mosaic.
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
--   Enable UI validation for agentic AI processes and Now Assist skills.
+-   Enable UI validation for agentic AI processes and generative AI skills.
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
@@ -33,13 +37,18 @@ The ServiceNow® Now Assist AI Agents application provides solutions that can pe
 -   Run improved Platform agentic workflows, including Generate resolution plans, Generate my work plan, and Process images to tasks.
 -   Get more insights into agentic AI asset performance with issue tracing and suggested optimizations from results pages.
 
-See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for more information.
+See [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for more information.
 
-For the Platform Now Assist release notes, see [Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md).
+For the Platform AI release notes, see [ServiceNow Otto release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md).
 
-**Important:** Now Assist AI agents are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** AI agents and AI Agent Studio are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Integrating external AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/external-agent-protocols.md)**
+
+    External agents now support custom HTTP headers in the External Agent Configuration \[sn\_aia\_external\_agent\_configuration\] table. Specify headers in JSON format to have them automatically included in API calls to external endpoints, regardless of the connection type. This is useful for passing metadata and authentication requirements that your external systems require.
+
 
 -   **[Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-knowledge-graph.md)**
 
@@ -47,7 +56,7 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
 
 -   **[Kill Switch in Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-kill-switch.md)**
 
-    Runaway agent detection automatically disables an AI agent when the same record repeatedly triggers the same agent objective beyond a configured threshold, preventing unintended consumption of Now Assist requests.
+    Runaway agent detection automatically disables an AI agent when the same record repeatedly triggers the same agent objective beyond a configured threshold, preventing unintended consumption of requests.
 
 -   **[AI Agent Studio skills migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agents.md)**
 
@@ -95,13 +104,13 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
 
 ## Changed in this release
 
--   **[Set up Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-na-aia.md)**
+-   **[Set up AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-na-aia.md)**
 
     Use GPT-5.4 as the default model for the Orchestrator when Azure OpenAI is the selected LLM.
 
 -   **[Select the LLM for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/select-aia-llm.md)**
 
-    The default third-party \(3P\) models have been upgraded to the latest versions - GPT 5.2 to GPT 5.4 to use Now Assist AI Agents.
+    The default third-party \(3P\) models have been upgraded to the latest versions - GPT 5.2 to GPT 5.4 to use AI agents and AI Agent Studio.
 
     The new generative AI Config property records **sys\_generative\_ai\_config** and **sys\_generative\_ai\_prompt\_config** have been introduced for the following model providers:
 
@@ -115,9 +124,9 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
     -   [Generate my work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generate-work-plan.md): Additional reasoning information for the generated work plan is now displayed after the plan is created.
     -   [Identify ways to improve services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/service-improvement.md): Admin configurations for additional filters such as category and service have been added.
 
--   **[Enable UI validation for agentic AI processes and Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md)**
+-   **[Enable UI validation for agentic AI processes and generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md)**
 
-    The glide.ai\_record\_activity.validation.feature.enabled system property enables UI rule validation \(such as required fields\) for AI‑initiated record updates. You can selectively apply this validation based on execution context using additional system properties. For example, glide.ai\_record\_activity.ai\_detection.nap.enabled applies validation to record updates triggered from the Now Assist panel. Similar properties control validation for AI skills, Virtual Agent, and agent‑initiated actions, as listed in the [Reference for Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md). This feature is opt‑in and inactive by default.
+    The glide.ai\_record\_activity.validation.feature.enabled system property enables UI rule validation \(such as required fields\) for AI‑initiated record updates. You can selectively apply this validation based on execution context using additional system properties. For example, glide.ai\_record\_activity.ai\_detection.nap.enabled applies validation to record updates triggered from the ServiceNow Otto panel. Similar properties control validation for AI skills, Virtual Agent, and agent‑initiated actions, as listed in the [Reference for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md). This feature is opt‑in and inactive by default.
 
 -   **[Create an external AI agent with the Agent2Agent protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a2a-agent.md)**
 
@@ -145,38 +154,38 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
 
 ## Activation information
 
-Now Assist AI agents are available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist AI agents, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+AI agents and AI Agent Studio are available with activation of any AI plugin from the ServiceNow Store. For more information about the prerequisites for using AI agents, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 ## Additional requirements
 
-You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported version of the ServiceNow AI Platform to be able to use AI agents and AI Agent Studio. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
-Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+Next Experience UI Framework must be enabled before you can use the ServiceNow Otto panel.
 
 ## Browser requirements
 
-Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
+AI agents and AI Agent Studio support various browsers, including Google Chrome and Microsoft Edge. AI agents and AI Agent Studio aren't supported in Internet Explorer.
 
 ## Accessibility information
 
--   **[Voice Input for Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[Voice Input for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-    Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+    Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the . This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
-    After enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
+    After enabled, the Enable voice input for the ServiceNow Otto panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
 
     Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
 
 ## Localization information
 
-The Now Assist AI agents application is built on the GPT-4o-based framework and supports localization according to the GPT-4o model.
+AI agents and AI Agent Studio are built on the GPT-4o-based framework and supports localization according to the GPT-4o model.
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-    With the ServiceNow®Now Assist panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+    With the ServiceNow®ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 
 -   **[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller.md)**
 
@@ -186,9 +195,9 @@ The Now Assist AI agents application is built on the GPT-4o-based framework and 
 
     The ServiceNow® AI Search application provides a consumer-grade search engine for Service Portal, Now Mobile, and Virtual Agent. Intelligent query features help you quickly find the answers you need.
 
--   **[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)**
+-   **[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)**
 
-    Use the ServiceNow® Now Assist Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist generative AI capabilities.
+    Use the ServiceNow® AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts enables you to have greater flexibility with generative AI capabilities.
 
 
 **Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)

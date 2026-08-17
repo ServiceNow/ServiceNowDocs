@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure the MID Web Server extension

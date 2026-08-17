@@ -91,3 +91,5 @@ A table to store Capacity and Utilization drilled down to the area level.​
 
 [User Workplace Profile form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

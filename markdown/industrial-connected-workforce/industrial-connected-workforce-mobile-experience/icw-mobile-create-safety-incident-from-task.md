@@ -54,7 +54,7 @@ The safety incident is created and linked to the originating task. The incident 
 
 [Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-security-integraton.md)
 
-[Report safety incident from ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)
+[Report a safety incident from ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)
 
 [Using ICW Health and Safety Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-icw-health-and-safety-integration.md)
 

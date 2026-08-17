@@ -8,7 +8,7 @@ product: Journey Designer
 classification: journey-designer
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Journey designer dashboards and reports, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 

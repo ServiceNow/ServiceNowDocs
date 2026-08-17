@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-impact-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,7 @@ Australia
 
 </td><td>
 
-The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configure the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## New features
@@ -183,8 +183,12 @@ Australia
 
 </td><td>
 
--   **[Prevent and resolve technical debt](https://www.servicenow.com/docs/access?context=impact-health-agent&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
 
+Version 9.00
+
+    -   Directly deactivate base system definitions without requiring an override record or approval.
+    -   Use Full Scan or Suite Scan to validate update sets against all active definitions or a curated suite.
 Version 8.0.0
 
     -   Access summarized findings in one line grouped by findings level. Use the statistical and sys property scan types to view scan results in a statistical section.
@@ -192,11 +196,20 @@ Version 8.0.0
 Version 7.0.0
 
     -   Proactively identify, prioritize, and resolve technical debt by using the collection of AI-native tools embedded within the Impact Platform Health experience.
-    -   Track and resolve issues in developer code throughout the end-to-end workflow by reviewing and applying AI-recommended fixes through the [Prevent and resolve technical debt](https://www.servicenow.com/docs/access?context=impact-health-agent&family=australia&ft:locale=en-US), which provides AI-generated code fixes for leading practice violations.
+    -   Track and resolve issues in developer code throughout the end-to-end workflow by reviewing and applying AI-recommended fixes to [\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US) , which provides AI-generated code fixes for leading practice violations.
+-   **[Product value](https://www.servicenow.com/docs/access?context=product-value-overview&family=australia&ft:locale=en-US)**
+
+Version 9.0.0
+
+    -   Explore product-level outcome performance in the Product Value  page. You can use it to review operational metrics, monetized value, trend charts, calculation transparency, and assumptions. 
+    -   Explore Enhanced outcomes built on current ServiceNow platform capabilities, with updated data instrumentation and calculation logic. 
+    -   Enhanced outcomes are currently only available for IT Service Management
 -   **[New Accelerators in the Australia Release](https://www.servicenow.com/docs/access?context=new-accelerators-australia-release&family=australia&ft:locale=en-US)**
 
 Version 8.0.0
 
+    -   Explore AI data, learn AI governance, and improve Virtual Agent performance.
+    -   Configure ServiceNow Vault, optimize HR and service management, and build skills for the EA Workspace.
     -   Explore AI data, learn AI governance, and improve Virtual Agent performance.
     -   Configure ServiceNow Vault, optimize HR and service management, and build skills for the EA Workspace.
     -   Evaluate and improve the performance of your platform teams and assess their AI governance with On-demand accelerators.
@@ -204,21 +217,21 @@ Version 8.0.0
     -   Enhance platform capabilities and drive product adoption through focused engagements including Capability Design and Capability Configuration with Optimization Accelerators.
 Version 7.0.0
 
-    -   Accelerate your Impact Platform health, Data privacy, Walk-up experience, Digital product release, Modern change management, Major incident management, CSDM for service operations, and Integration hub by using technical accelerators.
+    -   Accelerate Platform health, Data privacy, Walk-up experience, Digital product release, Modern change management, Major incident management, CSDM for service operations, and Integration hub with technical accelerators.
     -   Improve your change readiness by using the OCM: Preparing for change and adopt AI governance impact strategy accelerators.
-    -   Assess your CSDM maturity, improve CSDM Data modeling, and accelerate your portal’s user experience with the help of usage insights and virtual agent experience design provided by the architecture accelerators.
--   **[On-demand accelerators](https://www.servicenow.com/docs/access?context=on-demand-accelerators&family=australia&ft:locale=en-US)**
+    -   Assess CSDM maturity, improve CSDM Data modeling, and accelerate portal’s user experience with usage insights and virtual agent experience design from the architecture accelerators.
+-   **[Self-serve Accelerator fulfillment process](https://www.servicenow.com/docs/access?context=on-demand-accelerators&family=australia&ft:locale=en-US)**
     -   Provide Self-service capabilities with improved session persistence, an entitlement-aware catalog, and a downloadable 90-day action plan.
     -   Access engagement-type filtering, progress tracking, questionnaire persistence, and self-serve directly within the catalog.
 -   **[Impact Conversations](https://www.servicenow.com/docs/access?context=impact-conversations_store&family=australia&ft:locale=en-US)**
 
-Collaborate with your Impact squad through organized, category-based conversations where you can ask questions, get expert guidance, and share files without leaving yourServiceNow instance.
+Collaborate with your Impact squad through organized, category-based conversations where you can ask questions, get expert guidance, and share files without leaving your ServiceNow instance.
 
 -   **[Alert card to capture long pending jobs](https://www.servicenow.com/docs/access?context=io-long-pending-job-alert-card&family=australia&ft:locale=en-US)**
 
 Get timely notifications of pending jobs based on their lateness duration and act on them to reduce the risk of downstream failures and SLA misses. The Long Pending Jobs alert card identifies jobs that breach predefined lateness thresholds.
 
--   **[Configure IO alert notifications for a ServiceNow instance](https://www.servicenow.com/docs/access?context=io-receive-notification-customer-conf-webhook&family=australia&ft:locale=en-US)**
+-   **[Configure alert notifications for an instance](https://www.servicenow.com/docs/access?context=io-receive-notification-customer-conf-webhook&family=australia&ft:locale=en-US)**
 
 Receive timely notifications on failures in customer-configured webhook integrations caused by invalid URLs or credentials that go unnoticed until runtime.
 
@@ -229,7 +242,7 @@ Receive timely notifications on failures in customer-configured webhook integrat
 
 Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.
 
--   **[Manage Capabilities Maps for the Impact Store Application](https://www.servicenow.com/docs/access?context=manage-capability-maps&family=australia&ft:locale=en-US)**
+-   **[Manage capabilities maps](https://www.servicenow.com/docs/access?context=manage-capability-maps&family=australia&ft:locale=en-US)**
 
 Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
 
@@ -283,7 +296,23 @@ Australia
 
 -   **[Run Impact Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=australia&ft:locale=en-US)**
 
-The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configure the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+
+-   **[Prevent and resolve technical debt with AI](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+
+Review enforcement messages for Update Set completion: Enforcement messages clarify which suite or scan type is required to meet completion criteria.
+
+Fix violations from JPMC issue analysis: Use new Scan Engine definitions that address real-world JPMC-identified violations.
+
+Deactivate base system Scan Engine definitions: Remove OOTB definitions from your instance without requiring an override.
+
+Sync exception reasons across instances: Synchronize exception reasons across multi-instance environments.
+
+Register your instance with streamlined guidance: Follow improved setup instructions for initial Scan Engine configuration.
+
+-   **[Now Assist&gt;ServiceNow Otto](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Impact. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 
 </td></tr></tbody>
@@ -378,9 +407,9 @@ Australia
 
 -   **[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=australia&ft:locale=en-US)**
 
-For information on package entitlement and features activation, see [\[Placeholder link text to key bundle-ipact.impact-packages\]](https://www.servicenow.com/docs/access?context=impact-packages&family=australia&ft:locale=en-US).
+For information on package entitlement and features activation, see [\[Placeholder link text to key impact-packages1\]](https://www.servicenow.com/docs/access?context=impact-packages1&family=australia&ft:locale=en-US).
 
-For details on configuring Impact and its features, see [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact&family=australia&ft:locale=en-US).
+For details on configuring Impact and its features, see [\[Placeholder link text to key configuring-impact-platform\]](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -528,19 +557,7 @@ Australia
 
 </td><td>
 
--   Version 8.0.0
-    -   Identify problematic lines and receive proposed solutions by engaging an AI analysis panel with the [Fix code in real-time with Now Assist](https://www.servicenow.com/docs/access?context=code-fix-ai-agent-scan-engine&family=australia&ft:locale=en-US) feature.
-    -   Submit exception requests directly from Recommend-level findings in [Prevent and resolve technical debt](https://www.servicenow.com/docs/access?context=impact-health-agent&family=australia&ft:locale=en-US).
-    -   Get a high-level estimate of your Impact app storage usage so you can proactively plan your storage management.
-    -   Discover, filter, launch, and complete accelerators independently and also download a self-served 90-day action plan with On-demand accelerators.
-    -   Manage Impact accounts with the dedicated partner role support where partners can manage Impact on behalf of customers without manual intervention.
--   Version 7.0.0:
-    -   Streamline the Impact Store Application configuration with the updated Impact guided setup.
-    -   Proactively identify, prioritize, and resolve technical debt with the Impact Health Agent, a collection of AI-native tools embedded within the Impact Platform Health experience.
-    -   Provide access to partners with the impact\_partner\_role.
-    -   View true applications capabilities organized by product lines.
-
- See [Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=australia&ft:locale=en-US) for more information.
+See [Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

@@ -25,7 +25,7 @@ Ensure that the application scope is set to **Microsoft Exchange Online Spoke**.
 3.  In the filter navigator, search and select **Microsoft Exchange Online Spoke**.
 4.  Refresh the page.
 
-Role required: admin
+Role required: sn\_egd\_core.admin
 
 ## Procedure
 

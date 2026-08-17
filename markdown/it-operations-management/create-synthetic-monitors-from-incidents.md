@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Create synthetic monitors from incidents
@@ -48,9 +48,7 @@ While creating these synthetic monitors from a post-incident recommended action,
 
 5.  Select the endpoints for which you want to create synthetic monitors.
 
-    Synthetic Monitoring automatically selects an available MID Server as the execution location when creating monitors. To configure a default MID Server for auto-selection, set the following system property:
-
-    `*sn\_sow\_synthetics.default\_mid\_location*`
+    Synthetic Monitoring automatically selects an available MID Server as the execution location when creating monitors.
 
     **Note:** Default values are configured for response code, frequency, and trigger status for an alert on the incident.
 

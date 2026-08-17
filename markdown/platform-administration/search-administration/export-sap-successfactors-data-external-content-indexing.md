@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-02"
+last_updated: "2026-07-20"
 reading_time_minutes: 7
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [SAP SuccessFactors external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -37,7 +37,7 @@ For details on these report permissions in SAP SuccessFactors Learning, see the 
 
 In the non-production SAP SuccessFactors Learning environment that has Learning Report Designer enabled, your administrator account needs the REPORT\_DEVELOPER role. For details on adding this role to an administrator account, see the [Setting up a Plateau Report Designer Account](https://help.sap.com/docs/successfactors-learning/managing-sap-successfactors-learning-for-administrators/setting-up-plateau-report-designer-account) SAP Help Portal resource.
 
-The Learning Report Designer tool must be downloaded, installed on a Windows workstation with a 32-bit Java Runtime Environment \(JRE\), and configured to connect to your non-production SAP SuccessFactors Learning environment. To learn about these procedures, see the [Downloading Learning Report Designer](https://help.sap.com/docs/successfactors-learning/managing-sap-successfactors-learning-for-administrators/downloading-learning-report-designer) SAP Help Portal resource.
+The Learning Report Designer tool must be downloaded and installed on a Windows workstation with a 32-bit Java Runtime Environment \(JRE\). You must have configured Learning Report Designer to connect to your non-production SAP SuccessFactors Learning environment. To learn about these procedures, see the [Downloading Learning Report Designer](https://help.sap.com/docs/successfactors-learning/managing-sap-successfactors-learning-for-administrators/downloading-learning-report-designer) SAP Help Portal resource.
 
 Role required: none
 

@@ -67,7 +67,7 @@ If Document Intelligence encounters an extraction error, the invoice processing 
 
 [View the invoice processing case associated with an invoice]()
 
-[Enter the missing required invoice information and submit an invoice]()
+[Enter missing invoice information and submit an invoice]()
 
 [Confirm whether an invoice is a duplicate]()
 
@@ -77,5 +77,5 @@ If Document Intelligence encounters an extraction error, the invoice processing 
 
 [Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications]()
+[Start processing a third-party invoice]()
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-zerocopyconnectorforerp-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 9
+last_updated: "2026-08-17"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -104,18 +104,18 @@ Zurich
 
 -   **[Use agentic AI](https://www.servicenow.com/docs/access?context=now-assist-erp-aiagents-data-explorer-workflow&family=zurich&ft:locale=en-US)**
 
-Discover ERP database table information and identify relevant ERP Data Product models using the Explore ERP models agentic AI workflow in Now Assist for Zero Copy Connector.
+Discover ERP database table information and identify relevant ERP Data Product models using the Explore ERP models agentic AI workflow in ServiceNow Otto for Zero Copy Connector.
 
--   **[Now Assist for Zero Copy Connector skills](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connectors-skills&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Zero Copy Connector skills](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connectors-skills&family=zurich&ft:locale=en-US)**
 
 More easily identify SAP objects like tables, BAPI endpoints, and OData endpoints that can then be used to query the data you need with the ERP Data Query skill. Query SAP standard database tables for data and transactional records using the ERP Data Discovery skill.
 
--   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+    -   New customers: When you install an AI product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Use AI to discover model entity options](https://www.servicenow.com/docs/access?context=use-ai-to-help-add-an-entity-to-a-model&family=zurich&ft:locale=en-US)**
 
 Use ask AI in model manager to obtain detailed entity options by describing the entity you want to add to a model.
@@ -167,15 +167,15 @@ Australia
 
 </td><td>
 
--   **[Support for REST APIs](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=australia&ft:locale=en-US)**
+-   **[Support for REST APIs](https://www.servicenow.com/docs/access?context=erp-canvas-use-rest&family=australia&ft:locale=en-US)**
 
 Connect to ERPs using REST APIs for read and write operations.
 
--   **[AI agent for SAP OData services](https://www.servicenow.com/docs/access?context=now-assist-erp-aiagents-data-explorer-workflow&family=australia&ft:locale=en-US)**
+-   **[AI agent for SAP OData services](https://www.servicenow.com/docs/access?context=now-assist-erp-ai-agent-odata-service-recommender&family=australia&ft:locale=en-US)**
 
 Discover relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This reduces missed integration opportunities and accelerates development by finding standard SAP capabilities that align with your use cases.
 
--   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://www.servicenow.com/docs/access?context=erp-canvas-content-packs&family=australia&ft:locale=en-US)**
+-   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://www.servicenow.com/docs/access?context=erp-canvas-recruit-to-retire-content-pack&family=australia&ft:locale=en-US)**
 
 Use the Hire to Retire content pack containing models to get Zero Copy Connector for ERP running on your instance faster.
 
@@ -189,8 +189,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -258,7 +258,12 @@ Australia
 
 </td><td>
 
--   **[Improved ETL data extractions](https://www.servicenow.com/docs/access?context=set-up-erp-integration-connection&family=australia&ft:locale=en-US)**
+-   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
+
+After specifying the REST service to use, the endpoint and return type are added automatically.
+
+
+ -   **[Improved ETL data extractions](https://www.servicenow.com/docs/access?context=set-up-erp-integration-connection&family=australia&ft:locale=en-US)**
 
 The ETL process was refactored from Flow Designer to script includes for better performance and reliability.
 
@@ -577,7 +582,7 @@ Zurich
 -   Obtain ERP information and explore ERP data products using generative AI and agentic AI in ERP models.
 -   Control data access and permissions for Zero Copy Connector for ERP AI agents to ensure that users can only interact with data they are authorized to obtain.
 -   Retrieve IDOC information from SAP to create and update a greater number of SAP business entities.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 -   Some Now Assist skills are now turned on by default.
 
  [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)

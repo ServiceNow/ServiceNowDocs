@@ -1,5 +1,5 @@
 ---
-title: Inputs and triggers for Now Assist for Security Incident Response
+title: Inputs and triggers
 description: You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.html
@@ -7,13 +7,13 @@ release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-07-30"
+reading_time_minutes: 2
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Inputs and triggers for Now Assist for Security Incident Response
+# Inputs and triggers
 
 You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 
@@ -25,7 +25,7 @@ You can modify inputs and triggers, but you can't modify a skill's data source. 
 
 ## Security incident summarization skill
 
-Inputs for the security incident summarization skill identify the table and fields used when a security incident summary is generated. The following table lists the inputs for the Security Incident summarization skill from the Choose Input page in the Now Assist Admin console.
+Inputs for the security incident summarization skill identify the table and fields used when a security incident summary is generated. The following table lists the inputs for the Security Incident summarization skill from the Choose Input page in the AI Admin Hub console.
 
 <table id="table_arz_fk3_1cc"><thead><tr><th>
 
@@ -71,7 +71,7 @@ Related Input tables
 </td></tr></tbody>
 </table>## Resolution notes generation skill
 
-Inputs for the Resolution notes generation skill identify the table and fields that are used when the resolution notes are generated for a security incident. The following table lists the inputs for the resolution notes generation skill from the Choose Input page in the Now Assist Admin console.
+Inputs for the Resolution notes generation skill identify the table and fields that are used when the resolution notes are generated for a security incident. The following table lists the inputs for the resolution notes generation skill from the Choose Input page in the AI Admin Hub console.
 
 <table id="table_il3_sfj_1cc"><thead><tr><th>
 
@@ -144,6 +144,43 @@ Security Incident \[sn\_si\_incident\] table.
  Vulnerable item \[sn\_vul\_vulnerable\_item\] table.
 
  Associate observable \[sn\_ti\_observable\] table.
+
+</td></tr></tbody>
+</table>## Security Incident Quality Assessment
+
+Your Quality Assessment report for a security incident can contain records from the following tables, but you must have permission to access these tables and records.
+
+<table id="table_k2k_zc4_jhc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Data source
+
+</td><td>
+
+Security Incident \[sn\_si\_incident\] table.
+
+ Configuration item \[cmdb\_ci\] table.
+
+ Task CI \[task\_ci\]
+
+ Associated Observable \[sn\_ti\_observable\]
+
+ Affected Users \[sn\_si\_m2m\_task\_affected\_user\]
+
+ Security Incident Task \[sn\_si\_task\]
+
+ Task SLA \[task\_sla\]
+
+ Email \[sys\_email\]
+
+ Playbook Activities: sys\_pd\_activity\_context
 
 </td></tr></tbody>
 </table>

@@ -11,7 +11,7 @@ last_updated: "2026-04-08"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, virtual agent, analytics, resources, knowledge articles, catalog items, deflections, escalations, ITSM]
 audience: administrator
-breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Who is On Call, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent resources analytics

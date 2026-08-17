@@ -17,20 +17,27 @@ The ServiceNow® Creator Studio application guides business process experts thro
 -   Distinguish AI-generated apps and features at a glance using updated icons.
 -   Use improved screen reader support and keyboard navigation when interacting with forms and templates using assistive technologies.
 
-See  for more information.
+See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md) for more information.
 
 **Important:** Creator Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## UI changes
 
--   **Updated identifiers for AI-generated components**
+-   **[Updated identifiers for AI-generated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
 
     AI gradient tokens are applied to specific components on the forms page to indicate when content has been generated or influenced by Now Assist. More easily identify AI-generated content consistently through the consistent and recognizable AI identity within Creator Studio.
 
 
+## Changed in this release
+
+-   **[ServiceNow Otto rebrand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
+
+    ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
 ## Activation information
 
-Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
@@ -47,11 +54,11 @@ The following updates were made to support accessibility:
 
 ## Related ServiceNow applications and features
 
--   **App Engine Management Center**
+-   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/monitor-requests-using-aemc.md)**
 
     Track and manage your Creator Studio requests, deployments, applications, and collaborative developers using App Engine Management Center.
 
--   **App Engine Studio**
+-   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)**
 
     Open Creator Studio apps in AES to add more complexity to the app, such as email notifications and additional security.
 
@@ -59,11 +66,11 @@ The following updates were made to support accessibility:
 
     Create or edit a catalog item using a visual and guided experience.
 
--   **Form Builder**
+-   **[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-view-configuration.md)**
 
     Visually create, configure, and customize the different form views for your users using the form editor in Form Builder.
 
--   **ServiceNow Studio**
+-   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)**
 
     Extend base system solutions and create custom apps through ServiceNow Studio, which provides a unified experience for all ServiceNow development activities.
 
@@ -73,7 +80,7 @@ The following updates were made to support accessibility:
 
 -   **[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
 
-    Address customer requests and issues in a workspace that provides a suite of tools where agents, case managers, help desk professionals, and managers work with tools to resolve customer needs.
+    Address customer requests and issues in a workspace that provides a suite of tools where agents, help desk professionals, and managers work with tools to resolve customer needs.
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)

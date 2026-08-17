@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
 # ITOM Visibility release notes
@@ -19,10 +19,15 @@ The ServiceNow® ITOM Visibility application provides a unified, connected view 
 -   AI Agent Topology Mapping: Discover AI agent infrastructure and dependencies using the new AI Agent Topology Mapping application, including:
     -   Amazon Bedrock AI agents, models, and prompts
     -   Microsoft Foundry \(Classic\) AI agents, models, and prompts
+-   Cryptographic Asset Compliance: Inventory, assess, and manage cryptographic assets, including certificates and keys, across cloud and on-premises environments to support post-quantum cryptography \(PQC\) readiness and maintain security compliance.
 
 -   **Store updates for ITOM Visibility**
 
     The majority of Visibility apps are updated monthly or quarterly via the ServiceNow Store. The latest updates are available in the ServiceNow Store. For cumulative release notes and compatibility information, see the ServiceNow Store version details.
+
+    -   [Cryptographic Asset Compliance](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-advanced.html)
+
+        Cryptographic Asset Compliance is a part of the ITOM - Advanced app. This app helps you manage cryptographic assets, including certificates and cloud keys \(AWS KMS and Azure Key Vault\) discovered across on-premises and cloud environments from a centralized inventory. You can identify at-risk cryptographic assets with policy-based risk indicators and focus remediation efforts where they matter most.
 
     -   [Service Mapping Plus](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-mapping-plus.html)
 
@@ -63,9 +68,9 @@ The ServiceNow® ITOM Visibility application provides a unified, connected view 
 
         Enhanced functionality for better visualization and navigation.
 
-    -   [Learning Enhanced Automation Playbook \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md)
+    -   [Learning Enhanced Automation Playbook \(LEAP\)](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-leap.html)
 
-        The Learning Enhanced Automation Playbook \(LEAP\) application uses AI to analyze incident data and facilitate the creation of automations that resolve high-impact issues for Service Operations teams. By leveraging data-driven analytics to accurately identify critical incidents, LEAP enables a more proactive problem management approach.
+        The Learning Enhanced Automation Playbook \(LEAP\) application uses AI to analyze incident data and facilitate the creation of automation that resolves high-impact issues for Service Operations teams. By leveraging data-driven analytics to accurately identify critical incidents, LEAP enables a more proactive problem management approach.
 
     -   [AI Agent Topology Mapping](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-agent-topology-mapping.html)
 

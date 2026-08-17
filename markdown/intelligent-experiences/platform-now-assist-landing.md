@@ -1,6 +1,6 @@
 ---
-title: Now Assist
-description: ServiceNow Now Assist uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
+title: AI Admin Hub
+description: ServiceNow ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-now-assist-landing.html
 release: australia
@@ -11,9 +11,9 @@ keywords: [generative AI, Gen AI, Now Assist, Artificial intelligence, Virtual A
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist
+# AI Admin Hub
 
-ServiceNow® Now Assist uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
+ServiceNow® ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows and AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -23,7 +23,7 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 
 <table id="table_xdy_2jh_syb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 
 </td><td>
 
@@ -31,7 +31,7 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 
 </td><td>
 
-[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and monitor Now Assist performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and monitor ServiceNow Otto performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)
 
 </td></tr><tr><td>
 
@@ -39,7 +39,7 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles, data usage policy, and domain separation in Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles, data usage policy, and domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
 
 </td><td>
 

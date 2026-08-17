@@ -1,5 +1,5 @@
 ---
-title: Configuring Data Privacy for Now Assist
+title: Configuring ServiceNow Otto for Data Privacy
 description: Configure a data privacy advanced configuration to de-identify personally identifiable information \(PII\) in generative AI applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/configure-now-assist-data-privacy.html
@@ -8,11 +8,11 @@ product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Data Privacy for Now Assist, Data Privacy, Platform Privacy]
+reading_time_minutes: 1
+breadcrumb: [ServiceNow Otto for Data Privacy, Data Privacy, Platform Privacy]
 ---
 
-# Configuring Data Privacy for Now Assist
+# Configuring ServiceNow Otto for Data Privacy
 
 Configure a data privacy advanced configuration to de-identify personally identifiable information \(PII\) in generative AI applications.
 
@@ -55,7 +55,7 @@ Role required: now\_assist\_data\_privacy\_admin
 
 6.  After you’re redirected to the list of policy advanced configurations, open the record you created.
 
-    Open the existing record with the Now Assist data channel if one is already present.
+    Open the existing record with the ServiceNow Otto data channel if one is already present.
 
 7.  To add a data pattern to de-identify, select **Select Data Patterns**.
 

@@ -22,7 +22,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
 -   **[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management-overview-ws.md)**
 
-    Audit workspace is a single-pane view for audit supervisor and auditor to view the overall audit timeline and status, track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
+    Audit workspace is a single-pane view for audit supervisors and auditors. View the overall audit timeline and status, track budget and resources for engagements, and trace high priority observations and issues. Monitor ongoing control testing and audit task progress.
 
 -   **[Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cow-landing-page.md)**
 

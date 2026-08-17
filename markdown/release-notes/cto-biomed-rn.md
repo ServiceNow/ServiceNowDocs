@@ -17,7 +17,7 @@ The ServiceNow® Care Team Operations for Biomed application contains the case t
 ## Care Team Operations for Biomed for Biomed highlights for the Australia release
 
 -   Use the conversational abilities of Now Assist in Virtual Agent in Care Team Portal or Care Team Mobile to create requests for support departments.
--   Leverage the Care Team Operations Case Creation Voice AI Agent enables to create cases conversationally over the phone.
+-   Leverage the Care Team Operations Case Creation AI voice agent to create cases conversationally over the phone.
 -   Care Team Operations for Biomed has received security enhancements in the Australia release.
 
 See [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/care-team-operations-for-biomed.md) for more information.
@@ -28,19 +28,19 @@ See [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceN
 
 The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
 
-If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.
+If you have the feature administrator role, you can now complete tasks that were initially reserved for users with the broader administrator role.
 
 ## Care Team Operations for Biomed features
 
 -   **[Create support requests using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)**
 
-    Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case Creation AI agents and is available in Care Team Portal and Care Team Mobile.
+    Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case creation AI agents and is available in Care Team Portal and Care Team Mobile.
 
--   **[Care Team Operations Case Creation Voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-voice-agent.md)**
+-   **[Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-voice-agent.md)**
 
-    The Care Team Operations Case Creation Voice AI Agent enables care team members to create cases conversationally over the phone.
+    The Care Team Operations Case Creation AI voice agent enables care team members to create cases conversationally over the phone.
 
-    **Note:** For the Care Team Operations Case Creation Voice AI Agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
+    **Note:** For the Care Team Operations Case Creation AI voice agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
 
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
@@ -55,7 +55,7 @@ If you have the feature administrator role you can now complete tasks that were 
 
 ## Activation information
 
-Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Care Team Operations for Biomed by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

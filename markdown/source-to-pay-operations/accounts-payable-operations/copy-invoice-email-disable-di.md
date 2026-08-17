@@ -1,5 +1,5 @@
 ---
-title: Configure the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability
+title: Configure Invoice email flow for disabling Document Intelligence
 description: Configure the copied version of the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-disable-di.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Accounts payable case Record, APO, Flow Designer, Invoice processing case, Process Automation, DocIntel status]
 breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configure the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability
+# Configure Invoice email flow for disabling Document Intelligence
 
 Configure the copied version of the **Invoice processing case for Invoice email** flow for disabling the Document Intelligence capability.
 

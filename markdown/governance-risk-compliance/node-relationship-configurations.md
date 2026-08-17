@@ -30,7 +30,9 @@ For details on the updates in the Node relationship configurations introduced in
         This enhancement enables for more flexible and meaningful visualization of node data.
 
     -   Maximum number of nodes and Maximum number of levels: You can set the maximum number of nodes and levels for the map \(as shown in the **Properties** tab\). Similarly, you can also control the maximum number of children shown at the specific node relation and maximum number of levels shown at a specific node. The **Maximum number of levels** property is enabled only when the source table and target table in the Main node configuration are the same; if they’re different, this property is inactive.
-    -   Direction: Another field added to the relationship configuration is "Direction," which specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target." When set to "Target to source," selecting a specific node displays all its upstream nodes, showing the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
+    -   Another field added to the relationship configuration is "Direction." It specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target."
+
+        When it is set to "Target to source," selecting a specific node displays all its upstream nodes. This shows the relationships leading to that node. When it is set to "Source to target," selecting a node displays all its downstream nodes.
 
         \[Omitted image "main-node-config-direction.png"\] Alt text: Direction.
 

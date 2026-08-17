@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-productsupportfortechnology-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -137,7 +137,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 </td></tr></tbody>
 </table>## Removed

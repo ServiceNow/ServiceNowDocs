@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
-breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Run multiple scheduled jobs for alert grouping

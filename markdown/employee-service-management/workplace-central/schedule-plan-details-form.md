@@ -151,3 +151,5 @@ End date of the workspace assignments.
 
 [User Workplace Profile form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

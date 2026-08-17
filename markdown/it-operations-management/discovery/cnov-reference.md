@@ -25,6 +25,8 @@ The fields in the Kubernetes Visibility Agent Informers table `sn_acc_visibility
 The Kubernetes Visibility Agent component is supported on several versions of Kubernetes and OpenShift and in various Kubernetes environments.
 -   **[Kubernetes Visibility Agent advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-adv-configuration.md)**  
 This section refers to advanced configuration options for the Kubernetes Visibility Agent component running in a Kubernetes cluster.
+-   **[Kubernetes cluster auto-retirement properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-auto-retire-properties.md)**  
+Configure system properties to control the automatic retirement of inactive Kubernetes cluster configuration items \(CIs\) and their associated resources, so your CMDB reflects only active infrastructure.
 -   **[Install Kubernetes Visibility Agent \(KVA\) using the Terraform Helm provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/untitled2.md)**  
 You can install Kubernetes Visibility Agent using the Terraform Helm provider.
 

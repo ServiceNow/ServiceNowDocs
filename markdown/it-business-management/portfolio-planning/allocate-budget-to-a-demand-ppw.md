@@ -1,6 +1,6 @@
 ---
-title: Allocate budget to a demand
-description: Set the capital expense \(Capex\) and operating expense \(Opex\) budgets in demand or functional currency according to the fiscal years. The sum of the Capex and Opex budgets is calculated as the total budget in demand currency.
+title: Manage demand budgets
+description: Allocate, manage, and approve budget for your demands. Lean budgeting allocates budget for short planning cycles across fiscal periods, such as monthly, quarterly, or yearly. This approach differs from allocating budget to the complete duration of a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/allocate-budget-to-a-demand-ppw.html
 release: australia
@@ -8,60 +8,46 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Allocate budget to a demand
+# Manage demand budgets
 
-Set the capital expense \(Capex\) and operating expense \(Opex\) budgets in demand or functional currency according to the fiscal years. The sum of the Capex and Opex budgets is calculated as the total budget in demand currency.
+Allocate, manage, and approve budget for your demands. Lean budgeting allocates budget for short planning cycles across fiscal periods, such as monthly, quarterly, or yearly. This approach differs from allocating budget to the complete duration of a demand.
 
 ## Before you begin
 
-Role required: portfolio\_manager
+-   Enable the property to work on budgeting. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
+-   Configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configure-budget-attribute-at-instance-level-ppw.md).
+-   Role required: it\_demand\_manager
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select **Demand Budget**.
+4.  Select **Financials** from the navigation menu.
 
-    **Note:** If the **Demand Budget** tab isn’t visible, select **More** and then select **Demand Budget**.
+5.  Select **Budget allocation** from the Display mode list.
 
-4.  Add or edit a demand budget record:
+6.  Manage the budget for the selected time scale at the monthly, quarterly, or yearly level using one of the following methods.
 
-    -   To add a demand budget record, select **New**.
-    -   To update the details of a demand budget record, select the record.
-5.  On the Create New Project Funding form, fill in the fields.
+    -   Double-click each cell in the Budget column and enter the value.
+    -   Select **Copy cost as budget** from the Budget column options to copy Forecast value as budget.
+    -   Edit the budget values using the in-grid editing feature after copying Forecast to budget.
+    -   Unapproved budget values are marked with the \[Omitted image "fin-copy-budget-icon.png"\] Alt text: icon.
+    **Note:** Negative budget amounts are supported. If you enter a negative **Capex Budget** or **Opex Budget** amount, or the associated cost plan has a negative total planned cost, the demand budget is still distributed across the cost plan breakdowns and rolled up to the demand financials.
 
-    **Tip:** You can work on allocating lean budgets at the fiscal period level using the Investment Budget. For more information, see [Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-lean-budgeting-for-demands-ppw.md).
+7.  Select **Approve budget**.
 
-    For a description of the field names, see [Create project funding form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-project-funding-form.md).
+    The Approve budget confirmation dialog opens. The **Create a financial baseline for this budget approval** option is selected by default. This option captures the latest budget and financial estimates.
 
-6.  Select **Save**.
+    **Tip:** The financial baseline created while approving the budget can be compared with the future baselines once the actual expenses are captured to track financial performance.
 
-    **Note:**
+8.  In the confirmation dialog, select **Approve**.
 
-    -   To delete a demand budget record:
-        -   Select a demand budget record from the **Demand Budget** tab and select **Delete**.
-        -   Select **Delete** from the More Actions option in the project funding record form.
-    -   If the demand doesn’t have a cost plan, start date, and due date, then demand budget is distributed from the current month until the end of the demand budget fiscal year.
-    -   If the demand doesn’t have a cost plan, start date, and due date, then demand budget is distributed from the current month until the end of the demand budget fiscal year.
-    -   If the demand doesn’t have a cost plan and a due date but has a start date, then the demand budget is distributed from either:
-        -   Start date \(if the start date falls in the given budget fiscal year\) until the end of the demand budget fiscal year.
-        -   Start of the demand budget fiscal year until the end of the demand budget fiscal year.
-    -   If the demand doesn’t have a cost plan and a start date but has a due date, then the demand budget is distributed from either:
-        -   Current month until due date \(if the due date falls in the given budget fiscal year\).
-        -   Current month until the end of demand budget fiscal year.
-    -   If the demand has a cost plan associated, then demand budget is distributed by honoring the cost plan fiscal periods.
-    After completing your work on the demand budget record, use the breadcrumb navigation to return to the **Demand Budget** tab.
-
-
-## Result
-
-The demand budget for the selected year appears in the **Demand Budget** tab. You can select the amounts in the list to revise them.
 

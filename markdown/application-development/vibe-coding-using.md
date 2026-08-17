@@ -19,12 +19,12 @@ Use ServiceNow AI Platform environments, products, tools, and skills to develop,
 
 -   **[Agentic development in ServiceNow AI Platform environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-environments.md)**  
 You can develop apps agentically with AI tools on the ServiceNow AI Platform in a safe, isolated environment using a non-production instance with Developer Sandboxes, or on a Personal Developer Instance \(PDI\).
--   **[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)**  
+-   **[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)**  
 Build Agent is the primary AI-powered development tool that works directly with the ServiceNow AI Platform to help you build applications. It generates code based on natural language descriptions, suggests improvements, and automates repetitive development tasks while you retain control of your application.
--   **[AI-assisted app creation with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-now-assist-creator.md)**  
-Now Assist for Creator provides core skills for rapid conversational app development. Use the integrated tools to generate scripts, optimize code, scaffold applications, and automate testing through natural language prompts.
--   **[AI-assisted development with Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-now-assist-app-engine.md)**  
-Now Assist for App Engine enables you to embed AI functionality into an application that you built on the ServiceNow AI Platform.
+-   **[Agentic app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-now-assist-creator.md)**  
+ServiceNow Otto for Creator provides core skills for rapid conversational app development. Use the integrated tools to generate scripts, optimize code, scaffold applications, and automate testing through natural language prompts.
+-   **[Agentic development with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-now-assist-app-engine.md)**  
+ServiceNow Otto for App Engine enables you to embed AI functionality into an application that you built on the ServiceNow AI Platform.
 -   **[Testing agentically developed apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-and-atf.md)**  
 As part of the agentic development process on the ServiceNow AI Platform, one of the key features is the automatic generation of Automated Test Framework \(ATF\) tests.
 -   **[Agentic development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-and-deployment.md)**  

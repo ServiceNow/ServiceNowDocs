@@ -1,6 +1,6 @@
 ---
 title: Using Virtual Agent API
-description: Virtual Agent API enables ServiceNow developers, advanced users, and admins to use Virtual Agent with an enterprise or any other third-party chat interface that supports conversational interfaces or as a secondary bot in an environment with multiple, specialized bots managed by a primary bot.
+description: Virtual Agent API enables ServiceNow developers, advanced users, and admins to use Virtual Agent with an enterprise or any other third-party chat interface that supports conversational interfaces. You can also use Virtual Agent as a secondary bot in an environment with multiple, specialized bots managed by a primary bot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-virtual-agent-api.html
 release: australia
@@ -8,16 +8,16 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Virtual Agent API, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Virtual Agent API
 
-Virtual Agent API enables ServiceNow developers, advanced users, and admins to use Virtual Agent with an enterprise or any other third-party chat interface that supports conversational interfaces or as a secondary bot in an environment with multiple, specialized bots managed by a primary bot.
+Virtual Agent API enables ServiceNow developers, advanced users, and admins to use Virtual Agent with an enterprise or any other third-party chat interface that supports conversational interfaces. You can also use Virtual Agent as a secondary bot in an environment with multiple, specialized bots managed by a primary bot.
 
-The following sections detail how to use Virtual Agent API to complete various tasks, such as closing an idle bot, enabling Now Assist experience, and various controls for the bot output response.
+The following sections detail how to use Virtual Agent API to complete various tasks, such as closing an idle bot, enabling ServiceNow Otto experience, and various controls for the bot output response.
 
 -   **[Enable synthesized response in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-api-enable-synthesized-response.md)**  
 You can now enable synthesized response in the conversations with the primary bot.
@@ -25,8 +25,10 @@ You can now enable synthesized response in the conversations with the primary bo
 You can configure to store **clientSessionId** to support third-party chat applications.
 -   **[Configure to support chat history in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-api-support-chat-history.md)**  
 You can now support your live agents to see chat history in their conversations with the primary bot.
--   **[Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)**  
-Enable Now Assist experience in Virtual Agent API to support generative AI skills across multiple provider channels.
+-   **[Enable ServiceNow Otto experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)**  
+Enable ServiceNow Otto experience in Virtual Agent API to support generative AI skills across multiple provider channels.
+-   **[Enable premium chat experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-api-enable-premium-chat.md)**  
+Enable premium chat experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 -   **[Configure multiple provider applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.md)**  
 You can configure multiple provider applications to support AI agents where there are multiple primary bots using Virtual Agent API and you need to distinguish between them.
 -   **[Transform Virtual Agent API request and response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.md)**  

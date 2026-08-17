@@ -77,7 +77,6 @@ For additional information, see the [DEF1000205 \| HR User \[KB1125071\]](https:
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

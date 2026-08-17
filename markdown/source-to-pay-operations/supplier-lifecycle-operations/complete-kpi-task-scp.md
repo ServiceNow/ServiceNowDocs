@@ -1,6 +1,6 @@
 ---
 title: Complete a KPI collection task from the Supplier Collaboration Portal
-description: A KPI collection task is generated automatically each time a KPI is instantiated. A supplier contact can complete the assigned KPI collection task from the Supplier Collaboration Portal.
+description: Submit KPI performance data from Supplier Collaboration Portal to complete assigned KPI collection tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-scp.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Supplier Collaboration Portal, KPI template, KPI management, KPI collection task, quantitative KPI value, qualitative KPI value, segmentation rule]
 breadcrumb: [Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Complete a KPI collection task from the Supplier Collaboration Portal
 
-A KPI collection task is generated automatically each time a KPI is instantiated. A supplier contact can complete the assigned KPI collection task from the Supplier Collaboration Portal.
+Submit KPI performance data from Supplier Collaboration Portal to complete assigned KPI collection tasks.
 
 ## Before you begin
 

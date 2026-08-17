@@ -1,20 +1,20 @@
 ---
 title: Product lists in layouts
-description: Define and customize product lists in ServiceNow CPQ layouts to display data from bills of materials \(BOMs\) and product details. Configure list placement, columns, and display settings in the layout CSV file or the layout editor to present clear, structured product and pricing information to end users.
+description: Define and customize product lists in CPQ layouts to display data from bills of materials \(BOMs\) and product details. Configure list placement, columns, and display settings in the layout CSV file or the layout editor to present clear, structured product and pricing information to end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-product-lists-in-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Product lists in layouts
 
-Define and customize product lists in ServiceNow CPQ layouts to display data from bills of materials \(BOMs\) and product details. Configure list placement, columns, and display settings in the layout CSV file or the layout editor to present clear, structured product and pricing information to end users.
+Define and customize product lists in CPQ layouts to display data from bills of materials \(BOMs\) and product details. Configure list placement, columns, and display settings in the layout CSV file or the layout editor to present clear, structured product and pricing information to end users.
 
-In ServiceNow CPQ, layout definition is accomplished via CSV file. Product lists are components that can show products and related information in the bill of materials \(BOM\). There are 2 types of columns in the layout to control the product list component: **productlist** and **productlistcolumns**. Multiple product lists can be included in a layout to display products of different BOM types.
+In CPQ, layout definition is accomplished via CSV file. Product lists are components that can show products and related information in the bill of materials \(BOM\). There are 2 types of columns in the layout to control the product list component: **productlist** and **productlistcolumns**. Multiple product lists can be included in a layout to display products of different BOM types.
 
 ## Defining a product list
 
@@ -60,15 +60,17 @@ In the layout CSV file, define your product list column rows with the following 
     -   If specifying a width, using a percentage is recommended for a modal or bottom-docked product list.
     -   The use of fixed units such as **px** \(pixels\) is recommended for left-docked or right-docked product lists, since the width of the product list is fixed. Using **ch** is not recommended.
 
+\[Omitted image "cpq-product-list-column-properties.png"\] Alt text: Product list column properties
+
 ## Layout editor
 
-The product list and its properties can be edited by using the layout editor in the ServiceNow CPQ UI. The product list layout element is at the bottom of the page:
+The product list and its properties can be edited by using the layout editor in the CPQ UI. The product list layout element is at the bottom of the page:
 
-\[Omitted image "cpq-layout-editor-product-list.png"\] Alt text: Product lists in layouts
+\[Omitted image "cpq-product-list-layout.png"\] Alt text: Product list layout
 
 You can edit this part of the layout by clicking the gear that appears in the top right of the product list layout element when you move your mouse into it. The product list has a settings screen that contains all the properties referenced earlier.
 
-\[Omitted image "cpq-layout-editor-product-list-settings.png"\] Alt text: Product lists in layouts
+\[Omitted image "cpq-product-list-setup.png"\] Alt text: Product list properties
 
 For more information, see [Displaying multiple product lists in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/displaying_multiple_productlists_in_layouts.md).
 

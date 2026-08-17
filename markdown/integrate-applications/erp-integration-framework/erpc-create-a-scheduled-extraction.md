@@ -1,6 +1,6 @@
 ---
 title: Create a scheduled extraction in Zero Copy Connector for ERP
-description: Schedule extraction of information for an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the system of record at a regular interval.
+description: Schedule extraction of information for an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the ERP system at a regular interval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-create-a-scheduled-extraction.html
 release: australia
@@ -8,14 +8,14 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, interval, data]
-breadcrumb: [Extracting and transforming data, Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create a scheduled extraction in Zero Copy Connector for ERP
 
-Schedule extraction of information for an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the system of record at a regular interval.
+Schedule extraction of information for an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the ERP system at a regular interval.
 
 ## Before you begin
 
@@ -59,6 +59,4 @@ This video was recorded in the Zurich release.
 Check the executions. After the scheduled job has run, select the **Executions** tab. For details about an extraction, select any line item in the **Extraction table** column.
 
 \[Omitted image "erpc-view-extraction-executions-ys2.png"\] Alt text: ERP scheduled extraction executions list.
-
-**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

@@ -34,7 +34,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 3.  Complete one of the following steps.
 
-<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d104841e88">
+<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d104840e88">
 
 **To create a new checklist**
 
@@ -42,7 +42,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 Select **Create new**.
 
-</td></tr><tr><td id="d104841e100">
+</td></tr><tr><td id="d104840e100">
 
 **To create a checklist by using a template**
 

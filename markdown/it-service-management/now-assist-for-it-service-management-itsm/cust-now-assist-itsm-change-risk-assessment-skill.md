@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI, change risk assessment, AI Risk Data Sources, answer generator]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Customize the change risk assessment answer generator skill
@@ -85,6 +85,6 @@ The answer generator skill is active by default and requires no activation. You 
 
     4.  Select **Save**.
 
-    To get the change risk assessment answers and reasoning using AI, see [Generate change risk assessment answers by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md)
+    To get the change risk assessment answers and reasoning using AI, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md)
 
 

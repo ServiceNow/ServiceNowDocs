@@ -14,24 +14,25 @@ The ServiceNow® Policy and Compliance Management application provides a central
 
 ## Policy and Compliance Management highlights for the Australia release
 
+-   ServiceNow Otto is the new name for the Now Assist experience, delivering agentic AI, multimodal interactions, and autonomous cross-system workflow orchestration.
 -   Enable personal authentication for policy authoring in Microsoft SharePoint and Google Drive to register policy documents under the logged-in user's identity instead of a shared service account.
 -   Access Policy and Compliance Management dashboards directly from the Compliance Workspace, without installing Platform Analytics application.
 -   Manage control objective changes through a structured workflow without affecting the active published record.
 -   Rationalize UCF and non-UCF control objectives together in a single rationalization process.
 -   Email notification links redirect users to their appropriate workspace based on their assigned roles.
 
-See  for more information.
+See [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_PolicyComplianceMgmt.md) for more information.
 
 **Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **Personal authentication and document access permissions in policy authoring**
+-   **[Personal authentication and document access permissions in policy authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/personal-auth-and-document-access-policy-authoring.md)**
 
     After upgrading Policy and Compliance Management to 22.3.2, you can enable personal authentication for policy authoring in Microsoft SharePoint and Google Drive. When enabled, policy authoring uses a hybrid authentication model. Create, connect, and upload operations run under the logged-in user's personal credentials, while document access permission grants and content sync always run under the shared service account. This approach supports audit traceability at the individual user level for document operations and keeps access management and sync consistent regardless of who initiates them.
 
 
--   **Dashboard access from Compliance Workspace**
+-   **[Dashboard access from Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-dashboards-in-compliance-workspace.md)**
 
     After upgrading to 22.3.2, you can access Policy and Compliance Management dashboards directly from the Compliance Workspace.
 
@@ -44,17 +45,17 @@ See  for more information.
     These dashboards are also accessible from the Platform Analytics application.
 
 
--   **Assessment template versioning**
+-   **[Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/template-versioning.md)**
 
     After upgrading Policy and Compliance Management to 22.3.2, CRI tiering questionnaire, CRI profile assessment, and control assessment templates support versioning. Template managers can create and publish new versions of these templates over time. When a CRI tiering questionnaire, CRI profile assessment, or control assessment is initiated, the assessment is generated using the latest published version of the template.
 
 
--   **Role-based workspace redirection for email notification links**
+-   **[Role-based workspace redirection for email notification links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-tasks-pol-comp-ws.md)**
 
     After upgrading Policy and Compliance Management to 22.3.2, email notification links for Policy and Compliance Management records redirect users to their appropriate workspace based on their assigned roles. Users without a workspace role are redirected to the GRC Task Page, or to the classic UI if the common workspace is not installed. The following record types support workspace redirection: Controls, Evidence, Control risk indicators, Indicator task, Policy acknowledgments, and Policy exceptions.
 
 
--   ****
+-   **[Control objective workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/concept_cob_workflow.md)**
 
     After upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. Enable this feature using the **Enable Control Objective Workflow** property under **Policy and Compliance** &gt; **All** &gt; **Properties** and is disabled by default.
 
@@ -63,7 +64,7 @@ See  for more information.
     -   Editing a published control objective creates a working draft, keeping the published record active until approved changes are published.
     -   Users must select a revision type: Major or Minor. A Major revision moves associated controls back to Draft. A Minor revision applies updates without moving controls back to Draft.
     -   The Owner and Owning Group fields control who can edit the control objective and perform workflow actions.
--   **Rationalizing control objectives**
+-   **[Rationalizing control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
 
     After upgrading Policy and Compliance Management to 22.0.1, both Unified Compliance Framework \(UCF\) control objectives and non-UCF control objectives can be rationalized together.
 
@@ -74,12 +75,19 @@ See  for more information.
 
 ## UI changes
 
--   **SAE columns in Control Attestations list view**
+-   **[SAE columns in Control Attestations list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_Attestations.md)**
 
     The Control Attestations list view now displays the Control and Entity columns, showing the control name and associated entity for each assessment instance. These columns are visible on the Compliance Workspace, Tasks page, Employee Center, and Risk Portal.
 
 
 ## Changed in this release
+
+-   **[ServiceNow Otto® name announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+    The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
+
 
 -   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
@@ -98,7 +106,7 @@ See  for more information.
 
 ## Activation information
 
-Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Browser requirements
 

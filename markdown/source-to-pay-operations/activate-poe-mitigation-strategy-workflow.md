@@ -1,22 +1,22 @@
 ---
 title: Review the define PO exception mitigation strategy workflow
-description: Review the define PO exception mitigation strategy agentic workflow that uses Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
+description: Review the define PO exception mitigation strategy agentic workflow that uses agentic support to identify and execute mitigation strategies for purchase order exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for POM, ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Review the define PO exception mitigation strategy workflow
 
-Review the define PO exception mitigation strategy agentic workflow that uses Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
+Review the define PO exception mitigation strategy agentic workflow that uses agentic support to identify and execute mitigation strategies for purchase order exceptions.
 
 ## Before you begin
 
-Install the Now Assist for POM plugin \(sn\_poem\_gen\_ai\).
+Install the ServiceNow Otto for POM plugin \(sn\_poem\_gen\_ai\).
 
 Role required: admin
 
@@ -24,9 +24,9 @@ Role required: admin
 
 **Important:** This agentic workflow is active by default. All fields are read-only. To modify other fields, clone the workflow. Currently, you can't edit agent prompts or provide feedback for training.
 
-Users with \[sn\_poem\_core.operational\_buyer\] role and the Now Assist Fulfiller \[sn\_poem\_gen\_ai.now\_assist\_fulfiller\] role will get mitigation strategies using the Define PO exception mitigation strategy agentic workflow in the Now Assist panel.
+Users with \[sn\_poem\_core.operational\_buyer\] role and the Fulfiller \[sn\_poem\_gen\_ai.now\_assist\_fulfiller\] role will get mitigation strategies using the Define PO exception mitigation strategy agentic workflow in the Now Assist panel.
 
-This workflow uses the Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
+This workflow uses agentic support to identify and execute mitigation strategies for purchase order exceptions.
 
 You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
@@ -34,7 +34,7 @@ You can add or remove AI agents from this workflow by making a copy and customiz
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 
-    The **Manage agentic workflows and AI agents** page appears.
+    The **Manage AI specialists, agentic workflows, and AI agents** page appears.
 
 2.  Select **Agentic workflows**.
 
@@ -47,7 +47,7 @@ You can add or remove AI agents from this workflow by making a copy and customiz
     |Field|Description|
     |-----|-----------|
     |Workflow Name|Define PO exception mitigation strategy.|
-    |Workflow description|The Define PO exception mitigation strategy workflow is an AI-powered workflow that resolves purchase order delivery exceptions by analyzing delivery gaps, searching for alternative purchase order lines from different suppliers, and creating optimized change requests that combine supplier-suggested modifications with buyer-approved mitigation plans.|
+    |Workflow description|The Define PO exception mitigation strategy workflow is an AI-powered workflow that resolves purchase order delivery exceptions by analyzing delivery gaps. This workflow then searches for alternative purchase order lines from different suppliers, and creates optimized change requests that combine supplier-suggested modifications with buyer-approved mitigation plans.|
     |List of steps|Instructions for the LLM service.|
 
     |Name|Description|Tools and knowledge sources|Model support|Active|
@@ -82,7 +82,7 @@ Model providers that this agentic workflow doesn’t support.All model providers
     |User Authenticated|Not applicable|
     |Active|Active|
 
-    **Note:** This section defines which users can access and interact with this agentic workflow. An access control list \(ACL\) has been automatically generated.
+    **Note:** This section defines which users can access and interact with this agentic workflow. An ACL \(Access Control List\) has been automatically generated.
 
     |Field|Description|
     |-----|-----------|
@@ -102,7 +102,7 @@ Model providers that this agentic workflow doesn’t support.All model providers
 
 ## What to do next
 
-After reviewing the agentic workflow, you can get started by selecting **Now Assist** button on a purchase order exception record or the exception card on the **Purchase order management** tab in the Source-to-Pay Workspace.
+After reviewing the agentic workflow, you can get started by selecting **Otto** button on a purchase order exception record or the exception card on the **Purchase order management** tab in the Source-to-Pay Workspace.
 
-**Parent Topic:**[Configure Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
+**Parent Topic:**[Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
 

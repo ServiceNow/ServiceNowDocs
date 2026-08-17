@@ -18,7 +18,9 @@ If you are an existing user, then follow the procedure in this section to activa
 
 ## Before you begin
 
-Role required: admin
+Complete this procedure only if your ServiceNow environment already has Microsoft Teams Graph Spoke configured for another integration \(for example, Virtual Agent or HR Service Delivery\). If this is a fresh Microsoft Teams integration, this procedure is not required.
+
+Role required: Azure admin \(for the Azure portal permission steps\),admin\(for the ServiceNow OAuth token refresh steps\)
 
 ## Procedure
 

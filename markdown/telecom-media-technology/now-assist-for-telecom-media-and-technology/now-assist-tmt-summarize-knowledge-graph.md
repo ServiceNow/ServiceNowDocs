@@ -1,5 +1,5 @@
 ---
-title: Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Summarize the service details mentioning the current situation, any critical actions to be taken and find the root cause indicators using the knowledge graph and service summary skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Summarize the service details mentioning the current situation, any critical actions to be taken and find the root cause indicators using the knowledge graph and service summary skill.
 
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-The customer service summary skill provides you with a concise summary of a sold product, including the current situation, root cause indicators, critical actions, resolution tasks, and resolution details.
+The customer service summary skill provides you with a concise summary of a sold product. The summary includes the current situation, root cause indicators, critical actions, resolution tasks, and resolution details.
 
-The customer service summary skill is available in CSM/FSM Configurable Workspace, you use the Service Problem Case service summary skill by Now Assist component to generate a summary.
+The customer service summary skill is available in CSM/FSM Configurable Workspace, you use the Service Problem Case service summary skill by ServiceNow Otto component to generate a summary.
 
 Install the Customer Service with Service Management \(com.sn\_cs\_sm\) plugin to display the activate button for customer service summary skills.
 
@@ -46,15 +46,15 @@ If there’s enough data, the customer service summary component displays the **
 
 5.  After you're finished summarizing the service, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23231e145">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23161e145">
 
 Option
 
-</th><th align="left" id="d23231e148">
+</th><th align="left" id="d23161e148">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d23231e154">
+</th></tr></thead><tbody><tr><td id="d23161e154">
 
 **View more or less summary details**
 
@@ -64,7 +64,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d23231e184">
+</td></tr><tr><td id="d23161e184">
 
 **Provide feedback for the summary**
 
@@ -74,7 +74,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d23231e217">
+</td></tr><tr><td id="d23161e217">
 
 **Copy the service summary**
 
@@ -82,7 +82,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the service summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d23231e232">
+</td></tr><tr><td id="d23161e232">
 
 **View the information about the case summary**
 
@@ -97,5 +97,5 @@ Use the Knowledge Graph \(KG\) to create Knowledge Graph schema.
 -   **[Customize a summary card for service summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/customize-uib-builder-service-summary.md)**  
 Customize the summary card of the service summary and UI actions according to your needs.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -22,7 +22,7 @@ The Solaris LDOM infrastructure pattern is triggered automatically on Solaris Se
 
 The Solaris LDOM shared library pattern is run as an Extension Section to the Solaris Server pattern​. The pattern modifies the Serial Number \(SN\) on LDOM machines so that it matches the SN populated by the Solaris LDOM infrastructure pattern. For further information about Solaris Server, see [Solaris discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoSolarisComputers.md).
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

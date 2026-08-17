@@ -49,8 +49,5 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
 A job requisition is created and in New state.
 
--   **[Use Now Assist to open a job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-req-hm-now-assist.md)**  
-Use Now Assist in Virtual Agent to create or duplicate a job requisition for a vacancy that you want to fill in your organization.
-
 **Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 

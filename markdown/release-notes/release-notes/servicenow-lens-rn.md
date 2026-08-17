@@ -1,19 +1,25 @@
 ---
 title: ServiceNow AI Lens release notes
-description: With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Australia release.
+description: With ServiceNow AI Lens, which is a ServiceNow Otto application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2025-08-19"
-reading_time_minutes: 4
+reading_time_minutes: 6
 keywords: [ai-now-assist]
 ---
 
 # ServiceNow AI Lens release notes
 
-With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Australia release.
+With ServiceNow AI Lens, which is a ServiceNow® Otto application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Australia release.
 
 ## ServiceNow AI Lens highlights for the Australia release
+
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+Use ServiceNow AI Lens from your browser to upload one or more files for AI Lens to analyze and auto-fill form fields — no installation required.
+
+Updated the AI experience branding in ServiceNow AI Lens to align with ServiceNow Otto naming and visual guidelines.
 
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
 
@@ -33,6 +39,26 @@ See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## New in the Australia release
 
+-   **Set your default launch preference for AI Lens**
+
+    Choose how AI Lens opens when you start a session — from your browser or the desktop application. You can update this preference at any time.
+
+
+-   **Upload files from your browser to auto-fill form fields**
+
+    Use AI Lens in your browser to upload files for it to analyze and auto-fill form fields — no installation required. Attach files by dragging or dropping or browsing and then upload the files for AI Lens to analyze and auto-fill form fields. File upload limits apply.
+
+
+-   **Map related Excel column headers and their values to a single ServiceNow table field**
+
+    Use Lens as a Service to map the data from multiple related Excel column headers and values to a single ServiceNow table field. For example, if your Excel sheet has separate City, State, and Country columns, you can map all three values to a single Location field in your ServiceNow table. The service takes the values from each related column header and maps them as a combined data element to your target field, preserving the relationship between the data. Duplicate rows are automatically removed. This enhancement works with choice mapping and reference mapping.
+
+
+-   **Map Excel column headers and values to multiple ServiceNow table fields in a single operation**
+
+    Use Lens as a Service to auto-map an Excel column header and its values from a single Excel sheet to multiple ServiceNow table fields simultaneously. For example, if your Excel sheet contains equipment-related data under headers such as Equipment Description, Manufacturer, and Model Name, AI Lens can auto-map these column headers and their values to multiple table fields at the same time. Some columns may map to one table while others map to different tables based on relevance. AI Lens, for example, can auto-map a single column header and its values to multiple table fields. The target tables are specified in your input JSON. Duplicate rows are automatically removed. This enhancement works with schema mapping.
+
+
 -   **[Capture and analyze screens from your browser to auto-fill catalog item forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-record-in-the-service-portal.md)**
 
     Capture and analyze the contents of your screen directly from your browser to auto-fill catalog item form fields in Service Portal — no installation required. To specify the area of the captured screen that you want AI Lens to analyze, crop the image before submitting it for analysis.
@@ -40,7 +66,7 @@ See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 -   **[Excel mapping as a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-lens-action-service-api.md)**
 
-    Use Lens as a Service to support three auto-mapping services between Excel and ServiceNow tables: auto-map Excel column headers to ServiceNow table fields, auto-map Excel choice column values to ServiceNow choice field values, and auto-map Excel reference column values to ServiceNow reference field values.
+    Use Lens as a Service to support three auto-mapping services between Excel and ServiceNow tables. Auto-map Excel column headers to ServiceNow table fields. Auto-map Excel choice column values to ServiceNow choice field values. Auto-map Excel reference column values to ServiceNow reference field values.
 
 
 -   **[Capture and analyze screens from your browser to auto-fill forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-record-sn-lens.md#use-your-browser)**
@@ -53,6 +79,21 @@ See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 
 ## UI changes
+
+-   **Default app on launch setting on the ServiceNow AI Lens downloads and preferences page**
+
+    The ServiceNow AI Lens Downloads page has been renamed to ServiceNow AI Lens downloads and preferences, and a Default app on launch setting has been added to the page. The setting includes the following options:
+
+    -   Browser \(no installation required\): Launches AI Lens from your browser when you start a session.
+    -   Desktop app: Launches AI Lens desktop application when you start a session.
+-   **UI updated to reflect ServiceNow Otto branding**
+
+    The UI has been updated to reflect the ServiceNow Otto branding. Icons, and UI text have been updated throughout the interface to use Otto terminology and visual identity.
+
+-   **New Upload button and Upload file dialog**
+
+    The AI Lens page, which opens in your browser when you select Create with Lens or Update with Lens button, now provides an Upload button. Selecting Upload opens the Upload file dialog, where you can add or drag to upload files. After attaching, you can optionally rename the files. To upload the files, select Next. After uploading, submit the files for ServiceNow AI Lens to analyze and auto-fill your form fields.
+
 
 -   **[Quick visual distinction between AI-filled form fields and manually filled fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-record-sn-lens.md)**
 
@@ -84,15 +125,15 @@ ServiceNow AI Lens is available with activation of any Now Assist plugin from th
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve productivity and efficiency in your organization, deliver better self-service, display recommended actions, provide answers, and empower your users to search effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    The Now Assist Admin console provides you with quick and easy access to important information needed to set up, configure, and monitor Now Assist applications and features.
+    The AI Admin Hub console provides you with quick and easy access to important information needed to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
 
     Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including content summarization in Docs.
 

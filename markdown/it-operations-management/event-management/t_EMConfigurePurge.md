@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Rotate event and alert table for cleanup, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Purge impact status and alert history

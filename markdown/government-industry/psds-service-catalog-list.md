@@ -38,7 +38,7 @@ A user can go to the service catalog and create a case using the categories and 
 |Illegal Dumping|Report report large amounts of trash bags or more, bulk items, or building materials that appeared overnight or a witnessed act of dumping from a vehicle|
 |Missed Residential Garbage|Report missed residential garbage collection|
 |Recycling|Missed Recycling|Report missed residential recycling collection|
-|Grafitti|Graffiti Removal|Report graffiti on private or public property|
+|Graffiti|Graffiti Removal|Report graffiti on private or public property|
 |Parks and Trees|Parks|Park Cans|Request to have overflowing trash cans and trash around cans removed from Recreation &amp; Parks properties|
 |Park Maintenance|Request maintenance at within public park or at a park structure \(e.g., pavilion or gazebo\). Typical park maintenance requests include trash on grounds, basketball replacement, tennis/basketball court repairs, fences repairs, bench repairs, masonry work, water fountain repairs and other outside water leaks.|
 |Trees|Street Tree Down|Report a loose or fallen limb from a city street tree that is a hazard to transit or public safety|

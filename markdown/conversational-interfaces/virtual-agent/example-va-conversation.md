@@ -46,7 +46,7 @@ If the user chooses to get more information, the AI Search topic block returns o
 
 The following topics describe how to use Virtual Agent Designer and actionable notifications to create the Asset Refresh workflow. Follow these steps in order.
 
-1.  [Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md).
+1.  [Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md).
 2.  [Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md).
 3.  [Create the More Information workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.md).
 4.  [Create the notification for the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.md).

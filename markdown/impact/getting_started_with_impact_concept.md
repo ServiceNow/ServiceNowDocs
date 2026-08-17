@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/getting\_started\_with\_impact\_concept.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Exploring Impact, Impact]
 ---
@@ -49,7 +49,7 @@ Impact Foundations operates quarterly so you can maintain momentum on the platfo
 
 ## Impact Foundations deliverables
 
-The deliverables available through Impact Foundations vary by Impact package. All packages receive standard foundational deliverables, while Total package includes package-specific features.
+The deliverables available through Impact Foundations vary by Impact package. All packages receive standard foundational deliverables, while the Total package includes additional specific features.
 
 |Impact deliverable|Description|Guided|Advanced|Total|
 |------------------|-----------|------|--------|-----|

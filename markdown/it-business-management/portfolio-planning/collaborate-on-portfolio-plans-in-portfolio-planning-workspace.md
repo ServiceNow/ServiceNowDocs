@@ -39,15 +39,15 @@ The attachments and comments that you add from the portfolio plan's header, they
 
 4.  Add comments or attachments to the portfolio plan.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d211041e140">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d216189e140">
 
 Choice
 
-</th><th align="left" id="d211041e143">
+</th><th align="left" id="d216189e143">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d211041e149">
+</th></tr></thead><tbody><tr><td id="d216189e149">
 
 **Attachments**
 
@@ -55,7 +55,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d211041e164">
+</td></tr><tr><td id="d216189e164">
 
 **Comments**
 

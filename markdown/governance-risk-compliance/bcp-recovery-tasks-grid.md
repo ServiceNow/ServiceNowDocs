@@ -62,7 +62,7 @@ Scope
 
 </td><td>
 
-Asset that the task recovers. If field is empty, the task recovers asset at the plan level. Otherwise, it recovers the recovery task scope.
+Asset that the task recovers. If this field is empty, the task recovers the asset at the plan level. Otherwise, it recovers the recovery task scope.
 
 </td></tr><tr><td>
 

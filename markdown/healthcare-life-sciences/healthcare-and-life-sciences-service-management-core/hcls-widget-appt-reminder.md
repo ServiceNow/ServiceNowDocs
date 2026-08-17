@@ -16,8 +16,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Appointment reminder card widget displays the next appointment reminder for the logged-in user.
 
-\[Omitted image "hcls-widget-appt-remind-card.png"\] Alt text: Screenshot displaying theAppointment reminder card widget.
-
 ## Key features
 
 -   Appears only for a logged-in user with the personal information completed.

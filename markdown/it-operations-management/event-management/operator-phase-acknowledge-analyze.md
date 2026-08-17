@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Operator phase 1: Analyze and acknowledge an alert
@@ -215,7 +215,7 @@ Any existing knowledge base \(KB\) article that is associated with the alert. Wh
 
     Acknowledging an alert does not assign it to you, nor does it create a task like an incident or change request. It simply lets other operators know that you are aware of the issue. After you acknowledge an alert, you will take further action during the triage stage.
 
-<table id="choicetable_w31_kkr_jkb"><tbody><tr><td id="d468379e548">
+<table id="choicetable_w31_kkr_jkb"><tbody><tr><td id="d469845e548">
 
 **Acknowledge a single alert**
 
@@ -225,7 +225,7 @@ With this process, you can acknowledge only the alert that you are viewing.1.  O
 2.  Select the **Acknowledged** check box.
 
 
-</td></tr><tr><td id="d468379e569">
+</td></tr><tr><td id="d469845e569">
 
 **Acknowledge one or more alerts**
 

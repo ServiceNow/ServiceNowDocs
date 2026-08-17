@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -30,7 +30,13 @@ Review the incident information on the **Overview** tab. If necessary, you can e
 
 1.  On an incident record, select the **Overview** tab.
 
-2.  On the Summary section, add or edit the information as needed.
+2.  In the AI summary and suggestions card, select **Generate** and review the incident summary and resolution plan.
+
+    The card displays a summary of the incident and a suggested resolution plan, helping you investigate and resolve incidents faster.
+
+    **Note:** If the **Overview** tab is hidden for L1 service desk agents, the card appears on the **Details** tab.
+
+3.  On the Summary section, add or edit the information as needed.
 
     1.  Select the **Edit summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit summary icon\) icon to edit the fields.
 
@@ -142,7 +148,9 @@ User who reported the incident.
 </td></tr></tbody>
 </table>    3.  Select the **Save Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-3.  On the Impact Summary section, edit the information as needed.
+    **Note:** The static Summary card section is not available. Instead, you can use the AI summary and suggestion card to view the incident summary and resolution information.
+
+4.  On the Impact Summary section, edit the information as needed.
 
     1.  Select the **Edit impact summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit summary icon\) icon.
 
@@ -163,7 +171,7 @@ User who reported the incident.
 
     3.  Select the **Save Impact Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-4.  On the **Location** field of the Impact section, select **View impacted locations** to view the impacted locations and users on a world map in a separate tab.
+5.  On the **Location** field of the Impact section, select **View impacted locations** to view the impacted locations and users on a world map in a separate tab.
 
     The **Impacted location** tab displays the following information:
 
@@ -180,7 +188,7 @@ User who reported the incident.
 
     -   The Location section is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active, and if the incident is a major incident. For more information, see [Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/mim-in-sow.md).
     -   You can add multiple locations from the Affected location related list in the **Related records** tab of the Major incident record.
-5.  Select the following cards to add or update the configuration items associated with the Incident.
+6.  Select the following cards to add or update the configuration items associated with the Incident.
 
     1.  Select the **Affected CIs** card to add or remove the configuration items \(CI\) that are affected by the incident.
 
@@ -194,7 +202,7 @@ User who reported the incident.
 
     **Note:** The child incidents are added from the Child incidents related list in the **Related records** tab while the affected CIs, impacted services/CIs or assets are added from the **Overview** tab of an incident record.
 
-6.  On the Cause section, add or update the cause of the incident.
+7.  On the Cause section, add or update the cause of the incident.
 
     1.  Select **Add cause**.
 
@@ -202,7 +210,7 @@ User who reported the incident.
 
     3.  Select **Save cause** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-7.  On the Resolution section, add the resolution information to resolve the incident.
+8.  On the Resolution section, add the resolution information to resolve the incident.
 
     **Note:** Populate the values in this section only when the incident is ready to be resolved.
 
@@ -217,7 +225,7 @@ User who reported the incident.
 
     3.  Select the **Save resolution** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
 
-8.  On the Compose section, post messages to the activity stream and send emails to stakeholders.
+9.  On the Compose section, post messages to the activity stream and send emails to stakeholders.
 
     1.  Enter and post the **Work notes \(Private\)** message to the activity stream.
 

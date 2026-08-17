@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mana
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -155,7 +155,7 @@ Additional information about the crisis event.
 
         You can view the approval details in the Approvals related list with its name, level of approval, and the state of the approval.
 
-        Select the Approval History related list to view the approval state, name of the approver, event number, the date on which the approval was requested, and comments if any.
+        Select the Approval History related list to view the approval state, name of the approver, event number, the date of approval request, and comments if any.
 
         **Note:** If you are a BCM Program Manager, then you can see the **Approve** and **Reject** buttons.
 

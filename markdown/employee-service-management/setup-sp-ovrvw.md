@@ -109,7 +109,7 @@ When you want the search results to display only the published versions of the d
 
 6.  Ensure you configure the required API permissions as shown in the following image:
 
-    \[Omitted image "image.spoc-permissions-azure"\] Alt text: SharePoint configured permission list
+    \[Omitted image "spoc-permissions-azure.png"\] Alt text: SharePoint configured permission list
 
     For more information, see [Configure Microsoft SharePoint Graph connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-microsoft-sharepoint-graph-connection.md).
 

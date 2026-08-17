@@ -1,6 +1,6 @@
 ---
 title: Roles in Now Assist for Playbooks
-description: The following roles are installed for use with the Now Assist for Creator playbook generation skill.
+description: The following roles are installed for use with the ServiceNow Otto for Creator playbook generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/playbook-assist-roles.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Playbook generation, Use generative AI, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Roles in Now Assist for Playbooks
 
-The following roles are installed for use with the Now Assist for Creator playbook generation skill.
+The following roles are installed for use with the ServiceNow Otto for Creator playbook generation skill.
 
 You can grant users entitlement to the applications that you purchase on the ServiceNow AI Platform by allocating subscriptions in Subscription Management. You allocate subscriptions by adding one or more groups with measured roles to a product subscription.
 

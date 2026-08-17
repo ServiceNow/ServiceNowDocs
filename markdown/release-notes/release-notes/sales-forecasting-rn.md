@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Sales Forecasting release notes
@@ -52,6 +52,14 @@ See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 -   **[Enable forecasting at base forecast source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)**
 
     Provide forecast owners and managers with visibility into the opportunities and line items contributing to each forecast number, directly from the dashboard. Support forecast creation, submissions, and adjustments at the individual record level, such as opportunity and opportunity lines.
+
+-   **[Resubmit forecast submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reopening-and-resubmitting-a-forecast.md)**
+
+    Enable users to reopen and modify completed forecast submissions in the current submission window. After making adjustments to the forecast values, users can resubmit a forecast. Admins can enable or disable resubmission for each forecast model.
+
+-   **[Customize the forecast dashboard view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)**
+
+    Enable forecast viewers to customize their dashboard view by selecting which columns to display and saving their preferences for future sessions. The grid automatically adjusts column widths to distinguish forecast categories. Users can choose different sets of columns for different forecast models.
 
 
 ## Activation information

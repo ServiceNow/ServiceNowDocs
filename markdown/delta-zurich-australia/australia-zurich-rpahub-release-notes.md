@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-rpahub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -115,7 +115,7 @@ Role for Create, Update, and Delete ACLs in the Robot License Distribution table
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 
@@ -468,7 +468,7 @@ Zurich
 
 -   **Accessibility improvements**
 
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
+Improvements were completed to support accessibility.
 
 
 </td></tr><tr><td>
@@ -479,7 +479,7 @@ Australia
 
 -   **Accessibility improvements**
 
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
+Improvements were completed to support accessibility.
 
 
 </td></tr></tbody>

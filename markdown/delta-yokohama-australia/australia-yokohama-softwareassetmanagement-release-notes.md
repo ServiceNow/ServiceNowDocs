@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-softwareassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 27
+last_updated: "2026-08-17"
+reading_time_minutes: 28
 breadcrumb: [Products combined by family]
 ---
 
@@ -278,13 +278,24 @@ Australia
 
 </td><td>
 
+-   **[Manage IBM sub-capacity licensing on Nutanix AHV \(Acropolis Hypervisor\)](https://www.servicenow.com/docs/access?context=ibm-licensing-vmware-vsphere-environment&family=australia&ft:locale=en-US)**
+
+Gain visibility into IBM products deployed on Nutanix AHV virtualized environments, with consumption data for sub-capacity eligible metrics such as PVU, VPC, and RVU MAPC \(Managed Activated Processor Cores\). Licensing calculations align with IBM sub-capacity requirements, including 30-minute capacity scans that capture peak processor core capacity to help keep license positions audit-ready.
+
+**Note:** IBM sub-capacity licensing on Nutanix AHV is available with IBM License Compliance for Software Asset Management 7.0.0 and later versions.
+
+-   **[Gain visibility into the software asset life cycle with improved CMDB data quality](https://www.servicenow.com/docs/access?context=cmdb-sa-sam-use&family=australia&ft:locale=en-US)**
+
+Audit your Software Asset Management CMDB for data quality gaps including missing edition/version details, cloud license inconsistencies, duplicate installs, and misaligned virtual-to-host relationships. Use the CMDB success advisor for Software Asset Management to systematically validate CI attributes, remediate duplicates, and establish consistent server mapping rules across your estate.
+
+
 -   **[Streamline entitlement import by resolving import errors with AI-suggested corrections](https://www.servicenow.com/docs/access?context=resolve-entitlement-import-error&family=australia&ft:locale=en-US)**
 
 Reduce manual effort and improve data accuracy when reviewing entitlement import errors in the Software Asset Workspace by using AI skills. When publisher or product names in the standard entitlement import template don't match standard content, the Software normalization and Product match reviewer skills provide AI-suggested corrections for review. The feature also identifies potential duplicate entitlements, enabling you to review and dismiss them where appropriate.
 
--   **[Enhance SaaS application usage monitoring by integrating with the Agent Client Collector for Visibility - Content \(ACC-VC\)](https://www.servicenow.com/docs/access?context=shadow-saas-analytics&family=australia&ft:locale=en-US)**
+-   **[Enhance SaaS application usage monitoring by integrating with the Agent Client Collector for Visibility Content \(ACC-VC\)](https://www.servicenow.com/docs/access?context=shadow-saas-analytics&family=australia&ft:locale=en-US)**
 
-Monitor SaaS application usage across your organization by using URL monitoring data through the integration of your Software Asset Management application with ACC-VC. The SaaS Detection Report aggregates this usage data and distinguishes managed applications from the unmanaged ones. This enhancement provides actionable visibility to SAM managers into actual SaaS usage for software spend optimization.
+Monitor SaaS application usage across your organization by using URL monitoring data through the integration of your Software Asset Management application with ACC-VC. The SaaS Detection Report aggregates this usage data and distinguishes managed applications from the unmanaged ones. This enhancement provides actionable visibility to ServiceNow Otto for SAM managers into actual SaaS usage for software spend optimization.
 
 **Note:** The ACC-VC integration with the Software Asset Management application is available with Software Asset Management - SaaS License Management 17.4.0 and later versions.
 
@@ -297,8 +308,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Improve accuracy and productivity by extracting licensing data from contracts and generating software entitlements](https://www.servicenow.com/docs/access?context=extract-entitlements-from-contracts-now-assist-sam&family=australia&ft:locale=en-US)**
 
@@ -402,6 +413,11 @@ The Publisher Optimizations dashboard for SAP has been updated with a report on 
 Australia
 
 </td><td>
+
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
 
 -   **[Granular configuration admin roles](https://www.servicenow.com/docs/access?context=sam-installed-components&family=australia&ft:locale=en-US)**
 
@@ -758,7 +774,7 @@ Yokohama
 
 </td><td>
 
--   Leverage generative AI by using the Now Assist for Software Asset Management \(SAM\) application to create publisher summaries on software deployment, license compliance, configuration health, and optimization.
+-   Leverage generative AI by using the ServiceNow Otto for Software Asset Management \(SAM\) application to create publisher summaries on software deployment, license compliance, configuration health, and optimization.
 -   Manage the licenses for your Oracle Databases and WebLogic deployments on the Nutanix virtualization technology.
 -   Integrate SAP Ariba and SAP S/4HANA Cloud with the Software Asset Management application to monitor and track software usage and subscriptions effectively.
 -   Simplify the onboarding of your Software Asset Management \(SAM\) application by following the prescriptive guidance provided in the SAM Guided Setup and Microsoft 365 Guided Setup.
@@ -787,7 +803,12 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Software Asset Management \(SAM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Manage your IBM software estate on Nutanix AHV \(Acropolis Hypervisor\), including products deployed under sub-capacity licensing. Gain visibility into PVU, VPC, and RVU MAPC \(Managed Activated Processor Cores\) consumption to support compliance and cost optimization.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Streamline the entitlement import process by resolving import errors using AI skills, for a faster import process and improved data accuracy.
 

@@ -41,11 +41,11 @@ The steps for setting up work plans are:
 
     Use work schedules define specific criteria to determine when the plan should be executed. This includes defining the start date and end date for the plan's execution.
 
-4.  [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md)
+4.  [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md)
 
     Specify the work order template that must be used to generate work orders when the specified conditions are met.
 
-5.  [Associate a task plan template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/map-schedule-to-task-template.md)
+5.  [Associate task plan template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/map-schedule-to-task-template.md)
 
     Specify the task plan template that must be used to generate tasks or cases when the specified conditions are met.
 

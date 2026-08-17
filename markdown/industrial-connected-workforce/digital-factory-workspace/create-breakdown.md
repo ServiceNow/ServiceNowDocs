@@ -34,7 +34,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 4.  Write and post work notes with additional details about the progress and steps you have taken.
 
-    To view the **Work notes** field next to other record details, make sure that you select the **Editable record form and list of record activities** view by selecting the view selector icon \(\[Omitted image "editable-record-form-and-list-of-record-activities-view-icon.png"\] Alt text: Editable record form and list of record activities view icon.\).
+    To view the **Work notes** field next to other record details, select the view selector icon \(\[Omitted image "editable-record-form-and-list-of-record-activities-view-icon.png"\] Alt text: Editable record form and list of record activities view icon.\) and select **Editable record form and list of record activities**.
 
 5.  From the Recommendations sidebar, create a guided task related to the breakdown.
 

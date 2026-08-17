@@ -7,6 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2025-10-12"
 reading_time_minutes: 5
+keywords: [explore, AI agent, AI agent studio, desktop automations, adaptive desktop action, defined desktop action, adaptive path desktop action, defined path desktop action, deterministic desktop action, probabilistic desktop action]
 breadcrumb: [Enable AI experiences]
 ---
 
@@ -20,7 +21,7 @@ ServiceNow® AI Desktop Actions enables you to design, configure, and manage des
 
 ## Types of desktop actions
 
-There are two types of desktop actions: defined path and adaptive path. Both enable AI agents to automate tasks on behalf of users, but they differ in how steps are designed and executed, what applications they support, and how they handle variation in the user interface.
+There are two types of desktop actions: defined path and adaptive path. Both enable AI agents to automate tasks on behalf of users, but they differ in how steps are designed and executed.
 
 -   **[Defined desktop actions for desktop and web-based tasks \(deterministic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md)**
 
@@ -87,7 +88,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which ServiceNow Otto for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

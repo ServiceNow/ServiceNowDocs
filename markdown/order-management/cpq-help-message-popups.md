@@ -1,18 +1,18 @@
 ---
 title: Configure help popups for layouts
-description: Implement buyside help popups in ServiceNow CPQ.
+description: Implement buyside help popups in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-help-message-popups.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure help popups for layouts
 
-Implement buyside help popups in ServiceNow CPQ.
+Implement buyside help popups in CPQ.
 
 Help popups give the user more information about a field in a layout. They resemble the **tooltip** message display type, but differ in the following ways:
 

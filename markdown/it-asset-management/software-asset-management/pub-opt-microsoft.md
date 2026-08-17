@@ -16,6 +16,10 @@ breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Ma
 
 View licensing optimizations for Microsoft by selecting **Microsoft** from the **Publisher** drop-down list.
 
+**Important:** To view the recommended licensing optimizations for Microsoft, you must activate the Software Asset Management Professional for Microsoft plugin \(com.snc.samp.microsoft\) on your ServiceNow® instance. To view the recommended licensing optimizations for your Microsoft 365 subscriptions, you must also request and install the Software Asset Management - SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/).
+
+For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
+
 <table id="table_vcq_xwt_2xb"><thead><tr><th>
 
 Report
@@ -95,7 +99,7 @@ Number of licenses per month that can be downgraded or reclaimed based on recomm
 
 </td></tr><tr><td>
 
-On-Premises potential savings by optimizing licenses
+On-Premise potential savings by optimizing licenses
 
 </td><td>
 

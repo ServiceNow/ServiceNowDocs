@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -25,6 +25,8 @@ Use the responsibility data model to assign multiple responsibilities to a singl
 The responsibility data model tracks the relationship between the organization members and their responsibility type in the Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\] table.
 
 **Note:** If the business organization plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing organization members to confirm that they retain as much access after the upgrade. Any new records created after the Australia release must be created using the following steps.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -56,7 +58,7 @@ Name
 
 </th></tr></thead><tbody><tr><td>
 
-Location Agent**Note:** This role only applies to the internal business organization.
+Location Agent**Note:** This role only applies to the internal organization.
 
 </td><td>
 
@@ -64,7 +66,7 @@ sn\_customerservice.svc\_location\_agent
 
 </td></tr><tr><td>
 
-Location Consumer Agent**Note:** This role only applies to the internal business organization.
+Location Consumer Agent**Note:** This role only applies to the internal organization.
 
 </td><td>
 
@@ -88,7 +90,7 @@ sn\_customerservice.svc\_location\_manager\_contributor
 
 </td></tr><tr><td>
 
-Location Manager Fulfiller**Note:** This role only applies to the internal business organization.
+Location Manager Fulfiller**Note:** This role only applies to the internal organization.
 
 </td><td>
 
@@ -96,7 +98,7 @@ sn\_customerservice.svc\_location\_manager
 
 </td></tr><tr><td>
 
-Location Relationship Manager**Note:** This role only applies to the external business organization.
+Location Relationship Manager**Note:** This role only applies to the external organization.
 
 </td><td>
 

@@ -41,7 +41,7 @@ A copy of the selected work item is created, with the information in the require
 
 ## What to do next
 
-From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of Now Assist for SPM.
+From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 

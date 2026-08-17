@@ -16,7 +16,7 @@ Govern app development on the ServiceNow AI Platform.
 
 ## Source control
 
-To enable simple, future proof collaboration for applications, use source control integration. Source control allows an organization to adopt industry standard tool sets while following modern application development and team management paradigms. See the [Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md) documentation for more information.
+To enable simple, future proof collaboration for applications, use source control integration. Source control allows an organization to adopt industry standard tool sets while following modern application development and team management paradigms. See the [Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md) documentation for more information.
 
 Source control platforms, such as GitLab and GitHub, align an organization with current and future best practice trends in ServiceNow application development and management. However, some organizations may not be ready to adopt the current source control integration.
 

@@ -63,11 +63,11 @@ Portfolio Planning is available for users with a Strategic Portfolio Management 
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text: View and manage portfolio-wide risks, issues, decisions, actions, and changes across your entire organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/explore-ridac-ppw.md)
 
 </td><td>
 
- 
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

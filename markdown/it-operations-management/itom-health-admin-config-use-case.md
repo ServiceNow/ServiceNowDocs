@@ -83,7 +83,7 @@ The administrator configures the Service Operations Workspace to provide role-ba
 
 -   **AI-Powered assistance**
 
-    Now Assist for ITOM is configured to provide intelligent alert analysis, recommended actions, and contextual guidance. AI models use organization-specific knowledge including historical incident patterns, common error code translations, and proven remediation procedures to provide insights. Approval workflows are established for high-risk AI-recommended actions while allowing automatic execution of low-risk remediation steps.
+    ServiceNow Otto for IT Operations Management \(ITOM\) is configured to provide intelligent alert analysis, recommended actions, and contextual guidance. AI models use organization-specific knowledge including historical incident patterns, common error code translations, and proven remediation procedures to provide insights. Approval workflows are established for high-risk AI-recommended actions while allowing automatic execution of low-risk remediation steps.
 
 
 ## Phase 4: Performance tuning and optimization
@@ -137,5 +137,5 @@ This configuration enables the operational workflows demonstrated in the [NOC op
 
 [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)
 
-[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md)
+[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/sow-landing-page-itom.md)
 

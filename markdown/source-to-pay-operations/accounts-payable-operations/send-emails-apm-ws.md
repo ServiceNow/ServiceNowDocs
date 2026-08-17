@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice processing, Accounts Payable Workspace, invoice inquiry case, email ingestion, AP specialist]
-breadcrumb: [Composing emails with predefined content from the Source-to-Pay Workspace, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Composing emails with predefined content, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Communicate using emails from the Source-to-Pay Workspace
@@ -55,5 +55,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist, sn\_ap\_apm.admin, sn\
     -   To send the email instantly, select **Send Email**.
     -   To save the email as draft to send later, select **Save as draft**.
 
-**Parent Topic:**[Composing emails with predefined content from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md)
+**Parent Topic:**[Composing emails with predefined content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md)
 

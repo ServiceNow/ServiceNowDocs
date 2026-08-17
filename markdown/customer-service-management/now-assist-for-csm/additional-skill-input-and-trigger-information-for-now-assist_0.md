@@ -1,6 +1,6 @@
 ---
 title: Additional skill input and trigger information
-description: Enable remaining Generative AI Skills within Now Assist CSM, and reference summarized details to complete setup.
+description: Enable remaining Generative AI Skills within ServiceNow Otto for CSM, and reference summarized details to complete setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist\_0.html
 release: australia
@@ -8,13 +8,13 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+reading_time_minutes: 2
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Additional skill input and trigger information
 
-Enable remaining Generative AI Skills within Now Assist CSM, and reference summarized details to complete setup.
+Enable remaining Generative AI Skills within ServiceNow Otto for CSM, and reference summarized details to complete setup.
 
 ## Overview of skills and triggers
 

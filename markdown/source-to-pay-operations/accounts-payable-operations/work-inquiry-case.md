@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoice inquiry case, admin]
 breadcrumb: [Invoice inquiry cases, Using Invoice Case Management, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -47,7 +47,7 @@ Typically, an invoice inquiry case is automatically created when you receive an 
 
 6.  Do one of the following:
 
-    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information from the requester for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md).
+    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md).
 
         The state of the case updates to Awaiting requester info.
 

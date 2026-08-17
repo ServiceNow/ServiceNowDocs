@@ -7,9 +7,9 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure rate limiting for providers

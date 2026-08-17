@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Application plugin, Installation sequence, Plugin dependencies, Supplier Case Management, Supplier Operations, Advanced Work Assignment]
 breadcrumb: [Install Supplier Case Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

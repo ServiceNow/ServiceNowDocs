@@ -38,15 +38,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d366396e88">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d366213e88">
 
 Method
 
-</th><th align="left" id="d366396e91">
+</th><th align="left" id="d366213e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d366396e97">
+</th></tr></thead><tbody><tr><td id="d366213e97">
 
 **Contract Workspace listing**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d366396e144">
+</td></tr><tr><td id="d366213e144">
 
 **Workspace used by your application**
 

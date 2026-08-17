@@ -28,7 +28,7 @@ The Product Use Case catalog contains supported use cases that define the standa
 
 Use cases are associated with one or more product models, enabling traceability between use cases and product solutions. A use case can be associated with an entire product or with a specific capability within that product. These associations can be edited only while the use case is in **Draft** state.
 
-The Industry and Audience type fields in a supported use case define which customer segments and verticals the use case targets, helping customer success teams identify the most relevant use cases for a given customer context. Records follow a managed publication lifecycle \(Draft, Published, Retired, or Cancelled\) controlled by UI actions.
+The Industry and Audience type fields define which customer segments and verticals the use case targets. This helps customer success teams identify the most relevant use cases for a given customer context. Records follow a managed publication lifecycle \(Draft, Published, Retired, or Cancelled\) controlled by UI actions.
 
 ## Relationship with Customer Discovery Hub
 

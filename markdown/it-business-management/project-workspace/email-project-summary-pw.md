@@ -36,7 +36,7 @@ When a project is created in the work in progress state, the project insight gen
 
 2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Configure project insights**.
 
-    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent. For more information on project insights configuration, see [Project Insights Auto-Emails: Configuration and Customization Guide](https://www.servicenow.com/community/spm-articles/project-insights-auto-emails-configuration-and-customization/ta-p/3567549).
+    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure AI Admin Hub](). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent. For more information on project insights configuration, see [Project Insights Auto-Emails: Configuration and Customization Guide](https://www.servicenow.com/community/spm-articles/project-insights-auto-emails-configuration-and-customization/ta-p/3567549).
 
 3.  From the Configure project insights modal, in Choose topics step, select **Next**.
 
@@ -68,7 +68,7 @@ When a project is created in the work in progress state, the project insight gen
 
     This skill considers task-level work notes when generating project insights.
 
-    This skill generates insights and emails them to the project manager and other stakeholders based on the cadence. For instance, when a resource is over allocated, the project manager receives an alert without having to review it manually. When scheduling the email, managers can pick or unpick the topics they want, customize the insights with their own prompt instructions, add more stakeholders, and choose whether to schedule the email or instantly send a preview. You can pause email by selecting **Pause cadence** check box.
+    This skill generates insights and emails them to the project manager and other stakeholders based on the cadence. For instance, when a resource is over allocated, the project manager receives an alert without having to review it manually. When scheduling the email, managers can pick or unpick the topics they want. They customize the insights with their own prompt instructions, add more stakeholders, and choose whether to schedule the email or instantly send a preview. You can pause email by selecting **Pause cadence** check box.
 
 
 ## Schedule a project insight email
@@ -83,5 +83,5 @@ Let's assume that you have selected a weekly cadence and chosen Monday \(which f
 **Related topics**  
 
 
-[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.md)
+[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
 

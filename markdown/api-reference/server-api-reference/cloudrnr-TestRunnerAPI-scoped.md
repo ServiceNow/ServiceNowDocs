@@ -1,6 +1,6 @@
 ---
 title: Cloud Runner TestRunnerApi – Scoped, Global
-description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test runner job to complete status and cancels any generated tests that are running.Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Starts an ATF test or a test suite on the Cloud Runner browser.
+description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test runner job to complete status and cancels any generated tests that are running.Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Starts an ATF test or a test suite on the Cloud Runner browser.Cancels the run job according to the given rootTrackerId instead of snboqId. This method is useful when the caller only has the tracker id and no sn\_boq record was ever created.Looks up the run job according to a given rootTrackerId instead of snboqId.Starts the run without waiting for the sn\_boq record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.html
 release: australia
@@ -8,7 +8,7 @@ product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -199,5 +199,79 @@ Output:
 
 ```
 {progress: 64, state: running}
+```
+
+## TestRunnerApi – cancelJobByTracker\(String rootTrackerId\)
+
+Cancels the run job according to the given rootTrackerId instead of snboqId. This method is useful when the caller only has the tracker id and no sn\_boq record was ever created.
+
+|Name|Type|Description|
+|----|----|-----------|
+|`rootTrackerId`|String|Sys\_id of the `sys_execution_tracker` for the run you want to cancel.|
+
+|Type|Description|
+|----|-----------|
+|None|Void. Same cancellation effect as cancelJob\(\).|
+
+The following example cancels the run job for the given rootTrackerID.
+
+```
+sn_atf_tg.CloudRunnerAPI.TestRunnerAPI.cancelJobByTracker({
+    rootTrackerId: "7a6b5c4d3e2f7a6b5c4d3e2f7a6b5c4d"
+});
+
+// No return value; run is marked completed/cancelled.
+```
+
+## TestRunnerApi – progressFromTracker\(String rootTrackerId\)
+
+Looks up the run job according to a given rootTrackerId instead of snboqId.
+
+|Name|Type|Description|
+|----|----|-----------|
+|`rootTrackerId`|String|Sys\_id of the `sys_execution_tracker` for the run you want to look up.|
+
+|Type|Description|
+|----|-----------|
+|Object|`{ progress: number, state: string }` — same shape as `progress`.|
+
+The following example retrieves the run progress for the given rootTrackerID.
+
+```
+var status = sn_atf_tg.CloudRunnerAPI.TestRunnerAPI.progressFromTracker({
+    rootTrackerId: "7a6b5c4d3e2f7a6b5c4d3e2f7a6b5c4d"
+});
+```
+
+Output:
+
+```
+{ progress: 40, state: "running" }
+```
+
+## TestRunnerApi – startJob\(String testId\)
+
+Starts the run without waiting for the sn\_boq record.
+
+|Name|Type|Description|
+|----|----|-----------|
+|testId|String|Sys\_id of the Test \[sys\_atf\_test\] or Test Suites \[sys\_atf\_test\_suite\] table record to run.|
+
+|Type|Description|
+|----|-----------|
+|String|Returns a rootTrackerId, which is the sys\_id of the `sys_execution_tracker` for the run. Can be passed in the progressFromTracker\(\) method.|
+
+The following example starts a suite run without waiting on the browser job record.
+
+```
+var rootTrackerId = sn_atf_tg.CloudRunnerAPI.TestRunnerAPI.startJobAsync({
+    testId: "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+});
+```
+
+Output:
+
+```
+"7a6b5c4d3e2f7a6b5c4d3e2f7a6b5c4d"  (rootTrackerId)
 ```
 

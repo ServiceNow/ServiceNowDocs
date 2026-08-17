@@ -1,6 +1,6 @@
 ---
-title: Use Now Assist for FSM to manage shifts
-description: Use Now Assist for FSM to create shifts for Field Service Management technicians.
+title: Use ServiceNow Otto for FSM to manage shifts
+description: Use ServiceNow Otto for FSM to create shifts for Field Service Management technicians.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/now-assist-shift-manage.dita.html
 release: australia
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
 
-# Use Now Assist for FSM to manage shifts
+# Use ServiceNow Otto for FSM to manage shifts
 
-Use Now Assist for FSM to create shifts for Field Service Management technicians.
+Use ServiceNow Otto for FSM to create shifts for Field Service Management technicians.
 
 ## Before you begin
 
-The FSM Scheduling AI Agent and the Now Assist for FSM plugin must be installed. For more information on the FSM Scheduling AI Agent plugin, see [Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-ai-agent.md). For more information on the Now Assist for FSM plugin, see [Configure Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md).
+The FSM Scheduling AI Agent and the ServiceNow Otto for FSM plugin must be installed. For more information on the FSM Scheduling AI Agent plugin, see [Activate FSM Scheduling AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-ai-agent.md). For more information on the Now Assist for FSM plugin, see [Configure ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md).
 
 Role required: wm\_manager
 

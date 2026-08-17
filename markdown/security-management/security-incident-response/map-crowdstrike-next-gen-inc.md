@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

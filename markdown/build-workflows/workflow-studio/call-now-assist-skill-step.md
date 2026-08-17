@@ -1,6 +1,6 @@
 ---
 title: Call Now Assist Skill step
-description: Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+description: Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/call-now-assist-skill-step.html
 release: australia
@@ -14,15 +14,15 @@ breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and
 
 # Call Now Assist Skill step
 
-Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 
 ## Roles and availability
 
 Available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
--   **Now Assist Skill Kit requirements**
+-   **AI Skill Kit requirements**
 
-    This step requires the Now Assist Skill Kit. For more information, see [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+    This step requires the AI Skill Kit. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
 
 -   **Role requirements**
 

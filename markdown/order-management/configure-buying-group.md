@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring Buying Group
@@ -69,9 +69,7 @@ View a buying group engagement metrics to track how individual members and the g
 
 [Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
-
-[configure-SOM-roles]
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
 

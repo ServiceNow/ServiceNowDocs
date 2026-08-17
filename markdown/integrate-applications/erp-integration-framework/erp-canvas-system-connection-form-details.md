@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, connection, credential, alias]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP connection and credentials field descriptions
@@ -151,8 +151,8 @@ Client Personal Security Environment \(PSE\) name. \(Required if **SNC Connectio
 
 |Field|Description|
 |-----|-----------|
-|User Name|User name to log in to the system of record to access ERP data.|
-|Password|Password to authenticate and log in to the system of record.|
+|User Name|User name to log in to the ERP system to access ERP data.|
+|Password|Password to authenticate and log in to the ERP system.|
 |Credential Name|Alias or name for the login credential.|
 
 **Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)

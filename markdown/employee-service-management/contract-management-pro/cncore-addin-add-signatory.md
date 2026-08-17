@@ -44,15 +44,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     -   While adding signatory details, if you add value in the **User** field, the participant is considered an internal signatory.
     -   While inserting content controls for signatures or signatories, ensure the font color of the tagged text matches the document’s background color.
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d390059e214">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d389919e214">
 
 Type of signatory
 
-</th><th align="left" id="d390059e217">
+</th><th align="left" id="d389919e217">
 
 Available fields
 
-</th></tr></thead><tbody><tr><td id="d390059e223">
+</th></tr></thead><tbody><tr><td id="d389919e223">
 
 **Internal**
 
@@ -78,7 +78,7 @@ Option to specify the title when the defined participant is an external user.
     -   This field is available only when signing type is AdobeSign or DocuSign.
 
 
-</td></tr><tr><td id="d390059e320">
+</td></tr><tr><td id="d389919e320">
 
 **External**
 

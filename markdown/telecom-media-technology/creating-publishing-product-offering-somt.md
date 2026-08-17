@@ -16,7 +16,7 @@ As a product catalog manager, you can create and publish the product offering ve
 
 ## Overview of product offering versions
 
-You create versions of product offerings by combining new versions of product, service, and resource specifications. Proper versioning enables your customer service agents to know what the latest versions of your product and service offerings are when they sell more expensive, complementary, upgraded, or related products to your customers.
+You create versions of product offerings by combining new versions of product, service, and resource specifications. Proper versioning enables your customer service agents to know what the latest versions of your product and service offering. This information enables you to sell more expensive, complementary, upgraded, or related products to your customers.
 
 ## Creating versions of product offerings
 

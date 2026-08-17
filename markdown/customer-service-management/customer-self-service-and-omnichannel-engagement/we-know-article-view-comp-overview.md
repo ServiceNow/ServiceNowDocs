@@ -16,5 +16,7 @@ breadcrumb: [Configure web components, Web Embeddables, Set up self-service, Con
 
 Displays knowledge articles along with the key details like title, content, author, view count, read time, and others. You can also rate the article and switch the language according to your preferred locale.
 
+**Note:** Knowledge article view component supports a mobile adaptive layout.
+
 \[Omitted image "we-know-article-view-comp.png"\] Alt text: Knowledge article view component instance displaying knowledge article in the Preview tab.
 

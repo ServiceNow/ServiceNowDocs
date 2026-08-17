@@ -18,8 +18,8 @@ You can assign roles to control user access to specific features, capabilities, 
 
 You assign roles to users and groups by using the ServiceNow AI Platform user administration feature.
 
--   To assign a role to a user, see Assign a role to a user.
--   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
 The Telecommunications Network Inventory provides the following roles:
 
@@ -77,7 +77,7 @@ Role that enables a user with the following permissions:-   Read access to all t
 -   Write, update, and delete access to the telephone number tables.
 
 </td></tr></tbody>
-</table>Starting with the Telecommunications Network Inventory June 2026 release, the following standard ServiceNow platform roles no longer have read access to specific TNI tables. This change was made to ensure that subscription consumption accurately reflects only the products a customer has purchased.
+</table>Starting with the Telecommunications Network Inventory June 2026 release, the following standard ServiceNow platform roles no longer have read access to specific TNI tables. This change was made to ensure that subscription consumption accurately reflects only the products that a customer has purchased.
 
 Users assigned any of the roles in the following table can no longer read or query the affected tables. You can explicitly grant access by assigning the appropriate TNI-specific roles to those users.
 

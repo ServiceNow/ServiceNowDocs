@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-quote.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-14"
 reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -33,15 +33,15 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d163715e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d164860e114">
 
 To
 
-</th><th align="left" id="d163715e108">
+</th><th align="left" id="d164860e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d163715e114">
+</th></tr></thead><tbody><tr><td id="d164860e123">
 
 **Create quote for an account**
 
@@ -56,11 +56,11 @@ Select the **Account** and enter the following:-   Expiration date: Date and tim
 -   Deal type: Indicates the type of deal associated with the quote:
     -   Direct: The seller engages directly with the customer, with no intermediary partner involved.
     -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
--   Short description: Brief description of the quote for this account.
 -   Channel partner: \(Optional\) The name of the organization selling a product or service.
+-   Short description: Brief description of the quote for this account.
 
 
-</td></tr><tr><td id="d163715e166">
+</td></tr><tr><td id="d164860e175">
 
 **Create quote for a consumer**
 

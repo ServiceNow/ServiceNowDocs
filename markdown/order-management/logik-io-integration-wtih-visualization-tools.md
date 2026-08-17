@@ -1,18 +1,18 @@
 ---
-title: Integrating ServiceNow CPQ with visualization tools
-description: Learn how ServiceNow CPQ connects to third-party visualization engines—CDS, kBridge, and Threekit—to render 2D/3D product views that respond to configuration inputs in real time.
+title: Integrating CPQ with visualization tools
+description: Learn how CPQ connects to third-party visualization engines—CDS, kBridge, and Threekit—to render 2D/3D product views that respond to configuration inputs in real time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik-io-integration-wtih-visualization-tools.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Integrating ServiceNow CPQ with visualization tools
+# Integrating CPQ with visualization tools
 
-Learn how ServiceNow CPQ connects to third-party visualization engines—CDS, kBridge, and Threekit—to render 2D/3D product views that respond to configuration inputs in real time.
+Learn how CPQ connects to third-party visualization engines—CDS, kBridge, and Threekit—to render 2D/3D product views that respond to configuration inputs in real time.
 
 You can perform the following:
 
@@ -26,20 +26,20 @@ You can perform the following:
 |------|---------|-----------------|------------------------|-----|
 |CDS|1-way and 2-way|Fields, Sets \(first 25 rows\), product pickers \(first 25 options\), Active Set Index|Fields; Sets via listener field JSON + rule parsing|Good for CAD/2D/3D; flexible mapping objects|
 |kBridge|1-way and 2-way|Fields, Sets \(first 25 rows\), product pickers \(first 25 options\), Active Set Index|Fields; Sets via listener field JSON + rule parsing|Real-time 3D with rich event &amp; listener model|
-|Threekit|1-way|Fields, Asset Id \(static or via field\), Active Set Index \(visual focus only\)|Not supported \(viewer → ServiceNow CPQ\)|Use for high-fidelity visuals; map fields and asset selection|
+|Threekit|1-way|Fields, Asset Id \(static or via field\), Active Set Index \(visual focus only\)|Not supported \(viewer → CPQ\)|Use for high-fidelity visuals; map fields and asset selection|
 
-**Note:** When sending sets or product pickers, ServiceNow CPQ publishes up to 25 rows/options. Indices and options beyond 25 are not transmitted. When using set repeaters, you can publish an Active Set Index trigger so the viewer shows the row the user is editing.
+**Note:** When sending sets or product pickers, CPQ publishes up to 25 rows/options. Indices and options beyond 25 are not transmitted. When using set repeaters, you can publish an Active Set Index trigger so the viewer shows the row the user is editing.
 
 ## How the integration works
 
 1.  The layout component in the blueprint defines the visualization panel's position and size.
 2.  Connection settings authorize and route traffic \(for example, the script or app URL, the auth token, and the subdomain\).
-3.  The mapping block selects what ServiceNow CPQ data to send:
+3.  The mapping block selects what CPQ data to send:
     -   `eventFields` — field variable names and their viewer keys
     -   `eventSets` — set variable names \(first 25 rows published as an array of objects\)
     -   `eventProductPickers` — selected options \(first 25\) as an array of objects
     -   `setActiveTriggers` — Boolean fields that indicate the active index in a set repeater
-4.  \(Two-way only\) A listener field \(ServiceNow CPQ text field\) receives JSON from the viewer.
+4.  \(Two-way only\) A listener field \(CPQ text field\) receives JSON from the viewer.
     -   Add a determination rule \(or enrichment\) to parse that JSON and update fields or set rows.
     -   If a listener field is present, only mappings explicitly configured for two-way will write back.
 
@@ -50,12 +50,12 @@ You can perform the following:
 -   Fields: Scalar values \(text, number, Boolean, picklist selection\).
 -   Sets: Array of row objects \(first 25\). Use the Active Set Index to keep the visual in sync with the row being edited in a repeater.
 -   Product pickers: Array of selected option objects \(first 25\).
--   Assets \(Threekit\): Provide a static `assetId` or an asset-ID field in ServiceNow CPQ to enable dynamic asset selection.
+-   Assets \(Threekit\): Provide a static `assetId` or an asset-ID field in CPQ to enable dynamic asset selection.
 
 ## Security and environments
 
--   Auth and origin: Use vendor tokens and URLs appropriate to prod vs non-prod. Ensure your ServiceNow CPQ Runtime Client origins match calling domains.
--   CSP \(Content Security Policy\): Allow vendor script or app hosts for embedding and messaging. Coordinate with your security team and ServiceNow CPQ support to add domains.
+-   Auth and origin: Use vendor tokens and URLs appropriate to prod vs non-prod. Ensure your CPQ Runtime Client origins match calling domains.
+-   CSP \(Content Security Policy\): Allow vendor script or app hosts for embedding and messaging. Coordinate with your security team and CPQ support to add domains.
 -   Separation of concerns: Keep vendor credentials and tokens out of shared layouts across environments. Swap tokens when promoting.
 
 ## When to choose which tool
@@ -73,7 +73,7 @@ You can perform the following:
 -   Troubleshoot systematically:
     -   Check admin logs for runtime or script errors.
     -   Verify CSP and network access to vendor domains.
-    -   Use the viewer’s console/devtools and ServiceNow CPQ debugger inputs to reproduce states.
+    -   Use the viewer’s console/devtools and CPQ debugger inputs to reproduce states.
 
 **Related topics**  
 

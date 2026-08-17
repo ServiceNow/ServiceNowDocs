@@ -1,5 +1,5 @@
 ---
-title: Run IP-Based Certificate Discovery
+title: Run IP-based certificate discovery
 description: Enable the Transfer Layer Security \(TLS\) port probe \[tls\_ssl\_certs\] and scan for certificates on an IP address or multiple IP addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-ip-based-certificate-discovery.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Visibility to TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Run IP-Based Certificate Discovery
+# Run IP-based certificate discovery
 
 Enable the Transfer Layer Security \(TLS\) port probe \[tls\_ssl\_certs\] and scan for certificates on an IP address or multiple IP addresses.
 

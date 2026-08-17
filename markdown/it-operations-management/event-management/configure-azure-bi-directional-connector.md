@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Azure Monitor Bi-directional connector
@@ -49,6 +49,7 @@ These scenarios describe the default bi-directional functionality for the Azure 
 
     -   Navigate to **All** &gt; **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
     -   Select **Azure Monitor**.
+    -   In the **Name** field, verify that the name is same as the name in the Azure push connector from where ServiceNow receives Azure alerts.
     -   Select the **Active** check box.
 
         For this configuration, the **Host IP** field has no functional impact and is not used, so a dummy IP address \(1.1.1.1\) is provided.

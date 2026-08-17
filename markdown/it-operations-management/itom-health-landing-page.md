@@ -22,7 +22,7 @@ ITOM AIOps enables IT operations teams, site reliability engineers, and DevOps p
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-sow-itom.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Service Operations Workspace to work with ITOM AIOps
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Service Operations Workspace to work with ITOM AIOps
 
 </td></tr><tr><td>
 

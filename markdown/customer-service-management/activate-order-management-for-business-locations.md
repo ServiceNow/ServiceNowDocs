@@ -48,5 +48,5 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 **Related topics**  
 
 
-[Order Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/order-managment-for-business-location.md)
+[Order Management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/order-managment-for-business-location.md)
 

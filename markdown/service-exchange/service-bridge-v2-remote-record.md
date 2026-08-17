@@ -19,7 +19,7 @@ Remote record producers in Service Exchange for Providers are service requests p
 
 ## Overview of record producers
 
-Remote record producers contain the variables that determine the information that a consumer can or must provide to submit a request. When a remote record producer is submitted from the consumer's service catalog, it generates a Provider Task record on the provider's instance and triggers a Create Case, Create Incident, or Create Change Request fulfillment task.
+Remote record producers contain the variables that determine the information that a consumer can or must provide to submit a request. When a remote record producer is submitted from the consumer's service catalog, it generates a Provider Task record on the provider's instance. It also triggers a Create Case, Create Incident, or Create Change Request fulfillment task.
 
 As the task moves through the fulfillment flow in the provider's instance, updates are visible in both the provider and the consumer's ServiceNow instances.
 

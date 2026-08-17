@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View patterns for event group creation
@@ -23,6 +23,8 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 ## About this task
 
 Events are grouped according to their source and description.
+
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 ## Procedure
 

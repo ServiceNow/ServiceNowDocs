@@ -18,12 +18,5 @@ The Service Graph Connector for ServiceNow Operational Technology \(OT\) Discove
 
 Go through each step to install and setup the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\).
 
-1.  [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-prereq-settings.md)
-2.  [Install the Service Graph Connector for ServiceNow Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-sgc-ot-discovery.md)
-3.  [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery-guided-setup.md)
-4.  [Configure the OT Discovery connections &amp; credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-the-ot-discovery-connections-credentials.md)
-5.  [Generate imports and validate the connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-imports-validate-connections.md)
-6.  [Review and configure integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/review-configure-integration-settings.md)
-7.  [Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/setup-scheduled-jobs.md)
-8.  [Use advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/advanced-configuration-sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 3
 keywords: [a2a]
-breadcrumb: [Create an external agent, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Integrating external AI agents
@@ -48,7 +48,13 @@ See [Create an external AI agent with the Agent2Agent protocol](https://raw.gith
 
 ## Configuring A2A authentication
 
-A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and one with an execution endpoint.
+A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and another with an execution endpoint.
+
+## Custom Headers for External Agent Configuration
+
+When configuring external agents, you can pass custom HTTP headers to be included in the API calls to external endpoints. In the External Agent Configuration \[sn\_aia\_external\_agent\_configuration\] table, use the custom headers column to specify headers in JSON format. These headers are applied to all HTTP requests made by that agent during offline execution, regardless of the connection type \(OAuth, API Key, or other\). The configured headers are sent alongside the agent's authentication credentials and are useful for passing additional metadata or requirements that your external API expects.
+
+**Note:** Custom headers apply only to the Premium Chat experience.
 
 ## Configuration Properties
 

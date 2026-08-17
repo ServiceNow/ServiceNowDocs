@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Automated certificate management for TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Revoke a certificate using automated certificate management

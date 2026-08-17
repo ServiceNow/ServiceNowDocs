@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/getting-started-aia-eval.html
 release: australia
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-07-21"
 reading_time_minutes: 1
 keywords: [automated evaluations]
-breadcrumb: [Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Getting started with agentic evaluations
@@ -21,14 +21,14 @@ Before you start your first execution run, ensure that you have the following:
 
 -   An agentic AI asset that has been built and saved in AI Agent Studio
 -   At least one version of the agentic AI asset
--   Available dataset with a minimum number of test cases. You can create new datasets using [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+-   Available dataset with a minimum number of test cases. You can create new datasets using [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 -   You have the necessary permissions to run the agentic AI asset. You can verify whether you have the right permissions by checking the user access settings of the agentic AI asset in AI Agent Studio.
 
 Role required: sn\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  Select **Create new evaluation run**.
 

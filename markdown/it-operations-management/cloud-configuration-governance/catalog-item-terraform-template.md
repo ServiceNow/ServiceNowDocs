@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a catalog item from the Terraform template
@@ -18,6 +18,7 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
 ## Before you begin
 
+-   Ensure that the Terraform template contains only one provider. Templates with multiple providers or provider aliases will fail validation.
 -   Ensure that an appropriate Terraform config provider is available. For more information on creating the config provider, see [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md) and [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
 -   Ensure that the Terraform template is working \(that is, you can directly use the template with the Terraform system to provision the specified cloud resources\). For more information on Terraform templates, see the [Terraform language documentation](https://www.terraform.io/language).
 -   Ensure that the provider block of the Terraform template adheres to the following syntax:

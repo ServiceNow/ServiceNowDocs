@@ -95,7 +95,7 @@ Post processing action
 
 </td><td>
 
-Option to update the generatedMicrosoft Word template report with fields from the Report section of the Engagement record.Options are:
+Option to update the generated Microsoft Word template report with fields from the Report section of the Engagement record.Options are:
 
 -   **Populate BIA word template and report fields**: When you choose this template, the fields from the Report section of the BIA record populate in Microsoft Word report.
 -   **Populate BCP Plan word template and report fields**: When you choose this template, the fields from the Report section of the BCP plan record populate in Microsoft Word report.

@@ -8,8 +8,8 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoice case management]
+reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice inquiry case, supplier, resolve invoice, manage invoice, invoice case management]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -25,7 +25,7 @@ Invoice inquiry cases help resolve invoice-related issues raised by suppliers or
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 
@@ -41,7 +41,7 @@ Invoice inquiry cases help resolve invoice-related issues raised by suppliers or
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 

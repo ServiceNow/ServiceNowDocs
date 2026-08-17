@@ -106,7 +106,7 @@ An inventory of what you have purchased and whether it's actively being used
 
 </td></tr><tr><td>
 
- using Value Dashboards
+[Business KPIs tracking with Outcomes Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/outcome-insights.md) using Value Dashboards
 
 </td><td>
 
@@ -118,8 +118,8 @@ Measure business outcomes and ROI across your ServiceNow product journey
 
 </td><td>
 
-Monitor instance health and align with technical general guidelines, powered by: -   [Scan Engine for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-healthscan-store-app.md)– Checks your instance for technical debt
--   [Real-time prevention monitoring for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring-combined.md)– Verifies that code and update sets are safe to deploy to production
+Monitor instance health and align with technical general guidelines: -   [Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/prevent-resolve-technical-debt-ai.md)– Checks your instance for technical debt
+-   [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md): Verifies that code and update sets are safe to deploy to production
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Dashboards allowing persona-based views of key metrics,  charts, and  trend 
 
 </td></tr><tr><td>
 
-[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
 </td><td>
 
@@ -164,7 +164,7 @@ With manual curation of content by a CSM Newsletter team, based on Impact Squad�
 
 Impact is delivered through the ServiceNow Store and runs directly within your ServiceNow instance.
 
-The Impact Store Application is included with an Impact subscription, as is the Service Bridge connector that links the app to the Impact Delivery Instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) to get started.
+The Impact Store Application is included with an Impact subscription, as is the connector that links the app to the Impact Delivery Instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) to get started.
 
 **Note:** The Impact Store Application is the exclusive hub for all innovative features starting with the Yokohama release \(March 2025\).
 

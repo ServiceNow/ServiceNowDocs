@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-deprecated-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-12"
+last_updated: "2026-08-10"
 reading_time_minutes: 10
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -26,19 +26,22 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Agent Studio
+
+</td><td>
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   The support for manually integrating external agents has been deprecated from [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) release.
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
 -   The ability to add hyperscalers from the AICT configuration section is no longer available. You can find any previously created hyperscaler connections in the AI connections section, under Legacy connections.
-
-</td></tr><tr><td>
-
-API
-
-</td><td>
-
--   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
+-   The AI Gateway application is deprecated in the Australia release and is no longer supported.
 
 </td></tr><tr><td>
 
@@ -113,7 +116,7 @@ Data generation profiles and templates will no longer available in Developer San
 -   All references to data generation will be removed from sandbox templates.
 -   Sandbox initialization will operate independently of data generation logic.
 
-**Note:** You can use the Now Assist Data Kit instead of data generation profiles.
+**Note:** You can use the AI Data Kit instead of data generation profiles.
 
 </td></tr><tr><td>
 
@@ -121,7 +124,7 @@ Document Intelligence
 
 </td><td>
 
-Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md).
+Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md).
 
 </td></tr><tr><td>
 
@@ -190,33 +193,6 @@ Next Experience Components
 
 </td></tr><tr><td>
 
-Now Assist
-
-</td><td>
-
--   Starting with the [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) release, Conversational Help Skills is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
-</td></tr><tr><td>
-
-Now Assist AI Agents
-
-</td><td>
-
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
-
--   The support for manually integrating external agents has been deprecated from [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) release.
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
--   Starting with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md) release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md). To transition to LEAP, you must install the LEAP \(sn\_itom\_leap\) plugin. For information on the Suggested steps skill, see [Suggested steps generation in Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md) and [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
--   Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md) release, the [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist.md) is deprecated, moved to the **Archived** folder and is no longer available for use.
-
-</td></tr><tr><td>
-
 Performance Analytics
 
 </td><td>
@@ -264,6 +240,34 @@ ServiceNow AI Platform core feature
 </td><td>
 
 Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements or defect fixes, and will no longer be supported. Certain system features might continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information about activating the Next Experience UI, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto
+
+</td><td>
+
+-   Starting with the [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) release, Conversational Help Skills is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+-   Starting with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md) release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md). To transition to LEAP, you must install the LEAP \(sn\_itom\_leap\) plugin. For information on the Suggested steps skill, see [Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md) and [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+-   Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md) release, the [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist.md) is deprecated, moved to the **Archived** folder and is no longer available for use.
+
+</td></tr><tr><td>
+
+Usage Insights
+
+</td><td>
+
+-   **[Usage Insights in Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
+
+Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

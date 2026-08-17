@@ -1,6 +1,6 @@
 ---
 title: Export Security Tasks
-description: Learn how to export Security Tasks into files you can download and use in other software.
+description: Export Security Tasks into files that you can download and use in other software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/export-security-tasks.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Security Tasks, Security Center, Platform Security]
 
 # Export Security Tasks
 
-Learn how to export Security Tasks into files you can download and use in other software.
+Export Security Tasks into files that you can download and use in other software.
 
 ## Before you begin
 

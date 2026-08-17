@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-agentworkspaceforhrcasemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -176,13 +176,13 @@ Australia
 
 -   **[Integration with Contact Center as a Service \(CCaaS\)](https://www.servicenow.com/docs/access?context=enable-hr-icc&family=australia&ft:locale=en-US)**
 
-Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture. The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.
+Implement prebuilt, certified integrations with CCaaS providers using the ServiceNow voice reference architecture. The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace. HR agents are provided a brief wrap-up period at the end of customer conversations to complete their work before moving on to assist other customers.
 
 -   **[Recommended Actions for HRSD](https://www.servicenow.com/docs/access?context=recommended-actions-hrsd&family=australia&ft:locale=en-US)**
 
 Recommend actions based on the context of the HR case, helping agents resolve case faster.
 
-    -   Lists KB articles and similar cases in the context of the current case.
+    -   Lists Knowledge Base articles and similar cases in the context of the current case.
     -   Suggests to add an approval to the case only when an approval is required.
 -   **[Case creation configuration](https://www.servicenow.com/docs/access?context=agent-ws-configurable-hr-create-case&family=australia&ft:locale=en-US)**
 
@@ -191,7 +191,7 @@ Enable an HR agent to quickly review the HR profiles of both **subject person** 
 
 -   **[Advanced Knowledge Editor](https://www.servicenow.com/docs/access?context=advance-knowledge-editor&family=australia&ft:locale=en-US)**
 
-Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI powered Article optimizations recommendations to improve the knowledge content quality.
+Streamline Knowledge article creation and editing with AI support in an improved, intuitive editor. Leverage AI-powered article optimizations recommendations to improve the knowledge content quality.
 
 
 </td></tr></tbody>
@@ -619,7 +619,7 @@ Australia
 
 </td><td>
 
--   Enable CCaaS providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
+-   Enable Contact Center as a Service \(CCaaS\) providers to display native voice and callback integrations so that HR agents can manage customer calls directly from HR Agent Workspace.
 -   Recommend actions based on the context of the case, helping HR agents resolve HR cases efficiently.
 
  See [Agent Workspace](https://www.servicenow.com/docs/access?context=agent-ws-hr-case-mgmt-landing-page&family=australia&ft:locale=en-US) for more information.

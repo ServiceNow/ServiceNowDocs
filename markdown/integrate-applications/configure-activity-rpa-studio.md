@@ -30,7 +30,7 @@ Each activity contains two components by default: Start and End. These component
 
 You can reuse each activity multiple times within the same automation project by dragging the activity to the Design surface. You can also import activities in different automation projects.
 
-To create an activity using Now Assist, see [Create an activity with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).
+To create an activity using Now Assist, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ To create an activity using Now Assist, see [Create an activity with Now Assist]
 
 2.  Do any of the following options for a desired action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d497253e140">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d489773e137">
 
 Option
 
-</th><th align="left" id="d497253e143">
+</th><th align="left" id="d489773e140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d497253e149">
+</th></tr></thead><tbody><tr><td id="d489773e146">
 
 **To create a new activity**
 
@@ -58,20 +58,20 @@ Action
 
 Right-click **Activities** in the Project Explorer pane and select **New Activity**.
 
-</td></tr><tr><td id="d497253e164">
+</td></tr><tr><td id="d489773e161">
 
 **To create a new activity with Now Assist**
 
 </td><td>
 
-Right-click **Activities** in the Project Explorer pane and select **New activity using Now Assist**. For more information, see [Create an activity with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).To access the Now Assist for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
+Right-click **Activities** in the Project Explorer pane and select **New activity using Now Assist**. For more information, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).To access the AI features in RPA Desktop Design Studio, perform the following steps:
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Install Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
 -   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
-If you skip these steps, the Now Assist for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
+If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
-</td></tr><tr><td id="d497253e246">
+</td></tr><tr><td id="d489773e237">
 
 **To rename an activity**
 
@@ -81,7 +81,7 @@ Do one of the following actions:-   In the Project Explorer pane, right-click th
 -   Double-click the activity and in the Properties pane, change the name in the **Name** field.
  For example, Test 1 and Test 2.
 
-</td></tr><tr><td id="d497253e273">
+</td></tr><tr><td id="d489773e264">
 
 **To add the input parameters to an activity**
 
@@ -89,7 +89,7 @@ Do one of the following actions:-   In the Project Explorer pane, right-click th
 
 Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon.\) on the Start component.When you drag this activity into another activity, the input parameters appear as Data Input ports.
 
-</td></tr><tr><td id="d497253e292">
+</td></tr><tr><td id="d489773e283">
 
 **To add the output parameters to an activity**
 
@@ -97,7 +97,7 @@ Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon
 
 Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon.\) on the End component.When you drag this activity in another activity, the output parameters appear as Data Output ports.
 
-</td></tr><tr><td id="d497253e310">
+</td></tr><tr><td id="d489773e301">
 
 **To open an activity on the Design surface**
 
@@ -105,7 +105,7 @@ Click the plus icon \(\[Omitted image "add-image-icon.png"\] Alt text: Plus icon
 
 Double-click the activity.
 
-</td></tr><tr><td id="d497253e319">
+</td></tr><tr><td id="d489773e310">
 
 **To set a particular activity as the starting point for the automation project**
 
@@ -115,7 +115,7 @@ Right-click the activity and select **Mark As Startup**.By default, the Main Act
 
  When you click **Run** under the **Design** tab to run this project, the automation begins from the activity that is marked as startup.
 
-</td></tr><tr><td id="d497253e343">
+</td></tr><tr><td id="d489773e334">
 
 **To reuse an activity within the same automation project**
 
@@ -123,7 +123,7 @@ Right-click the activity and select **Mark As Startup**.By default, the Main Act
 
 Drag the activity to the desired Design surface of the activity.
 
-</td></tr><tr><td id="d497253e352">
+</td></tr><tr><td id="d489773e343">
 
 **To reuse an activity in a different automation project**
 
@@ -131,7 +131,7 @@ Drag the activity to the desired Design surface of the activity.
 
 Perform the steps in the [Import project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-project-activities.md).
 
-</td></tr><tr><td id="d497253e371">
+</td></tr><tr><td id="d489773e362">
 
 **To handle the errors at an activity level**
 
@@ -139,7 +139,7 @@ Perform the steps in the [Import project in RPA Desktop Design Studio](https://r
 
 Right-click the desired activity and select **Error Handler**.
 
-</td></tr><tr><td id="d497253e384">
+</td></tr><tr><td id="d489773e375">
 
 **To create a local variable**
 
@@ -147,7 +147,7 @@ Right-click the desired activity and select **Error Handler**.
 
 Right-click the desired activity and select **Create a Variable**.
 
-</td></tr><tr><td id="d497253e396">
+</td></tr><tr><td id="d489773e387">
 
 **To create a copy of an activity**
 
@@ -155,7 +155,7 @@ Right-click the desired activity and select **Create a Variable**.
 
 Right-click the desired activity and select **Create a Copy**.For example, if you are creating a copy of the Test 1 activity, a new activity is created as Test1\_Copy under the Activities section.
 
-</td></tr><tr><td id="d497253e411">
+</td></tr><tr><td id="d489773e402">
 
 **To find all the references of an activity that are used in other activities**
 
@@ -163,7 +163,7 @@ Right-click the desired activity and select **Create a Copy**.For example, if yo
 
 Right-click the desired activity in the Project Explorer pane and select **Find All References**.Results are displayed in the Find All References dialog box.
 
-</td></tr><tr><td id="d497253e426">
+</td></tr><tr><td id="d489773e417">
 
 **To delete an activity**
 
@@ -174,7 +174,7 @@ Do the following:1.  Delete all the references that are used in other activities
 3.  In the Confirmation dialog box, select **Yes**.
 
 
-</td></tr><tr><td id="d497253e456">
+</td></tr><tr><td id="d489773e447">
 
 **To resolve conflicts when merging changes from multiple sources of an activity**
 
@@ -186,7 +186,7 @@ Right-click the desired activity in the Project Explorer pane and select **Sourc
 
  For more information, see [Resolve conflicts when merging changes from multiple sources of the same activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/source-control-rpa-studio.md).
 
-</td></tr><tr><td id="d497253e500">
+</td></tr><tr><td id="d489773e491">
 
 **To execute and test the automation of the project that includes all activities**
 

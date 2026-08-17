@@ -61,7 +61,7 @@ The Kanban view organizes work items into columns and rows based on attributes y
 
 -   **Kanban card layout options**
 
-    Personalize Kanban cards to surface the information most relevant to your team using card layout settings. Select up to five fields to display on each card. Use the Compact layout to show only the work item name for a focused view, or the Full layout to show all selected fields for more context directly on the card.
+    Personalize Kanban cards to surface the information most relevant to your team using card layout settings. Select up to five fields to display on each card. Use the Compact layout to show only the work item name for a focused view. Use the Full layout to show all selected fields for more context directly on the card.
 
     \[Omitted image "cwm-kanban-card-layout.png"\] Alt text: Kanban card layout settings panel showing field selection and layout options.
 

@@ -22,7 +22,7 @@ In the Crawl stage, you work on base-system CMDB tables that are associated with
 -   Setting up APM is faster because your business application data is in the correct place in the CMDB.
 -   The operations build the foundation for using DevOps because your Agile development component data is populated and ready to relate to your applications.
 -   Service Mapping is ready to use for mapping entry points because your service instance data is populated.
--   The operations build the foundation for using TPM risk details, a capability of APM.
+-   The operations build the foundation for using TLM risk details, a capability of APM.
 
     The operations prepare you to manage and monitor the life cycles and versions of the underlying technologies of the business applications in your enterprise.
 

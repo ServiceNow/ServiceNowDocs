@@ -38,7 +38,7 @@ Metrics monitoring
 
 </td><td>
 
-Indication whether application monitoring is turned on.You can turn the application monitoring on or off, as well as delete an application from the list, by selecting the check box next to an application and selecting an appropriate option under the **Actions** drop-down list.
+Indication whether application monitoring is turned on.Turn application monitoring on or off, or to delete an application from the list by selecting the application and then selecting an option from the **Actions** list.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Compliance monitoring
 
 </td><td>
 
-Indication whether application compliance monitoring is turned on.You can turn the compliance monitoring on or off, as well as delete the application from the list, by selecting the check box next to an application and selecting an appropriate option under the **Actions** drop-down list.
+Indication whether application compliance monitoring is turned on.Turn compliance monitoring on or off, or to remove an application from the list by selecting the application and then selecting an option from the **Actions** list.
 
 </td></tr><tr><td>
 

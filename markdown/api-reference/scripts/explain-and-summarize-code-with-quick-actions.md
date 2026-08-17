@@ -9,7 +9,7 @@ classification: scripts
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Explain and summarize code
@@ -22,20 +22,20 @@ Role required: now.assist.creator
 
 ## Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
     For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
 
-2.  In the script editor, select a code and then select the **Quick Actions** button.
+2.  In the script editor, select a code and then select the **Otto**.
 
-    \[Omitted image "now-assist-code-quick-actions.png"\] Alt text: Selecting Quick Actions button displays the Summarize code and Explain code options.
+    \[Omitted image "soc-otto-menu.png"\] Alt text: Select Summarize code to understand code.
 
 3.  To understand the purpose of the code, select **Summarize code**.
 
-    \[Omitted image "now-assist-code-summarize.png"\] Alt text: A summary of the code is displayed in the script editor.
+    \[Omitted image "soc-summarize-code.png"\] Alt text: Select Summarize code to get a short explanation of the code.
 
-4.  To get a comprehensive explanation of the code’s functionality, select **Explain code in detail**.
+4.  From the **Use Otto to** list, select **Explain code in detail** to get a comprehensive explanation of the code’s functionality.
 
-    \[Omitted image "now-assist-code-explain.png"\] Alt text: A detailed explanation of the code is displayed in the script editor.
+    \[Omitted image "soc-summarize-code-detail.png"\] Alt text: Select Explain code in detail to get a detailed explanation of the code.
 
 

@@ -22,7 +22,7 @@ To access the ServiceNow AI Lens functionality, perform the following steps:
 
 -   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 -   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+-   Download the ServiceNow AI Lens installer to scan your desktop screen. For more information, see [Download and set how you want to launch ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 Verify that you've defined the Lens action for this purpose. For more information, see [Define a Lens action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
@@ -141,7 +141,7 @@ By using Lens actions, you can perform one of the following tasks:
             |glide.rest.max\_content\_length|Integer|15|
             |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-            For more information, see Configure system property
+            For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/r_ControllingMaxRequestSize.md)
 
             **Note:** You must have the admin role to set the system properties.
 
@@ -157,15 +157,15 @@ By using Lens actions, you can perform one of the following tasks:
 
 12. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d131160e751">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d184378e754">
 
 Task
 
-</th><th align="left" id="d131160e754">
+</th><th align="left" id="d184378e757">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d131160e760">
+</th></tr></thead><tbody><tr><td id="d184378e763">
 
 **Filling form**
 
@@ -175,7 +175,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d131160e781">
+</td></tr><tr><td id="d184378e784">
 
 **Previewing extracted data**
 

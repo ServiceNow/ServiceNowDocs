@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Update the data source of the connector

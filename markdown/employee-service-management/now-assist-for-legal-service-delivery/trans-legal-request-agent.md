@@ -9,8 +9,8 @@ classification: now-assist-for-legal-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, Transfer AI Agents]
-breadcrumb: [Agentic workflow, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, Transfer AI Agents]
+breadcrumb: [Agentic workflow, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Triage legal requests agentic workflow
@@ -22,14 +22,14 @@ Use the Triage legal requests agentic workflow to predict the appropriate legal 
 **Important:**
 
 -   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/conf-transfer-legal-request-agent.md).
--   If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
--   
+-   For your AI service provider, verify that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
+
 The agentic workflow is triggered under the following conditions:
 
 -   A general legal request is submitted and an assignment rule is configured for it.
 -   The **Assigned to** field is updated for a general legal request.
 
-The agentic workflow conversation can be seen in the Now Assist panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
+The agentic workflow conversation can be seen in the ServiceNow Otto panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
 
 ## Accessing the Triage legal requests agentic workflow from the AI Agent studio
 
@@ -48,13 +48,13 @@ You can access the agentic workflow from AI Agent Studio when you have the sn\_a
 
 ## Using Triage legal requests agentic workflow
 
-The agentic workflow conversation can be seen in the Now Assist panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
+The agentic workflow conversation can be seen in the ServiceNow Otto panel by the legal fulfiller or group manager with the now\_assist\_panel\_user role.
 
-1.  Open the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon
-2.  In the Now Assist chat panel, select the legal request under the active chat.
+1.  Open the ServiceNow Otto panel by selecting the ServiceNow Otto icon \[Omitted image "cmpro-otto-icon.png"\] Alt text: ServiceNow Otto icon
+2.  In the chat panel, select the legal request under the active chat.
 3.  See the agentic workflow conversation and the predicted legal category:
     -   If you choose to transfer the general legal request, enter `Yes` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. When it's transferred, the original request is canceled and a new request is created with the predicted legal category. The agentic conversation is closed after the transfer of the legal request.
     -   If you choose not to transfer the general legal request, enter `No` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. The general legal request isn’t transferred and the agentic conversation is closed.
 
-**Parent Topic:**[Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
+**Parent Topic:**[Using agentic workflow in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
 

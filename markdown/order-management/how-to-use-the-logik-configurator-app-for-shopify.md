@@ -1,54 +1,54 @@
 ---
-title: Integrating ServiceNow CPQ with Shopify
-description: The ServiceNow CPQ app for Shopify enables stores to seamlessly manage and sell configurable products using ServiceNow CPQ advanced CPQ \(Configure, Price, Quote\) features. Installation and setup are streamlined, and robust Admin options are provided for both technical and non-technical users.
+title: Integrating CPQ with Shopify
+description: The CPQ app for Shopify enables stores to seamlessly manage and sell configurable products using CPQ advanced CPQ \(Configure, Price, Quote\) features. Installation and setup are streamlined, and robust Admin options are provided for both technical and non-technical users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how-to-use-the-logik-configurator-app-for-shopify.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Integrating ServiceNow CPQ with Shopify
+# Integrating CPQ with Shopify
 
-The ServiceNow CPQ app for Shopify enables stores to seamlessly manage and sell configurable products using ServiceNow CPQ advanced CPQ \(Configure, Price, Quote\) features. Installation and setup are streamlined, and robust Admin options are provided for both technical and non-technical users.
+The CPQ app for Shopify enables stores to seamlessly manage and sell configurable products using CPQ advanced CPQ \(Configure, Price, Quote\) features. Installation and setup are streamlined, and robust Admin options are provided for both technical and non-technical users.
 
-The ServiceNow CPQ app for Shopify is a fully featured connector for a Shopify store. The app ensures the entire product catalog is available in ServiceNow CPQ for use with a ServiceNow CPQ blueprint. The app also includes an app block to add a configurator to any page on a storefront without the need to create a dedicated UI. The configurator app block is fully functional out of the box which means customers can start adding configurable products to their cart as soon as the storefront changes are published.
+The CPQ app for Shopify is a fully featured connector for a Shopify store. The app ensures the entire product catalog is available in CPQ for use with a CPQ blueprint. The app also includes an app block to add a configurator to any page on a storefront without the need to create a dedicated UI. The configurator app block is fully functional out of the box which means customers can start adding configurable products to their cart as soon as the storefront changes are published.
 
--   The ServiceNow CPQ app brings your entire Shopify product catalog into ServiceNow CPQ, allowing complex configurations for B2C and B2B sales.
+-   The CPQ app brings your entire Shopify product catalog into CPQ, allowing complex configurations for B2C and B2B sales.
 -   Features an app block to easily add a product configurator to any storefront page—no custom code required.
--   Provides live catalog sync from Shopify to ServiceNow CPQ every fifteen minutes \(one-way sync\).
+-   Provides live catalog sync from Shopify to CPQ every fifteen minutes \(one-way sync\).
 -   Enables Shopify B2B Pricing by deferring to Shopify catalog prices for B2B users.
 
-The ServiceNow CPQ app for Shopify is free to download on the Shopify app store:
+The CPQ app for Shopify is free to download on the Shopify app store:
 
 [Product Configuration](https://apps.shopify.com/logik-1)
 
 ## Setup
 
-After downloading the ServiceNow CPQ app it will automatically appear in the Apps section of the store.
+After downloading the CPQ app it will automatically appear in the Apps section of the store.
 
-To start using the app, the ServiceNow CPQ environment details and a token must be entered in the ServiceNow CPQ settings section of the app landing screen. For more information about creating a ServiceNow CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md).
+To start using the app, the CPQ environment details and a token must be entered in the CPQ settings section of the app landing screen. For more information about creating a CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md).
 
 **Note:** Ensure the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.](https://shpfy-connect.ecommerce.logik.io/).
 
-## ServiceNow CPQ app Admin screen overview
+## CPQ app Admin screen overview
 
 \[Omitted image "cpq-app-admin-screen.png"\] Alt text: Admin screen overview
 
--   **ServiceNow CPQ Settings**: ServiceNow CPQ environment settings which is required in order for the configurator to display
+-   **ServiceNow CPQ Settings**: CPQ environment settings which is required in order for the configurator to display
 -   Instructions: This block summarizes at a high level what is needed for a configurable product. The ‘Add to Current Themeʼ button will also automatically place the app block on the product page template.
 -   Configurable Products: Redirects to a page for **ServiceNow CPQ enabled products** in the store catalog
--   Order Configuration: Redirects to a ServiceNow CPQ specific create order page so that an Admin can add a ServiceNow CPQ configurable product to an order
+-   Order Configuration: Redirects to a CPQ specific create order page so that an Admin can add a CPQ configurable product to an order
 
 ## Managing products
 
-When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync will begin and the custom ServiceNow CPQ attribute is added to the product details Admin page.
+When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync will begin and the custom CPQ attribute is added to the product details Admin page.
 
 ## Product catalog synchronization
 
-Products are synced down from Shopify to ServiceNow CPQ every fifteen minutes. All products in the store catalog will be synced to ServiceNow CPQ. Changes will be synced the next time the job runs.
+Products are synced down from Shopify to CPQ every fifteen minutes. All products in the store catalog will be synced to CPQ. Changes will be synced the next time the job runs.
 
 Products from Shopify will appear on the Products and Configurable Products table. The Shopify GID is automatically mapped to the Product ID field on the table.
 
@@ -64,19 +64,19 @@ In order for a product to appear on the Configurable Products table as well the 
 
 ## Using Shopify B2B pricing
 
-In order to use Shopify B2B Pricing, all products associated to a ServiceNow CPQ Blueprint must be present in a catalog. The catalog must also have at lease one company location associated to it alongside a user who belongs to that company.\[Omitted image "cpq-b2b-test.png"\] Alt text: Shopify B2B
+In order to use Shopify B2B Pricing, all products associated to a CPQ Blueprint must be present in a catalog. The catalog must also have at lease one company location associated to it alongside a user who belongs to that company.\[Omitted image "cpq-b2b-test.png"\] Alt text: Shopify B2B
 
-When a user is logged in from an included company location, ServiceNow CPQ pricing will default to the Shopify catalog price. This will overwrite any ServiceNow CPQ price rules for these products. It is recommended that B2B specific blueprints are created to avoid any confusion around pricing in this scenario.
+When a user is logged in from an included company location, CPQ pricing will default to the Shopify catalog price. This will overwrite any CPQ price rules for these products. It is recommended that B2B specific blueprints are created to avoid any confusion around pricing in this scenario.
 
 ## Adding a configurator to a page
 
-The ServiceNow CPQ Configurator can be added to any page via an included app block through the page editor. The app block is automatically added to your store when the app is installed. You can find the block under apps when adding a new page section.
+The CPQ Configurator can be added to any page via an included app block through the page editor. The app block is automatically added to your store when the app is installed. You can find the block under apps when adding a new page section.
 
-The look and feel of the **ServiceNow CPQ configurator** is managed in ServiceNow CPQ Admin through use of the layout editor. However, there are additional options in the ServiceNow CPQ app block. If you encounter issues where the Font is too small or large, that can be modified in the app block settings along with spacing.
+The look and feel of the **ServiceNow CPQ configurator** is managed in CPQ Admin through use of the layout editor. However, there are additional options in the CPQ app block. If you encounter issues where the Font is too small or large, that can be modified in the app block settings along with spacing.
 
 ## Product Pages
 
-For product pages, the ServiceNow CPQ app landing page has a shortcut to directly add the app block to the product page template.
+For product pages, the CPQ app landing page has a shortcut to directly add the app block to the product page template.
 
 The default behavior on a product page is to use the current product as the configurable product. If the product is **ServiceNow CPQ configurable**, the configurator will display. If not, the app block will remain hidden.
 
@@ -106,7 +106,7 @@ If the setting is disabled, once the configuration is completed. All items inclu
 
 Configurable Products List:
 
-On the ServiceNow CPQ app landing page, once the ServiceNow CPQ credentials have been saved, a configurable product section is shown.
+On the CPQ app landing page, once the CPQ credentials have been saved, a configurable product section is shown.
 
 Clicking into the page will display a list of all products that are **ServiceNow CPQ configurable** and any variants.
 
@@ -118,7 +118,7 @@ The order button will redirect the Shopify user to the Create Draft Order page a
 
 \[Omitted image "cpq-draft-order1.png"\] Alt text: Creating a draft order
 
-On the Create Draft Order page, a Shopify user can select a ServiceNow CPQ configurable product to launch itʼs configurator. Once a product is selected and the submit button is clicked, the associated blueprint is displayed.
+On the Create Draft Order page, a Shopify user can select a CPQ configurable product to launch itʼs configurator. Once a product is selected and the submit button is clicked, the associated blueprint is displayed.
 
 \[Omitted image "cpq-draft-order.png"\] Alt text: Creating a draft order
 
@@ -130,7 +130,7 @@ From the order page, the user can complete the order like any other Shopify orde
 
 ## Editing a Configurable Product in a draft order
 
-On the draft order page, a Shopify user can edit a ServiceNow CPQ configurable product that is included in the order. The user will select the product from the dropdown then click the ‘Reconfigureʼ button, which will redirect to the create draft order page.
+On the draft order page, a Shopify user can edit a CPQ configurable product that is included in the order. The user will select the product from the dropdown then click the ‘Reconfigureʼ button, which will redirect to the create draft order page.
 
 \[Omitted image "cpq-draft-order3.png"\] Alt text: Editing a Configurable Product in a draft order
 
@@ -138,15 +138,15 @@ The existing configuration will automatically load on the page and the user will
 
 ## Using the app with headless implementations
 
-The ServiceNow CPQ Shopify app is not required for users who wish to integrate ServiceNow CPQ with their Shopify storefront. However, the app is designed with headless implementations in mind.
+The CPQ Shopify app is not required for users who wish to integrate CPQ with their Shopify storefront. However, the app is designed with headless implementations in mind.
 
 Here are some considerations when using the app for your headless implementation:
 
-The app will streamline the setup with ServiceNow CPQ and reduce the overall need for custom middleware by providing a product sync between platforms, a custom ServiceNow CPQ Configurable product attribute and Draft Order functionality.
+The app will streamline the setup with CPQ and reduce the overall need for custom middleware by providing a product sync between platforms, a custom CPQ Configurable product attribute and Draft Order functionality.
 
-A Custom UI can be used in place of the ServiceNow CPQ app block which is completely optional.
+A Custom UI can be used in place of the CPQ app block which is completely optional.
 
-Saving a configuration, even heedlessly, will trigger the ServiceNow CPQ add to cart function which facilitates dynamic pricing and attributes Automated add to cart on save can be disabled through a DevOps request.
+Saving a configuration, even heedlessly, will trigger the CPQ add to cart function which facilitates dynamic pricing and attributes Automated add to cart on save can be disabled through a DevOps request.
 
 ## Clearing app settings
 

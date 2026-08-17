@@ -40,7 +40,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
 
-7.  Select the **Investigate transactions** activity under the Investigation playbook stage.
+7.  Select the **Investigate transactions** task under the Investigation playbook stage.
 
 8.  Review the chargeback eligibility and chargeback ineligibility reasons for the disputed transaction.
 

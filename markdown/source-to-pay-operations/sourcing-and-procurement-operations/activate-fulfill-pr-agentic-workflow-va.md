@@ -7,10 +7,10 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent
@@ -26,8 +26,6 @@ Role required: admin
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 
 2.  Under Agentic workflows, select **Conversational intake for sourcing and procurement**.
-
-    \[Omitted image "agentic-spo-wf.png"\] Alt text: Conversational intake for sourcing and procurement agentic workflow.
 
 3.  Under Connect AI agents, select any of the AI agents that you want to make available in Virtual Agent.
 
@@ -54,25 +52,27 @@ Role required: admin
 
 8.  On the Define availability page, in the **Select display** section, switch the Display toggle to the open position so that the AI agent is enabled in the Virtual Agent.
 
-    \[Omitted image "agentic-prod-agent.png"\] Alt text: Enable the selected AI agent in Virtual Agent.
-
 9.  To activate the agentic workflow, select **Save and test**.
 
     The selected AI agent is enabled in Virtual Agent.
 
 
-**Parent Topic:**[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+## What to do next
+
+Verify that the selected AI agent has been enabled. For more information, see .
+
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 
 
 [Conversational intake for sourcing and procurement agentic workflow]()
 
-[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the Now Assist panel]()
+[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel]()
 
-[Submit a purchase request using the Now Assist AI agent]()
+[Submit a purchase request using the ServiceNow Otto AI agent]()
 
-[Update the product category or spend category in the Now Assist panel]()
+[Update the product category or spend category in the ServiceNow Otto panel]()
 
 [Email parser agent for Sourcing and Procurement Operations]()
 

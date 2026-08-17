@@ -1,6 +1,6 @@
 ---
-title: Track your business ROI
-description: Value Reports translate ServiceNow outcome performance data into monetized business RO.
+title: Business ROI tracking with Value Reports
+description: Value Reports translate ServiceNow outcome performance data into monetized business ROI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/business-value-reports.html
 release: australia
@@ -12,17 +12,21 @@ reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---
 
-# Track your business ROI
+# Business ROI tracking with Value Reports
 
-Value Reports translate ServiceNow outcome performance data into monetized business RO.
+Value Reports translate ServiceNow outcome performance data into monetized business ROI.
 
-Each report covers a defined time period and shows the total value realized across tracked outcomes, broken down by objective and individual outcome contribution.
+Value Reports are the final step in the value management lifecycle. Once objectives and outcomes are established, performance data accumulates through Outcome Insights. Value Reports then translate that outcome performance into a monetized view of the return on a ServiceNow investment. Each report covers a defined time period and shows the total value realized across tracked outcomes, broken down by objective and individual outcome contribution.
 
-To access the value report in Impact Store Application, navigate to **All** &gt; **Impact** &gt; **Value Management** &gt; **Value reports**, and then select the **Value Report** menu item in the Impact workspace.
+The report is located in **All &gt; Impact &gt; Value Management &gt; Value reports**, where you can select the **Value Report** menu item to view the data.
 
 You can select a product to view its available reports. Select a report to load the corresponding value data for that product and time period. The existing value reports are displayed under each product line on the left.
 
-You can view the value reports published in Impact Delivery Instance under the value reports section. However, you cannot create or manage value reports in the Impact Store Application.
+**Note:** A product needs at least two years of data available before a Value Report can be generated for it.
+
+You can view the value reports published in Impact Delivery Instance under the value reports section. However, you can't create or manage value reports in the Impact Store Application.
+
+**Note:** Each Value Report reflects a single outcome model, either Standard or Enhanced, never a combination of the two. Since the outcome model is selected before outcomes are chosen, a product tracked under both models results in two separate reports, one for each model.
 
 |Report Section|Description|
 |--------------|-----------|

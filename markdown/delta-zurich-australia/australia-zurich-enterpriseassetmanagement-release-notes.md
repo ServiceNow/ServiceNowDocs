@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterpriseassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -169,8 +169,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://www.servicenow.com/docs/access?context=manage-work-order-plans&family=australia&ft:locale=en-US)**
@@ -185,7 +185,7 @@ Manage complex asset-centric work tasks with unified work order plans that can b
 
 Create, track, and manage multimedia production equipment models and assets in the Enterprise Asset Workspace. Get a comprehensive view of these models and assets so that you can manage them effectively throughout their life cycles.
 
--   **[Replace broad admin checks with granular admin roles and ACL updates](https://www.servicenow.com/docs/access?context=eam-roles&family=australia&ft:locale=en-US)**
+-   **[Replace broad admin checks with granular admin roles and ACL updates](https://www.servicenow.com/docs/access?context=installed-with-eam&family=australia&ft:locale=en-US)**
 
 Manage admin access precisely with granular admin roles. Instead of giving full admin privileges to the users, you can assign specific roles based on the tasks they perform.
 
@@ -198,6 +198,10 @@ Streamline and improve your inventory auditing experience with the enhanced and 
     -   The ServiceNow Agent app features selectable audit results, enabling you to view a real-time list of all scanned assets.
     -   When new assets are identified during the single scan audit, essential information is collected in real time through the ServiceNow Agent app to initiate asset creation.
     -   Scanned asset locations are automatically updated to reflect their precise aisle, space, or sub location during the audit, supporting the accuracy and quality of inventory records.
+-   **[Stockroom audit support for Field Service Management](https://www.servicenow.com/docs/access?context=stockroom-audit-access-eam&family=australia&ft:locale=en-US) **
+
+Audit personal stockroom assets as an FSM field agent using the ServiceNow Agent mobile application. Access is controlled through new granular audit roles.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -236,6 +240,11 @@ Starting from Enterprise Asset Management version 9.1.0, a new field **Shipment 
 Australia
 
 </td><td>
+
+-   **[Now Assist to ServiceNow Otto® name change](https://www.servicenow.com/docs/access?context=ai-products&family=australia&ft:locale=en-US)**
+
+
+
 
 -   **[Multiple assets and asset groups in a work order](https://www.servicenow.com/docs/access?context=create-eam-work-order-task&family=australia&ft:locale=en-US)**
 
@@ -507,7 +516,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Streamline the enterprise asset request process by using the help manage enterprise asset requests agentic workflow.
 -   Automatically generate troubleshooting, diagnostics, and repair instructions for your enterprise asset repairs by using the help repair enterprise assets agentic workflow.

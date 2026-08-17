@@ -1,6 +1,6 @@
 ---
-title: Use Now Assist to create spokes and build actions
-description: Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
+title: Use ServiceNow Otto to create spokes and build actions
+description: Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/now-assist-in-spk-gen.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
-# Use Now Assist to create spokes and build actions
+# Use ServiceNow Otto to create spokes and build actions
 
-Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
+Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 
 ## Capabilities
 
@@ -34,18 +34,18 @@ Spoke Generation skill v1.0.4 is the latest version.
 
 ## App version
 
-Now Assist for Spoke Generation v1.6.0 is the latest version.
+ServiceNow Otto for Spoke Generation v2.0.0 is the latest version.
 
 ## Activation of the spoke generation skill
 
-The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the Now Assist for Creator feature from the Now Assist Admin console.
+After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [ServiceNow Otto for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) from the AI Admin Hub console.
 
-\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in Now Assist Admin console.
+\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
 
--   For information about the Now Assist Admin console, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
--   For steps to activate the required skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   For information about the AI Admin Hub console, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+-   For steps to activate the required skill, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 

@@ -18,7 +18,7 @@ The ServiceNow® Mobile Timesheets app enables time sheet users and managers to 
 
 Time sheet users can use Mobile Time Sheets to create, view, edit, enter notes, and submit their time cards from a mobile device. Time sheet project managers or user managers can view, approve, reject, or recall a time sheet or time card from a mobile device.
 
-To access time sheets from your mobile device, you must first download the Now Mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
+To access time sheets from your mobile device, you must first download the Now Mobile application on an iOS platform from the Apple App Store. You can also download it on an Android platform from the Google Play Store.
 
 ## Features
 
@@ -53,9 +53,9 @@ View, edit, or delete your time cards from your mobile device.
 -   **[Submit a time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/submit-timecard-mobile.md)**  
 Once a time card for the week is updated with the time worked, you can submit the time card from your mobile application.
 -   **[Submit a time sheet from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/submit-timesheet-mobile.md)**  
-Once you have updated the time sheet with the time you worked, you can submit the time sheet for the week to submit all the time cards for the week together from your mobile application.
+Once you have updated the time sheet with the time you worked, you can submit it for the week. This submits all the time cards for the week together from your mobile application.
 -   **[Approve or reject a time sheet or time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/approve-reject-timesheet-mobile.md)**  
-As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week in a single step by approving or rejecting a time sheet.
+As a user manager, you can approve or reject from your mobile device all time cards for a user in a given week. Do this in a single step by approving or rejecting a time sheet.
 -   **[Recall a processed time sheet or time card from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/recall-timesheet-mobile.md)**  
 As a user manager, you can recall an incorrect time sheet or time card that is in the Approved or Processed state to return it to the submitter. The submitter can then make the necessary changes and resubmit the time sheet or time card.
 

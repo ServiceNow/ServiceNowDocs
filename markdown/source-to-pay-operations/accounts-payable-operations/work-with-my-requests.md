@@ -27,7 +27,7 @@ Role required: Supplier
 
     Lists all the invoice inquiry cases assigned to supplier. For more information on invoice inquiry cases, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
-2.  You can apply filter on **View** option which will display the open and closed requests.
+2.  Apply a filter on **View** option which displays open and closed requests.
 
 3.  Use the **Search open requests** option to search for a specific request using the inquiry number.
 

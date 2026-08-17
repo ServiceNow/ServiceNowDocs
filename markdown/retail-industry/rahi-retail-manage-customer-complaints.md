@@ -19,7 +19,7 @@ For more information on customer complaints, see
 -   [Create and assign a retail customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-creating-request-in-workspace.md)
 -   [Track a customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-track-a-customer-complaint-case.md)
 -   [Close a customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-close-customer-case-workspace.md)
--   
+-   [Customer complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-customer-complaint.md)
 
 .
 

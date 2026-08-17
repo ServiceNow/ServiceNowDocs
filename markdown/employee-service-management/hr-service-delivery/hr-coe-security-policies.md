@@ -1,6 +1,6 @@
 ---
 title: Configuring HR Service Delivery Center of Excellence \(COE\) security policies
-description: Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.
+description: Use COE Security Policy configuration to allow specific groups read or write access to HR cases under a specific COE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-coe-security-policies.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [HR service categorization, HR Centers of Excellence data model, HR 
 
 # Configuring HR Service Delivery Center of Excellence \(COE\) security policies
 
-Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.
+Use COE Security Policy configuration to allow specific groups read or write access to HR cases under a specific COE.
 
 For example, you don't want the Benefits group to view the cases created by the Compensation group. You create a COE security policy that allows the Compensation group access. Groups that aren't included on the policy cannot access the cases.
 

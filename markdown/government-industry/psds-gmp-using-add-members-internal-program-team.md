@@ -18,7 +18,7 @@ Add members of the Internal Grant Program team who will be responsible for admin
 
 The Internal Team plays a crucial role in supporting the Grant Program Manager throughout the lifecycle of the grant program. This group is responsible for assisting with the development and configuration of program parameters, managing internal processes, and ensuring that all compliance and operational requirements are met. Members collaborate to provide expertise across areas such as budgeting, timelines, proposal evaluations, and documentation, enabling a streamlined and transparent grant management process, and can be sub-classified as approver, observer, program lead, program co-lead, or other.
 
-\[Omitted image "psds\_gmp\_internalpgrteam\_view.png"\] Alt text: internal progam team playbook view
+\[Omitted image "psds\_gmp\_internalpgrteam\_view.png"\] Alt text: internal program team playbook view
 
 These are different than points of contact that potential applicants can reach out to during the proposal phase.
 

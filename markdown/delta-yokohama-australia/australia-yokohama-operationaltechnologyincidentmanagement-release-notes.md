@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-operationaltechnologyincidentmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -97,27 +97,32 @@ Australia
 
 </td><td>
 
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Summarize an OT incident](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=australia&ft:locale=en-US)**
 
-Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
+With ServiceNow Otto for OT Service Management, summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
--   **[Generate resolution notes](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&family=australia&ft:locale=en-US)**
+-   **[Generate resolution notes for an OT incident](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&family=australia&ft:locale=en-US)**
 
-Automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
+With ServiceNow Otto for OT Service Management, automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
 
--   **[Generate OT KB articles](https://www.servicenow.com/docs/access?context=agent-ot-knowledge-generator&family=australia&ft:locale=en-US)**
+-   **[Generate a KB article using an agentic workflow](https://www.servicenow.com/docs/access?context=agent-ot-knowledge-generator&family=australia&ft:locale=en-US)**
 
-Automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
+With ServiceNow Otto for OT Service Management, automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
 
     -   Site
     -   OT Device
@@ -168,6 +173,11 @@ Several new granular admin roles have been added, which enable developers to com
 Australia
 
 </td><td>
+
+-   **[Now Assist for OTSM to ServiceNow Otto for OT Service Management name change](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Now Assist for OTSM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 
 -   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US)**
 
@@ -462,7 +472,9 @@ Zurich
 
 </td><td>
 
-Report an OT incident without an OT incident role using the Employee Center for OT.
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
+-   Report an OT incident without an OT incident role using the Employee Center for OT.
 
  See [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&family=zurich&ft:locale=en-US) for more information.
 
@@ -471,6 +483,20 @@ Report an OT incident without an OT incident role using the Employee Center for 
 Australia
 
 </td><td>
+
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Now Assist for Operational Technology Service Management \(OTSM\) has been changed to ServiceNow Otto for OT Service Management.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+-   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available.
+
+ Australia Early Availability
 
 -   Quickly understand the OT incident context and respond to user inquiries by using the OT incident summarization skill.
 -   Help save time by automatically updating the resolution notes for an OT incident.

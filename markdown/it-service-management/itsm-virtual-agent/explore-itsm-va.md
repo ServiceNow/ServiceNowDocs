@@ -75,7 +75,7 @@ Enable service owners to deliver and refine AI capabilities quickly without data
 
     You can decide whether you want ITSM Virtual Agent to use only keywords, which result in quicker time-to-value in the short term. Or you can choose to use NLU, which results in a better employee experience in the long term.
 
-    ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversations are available from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversations are available from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
     The ITSM NLU Model for Virtual Agent Conversations provides pre-built NLU entities, intents, and utterances. Some of the provided intents and utterances include:
 

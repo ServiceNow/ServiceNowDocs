@@ -239,6 +239,14 @@ Date on which the order is to be completed.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -920,6 +928,7 @@ Response body.
         "href": "/api/sn_tmf_api/order/serviceOrder/bd30366ec3a83010abc8b5183c40dd92",
         "completionDate": "2021-06-07T21:52:12.000Z",
         "expectedCompletionDate": "2018-01-14T20:07:40.000Z",
+        "externalId": "ORD-2026-0087654"
         "orderDate": "2021-06-08T05:34:59.000Z",
         "requestedCompletionDate": "2018-01-14T20:07:40.000Z",
         "requestedStartDate": "2018-01-14T20:07:40.000Z",
@@ -1156,6 +1165,14 @@ expectedCompletionDate
 </td><td>
 
 Date on which the order is to be completed.Data type: String
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
 
 </td></tr><tr><td>
 
@@ -1852,6 +1869,7 @@ Response body.
    "id": "4f2af65ac3a030106e2473ce3640ddcf",
    "ponr": "false",
    "expectedCompletionDate": "2018-01-15T09:37:40.000Z",
+   "externalId": "ORD-2026-0087654"
    "requestedCompletionDate": "2018-01-15T09:37:40.000Z",
    "requestedStartDate": "2018-01-15T09:37:40.000Z",
    "note": [

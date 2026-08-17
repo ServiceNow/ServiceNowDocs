@@ -9,7 +9,7 @@ classification: service-catalog
 topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 2
-breadcrumb: [Conversational Catalog Request, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Conversational catalog item requests, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Catalog item request approaches
@@ -20,7 +20,7 @@ Four approaches are available to submit a catalog item request through Virtual A
 
 ## Catalog agent
 
-The Catalog Agent uses AI-native conversation through Now Assist to guide requesters through a natural-language conversation, collecting answers step by step instead of presenting all fields at once.
+The Catalog Agent uses AI-native conversation through ServiceNow Otto to guide requesters through a natural-language conversation, collecting answers step by step instead of presenting all fields at once.
 
 When a catalog item is supported by the Catalog Agent, the request flows through the Catalog Agent. Where the Catalog Agent does not support an item, the request goes back to the LLM topic block if the conversation is supported. If the item is not supported conversationally at all, it opens in interactive view as a form.
 

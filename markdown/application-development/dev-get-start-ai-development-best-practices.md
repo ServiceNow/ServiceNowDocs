@@ -33,7 +33,7 @@ A prompt or instruction is the primary input an AI tool uses to determine what t
     If there are specific information or resources the AI should use to generate your application or app component, describe those sources in your instructions. For example, direct the AI to specific tables or existing knowledge articles.
 
 
-When working with Build Agent or Now Assist for Creator skills such as app generation, these guidelines apply across the entire conversation, rather than just a single prompt. For detailed guidance and examples, see [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-guidelines.md).
+When working with Build Agent or ServiceNow Otto for Creator skills such as app generation, these guidelines apply across the entire conversation, rather than just a single prompt. For detailed guidance and examples, see [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md).
 
 **Important:**
 
@@ -44,7 +44,7 @@ Regardless of which AI tool you use, be sure to review AI-generated output befor
 See the following additional resources for more information about prompting AI.
 
 -   [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md)
--   [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-guidelines.md)
+-   [General guidelines for using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)
 -   [Now Assist for Creator skill and prompting guides](https://www.servicenow.com/community/now-assist-for-creator-articles/now-assist-for-creator-skill-and-prompting-guides/ta-p/3125858)
 
 **Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)

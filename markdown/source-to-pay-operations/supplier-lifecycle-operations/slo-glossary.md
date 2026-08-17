@@ -8,8 +8,8 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
-keywords: [glossary terms, action plan, KPI, supplier lifecycle operations, activity stream, supplier case, supplier lifecycle operations, glossary terms, case playbook, supplier case, supplier lifecycle operations, collection task, KPI, supplier lifecycle operations, comments, supplier case, supplier lifecycle operations, contextual side panel, Source-to-Pay Workspace, supplier lifecycle operations, Craft.co Integration, supplier intelligence, supplier lifecycle operations, glossary terms, decision builder, playbook, supplier lifecycle operations, document configuration, supplier documents, supplier lifecycle operations, DUNS number, supplier, supplier lifecycle operations, glossary terms, Emails view, supplier case, supplier lifecycle operations, glossary terms, Interaction Management, supplier lifecycle operations, internal stakeholder, supplier, supplier lifecycle operations, glossary terms, KPI performance domain, KPI, supplier lifecycle operations, KPI template, KPI, supplier lifecycle operations, KPI threshold, KPI, supplier lifecycle operations, KPI unit, KPI, supplier lifecycle operations, milestone, action plan, supplier lifecycle operations, glossary terms, glossary terms, glossary terms, performance indicator, KPI, supplier lifecycle operations, playbook, supplier lifecycle operations, primary contact, supplier contact, supplier lifecycle operations, glossary terms, Relish, supplier intelligence, supplier lifecycle operations, glossary terms, saving estimator, supplier payment, supplier lifecycle operations, Supplier Case Management, supplier lifecycle operations, supplier case type, supplier case, supplier lifecycle operations, supplier contact self-registration, supplier contact, supplier lifecycle operations, supplier document strategy generator, AI agent, supplier lifecycle operations, supplier onboarding playbook, supplier onboarding, supplier lifecycle operations, glossary terms, Universal Request, supplier case, supplier lifecycle operations, glossary terms, work notes, supplier case, supplier lifecycle operations]
+reading_time_minutes: 9
+keywords: [glossary terms, action plan, KPI, supplier lifecycle operations, activity stream, supplier case, supplier lifecycle operations, glossary terms, case playbook, supplier case, supplier lifecycle operations, collection task, KPI, supplier lifecycle operations, comments, supplier case, supplier lifecycle operations, contextual side panel, Source-to-Pay Workspace, supplier lifecycle operations, Craft.co Integration, supplier intelligence, supplier lifecycle operations, glossary terms, decision builder, playbook, supplier lifecycle operations, document configuration, supplier documents, supplier lifecycle operations, DUNS number, supplier, supplier lifecycle operations, glossary terms, Emails view, supplier case, supplier lifecycle operations, glossary terms, Interaction Management, supplier lifecycle operations, internal stakeholder, supplier, supplier lifecycle operations, glossary terms, KPI performance domain, KPI, supplier lifecycle operations, KPI template, KPI, supplier lifecycle operations, KPI threshold, KPI, supplier lifecycle operations, KPI unit, KPI, supplier lifecycle operations, milestone, action plan, supplier lifecycle operations, glossary terms, glossary terms, glossary terms, performance indicator, KPI, supplier lifecycle operations, playbook, supplier lifecycle operations, primary contact, supplier contact, supplier lifecycle operations, glossary terms, Relish, supplier intelligence, supplier lifecycle operations, glossary terms, saving estimator, supplier payment, supplier lifecycle operations, Supplier Case Management, supplier lifecycle operations, supplier case type, supplier case, supplier lifecycle operations, supplier contact self-registration, supplier contact, supplier lifecycle operations, supplier document strategy generator, AI agent, supplier lifecycle operations, supplier onboarding playbook, supplier onboarding, supplier lifecycle operations, tiering assessment, risk tiering, supplier onboarding, supplier lifecycle operations, VRM, glossary terms, Universal Request, supplier case, supplier lifecycle operations, glossary terms, Vendor Risk Management, VRM, risk assessment, supplier lifecycle operations, GRC, glossary terms, work notes, supplier case, supplier lifecycle operations]
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -19,7 +19,7 @@ Learn about the terms and concepts used in Supplier Lifecycle Operations \(SLO\)
 
 Glossary terms are grouped alphabetically.
 
-[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [O](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \|
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [O](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [U](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \| [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-glossary.md) \|
 
 **Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
@@ -290,11 +290,31 @@ The Supplier Relationship and Performance Management \(com.snc.sn\_slm\_perf\) a
 
 A task that is created in the Source-to-Pay Workspace and assigned to the contacts of the internal users or suppliers so that they can take action and complete that task.
 
+## T
+
+Glossary terms beginning with T.
+
+### tiering assessment
+
+An assessment used to classify suppliers into categories of potential risk at the time of onboarding. The standard predefined risk tiers are None, Low, Minor, Moderate, High, and Critical. Each risk tier has associated assessment questions and document requests.
+
+**Note:** Tiering assessments are automatically created during the supplier onboarding playbook when Third-party Risk Management is installed. The supplier manager assigns these assessments to the TPR assessor, who then assigns them to the supplier contact for completion.
+
 ## U
 
 ### Universal Request
 
 A case type for supplier issues that do not fit predefined categories.
+
+## V
+
+### Vendor Risk Management
+
+A ServiceNow® Governance, Risk, and Compliance \(GRC\) application that enables organizations to assess vendors to understand the risk they pose and reduce the manual burden and cost of assessment through automation.
+
+**Note:** VRM is automatically installed as a dependency when you install the Risk Assessments Integration for Supplier Lifecycle Operations plugin. It creates risk and tiering assessments to verify supplier eligibility during the onboarding process.
+
+#### VRM
 
 ## W
 

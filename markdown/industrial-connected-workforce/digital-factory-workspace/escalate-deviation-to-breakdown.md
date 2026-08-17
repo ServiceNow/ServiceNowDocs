@@ -22,7 +22,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(\[Omitted image "icon-list-menu-icw.png"\] Alt text:\).
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(\[Omitted image "icon-list-menu-icw.png"\] Alt text: List menu icon.\).
 
 2.  From the list of deviations, select the deviation task that you want to escalate to a breakdown.
 

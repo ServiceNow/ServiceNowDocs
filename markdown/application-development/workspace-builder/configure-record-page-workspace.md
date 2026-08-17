@@ -298,7 +298,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 </td><td>
 
-[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+
 
 </td></tr></tbody>
 </table>        The selected tools appear in the record page preview canvas.
@@ -313,7 +313,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d243360e925">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d248369e924">
 
 **Update the name of the record page**
 
@@ -330,7 +330,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d243360e960">
+</td></tr><tr><td id="d248369e959">
 
 **Preview the record page in a new browser tab**
 
@@ -338,7 +338,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d243360e981">
+</td></tr><tr><td id="d248369e980">
 
 **Delete a record page**
 

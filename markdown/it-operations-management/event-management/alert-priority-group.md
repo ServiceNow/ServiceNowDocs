@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-06-18"
 reading_time_minutes: 2
-breadcrumb: [View alert information, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Priority group

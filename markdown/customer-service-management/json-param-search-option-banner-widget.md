@@ -23,5 +23,7 @@ Description of the JSON parameters for the search option in the Portal Banner wi
 **Related topics**  
 
 
+[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
+
 [Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
 

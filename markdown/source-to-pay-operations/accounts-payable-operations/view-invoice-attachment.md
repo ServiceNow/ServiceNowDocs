@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice management, Accounts Payable Workspace, admin, AP specialist]
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -51,13 +51,13 @@ The invoice document is displayed for invoice, invoice lines, invoice processing
 
 [Rules based engine]()
 
-[Invoice processing overview]()
+[Invoice processing]()
 
 [Invoice processing cases]()
 
 [Invoice exceptions]()
 
-[Tolerance Rules and Variances for invoices]()
+[Tolerance rules and variances for invoices]()
 
 [Invoice approvals]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/register-a-deal-partner-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
@@ -62,7 +62,7 @@ A deal registration is created with an associated account, a channel partner, an
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
 

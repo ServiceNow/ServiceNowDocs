@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistincontractmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
+last_updated: "2026-08-17"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,11 +38,11 @@ Zurich
 
 </td><td>
 
-If you're upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you're upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 2.  In the **Name** field, search for `Upsert DI skill config`.
-3.  In the script, add the use case IDs that you want to migrate to the Now Assist Admin console.
+3.  In the script, add the use case IDs that you want to migrate to the AI Admin Hub console.
 4.  Select **Run Fix Script**.
 
 For more information, see [Post upgrade steps](https://www.servicenow.com/docs/access?context=cmpro-na-upgrade-steps&family=zurich&ft:locale=en-US).
@@ -74,6 +74,11 @@ Zurich
 
 </td><td>
 
+-   **[Export conversational search results](https://www.servicenow.com/docs/access?context=cmpro-agentic-use-conv-search&family=zurich&ft:locale=en-US)**
+
+Export search results from conversational search in multiple file formats. The export includes all search results and uses the columns configured in your list view. Customize the exported columns using the Personalize fields option.
+
+
 -   **[Feedback for Now Assist contract analysis](https://www.servicenow.com/docs/access?context=cmpro-review-contract-document&family=zurich&ft:locale=en-US)**
 
 Provide feedback on AI-identified non-standard and missing clauses to help improve AI accuracy over time. When reviewing contracts using Now Assist contract analysis, you can indicate whether the AI suggestions were helpful or not helpful by using the thumbs up or thumbs down feedback options. You can also provide optional qualitative feedback with comments. The feedback option is available in both the workspace and Microsoft Word add-in.
@@ -95,7 +100,7 @@ Review extracted obligations in the contract playbook, with options to edit, app
 
 -   **[Contract obligation extraction skill in Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-conf-obligation-extraction&family=zurich&ft:locale=en-US)**
 
-Configure and map use cases for obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
+Configure and map use cases for obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
 -   **[Conversational contract search and insights Workflow](https://www.servicenow.com/docs/access?context=cmpro-agentic-use-conv-search&family=zurich&ft:locale=en-US)**
 
@@ -103,12 +108,12 @@ Contract documents are often complex and stored across multiple formats and repo
 
 The conversational search feature does not support searching within contract documents that are scanned PDFs.
 
--   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+    -   New customers: When you install an AI product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Now LLM LTS support for Contract Management Pro](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=zurich&ft:locale=en-US)**
 
 -   **[Using contract playbook to review AI-extracted metadata and contract reminder date](https://www.servicenow.com/docs/access?context=cmpro-na-review-ai&family=zurich&ft:locale=en-US)**
@@ -128,16 +133,7 @@ Australia
 
 </td><td>
 
--   **[Feedback for Now Assist contract analysis](https://www.servicenow.com/docs/access?context=cmpro-review-contract-document&family=australia&ft:locale=en-US)**
-
-Provide feedback on AI-identified non-standard and missing clauses to help improve AI accuracy over time. When reviewing contracts using Now Assist contract analysis, you can indicate whether the AI suggestions were helpful or not helpful by using the thumbs up or thumbs down feedback options. You can also provide optional qualitative feedback with comments. The feedback option is available in both the workspace and Microsoft Word add-in.
-
-The feedback provided on each clause is captured in the **Contracts Gen AI Feedback** table.
-
--   **[Automatically navigate to non-standard clauses in Microsoft Word add-in](https://www.servicenow.com/docs/access?context=cmpro-review-contract-document&family=australia&ft:locale=en-US)**
-
-Locate non-standard clauses easily in Microsoft Word. The document scrolls to the relevant section using AI citations when you select a Now Assist suggestion in the Microsoft Word add-in.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -157,6 +153,13 @@ Release notes
 Zurich
 
 </td><td>
+
+-   **[Default large language model provider](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+
+
+The default model provider for contract metadata extraction, contract analysis, and contract obligation extraction is Azure OpenAI.
+
 
 -   **[Improved missing clause detection](https://www.servicenow.com/docs/access?context=cncore-NA-review-land&family=zurich&ft:locale=en-US)**
 
@@ -203,23 +206,7 @@ Australia
 
 </td><td>
 
--   **[Improved missing clause detection](https://www.servicenow.com/docs/access?context=cncore-NA-review-land&family=australia&ft:locale=en-US)**
-
-Missing clause detection in contract revision using the contract analysis skill has been enhanced for accuracy. The setup, configuration, and review experience remains unchanged across all supported workspaces.
-
-
--   **[Configure use case mappings for metadata and obligation extraction](https://www.servicenow.com/docs/access?context=cmpro-na-usecase-mappings-me&family=australia&ft:locale=en-US)**
-
-Clear the **Contracts created from contract request** check box on the use case mapping forms for the contract metadata extraction and contract obligation extraction skills to extract metadata and obligations form signed contracts that are uploaded directly on a contract record.
-
--   **[Conversational contract search and insights Workflow](https://www.servicenow.com/docs/access?context=cmpro-agentic-use-conv-search&family=australia&ft:locale=en-US)**
-
-The Now Assist powered conversational search feature's improved experience enables you to:
-
-    -   View results in a listing view, making it easier to scan, compare, and navigate contract information.
-    -   Open contract documents directly from the search results and perform an in‐document search.
-The conversational search feature does not support searching within contract documents that are scanned PDFs.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -306,7 +293,7 @@ Australia
 
 </td><td>
 
-Install Contract Management Pro - Prime by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -443,7 +430,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
+Zurich Patch 12
+
+-   Export conversational search results in multiple file formats.
+
+ [Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
 
 -   Identify missing clauses in contract revisions with improved accuracy.
 
@@ -462,16 +453,16 @@ Zurich
 
 -   Some Now Assist skills are now turned on by default.
 -   Use AI-powered obligation extraction to automatically identify and capture key obligations from signed contracts, and then review, edit, approve, or reject them within the contract playbook to create obligation records automatically.
--   Activate the Contract obligation extraction skill in the Now Assist Admin console to enable automatic obligation extraction.
+-   Activate the Contract obligation extraction skill in the AI Admin Hub console to enable automatic obligation extraction.
 -   Use Now Assist powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 
  [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
 -   Use the contract playbook to review and update the AI extracted metadata and reminder date for contract renewal or termination.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
- See [Now Assist in CM Pro](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -479,18 +470,7 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
--   Identify missing clauses in contract revisions with improved accuracy.
-
- [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   Provide feedback on Now Assist contract analysis results to help improve the AI accuracy.
--   Navigate directly to non-standard clause locations in a document when reviewing Now Assist suggestions in the Microsoft Word add-in.
--   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
--   Use Now Assist powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
-
- See [Now Assist in CM Pro](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=australia&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

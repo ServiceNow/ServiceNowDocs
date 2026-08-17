@@ -14,7 +14,7 @@ breadcrumb: [Configure the Node configurations, Configure the Main node configur
 
 Use the Node configuration form to configure the settings such as the primary label, icon, secondary label, tooltip for the selected node.
 
-## Node configuration new record form
+## Node configuration record form
 
 |Field|Description|
 |-----|-----------|

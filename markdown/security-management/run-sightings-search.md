@@ -42,7 +42,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 6.  Choose the number of days or a date range to search for data.
 
-<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d450422e130">
+<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d453676e130">
 
 **Last**
 
@@ -50,7 +50,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 The number of hours or days prior to the creation of the incident to search. The default is 7 days. The limit is 99 hours or days.
 
-</td></tr><tr><td id="d450422e142">
+</td></tr><tr><td id="d453676e142">
 
 **between**
 
@@ -80,7 +80,7 @@ Range of dates to search. Default dates are:-   The date and time the incident w
     |End date range|Time to stop looking for sightings.|
     |Updated|Date and time of the last modification.|
 
-    **Note:** If the implementation used for the sightings search is configured to include raw data, and at least one sighting is found, an attachment containing raw data samples appears at the top of the security incident.
+    **Note:** If the implementation used for the sightings search is configured to include raw data, and at least one sighting is found, an attachment containing raw data samples appears on the sighting search record.
 
     |Detail|Description|
     |------|-----------|

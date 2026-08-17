@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceportal-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -362,6 +362,8 @@ Zurich
 
 </td><td>
 
+-   Starting with Zurich Patch 12, Now Assist is now ServiceNow Otto®. ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   Use the support for Service Portal in the iOS Google App.
 -   As an admin, configure the widget load order on Service Portal pages.
 -   As an admin, defer the loading of AI Search assets to enhance page performance.
@@ -374,6 +376,8 @@ Australia
 
 </td><td>
 
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto® onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   View the updated user interface for the Service Portal New Organization Chart widget. It includes additional display configurations, such as default and secondary field names.
 -   Use portal-specific authentication methods to allow users access to different portals without having to customize Service Portal authentication.
 -   Enhance Service Portal accessibility navigation for screen readers by using semantic tags.

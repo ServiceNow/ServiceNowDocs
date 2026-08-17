@@ -26,7 +26,7 @@ Role required: operator \[snc\_sow\_svcobs.manager\]
 
 When you have been notified that a service is experiencing performance issues, you can begin your investigation with the **Overview** tab on the Service Details page.
 
-**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md) Now Assist AI skills to generate an analysis for them.
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
 
 ## Procedure
 

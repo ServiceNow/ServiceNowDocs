@@ -1,20 +1,20 @@
 ---
 title: Generate code with autocomplete
-description: The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+description: The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/generate-code-with-autocomplete.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Generate code with autocomplete
 
-The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: now.assist.creator
 
 ## Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
     For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
 
@@ -46,12 +46,16 @@ Role required: now.assist.creator
 
         If you reject the code suggestion, it isn't added to the script.
 
-4.  After accepting the code suggestions, select **Update** to save the script.
+4.  After accepting the code suggestions, select **Save**.
+
+5.  Select **Update** to save the script.
 
     The code suggestion is saved within the script.
 
-    **Note:** To disable autocomplete for your session, in the script editor select **Code with Now Assist** from the status bar at the bottom of the editor, and then clear **Autocomplete**.
+    **Note:**
 
-    \[Omitted image "now-assist-code-disable-autocomplete.png"\] Alt text: Click to disable autocomplete
+    To disable autocomplete for your session, select **Settings** in the script editor and turn off the **Autocomplete** toggle.
+
+    \[Omitted image "soc-settings.png"\] Alt text: To disable autocomplete for your session, select Settings in the script editor and turn off the Autocomplete toggle.
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-cases-for-channel-partners.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
+breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Create cases for channel partners
@@ -35,7 +35,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
 
 **Related topics**  
 

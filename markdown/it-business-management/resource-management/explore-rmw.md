@@ -46,9 +46,13 @@ The workspace is organized into the following areas:
 
 ## Resource finder
 
-Resource managers often spend significant time manually searching for the right person to staff an unassigned assignment. The AI Resource Finder removes this guesswork by using Now Assist skills to analyze your resource pool and recommend the best-fit candidates, ranked by a fit score and accompanied by a plain-language rationale explaining each recommendation.
+Resource managers often spend significant time manually searching for the right person to staff an unassigned assignment. The AI Resource Finder removes this guesswork by using Now Assist skills to analyze your resource pool and recommend the best-fit candidates. Each candidate is ranked by a fit score and accompanied by a plain-language rationale explaining the recommendation.
 
-Resource finder uses the Resource fit analysis skill, which considers multiple dimensions simultaneously: whether the resource's planning attributes \(such as role and skills group\) align with what the assignment demands, how much capacity the resource has during the assignment period, and how the resource's historical allocation patterns compare to the requested effort.
+Resource finder uses the Resource fit analysis skill, which considers multiple dimensions simultaneously. These dimensions include whether the resource's planning attributes, such as role and skills group, align with what the assignment demands. They also include how much capacity the resource has during the assignment period, and how the resource's historical allocation patterns compare to the requested effort.
+
+**Note:**
+
+Access to the Resource fit analysis skill is subject to the access requirements configured for the skill in ServiceNow Otto. If the current user doesn't meet those requirements, Resource finder shows candidates without a fit score or rationale.
 
 The output of this matching process is two-fold:
 
@@ -59,13 +63,13 @@ a expressed as a percentage, and a rationale that explains the reasoning in plai
 
 The Resource finder lets you compare each resource's available capacity against the requested effort for the assignment. Effort values respect the unit and cadence based on user preference such as hours, FTE, or person days on a weekly or monthly basis.
 
-The availability heatmap uses color coding to make this comparison instant. A green cell means the resource has enough capacity to meet the requested effort for that period. A red cell means they fall short. For example, if the requested effort is 1 FTE per month and a candidate shows 1 for April and 0 for May, April appears green and May appears red helping you to immediately see the gap without doing any mental math.
+The availability heatmap uses color coding to make this comparison instant. A green cell means the resource has enough capacity to meet the requested effort for that period. A red cell means they fall short. For example, if the requested effort is 1 FTE per month and a candidate shows 1 for April and 0 for May. April appears green and May appears red. This helps you immediately see the gap without doing any mental math.
 
 Advantages of using Resource finder
 
 -   Quickly staff an unassigned assignment: Resource managers use the Resource finder option from the unassigned assignment's three-dot menu. The AI insights presents a ranked shortlist which the resource manager can reviews the rationale, confirm availability, and assigns the best fit within a single modal flow.
 -   Handle partial availability with resource pairing: Resource Finder surfaces the real-time availability through its rationale, which suggests pairing two resources to cover the complete period. For example, one resource covers April and July while another covers May and June.
--   Balancing workloads: resource board indicator in the Resource finder highlights which candidates already belong to the manager's boards, making it easier to redistribute work within the existing team before pulling in resources from other groups.
+-   Balancing workloads: resource board indicator in the Resource finder highlights which candidates already belong to the manager's boards. This makes it easier to redistribute work within the existing team before pulling in resources from other groups.
 
 ## Getting started
 

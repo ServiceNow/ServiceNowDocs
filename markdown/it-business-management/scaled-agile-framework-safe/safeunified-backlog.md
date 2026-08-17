@@ -30,11 +30,11 @@ The flow described below represents the common practice of creating and managing
 
 -   **Triaging and assigning records**
 
-    You can move records from a triage board to the **Backlog** tab. In the **Backlog** tab, you can estimate points and assign the record to a user using the Points, and Assignment fields in the Story Information tab of the record. You can open the triage board of any specific task type, view the total numbers of records in the triage boards of all task types, or edit the filter definition of a specific triage board.
+    You can move records from a triage board to the **Backlog** tab. In the **Backlog** tab, you can estimate points and assign the record to a user using the Points, and Assignment fields in the Story Information tab of the record. You can open the triage board of any specific task type. You can also view the total numbers of records in the triage boards of all task types, or edit the filter definition of a specific triage board.
 
 -   **Working with the triaged records in the Board view**
 
-    As you work with stories, work with the triaged records \(represented by stories\) in the **Sprint Tracking** tab, Board view. When you move a triaged record from one lane to another, the state of its wrapper story changes, but the state of the original triaged record remains the same. To change the state of the original triaged record, you would need to open the record in a form and update the state.
+    As you work with stories, work with the triaged records \(represented by stories\) in the **Sprint Tracking** tab, Board view. When you move a triaged record from one lane to another, the state of its wrapper story changes. However, the state of the original triaged record remains the same. To change the state of the original triaged record, you would need to open the record in a form and update the state.
 
 
 -   **[Set up a triage board in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-setup-triage-board.md)**  

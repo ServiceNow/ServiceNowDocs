@@ -80,8 +80,8 @@ Review these guidelines for using Virtual Agent with Microsoft Teams.
 
 -   **[Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/uninstall_va_msteams.md)**  
 Remove the integrations between your ServiceNow Virtual Agent bot or the Self-configured bots and Microsoft Teams to disassociate the app with your ServiceNow instance.
--   **[Activate Now Assist in Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
-Add Now Assist in Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
+-   **[Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
+Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 
 **Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

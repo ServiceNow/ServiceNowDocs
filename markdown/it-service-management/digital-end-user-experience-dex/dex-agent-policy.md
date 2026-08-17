@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [dex agent policy, manage agent policy, create agent policy, agent policy management, configuration item \(ci\), device criteria, agent client collector \(acc\), device monitoring policy]
 breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---
 

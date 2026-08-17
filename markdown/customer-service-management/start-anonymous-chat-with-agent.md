@@ -20,13 +20,13 @@ Role required: none
 
 ## Procedure
 
-1.  Click the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Service Portal to start a conversation.
+1.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Service Portal to start a conversation.
 
-2.  Fill in the information and click **Submit**.
+2.  Fill in the information and select **Submit**.
 
     A virtual agent or a customer service agent responds.
 
-3.  To talk to a person instead of a virtual agent, click \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
+3.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
 
 4.  When you're finished with the chat, select **End Conversation**.
 

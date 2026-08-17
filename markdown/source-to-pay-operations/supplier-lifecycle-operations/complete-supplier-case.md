@@ -1,6 +1,6 @@
 ---
 title: Complete a supplier case from the Source-to-Pay Workspace
-description: You can mark a supplier case as complete when you finish all the tasks related to that case.
+description: Mark a supplier case complete after finishing all associated tasks to close the case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-case.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [supplier case, Procurement Workspace, closing notes, Awaiting acceptance, Supplier Lifecycle Operations, Source-to-Pay Workspace]
 breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Complete a supplier case from the Source-to-Pay Workspace
 
-You can mark a supplier case as complete when you finish all the tasks related to that case.
+Mark a supplier case complete after finishing all associated tasks to close the case record.
 
 ## Before you begin
 

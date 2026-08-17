@@ -1,6 +1,6 @@
 ---
 title: Accounts Payable Operations
-description: The ServiceNow Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place, improving visibility and control across accounts payable processes.
+description: The ServiceNow Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice exception, invoice approval, supplier, isupplier]
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice approval, supplier, supplier]
 breadcrumb: [Finance and Supply Chain]
 ---
 
 # Accounts Payable Operations
 
-The ServiceNow® Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place, improving visibility and control across accounts payable processes.
+The ServiceNow® Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place.
 
 This video provides a visual overview of Accounts Payable Operations and its key capabilities.
 
@@ -59,14 +59,6 @@ Here are some additional ServiceNow resources that can help you:
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     Access real-time courses, self-paced training, and career resources, such as [Accounts Payable Operations \(APO\) Implementation Essentials](https://learning.servicenow.com/lxp/en/source-to-pay-operations/source-to-pay-operations-accounts-payable?id=learning_course_prev&course_id=80615190477cfd10c00af235126d4306) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
-
--   **\[Omitted image "dcx-icon.svg"\] Now Create**
-
-    Log in to your ServiceNow account and find additional information about implementing and deploying Accounts Payable Operations features at [Now Create](https://learning.servicenow.com/nowcreate).
-
--   **\[Omitted image "icon-youtube.svg"\] YouTube**
-
-    Learn more about the value that you can add to your business with the Source-to-Pay suite. Watch [Multiply the value of your ServiceNow platform with Source-to-Pay workflows](https://www.youtube.com/watch?v=crQtfrCR6DY) on YouTube.
 
 -   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
 

@@ -38,6 +38,37 @@ Role required: routing agent
 
 3.  Select **Create Request**.
 
+4.  In the **Create Request** dialog, fill in the required details.
+
+<table id="table_ckl_nsg_1kc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Assignment group**
+
+</td><td>
+
+Group assigned to fulfill the request. Auto-populated based on catalog item routing
+
+</td></tr><tr><td>
+
+**Short description**
+
+</td><td>
+
+Brief description of the request
+
+</td></tr></tbody>
+</table>    The catalog items available in the dialog depend on the service desk group assigned.
+
+    **Note:** The request is automatically linked to the parent Universal Request record when the **glide.sc.use\_cart\_layouts** property is set to `true` and the catalog item has the **Use Cart Layout** check box selected.
+
 
 ## Result
 

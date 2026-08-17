@@ -17,11 +17,11 @@ Scenario analysis using simulation is a guided, playbook-driven workflow in the 
 
 ## Advanced scenario analysis using simulation
 
-Advanced scenario analysis assesses how a critical service performs under adverse conditions using statistical simulation, replacing the legacy free-form and SME-driven flow with an Annual Loss Model that produces quantified financial-risk estimates. Each analysis is scoped to a single service, its dependencies, and one or more scenarios. For the objectives and benefits of running an advanced scenario analysis, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-ov.md).
+Advanced scenario analysis assesses how a critical service performs under adverse conditions using statistical simulation. It replaces the legacy free-form and SME-driven flow with an Annual Loss Model that produces quantified financial-risk estimates. Each analysis is scoped to a single service, its dependencies, and one or more scenarios. For the objectives and benefits of running an advanced scenario analysis, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-ov.md).
 
 ## How the analysis progresses
 
-You run an advanced scenario analysis through the **Playbook** tab on a scenario analysis record. The playbook provides a stage panel and an activity stream in the user interface \(UI\); as you complete each step, the playbook locks the selection and advances to the next stage.
+You run an advanced scenario analysis through the **Playbook** tab on a scenario analysis record. The playbook provides a stage panel and an activity stream in the user interface \(UI\). As you complete each step, the playbook locks the selection and advances to the next stage.
 
 The stages progress in a sequence — Scope \(service and dependencies\), Scenarios, Reference Data, Scenario Testing, Results, Treatment Decision, and the optional Operational Vulnerabilities and Issues.
 

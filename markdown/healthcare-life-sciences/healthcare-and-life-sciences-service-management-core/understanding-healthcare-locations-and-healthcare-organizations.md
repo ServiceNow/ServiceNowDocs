@@ -7,8 +7,8 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-07-24"
+reading_time_minutes: 5
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
@@ -18,7 +18,7 @@ Understand how healthcare locations and healthcare organizations function and sh
 
 ## Healthcare organizations
 
-The **healthcare organization** \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance. The Parent Service Organization field on the linked internal business location or external business location is the authoritative reference for defining the organization hierarchy within a healthcare delivery network, capturing the structure that supports operations like access control, visibility, and routing.
+The **healthcare organization** \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance. The Parent Organization field on the linked Internal Organization or External Organization record is the authoritative reference for defining the organization hierarchy within a healthcare delivery network, capturing the structure that supports operations like access control, visibility, and routing.
 
 An example healthcare organization hierarchy might look like:
 
@@ -26,21 +26,43 @@ An example healthcare organization hierarchy might look like:
 
 Structuring healthcare organizations correctly is vital to healthcare operations as it defines the organizational structure, influencing visibility, responsibility, and routing.
 
+These roles are healthcare-specific labels for the underlying Service Model Foundation \(SMF\) personas. For the platform-wide persona reference, including a healthcare example, see [Service Model Foundation personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/smf-persona.md).
+
 ## Healthcare organization \[sn\_hcls\_organization\] table technical details
 
-\[Omitted image "hcls-healthcare-organizations.png"\] Alt text: ERD diagram showing how business locations and healthcare organizations interact.
+\[Omitted image "hcls-healthcare-organizations.png"\] Alt text: ERD diagram showing how business organizations and healthcare organizations interact.
 
-When a healthcare organization is created manually, an associated business location is also created with the same name that references the healthcare organization. A bidirectional reference exists between the two tables. A business location is an extension of a service organization.
+When a healthcare organization is created, an associated Business Organization record is also created with the same name that references the healthcare organization. A bidirectional reference exists between the two tables. Business Organization is an extension of Organization Core.
 
-A healthcare organization is associated with a business location, either internal or external.
+A healthcare organization is associated with a Business Organization record, either internal or external.
 
-It contains specific attributes not found in the service organization table. For example, organization type.
+It contains specific attributes not found in the Organization Core table. For example, organization type.
 
-Use the **parent organization** field to create multi-level hierarchies by labeling healthcare organizations as parent to other healthcare organizations.
+Use the **Parent Organization** field to create multi-level hierarchies by labeling healthcare organizations as parent to other healthcare organizations.
 
 The **healthcare organization location association** table is a M2M table used to store the explicit link between healthcare locations and their owning healthcare organization.
 
 For information on the fields present in the Healthcare organization table, see [Healthcare organization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.md).
+
+## Healthcare organization related lists
+
+The Healthcare Operations app menu shows an example of what a healthcare organization's hierarchy and related data look like.
+
+\[Omitted image "hcso-healthcare-org-menu.png"\] Alt text: Healthcare Organizations app menu in Healthcare Operations Core.
+
+Healthcare organizations use the child organization related list to display their direct child organizations. When a healthcare organization is created, the value it lists for **Parent Organization** indicates who the parent organization will be.
+
+The **Business Organizations served** value determines how you track the relationship between requesting and fulfilling healthcare organizations. You can set hierarchy or relationship-based support criteria for your healthcare locations.
+
+The following are all healthcare organization related lists and their features:
+
+-   **Child organization**—select **New** in the child organizations related list to add a new child organization to the current healthcare organization record.
+-   **Members**—displays all members of this organization. Select **Edit** to add, remove, or alter the responsibilities of members.
+-   **Case opened by members**—displays all cases currently opened by members of this organization.
+-   **Healthcare locations**—displays all associated healthcare locations with this healthcare organization. Select **Edit** to manage these associations.
+-   **Assignment groups**—displays all associated assignment groups.
+-   **Available services**—displays all available services within this organization.
+-   **Organization customer criteria**—displays which customers are serviced by this healthcare organization.
 
 ## Healthcare locations
 
@@ -68,6 +90,16 @@ The **healthcare organization location association** table limits the common loc
 
 Use the **Parent location** field to create multi-level hierarchies by labeling healthcare locations as parent to other healthcare locations.
 
+When you're creating a location, you can navigate the existing location hierarchy to select where the new location should reside.
+
+\[Omitted image "hco-locations-hierarchy-choose.png"\] Alt text: The location selection panel within Healthcare Operations Core.
+
+When a location is created, the **Location hierarchy** panel displays up to three parent levels higher within the location's hierarchy.
+
+**Note:**
+
+The location hierarchy is only shown when the healthcare location is opened from the Healthcare Operations Core app module.
+
 For information on the fields present in the Healthcare location table, see [Healthcare location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md).
 
 ## Associating healthcare locations and healthcare organizations
@@ -80,13 +112,15 @@ Healthcare locations define which common locations a healthcare organization is 
 
 When creating a healthcare organization or a healthcare location, you can use this table to associate a healthcare location with a healthcare organization \(or vice versa\).
 
-For more information on this process, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
+For more information on this process, see [Associate healthcare locations with a healthcare organizations]()
+
+This association is healthcare's implementation of the generic Service Model Foundation relationship model. For the platform-wide pattern, see [Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md).
 
 ## How to set up healthcare organizations and healthcare locations
 
 To create healthcare locations and healthcare organizations, see the following topics.
 
-1.  [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-location.md)
-2.  [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-organizations.md)
-3.  [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
+1.  [Create a healthcare location]()
+2.  [Create a healthcare organization]()
+3.  [Associate healthcare locations with a healthcare organizations]()
 

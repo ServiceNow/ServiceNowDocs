@@ -94,6 +94,8 @@ Test plan
 
 Plan describing how a product or a feature is to be tested and the time frame in which it must be executed. A test plan can be further broken into test cycles, and test cycles into test execution suites.You can use the [Test Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/create-test-plan.md) module to create test plans.
 
+ To test individual stories sprint by sprint instead, create Tests directly from the Sprint Tracking view. For more information, see [Sprint testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/sprint-testing.md).
+
 </td></tr><tr><td>
 
 Test cycle
@@ -126,6 +128,10 @@ Detailed report of tests results, such as start time and end time of test execut
 3.  Create a test set to organize related tests. For more information, see [Create a test set in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/create-test-set.md).
 4.  Create a test plan and assign tests to testers. For more information, see [Create a test plan using Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/create-test-plan.md).
 5.  Run your assigned tests. For more information, see [Run your test assignments in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/run-your-test-assignments.md).
+
+## Test plans vs. sprint testing
+
+Use a test plan to organize release-readiness testing across test cycles and test execution suites. Use sprint testing to link tests directly to Agile stories and track them sprint by sprint. For more information, see [Sprint testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/sprint-testing.md).
 
 **Parent Topic:**[Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-management2-landing-page.md)
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor service health, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View monitored services

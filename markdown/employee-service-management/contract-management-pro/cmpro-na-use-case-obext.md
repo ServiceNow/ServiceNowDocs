@@ -1,6 +1,6 @@
 ---
 title: Create use cases for contract obligation extraction
-description: Create obligation extraction use cases to specify the types of key contractual obligation that you want Now Assist to detect and extract from contract documents.
+description: Create obligation extraction use cases to specify the types of key contractual obligation that you want AI to detect and extract from contract documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.html
 release: australia
@@ -10,16 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Obligation extraction use case]
-breadcrumb: [Configure obligation extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure obligation extraction, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract obligation extraction
 
-Create obligation extraction use cases to specify the types of key contractual obligation that you want Now Assist to detect and extract from contract documents.
-
-## About this task
-
-The following video walks you through the process of creating use cases for the contract obligation extraction skill.\[Omitted video\] Description: Video explaining how to create use cases for contract obligation extraction.
+Create obligation extraction use cases to specify the types of key contractual obligation that you want AI to detect and extract from contract documents.
 
 ## Before you begin
 
@@ -39,13 +35,13 @@ The CM Pro - Contract Obligation Extraction use case is available with the in ba
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  On the General details page, view the skill details and select **Save and continue**.
 
@@ -93,7 +89,7 @@ LLM provider
 
 </td><td>
 
-Large language model \(LLM\) provider for the use case that is used to extract obligations.**Note:** For contract obligation extraction use cases, select large LLMs such as Now LLM Service Large to ensure more accurate results.
+Large language model \(LLM\) provider for the use case that is used to extract obligations.**Note:** For contract obligation extraction use cases, select large LLMs such as Azure OpenAI GPT to achieve more accurate results.
 
 </td></tr><tr><td>
 

@@ -34,13 +34,13 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
+Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -68,15 +68,20 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
     For more information, see [Create an Agent Client Collector log policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/hla-acc-log-policies.md).
 
-10. Do one of the following:
+10. Do one of the following.
 
-    -   If you completed all the prerequisites before starting the configuration, select **Activate**.
+    -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option.
 
-        The integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+        -   **Activate with AI** enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts.
 
-    -   If you didn't complete all the prerequisites, select **Save draft**.
+            When the integration is activated successfully, the **Overview** tab is displayed. ServiceNow Otto for ITOM collects and analyzes log data. An AI icon indicates that AI is active.
 
-        The system saves the integration as a draft in the Integrations Launchpad. It appears in the **Installed integrations** tab, under **Waiting for your action**. You can complete the prerequisites and activate the integration later. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
+        -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
+        On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+
+    -   If you didn't complete all the prior requirements, select **Save draft**.
+
+        The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. At a later time, complete the prerequisites and activate the installation. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
 
 
 ## What to do next

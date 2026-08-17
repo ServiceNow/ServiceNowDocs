@@ -68,3 +68,5 @@ A segmented site architecture with multiple networks is a network design that ha
 
 \[Omitted image "seg-site-multi.png"\] Alt text: Micro-segmented site with multiple networks
 
+**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
+

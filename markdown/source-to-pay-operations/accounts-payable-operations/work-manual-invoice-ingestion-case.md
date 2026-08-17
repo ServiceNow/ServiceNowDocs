@@ -45,7 +45,7 @@ For a description of the field values and information about the available tabs o
 
     Typically, the state of the newly created invoice processing case is New and the status of the invoice associated with this case is either Draft or Received, depending on how it was processed by the Accounts Payable Operations integration with Document Intelligence application.
 
-    For more information about invoice statuses, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    For more information about invoice statuses, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 5.  In the **Assigned to** field, specify a user that you want to assign the invoice processing case to.
 
@@ -89,7 +89,7 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
  `Required information for invoice has one or more errors. Review required fields and currency in "Details" tab to continue processing.`
 
- For more information, see [Enter the missing required invoice information and submit an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.md).
+ For more information, see [Enter missing invoice information and submit an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.md).
 
 </td></tr></tbody>
 </table>8.  Submit the invoice.
@@ -160,7 +160,7 @@ If a transformation error occurs in Document Intelligence, the invoice processin
     -   If the invoice is approved, the invoice moves to the Approved status and the invoice processing case moves to the Closed complete state.
 
 -   **[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)**  
-Manual tasks in Accounts Payable Operations are actions that specialists complete when automated invoice processing workflows require human review or intervention to proceed.
+Manual tasks in Accounts Payable Operations are actions specialists complete when automated invoice workflows require human review.
 
 **Parent Topic:**[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-dataprivacy-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -182,6 +182,11 @@ Data Discovery attachment scan type jobs now support XLS and CSV files. Attachme
 Create a regex data pattern with the help of Now Assist, which supports all third-party LLMs approved by ServiceNow.
 
 
+-   **Key word matching**
+
+As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
+
+
 </td></tr><tr><td>
 
 Australia
@@ -191,6 +196,11 @@ Australia
 -   **New experience**
     -   [Optional condition filter](https://www.servicenow.com/docs/access?context=dps-create-anonymization-job&family=australia&ft:locale=en-US) when running anonymization jobs to fine tune the scope of data to be anonymized.
     -   [Specific anonymization policy](https://www.servicenow.com/docs/access?context=dps-create-anonymization-policies&family=australia&ft:locale=en-US) for catalog variables to anonymize sensitive data in catalog requests.
+
+-   **Key word matching**
+
+As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
+
 
 </td></tr></tbody>
 </table>## Removed

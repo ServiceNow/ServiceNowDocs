@@ -56,14 +56,20 @@ Refine planning item descriptions using write items skill to improve the clarity
 The ServiceNow® Project Workspace application helps you to manage projects, resources, and financials in a single workspace.
 -   **[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-pw.md)**  
 Set up and configure the Project Workspace application to initiate and plan your projects, financials, and resources.
+-   **[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-admin-spm.md)**  
+Use AI Admin Hub to explore the various ServiceNow Otto® plugins, skills and associated Generative AI application features you're entitled to.
+-   **[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)**  
+Use the AI agents for SPM to monitor project tasks autonomously.
 -   **[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)**  
 Use the features of Project Workspace to plan and manage your project.
 -   **[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)**  
 Use RIDAC to identify, track, and manage risks, issues, decisions, actions, and change requests in Project Workspace.
 -   **[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)**  
-Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
+Manage budget, cost plans as forecasts, actual expenses as expense lines, and generate labor costs. Create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 -   **[Resource planning with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)**  
 Use the Resource Management application to allocate and manage your resources in the Project Workspace.
+-   **[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/cwm-integration-pw.md)**  
+Track team execution alongside your project plan by displaying Collaborative Work Management \(CWM\) tasks and stories linked to your project tasks directly on the planning page. Team members continue working in CWM, while you keep visibility in Project Workspace.
 -   **[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-reference.md)**  
 Reference information to provide additional details about Project Workspace, such as the fields, user roles, tables, scheduled jobs, system properties, and custom scripts.
 

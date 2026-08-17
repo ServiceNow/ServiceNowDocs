@@ -783,7 +783,7 @@ After initializing an application, you can run the `transform` command without a
 The `transform` command has the following structure:
 
 ```cmd
-now-sdk transform [--from <path>] [--directory <package path>] [--preview <flag>] [--auth <alias>] \[--format &lt;flag&gt;\] \[--table &lt;name&gt;\]
+now-sdk transform [--from <path>] [--directory <package path>] [--auth <alias>] \[--format &lt;flag&gt;\] \[--table &lt;name&gt;\]
 ```
 
 <table id="table_bny_zfc_l2c"><thead><tr><th>
@@ -833,22 +833,6 @@ The path to the directory that contains the `package.json` file for your applica
 </td><td>
 
 Current working directory
-
-</td></tr><tr><td>
-
---preview
-
-</td><td>
-
-Boolean
-
-</td><td>
-
-An option to preview the transformed ServiceNow Fluent code from the command line without saving the changes.
-
-</td><td>
-
-false
 
 </td></tr><tr><td>
 
@@ -902,7 +886,7 @@ A comma-separated list of table names to transform to ServiceNow Fluent, includi
 </table>For example:
 
 ```cmd
-now-sdk transform --from metadata/update --directory /path/to/package --preview true --auth devuser1 --format true --table sys\_security\_acl
+now-sdk transform --from metadata/update --directory /path/to/package --auth devuser1 --format true --table sys\_security\_acl
 ```
 
 For more information, see [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/convert-application-now-sdk.md) or [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).

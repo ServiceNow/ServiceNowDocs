@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Download Console log files
@@ -42,4 +42,6 @@ To download these logs, do the following.
 The Console has an early access capability for retrieving Sensor logs. Currently, accessing these logs requires deep technical expertise of the system. Leave this feature inactive unless directed to enable from Customer Service and Support.
 
 If you have questions or need assistance, [contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
+
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
 

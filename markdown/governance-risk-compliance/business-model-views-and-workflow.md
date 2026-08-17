@@ -93,7 +93,7 @@ By applying the CSDM model to different business model views, organizations can 
 -   Enhance compliance and regulatory adherence
 -   Ensure a consistent control environment across the organization
 
-This flexible approach, along with the use of Main node configurations, enables organizations to customize their CSDM implementation to meet their specific business needs, ensuring a robust and effective control environment.
+This flexible approach, along with the use of Main node configurations, enables organizations to customize their CSDM implementation to meet their specific business needs. This ensures a robust and effective control environment.
 
 For information on setting up the Main node configurations, see [Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-relationship-fw.md).
 

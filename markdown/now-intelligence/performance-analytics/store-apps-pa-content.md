@@ -53,7 +53,7 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## IT Service Management applications
 
--   Coaching
+-   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-coaching-landing.md)
 -   [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/viewing-performance-report-oncall.md)
 
 ## AI Experience applications

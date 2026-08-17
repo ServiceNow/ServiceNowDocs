@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Contextual Security Manager, Access Control Lists, Access Management]
+breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Upgrade to Contextual Security: Role Management V2

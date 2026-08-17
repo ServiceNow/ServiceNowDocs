@@ -106,9 +106,9 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Use Now Assist for FSM to manage shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-shift-manage.dita.md)**
+-   **[Use ServiceNow Otto for FSM to manage shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-shift-manage.dita.md)**
 
-    Use Now Assist for FSM to manage shift coverage through a conversational experience, including creating and viewing shifts.
+    Use ServiceNow Otto for FSM to manage shift coverage through a conversational experience, including creating and viewing shifts.
 
 
 ## UI changes
@@ -155,7 +155,7 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
     The **Enable assignments only with preferred/secondary agents** constraint has been renamed to **Enable assignments based on technician assignment preference** and updated to restrict task assignment exclusively to technicians marked as required on the work order task. If no required technician is available or eligible, the task is dropped from optimization and logged in the run summary.
 
--   **[Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)**
+-   **[Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)**
 
     Query range ACLs, which prevent unauthorized users from inferring sensitive data through repeated range-based queries, are now shipped by default. If you customized any of these ACLs in a previous release, your version remains active and the out-of-box ACL is set to inactive; otherwise, the default ACL replaces the previously generated one. The affected tables are:
 
@@ -233,8 +233,8 @@ Field Service Management is a ServiceNow AI Platform feature that is active by d
     ServiceNow® Workspace is a graphical user interface that provides multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are Customer Service-specific implementations that provide tier-1 agents with the tools needed to respond to customers and resolve cases.
 
 
--   **[Now Assist for FSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-fsm-rn.md)**  
-The ServiceNow® Now Assist for FSM application brings generative AI to Field Service Management. Now Assist for FSM was enhanced and updated in the Australia release.
+-   **[ServiceNow Otto for FSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-fsm-rn.md)**  
+The ServiceNow® ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

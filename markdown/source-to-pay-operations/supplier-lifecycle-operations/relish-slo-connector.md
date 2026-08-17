@@ -32,7 +32,7 @@ To install SLO Connector for Relish Data Assure, the following plugins must be i
 After SLO Connector for Relish Data Assure is installed, Relish shares the client ID and password. A basic authentication profile must be created using the client ID and password. For more information, see [Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md).
 
 -   **[Set up authentication profile using Relish credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.md)**  
-Create a basic authentication profile that can be used for web service integration with Relish. Register the Relish user name and password to create the authentication profile.
+Set up a basic authentication profile using Relish credentials to enable web service integration.
 
 **Parent Topic:**[Integrate Supplier Lifecycle Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
 

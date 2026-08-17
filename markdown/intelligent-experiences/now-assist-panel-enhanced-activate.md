@@ -1,38 +1,38 @@
 ---
-title: Activate Now Assist panel enhanced chat
-description: Activate the Now Assist panel enhanced chat to enable your agents to use Now Assist skills, such as task summarization or navigation, in a side panel on the user interface.
+title: Activate ServiceNow Otto panel enhanced chat
+description: Activate the ServiceNow Otto panel enhanced chat to enable your agents to use ServiceNow Otto skills, such as task summarization or navigation, in a side panel on the user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-enhanced-activate.html
 release: australia
 topic_type: task
 last_updated: "2025-09-26"
-reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist Admin features, Now Assist, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
 ---
 
-# Activate Now Assist panel enhanced chat
+# Activate ServiceNow Otto panel enhanced chat
 
-Activate the Now Assist panel enhanced chat to enable your agents to use Now Assist skills, such as task summarization or navigation, in a side panel on the user interface.
+Activate the ServiceNow Otto panel enhanced chat to enable your agents to use ServiceNow Otto skills, such as task summarization or navigation, in a side panel on the user interface.
 
 ## Before you begin
 
-You must install at least one Now Assist application before you can turn on the Now Assist panel.
+You must install at least one ServiceNow Otto application before you can turn on the ServiceNow Otto panel.
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-You must have the now\_assist\_panel\_user role to have access to the Now Assist panel once you turn it on.
+You must have the now\_assist\_panel\_user role to have access to the ServiceNow Otto panel once you turn it on.
 
-To learn more about the Now Assist panel, and how it can assist your agents, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+To learn more about the ServiceNow Otto panel, and how it can assist your agents, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
-2.  On the Assistants page, select **Now Assist Panel - Platform \(default\)**.\[Omitted image "now-assist-panel-assistants-screen.png"\] Alt text: Assistants screen for selecting Now Assist panel
+2.  On the Assistants page, select **ServiceNow Otto Panel - Platform \(default\)**.\[Omitted image "now-assist-panel-assistants-screen.png"\] Alt text: Assistants screen for selecting ServiceNow Otto panel
 
-3.  On the Now Assist Panel - Platform \(default\) page, select **Display experience**.\[Omitted image "now-assist-panel-display-experience.png"\] Alt text: Now Assist panel - Platform \(default\) screen.
+3.  On the ServiceNow Otto Panel - Platform \(default\) page, select **Display experience**.\[Omitted image "now-assist-panel-display-experience.png"\] Alt text: ServiceNow Otto panel - Platform \(default\) screen.
 
 4.  Select the **Add agent experiences** drop-down menu and then select **Unified Navigation app shell**.
 
@@ -46,17 +46,19 @@ To learn more about the Now Assist panel, and how it can assist your agents, see
 
 8.  If you want to use assistants, you must activate them.
 
-    See [Activate Now Assist panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
+    See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
 
 
 ## What to do next
 
-For examples of the Now Assist panel in action for Now Assist applications, see the following topics:
+For help with installation, see [Solving installation and configuration issues with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
 
--   
--   
--   
--   
+For examples of the ServiceNow Otto panel in action for ServiceNow Otto applications, see the following topics:
 
-**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+-   [Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
+-   [Summarize a Sidebar discussion by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
+-   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/summarize-an-issue.md)
+-   [Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/gen-kb-now-assisthr.md)
+
+**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

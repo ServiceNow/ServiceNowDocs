@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-midserver-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -143,6 +143,10 @@ MID Server logging has been improved with log backups that are preserved in a co
 
 MID Servers no longer have performance degradation due to script include cache misses when using large amounts of worker threads.
 
+-   **[MID Server security logs require 100MB of storage](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&family=zurich&ft:locale=en-US)**
+
+To store the security logs, MID Servers must be installed on a host with at least 100MB of storage capacity.
+
 
 </td></tr><tr><td>
 
@@ -165,6 +169,10 @@ MID Servers in a cluster now assign jobs based on the true load, using a variety
 -   **[MID Server is bundled with Java Runtime Environment 21](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&family=australia&ft:locale=en-US)**
 
 MID Server comes bundled with Java Runtime Environment version 21.0.7 and requires a minimum JRE version 17.0.10. The installer automatically configures Java 21.0.7 to run in your environment. If you have installed your own JRE, see the **Important information for upgrading MID Server to Australia** section to ensure your JRE is compatible.
+
+-   **[MID Server security logs require 100MB of storage](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&family=australia&ft:locale=en-US)**
+
+To store the security logs, MID Servers must be installed on a host with at least 100MB of storage capacity.
 
 
 </td></tr></tbody>

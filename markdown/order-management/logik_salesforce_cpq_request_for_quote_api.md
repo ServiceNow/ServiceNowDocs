@@ -1,20 +1,20 @@
 ---
 title: The RFQ \(Request for Quote\) API
-description: ServiceNow CPQ adds additional functionality to the Salesforce CPQ package APIs. This functionality lets you add products and data to an existing Salesforce CPQ quote.
+description: CPQ adds additional functionality to the Salesforce CPQ package APIs. This functionality lets you add products and data to an existing Salesforce CPQ quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_salesforce\_cpq\_request\_for\_quote\_api.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The RFQ \(Request for Quote\) API
 
-ServiceNow CPQ adds additional functionality to the Salesforce CPQ package APIs. This functionality lets you add products and data to an existing Salesforce CPQ quote.
+CPQ adds additional functionality to the Salesforce CPQ package APIs. This functionality lets you add products and data to an existing Salesforce CPQ quote.
 
-As part of the ServiceNow CPQ integration package with Salesforce CPQ, ServiceNow CPQ provides an API to add a ServiceNow CPQ configured product, sales BOM products and BOM data to a new or existing Salesforce CPQ quote \(`SBQQ__Quote__c`\). This provides ServiceNow CPQ functionality in addition to the Salesforce CPQ package APIs.
+As part of the CPQ integration package with Salesforce CPQ, CPQ provides an API to add a CPQ configured product, sales BOM products and BOM data to a new or existing Salesforce CPQ quote \(`SBQQ__Quote__c`\). This provides CPQ functionality in addition to the Salesforce CPQ package APIs.
 
 [Salesforce CPQ package APIs](https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_api.meta/cpq_dev_api/cpq_api_get_started.htm)
 
@@ -35,9 +35,9 @@ This API is exposed as an Apex Rest Service in the Salesforce org with a path of
 
 This API is exposed in the Salesforce org and requires authorization with Salesforce to be accessed and called. See [Salesforce Help on Authorization options for making API calls](https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_flows.htm&type=5). This API can also be tested using the [Salesforce Workbench Application](https://workbench.developerforce.com/).
 
-In ServiceNow CPQ, the only step is to ensure that in Admin settings, **Push BOM Data to ServiceNow CPQ Salesforce Object** is enabled. ServiceNow CPQ uses the data stored in the Configuration Line Items \(LGK\_\_ConfigurationLineItem\_\_c\) to create any additional sales BOM lines on the quote and write the BOM Data field on the quote line.
+In CPQ, the only step is to ensure that in Admin settings, **Push BOM Data to ServiceNow CPQ Salesforce Object** is enabled. CPQ uses the data stored in the Configuration Line Items \(LGK\_\_ConfigurationLineItem\_\_c\) to create any additional sales BOM lines on the quote and write the BOM Data field on the quote line.
 
-**Note:** The API will also respect normal Salesforce user access levels, so if the authenticated Salesforce user \(or a partner site itself, via sharing settings\) does not have certain object or field level access, the API call may fail or not behave as expected. The user calling the API needs access to the standard Salesforce CPQ and related objects as well as the ServiceNow CPQ Configuration Line Item object and its fields.
+**Note:** The API will also respect normal Salesforce user access levels, so if the authenticated Salesforce user \(or a partner site itself, via sharing settings\) does not have certain object or field level access, the API call may fail or not behave as expected. The user calling the API needs access to the standard Salesforce CPQ and related objects as well as the CPQ Configuration Line Item object and its fields.
 
 A short list of necessary objects includes:
 
@@ -50,11 +50,11 @@ A short list of necessary objects includes:
 
 If there is an issue with the API, make sure the user not only has access to the object or fields, but also to the specific record. This is always true, but because partner profiles start off with less access to records, they are more susceptible to the problem.
 
-To use these APIs, create and save a ServiceNow CPQ configuration, making note of the configuration ID that will be used for the calls. Also copy the product ID of the configurable product that was used to create the configuration demo.
+To use these APIs, create and save a CPQ configuration, making note of the configuration ID that will be used for the calls. Also copy the product ID of the configurable product that was used to create the configuration demo.
 
 ## Create new quote and add product
 
-The create quote and add product API call can be very useful if ServiceNow CPQ is being used outside the traditional Salesforce CPQ context. This can enable an omni channel experience without exposing end users to the Salesforce CPQ Quote Line Editor.
+The create quote and add product API call can be very useful if CPQ is being used outside the traditional Salesforce CPQ context. This can enable an omni channel experience without exposing end users to the Salesforce CPQ Quote Line Editor.
 
 <table><tbody><tr><td>
 
@@ -93,11 +93,11 @@ N/A
 
 -   **configurableProductId**
 
-    The ServiceNow CPQ enabled configurable product ID
+    The CPQ enabled configurable product ID
 
 -   **configurationId**
 
-    The ServiceNow CPQ configuration UUID received after saving a configuration
+    The CPQ configuration UUID received after saving a configuration
 
 -   **pricebookId**
 
@@ -209,11 +209,11 @@ N/A
 
 -   **configurableProductId**
 
-    the ServiceNow CPQ enabled configurable product ID
+    the CPQ enabled configurable product ID
 
 -   **configurationId**
 
-    The ServiceNow CPQ configuration UUID received after saving a configuration
+    The CPQ configuration UUID received after saving a configuration
 
 -   **quoteId**
 

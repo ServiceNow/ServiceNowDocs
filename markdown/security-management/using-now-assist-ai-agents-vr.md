@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-05-26"
 reading_time_minutes: 3
 keywords: [AI agents, agentic AI]
-breadcrumb: [Now Assist in Unified Security Exposure Management, Explore, Unified Security Exposure Management, Security Operations]
+breadcrumb: [ServiceNow Otto for Unified Security Exposure Management, Security Operations]
 ---
 
 # Using agentic workflows
@@ -55,7 +55,7 @@ Guardrails detector agentic workflow
 
 </td><td>
 
-[Manage potential AI exposures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)Use the AI agent to ask about the guardrails that were identified by the AI skill component in the AI Guardrails Helper, automatically defer findings with existing mitigations in the form of guardrails, or create exception rules to auto-defer future findings.
+[Manage potential AI exposures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)Use the AI agent to ask about the guardrails that were identified by the AI skill component in the AI Guardrails Helper. Automatically defer findings with existing mitigations in the form of guardrails, or create exception rules to auto-defer future findings.
 
 </td><td>
 
@@ -125,9 +125,9 @@ Legacy and Unified Security Exposure Management \(USEM\)
 
 To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
--   Activate the agentic workflow. The Now Assist for Vulnerability Response AI agents included with the application are activated by default.
+-   Activate the agentic workflow. The ServiceNow Otto for Unified Security Exposure Management AI agents included with the application are activated by default.
 -   If required, you can add a trigger to invoke the agentic workflow automatically.
 -   See [Configure an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vr-acticvate-agentic-workflow.md) for more information.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

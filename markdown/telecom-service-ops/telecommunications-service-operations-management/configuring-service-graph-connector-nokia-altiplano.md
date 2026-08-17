@@ -1,6 +1,6 @@
 ---
 title: Configure Nokia Altiplano service graph connector
-description: Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your ServiceNow Configuration Management Database \(CMDB\).
+description: Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service
 
 # Configure Nokia Altiplano service graph connector
 
-Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your ServiceNow Configuration Management Database \(CMDB\).
+Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your CMDB.
 
 This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model.
 

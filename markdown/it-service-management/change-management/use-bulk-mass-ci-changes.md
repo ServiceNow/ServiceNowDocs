@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
 
@@ -18,9 +18,15 @@ You can use the proposed changes in a change request to apply the same update to
 
 ## Before you begin
 
+Activate the Change Management mass update CI plugin `(com.snc.change_management.mass_update_ci)`. The **Mass Update CI class** check box appears on the change request form only after this plugin is active.
+
 Role required: itil, sn\_change\_write, or admin
 
 ## About this task
+
+The **Mass update CI class** check box lets you apply one set of proposed changes to every configuration item \(CI\) in a selected CI class. The check box is available on the change request form, after you activate the Change Management mass update CI plugin `(com.snc.change_management.mass_update_ci)`. For plugin activation, see [Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md).
+
+**Note:** **Mass update CI class** applies updates by CI class. To apply proposed changes to an explicit list of affected CIs instead, use the Bulk CI Change feature. For more information, see [Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)
 
 ## Procedure
 
@@ -40,23 +46,23 @@ Role required: itil, sn\_change\_write, or admin
 
 4.  Enter the proposed changes that you want to make to all the affected CIs.
 
-    Each time that you select a field and value, another line appears. If you enter a proposed change in error, click the **X** beside the line to remove it.
+    Each time that you select a field and value, another line appears. If you enter a proposed change in error, select the **X** beside the line to remove it.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 6.  Open the change request you submitted.
 
-7.  In the Affected CIs related list, click **Add**.
+7.  In the Affected CIs related list, select **Add**.
 
     The Add Affected Configuration Items window that opens lists only the CIs in the selected CI class.
 
-8.  Select one or more CIs and click **Add Selected**, or click **Add All**.
+8.  Select one or more CIs and select **Add Selected**, or select **Add All**.
 
     If you change the CI class after selecting affected CIs, the list is cleared when you save the record.
 
 9.  Continue with the change management process for this change request.
 
-10. When the record reaches the Implement or Review states, click **Apply Proposed Changes**.
+10. When the record reaches the Implement or Review states, select **Apply Proposed Changes**.
 
     A message appears informing you that the proposed changes were applied to all the affected CIs.
 

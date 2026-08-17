@@ -28,13 +28,13 @@ That ERP data can be used as a data source when you build new apps on the Servic
 
 The next step in replatforming with ServiceNow Studio for ERP \(Enterprise Resource Planning\) is to build an app on the ServiceNow AI Platform that consumes the ERP data.
 
-As you plan to replatform a legacy app on the ServiceNow AI Platform, consider where the data is coming from. For example, an old app may retrieve data from a third party into the system of record. When you build a new, replatformed app on the ServiceNow AI Platform, you can configure the new app to pull data directly from that third party. Using that method, the Zero Copy Connector for ERP model no longer pulls the data from the ERP system, which adds an extra step of retrieval.
+As you plan to replatform a legacy app on the ServiceNow AI Platform, consider where the data is coming from. For example, an old app may retrieve data from a third party into the ERP system. When you build a new, replatformed app on the ServiceNow AI Platform, you can configure the new app to pull data directly from that third party. Using that method, the Zero Copy Connector for ERP model no longer pulls the data from the ERP system, which adds an extra step of retrieval.
 
 ## Working with similar candidates when replatforming apps
 
 If ERP Semantic Mining shows that a candidate has a number of similar candidates, consider building one app that meets the needs of some or all similar candidates when you replatform.
 
-When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform. ServiceNow Studio is the quickest app to use, but there are other builders available to you, depending on your licensing.
+When you replatform a custom app from an ERP system, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform. ServiceNow Studio is the quickest app to use, but there are other builders available to you, depending on your licensing.
 
 ## ServiceNow low- and pro-code builders
 
@@ -43,8 +43,8 @@ After you identify ERP data to replatform, citizen developers can use ServiceNow
 Use any of the following ServiceNow builders to create apps using custom data:
 
 -   
--   
--   
+-   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
+-   [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
 -   
 -   
 -   
@@ -53,17 +53,17 @@ For example, use in ServiceNow Studio, use a template \(or build the app from th
 
 ## Using Glide to query ERP data
 
-You can also access data from the system of record through the Glide API.
+You can also access data from the ERP system through the Glide API.
 
 For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/using-glide-to-query-erp-data.md).
 
 ## After you replatform custom code to a ServiceNow app
 
-Replatformed apps on the ServiceNow AI Platform use live data from the system of record without writing any code back to it.
+Replatformed apps on the ServiceNow AI Platform use live data from the ERP system without writing any code back to it.
 
 After you have identified candidates to replatform and taken the recommended action in ERP Semantic Mining, you must only use Zero Copy Connector for ERP to access the remote tables and extraction tables. These tables are data sources for building apps, flows, and workspaces.
 
-If you're sure that legacy code on the system of record isn't referenced elsewhere, you can remove it from the system after it's replatformed.
+If you're sure that legacy code on the ERP system isn't referenced elsewhere, you can remove it from the system after it's replatformed.
 
 **Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

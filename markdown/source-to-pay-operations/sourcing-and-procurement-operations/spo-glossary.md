@@ -36,7 +36,9 @@ Glossary terms are grouped alphabetically.
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
-[SPO and ITAM data model mappings]()
+[SPO and Asset Management data model mappings]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
 
 [Domain separation and Sourcing and Procurement Operations]()
 
@@ -304,7 +306,7 @@ A collective sourcing activity managing multi-supplier and multi-product negotia
 
 AI models enhancing the Virtual Agent's ability to understand and respond to user queries naturally.
 
-### Now Assist for SPO
+### ServiceNow Otto for SPO
 
 An application that uses generative AI to summarize procurement-related records and facilitate conversational procurement tasks.
 
@@ -434,7 +436,7 @@ The process where the procurement system integrates with the receiving/logistics
 
 ### record summarization
 
-A feature of Now Assist for SPO that provides a concise overview, actions completed, and next steps for procurement records.
+A feature of ServiceNow Otto for SPO that provides a concise overview, actions completed, and next steps for procurement records.
 
 ### related case
 

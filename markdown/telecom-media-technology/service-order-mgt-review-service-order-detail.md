@@ -46,15 +46,15 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
 4.  To revise or request cancellation of the service order, perform one of the following actions.
 
-<table id="choicetable_vdb_2cb_fqb"><thead><tr><th align="left" id="d47357e179">
+<table id="choicetable_vdb_2cb_fqb"><thead><tr><th align="left" id="d48414e179">
 
 Action
 
-</th><th align="left" id="d47357e182">
+</th><th align="left" id="d48414e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47357e188">
+</th></tr></thead><tbody><tr><td id="d48414e188">
 
 **Revise a customer or service order**
 
@@ -73,7 +73,7 @@ When you revise an order, the following actions take place:
 -   If there are any associated order tasks, their state fields change to On Hold.
 
 
-</td></tr><tr><td id="d47357e252">
+</td></tr><tr><td id="d48414e252">
 
 **Revise a customer or service order line item**
 
@@ -93,7 +93,7 @@ When you revise an order line item, the following actions take place:
 -   If there are any associated order tasks, their state fields change to On Hold.
 
 
-</td></tr><tr><td id="d47357e322">
+</td></tr><tr><td id="d48414e322">
 
 **Request cancellation of an entire customer or service order**
 
@@ -111,7 +111,7 @@ When you request an order cancellation, the following actions take place:
 -   Notification messages appear if there are any conditions that are preventing cancellation of the order. A designated manager must approve the order cancellation.
 **Note:** To cancel an individual order line item, in the Order Line Item form, change the **State** field to Assess Cancellation.
 
-</td></tr><tr><td id="d47357e389">
+</td></tr><tr><td id="d48414e389">
 
 **Request cancellation of individual customer or service order line items**
 
@@ -124,7 +124,7 @@ In the Order Line Item form, do the following actions:1.  Click **Revise Order**
  **Note:** The **PONR** check box, which is located on the Customer Order and Order Line item forms, indicates the Point of No Return state for the order or order line item.
 
 </td></tr></tbody>
-</table>    **Note:** To learn more about inflight order changes, see [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md).
+</table>    **Note:** To learn more about inflight order changes, see .
 
 5.  In the service order, make the required changes, and then select **Save**.
 

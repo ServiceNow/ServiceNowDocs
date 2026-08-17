@@ -18,13 +18,13 @@ Now Assist keeps your data secure throughout the AI lifecycle. Additional contro
 
 ## Data transit, storage, and privacy controls
 
-The following topics, all in Now Assist Admin, describe how Now Assist handles your data and how to configure privacy controls for your instance.
+The following topics, all in AI Admin Hub, describe how Now Assist handles your data and how to configure privacy controls for your instance.
 
--   **[User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md)**
+-   **[User data usage policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md)**
 
     Understand how Now Assist transmits, processes, and protects your data, including options to mask sensitive data and control data sharing for model improvements.
 
--   **[Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)**
+-   **[Configuring ServiceNow Otto for Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)**
 
     Configure how PII is de-identified before it reaches the large language model, including which data types are caught and how anonymization rules are applied.
 
@@ -43,7 +43,7 @@ The following topics, all in Now Assist Admin, describe how Now Assist handles y
 
 ## Sensitive data discovery and classification
 
-The following topics describe how to use Now Assist for Vault and Now Assist Data Kit to discover, classify, and protect sensitive data on your instance.
+The following topics describe how to use ServiceNow Otto for Vault and Now Assist Data Kit to discover, classify, and protect sensitive data on your instance.
 
 -   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)**
 
@@ -57,25 +57,25 @@ The following topics describe how to use Now Assist for Vault and Now Assist Dat
 
     Define and apply data classification labels to identify sensitive content across your instance, helping you understand what data your AI agents can access and where protection controls are needed.
 
--   **[Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)**
+-   **[ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)**
 
-    Learn about the generative AI skills available in Now Assist for Vault for generating custom data patterns, checking role access for encrypted columns, and scheduling data discovery jobs.
+    Learn about the generative AI skills available in ServiceNow Otto for Vault for generating custom data patterns, checking role access for encrypted columns, and scheduling data discovery jobs.
 
--   **[Schedule a Data Discovery job with Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)**
+-   **[Schedule a Data Discovery job with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)**
 
     Schedule one-time or recurring Data Discovery jobs to detect sensitive data such as PII or PHI that may be present in inputs to the LLM.
 
--   **[Check role access for an encrypted column with Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/check-role-access-now-assist-vault.md)**
+-   **[Check role access for an encrypted column with ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/check-role-access-now-assist-vault.md)**
 
     Identify which user roles have access to encryption and decryption keys in your instance to monitor your encryption access posture.
 
--   **[Generate a custom data pattern by using Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)**
+-   **[Generate a custom data pattern by using ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)**
 
     Create a custom regular expression data pattern from a plain-language description and add it as an active data pattern on your instance.
 
 -   **[Find and cleanse sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sensitive-data.md)**
 
-    Now Assist Data Kit: Scan your datasets for sensitive data including PII, and cleanse identified data before it is used in AI evaluations.
+    AI Data Kit: Scan your datasets for sensitive data including PII, and cleanse identified data before it is used in AI evaluations.
 
 
 **Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)

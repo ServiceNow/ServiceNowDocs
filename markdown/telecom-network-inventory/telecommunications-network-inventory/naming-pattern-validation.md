@@ -1,20 +1,20 @@
 ---
 title: Name pattern validation
-description: Name pattern validation runs twice: at save time to prevent errors, and when the Overview tab loads the hierarchy to catch issues specific to template relationships.
+description: Name pattern validation runs twice. It runs at save time to prevent errors. And it runs when the Overview tab loads the hierarchy to catch issues specific to template relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
 
 # Name pattern validation
 
-Name pattern validation runs twice: at save time to prevent errors, and when the Overview tab loads the hierarchy to catch issues specific to template relationships.
+Name pattern validation runs twice. It runs at save time to prevent errors. And it runs when the **Overview** tab loads the hierarchy to catch issues specific to template relationships.
 
 -   **Save-time validation**
 
@@ -27,7 +27,7 @@ Name pattern validation runs twice: at save time to prevent errors, and when the
 
 ## Save-time validation
 
-When you create or edit a pattern in the **Define name pattern** modal, the modal validates the pattern before letting you apply it. Two outcomes are visible in the modal:
+When you create or edit a pattern in the **Define name pattern** modal, the modal validates the pattern before you can apply it. Two outcomes are visible in the modal:
 
 -   Pattern accepted: A green message appears beneath the input: `Valid name pattern. Preview: <resolved name>`. The resolved name in the preview is a sample evaluation. The **Apply** button is enabled.
 -   Pattern invalid or produces an empty result: A red message appears: `Name pattern results in empty name. Please try again.` The **Apply** action is blocked. The same message appears if the pattern has invalid JavaScript, references a variable that does not exist, or produces an empty string when evaluated.
@@ -59,7 +59,7 @@ Validation failed: Slot name exceeds maximum length: Slot -4; Duplicate name at 
 
 Patterns can reference variables that have no value in a particular related template's context. For example, a top-level slot directly under an equipment template has no parent slot, so the variable `parent_slot_name` cannot be resolved for it.
 
-When the **Inventory Template Overview** encounters an unresolvable variable, it substitutes `?` for the variable in the resolved name on the tree node label. The `?` substitution is a signal that the pattern is using variables that do not fit the related template's position in the hierarchy.
+When the **Inventory Template Overview** detects an unresolvable variable, the tab displays `?` in place of the variable in the resolved name on the tree node label . The `?` substitution indicates that the pattern is using variables that do not fit the related template's position in the hierarchy.
 
 **Note:** The `?` substitution does not raise an **Error** badge or a **Validation failed** banner. It is a display-only indicator in the tree node label.
 

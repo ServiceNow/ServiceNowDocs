@@ -272,8 +272,3 @@ Unlimited software licenses help you to create entitlements with unlimited alloc
 
 **Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
-**Related topics**  
-
-
-[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
-

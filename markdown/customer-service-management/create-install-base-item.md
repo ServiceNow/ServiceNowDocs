@@ -350,5 +350,5 @@ List of contacts, consumers, accounts, members, contributors, and service organi
 **Related topics**  
 
 
-[Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-ib-items-for-business-locations.md)
+[Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-ib-items-for-business-locations.md)
 

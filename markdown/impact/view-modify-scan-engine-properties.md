@@ -1,24 +1,27 @@
 ---
 title: Customize Scan Engine definitions
-description: You can modify an existing definition to further customize and refine its scanning criteria.
+description: You can toggle the Active status of a definition or modify an existing definition to further customize and refine its scanning criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/view-modify-scan-engine-properties.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
+last_updated: "2026-07-27"
+reading_time_minutes: 3
+keywords: [scan engine definitions, customize, active, override]
+breadcrumb: [Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definitions
 
-You can modify an existing definition to further customize and refine its scanning criteria.
+You can toggle the Active status of a definition or modify an existing definition to further customize and refine its scanning criteria.
 
 ## Before you begin
 
-Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\) .
+For the complete list of Scan Engine definitions, see [Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md).
 
-While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
+Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
+
+Scan Engine admins can toggle the Active field on any definition without using the override function. To modify other definition properties, you must use the Override Definition option. Any user with the Scan Engine user role can view definitions.
 
 ## Procedure
 
@@ -26,27 +29,24 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
 2.  Select a definition number to open its details.
 
-3.  To modify a base system definition’s properties, select **Override Definition**.
+3.  To deactivate a definition without overriding, uncheck the **Active** checkbox.
 
-    When a definition is overridden, the base system definition will no longer be used in any scan \(real-time, scheduled, update set, application, or on demand\). All fields in the overridden definition become editable.
+    The Active field is editable without requiring an override. Unchecking this field deactivates the definition so it will no longer run in any scan type. No other changes to the definition are needed.
 
-4.  Modify the required and optional fields.
+4.  To modify other definition properties, select **Override Definition**.
 
-    -   Refer to [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definitions.md) for details.
-    -   In addition to those fields, when viewing an existing definition, you will also see **Override**. To modify a base system definition, use the override field to disable it and create a new custom definition.
-    The definition is overridden to create the current definition.
+    When a definition is overridden, the base system definition will no longer be used in any scan type \(real-time, scheduled, update set, application, or on demand\). All fields in the overridden definition become editable. You can then modify the required and optional fields. Refer to [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definitions.md) for complete field details.
 
-    This field is only visible if a base definition has been overridden using **Override Definition**. Deleting an overridden definition re-enables the base system definition.
+5.  When updating an overridden definition, review the override field information.
 
-    **Note:** Overridden definitions are considered custom definitions. As a result, they are included in the count of 10 active custom definitions limit for Guided customers.
-
-5.  Select **Update**.
-
-    Selecting Delete will delete the override, meaning the base system definition will be used going forward.
+    -   The **Override** field is only visible if a base definition has been overridden using **Override Definition**.
+    -   Deleting an overridden definition re-enables the base system definition.
+    -   Overridden definitions are considered custom definitions. As a result, they are included in the count of 10 active custom definitions limit for Guided customers.
+6.  Select **Update**.
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d57156e153">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d58035e171">
 
 **Applicable Tables**
 
@@ -67,7 +67,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet in order to be scanned.
 
 
-</td></tr><tr><td id="d57156e218">
+</td></tr><tr><td id="d58035e236">
 
 **Findings For This Definition**
 
@@ -75,7 +75,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d57156e227">
+</td></tr><tr><td id="d58035e245">
 
 **Resolved Finding Histories**
 
@@ -83,7 +83,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d57156e236">
+</td></tr><tr><td id="d58035e254">
 
 **Scan Engine Suites**
 
@@ -99,3 +99,12 @@ Displays all suites assigned to the definition, which allows for scanning entire
 
 </td></tr></tbody>
 </table>
+-   **[Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definitions.md)**  
+The Scan Engine contains preexisting base system definitions. In addition to these definitions, you can create your own.
+-   **[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md)**  
+Follow these steps to create or modify Scan Engine definition suites.
+-   **[Create policies for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/working-policies-scan-engine.md)**  
+Policies let you determine how specific definition findings appear on analytics dashboards; you can ignore them completely or place them in a prioritized view.
+
+**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-initial-scan-engine-settings.md)
+

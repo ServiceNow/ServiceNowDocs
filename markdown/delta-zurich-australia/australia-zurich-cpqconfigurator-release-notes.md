@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cpqconfigurator-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -221,7 +221,7 @@ Zurich
 
 </td><td>
 
-Before implementing CPQ Configurator, you must prepare your environment to use it. For more information, see [CPQ Configurator](https://www.servicenow.com/docs/access?context=configuring-servicenow-cpq&family=zurich&ft:locale=en-US).
+Before implementing CPQ Configurator, you must prepare your environment to use it. For more information, see [Without guided setup](https://www.servicenow.com/docs/access?context=configuring-servicenow-cpq&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 

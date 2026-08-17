@@ -259,7 +259,7 @@ Multiple properties control import set behavior.
 
     Specifies whether to write information-level log messages into the import\_log table. When true, the information-level log messages are written.
 
-    **Note:** The information-level logs for IntegrationHub ETL are written to the importlog.log table regardless of this property setting. To have additional exceptions added, contact Now Support.
+    **Note:** The information-level logs for [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md) are written to the importlog.log table regardless of this property setting. To have additional exceptions added, contact Now Support.
 
     -   Type: true \| false
     -   Default value: false

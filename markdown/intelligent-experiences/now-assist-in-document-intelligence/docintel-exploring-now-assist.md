@@ -8,9 +8,9 @@ product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Exploring Now Assist in Document Intelligence
@@ -24,11 +24,11 @@ Now Assist in Document Intelligence makes the following generative AI capabiliti
 -   Extract information from documents. Extract information in the form of fields, tables, and answers to predefined questions from documents and image files. The information can be reviewed by agents in the Document Intelligence workspace, stored in mapped fields, and used as defined in the workflow.
 -   Document Q&amp;A: Agents can save time when reviewing documents by using the predictive capabilities of generative AI to provide answers to predefined questions.
 -   Document and visual insights AI agent. The AI agent gathers context from user input and document or image attachments, generates the requested information based on the content, and provides the information along with any relevant task details. For more information on AI agents, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md).
--   Contract metadata extraction and contract analysis. The skills for contract metadata extraction and contract analysis are only available with the Now Assist in Contract Management application. For more information, see [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-now-assit-landing.md).
--   Attachment summarization. Agents can view a summary of attachment content along with the record summary in ITSM. Attachment summarization is available in Now Assist for ITSM. For more information, see .
--   Document chat. Agents can receive chat responses based on document content. Document chat is available in Now Assist for Virtual Agent. For more information, see .
--   Invoice data extraction. Extract invoice details from PDFs submitted through email or supplier portal and automatically process the digitized invoice within Accounts Payable Operations \(APO\). For more information, see [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-apo.md).
--   ESG information extraction. Extract ESG-related information from invoices to support Operational Sustainability Management \(ESG\) initiatives and regulatory compliance. For more information, see .
+-   Contract metadata extraction and contract analysis. The skills for contract metadata extraction and contract analysis are only available with the Now Assist in Contract Management application. For more information, see [ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-now-assit-landing.md).
+-   Attachment summarization. Agents can view a summary of attachment content along with the record summary in ITSM. Attachment summarization is available in Now Assist for ITSM. For more information, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-skill.md).
+-   Document chat. Agents can receive chat responses based on document content. Document chat is available in Now Assist for Virtual Agent. For more information, see [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md).
+-   Invoice data extraction. Extract invoice details from PDFs submitted through email or supplier portal and automatically process the digitized invoice within Accounts Payable Operations \(APO\). For more information, see [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-apo.md).
+-   ESG information extraction. Extract ESG-related information from invoices to support Operational Sustainability Management \(ESG\) initiatives and regulatory compliance. For more information, see [Filter citations documents for Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/filter-citations-and-authority-documents-for-esg.md).
 
 ## Now Assist in Document Intelligence skills
 
@@ -42,7 +42,7 @@ Now Assist in Document Intelligence skills are enabled in the Platform workflow 
 
     The multimodal chat skill is used to enable chat responses about the content of uploaded documents and images. It is only used on the server side by the document and visual insights AI agent and by the question answering capability in Now Assist for Virtual Agent. This skill doesn’t require configuration in the Now Assist Admin console.
 
-    For more information on these capabilities, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md) and .
+    For more information on these capabilities, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md) and [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md).
 
 
 ## Now Assist in Document Intelligence workflow

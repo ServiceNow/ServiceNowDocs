@@ -18,7 +18,7 @@ Activate the Conversation Improvement Themes application to analyze conversation
 
 Role required: admin
 
-Conversation evaluations have to be enabled in AI Control Tower. For more information, see .
+Conversation evaluations have to be enabled in AI Control Tower. For more information, see [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
 
 ## Procedure
 

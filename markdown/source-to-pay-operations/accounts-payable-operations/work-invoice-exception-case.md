@@ -1,6 +1,6 @@
 ---
 title: Work on an invoice exception
-description: As an Accounts Payable Specialist, analyze the invoice exceptions, create exception tasks, and assign them to the relevant individuals to resolve the invoice exceptions.
+description: Analyze the invoice exceptions, create exception tasks, and assign them to the relevant individuals to resolve the invoice exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Invoice exceptions, Using Accounts Payable Invoice Processing, Use,
 
 # Work on an invoice exception
 
-As an Accounts Payable Specialist, analyze the invoice exceptions, create exception tasks, and assign them to the relevant individuals to resolve the invoice exceptions.
+Analyze the invoice exceptions, create exception tasks, and assign them to the relevant individuals to resolve the invoice exceptions.
 
 ## Before you begin
 

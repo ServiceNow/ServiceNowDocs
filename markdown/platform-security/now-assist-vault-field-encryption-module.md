@@ -19,7 +19,7 @@ Use the field encryption with Vault module agentic workflow to encrypt specific 
 
 Add field encryption protection and improve your security posture with the field encryption with Vault module agentic workflow.
 
-When you install Now Assist for Vault, this agentic workflow is turned on by default.
+When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
@@ -37,7 +37,7 @@ To access and configure the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Field Encryption with Vault module**.
 
-**Note:** The field encryption with Vault module agentic workflow is triggered automatically when you secure custom applications using ServiceNow Vault console dashboard. You can also invoke the agentic workflow manually in the Now Assist panel.
+**Note:** The field encryption with Vault module agentic workflow is triggered automatically when you secure custom applications using ServiceNow Vault console dashboard. You can also invoke the agentic workflow manually in the ServiceNow Otto panel.
 
 ## AI agents used in the field encryption with Vault module agentic workflow
 
@@ -45,7 +45,7 @@ To access and configure the agentic workflow:
 |----|-----------|
 |Vault crypto module manager agent|Uses various tools to encrypt fields and ensures that only those users with particular roles have access to those fields.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-**Parent Topic:**[Use agentic AI in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 

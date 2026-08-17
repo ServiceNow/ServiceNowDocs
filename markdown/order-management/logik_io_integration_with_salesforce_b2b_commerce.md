@@ -1,25 +1,25 @@
 ---
-title: ServiceNow CPQ integration with Salesforce B2B Commerce
-description: Learn how to configure ServiceNow CPQ to work with Salesforce B2B Commerce.
+title: CPQ integration with Salesforce B2B Commerce
+description: Learn how to configure CPQ to work with Salesforce B2B Commerce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_integration\_with\_salesforce\_b2b\_commerce.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# ServiceNow CPQ integration with Salesforce B2B Commerce
+# CPQ integration with Salesforce B2B Commerce
 
-Learn how to configure ServiceNow CPQ to work with Salesforce B2B Commerce.
+Learn how to configure CPQ to work with Salesforce B2B Commerce.
 
 ## Prerequisites
 
 This guide assumes the following:
 
 -   Commerce is enabled in Salesforce
--   The ServiceNow CPQ Base Managed Package is installed
+-   The CPQ Base Managed Package is installed
 -   System Administrator or similar access is available in order to perform the steps listed
 
 ## Install files to Salesforce
@@ -86,7 +86,7 @@ Setting Field Level Security:
 A similar set of steps need to be followed for a Product2 field.
 
 1.  From Object Manager, search for and open Product \(Product2\).
-2.  Go to Fields &amp; Relationships. Open the field ServiceNow CPQ Enabled \(LGK\_\_IsConfigurable\_\_c\).
+2.  Go to Fields &amp; Relationships. Open the field CPQ Enabled \(LGK\_\_IsConfigurable\_\_c\).
 3.  Click “Set Field-Level Security”. Make sure the Visible option is selected for any shopper profiles. Read-Only can either be enabled or disabled.
 4.  Save.
 
@@ -108,12 +108,12 @@ In addition, the following CartItem fields will need to be set to Visible \(Read
 
 ## Obtaining and applying the runtime token
 
-1.  In ServiceNow CPQ, create a Runtime Client, with an Origin matching the ServiceNow CPQ base URL. Click **Copy** to get the client token.
+1.  In CPQ, create a Runtime Client, with an Origin matching the CPQ base URL. Click **Copy** to get the client token.
 
     \[Omitted image "cpq-integration-SFB2B-runtime-client-origin.png"\] Alt text: Edit runtime client
 
 2.  In Salesforce, from Setup home, go to Custom Code &gt; Custom Settings.
-3.  For ServiceNow CPQ Tenant, click `Manage`.
+3.  For CPQ Tenant, click `Manage`.
 
     \[Omitted image "cpq-integration-SFB2B-SF-options-manage.png"\] Alt text: Custom settings screen
 
@@ -121,7 +121,7 @@ In addition, the following CartItem fields will need to be set to Visible \(Read
 
     \[Omitted image "cpq-integration-SFB2B-SF-custom-setting-edit.png"\] Alt text: Tenant details
 
-5.  For the Runtime Client Token field, paste the copied token for the runtime client. Make sure the URL field\(s\) are set to the same URL as one of the runtime clientʼs Origins in ServiceNow CPQ Admin.
+5.  For the Runtime Client Token field, paste the copied token for the runtime client. Make sure the URL field\(s\) are set to the same URL as one of the runtime clientʼs Origins in CPQ Admin.
 
     \[Omitted image "cpq-integration-SFB2B-SF-custom-settings-2.png"\] Alt text: Edit tenant screen
 
@@ -147,7 +147,7 @@ In addition, the following CartItem fields will need to be set to Visible \(Read
 ## Configuring the Experience Builder
 
 1.  From the Commerce home page, open Experience Builder.
-2.  Click **Home** on the top left to open the list of pages. Search or navigate to Product and click **Product Detail**. Either add the custom ServiceNow CPQ button to the existing Product Detail page, or use the packaged page as a variation.
+2.  Click **Home** on the top left to open the list of pages. Search or navigate to Product and click **Product Detail**. Either add the custom CPQ button to the existing Product Detail page, or use the packaged page as a variation.
 
     \[Omitted image "cpq-integration-SFB2B-experience-builder-1.png"\] Alt text: Product details
 
@@ -349,9 +349,9 @@ Example response:
 **Related topics**  
 
 
-[ServiceNow CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_base_package_overview.md)
+[CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_base_package_overview.md)
 
-[Salesforce amendments and ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/salesforce_amendments_and_logik_io.md)
+[Salesforce amendments and CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/salesforce_amendments_and_logik_io.md)
 
-[ServiceNow CPQ and Salesforce managed packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_managed_packages.md)
+[CPQ and Salesforce managed packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_managed_packages.md)
 

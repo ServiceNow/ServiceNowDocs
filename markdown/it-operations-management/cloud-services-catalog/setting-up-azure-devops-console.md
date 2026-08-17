@@ -9,7 +9,7 @@ classification: cloud-services-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating Azure DevOps and CI-CD tool, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Integrating Azure DevOps and CI-CD tool, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up the Microsoft Azure DevOps console

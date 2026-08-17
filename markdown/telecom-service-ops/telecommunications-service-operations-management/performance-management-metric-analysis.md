@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -20,4 +20,5 @@ Use provided solutions to collect metrics and monitor your devices for different
 
 -   [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
 -   [Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
+-   [Metric type IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-metric-type-ids.md)
 

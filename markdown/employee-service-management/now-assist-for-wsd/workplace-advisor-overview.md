@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2025-10-28"
 reading_time_minutes: 1
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace Advisor Overview
@@ -18,9 +18,9 @@ Workplace Advisor is an AI-powered solution designed to help Space Planners and 
 
 The Minimum Viable Product \(MVP\) version focuses on two primary capabilities:
 
-## Natural Language Q&amp;A via Now Assist Panel
+## Natural Language Q&amp;A via ServiceNow Otto Panel
 
-Ask workplace reservation related questions in natural language and receive contextual responses in Now Assist panel. Examples of queries include:
+Ask workplace reservation related questions in natural language and receive contextual responses in ServiceNow Otto panel. Examples of queries include:
 
 -   Reservation details
 -   Meeting durations
@@ -35,7 +35,7 @@ The workplace advisor QnA agentic workflow enables Reservation Managers to use t
 -   **[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)**  
 Display key metrics and AI-generated insights from workplace data sources using Insight cards on the Workplace Central dashboard. These Insight cards are auto-generated using generative AI, enabling Space Planners, and Facilities Managers to make data-driven decisions to optimize workplace resources. Insight cards provide proactive insights into various workplace metrics such as space utilization, occupancy rates, attendance patterns, and reservation trends.
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
@@ -50,5 +50,5 @@ Display key metrics and AI-generated insights from workplace data sources using 
 
 [Workplace Concierge agentic workflow]()
 
-[]()
+[Implement Autonomous L1 Agent for Workplace]()
 

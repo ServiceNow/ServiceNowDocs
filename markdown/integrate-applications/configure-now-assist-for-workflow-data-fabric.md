@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Workflow Data Fabric \(WDF\)
-description: If you have the admin role, you can configure the Now Assist for Workflow Data Fabric \(WDF\) application to enable AI capabilities across the Workflow Data Fabric platform.
+title: Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Workflow Data Fabric \(WDF\) application to enable AI capabilities across the Workflow Data Fabric platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-for-workflow-data-fabric.html
 release: australia
@@ -10,31 +10,31 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
-# Configure Now Assist for Workflow Data Fabric \(WDF\)
+# Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)
 
-If you have the admin role, you can configure the Now Assist for Workflow Data Fabric \(WDF\) application to enable AI capabilities across the Workflow Data Fabric platform.
+If you have the admin role, you can configure the ServiceNow Otto for Workflow Data Fabric \(WDF\) application to enable AI capabilities across the Workflow Data Fabric platform.
 
 ## Before you begin
 
-To install any Now Assist plugin, you must have Now Assist capabilities activated. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+To install any ServiceNow Otto plugin, you must have ServiceNow Otto capabilities activated. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for WDF. For additional information, see .
+Use the AI Admin Hub console to configure ServiceNow Otto for WDF. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The oneExtend LLM skill is included in Now Assist for WDF.
+The oneExtend LLM skill is included in ServiceNow Otto for WDF.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Find the Now Assist for WDF plugin \(sn\_nowassist\_wdf\) using the filter criteria and search bar and install the Now Assist for WDF plugin \(sn\_nowassist\_wdf\).
+2.  Find the ServiceNow Otto for WDF plugin \(sn\_nowassist\_wdf\) using the filter criteria and search bar and install the plugin \(sn\_nowassist\_wdf\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-3.  Select the Now Assist for WDF plugin tile, select **Install**, and confirm.
+3.  Select the ServiceNow Otto for WDF plugin tile, select **Install**, and confirm.
 
 4.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home** and create the **ServiceNow Product Documentation** connector to index and enhance AI search with content from the ServiceNow product documentation site.
 
@@ -46,7 +46,7 @@ The oneExtend LLM skill is included in Now Assist for WDF.
 
     Core functionality isn’t affected if skipped, but some AI agent capabilities may be limited.
 
-    1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+    1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
         \[Omitted image "wdf-ai-config1.png"\] Alt text: Screenshot showing the Flow generation tile.
 
@@ -62,5 +62,7 @@ The oneExtend LLM skill is included in Now Assist for WDF.
 **Related topics**  
 
 
-[bundle-platai.configuring-now-assist]
+[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+
+[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

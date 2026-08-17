@@ -1,6 +1,6 @@
 ---
 title: Synthetic Monitoring Developer Guide
-description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.Convert your CSV file to JSON format to create synthetic monitors.The JSON file should contain an array of monitor objects, either directly or wrapped in a checks or monitors property.CSV files must include a header row followed by data rows.This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
+description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.The JSON file should contain an array of monitor objects, either directly or wrapped in a checks or monitors property.CSV files must include a header row followed by data rows.This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/synth-monitor\_dev-guide.html
 release: australia
@@ -8,7 +8,7 @@ product: Developer Guides
 classification: developer-guides
 topic_type: concept
 last_updated: "2026-04-29"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Developer guides, API implementation and reference]
 ---
 
@@ -523,52 +523,6 @@ Monitors are created in your ServiceNow instance. Successfully created monitors 
 -   Save your Postman requests to a collection for future use and easy resubmission.
 -   Verify your monitors in the ServiceNow UI by navigating to Synthetic Monitoring &gt; Monitors.
 -   Configure additional monitor settings such as schedules, notifications, and thresholds as needed.
-
-### Convert CSV file to JSON format
-
-Convert your CSV file to JSON format to create synthetic monitors.
-
-#### CSV file to JSON format
-
-To convert the CSV file to JSON format, access the terminal. Depending on your operating system, execute the required commands.
-
-<table id="table_m1q_3jm_33c"><thead><tr><th>
-
-Operating system
-
-</th><th>
-
-Curl commands
-
-</th></tr></thead><tbody><tr><td>
-
-macOS
-
-</td><td>
-
-`jq -Rs ‘{csv_content: .}’ filename.csv`
-
-</td></tr><tr><td>
-
-Windows Powershell
-
-</td><td>
-
--   If using jq, use the command `jq -Rs ‘{csv_content: .}’ filename.csv`
--   If using only Powershell \(no jq installed\), use the commands:
-    1.  `$csvContent = Get-Content -Path "synthetic_checks.csv" -Raw`
-    2.  `$json = @{ csv_content = $csvContent } | ConvertTo-Json`
-    3.  `$json`
--   If using Windows command prompt with jq installed, use the command `jq -Rs "{csv_content: .}" filename.csv`
-
-</td></tr></tbody>
-</table>The output is a CSV content wrapped in JSON format that is available on the terminal. `{ "csv_content": "name,method,description,interval,cmdb_ci,...\n\"Monitors1\",\"GET\",\"CHECK1\",5,..." }`
-
-Once the content is available in JSON format, access the **Body** tab in Postman, and select **Raw** to paste the JSON format content and select **Send**.
-
-**Note:** Ensure that the format selected is JSON.
-
-The response status provides the job Id and the status of monitors created. If there are any errors found, fix the file and run the same commands to complete the monitor creation.
 
 ### JSON file format
 

@@ -26,7 +26,7 @@ You must provide employees of your organization with a license to enable access 
 
 Define eligible users to show up in the org chart. For more information, see [Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md). Select **Employee Profile** in the **Table** field.
 
-Role required: admin \[sn\_egd\_lh.admin\]
+Role required: sn\_egd\_lh.admin
 
 ## Procedure
 

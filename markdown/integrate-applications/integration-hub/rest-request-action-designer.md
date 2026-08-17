@@ -71,7 +71,7 @@ Use MID
 
 </td><td>
 
-Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that Outbound web services logging occurs. Instead, you can view this data in the Flow execution details.
+Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that Outbound web services logging occurs. Instead, you can view this data in the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 
 </td></tr><tr><td>
 
@@ -280,7 +280,7 @@ Name, Part Type, Value
 
 </td><td>
 
-Content of a multipart request. For each part, specify its name, part type, and value either using the fields individually or using an inline script for all the parts. You can specify the multipart values by clicking the toggle scripting icon \(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see .
+Content of a multipart request. For each part, specify its name, part type, and value either using the fields individually or using an inline script for all the parts. You can specify the multipart values by clicking the toggle scripting icon \(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/inline-scripts.md).
 
  -   **Name**:The name of the part. It can be any valid string.
 -   **Part Type**: The type of the part. Select either **Text** or **File**.
@@ -298,7 +298,7 @@ Name, Value
 
 </td><td>
 
-Content of a form URL-encoded request. Specify each part of the URL-encoded request with a name-value pair using the fields individually or using an inline script for all parts. You can specify the form URL-encoded values inline script by clicking the toggle scripting icon\(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see .**Note:** This field is available when you select **Form URL-Encoded** from the Request Type list.
+Content of a form URL-encoded request. Specify each part of the URL-encoded request with a name-value pair using the fields individually or using an inline script for all parts. You can specify the form URL-encoded values inline script by clicking the toggle scripting icon\(\[Omitted image "flow-designer-inline-script-icon.png"\] Alt text: Toggle inline scripting icon\) and editing the script. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/inline-scripts.md).**Note:** This field is available when you select **Form URL-Encoded** from the Request Type list.
 
 </td></tr><tr><td>
 
@@ -355,7 +355,7 @@ Target record to which the attachment is associated. The target record must be a
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md).
 
 
 ## REST response size limits

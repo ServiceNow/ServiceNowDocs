@@ -22,6 +22,8 @@ Prerequisite: Make sure that you have registered an application in Azure Active 
 
 Role required: admin
 
+**Note:** This Administration UI path replaces the manual System OAuth and Connections &amp; Credentials configuration steps. For more information, see [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Major Security Incident Management** &gt; **Administration**.
@@ -53,6 +55,8 @@ Role required: admin
         |Client Secret|The secret string of the application used for requesting a token.|
 
 4.  Select **Configure &amp; Get OAuth Token**.
+
+    **Note:** Some permissions require admin consent. Azure admin credentials may be needed the first time to grant consent; subsequent token requests can use any valid user credentials.
 
     A login prompt appears to provide your Microsoft account details.
 

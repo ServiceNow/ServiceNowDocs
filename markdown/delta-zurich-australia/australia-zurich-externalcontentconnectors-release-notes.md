@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-externalcontentconnectors-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -38,9 +38,9 @@ Zurich
 
 </td><td>
 
-Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
+Starting in version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
 
- When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you've completed both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+ When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you complete both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
 
 </td></tr><tr><td>
 
@@ -68,6 +68,11 @@ Release notes
 Zurich
 
 </td><td>
+
+-   **[Filter content by label](https://www.servicenow.com/docs/access?context=filter-content-label-google-drive-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
 
 -   **[Adobe Acrobat Sign external content connector](https://www.servicenow.com/docs/access?context=adobe-acrobat-sign-external-content-connector&family=zurich&ft:locale=en-US)**
 
@@ -225,6 +230,11 @@ Review statistics for user and group permissions retrieved by a user permission 
 Australia
 
 </td><td>
+
+-   **[Filter content by label](https://www.servicenow.com/docs/access?context=filter-content-label-google-drive-external-content-connector&family=australia&ft:locale=en-US)**
+
+Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
 
 -   **[SAP SuccessFactors external content connector](https://www.servicenow.com/docs/access?context=sap-successfactors-external-content-connector&family=australia&ft:locale=en-US)**
 
@@ -576,7 +586,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+ Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
+ [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
 -   Expand your search experience with external content connectors for Adobe Acrobat Sign, Aha! Roadmaps, Cornerstone, Fluid Topics, ManageEngine, and Workvivo source systems.
 -   Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector.
@@ -604,7 +618,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+ Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Expand your search experience to include content and metadata from your SAP SuccessFactors Learning source system.
 -   Improve search recall with automatic multimodal caption generation for images, tables, charts, and complex layouts in attachments and files retrieved by your external content connector's content crawls.

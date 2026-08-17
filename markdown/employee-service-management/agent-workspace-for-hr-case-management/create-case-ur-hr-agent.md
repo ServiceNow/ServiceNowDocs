@@ -28,7 +28,7 @@ Role required: routing\_agent and sn\_hr\_core.case\_writer
 
 3.  Open the universal request record from which you want to create an HR case.
 
-4.  Click **Create HR case**.
+4.  Select **Create HR case**.
 
 5.  Fill in the required fields on the HR case form.
 
@@ -42,7 +42,7 @@ Role required: routing\_agent and sn\_hr\_core.case\_writer
     |Subject person|The subject person|
     |Work notes|Other notes if any|
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The HR case number appears in the **Primary Ticket** field on the universal request form, and the ticket is listed in the **Associated Tickets** related list. Also the universal request number from which the HR case is created appears in the **Universal Request** field on the HR case form.
 

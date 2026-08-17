@@ -15,10 +15,10 @@ breadcrumb: [Workflow Data Fabric Home, Workflow Data Fabric]
 
 Reference topics provide additional information about the terms, forms, and concepts that you use for Workflow Data Fabric Home.
 
--   **[Installed with Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-now-assist-for-wdf.md)**  
-Several tables are installed with activation of the Now Assist for Workflow Data Fabric \(WDF\) plugin.
+-   **[Installed with ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-now-assist-for-wdf.md)**  
+Several tables are installed with activation of the ServiceNow Otto for Workflow Data Fabric \(WDF\) plugin.
 -   **[oneExtend LLM skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/recommendation-skill.md)**  
-Now Assist for Workflow Data Fabric \(WDF\) includes the oneExtend LLM skill that guides you through integration setup.
+ServiceNow Otto for Workflow Data Fabric \(WDF\) includes the oneExtend LLM skill that guides you through integration setup.
 -   **[Workflow Data Fabric key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/key-terms-wdf.md)**  
 Key terms used in Workflow Data Fabric.
 -   **[Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-workflow-data-fabric.md)**  

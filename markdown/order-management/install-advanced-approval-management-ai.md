@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-29"
 reading_time_minutes: 2
-breadcrumb: [Configure, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Advanced Approval Management AI

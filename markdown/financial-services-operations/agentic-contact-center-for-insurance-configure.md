@@ -21,35 +21,35 @@ Configure Agentic Contact Center for Insurance by integrating your CCaaS provide
 
     Install the application.
 
--   [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md)
+-   
 
-    Integrate your CCaaS provider with Agentic Contact Center for Insurance. For more information, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contactcenter-integration.md).
+    Integrate your CCaaS provider with Agentic Contact Center for Insurance. For more information, see .
 
--   [Configure Interaction wrap-up codes and AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md)
+-   Configure Interaction wrap-up codes and AI skills
 
     Set up wrap-up codes and activate the Wrap Up Completion skill to enable AI-generated call summaries for your agents.
 
-    **Note:** The Wrap Up Completion skill is dependent on Now Assist for Customer Service Management \(CSM\).
+    **Note:** The Wrap Up Completion skill is dependent on ServiceNow Otto for Customer Service Management \(CSM\).
 
 -   [Configure AI indexing for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-agentic-contact-center-insurance.md)
 
     Configure AI indexing for the sources that the AI skills and agents use to retrieve data and perform analysis.
 
--   [Configure the insurance customer profile summarization AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-insurance-customer-profile-summarization.md)
+-   [Configure the insurance customer profile summarization AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-customer-profile-summarization.md)
 
     Review and configure the AI skill settings for customer profile summarization in the Customer 360 page.
 
--   [Configure the insurance customer interaction context summary AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-insurance-interaction-summary-skill.md)
+-   [Configure the insurance customer interaction context summary AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
 
     Review and configure the AI skill settings for the customer interaction context summary in the Interaction page.
 
     **Note:** This skill is dependent on the insurance customer profile summarization AI skill.
 
--   [Activate AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-fso-ai-agents.md)
+-   [Activate AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-ai-agents.md)
 
     Enable agentic AI support in the Customer 360 and Interaction pages.
 
--   [Configure Knowledge Graph tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-fso-ai-agents.md)
+-   [Configure Knowledge Graph tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-ai-agents.md)
 
     Review and configure the knowledge graph tags for each customer type to define the data sources for your AI agents.
 

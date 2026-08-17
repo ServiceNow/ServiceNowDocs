@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add and view the details of a lead
@@ -40,7 +40,7 @@ Use the Product Catalog tab to add products to your lead. To learn more, see [Ad
 **Related topics**  
 
 
-[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
 
 [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

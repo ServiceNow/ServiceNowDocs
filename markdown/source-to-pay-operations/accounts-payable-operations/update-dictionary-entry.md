@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, Antivirust scanning]
+keywords: [APO, Accounts Payable Operations, System Definition, Antivirus scanning, System Definition, table exclusions, table attributes]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

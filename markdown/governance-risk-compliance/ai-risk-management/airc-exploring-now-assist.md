@@ -90,7 +90,7 @@ Risk Assessment Summarization
 
 Analyze risk assessment data and generate natural language summaries of identified risks, trends, and patterns for specific AI systems. Provide executive-level insights and highlights critical risks requiring attention.For example, an AI Risk and Compliance Manager oversees several AI systems and is working on presenting findings to the Board Audit Committee. With Risk Assessment Summarization, assessment data is consolidated into executive insights highlighting regulatory, fairness, and operational risks across the portfolio. This enables the manager to present a brief strategic summary instead of a long form report, enabling swifter board decisions.
 
-For more information, see [Generate a risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/generate-risk-assessment-summary-genai.md).
+For more information, see [Generate an AI risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/generate-risk-assessment-summary-genai.md).
 
 </td><td>
 
@@ -120,7 +120,7 @@ Recommendation for similar control objectives
 
 Use this skill to automatically identify common control objectives across risk domains and reduce redundancy within the compliance library.For example, an AI Product Owner launches a new algorithmic trading AI system and needs applicable controls from an enterprise library. With Recommendation for Similar Control Objectives, the most relevant controls are recommended based on the system's risk profile. This enables the product owner to validate suggestions quickly, reducing control design time.
 
-For more information, see [Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/generate-recommendation-for-a-new-control-objective.md).
+For more information, see [Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/generate-recommendation-for-a-new-control-objective.md).
 
 </td><td>
 
@@ -136,7 +136,7 @@ After recommendations are reviewed and accepted, use this skill to create a new 
 
  For example, an AI Risk and Compliance Manager oversees AI models across different business functions. With Common Control Objective Creation, a few reusable control objectives are identified from the portfolio. This enables new AI projects to inherit existing controls from a central library, reducing governance design time.
 
- For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.md).
+ For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/take-actions-on-the-recommendations-for-similar-control-objectives.md).
 
 </td><td>
 

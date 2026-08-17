@@ -7,6 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-07-06"
 reading_time_minutes: 1
+keywords: [Playbooks in Recommended Actions, Recommended Actions, Playbooks action type, Create playbooks action type in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -28,7 +29,7 @@ For more information on playbooks, see [Playbooks in Customer Service Management
 
 -   **Playbook execution state**
 
-    The shared execution context of a playbook across users and sessions. When a playbook completes, the system automatically marks the related recommended action as completed. Multiple agents viewing the same recommended action, see a synchronized playbook state.
+    The shared execution context of a playbook across users and sessions. When a playbook completes, the system automatically marks the related recommended action as completed. Multiple agents viewing the same recommended action see a synchronized playbook state.
 
 -   **Execution history**
 

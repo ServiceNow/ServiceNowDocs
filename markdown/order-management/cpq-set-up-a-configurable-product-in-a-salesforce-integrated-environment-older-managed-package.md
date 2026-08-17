@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
 keywords: [configurable product, Salesforce integration, blueprint, CPQ]
-breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up configurable products, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in legacy Salesforce environment
@@ -31,7 +31,7 @@ A configurable product associates a blueprint with the configuration experience 
 
 2.  Enable external configuration by selecting **Enable External Configuration**.
 
-3.  Locate the Product2 record to connect to a ServiceNow CPQ configuration experience.
+3.  Locate the Product2 record to connect to a CPQ configuration experience.
 
 4.  Select the **Externally Configurable** check box for the product.
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, sap, foundation, model, integration, data hub, zero, copy, connector]
-breadcrumb: [Enterprise Data Foundation content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Enterprise Data Foundation, Available content packs, Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP SAP Foundation content pack models
@@ -39,6 +39,4 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) SAP Foundation 
 |Sales Area|Retrieve a list of sales areas. \(Sales Area is a combination of Sales Organization, Distribution Channel, and Division.\)|ERP|RFC/BAPI|
 |Storage Location|Retrieve a list of storage locations.|ERP|RFC/BAPI|
 |Valuation Area|Retrieve a list of valuation areas.|ERP|RFC/BAPI|
-
-**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

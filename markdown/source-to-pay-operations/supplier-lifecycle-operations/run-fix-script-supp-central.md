@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [ServiceNow Store, Fix Scripts, Supplier Collaboration Portal, Import XML, Add Supplier Roles, Run Fix Script]
 breadcrumb: [Enable access to Supplier Collaboration Portal, Post-upgrade tasks, Install Supplier Collaboration Portal, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

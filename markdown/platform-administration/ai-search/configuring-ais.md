@@ -107,6 +107,10 @@ A search application configuration specifies the search engine and settings to u
 Activate fuzzy numeric search to let users find indexed records by their Number field values without needing to enter alphabetic prefixes or leading zeroes.
 -   **[Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-search-result-card-opts.md)**  
 Customize display settings for Search Result EVAM \(Entity View Action Mapping\) cards in portal and non-portal AI Search applications.
+-   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/show-borders-search-result-cards-portal-search.md)**  
+Display borders between search result cards on the search results page for portal search applications.
+-   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/show-borders-search-result-cards-global-search.md)**  
+Display borders between search result cards on the global search results page.
 -   **[Enabling and configuring AI Search in ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-configure-apps-ais.md)**  
 Configure and use the AI Search engine in the Customer Service Management, Now Mobile, Service Portal, and Virtual Agent applications.
 -   **[Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-matcher-ais.md)**  

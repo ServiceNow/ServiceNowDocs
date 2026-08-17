@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-05"
-reading_time_minutes: 5
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+last_updated: "2026-08-07"
+reading_time_minutes: 6
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Opportunity Management
@@ -154,28 +154,7 @@ Add authorized service organizations or partner entities \(for example, referral
 -   Listed organization: Only for tracking purposes. No permissions to view, access, edit, or delete opportunity details
 
 </td></tr></tbody>
-</table>## Opportunity snapshot
-
-Opportunity Snapshot is an AI-enabled widget that appears on an opportunity record. It is a distinct panel provides sales agents and managers with an AI-generated summary and insights about the opportunity without reviewing all activity, contacts, and deal data on the record.
-
-The widget has two sections:
-
-1.  **Summary**: An at-a-glance summary of key deal information, including:
-
-    -   Deal size and scope \(number of users, contract value\)
-    -   Most recent meeting with the Champion \(title and recency\)
-    -   Most recent activity \(for example, a check-in email\) and when it occurred
-    This provides a brief summary of the deal status, drawn from opportunity fields, related activities, and contact data.
-
-2.  **Insights**: This section combines automated scoring with AI-generated deal intelligence:
-
-    -   Probability Score — A numerical score \(0–100\) representing the likelihood the opportunity will close. In the screenshot, the score is 64.
-    -   Numbered insight cards — Contextual, plain-language observations derived from opportunity signals, such as:
-        -   Competitor activity detected in recent meetings
-        -   Champion engagement patterns \(for example, being unresponsive, canceling demos\)
-        -   Benchmarks against similar deals \(for example, "Opportunities with similar stall patterns have 35% lower close rate at this stage"\)
-
-## Integrating pricing in Opportunity Management
+</table>## Integrating pricing in Opportunity Management
 
 Opportunity Management integrates with the pricing engine to consume the default price list and displays the total price and unit price of product offerings in your opportunity.
 
@@ -189,7 +168,33 @@ Pricing in Opportunity Management provides the following benefits:
 
 To learn more about pricing, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md).
 
+## AI capabilities that support Opportunity Management
+
+-   **Opportunity summary**
+
+    Generate an AI summary for an opportunity record that enables you to get synthesized information from emails, touchpoints, deal stage, line items, and more without opening every related activity, contact, or deal record. For more information, see [Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md).
+
+-   **Opportunity scores and insights**
+
+    Review AI-generated win probability scores and contextual insights for an opportunity to assess deal health and its probability to close. Use this to prioritize pipeline opportunities and identify risks. For more information, see [View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-opty-scores-insights.md).
+
+    Because opportunity scoring \(Probability to Close\) uses Predictive Intelligence and machine learning, you must train the ML model on the existing data. For more information, see [Set up ML-based opportunity scoring and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-opty-score-insights.md).
+
+-   **CRM conversational query**
+
+    Ask questions and issue commands to work on an opportunity in plain language using an MCP client such as Claude Desktop. For more information, see [CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/crm-conversational-query.md) and [Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md).
+
+
 ## What to explore next
 
-To learn about setting up Opportunity Management, see [Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md).
+The following topics provide more information about configuring and using Opportunity Management
+
+-   [Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+-   [Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+-   [Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
+
+The following topics provide links to resources for configuring and using AI capabilities with Opportunity Management
+
+-   [AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ai-capabilities-sales-crm.md)
+-   [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md)
 

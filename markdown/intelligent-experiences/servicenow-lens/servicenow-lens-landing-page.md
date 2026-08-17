@@ -1,6 +1,6 @@
 ---
 title: ServiceNow AI Lens
-description: With ServiceNow AI Lens, which is a ServiceNow Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows.
+description: With ServiceNow AI Lens, which is a ServiceNow AI application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Enable AI experiences]
 
 # ServiceNow AI Lens
 
-With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows.
+With ServiceNow AI Lens, which is a ServiceNow® AI application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows.
 
 ## Get started
 
@@ -38,8 +38,8 @@ With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can
 </td></tr></tbody>
 </table>**Important:**
 
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some ServiceNow AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some ServiceNow AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Don't scan any personally identifiable information, such as medical reports, financial reports, or other sensitive data, when using ServiceNow AI Lens as you don't want to expose the large language model \(LLM\) to any sensitive information.
 -   ServiceNow AI Lens currently uses Azure OpenAI GPT-4o LLM.
 
@@ -59,7 +59,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which ServiceNow Otto for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

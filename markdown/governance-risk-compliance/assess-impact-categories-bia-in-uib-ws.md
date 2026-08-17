@@ -55,15 +55,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 8.  To add an item to a dependency group, select one of the options.
 
-<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d59934e259">
+<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d60040e259">
 
 Step
 
-</th><th align="left" id="d59934e262">
+</th><th align="left" id="d60040e262">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59934e268">
+</th></tr></thead><tbody><tr><td id="d60040e268">
 
 **__Add__**
 
@@ -82,7 +82,7 @@ Add an item from all the records. The relationship source is BCM. All items from
 
  **Note:** The **Add** and **Add first level CMDB dependencies** actions are available only while the business impact analysis is in an editable state, such as **Draft** or **Returned**. After the business impact analysis is submitted and moves to the **Pending approval** state, these actions are no longer available, so you cannot add dependency items to the assessment in that state.
 
-</td></tr><tr><td id="d59934e349">
+</td></tr><tr><td id="d60040e349">
 
 **__Add first level CMDB dependencies__**
 
@@ -94,7 +94,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
  A sample assessment is shown in the example.\[Omitted image "first-level-of-dependencies.png"\] Alt text: Add first level CMDB dependencies.
 
-</td></tr><tr><td id="d59934e394">
+</td></tr><tr><td id="d60040e394">
 
 **__Update dependencies__**
 
@@ -102,7 +102,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
 Import all CMDB relationships manually in the respective categories that are defined in the instance.
 
-</td></tr><tr><td id="d59934e407">
+</td></tr><tr><td id="d60040e407">
 
 **Edit __Required Recovery Timeframe__ \(RTO\) for one dependency**
 
@@ -110,7 +110,7 @@ Import all CMDB relationships manually in the respective categories that are def
 
 If you have one dependency in the **Pending** state, you can update its RTO by updating the inline value in the **Required Recovery Timeframe** field as shown in the example.\[Omitted image "req-recovery-timeframe-inline.png"\] Alt text: Updating RTO for one dependency at a time.
 
-</td></tr><tr><td id="d59934e434">
+</td></tr><tr><td id="d60040e434">
 
 **Edit __Required Recovery Timeframe__ for multiple dependencies**
 
@@ -138,7 +138,7 @@ If the administrator has set the **Required Recovery Timeframe** field in the de
 
  Data from the Required Recovery Timeframe and Required Data Backup columns is now pulled into the BCP record.
 
-</td></tr><tr><td id="d59934e528">
+</td></tr><tr><td id="d60040e528">
 
 **Select __Complete__**
 
@@ -200,11 +200,11 @@ This is the final step. You must complete all the pending assessments before sel
 
         -   The new BIA that is copied from the original BIA has all the RTO, RPO impact, dependency assessment structural details similar to the original BIA.
         -   However, the impact category details for each of these assessments are editable for you to assess the dependency details exclusively for the copied BIA.
-        -   When a BIA that has the RTO or RPO impacted assessments completed is copied, the new copied BIA won't have the new assessment in the **Pending** state. If the impact categories of the RTO and RPO impact assessments in the original BIA are in the **Complete** state, then the impact categories in the copied BIA are in the **Complete** state.
+        -   When a BIA that has the RTO or RPO impacted assessments completed is copied, the new copied BIA won't have the new assessment in the **Pending** state. If impact categories of RTO and RPO impact assessments in original BIA are in **Complete** state, the impact categories in copied BIA are in the **Complete** state.
         -   Therefore, you must assess and enter the disruption duration, response, and required recovery timeframe relevant to the copied BIA.
         -   You can assess the details in the **Results** section. The RTO and RPO values are recalculated after you complete the assessments.
         -   Activities and Work notes are not copied to the new BIA. Enter this information relevant to the new BIA.
-        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button will not be copied over to the new BIA as the assessment data pertain to the original BIA. Since you have the flexibility to modify the assessment details in the copied BIA and generate a PDF, copying the PDF generated for the original BIA has no relevance.
+        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button is not copied to new BIA as the assessment data pertains to original BIA. Since you have flexibility to modify assessment details in the copied BIA and generate a PDF, copying the PDF generated for the original BIA has no relevance.
         **Note:** You can delete a BIA \(and its related tables\) that is in the **Draft** state. BCM planner and program manager can delete a BIA that is in the **In Review** and **Returned** states, whereas a BCM admin can delete a BIA irrespective of its state.
 
 

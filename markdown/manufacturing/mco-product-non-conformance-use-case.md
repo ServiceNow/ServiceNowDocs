@@ -1,6 +1,6 @@
 ---
 title: Product non-conformance use case
-description: Use case scenarios demonstrate when and how to use the Product non-conformance application to create and resolve the product non-conformance issue. It provides practical examples of common product non-conformance situations.
+description: Use case scenarios show how to resolve product non-conformance issues, from triage through escalation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-use-case.html
 release: australia
@@ -12,13 +12,11 @@ breadcrumb: [Quality management, Explore, Manufacturing Commercial Operations]
 
 # Product non-conformance use case
 
-Use case scenarios demonstrate when and how to use the Product non-conformance application to create and resolve the product non-conformance issue. It provides practical examples of common product non-conformance situations.
+Use case scenarios show how to resolve product non-conformance issues, from triage through escalation.
 
-## Scenario: Airbag Sensor Defect escalation
+## Airbag sensor defect escalation
 
 Alectri receives multiple dealer reports of unexpected airbag warning lights in 2024 Voltar VS vehicles. The quality team must triage, contain affected inventory, and escalate to deeper investigation — while facing these challenges:
-
-The quality team encounter some challenges:
 
 -   Ownership: no clear ownership for initial triage and assignment
 -   Visibility across network: difficulty identifying all impacted vehicles across the dealer network
@@ -30,7 +28,7 @@ The quality team encounter some challenges:
 
 Triage and Assignment: James, the quality triager, receives the non-conformance case.
 
-1.  Triage and Assign: Quality triager James reviews the dealer report and assigns the case to Sophie \(PNCC Resolver\) with clear accountability.
+1.  Triage and Assign: Quality triager James reviews the dealer report and assigns the case to Sophie, the Product Non-Conformance Case \(PNCC\) Resolver, with clear accountability.
 2.  Investigate and Document: Sophie reviews case details, confirms the issue pattern, and identifies 47 impacted vehicles across 12 dealerships.
 3.  Contain and Track: Sophie creates a containment action \(disable system, provide loaner vehicles\) and links it to each impacted asset. She records containment costs \(quarantine, diagnostics, loaner fees\).
 4.  Correct and Escalate: Sophie applies corrective actions \(sensor replacement, firmware updates\), closes the case, and escalates to Quality Investigation for cross-functional pattern analysis.

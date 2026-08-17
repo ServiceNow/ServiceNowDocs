@@ -20,7 +20,7 @@ Roles required: System Administrator \(to upload images to the database\), sn\_a
 
 ## About this task
 
-In this example, you will learn how to upload an image or shape to the database, create a diagram action for the image or shape, create an entity configuration, create a custom shape library, add a shape library element that maps the shape to the entity configuration, create a reference relationship between entities, and create a diagram using the shapes.
+In this example, you will learn how to upload an image or shape to the database and create a diagram action for it. You will also create an entity configuration, a custom shape library, and a shape library element that maps the shape to the entity configuration. Finally, you will create a reference relationship between entities and create a diagram using the shapes.
 
 Create the shapes that represent the elements you want to include in your diagrams. Ensure the images are clear, simple, and visually distinct. The compatible format is .SVG. In this example, we use the 'Database.svg' image.
 
@@ -66,7 +66,7 @@ Create the shapes that represent the elements you want to include in your diagra
 
 5.  Create an entity configuration to link the shape to a platform entity table.
 
-    An entity configuration defines the platform table that the shape represents. When you map an entity configuration to a shape library element, selecting the shape on the canvas opens a properties side panel that shows field data from the corresponding entity record. This step is required if you set the node type to **CI Item** in the previous step.
+    An entity configuration defines the platform table that the shape represents. When you map an entity configuration to a shape library element, selecting the shape on the canvas opens a properties side panel. The side panel shows field data from the corresponding entity record. This step is required if you set the node type to **CI Item** in the previous step.
 
     For field information, see [Entity configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-entity-config-form.md).
 
@@ -116,7 +116,7 @@ Create the shapes that represent the elements you want to include in your diagra
         -   Name — Enter a name for the shape to be displayed in the Enterprise Modeling and Visualization.
         -   Shape library — This field is automatically selected.
         -   Domain — Optional field.
-        -   Entity configuration — Select the entity configuration that you created in step 5. This field is required if you set the node type to **CI Item** in step 4. Selecting an entity configuration maps this shape to the corresponding platform entity table so that the properties side panel is displayed when the shape is selected on the canvas.
+        -   Entity configuration — Select the entity configuration that you created in step 5. This field is required if you set the node type to **CI Item** in step 4. Selecting an entity configuration maps this shape to the corresponding platform entity table. The properties side panel is displayed when the shape is selected on the canvas.
         \[Omitted image "custom-shape-library-element-form.jpg"\] Alt text: Shape library element form
 
     5.  Select **Save**.

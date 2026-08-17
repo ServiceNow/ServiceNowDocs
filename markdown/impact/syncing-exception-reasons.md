@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/syncing-exception-reasons.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-07-27"
 reading_time_minutes: 1
 breadcrumb: [Exception reason integration, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
@@ -16,9 +16,11 @@ Configure the Exception reason integration to automatically synchronize exceptio
 
 ## Before you begin
 
-My SN Instances registration and authentication must be complete before configuring this integration. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+My SN Instances registration and authentication must be complete before configuring this integration. Instance names must match the exact instance subdomain. For example, use `testservicesdev` not `DEV`. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
 
 Role required: sn\_se.scan\_engine\_admin
+
+\[Omitted image "exception-reasons-instance-setup.png"\]
 
 ## Procedure
 
@@ -27,6 +29,8 @@ Role required: sn\_se.scan\_engine\_admin
 2.  Select the **Exception reason** properties tab.
 
 3.  Configure the integration settings.
+
+    **Important:** Before enabling approvals, ensure your instances are registered in My SN Instances with the exact instance name matching your instance subdomain. For example, use `testservicesdev` not `DEV`. If the instance name is incorrect, the **Enable approvals in production** checkbox will remain greyed out. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md) for details.
 
     To require production approval before exception reasons take effect, select **Enable approvals in production** and specify one or more Approval Groups. Exception reasons will sync in a `Requested` state until approved or rejected.
 

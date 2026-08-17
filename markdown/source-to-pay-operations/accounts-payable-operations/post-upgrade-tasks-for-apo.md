@@ -1,6 +1,6 @@
 ---
 title: Post upgrade tasks for APO
-description: Review and complete required post-upgrade tasks after upgrading Accounts Payable Operations.Complete post-upgrade tasks after upgrading Accounts Payable Operations, including upgrading copied use cases to the latest Document Intelligence model.The invoice and invoice line tables are restructured in the Xanadu release.When you update the instance from Washington DC to Australia release, you must manually run the glide fix to update the invoice and invoice line tables to their respective base tables.Run a scheduled job to copy cost allocations from invoice line to purchase order line when upgrading Accounts Payable Operations from lower to higher version.
+description: Review and complete required post-upgrade tasks after upgrading Accounts Payable Operations.Complete post-upgrade tasks after upgrading Accounts Payable Operations, including upgrading copied use cases to the latest Document Intelligence model.The invoice and invoice line tables are restructured in the Xanadu release.When updating from Washington DC to Australia release, manually run the glide fix to update the invoice and invoice line tables to their respective base tables.Run the fix script after upgrading to the Australia to recalculate amounts and quantities for in-process invoices with Insufficient Goods Receipt and amount line and header variance conditions.Run a scheduled job to copy cost allocations from invoice line to purchase order line when upgrading Accounts Payable Operations from lower to higher version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.html
 release: australia
@@ -8,8 +8,8 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, upgrade, migration, invoice automation, APO, Accounts Payable Operations, DocIntel, Document Intelligence, AP case, integration, upgrade, migration, APO, Accounts Payable Operations, invoice management, invoice automation, AP automation, APO, Accounts Payable Operations, invoice management, upgrade, migration, APO, Accounts Payable Operations, invoice management, purchase order, PO, cost allocation, GL coding, admin]
+reading_time_minutes: 4
+keywords: [APO, Accounts Payable Operations, post-upgrade tasks, Accounts Payable management, upgrade checklist, APO, Accounts Payable Operations, DocIntel, Document Intelligence, AP case, Document Data Extraction, APO, Accounts Payable Operations, data migration, invoice line, invoice table, AP automation, Now Support Portal, APO, Accounts Payable Operations, invoice management, migrate existing data, invoice line table, Fix script, APO, Accounts Payable Operations, invoice exception, invoice processing, upgrade, migration, APO, Accounts Payable Operations, invoice management, purchase order, PO, cost allocation, admin]
 breadcrumb: [Upgrade Accounts Payable Operations, Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -63,7 +63,7 @@ After you upgrade from Washington DC to Australia release, verify that your exis
 
 ## Run a glide fix script to migrate existing data
 
-When you update the instance from Washington DC to Australia release, you must manually run the glide fix to update the invoice and invoice line tables to their respective base tables.
+When updating from Washington DC to Australia release, manually run the glide fix to update the invoice and invoice line tables to their respective base tables.
 
 ### Before you begin
 
@@ -141,6 +141,34 @@ Role required: maint
 
     The parent invoice and invoice line tables are changed to respective base tables.
 
+
+## Run fix script for exceptions
+
+Run the fix script after upgrading to the Australia to recalculate amounts and quantities for in-process invoices with Insufficient Goods Receipt and amount line and header variance conditions.
+
+### Before you begin
+
+Role required: AP admin
+
+### Procedure
+
+1.  Navigate to **Source-to-Pay Workspace** &gt; **All** &gt; **sysauto\_script.LIST** table.
+
+    The **Scheduled Script Executions** page appears.
+
+2.  Search for script "APM - Recalculate In-Process Invoice Amounts and Quantity".\[Omitted image "fix-script-exception.png"\] Alt text: Fix script for exceptions
+
+3.  Select **Execute Now** to run the fix script.
+
+
+### Result
+
+The script ensures invoices that are in-process state are re-calculated against amount and quantity as per the logic of Insufficient goods receipt, Insufficient line and header amount variance.
+
+**Related topics**  
+
+
+[Invoice exceptions]()
 
 ## Run scheduled job for cost allocation
 

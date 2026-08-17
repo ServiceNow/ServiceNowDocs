@@ -7,8 +7,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 11
+last_updated: "2026-08-17"
+reading_time_minutes: 12
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ The Settings page enables you to customize and manage high-level Discovery prope
 
 To access the Discovery Admin Workspace Settings page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0 or later. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.19.0. Specific version requirements are noted for individual features where applicable.
 
 ## General
 
@@ -78,7 +78,7 @@ The Anomaly Detection settings control how Discovery identifies and surfaces irr
 
 The IPAM settings manage how Discovery integrates with your IPAM sources, controlling schedule creation and connection behavior within the workspace. For more information, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
 
-**Important:** This feature requires Australia, Zurich Patch 8, Yokohama Patch 13, or later version of the ServiceNow AI Platform. You must also install and configure Service Graph Connector Central \(SGC Central\) v2.4.0, and Service Graph Connector for Infoblox v1.5.0. For more information, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configure-infoblox-integ.md).
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, the Zurich release starting with Patch 8, or the Yokohama release starting with Patch 13. You must also install and configure Service Graph Connector Central \(SGC Central\), starting with v2.4.0, and Service Graph Connector for Infoblox, starting with v1.5.0. For more information, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configure-infoblox-integ.md).
 
 -   **Auto-create Discovery schedules**
 
@@ -106,7 +106,7 @@ The IPAM settings manage how Discovery integrates with your IPAM sources, contro
 
     Enables you to view the IP address information imported from your IPAM solutions and understand how that data is organized for Discovery. This includes lists that show the IPs retrieved through your IPAM connections and how those IPs are mapped to auto-created schedules.
 
-    Select the **IP schedule mapping** link to access the IPAM Data page, which displays a list of the IPv6 addresses mapped to auto-created schedules.
+    Select the **IP schedule mapping** link to access the IP inventory page, where you can manage the IP ranges, networks, and IPAM data that Discovery relies on. For more information, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-ip-inventory.md).
 
     **Note:** This link displays only when auto-created schedules are enabled.
 
@@ -121,13 +121,13 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures through Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
-**Important:** This feature requires the Australia, Zurich, Yokohama Patch 6, or later version of the ServiceNow AI Platform. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, Zurich release, or the Yokohama released starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
 
 -   **Notification destinations**
 
     Enables you to configure where your team receives Discovery notifications to respond quickly to urgent anomalies, errors, and failures.
 
-    To integrate your Microsoft Teams channel or email for notifications, select **Configure** the first time you set up the integration, or use the **Edit** icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit credentials icon.\) to update it at any time. For Microsoft Teams, enter a channel name and URL in the corresponding fields.
+    To integrate your Microsoft Teams channel or email for notifications, select **Configure** the first time you set up the integration, or use the **Edit** icon \(\[Omitted image "workspace-icon-edit.png"\]\) to update it at any time. For Microsoft Teams, enter a channel name and URL in the corresponding fields.
 
     **Note:** The channel name is unique to Discovery Admin Workspace, but the channel URL must be obtained directly from Microsoft Teams.
 
@@ -149,7 +149,7 @@ Discovery notifications enable administrators to receive real-time alerts or dai
     -   **Critical anomalies**: Notifies you when anomaly detection identifies a schedule that has failed to run.
     -   **MID cluster down**: Notifies you when a Discovery-specific MID cluster goes down.
     -   **MID server down**: Notifies you when a Discovery-specific MID Server goes down.
-    To configure a notification, select the **Edit** icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit credentials icon.\) or the **Name** hyperlink. You can also use inline editing within the table.
+    To configure a notification, select the **Edit** icon \(\[Omitted image "workspace-icon-edit.png"\]\) or the **Name** hyperlink. You can also use inline editing within the table.
 
     By default, all Microsoft Teams and email notifications are enabled. The notification frequency is set to **Immediately** for all notifications, except critical anomalies, which is set to **Daily**.
 
@@ -158,12 +158,12 @@ Discovery notifications enable administrators to receive real-time alerts or dai
 
 The URL Discovery settings control how Agent Client Collector for Visibility \(ACC-VC\) collects web usage data from managed Windows and macOS devices. You can enable broad URL monitoring and manage targeted URLs to monitor from this page.
 
-**Important:** This feature requires the Australia, Zurich, Yokohama Patch 6, or later version of the ServiceNow AI Platform. Other app dependencies include:
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, Zurich release, or the Yokohama release starting with Patch 6. Other app dependencies include:
 
--   Software Asset Management Professional plugin \(com.snc.samp\).
--   ITOM URL Discovery v1.1.0 or later.
--   Discovery Admin Workspace v1.14.0 or later.
--   Agent Client Collector for Visibility \(ACC-VC\) v1.8.0 or later.
+-   Software Asset Management Professional plugin \(com.snc.samp\)
+-   ITOM URL Discovery, starting with v1.1.0
+-   Discovery Admin Workspace, starting with v1.14.0
+-   Agent Client Collector for Visibility \(ACC-VC\), starting with v1.8.0
 
 The browser extension must be enabled on the host.
 

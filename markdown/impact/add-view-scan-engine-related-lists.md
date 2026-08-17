@@ -1,30 +1,28 @@
 ---
-title: Configure Scan Engine instance integration settings
-description: You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to implement its various scanning types.
+title: Define My SN Instance environments
+description: Configure instance integration settings to define the different environments for your ServiceNow instances and to take advantage of exception processing, definition syncing, and user story tracking in Impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/add-view-scan-engine-related-lists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+reading_time_minutes: 1
+breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Configure Scan Engine instance integration settings
+# Define My SN Instance environments
 
-You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to implement its various scanning types.
+Configure instance integration settings to define the different environments for your ServiceNow instances and to take advantage of exception processing, definition syncing, and user story tracking in Impact.
 
 Role required: Scan Engine admin and Impact admin.
 
 ## System properties
 
-These are the properties specifically created by the Scan Engine application upon installation. Modification of these properties is performed using standard procedures in ServiceNow.
+These are the properties specifically created by the Scan Engine application during installation.
 
 ## My SN Instances
 
 Each record indicates an instance connected to the current instance through API integrations.
-
-**Note:** You must configure this to take advantage of exception processing, definition syncing, and user story tracking in Production.
 
 1.  To add an instance to the list, select **New**.
 2.  Configure the following fields and settings.
@@ -92,7 +90,7 @@ Connection Status
     -   Connection Invalid
     -   API User is missing role
     -   User not setup on target instance
-These values help diagnose integration issues, as well as help with corrective actions.
+These values help diagnose integration issues, and help with corrective actions.
 
 </td></tr><tr><td>
 
@@ -100,7 +98,7 @@ Authentication Type
 
 </td><td>
 
-The instance’s authentication type:
+The instance authentication type:
 
  -   Basic
 -   OAuth
@@ -112,9 +110,7 @@ API Credential Config
 
 </td><td>
 
--   This field references the credential record used for authentication when **Basic** is selected as the Authentication Type.
--   It typically points to a Basic Auth credential stored securely in the system.
-
+This field references the credential record used for authentication when **Basic** is selected as the Authentication Type.**Note:** This value typically points to a Basic Auth credential stored securely in the system.
 
 </td></tr><tr><td>
 
@@ -123,7 +119,7 @@ OAuth Application Registry
 </td><td>
 
 -   The OAuth application registry used for cross-instance integrations.
--   This field is only available if **OAuth** was selected as the **Authentication Type**.
+-   This field is only available if **OAuth** is selected as the **Authentication Type**.
 
 
 </td></tr><tr><td>
@@ -138,5 +134,5 @@ The OAuth user profile used for cross-instance integrations.
 </table>
 **Note:** See [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md) for details on integration setup.
 
-**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
 

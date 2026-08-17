@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Configurations
@@ -22,7 +22,7 @@ The **Configurations** page contains the following sections to manage the workfl
 
 -   [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md)
 -   [Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/controls.md)
--   [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/multi-instance-management.md)
+-   [Multi-Instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/multi-instance-management.md)
 -   [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-discovery-setup.md)
 -   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/playbooks.md)
 

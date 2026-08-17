@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accessmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -125,7 +125,7 @@ Existing custom query ACLs are preserved and loaded as inactive. To view inactiv
 
 QueryRangeACLAuditor tool modifications are preserved.
 
--   **[ACL rule types](https://www.servicenow.com/docs/access?context=acl-rule-types&family=australia&ft:locale=en-US)**
+-   **[ACL types](https://www.servicenow.com/docs/access?context=acl-rule-types&family=australia&ft:locale=en-US)**
 
 Core field and datatype ACLs are replaced with more comprehensive rules to optimize ACL volume.
 
@@ -377,7 +377,7 @@ Early Availability
 -   Use new preconfigured query ACLs for most platform plugins, as part of ongoing security risk mitigation. These base system ACLs significantly reduce the need to run the QueryRangeACLAuditor tool.
 -   Use Access Findings, the proactive detection and remediation layer within Access Management Console, to run eight base system access checks against your instance on a daily schedule. This surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow including AI-powered guidance.
 
- See [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&family=australia&ft:locale=en-US) for more information.
+ See [Access Control Lists \(ACLs\)](https://www.servicenow.com/docs/access?context=access-control-rules&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

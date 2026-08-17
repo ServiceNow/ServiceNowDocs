@@ -30,15 +30,15 @@ While addressing the Operational vulnerability, an issue can be in the open stat
 
 3.  Select the Issues related list and add or create an issue.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d288556e108">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d289299e108">
 
 Option
 
-</th><th align="left" id="d288556e111">
+</th><th align="left" id="d289299e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d288556e117">
+</th></tr></thead><tbody><tr><td id="d289299e117">
 
 **To add an existing issue**
 
@@ -49,13 +49,13 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d288556e143">
+</td></tr><tr><td id="d289299e143">
 
 **To create an issue**
 
 </td><td>
 
-Create an issue. Follow the steps in the [Create New Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
+Create an issue. Follow the steps in the [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

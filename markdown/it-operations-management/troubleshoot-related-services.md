@@ -7,7 +7,7 @@ release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Troubleshoot synthetic monitors, Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Troubleshoot, Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Impacted Service not appearing in alerts

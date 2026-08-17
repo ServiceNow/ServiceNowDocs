@@ -19,7 +19,7 @@ Learn more about the Contract Management Pro application through a sample workfl
 
 ## Contract Management Pro overview
 
-Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
 
 ## Contract Management Pro users
 
@@ -85,7 +85,7 @@ A workflow for non-self-served contract request might progress as follows:
 |[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)|Integration with external storage and electronic signature providers.|Contract configurator|
 |[Contracts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contracts-dashboard.md)|Get an insight on the volume of contract requests that are handled by your team.|Contract fulfiller|
 |[Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-workspace.md)|Work with actionable widgets to categorize, prioritize, and efficiently work on contract requests.|Contract user or Contract fulfiller|
-|[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)|Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and to extract information from signed contracts to add in the contract repository.|Now Assist contract fulfiller|
+|[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)|Use ServiceNow Otto for Contract Management Pro to analyze contracts for non-standard and missing clauses, and to extract information from signed contracts to add in the contract repository.|AI contract fulfiller|
 
 ## What to explore next
 
@@ -93,7 +93,7 @@ To learn more about configuring and using Contract Management Pro, see:
 
 -   [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 -   [Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
--   [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+-   [ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 -   [Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 -   [Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 

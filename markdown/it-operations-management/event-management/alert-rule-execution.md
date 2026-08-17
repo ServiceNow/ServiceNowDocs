@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert executions information
@@ -28,7 +28,7 @@ In the Alert Management Rule record, the Alert Executions list shows key related
 
 The columns in the Alert Executions list are populated with details of the alerts that matched the alert management rule and the actions that ran. The listed alerts match the filter in the rule.
 
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 -   **[View alert execution information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-alert-execution-information.md)**  
 You can click any link in the Alert Executions list to view the alert execution information of the referenced item. This information appears in the Alert Management Rule record only after an alert matched the filter in the rule and an action was performed.

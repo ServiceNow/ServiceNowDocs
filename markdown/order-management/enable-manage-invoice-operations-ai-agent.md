@@ -1,25 +1,25 @@
 ---
 title: Configure AI-assisted invoice dispute intake on the Business Portal
-description: Activate and associate the invoice dispute intake assistant AI agent on the Business Portal so that your customers can submit invoice cases autonomously using Now Assist Virtual Assistant.
+description: Activate and associate the invoice dispute intake assistant AI agent on the Business Portal so that your customers can submit invoice cases autonomously using ServiceNow Otto Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enable-manage-invoice-operations-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management, Sales Customer Relationship Management]
+breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure AI-assisted invoice dispute intake on the Business Portal
 
-Activate and associate the invoice dispute intake assistant AI agent on the Business Portal so that your customers can submit invoice cases autonomously using Now Assist Virtual Assistant.
+Activate and associate the invoice dispute intake assistant AI agent on the Business Portal so that your customers can submit invoice cases autonomously using ServiceNow Otto Virtual Agent.
 
 ## Before you begin
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
-Activate and enable a chat assistant such as Now Assist in Virtual Agent to use in the Business Portal. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+Activate and enable a chat assistant such as ServiceNow Otto in Virtual Agent to use in the Business Portal. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 Role required: sn\_aia.admin
 
@@ -37,9 +37,9 @@ Role required: sn\_aia.admin
 
 6.  On the Select channels and status page, set the **Engage via Virtual Agent assistants** option to **Allow**.
 
-7.  To specify where this AI agent is discoverable, select a virtual assistant from the **Choose chat assistants** field.
+7.  To specify where this AI agent is discoverable, select Virtual Agent from the **Choose chat assistants** field.
 
-    For this use case, select **Now Assist in Virtual Agent \(Default\)**.
+    For this use case, select **ServiceNow Otto for Virtual Agent \(default\)**.
 
 8.  Select **Save and test**.
 
@@ -56,12 +56,12 @@ Role required: sn\_aia.admin
 
 The chat assistant is activated in the Business Portal.
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 
 
-[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 
 [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/promote-demote-va-topics.md)
 

@@ -28,15 +28,15 @@ You can create a similar tasks group and add tasks to it only in the **Draft** s
 
 2.  To create a similar event tasks group, use one of these options.
 
-<table id="choicetable_xf2_jyr_shc"><thead><tr><th align="left" id="d247172e93">
+<table id="choicetable_xf2_jyr_shc"><thead><tr><th align="left" id="d247662e93">
 
 Action
 
-</th><th align="left" id="d247172e96">
+</th><th align="left" id="d247662e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d247172e102">
+</th></tr></thead><tbody><tr><td id="d247662e102">
 
 **Choose similar event tasks in the __Event tasks__ tab and select the __Create similar tasks group__ UI action.**
 
@@ -46,7 +46,7 @@ Description
 2.  Verify that the group is created and shows up in the Similar tasks groups list.
 \[Omitted image "event-tasks-from-event-task-tab.png"\] Alt text: Event tasks tab.
 
-</td></tr><tr><td id="d247172e132">
+</td></tr><tr><td id="d247662e132">
 
 **Add event tasks from the __Similar tasks groups__ tab.**
 
@@ -60,7 +60,7 @@ Complete these steps: 1.  Select **New** in the **Similar tasks groups** tab and
 Applicable event tasks are added to the Similar tasks group.**Note:** When you select **Add** in the **Event tasks** tab, the modal displays only applicable event tasks, helping to prevent cyclic dependencies.
 
 </td></tr></tbody>
-</table>    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task cannot be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 is dependent on task 4, then task 5 cannot be added into the same group as task 4 as shown in the example.
+</table>    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task can't be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 depends on it, task 5 can't be added to the same group.
 
     \[Omitted image "event-task-cyclic-check.png"\] Alt text: Cyclic check.
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist]
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Generate work order resolution notes on mobile
@@ -19,5 +19,5 @@ Agents can generate resolution notes for work order tasks that are assigned to t
 
 For more information on how to generate work resolution notes, see [Generate work order task closure summaries in ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/generate-close-now-assist-fsm.md).
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

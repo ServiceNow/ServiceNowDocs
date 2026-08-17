@@ -274,6 +274,14 @@ Date on which the order will be completed.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -1094,7 +1102,8 @@ Response body.
       "href": "/api/sn_ind_tmt_orm/order/productOrder/8d75939453126010a795ddeeff7b126a",
       "ponr": "false",
       "orderCurrency": "USD",
-      "expectedCompletionDate": "2021-05-02T08:13:59.000Z",
+      "expectedCompletionDate": "2021-05-02T08:13:59.000Z", 
+      "externalId": "PO-456",
       "requestedCompletionDate": "2021-05-02T08:13:59.000Z",
       "requestedStartDate": "2020-05-03T08:13:59.000Z",
       "channel": [
@@ -1667,6 +1676,14 @@ expectedCompletionDate
 </td><td>
 
 Date on which the order will be completed.Data type: String
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
 
 </td></tr><tr><td>
 
@@ -2326,6 +2343,7 @@ Response body.
       "id": "8d75939453126010a795ddeeff7b126a",
       "ponr": "false",
       "expectedCompletionDate": "2021-05-02T08:13:59.000Z",
+      "externalId": "PO-456",
       "requestedCompletionDate": "2021-05-02T08:13:59.000Z",
       "requestedStartDate": "2020-05-03T08:13:59.000Z",
       "channel": [
@@ -2784,6 +2802,14 @@ expectedCompletionDate
 </td><td>
 
 Date on which the order will be completed.Data type: String
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
 
 </td></tr><tr><td>
 
@@ -3440,6 +3466,7 @@ Response body.
   "id": "8d75939453126010a795ddeeff7b126a",
   "ponr": "false",
   "expectedCompletionDate": "2021-05-02T08:13:59.000Z",
+  "externalId": "PO-456",
   "requestedCompletionDate": "2021-05-02T08:13:59.000Z",
   "requestedStartDate": "2020-05-03T08:13:59.000Z",
   "channel": [
@@ -4917,7 +4944,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3288e1801">
+</td><td id="d3138e1801">
 
 Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
@@ -7011,7 +7038,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3288e1801">
+</td><td id="d3138e1801">
 
 Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 

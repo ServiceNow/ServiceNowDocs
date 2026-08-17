@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-ordermanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 9
+last_updated: "2026-08-17"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -125,7 +125,7 @@ Enables order agents to quickly view, add, and edit manual price adjustments for
 
 -   **[Summarization for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-mgmt-summarize-order&family=zurich&ft:locale=en-US)**
 
-Summarizes complex orders across products, services, and fulfillment tasks. This helps agents quickly understand status, take the right actions, and avoid navigating fragmented views. This results in easier next steps and improved productivity. For more information, see the [Now Assist for Order Management release notes](https://www.servicenow.com/docs/access?context=now-assist-order-management-rn&family=zurich&ft:locale=en-US).
+Summarizes complex orders across products, services, and fulfillment tasks. This helps agents quickly understand status, take the right actions, and avoid navigating fragmented views. This results in easier next steps and improved productivity. For more information, see the [ServiceNow Otto for Order Management release notes](https://www.servicenow.com/docs/access?context=now-assist-order-management-rn&family=zurich&ft:locale=en-US).
 
 
 -   **[Support for complex characteristics for orders](https://www.servicenow.com/docs/access?context=som-using&family=zurich&ft:locale=en-US)**
@@ -133,7 +133,7 @@ Summarizes complex orders across products, services, and fulfillment tasks. This
 Take advantage of the following complex characteristics for orders:
 
     -   Define complex characteristics for product offerings and specifications using object structures, data arrays, and other data input types such as String, Integer, Date, DateTime, and Decimal. For more information, see [Defining characteristics and options](https://www.servicenow.com/docs/access?context=defining-prod-characteristics&family=zurich&ft:locale=en-US).
-    -   Define compatibility, decomposition, and attribute propagation rules based on conditions that use characteristics at any level of a complex attribute hierarchy. For more information, see [Create a compatibility rule](https://www.servicenow.com/docs/access?context=create-compatibility-rules&family=zurich&ft:locale=en-US), [Decomposition rules](https://www.servicenow.com/docs/access?context=order-mgt-create-decomposition-rules&family=zurich&ft:locale=en-US), and [Domain order](https://www.servicenow.com/docs/access?context=define-domain-order-attributes&family=zurich&ft:locale=en-US).
+    -   Define compatibility, decomposition, and attribute propagation rules based on conditions that use characteristics at any level of a complex attribute hierarchy. For more information, see [\[Placeholder link text to key bundle-omgmt.create-compatibility-rules\]](https://www.servicenow.com/docs/access?context=create-compatibility-rules&family=zurich&ft:locale=en-US), [Decomposition rules](https://www.servicenow.com/docs/access?context=order-mgt-create-decomposition-rules&family=zurich&ft:locale=en-US), and [Domain order](https://www.servicenow.com/docs/access?context=define-domain-order-attributes&family=zurich&ft:locale=en-US).
 -   **[Order header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-an-order&family=zurich&ft:locale=en-US)**
 
 Provide order agents with the ability to apply discounts across multiple order lines with a single action through an order header discount feature. This feature streamlines discounting workflows, improves pricing consistency, and helps speed up order processing for large complex deals.
@@ -155,7 +155,7 @@ Calculate pricing and quantity changes during MACD activities and renewals by de
 
 View price and quantity ramps directly on order line items to model planned changes over time within a single order, providing visibility into pricing changes without managing multiple orders. For more information, see the [Product Catalog Management and Pricing Management release notes](https://www.servicenow.com/docs/access?context=product-catalog-pricing-management-rn&family=australia&ft:locale=en-US)
 
--   **[Manage order updates with Now Assist](https://www.servicenow.com/docs/access?context=bulk-update-order-lines-with-now-assist&family=australia&ft:locale=en-US)**
+-   **[Manage order updates with ServiceNow Otto](https://www.servicenow.com/docs/access?context=bulk-update-order-lines-with-now-assist&family=australia&ft:locale=en-US)**
 
 Use a conversational AI assistant to improve order triage and resolution. The assistant understands order context and supports guided actions such as updating shipping addresses and quantities across order line items.
 
@@ -168,6 +168,15 @@ Capture Deal Type \(Direct or Indirect\) and Route to Market on every order to e
 
 Create and track tasks at the order and top order line level, independent of order line items, across all stages of the order lifecycle from pre-decomposition through post-fulfillment to support operational tasks such as customer onboarding, compliance review, approval tracking, customer notifications, and post-activation follow-up.
 
+
+-   **[Derived pricing on order line items](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=australia&ft:locale=en-US)**
+
+Improve pricing accuracy by letting the system automatically manage derived order lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing and copying on system-generated lines to preserve pricing integrity.
 
 </td></tr></tbody>
 </table>## Changes
@@ -531,6 +540,7 @@ Australia
 -   Enable agents and customers to make faster, more confident decisions on orders by instantly seeing the impact of price and quantity changes, ensuring clarity on what's owed for every update.
 -   Improve order approval accuracy by validating contract start and end dates and terms for recurring and entitlement orders, while preventing contract dates from being set on one-time orders. This helps orders process correctly the first and contract obligations to be properly tracked.
 -   Enhance the Order management \(OM\) integration with Strategic Portfolio Management \(SPM\) for in-flight orders to support projects for site and maintain program project and sub-project hierarchy.
+-   Improve pricing accuracy on orders by automatically adding, updating, and removing system-generated lines in response to pricing rule changes, without requiring manual edits.
 -   Enable visibility into all entities involved in a deal by viewing billing, shipping, entitlement, and partner details on the customer order.
 -   Enable order agents to create, track, and complete order-level tasks at the order header and top order line item level, with support for dependent task chains that automatically sequence work across submission, post-approval, and post-fulfillment stages.
 

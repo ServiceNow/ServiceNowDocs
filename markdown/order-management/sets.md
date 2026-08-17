@@ -1,18 +1,18 @@
 ---
 title: Configure sets
-description: Sets group related fields into repeatable collections, allowing administrators to streamline configurations and reduce redundancy. They enable dynamic, table-like data entry, support aggregates, and simplify managing repeated questionnaires or configurable options in ServiceNow CPQ.
+description: Sets group related fields into repeatable collections, allowing administrators to streamline configurations and reduce redundancy. They enable dynamic, table-like data entry, support aggregates, and simplify managing repeated questionnaires or configurable options in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure sets
 
-Sets group related fields into repeatable collections, allowing administrators to streamline configurations and reduce redundancy. They enable dynamic, table-like data entry, support aggregates, and simplify managing repeated questionnaires or configurable options in ServiceNow CPQ.
+Sets group related fields into repeatable collections, allowing administrators to streamline configurations and reduce redundancy. They enable dynamic, table-like data entry, support aggregates, and simplify managing repeated questionnaires or configurable options in CPQ.
 
 [Sets introduction](https://www.youtube.com/watch?v=1Wt_GYaSr7Y&t=2s)
 
@@ -87,7 +87,7 @@ Give your new set a name and choose from the size types.
 The size type cannot be changed after the set is saved. Therefore, keep the following in mind:
 
 -   The set field determines the number of records that will be displayed in the set. This numeric field can be visible and edited by a user or set by determination action, as the case requires.
--   The associated picklist leverages a picklist field to determine how many records to show in the set. When this option is selected, the admin must identify the field that will drive the set size. When the set type is Associated Picklist, ServiceNow CPQ creates two additional fields in the set:
+-   The associated picklist leverages a picklist field to determine how many records to show in the set. When this option is selected, the admin must identify the field that will drive the set size. When the set type is Associated Picklist, CPQ creates two additional fields in the set:
 
     -   Option Value: The value of each option in the set, represented as a read-only text field.
     -   Select Option: Tracks whether each option of the picklist is selected.

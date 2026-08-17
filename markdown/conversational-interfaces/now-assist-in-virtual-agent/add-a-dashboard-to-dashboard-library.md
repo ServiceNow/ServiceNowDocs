@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2026-02-17"
 reading_time_minutes: 1
-breadcrumb: [Related dashboards page, Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Related dashboards page, Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a dashboard to dashboard library

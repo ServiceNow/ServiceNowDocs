@@ -1,5 +1,5 @@
 ---
-title: Generate insights for a goal in Strategic Planning Workspace using Now Assist for SPM
+title: Generate insights for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM
 description: Review AI-generated insights to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/generate-insights-for-goal-spw.html
@@ -7,18 +7,18 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Generate insights for a goal in Strategic Planning Workspace using Now Assist for SPM
+# Generate insights for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM
 
 Review AI-generated insights to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user or sn\_gf.goal\_admin\)
 
@@ -29,8 +29,6 @@ The Goal insights skill analyzes the goal, its targets, subgoals, and aligned wo
 The skill analyzes the real-time data — including check-in patterns, comments, and planned versus actual progress — to forecast goal status and surface proactive recommendations.
 
 **Note:** Only the owner or contributors of the goal can generate insights for the goal.
-
-\[Omitted image "generate-goal-insights-goal-spw.gif"\] Alt text: Generate goal insights in Strategic Planning Workspace using Goal insights skill.
 
 ## Procedure
 
@@ -50,7 +48,7 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 
 6.  Select **Show insights**.
 
-    The Goal insights side pane appears processing the insights for the goal. After a while, the Insights by Now Assist pane shows the insights for the goal including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations.
+    The Goal insights side pane appears processing the insights for the goal. After a while, the Insights by AI pane shows the insights for the goal including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations.
 
 7.  Review AI-generated insights to identify risk, assess forecasted statuses, and act on recommendations before goals fall off track.
 

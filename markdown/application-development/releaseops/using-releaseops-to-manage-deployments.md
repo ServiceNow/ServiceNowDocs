@@ -42,6 +42,10 @@ Specify the details for your release, including the target instance that the cha
 Create a runbook task to pause deployment and define the steps required to proceed.
 -   **[Reconcile a deployment task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/reconcile-deployment-task.md)**  
 Reconcile a deployment task to enable a deployment request to move to the next stage in deployment.
+-   **[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-release-notes.md)**  
+Generate release notes to document app changes and versions over time.
+-   **[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-update-set-description.md)**  
+Generate an update set description to quickly communicate the intent and scope of changes.
 
 **Parent Topic:**[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md)
 

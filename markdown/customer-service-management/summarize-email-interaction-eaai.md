@@ -1,6 +1,6 @@
 ---
 title: Summarize an email interaction
-description: Use ServiceNow Otto to generate an AI summary of an email interaction, giving agents a concise overview of customer issues, conversation context, and action items without reading through entire email threads.
+description: Use ServiceNow Otto to generate an AI summary of an email interaction. Agents get a concise overview of customer issues, conversation context, and action items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/summarize-email-interaction-eaai.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Custo
 
 # Summarize an email interaction
 
-Use ServiceNow Otto to generate an AI summary of an email interaction, giving agents a concise overview of customer issues, conversation context, and action items without reading through entire email threads.
+Use ServiceNow Otto to generate an AI summary of an email interaction. Agents get a concise overview of customer issues, conversation context, and action items.
 
 ## Before you begin
 
@@ -33,15 +33,15 @@ The Summarize this interaction section displays differently depending on the int
 
 -   **__New__**
 
-    The Summarize this interaction section appears with a **Summarize** button. No summary has been generated yet. Select **Summarize** to generate the summary.
+    The Summarize this interaction section appears with a **Summarize** button. No summary has been generated . Select **Summarize** to generate the summary.
 
 -   **__Work in Progress__**
 
-    If a summary has already been generated, the Interaction Summary card displays automatically showing components such as Issue, Key Actions Taken, and Next Steps. Select the refresh icon to regenerate the summary if the email thread has changed.
+    If a summary has already been generated, the Interaction Summary card displays automatically, showing components such as Issue, Key Actions Taken, and Next Steps. Select the refresh icon to regenerate the summary if the email thread has changed.
 
 -   **__Closed__ or __Closed Complete__**
 
-    The Interaction Summary card displays the last generated summary. The Check AI-generated content for accuracy message appears below the summary with thumbs-up and thumbs-down feedback controls.
+    The Interaction Summary card displays the last generated summary. The `Check AI-generated content for accuracy` message appears below the summary with thumbs-up and thumbs-down feedback controls.
 
 
 ## Procedure
@@ -64,7 +64,7 @@ The Summarize this interaction section displays differently depending on the int
 
 ## Result
 
-The AI summary provides a structured overview of the email interaction, including customer issues, key conversation points, action items, and resolution status, helping agents respond to customer issues more efficiently.
+The AI summary provides a structured overview of the email interaction, including customer issues, key conversation points, action items, and resolution status. This helps agents respond more efficiently.
 
 ## What to do next
 

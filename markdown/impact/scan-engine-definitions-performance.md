@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-performance.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 17
-breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
+last_updated: "2026-08-17"
+reading_time_minutes: 18
+breadcrumb: [Scan Engine definitions, Impact reference, Impact]
 ---
 
 # Scan Engine definitions: Performance
@@ -96,4 +96,6 @@ The following performance definitions have been added for the Australia 2026 rel
 |sn\_SE10582|1|Recommend| |Use the condition field in Business Rules|Performance is affected when conditions are defined in the script rather than the condition builder.|Remove the condition from the script and add it to the condition field.|[Documentation](https://developer.servicenow.com/dev.do%23!/guides/servicenow/now-platform/tpb-guide/business_rules_technical_best_practices)|
 |sn\_SE10595|1|Act| |Performance Analytics Automated Indicators should have valid conditions|The data collected will be invalid, which would skew the results.|Fix the broken condition in the automated indicator.|[Documentation](https://www.servicenow.com/docs/access?context=automated-indicators)|
 |sn\_SE10612|1|Suggest| |Remove unused services from client controller.|Unused services serve no purpose within the script and may affect performance.|Review and remove services that are not used within the widget.|[Documentation](https://www.servicenow.com/docs/access?context=widget-best-practices)|
+
+**Parent Topic:**[Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md)
 

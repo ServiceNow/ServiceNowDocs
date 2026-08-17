@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Disable Document Viewer at the instance level or for specific tables.
 
-<table id="choicetable_ehk_xyh_43b"><thead><tr><th align="left" id="d33581e67">
+<table id="choicetable_ehk_xyh_43b"><thead><tr><th align="left" id="d33584e67">
 
 Option
 
-</th><th align="left" id="d33581e70">
+</th><th align="left" id="d33584e70">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33581e76">
+</th></tr></thead><tbody><tr><td id="d33584e76">
 
 **Disable Document Viewer at the instance level**
 
@@ -43,7 +43,7 @@ Description
 3.  Click **Update**.
 
 
-</td></tr><tr><td id="d33581e109">
+</td></tr><tr><td id="d33584e109">
 
 **Disable Document Viewer at the table level**
 

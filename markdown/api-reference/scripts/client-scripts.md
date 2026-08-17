@@ -31,7 +31,7 @@ Client scripts are intended to optimize the user experience on a form. Client sc
 
 To prevent unwanted access to data, ensure that sensitive fields are hidden or read-only through ACLs or data policies.
 
-For more information, see [Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) or [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
+For more information, see [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) or [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
 
 ## Where client scripts run
 

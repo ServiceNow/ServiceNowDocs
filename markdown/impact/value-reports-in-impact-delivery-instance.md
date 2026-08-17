@@ -16,7 +16,11 @@ Your impact squad can work with you to calculate the operational or monetized va
 
 To access the value report in Impact Delivery Instance, navigate to **Impact** &gt; **Value Management** &gt; **Value reports**.
 
-You may work with your squad to assess overall value realized with ServiceNow \(comparing pre- and post-implementation performance\) if you are able to provide pre-ServiceNow baseline information for the success metrics.
+**Note:** A product needs at least two years of data available before a Value Report can be generated for it.
+
+You may work with your squad to assess overall value realized with ServiceNow \(comparing pre and post-implementation performance\) if you can provide pre-ServiceNow baseline information for the success metrics.
+
+**Note:** Each Value Report reflects a single outcome model, either Standard or Enhanced, never a combination of the two. Since the outcome model is selected before outcomes are chosen, a product tracked under both models results in two separate reports, one for each model.
 
 You may have already initiated ongoing data collection for these key success metrics through your Quarterly Review Cycle. If not, however, your Impact squad will work with you to provide an overview of data collection options to support this process of ongoing value management.
 
@@ -63,7 +67,7 @@ Value reporting actuals
 </td></tr></tbody>
 </table>## Upgrade to the Impact Store Application
 
-This feature is in the Impact Delivery Instance Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 

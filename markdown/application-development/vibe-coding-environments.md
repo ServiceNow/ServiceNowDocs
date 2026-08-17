@@ -43,11 +43,11 @@ Use Developer Sandboxes to eliminate change conflicts, enable branching and merg
 Agentic development works with Developer Sandboxes in the following ways:
 
 -   Agentic development accelerates app creation, while Developer Sandboxes provide a safe space to experiment with AI-generated changes.
--   Every AI-assisted change in a sandbox can be tracked, previewed, and rolled back to maintain governance and compliance.
+-   Every agentic change in a sandbox can be tracked, previewed, and rolled back to maintain governance and compliance.
 
 For more information on Developer Sandboxes, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
 
-## PDIs and AI-assisted development
+## PDIs and agentic development
 
 A Personal Developer Instance \(PDI\) is a free, standalone ServiceNow instance provided for personal use and experimentation. It is not connected to a customer’s production environment and is controlled by ServiceNow. PDIs are empty instances where developers set up apps and data from scratch.
 

@@ -38,7 +38,9 @@ For more information on support levels, see [Application support for domain sepa
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
-[SPO and ITAM data model mappings]()
+[SPO and Asset Management data model mappings]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
 

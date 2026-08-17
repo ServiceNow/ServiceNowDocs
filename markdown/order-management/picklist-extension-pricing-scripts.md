@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The Picklist Extension Pricing enrichment
@@ -24,7 +24,7 @@ Picklist extension fields need to have the "Enable for enrichment" toggle turned
 
 \[Omitted image "cpq-enrichments-enable-for-enrichment.png"\] Alt text: Picklist extension fields
 
-The enrichments tab will be shown when navigating to a blueprint in the ServiceNow CPQ Admin.
+The enrichments tab will be shown when navigating to a blueprint in the CPQ Admin.
 
 \[Omitted image "cpq-enrichments-in-blueprint.png"\] Alt text: Picklist extension fields
 
@@ -137,5 +137,5 @@ Referencing elements in the `pleRequest` object is similar to referencing object
 **Related topics**  
 
 
-[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

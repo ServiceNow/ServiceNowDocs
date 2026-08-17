@@ -37,7 +37,7 @@ Release Notes
 
 </td><td>
 
-Now Assist AI Agents Release Notes.
+[Now Assist AI Agents Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-ai-agents-rn.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Glossary
 
 </td><td>
 
-[Now Assist and Agentic AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)
+[AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Release notes
 
 </td><td>
 
-
+[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Release notes
 
 </td><td>
 
-
+[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md)
 
 </td></tr><tr><td>
 
@@ -277,7 +277,7 @@ Training
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto
 
 </td><td>
 
@@ -285,33 +285,33 @@ Release notes
 
 </td><td>
 
+[ServiceNow Otto® release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md)
 
+ [ServiceNow Otto for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md)
+
+ 
+
+ [Now Assist in Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-document-intelligence-rn.md)
 
  
 
  
 
- 
+ [ServiceNow Otto for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)
 
  
 
  
 
- 
+ [ServiceNow Otto for Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-spm-rn.md)
 
  
 
- 
-
- 
-
- 
-
- 
+ [Generative AI Controller release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/generative-ai-controller-rn.md)
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto
 
 </td><td>
 
@@ -339,7 +339,7 @@ Getting started
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto
 
 </td><td>
 
@@ -353,7 +353,7 @@ Best practices
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto
 
 </td><td>
 
@@ -367,7 +367,7 @@ Tips and examples
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto
 
 </td><td>
 
@@ -383,7 +383,7 @@ FAQs
 
 </td></tr><tr><td>
 
-Now Assist
+ServiceNow Otto
 
 </td><td>
 
@@ -425,7 +425,7 @@ Release notes
 
 </td><td>
 
-
+[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

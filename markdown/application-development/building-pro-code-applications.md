@@ -108,7 +108,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
     Client scripts enable the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
--   **[Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)**
+-   **[ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)**
 
     Now Assist for code generation allows developers to write scripts quickly with AI-generated code suggestions based on text or code prompts.
 

@@ -1,6 +1,6 @@
 ---
 title: Add a dataset
-description: Import data from a ServiceNow table or a local file into Now Assist Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
+description: Import data from a ServiceNow table or a local file into AI Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/add-dataset.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Add a dataset
 
-Import data from a ServiceNow table or a local file into Now Assist Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
+Import data from a ServiceNow table or a local file into AI Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
 
 ## Before you begin
 
@@ -82,7 +82,7 @@ Role required: sn\_data\_kit.admin
     -   I'm assuring to use data responsibly for AI Evaluation
     -   Scan for personally identifiable or information sensitive data before creating datasets. You can turn this off if you prefer.
 
-        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using vault service. After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
+        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using [vault service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/privacy-landing-page.md). After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
 
 10. Select **Add data**.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice exception, invoice processing, AP case, invoice tolerance, variance threshold, AP specialist]
-breadcrumb: [Tolerance Rules and Variances for invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Tolerance rules and variances for invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # View tolerance form
@@ -44,5 +44,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
         **Note:** If the variance value and variance percentage is exceeding the limit, the values are highlighted in yellow color with warning \[Omitted image "warning-icon.png"\] Alt text: Warning icon icon suffixed with **Exceeds** and **Within** labels. Grey color indicates that the variance value and variance percentage is within the limits or closed with check\[Omitted image "check-icon.png"\] Alt text: Check icon icon.
 
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

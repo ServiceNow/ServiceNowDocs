@@ -26,9 +26,9 @@ The Digital Resilience Incident Case module lists all Digital Resilience Inciden
 
 ## Prerequisite data setup for DRI questionnaires
 
-Several reference questions in the DRI Initial report, Intermediate report, and Final report templates use the legal-entity and third-party tables from the Digital Resilience Third-Party Registers application \(sn\_dora\_accel\_entity and sn\_dora\_accel\_third\_party\). Populate these tables \(manually or via the Excel upload request\) before generating an initial report so that fields such as 'Name of the entity submitting the report', 'LEI code of the financial entity affected', and 'Name of the third party provider' can be filled in by the responder.
+DRI report templates use legal-entity and third-party tables from Digital Resilience Third-Party Registers. Populate these tables manually or via Excel upload before generating the initial report. \(sn\_dora\_accel\_entity and sn\_dora\_accel\_third\_party\). The responder completes remaining fields.
 
-For details, see [Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-third-party-registers.md), [Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md), and [Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md).
+For details, see [Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-third-party-registers.md). Also, see [Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md), and [Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md).
 
 ## Conditions for setting up the Workflow
 
@@ -68,7 +68,7 @@ The Digital Resilience Incident Flow and Digital Resilience SIR Flow are prebuil
 
 -   **Insert condition**
 
-    Conditions such as the priority of the incident is Critical, the urgency is High, and the incident has been open for more than 24 hours, are prebuilt in the flow. When all these conditions are met, it’s automatically reported in the Digital resilience incident reporting application.
+    Conditions such as Critical priority, High urgency, and incidents open for more than 24 hours are prebuilt in the flow. When all these conditions are met, it’s automatically reported in the Digital resilience incident reporting application.
 
 -   **Update condition**
 

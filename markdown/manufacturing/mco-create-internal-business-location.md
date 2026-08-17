@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Dealer, Set up MCO, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up Dealer, Configure, Manufacturing Commercial Operations]
 ---
 
 # Create internal business location
@@ -46,4 +46,9 @@ The manager of an internal business location can access all the cases for accoun
 
     After creating an internal business location, you can add staff members to the location and create relationships between staff members and accounts, households, and consumers. You can track the list of customers serviced by a business location.
 
+
+**Related topics**  
+
+
+[Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-staff-members-biz-loc.md)
 

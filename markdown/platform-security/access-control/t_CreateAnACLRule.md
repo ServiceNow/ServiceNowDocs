@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-06-23"
 reading_time_minutes: 5
-breadcrumb: [Access Control Lists, Access Management]
+breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Configure an ACL

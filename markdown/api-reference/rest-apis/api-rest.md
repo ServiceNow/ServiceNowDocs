@@ -171,7 +171,7 @@ The Proactive Engagement API provides an endpoint for creating digital experienc
 -   **[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-open-api.md)**  
 The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.
 -   **[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-search-api.md)**  
-The Product Catalog Search API searches the product catalog and returns matching catalog items with optional pricing. Supports searching across multiple catalog types. Results are paginated and sortable.
+The Product Catalog Search API searches the product catalog and retrieves the eligible catalog-category hierarchy for a given context. Search supports multiple catalog types, with paginated and sortable results.
 -   **[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-inventory-open-api.md)**  
 The Product Inventory Open API provides endpoints to create and retrieve product inventories.
 -   **[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md)**  
@@ -184,6 +184,8 @@ The Push Installation API provides endpoints to register and unregister the toke
 The Push Metrics API provides endpoints that enable you to push raw Metric Intelligence data from an external source to the MID Server.
 -   **[Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/quote-management-api.md)**  
 The Quote Management API provides endpoints to create, update, and retrieve customer quote data.
+-   **[Reassign Assessment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/reassign-assessment-api.md)**  
+The Reassign Assessment API provides an endpoint to reassign an assessment instance to a different user.
 -   **[Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/remote_help_request-api.md)**  
 The Remote help request API provides endpoints to create, view, and fetch lists of IT service requests and their details from an electronic medical record \(EMR\) system. An IT service request is associated with a task type such as an incident in the ServiceNow instance.
 -   **[Resource Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/resource-inventory-api.md)**  

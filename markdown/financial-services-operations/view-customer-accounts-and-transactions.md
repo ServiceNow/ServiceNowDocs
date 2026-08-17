@@ -50,7 +50,7 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 [View customer cases in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-cases.md)
 
-[Summarize a banking customer profile in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-customer-profile-fso.md)
+[Summarize a banking customer profile with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-customer-profile-fso.md)
 
-[Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/generate-customer-insights-customer-360-workspace.md)
+[Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-customer-insights-customer-360-workspace.md)
 

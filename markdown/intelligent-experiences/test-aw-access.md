@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aw-access.html
 release: australia
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Test user access to an agentic workflow

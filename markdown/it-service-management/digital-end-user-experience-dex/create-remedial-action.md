@@ -20,7 +20,7 @@ Create your custom remedial actions from Check Definitions to resolve end-point 
 
 Role required: admin, dex\_admin
 
-**Note:** To learn more about different remedial actions, see [Digital End-User Experience Remedial Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
+**Note:** To learn more about different remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
 ## Procedure
 

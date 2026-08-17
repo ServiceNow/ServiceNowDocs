@@ -25,7 +25,7 @@ Assign an existing defect to a test case to track the relationship between defec
 
 ## About this task
 
-When you link a defect to a test case, a reference to the defect is added both to the test case and the test plan of this test case.
+When you link a defect to a test case, a reference to the defect is added to the test case and the test plan of this test case.
 
 ## Procedure
 

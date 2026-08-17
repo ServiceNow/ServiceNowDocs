@@ -17,7 +17,7 @@ breadcrumb: [Explore, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 Build ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP to create read, update, and create operations and organize mirrored ERP data.
 
-In Zero Copy Connector for ERP, a **model** is the foundational building block for accessing and working with ERP data. It represents the logical structure and organization of data coming from the ERP system of record. A model defines the tables, fields, read/update/create operations, and table join relationships that capture a specific business process or dataset. After you configure a model, you can use it as a data source for building apps, flows, playbooks, workspaces, and more.
+In Zero Copy Connector for ERP, a **model** is the foundational building block for accessing and working with ERP data. It represents the logical structure and organization of data coming from the ERP system. A model defines the tables, fields, read/update/create operations, and table join relationships that capture a specific business process or dataset. After you configure a model, you can use it as a data source for building apps, flows, playbooks, workspaces, and more.
 
 There are two types of models:
 

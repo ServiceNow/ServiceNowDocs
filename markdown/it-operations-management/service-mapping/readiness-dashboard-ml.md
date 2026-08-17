@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -20,7 +20,7 @@ The Application service readiness dashboard is part of Service Mapping Plus, ava
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Predictive Intelligence evaluates connections between application fingerprints, CIs, and processes, and ranks their relevancy. Service Mapping uses this information to create connections based on connection rules. It also generates connection suggestions for servers and load balancers for you to decide which connections to add or remove from the service instances.
 
@@ -206,7 +206,7 @@ Review the list of service instances most affected by ML-related issues. The lis
 
 [Calibrate fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
 
-[Ensure that the fingerprint-based discovery generates suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
+[Verify fingerprint-based discovery generates suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
 
 [Troubleshooting guide for Service Mapping ML Connection Suggestions \[KB0963421\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0963421)
 

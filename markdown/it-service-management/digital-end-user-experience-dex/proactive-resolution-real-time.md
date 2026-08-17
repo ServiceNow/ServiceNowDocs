@@ -32,7 +32,7 @@ When a metric rule detects that a device or application metric has breached a th
 1.  DEX evaluates metric rules against incoming metric data for each device.
 2.  For each device that breaches a threshold, DEX creates an event in the `em_event` table.
 3.  DEX generates an alert per device in the `em_alert` table \(device alerts\) or one alert per application and metric rule combination \(application alerts\).
-4.  DEX groups device alerts using the alert correlation rule available with the base system, which consolidates all device alerts for the same metric rule combination within a configurable time window. The default window is one hour and is controlled by the system property `sn_dex.alert.correlation_rule.device_period`.
+4.  DEX groups device alerts using the alert correlation rule available with the base system. This rule consolidates all device alerts for the same metric rule combination within a configurable time window. The default window is one hour and is controlled by the **sn\_dex.alert.correlation\_rule.device\_period** system property.
 5.  For application alerts, subsequent evaluations for the same application and metric rule update the same `dex_alert_metadata` record with the new event ID and impacted devices. All new events for the same application and metric rule map to the same alert number until the alert is closed.
 6.  Impacted users and devices are recorded in the `dex_alert_impacted_users` table. Additional details are recorded in `dex_alert_metadata`.
 
@@ -68,9 +68,7 @@ When all devices are removed from the impacted device list, DEX closes the alert
 
 ## Auto-correction scripts
 
-Auto-correction scripts use check definitions wrapped in policies to detect and correct issues at a configured frequency. This approach is suitable for common detect-correct scenarios, such as reconnecting a VPN, connecting to Wi-Fi, or restarting a service, that don't require correlation with metric data or other data collected with DEX.
+Auto-correction scripts use check definitions wrapped in policies to detect and correct issues at a configured frequency. This approach works for common detect-correct scenarios that don't require correlation with metric data or other data collected with DEX. For example, reconnecting a VPN, connecting to Wi-Fi, or restarting a service.
 
 Auto-correction scripts run on the endpoint and work even when the device is not connected to the internet or to the ServiceNow instance.
-
-**Tip:** For guidance on authoring policies and check definitions, see the policy and check definition authoring documentation.
 

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Genius Results, Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Genius Result configurations in the base system
@@ -26,8 +26,8 @@ Catalog Item Genius Results display top search results from the Catalog Item \[s
 NLQ \(Natural Language Query\) Genius Results use NLQ processing to surface relevant results from tables that match your search query. Each NLQ Genius Result answer card displays a preview of records from matching tables. You can navigate to a matching table's list view or the CMDB workspace directly from the Genius Result answer card.
 -   **[People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-people-ais.md)**  
 People Genius Results display top search results from the User \[sys\_user\] table. Each People Genius Result answer card shows a single user record. You can view the user's full profile directly from the answer card.
--   **[Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)**  
-Q&amp;A Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
+-   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)**  
+Knowledge base articles Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Knowledge base articles Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
 
 **Parent Topic:**[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md)
 

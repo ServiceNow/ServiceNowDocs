@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, staging table]
+keywords: [APO, Accounts Payable Operations, invoice management, staging table, Excel Template, APO Admin]
 breadcrumb: [Import data into invoice, Accounts Payable Operations integration framework, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

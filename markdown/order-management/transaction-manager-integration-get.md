@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience Integration - GET
 
 Learn how to access data from a third-party application such as Salesforce by using the GET integration.
 
-This article describes how to retrieve the Salesforce opportunity ID, together with transaction details including the account name, opportunity name, shipping address, and billing address, and write them into ServiceNow CPQ transaction fields. This pattern is relevant to any integration that requires ServiceNow CPQ to request data from a third party.
+This article describes how to retrieve the Salesforce opportunity ID, together with transaction details including the account name, opportunity name, shipping address, and billing address, and write them into CPQ transaction fields. This pattern is relevant to any integration that requires CPQ to request data from a third party.
 
 ## Goal: End-user \(buyside\) flow
 
@@ -30,23 +30,23 @@ Notice that the details are all populated.
 
 \[Omitted image "cpq-txn-mgr-integration-get-3.png"\] Alt text: Get SF Data
 
-The rest of this article lists the steps in ServiceNow CPQ to create the integrations that get the data from Salesforce.
+The rest of this article lists the steps in CPQ to create the integrations that get the data from Salesforce.
 
 ## Administration setup: Prerequisites
 
-This guide assumes a ServiceNow CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
+This guide assumes a CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
 
-## ServiceNow CPQ: Add a connection
+## CPQ: Add a connection
 
-A connection record contains the data required to initiate a ServiceNow Quote Experience Integration. This includes authentication details, host URL, path, and headers. To view a connection record, in ServiceNow CPQ Admin, go to **Utilities**, and then click **Connections**.
+A connection record contains the data required to initiate a ServiceNow Quote Experience Integration. This includes authentication details, host URL, path, and headers. To view a connection record, in CPQ Admin, go to **Utilities**, and then click **Connections**.
 
 \[Omitted image "cpq-txn-mgr-integration-get-add-connection.png"\] Alt text: Add a Connection
 
 For information about adding a connection, see the "Creating a Connection" section in [ServiceNow Quote Experience Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integrations.md). For the purposes of this article, we use a connection to a Salesforce environment.
 
-## ServiceNow CPQ: Add the integration
+## CPQ: Add the integration
 
-1.  Open ServiceNow CPQ Admin and go to the Integrations section.
+1.  Open CPQ Admin and go to the Integrations section.
 2.  Click **Add Integration**. Create a new integration using any suitable name. In this example, we use the name "Get Oppty Id".
 
     \[Omitted image "cpq-txn-mgr-integration-get-add-opp-1.png"\] Alt text: Add Integration

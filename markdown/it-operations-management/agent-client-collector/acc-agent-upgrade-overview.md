@@ -115,7 +115,7 @@ Activate the built-in scheduled job to upgrade all eligible Agent Client Collect
 Trigger an immediate upgrade of all eligible Agent Client Collector agents without waiting for the next scheduled job run.
 -   **[Repeat high-volume upgrade for failed agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/repeat-upgrade.md)**  
 If high-volume upgrade fails for specific agents, you must clear the problematic agents' history to re-enable upgrade. If the target upgrade version changes, you don't need to clear the agents' history, as the agents upgrade with the next scheduled high-volume upgrade.
--   **[Configure proxies when performing MID-less upgrade using a CDN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/cdn-upgrade-proxies.md)**  
+-   **[Configure proxies during MID-less upgrade using a CDN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/cdn-upgrade-proxies.md)**  
 Create proxies for added security when upgrading MID-less agents via a Content Delivery Network \(CDN\). You add proxy servers to the sn\_agent\_proxy table on the ServiceNow instance.
 -   **[Configure a download proxy for Agent Client Collector upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.md)**  
 Add a proxy server entry so that agents behind a corporate proxy can download upgrade packages from the ServiceNow Content Delivery Network \(CDN\).

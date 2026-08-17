@@ -39,7 +39,7 @@ See  for an overview of features and capabilities.
 
 ## Activation information
 
-Install Agentic Contact Center for Insurance by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Agentic Contact Center for Insurance by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -52,11 +52,11 @@ Install Agentic Contact Center for Insurance by requesting it from ServiceNow St
 
 ## Additional requirements
 
-This application requires Now Assist for Financial Services Operations \(FSO\). For activation and configuration details, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)**
+-   ****
 
     Use AI agents and agentic workflows to generate customer summaries, and additional insights in Agentic Contact Center for Insurance and the Now Assist panel.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-14"
 reading_time_minutes: 1
-breadcrumb: [With guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [With guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up ServiceNow CPQ Configurator using guided setup
@@ -18,7 +18,7 @@ The guided setup organizes the configuration activities into modules and tracks 
 
 Role required: admin
 
-Complete the prerequisites. For more information, see [Prerequisites for configuring ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/prereq-for-cpq-config.md).
+Complete the prerequisites. For more information, see [Prerequisites for configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/prereq-for-cpq-config.md).
 
 ## Procedure
 
@@ -28,13 +28,13 @@ Complete the prerequisites. For more information, see [Prerequisites for configu
 
 3.  Complete the **Prerequisites** module.
 
-    Confirm that the required plugins are, the request for a new ServiceNow CPQ tenant is complete, and ServiceNow CPQ tenant URL is available. Submit the prerequisites confirmation questionnaire to mark the module complete.
+    Confirm that the required plugins are, the request for a new CPQ tenant is complete, and CPQ tenant URL is available. Submit the prerequisites confirmation questionnaire to mark the module complete.
 
     **Note:**
 
-    Certificate setup is not required and OAuth is configured automatically. Proceed with ServiceNow CPQ Connection Setup module.
+    Certificate setup is not required and OAuth is configured automatically. Proceed with CPQ Connection Setup module.
 
-4.  Complete the ServiceNow CPQ Connection Setup module.
+4.  Complete the CPQ Connection Setup module.
 
     Enter tenant URL and sector value, generate an admin API \(application programming interface\) key in the tenant, and add the key in the guided setup. The system updates the HTTPS connection record automatically.
 
@@ -46,5 +46,5 @@ Complete the prerequisites. For more information, see [Prerequisites for configu
 **Related topics**  
 
 
-[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+last_updated: "2026-08-17"
+reading_time_minutes: 3
+breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Dynatrace with basic authentication
@@ -21,6 +21,8 @@ Integrate Dynatrace with Event Management by adding a standard webhook in the Dy
 Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 
 Ensure that configuration items for the hosts managed by Dynatrace exist in the ServiceNow AI Platform instance. These CIs can be physical or virtual and can be either manually created or discovered via IP discovery or Cloud Discovery.
+
+Ensure you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Roles required: evt\_mgmt\_integration and web\_service\_admin
 
@@ -58,7 +60,9 @@ Configure the Event Management environment for the collection of events from Dyn
 
         **Note:** Ensure the evt\_mgmt\_integration role is assigned to the selected user. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.
 
-    4.  In the Custom payload section, add in the following payload structure for the events that will be generated, ensuring that ImpactedEntities and ProblemDetailsJSONv2 are passed as JSON objects, not strings.
+    4.  In the Custom payload section, add in the following payload structure for the events that will be generated.
+
+        It confirms that ImpactedEntities and ProblemDetailsJSONv2 are passed as JSON objects, not strings.
 
         ```
         { 
@@ -79,6 +83,22 @@ Configure the Event Management environment for the collection of events from Dyn
         }
         ```
 
+4.  Define the integration settings for the Grail problem event, which ServiceNow supports through its new payload.
+
+    1.  Log in to the Dynatrace instance and, from the left-hand panel, select **Workflow**.
+    2.  On the Workflow page, select **+ Workflow** to create a new workflow.
+    3.  Create a blank workflow.
+    4.  In the Select a trigger section, select **Problem trigger**.
+    5.  In the middle workflow section, on the problem trigger tile, add the **Send ITOM event** task.
+    6.  Select **+ Create a new connection**.
+    7.  In the **Connection name** field, enter a name.
+    8.  In the **ServiceNow ITOM Event API URL** field, paste the URL in this format:`https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=dynatrace`.
+    9.  In the **Type** field, select **Basic Authentication**, and then select **Create basic authorization header**. The username and password fields appear.
+    10. Enter the user name and password of the relevant user.
+
+        **Note:** Ensure the `evt_mgmt_integration` role is assigned to the selected user. For proper authentication, use the least-privileged user with the `evt_mgmt_integration` role rather than a highly privileged user.
+
+    11. Save the workflow and select **Run** to execute the workflow.
 
 ## Result
 

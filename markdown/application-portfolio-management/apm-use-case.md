@@ -33,7 +33,7 @@ When you use Enterprise Architecture with any of the following ServiceNow produc
 
 -   Discovery provides details about the hardware and software CIs you are using.
 -   Service Mapping provides details about the application instance service in the \[cmdb\_ci\_service\_discovered\] table, relating infrastructure and application \[cmdb\_ci\_appl\] CIs.
--   Asset Management provides the related product model. Software Asset Management \(SAM Foundation\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Portfolio Management.
+-   Asset Management provides the related product model. Software Asset Management \(SAM Foundation\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Lifecycle Management.
 -   Project Portfolio Management views the business application roadmaps. Includes demands, projects, sprints and epics.
 -   Agile Development views the backlog stories and epics of each business application in the application roadmap.
 

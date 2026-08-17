@@ -39,7 +39,7 @@ Desktop Assistant supports notifications from Major Incident Management and Proa
         -   Monthly: 1–12 months
         By default, the aggregation frequency is set to **Daily**, and the aggregation period is **7** days.
 
-        For example, if the aggregation frequency is set to daily and the aggregation period is seven days, notifications are sent to users in affected locations who have application usage above 0 over the last seven days. Similarly, if the frequency is set to weekly and the aggregation period is four weeks, notifications are sent to users in affected locations who have application usage above 0 over the last four weeks.
+        If the aggregation frequency is set to daily and the aggregation period is seven days, notifications are sent to users in affected locations with application usage above 0 over the last seven days. If the frequency is set to weekly and the aggregation period is four weeks, notifications are sent to users in affected locations with application usage above 0 over the last four weeks.
 
         Each notification is delivered once to every logged-in device.
 
@@ -55,11 +55,14 @@ Desktop Assistant supports notifications from Major Incident Management and Proa
 
 ## Configuring notifications
 
-As a DEX administrator, you can configure and manage Desktop Assistant notifications.
+DEX administrators with the sn\_dex\_desktop.admin role can configure and manage the following Desktop Assistant notifications settings:
 
-You can configure API parameters to enable Desktop Assistant to send notifications for any update or activity. For more information, see [API parameters to configure Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md).
+-   API parameters that enable Desktop Assistant to send notifications for any update or activity. For more information, see [API parameters to configure Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md).
+-   The Time-to-Live \(TTL\) value using the **sn\_dex\_desktop.sn\_desktop\_assistant.notification\_time\_to\_live** property to define how long the system attempts to deliver notifications.
 
-You can define how long the system attempts to deliver notifications by configuring the Time-to-Live \(TTL\) value using the **sn\_dex\_desktop.sn\_desktop\_assistant.notification\_time\_to\_live** property. The TTL can be set to a maximum of seven days. Older notifications exceeding the TTL are automatically discarded.
+    The TTL value can be set to a maximum of seven days. Older notifications exceeding the TTL are automatically discarded.
 
-You can also enable and disable Desktop Assistant notifications. For more information, see [Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-notification.md).
+-   Enable and disable Desktop Assistant notifications. For more information, see [Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-notification.md).
+
+Users with the sn\_dex\_desktop.notification\_template\_viewer role have read-only access to view the Desktop Assistant Notification Template table.
 

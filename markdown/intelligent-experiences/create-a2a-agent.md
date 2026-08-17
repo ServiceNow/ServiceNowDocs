@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 6
-breadcrumb: [Create an external agent, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Create an external AI agent with the Agent2Agent protocol
@@ -117,7 +117,7 @@ Subflow that establishes Agent2Agent protocol. The default subflow should handle
 
     4.  Configure access control lists \(ACLs\) for the AI agent.
 
-        **Note:** The ACLs determine who has access to discover and execute the AI agent. To learn more about the ACLs you can create in AI Agent Studio and how to add more advanced security configurations, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+        **Note:** The ACLs determine who has access to discover and execute the AI agent. To learn more about the ACLs you can create in AI Agent Studio and how to add more advanced security configurations, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
         This is a required step. If you have previously configured an AI agent without creating an ACL, you must generate an ACL before you can make other modifications.
 

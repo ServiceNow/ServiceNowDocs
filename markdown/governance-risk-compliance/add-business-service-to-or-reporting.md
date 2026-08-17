@@ -1,6 +1,6 @@
 ---
 title: Add a business service to Operational Resilience reporting
-description: Add a business service to Operational Resilience reporting in the Operational Resilience Workspace. The Operational Resilience managers with \[sn\_oper\_res.manager\] roles can add business services, service offerings, business processes, and application services to their entity types from the business service form or the list actions.
+description: Add a business service to Operational Resilience reporting in the Operational Resilience Workspace. Managers with the \[sn\_oper\_res.manager\] role can add business services, service offerings, business processes, and application services from the business service form or list actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-business-service-to-or-reporting.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Res
 
 # Add a business service to Operational Resilience reporting
 
-Add a business service to Operational Resilience reporting in the Operational Resilience Workspace. The Operational Resilience managers with \[sn\_oper\_res.manager\] roles can add business services, service offerings, business processes, and application services to their entity types from the business service form or the list actions.
+Add a business service to Operational Resilience reporting in the Operational Resilience Workspace. Managers with the \[sn\_oper\_res.manager\] role can add business services, service offerings, business processes, and application services from the business service form or list actions.
 
 ## Before you begin
 
@@ -56,9 +56,9 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
 
 4.  Select **360 view** to display all the related records.
 
-5.  To add a business service to the Operational Resilience application, select **New** in the Business services list view and fill in the details regarding the service on the Create New service form.
+5.  To add a business service to the Operational Resilience application, select **New** in the Business services list view.
 
-    For a description of the field values on the Business service form, see [Create New Business Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-service-form.md).
+    Fill in the details regarding the service on the Create New service form. For a description of the field values on the Business service form, see [Create Business Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-service-form.md).
 
 6.  To save updates to the existing record, select **Save**.
 

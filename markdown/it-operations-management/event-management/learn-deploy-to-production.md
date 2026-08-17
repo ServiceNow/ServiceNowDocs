@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, deployment, production, update sets]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Learn how to deploy Event Management to production

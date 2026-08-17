@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, finance automation]
+keywords: [APO, Accounts Payable Operations, Lists, Forms, Feilds and Values, Accounts Payable Management]
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -18,13 +18,13 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 Reference information for lists, forms, fields, and values used in Accounts Payable Operations.
 
 -   **[Accounts Payable Operations properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.md)**  
-Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management, including property names, default values, and required roles.
+Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management.
 -   **[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)**  
-Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping addresses.
+Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping.
 -   **[Create invoice cost allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.md)**  
 Field descriptions for the Create invoice cost allocation form used to distribute invoice line costs across cost centers and ledger accounts.
 -   **[Outbound cost allocation staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.md)**  
-Field descriptions for the outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table used to configure ERP integrations that export cost allocation data to third-party ERP systems.
+Field descriptions for the Outbound Cost Allocation staging table \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\], used to configure ERP integrations for exporting cost allocation data.
 -   **[Distribution set form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/distribution-set-form.md)**  
 Field descriptions for the Distribution set form, organized by section, for configuring automatic cost allocation across invoice lines.
 -   **[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)**  
@@ -46,7 +46,9 @@ Field descriptions for the Invoice exception definition form used to create and 
 -   **[Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.md)**  
 Use the Approval Rule form when creating or configuring an approval rule to generate and route invoice or purchase order approvals.
 -   **[Approval Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/approval-plan-form.md)**  
-Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval status options.
+Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval statuses.
+-   **[Jurisdictions main table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.md)**  
+The reference \[sn\_fin\_jurisdiction\] table that the Jurisdiction field on the invoice tax line points to.
 -   **[Accounts Payable Operations glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md)**  
 Learn about the terms and concepts used in Accounts Payable Operations \(APO\).
 

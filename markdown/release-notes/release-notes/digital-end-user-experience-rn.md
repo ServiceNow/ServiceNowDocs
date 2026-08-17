@@ -14,7 +14,7 @@ The ServiceNow® Digital End-User Experience application is a cloud-based tool p
 
 ## Digital End-User Experience highlights for the Australia release
 
--   Enable service desk agents to view and manage the top 10 CPU and memory-consuming processes in the **Investigation** tab of incident records, with automated snapshots every 30 minutes to quickly identify and end processes causing device issues, thus improving service desk productivity.
+-   Enable service desk agents to view and manage the top 10 CPU and memory-consuming processes in the **Investigation** tab of incident records. Automated snapshots captured every 30 minutes enable you to quickly identify and end processes causing device issues, thus improving service desk productivity.
 -   Diagnose and resolve Zoom call issues with the new Zoom AI capability, which provides device-level root cause analysis and suggested resolutions.
 -   Monitor device boot time and use Now Assist to quickly diagnose startup delays and get actionable resolutions to resolve boot performance issues.
 -   View device boot time metrics to assess system startup health and identify potential issues.
@@ -30,7 +30,11 @@ See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/S
 
 ## New in the Australia release
 
--   **[Reviewing top processes by resource usage in incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/process-snapshot.md)**
+-   **[Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-diff-ra.md)**
+
+    Resolve device performance and network connectivity issues with two new remedial actions. The Reset Network Adapter remedial action restores WiFi connectivity and resolves poor network performance despite strong signal strength. The Disable Startup Program remedial action reduces boot time and improves device performance after login by disabling non-essential startup programs.
+
+-   **[Reviewing top processes by resource usage for DEX incident investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/process-snapshot.md)**
 
     Service desk agents can now view automated snapshots of the top 10 CPU and memory-consuming processes directly in the **Investigation** tab of incident records. The snapshots that are captured every 30 minutes are initially triggered when an incident is created and a configuration item is tagged. You can refresh and filter snapshots over different time ranges and monitor processes causing device issues.
 
@@ -70,7 +74,7 @@ See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/S
 
     Select multiple impacted devices from the Insights page and apply remedial actions in bulk. Service desk agents can now resolve issues across multiple devices simultaneously, improving productivity and reducing manual effort.
 
--   **[Digital End-User Experience Remedial Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-diff-ra.md)**
+-   **[Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-diff-ra.md)**
 
     The DEX base system includes the new remedial action Sync device to Intune.
 
@@ -87,7 +91,7 @@ See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/S
 
 ## Activation information
 
-Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Browser requirements
 
@@ -107,7 +111,7 @@ Localization is applicable to DEX in all languages supported by the ServiceNow A
 
     As a Service Desk agent, view device metrics from within the platform by navigating to the DEX Device health page. You can access the page from the Core UI incident experience or from the **Investigate** tab Service Operations Workspace \(SOW\).
 
--   **[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)**
+-   **[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)**
 
     From Desktop Assistant, use generative AI to enhance your productivity and efficiency through conversation and proactive experiences.
 

@@ -22,41 +22,30 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-You can associate a monetary benefit plan with a non-monetary benefit plan and vice versa.
+Benefit plans can be associated in either direction — a monetary plan with a non-monetary plan, or a non-monetary plan with a monetary plan.
 
 **Note:** When you delete a benefit plan, its relationship with the associated benefit plan \(if any\) is also removed.
 
+To associate benefit plans with each other, you can also use the **Benefit estimate** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** If the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tabs aren't visible, select **More** and then select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
+5.  Select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
 
-4.  Select the benefit plan that you want to associate.
+6.  Select the benefit plan that you want to associate.
 
-5.  On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
+7.  On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-6.  Select **Save**.
+8.  Select **Save**.
 
     The selected benefit plan is associated with this benefit plan.
 
-    **Note:** Alternatively, you can associate benefit plans with each other from the **Benefit estimate** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
-
-
-**Related topics**  
-
-
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
-
-[Create and manage benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md)
-
-[Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md)
-
-[Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/non-monetary-benefit-plan-form-ppw.md)
 

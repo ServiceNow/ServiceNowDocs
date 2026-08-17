@@ -26,7 +26,7 @@ After creating map configuration for SAFe entities, [import areas, teams, and it
     For the example shown in the following screenshot, **Fabrikam** must be selected as the ART Iteration path.
 
 
-The application will then automatically identify PI 1 as the program increment and Sprint 1, Sprint 2, and so on, as the corresponding SAFe sprints in the ServiceNow instance.
+The application will then automatically identify PI 1 as the program increment. Sprint 1, Sprint 2, and so on, are identified as the corresponding SAFe sprints in the ServiceNow instance.
 
 \[Omitted image "safe-pi-sprint.png"\] Alt text: Azure DevOps SAFe project example.
 

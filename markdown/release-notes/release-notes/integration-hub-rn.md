@@ -30,6 +30,10 @@ See [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     Use topic aliases to simplify topic management in Stream Connect. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and, wherever they’re moved, connected to an underlying topic.
 
+-   **[OAUTHBEARER authentication for Stream Connect message replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-data-input-kafka-credentials.md)**
+
+    Authenticate using OAUTHBEARER as part of the SASL credential framework for Stream Connect message replication. OAUTHBEARER authentication lets Stream Connect administrators meet customer requirements, improve security, and align with existing OAuth capabilities on the platform, enabling seamless integration with Kafka environments that require advanced authentication.
+
 -   **[Stream Connect Dashboard updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-dashboard.md)**
     -   The Topics menu displays topic aliases, Hermes topics, and Direct Kafka topics.
     -   The **Data usage** tab shows data for the Hermes cluster or the Direct Kafka cluster. Use the **Kafka Cluster** list to select which cluster data to display.

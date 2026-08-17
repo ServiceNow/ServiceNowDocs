@@ -40,7 +40,7 @@ Flow generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows fr
 
 </td><td>
 
-Playbook generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using AI
+[Playbook generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/playbook-assist-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

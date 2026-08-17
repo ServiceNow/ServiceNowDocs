@@ -122,11 +122,20 @@ MID servers can use the Vault Credential Resolver to consume secrets directly fr
 7.  Add the following parameters to the MID Server **config.xml** using the recorded values.
 
     ```
-    <parameter name="ext.cred.azure.vault_name" secure="false" value="<azure_key_vault_name>"/> (optional) 
+    <parameter name="ext.cred.azure.vault_name" secure="false" value="<secret_name>:<azure_key_vault_name>"/> (optional) 
     <parameter name="ext.cred.azure.tenant_id" secure="true" value="<tenant_id_value>"/> 
     <parameter name="ext.cred.azure.client_id" secure="true" value="<client_id_value>"/> 
     <parameter name="ext.cred.azure.secret_key" secure="true" value="<secret_key_value>"/> 
     ```
+
+    **Tip:**
+
+    Use the appropriate format for the Credential ID:
+
+    |Condition|Credential ID format|
+    |---------|--------------------|
+    |`ext.cred.azure.vault_name` is set in `config.xml`|`<secret_name>`|
+    |`ext.cred.azure.vault_name` is not set|`<secret_name>:<azure_key_vault_name>`|
 
 
 ## Supported Credentials for Azure Key Vault Integration

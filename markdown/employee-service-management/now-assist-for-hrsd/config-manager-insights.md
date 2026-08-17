@@ -1,6 +1,6 @@
 ---
-title: Configure manager insights for Now Assist for HRSD
-description: Configure the manager insights skill in Now Assist for HRSD to generate a summary of team data in Manager Hub.
+title: Configure manager insights for ServiceNow Otto for HRSD
+description: Configure the manager insights skill in ServiceNow Otto for HRSD to generate a summary of team data in Manager Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/config-manager-insights.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure manager insights for Now Assist for HRSD
+# Configure manager insights for ServiceNow Otto for HRSD
 
-Configure the manager insights skill in Now Assist for HRSD to generate a summary of team data in Manager Hub.
+Configure the manager insights skill in ServiceNow Otto for HRSD to generate a summary of team data in Manager Hub.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_hr\_gen\_ai.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Skills**.
 
 2.  Select **Employee**, then select **HRSD**.
 
@@ -35,5 +35,5 @@ Role required: sn\_hr\_gen\_ai.admin
 6.  Select **Turn on**.
 
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

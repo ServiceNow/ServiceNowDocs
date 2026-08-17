@@ -85,6 +85,8 @@ Virtual Agent uses the ServiceNow AI Platform® AI Search application to return 
 The workflows of ServiceNow® Workflow Studio can be integrated within ServiceNow Virtual Agent topics. You can then use these workflows in Virtual Agent conversations.
 -   **[Authenticate guest users to initiate and import chat from Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/authenticate-guest-start-import-chat.md)**  
 Assign permissions to guest users to initiate and import chat conversations with employees from Microsoft Teams to a ServiceNow® instance for a self-configured app.
+-   **[Login to transfer guest chat history to an authenticated Virtual Agent session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/authenticate-guest-chat-history.md)**  
+Elevate guest users to an authenticated session by logging in, and without losing chat context or history.
 
 **Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

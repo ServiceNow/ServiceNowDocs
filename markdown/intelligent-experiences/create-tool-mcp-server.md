@@ -53,6 +53,8 @@ Each server must include at least one tool.
     -   [Create a tool from Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-subflow-tool.md)
     -   [Create a tool from REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)
     -   [Create a tool from Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)
+    -   [Create a tool from Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md)
+    -   [Create a tool from Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-action-tool.md)
 7.  Turn off inputs from the tool that you don't want to expose.
 
     1.  In the Tool inputs section, locate the tool input.
@@ -72,10 +74,10 @@ Configure clients to connect to the server and use the tool. For more informatio
 Create a tool from Subflow to expose it to Model Context \(MCP\) clients from an MCP Server. Subflows and actions empower agents to complete tasks seamlessly —from submitting requests to routing for approval and confirming outcomes across workflows, without leaving the client interface.
 -   **[Create a tool from Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-action-tool.md)**  
 Create a tool from Action to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
--   **[Create a tool from REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)**  
-Create a tool from REST APIs to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 -   **[Create a tool from Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)**  
 Create a tool from Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server. Knowledge Graph provides agents with accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships.
+-   **[Create a tool from REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)**  
+Create a tool from REST APIs to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 -   **[Create a tool from Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md)**  
 Create a tool from Now Assist skills to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 
@@ -84,7 +86,7 @@ Create a tool from Now Assist skills to expose it to Model Context Protocol \(MC
 **Related topics**  
 
 
-[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
+[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
-[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

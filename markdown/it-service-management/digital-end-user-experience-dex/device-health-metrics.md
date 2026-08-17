@@ -1,5 +1,5 @@
 ---
-title: Reviewing device health metrics in incident investigation with DEX
+title: Review device health metrics during incident investigation with DEX
 description: View the overall health and related metrics for Digital End-User Experience \(DEX\) monitored devices as part of incident investigation with DEX.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/device-health-metrics.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Service Management]
 ---
 
-# Reviewing device health metrics in incident investigation with DEX
+# Review device health metrics during incident investigation with DEX
 
 View the overall health and related metrics for Digital End-User Experience \(DEX\) monitored devices as part of incident investigation with DEX.
 

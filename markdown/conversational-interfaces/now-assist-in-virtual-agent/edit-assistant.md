@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 9
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Edit a chat assistant
@@ -28,11 +28,11 @@ When editing a chat assistant, actions may differ.
 
 |Default assistants|Activate|Deactivate|Edit|Test|Delete|
 |------------------|--------|----------|----|----|------|
-|Now Assist in Virtual Agent \(default\)|Yes|Yes|Yes|Yes|No|
-|Now Assist panel - Platform \(default\)|Yes|Yes|Yes \(except for name and description\)|Yes|No|
-|Now Assist panel - Developer|Yes|Yes|Yes \(with limited configuration\)|Yes|No|
+|ServiceNow Otto for Virtual Agent \(default\)|Yes|Yes|Yes|Yes|No|
+|ServiceNow Otto - Platform \(default\)|Yes|Yes|Yes \(except for name and description\)|Yes|No|
+|ServiceNow Otto panel - Developer|Yes|Yes|Yes \(with limited configuration\)|Yes|No|
 |Employee Slate assistant \(default\)|Yes|Yes|Yes|Yes|No|
-|Now Assist Voice Deployment \(default\)|Yes|Yes|Yes|No|No|
+|ServiceNow Otto voice assistant \(default\)|Yes|Yes|Yes|No|No|
 
 ## Procedure
 
@@ -53,10 +53,10 @@ When editing a chat assistant, actions may differ.
     -   Assistant hierarchy: primary or secondary assistant. This section only appears if an assistant is set as a primary or secondary assistant.
     -   Assistant description
     -   Display experience
-    -   Additional chat features: web search mode, response streaming, document uploads, closed chats, and voice input \(for Now Assist panel - Platform assistant\).
+    -   Additional chat features: web search mode, response streaming, document uploads, closed chats, and voice input \(for ServiceNow Otto panel - Platform assistant\).
 3.  From the Overview page, select the appropriate button or link to make your edits.
 
-    \[Omitted image "NAinVA-edit-overview-122025.png"\] Alt text: Overview page when editing an assistant.
+    \[Omitted image "sno-edit-overview-0826.png"\] Alt text: Overview page when editing an assistant.
 
     The main action buttons include:
 
@@ -65,18 +65,18 @@ When editing a chat assistant, actions may differ.
     -   **Activate/Deactivate**: Turn on or off an assistant. One or more display experiences must be selected to activate an assistant.
     1.  To edit chat features, select the **Edit chat features** link. The **Settings** &gt; **Additional chat features** page is displayed. For more information about web search mode, response streaming, document uploads, closed chats and voice input, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
     2.  Customize assistant settings by selecting **Go to settings** link. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
-    3.  To add a display experience, select the **Go to display experiences** link. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md). For Now Assist panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
+    3.  To add a display experience, select the **Go to display experiences** link. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md). For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
     4.  To migrate NLU topics, select the **Migrate topics** link. The Topic Migration application opens a new browser tab. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
     5.  To manage promoted assets, select the **Manage** button. The **Information sources** &gt; **Promoted** page is displayed. All the assets that have been manually promoted for the assistant are shown.
 4.  From the **Information sources** tab, select the page that needs editing.
 
-    \[Omitted image "NAinVA-edit-info-sources-072026.png"\] Alt text: Edit information sources of your assistant.
+    \[Omitted image "sno-edit-search-0826.png"\] Alt text: Edit information sources of your assistant.
 
     -   In **Search sources**, assign search sources to a chat assistant. Search sources are used to determine what the assistant looks at to answer user queries. If there were any search configurations that were previously done, those configurations would remain. For more information, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
     -   In **Knowledge Graphs**, edit your Knowledge Graph schema to represent semantic relationships in your data. For more information, see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
     -   In **Suggestions**, view and edit your promoted items and prompts. Prompts help users ask better questions and get more accurate responses. Turn on the prompt library to allow users in the premium chat experience to create custom prompts and view and use predefined default prompts. Be sure to activate the ones that point people to useful actions and features they may otherwise miss. Activated prompts will appear in the prompt library modal.
 
-        \[Omitted image "NAinVA-prompt-library-072026.png"\] Alt text: Manage prompts in prompt library.
+        \[Omitted image "sno-edit-prompt-0826.png"\] Alt text: Manage prompts in prompt library.
 
         You can create, edit, or delete prompts in the prompt library. Default prompts are set to active and are shown as Created by ServiceNow. You can edit, delete, or set them to inactive. Default prompts are also added to newly created assistants.
 
@@ -94,7 +94,7 @@ When editing a chat assistant, actions may differ.
     -   In **Asset visibility**, all assets that are assigned to the assistant are shown.
         -   Discoverable: Discoverable assets can be found and used by your assistant when they match what a user says.
         -   Visible: Visible assets appear when users select **Show me everything** in the assistant.
-        -   Promoted: Promoted assets give users quick access to your most helpful options. For Now Assist in Virtual Agent assistants, there is no limit to the number of assets that can be promoted.
+        -   Promoted: Promoted assets give users quick access to your most helpful options. For ServiceNow Otto for Virtual Agent assistants, there is no limit to the number of assets that can be promoted.
 
             -   The number of manually promoted assets is shown.
             -   The assets that have been manually promoted are shown, including asset name, asset description, asset type, and the condition label.
@@ -105,11 +105,11 @@ When editing a chat assistant, actions may differ.
 
 5.  From the **Settings** tab, select the page that needs editing.
 
-    \[Omitted image "NAinVA-edit-settings-122025.png"\] Alt text: Edit assistant settings.
+    \[Omitted image "sno-edit-settings-0826.png"\] Alt text: Edit assistant settings.
 
     -   In **Basic details**, you can edit the name and description of the assistant. Names can't be duplicative of another assistant. You can set your assistant as a primary assistant and link it to secondary assistants.
 
-        **Note:** For Now Assist panel Platform and Developer assistants, the basic details, such as name and description, can't be edited. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+        **Note:** For ServiceNow Otto panel Platform and Developer assistants, the basic details, such as name and description, can't be edited. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
     -   In **AI agent support**, you can prioritize AI agents during skills discovery. For more information, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
     -   In **Display experiences**, you can select at least one portal, or integrate with your preferred messaging channels, to display your assistant. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).

@@ -28,10 +28,10 @@ Agentic development with the ServiceNow AI Platform collapses the traditional ap
 
     -   In one approach, developers provide a goal and deploy the generated output without reviewing the underlying code.
     -   In another approach, agentic development is an iterative, conversational process in which developers guide AI generation, review the output, and retain responsibility for the generated code.
-    ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and Now Assist for Creator.
+    ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and ServiceNow Otto for Creator.
 
 
-## Key features and benefits of AI-assisted development on the ServiceNow AI Platform
+## Key features and benefits of agentic development on the ServiceNow AI Platform
 
 |Benefit|Feature|Role|
 |-------|-------|----|
@@ -41,7 +41,7 @@ Agentic development with the ServiceNow AI Platform collapses the traditional ap
 |Versatile tasks|Beyond building new apps, ServiceNow AI Platform agentic development tools can explain code, debug issues, rewrite tables, validate applications, and fix errors.|admin or delegated\_developer|
 |Self-healing code|Build Agent can automatically analyze and repair errors without human intervention.|admin or delegated\_developer|
 
-## Why use AI-assisted development on the ServiceNow AI Platform
+## Why use agentic development on the ServiceNow AI Platform
 
 You can develop agentically with any number of products on the market. However, when you practice agentic development on the ServiceNow AI Platform, you can take advantage of the backend, hosting, and built-in governance. Use the contextual awareness of the ServiceNow AI Platform and all its built-in capabilities as a trusted place to develop and host apps developed agentically.
 
@@ -59,15 +59,15 @@ Your app doesn't have to be completely developed inside the ServiceNow AI Platfo
 
 </td><td>
 
-[Onboard\[Omitted image "bus-sdlc.svg"\] Alt text:Browse information on onboarding with AI-assisted development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-onboarding.md)
+[Onboard\[Omitted image "bus-sdlc.svg"\] Alt text:Browse information on onboarding with agentic development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-onboarding.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-learn.svg"\] Alt text:Create, test, and deploy applications with AI-assisted development tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
+[Use\[Omitted image "bus-learn.svg"\] Alt text:Create, test, and deploy applications with agentic development tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information for AI-assisted development, such as prompt examples.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information for agentic development, such as prompt examples.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-reference-landing.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

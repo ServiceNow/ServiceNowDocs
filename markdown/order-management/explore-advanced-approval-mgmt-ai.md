@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/explore-advanced-approval-mgmt-ai.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-08-07"
 reading_time_minutes: 3
 keywords: [Advanced Approval Management AI, MCP tools, Model Context Protocol, quote approvals, Sales CRM MCP server, explore]
 breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
@@ -17,67 +17,99 @@ The ServiceNow® Advanced Approval Management AI application brings quote approv
 
 ## Advanced Approval Management AI overview
 
-Advanced Approval Management AI provides MCP tools that enable approval users to engage in approval activities using the chat feature of an MCP client such as Claude. The MCP tools retrieve quote and approval request information from the Sales CRM server, which connects the MCP client to a ServiceNow instance.
+Advanced Approval Management AI provides MCP tools that enable approval users to engage in approval activities using the chat feature of an MCP client such as Claude. The MCP tools retrieve quote and approval information from the Sales CRM server, which connects the MCP client to a ServiceNow instance.
 
-Approval requesters and approvers enter prompts or queries in the MCP client, such as asking for quote details or submitting an approval request for approval. The MCP client runs the appropriate MCP tool functionality for Advanced Approval Management AI, and returns the result.
+Approval requesters and approvers enter prompts and queries in the chat interface of the MCP client, without navigating through application menus and forms in the ServiceNow instance. For example requesters or approvers can ask for the approval history for a quote or get quote details. The MCP client runs the appropriate Advanced Approval Management AI MCP tool functionality, then returns the result.
 
-## MCP tools for Advanced Approval Management AI
+Your requesters \(sales reps\) and approvers can do the following advanced approval tasks by entering natural language prompts in the MCP client interface.
 
-<table id="table_ihv_tsc_tjc"><thead><tr><th>
+<table id="table_nf3_hvf_vjc"><thead><tr><th>
 
-Tool name \[ID\]
+Approval activity
 
 </th><th>
 
-Description
+User role
+
+</th><th>
+
+Example query or prompt
 
 </th></tr></thead><tbody><tr><td>
 
-Approval Actions \(sn\_qut\_sum\_skill.approval\_actions\)
+Get quote details, such as header and line items
 
 </td><td>
 
-Submits a quote for approvals and routes them to assigned approvers.
+Requester or approver
+
+</td><td>
+
+-   `Get me info on QT0001035`
+-   `I need header details on QT0001035`
 
 </td></tr><tr><td>
 
-Approval Details \(sn\_adv\_apr\_mgt\_ai.approval\_details\)
+Preview the approvals required for a quote, such as the approval rules and approvers
 
 </td><td>
 
-Retrieves the complete approval cycle history for a quote, including every approval request, step, approval actions, any recalls or rejections.
+Requester
+
+</td><td>
+
+-   `Who are the approvers for QT0001035?`
+-   `What is the business rule for QT0001035?`
 
 </td></tr><tr><td>
 
-Get Approval Preview \(sn\_qut\_sum\_skill.get\_approval\_preview \)
+Submit quote for approval
 
 </td><td>
 
-Previews the approval routing for a quote before a requester submits the quote for approval.
+Requester
+
+</td><td>
+
+`Submit QT0001035 for approval`
 
 </td></tr><tr><td>
 
-Get pending approval list \(sn\_adv\_apr\_mgt\_ai.get\_pending\_approval\_list\)
+Retrieve the complete approval cycle history for a quote \(including every approval request, step, approval actions, any recalls or rejections\)
 
 </td><td>
 
-Retrieves all approval requests pending for an approver.
+Requester or approver
+
+</td><td>
+
+-   `What is the history for QT0001035?`
+-   `What is happening with QT0001035?`
+-   `Who approved QT0001035?`
 
 </td></tr><tr><td>
 
-Get Quote Details \(sn\_qut\_sum\_skill.get\_quote\_details\)
+Retrieve all pending approval requests
 
 </td><td>
 
-Retrieves quote header and line item details.
+Approver
+
+</td><td>
+
+`What requests do I need to approve?`
 
 </td></tr><tr><td>
 
-Update approval request \(sn\_adv\_apr\_mgt\_ai.update\_approval\_request\)
+Executes approve or reject actions on pending approval steps
 
 </td><td>
 
-Executes approve or reject actions on pending approval steps assigned to an approver.
+Approver
+
+</td><td>
+
+`Approve this step`
 
 </td></tr></tbody>
 </table>## Advanced Approval Management AI users
@@ -90,7 +122,7 @@ Executes approve or reject actions on pending approval steps assigned to an appr
 
 ## Advanced Approval Management AI workflow
 
-Requesters and approvers manage the quote approval process by entering a series of queries or prompts in the MCP client, to get information or perform an approval-related task, such as submitting a quote or approving a request. The client returns requested information and performs requested actions, then provides a summary of information requested or confirmation that the task was completed.
+Requesters and approvers manage the quote approval process by entering a series of queries or prompts in the chat interface of an MCP client. For example, approval activities can include getting quote information or performing a task, such as submitting a quote for approval. The client returns requested information and performs requested actions, then provides a summary of information requested or confirmation that the task was completed.
 
 The following describes a typical end-to-end workflow.
 
@@ -105,13 +137,13 @@ The following describes a typical end-to-end workflow.
 
 ## Advanced Approval Management AI benefits
 
-With Advanced Approval Management AI, your approval users can perform approval tasks with improved efficiency by using the conversational interface of the MCP client, instead of navigating between multiple options and forms or switching between tools during the sales cycle.
+With Advanced Approval Management AI, your approval users can perform approval tasks with improved efficiency by using the conversational interface of an MCP client, instead of navigating between multiple options and forms to complete tasks or switch between tools during the sales cycle.
 
 ## What to explore next
 
 To learn more about configuring and using Advanced Approval Management AI, see:
 
--   Configuring Advanced Approval Management AI
--   Using Advanced Approval Management AI
--   Advanced Approval Management AI reference
+-   [Configuring Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-advanced-approval-mgmt-ai.md)
+-   [Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)
+-   [Components installed with Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-advanced-approval-mgmt-AI.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -21,13 +21,17 @@ An Enterprise architect can create a diagram using Lucidchart for a business cap
 -   **[Create TRM product request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-req-form.md)**  
 Create a new request to include a new software product to the TRM library. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 -   **[Request TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-product-request-form.md)**  
-The Request TRM product form is used for adding or editing a request to include a new software or hardware product to the Technology Reference Model \(TRM\) library.
+The Request TRM product form is used to submit a request to add a new software or hardware product to the Technology Reference Model \(TRM\) library. Optionally, add lifecycle records as part of the same request.
 -   **[Create TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-trm-prod-form.md)**  
-As an Enterprise Architect, you can add software product to the TRM library. It creates the record directly without sending a request for approval.
+The Create TRM product form lets you add a software or hardware product directly to the TRM library. The record is created immediately without an approval request.
 -   **[Create TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md)**  
-Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
+The Request TRM product lifecycle form is used to submit a request to add one or more lifecycle records to a TRM product. After you submit the request, an email notification is sent to the Enterprise Architect group for approval.
 -   **[Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md)**  
-Add a new request to create a lifecycle for a TRM product. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
+The Request TRM product lifecycle form is used to submit a request to add one or more lifecycle records to a TRM product. After you submit the request, an email notification is sent to the Enterprise Architect group for approval.
+-   **[Request TRM Product form the Service Catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/trm-prod-req-catalog-form.md)**  
+The Request TRM Product form is used to submit a request for adding a new software or hardware product to the Technology Reference Model \(TRM\) library from the service catalog. Optionally, include one or more lifecycle records with the request.
+-   **[Request TRM Product Lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/trm-product-lifecycle-request-form.md)**  
+The Request TRM Product Lifecycle form is used to submit a request from the service catalog to add one or more lifecycle records to an existing TRM product.
 -   **[TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-form.md)**  
 The Technology Reference Model \(TRM\) technical debts that are created for the products that aren’t aligned with the TRM phases and standards.
 -   **[TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-phase-form.md)**  
@@ -79,13 +83,23 @@ An application service is a configuration item \(CI\) that represents the operat
 -   **[Total cost of ownership form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/new-tco-form.md)**  
 Application TCO helps enterprise architects to evaluate the cost of business applications and prioritize application portfolio.
 -   **[Create a business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-unit-form.md)**  
-Create a business unit to define your organizational functions.
+Fields for creating and configuring business units that represent organizational functions.
 -   **[Create department form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-department-form.md)**  
 Create a business unit to define your organizational functions.
+-   **[Create business role form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-role-form.md)**  
+Use this form to create or edit a business role that defines the responsibilities, rights, and duties associated with performing specific business behavior.
+-   **[Business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-actor-form.md)**  
+The Business Actor form contains fields that define individuals or teams who perform work in your organization.
+-   **[Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-stakeholder-form.md)**  
+The create a stakeholder form captures information about individuals or teams with an interest in enterprise architecture outcomes.
+-   **[Create a driver form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-driver-form.md)**  
+The create new driver form contains fields for documenting internal or external conditions that motivate your organization to define goals and implement changes.
+-   **[Business process activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-business-process-activity-form.md)**  
+Fields for creating and configuring business process activities that represent discrete units of work in your organization.
 -   **[Create user form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-user-form.md)**  
 Create a user to add to a department.
 -   **[Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-goal-form.md)**  
-Use the Goal form to create goals for your organizational strategic priorities.
+Use the Goal form to create goals for organizational strategic priorities.
 -   **[Create target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-target-form.md)**  
 Use the Create target form to create a quantitative or qualitative target for your goal.
 -   **[Create architectural artifact version form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-versions-form.md)**  
@@ -125,7 +139,7 @@ A digital interface is related to a business application, and the business appli
 -   **[Digital interface credentials form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-credential-form.md)**  
 short description.
 -   **[Edit version detail form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-version-detail-form.md)**  
-Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability and ensure that all stakeholders are aligned on the diagram’s context and timelines.
+Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability. This ensures that all stakeholders are aligned on the diagram’s context and timelines.
 -   **[Create a business capability map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-bc-map-form.md)**  
 Creating artifacts for the business capability hierarchy map helps you to update the capability hierarchy directly in the map using Enterprise Modeling and Visualization.
 -   **[Create a business hierarchy map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-ba-map-form.md)**  
@@ -133,7 +147,7 @@ Creating artifacts for the business capability hierarchy map helps you to update
 -   **[Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-arch-artifact-form.md)**  
 Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in the Enterprise Architecture Workspace enable Enterprise Architects to create and manage the artifacts used in their organization.
 -   **[Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-artifact-releated-entity-form.md)**  
-Enterprise Architecture Workspace enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform, such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products. These associations creates a relationship between the artifact and related entities.
+Enterprise Architecture Workspace enables Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform. These associations create a relationship between the artifact and related entities such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products.
 -   **[Create diagram action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-diagram-action-form.md)**  
 The diagram action form helps you to create action for a custom shape that can be used in the Enterprise Modeling and Visualization.
 -   **[Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-image-form.md)**  

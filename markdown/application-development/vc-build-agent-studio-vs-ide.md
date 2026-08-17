@@ -42,17 +42,16 @@ Choose the environment based on your skill set and the type of work:
 
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 
-1.  Open ServiceNow Studio or the ServiceNow IDE to access the Build Agent panel in the workspace.
-2.  Describe what to create or change in natural language.
-3.  Let Build Agent parse requirements and propose the application and files to create or modify.
-4.  Build Agent edits code or metadata or scaffolds a new application.
-5.  Review proposed edits, diffs, and summaries, and approve or adjust before applying changes.
-    1.  If you're using ServiceNow Studio, look at the generated app details.
-    2.  If you're using the ServiceNow IDE, inspect the code.
-6.  Iterate until the desired metadata changes are complete. For more information, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md).
-7.  Prompt Build Agent to create Automated Test Framework \(ATF\) tests, and then run them.
-8.  Instruct Build Agent to build the application; verify results in the File Navigator or Metadata Explorer.
-9.  Deploy the application. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
+1.  Make sure that everything you need is properly configured in the settings, such as supported MCP server connections. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md).
+2.  Open ServiceNow Studio or the ServiceNow IDE to access the Build Agent panel in the workspace.
+3.  Describe what to create or change in natural language.
+4.  Let Build Agent parse requirements and propose the application and files to create or modify.
+5.  Build Agent edits code or metadata or scaffolds a new application.
+6.  Review proposed edits, diffs, and summaries, and approve or adjust before applying changes. Review checkpoints and manual edit update sets. In ServiceNow Studio, view generated app details from the **Apps** tab, and inspect the source code from the **Explorer** tab.
+7.  Iterate until the desired metadata changes are complete. For more information, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md).
+8.  Prompt Build Agent to create and run Automated Test Framework \(ATF\) tests to verify that the tests execute as expected. Depending on your configuration, Build Agent may ask you if you want to run ATF tests. If there are failures, auto troubleshooting triages the tests and produces a regression test suite that you can use to monitor app health.
+9.  Instruct Build Agent to build the application; verify results in the File Navigator or Metadata Explorer.
+10. Deploy the application. If you're using source control, you can push to Git.For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
 
 For more information, see the following topics:
 
@@ -73,5 +72,5 @@ Keep the following in mind when using Build Agent:
 -   Build Agent generates metadata supported by ServiceNow Fluent. Verify artifact compatibility before approval.
 -   Feature availability and UI details might differ between monthly releases. Confirm behavior against your instance version.
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
 

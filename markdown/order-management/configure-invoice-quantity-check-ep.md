@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-02-27"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management, Sales Customer Relationship Management]
+breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure the invoice quantity validation extension point
@@ -96,12 +96,12 @@ The demo implementation also illustrates a fallback pattern. When sold product i
 
 8.  Select **Update**.
 
-9.  Validate your implementation by submitting an invoice dispute from the Business Portal using the Now Assist Virtual Assistant.
+9.  Validate your implementation by submitting an invoice dispute from the Business Portal using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Dispute invoice issues using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
+    For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md).
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

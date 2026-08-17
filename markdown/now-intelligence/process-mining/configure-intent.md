@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with intent and activity analysis, Configure, Now Assist for Process Mining, Use, Process Mining, Platform Analytics]
+breadcrumb: [Working with intent and activity analysis, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure intent and activity analysis

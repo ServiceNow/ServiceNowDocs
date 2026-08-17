@@ -90,5 +90,5 @@ The date and time to activate the plugin.
 
 [Activate a plugin]()
 
-[List of plugins \(Australia\)]()
+[Available plugins and applications]()
 

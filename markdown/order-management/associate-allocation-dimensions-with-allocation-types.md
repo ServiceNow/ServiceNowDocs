@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 1
-breadcrumb: [Configure allocation types, Install and configure Opportunity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure allocation types, Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate allocation dimensions with allocation types

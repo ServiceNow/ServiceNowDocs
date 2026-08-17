@@ -22,6 +22,10 @@ Use the Docs offline, and share with teams or stakeholders outside Collaborative
 
 Role required: sn\_cwm.cwm\_user
 
+## About this task
+
+If there are inline comments present in the Doc, they aren't highlighted or marked in the PDF output.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Collaborative Work Management**.

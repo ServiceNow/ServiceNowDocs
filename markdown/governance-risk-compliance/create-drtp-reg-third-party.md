@@ -40,9 +40,9 @@ DORA requires financial entities to identify all relevant ICT third-party servic
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create New Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-third-party-company-form.md).
+    For more information, see [Create third-party company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-third-party-company-form.md).
 
-    When the Type of code to identify the ICT service provider field is set to LEI and a valid LEI is entered in the Identification code of ICT third-party service provider field, the system validates it in real time against the GLEIF database and auto-populates the Legal name of the ICT service provider field and Country of the ICT third-party service provider's headquarters field with GLEIF data. If you subsequently edit either of those auto-populated fields so that the value no longer matches GLEIF data, a warning message is displayed on the edited field. You can still save the record \(warn-and-save\). The same behavior applies to the Additional identification code of ICT service provider field when its code type is LEI.
+    When Type of code to identify the ICT service provider field is set to LEI, you can enter a valid LEI in the Identification code field. The system validates it in real time against the GLEIF database. The system auto-populates the Legal name of the ICT service provider field and Country of the ICT third-party service provider's headquarters field with GLEIF data. If you edit either of those auto-populated fields so that the value no longer matches GLEIF data, a warning message is displayed on the edited field. You can still save the record \(warn-and-save\). The same behavior applies to the Additional identification code of ICT service provider field when its code type is LEI.
 
 4.  Select **Save**.
 
@@ -50,7 +50,7 @@ DORA requires financial entities to identify all relevant ICT third-party servic
 
 6.  On the form, fill in the fields.
 
-    For more information, see [Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md). Details on the fields are displayed in the example.
+    For more information, see [Create ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md). Details on the fields are displayed in the example.
 
     \[Omitted image "tpr-dig-res-info-sample-form.png"\] Alt text: Resilience details.
 
@@ -58,7 +58,7 @@ DORA requires financial entities to identify all relevant ICT third-party servic
 
     You can also indicate if the third party is ultimate or a subsidiary. Include the name of the ICT third party and the type of service they provide, such as Software as a Service \(SaaS\). Optionally, you can note if an individual acts on behalf of the organization. Additionally, select the reporting currency and input the total annual expense for this engagement.
 
-    For more information, see [Create New Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-third-party-company-form.md).
+    For more information, see [Create third-party company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-third-party-company-form.md).
 
 7.  Select **Save**.
 
@@ -69,10 +69,10 @@ DORA requires financial entities to identify all relevant ICT third-party servic
 10. To delete the third party company record, select it from the list and select **Delete**.
 
 
--   **[Create New Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-third-party-company-form.md)**  
-On the Create New Company form, fill in the fields for the third party.
--   **[Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md)**  
-On the Create New ICT third-party service provider form, fill in the fields.
+-   **[Create third-party company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-third-party-company-form.md)**  
+On the Create third-party company form, fill in the fields for the third party.
+-   **[Create ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.md)**  
+On the Create ICT third-party service provider form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

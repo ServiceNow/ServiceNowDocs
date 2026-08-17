@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-use-extension-point.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-22"
+last_updated: "2026-07-26"
 reading_time_minutes: 2
 breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,7 +26,8 @@ To access the available extension points, type `sys_extension_point.list` in the
 |sn\_telecom\_c360.AllTasksDataProvider|Customize which task tables appear on the All tasks card and what actions are available in the card header. You can add or remove task tables, apply custom filters, or change the create action configuration.|
 |sn\_telecom\_c360.ProductsRelatedDataProvider|Add custom pill types to individual product rows on the Products &amp; Services card. Each implementation provides data for one type of related record \(such as cases or incidents\) linked to a sold product.|
 |sn\_telecom\_c360.CardViewModel|Control whether a specific card is visible on the Customer 360 workspace. Implement isMatch to identify which card your view model applies to, and implement isVisible to define the conditions under which that card should be shown. By default, any card with no matching view model is visible.|
-|sn\_telecom\_c360.VoiceInteractionDataProvider|Control the behavior of the Customer 360 record page when it is opened as a sub page from a voice interaction. Implement the provided methods to customize whether the consumer lookup alternate flow is enabled, and which cards or layout columns are hidden in the voice interaction sub page context.|
+|sn\_telecom\_ra.UseCaseGuidanceNAPConfig|Configure behavior for use case guidances that trigger agentic workflows. Implement `canInteractWithUser` to control whether the agent can interact with the human agent in the panel. Implement `forceNewConversation` to control whether a new conversation is created. Implement `getWindowConfigOverrides` to provide window configuration overrides for the panel.|
+|sn\_telecom\_c360.VoiceInteractionDataProvider|Control the behavior of the Customer 360 record page when opened as a sub page from a voice interaction. Implement the provided methods to customize the consumer lookup alternate flow and to control which cards or layout columns are hidden.|
 
 **Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
 

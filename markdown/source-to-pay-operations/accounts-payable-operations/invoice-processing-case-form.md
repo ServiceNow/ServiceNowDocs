@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
+keywords: [APO, Accounts Payable Operations, invoice automation, accounting codes, invoice processing, tax ID, tax jurisdiction code]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -100,6 +100,8 @@ Field descriptions for the ERP Posting error form, organized by tab, for updatin
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

@@ -1,14 +1,14 @@
 ---
-title: Now Assist in Platform Analytics release notes
+title: ServiceNow Otto in Platform Analytics release notes
 description: Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
-# Now Assist in Platform Analytics release notes
+# ServiceNow Otto in Platform Analytics release notes
 
 Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 
@@ -20,20 +20,36 @@ The following highlights are specific to AI Data Explorer, which relies on Query
 -   Integration with External Data: Extend supported data sources and enable seamless integration with external systems through Data Fabric tables to gain more complete insights across the company’s diverse data.
 -   Document Editing and Organization: Shape your data story exactly as you need it. Collect, edit, and organize insights directly within your exploration.
 -   Collaboration with Other Users: Transform data analysis by working simultaneously with colleagues in a shared space to refine analyses, align on insights, and accelerate data-driven decisions.
--   Smart Integration with Contextual Intelligence: Trigger AI Data Explorer instantly from any application, list, or data visualization to access powerful insights enhanced by contextual awareness and usage patterns to highlight the data that matter most to you.
+-   Smart Integration with Contextual Intelligence: Trigger AI Data Explorer instantly from any application, list, or data visualization. Doing so accesses powerful insights enhanced by contextual awareness and usage patterns to highlight the data that matter most to you.
 
-See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md) for more information.
+See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md) for more information.
 
 **Important:** Now Assist in Platform Analytics applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in this release
+
+-   **[Promote selected indicators in AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/indicator-scope-control.md)**
+
+    Add high-quality indicators that you identify to a list. The indicators on that list are given a boost in AI Search results for Query Generation.
+
+-   **[View more indicator insights in Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md)**
+
+    See directional trends over time and indicator target information in Extended analysis summaries.
+
+-   **[Improvements to data visualizations in Query Generation responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)**
+    -   Single-score charts now render sparklines by default.
+    -   When a user query on indicator data does not specify a visualization type, the response returns the indicator's default chart type.
+-   **[Now Assist renamed to ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md)**
+
+    The Now Assist Admin Console is now AI Admin Hub and many other changes have been made. This renaming is a work in progress.
+
 
 -   **[Query indicator data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer-implementation-checklist.md)**
 
     Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators, not Data snapshots, are supported.
 
 
--   **[Explorations not available from visualization or list for unsupported scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md)**
+-   **Explorations not available from visualization or list for unsupported scope**
 
     You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
 
@@ -81,7 +97,7 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
 
 ## Activation information
 
-Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 

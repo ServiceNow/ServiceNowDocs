@@ -41,7 +41,7 @@ The configurations for the 360° view are stored in **360° View Configurations*
     -   **Scope**: Scope of the business continuity plan such as **Related plans**.
     -   **Events**: Events that are associated with the business continuity plan such as **Ongoing events**.
     -   **Include**: Entities that are associated with the business continuity plan such as **Loss scenario**, **Documentation**, and **Recovery tasks** as shown in the example.
-    The example shows the 360° relationship view for the Customer Support Continuity Plan and its related entities. When you select the **Loss scenario** capsule in the 360° view, the details of the associated loss scenarios for the Customer Support Continuity Plan are displayed in the Loss scenario panel on the right.
+    The example shows the 360° relationship view for the Customer Support Continuity Plan and its related entities. When you select **Loss scenario** in the 360° view, the details of the associated loss scenarios for the Customer Support Continuity Plan are displayed in the Loss scenario panel.
 
     \[Omitted image "360-bcp-loss-scenario.png"\] Alt text: 360-view-for-a-loss-scenario.
 

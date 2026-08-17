@@ -1,6 +1,6 @@
 ---
 title: Card bot response control
-description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
+description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. You can include rich content, such as a video or image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-card-output.html
 release: australia
@@ -14,13 +14,13 @@ breadcrumb: [Assistant Designer bot responses, Assistant Designer interface refe
 
 # Card bot response control
 
-Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
+Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. You can include rich content, such as a video or image.
 
 A card can contain record information, an image, or a YouTube video content in a compact format. The compact format is designed for readability within the chat window.
 
 The Card bot response can show the following types of content:
 
--   Record: Displays content from a single record on your instance. This record can be referenced from variables in the flow or queried using a script that returns a single Glide record from a selected table. The record content includes the display field for the table at the top of the card, followed by any other fields specified by the properties of the bot response.
+-   Record: Displays content from a single record on your instance. This record can be referenced from variables in the flow or queried using a script returning a single Glide record from a selected table. The record content includes the display field for the table at the top of the card, followed by other fields specified by the properties of the bot response.
 -   Image: Displays a large or small image that you provide, along with a title and description. The property sheet provides a pre-configured template for the card layout. Specify the title, description, and the image source.
 -   YouTube video: Displays in an inline video player if supported on the channel. The image is displayed along with a title, description, and hyperlink to relevant content.
 
@@ -228,7 +228,7 @@ None
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 
@@ -369,7 +369,7 @@ In this example, the script creates a GlideRecord object, populates this object 
 
 ## Example Card bot response output for records
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 

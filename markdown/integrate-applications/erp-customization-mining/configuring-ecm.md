@@ -8,7 +8,7 @@ product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
@@ -33,7 +33,7 @@ For the credentials, use an SAP service type user account in your system of reco
 
 There are additional authorizations needed for Zero Copy Connector for ERP. For more information, see [Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md).
 
-**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
+**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the ERP system.
 
 ## Types and number of available connections
 
@@ -41,7 +41,7 @@ Zero Copy Connector for ERP and ERP Semantic Mining currently support ECC \(mini
 
 **Note:** Each installation of ERP Semantic Mining supports adding up to 10 systems. However, ERP Semantic Mining can connect to only one live ERP system at a time.
 
-You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP Semantic Mining. For more information, see [Connect to a system of record from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
+You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP Semantic Mining. For more information, see [Connect to SAP with RFC or BAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
 
 The number of ERP connections you can have per ServiceNow instance depends on your license.
 
@@ -91,7 +91,7 @@ com.snc.uib.sn\_erp\_mining
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Configure SAP for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/ecm-configure-sap-system.md)**  
 Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Semantic Mining.

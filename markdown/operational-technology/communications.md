@@ -60,3 +60,5 @@ The following table describes how to set up network ports.
 |Sensor|22 \(SSH\) inbound|&lt;-|Host Setup Computer|Required|Additional support during deployment|
 |MID Server|443|Bi &lt;-&gt;|NOW instance /Web|Required|Communications from the MID Server to the NOW fabric internet facing.|
 
+**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
+

@@ -1,20 +1,20 @@
 ---
-title: Configuring decision tables
-description: Workflow Studio is installed automatically with each family upgrade. By updating to the latest version of Workflow Studio, you have the latest updates to decision tables. Configure Workflow Studio and assign roles to your staff based on the permission level they require.The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of decision tables in Workflow Studio, but administrators assign roles to give team members permission to configure or use decision tables.
+title: Configure decision tables
+description: Configure Workflow Studio and assign roles based on the permission level each user requires. Workflow Studio is installed automatically with each family upgrade.The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of decision tables in Workflow Studio, but administrators assign roles to give team members permission to configure or use decision tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configuring-decision-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 2
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
-# Configuring decision tables
+# Configure decision tables
 
-Workflow Studio is installed automatically with each family upgrade. By updating to the latest version of Workflow Studio, you have the latest updates to decision tables. Configure Workflow Studio and assign roles to your staff based on the permission level they require.
+Configure Workflow Studio and assign roles based on the permission level each user requires. Workflow Studio is installed automatically with each family upgrade.
 
 For more information, see [Update to the latest version of Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.md).
 
@@ -28,7 +28,7 @@ Review the personas and roles used in decision tables in Workflow Studio.
 
 -   **Decision table admin**
 
-    The decision table admin can create and edit any part of a decision table. The admin may make high-level decisions about when a decision table is needed, create the table, and then pass on the work of authoring the rules in the table to someone else. Decision table admins are the only persona who can create inputs and decision table columns and values.
+    The decision table admin can create and edit any part of a decision table. The admin may decide when a decision table is needed, create the table, and delegate rule authoring to someone else. Decision table admins are the only persona who can create inputs and decision table columns and values.
 
 -   **Decision table reader**
 
@@ -65,9 +65,7 @@ decision\_table\_reader
 
 </td><td>
 
-Read-only access to inputs and decision table columns and values.
-
- In decision tables, users with this role can export decision tables to Excel.
+Read-only access to inputs and decision table columns and values. In decision tables, users with this role can export decision tables to Excel.
 
 </td></tr><tr><td>
 
@@ -75,9 +73,7 @@ decision\_rule\_author
 
 </td><td>
 
-Read-only access to inputs and decision table columns.
-
- In decision tables, users with this role can do the following:
+Read-only access to inputs and decision table columns. In decision tables, users with this role can do the following:
 
 -   Add new decision rows
 -   Rearrange decision rows
@@ -90,9 +86,7 @@ decision\_result\_editor
 
 </td><td>
 
-Read-only access to inputs, decision table columns, and conditions.
-
- In decision tables, users with this role can edit result values in existing decision rows.
+Read-only access to inputs, decision table columns, and conditions. In decision tables, users with this role can edit result values in existing decision rows.
 
 </td></tr></tbody>
 </table>

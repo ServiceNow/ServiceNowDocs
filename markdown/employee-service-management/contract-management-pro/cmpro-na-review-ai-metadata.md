@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-08-10"
 reading_time_minutes: 3
 keywords: [Manage contract repository, Agentic workflow in Contract Management Pro, Review AI extracted information, Playbook in Contract Management Pro, Review AI results in Contract Management Pro]
-breadcrumb: [Review AI results, Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review AI results, Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review AI-extracted metadata and contract reminder date
@@ -31,15 +31,15 @@ To receive notifications when AI agents complete metadata extraction, ensure tha
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d417781e90">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d418033e90">
 
 Method
 
-</th><th align="left" id="d417781e93">
+</th><th align="left" id="d418033e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d417781e99">
+</th></tr></thead><tbody><tr><td id="d418033e99">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d417781e147">
+</td></tr><tr><td id="d418033e147">
 
 **Workspace used by your application**
 
@@ -64,7 +64,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d417781e174">
+</td></tr><tr><td id="d418033e174">
 
 **Email notification**
 

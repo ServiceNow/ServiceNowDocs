@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -24,6 +24,7 @@ From the Portfolio page in Enterprise Architecture Workspace, you can perform th
 -   View existing business capabilities
 -   Add a sub-capability
 -   Add architectural artifacts to a business capability
+-   Associate a business capability with the business unit that uses it
 
 You can also view and add business capabilities and perform a host of other tasks relating to business capabilities, from the Business Portfolio page. For more information, see [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-business-portfolio.md).
 
@@ -43,4 +44,8 @@ You can also view and add business capabilities and perform a host of other task
 [Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
 
 [Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
+
+[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)
+
+[Remove a business unit from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-capability.md)
 

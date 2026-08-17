@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a retriever
@@ -28,7 +28,7 @@ A retriever enables the chatbot to access external knowledge by fetching relevan
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Create a skill or select the skill that you want to add a retriever to.
 
@@ -126,7 +126,7 @@ Search criteria
 
 10. Select an embedding model.
 
-    To learn about embedding models, see .
+    To learn about embedding models, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/setting-up-3p-embedding-models.md).
 
 11. If you selected **Hybrid** or **Semantic** search criteria, select a semantic index.
 

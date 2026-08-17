@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Care Team Operations
-description: Use the ServiceNowNow Assist for Care Team Operations application to create support requests in Care Team Mobile or Care Team Portal.
+title: ServiceNow Otto for Care Team Operations
+description: Use the ServiceNow Otto for Care Team Operations application to create support requests in Care Team Mobile or Care Team Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/now-assist-for-healthcare-and-life-sciences.html
 release: australia
@@ -10,19 +10,19 @@ reading_time_minutes: 2
 breadcrumb: [Healthcare and Life Sciences]
 ---
 
-# Now Assist for Care Team Operations
+# ServiceNow Otto for Care Team Operations
 
-Use the ServiceNow®Now Assist for Care Team Operations application to create support requests in Care Team Mobile or Care Team Portal.
+Use the ServiceNow Otto for Care Team Operations application to create support requests in Care Team Mobile or Care Team Portal.
 
 ## Get started
 
 <table id="table_z22_2ph_5hc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore the Now Assist for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/exploring-now-assist-hcls.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore the ServiceNow Otto for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/exploring-now-assist-hcls.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the Now Assist for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-now-assist-hcls.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the ServiceNow Otto for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-now-assist-hcls.md)
 
 </td><td>
 

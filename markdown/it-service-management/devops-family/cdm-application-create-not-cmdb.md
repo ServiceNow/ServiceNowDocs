@@ -157,7 +157,7 @@ Service in the CMDB that the deployable is associated with. Select a service in 
 
 ## What to do next
 
-The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add the nodes that will contain config data to a new CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
+The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
 
 **Related topics**  
 

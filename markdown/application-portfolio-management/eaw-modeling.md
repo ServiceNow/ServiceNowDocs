@@ -56,7 +56,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
 
     You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Dragging outward increases the shape dimensions; dragging inward reduces its size.
 
-    When you hover over a shape icon in the **Shapes** panel, a preview popover appears to the right of the panel showing a larger view of the shape and its label. Moving to a different shape icon, using either the mouse or the arrow keys, updates the popover to the new shape. The popover closes when you move the mouse away from the icon, press Tab on the keyboard, start dragging a shape, or scroll the panel.
+    When you hover over a shape icon in the **Shapes** panel, a preview popover appears to the right of the panel. The popover shows a larger view of the shape and its label. Moving to a different shape icon, using either the mouse or the arrow keys, updates the popover to the new shape. The popover closes when you move the mouse away from the icon, press Tab on the keyboard, start dragging a shape, or scroll the panel.
 
 -   **Label connector lines**: Select a connector line between shapes in a diagram and select **T+** in the connector toolbar to add a label. For more information, see [Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md).
 
@@ -131,7 +131,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
 
 Enterprise Modeling and Visualization supports keyboard navigation across the diagram canvas, panels, shapes, and dialogs.
 
-You can use the keyboard to move between shapes, groups, pools, swimlanes, and nested elements on the canvas. Focus indicators clearly show the currently selected item. You can access shape and relationship context menu using the keyboard to open the side panel, view related records, add or edit relationship text, and perform actions such as delete or add relations.
+You can use the keyboard to move between shapes, groups, pools, swimlanes, and nested elements on the canvas. Focus indicators clearly show the currently selected item. You can access shape and relationship context menus using the keyboard. Use these menus to open the side panel, view related records, add or edit relationship text, and delete or add relations.
 
 The following table lists the keyboard shortcuts available for navigating:
 
@@ -156,6 +156,8 @@ ServiceNow CSDM data model defines standardized relationships between service-re
 Custom shapes are the user-defined graphical elements that can be used to represent specific concepts, processes, systems, or roles in your diagrams. These shapes can be tailored to fit the unique needs of your organization, making your diagrams more meaningful and easier to understand.
 -   **[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/business-process-modeling.md)**  
 Business processes are a structured sequence of tasks that are grouped, helping to accomplish specific business outcomes. A business process modeling diagram or a BPMN \(Business Process Model and Notation\) diagram is a visual representation of a business process.
+-   **[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-bpm-diagram-from-image.md)**  
+Use the ServiceNow AI lens skill to generate a business process map \(BPM\) diagram automatically by uploading an image of an existing process diagram from any tool.
 
 **Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

@@ -60,7 +60,7 @@ For information about the data migrated from the demand to the EAP entity, see [
 
 ## What to do next
 
-View and work on the new entity in Strategic Planning Workspace right away by selecting the link to the entity in the message that is displayed when the entity creation is successful.
+To view and work on the new entity in Strategic Planning Workspace right away, select the link to the entity in the confirmation message.
 
 **Note:** To access the entity at a later time, in the demand form, select the entity name in the **Converted to** field in the EAP Details section.
 

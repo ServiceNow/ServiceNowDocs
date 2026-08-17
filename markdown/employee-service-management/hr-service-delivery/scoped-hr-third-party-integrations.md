@@ -1,6 +1,6 @@
 ---
 title: HR Integrations
-description: Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks; e-signature systems to request electronic signatures; and more.
+description: Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Ser
 
 # HR Integrations
 
-Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks; e-signature systems to request electronic signatures; and more.
+Integrate HR Service Delivery with HR management systems to synchronize employee profiles, to-dos, and other data; background check systems to request background checks.
 
 For select systems, preconfigured integrations are available to use. You can also configure your own custom integration with third-party systems that use SOAP or REST services.
 
@@ -44,15 +44,6 @@ Background check system
 
 </td></tr><tr><td>
 
-E-signature system
-
-</td><td>
-
--   [Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
--   [Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)
-
-</td></tr><tr><td>
-
 Tax form management system
 
 </td><td>
@@ -78,10 +69,6 @@ The preconfigured First Advantage integration uses SOAP services to request back
 The preconfigured Accurate Background integration uses REST services to request background checks through the Accurate Background service. You can use the preconfigured integration as-is or customize it to meet your needs.
 -   **[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)**  
 The preconfigured Sterling Talent Solutions integration uses REST services to request background checks through the Sterling service. You can use the preconfigured integration as-is or customize it to meet your needs.
--   **[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)**  
-Request electronic signatures through the DocuSign service with the DocuSign integration.
--   **[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)**  
-Request electronic signatures through the Adobe Sign service with the Adobe Sign integration. This integration depends on the Adobe Sign spoke in IntegrationHub, and is enabled for the signing of adhoc documents \(HR PDF document templates\) and Adobe Sign templates.
 -   **[Integrating with the CIC Plus service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrating-with-cic-plus-service.md)**  
 Integrate with the CIC Plus service so that you can enable US-based new hires to provide relevant tax information as part of the onboarding process.
 

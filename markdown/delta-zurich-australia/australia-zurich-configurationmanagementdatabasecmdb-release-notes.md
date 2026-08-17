@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-configurationmanagementdatabasecmdb-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 17
+last_updated: "2026-08-17"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,7 +114,7 @@ Australia
 
 -   **[CMDB success advisor](https://www.servicenow.com/docs/access?context=cmdb-sa-landing-page&family=australia&ft:locale=en-US)**
 
-Use CMDB success advisor to achieve Data Foundations and HAM target outcomes. The store app monitors and improves CMDB data quality through dedicated dashboards for principal CI classes and hardware assets, providing targeted recommendations and remediation actions to address data gaps. Access the dashboards directly from the Service Graph Workspace.
+Use CMDB success advisor to achieve Data Foundations, HAM, and SAM target outcomes. The store app monitors and improves CMDB data quality through dedicated dashboards for principal CI classes, hardware assets, and software installs. Dashboards provide targeted recommendations and remediation actions to address data gaps and are accessible directly from the Service Graph Workspace.
 
 -   **[CMDB Workspace v8.0](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=australia&ft:locale=en-US)**
 
@@ -127,11 +127,11 @@ Create a CI with a lookup identifier entry that contains mandatory attributes in
 
 Use Dynamic IRE to accurately identify CIs across multiple data sources, and by so, minimize duplicate CIs. Dynamic IRE is applicable only to the Hardware \[cmdb\_ci\_hardware\] class and its descending class, using a dynamic identification process which eliminates the need to manually create and maintain identification rules.
 
--   **[Simplify resolving de-duplication tasks by using a Now Assist for CMDB skill](https://www.servicenow.com/docs/access?context=reconcile-dup-task&family=australia&ft:locale=en-US)**
+-   **[Simplify resolving de-duplication tasks by using a ServiceNow Otto for CMDB skill](https://www.servicenow.com/docs/access?context=reconcile-dup-task&family=australia&ft:locale=en-US)**
 
 Use the De-duplication task resolution assistant skill in the Duplicate CI Remediator to use preselected remediation options instead of manually making selections. An AI agent preselects the options to resolve the task, such as the choice of the main CI. Then, before initiating the remediation, you can review all suggested options with supported reasoning.
 
-To use the De-duplication task resolution assistant skill, you must install the Now Assist for CMDB version v3.0.
+To use the De-duplication task resolution assistant skill, you must install the ServiceNow Otto for CMDB version v3.0.
 
 -   **[Quick start tests for CMDB](https://www.servicenow.com/docs/access?context=quick-start-tests-cmdb&family=australia&ft:locale=en-US)**
 
@@ -218,8 +218,6 @@ Access to CMDB tables is no longer restricted to users with elevated privileges.
 
     -   CMDB tables that required the admin or itil\_admin roles are now also accessible to the sn\_cmdb\_admin user role.
     -   CMDB tables that required the itil role are now also accessible to the sn\_cmdb\_editor user role.
-For more information, see the [CMDB Granular Role EPIC changes \[KB0561055\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0561055) article in the Now Support Knowledge Base.
-
 -   **[Automatically generate de-duplication tasks for lookup and related tables](https://www.servicenow.com/docs/access?context=id-detect-dup-ci&family=australia&ft:locale=en-US)**
 
 Configure IRE to automatically generate de-duplication tasks for specific lookup or related tables during the identification process. You can then process those de-duplication tasks to remediate any duplications.
@@ -485,10 +483,10 @@ Australia
 
 </td><td>
 
--   Use CMDB success advisor to achieve Data Foundations and Hardware Asset Management \(HAM\) target outcomes.
+-   Use CMDB success advisor to achieve Data Foundations, Hardware Asset Management \(HAM\), and Software Asset Management \(SAM\) target outcomes.
 -   Users with CMDB related roles can perform all CMDB functions as access to CMDB tables is no longer restricted to users with elevated privileges.
 -   Switch into using the Service Graph Workspace instead of CMDB Workspace. The Service Graph Workspace provides access to data such as company, location, user and CMDB. The new workspace is specifically organized to help CMDB administrators, data owners, and analysts work efficiently with the CMDB.
--   Simplify duplicate CI remediation by using the Now Assist for CMDB remediation option in the Duplicate CI Remediator, and using the automatically-filled remediation options.
+-   Simplify duplicate CI remediation by using the ServiceNow Otto for CMDB remediation option in the Duplicate CI Remediator, and using the automatically-filled remediation options.
 -   Use Dynamic Identification and Reconciliation Engine \(IRE\) that eliminates the need for manually-created identification rules and reduces incorrect detection of duplicate CIs in the CMDB.
 -   Protect sensitive information with domain separation that supports key CMDB tables such as the Key Value \[cmdb\_key\_value\] table.
 

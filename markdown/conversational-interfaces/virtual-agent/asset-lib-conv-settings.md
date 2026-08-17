@@ -1,20 +1,20 @@
 ---
-title: Conversational settings for Assets in the Asset library
-description: Manage asset settings from the Asset library for individual assets.
+title: Conversational settings for assets in the Asset library
+description: Manage asset settings from the Asset library for individual active assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/asset-lib-conv-settings.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-14"
 reading_time_minutes: 1
 breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Conversational settings for Assets in the Asset library
+# Conversational settings for assets in the Asset library
 
-Manage asset settings from the Asset library for individual assets.
+Manage asset settings from the Asset library for individual active assets.
 
 To manage the settings for an asset directly from the Asset library page, select the **Show actions for this row** icon \(\[Omitted image "icon-show-actions-for-this-row.png"\] Alt text:\) and select **Conversational settings**.
 
@@ -27,7 +27,7 @@ Use the conversational settings module to edit the settings depending on your as
 |Topics|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
 |Subflows|Assistants, Roles|
 |Actions|Assistants, Roles|
-|Now Assist Custom skills|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
+|Custom skills|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
 |AI Agents|Assistants, Roles, Discoverable \(assistants\), Visible \(assistants\)|
 
 \[Omitted image "asset-lib-conv-set-02.png"\] Alt text: Conversational settings module.
@@ -80,8 +80,11 @@ Availability
 
 </td><td>
 
-Availability settings allow you to select the assistants and roles that can access the asset.-   Assistants: Select the assistants that can access the asset. If left empty, the asset can't be used by any assistants.
--   Roles: Select the roles end users must have to access the asset. If left empty, then the asset is available to all roles.
+Availability settings allow you to select the assistants and roles that can access the asset.-   **Assistants**: Select the assistants that can access the asset. If left empty, the asset can't be used by any assistants.
+
+**Note:** Inactive assistants can also be selected.
+
+-   **Roles**: Select the roles end users must have to access the asset. If left empty, then the asset is available to all roles.
 
 </td></tr><tr><td>
 
@@ -89,11 +92,11 @@ Findability
 
 </td><td>
 
-Findability settings determine whether you can invoke or look for the asset from the chat experience.-   Discoverable: Select the assistants where the asset is discoverable.
+Findability settings determine whether you can invoke or look for the asset from the chat experience.-   **Discoverable**: Select the assistants where the asset is discoverable.
 
 If an asset is selected as Discoverable, it’s invoked when matched with the user's utterance.
 
--   Visible: Select the assistants where the asset is visible.
+-   **Visible**: Select the assistants where the asset is visible.
 
 If an asset is selected as Visible, it appears whenever the **Show me everything** option is selected in the conversation.
 

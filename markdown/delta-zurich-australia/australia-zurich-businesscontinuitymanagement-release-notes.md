@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-businesscontinuitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -160,7 +160,7 @@ Add Task template groups and individual Task templates directly from recovery ta
 
 -   **[Task templates and Task template groups support in Exercises and Crisis events](https://www.servicenow.com/docs/access?context=add-an-event-task-to-exercise-event&family=australia&ft:locale=en-US)**
 
-Add task template groups and individual templates directly from event task lists. Select groups, assign an activated plan when required, and the system creates all tasks with dependencies intact. An auto-refresh banner tracks progress and refreshes the list once after all tasks are created.
+Add Task template groups and individual templates directly from event task lists. Select groups, assign an activated plan when required, and the system creates all tasks with dependencies intact. An auto-refresh banner tracks progress and refreshes the list once after all tasks are created.
 
 -   **[Recovery strategy templates](https://www.servicenow.com/docs/access?context=configure-recovery-strategy-template-uib-ws&family=australia&ft:locale=en-US)**
 
@@ -174,7 +174,7 @@ Filters, sorting, and selections remain consistent when switching between list a
 
 -   **[Export and import event tasks in Microsoft Excel](https://www.servicenow.com/docs/access?context=using-export-import-feature-event-tasks&family=australia&ft:locale=en-US)**
 
-Export recovery event tasks to Microsoft Excel from the Event tasks related list. The workbook includes a data sheet, a read-only Event Details tab, and an Instructions sheet. Non-editable columns are locked. Import the updated file when the event is in the Open or Work in progress state. Track import progress in real time, with a full audit trail available on the Recovery Event form.
+Export recovery event tasks to Microsoft Excel from the Event tasks related list. The workbook includes a Data sheet, a read-only Event details tab, and an Instructions sheet. Non-editable columns are locked. Import the updated file when the event is in the Open or Work in progress state. Track import progress in real time, with a full audit trail available on the Recovery event form.
 
 -   **[Role-based Performance Analytics dashboards](https://www.servicenow.com/docs/access?context=pa-dashboard-summary&family=australia&ft:locale=en-US)**
 
@@ -218,8 +218,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 For more information, see [BCM and ServiceNow Store](https://www.servicenow.com/docs/access?context=bcm-and-store&family=australia&ft:locale=en-US).
@@ -466,7 +466,7 @@ Australia
 
 </td><td>
 
--   Build reusable task templates and groups with dependencies across plans, loss scenarios, and exercises.
+-   Build reusable Task templates and groups with dependencies across plans, loss scenarios, and exercises.
 -   Auto-generate full plan hierarchies — scenarios, strategies, and tasks — from plan templates.
 -   Export event tasks to Microsoft Excel, edit offline, and reimport updated records with validation and progress tracking.
 -   Monitor performance through role-based dashboards with key performance indicators and usage insights.

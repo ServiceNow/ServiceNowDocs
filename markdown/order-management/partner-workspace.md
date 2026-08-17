@@ -1,16 +1,16 @@
 ---
-title: Partner Relationship Management in CSM Configurable Workspace
+title: Partner Workspace
 description: Partner admins, agents, and managers can manage partner programs and partnerships on the partner workspace to triage cases and requests from customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
-# Partner Relationship Management in CSM Configurable Workspace
+# Partner Workspace
 
 Partner admins, agents, and managers can manage partner programs and partnerships on the partner workspace to triage cases and requests from customers.
 
@@ -27,12 +27,18 @@ You can perform the following actions using the workspace.
 |[Create Partner Programs on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-partner-programs-on-workspace.md)|Enable channel partners to create Partner Programs on the workspace.|
 |[Create Partnerships on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-partnerships-on-workspace.md)|Establish a relationship between channel partners and partner programs on the workspace.|
 
+-   **[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-channel-partner-record.md)**  
+Create and track channel partner records on the partner workspace to manage and store all information related to the channel partners.
 -   **[Create Partner Programs on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-partner-programs-on-workspace.md)**  
 Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by creating partner programs on the workspace.
 -   **[Create Partnerships on the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-partnerships-on-workspace.md)**  
 With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs on the workspace.
+-   **[Create cases for channel partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-cases-for-channel-partners.md)**  
+Create customer service cases for channel partners to manage customer queries and offer resolution.
+-   **[Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/update-deal-registration-record.md)**  
+Create a deal registration record or perform actions on an existing record in the CSM Configurable Workspace, including submitting for approval and managing post-approval actions.
 
-**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

@@ -71,7 +71,7 @@ A Simulation Assessment record is generated automatically for the selected servi
 
     **Note:** The **Start Simulation** button is enabled only when all Simulation Assessment cards on the **Scenario Testing** step show Completed status. Before attempting to start the simulation, you must complete and submit the assessment.
 
-    The simulation runs and results are returned before you can proceed. After the simulation run, a success banner **Simulation Completed Successfully** is displayed, the **Mark as complete** button on the Scenario Testing card becomes enabled, and the result values are written to the output assessment shown on the Results step. The **Reopen Assessment** button remains visible so that you can change input answers and rerun the simulation any number of times before you select **Mark as complete**.
+    The simulation runs and results are returned before you can proceed. After the simulation run, a success banner **Simulation Completed Successfully** is displayed. The **Mark as complete** button on the Scenario Testing card becomes enabled. The result values are written to the output assessment shown on the Results step. The **Reopen Assessment** button remains visible so that you can change input answers and rerun the simulation any number of times before you select **Mark as complete**.
 
     \[Omitted image "sca-scenario-testing-simulation-completed.png"\] Alt text: Scenario Testing step after Questionnaire is submitted, showing the Simulation Assessment card, the Reopen Assessment button, the Start Simulation button enabled, and Mark as Complete button visible but inactive.
 

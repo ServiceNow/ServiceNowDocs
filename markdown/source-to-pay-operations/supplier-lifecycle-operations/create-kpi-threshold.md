@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [KPI threshold, KPI template, target threshold, quantitative KPI, Supplier Relationship and Performance Management, qualitative KPI]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

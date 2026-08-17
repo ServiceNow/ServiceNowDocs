@@ -37,6 +37,7 @@ The following plugins are currently available:
 -   I18N: Italian Translations
 -   I18N: Japanese Translations
 -   I18N: Korean Translations
+-   I18N: Latin American Spanish Translations
 -   I18N: Norwegian Translations
 -   I18N: Polish Translations
 -   I18N: Portuguese Translations

@@ -1,6 +1,6 @@
 ---
 title: Document Intelligence processing with playbook
-description: Invoices ingested through Document Intelligence may require manual actions by Accounts Payable specialists or administrators when automated processing is unavailable or requires intervention.
+description: Invoices ingested through Document Intelligence may require manual actions when automated processing is unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice ingestion, playbook, guided resolution]
+keywords: [APO, Accounts Payable Operations, Accounts payable specialist, Administrator, automated processing, invoice extraction, msnusl intervention, playbook, DocIntel]
 breadcrumb: [Playbook for updating the invoice primary data, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Document Intelligence processing with playbook
 
-Invoices ingested through Document Intelligence may require manual actions by Accounts Payable specialists or administrators when automated processing is unavailable or requires intervention.
+Invoices ingested through Document Intelligence may require manual actions when automated processing is unavailable.
 
 The following scenarios occur when Document Intelligence process a document:
 

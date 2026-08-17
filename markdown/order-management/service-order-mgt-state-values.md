@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/service-order-
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
@@ -160,8 +160,8 @@ All associated service order line items are complete. **Note:** After your agent
 </td></tr></tbody>
 </table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order states, see
 
--   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+-   
+-   
 
 ## Order Line Item form states
 
@@ -308,8 +308,8 @@ Service order line item and all associated and external service order tasks that
 </td></tr></tbody>
 </table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order line item states, see
 
--   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+-   
+-   
 
 ## Order task form states
 

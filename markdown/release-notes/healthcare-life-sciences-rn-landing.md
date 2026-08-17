@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/healthcare-life-s
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -42,8 +42,8 @@ The ServiceNow® Care Team Work Management application enables clinicians to cre
 The ServiceNow® Healthcare and Life Sciences Service Management Core application delivers a seamless digital experience for your users and streamline healthcare operations with automated processes. Healthcare and Life Sciences Service Management Core was enhanced and updated in the Australia release.
 -   **[Healthcare Operations Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-operations-core-rn.md)**  
 The ServiceNow® Healthcare Operations Core application streamlines and optimizes healthcare team operational tasks. Healthcare Operations Core was enhanced and updated in the Australia release.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)**  
-
+-   **[ServiceNow Otto for Care Team Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-healthcare-operations-rn.md)**  
+The ServiceNow® ServiceNow Otto for Care Team Operations application enables care teams to create requests for support departments conversationally through using Now Assist in Virtual Agent in both Care Team Portal and Care Team Mobile. Now Assist for Healthcare Operations is a new application in the Australia release.
 -   **[HL7 v2.x Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hl7-release-notes-rn.md)**  
 The ServiceNow® HL7 v2.x Integration application works alongside the HL7 v2.x Inbound REST API to provide a standards-compliant endpoint for receiving HL7 v2.x messages from integration engines, a configurable parser for converting raw messages into structured workflow data, and out-of-the-box support for common ADT message types. HL7 v2.x Integration is a new application in the Australia release.
 -   **[EMR Provider Directory Sync Sync release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hco-fhir-release-notes-rn.md)**  

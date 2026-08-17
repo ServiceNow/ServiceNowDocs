@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Migrate an alert action rule to an alert management rule
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Existing alert action rules are active, read-only rules. An alert action rule can be modified only after it is migrated to an alert management rule.
 
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Procedure
 

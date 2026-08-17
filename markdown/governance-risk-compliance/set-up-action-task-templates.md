@@ -44,19 +44,19 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         -   **Regulatory reporting assessment of IT incidents template**
 
-            When a case is created, the 'Regulatory reporting assessment of IT incidents' template is used to generate the action tasks. The following example shows that when you create a DIR case with DORA as the authority document, an action task is generated automatically using the 'Regulatory reporting assessment of IT incidents' template. The system creates a case with DORA as the authority document, assigns it a specific title, and routes it to a designated group.
+            When a case is created, the 'Regulatory reporting assessment of IT incidents' template is used to generate the action tasks. Creating a DRI case with authority document generates an action task using 'Regulatory reporting assessment of IT incidents' template. The system creates a case with DORA as the authority document. It assigns the case a specific title and routes it to a designated group.
 
-            The **Repeat** field indicates that the action tasks can be configured for either once or periodically. For regulatory reporting, the initial action task is created only once. The **On create** field shows that the action tasks are generated only when a DRIR case is created. If the **On create** field is inactive \(cleared\), the action task isn’t generated. The **Assignment group** field assigns the action task to a designated group automatically.
+            The **Repeat** field indicates whether the action tasks run once or periodically. For regulatory reporting, the initial action task is created only once. The **On create** field shows that the action tasks are generated only when a DRIR case is created. If the **On create** field is inactive \(cleared\), the action task isn’t generated. The **Assignment group** field assigns the action task to a designated group automatically.
 
             \[Omitted image "act-task-1-temp-condition.png"\] Alt text: Task 1.
 
         -   **DRI Initial report template**
 
-            When the reporting status of a regulation changes from "To be determined' to 'Reportable' after the first assessment, an initial report is sent automatically. Similar to other action tasks, you can configure the assignment group and due date, and this template is created only once according to trigger.
+            When the reporting status of a regulation changes from "To be determined' to 'Reportable' after the first assessment, an initial report is sent automatically. Similar to other action tasks, you can configure the assignment group and due date. This template is created only once according to trigger.
 
             \[Omitted image "act-task-2-temp-condition.png"\] Alt text: Task 2.
 
-            A single DIR case can be associated with multiple regulations. When the reporting status of any individual regulation changes to 'reportable,' a dedicated initial report is generated for that specific regulation. For example, if a case involves five regulations, and each one's status becomes 'reportable,' five separate initial reports are created, demonstrating comprehensive support for multiple regulations.
+            A single DIR case can be associated with multiple regulations. When the reporting status of any individual regulation changes to 'reportable,' a dedicated initial report is generated for that specific regulation. For example, if a case involves five regulations, and each one's status becomes 'reportable,' five separate initial reports are created. It demonstrates comprehensive support for multiple regulations.
 
         -   **DRI Intermediate report template**
 

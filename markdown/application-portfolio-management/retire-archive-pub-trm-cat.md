@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 The Publishing Center controls how TRM data is published to the Knowledge Base, but it does not manage the lifecycle state of the published Knowledge Base content.
 
-When a TRM catalog is published, it is generated as Knowledge Base articles, and the lifecycle of those articles \(active, retired, or archived\) is managed through Knowledge Management, not through the Publishing Center.
+When a TRM catalog is published, it is generated as Knowledge Base articles. The lifecycle of those articles \(active, retired, or archived\) is managed through Knowledge Management, not through the Publishing Center.
 
 Retiring or archiving Knowledge Base content does not delete or disable the publishing configuration.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Playbooks for Customer Service Management, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Activities, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Select a playbook activity view
@@ -18,9 +18,17 @@ The activity view determines how the stages and activities are displayed in the 
 
 Role required: admin
 
+## Using keyboard navigation in a playbook
+
+Use the following keyboard keys to navigate playbook stages and activities.
+
+-   **Tab** key: Use the **Tab** key to initiate navigation and move between stages, activities, and the playbook work area.
+-   **Arrow** keys: Use the left, right, up, and down arrow keys to navigate the fields on a playbook activity card.
+-   **Enter** key: Press the **Enter** key to select buttons on a playbook activity card.
+
 ## About this task
 
-Users with the system administrator role can select the [playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-layout.md) in the playbook component configuration in UI Builder.
+Users with the system administrator role can select the activity view in the playbook component configuration in UI Builder.
 
 ## Procedure
 

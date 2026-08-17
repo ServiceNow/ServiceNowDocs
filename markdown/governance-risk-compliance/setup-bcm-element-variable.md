@@ -1,6 +1,6 @@
 ---
 title: Set up element variable for BIA dependency assessment grid
-description: As a functional system administrator, you can set up an element variable that is specific custom columns, which are required for a particular dependency of an element.
+description: As a functional system administrator, you can set up an element variable that is a specific custom column required for a particular dependency of an element.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-bcm-element-variable.html
 release: australia
@@ -12,17 +12,17 @@ breadcrumb: [Grid configuration, BCM in the Classic Workspace, Configure, Busine
 
 # Set up element variable for BIA dependency assessment grid
 
-As a functional system administrator, you can set up an element variable that is specific custom columns, which are required for a particular dependency of an element.
+As a functional system administrator, you can set up an element variable that is a specific custom column required for a particular dependency of an element.
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, sn\_bcm.admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Business Continuity** &gt; **General Administration** &gt; **Element Variables**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 

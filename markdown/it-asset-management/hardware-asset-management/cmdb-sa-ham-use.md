@@ -19,7 +19,7 @@ As a CMDB administrator, you can use the Hardware Asset Management \(HAM\) dashb
 
 The ServiceNow® CMDB success advisor is a scoped application that drives business outcomes for targeted business products. To learn more, see [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa.md).
 
-1.  [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
+1.  [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 
     Set up the CMDB success advisor for HAM.
 

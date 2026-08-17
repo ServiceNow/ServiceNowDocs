@@ -15,14 +15,14 @@ breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow
 
 The agentic development workflow begins with developers providing conversational prompts to the Build Agent tool, which then creates tables, forms, workflows, and automation rules.
 
-Integrated tools like Build Agent and Now Assist for Creator enhance the experience by offering text-to-code generation, code explanations, and optimization suggestions. Governance and security are embedded throughout the process, ensuring enterprise-grade compliance and scalability.
+Integrated tools like Build Agent and ServiceNow Otto for Creator enhance the experience by offering text-to-code generation, code explanations, and optimization suggestions. Governance and security are embedded throughout the process, ensuring enterprise-grade compliance and scalability.
 
 **Note:** Agentic development encompasses a range of approaches to AI-assisted app building:
 
 -   In one approach, developers provide a goal and deploy the generated output without reviewing the underlying code.
 -   In another approach, agentic development is an iterative, conversational process in which developers guide AI generation, review the output, and retain responsibility for the generated code.
 
-ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and Now Assist for Creator.
+ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and ServiceNow Otto for Creator.
 
 ## Step-by-step general workflow
 

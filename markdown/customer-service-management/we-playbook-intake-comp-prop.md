@@ -24,14 +24,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Title
-
-</td><td>
-
-Title of the playbook case create form. Title will be replaced by case number if there’s no short description after record is created.
-
-</td></tr><tr><td>
-
 Table
 
 </td><td>
@@ -64,11 +56,19 @@ Optionally, select a playbook experience to use. If not selected, the Global Pla
 
 </td></tr><tr><td>
 
+Title
+
+</td><td>
+
+Title of the playbook intake form. Title will be replaced by case number if there’s no short description after record is created.
+
+</td></tr><tr><td>
+
 Hide stages
 
 </td><td>
 
-Option to hide playbook stages to display activities of current stage.
+Option to hide playbook stages to display activities of the current stage.
 
 </td></tr><tr><td>
 
@@ -88,11 +88,11 @@ Displays the number of stages visible in the horizontal stage picker for the pla
 
 </td></tr><tr><td>
 
-Activity view mode
+Activity orientation
 
 </td><td>
 
-View mode for displaying playbook activities in a stacked or focused layout.
+When **Hide stages** option is enabled, activities can be displayed as Vertical focused or Vertical stacked. When stages are hidden, Horizontal display is also available.**Note:** The is applicable for desktop only.
 
 </td></tr><tr><td>
 

@@ -20,7 +20,7 @@ Initiate an automation request from a Task Mining task timeline analysis.
 
 The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md).
 
-Automation Center must be installed to initiate an automation request. To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
+Automation Center must be installed to initiate an automation request. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
 
 Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
@@ -90,7 +90,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     A maximum of 250 steps can be generated. If your task has more than 250 steps, try selecting a more appropriate task. If you want to continue with the task, you can simplify the steps to reduce their number. Alternatively, you can manually populate the **Description** field with step details and complete the automation request form.
 
-    **Note:** The generate details option is available only if Now Assist for Platform is installed and the User Task Step Summarization skill is activated.
+    **Note:** The generate details option is available only if ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated.
 
     \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the New Automation Request form.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Buying Group, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Buying Group, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate buying group to an opportunity​

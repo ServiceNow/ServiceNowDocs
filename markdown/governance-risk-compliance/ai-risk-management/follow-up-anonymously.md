@@ -33,15 +33,15 @@ After you submitted your anonymous AI case, the system generated a report number
 
 2.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d390943e112">
+<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d391446e112">
 
 Option
 
-</th><th align="left" id="d390943e115">
+</th><th align="left" id="d391446e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d390943e121">
+</th></tr></thead><tbody><tr><td id="d391446e121">
 
 **Direct portal access**
 
@@ -51,7 +51,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d390943e145">
+</td></tr><tr><td id="d391446e145">
 
 **Employee center access**
 
@@ -92,7 +92,7 @@ Use the report to add new information or to respond to investigator comments.
 
 [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
-[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
 [AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 

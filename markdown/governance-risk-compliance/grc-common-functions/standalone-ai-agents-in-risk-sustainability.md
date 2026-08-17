@@ -1,5 +1,5 @@
 ---
-title: Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\)
+title: Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.html
@@ -9,17 +9,17 @@ classification: grc-common-functions
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\)
+# Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
 Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 
-## Standalone agents in Now Assist for Integrated Risk Management \(IRM\)
+## Standalone agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-The following AI agents are available in the Now Assist for IRM application:
+The following AI agents are available in the ServiceNow Otto for IRM application:
 
 -   Report a GRC issue AI agent
 
@@ -27,6 +27,6 @@ The following AI agents are available in the Now Assist for IRM application:
 
 -   Control Objective Change Agent
 
-    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.md).
+    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.md).
 
 

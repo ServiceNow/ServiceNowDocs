@@ -20,7 +20,7 @@ Role required: sn\_oper\_res.manager
 
 ## About this task
 
-The Digital resilience third-party registers include details about who within your organization is using externally outsourced ICT services, which functions and branches are using them, and who the third-party providers and their engagements are. The contracts link these two aspects together.
+The Digital resilience third-party registers include details about who within your organization is using externally outsourced ICT services. They show which functions and branches are using them and who the third-party providers and their engagements are. The contracts link these two aspects together.
 
 The contracts link both parties—those using the information and those providing it. Essentially, they bind legal entities, branches, and functions to third parties and third-party engagements.
 
@@ -40,7 +40,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
     Specific information sub-head is shown in the Create New Contractual arrangement form. The Service provider type field controls which identification fields are displayed \(Third party, Third-party engagement, or Legal entity\).
 
-    For description of the fields on the form, see [Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-contract-form.md).
+    For description of the fields on the form, see [Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-contract-form.md).
 
 4.  To submit the contract for review, select **Submit for Review**.
 
@@ -60,7 +60,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 8.  On the form, fill in the fields.
 
-    For more information, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
+    For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
 
 9.  Select **Save**.
 
@@ -74,7 +74,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
     6.  Type of ICT services
     7.  Storage location
     8.  Processing location
-    For the multi-select fields \(Function identifier, Type of ICT services, Storage location, Processing location\), any overlap between the new record and an existing record is treated as a match \(intersection logic, not exact match\). If both records have an empty multi-select field, they are also considered matching.
+    For the multi-select fields \(Function identifier, Type of ICT services, Storage location, Processing location\), any overlap between records is treated as a match. This uses intersection logic, not exact match. If both records have an empty multi-select field, they are also considered matching.
 
     If a duplicate is detected, the save is blocked and the following error message is displayed: `A duplicate contractual arrangement (Sys ID: {id}) already exists for this service provider. Check for overlaps in function, service type, or country before saving.`
 
@@ -90,7 +90,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
     1.  In the form, select **More** and navigate to the **Digital resilience information** tab.
 
-        For more information, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
+        For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
 
     2.  Navigate to the Contract **Details** tab to view the details that are needed by the Digital Operational Resilience Act.
 
@@ -137,10 +137,10 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 13. To delete the contract record, select it from the list and select **Delete**.
 
 
--   **[Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-contract-form.md)**  
-On the Create New Contract form, fill in the fields.
--   **[Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md)**  
-On the Create New Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
+-   **[Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-contract-form.md)**  
+On the Create Contract form, fill in the fields.
+-   **[Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md)**  
+On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

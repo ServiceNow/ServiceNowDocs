@@ -41,9 +41,9 @@ To maximize Build Agent effectiveness, use the following practices:
 
 -   Design before coding: Think through and document the requirements for your application across the data and UI layers, for example using Workflow Studio or Figma.
 -   Start with a clear plan: Collaborate with Build Agent to define scope, required tables, and metadata types.
--   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system, and ask Build Agent to use the file as context for its work.
+-   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system. You can then ask Build Agent to use the file as context for its work.
 -   Use specific terminology: Treat Build Agent as your development partner. Provide specific, clear instructions using ServiceNow platform terminology such as table names, field names, roles, and artifact types.
--   Test early and often: Add sample records, test on the instance, and build ATF tests throughout development.
+-   Test early and often: Add sample records, test on the instance, and run ATF tests throughout development.
 -   Use version control: Use Git for tracking changes and maintaining a clean workspace structure.
 -   Provide visual context: Give screenshots to Build Agent to troubleshoot UI issues and request changes.
 -   Extend with third-party libraries: Integrate third-party Node Package Manager \(NPM\) libraries, such as React JS, for enhanced interfaces.
@@ -67,7 +67,7 @@ Use Build Agent for creating standalone apps that have limited interaction with 
 
 ## Helpful resources
 
-ServiceNow resources for AI-assisted development:
+ServiceNow resources for agentic development:
 
 -   **\[Omitted image "dcx-icon-community.svg"\] App Engine Academy: Practical Build Agent - Add Gen AI to your existing dev methodology**
 
@@ -90,5 +90,5 @@ ServiceNow resources for AI-assisted development:
     [\#BuildWithBuildAgent Guidebook on Community](https://www.servicenow.com/community/developer-advocate-blog/your-buildwithbuildagent-guidebook-is-here/ba-p/3419535)
 
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
 

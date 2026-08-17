@@ -29,7 +29,7 @@ The SLA engine performs the following passes:
     5.  If the SLA is active, the Pause condition is false, and the SLA stage is **Paused**, the SLA changes back to **In Progress**.
 
 -   **[Actual and business elapsed times](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_ElapsedTimeCounting.md)**  
-Task SLA records contain two sets of timing information: **Actual elapsed** and **Business elapsed**.
+Task SLA records contain two sets of timing information: Actual elapsed and Business elapsed.
 
 **Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/exploring-slm.md)
 

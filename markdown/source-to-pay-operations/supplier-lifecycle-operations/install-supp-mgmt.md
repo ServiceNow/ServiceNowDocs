@@ -1,6 +1,6 @@
 ---
 title: Install Supplier Case Management
-description: You can install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+keywords: [Supplier Case Management, ServiceNow Store, dependent plugins, supplier case, Source-to-Pay Workspace, logging and tracking]
 breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Install Supplier Case Management
 
-You can install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 
 ## Before you begin
 
@@ -68,6 +69,8 @@ Several types of components are installed with activation of Supplier Case Manag
 You can grant access to your instance to both internal and external users. However, it is important to differentiate their access levels for added security. To achieve this, every user must have at least one role, allowing the instance to distinguish between internal and external users.
 -   **[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)**  
 The following table provides the list of plugins for Supplier Case Management, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
+-   **[Application plugin for AI capabilities in SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-ai-pugins.md)**  
+View the consolidated list of plugins required to use AI capabilities for supplier case management in Supplier Lifecycle Operations.
 -   **[Prerequisites for upgrading Supplier Case Management to Washington DC or later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/smw-upgrade.md)**  
 Starting with the Washington DC release, Supplier Manager Workspace is being prepared for future deprecation. It will be hidden from the navigation and no longer be activated on new instances but will continue to be supported. Source-to-Pay Workspace provides the latest experience for this functionality.
 -   **[Configure properties for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-prop-supp-mgmt.md)**  
@@ -99,8 +102,4 @@ After you upgrade to Washington DC, you must review all the post-upgrade tasks a
 [Install Universal Request for SLO]()
 
 [Configure smart assessments]()
-
-[Components installed with Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.md)
-
-[Application plugin installation sequence in Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.md)
 

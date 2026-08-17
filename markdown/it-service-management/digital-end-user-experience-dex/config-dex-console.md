@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [configure dex, set up dex, install dex, application and device health, monitor devices and apps, agent client collector \(acc\)]
 breadcrumb: [Digital End-User Experience, IT Service Management]
 ---
 

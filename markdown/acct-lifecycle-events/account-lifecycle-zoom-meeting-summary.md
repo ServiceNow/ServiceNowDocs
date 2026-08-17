@@ -51,7 +51,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 8.  Select the **Meeting actual start date** link.
 
-    The meeting summary is displayed in the Virtual Meeting Details page. If the Now Assist for Telecommunications, Media and Technology \(TMT\) plugin has been installed, the following fields are populated in the meeting record:
+    The meeting summary is displayed in the Virtual Meeting Details page. If the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin has been installed, the following fields are populated in the meeting record:
 
     -   Sentiment
     -   Internal notes

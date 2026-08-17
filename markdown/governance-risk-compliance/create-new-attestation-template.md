@@ -70,7 +70,7 @@ You can update the questions according to your business requirements as shown in
 
     3.  On the Assessment Metric Type New Record form, enter the name for the attestation template and select **Submit**.
 
-        For a description of the field values on the form, see [Assessment Metric Type New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/attestation-template-reference.md).
+        For a description of the field values on the form, see [Assessment Metric Type Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/attestation-template-reference.md).
 
         The attestation template is displayed in the templates list view as shown in the following example.
 

@@ -28,7 +28,7 @@ Employee Slate provides a set of default widgets on the home page that surface a
 
 ## Conversation-first experience
 
-The homepage features a prominent AI-powered chat and search bar. Employees can interact with the chat in natural language. When employees submit the initial query, it expands into a full-page conversation view powered by Moveworks or Now Assist, capable of answering questions, submitting requests, and surfacing relevant content.
+The homepage features a prominent AI-powered chat and search bar. Employees can interact with the chat in natural language. When employees submit the initial query, it expands into a full-page conversation view powered by ServiceNow Otto or Now Assist, capable of answering questions, submitting requests, and surfacing relevant content.
 
 **Important:** AI-generated outputs may be inaccurate or incomplete. Review all AI-generated content before taking action.
 
@@ -70,7 +70,7 @@ The **Home** section of the admin console lets administrators manage all default
 
 Suggested prompts help employees get started with common actions and queries.
 
--   With Moveworks, your admins can configure these prompts based on organizational requirements.
+-   With Otto, your admins can configure these prompts based on organizational requirements.
 -   With Now Assist, your admins can configure promoted assets as prompts.
 
 For a set of prompts that you can use across Employee Slate features, see [Employee Slate prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-prompt-library.md).

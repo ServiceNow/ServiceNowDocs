@@ -1,5 +1,5 @@
 ---
-title: Report an operational vulnerability from the Self-attestation module
+title: Report an operational vulnerability from Self-attestation
 description: Report an Operational vulnerability from the Self-attestation module in the Operational Resilience Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-op-vul-from-attestation.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Reporting Operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Report an operational vulnerability from the Self-attestation module
+# Report an operational vulnerability from Self-attestation
 
 Report an Operational vulnerability from the Self-attestation module in the Operational Resilience Workspace.
 

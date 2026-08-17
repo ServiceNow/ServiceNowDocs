@@ -14,6 +14,10 @@ The ServiceNow® Sales CRM for Telecommunications application enables you to cap
 
 ## Sales CRM for Telecommunications highlights for the Australia release
 
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   Use the task template generation agent to create a task plan template for the given specification based on the uploaded image file.
@@ -31,7 +35,7 @@ Australia Early Availability
 -   Provide customers with the option to configure product workflows using the data-driven catalog subflow as an alternative to Flow Designer, giving more options for implementing product configurations.
 -   Automate the customer move order capture journey to reduce the manual effort.
 
-See [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt.md) for more information.
+See [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/sales-crm.md) for more information.
 
 **Important:** Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -68,7 +72,7 @@ Australia Early Availability
 
 -   **[Move order voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-move-order-somt.md)**
 
-    Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
+    Use this agent to create a move order capture journey. The agent collects details such as the customer’s name, current service location, product offering, and new service address.
 
 
 ## Changed in this release
@@ -80,11 +84,11 @@ Australia Early Availability
 
 ## Activation information
 
-Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[ServiceNow CPQ Configurator - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
+-   **[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
 
     The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 
@@ -97,19 +101,19 @@ Install Order Management for telecom, media, and tech by requesting it from the 
 
     The Sales Agreement application captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    The AI Admin Hub console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use this conversational interface in the CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

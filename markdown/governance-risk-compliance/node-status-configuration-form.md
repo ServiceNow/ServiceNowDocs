@@ -14,7 +14,7 @@ breadcrumb: [Configure the Node status configurations, Configure the Node config
 
 Use the Node status configuration form to configure the Node status conditions and parameters for the selected node configuration table.
 
-## Node status configuration new record form
+## Node status configuration record form
 
 |Field|Description|
 |-----|-----------|

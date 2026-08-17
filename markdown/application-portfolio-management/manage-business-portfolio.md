@@ -28,13 +28,13 @@ A business capability is the ability of an organization to do its business activ
 -   Medium Gap: Total number of capabilities with a score in the range of 4-7.
 -   No Gap: Total number of capabilities with a score in the range of 7-10.
 
-You can create a capability or subcapability, and then assign a business application to the capability.
+You can create a capability or sub-capability, and then assign a business application to the capability.
 
 Business capabilities are assessed by indicators to provide indicator scores used to make strategic decisions on the business applications that support the business capability. You can sort the business capabilities by their scores.
 
 **Note:** The business capability scores of the current fiscal year are displayed by default. You can change the fiscal year value using the Fiscal year filter.
 
-By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, select the expand icon \(\[Omitted image "9328d408edd1abfc208eefc89af4b5dca79df0ee.png"\] Alt text: Expand icon.\) to expand and view its subcapabilities at each level. You can see the total count of the subcapabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. Similarly, on expanding a parent capability, you can see the number of subcapabilities and the total count of business applications that are directly related to the subcapability at that level.
+By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, select the expand icon \(\[Omitted image "9328d408edd1abfc208eefc89af4b5dca79df0ee.png"\] Alt text: Expand icon.\) to expand and view its sub-capabilities at each level. You can see the total count of the sub-capabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. When you expand a parent capability, you can see the number of sub-capabilities at that level. You can also see the total count of business applications directly related to the sub-capability.
 
 **Note:** You can zoom on this page or any of the child pages to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 

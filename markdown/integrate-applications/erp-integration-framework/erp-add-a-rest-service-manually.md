@@ -9,7 +9,7 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-04-25"
 reading_time_minutes: 3
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to ERP with REST, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a REST service manually in Zero Copy Connector for ERP
@@ -52,8 +52,6 @@ Complete the following before adding a service manually:
 
     \[Omitted image "erp-add-rest-service-manually1.jpg"\] Alt text: Add entity options with add service manually link highlighted.
 
-    **Note:** If you have already added the service, but want to select a different endpoint, you can directly search for the service by name. You don't have to add the metadata URL or upload the metadata file again.
-
 10. If using a metadata URL, follow these substeps \(if uploading a metadata file, go to the next step\).
 
     1.  Select **Use Swagger/OpenAPI URL**.
@@ -92,19 +90,13 @@ Complete the following before adding a service manually:
 
     \[Omitted image "erp-add-system-manually4.png"\] Alt text: Error message with flow context link highlighted.
 
-    The service is added to the entity record.
-
-13. In **Select the endpoints**, search for and select an endpoint.
-
-    The endpoints available in an operation depend on the HTTP method associated with the operation type:
+    The service is added to the entity record, along with the endpoint and return type. The endpoints available in an operation depend on the HTTP method associated with the operation type:
 
     -   Read operations display GET endpoints.
     -   Create operations display POST endpoints.
     -   Update operations display PATCH, PUT, and other update endpoints.
     \[Omitted image "erp-add-rest-service-manually4.jpg"\] Alt text: Add entity form with all fields, including endpoint filled in.
 
-14. When finished, select **Add entity**.
+13. When finished, select **Add entity**.
 
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

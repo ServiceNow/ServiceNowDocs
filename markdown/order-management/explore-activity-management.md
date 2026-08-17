@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 1
 keywords: [explore, Activity Management, Outlook add-in, CRM]
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Activity Management
@@ -21,7 +21,7 @@ Activity Management helps customer-focused teams plan, execute, capture, and tra
 |-------|-------|-----|
 |Provide a single, consistent system to plan, capture, track, and act on all sales and service team activities such as discovery calls, demos, and customer business reviews across channels.|[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-touchpoints.md)|Sales and service teams|
 |Eliminate context switching by accessing CRM data directly from Microsoft Outlook without opening a separate browser or application.|[CRM Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-outlook-add-in.md)|Sales representatives|
-|Automate associating emails to Lead, Opportunity, Account, or Contact records using AI-based workflow.|[Explore AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-ai-sales-activity-association.md)|Sales representatives|
+|Automate associating emails to Lead, Opportunity, Account, or Contact records using AI-based workflow.|[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-ai-sales-activity-association.md)|Sales representatives|
 
 ## What to explore next
 

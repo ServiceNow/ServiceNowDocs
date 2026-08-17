@@ -26,7 +26,7 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 </td><td>
 
-[Ask Now Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ask-now-assist-for-recommendation.md)
+[Ask Now Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ask-now-assist-for-recommendation.md)
 
 </td></tr><tr><td>
 

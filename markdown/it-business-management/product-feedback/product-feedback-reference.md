@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Feedback reference
@@ -21,5 +21,5 @@ Learn about several types of components installed with Feedback application in S
 -   **[Form field information for Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/form-field-information-for-product-feedback.md)**  
 Field information for forms used in the Feedback application.
 
-**Parent Topic:**[Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-landing.md)
+**Parent Topic:**[Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-landing.md)
 

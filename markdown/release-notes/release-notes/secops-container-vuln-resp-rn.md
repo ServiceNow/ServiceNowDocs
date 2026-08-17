@@ -4,7 +4,7 @@ description: The ServiceNow Container Vulnerability Response application brings 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-06-05"
+last_updated: "2026-07-31"
 reading_time_minutes: 7
 ---
 
@@ -15,7 +15,7 @@ The ServiceNow® Container Vulnerability Response application brings security an
 ## Container Vulnerability Response highlights for the Australia release
 
 -   The AWS Integration for Security Exposure Management supports integrations with AWS Inspector and AWS Security Hub.
--   If you're currently using Container Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Container Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Import container image vulnerability data from the Wiz scanners into container vulnerable items \(CVITs\) with the Vulnerability Response Integration with Wiz.
 -   With the sn\_vul\_container.vulnerability\_analyst or sn\_vul\_container.vulnerability\_admin role, create container remediation tasks manually in the Vulnerability Manager Workspace.
 -   With the role sn\_vul\_container.remediation\_owner, create container remediation tasks manually in the IT Remediation Workspace.
@@ -26,7 +26,11 @@ See [Container Vulnerability Response](https://raw.githubusercontent.com/Service
 
 ## Important information for upgrading Container Vulnerability Response to Australia
 
-Enhancements to Container Vulnerability Response permit you to see enriched container vulnerability data on data imports from your third-party scanners. After you upgrade, you must perform a full import to view the features on discovered container image, container image finding, and container vulnerable item records that are described in the following New in the Australia release section.
+Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+Enhancements to Container Vulnerability Response permit you to see enriched container vulnerability data on data imports from your third-party scanners. After you upgrade, perform a full import to view the features on discovered container image, container image finding, and container vulnerable item records that are described in the following New in the Australia release section.
 
 If you're currently using Container Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Container Vulnerability Response and for upgrades to supported third-party integration applications.
 
@@ -93,7 +97,7 @@ For more information about the released versions of the Container Vulnerability 
 
 ## Activation information
 
-Install Container Vulnerability Response and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Container Vulnerability Response and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
 

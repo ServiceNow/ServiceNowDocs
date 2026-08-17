@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-07-21"
 reading_time_minutes: 19
-breadcrumb: [Reference, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
 ---
 
 # AI Agent Analytics dashboard
@@ -32,7 +32,7 @@ You can also access the dashboard from the AI Agent Studio overview page. Go to 
 
 Most indicators are updated daily. The latency indicators are updated every 15 minutes.
 
-Once you have installed Now Assist AI Agents, you can collect initial data by running the \[Now Assist AI Agents\] Historical Data Collection job. The other data collection jobs, \[Now Assist AI Agents\] Daily Data Collection and \[Now Assist AI Agents\] Periodic Data Collection, update the indicators.
+Once you have installed AI agents, you can collect initial data by running the \[Now Assist AI Agents\] Historical Data Collection job. The other data collection jobs, \[Now Assist AI Agents\] Daily Data Collection and \[Now Assist AI Agents\] Periodic Data Collection, update the indicators.
 
 <table><thead><tr><th>
 
@@ -200,7 +200,7 @@ Total number of CS conversations
 
 </td><td>
 
-Total number of conversations in Now Assist panel or Virtual Agent.
+Total number of conversations in ServiceNow Otto panel or Virtual Agent.
 
 </td></tr><tr><td>
 
@@ -265,7 +265,7 @@ Description
 
 </td><td>
 
-Number of conversations in Now Assist panel or Virtual Agent with a defined AI agentic or agentic workflow divided by the total number of conversations.
+Number of conversations in ServiceNow Otto panel or Virtual Agent with a defined AI agentic or agentic workflow divided by the total number of conversations.
 
 </td></tr><tr><td>
 
@@ -810,7 +810,7 @@ Trend line
 
 </td><td>
 
-Total number of AI agent conversations in Now Assist panel or Virtual Agent. Trend line is shown.
+Total number of AI agent conversations in ServiceNow Otto panel or Virtual Agent. Trend line is shown.
 
 </td></tr><tr><td>
 
@@ -822,7 +822,7 @@ Trend line
 
 </td><td>
 
-Percentage of AI agent conversations in Now Assist panel or Virtual Agent that used agentic workflows or AI agents. Trend line is shown.
+Percentage of AI agent conversations in ServiceNow Otto panel or Virtual Agent that used agentic workflows or AI agents. Trend line is shown.
 
 </td></tr><tr><td>
 

@@ -28,7 +28,7 @@ Agentic Contact Center for Insurance enables insurance CSR agents to handle cust
 Property and Casualty Insurance Servicing policy service requests are supported through personal and commercial applications.
 -   **[Life Insurance Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/life-insurance-servicing.md)**  
 Life Insurance Servicing policy service requests are supported through individual life and group life applications.
--   **[Exploring insurance claims applications in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-applications.md)**  
+-   **[Insurance claims applications in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-applications.md)**  
 ServiceNow® Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 
 **Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md)

@@ -56,7 +56,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The following example shows the filter condition for the **Service to Dependencies** configuration.
 
-    \[Omitted image "ser-to-dep-main-node.png"\] Alt text: Service to dependency"configuration.
+    \[Omitted image "ser-to-dep-main-node.png"\] Alt text: Service to dependency configuration.
 
 10. Select **Submit**.
 

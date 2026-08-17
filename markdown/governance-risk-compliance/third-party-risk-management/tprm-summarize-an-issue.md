@@ -1,6 +1,6 @@
 ---
 title: Activate the TPRM issue summarization skill
-description: Activate the TPRM summarization skill from Now Assist for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
+description: Activate the TPRM summarization skill from ServiceNow Otto for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.html
 release: australia
@@ -9,37 +9,37 @@ classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
-breadcrumb: [Configure, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI, GenAI, ServiceNow AI Platform]
+breadcrumb: [AI configuration, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Activate the TPRM issue summarization skill
 
-Activate the TPRM summarization skill from Now Assist for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
+Activate the TPRM summarization skill from ServiceNow Otto for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 
 ## Before you begin
 
-Install the Now Assist for TPRM plugin \(sn\_tprm\_gen\_ai\).
+Install the ServiceNow Otto for TPRM plugin \(sn\_tprm\_gen\_ai\).
 
 Role required: admin
 
 ## About this task
 
-**Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
+**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
 
 By default, a TPRM issue in the Third-party Risk Management application shows the options to create a summary in any state. After you generate the summary, you can choose to share the summary and populate the Work notes of the TPRM issue. Adding the summary to the work notes helps the risk analyst to get a quick glance at the latest summary version.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub**.
 
-2.  Navigate to the Now Assist **Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
+2.  Navigate to the **AI Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
 
 3.  Under the **TPRM issue summarization** skill, select **Activate skill**.
 
 4.  View the skill in all Risk &amp; Sustainability products by selecting **Select display** and then toggling the **Display** button.
 
-    The skill can be displayed in the Vendor Management Workspace and the workspaces of other Now Assist Risk &amp; Sustainability products when they are installed.
+    The skill can be displayed in the Vendor Management Workspace and the workspaces of other AI Risk &amp; Sustainability products when they are installed.
 
 5.  Review and confirm that the summarization skill meets your requirements.
 
@@ -55,10 +55,10 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
         **Note:**
 
-        You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
+        You can perform the following actions on AI skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-        -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
-        -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
+        -   [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+        -   [Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
 6.  Select **Save and continue**.
 
 7.  View the details of the skill by selecting **Review and activate**.

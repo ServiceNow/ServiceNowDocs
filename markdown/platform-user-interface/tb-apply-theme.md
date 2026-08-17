@@ -20,6 +20,10 @@ Role required: ui\_builder\_admin
 
 For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
+You can also watch a short video on how to publish a theme.
+
+\[Omitted video\] Description: Publish your theme with Theme Builder
+
 ## About this task
 
 Currently, mobile instances can only accommodate one published theme at a time.
@@ -42,15 +46,15 @@ Next Experience Polaris and Coral themes are available for publishing from Theme
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d116755e141">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d116757e160">
 
 Option
 
-</th><th align="left" id="d116755e144">
+</th><th align="left" id="d116757e163">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116755e150">
+</th></tr></thead><tbody><tr><td id="d116757e169">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -58,7 +62,7 @@ Description
 
 From the Unpublished section, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you want published, and select **Publish**.\[Omitted image "tb-more-actions-publish.png"\] Alt text: More actions menu opened with Publish selected.
 
-</td></tr><tr><td id="d116755e175">
+</td></tr><tr><td id="d116757e194">
 
 **Publish using the List view drag-and-drop feature**
 

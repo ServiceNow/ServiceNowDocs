@@ -43,15 +43,19 @@ The eligible user setting controls who appears in the chart. The card field sett
 
     Common fields include **Name**, **Title**, **Manager email**, and **Team**. Each selected field appears in the order shown.
 
-4.  Preview the chart from an employee account.
+4.  In **Org chart configuration**, set the report count display to **Direct** or **Total**.
+
+    **Direct** shows only the direct reports for each employee. **Total** shows the cumulative count of reports at each level below that employee.
+
+5.  Preview the chart from an employee account.
 
     Open the Employee Slate portal and select **Org chart** in the left navigation. Confirm that the eligible users and the card fields match the configuration.
 
-5.  Verify the AI conversational use cases.
+6.  Verify the AI conversational use cases.
 
     Ask the assistant `Who is Beth Anglin?` or `Show the org of Adela Cervantes.` The assistant returns the user profile or loads the requested org chart view.
 
-6.  Save the configuration.
+7.  Save the configuration.
 
     The save commits the eligible user list and the card field selections. Refresh the chart to confirm the change.
 

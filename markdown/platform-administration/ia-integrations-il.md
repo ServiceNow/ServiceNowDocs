@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2025-12-05"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Identity management integrations
@@ -38,5 +38,5 @@ LDAP syncs user and group data to centralize authentication and access control.
 
 On selecting LDAP on the left hand side panel, the gallery of the existing LDAP servers shows up. Select **Add an LDAP server** to create a new LDAP server.
 
-**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

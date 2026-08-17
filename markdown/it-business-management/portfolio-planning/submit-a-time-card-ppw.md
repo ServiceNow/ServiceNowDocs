@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create demand tasks, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Create demand tasks, Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Submit a time card for a demand task
@@ -26,15 +26,15 @@ Role required: timecard\_user
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d105121e74">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d107250e74">
 
 Assignment type
 
-</th><th align="left" id="d105121e77">
+</th><th align="left" id="d107250e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d105121e83">
+</th></tr></thead><tbody><tr><td id="d107250e83">
 
 **Demand task assigned to you**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the **Add to Time Sheet** link.
 
 
-</td></tr><tr><td id="d105121e107">
+</td></tr><tr><td id="d107250e107">
 
 **Demand task assigned to you as an additional assignee**
 

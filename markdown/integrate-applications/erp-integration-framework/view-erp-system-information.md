@@ -36,5 +36,3 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
     View software information including ERP family and generation. All fields are read only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
-

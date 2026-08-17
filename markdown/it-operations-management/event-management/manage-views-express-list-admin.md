@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-20"
 reading_time_minutes: 4
-breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create a predefined Express List view for users
@@ -88,11 +88,23 @@ The sorting order of the Secondary Sort By Field, if set: Ascending or Descendin
 
 </td></tr><tr><td>
 
+Default Time Range
+
+</td><td>
+
+Time range selected by default when assigned users or groups open this Express List view.
+
+ Default: **Last 24 hours**.
+
+</td></tr><tr><td>
+
 Default
 
 </td><td>
 
-Option to set this Express List view as the default view for the assigned user or group.If multiple default views exist, the value set in the Order field determines their order.
+Option to make this Express List view the default view for the assigned users or groups.
+
+ If multiple default views exist, the value in the **Order** field determines their order.
 
 </td></tr></tbody>
 </table>4.  Set filter conditions for the Express List view.
@@ -137,15 +149,15 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d683351e355">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d687541e377">
 
 Task
 
-</th><th align="left" id="d683351e358">
+</th><th align="left" id="d687541e380">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d683351e364">
+</th></tr></thead><tbody><tr><td id="d687541e386">
 
 **Assign a user to the selected Express List view**
 
@@ -157,7 +169,7 @@ Procedure
 4.  Select the save icon \[Omitted image "save-icon.png"\].
 
 
-</td></tr><tr><td id="d683351e404">
+</td></tr><tr><td id="d687541e426">
 
 **Assign a user group to the selected Express List view**
 

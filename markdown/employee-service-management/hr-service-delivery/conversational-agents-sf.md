@@ -57,5 +57,5 @@ The View paychecks AI agent enables you to view paycheck summaries for the selec
 
 [Field mappings]()
 
-[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
+[ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
 

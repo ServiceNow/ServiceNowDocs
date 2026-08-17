@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, invoice automation, AP automation]
-breadcrumb: [Create an invoice line manually, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice management, invoice automation, Document intelligence, PO and Non-PO invoices, Credit Memo]
+breadcrumb: [Create an invoice line manually, Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Credit memo

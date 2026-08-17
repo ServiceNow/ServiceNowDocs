@@ -72,7 +72,9 @@ Role required: sn\_wsd\_visitor.staff or sn\_wsd\_core.workplace\_user
 
 2.  In the downloaded file, fill in the columns with your visitor details.
 
-    First name, Last name, Email, and Visitor type are required columns.
+    First name, Last name, and Email are required columns.
+
+    **Note:** In Workplace Visitor Management version 2.0.0 or later, Visitor type is optional on bulk upload. In version 1.19 or earlier, Visitor type is a required column.
 
 3.  From the **Add visitor** context menu, select **Add visitors using a file**.
 

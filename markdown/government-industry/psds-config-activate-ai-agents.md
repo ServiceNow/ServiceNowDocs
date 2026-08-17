@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Activate an AI Agent in Public Sector Digital Services AI Agent Collection
@@ -48,7 +48,7 @@ Read, create, update, and delete records in the AI agent table.
 </td></tr></tbody>
 </table>## Before you begin
 
-Install the Now Assist for Public Sector Digital Services \(PSDS\) plugin \(sn\_psds\_gen\_ai\), and ensure that it is up to date.
+Install the ServiceNow Otto for Public Sector Digital Services \(PSDS\) plugin \(sn\_psds\_gen\_ai\), and ensure that it is up to date.
 
 Role required: admin, sn\_gsm\_ai\_agents.admin
 
@@ -60,11 +60,11 @@ To access AI agents for use with Public Sector:
 
 2.  Select **Create and manage** &gt; **AI agents**.
 
-3.  Under AI agents, select and activate all the AI agents one by one to make them available in the Now Assist panel.
+3.  Under AI agents, select and activate all the AI agents one by one to make them available in the ServiceNow Otto panel.
 
 4.  Select **Define the specialty**, review the fields, and confirm that the AI agent meets your requirements.
 
-    If it doesn't meet your requirements, you can edit the AI agent. To modify the AI agent, [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md), and adjust the settings according to your requirements. You can activate the AI agent template by making triggers active and setting the display settings to include the Now Assist panel.
+    If it doesn't meet your requirements, you can edit the AI agent. To modify the AI agent, [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md), and adjust the settings according to your requirements. You can activate the AI agent template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
     **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

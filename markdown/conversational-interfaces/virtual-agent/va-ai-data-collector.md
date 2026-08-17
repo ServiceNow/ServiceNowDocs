@@ -1,6 +1,6 @@
 ---
 title: Input Collector user input control
-description: Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
+description: Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-ai-data-collector.html
 release: australia
@@ -15,11 +15,13 @@ breadcrumb: [Assistant Designer user input controls, Assistant Designer interfac
 
 # Input Collector user input control
 
-Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
+Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 
-## Overview
+## Example
 
-For an overview of the Input Collector from a user perspective, watch this video.
+For a demonstration of the Input Collector from a user perspective, watch this video.
+
+\[Omitted video\] Description: Input Collector user input control demo video.
 
 ## Input Collector properties
 
@@ -27,7 +29,7 @@ The Input Collector is only available for topics that use LLM discovery.
 
 The Input Collector can hold up to 5 of any of the LLM user inputs aside from another Input Collector. To collect more than 5 user inputs, place multiple Input Collector nodes in sequence or adjust the Value of the **com.glide.cs.va\_input\_collector\_max\_nodes** property in the System Properties \[sys\_properties\] table.
 
-You can reorder nodes inside the Input Collector on both the canvas and table views. To reorder nodes on the canvas, select a given node inside the Input Collector and drag it up or down in the list. You can add or remove nodes from an Input Collector, or nodes between multiple Input Collectors, by selecting a node and dragging it into or out of an Input Collector node on the canvas. To reorder nodes in an Input Collector in the table view, select a given node in the list, then select the up or down arrow next to the node.
+You can reorder nodes inside the Input Collector in both canvas and table views. On the canvas, select a given node inside the Input Collector and drag it up or down in the list. You can add or remove nodes, or move them between multiple Input Collectors. Select a node and drag it into or out of an Input Collector node on the canvas. In the table view, select a given node in the list, then select the up or down arrow next to the node.
 
 Specify the flow action properties for the node that you want to create.
 
@@ -65,7 +67,7 @@ Confirmation message
 
 </td><td>
 
-Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent, when activated, presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon \[Omitted image "bluecheck.png"\] Alt text: when activated.
+Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent \(when activated\) presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon \[Omitted image "bluecheck.png"\] Alt text: when activated.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -106,7 +108,7 @@ No-code condition statement or low-code script that specifies a condition for le
 |-------|-----------|-------------------|-----------|
 |Web UI|Not supported|Supported|None|
 |Mobile UI|Not supported|Supported|None|
-|Now Assist panel|Not supported|Supported|None|
+|ServiceNow Otto panel|Not supported|Supported|None|
 |Microsoft Teams|Supported|Supported|None|
 |Slack|Not supported|Not supported|Not applicable|
 |Workplace|Not supported|Not supported|Not applicable|

@@ -8,8 +8,8 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+reading_time_minutes: 4
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create an entity from a demand
@@ -20,7 +20,7 @@ Create an entity, such as a work item, from a demand so that you can track work 
 
 A demand must have been created. For more information, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-demand-from-dw.md).
 
-The category and type of a demand and the applications you have installed determine the entity you can create from it. The available entity types and the applications you must have installed to be able to create them are listed in the following table.
+The category and type of a demand and the applications you have installed determine the entity you can create from it. The following table lists the available entity types and the applications you must have installed to create them.
 
 |Entity|Required application|
 |------|--------------------|
@@ -32,23 +32,35 @@ Role required: it\_demand\_manager
 
 **Note:** The sn\_apw\_advanced.eap\_user role is required to convert a demand to EAP entities.
 
+## About this task
+
+To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Verify that the values in the **Category** and **Type** fields are appropriate for the entity you want to create.
+3.  Open a demand from the **List** page.
+
+4.  Select **Details** from the navigation menu.
+
+5.  Verify that the values in the **Category** and **Type** fields are appropriate for the entity you want to create.
 
     The options in the Type list change according to the category that you select. For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-form-dw.md).
 
-    **Note:** The **Category** and **Type** fields are set to read only when an entity is created from a demand. If you delete the created entity, these fields become editable again.
+    **Note:** The **Category** and **Type** fields are set to read only when an entity is created from a demand. If you delete the created entity, these fields are set to editable again.
 
-3.  Select **Save**.
+6.  Select **Save**.
 
-4.  Create the entity by selecting the appropriate option from the More Actions option.\[Omitted image "demand-create-entity.png"\] Alt text: Create Project in the More Actions option.
+7.  Select the More Actions option.
 
-    Depending on the category and type of the demand, options related to the entity you can create become available.
+8.  Select the appropriate option to create an entity.
+
+    \[Omitted image "demand-create-entity.png"\] Alt text: Create Project selected in the More Actions menu.
+
+    Options vary depending on the category and type of the demand.
 
     |Option|Description|
     |------|-----------|
@@ -62,13 +74,6 @@ Role required: it\_demand\_manager
     |**Create Change**|This option appears if the **Category** field is set to **Operational** and the **Type** field is set to **Change**. Creates a change that is associated with this demand. The number of the change record is displayed in the **Change** field.|
     |**Create Defect**|This option appears if the **Category** field is set to **Operational** and the **Type** field is set to **Defect**. Creates a defect that is associated with this demand. The number of the defect record is displayed in the **Defect** field.|
 
-    **Note:**
+    **Note:** For EAP entities, select the team that you want the EAP entity to be assigned to, in the **Team** field in the **EAP Details** section in the demand form. This field is set to read-only once the entity is created.
 
-    -   For EAP entities, select the team that you want the EAP entity to be assigned to, in the **Team** field in the **EAP Details** section in the demand form. This field becomes read-only once the entity is created.
-    -   Alternatively, you can create an entity using the **Confirm details and convert to selected entity** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
-
-**Related topics**  
-
-
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 

@@ -80,7 +80,7 @@ Role required: sn\_si\_basic
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 

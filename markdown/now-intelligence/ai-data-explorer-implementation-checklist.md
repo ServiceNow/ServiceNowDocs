@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [AI Data Explorer, implementation, semantic layer, query generation]
-breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # AI Data Explorer implementation checklist
@@ -19,6 +19,7 @@ Use this checklist to verify that AI Data Explorer is properly configured and re
 
 ## Prerequisites and configuration
 
+-   Verify that the AI Data Explorer application is installed.
 -   Verify that required AI skills are activated.
 -   Enable Record Level Analysis in the Analytics Exploration skill to get better insights.
 -   Check the base health of Query Generation using the [Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-health-page.md).
@@ -45,7 +46,7 @@ Grant users who need access to AI Data Explorer the **now-assist-explorer-user**
 -   AI Data Explorer cannot answer general definition questions or questions requiring comparison across multiple data sources. Break down complex analysis into multiple questions.
 -   When asking follow-up questions, use words like "these" to ensure that filters are not dropped. For example, "Of these incidents, how many are critical?"
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
 
 **Related topics**  
 

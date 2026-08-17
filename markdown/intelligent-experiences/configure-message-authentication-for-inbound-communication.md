@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-08-08"
 reading_time_minutes: 1
-breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # Configure custom assistant

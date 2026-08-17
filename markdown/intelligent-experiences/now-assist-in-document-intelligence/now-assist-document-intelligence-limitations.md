@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Reference, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Reference, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Limitations in Now Assist in Document Intelligence
@@ -144,8 +144,6 @@ For image and text-based files, the AI agent recognizes any language supported b
 [Data extraction modes in Now Assist in Document Intelligence]()
 
 [Document and visual insights AI agent]()
-
-[Document Intelligence tool for Now Assist Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

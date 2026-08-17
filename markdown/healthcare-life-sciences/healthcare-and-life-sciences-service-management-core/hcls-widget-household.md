@@ -16,8 +16,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Household widget displays a list of household members that the logged in user is authorized representative for.
 
-\[Omitted image "hcls-widget-household.png"\] Alt text: Infographic widget displays people and their information that belongs toHousehold.
-
 ## Key features
 
 -   Appears only for a logged-in user with the personal information completed and who has household members.

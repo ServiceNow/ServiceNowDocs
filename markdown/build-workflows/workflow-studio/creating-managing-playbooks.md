@@ -93,7 +93,7 @@ Create a playbook to set up an automated business process. Use Playbook builder 
 -   **[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md)**  
 Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 -   **[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)**  
-Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+Generate a playbook directly from an existing knowledge base article to using AI reduce manual effort when creating playbooks for documented processes.
 -   **[Playbook recommendations for placeholder activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-recommendations.md)**  
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 -   **[Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/preview-playbook-runtime-ui.md)**  
@@ -105,7 +105,9 @@ Learn how playbook restart during runtime works and how restart rules control th
 -   **[Duplicate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/duplicate-process.md)**  
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 -   **[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-summarization.md)**  
-Use AI-generated overviews of a playbook's stages, activities, triggers, and inputs to understand its purpose and flow without going into the details of what is being done at activity and stage level.
+Use AI to generate overviews of a playbook's stages, activities, triggers, and inputs. Understand a playbook's purpose and flow without going into the details of what is being done at activity and stage level.
+-   **[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md)**  
+Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
 -   **[Add translations for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-translations-playbooks.md)**  
 Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 

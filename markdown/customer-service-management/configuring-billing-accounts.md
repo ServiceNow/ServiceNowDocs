@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-billing-accounts.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 1
+last_updated: "2026-08-17"
+reading_time_minutes: 2
 breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -24,11 +24,16 @@ Billing accounts support both B2B and B2C scenarios and provide flexibility for 
 
 ## Key capabilities
 
--   Billing schedule: Define billing frequency \(monthly, quarterly, annual\) and billing cycles
--   Payment terms: Configure payment terms \(net 30, net 60\) and accepted payment methods
--   Bill-to address and currency: Specify invoice delivery address and billing currency
--   Customer associations: Link billing accounts to customers, contacts, and households
--   Hierarchy support: Create parent-child structures for consolidated billing
+-   Billing schedule: Define billing frequency \(monthly, quarterly, annual\) and billing cycles.
+-   Payment terms: Configure payment terms \(net 30, net 60\) and accepted payment methods.
+-   Bill-to address and currency: Specify invoice delivery address and billing currency.
+-   Customer associations: Link billing accounts to customers, contacts, and households.
+-   Hierarchy support: Create parent-child structures for consolidated billing, sub-accounts, or delegated payment responsibilities. The billing account hierarchy visualization shows these relationships as a tree on the billing account form so that you can review the structure and move between related billing accounts without leaving the record.
+
+    You can view and navigate these relationships from the billing account form. The hierarchy appears following the Description field on the Default and Case views. It shows the parent billing account, the child billing accounts, and identifies the billing account you're currently viewing. From the hierarchy, you can:
+
+    -   Expand or collapse nodes to show or hide child billing accounts.
+    -   Select a billing account in the tree to open that record.
 
 ## When to use billing account
 
@@ -40,7 +45,7 @@ Use billing accounts when your organization needs to:
 -   Manage payment responsibility separately from service consumption
 -   Track billing-related cases and interactions distinct from general customer cases
 
-## Billing account versus cost centers
+## Billing account vs. Cost centers
 
 |Aspect|Billing Account|Cost Center|
 |------|---------------|-----------|

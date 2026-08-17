@@ -9,7 +9,7 @@ classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Test generation references, Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test generation references, Test generation, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Design considerations for prompting
@@ -20,7 +20,7 @@ Starting with the Australia release, Test generation is being prepared for futur
 
 -   Clear and concise ATF prompts that describes test steps
 -   Consider the scope and capability of Test generation
-    -   Test generation is a Now Assist backed skill to create ATF tests
+    -   Test generation is a ServiceNow Otto backed skill to create ATF tests
     -   The tests are created in the application scope that you are currently on
     -   Other types of functional or integration tests are out of Test generation scope
     -   Test generation can't update or delete existing ATF tests

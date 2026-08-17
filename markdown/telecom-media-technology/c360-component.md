@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-component.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-07-26"
 reading_time_minutes: 1
-breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Telecommunications Customer 360 component
@@ -21,7 +21,7 @@ All cards that appear on the [Telecommunications Customer 360 home page](https:/
 -   The **Run diagnostics** option is not available on the [Products card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md).
 -   The Related items contextual sidebar is not displayed.
 
-The following image shows an example of a complaint case record with the **Telecom Customer 360** component. The complaint case record page includes a **Customer Details** tab that displays the 360-degree view of the account or consumer associated with the case.
+The Customer 360 tab has been added to the complaint case. In this example, the complaint case record page includes a Customer 360 tab that displays a 360-degree view of the account or consumer associated with the case.
 
 \[Omitted image "c360-complaint-tab.png"\] Alt text: Telecom 360 component
 
@@ -30,5 +30,5 @@ Add the Telecom Customer 360 component to a record page in UI Builder so that cu
 -   **[Add the Setup Customer360 Context data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-add-data-resource.md)**  
 Add the Setup Customer360 Context data resource to the record page to enable the Telecom Customer 360 component to display the correct consumer or account view.
 
-**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
+**Parent Topic:**[Add the Customer 360 tab to a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-c360.md)
 

@@ -1,24 +1,24 @@
 ---
-title: Now Assist for Enterprise Architecture \(EA\) access roles
-description: The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
+title: ServiceNow Otto for Enterprise Architecture \(EA\) access roles
+description: The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/sn-otto-access-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-09"
-reading_time_minutes: 10
-breadcrumb: [Configure, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
+reading_time_minutes: 12
+breadcrumb: [Configure, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Now Assist for Enterprise Architecture \(EA\) access roles
+# ServiceNow Otto for Enterprise Architecture \(EA\) access roles
 
-The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
+The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
 
-Access to Now Assist for Enterprise Architecture \(EA\) skills is controlled by a combination of the EA Workspace role assigned to the user and, in some cases, additional platform-level or feature-specific roles. The table summarizes each skill, the role required to use it, and whether additional roles are needed.
+Access to ServiceNow Otto for Enterprise Architecture \(EA\) skills is controlled by a combination of the EA Workspace role assigned to the user and, in some cases, additional platform-level or feature-specific roles. The table summarizes each skill, the role required to use it, and whether additional roles are needed.
 
 |Skill|Configure role|Use role|
 |-----|--------------|--------|
-|Configure Now Assist for EA \(all skills\)|admin|Not applicable|
+|Configure ServiceNow Otto® for EA \(all skills\)|admin|Not applicable|
 |Configure AI Data Explorer and Query Generation skills|now\_assist\_explorer\_admin or higher \(AI Data Explorer\); admin \(Query Generation\)|Not applicable|
 |Generate a summary for ADRs \(ADR doc summarization\)|admin|sn\_apm.apm\_user|
 |Elaborate or shorten content in ADRs|admin|sn\_apm.apm\_user|
@@ -33,7 +33,7 @@ Access to Now Assist for Enterprise Architecture \(EA\) skills is controlled by 
 
 ## Configuration
 
-All Now Assist for EA skills are configured from the Now Assist Admin console. Configuration requires the admin role or, for AI Data Explorer skills, the now\_assist\_explorer\_admin role.
+All ServiceNow Otto® for EA skills are configured from the ServiceNow Otto® Admin console. Configuration requires the admin role or, for AI Data Explorer skills, the now\_assist\_explorer\_admin role.
 
 <table id="table_section_config"><thead><tr><th>
 
@@ -65,7 +65,7 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Activate and configure all Now Assist for EA skills from the Now Assist Admin console \(ADR summarization, business application insights, diagram change analysis, refine text, conversational experience\)
+Activate and configure all ServiceNow Otto® for EA skills from the ServiceNow Otto® Admin console \(ADR summarization, business application insights, diagram change analysis, refine text, conversational experience\)
 
 </td><td align="center">
 
@@ -322,7 +322,7 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Generate a Now Assist summary of an ADR document from the Artifact content tab
+Generate a ServiceNow Otto® summary of an ADR document from the Artifact content tab
 
 </td><td align="center">
 
@@ -514,7 +514,7 @@ Use the ADR summarization skill
 
 </td><td>
 
-sn\_apm.apm\_read is in the default skill access list. Admins can modify role access from the Now Assist Admin console.
+sn\_apm.apm\_read is in the default skill access list. Admins can modify role access from the ServiceNow Otto® Admin console.
 
 </td></tr></tbody>
 </table>## Business application insights
@@ -748,7 +748,7 @@ Provide thumbs up or thumbs down feedback on generated insights
 </td></tr></tbody>
 </table>## Compare Enterprise Modeling and Visualization diagrams
 
-The diagram change analysis skill generates an AI summary of changes between two diagram versions, including an executive summary and a breakdown of added, modified, and removed shapes and relationships.
+The diagram change analysis skill generates an AI summary of changes between two diagram versions. The summary includes an executive overview and a breakdown of added, modified, and removed shapes and relationships.
 
 <table id="table_section_diag_compare"><thead><tr><th>
 
@@ -1322,7 +1322,7 @@ Requires EA Workspace role AND now\_assist\_explorer\_user.
 
 </td></tr><tr><td>
 
-Add the widget data to an exploration for Now Assist to generate its own insights
+Add the widget data to an exploration for ServiceNow Otto® to generate its own insights
 
 </td><td align="center">
 
@@ -1350,7 +1350,7 @@ Requires EA Workspace role AND now\_assist\_explorer\_user.
 
 </td></tr><tr><td>
 
-Define a goal to improve the quality of generated insights; ask follow-up questions based on Now Assist suggestions
+Define a goal to improve the quality of generated insights; ask follow-up questions based on ServiceNow Otto® suggestions
 
 </td><td align="center">
 
@@ -1467,7 +1467,7 @@ Activate and configure the Generate enterprise architecture diagram skill
 
 </td></tr><tr><td>
 
-Upload an image and invoke the skill to generate an enterprise architecture diagram via the Now Assist panel
+Upload an image and invoke the skill to generate an enterprise architecture diagram via the ServiceNow Otto panel
 
 </td><td align="center">
 
@@ -1608,7 +1608,7 @@ A confirmation dialog is shown before the diagram is deleted.
 </td></tr></tbody>
 </table>## Enterprise Architecture Explorer Query Agent
 
-The Enterprise Architecture Explorer query agent is an agentic Now Assist skill that answers natural language questions about EA portfolio data, including business applications, capabilities, value streams, technology standards, and information objects. The agent is accessed from the Now Assist panel in Enterprise Architecture Workspace.
+The Enterprise Architecture Explorer query agent is an agentic ServiceNow Otto® skill that answers natural language questions about EA portfolio data. This includes business applications, capabilities, value streams, technology standards, and information objects. The agent is accessed from the ServiceNow Otto panel in Enterprise Architecture Workspace.
 
 <table id="table_section_ea_query_agent"><thead><tr><th>
 
@@ -1640,7 +1640,7 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Ask natural language questions about EA portfolio data using the Now Assist panel in Enterprise Architecture Workspace
+Ask natural language questions about EA portfolio data using the ServiceNow Otto panel in Enterprise Architecture Workspace
 
 </td><td align="center">
 
@@ -1924,20 +1924,42 @@ Review and modify the auto-populated form fields before submission
 No role required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 
 
-[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 [Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
 
-[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)
+[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-access-roles.md)
 
 [Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
 
-[Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)
+[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)
+
+[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-use.md)
+
+[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
+
+[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+
+[Generate a summary for Architectural Decision Records \(ADRs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)
+
+[Elaborate or shorten content in ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-shorten-content-ew.md)
+
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)
+
+[Compare Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/compare-modeling-diagrams.md)
+
+[Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)
+
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-ea-dashboard.md)
+
+[Register a business application conversationally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/register-business-application-using-conversational-experience.md)
+
+[Register a digital integration conversationally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/register-digital-integration-using-conv-exp.md)
 

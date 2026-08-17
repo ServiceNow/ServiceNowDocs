@@ -1,5 +1,5 @@
 ---
-title: Request additional information from the requester for an invoice inquiry case
+title: Request additional information for an invoice inquiry case
 description: Request additional information from the requester to continue working on the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, Accounts Payable Workspace, invoice inquiry case, requester, request info]
 breadcrumb: [Invoice inquiry cases, Using Invoice Case Management, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Request additional information from the requester for an invoice inquiry case
+# Request additional information for an invoice inquiry case
 
 Request additional information from the requester to continue working on the case.
 

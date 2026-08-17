@@ -158,6 +158,30 @@ File-based discovery - File management
 
 </td></tr><tr><td>
 
+Oracle GLAS Java Process Discovery
+
+</td><td>
+
+Discovers running Java processes on endpoints and collects installation data for the Oracle GLAS license compliance report. Runs weekly.
+
+</td><td>
+
+Oracle GLAS Java Process Discovery
+
+</td></tr><tr><td>
+
+Oracle GLAS HW data collection
+
+</td><td>
+
+Executes Oracle's hardware validation script on non-Oracle, non-macOS hosts to collect CPU/socket data for GLAS reporting. Runs weekly.
+
+</td><td>
+
+Oracle GLAS HW data collection
+
+</td></tr><tr><td>
+
 VISC Get application metric
 
 </td><td>
@@ -295,6 +319,27 @@ File-based discovery
 </td><td>
 
 Fetches the file data from the agent.
+
+</td></tr><tr><td>
+
+Oracle GLAS Java Process Discovery
+
+</td><td>
+
+Runs `pbd_java_discovery.rb` via osquery to collect Java version, vendor, AMC, and licensing flags. Timeout: 600s. Runs on all platforms.
+
+</td></tr><tr><td>
+
+Oracle GLAS HW data collection
+
+</td><td>
+
+Runs ```
+endpoint_discovery.rb
+        --select=oracle_glas_hw_discovery
+```
+
+ to execute Oracle's `ct_cpuq` script. Executes Oracle's hardware validation script on non-Oracle, non-macOS hosts to collect CPU/socket data for GLAS reporting. Runs weekly.
 
 </td></tr><tr><td>
 

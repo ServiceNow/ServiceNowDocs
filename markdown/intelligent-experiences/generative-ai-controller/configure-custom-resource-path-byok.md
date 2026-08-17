@@ -9,7 +9,7 @@ classification: generative-ai-controller
 topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure a custom resource path for BYOK models

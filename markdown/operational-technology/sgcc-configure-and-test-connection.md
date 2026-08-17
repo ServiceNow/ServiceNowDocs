@@ -97,3 +97,5 @@ This is optional. Check this box to use a MID Server for the connection.
 8.  Select **Continue** to move to the next step.
 
 
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+

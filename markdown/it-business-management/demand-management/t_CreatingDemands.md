@@ -77,7 +77,7 @@ Set the budget of a demand according to the fiscal years.
 -   **[Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/config-investment-budget-demand.md)**  
 Enable the Investment Budget option to allocate budgeting for demands at fiscal period.
 -   **[Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md)**  
-Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
+Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
 -   **[Realign resource assignments with demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/realign-resource-assignments-demand.md)**  
 Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
 
@@ -87,6 +87,10 @@ Planning and execution of your roadmap involves change in priority or timelines 
 
 
 [Assess demands]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [View demands]()
 
@@ -103,10 +107,6 @@ Planning and execution of your roadmap involves change in priority or timelines 
 [Train the similarity solution for Demand Management to find similar demands]()
 
 [PPM PIWB template - Find similar demands]()
-
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
-
-[Summarize demands with demand summarization skill]()
 
 [Associate AI systems with demands]()
 

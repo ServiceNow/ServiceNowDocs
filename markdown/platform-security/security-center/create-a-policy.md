@@ -1,6 +1,6 @@
 ---
 title: Create custom security event notification policies
-description: Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
+description: Create custom security event notifications for your organization to monitor user and group actions and generate alerts for potential security risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-a-policy.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Security Event Notifications, Security monitoring console, Security
 
 # Create custom security event notification policies
 
-Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
+Create custom security event notifications for your organization to monitor user and group actions and generate alerts for potential security risks.
 
 ## Before you begin
 

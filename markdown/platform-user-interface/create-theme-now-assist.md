@@ -1,6 +1,6 @@
 ---
-title: Create a theme using Now Assist
-description: Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+title: Create a theme using ServiceNow Otto
+description: Use ServiceNow Otto to generate themes from your brand image or brand guidelines. Color palettes are extracted automatically, producing visually consistent themes without requiring brand color codes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-theme-now-assist.html
 release: australia
@@ -10,19 +10,19 @@ reading_time_minutes: 4
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Create a theme using Now Assist
+# Create a theme using ServiceNow Otto
 
-Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+Use ServiceNow Otto® to generate themes from your brand image or brand guidelines. Color palettes are extracted automatically, producing visually consistent themes without requiring brand color codes.
 
 ## Before you begin
 
 This feature requires:
 
--   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
--   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/turn-on-theme-creation-workflow.md).
--   Now Assist panel turned on. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+-   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/turn-on-theme-creation-workflow.md).
+-   The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-Roles required:
+Role required:
 
 -   ui\_builder\_admin
 -   now\_assist\_panel\_user
@@ -31,13 +31,13 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 ## Procedure
 
-1.  Select the Now Assist sparkle icon \[Omitted image "icon-now-assist.png"\] to display the Now Assist panel.
+1.  Select the ServiceNow Otto® icon \[Omitted image "icon-now-assist.png"\] to display the ServiceNow Otto® panel.
 
 2.  In the chat window, enter `Create a theme`.
 
-    This triggers the AI-enabled Theme Builder workflow.
+    The AI-enabled Theme Builder workflow starts.
 
-    \[Omitted image "tb-nap-chat-window.png"\] Alt text: Now Assist panel with Create a theme entered into the chat window.
+    \[Omitted image "tb-nap-chat-window.png"\] Alt text: ServiceNow Otto panel with Create a theme entered into the chat window.
 
 3.  Select **Yes** when prompted to proceed.
 
@@ -80,13 +80,13 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 8.  If you selected **Handpick my colors**, define your theme colors manually.
 
-    1.  Select the Primary tile and choose your brand’s primary color from the color selector or enter a value using HEX, RGB, or HSL.
+    1.  Select the Primary tile and choose your brand's primary color from the color selector or enter a value using HEX, RGB, or HSL.
 
         \[Omitted image "tb-select-primary-color.png"\] Alt text: Your brand's primary color
 
     2.  After you identify the primary color of your brand, select **Apply**.
 
-    3.  Select the Secondary tile and choose your brand’s secondary color from the color selector.
+    3.  Select the Secondary tile and choose your brand's secondary color from the color selector.
 
     4.  Select **Apply**.
 
@@ -96,7 +96,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 9.  Upload your brand logo, confirm it appears correctly in the preview, and select **Next**.
 
-    If you don’t add a logo, the ServiceNow logo is used.
+    If you don't add a logo, the ServiceNow logo is used.
 
 10. Select the preferred font for your text and select **Next**.
 
@@ -119,7 +119,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-Customize and publish your theme in Theme Builder. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)\[Publish a theme\] and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+Customize and publish your theme in Theme Builder. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md) and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
 **Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
 

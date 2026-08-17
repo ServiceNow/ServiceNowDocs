@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 12
 ---
 
 # Public Sector Digital Services release notes
@@ -14,6 +14,8 @@ The ServiceNow® Public Sector Digital Services application enables government a
 
 ## Public Sector Digital Services highlights for the Australia release
 
+-   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the **Create Work Order** button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace.
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Public Sector Digital Services \(PSDS\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Control the visibility of the grant program lifecycle stepper on the Grant Program record page by disabling or enabling it per instance.
 -   Route flagged documents back to applicants, prompting re-upload of the corrected document, maintaining a complete audit trail within the system. Flagged documents now persist in the system rather than being deleted immediately.
 -   Enter award information and allocate budget across categories using the restructured Program Budget activity. The new three-section workflow separates total program budget, budget categories, and award allocation types for a clearer, more intuitive budget configuration experience. Budget allocations and balances update in real-time as you enter percentages across categories.
@@ -27,7 +29,7 @@ The ServiceNow® Public Sector Digital Services application enables government a
 -   Manage physical and digital evidence tied to investigative cases, with structure fields for collection details, source and context, security classification, and links to related entities such as persons, vehicles, locations, and organizations using Investigative Case Management Evidence Management.
 -   Create Chain of custody documentation in every evidence record, capturing each transfer from the moment of collection.
 -   Synthesize narratives, entities, evidence, and activity history into a structured summary using Investigative Case Management Case Summarization.
--   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with Now Assist for Public Sector Digital Services \(PSDS\).
+-   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
 See [Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md) for more information.
 
@@ -36,6 +38,8 @@ See [Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/
 ## Important information for upgrading Public Sector Digital Services to Australia
 
 After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
 
 ## New in the Australia release
 
@@ -55,9 +59,22 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
     -   Evidence Management
     With Entity Management, investigators can create investigative tasks and workflows for investigative activities with automated metadata capture \(time, source, entities, classification\)​, as well as define processing with teams and attorneys and collaborate across agencies/divisions. With Evidence Management, investigators can log and triage evidence metadata \(digital, physical, testimonial\)​ and maintain an audit trail \(Chain of Custody logging\), as well as draft, review, and create reports with supporting evidence​​.
 
--   **Use Now Assist for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents**
+-   **Task Tab and Field Service Management case escalation in Investigative Case Management**
 
-    Complete case narratives and make refinements to investigative case records using Now Assist for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
+    Use the Tasks tab in the investigative case record to view and create investigative tasks directly within the case context. Use the **Create Work Order** to escalate a case directly to an Field Service Management work order without leaving the ICM workspace​​.
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **Use ServiceNow Otto for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents**
+
+    Complete case narratives and make refinements to investigative case records using ServiceNow Otto for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
 
 -   **Use the Case Narrative Refinement AI Agent to refine case narratives in Investigative Case Management**
 
@@ -65,7 +82,7 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 -   **Document Screening AI Skill for Social Benefits Playbook**
 
-    Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of Now Assist for Public Sector Digital Services \(PSDS\).
+    Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
 -   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gdsp-overview.md)**
 
@@ -102,6 +119,14 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 ## Changed in this release
 
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 -   **[Enhancements to Grants Management: Program Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
     -   [Grants Management Program Budget activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
 
@@ -128,7 +153,7 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 ## Activation information
 
-Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -140,7 +165,7 @@ Install Public Sector Digital Services by requesting it from the ServiceNow Stor
 
     The ServiceNow®CSM Configurable Workspace application provides government agents with the tools to research information, respond to questions from the public, and resolve cases.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     The ServiceNow®Now Assist application uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 

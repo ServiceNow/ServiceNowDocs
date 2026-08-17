@@ -34,8 +34,8 @@ Role required: Account Payable agent
 -   All- All interactions
 5.  Select an interaction record to view its details.
 
-    |Field|Description|
-    |-----|-----------|
+    |Details field|Description|
+    |-------------|-----------|
     |Number|System-generated unique interaction number|
     |Type|Mode of interaction|
     |State|Status of the record|

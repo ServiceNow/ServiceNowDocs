@@ -44,7 +44,7 @@ You can use the Prioritization, Kanban, or the Hierarchy tabs while you perform 
 
     For full information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-    You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the Now Assist for SPM application is installed.
+    You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the ServiceNow Otto for SPM application is installed.
 
 5.  Select **Submit**.
 

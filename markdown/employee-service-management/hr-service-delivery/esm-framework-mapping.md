@@ -1,6 +1,6 @@
 ---
-title: Now Assist for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework
-description: View the Virtual Agent topic-feature-service mapping for Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework.
+title: ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework
+description: View the Virtual Agent topic-feature-service mapping for ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/esm-framework-mapping.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Service Management Integrations Framework reference, Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework
+# ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework
 
-View the Virtual Agent topic-feature-service mapping for Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework.
+View the Virtual Agent topic-feature-service mapping for ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework.
 
 <table id="table_wkg_4nx_r2c"><thead><tr><th>
 

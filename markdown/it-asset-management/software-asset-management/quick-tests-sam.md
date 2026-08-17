@@ -229,7 +229,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, a software entitlement using the custom Part Number, and verifies that a software model is automatically created.
+Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, and a software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 

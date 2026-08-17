@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
 breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Service Management]
 ---
@@ -26,13 +26,6 @@ WhatsApp messaging capabilities in Customer Service Management enable rich, inte
 
 WhatsApp supports the following messaging features and rich interactive controls:
 
--   Text messaging
--   Rich media \(images, videos, audio files, documents\)
--   Typing indicators
--   Location sharing
--   List pickers
--   Opt-in and consent
-
 <table id="table_vlk_ykh_shc"><thead><tr><th>
 
 Rich controls
@@ -42,6 +35,14 @@ Rich controls
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+Rich media
+
+</td><td>
+
+Agents and customers can exchange images, videos, and documents directly within the conversation thread.The media can be uploaded from the device only.
+
+</td></tr><tr><td>
 
 Typing indicators
 
@@ -79,6 +80,22 @@ URLs in messages automatically generate rich previews with images, titles, and d
 
 </td></tr><tr><td>
 
+Opt-in and consent
+
+</td><td>
+
+The integration captures and records customer opt-in and opt-out messages to track communication consent.
+
+</td></tr><tr><td>
+
+Audio messages
+
+</td><td>
+
+When a customer sends an audio message through WhatsApp, the system renders it as an inline audio player in the conversation thread instead of a downloadable link. The audio player supports play, pause, seek, and volume controls, and displays the total duration and current playback position. You can enable audio rendering using the **supports\_audio\_rich\_control** custom adapter system property. For details, see [WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/whatsapp-cloud-api-provider-properties.md).
+
+</td></tr><tr><td>
+
 Customer-initiated conversations
 
 </td><td>
@@ -88,7 +105,7 @@ These conversations begin when the customer sends the first message to your busi
 -   Opens when customer sends first message
 -   Remains open for 24 hours from last customer message
 -   Resets to 24 hours with each new customer message
--   Agent can send any messages within this window
+-   Agent can respond within this window
 
 Characteristics:
 
@@ -102,7 +119,7 @@ Agent-initiated conversations
 
 </td><td>
 
-These conversations begin when agent proactively messages the customer. WhatsApp enables outbound initiation only under certain conditions.Requirements:
+These conversations begin when the agent proactively messages the customer. WhatsApp enables outbound initiation only under certain conditions.Requirements:
 
 -   Customer must have active channel user profile in the application
 -   Customer must have opted in to receive messages
@@ -120,14 +137,6 @@ These conversations begin when an automated workflow sends a WhatsApp message to
 -   Customer must have opted in
 -   Must be within 24 hours of customer's last message
 
-</td></tr><tr><td>
-
-Opt-in and consent
-
-</td><td>
-
-The integration captures and records customer opt-in and opt-out messages to track communication consent.
-
 </td></tr></tbody>
 </table>## End users and roles
 
@@ -144,6 +153,8 @@ The users with the roles listed in the following table can use the Conversationa
 
 
 [System properties for configuring WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/direct-cloud-api-system-property-configuration.md)
+
+[WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/whatsapp-cloud-api-provider-properties.md)
 
 [Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-direct-whatsapp-configure.md)
 

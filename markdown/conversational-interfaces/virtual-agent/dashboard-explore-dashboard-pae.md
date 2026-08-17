@@ -75,7 +75,7 @@ The following sections provide a high-level overview of how to use each section 
     |Tab|Description|
     |---|-----------|
     |Overview|View the key indicators of the performance of VA.|
-    |Now Assist in VA|View key indicators to monitor the performance of Now Assist in Virtual Agent. This is visible only when Now Assist in Virtual Agent is enabled.|
+    |ServiceNow Otto in VA|View key indicators to monitor the performance of ServiceNow Otto in Virtual Agent. This is visible only when ServiceNow Otto in Virtual Agent is enabled.|
     |Usage|View VA conversation usage, for example, the language and conversation type. You can also drill down to the list of conversations of a certain language or conversation type.|
     |Conversations|View conversation details and troubleshoot individual conversations. Advanced filtering enables you to filter the list of conversations by conversation type, duration, user, and language.|
     |Users|View how your users are conversing with VA. Advanced filtering enables you to filter the list by user, channel, and last conversation.|
@@ -86,7 +86,7 @@ The following sections provide a high-level overview of how to use each section 
 
 -   **Virtual Agent activity**
 
-    This area of the dashboard contains indicators that show Virtual Agent activity such as number of active users who interacted with the Virtual Agent, number of conversations initiated on the Virtual Agent, and so on.
+    This area of the dashboard contains indicators that show Virtual Agent activity. Activity can include the number of active users who interacted with the Virtual Agent, number of conversations initiated on the Virtual Agent, and so on.
 
     \[Omitted image "vaa-next-virtual-agent-activity-pae.png"\] Alt text: Virtual Agent analytics dashboard key performance indicators.
 

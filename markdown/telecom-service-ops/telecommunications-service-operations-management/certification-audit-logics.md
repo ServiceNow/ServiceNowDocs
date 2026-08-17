@@ -16,7 +16,7 @@ breadcrumb: [Identify and reconcile discrepancies, Telecom Visibility, Explore, 
 
 Audit Results are created for each audit executed on records that matched the selection \(see matching conditions in Initial Certification Audit Run\).
 
-The result's state can be certified or failed. A Follow-On Task is created for each ‘failed’ Audit Result record.
+The result's state can be certified or failed. A Follow-On Task is created for each 'failed' Audit Result record.
 
 ## Initial Certification Audit Run
 
@@ -30,7 +30,7 @@ The Service Operation CMDB Compliance Audit starts to run on the CI Relationship
 
     **Note:** These properties can be configured via sn\_tsom\_core.audit.\* system properties.
 
--   Parent OR child is created or updated by Discovery \(discovery\_source = SG-Altiplano, ServiceNow\). Audit uses its own filter mechanism that applies on equipment Cis. Default filter is “discovery\_source CONTAINS TSOM"
+-   Parent OR child is created or updated by Discovery \(discovery\_source = SG-Altiplano, ServiceNow\). Audit uses its own filter mechanism that applies on equipment Cis. Default filter is "discovery\_source CONTAINS TSOM"
 -   Parent AND child life-cycle Stage is Operational.
 -   The CI Relationship Type is Contains::Contained By.
 
@@ -41,5 +41,5 @@ The Service Operation CMDB Compliance Audit starts to run on the CI Relationship
 
 Follows the same logic as the Initial Certification Audit Run, but with the following additional matching selection criteria:
 
-The timestamp in the Updated field in the CI Relationship table, or the timestamp in the Updated field of a Parent CI, or the timestamp in the Updated field of child CIs is later than the timestamp in the ‘Last run date’ field in the Telecom Discrepancy Audit \(this means that there was a change since the last audit\).
+The audit runs when the Updated field timestamp is later than the Last run date in the Telecom Discrepancy Audit. The timestamp can be from the CI Relationship table, Parent CI, or child CIs. This indicates a change since the last audit.
 

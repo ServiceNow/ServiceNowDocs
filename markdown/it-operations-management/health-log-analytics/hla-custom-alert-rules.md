@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-15"
 reading_time_minutes: 2
 keywords: [Health Log Analytics, HLA, alert rule, custom alert rules, log analytics alerts, anomaly detection, automatic detection, log patterns, lively logs, sparse logs, stopped logs, probability-based method, high-frequency logs, low-frequency logs, periodic logs, critical conditions, machine learning, not enough data, too little data, pattern]
-breadcrumb: [Use custom alert rules, Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use custom alert rules, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert rules in Health Log Analytics

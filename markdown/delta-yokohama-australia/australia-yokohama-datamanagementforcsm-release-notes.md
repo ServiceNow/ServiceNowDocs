@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-datamanagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 16
+last_updated: "2026-08-17"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -152,12 +152,32 @@ The following enhancements are added for the Sold Product in this release:
 
     -   Billing Account: Enables direct reference to the associated Billing Account on the Sold Product entity within ServiceNow® CRM allowing agents to access financial information instantly during service delivery. This provides visibility into payment terms and conditions linked to the product, builds customer trust through transparent and predictable billing, and supports accurate revenue recognition for businesses.
     -   Start and end Dates: Provides full lifecycle state‑transition support \(**In preparation, Active, Expired, Cancelled**\) with automated date‑driven updates.
+-   **[Create return merchandise authorization case lines](https://www.servicenow.com/docs/access?context=som.create-return-merchandise-authorization-case-lines&family=zurich&ft:locale=en-US)**
+
+Enable agents to initiate return requests directly from sold product records along with the install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing time.
+
+-   **[Synchronizing life-cycle values](https://www.servicenow.com/docs/access?context=cmdb-asset-CI-IBI-sync-options&family=zurich&ft:locale=en-US)**
+
+Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
+
+-   **[Proactive Customer Service Operations](https://www.servicenow.com/docs/access?context=proactive-service-operations&family=zurich&ft:locale=en-US)**
+
+Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scoped role \( sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator role\).
+
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
+
+-   **[External staff can resolve customer cases at their locations](https://www.servicenow.com/docs/access?context=access-limitations-for-ext-loc-customer-agent&family=australia&ft:locale=en-US)**
+
+The external location consumer agents \(having sn\_customerservice.svc\_location\_consumer\_agent and snc\_external roles\) at external organization \(formerly external business location\) can create, view, update, and close customer cases directly from the classic environment, the same way internal location staff already can. This extends consistent, timely customer service across company-owned and third-party locations.
+
+-   **[External staff can view colleague contact details at their location](https://www.servicenow.com/docs/access?context=csm-data-model-tables&family=australia&ft:locale=en-US)**
+
+An external staff member with sn\_customerservice.service\_organization\_contributor role, can view the business phone number, mobile phone number, and email address of other external staff members at their organization in the classic environment.
 
 -   **[Configuring a contact as a consumer](https://www.servicenow.com/docs/access?context=configuring-a-contact-as-a-unified-consumer&family=australia&ft:locale=en-US)**
 
@@ -214,6 +234,18 @@ Create and track service cases for themselves, and for sold products and install
 -   **[Hierarchy-scoped access for business organization members](https://www.servicenow.com/docs/access?context=csm-assign-responsibilities&family=australia&ft:locale=en-US)**
 
 Grant business organization members hierarchy-scoped access across child locations with administrator or manager-controlled exclusions using a new organization hierarchy responsibility, Organization Hierarchy Contributor \[org\_hierarchy\_contributor\]. Two new fields control the scope: Excluded Locations on the assignment, and Restricted on the business location.
+
+-   **[Create Return Merchandise Authorization case lines](https://www.servicenow.com/docs/access?context=create-return-merchandise-authorization-case-lines&family=australia&ft:locale=en-US)**
+
+Enable agents to initiate return requests directly from sold product records along with install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing times.
+
+-   **[Proactive Customer Service Operations](https://www.servicenow.com/docs/access?context=proactive-service-operations&family=australia&ft:locale=en-US)**
+
+Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scope role \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator\) role.
+
+-   **[Synchronizing life-cycle values](https://www.servicenow.com/docs/access?context=cmdb-asset-CI-IBI-sync-options&family=australia&ft:locale=en-US)**
+
+Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
 
 
 </td></tr></tbody>

@@ -20,7 +20,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-If it is an Application, Hardware, or Software dependency group that uses class extensions to populate configuration items and discover technologies or software, you can add items by filtering records based on the item’s relationship with the BIA dependency group. Or, you can add items to the group by simply selecting items from all the records.
+For Application, Hardware, or Software dependency groups using class extensions to populate configuration items and discover technologies, you can add items by filtering records based on relationships. You can add items to the group by simply selecting items from all the records.
 
 For example, your business function, Accounts Receivable, may depend on the business application, Acrobat, to complete a business process. Therefore, the relationship is captured as Depends on::Used by. The Accounts Receivable business function depends on the Acrobat application item, and the Acrobat application is used by Accounts Receivable. Similarly, your business function may depend on other dependency groups like software technology or hardware to accomplish a business process.
 

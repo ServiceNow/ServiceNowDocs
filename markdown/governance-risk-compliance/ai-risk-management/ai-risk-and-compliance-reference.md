@@ -31,6 +31,8 @@ Reference table listing the assessment templates installed with AI Risk and Comp
 Reference table listing the default risk assessment methodologies \(RAMs\) installed with AI Risk and Compliance. RAMs define the scoring frameworks, classification criteria, and contributing factors used to evaluate risks associated with AI assets.
 -   **[AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md)**  
 Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
+-   **[AI evaluation base metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-ai-evaluation-base-metrics.md)**  
+Base metrics from AI evaluation framework providers for configuring compliance evaluations and monitoring AI system controls.
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
 

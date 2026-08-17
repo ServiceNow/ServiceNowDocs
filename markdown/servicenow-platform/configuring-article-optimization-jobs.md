@@ -1,18 +1,18 @@
 ---
-title: Configuring Article Optimization jobs
-description: Article Optimization jobs are used to define a schedule to run scans along with their conditional settings, if any. Each job will have one or more scans associated with it.
+title: Configure Article Optimization jobs
+description: Article Optimization jobs define a schedule for running scans and their conditional settings. Each job has one or more scans associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuring-article-optimization-jobs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configuring Article Optimization jobs
+# Configure Article Optimization jobs
 
-Article Optimization jobs are used to define a schedule to run scans along with their conditional settings, if any. Each job will have one or more scans associated with it.
+Article Optimization jobs define a schedule for running scans and their conditional settings. Each job has one or more scans associated with it.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: admin
 
 2.  Select **New**.
 
-    1.  If you want to clone and modify an existing job, go to the **sysauto\_kb\_assist\_job** table.
+    1.  To copy and modify an existing job, go to the **sysauto\_kb\_assist\_job** table.
 
-    2.  Open a record and select **Insert and stay** to copy the scan.
+    2.  Open a record and select **Insert and stay** to copy the job.
 
-    3.  **Rename** the copied scan.
+    3.  Rename the copied job.
 
 3.  Fill out the record form as follows:
 
@@ -38,7 +38,7 @@ Role required: admin
 
 4.  Define the schedule of the job in the **Run** field and refine it using the **Time Zone** and the **Time** fields \(to stagger job run times and avoid performance issues\).
 
-5.  **Save** the record.
+5.  Select **Save**.
 
 6.  Add or delete scans on the job from the **Related Article Assist Scans** related list.
 

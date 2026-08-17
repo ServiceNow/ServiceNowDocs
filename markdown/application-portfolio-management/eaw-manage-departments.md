@@ -17,7 +17,7 @@ Add or edit departments, add users to the departments in the Enterprise Architec
 -   **[View all departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-departments.md)**  
 You can view the list of all available departments in the Enterprise Architecture Workspace.
 -   **[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-department.md)**  
-You can create or edit departments to effectively manage and optimize business applications by providing a structured approach to align the business applications with the strategic goals of the organization.
+Create or edit departments to manage and optimize business applications and align them with organizational strategic goals.
 -   **[Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)**  
 You can add users to departments, thereby enabling the departments to perform their specific tasks and reach their desired objectives. Users can contribute to the decision-making process of a department by providing their insights. This leads to optimized usage of business applications and increased cost savings.
 

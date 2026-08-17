@@ -1,5 +1,5 @@
 ---
-title: Use tasks and approvals
+title: Manage tasks and approvals
 description: Triage your queue from the Employee Slate Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-work-with-inbox.html
@@ -13,7 +13,7 @@ keywords: [employee communications, announcements, content library, employee sla
 breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Use tasks and approvals
+# Manage tasks and approvals
 
 Triage your queue from the Employee Slate Tasks and requests. Review task summaries, act on approvals, apply conversational filters, and retrieve items through chat.
 
@@ -57,7 +57,7 @@ You can view, track, and act on pending tasks, approvals, and open requests acro
 
     Ask the chat about a specific record, for example an incident number. The chat returns a single-item widget that you use to review and act on the record.
 
-8.  Approve or reject the item.
+8.  Perform the actions such as **Approve** or **Reject** the item.
 
     Take action from the detail page or enter a natural language command in chat such as `Approve this request` or `Reject this request`.
 

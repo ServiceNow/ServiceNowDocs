@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-activitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -89,6 +89,10 @@ Define custom touchpoint types in addition to the default types of discovery, de
 
 Capture emails, calls, meetings, and tasks within touchpoints such as discovery, demo, business value assessment, or CBRs in a single system of record. Track metrics such as primary channel and time spent for every interaction, providing leadership with visibility into the activity volume per sales representative.
 
+-   **[Responsibility-based access roles for touchpoints](https://www.servicenow.com/docs/access?context=components-installed-crm-touchpoints&family=australia&ft:locale=en-US)**
+
+Enable record-level access to touchpoints through the responsibility framework. The new CRM Touchpoints responsibility read granular and CRM Touchpoints responsibility write granular roles enables admins to configure and limit sales territory members and opportunity team members to the touchpoints on the leads, opportunities, and accounts they are responsible for, rather than the blanket access provided by the touchpoint reader and writer roles.
+
 
 CRM Outlook Add-in
 
@@ -107,6 +111,13 @@ Skip the record lookup when associating emails from the email thread. After you 
 -   **[Centralize customer communications for the entire team](https://www.servicenow.com/docs/access?context=view-associated-emails-crm&family=australia&ft:locale=en-US)**
 
 Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
+
+
+AI sales activity association
+
+-   **[AI sales activity association](https://www.servicenow.com/docs/access?context=explore-ai-sales-activity-association&family=australia&ft:locale=en-US)**
+
+Automatically associate inbound sales emails with the correct lead, opportunity, account, or contact using AI-based intent detection and semantic matching. When the agent identifies a confident match, it auto-associates the email to the CRM record so sales representatives see emails already linked in the record's Activity stream.
 
 
 </td></tr></tbody>
@@ -395,6 +406,7 @@ Australia
 -   Enable email activity capture into ServiceNow Customer Relationship Management \(CRM\) software using the CRM Outlook Add-in.
 -   Define, plan, capture, and track customer interactions such as discovery calls, demos, and customer business reviews \(CBRs\) across different channels such as emails, calls, meetings, and more.
 -   Manage tasks and appointments for leads, opportunities, and more directly from a touchpoint record, in addition to opportunity.
+-   Automatically associate inbound sales emails with the correct CRM record using AI-based intent detection and semantic matching.
 
  See [Activity Management](https://www.servicenow.com/docs/access?context=explore-activity-management&family=australia&ft:locale=en-US) for more information.
 

@@ -30,11 +30,11 @@ A scenario helps you to determine the risks that are applicable to your business
 
     The sample configuration for the Scenario New record form is shown in the following example.
 
-    \[Omitted image "new-scenario-active.png"\] Alt text: Sample configuration for the Scenario New record form.
+    \[Omitted image "new-scenario-active.png"\] Alt text: Sample configuration for the Scenario record form.
 
 3.  On the form, fill in the fields.
 
-    For the description of the field values, see [Scenario New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-reference.md).
+    For the description of the field values, see [Scenario record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-reference.md).
 
 4.  Click **Submit**.
 

@@ -101,8 +101,6 @@ Grants administrative rights to create, read, or update learning libraries based
 
 The image shows a high-level workflow on how coaching admins set up Coaching, and how managers and agents use Coaching.
 
-**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.md).
-
 \[Omitted image "coaching-workflow.png"\] Alt text: Coaching workflow
 
 1.  Coach admins set conditions in coaching opportunities that trigger an assessment. They can also define surveys used to assess agent performance.

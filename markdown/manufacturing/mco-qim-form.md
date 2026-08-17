@@ -23,13 +23,15 @@ The CoPQ expense line form enables you to enter the expense line details for pro
 -   **[CoPQ financial requests form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-financial-requests-form.md)**  
 CoPQ financial form enables you to enter the financial requests raised for the remediation plan.
 -   **[CoPQ planned line charge form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-planned-line-charge-form.md)**  
-The CoPQ planned line form enables you to add the required details.
+The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 -   **[Corrective action form for PQI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-action-form-for-pqi.md)**  
 The corrective action form enables you to add the details for PQI.
 -   **[Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-correction-actions-form.md)**  
 The Correction action form enables you to enter the correction action details for the issue.
+-   **[Part requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-part-requirement-form.md)**  
+Create a part requirement to include fields for part model, required quantity, reserved quantity, and delivery status for a work order task.
 -   **[Preventive action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-preventive-action-form.md)**  
-The preventive action form enables you to add the details for QI.
+The preventive action form captures the remediation plan, cost, priority, and status details for a quality issue \(QI\).
 -   **[Report a product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-report-a-product-non-conformance.md)**  
 The report a product non-conformance form enables you to add the issue details.
 -   **[Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformance-case-form.md)**  

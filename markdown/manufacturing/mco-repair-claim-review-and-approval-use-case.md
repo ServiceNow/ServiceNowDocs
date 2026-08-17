@@ -7,6 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-16"
 reading_time_minutes: 2
+keywords: [repair claim review and approval, warranty claim adjudication, line-level claim approval]
 breadcrumb: [Repair claim, MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
@@ -20,7 +21,7 @@ Angela, a warranty claim agent at Alectri needs to review and approve pending wa
 
 -   Process inefficiency: Disconnected systems and manual amount entry increase processing time and error risk.
 -   Data quality issues: Inconsistent claim data and missing documentation cause review delays and bottlenecks.
--   Limited flexibility: All-or-nothing approvals prevent granular, line-level decision-making.
+-   Limited flexibility: All-or-nothing approvals limit granular, line-level decision-making.
 -   Communication gaps: Limited feedback mechanisms create miscommunication and resubmission cycles.
 
 ## Solution
@@ -29,10 +30,10 @@ Angela, a warranty claim reviewer, uses the MCO workspace to streamline claim re
 
 1.  Review: Access the centralized workspace to view all submitted and pending claims in a single location with full claim details.
 2.  Adjudicate: Select a pending claim and evaluate job line items \(part numbers, unit prices, quantities, claimed amounts\). Use line-level review to approve valid items \(Alectri Airbag Module\) and reject invalid items \(miscellaneous charges not covered under warranty\).
-3.  Approve: Choose from four adjudication options: Approve All, Reject All, Partially Approve, or Send Back with Comments. The system automatically populates approved amounts for streamlined processing.
+3.  Approve: Choose from four adjudication options: **Approve All**, **Reject All**, **Partially Approve**, or **Send Back with Comments**. The system automatically populates approved amounts for streamlined processing.
 4.  Provide Feedback: Send structured feedback with specific comments when additional documentation is needed \(for example, proof of trade-in records\). Dealers receive instant notification and can resubmit the updated claim without delay.
 
-Once James, the dealer, adds required attachments and resubmits, Angela approves all line items. MCO provides instant feedback visibility to the dealer, eliminating delays and miscommunication.
+After James, the dealer, adds required attachments and resubmits, Angela approves all line items. MCO provides instant feedback visibility to the dealer, eliminating delays and miscommunication.
 
 ## Benefits
 

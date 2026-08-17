@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -22,7 +22,7 @@ The plugins listed in the following table must be installed.
 
 |Plugin|Plugin ID|Plugin description|
 |------|---------|------------------|
-|TSOM Event Management Connectors|sn\_tsom\_em\_connectors|TSOM Assurance Connectors for events and metrics|
+|TSOM Event Management Connectors|sn\_tsom\_em\_conns|TSOM Assurance Connectors for events and metrics|
 |TSOM Event Management Core|sn\_tsom\_em\_core|TSOM Assurance Core features|
 
 Role required: TSOM Assurance admin
@@ -35,9 +35,13 @@ Role required: TSOM Assurance admin
 
 3.  Select the **Browse Integrations** tab
 
-4.  Search for the desired integration \(for example, Meraki or Fortinet\).
+4.  Search for the desired integration \(for example, Meraki, Fortinet, or VeloCloud\).
 
-5.  Select the integration tile labeled **Events**.
+5.  Select the integration tile.
+
+    For most integrations, select the **Events** tile.
+
+    **Note:** For Fortinet, two integration tiles are available: **Events** and **Metrics \(Push\)**. Select the tile that matches the type of data you want to collect from your Fortinet system.
 
 6.  On the Provide details page, provide details about the connector type.
 
@@ -72,7 +76,7 @@ Role required: TSOM Assurance admin
 
     The connector is saved and a notification is sent after the connector is active.
 
-12. After you receive a notification that the connector is active, confirm the successful configuration of the push connector and the flow of events into the system by selecting the **Events** tab.
+12. After you receive a notification that the connector is active, select the **Events** tab to confirm successful configuration and event flow.
 
     Incoming events might take a few minutes to appear in the dashboard.
 
@@ -84,7 +88,7 @@ Role required: TSOM Assurance admin
 
 [Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-event-management.md)
 
-[arista-velocloud-installed-integrations]
+[Arista VeloCloud installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-installed-integrations.md)
 
 [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
 

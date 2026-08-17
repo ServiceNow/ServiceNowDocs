@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-10-25"
 reading_time_minutes: 2
 keywords: [Obligation extraction, Configure obligation extraction]
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure Conversational contract search and insights
 
 Configure Conversational contract search and insights skill to enable searching information in contracts using natural language and dialogue-driven queries, making it easier to find relevant information.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Complete the following steps to configure Conversational contract search and insights.
 
@@ -41,9 +41,9 @@ Complete the following steps to configure Conversational contract search and ins
 
     Set the data access permissions for the Agent- Search contracts AI.
 
--   **[Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**
+-   **[Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**
 
-    Set the data access permissions for the Now Assist skills- Contracts query enhancer, Contracts query classifier and Search contract with contextual input.
+    Set the data access permissions for the skills- Contracts query enhancer, Contracts query classifier and Search contract with contextual input.
 
 
 ## Accessing the Agentic Workflow

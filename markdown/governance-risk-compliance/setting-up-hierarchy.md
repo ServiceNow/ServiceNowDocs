@@ -1,5 +1,5 @@
 ---
-title: Setting up pillars, entity types, entity filters, and entities
+title: Setting up pillars, entity types, and entities
 description: This section helps you configure the Operational Resilience application to organize and track your organization's operational data through a structured hierarchy of pillars, entity types, and entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setting-up-hierarchy.html
@@ -10,7 +10,7 @@ reading_time_minutes: 6
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Setting up pillars, entity types, entity filters, and entities
+# Setting up pillars, entity types, and entities
 
 This section helps you configure the Operational Resilience application to organize and track your organization's operational data through a structured hierarchy of pillars, entity types, and entities.
 
@@ -27,7 +27,7 @@ It is essential to understand the core terminology and how different components 
 |CSDM|Common Service Data Model - Company standard for organizing IT data|Confirms consistency across ServiceNow applications|
 |CMDB|Configuration Management Database \(CMDB\) - Stores IT infrastructure data|Source of servers, applications, and relationships|
 
-Consider the example of organizing a filing cabinet where pillars are drawers, entity types are folders within each drawer, entity filters are the labels that determine what goes in each folder, and entities are the actual documents.
+Consider the example of organizing a filing cabinet. Pillars are drawers, entity types are folders within each drawer, entity filters are the labels that determine what goes in each folder, and entities are the actual documents.
 
 ## Understanding the data hierarchy
 

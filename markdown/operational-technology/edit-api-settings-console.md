@@ -1,18 +1,18 @@
 ---
 title: Edit API settings
-description: Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector \(SGC\).
+description: Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector for ServiceNow OT Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-api-settings-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Discovery Console for OT API, Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Console for OT API, Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit API settings
 
-Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector \(SGC\).
+Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector for ServiceNow OT Discovery.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Service Graph Connector for ServiceNow OT Discovery has been enhanced to enable these functions of the Discovery Console for OT API.
+The Service Graph Connector for ServiceNow OT Discovery has been enhanced to make available these functions of the Discovery Console for OT API.
 
 ## Procedure
 
@@ -43,11 +43,13 @@ The Service Graph Connector for ServiceNow OT Discovery has been enhanced to ena
     2.  Next to the API token that you want to remove, select the **Remove Token** \[Omitted image "remove-token-icon-msi.png"\] Alt text: icon.
 6.  View the available endpoints.
 
-    The endpoints are listed in columns by name, method, and their URI. The following endpoints are available for the Discovery Console for OT. \[Omitted image "Settings-api-active-tokens.png"\] Alt text: Endpoints
+    The endpoints are listed in columns by name, method, and their URI. The following endpoints are available for the Discovery Console for OT.
+
+    \[Omitted image "Settings-api-active-tokens.png"\] Alt text: API Endpoints
 
     -   **Sites**
     -   **Assets**: Returns the `DeviceId` for each asset; if no `DeviceId` is set, then it returns `null`.
-    -   **Network Zones**: Returns values for the Network zone, parent/child zones, subnet information, and IP ranges.
+    -   **Network Zones**: Returns values for the Network zone, parent/child zones, Subnet information, and IP ranges.
     -   **Sensors**: Returns the Sensor id \(`sensorId`\) that points to the sensor that was used for the discovery.
     -   **Console Info**: Returns the Console information.
     -   **Connections**
@@ -73,4 +75,6 @@ The Service Graph Connector for ServiceNow OT Discovery has been enhanced to ena
 
         The disk space available is limited to 1 GiB.
 
+
+**Parent Topic:**[Discovery Console for OT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/api-discovery-console.md)
 

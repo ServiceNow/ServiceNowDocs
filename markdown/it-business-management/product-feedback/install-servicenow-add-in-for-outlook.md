@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Feedback application in Strategic Planning, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configure, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Install ServiceNow Add-in for Microsoft Outlook

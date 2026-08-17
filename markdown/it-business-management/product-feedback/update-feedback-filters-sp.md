@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing Feedback application in Strategic Planning, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update feedback filters in Strategic Planning
@@ -32,15 +32,15 @@ Role required: pf\_user
 
 4.  Update the record details or delete the feedback filter card.
 
-<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d258470e94">
+<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d265317e94">
 
 Choice
 
-</th><th align="left" id="d258470e97">
+</th><th align="left" id="d265317e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d258470e103">
+</th></tr></thead><tbody><tr><td id="d265317e103">
 
 **Edit feedback filter card**
 
@@ -53,7 +53,7 @@ From the feedback page:
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d258470e138">
+</td></tr><tr><td id="d265317e138">
 
 **Delete feedback filter card**
 

@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Rack allocation workflow

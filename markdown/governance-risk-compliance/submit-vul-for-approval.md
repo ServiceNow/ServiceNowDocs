@@ -28,7 +28,7 @@ Role required: sn\_oper\_res.manager
 
 3.  In the vulnerability record, select **Update state**.
 
-    If any of the action tasks for the vulnerability are not closed yet, a message is displayed that All action tasks must be closed before an analyst or assignment group member can update the vulnerability state.
+    If any of the action tasks for the vulnerability aren't closed yet, a message is displayed. The message states that all action tasks must be closed before an analyst or assignment group member can update the vulnerability state.
 
     The following example shows that the action task for the vulnerability is in the **Review** state.
 

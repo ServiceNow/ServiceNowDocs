@@ -1,6 +1,6 @@
 ---
 title: Install the Document designer with Word application
-description: Install the ServiceNow Document designer with Word \(sn\_grc\_doc\_design\) application. It extracts metadata \(including fields, related lists, and reference fields with their associated elements\) from ServiceNow tables and enables the insertion of repeating content blocks \(for example, 10 blocks for 10 issues\) based on record count. When applied to specific records, the template generates a Microsoft Word document.
+description: Install the ServiceNow Document designer with Word \(sn\_grc\_doc\_design\) application. It extracts metadata from ServiceNow tables, including fields, related lists, and reference fields with their associated elements. It enables the insertion of repeating content blocks based on record count \(for example, 10 blocks for 10 issues\). When applied to specific records, the template generates a Microsoft Word document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-word-report-of-action-task.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, 
 
 # Install the Document designer with Word application
 
-Install the ServiceNow Document designer with Word \(sn\_grc\_doc\_design\) application. It extracts metadata \(including fields, related lists, and reference fields with their associated elements\) from ServiceNow® tables and enables the insertion of repeating content blocks \(for example, 10 blocks for 10 issues\) based on record count. When applied to specific records, the template generates a Microsoft Word document.
+Install the ServiceNow Document designer with Word \(sn\_grc\_doc\_design\) application. It extracts metadata from ServiceNow® tables, including fields, related lists, and reference fields with their associated elements. It enables the insertion of repeating content blocks based on record count \(for example, 10 blocks for 10 issues\). When applied to specific records, the template generates a Microsoft Word document.
 
 ## Before you begin
 

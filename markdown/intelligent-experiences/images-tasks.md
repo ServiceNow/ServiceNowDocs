@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/images-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2027-07-21"
 reading_time_minutes: 6
-breadcrumb: [Platform agentic workflows, Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Process images for new tasks agentic workflow
@@ -18,23 +18,23 @@ Use the Platform Process images for new tasks agentic workflow to convert images
 
 The process images for new tasks agentic workflow can help decrease manual data entry and improve task organization by automatically converting images into task records. First, the agentic workflow extracts information from the image, such as error messages, and presents the analysis to the user. Then, the user is presented with the details of the task, such as short description, category, and priority, before it is submitted so that they can make any changes. Once the information is confirmed, the agentic workflow creates an incident record and attaches the image.
 
-The agents, tools, and triggers that are associated with the process images for new tasks agentic workflow are provided by Now Assist applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) and set the display settings to include the Now Assist panel. If you want to change this agentic workflow's instructions, you must [duplicate it to create a custom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers that are associated with the process images for new tasks agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) and set the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it to create a custom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
 Users must have the **sn\_uxc\_gen\_ai.platform\_ai\_image\_processor** role to invoke the agentic workflow.
 
-If you want the ability for users to create tasks from images using Now Assist for Virtual Agent, you must activate the Image Processor Agent, Record management AI agent, and Document and visual insights AI agent and set the display to include Virtual Agent. This agentic workflow cannot be discovered in Virtual Agent, so you must enable the individual AI agents that comprise it.
+If you want the ability for users to create tasks from images using ServiceNow Otto for Virtual Agent, you must activate the Image Processor Agent, Record management AI agent, and Document and visual insights AI agent and set the display to include Virtual Agent. This agentic workflow cannot be discovered in Virtual Agent, so you must enable the individual AI agents that comprise it.
 
 ## Role masking
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_image\_processor.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to be able to make tasks on. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
@@ -100,7 +100,7 @@ If you don't see your UI actions after configuring it in AI Agent Studio, ensure
 
 ## Sample utterance
 
-After the workflow has been activated in AI Agent Studio, enter `Convert image to new task` or similar phrases in the Now Assist panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin and sn\_uxc\_gen\_ai.platform\_ai\_image\_processor roles.
+After the workflow has been activated in AI Agent Studio, enter `Convert image to new task` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin and sn\_uxc\_gen\_ai.platform\_ai\_image\_processor roles.
 
 ## AI agents used in the Process images for new tasks agentic workflow
 

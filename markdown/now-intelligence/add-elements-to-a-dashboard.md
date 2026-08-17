@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-elements-t
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -50,8 +50,8 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 -   **[Add Workbench widgets to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-workbench-dashboard.md)**  
 You can place Core UI workbench widgets on an inline dashboard. They are added in compatibility mode.
--   **[Add the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**  
-Use the Now Assist context menu to enable Now Assist skills to be displayed directly in the dashboard.
+-   **[Add the ServiceNow Otto context menu to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**  
+Use the ServiceNow Otto context menu to enable ServiceNow Otto skills to be displayed directly in the dashboard.
 
 **Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md)
 

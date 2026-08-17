@@ -58,7 +58,7 @@ Role required: sn\_reco\_template.recommendation\_config\_writer or sn\_reco\_te
 
     The Heading and Sub heading appear on the Relationships section in the Workspace view of a record.
 
-    For example, you can [fetch recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md) for remediation tasks for an issue by using the Now Assist for IRM application.
+    For example, you can [fetch recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md) for remediation tasks for an issue by using the ServiceNow Otto for IRM application.
 
 5.  On the form header, select **Save**.
 

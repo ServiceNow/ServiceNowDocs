@@ -26,17 +26,17 @@ When deploying, verify that all roles, ACLs, user identity configurations, Guard
 
 Set up the following monitoring capabilities on the day of go-live:
 
--   **Now Assist Analytics**
+-   **AI Analytics**
 
-    Monitor overall usage, performance, and adoption of your Now Assist skills and AI agents. See [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md).
+    Monitor overall usage, performance, and adoption of your Now Assist skills and AI agents. See [Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md).
 
 -   **AI Agent Analytics dashboard**
 
     Track AI agent use, efficiency gain, time to resolution, and task closure trends specific to your deployed agents. See [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-dashboard.md).
 
--   **Now Assist Guardian analytics**
+-   **AI Guardian analytics**
 
-    Monitor guardrail performance to track how often offensive content, prompt injection attempts, and sensitive subject detections occur in production. See [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+    Monitor guardrail performance to track how often offensive content, prompt injection attempts, and sensitive subject detections occur in production. See [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
 
 
 ## Establish your baseline
@@ -56,7 +56,7 @@ Schedule the following recurring activities to keep your agent performing secure
 
 -   **Regular Guardian log review**
 
-    Export and review Now Assist Guardian logs on a regular schedule to identify emerging patterns in detected content. See . Increasing detection rates may indicate that your agent is being targeted or that your prompts need refinement.
+    Export and review AI Guardian logs on a regular schedule to identify emerging patterns in detected content. See . Increasing detection rates may indicate that your agent is being targeted or that your prompts need refinement.
 
 -   **Access control audit**
 

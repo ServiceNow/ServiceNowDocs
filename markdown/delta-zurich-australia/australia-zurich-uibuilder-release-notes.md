@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-uibuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -342,7 +342,7 @@ Australia
 
 </td><td>
 
-The expanded drop-down menus for column properties can be ready by screen readers.
+The expanded drop-down menus for column properties are compatible with screen readers, making interface navigation easier for screen reader users.
 
 </td></tr></tbody>
 </table>## Localization information

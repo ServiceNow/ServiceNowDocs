@@ -1,5 +1,5 @@
 ---
-title: Report an operational vulnerability from the Scenario analysis
+title: Report an operational vulnerability from Scenario analysis
 description: Report an operational vulnerability from the Scenario analysis in the Operational Resilience Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-op-vul-from-sce-analysis.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Reporting Operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Report an operational vulnerability from the Scenario analysis
+# Report an operational vulnerability from Scenario analysis
 
 Report an operational vulnerability from the Scenario analysis in the Operational Resilience Workspace.
 
@@ -44,7 +44,7 @@ Role required: sn\_oper\_res.manager
 
 6.  Select **Save**.
 
-    The following example shows how the Scenario analysis record is displayed in the Operational vulnerabilities related list and the Operational vulnerability is associated with the Scenario analysis for critical services.
+    The following example shows how the Scenario analysis record is displayed in the Operational vulnerabilities related list. The Operational vulnerability is associated with the Scenario analysis for critical services.
 
     \[Omitted image "op-vul-rel-list-sce-analysis.png"\] Alt text: Scenario analysis record.
 

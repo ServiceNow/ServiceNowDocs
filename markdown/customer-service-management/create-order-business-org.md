@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Order Management for business location, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create an order for business organizations
@@ -52,15 +52,15 @@ When you start an order, a pop-up prompts you to enter details. The pop-up windo
 
 3.  On the Create a new order pop-up, create an order for either an account or consumer.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d273502e151">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d270363e163">
 
 To
 
-</th><th align="left" id="d273502e154">
+</th><th align="left" id="d270363e166">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d273502e160">
+</th></tr></thead><tbody><tr><td id="d270363e172">
 
 **Create an order for an account**
 
@@ -73,7 +73,7 @@ Description
     -   **Order action**: Select the type of order action.
 
 
-</td></tr><tr><td id="d273502e198">
+</td></tr><tr><td id="d270363e210">
 
 **Create an order for a consumer**
 

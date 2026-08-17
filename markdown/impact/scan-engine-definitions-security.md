@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-security.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 38
-breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine definitions, Impact reference, Impact]
 ---
 
 # Scan Engine definitions: Security
@@ -4724,4 +4724,5 @@ Search for business rule **Restrict guest user to knowledge base** with SysId **
 [Documentation](https://appomni.com/ao-labs/servicenow-knowledge-bases-data-exposures-uncovered/)
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md)
+

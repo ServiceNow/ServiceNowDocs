@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Playbook generation, Use generative AI, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Generate a playbook from text or image
@@ -21,13 +21,13 @@ Generate a playbook using AI by providing text directions or an image.
 
 ## Before you begin
 
-Verify that the Now Assist for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are active.
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are active.
 
 **Note:** Skills are available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
 
 \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
 
-For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 
 Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md).
 
@@ -41,9 +41,9 @@ Role required:
 
 2.  From the **New** drop-down menu, select **Playbook**.
 
-3.  On the **Build with Now Assist** tab, fill in the following fields.
+3.  On the **Create with AI** tab, fill in the following fields.
 
-    \[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
+    \[Omitted image "new-playbook-otto.png"\] Alt text: Build a new playbook using AI.
 
 <table id="id_pyq_lnx_rjc"><thead><tr><th>
 
@@ -89,7 +89,7 @@ Attach a high quality, clear image of the process. You can compliment the image 
 
 -   **Knowledge Article**
 
-Select a knowledge article based on which you want to generate a playbook. Additionally, you can add **Now Assist instructions** to compliment the knowledge base article.
+Select a knowledge article based on which you want to generate a playbook. Additionally, you can add instructions in the text box to compliment the knowledge base article.
 
 -   **Instructions only**
 
@@ -134,7 +134,7 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 </td></tr></tbody>
 </table>4.  Select **Generate playbook preview**.
 
-    Based on your instructions, Now Assist generates a preview of the playbook with all the elements and displays the preview in the diagramming view. Now Assist adds a placeholder activity wherever a relevant activity is not found.
+    Based on your instructions, AI generates a preview of the playbook with all the elements and displays the preview in the diagramming view. AI adds a placeholder activity wherever a relevant activity is not found.\[Omitted image "playbook-preview-otto.png"\] Alt text: Preview the generated playbook.
 
 5.  Review the generated playbook preview for accuracy.
 
@@ -148,7 +148,7 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 8.  If the playbook contains placeholder activities, configure the placeholder activities manually.
 
-    **Tip:** To generate recommendations for activity definitions from Now Assist instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md).
+    **Tip:** To generate recommendations for activity definitions from AI instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md).
 
     1.  Select a placeholder activity that you want to configure \( \[Omitted image "placeholder-activity-icon.png"\] Alt text: Placeholder activity icon.\).
 

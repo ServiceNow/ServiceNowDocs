@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Delete an agentic workflow
@@ -32,7 +32,7 @@ You must assign appropriate permissions by using the access control lists \(ACLs
 
     You can also delete multiple agentic workflows by selecting multiple agentic workflow records at a time.
 
-    **Note:** Some agentic workflows installed with Now Assist applications can't be deleted.
+    **Note:** Some agentic workflows installed with ServiceNow applications can't be deleted.
 
 3.  In the confirmation pop-up window, select **Delete**.
 

@@ -14,13 +14,13 @@ breadcrumb: [Explore, Manufacturing Commercial Operations]
 
 Quality issue management \(QIM\) application enables manufacturers to capture, track, and resolve non-conformance and quality investigations using structured, end-to-end workflows.
 
-Quality Issue Management \(QIM\) comprises two integrated applications that work together to support your quality management needs:
-
-## Manufacturing quality management
+Quality Issue Management \(QIM\) comprises two integrated applications that work together to support your quality management needs.
 
 Manufacturing quality management enables teams to track and resolve Non-Conformances \(NCs\) and Quality Issues \(QIs\) across products, assets, and operations. It does this by capturing problems, coordinating investigations, and fostering stakeholder collaboration.
 
-Product non-conformance
+\[Omitted image "mco-quality-management-wf.png"\] Alt text: Workflow for the Quality Management
+
+## Product non-conformance \(PNC\) management
 
 The Product non-conformance \(PNC\) workspace provides a streamlined way to capture and address deviations when they occur.
 
@@ -31,7 +31,7 @@ The PNC workspace supports:
 -   Containment actions: avoid further impact while corrective actions are in progress.
 -   Closure reporting: document resolution and formally close the issue.
 
-Product quality investigation
+## Product quality investigation \(PQI\) management
 
 Product quality investigation \(PQI\) provides an organized method to find, examine, and address problems with a product or service, including defects, non-conformances, or customer complaints. QIs require comprehensive investigation with multiple stakeholders.
 

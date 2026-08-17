@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
+breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Turn on the spoke generation skill
@@ -20,17 +20,19 @@ Turn on the flow generation skill to use generative AI to create a spoke.
 
 Role required: admin
 
-**Important:** The spoke generation skill requires a separate subscription to Now Assist for Creator.
+**Important:** The spoke generation skill requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Overview**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Overview**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **AI Skills** tab.
 
 3.  In the workflow list, select **Creator**.
 
-4.  In the **Spoke Generation** modal, click **Turn on**.\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in Now Assist Admin console.
+4.  In the **Spoke Generation** modal, click **Turn on**.
+
+    \[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
 
 
 ## Result

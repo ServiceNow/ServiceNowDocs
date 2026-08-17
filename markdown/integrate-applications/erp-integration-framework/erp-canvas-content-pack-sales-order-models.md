@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Quote to Cash content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Quote to Cash, Available content packs, Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Quote to Cash content pack models
@@ -297,5 +297,4 @@ ERP
 RFC/BAPI
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
-
+</table>

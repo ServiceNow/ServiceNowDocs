@@ -28,7 +28,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 1.  Create a resource plan using one of the following options.
 
-<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d55593e119">
+<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d55882e119">
 
 **From Resource tab in project workspace**
 
@@ -38,7 +38,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 2.  On the **Resources** tab, click **New**.
 
 
-</td></tr><tr><td id="d55593e153">
+</td></tr><tr><td id="d55882e153">
 
 **From a project form**
 
@@ -49,7 +49,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d55593e192">
+</td></tr><tr><td id="d55882e192">
 
 **From a demand form**
 
@@ -61,7 +61,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 4.  On the Resource Plans page, click **New**.
 
 
-</td></tr><tr><td id="d55593e237">
+</td></tr><tr><td id="d55882e237">
 
 **From a project task**
 
@@ -74,7 +74,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 5.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d55593e288">
+</td></tr><tr><td id="d55882e288">
 
 **From an existing resource plan**
 

@@ -193,9 +193,9 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
     -   Set max records on Look Up Records to 1000.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider concurrent imports.
+    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md).
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   QuickAPI executions are much faster, but there is less debugging capability.
+    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**
@@ -247,10 +247,20 @@ Open existing flows in a read-only state to protect them from accidental changes
 Communicate the current stage of a request, flow, or subflow with an end user.
 -   **[Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md)**  
 Enable flows to catch errors. Run a sequence of actions and subflows to identify and correct issues. For example, have flows log output values, send notifications, and run corrective subflows when they produce an error.
+-   **[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-analysis-landing.md)**  
+Analyze flow execution details to identify errors and suggest potential fixes.
+-   **[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-generation-landing.md)**  
+Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
+-   **[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-generation-with-images-landing.md)**  
+Create a flow or a subflow from an image by using ServiceNow Otto for Creator.
 -   **[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)**  
 View and manage the history of a flow. See past configurations of a flow to copy, restore, or remove them.
+-   **[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-recommendations-landing.md)**  
+Select the next component in your flow from a list of AI-generated recommendations.
 -   **[Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md)**  
 Create flows and subflows that run with specific roles. Assigning roles enables you to create user-initiated flows that run with their own roles rather than the user's roles.
+-   **[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-summarization-landing.md)**  
+Summarize what a flow or subflow does by using generative AI.
 -   **[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-template.md)**  
 Enable citizen developers to create their own flow templates. Flow Templates guide flow authors to create flows for common use cases. Use the flow template builder to define flows, actions, and flow template variables.
 -   **[Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md)**  
@@ -258,7 +268,7 @@ Enable users with coding experience to write inline scripts that set and modify 
 -   **[Save as you go flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/save-as-you-go-flows.md)**  
 Save flows, subflows, and actions automatically as you work on them.
 -   **[Summarize a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-flow.md)**  
-Generate a summary of a flow with Now Assist for Creator.
+Generate a summary of a flow or flow execution details with ServiceNow Otto for Creator.
 -   **[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-variables.md)**  
 Similar to Workflow scratchpad variables, create variables that you can use and modify directly in your flow. Access flow variables as data pills directly in the Data panel.
 

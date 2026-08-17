@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
+keywords: [APO, Accounts Payable Operations, invoice automation, Invoice form, invoice processing]
 breadcrumb: [Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -71,7 +71,7 @@ Other invoices of same PO
 
 </td><td>
 
-Other invoices associated with the same purchase order as that of the invoice that you are currently viewing.
+Other invoices associated with the same purchase order as that of the invoice that you're currently viewing.
 
 </td></tr><tr><td>
 

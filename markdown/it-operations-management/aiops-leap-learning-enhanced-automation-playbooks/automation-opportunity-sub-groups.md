@@ -7,10 +7,10 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [automation opportunities, LEAP, sub-groups]
-breadcrumb: [Automation opportunities, Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Automation opportunities overview, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Automation opportunity sub-groups
@@ -23,7 +23,7 @@ Breaking them into smaller sub-groups lets users obtain more refined resolutions
 
 ## Sub-grouping example
 
-A large automation opportunity containing 300 password reset incidents might include a mix of VPN password resets, Active Directory account lockouts, and SSO token expiry. While these are all password-related, each requires different resolution steps. LEAP displays suggestions for breaking the automation opportunity into three sub-groups so that each group receives targeted resolution steps — for example, one sub-group with VPN-specific steps, another with AD unlock procedures, and a third with SSO token refresh instructions.
+A large automation opportunity containing 300 password reset incidents might include a mix of VPN password resets, Active Directory account lockouts, and SSO token expiry. While these are all password-related, each requires different resolution steps. LEAP displays suggestions for breaking the automation opportunity into three sub-groups. Each group receives targeted resolution steps — for example, one sub-group with VPN-specific steps, another with AD unlock procedures, and a third with SSO token refresh instructions.
 
 ## Automatic reorganization
 

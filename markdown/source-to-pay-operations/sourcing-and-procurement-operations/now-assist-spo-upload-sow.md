@@ -1,75 +1,74 @@
 ---
-title: Upload a Statement of Work \(SOW\) to request a purchase
-description: Use Now Assist’s AI-powered chat interface to upload a Statement of Work \(SOW\) and submit your purchase request through Employee Center.
+title: Submit a purchase request by uploading a SOW
+description: Upload a statement of work \(SOW\) through the ServiceNow Otto chat interface in Employee Center to submit a purchase request for review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-upload-sow.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-breadcrumb: [Submit a purchase request, Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+keywords: [SOW, statement of work, purchase request, Now Assist, procurement]
+breadcrumb: [Submit a purchase request, Use agentic workflows in ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Upload a Statement of Work \(SOW\) to request a purchase
+# Submit a purchase request by uploading a SOW
 
-Use Now Assist’s AI-powered chat interface to upload a Statement of Work \(SOW\) and submit your purchase request through Employee Center.
+Upload a statement of work \(SOW\) through the ServiceNow Otto chat interface in Employee Center to submit a purchase request for review.
 
 ## Before you begin
 
 Role required: sn\_spend\_gen\_ai.now\_assist\_requester
 
+## About this task
+
+ServiceNow Otto uses AI to analyze your SOW and recommend a procurement request path. AI-generated results may not always be accurate. Review all extracted information before submitting your request.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center** in your ServiceNow instance.
+1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  Select the Now Assist chat icon \(\[Omitted image "agentic-ai-now-assist-icon.png"\] Alt text: Now Assist icon.\) in the Employee Center interface.
+2.  Select the ServiceNow Otto chat icon \(\[Omitted image "agentic-ai-now-assist-icon.png"\] Alt text:\) in the Employee Center interface.
 
-3.  Provide details about the product that you want to purchase in the chat interface.
+3.  Enter details about the product you want to purchase in the chat interface.
 
-4.  When prompted, enter **Yes** to proceed with uploading a Statement of Work \(SOW\).
+4.  When prompted, enter `Yes` to proceed with uploading a SOW.
 
-    \[Omitted image "na-spo-sow-yes.png"\] Alt text: Now Assist chat checking for SOW.
+5.  Select **Click here to upload a file**.
 
-5.  Select **Click here to upload a file** and select a Statement of Work \(SOW\) from your device.
+    **Note:** The file must be in PDF, PNG, or JPEG format and must not exceed 1 MB.
 
-    **Note:** Verify that the file is in PDF, PNG, or JPEG format and doesn’t exceed 1 MB.
+6.  Select a SOW from your device.
 
-    \[Omitted image "na-spo-sow-upload.png"\] Alt text: Select a file to upload a SOW.
+    ServiceNow Otto processes your document using the Procurement request path recommendation.
 
-    Now Assist analyzes your document using the Procurement request path recommendation.
+7.  Enter additional details in the chat, such as the reason for purchase, expected delivery date, and service period.
 
-6.  Enter additional details requested, such as the reason for purchase, expected delivery date, and service period.
-
-    \[Omitted image "na-spo-sow-additional-details.png"\] Alt text: Provide additional details.
-
-7.  Select **Show** to view the request.
-
-    \[Omitted image "na-spo-swo-engagement-layer.png"\] Alt text: Engagement layer showing the additional details.
+8.  Select **Show** to review the request details.
 
     The additional details are displayed in the engagement layer.
 
-8.  Select **Make changes** to edit the request.
+9.  Edit the request details before submitting.
 
-    1.  Select the document link.
+    1.  Select **Make changes**.
 
-        The Statement of Work \(SOW\) document opens in a new tab \(DocIntel\).
+    2.  Select the document link.
 
-    2.  Select **Edit Answers** to make changes.
+        The SOW document opens in a new tab.
 
-    3.  Select **Submit** &gt; **Confirm and submit** to save your changes.
+    3.  Select **Edit Answers**.
 
-    4.  Return to the Employee Center and select **Yes** to proceed.
+    4.  Select **Submit**.
 
-    Your purchase requisition has been created and submitted for approval.
+    5.  Select **Confirm and submit** to save your changes.
 
-9.  Select **Submit** to submit the request.
+    6.  Return to Employee Center and enter `Yes` to proceed.
+
+10. Select **Submit** to submit the request.
+
+    Your purchase requisition is created and submitted for approval.
 
 
-## Result
-
-Your purchase requisition has been created and submitted for approval.
-
-**Parent Topic:**[Submit a purchase request using the Now Assist AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.md)
+**Parent Topic:**[Submit a purchase request using the ServiceNow Otto AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.md)
 

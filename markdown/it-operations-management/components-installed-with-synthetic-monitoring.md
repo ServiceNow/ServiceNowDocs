@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Components installed with synthetic monitoring
@@ -121,7 +121,7 @@ Configuration information for synthetic checks.
 
 Check Execution Location
 
- \[sn\_\_sow\_synthetics\_check\_execution\_location\]
+ \[sn\_sow\_synthetics\_check\_execution\_location\]
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-a-new-form-action.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,6 +17,10 @@ Create a form action button for a Configurable Workspace.
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+\[Omitted video\] Description: Procedural video for creating a form action button
 
 ## Procedure
 

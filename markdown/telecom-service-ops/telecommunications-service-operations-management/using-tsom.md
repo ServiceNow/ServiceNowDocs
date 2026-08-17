@@ -23,7 +23,7 @@ Once TSOM is configured, you can use its capabilities to:
 -   Run Telecom Discrepancy audits: Identify inconsistencies in network relationships and configurations by running certification audits based on discovered data and reconciliation rules.
 -   Validate attribute value mismatches in CMDB 360: Use the Attribute Value Discrepancy feature in CMDB 360 to compare attribute values across different discovery sources and detect conflicts or outdated records.
 -   Use Telecom Discovery Patterns: Apply Telecom Discovery Patterns to accurately discover and populate telecom-specific Configuration Items \(CIs\) and their relationships.
--   Run and verify import jobs from service graph connectors: Manually trigger import schedules \(e.g., for the Nokia Altiplano connector\) to verify that topology and device data is successfully imported into the CMDB and mapped to the correct CI classes.
+-   Run and verify import jobs from service graph connectors: Manually trigger import schedules \(e.g., for the Nokia Altiplano connector\). Verify that topology and device data is successfully imported into the CMDB and mapped to the correct CI classes.
 
 These tasks help verify that your telecom network is continuously synchronized, accurate, and operationally visible within ServiceNow.
 

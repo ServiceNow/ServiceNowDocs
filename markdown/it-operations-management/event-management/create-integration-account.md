@@ -9,8 +9,8 @@ classification: event-management
 topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
-keywords: [integration account, Event Management, evt\_mgmt\_integration, third-party monitoring, ITOM, AIOps, user account, authentication]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+keywords: [EM integration account]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create integration account
@@ -19,7 +19,7 @@ Create a dedicated account with the evt\_mgmt\_integration role for third-party 
 
 ## Before you begin
 
-Verify that the ITOM AIOps and Now Assist for IT Operations Management plugins are installed.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you're in the Configure IT Operations Management page.
 

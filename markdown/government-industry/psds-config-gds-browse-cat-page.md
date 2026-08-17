@@ -18,7 +18,7 @@ By default, users requesting services through the GDS Service Portal will be sho
 
 \[Omitted image "psds\_uk\_gds\_services.png"\] Alt text: GDS Portal service catalog Landing page.
 
-This default page houses several GDS-adherant widgets and page components that enable them to browse and view all the services that are available for them to request. By default, the Services page contains the following widgets that can be customized or removed:
+This default page houses several GDS-adherent widgets and page components that enable them to browse and view all the services that are available for them to request. By default, the Services page contains the following widgets that can be customized or removed:
 
 -   Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 

@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Use HR Case Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -38,15 +38,15 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Determine the person for whom you are filing the case.
 
-<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d466248e101">
+<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d466404e101">
 
 Status of the person related to the case
 
-</th><th align="left" id="d466248e104">
+</th><th align="left" id="d466404e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d466248e110">
+</th></tr></thead><tbody><tr><td id="d466404e110">
 
 **Anonymous employee or external individual**
 
@@ -58,7 +58,7 @@ Select **Skip verification** to create the case without having to enter an emplo
 
  **Note:** The **Skip verification** option is displayed only if **Allow skipping verification** was selected during the configuration of HR case creation.
 
-</td></tr><tr><td id="d466248e143">
+</td></tr><tr><td id="d466404e143">
 
 **An employee**
 
@@ -148,10 +148,6 @@ The **HR case** form appears with additional information about the case. The val
 Journey Accelerator action plans can be created by opening an HR case with a related lifecycle event.
 -   **[Request a background check through a third-party background check provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-background-check-by-background-check-system.md)**  
 Request a background check for an employee through a third-party background check provider such as First Advantage, Accurate, or Sterling.
--   **[Request an electronic signature through the Docusign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-e-signature-through-docusign-service.md)**  
-Request an electronic signature through the DocuSign service. When the case state changes to **Ready**, the flow triggers and creates DocuSign tasks for all of the signers. For parallel signing, the tasks are assigned all at once. For serial signing, the tasks are created in the order defined.
--   **[Request an electronic signature through the Adobe Acrobat Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-e-signature-through-adobe-sign-service.md)**  
-Request an electronic signature through the Adobe Sign service. When the case state changes to **Ready**, the flow triggers and creates Adobe Sign tasks for all of the signers. For parallel signing, the tasks are assigned all at once. For serial signing, the tasks are created in the order defined.
 
 **Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

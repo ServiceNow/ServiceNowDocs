@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View the impact tree
@@ -51,7 +51,7 @@ You can also learn about the impact tree from the following video tutorial.
     -   **OK \(green\)**: An alert is created. The resource is still functional.
 6.  Do one or more of the following.
 
-<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d312416e208">
+<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d312927e208">
 
 **Adjust impact rules**
 
@@ -61,7 +61,7 @@ You can also learn about the impact tree from the following video tutorial.
 2.  Review and adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d312416e229">
+</td></tr><tr><td id="d312927e229">
 
 **Remediate an alert**
 
@@ -74,6 +74,6 @@ You can also learn about the impact tree from the following video tutorial.
 </td></tr></tbody>
 </table>    Network paths appearing in the impact tree can use a large amount of resources, which degrades system performance. To disable network paths from appearing in the impact tree, navigate to **System Properties** &gt; **All Properties** and set the **evt\_mgmt.network\_path\_excluded** property to **true**.
 
-    To view impact tree using Service Operations Workspace, see [View impact tree using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/view-impact-tree.md).
+    To view impact tree using Service Operations Workspace, see [View impact tree using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-impact-tree.md).
 
 

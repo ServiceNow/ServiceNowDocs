@@ -1,31 +1,31 @@
 ---
-title: Analyzing Now Assist usage
-description: Use the Now Assist analytics and monitoring tools in the Overview page to review the summaries, skill usage information, and issues that need your attention.
+title: Analyzing generative AI usage
+description: Use the analytics and monitoring tools in the AI Admin Hub overview page to review the summaries, skill usage information, and issues that need your attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-and-monitoring.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Analyzing, Now Assist, performance, Overview page, summary section, skills performance]
-breadcrumb: [Using Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Analyzing Now Assist usage
+# Analyzing generative AI usage
 
-Use the Now Assist analytics and monitoring tools in the Overview page to review the summaries, skill usage information, and issues that need your attention.
+Use the analytics and monitoring tools in the AI Admin Hub overview page to review the summaries, skill usage information, and issues that need your attention.
 
-## Now Assist Admin Overview page
+## AI Admin Hub overview page
 
-After you activate and begin using the skills, you can measure their usage over time with graphs that display important metrics. The Overview page contains the information about skill performance, including the task completion over time, and a summary of which skills are active or available.
+After you activate and begin using the skills, you can measure their usage over time with graphs that display important metrics. The console overview page contains the information about skill performance, including the task completion over time, and a summary of which skills are active or available.
 
-The following example shows the Now Assist Admin Overview page.
+The following example shows the AI Admin Hub overview page.
 
-\[Omitted image "now-assist-home.png"\] Alt text: Now Assist Admin Overview page with plugins, skills installed, and the Now Assist journey checklist.
+\[Omitted image "now-assist-home.png"\] Alt text: AI Admin Hub Overview page with plugins, skills installed, and the Now Assist journey checklist.
 
-## Now Assist Summary section
+## Summary section
 
-The Now Assist Summary section displays information about the status of your skills and plugins in a graphical format.
+The summary section displays information about the status of your skills and plugins in a graphical format.
 
 -   **Plugin status**
 
@@ -36,7 +36,7 @@ The Now Assist Summary section displays information about the status of your ski
     Displays a donut chart that shows your skills according to the state of their configuration: active, inactive, draft, or not configured.
 
 
-The following diagram shows the plugin status that displays as a pie chart, and the Skills status that displays as a donut chart.
+The following diagram shows the plugin status that displays as a pie chart, and the skills status that displays as a donut chart.
 
 \[Omitted image "now-assist-summary.png"\] Alt text: Plugin status that displays as a pie chart, and the Skills status that displays as a donut chart.
 
@@ -63,13 +63,13 @@ For more detailed information about performance, see [Now Assist Analytics](http
 
 \[Omitted image "now-assist-skills-performance.png"\] Alt text: Section that displays the number of actions, average unique users per day, and the number of actions over time. Use the controls to specify skills or change the date range.
 
-## Now Assist journey checklist
+## AI Admin Hub journey checklist
 
-The Now Assist journey checklist provides you with a guide of the Now Assist workflow. If you are confused as to what your next step should be when implementing Now Assist on your instance, access the checklist at any time by selecting **View checklist**.
+The journey checklist provides you with a guide of the AI Admin Hub workflow. If you're confused as to what your next step should be when implementing Now Assist on your instance, access the checklist at any time by selecting **View checklist**.
 
 \[Omitted image "now-assist-journey-checklist-card.png"\] Alt text: Now Assist journey checklist card that displays option to open up the journey checklist modal
 
-## Additional resources on the Overview page
+## Additional resources on the overview page
 
 The Helpful resources and FAQs sections provide links to documentation and answer common questions.
 
@@ -77,5 +77,5 @@ The Needs Attention section displays a count of items that need your attention. 
 
 \[Omitted image "needs-attention-card.png"\] Alt text: Needs Attention card that displays the number of plugins that aren't installed and the number of inactive skills.
 
-**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
 

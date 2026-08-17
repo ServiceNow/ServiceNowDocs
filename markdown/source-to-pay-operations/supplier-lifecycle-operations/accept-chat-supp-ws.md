@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+keywords: [Active Chat panel, chat queue, interaction record, Supplier Information, Create Supplier Case]
 breadcrumb: [Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

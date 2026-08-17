@@ -1,6 +1,6 @@
 ---
-title: Activate a Now Assist for Health and Safety skill
-description: Activate a Now Assist for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
+title: Activate a ServiceNow Otto for Health and Safety skill
+description: Activate a ServiceNow Otto for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.html
 release: australia
@@ -9,26 +9,26 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Activate a Now Assist for Health and Safety skill
+# Activate a ServiceNow Otto for Health and Safety skill
 
-Activate a Now Assist for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
+Activate a ServiceNow Otto for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 
 ## Before you begin
 
-[Install Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
+[Install ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
 
 Role required: admin
 
 ## About this task
 
-The following table lists the skill that you can access from the Now Assist Admin console.
+The following table lists the skill that you can access from the AI Admin Hub console.
 
 |Health and Safety feature|Skill|
 |-------------------------|-----|
-|Now Assist skills for Health and Safety|Health and Safety incident summarization|
+|AI skills for Health and Safety|Health and Safety incident summarization|
 
 The Health and Safety incident summarization skill is available in the base system with the required configurations.
 
@@ -38,7 +38,7 @@ Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  From the workflow list, select **Employee** and then select **Health and Safety**.
 
@@ -48,7 +48,7 @@ Now LLM Service is currently the only provider for this application's skills.
 
 5.  In the Choose Input section, review inputs for the selected skill.
 
-    For information about the inputs for the skill, see [Skill inputs for Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
+    For information about the inputs for the skill, see [Skill inputs for ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
 
 6.  Select **Save and continue** to go to the next step.
 
@@ -58,9 +58,9 @@ Now LLM Service is currently the only provider for this application's skills.
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Otto panel**: When selected, AI skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-        For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+        For the skills that appear in the panel, select the down arrow to identify the roles that can use the skill.
 
 8.  Select **Save and continue**.
 
@@ -73,5 +73,5 @@ Now LLM Service is currently the only provider for this application's skills.
     \[Omitted image "na-hs-active-skill.png"\] Alt text: Active skills section displaying the active status for the Health and Safety incident summarization skill.
 
 
-**Parent Topic:**[Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

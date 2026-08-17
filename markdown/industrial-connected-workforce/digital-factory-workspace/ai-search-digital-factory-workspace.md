@@ -49,7 +49,7 @@ For knowledge articles, two additional options are available:
 
 Synonym matching is predefined. You can also configure custom keywords, synonyms, and related words for better accuracy.
 
-For more information about the AI Search capability, see . The following image shows an example of AI Search results for a query run in the Digital Factory Workspace.
+For more information about the AI Search capability, see [Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-ais.md). The following image shows an example of AI Search results for a query run in the Digital Factory Workspace.
 
 **Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

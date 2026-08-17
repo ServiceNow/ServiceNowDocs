@@ -1,6 +1,6 @@
 ---
-title: Create New Business Service form
-description: Use the Create New Business Service form in Operational Resilience Workspace to set up a business service and configure its related lists.
+title: Create Business Service form
+description: Use the Create Business Service form in Operational Resilience Workspace to set up a business service and configure its related lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-business-service-form.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 4
 breadcrumb: [Add a business service to Operational Resilience reporting, Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Business Service form
+# Create Business Service form
 
-Use the Create New Business Service form in Operational Resilience Workspace to set up a business service and configure its related lists.
+Use the Create Business Service form in Operational Resilience Workspace to set up a business service and configure its related lists.
 
-## Create New Business Service form
+## Create Business Service form
 
 For a description of the field values, see the following table.
 

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Synonyms
@@ -140,7 +140,7 @@ Interaction with synonyms
 
 </td><td>
 
-Synonym expansion terms can't trigger Genius Result configurations with Term trigger conditions. When computing Q&amp;A Genius Results for a search query, AI Search expands synonyms in the query.
+Synonym expansion terms can't trigger Genius Result configurations with Term trigger conditions. When computing Knowledge base articles Genius Results for a search query, AI Search expands synonyms in the query.
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ If a search query term is defined as a synonym, AI Search doesn't normalize it.
 
 </td><td>
 
-By default, a synonym expansion term can activate a result improvement rule if it matches the rule's Query trigger. You can prevent synonym expansion terms from activating a rule with a Query trigger by clearing the **Expand Synonyms For Query Conditions** option that appears when you define the Query trigger.**Note:** Starting in the Xanadu release, AI Search uses synonyms to expand user context field values when applying boost actions from result improvement rules. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on boost actions, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/boost-results-ais.md).
+By default, a synonym expansion term can activate a result improvement rule if it matches the rule's Query trigger. You can prevent synonym expansion terms from activating a rule with a Query trigger by clearing the **Expand Synonyms For Query Conditions** option that appears when you define the Query trigger.**Note:** Starting with the Xanadu release, AI Search uses synonyms to expand user context field values when applying boost actions from result improvement rules. As an example, if the user context location is `Paris` and you define a synonym that defines `Paris` and `France` as equivalent, your result improvement rule boosts documents containing `France` as well as those containing `Paris`. For more details on boost actions, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/boost-results-ais.md).
 
 </td></tr><tr><td>
 

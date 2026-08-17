@@ -18,7 +18,7 @@ ServiceNow® Digital End-User Experience \(DEX\) offers comprehensive monitoring
 
 ## DEX Overview
 
-ServiceNow DEX empowers you as IT professionals with proactive oversight of end-user applications, devices, and networks. The DEX capabilities enable your organization to improve the technology experience for its employees, make it simple for them to self-solve issues and engage with a knowledgeable IT team when extra support is needed.
+ServiceNow DEX gives IT professionals proactive oversight of end-user applications, devices, and networks. The DEX capabilities help your organization improve the technology experience for employees, support self-service issue resolution, and connect employees with IT when additional support is required.
 
 \[Omitted video\] Description: DEX Overview
 
@@ -56,7 +56,7 @@ Proactive Engagement can assist your organization to improve employee productivi
 
 </td></tr><tr><td>
 
-[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the DEX agentic workflow to diagnose and resolve device issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-agentic-workflows.md)
+[Use DEX AI capabilities\[Omitted image "bus-ai-otto.svg"\] Alt text:Use DEX AI capabilities to diagnose and resolve device and application issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-agentic-workflows.md)
 
 </td><td>
 

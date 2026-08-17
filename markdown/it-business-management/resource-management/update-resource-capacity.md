@@ -31,9 +31,9 @@ The scheduled job that is used for this action is Update resource capacity.
 
 Capacity is generated for only the date range between employment start date and employment end date specified in the employee profile in the HR application. This information is available when the Employee Profile plugin is installed. If the start and end date are unavailable for an employee, manually specify these dates.
 
-Also, if an employee is available after the year has begun, then the capacity is generated from the current year's beginning, to ensure that missing capacity is accounted for. For example, if the employee's capacity is available from March 1, 2022 to June 1, 2022, then the updated capacity is generated from January 1, 2022 to June 1, 2022.
+Also, if an employee is available after the year has begun, then the capacity is generated from the current year's beginning. This ensures that missing capacity is accounted for. For example, if the employee's capacity is available from March 1, 2022 to June 1, 2022. Then, the updated capacity is generated from January 1, 2022 to June 1, 2022.
 
-Capacity and availability for terminated resources is automatically updated to 0 when you run the Resource Termination Handler job when the termination date is after the date on which the job is run. If resources are booked for a time period beyond the user's termination dates, those bookings are also updated to 0 in the resource plan.
+Capacity and availability for terminated resources is automatically updated to 0 when you run the Resource Termination Handler job. This update occurs when the termination date is after the date on which the job is run. If resources are booked for a time period beyond the user's termination dates, those bookings are also updated to 0 in the resource plan.
 
 Use the **Update resource capacity** related link in the following scenarios:
 

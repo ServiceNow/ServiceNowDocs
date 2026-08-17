@@ -58,6 +58,10 @@ As an employee, you will receive push notification for the following scenarios:
 
     Push notification is received that the reservation is about to start.
 
+-   **Reservation is cancelled**
+
+    Push notification is received that the reservation is cancelled.
+
 -   **Reservation cancelled due to check in delay**
 
     Push notification is received that the reservation is cancelled as it was not checked in on time.

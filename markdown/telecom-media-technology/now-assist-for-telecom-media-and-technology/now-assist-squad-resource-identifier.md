@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Squad resource identifier agentic workflow
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Squad resource identifier agentic workflow
 description: Use a squad resource identifier agentic workflow to identify and recommend internal experts based on record under consideration, skill set, region, and real-time availability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-squad-resource-identifier.html
@@ -9,16 +9,16 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Customer Success Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Customer Success Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Squad resource identifier agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Squad resource identifier agentic workflow
 
 Use a squad resource identifier agentic workflow to identify and recommend internal experts based on record under consideration, skill set, region, and real-time availability.
 
 ## Squad resource identifier agentic workflow overview
 
-The agentic workflow assists the customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations, ensuring faster and more effective collaboration across engagements.
+The agentic workflow assists customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations. This ensures faster and more effective collaboration across engagements.
 
 The Squad resource identifier agentic workflow supports these tables:
 

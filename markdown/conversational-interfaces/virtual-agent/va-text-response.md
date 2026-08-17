@@ -132,7 +132,7 @@ A no-code condition statement or low-code script that specifies a condition for 
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Supported|None|
+|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
 |Workplace|Supported|None|

@@ -1,0 +1,77 @@
+---
+title: Metrics View Configuration form fields
+description: Define how metrics are displayed within Service Operations Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metrics-view-config-fields.html
+release: australia
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
+---
+
+# Metrics View Configuration form fields
+
+Define how metrics are displayed within Service Operations Workspace.
+
+<table id="table_cg5_mtq_clb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Title
+
+</td><td>
+
+Name of the metric.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option to activate the metric.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Numerical value indicating the order of the metric on the page.
+
+</td></tr><tr><td>
+
+Configuration Item Type
+
+</td><td>
+
+Configuration item type. Available options are:-   cmdb\_ci\_app\_server\_tomcat
+-   cmdb\_ci\_metric\_extension
+-   cmdb\_ci\_app\_win\_server
+
+</td></tr><tr><td>
+
+Source Metrics Types
+
+</td><td>
+
+Metric types you want the metric to monitor.Select the Lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) to unlock the list of source metric types and select metric types to be monitored.
+
+</td></tr><tr><td>
+
+Chart Type
+
+</td><td>
+
+Type of chart in which the metric is presented in Service Operations Workspace, either **Line** or **Stacked Bar**.
+
+</td></tr></tbody>
+</table>To return to the procedure, see [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-alert-metrics-itom.md).
+

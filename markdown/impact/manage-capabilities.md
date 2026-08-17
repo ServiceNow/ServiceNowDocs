@@ -81,7 +81,7 @@ Role required: Platform Owner, Impact Admin
 
 ## What to do next
 
-This feature is in the Impact Delivery Instance Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 

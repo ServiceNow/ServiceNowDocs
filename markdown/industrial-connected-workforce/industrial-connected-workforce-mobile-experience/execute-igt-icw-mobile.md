@@ -7,8 +7,8 @@ release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-07-08"
+reading_time_minutes: 2
 breadcrumb: [Use, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
 
@@ -56,6 +56,8 @@ Role required: sn\_icw\_igt.user
 ## Result
 
 The task is completed successfully, and its status is changed to Closed Complete.
+
+If scoring is enabled on the standard, the score status and total score are then available in the task header and details. For more information, see [Industrial Guided Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-guided-task-form-mobile.md).
 
 **Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

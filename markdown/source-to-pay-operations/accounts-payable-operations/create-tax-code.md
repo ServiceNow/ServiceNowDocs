@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice management, tax, tax code]
-breadcrumb: [Tax calculations, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Tax calculations, Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create tax codes to be added in an invoice
@@ -31,8 +31,8 @@ Role required: Tax manager
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
+    |Tax code field|Description|
+    |--------------|-----------|
     |Invoice Case|
     |Tax code ID|Unique tax code generated from the ERP source.|
     |Name|Name of the tax code.|

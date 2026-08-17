@@ -1,6 +1,6 @@
 ---
 title: Distribution set in Accounts Payable Operations
-description: Distribution sets in Accounts Payable Operations use predefined rules and templates to automate cost allocation for invoice lines across cost centers and GL accounts.
+description: Distribution sets in Accounts Payable Operations automate cost allocation for invoice lines using predefined rules and templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/distribution-sets-in-apo.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, invoice management, distribution set, invoice automation]
-breadcrumb: [Invoice cost allocation, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Invoice cost allocation, Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Distribution set in Accounts Payable Operations
 
-Distribution sets in Accounts Payable Operations use predefined rules and templates to automate cost allocation for invoice lines across cost centers and GL accounts.
+Distribution sets in Accounts Payable Operations automate cost allocation for invoice lines using predefined rules and templates.
 
 By applying a distribution set, Accounts Payable teams can efficiently generate cost allocation records automatically, eliminating the need for manual cost splitting for each invoice line.
 
@@ -24,7 +24,7 @@ The key features of the distribution set are:
 -   AP Admin can define distribution sets and add distribution lines with varying percentages across cost centers or general ledger accounts.
 -   Distribution sets can be end-dated by specifying an effective-to-date. After expiration, they’ll no longer be automatically applied to invoice lines according to the invoice date.
 -   A distribution set can be marked as a template to automate creation of cost allocation records without amounts.
--   The template feature in the distribution set automatically generates cost allocation records for invoice lines, and also enables AP specialists to divide costs by allocation type, such as cost center or general ledger account. Any over or under allocation will be flagged during the exception stage.
+-   The template feature in the distribution set automatically generates cost allocation records for invoice lines. AP specialists can divide costs by allocation type, such as cost center or general ledger account. Over or under allocation is flagged during the exception stage.
 -   For non-template-based distribution sets, the AP administrator must input allocation percentage so that the total sums to 100% and the distribution set becomes auto-active. If the total doesn't sum to 100%, then the distribution set remains inactive.
 -   An AP administrator is able to establish filters or rules that automatically assign distribution sets throughout the invoice processing workflow, thereby eliminating the requirement for manual selection.
 -   AP specialist can manually select a distribution set during the processing of an invoice.

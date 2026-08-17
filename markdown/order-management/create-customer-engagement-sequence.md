@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a customer engagement sequence

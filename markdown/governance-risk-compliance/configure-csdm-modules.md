@@ -52,13 +52,13 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     A sample **Details** tab is shown in the following example.
 
-    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create New Service form.
+    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create Service form.
 
 4.  To save details of the service, select **Save**.
 
     \[Omitted image "saved-service-form.png"\] Alt text: Sample form for a service.
 
-    In releases prior to 20.x.x, a single level of hierarchy was supported, such as from a parent service to the child service, from the child service to the process, and from the process to a dependency. This hierarchy is supported for services for existing customers and it is displayed in the Services form, as shown in the example.
+    In releases prior to 20.x.x, a single level of hierarchy was supported. For example, from a parent service to the child service, from the child service to the process, and from the process to a dependency. This hierarchy is supported for services for existing customers. It is displayed in the Services form, as shown in the example.
 
 5.  To add the selected service to Operational Resilience reporting, select **Add to OpRes reporting**.
 

@@ -24,15 +24,15 @@ Role required: sn\_hr\_core.admin
 
 1.  Choose one of the following.
 
-<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d801770e51">
+<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d802265e51">
 
 Option
 
-</th><th align="left" id="d801770e54">
+</th><th align="left" id="d802265e54">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d801770e60">
+</th></tr></thead><tbody><tr><td id="d802265e60">
 
 **HR service activity**
 
@@ -49,7 +49,7 @@ Description
 3.  In the **Child task template** field, click the Lookup icon.
 
 
-</td></tr><tr><td id="d801770e115">
+</td></tr><tr><td id="d802265e115">
 
 **\( Enterprise Onboarding and Transitions only\) Lifecycle event activity**
 
@@ -225,7 +225,7 @@ Requests the subject person to edit or sign a document. An example is sending an
 
 To add text that explains what their signature means, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.
 
-Acknowledgment text entered on the HR document template overrides text written here. See  or .
+Acknowledgment text entered on the HR document template overrides text written here.
 
 **Note:**
 

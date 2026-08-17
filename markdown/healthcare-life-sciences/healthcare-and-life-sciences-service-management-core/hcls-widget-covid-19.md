@@ -16,8 +16,6 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The COVID-19 widget displays the status for the COVID-19 vaccination doses that logged-in user has either taken or self-reported and any COVID test results.
 
-\[Omitted image "hcls-widget-covid-status.png"\] Alt text: Screenshot displaying the COVID-19 status widget.
-
 ## Key features
 
 -   Appears only for a logged-in user with the personal information completed and when the Vaccine Administration Management application is installed.

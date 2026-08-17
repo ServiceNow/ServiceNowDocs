@@ -1,6 +1,6 @@
 ---
 title: Create automated KPI templates
-description: Automated KPI templates can be used to create KPIs that eliminate the dependency on manual input from users. When creating a template for automated KPIs, you can configure the data source and the calculation method.
+description: Create automated KPI templates to eliminate manual data input by configuring data sources and calculation methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-auto-kpi-template.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [Supplier Lifecycle Operations, SLO, Source-to-Pay Workspace, automated KPI templates, Quantitative, Performance domain, Collection frequency, Data collection type]
 breadcrumb: [KPI templates, Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create automated KPI templates
 
-Automated KPI templates can be used to create KPIs that eliminate the dependency on manual input from users. When creating a template for automated KPIs, you can configure the data source and the calculation method.
+Create automated KPI templates to eliminate manual data input by configuring data sources and calculation methods.
 
 ## Before you begin
 

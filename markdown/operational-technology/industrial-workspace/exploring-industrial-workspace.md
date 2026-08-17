@@ -7,7 +7,7 @@ release: australia
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -85,7 +85,7 @@ Equipment Model Manager
 
 </td><td>
 
-When you select the **Equipment Model** \(\[Omitted image "equip-model-manager-button.png"\] Alt text:\) icon, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
+When you select the **Equipment Model** icon, \[Omitted image "equip-model-manager-button.png"\] Alt text:, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
 
 </td></tr></tbody>
 </table>-   **[Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.md)**  

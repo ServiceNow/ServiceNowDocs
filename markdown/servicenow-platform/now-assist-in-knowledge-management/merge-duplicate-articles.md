@@ -9,7 +9,7 @@ classification: now-assist-in-knowledge-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Merge duplicate articles
@@ -20,7 +20,7 @@ Merge multiple duplicate knowledge articles into a single, consolidated article 
 
 Role required: admin
 
-Ensure to configure and activate Identify duplicate articles and Merge duplicate articles skills. For more, see [Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md) and [Configure and activate the Now Assist Identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
+Ensure to configure and activate Identify duplicate articles and Merge duplicate articles skills. For more, see [Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md) and [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ Ensure to configure and activate Identify duplicate articles and Merge duplicate
 
 A new article is created from the merged set of articles.
 
-**Parent Topic:**[Using Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

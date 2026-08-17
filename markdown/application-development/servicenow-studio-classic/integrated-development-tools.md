@@ -24,8 +24,9 @@ Use the following development tools to build apps, flows, processes, tables, and
 
 |Builder|Description|
 |-------|-----------|
-|[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
-|[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
+|[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
+|[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)|Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow® applications. You can also ask Build Agent general ServiceNow development questions.|
 
 ## Automation
 

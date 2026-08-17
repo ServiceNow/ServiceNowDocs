@@ -1,6 +1,6 @@
 ---
-title: Manage use cases for Now Assist in Contract Management
-description: Manage use cases for Now Assist in Contract Management by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
+title: Manage use cases for ServiceNow Otto for Contract Management Pro
+description: Manage use cases for ServiceNow Otto for Contract Management Pro by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-manage-use-cases.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Update use cases, Modify use cases, Edit use cases, Delete use cases, Deactivate use case, Copy use case]
-breadcrumb: [Manage skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manage skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Manage use cases for Now Assist in Contract Management
+# Manage use cases for ServiceNow Otto for Contract Management Pro
 
-Manage use cases for Now Assist in Contract Management by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
+Manage use cases for ServiceNow Otto for Contract Management Pro by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
+3.  On the tile of your activated skill, select **Edit Configuration** to modify it.
 
     \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract management pro.
 
@@ -62,20 +62,20 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Result
 
-Now Assist applies the updated use case for contract analysis or metadata extraction.
+AI applies the updated use case for contract analysis or metadata extraction.
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Managing skills for ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
 
 **Related topics**  
 
 
-[Manage use case mappings for Now Assist in Contract Management]()
+[Manage use case mappings for ServiceNow Otto for Contract Management Pro]()
 
 [Manage clause mappings for contract analysis]()
 
 [Manage expected response mappings for contract analysis]()
 
-[Deactivate skills for Now Assist in Contract Management]()
+[Deactivate skills for ServiceNow Otto for Contract Management Pro]()
 
 [Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 
@@ -83,5 +83,5 @@ Now Assist applies the updated use case for contract analysis or metadata extrac
 
 [Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)
 
-[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

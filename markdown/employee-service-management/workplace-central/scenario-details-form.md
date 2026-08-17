@@ -128,3 +128,5 @@ Location names are displayed based on the filter conditions. Select the refresh 
 
 [User Workplace Profile form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

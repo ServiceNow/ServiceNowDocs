@@ -27,7 +27,7 @@ Confirm that:
 
 ## About this task
 
-To configure Telecom Visibility, you must install the required plugins and update the CMDB CI Class Models to version 1.82 or later, which introduces telecom-specific IRE identification rules. This ensures accurate CI identification and reconciliation across telecom domains.
+To configure Telecom Visibility, you must install the required plugins and update the CMDB CI Class Models to version 1.82 or later. This version introduces telecom-specific IRE identification rules. This ensures accurate CI identification and reconciliation across telecom domains.
 
 **Note:** If you have customized IRE identification rules for any of the affected telecom CIs, upgrading to version 1.82 or later may override or impact those rules.
 
@@ -35,10 +35,10 @@ The following capabilities are included with the Telecom Visibility subscription
 
 |Plugin Name|Plugin ID|Plugin Description|Store App|
 |-----------|---------|------------------|---------|
-|Service Graph Connector for Nokia Altiplano|sn\_tsom\_altiplano\_connector|Service Graph Connector for Nokia Altiplano|Yes|
-|Service Graph Connector for Cisco Meraki Telco SD-WAN|sn\_tsom\_meraki\_connector|Service Graph Connector for Cisco Meraki|Yes|
-|Service Graph Connector for Fortinet|sn\_tsom\_fortinet\_connector|Service Graph Connector for Fortinet|Yes|
-|Service Graph Connector for Arista VeloCloud|sn\_tsom\_vcloud\_connector|Service Graph Connector for Arista VeloCloud|Yes|
+|Service Graph Connector for Nokia Altiplano|sn\_sgc\_altiplano|Service Graph Connector for Nokia Altiplano|Yes|
+|Service Graph Connector for Meraki Telco SD-WAN|sn\_sgc\_meraki|Service Graph Connector for Cisco Meraki|Yes|
+|Service Graph Connector for Fortinet Telco SD-WAN|sn\_sgc\_fortinet|Service Graph Connector for Fortinet|Yes|
+|Service Graph Connector for VeloCloud Telco SD-WAN|sn\_sgc\_vcloud|Service Graph Connector for Arista VeloCloud|Yes|
 |Telecommunications Discovery Patterns|sn\_tsom\_patterns|Telecommunication Discovery Patterns|Yes|
 |Telecom Visibility Plugin \(Core logic\)|sn\_tsom\_core|Core logic for Telecom Visibility and Discrepancy Reconciliation|No|
 

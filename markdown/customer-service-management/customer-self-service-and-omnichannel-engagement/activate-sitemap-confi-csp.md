@@ -38,7 +38,7 @@ Beginning with the Australia release, the Sitemap Generator configuration is ava
 
     1.  On the form, select the **Active** check box.
 
-    2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
+    2.  In the Sitemap Config Definition related list, double-click the **Active** field and select the **true** option from the list.
 
     3.  Select the Save icon \(\[Omitted image "save.png"\] Alt text: Save icon\).
 

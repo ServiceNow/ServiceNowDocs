@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case, inbound integration, email ingestion, admin]
+keywords: [APO, Accounts Payable Operations, Create Inquiry Case, Invoice email flow, Flow Designer, invoice inquiry case, Process Automation, email ingestion, APO Admin]
 breadcrumb: [Components installed with Invoice Case Management, Install Invoice Case Management, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -29,7 +29,7 @@ Role required: admin
 
 3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions\) in the top right and select **Copy flow**.
 
-    The Create a copy of this flow dialog box is displayed.
+    The **Create a copy of this flow** dialog box is displayed.
 
 4.  In the **New flow name** field, enter a name for the copied flow.
 

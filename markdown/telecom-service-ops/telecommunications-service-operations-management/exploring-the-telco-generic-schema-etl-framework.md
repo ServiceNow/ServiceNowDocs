@@ -18,7 +18,7 @@ The Telecom Discovery Builder framework ETL \(Extract, Transform, Load\) is a re
 
 The Telecom Discovery Builder framework ETL serves as a baseline data ingestion utility to handle telecom-specific configuration item \(CI\) data. It enables connector development teams to avoid building ETLs from scratch by offering a standardized transform logic that can be duplicated and customized for each connector. It provides a standardized, reusable foundation that promotes consistency across implementations.
 
-Once the TSOM Core plugin is activated, the generic ETL is auto-provisioned and becomes available in the Integration Hub ETL Studio, ready to be reused and adapted to connector-specific needs.
+After the TSOM Core plugin is activated, the generic ETL is auto-provisioned and becomes available in the Integration Hub ETL Studio. You can reuse and adapt it to connector-specific needs.
 
 ## Why and when to use the Telecom Discovery Builder framework
 
@@ -51,7 +51,7 @@ These roles control access to the TSOM Visibility and Assurance application scop
 |----------|-----------|
 |`sn_tsom_core` \(Telecom Service Operations Core\)|Includes the audit application and various system properties within that app scope.|
 |`sn_tsom_em_core`\(Event Management Core\)|Includes the monitoring and analysis of telecommunications network alerts and performance metrics from SD-WAN infrastructure.|
-|`sn_tsom_em_connect`\(Event Management Connectors\)|Include push connectors and connector definitions used to ingest alerts from external telecommunications network sources.|
+|`sn_tsom_em_conns`\(Event Management Connectors\)|Include push connectors and connector definitions used to ingest alerts from external telecommunications network sources.|
 |`sn_tsom_patterns`\(Telecom Discovery Patterns \)|Include the MID Server and system IP Service properties.|
 |`sn_sgc_aliplano`\(Service Graph Connector for Nokia Altiplano\)|Includes the application properties.|
 |`sn_sgc_meraki`\(Service Graph Conenctor for Cisco Meraki Telco SD-WAN\)|Includes the application properties.|
@@ -92,7 +92,7 @@ Description
 </td><td>
 
 -   Highest-level administrative role for CMDB privileges.
--   Grants full access to CMDB data, tools, and user interfaces, and enables administrators to configure policies such as class management and application service requirements that aren’t available to editors.
+-   Grants full access to CMDB data, tools, and user interfaces. Enables administrators to configure policies such as class management and application service requirements that aren’t available to editors.
 
 </td></tr><tr><td>
 

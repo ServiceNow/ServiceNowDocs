@@ -36,7 +36,7 @@ Role required: it\_demand\_manager
 
 
 -   **[Recalculate costs of resource assignments of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md)**  
-Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 
 **Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

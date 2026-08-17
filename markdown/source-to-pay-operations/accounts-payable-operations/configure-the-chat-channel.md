@@ -37,3 +37,8 @@ Role required: Accounts payable specialist, Accounts payable agent, supplier.
 
 **Parent Topic:**[Virtual agent flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/virtual-agent-flows.md)
 
+**Related topics**  
+
+
+[Working with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-advanved-work-assignment.md)
+

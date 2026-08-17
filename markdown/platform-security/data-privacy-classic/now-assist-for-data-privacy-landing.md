@@ -1,5 +1,5 @@
 ---
-title: Data Privacy for Now Assist
+title: ServiceNow Otto for Data Privacy
 description: Set up and configure how to discover and anonymize sensitive data from generative AI prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Data Privacy, Platform Privacy]
 ---
 
-# Data Privacy for Now Assist
+# ServiceNow Otto for Data Privacy
 
 Set up and configure how to discover and anonymize sensitive data from generative AI prompts.
 
@@ -29,9 +29,9 @@ Set up and configure how to discover and anonymize sensitive data from generativ
 </td></tr></tbody>
 </table>**Note:**
 
-Data Privacy for Now Assist detects and masks sensitive data based on Regex and Named Entity Recognition \(NER\) data patterns. Enabling NER data patterns requires customers to have a Vault license as well as an additional $0 SKU associated with the Vault license. Also, customers must have the latest version of the GenAI Controller \(`sn.generative.ai`\) installed on their instance \(which requires the admin role\).
+ServiceNow Otto for Data Privacy detects and masks sensitive data based on Regex and Named Entity Recognition \(NER\) data patterns. Enabling NER data patterns requires customers to have a Vault license as well as an additional $0 SKU associated with the Vault license. Also, customers must have the latest version of the GenAI Controller \(`sn.generative.ai`\) installed on their instance \(which requires the admin role\).
 
-There are associated rate limits on how much data can be processed when using Named Entity Recognition \(NER\) data patterns for Now Assist. Once these limits are exceeded, any applicable Regex based data masking that was configured will apply for all Now Assist prompts, skills, and agentic executions.
+There are associated rate limits on how much data can be processed when using Named Entity Recognition \(NER\) data patterns for ServiceNow Otto. Once these limits are exceeded, any applicable Regex based data masking that was configured will apply for all ServiceNow Otto prompts, skills, and agentic executions.
 
 **Important:**
 

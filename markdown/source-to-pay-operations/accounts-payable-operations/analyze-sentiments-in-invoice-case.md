@@ -1,6 +1,6 @@
 ---
 title: Analyze sentiments in invoice cases
-description: Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
+description: Use the Sentiment Analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.html
 release: australia
@@ -9,16 +9,17 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, Source-to-Pay Workspace, Sentiment analysis, ServiceNow Otto, Invoice Cases]
+breadcrumb: [Use ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Analyze sentiments in invoice cases
 
-Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
+Use the Sentiment Analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
 

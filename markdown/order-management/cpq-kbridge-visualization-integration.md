@@ -6,25 +6,25 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-kbridge-vi
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Integrating ServiceNow CPQ with visualization tools, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+reading_time_minutes: 2
+breadcrumb: [Integrating CPQ with visualization tools, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # Integrating kBridge visualization
 
 Integrate kBridge for real-time 3D visualization. Sync configuration inputs with visual updates to enhance user experience.
 
-ServiceNow CPQ supports several different 3D visualization options in the end-user configuration experience. ServiceNow CPQ can be implemented to use kBridge as a visualization component that is updated in real time in the ServiceNow CPQ UI as the user changes configuration inputs \(one-way communication\). In addition, bidirectional \(two-way\) communication may be defined so that user manipulations of the graphic update ServiceNow CPQ configuration fields.
+CPQ supports several different 3D visualization options in the end-user configuration experience. CPQ can be implemented to use kBridge as a visualization component that is updated in real time in the CPQ UI as the user changes configuration inputs \(one-way communication\). In addition, bidirectional \(two-way\) communication may be defined so that user manipulations of the graphic update CPQ configuration fields.
 
-The following video shows how to integrate ServiceNow CPQ with kBridge for real-time updates:
+The following video shows how to integrate CPQ with kBridge for real-time updates:
 
 [KBridge Integration Setup Demo](https://www.youtube.com/watch?v=X4sxdRtz_v4)
 
-The integration between ServiceNow CPQ and kBridge is set up in the ServiceNow CPQ blueprint layout definition. The layout definition:
+The integration between CPQ and kBridge is set up in the CPQ blueprint layout definition. The layout definition:
 
--   defines where the kBridge visualization component will be rendered on the ServiceNow CPQ UI
+-   defines where the kBridge visualization component will be rendered on the CPQ UI
 -   specifies the kBridge connection
--   identifies the ServiceNow CPQ field or set data to be sent
+-   identifies the CPQ field or set data to be sent
 
 To create a kBridge component, the `kbridge` layout component type can be added in the “type” column of the layout CSV file. Additional properties for the integration are set in the “value” column.
 
@@ -55,19 +55,19 @@ width: number
 -   token: Auth token from kBridge
 -   sessionStartup: Additional kBridge startup information; work with kBridge, your implementer or kBridge administrator to determine the appropriate values to pass in this parameter for your kBridge setup
 
-## ServiceNow CPQ data
+## CPQ data
 
--   `eventFields`: Mapping of ServiceNow CPQ fields to kBridge
--   `eventSets`: Mapping of ServiceNow CPQ sets to kBridge
--   `eventProductPickers`: Mapping of ServiceNow CPQ product pickers to kBridge
--   `setActiveTriggers`: ServiceNow CPQ set triggers
--   `listenerFields`: For two-way data communication involving one or more ServiceNow CPQ sets, this object specifies the ServiceNow CPQ text field variable name to which a JSON representation of the set\(s\), manipulated in the kBridge visualization by the user, will be returned to ServiceNow CPQ. The Admin must define a rule that parses the content of the listenerFields and populates the appropriate set inputs.
+-   `eventFields`: Mapping of CPQ fields to kBridge
+-   `eventSets`: Mapping of CPQ sets to kBridge
+-   `eventProductPickers`: Mapping of CPQ product pickers to kBridge
+-   `setActiveTriggers`: CPQ set triggers
+-   `listenerFields`: For two-way data communication involving one or more CPQ sets, this object specifies the CPQ text field variable name to which a JSON representation of the set\(s\), manipulated in the kBridge visualization by the user, will be returned to CPQ. The Admin must define a rule that parses the content of the listenerFields and populates the appropriate set inputs.
 
     **Note:**
 
     -   If a blueprint/layout has `eventFields` but not `listenerFields`, every event field has two-way communication.
-    -   If a listener field is added to the blueprint or layout, all event fields will communicate only from ServiceNow CPQ to kBridge.
-    -   Event sets and event product pickers pass information only from ServiceNow CPQ to kBridge, and not from kBridge to ServiceNow CPQ.
+    -   If a listener field is added to the blueprint or layout, all event fields will communicate only from CPQ to kBridge.
+    -   Event sets and event product pickers pass information only from CPQ to kBridge, and not from kBridge to CPQ.
     -   From a data standpoint, event sets and event product pickers data are passed the same way to kBridge \(in an array of objects\).
 
 ## Layout size
@@ -111,5 +111,5 @@ width: number
 
 ## Reference
 
-For a discussion of features available among supported visualization applications in integration with ServiceNow CPQ, see [Visualization Integrations: An Overview](https://logikio.atlassian.net/wiki/spaces/CS/pages/1615462425/Visualization+Integrations+An+Overview).
+For a discussion of features available among supported visualization applications in integration with CPQ, see [Visualization Integrations: An Overview](https://logikio.atlassian.net/wiki/spaces/CS/pages/1615462425/Visualization+Integrations+An+Overview).
 

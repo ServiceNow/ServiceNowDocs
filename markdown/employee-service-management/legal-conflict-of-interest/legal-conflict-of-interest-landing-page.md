@@ -1,6 +1,6 @@
 ---
 title: Legal Conflict of Interest
-description: Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of Now Assist in Virtual Agent or intake form available in the Employee Center.
+description: Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Deliver
 
 # Legal Conflict of Interest
 
-Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of Now Assist in Virtual Agent or intake form available in the Employee Center.
+Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

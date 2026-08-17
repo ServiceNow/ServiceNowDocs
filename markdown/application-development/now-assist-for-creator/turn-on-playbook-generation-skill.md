@@ -1,6 +1,6 @@
 ---
 title: Turn on the playbook generation skill
-description: Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+description: Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/turn-on-playbook-generation-skill.html
 release: australia
@@ -9,25 +9,25 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Playbook generation, Use generative AI, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Turn on the playbook generation skill
 
-Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 
 ## Before you begin
 
--   Install the Now Assist for Creator application. For more information, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task
 
-**Important:** The playbook generation skill requires a separate subscription to Now Assist for Creator.
+**Important:** The playbook generation skill requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Now Assist Skills**.
 
 2.  In the workflow list, select **Creator**.
 

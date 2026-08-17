@@ -1,6 +1,6 @@
 ---
 title: Setting up DEX Desktop Assistant
-description: Set up Desktop Assistant to give end users quick access to self-service and diagnostic tools, timely notifications about outages and announcements, and support options like Employee Center, Virtual Agent, or live agents.
+description: Configure Desktop Assistant so employees can access self-service tools, support channels such as Employee Center and Virtual Agent, and notifications about outages and announcements directly from their desktop.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/config-dex-desktop-exp.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 
 # Setting up DEX Desktop Assistant
 
-Set up Desktop Assistant to give end users quick access to self-service and diagnostic tools, timely notifications about outages and announcements, and support options like Employee Center, Virtual Agent, or live agents.
+Configure Desktop Assistant so employees can access self-service tools, support channels such as Employee Center and Virtual Agent, and notifications about outages and announcements directly from their desktop.
 
 ## Configuration overview
 

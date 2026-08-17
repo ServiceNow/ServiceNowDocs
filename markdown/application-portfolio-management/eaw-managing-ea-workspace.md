@@ -16,18 +16,22 @@ Use the Enterprise Architecture Workspace \(EAW\) for managing portfolios, model
 
 -   **[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)**  
 Enterprise Architecture Workspace home page serves as a personalized command center for enterprise architects, offering a unified, role-based view of portfolio insights, tasks, and health indicators. The Home page is designed to give architects immediate visibility into the state of their portfolios.
+-   **[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-use.md)**  
+You can ask the Enterprise Architecture query agent natural language questions about your enterprise architecture portfolio using the ServiceNow Otto® panel in Enterprise Architecture Workspace.
+-   **[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)**  
+Use the AI agents in Enterprise Architecture to help complete tasks autonomously.
 -   **[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-dashboards.md)**  
 Dashboards in Enterprise Architecture Workspace is a central, visual interface for monitoring, analyzing, and acting on enterprise architecture data. Dashboards provide a consolidated view of the health and performance of key portfolios such as application portfolio, business portfolio, information portoflio and technology portfolio.
 -   **[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)**  
 Manage business capabilities, add sub-capabilities, associate business applications.
 -   **[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-app-rat.md)**  
 Application rationalization helps enterprise architects evaluate, optimize, and govern the business application portfolio with clarity and strategic intent. Application rationalization is a structured process to assess all business applications by category, capability, or family and determine whether to invest, sustain, migrate, or retire.
--   **[Working with Technology Portfolio Management \(TPM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)**  
-Technology Portfolio Management provide visibility, governance, and actionable insights into the technologies used across the enterprise.
+-   **[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)**  
+Technology Lifecycle Management provide visibility, governance, and actionable insights into the technologies used across the enterprise.
 -   **[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)**  
 The Technology Reference Model provides a structured, centralized view of all technology products; hardware, software, and platforms used across the enterprise.
 -   **[Working with Gantt chart views in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-gantt-chart-views.md)**  
-The Gantt charts in the Enterprise Architecture Workspace allow toggling between TPM \(Technology Portfolio Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
+The Gantt charts in the Enterprise Architecture Workspace allow toggling between TLM \(Technology Lifecycle Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
 -   **[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**  
 Enterprise Modeling and Visualization provides a structured, visual framework for managing the complex relationships between IT systems, business processes, and organizational goals.
 -   **[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-data-cert.md)**  
@@ -37,7 +41,7 @@ Use the architectural analyzer in the Enterprise Architecture Workspace to visua
 -   **[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-portfolio-list-view.md)**  
 Manage your business architecture, application portfolio, information portfolio and manage all your own entities form the portfolio list view of the Enterprise Architecture Workspace.
 -   **[Working with application Total Cost of Ownership \(TCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tco.md)**  
-The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects to evaluate the cost of business applications and leverage the application costs to prioritize the application portfolio and align with the organization's business strategy.
+The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects evaluate the cost of business applications. Use application costs to prioritize the application portfolio and align with the organization's business strategy.
 -   **[Working with digital integration management in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integ-mngmnt.md)**  
 Manage digital integrations and digital interfaces in Enterprise Architecture Workspace.
 -   **[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)**  

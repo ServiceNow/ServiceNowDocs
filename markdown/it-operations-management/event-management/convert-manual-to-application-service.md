@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Application services in Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Convert manual services to application services using API

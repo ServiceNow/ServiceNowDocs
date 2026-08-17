@@ -1,5 +1,5 @@
 ---
-title: Document Intelligence
+title: Document Intelligence \(Legacy\)
 description: Document Intelligence \(DocIntel\) is an AI solution that enables any organization to automate and accelerate the process of extracting data from documents. That data can easily be integrated into larger automation workflows to save time and resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/document-intelligence-landing.html
@@ -12,15 +12,15 @@ reading_time_minutes: 2
 breadcrumb: [Enable AI experiences]
 ---
 
-# Document Intelligence
+# Document Intelligence \(Legacy\)
 
 Document Intelligence \(DocIntel\) is an AI solution that enables any organization to automate and accelerate the process of extracting data from documents. That data can easily be integrated into larger automation workflows to save time and resources.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Important: This product has been deprecated and replaced by [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Get started
 
@@ -63,7 +63,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   Learn more about what's new and changed in the .
+-   Learn more about what's new and changed in the [Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md).
 -   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-additional-resources.md).
 -   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence/ct-p/ai-intelligence).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).

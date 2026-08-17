@@ -36,5 +36,5 @@ The **Enable hybrid search** check box on the **\[CSM AIS\] Configurable Workspa
 
 This configuration is specific to the CSM AI search application. Search configurations for portals or other workspaces are managed separately. If you do not find the **Enable hybrid search** check box for other workspaces, see the [KB2735151](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2735151) article to know how to enable hybrid search when the hybrid search check box is not available on the search configuration record.
 
-**Note:** When Hybrid Search is active, the total result counts and facet counts are not displayed in the search results tab of the Recommended Actions contextual side panel.
+**Note:** The total result count and facet counts aren't displayed in the Search results tab of the Recommended Actions contextual side panel, when Hybrid Search is active.
 

@@ -41,7 +41,7 @@ See [Agentic Contact Center for Banking](https://raw.githubusercontent.com/Servi
 
 ## Activation information
 
-Install Agentic Contact Center for Banking by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Agentic Contact Center for Banking by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -54,11 +54,11 @@ Install Agentic Contact Center for Banking by requesting it from ServiceNow Stor
 
 ## Additional requirements
 
-This application is dependent on Now Assist for Financial Services Operations \(FSO\). For more information, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+This application is dependent on ServiceNow Otto for Financial Services Operations \(FSO\). For more information, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)**
+-   ****
 
     Leverage AI agents and agentic workflows to generate customer summaries, contextual insights, and discover additional insights in Agentic Contact Center for Banking and the Now Assist panel.
 

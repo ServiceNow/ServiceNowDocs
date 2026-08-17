@@ -38,7 +38,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     The **Chargeback** stage is initiated for the transaction.
 
-6.  Select the  **Reverse provisional credit** activity.
+6.  Select the  **Reverse provisional credit** task.
 
 7.  On the form, fill in the required fields and any other related information that you have gathered.
 

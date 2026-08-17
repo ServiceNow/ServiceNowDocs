@@ -1,6 +1,6 @@
 ---
 title: Save an Industrial Guided Task while offline
-description: Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode so that your changes are preserved and automatically uploaded when connectivity is restored.
+description: Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode. Changes are preserved and uploaded automatically when connectivity is restored.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/save-igt-offline-icw-mobile.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use, Industrial Connected Workforce Mobile Experience, Industrial C
 
 # Save an Industrial Guided Task while offline
 
-Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode so that your changes are preserved and automatically uploaded when connectivity is restored.
+Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode. Changes are preserved and uploaded automatically when connectivity is restored.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: admin
 
 As an operator, you may need to execute Industrial Guided Tasks in areas with limited or no network connectivity. The offline save feature allows you to save your IGT execution progress to the outbox on your device. When your device reconnects, the saved changes are automatically uploaded to the server so that your work is not lost.
 
-**Note:** This feature applies to saving IGT progress when you are offline. This is not the same as submitting a task. You can save your progress and continue the task later.
+**Note:** This feature applies to saving IGT progress when you're offline. This is not the same as submitting a task. You can save your progress and continue the task later.
 
 ## Procedure
 
-1.  Open the Industrial Guided Task that you are executing on the Industrial Connected Workforce Mobile Experience.
+1.  Open the Industrial Guided Task that you're executing on the Industrial Connected Workforce Mobile Experience.
 
 2.  Complete or partially complete the steps in the guided task:
 

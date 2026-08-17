@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Generate quality assessment report, quality report, security incident quality analysis]
-breadcrumb: [Explore Security incident quality assessment, Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Explore Security incident quality assessment, Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Generate a quality assessment report
@@ -23,7 +23,7 @@ Role required: sn\_sec\_gen\_ai.qa\_reviewer
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ Role required: sn\_sec\_gen\_ai.qa\_reviewer
 
     The report contains an overall assessment summary followed by the detailed assessment for all the rules. The report remains in the draft state until you publish it.
 
-7.  In a draft report, select the text and use the Now Assist context menu to elaborate or shorten the content.
+7.  In a draft report, select the text and use the ServiceNow Otto context menu to elaborate or shorten the content.
 
     1.  Select **Insert** to replace the current text with the updated.
 

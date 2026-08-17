@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Lead Management
@@ -30,5 +30,5 @@ As sales agents move through the lead workflow and recognize interest from custo
 
 ## What to explore next
 
-To learn about setting up Lead Management, see [Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md).
+To learn about setting up Lead Management, see [Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md).
 

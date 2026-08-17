@@ -63,10 +63,15 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
+    |Name|Name to uniquely identify the record. For example, enter: `Workday HR OAuth`|
+    |Application|Application in which the record is applicable. Select **Workday HR Spoke**.|
     |Client ID|Client ID created during the Workday HR API client configuration for personal authentication.|
     |Client Secret|Client Secret created during the Workday HR API client configuration for personal authentication.|
     |Authorization URL|OAuth authorization code endpoint from the Workday tenant.|
     |Token URL|OAuth server token endpoint from the Workday tenant.|
+    |Redirect URL|Auth callback endpoint in this format:`https://<instance>.service-now.com/outh_redirect.do`|
+    |Default Grant Type|Grant type used to establish the token. Select **Authorization Code**.|
+    |Active|Option to actively use the application registry.|
 
 4.  Right-click the form header, and click **Save**.
 

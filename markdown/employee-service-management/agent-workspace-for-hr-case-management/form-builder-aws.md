@@ -34,15 +34,15 @@ Role required: sn\_hr\_agent\_ws.admin
 
 6.  Customize the fields by performing one of the following actions.
 
-<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d534623e120">
+<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d534300e120">
 
 Option
 
-</th><th align="left" id="d534623e123">
+</th><th align="left" id="d534300e123">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d534623e129">
+</th></tr></thead><tbody><tr><td id="d534300e129">
 
 **Add an existing field to a form**
 
@@ -53,7 +53,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d534623e156">
+</td></tr><tr><td id="d534300e156">
 
 **add field to a form**
 
@@ -74,7 +74,7 @@ A confirmation dialog displays. You can select **Done** to close it or select **
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d534623e221">
+</td></tr><tr><td id="d534300e221">
 
 **Delete a field in the form**
 

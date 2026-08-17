@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -53,7 +53,6 @@ Integrated Risk Management
 -   sn\_risk\_acceptance\_task
 -   sn\_risk\_avoidance\_task
 -   sn\_risk\_mitigation\_task
--   sn\_risk\_advanced\_risk\_assessment\_instance
 -   sn\_risk\_transfer\_task
 
 </td></tr><tr><td>

@@ -9,7 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI driven supplier onboarding, Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [AI driven supplier onboarding, Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Supplier document strategy generator AI agent
@@ -22,7 +22,7 @@ The Supplier document strategy generator AI agent analyzes all published knowled
 
 ## Automated task list
 
-In the AI driven supplier onboarding workflow, supplier managers are prompted to provide the supplier's location and industry type as inputs on the Now Assist panel. The AI agent cross-references these inputs with all the published knowledge base articles and identifies the required compliance and regulatory tasks.
+In the AI driven supplier onboarding workflow, supplier managers are prompted to provide the supplier's location and industry type as inputs on the ServiceNow Otto panel. The AI agent cross-references these inputs with all the published knowledge base articles and identifies the required compliance and regulatory tasks.
 
 Supplier Managers can view the list of tasks identified by the AI agent on the **Playbook** tab. They can remove tasks from this list by clearing the respective check boxes. Supplier Managers can also add new tasks by selecting the **Add item** option. The tasks created are of the type document upload.
 

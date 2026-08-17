@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow pause utility, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ Use Workflow Pause Group Requests to pause, or resume, groups of workflows, or a
 
 ## Before you begin
 
-Role required: Workflow\_admin or workflow\_publisher, workflow\_creator
+Role required: snc\_required\_script\_writer\_permission and either workflow\_admin, workflow\_publisher, or workflow\_creator
 
 Install and activate the Workflow Pause Utility plugin.
 

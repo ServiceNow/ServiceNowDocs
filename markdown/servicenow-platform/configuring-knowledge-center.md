@@ -25,18 +25,18 @@ For more information, see [Enable system properties for Knowledge Center](https:
 Configure how agents use Knowledge Center to generate, edit, and optimize knowledge articles. Refer the following:
 
 -   [Configuring custom script based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
--   [Activate Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
--   [Configuring Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+-   [Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
+-   [Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
 -   [Enable knowledge blocks in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-enable-knowledge-blocks.md)
 
-**Note:** You can access knowledge articles created with TinyMCE by enabling KB generation skill, see [Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, please activate the knowledge content recommendation skill, see [Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md).
+**Note:** You can access knowledge articles created with TinyMCE by enabling KB generation skill, see [Configuring the KB generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, please activate the knowledge content recommendation skill, see [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md).
 
 **Related topics**  
 
 
-[Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
-[Configure and activate the Now Assist Identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
+[Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md)
 
-[Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 

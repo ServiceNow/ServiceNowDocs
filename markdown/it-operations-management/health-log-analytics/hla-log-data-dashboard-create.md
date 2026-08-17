@@ -22,7 +22,7 @@ This functionality is supported in the Service Operations Workspace Log Analytic
 
 For detailed information about creating and working with dashboards, see [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 
-**Note:** As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/aiops-dashboards-sow-itom.md).
+**Note:** As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-dashboards-sow-itom.md).
 
 Role required: evt\_mgmt\_operator or viz\_admin
 

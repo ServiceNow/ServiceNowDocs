@@ -26,7 +26,7 @@ The Stream Connect Dashboard combines several capabilities into a single environ
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Workflow Data Fabric subscription
 
@@ -179,7 +179,7 @@ The Consumers page has the following components.
 
     To **Create** a new consumer, select this button, then select the type of consumer you want to create, then fill in the fields on the consumer's form. For form field descriptions, see the [ETL consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md) page.
 
-    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see .
+    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md).
 
 
 You can select a consumer from the list to view detailed information for that consumer.

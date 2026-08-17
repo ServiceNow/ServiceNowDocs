@@ -44,8 +44,6 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 8.  In the **Remarks** field, enter any comments.
 
-    This step is optional.
-
 9.  Select **Submit fraud**.
 
 10. Select **Close task**.
@@ -53,10 +51,10 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## Result
 
-Depending on the policy rule, the task moves to the next activity. The following activities are displayed based on the policy rule.
+Depending on the policy rule, the task moves to the next task. The following tasks are displayed based on the policy rule.
 
-|Policy rule|Activity displayed|
-|-----------|------------------|
+|Policy rule|Task displayed|
+|-----------|--------------|
 |Immediate Provisional Credit|Issue provisional credit|
 |Immediate Final Credit|Set recovery option|
 |No Credit|Alert merchant task|

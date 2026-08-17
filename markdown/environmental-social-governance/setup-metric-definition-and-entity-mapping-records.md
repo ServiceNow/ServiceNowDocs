@@ -1,18 +1,18 @@
 ---
 title: Setup metric definition and entity-mapping records
-description: Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct Environmental, Social, and Governance metrics and entities. This eliminates manual data entry and improves accuracy.
+description: Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct metrics and entities. This eliminates manual data entry and improves accuracy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/setup-metric-definition-and-entity-mapping-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Activate document intelligence for utility invoices skill, Configure, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Activate document intelligence for utility invoices skill, Configure, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Setup metric definition and entity-mapping records
 
-Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct Environmental, Social, and Governance metrics and entities. This eliminates manual data entry and improves accuracy.
+Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct metrics and entities. This eliminates manual data entry and improves accuracy.
 
 ## Before you begin
 
@@ -22,11 +22,11 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
--   Preconfigured metric definitions with corresponding entity mappings are provided to simplify the initial setup for Now Assist for Operational Sustainability Management. The four preconfigured metric definitions are water, waste, electricity, and natural gas consumption. These metric definitions are active by default, no additional activation step is required for the preconfigured definitions.
+-   Preconfigured metric definitions with corresponding entity mappings are provided to simplify the initial setup for ServiceNow Otto for Operational Sustainability Management. The four preconfigured metric definitions are water, waste, electricity, and natural gas consumption. These metric definitions are active by default, no additional activation step is required for the preconfigured definitions.
 -   If the preconfigured metric definitions don’t meet your requirements, you can create or use an existing metric definition. Then update the Metric Definition table and create or update mapping records to link the new definition to the appropriate record identifiers. When using custom metric definitions, confirm that all relevant mapping records are updated to reference the new definitions for accurate data association.
 -   The metric definition must be activated before using the Document Intelligence for Utility Invoices skill.
 
-The metric definitions are only one part of the setup. The entity mapping table ships empty and must be populated before the skill can route extracted data. For each billing or service address in your utility invoices, create an entity mapping record that links the address to the corresponding organizational entity. Once the metric definitions and entity mappings are both configured, the system uses them to determine where extracted data belongs. The extracted utility type \(for example, electricity\) is matched to the correct metric definition based on the metric definition mapping, and the billing or service address identifies the relevant organizational entity. The extracted consumption or bill amount is then assigned to the correct metric data task.
+The metric definitions are only one part of the setup. The entity mapping table ships empty and must be populated before the skill can route extracted data. For each billing or service address in your utility invoices, create an entity mapping record that links the address to the corresponding organizational entity. Once the metric definitions and entity mappings are both configured, the system uses them to determine where extracted data belongs. The extracted utility type \(for example, electricity\) is matched to the correct metric definition based on the metric definition mapping. The billing or service address identifies the relevant organizational entity. The extracted consumption or bill amount is then assigned to the correct metric data task.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ The metric definitions are only one part of the setup. The entity mapping table 
 
 7.  Select **Save**.
 
-    After activating all required metric definitions, create entity mapping records to link the billing and service addresses on your utility invoices to the corresponding organizational entities in your instance.
+    After activating all required metric definitions, create entity mapping records. These records link the billing and service addresses on your utility invoices to the corresponding organizational entities in your instance.
 
 8.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Entity Mapping**.
 

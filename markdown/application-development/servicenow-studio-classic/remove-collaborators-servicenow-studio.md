@@ -30,7 +30,7 @@ Role required: admin or delegated\_developer
 
 3.  Access collaboration settings by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: and selecting **Invite**.
 
-    \[Omitted image "sn-studio-collab-select-zs2.png"\] Alt text: Invite collaborators to work on your app using the more options menu on the app details page.
+    \[Omitted image "sn-studio-collab-select-as2.png"\] Alt text: Invite collaborators to work on your app using the more options menu on the app details page.
 
 4.  In the **Collaborators** section of the **Collaborate with others** dialog, select **Remove** for the user or group.
 

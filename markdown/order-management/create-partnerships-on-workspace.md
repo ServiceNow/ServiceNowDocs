@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-partnerships-on-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [PRM in CSM workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Create Partnerships on the CSM Configurable Workspace
@@ -33,7 +33,7 @@ Role required: sn\_prm.enterprise\_partner\_admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Partner Relationship Management in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
+**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
 
 **Related topics**  
 

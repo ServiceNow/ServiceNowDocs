@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-telecommunicationsserviceoperationsmanagementtsom-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
+last_updated: "2026-08-17"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -164,7 +164,74 @@ Australia
 
 </td><td>
 
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Granularity support for pull connectors](https://www.servicenow.com/docs/access?context=pull-connector-granularity&family=australia&ft:locale=en-US)**
+
+Configure granularity and polling schedule constraints on Meraki and Fortinet pull connector instances to reduce API call volume and align data sampling with source system capabilities. Per-connector validation prevents unsupported values for metrics collection schedules and granularity windows. For valid values per connector and API type, see [Pull connector granularity constraints](https://www.servicenow.com/docs/access?context=pull-connector-granularity-constraints&family=australia&ft:locale=en-US).
+
+-   **[Discover VeloCloud SD-WAN inventory from both Partner \(MSP\) and Operator accounts](https://www.servicenow.com/docs/access?context=telecom-discovery-via-arista-velocloud&family=australia&ft:locale=en-US)**
+
+The Service Graph Connector automatically detects whether the supplied credentials belong to an Enterprise Proxy \(partner\) account or a direct operator account. The same scheduled import works for either topology without configuring the discovery mode.
+
+-   **[Pagination for Meraki metrics requests](https://www.servicenow.com/docs/access?context=meraki-pull-connector-pagination&family=australia&ft:locale=en-US)**
+
+Meraki pull connector metrics requests now follow API pagination links automatically. This verifies complete data retrieval for large organizations.
+
+-   **[Metric aggregation scripted extension](https://www.servicenow.com/docs/access?context=metric-aggregation-scripted-extension&family=australia&ft:locale=en-US)**
+
+Define custom KPI calculations on top of raw metrics using the `TSOMMetricAggregator` scripted extension point. Formulas can combine raw and transformed metrics, apply temporal aggregation operators \(`avg`, `max`, `min`, `p95`\) and spatial aggregation across matching resources, and attach user-defined labels to calculated KPIs.
+
+
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+
+-   **[Elastic connector for MPN alerts](https://www.servicenow.com/docs/access?context=set-up-connector-instance-nokia-mpn&family=australia&ft:locale=en-US)**
+
+Collect fault management alarm data from a Mobile Private Network \(MPN\) Elastic index and forward events to Event Management by configuring a connector instance.
+
+-   **[Elastic connector for MPN metrics](https://www.servicenow.com/docs/access?context=configure-mpn-connectors-for-events-and-metrics&family=australia&ft:locale=en-US)**
+
+The MPN connector now supports flexible metrics collection and network-level aggregation for MPN environments.
+
+-   **[MPN data model](https://www.servicenow.com/docs/access?context=mpn-data-model&family=australia&ft:locale=en-US)**
+
+Model your MPN topology in the CMDB with new CI classes and relationships for physical hardware and virtual network functions. The expanded data model captures connectivity between physical objects \(servers, firewalls, and appliances\) and virtual network functions \(UPF, UDM, and 5G core functions\). MPN infrastructure can be represented, related, and reported on alongside your telecom service operations data.
+
+-   **[Network Packet Broker CI class](https://www.servicenow.com/docs/access?context=telecom-data-model&family=australia&ft:locale=en-US)**
+
+Model network packet broker devices in the CMDB with the new Network Packet Broker class \(`cmdb_ci_network_packet_broker`\), a child of Telco Equipment \(`cmdb_ci_telco_equipment`\). Network packet brokers sit between network TAPs or SPAN ports and your security and monitoring tools. They aggregate, filter, and distribute traffic so each tool receives only the data it needs. Example devices include the Iris Packet Broker IPB220 and IPB420, and APCON IntellaFlex XR monitoring switches.
+
+-   **[Bind MPN metrics to configuration items automatically](https://www.servicenow.com/docs/access?context=metric-to-ci-binding-tsom-sgc&family=australia&ft:locale=en-US)**
+
+The MPN pull connector now ships with a preconfigured event field mapping rule that binds collected metrics to CMDB configuration items automatically. The rule uses a scripted extension to resolve the CI from event fields such as name, distinguished name, serial number, and hardware ID.
+
+-   **[KPI aggregation capability](https://www.servicenow.com/docs/access?context=nokia-mpn-formula-engine&family=australia&ft:locale=en-US)**
+
+Use the Formula Engine to process raw KPI formulas into formatted expressions. The expressions are stored in the Formatted KPI Formula field and validated for balanced parentheses before the metric calculation engine references them.
+
+
+[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
+
+-   **[Customize Fortinet license expiration date storage using scripted extension points](https://www.servicenow.com/docs/access?context=configure-fortinet-allowlist&family=australia&ft:locale=en-US)**
+
+By default, the Fortinet SD-WAN connector stores license expiration dates as separate CI key value pairs per device. You can override this behavior and implement alternative storage logic by using a scripted extension point.
+
+-   **[Configure allowlists to scope connector polling](https://www.servicenow.com/docs/access?context=configuring-allowlist&family=australia&ft:locale=en-US)**
+
+Limit polling to specific organizations or ADOMs through allowlists on connector instances for Cisco Meraki and Fortinet.
+
+
 [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -215,7 +282,7 @@ Australia
 
 </td><td>
 
--   **SD-WAN Discovery connectors [SD-WAN data model](https://www.servicenow.com/docs/access?context=sd-wan-data-model&family=australia&ft:locale=en-US)**
+-   **[SD-WAN Discovery connectors](https://www.servicenow.com/docs/access?context=sd-wan-data-model&family=australia&ft:locale=en-US)**
 
 Enable comprehensive SD-WAN visibility by using new Telecom Discovery connectors. Standardize data processing through the SD-WAN Data Model integrated into the Telecom Discovery Builder Framework ETL pipeline.
 
@@ -527,6 +594,17 @@ Zurich
 Australia
 
 </td><td>
+
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Reduce API call volume and enforce per-API scheduling constraints for Meraki and Fortinet pull connectors with new granularity and schedule window controls.
+-   Define custom KPI calculations on top of raw metrics using the metric aggregation scripted extension point.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Gain comprehensive SD-WAN visibility with new Telecom Discovery connectors for Cisco Meraki and Fortinet FortiManager.
 -   Extend discovery pattern capabilities with support for switch stacks, card models, life-cycle attributes, and improved error handling.

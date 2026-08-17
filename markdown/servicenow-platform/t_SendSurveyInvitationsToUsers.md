@@ -38,7 +38,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 3.  Complete one of the following actions.
 
-<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d631753e123">
+<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d634814e123">
 
 **Assign a survey to users listed in the Survey Users related list**
 
@@ -46,7 +46,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 Click **Send invitations**.
 
-</td></tr><tr><td id="d631753e135">
+</td></tr><tr><td id="d634814e135">
 
 **Assign a survey to any user**
 

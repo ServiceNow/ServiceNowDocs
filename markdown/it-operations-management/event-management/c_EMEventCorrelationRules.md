@@ -9,14 +9,14 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Rule-based alert grouping
 
 Rule-based alert grouping is created by alert correlation rules. These rules allow you to manually classify alerts as primary or secondary and establish a relationship between them. Use alert correlation rules to group related alerts. The rule runs only for new alerts or alerts whose status changed from close/flapping to open/reopen.
 
-Example: If rule-based alert grouping is applied, secondary alerts indicating that virtual machines or applications on the offline server are also down and are grouped under the primary alert, which is the root alert for the server that is offline. You can view rule-based alert grouping in Express List of Service Operations Workspace \(ITOM\). For more information, see [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-rule-based-link-view.md).
+Example: If rule-based alert grouping is applied, secondary alerts indicating that virtual machines or applications on the offline server are also down and are grouped under the primary alert, which is the root alert for the server that is offline. You can view rule-based alert grouping in Express List of Service Operations Workspace \(ITOM\). For more information, see [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-rule-based-link-view.md).
 
 ## Primary and secondary alerts
 

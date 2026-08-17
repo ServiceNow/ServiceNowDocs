@@ -338,7 +338,7 @@ Option to exclude a header if the value is empty or null.**Note:** This check bo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md).
 
 
 ## SOAP response size limit

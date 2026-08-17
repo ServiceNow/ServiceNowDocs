@@ -73,7 +73,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 5.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d411954e247">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d412545e247">
 
 **To add an existing document block to the template**
 
@@ -81,7 +81,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d411954e259">
+</td></tr><tr><td id="d412545e259">
 
 **To add a new document block to the template**
 
@@ -122,7 +122,7 @@ Select **Create New Block**.
 
         You can save the PDF for future reference.
 
-12. To add a company logo to the PDF, use a PDF editor like Adobe Acrobat Pro to insert the logo, or insert it into the source document before exporting it as a PDF.
+12. To add a company logo to the PDF, use a PDF editor like Adobe Acrobat Pro, or insert it into the source document before exporting.
 
 13. To print the report, open the saved PDF or Microsoft Word copy and select **Print**.
 

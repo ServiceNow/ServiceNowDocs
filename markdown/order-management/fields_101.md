@@ -1,24 +1,24 @@
 ---
 title: Configure fields
-description: Learn about how fields in ServiceNow CPQ help structure data collection efficiently and about the various types of field. Associate fields with blueprints for consistent use across configurations, layouts, and rules.
+description: Learn about how fields in CPQ help structure data collection efficiently and about the various types of field. Associate fields with blueprints for consistent use across configurations, layouts, and rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/fields\_101.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure fields
 
-Learn about how fields in ServiceNow CPQ help structure data collection efficiently and about the various types of field. Associate fields with blueprints for consistent use across configurations, layouts, and rules.
+Learn about how fields in CPQ help structure data collection efficiently and about the various types of field. Associate fields with blueprints for consistent use across configurations, layouts, and rules.
 
 A field is a designated space where users can enter specific information. Imagine fields as sections in a questionnaire, each awaiting a particular piece of data.
 
 The usefulness of fields lies in their ability to structure data collection, making it easier for both users to enter values and admins to set them up efficiently and effectively. Without fields, the process of gathering information would be a chaotic jumble of function parameters, lacking the coherence necessary for meaningful data storage or the ability to enact rules.
 
-In ServiceNow CPQ, fields are global. This means a field may be reused in any blueprint, rule, or layout without having to create a unique field for each.
+In CPQ, fields are global. This means a field may be reused in any blueprint, rule, or layout without having to create a unique field for each.
 
 -   [Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_csv_101.md)
     -   Fields are the most granular component that make up a layout. A layout consists of many fields arranged into a navigational flow or page.
@@ -49,7 +49,7 @@ Numbers fields accept only numeric characters in their fields. The field definit
 
 \[Omitted image "cpq-number-field-options.png"\] Alt text: Admin screen
 
-To specify the display precision of a numeric value, in the ServiceNow CPQ layout, click the gear icon in the number field. Then, set the precision in the Display Precision field.
+To specify the display precision of a numeric value, in the CPQ layout, click the gear icon in the number field. Then, set the precision in the Display Precision field.
 
 \[Omitted image "cpq-layout-field-properties-with-precision.png"\] Alt text: Field properties
 
@@ -78,7 +78,7 @@ The following blueprint includes all the different field options and display var
 **Related topics**  
 
 
-[ServiceNow CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
+[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
 
 [Field type display options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

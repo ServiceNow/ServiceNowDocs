@@ -110,15 +110,15 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
 -   **[Agentic development of full-stack applications with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)**
 
-    Use agentic development on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with Now Assist for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
+    Use agentic development on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with ServiceNow Otto for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
 
--   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-using-landing.md)**
+-   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**
 
-    Use the app generation skill available with Now Assist for Creator to generate an application in ServiceNow Studio. Describe the app that you want to create and continue the conversation to refine and edit the app further.
+    Use the app generation skill available with ServiceNow Otto for Creator to generate an application in ServiceNow Studio. Describe the app that you want to create and continue the conversation to refine and edit the app further.
 
--   **[Leverage AI assets in custom apps at runtime with Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
+-   **[Leverage AI assets in custom apps at runtime with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
 
-    Enhance App Engine applications with AI agents, skill, and agentic workflows that users can leverage at runtime with Now Assist for App Engine.
+    Enhance App Engine applications with AI agents, skill, and agentic workflows that users can leverage at runtime with ServiceNow Otto for App Engine.
 
 -   **[Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)**
 

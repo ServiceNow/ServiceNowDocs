@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configur
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
 
@@ -22,6 +22,8 @@ Metadata collectors provide read-only access to external data systems and harves
 Set up a MID Server to host metadata collectors that harvest metadata from on-premises and privately networked data sources.
 -   **[Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/amazon-redshift-metadata-collector.md)**  
 Amazon Redshift metadata collector provides read-only access to metadata from an Amazon Redshift database.
+-   **[Amazon S3 metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/amazon-s3-metadata-collector.md)**  
+The Amazon S3 metadata collector harvests read-only metadata from an AWS S3 account.
 -   **[Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/azure-data-factory-metadata-collector.md)**  
 The Azure Data Factory metadata collector provides read-only access to metadata from an external Azure Data Factory account.
 -   **[BigQuery metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bigquery-metadata-collector.md)**  
@@ -50,6 +52,8 @@ Provides read-only access to metadata from a ServiceNow instance.
 The Snowflake metadata collector provides read-only access to metadata from an external Snowflake account.
 -   **[Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/tableau-metadata-collector.md)**  
 Tableau metadata collector provides read-only access to metadata from a Tableau account.
+-   **[Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/teradata-metadata-collector.md)**  
+The Teradata metadata collector harvests read-only metadata from a Teradata account.
 
 **Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
 

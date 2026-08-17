@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-10"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Lead Management reference
@@ -23,5 +23,5 @@ Field descriptions for editing or reviewing details on the Create New Lead Task 
 -   **[Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-lead-appointment-form.md)**  
 Field descriptions for editing or reviewing details on the Create New Appointment form in the Lead Management and CRM Touchpoints modules.
 
-**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
 

@@ -67,8 +67,8 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-Query your CMDB data without needing to know table relationships or data structures.-   Querying the CMDB
--   Intelligent Search for CMDB
+Query your CMDB data without needing to know table relationships or data structures.-   [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md)
+-   [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/intelligent-search-cmdb.md)
 
 English is the only supported language for CMDB.
 
@@ -78,7 +78,7 @@ NLQ with AI Search in global search
 
 </td><td>
 
- in AI Search \(supports English only\)
+[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-nlq-ais.md) in AI Search \(supports English only\)
 
 </td></tr><tr><td>
 

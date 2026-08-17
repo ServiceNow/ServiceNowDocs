@@ -54,7 +54,7 @@ The installation is complete. Select **Close** to return to the ServiceNow Store
 
 ## What to do next
 
-After you install ERP Semantic Mining, ERP data from the connected system of record populates the ERP extraction tables in Zero Copy Connector for ERP. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
+After you install ERP Semantic Mining, ERP data from the connected system of record populates the ERP extraction tables in Zero Copy Connector for ERP. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
 
 **Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Chat using Now Assist in Virtual Agent
-description: Use Digital End-User Experience \(DEX\) Virtual Agent to access a convenient chat-based support powered by Now Assist to find answers and guidance.
+title: Chat using ServiceNow Otto in Virtual Agent
+description: Use Digital End-User Experience \(DEX\) Virtual Agent to access a convenient chat-based support powered by ServiceNow Otto to find answers and guidance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/chat-using-now-assist.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Service Management]
 ---
 
-# Chat using Now Assist in Virtual Agent
+# Chat using ServiceNow Otto in Virtual Agent
 
-Use Digital End-User Experience \(DEX\) Virtual Agent to access a convenient chat-based support powered by Now Assist to find answers and guidance.
+Use Digital End-User Experience \(DEX\) Virtual Agent to access a convenient chat-based support powered by ServiceNow Otto to find answers and guidance.
 
 ## Before you begin
 
@@ -28,10 +28,10 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 2.  In the chat window, enter your question in the **Please type your request** field and press Enter.
 
-3.  Use the prompts from Now Assist to create a ticket, check the status of an existing ticket, or resolve other issues you might have.
+3.  Use the prompts from ServiceNow Otto to create a ticket, check the status of an existing ticket, or resolve other issues you might have.
 
     **Note:**
 
     -   To customize the topics that must be displayed and available on the **Show me everything** window, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
-    -   To monitor and improve your device performance using Now Assist in Virtual Agent, see [Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
+    -   To monitor and improve your device performance using ServiceNow Otto in Virtual Agent, see [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
 

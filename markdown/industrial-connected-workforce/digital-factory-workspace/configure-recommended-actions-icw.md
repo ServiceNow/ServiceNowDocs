@@ -26,15 +26,15 @@ Role required: sn\_nb\_action.next\_best\_action\_author or sn\_icw.application\
 
 2.  Configure Recommended Actions for the Industrial Connected Workforce for either tasks, standard tasks, or rules for recommended actions.
 
-<table id="choicetable_wkw_13n_pgc"><thead><tr><th align="left" id="d24731e118">
+<table id="choicetable_wkw_13n_pgc"><thead><tr><th align="left" id="d24765e118">
 
 What to configure
 
-</th><th align="left" id="d24731e121">
+</th><th align="left" id="d24765e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d24731e127">
+</th></tr></thead><tbody><tr><td id="d24765e127">
 
 **Task \(deviation and root cause analysis\)**
 
@@ -42,7 +42,7 @@ Description
 
 From the list of contexts, select Industrial tasks context and make changes as needed.
 
-</td></tr><tr><td id="d24731e136">
+</td></tr><tr><td id="d24765e136">
 
 **Standard task**
 
@@ -50,7 +50,7 @@ From the list of contexts, select Industrial tasks context and make changes as n
 
 From the list of contexts, select the Industrial standard task context and make changes as needed.
 
-</td></tr><tr><td id="d24731e145">
+</td></tr><tr><td id="d24765e145">
 
 **Rule for recommended actions**
 

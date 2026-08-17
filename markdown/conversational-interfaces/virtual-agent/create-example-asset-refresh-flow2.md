@@ -18,7 +18,7 @@ Each Decision branch introduces additional workflows. After creating our main As
 
 ## Before you begin
 
-[Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
+[Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
 
 Role required: virtual\_agent\_admin or admin
 

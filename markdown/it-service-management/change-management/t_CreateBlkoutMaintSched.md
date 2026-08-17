@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 7
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
 
@@ -28,11 +28,13 @@ Conflict detection uses blackout and maintenance schedules to find potential sch
 
 **Note:** To use the business service as the source for a blackout or maintenance schedule, the business service must be converted to an application service. For instructions, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
 
+Conflict detection evaluates both the parent and child configuration items \(CIs\) of any CI in scope. A blackout or maintenance schedule applied to an upstream service, or CI also captures downstream child CIs that appear in change requests. For the full list of relationships that trigger a conflict, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md).
+
 ## Procedure
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d341459e97">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d347307e106">
 
 **Create a blackout schedule**
 
@@ -42,7 +44,7 @@ Conflict detection uses blackout and maintenance schedules to find potential sch
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d341459e130">
+</td></tr><tr><td id="d347307e139">
 
 **Create a maintenance schedule**
 
@@ -93,7 +95,26 @@ Source
 
 </td><td>
 
-Source of the blackout or maintenance schedule. The available options are **Service**, **Change Request**, and **CI Class**.**Note:** When you select **Service** or **Change Request** from the Source list, the **Applies to** field does not appear. The **Applies to** field appears if you select **CI Class** as the Source, which in turn enables the selection of a **CI Class**.
+Source of the blackout or maintenance schedule. Select one of the following options to scope the schedule:-   **Service**: Applies the schedule to an application service. The business service must be converted to an application service to be available as a source.
+-   **Change Request**: Applies the schedule to change requests that match the conditions you define.
+-   **CI Class**: Applies the schedule to a configuration item \(CI\) class and its child classes. This option enables the **Applies to** field for selecting the CI class.
+**Note:** When you select **Service** or **Change Request** from the Source list, the **Applies to** field does not appear. The **Applies to** field appears if you select **CI Class** as the Source, which in turn enables the selection of a **CI Class**.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+**Choosing a Source**
+
+</td></tr><tr><td>
+
+When to use each source
+
+</td><td>
+
+Use **Service** when the schedule must cover every CI that supports a given application service.Use **Change Request** when the schedule applies to a defined set of change requests rather than to CIs.
+
+Use **CI Class** when the schedule applies broadly to a class of CIs and its children.
+
+The selected source determines which fields, such as **Applies to**, appear on the form, and how conflict detection evaluates the schedule. For details, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md).
 
 </td></tr><tr><td>
 
@@ -111,12 +132,16 @@ Condition
 
 </td><td>
 
-Conditions to specify the CIs that the schedule applies to.This field does not appear when the **Applies to** field is set to **None**.
+Conditions to specify the CIs that the schedule applies to.Use this field to scope a blackout against a set of CIs. For example, all CIs in a class that meet a chosen attribute.
+
+This field does not appear when the **Applies to** field is set to **None**.
+
+To exclude specific change
 
  **Note:** Related fields used in conditions are not evaluated for blackout or maintenance schedules.
 
 </td></tr></tbody>
-</table>3.  Open the form context menu and click **Save**.
+</table>3.  Open the form context menu and select **Save**.
 
     A blackout or maintenance schedule is created and the Schedule Entries, Child Schedules, and Referenced By related lists appear in the change.
 
@@ -128,7 +153,7 @@ Conditions to specify the CIs that the schedule applies to.This field does not a
 
 4.  Create one or more schedule entries by completing the following steps:
 
-    1.  In the Schedule Entries related list of the new maintenance schedule, click **New**.
+    1.  In the Schedule Entries related list of the new maintenance schedule, select **New**.
 
     2.  Enter a unique name and define the time during which you want to schedule the maintenance.
 
@@ -136,10 +161,22 @@ Conditions to specify the CIs that the schedule applies to.This field does not a
 
     **Note:** To delete the schedule created, select **Delete**. If you delete a schedule, the child schedules and schedule entries associated with the schedule would be deleted automatically.
 
+5.  **Optional**: Add a child schedule to refine the blackout coverage.
+
+    1.  In the child schedules related list, select **New**.
+
+    2.  Define the child schedule for the specific set of CIs or time window you want to add under this blackout.
+
+        A child schedule inherits from the parent blackout and lets you apply a more specific window to a subset of CIs.
+
 
 ## Result
 
 A blackout or maintenance schedule is created.
+
+**Important:** Conflict detection evaluates not only the CI explicitly named in a change request, but also its parent and child CIs by walking the relationships defined in the configuration management database \(CMDB\). As a result, a schedule you apply to an upstream business service or CI also covers the downstream CIs associated with that service or CI. For example, a blackout schedule on a payment service captures a change request that targets a database CI that supports that service, because the database is a child of the service.
+
+To scope a schedule by CI class and its children, set **Source** to **CI Class** and select a class in the **Applies to** field. The schedule then applies to all CIs in that class and any child classes.
 
 ## What to do next
 

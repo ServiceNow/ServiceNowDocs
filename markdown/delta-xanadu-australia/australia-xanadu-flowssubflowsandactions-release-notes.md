@@ -1,26 +1,26 @@
 ---
-title: Combined Flows, Subflows, and Actions release notes for upgrades from Xanadu to Australia
-description: Consolidated page of all release notes for Flows, Subflows, and Actions from Xanadu to Australia.
+title: Combined Flows, subflows, and actions release notes for upgrades from Xanadu to Australia
+description: Consolidated page of all release notes for Flows, subflows, and actions from Xanadu to Australia.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-flowssubflowsandactions-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
-# Combined Flows, Subflows, and Actions release notes for upgrades from Xanadu to Australia
+# Combined Flows, subflows, and actions release notes for upgrades from Xanadu to Australia
 
-Consolidated page of all release notes for Flows, Subflows, and Actions from Xanadu to Australia.
+Consolidated page of all release notes for Flows, subflows, and actions from Xanadu to Australia.
 
 ## How to use this page
 
-To help you prepare for your upgrade, we have combined the cross-family Flows, Subflows, and Actions release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Australia.
+To help you prepare for your upgrade, we have combined the cross-family Flows, subflows, and actions release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Australia.
 
 **Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
 
-## Important information for upgrading Flows, Subflows, and Actions to Australia
+## Important information for upgrading Flows, subflows, and actions to Australia
 
 Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
 
@@ -66,10 +66,12 @@ An earlier version of the save as you go feature was released and withdrawn from
 
  The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
 
+ The Australia release restricts the default flow reporting level available on production instances to the basic reporting level. While you can't set all flows to the full reporting level, you can still set individual flows to the full reporting level. For more information about setting a flow's reporting level, see [Activate flow reporting](https://www.servicenow.com/docs/access?context=enable-flow-reporting&family=australia&ft:locale=en-US).
+
 </td></tr></tbody>
 </table>## New features
 
-Between your current release family and Australia, new features were introduced for Flows, Subflows, and Actions.
+Between your current release family and Australia, new features were introduced for Flows, subflows, and actions.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -137,7 +139,7 @@ Use flow data to run an AI agent and configure the expected agent output for use
 </td></tr></tbody>
 </table>## Changes
 
-Between your current release family and Australia, some changes were made to existing Flows, Subflows, and Actions features.
+Between your current release family and Australia, some changes were made to existing Flows, subflows, and actions features.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -182,7 +184,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Removed
 
-Between your current release family and Australia, some Flows, Subflows, and Actions features or functionality were removed.
+Between your current release family and Australia, some Flows, subflows, and actions features or functionality were removed.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -227,7 +229,7 @@ The now.assist.creator role is no longer a required role to use generative AI fe
 </td></tr></tbody>
 </table>## Deprecations
 
-Between your current release family and Australia, some Flows, Subflows, and Actions features or functionality were deprecated.
+Between your current release family and Australia, some Flows, subflows, and actions features or functionality were deprecated.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -272,7 +274,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Activation information
 
-Review information on how to activate Flows, Subflows, and Actions.
+Review information on how to activate Flows, subflows, and actions.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -319,7 +321,7 @@ Workflow Studio is a ServiceNow AI Platform feature that is active by default.
 </td></tr></tbody>
 </table>## Additional requirements
 
-If any additional requirements were introduced or changed for Flows, Subflows, and Actions we have noted them here.
+If any additional requirements were introduced or changed for Flows, subflows, and actions we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -364,7 +366,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Browser requirements
 
-If any specific browser requirements were introduced or changed for Flows, Subflows, and Actions we have noted them here.
+If any specific browser requirements were introduced or changed for Flows, subflows, and actions we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -409,7 +411,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Accessibility information
 
-Review details on accessibility information for Flows, Subflows, and Actions, such as specific requirements or compliance levels.
+Review details on accessibility information for Flows, subflows, and actions, such as specific requirements or compliance levels.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -454,7 +456,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Localization information
 
-If there are specific localization considerations for Flows, Subflows, and Actions we have noted them here.
+If there are specific localization considerations for Flows, subflows, and actions we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -499,7 +501,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Highlight information
 
-If there are specific highlight considerations for Flows, Subflows, and Actions we have noted them here.
+If there are specific highlight considerations for Flows, subflows, and actions we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 

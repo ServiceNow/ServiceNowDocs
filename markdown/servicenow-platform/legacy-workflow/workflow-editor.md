@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-08"
 reading_time_minutes: 4
 breadcrumb: [Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,6 +21,8 @@ The Workflow Editor is an interface for creating and modifying workflows by arra
 You can manage multiple workflows in the same screen, create custom workflow activities, and use existing activities as data sources. Users with the workflow\_creator role can create workflows. Users with the workflow\_admin role can create, modify, delete, and publish workflows.
 
 To open the Workflow Editor, navigate to **Workflow** &gt; **Workflow Editor**. For information about using the editor, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md).
+
+**Warning:** The Next Experience UI does not fully support the classic Workflow Editor. For the best UI experience, use the Core UI instead.
 
 ## Welcome screen
 

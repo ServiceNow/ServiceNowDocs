@@ -54,12 +54,12 @@ Ensure you avoid pinning the chat window and resizing on these screen resolution
 
 Want to learn more? Visit these resources about Now Assist in Virtual Agent enhanced chat.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
 
 -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md)
--   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md)
+-   [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md)
 -   [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/prerequisites-enhanced-chat.md)
 -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
--   [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
--   [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md)
+-   [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
+-   [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md)
 

@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-By default, the bubble chart page displays a maximum of 500 bubbles. If you have more than 500 assessed business applications in your application landscape, you can configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to increase this limit and display all assessed applications as bubbles on the bubble chart page.
+By default, the bubble chart page displays a maximum of 500 bubbles. If you have more than 500 assessed business applications in your application landscape, configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to increase this limit. This displays all assessed applications as bubbles on the bubble chart page.
 
 ## Procedure
 

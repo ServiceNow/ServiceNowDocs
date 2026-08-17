@@ -40,12 +40,12 @@ Work with table structure and your data records in spreadsheet format within **S
 
 **Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
 
--   Add a new data record. See [Add a new data record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Add a new data record. See [Add a data record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Edit individual data records. See [Edit individual data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Sort your data records. See [Sort your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Filter your data records. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Edit column field properties. See [Edit column field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Add new columns. See [Add new columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Add new columns. See [Add columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Duplicate an existing column. See [Duplicate an existing column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Reorder columns. See [Reorder columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 -   Set column visibility. See [Set column visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).

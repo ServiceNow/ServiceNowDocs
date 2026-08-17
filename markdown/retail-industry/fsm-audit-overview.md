@@ -1,53 +1,58 @@
 ---
 title: Field Service for Audit
-description: Field Service for Audit is a horizontal ServiceNow scoped app that provides a shared audit-task data model and a pluggable access-control framework so consuming apps can build audit experiences without duplicating infrastructure.
+description: Field Service for Audit is a shared plugin that any product can use to create, assign, and track audit tasks on a common data model and access structure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Retail Store Audit Operations, Explore, Retail]
 ---
 
 # Field Service for Audit
 
-Field Service for Audit is a horizontal ServiceNow scoped app that provides a shared audit-task data model and a pluggable access-control framework so consuming apps can build audit experiences without duplicating infrastructure.
+Field Service for Audit is a shared plugin that any product can use to create, assign, and track audit tasks on a common data model and access structure.
 
-## Overview
+Field Service for Audit \(`sn_fsm_audit`\) provides the shared infrastructure that Retail Store Audit and other consuming products use to create and manage audit work. It defines a single audit task type, three roles, and a consistent outcome model so audit results are comparable across teams and products.
 
-Field Service for Audit \(`sn_fsm_audit`\) is a horizontal infrastructure app that every consuming app — both ServiceNow-shipped vertical apps and customer-built customizations — can rely on for a single, consistent audit-task record shape and a single, shared access-control framework.
+Field Service for Audit manages the underlying audit task data and access rules. Auditors read, update, and record outcomes on audit tasks. Audit Admins manage and delete audit task records. Authors create audit tasks on behalf of a workflow or process.
 
-Before this app existed, each consuming team that needed audit work built its own task structure and its own access rules. That pattern caused data-shape drift between deployments, forced this app into the release cycle for every consumer access change, and made cross-deployment reporting unreliable.
+**Note:** Field Service for Audit does not include any user experience in current version.
 
-## What Field Service for Audit provides
+## Audit tasks
 
--   **A shared audit-task data model** — one table, `wm_audit_task`, specializes the platform work-management task type \(`wm_task`\) so all assignment, scheduling, state, and fulfillment data is inherited from the platform.
--   **A pluggable access-control framework** — consuming apps register their own access rules in their own scope and on their own release cadence. This app ships unchanged when a consumer changes its access logic.
--   **Permissive default access** — FSM-only deployments with no consuming app registered fall back to role-based default-allow behavior, so the app works out of the box.
+An audit task \(`wm_audit_task`\) is a work item that tracks and records the outcome of a single piece of audit work. It inherits standard assignment, scheduling, and lifecycle fields from the platform work-management task type and adds two audit-specific fields.
 
-**Important:** This app ships no user-facing UI. All workspace pages, portal surfaces, mobile screens, form layouts, and UI actions for audit work belong to consuming apps.
+|Field|Description|Set by|
+|-----|-----------|------|
+|Result|The Auditor's outcome — Pass or Fail. Empty until the Auditor sets it on completion.|Auditor|
+|Task Plan Template Item|Links the audit task to a reusable task template. Visible only when the Task Plan Templates application is installed.|Author or consuming product|
 
-## Key concepts
+When an audit task is completed or cancelled, all fields become read-only for every role.
 
-|Concept|Description|
-|-------|-----------|
-|Audit task|A specialized work-management task \(`wm_audit_task`\) representing a discrete piece of audit work, with a pass/fail result field and all inherited `wm_task` fields.|
-|Extension point|A ServiceNow platform scripted extension point that consuming apps implement to plug their own access rules into this app without modifying it.|
-|Consumer|Any ServiceNow scoped app \(vertical or custom\) that creates audit tasks, registers access rules, or grants users audit roles.|
-|Default-allow|The fallback behavior when no registered consumer extension applies — read and write access is granted based on role alone.|
-|Horizontal app|An infrastructure app with no end-user UI of its own, designed to be consumed by multiple vertical or custom apps.|
+## Access
+
+Access to audit tasks is determined by role. Auditors can view and update tasks. Audit Admins can view, update, and delete them. Authors can create tasks but cannot open or edit existing ones.
+
+Consuming products can set up additional access rules to further refine which audit tasks each Auditor can see and fulfill — for example, limiting visibility to tasks linked to cases already assigned to them.
+
+## Roles
+
+|Role|Persona|What this role enables|
+|----|-------|----------------------|
+|`sn_fsm_audit.author`|Consumer workflow or system actor|Create audit tasks. Access is limited to the creation form — cannot open or edit a task after it is saved.|
+|`sn_fsm_audit.auditor`|Auditor or compliance reviewer|Read and update audit tasks. Set the Pass or Fail result on completion. Cannot delete tasks.|
+|`sn_fsm_audit.audit_admin`|Privileged administrator|Full lifecycle access — create, read, update, and delete audit tasks.|
 
 **Parent Topic:**[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
 
 **Related topics**  
 
 
-[Audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-tasks.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[How access to audit tasks works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-access-control.md)
-
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-roles.md)
+[Grant Field Service for Audit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-t-grant-roles.md)
 
 [Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-reference.md)
 

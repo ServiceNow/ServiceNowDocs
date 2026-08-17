@@ -84,7 +84,7 @@ User who implements and sets up Service Operations Workspace for ITSM.
 |Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)|Administrator|
 |Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
 
-For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-sow-itom.md).
+For information about key features in Service Operations Workspace for ITOM, see Exploring Service Operations Workspace for ITOM.
 
 ## Service Operations Workspace for ITSM workflow for an agent
 

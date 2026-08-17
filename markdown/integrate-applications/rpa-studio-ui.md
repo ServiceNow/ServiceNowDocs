@@ -18,7 +18,7 @@ Learn about the RPA Desktop Design Studio user interface.
 
 With the RPA Desktop Design Studio home page, you can create and open your automation projects, review your work on these projects, and access resources that help you design automations. The default home page of the RPA Desktop Design Studio is shown in the following example.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
 
 \[Omitted image "rpa-studio-home.png"\] Alt text: Home page of RPA Desktop Design Studio.
 
@@ -42,7 +42,7 @@ Create Automation
 
 </td><td>
 
-Create an unattended and attended automation project. For more information, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md) and [Create an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
+Create an unattended and attended automation project. For more information, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md) and [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
 
 </td></tr><tr><td>
 
@@ -145,13 +145,13 @@ The area marked in red in the following example is the Design surface. You creat
 
 You can also create automations by dragging the activities and variables from the Project Explorer pane or by dragging methods and events from the Object Explorer pane.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Using Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-now-assist-rpa-hub.md).
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see .
 
 \[Omitted image "design-surface.png"\] Alt text: Design surface.
 
 The Start and End components are the default components in every activity. They’re the starting and ending point of an activity. You can't delete these components.
 
-Enhance the automation logic with text instructions, either on the design surface or by selecting a component or by using the Now Assist for RPA Hub application. For more information, see [Build an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
+Enhance the automation logic with text instructions, either on the design surface or by selecting a component or by using the Now Assist for RPA Hub application. For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
 
 When you close this application, you’re logged out of the RPA Desktop Design Studio and the ServiceNow instance.
 
@@ -635,7 +635,7 @@ Build an automation
 
 Ctrl+EnterThis option is available only when the Now Assist for RPA Hub is enabled.
 
-For more information, see [Build an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
+For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
 
 </td></tr><tr><td>
 

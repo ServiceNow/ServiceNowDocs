@@ -8,9 +8,9 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-keywords: [AI agent, Now Assist, APO, Accounts Payable Operations, invoice management, AI automation]
-breadcrumb: [Recommend invoice owner AI agent, Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+reading_time_minutes: 2
+keywords: [AI agent, APO, Accounts Payable Operations, Invoice management, AI automation, Invoice owner prediction, Recommend Invoice Owner, Business owner assignment, Non-PO invoices, Credit memo processing, Prediction settings, Confidence threshold, Historical invoice analysis, Automatic assignment]
+breadcrumb: [Recommend invoice owner AI agent, Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configuring invoice owner prediction settings
@@ -86,4 +86,6 @@ No
 
 
 [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md)
+
+[Resolution plan scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md)
 

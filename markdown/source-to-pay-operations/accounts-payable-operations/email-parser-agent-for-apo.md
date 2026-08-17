@@ -1,20 +1,21 @@
 ---
 title: Email parser agent for APO
-description: The Email parser is an intelligent AI agent that automatically processes incoming emails \(Level 1 support cases and tasks\) from suppliers and invoice owners, identifies actionable requests, classifies them, and routes them to the appropriate workflows to create invoice cases.s
+description: The Email parser AI agent processes incoming emails from suppliers and invoice owners. This agent identifies and classifies actionable requests, and routes them to the appropriate workflows to create invoice cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/email-parser-agent-for-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, AI agent, Email Parser, Structured data extraction, Supplier, payment acceleration request]
+breadcrumb: [Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Email parser agent for APO
 
-The Email parser is an intelligent AI agent that automatically processes incoming emails \(Level 1 support cases and tasks\) from suppliers and invoice owners, identifies actionable requests, classifies them, and routes them to the appropriate workflows to create invoice cases.s
+The Email parser AI agent processes incoming emails from suppliers and invoice owners. This agent identifies and classifies actionable requests, and routes them to the appropriate workflows to create invoice cases.
 
 The agent intelligently distinguishes between request types such as invoice inquiries, payment inquiries, payment acceleration requests, and payment term updates. This verifies that each query is categorized correctly and routed to the appropriate business process.
 
@@ -34,7 +35,7 @@ As a prerequisite, you must set:
 
 When a supplier or invoice owner sends an email, the agent receives and processes the message. The agent identifies the sender's email address and validates that the sender is a registered, active supplier contact. It then analyzes the email content to determine whether it contains one or more of the following Accounts Payable Operations request types: invoice inquiry, payment inquiry.
 
-If the email matches one of the recognized request types, the agent extracts the relevant details, maps the request type to the appropriate case category and subcategory, and initiates a case creation workflow. Informational emails that don't contain actionable requests aren't processed.
+If the email matches one of the recognized request types, the agent extracts the relevant details and maps the request type to the appropriate case category and subcategory. The agent then initiates a case creation workflow. Informational emails that don't contain actionable requests aren't processed.
 
 ## Case creation behavior
 

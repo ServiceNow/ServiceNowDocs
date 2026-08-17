@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Configure Cloud Workspace, Configure CW, Setup Cloud Workspace, Create Cloud Workspace, Suspend Cloud Workspace, Scan Cloud Workspace]
-breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Creating configurations

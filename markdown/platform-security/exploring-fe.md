@@ -18,7 +18,7 @@ Learn the details of Field Encryption Starter and Field Encryption Enterprise
 
 \[Omitted video\] Description: This video provides an overview of Field Encryption, including how it protects sensitive data at rest by encrypting individual fields and attachments, and how its key components work together.
 
-By default, Field Encryption blocks all users, scripts, and system processes from accessing encrypted data. However, Field Encryption has an access control feature that is used in combination with, but also separate from, Access Control Lists \(ACLs\) to ensure only the correct users, scripts, or system processes can access encrypted data.
+By default, Field Encryption blocks all users, scripts, and system processes from accessing encrypted data. However, Field Encryption has an access control feature that works in combination with Access Control Lists \(ACLs\). This feature is also separate from ACLs and ensures only the correct users, scripts, or system processes can access encrypted data.
 
 You can configure Field Encryption access control feature through a combination of Field Encryption Modules, Encrypted Field Configurations, and Module Access Policies \(MAPs\). The next image shows how these three components work together.
 
@@ -28,11 +28,11 @@ By default, encrypted data is locked down from all access. A MAP defines which a
 
 \[Omitted image "fe\_map\_diagram.svg"\] Alt text: Module access policy flow
 
-You can configure multiple MAPs to apply different access rules to different encrypted fields. In this diagram, Module Access Policy A covers columns A, B, C, and D, and Module Access Policy B covers column E — each with its own rules per accessor.
+You can configure multiple MAPs to apply different access rules to different encrypted fields. In this diagram, Module Access Policy A covers columns A, B, C, and D. Module Access Policy B covers column E. Each policy has its own rules per accessor.
 
 \[Omitted image "fe\_map\_example\_diagram.svg"\] Alt text: Multiple module access policy example
 
-Access rules can differ between two policies for each accessor type. The following table reflects the access rules defined for Module Access Policy A, applied to columns A, B, C, and D, and Module Access Policy B, applied to column E.
+Access rules can differ between two policies for each accessor type. The following table reflects the access rules defined for Module Access Policy A and Module Access Policy B. Module Access Policy A applies to columns A, B, C, and D. Module Access Policy B applies to column E.
 
 <table><thead><tr><th>
 

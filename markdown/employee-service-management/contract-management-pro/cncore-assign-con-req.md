@@ -34,8 +34,8 @@ When a contract user submits a request, it is automatically assigned to a group 
 
 4.  Assign the request to yourself or to another member from the assigned group.
 
-    -   To assign the request to yourself, click **Assign to me**.
-    -   To assign the request to another member, on the **Details** tab, select a user in the **Assigned to** field and click **Save**.
+    -   To assign the request to yourself, select **Assign to me**.
+    -   To assign the request to another member, on the **Details** tab, select a user in the **Assigned to** field and select **Save**.
     \[Omitted image "cmpro-assign-lr.png"\] Alt text: Assign request in your workspace.
 
 

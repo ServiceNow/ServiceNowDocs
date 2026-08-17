@@ -72,6 +72,13 @@ Accelerators that offer USPS specific versions are indicated as such in the sub-
 
 **Note:** The [UX: Virtual Agent Experience Design or Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.md) accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
 
+## Optimization Accelerators
+
+|Accelerator|Guided package|Guided + Platform Optimization|Advanced package|Total package|Integrated Success|On-Demand|
+|:----------|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
+|[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
+|[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
+
 ## Strategy Accelerators
 
 Use [Strategy Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/strategy-accelerators.md) to go deeper on organizational and governance best practices with the ServiceNow platform and upskill your team to maintain business performance and drive success.
@@ -196,4 +203,17 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[TuneUp Your Virtual Agent - Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Virtual Agent – Performance Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md)|✓|✓|✓|✓|✓|✓| |
+
+**Related topics**  
+
+
+[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+
+[Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/architecture-accelerators.md)
+
+[Optimization Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-accelerators.md)
+
+[Strategy Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/strategy-accelerators.md)
+
+[Technical Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/technical-accelerators.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for App Engine
-description: Use Now Assist for App Engine to supercharge custom applications with AI agents and skills.
+title: ServiceNow Otto for App Engine
+description: Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.html
 release: australia
@@ -9,13 +9,13 @@ classification: now-assist-for-app-engine
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
+keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Now Assist for App Engine
+# ServiceNow Otto for App Engine
 
-Use Now Assist for App Engine to supercharge custom applications with AI agents and skills.
+Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 
 ## Get started
 
@@ -29,15 +29,15 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 
 </td><td>
 
-[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
+[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
@@ -53,7 +53,7 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 ## Troubleshoot and get help
 
--   [Ask questions and explore other resources for Now Assist for App Engine in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Ask questions and explore other resources for ServiceNow Otto for App Engine in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

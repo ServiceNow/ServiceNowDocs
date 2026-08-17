@@ -14,9 +14,9 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Elements refer to the visual objects you can place on a dashboard, including filters.
 
-Dashboards contain a combination of visual elements or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Now Assist Context Menu, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
+Dashboards contain a combination of visual elements or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, ServiceNow Otto context menu, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
 
-\[Omitted image "add-new-element-menu.png"\] Alt text: Add new element menu showing filter group, heading, image, list, Now Assist Context Menu, Process Mining Map, Rich text, and Usage Insights Funnel. Not shown: Data visualization, divider, Filter, Workbench
+\[Omitted image "add-new-element-menu.png"\] Alt text: Add new element menu showing filter group, heading, image, list, ServiceNow Otto context menu, Process Mining Map, Rich text, and Usage Insights Funnel. Not shown: Data visualization, divider, Filter, Workbench
 
 -   **[Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)**
 
@@ -50,9 +50,9 @@ Dashboards contain a combination of visual elements or funnels to show data. Ava
 
     Lists show table records. They support Platform Analytics filters and drilling down from data visualizations by default.
 
--   **Now Assist Context Menu**
+-   **ServiceNow Otto context menu**
 
-    The Now Assist Context Menu enables viewers of the dashboard to create AI-generated summaries or insights based on the data in the dashboards or tabs.
+    The ServiceNow Otto context menu enables viewers of the dashboard to create AI-generated summaries or insights based on the data in the dashboards or tabs.
 
 -   **Rich text**
 

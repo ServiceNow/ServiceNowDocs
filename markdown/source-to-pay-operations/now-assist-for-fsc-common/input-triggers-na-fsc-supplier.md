@@ -9,8 +9,7 @@ classification: now-assist-for-fsc-common
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist Security Operations]
-breadcrumb: [Customize supplier summarization skill, Configure, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
+breadcrumb: [Customize supplier summarization skill, Configure, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
 
 # Skill inputs for Supplier summarization for fulfillers skill
@@ -23,15 +22,15 @@ Inputs identify the data used for a skill. Inputs include the table and fields u
 
 You can modify inputs, but you can't modify a skill's data source. The data source contains the tables and fields that the skill relies on.
 
-## Now Assist skills for Now Assist for Common Finance and Supply Chain features
+## AI skills for Common Finance and Supply Chain features
 
-The Now Assist for Common Finance and Supply Chain features includes the Supplier summarization for fulfillers skill.
+The ServiceNow Otto for Finance and Procurement includes the Supplier summarization for fulfillers skill.
 
 ## Supplier summarization for fulfillers skill
 
 Inputs for the Supplier summarization for fulfillers skill identify the table and fields used when the summary is generated for a supplier.
 
-The following table lists the inputs for the Supplier summarization for fulfillers skill from the Choose input for suppliers in the Now Assist Admin console.
+The following table lists the inputs for the Supplier summarization for fulfillers skill from the Choose input for suppliers in the AI Admin Hub.
 
 <table id="table_c1c_hlg_lgc"><thead><tr><th>
 

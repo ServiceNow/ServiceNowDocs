@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 43
+reading_time_minutes: 48
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -1092,7 +1092,7 @@ Details about the state of the reservation for the location.Data type: Object
 
 result.reservation.location.state.display\_value
 
-</td><td id="d3517e4999">
+</td><td id="d3367e4999">
 
 Display value for the current state of the reservation, such as confirmed.Data type: String
 
@@ -1100,7 +1100,7 @@ Display value for the current state of the reservation, such as confirmed.Data t
 
 result.reservation.location.state.value
 
-</td><td id="d3517e5010">
+</td><td id="d3367e5010">
 
 Internal value for the current state of the reservation, such as 2.Data type: String
 
@@ -3569,17 +3569,37 @@ Return results:
 
 Creates workplace reservations for the same time but different dates, such as weekly, monthly, or every other week.
 
+### Timezone handling
+
+All **dtstart** and **until** values must be provided as local wall-clock time in the timezone specified by **tzid**. Do not use UTC or append a `Z` suffix.
+
+For example, to create a recurring reservation at 2:30 PM Chicago time:
+
+-   Accepted format: `"dtstart": "2025-12-08T14:30:00", "tzid": "America/Chicago"`
+-   Unaccepted format \(UTC — not recommended\): `"dtstart": "2025-12-08T20:30:00Z"`
+
+Tip: The system uses **tzid** to correctly handle DST transitions. A reservation set for 2:30 PM will remain at 2:30 PM local time regardless of whether the timezone is currently observing standard time or daylight saving time.
+
+|`freq` value|Required companion fields|
+|------------|-------------------------|
+|`DAILY`|None beyond `interval`|
+|`WEEKLY`|`byweekday` \(array of 1 or more day codes\)|
+|`MONTHLY`|Either `bymonthday` **or** \(`bysetpos` + single-value `byweekday`\)|
+|`YEARLY`|No additional fields beyond `dtstart` / `interval`|
+
 ### URL format
 
 Versioned URL: `/api/sn_wsd_rsv/{api_version}/recurring_reservation/create_series`
 
 Default URL: `/api/sn_wsd_rsv/recurring_reservation/create_series`
 
+**Note:** Available versions are specified in the REST API Explorer. For scripted REST APIs there is additional version information on the Scripted REST Service form.
+
 **Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
-<table class="rest_api_path_parameters"><thead><tr><th>
+<table id="table_uyh_ylm_dkc" class="rest_api_path_parameters"><thead><tr><th>
 
 Name
 
@@ -3600,7 +3620,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 |----|-----------|
 |None| |
 
-<table class="rest_api_request_body"><thead><tr><th>
+<table id="table_wyh_ylm_dkc" class="rest_api_request_body"><thead><tr><th>
 
 Name
 
@@ -3612,142 +3632,151 @@ Description
 
 recurringPattern
 
-</td><td id="recurringPattern-reserv-entry">
+</td><td>
 
 Details about the recurring pattern for the reservation.Data type: Object
 
 ```
 "recurringPattern": {
+  "freq": "String",
+  "interval": Number,
+  "dtstart": "String",
+  "until": "String",
+  "byweekday": [Array],
   "duration": Number,
-  "label": "String",
-  "options": {Object},
-  "repeats": "String",
-  "startDate": "String"
+  "tzid": "String"
 }
 ```
+
+</td></tr><tr><td>
+
+recurringPattern.bymonthday
+
+</td><td>
+
+Conditional. Required if **freq** is `MONTHLY`, unless using **bysetpos** + `byweekday`. Day of the month for the occurrence. Valid values:
+
+-   `1`–`31`
+-   or `-1` for last day of month.
+
+Mutually exclusive with **bysetpos**.
+
+Data type: Number
+
+</td></tr><tr><td>
+
+recurringPattern.bysetpos
+
+</td><td>
+
+Conditional Used together with **byweekday** for "nth weekday of month" patterns \(for example, 2nd Monday\). Valid values:
+
+-   `1`
+-   `2`
+-   `3`
+-   `4`
+-   `-1` \( = last\).
+
+Mutually exclusive with **bymonthday**.
+
+Data type: Number
+
+</td></tr><tr><td>
+
+recurringPattern.byweekday
+
+</td><td>
+
+Conditional. Required if **freq** is `WEEKLY`. Days of the week that the reservable is needed. Also used with `bysetpos` for monthly "nth weekday" patterns. Valid values:
+
+-   `MO`: Monday
+-   `TU`: Tuesday
+-   `WE`: Wednesday
+-   `TH`: Thursday
+-   `FR`: Friday
+-   `SA`: Saturday
+-   `SU`: Sunday
+
+For example, `["MO", "WE", "FR"]` for Monday, Wednesday, and Friday. If `freq` is `WEEKLY`, `count` is 5, and `byweekday` contains 3 days, then the total number of occurrences is count × byweekday.length \(5 × 3 = 15\).
+
+Data type: Array of Strings, or JSON-stringified array
+
+</td></tr><tr><td>
+
+recurringPattern.count
+
+</td><td>
+
+Conditional. Number of occurrences to generate. Mutually exclusive with **until** — exactly one of **until** or **count** is required.Data type: Number
+
+</td></tr><tr><td>
+
+recurringPattern.dtstart
+
+</td><td>
+
+Required. Start date and time for the recurring pattern, expressed as local wall-clock time in the timezone specified by **freq**. Do not include a `Z` suffix — the value represents the local time at the building. For example, `2025-12-08T14:30:00` means 2:30 PM in the timezone specified by **freq**.
+
+Data type: String
+
+Format: `YYYY-MM-DDTHH:mm:ss`
 
 </td></tr><tr><td>
 
 recurringPattern.duration
 
-</td><td id="recurringPattern_duration-reserv-entry">
+</td><td>
 
-Required if not a shift-based reservation. Length of time to reserve the reservable.
+Required \(except shift-based reservations\). Length of time to reserve the reservable, in milliseconds. For example, `3600000` = 1 hour.Data type: Number****
 
-Data type: Number
-
-Unit: Seconds
+Unit: Milliseconds
 
 </td></tr><tr><td>
 
-recurringPattern.label
+recurringPattern.freq
 
-</td><td id="recurringPattern_label-reserv-entry">
+</td><td>
 
-Descriptive name for the recurring reservation.Data type: String
+Required. Repeating frequency for the reservation. Valid values \(case-sensitive\):
 
-</td></tr><tr><td>
-
-recurringPattern.options
-
-</td><td id="recurringPattern_options-reserv-entry">
-
-Required. Details about the options set for the recurring pattern.
-
-Data type: Object
-
-```
-"options": {
-  "count": Number,
-  "daysOfWeek": "String",
-  "every": Number,
-  "endDate": "String"
-}
-```
-
-</td></tr><tr><td>
-
-recurringPattern.options.count
-
-</td><td id="recurringPattern_options_count-reserv-entry">
-
-Required if not a shift-based reservation; ignored for shift-based reservations. Number of times to repeat the pattern.
-
-Data type: Number
-
-</td></tr><tr><td>
-
-recurringPattern.options.daysOfWeek
-
-</td><td id="recurringPattern_options_daysOfWeek-reserv-entry">
-
-Required if the **repeats** parameter is set to `weekly`.Days of the week that the reservable is needed.
-
-Valid values:
-
--   1 = Monday
--   2 = Tuesday
--   3 = Wednesday
--   4 = Thursday
--   5 = Friday
--   6 = Saturday
--   7 = Sunday
-
-For example, to specify Tuesday, Thursday, and Friday, pass 245 \(no delimiter\). If **repeats** is `weekly`, **count** is `5`, and **daysOfWeek** is`245`, then in the return results, the total is equal to `count*daysOfWeek.length` \(5\*3=15\).
+-   `DAILY`
+-   `WEEKLY`
+-   `MONTHLY`
+-   `YEARLY`
 
 Data type: String
 
 </td></tr><tr><td>
 
-recurringPattern.options.every
+recurringPattern.interval
 
-</td><td id="recurringPattern_options_every-reserv-entry">
+</td><td>
 
-Pattern repeat interval. For example, the value '2' indicates that the pattern repeats every 2 days or 2 months depending on the value of the **repeats** property.**Note:** This setting is not applicable to weekly repeat intervals. You can set the **repeats** property to `daily` and this value to `14` for biweekly repeat intervals.
+Optional. Pattern repeat interval. For example, the value `2` indicates that the pattern repeats every 2 days or 2 months depending on the value of **freq**.Data type: Number
 
-Data type: Number
-
-Default value: 1
+Default: `1`
 
 </td></tr><tr><td>
 
-recurringPattern.options.endDate
+recurringPattern.tzid
 
-</td><td id="recurringPattern_options_endDate-reserv-entry">
+</td><td>
 
-End date and time of the recurrence of the meeting, such as "2022-07-08T14:00:00Z".Data type: String
-
-Format: UTC yyyy-mm-dd hh:mm:ss
-
-</td></tr><tr><td>
-
-recurringPattern.repeats
-
-</td><td id="recurringPattern_options_repeats-reserv-entry">
-
-Required if not a shift-based reservation.Repeating pattern for the reservable.
-
-Valid values: \(case-sensitive\)
-
--   daily
--   monthly
--   weekly
-
-**Note:** The pattern repeat interval is set in the **options.every** property. The only valid repeat interval for weekly patterns is one.
+Required. IANA timezone name for the building where the reservation is located. All date and time values in the pattern \(**dtstart**, **until**\) must be expressed as local wall-clock time in this timezone.The system uses this timezone to generate occurrences with correct Daylight Saving Time \(DST\) handling — ensuring that a reservation at, for example, "2:30 PM every Monday" stays at 2:30 PM local time even across DST transitions. For example, `America/Chicago`, `Asia/Kolkata`, `Australia/Sydney`.
 
 Data type: String
 
 </td></tr><tr><td>
 
-recurringPattern.startDate
+recurringPattern.until
 
-</td><td id="recurringPattern_startDate-reserv-entry">
+</td><td>
 
-Required. Start date and time for the recurring pattern, such as "2022-07-08T14:00:00Z".
+Conditional. End date boundary for the recurrence, expressed as local wall-clock time in the timezone specified by **tzid**. Mutually exclusive with **count** — exactly one of **until** or **count** is required.
 
 Data type: String
 
-Format: UTC yyyy-mm-dd hh:mm:ss
+Format: ISO date or datetime, such as `2026-12-08` or `2026-12-08T23:59:59`
 
 </td></tr><tr><td>
 
@@ -3766,6 +3795,14 @@ Details about the recurring reservation to create.Data type: Object
   "subject": "String"
 }
 ```
+
+</td></tr><tr><td>
+
+reservation.attendees
+
+</td><td>
+
+Comma-separated sys\_ids of attendees.Data type: String \(glide\_list of sys\_user\)
 
 </td></tr><tr><td>
 
@@ -3798,6 +3835,14 @@ Table: Workplace Location \[sn\_wsd\_core\_workplace\_location\]
 
 </td></tr><tr><td>
 
+reservation.requested\_for
+
+</td><td>
+
+Sys\_id or email of the user the reservation is for.Data type: String
+
+</td></tr><tr><td>
+
 reservation.reservable\_module
 
 </td><td>
@@ -3808,13 +3853,13 @@ Data type: String
 
 Table: Reservable Module \[sn\_wsd\_rsv\_reservable\_module\]
 
-</td></tr><tr><td>
+</td></tr><tr id="shift-update_reserv-row"><td>
 
 reservation.shift
 
-</td><td>
+</td><td id="shift-update_reserv-entry">
 
-Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
+Conditional. Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **duration** parameter isn't required — duration derives from the shift.
 
 For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-reservation-setup.md).
 
@@ -3831,6 +3876,191 @@ reservation.subject
 Required. Subject of the meeting associated with the reservation.
 
 Data type: String
+
+</td></tr></tbody>
+</table>### Legacy recurringPattern format \(still accepted\)
+
+The legacy format is still accepted but is silently converted to the RRULE format server-side. Times can be provided in UTC format \(with `Z` suffix\) — the server automatically converts them to the building's local timezone during processing. New integrations should use the RRULE format with `tzid` above.
+
+<table id="table_i3v_kmm_dkc"><thead><tr><th>
+
+Legacy field
+
+</th><th>
+
+Maps to \(RRULE\)
+
+</th><th>
+
+ 
+
+</th></tr></thead><tbody><tr id="recurringPattern-reserv-row"><td>
+
+recurringPattern
+
+</td><td>
+
+**recurringPattern**
+
+</td><td>
+
+Details about the recurring pattern for the reservation.**Note:** Only the Object structure is legacy.
+
+Data type: Object
+
+```
+"recurringPattern": {
+  "duration": Number,
+  "label": "String",
+  "options": {Object},
+  "repeats": "String",
+  "startDate": "String"
+}
+```
+
+</td></tr><tr id="recurringPattern_duration-reserv-row"><td>
+
+recurringPattern.duration
+
+</td><td>
+
+**duration**
+
+</td><td>
+
+Required if not a shift-based reservation. Length of time to reserve the reservable.Data type: Number
+
+Unit: Milliseconds
+
+</td></tr><tr id="recurringPattern_label-reserv-row"><td>
+
+recurringPattern.label
+
+</td><td>
+
+-
+
+</td><td>
+
+Descriptive name for the recurring reservation.Data type: String
+
+</td></tr><tr id="recurringPattern_options-reserv-row"><td>
+
+recurringPattern.options
+
+</td><td>
+
+-
+
+</td><td>
+
+Required. Details about the options set for the recurring pattern.Data type: Object
+
+```
+"options": {
+  "count": Number,
+  "daysOfWeek": "String",
+  "every": Number,
+  "endDate": "String"
+}
+```
+
+</td></tr><tr id="recurringPattern_options_count-reserv-row"><td>
+
+recurringPattern.options.count
+
+</td><td>
+
+**count**
+
+</td><td>
+
+Required if not a shift-based reservation; ignored for shift-based reservations. Number of times to repeat the pattern.
+
+Data type: Number
+
+</td></tr><tr id="recurringPattern_options_daysOfWeek-reserv-row"><td>
+
+recurringPattern.options.daysOfWeek
+
+</td><td>
+
+**byweekday**
+
+</td><td>
+
+Required if the **repeats** parameter is set to `weekly`.Days of the week that the reservable is needed, using concatenated digits with no delimiter. For example, `"245"` for Tuesday, Thursday, and Friday.
+
+Valid values:
+
+-   `1` = Monday
+-   `2` = Tuesday
+-   `3` = Wednesday
+-   `4` = Thursday
+-   `5` = Friday
+-   `6` = Saturday
+-   `7` = Sunday
+
+Data type: String
+
+</td></tr><tr id="recurringPattern_options_every-reserv-row"><td>
+
+recurringPattern.options.every
+
+</td><td>
+
+**interval**
+
+</td><td>
+
+Pattern repeat interval.Data type: Number
+
+</td></tr><tr id="recurringPattern_options_endDate-reserv-row"><td>
+
+recurringPattern.options.endDate
+
+</td><td>
+
+**until**
+
+</td><td>
+
+End date and time of the recurrence of the meeting, such as "2022-07-08T14:00:00Z". Display only.Data type: String
+
+Format: UTC yyyy-mm-dd hh:mm:ss
+
+</td></tr><tr id="recurringPattern_options_repeats-reserv-row"><td>
+
+recurringPattern.repeats
+
+</td><td>
+
+**freq**
+
+</td><td>
+
+Required if not a shift-based reservation. Repeating pattern for the reservable.Valid values: \(case-sensitive\)
+
+-   `daily`
+-   `monthly`
+-   `weekly`
+-   `yearly`
+
+**Note:** The pattern repeat interval is set in the **options.every** property. The only valid repeat interval for weekly patterns is one.
+
+Data type: String
+
+</td></tr><tr id="recurringPattern_startDate-reserv-row"><td>
+
+recurringPattern.startDate
+
+</td><td>
+
+**dtstart**
+
+</td><td>
+
+Start date and time. Accepts UTC format with `Z` suffix — automatically converted to building-local. Format: ISO 8601 datetime
 
 </td></tr></tbody>
 </table>### Headers
@@ -4004,7 +4234,7 @@ Format: UTC - yyyy-mm-ddThh:mm:ssZ, such as 2021-02-05T18:00:00Z
 
 result.successfulReservations.sys\_id
 
-</td><td id="d3517e6757">
+</td><td id="d3367e6757">
 
 Sys\_id of the reservation that was created.Data type: String
 
@@ -4100,36 +4330,31 @@ Table: Workplace Reservation \[sn\_wsd\_rsv\_reservation\]
 </td></tr></tbody>
 </table>### cURL request
 
-The following code example shows how to create a daily recurring reservation for two consecutive days.
+Weekly on Mon/Wed/Fri, 4 occurrences \(Chicago time\)
 
 ```
 curl "https://instance.servicenow.com/api/sn_wsd_rsv/recurring_reservation/create_series" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
---data "{
-    \"reservation\": {
-        \"reservable_module\": \"5db44502dbb650106c731dcd13961937\",
-        \"subject\": \"Test-123\",
-        \"reservation_purpose\": \"meeting\",
-        \"timezone\": \"US/Pacific\",
-        \"requested_for\": \"6816f79cc0a8016401c5a33be04be441\",
-        \"location\": \"6a11a94adb7210106c731dcd1396194e\",
-        \"attendees\": \"6816f79cc0a8016401c5a33be04be441\",
-        \"is_private\": false
+--data '{
+    "reservation": {
+        "reservable_module": "5db44502dbb650106c731dcd13961937",
+        "subject": "Weekly team sync",
+        "location": "6a11a94adb7210106c731dcd1396194e",
+        "requested_for": "6816f79cc0a8016401c5a33be04be441",
+        "is_private": false
     },
-    \"recurringPattern\": {
-        \"duration\": 3600000,
-        \"repeats\": \"daily\",
-        \"options\": {
-            \"count\": 2,
-            \"daysOfWeek\": \"\",
-            \"every\": 1
-        },
-        \"label\": \"Repeats daily, 2 times\",
-        \"startDate\": \"2023-01-12T12:00:00Z\"
+    "recurringPattern": {
+        "freq": "WEEKLY",
+        "interval": 1,
+        "dtstart": "2025-12-08T14:30:00",
+        "count": 4,
+        "byweekday": ["MO", "WE", "FR"],
+        "duration": 3600000,
+        "tzid": "America/Chicago"
     }
-}" \
+}'
 ```
 
 Return results:
@@ -4145,20 +4370,217 @@ Return results:
         "collision": false,
         "sys_id": "9e5f65ca87586550cfaa99b73cbb3517",
         "error": null,
-        "start": "2023-01-13T12:00:00Z",
-        "end": "2023-01-13T13:00:00Z"
-      }
-    ],
-    "unSuccessfulReservations": [
+        "start": "2025-12-08T20:30:00Z",
+        "end": "2025-12-08T21:30:00Z"
+      },
       {
         "inserted": true,
-        "collision": true,
-        "sys_id": "5e5f65ca87586550cfaa99b73cbb3515",
+        "collision": false,
+        "sys_id": "8e5f65ca87586550cfaa99b73cbb3518",
         "error": null,
-        "start": "2023-01-12T12:00:00Z",
-        "end": "2023-01-12T13:00:00Z"
+        "start": "2025-12-10T20:30:00Z",
+        "end": "2025-12-10T21:30:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "7e5f65ca87586550cfaa99b73cbb3519",
+        "error": null,
+        "start": "2025-12-12T20:30:00Z",
+        "end": "2025-12-12T21:30:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "6e5f65ca87586550cfaa99b73cbb3520",
+        "error": null,
+        "start": "2025-12-15T20:30:00Z",
+        "end": "2025-12-15T21:30:00Z"
       }
-    ]
+    ],
+    "unSuccessfulReservations": []
+  }
+}
+```
+
+### cURL request
+
+Daily for 5 days \(Kolkata time\)
+
+```
+curl "https://instance.servicenow.com/api/sn_wsd_rsv/recurring_reservation/create_series" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data '{
+    "reservation": {
+        "reservable_module": "5db44502dbb650106c731dcd13961937",
+        "subject": "Daily standup",
+        "location": "6a11a94adb7210106c731dcd1396194e",
+        "requested_for": "6816f79cc0a8016401c5a33be04be441",
+        "is_private": false
+    },
+    "recurringPattern": {
+        "freq": "DAILY",
+        "interval": 1,
+        "dtstart": "2025-12-08T09:00:00",
+        "count": 5,
+        "duration": 1800000,
+        "tzid": "Asia/Kolkata"
+    }
+}'
+```
+
+Return results:
+
+```
+{
+  "result": {
+    "isValid": true,
+    "parent": "2e5f65ca87586550cfaa99b73cbb3514",
+    "successfulReservations": [
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "5e5f65ca87586550cfaa99b73cbb3521",
+        "error": null,
+        "start": "2025-12-08T03:30:00Z",
+        "end": "2025-12-08T04:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "4e5f65ca87586550cfaa99b73cbb3522",
+        "error": null,
+        "start": "2025-12-09T03:30:00Z",
+        "end": "2025-12-09T04:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "3e5f65ca87586550cfaa99b73cbb3523",
+        "error": null,
+        "start": "2025-12-10T03:30:00Z",
+        "end": "2025-12-10T04:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "2e5f65ca87586550cfaa99b73cbb3524",
+        "error": null,
+        "start": "2025-12-11T03:30:00Z",
+        "end": "2025-12-11T04:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "1e5f65ca87586550cfaa99b73cbb3525",
+        "error": null,
+        "start": "2025-12-12T03:30:00Z",
+        "end": "2025-12-12T04:00:00Z"
+      }
+    ],
+    "unSuccessfulReservations": []
+  }
+}
+```
+
+### cURL request
+
+Monthly on the 2nd Monday, until end date \(Sydney time\)
+
+```
+curl "https://instance.servicenow.com/api/sn_wsd_rsv/recurring_reservation/create_series" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data '{
+    "reservation": {
+        "reservable_module": "5db44502dbb650106c731dcd13961937",
+        "subject": "Monthly review",
+        "location": "6a11a94adb7210106c731dcd1396194e",
+        "requested_for": "6816f79cc0a8016401c5a33be04be441",
+        "is_private": false
+    },
+    "recurringPattern": {
+        "freq": "MONTHLY",
+        "interval": 1,
+        "dtstart": "2025-12-08T10:00:00",
+        "until": "2026-06-30",
+        "bysetpos": 2,
+        "byweekday": ["MO"],
+        "duration": 7200000,
+        "tzid": "Australia/Sydney"
+    }
+}'
+```
+
+Return results:
+
+```
+{
+  "result": {
+    "isValid": true,
+    "parent": "3e5f65ca87586550cfaa99b73cbb3515",
+    "successfulReservations": [
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "a1e5f65ca87586550cfaa99b73cbb3526",
+        "error": null,
+        "start": "2025-12-14T23:00:00Z",
+        "end": "2025-12-15T01:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "b2e5f65ca87586550cfaa99b73cbb3527",
+        "error": null,
+        "start": "2026-01-11T23:00:00Z",
+        "end": "2026-01-12T01:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "c3e5f65ca87586550cfaa99b73cbb3528",
+        "error": null,
+        "start": "2026-02-08T23:00:00Z",
+        "end": "2026-02-09T01:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "d4e5f65ca87586550cfaa99b73cbb3529",
+        "error": null,
+        "start": "2026-03-08T23:00:00Z",
+        "end": "2026-03-09T01:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "e5e5f65ca87586550cfaa99b73cbb3530",
+        "error": null,
+        "start": "2026-04-13T00:00:00Z",
+        "end": "2026-04-13T02:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "f6e5f65ca87586550cfaa99b73cbb3531",
+        "error": null,
+        "start": "2026-05-11T00:00:00Z",
+        "end": "2026-05-11T02:00:00Z"
+      },
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "g7e5f65ca87586550cfaa99b73cbb3532",
+        "error": null,
+        "start": "2026-06-08T00:00:00Z",
+        "end": "2026-06-08T02:00:00Z"
+      }
+    ],
+    "unSuccessfulReservations": []
   }
 }
 ```

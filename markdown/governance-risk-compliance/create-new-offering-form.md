@@ -1,6 +1,6 @@
 ---
-title: Create New Offering form
-description: Use the Create New Offering form in Operational Resilience Workspace to set up a service offering and configure its related information.
+title: Create an offering form
+description: Use the Create an offering form in Operational Resilience Workspace to set up a service offering and configure its related information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-offering-form.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 4
 breadcrumb: [Add a service offering to Operational Resilience reporting, Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Offering form
+# Create an offering form
 
-Use the Create New Offering form in Operational Resilience Workspace to set up a service offering and configure its related information.
+Use the Create an offering form in Operational Resilience Workspace to set up a service offering and configure its related information.
 
-## Create New Offering form
+## Create an offering form
 
 For a description of the field values, see the following table.
 

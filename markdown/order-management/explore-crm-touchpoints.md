@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [explore]
-breadcrumb: [Activity Management, Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Activity Management, Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # CRM Touchpoints

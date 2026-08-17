@@ -8,7 +8,7 @@ product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Jamf, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -38,7 +38,9 @@ If using Client Credentials authentication in Jamf Pro, you need to utilize the 
 
 For more information on how to configure an OAuth token, see the [How to configure OAuth token fetching via Mid Server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1645211) KB article.
 
-Role required: admin
+Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
+
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 

@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for Code
-description: Learn to use ServiceNowNow Assist for Code to generate, edit, explain and summarize code.
+title: Using ServiceNow Otto for Code
+description: Learn to use ServiceNow Otto for Code to generate, edit, explain and summarize code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/using-now-assist-code.html
 release: australia
@@ -9,12 +9,12 @@ classification: scripts
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Using Now Assist for Code
+# Using ServiceNow Otto for Code
 
-Learn to use ServiceNow®Now Assist for Code to generate, edit, explain and summarize code.
+Learn to use ServiceNow Otto for Code to generate, edit, explain and summarize code.
 
 -   [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)
 

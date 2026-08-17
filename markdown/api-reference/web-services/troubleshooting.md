@@ -21,7 +21,7 @@ To understand common troubleshooting approaches for resolving SQL API connection
 
 -   **[Minimum requirements and supported software for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**  
 This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
--   **[Usage Limitations for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/usage-limitations.md)**  
+-   **[Usage limitations for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/usage-limitations.md)**  
 The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 
 **Parent Topic:**[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)

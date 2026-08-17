@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, process, extension]
-breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using Zero Copy Connector for ERP process extensions
@@ -64,6 +64,4 @@ Before completing the procedure, it may be helpful to review the following pages
 
     For more information, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 
-
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

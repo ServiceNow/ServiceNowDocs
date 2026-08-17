@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Install and configure Lead Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Lead Management
@@ -41,7 +41,7 @@ For more information on viewing components that are installed with an applicatio
 
     You can search for the application by its name or ID. If you can't find the application, request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -49,15 +49,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d107595e199">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d107558e199">
 
 Demo data install task
 
-</th><th align="left" id="d107595e202">
+</th><th align="left" id="d107558e202">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107595e208">
+</th></tr></thead><tbody><tr><td id="d107558e208">
 
 **If demo data is available and you want to install it**
 
@@ -67,7 +67,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d107595e238">
+</td></tr><tr><td id="d107558e238">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

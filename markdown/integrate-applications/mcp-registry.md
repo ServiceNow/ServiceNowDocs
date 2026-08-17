@@ -36,5 +36,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Application version
 
-ServiceNow MCP Registry v1.0.2 is the latest application version.
+ServiceNow MCP Registry v1.1.0 is the latest application version.
 

@@ -22,17 +22,15 @@ Role required: admin
 
 ## About this task
 
+A user criteria record on a change model controls access to the model's widgets. The criteria is evaluated only when the record is active and linked to the change model through the **Available For** related list. If either condition is not met, the criteria is not invoked.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Change Models**.
+1.  Navigate to **All** &gt; **Change** &gt; **Models** &gt; **User Criteria**.
 
-2.  Select a change model.
+2.  Select **New** to open the record.
 
-3.  Select **Advanced Security**.
-
-4.  In the related list at the bottom of the record, select **Available For** to manage access to the widgets.
-
-5.  On the form, fill the fields.
+3.  On the form, fill the fields.
 
 <table id="table_ryj_1mj_bwb"><thead><tr><th>
 
@@ -131,7 +129,7 @@ Script
 Defines any additional criteria, and returns true or false. This field is available only if **Advanced** is selected.
 
 </td></tr></tbody>
-</table>6.  Select **Submit**.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md)

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table, view, edit, setting]
-breadcrumb: [Using remote tables, Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using remote tables, Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and edit ERP remote table details with Zero Copy Connector for ERP

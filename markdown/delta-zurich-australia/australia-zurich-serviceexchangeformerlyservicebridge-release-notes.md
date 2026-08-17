@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceexchangeformerlyservicebridge-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -55,7 +55,8 @@ Service Exchange \(Legacy\) version: Before you upgrade to the Australia release
 -   Service Exchange version 1.x.x: When upgrading, consult the [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.
 -   Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.
 -   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.
--   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+-   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+-   If you're upgrading Service Exchange to version 2.3.x, migrate the OAuth grant type on all existing connections from authorization code to client credentials to avoid a "User Not Authenticated" error. Complete this migration on both the provider and consumer instances after the upgrade and before using the connection. For details, see [KB2944968](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2944968).
 -   When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:
     -   Yokohama
     -   Zurich
@@ -87,6 +88,13 @@ No updates for this release.
 Australia
 
 </td><td>
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Service Exchange Knowledge Assistant](https://www.servicenow.com/docs/access?context=now-assist-tmt-service-exchange-assistant-se&family=australia&ft:locale=en-US)**
+
+Get answers to your Service Exchange questions directly in Now Assist, without leaving your current work. The Service Exchange Knowledge Assistant agentic workflow generates answers grounded in documentation that matches the Service Exchange version installed on your instance, and includes links to the source documentation used for every answer.
+
 
 [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
@@ -124,8 +132,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Australia Early Availability
@@ -170,7 +178,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -402,7 +413,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Get version-specific answers to your Service Exchange related questions with the Service Exchange Knowledge Assistant agentic workflow in Now Assist.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Manage and monitor all your provider and consumer connections from a single, unified Connections tab in the Service Exchange Center.
 -   Streamline the end-to-end registration and onboarding experience for consumers with an improved, guided onboarding workflow.

@@ -35,9 +35,9 @@ Actions specific to this flow are described here. For more information on other 
 
 The flow process actions include:
 
--   [Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
+-   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
 -   [Security Operations Integration - CI Enrichment flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-enrich-ci-wf.md)
--   [Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
+-   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
 -   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)
 
 **Parent Topic:**[Security Operations Integration- Enrich CI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrich-ci-capability.md)

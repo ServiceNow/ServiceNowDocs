@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with voice
@@ -18,7 +18,7 @@ Information about the roles, tables, and scheduled jobs that are installed with 
 
 ## AI voice agent roles
 
-The following table lists the roles installed with the Voice for Now Assist plugin.
+The following table lists the roles installed with the HR Voice AI Agents plugin.
 
 |Roles|Description|
 |-----|-----------|
@@ -29,7 +29,7 @@ The following table lists the roles installed with the Voice for Now Assist plug
 
 ## AI voice agent attributes
 
-The AI voice agent attributes enable you to configure the authentication functionality for AI voice agents. Navigate to **All** &gt; **System Definition** &gt; **Tables** and search for Now Assist Deployment Config Attributes table to view the attributes.
+The AI voice agent attributes enable you to configure the authentication functionality for AI voice agents. Navigate to **All** &gt; **System Definition** &gt; **Tables** and search for ServiceNow Otto Deployment Config Attributes table to view the attributes.
 
 The following table lists the attributes related to AI voice agent configuration.
 
@@ -46,5 +46,5 @@ The following table consists of system properties to set up AI voice agents.
 |--------|-----------|
 |sn\_aia.enable\_voice\_agent\_setup|The system property to enable AI voice agents. Set the value of the property to true to enable AI voice agents on the instance.|
 
-**Parent Topic:**[Reference for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

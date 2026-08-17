@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Reference, Customer Service Management]
+breadcrumb: [Portal reference, Reference, Customer Service Management]
 ---
 
 # Usage calculation of self-service experiences
@@ -47,7 +47,7 @@ The default session timeout is 30 minutes. This setting can be adjusted using a 
     |Step|User activity|Billable count incremented|
     |:---|:------------|:-------------------------|
     |1|User visits the experience as an anonymous or guest user|Yes|
-    |2|User logs in|Yes|
+    |2|User logs in|No|
     |3|User logs out|No|
     |4|User logs in immediately after logging out|Yes|
 
@@ -56,7 +56,7 @@ The default session timeout is 30 minutes. This setting can be adjusted using a 
     |Step|User activity|Billable count incremented|
     |:---|:------------|:-------------------------|
     |1|User visits the experience as an anonymous or guest user|Yes|
-    |2|User logs in|Yes|
+    |2|User logs in|No|
     |3|User session continues past midnight|Yes|
     |4|User logs out|No|
 

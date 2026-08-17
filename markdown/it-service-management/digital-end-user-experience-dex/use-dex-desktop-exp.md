@@ -37,7 +37,7 @@ Header
 The Desktop Assistant header includes the following:
 
 -   Application name
--   Virtual agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text:: Selecting this icon opens a chat-based Virtual Agent interface that uses Now Assist to provide help, answers, and support.
+-   Virtual agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text:: Selecting this icon opens a chat-based Virtual Agent interface that uses ServiceNow Otto to provide help, answers, and support.
 -   Notification icon \[Omitted image "icon-notification-bell.png"\] Alt text:: This icon displays a red dot with a number to indicate the number of new notifications. Selecting the icon displays the list of notifications.
 -   User profile icon \[Omitted image "icon-user-login.png"\] Alt text:: Selecting this icon enables you to log out of Desktop Assistant.
 
@@ -62,7 +62,7 @@ Desktop Assistant provides the following cards with the base system:-   Device h
 -   Employee Center: Access the Employee Center portal. For more information, see [Open Employee Center from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-employee-center.md).
 -   Outages: View outages on Employee Center. For more information, see [View outages from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-outages.md).
 
-By default, the Device health check and Network test cards are mapped to the My resources section and the Employee Center and Outages cards are mapped to the Quick links section. Desktop Assistant administrators can map or remove cards from any section on the home page. For more information, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md) and [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/delete-card.md).
+By default, the Device health check card and the Network test card are mapped to the My resources section. The Employee Center card and the Outages card are mapped to the Quick links section. Desktop Assistant administrators can map cards to any section or remove cards from any section on the home page. To map a card to a section, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md). To remove a card, see [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/delete-card.md).
 
 </td></tr></tbody>
 </table>**Note:** If you experience issues with Desktop Assistant, troubleshoot them by accessing the logs at these locations:

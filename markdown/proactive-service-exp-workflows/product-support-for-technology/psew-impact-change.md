@@ -1,6 +1,6 @@
 ---
 title: Create a case from a change request
-description: Create a case from a change request in Proactive Service Experience Workflows so that you can notify your customers about a service outage and its resolution after the change implementation is complete.
+description: Create a case from a change request in Proactive Service Experience Workflows. You can notify your customers about a service outage and its resolution after the change implementation is complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/psew-impact-change.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Te
 
 # Create a case from a change request
 
-Create a case from a change request in Proactive Service Experience Workflows so that you can notify your customers about a service outage and its resolution after the change implementation is complete.
+Create a case from a change request in Proactive Service Experience Workflows. You can notify your customers about a service outage and its resolution after the change implementation is complete.
 
 ## Before you begin
 

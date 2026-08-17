@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Service Exchange, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Service Exchange onboarding agentic workflows
@@ -22,7 +22,7 @@ The Service Exchange onboarding agentic workflow helps providers register a cons
 
 To modify the Service Exchange onboarding agentic workflow, you must duplicate the workflow and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
-You can initiate the onboarding workflow from the Now Assist panel by entering the prompt `start onboarding`. For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+You can initiate the onboarding workflow from the ServiceNow Otto panel by entering the prompt `start onboarding`. For more information on the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Access the Service Exchange onboarding agentic workflow
 

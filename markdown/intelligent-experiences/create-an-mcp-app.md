@@ -23,9 +23,9 @@ Role required: sn\_mcp\_server.tools\_admin \(for configuration\)
 
 Create an MCP app and enable MCP tools to deliver interactive user interfaces to hosts. It defines how tools declare UI resources, that hosts render securely in iframes, and how the two communicate.
 
-Create tools as the pre-step before MCP tools creations, so that you can choose one of the created apps while using the tool.
+Create apps as a pre-step before MCP tools creations, so that you can choose one of the created apps while configuring the tool.
 
-**Note:** The minimum version required is: Zurich patch 9 and Australia patch 2.
+**Note:** The minimum version required is: Zurich patch 11 and Australia patch 4.
 
 ## Procedure
 
@@ -95,6 +95,8 @@ Access granted to different browsers and devices needed to create the app. The o
     3.  Add link to the **Library**.
 
 7.  Add link to the HTML file containing the interactive interface in 'Attachments'.
+
+    See [https://apps.extensions.modelcontextprotocol.io/api/documents/csp-and-cors.html](https://apps.extensions.modelcontextprotocol.io/api/documents/csp-and-cors.html) to learn more.
 
 
 ## What to do next

@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, invoice processing, invoice automation, Invoice case management]
 breadcrumb: [Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

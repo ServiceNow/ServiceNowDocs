@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a quote, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Create a quote, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a quote from an opportunity line item
@@ -38,7 +38,7 @@ To learn more about using the Quote Management workspace, see [Using Quote Manag
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

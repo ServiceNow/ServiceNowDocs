@@ -1,18 +1,18 @@
 ---
 title: Quote transaction views
-description: Views control how users with specific personas can view and modify fields and events at each stage of a quote in ServiceNow CPQ.
+description: Views control how users with specific personas can view and modify fields and events at each stage of a quote in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-views.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction views
 
-Views control how users with specific personas can view and modify fields and events at each stage of a quote in ServiceNow CPQ.
+Views control how users with specific personas can view and modify fields and events at each stage of a quote in CPQ.
 
 Views allow ServiceNow Quote Experience administrators to control how users with various personas can view and modify fields and events at various stages of a transaction. A persona can be assigned to only one view. The Views list page in the administration interface shows all configured views. Selecting a view's name displays its defined access privileges.
 

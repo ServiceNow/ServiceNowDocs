@@ -53,7 +53,7 @@ Role required: it\_project\_user
         -   When a user is @-mentioned in a comment. Each mentioned user receives a separate notification. If you edit a comment to add @mention, only the newly mentioned user is notified.
         **Note:** The notification includes up to 140 characters of the comment text and includes the document name, workspace name, and the document path in the workspace hierarchy. Each notification includes a **View** button. Select **View** to navigate to the comment in the document.
 
-    -   Manage your comment notification preferences. For more information, see [Disable comment notifications in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/disable-comment-notifications-cwm.md)
+    -   Manage your comment notification preferences. For more information, see [Disable comment notifications in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/disable-comment-notifications-cwm.md).
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

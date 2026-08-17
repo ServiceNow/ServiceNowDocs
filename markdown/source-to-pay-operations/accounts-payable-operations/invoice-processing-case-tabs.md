@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
+keywords: [APO, Accounts Payable Operations, invoice automation, Invoice processing case, PO Invoice, invoice processing]
 breadcrumb: [Invoice processing case form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -71,7 +71,7 @@ Potential duplicate invoices
 
 </td><td>
 
-Invoices that may be a duplicate of the invoice currently associated with this case.
+Invoices that may be duplicates of the invoice associated with this case.
 
 </td></tr><tr><td>
 

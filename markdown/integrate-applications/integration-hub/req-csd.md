@@ -18,7 +18,7 @@ Client Software Distribution 2.0 application plugin \(com.sn.csd\) is available 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The CSD 2.0 application can be integrated with Microsoft Endpoint Configuration Manager using the Microsoft Endpoint Configuration Manager spoke flow, subflows, and actions to deploy or revoke software using an Endpoint server.
 

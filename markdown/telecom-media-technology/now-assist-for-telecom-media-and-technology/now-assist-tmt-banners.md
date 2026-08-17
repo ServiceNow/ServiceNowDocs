@@ -1,5 +1,5 @@
 ---
-title: Banners in Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Banners in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Banners display information about generative AI skills and the form fields that are generated or predicted by those skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-banners.html
@@ -9,22 +9,20 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Banners in Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Banners in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Banners display information about generative AI skills and the form fields that are generated or predicted by those skills.
 
-## Overview of banners in Now Assist for TMT
+## Overview of banners in ServiceNow Otto for TMT
 
-The generative AI banner displays information about the fields on a form that are generated or predicted by the skills available with Now Assist for TMT. The messages that appear in the banner do the following:
+The generative AI banner displays information about the fields on a form that are generated or predicted by the skills available with ServiceNow Otto for TMT. The messages that appear in the banner do the following:
 
 -   Alert agents when fields are being generated or predicted and when the process is complete.
 -   Remind agents to review the information in these fields.
--   Inform agents if fields cannot be generated or predicted.
+-   Inform agents if fields can't be generated or predicted.
 
-Messages also include links to the fields that are generated or predicted by Now Assist for TMT.
-
-Generative AI banner in CSM/FSM Configurable Workspace. \[Omitted image "resolution-banner.png"\] Alt text: Banner for resolution notes summary.
+Messages also include links to the fields that are generated or predicted by ServiceNow Otto for TMT.
 

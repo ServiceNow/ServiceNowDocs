@@ -26,7 +26,7 @@ The Telecommunications industry solution includes the following applications:
 -   Telecommunications Service Operations Management
 -   Strategic Portfolio Management for Telecom
 -   Field Service Management for Telecommunications
--   Now Assist for Telecommunications, Media and Technology \(TMT\)
+-   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 ## Technology products and applications
 
@@ -37,7 +37,7 @@ The Technology industry solution includes the following applications:
     -   Product Support for Technology
     -   Customer Success Management
 -   Sales and Order ManagementSales CRM for Technology Providers. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md).
--   Now Assist for Telecommunications, Media and Technology \(TMT\)
+-   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 -   **[Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/account-lifecycle-rn.md)**  
 The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Australia release.

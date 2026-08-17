@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -85,6 +85,8 @@ From this view, you can accomplish the following tasks:
 If the responses meet your requirements, one or more approvers approves the request, and the owner \(TPR manager or TPR assessor\) closes the due diligence request and the engagement. The third party or engagement state is now **Active**. If a contract is going to be prepared, an approver, TPR manager, or owner selects **Send to contract negotiator** and assigns a contract negotiator. The approved due diligence request's state is updated to the Contract Risk Process state and the contract risk negotiator is notified through an automated email.
 
 For more information, see [Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md).
+
+**Note:** This topic covers due diligence request \(DDR\)-level approval and rejection, which happens after all assessments in the request are closed. To review and follow up on individual question responses while an assessment is still in progress, including flagging unsatisfactory responses for a third party or engagement contact to update, see [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md).
 
 ## Rejecting due diligence requests
 

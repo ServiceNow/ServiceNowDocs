@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Exploring Feedback application in Strategic Planning
@@ -42,7 +42,7 @@ With Feedback, you can:
 |Create or submit feedback from the Microsoft Outlook directly without disturbing the workflow.|[Submit feedback from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-from-outlook.md)|pf\_user|
 |Configure the non-planning items that you want to link with the feedback or product idea without having to switch between related items.|[Configure non-planning items for feedback or product ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/config-items-sp.md)|admin|
 |Configure filters for feedback or product idea overview page to get information based on your preference.|[Filter configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)|admin|
-|Generate concise and informative summary of customer feedback using Now Assist for SPM.|[Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/feedback-summary-sentiment-topics.md)|pf\_user|
+|Generate concise and informative summary of customer feedback using Now Assist for SPM.||pf\_user|
 |Generate a summary of selected text using Planning item Gen AI Docs skill.|[Summarize content with Planning Item Doc Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md)|pf\_user|
 
 **Related topics**  

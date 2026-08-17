@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-chro.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Human Resources Officer \(CHRO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -17,6 +17,8 @@ The CHRO Dashboard helps people leadership to run its business to deliver value 
 ## Before you begin
 
 Role required: admin, platform\_analytics\_admin, chro\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The CHRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require a professional entitlement to the HRSD \(com.sn\_hr\_core\) application. This professional entitlement includes a license for Platform Analytics and the content pack solutions for the associated applications.
 
@@ -48,7 +50,7 @@ Plugins:
 
         Assign the role sn\_chro\_dashboard.chro\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CHRO dashboard.
+        **Note:** Only users with this role can configure the CHRO dashboard.
 
     -   **CxO Dashboard end users**
 

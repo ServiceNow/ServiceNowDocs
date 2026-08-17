@@ -1,5 +1,5 @@
 ---
-title: Manage files in the config data model using file nodes
+title: Manage files using file nodes
 description: Add and manage files using file nodes in the config data model of a CDM app or in a component library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-manage-file-config-data-file-node.html
@@ -13,7 +13,7 @@ keywords: [File nodes in CDM, File attachments in config data, Attach files in C
 breadcrumb: [Viewing and editing config data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
-# Manage files in the config data model using file nodes
+# Manage files using file nodes
 
 Add and manage files using file nodes in the config data model of a CDM app or in a component library.
 
@@ -38,15 +38,15 @@ App developers and members of the authoring group of the app can access the file
 
 2.  Open a DevOps Config app or a component library to add a file node to its config data model.
 
-<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d99567e115">
+<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d100156e115">
 
 Option
 
-</th><th align="left" id="d99567e118">
+</th><th align="left" id="d100156e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d99567e124">
+</th></tr></thead><tbody><tr><td id="d100156e124">
 
 **Adding a file node in an app**
 
@@ -57,7 +57,7 @@ Steps
 3.  Select **Edit config data** to [open a changeset.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-cr-u.md)
 
 
-</td></tr><tr><td id="d99567e163">
+</td></tr><tr><td id="d100156e163">
 
 **Adding a file node in a component library**
 
@@ -97,15 +97,15 @@ Steps
 
     **Note:** All actions on the file node or its file attachment can only be done via the More actions menu on the file node.
 
-<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d99567e307">
+<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d100156e307">
 
 Action
 
-</th><th align="left" id="d99567e310">
+</th><th align="left" id="d100156e310">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d99567e316">
+</th></tr></thead><tbody><tr><td id="d100156e316">
 
 **Rename the file node**
 
@@ -115,7 +115,7 @@ Steps
 2.  In the Rename dialog box, enter a new name of the file node in the **Node name** field.
  If the file node is included in the collection, it’s renamed there as well.
 
-</td></tr><tr><td id="d99567e343">
+</td></tr><tr><td id="d100156e343">
 
 **Extract variables**
 
@@ -127,7 +127,7 @@ Steps
 
  You can then resolve all the extracted variables. Define the extracted variables and then select **Apply variables** from the form context menu. This action replaces all extracted variables in the file content with the defined variable values.
 
-</td></tr><tr><td id="d99567e373">
+</td></tr><tr><td id="d100156e373">
 
 **Delete the file node**
 
@@ -142,7 +142,7 @@ Steps
 -   If the file node was created in a previously committed changeset and is deleted in the currently opened changeset, then the file node is deleted from the config data but the file attachment remains in the system.
 
 
-</td></tr><tr><td id="d99567e411">
+</td></tr><tr><td id="d100156e411">
 
 **Download the file attachment**
 
@@ -150,7 +150,7 @@ Steps
 
 Select the more actions icon next to the file node, and then select **Download file** from the menu.Alternatively, you can download the file by selecting the file node and then selecting **Download** on the File information pane.
 
-</td></tr><tr><td id="d99567e429">
+</td></tr><tr><td id="d100156e429">
 
 **Replace the file attachment**
 
@@ -160,7 +160,7 @@ Select the more actions icon next to the file node, and then select **Download f
 2.  In the Replace file dialog box, attach a file from your system, and select **Replace file**.
 
 
-</td></tr><tr><td id="d99567e453">
+</td></tr><tr><td id="d100156e453">
 
 **Override an included file node**
 

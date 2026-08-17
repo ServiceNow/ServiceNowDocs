@@ -17,7 +17,7 @@ breadcrumb: [Reference, Digital End-User Experience, IT Service Management]
 Reference topics provide additional information about forms and dashboard that you use to configure and administer Desktop Assistant.
 
 -   **[Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md)**  
-Usage metrics dashboard enables you to monitor the connection status of your device, user login status, application version, and the number of incidents created using the Desktop Assistant application, ensuring smooth communication with the ServiceNow instance.
+The usage metrics dashboard helps you track device connection status, user login status, application version, and the number of incidents created in the Desktop Assistant application. These metrics help you monitor activity between the application and your ServiceNow instance.
 -   **[Components installed with Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/components-installed-with-desktop-assistant.md)**  
 Several types of components are installed with activation of the Desktop Assistant \[sn\_dex\_desktop\] plugin, including user roles and tables.
 -   **[Application Registries form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/application-registries-form.md)**  

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/agents-ai
 release: australia
 topic_type: reference
 last_updated: "2026-03-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
 ---
 
@@ -18,7 +18,7 @@ Use conversational AI-native experience for administrators, employees, and fulfi
 
 These AI agents help administrators configure ITSM workflows seamlessly from a single admin UI page using natural language.
 
-For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
+For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
 
 For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-employee-experience-ai-native-itsm.md).
 
@@ -145,11 +145,27 @@ Configures Service Level Agreement \(SLA\) definitions of the SLA type for an in
 
 </td></tr><tr><td>
 
+Change Forms Configuration Agent
+
+</td><td>
+
+Configures the change forms that IT fulfiller staff use to create and manage changes.
+
+</td></tr><tr><td>
+
+Change Lists Configuration Agent
+
+</td><td>
+
+Configures which columns appear in the change lists for the IT fulfiller staff
+
+</td></tr><tr><td>
+
 Change Team Role Configuration Agent
 
 </td><td>
 
-Configures team roles in Change Management to assign the right people to the right roles in Change Management.
+Configures team roles in Change Management to assign the right people to the right roles in Change Management.**Note:** You can use a document upload flow as an alternative to the traditional form-based approach to configure team roles using Now Assist, with support for PDF, DOCX, XLSX, and CSV file formats.
 
 </td></tr><tr><td>
 
@@ -165,7 +181,7 @@ CAB Configuration Agent
 
 </td><td>
 
-Configures the change advisory board \(CAB\) to define who reviews and approves significant changes before they are implemented.
+Configures the change advisory board \(CAB\) to define who reviews and approves significant changes before they are implemented.**Note:** You can use a document upload flow as an alternative to the traditional form-based approach to configure CAB setup using Now Assist, with support for PDF, DOCX, XLSX, and CSV file formats.
 
 </td></tr><tr><td>
 
@@ -243,5 +259,5 @@ These AI agents help fulfillers with their ITSM tasks using natural language.
 **Related topics**  
 
 
-[Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+[Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 

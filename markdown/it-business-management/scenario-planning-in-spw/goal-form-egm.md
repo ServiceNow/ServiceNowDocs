@@ -84,7 +84,7 @@ Description
 
 </td><td>
 
-Brief description of the goal.You can refine goal description using the Refine records skill, if the Now Assist for SPM application is installed.
+Brief description of the goal.You can refine goal description using the Refine records skill, if the ServiceNow Otto for SPM application is installed.
 
 </td></tr></tbody>
 </table><table id="table_mkc_jyz_fdc"><thead><tr><th>

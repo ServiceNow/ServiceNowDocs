@@ -53,7 +53,7 @@ Role required: BCM admin or BCM Program Manager
 
     2.  In the Edit Impacted Area pop over that opens on the map, select either Custom Shape or Custom Radius depending on the shape of the impacted area.
 
-        -   Custom Shape: Select Custom Shape if the impacted area is polygonal shape.
+        -   Custom Shape: Select Custom Shape if the impacted area is a polygonal shape.
         -   Custom Radius: If the impacted area is a circle.
     3.  Click and drag the vertex on the boundary of the impacted area to include the asset location.
 

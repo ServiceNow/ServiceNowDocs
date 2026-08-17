@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Manually test the execution of an AI agent
@@ -67,7 +67,7 @@ Your AI agent starts to execute the test autonomously to resolve the task.
 
 \[Omitted image "aia-test-playground.png"\] Alt text: Output from a tested AI agent with the task given to it.
 
--   A simulated chat experience begins on the Now Assist panel between your invoking user and AI agent.
+-   A simulated chat experience begins on the ServiceNow Otto panel between your invoking user and AI agent.
 -   At the top of the canvas, you can see information about the AI agent you're testing, including its name, version, and description.
 -   A diagram shows the tasks and communication of the AI agents that are working together to solve the case.
 -   A decision log records the thought process of each AI agent that is involved in solving the agentic workflow.

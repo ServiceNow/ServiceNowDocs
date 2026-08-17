@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Mobile
-description: Use ServiceNow Now Assist for Mobile platform to summarize case information, generate case resolution notes, and more.
+title: ServiceNow Otto for Mobile
+description: Use ServiceNow Otto for Mobile platform to summarize case information, generate case resolution notes, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-mobile-landing.html
 release: australia
@@ -10,19 +10,19 @@ reading_time_minutes: 2
 breadcrumb: [Mobile Platform]
 ---
 
-# Now Assist for Mobile
+# ServiceNow Otto for Mobile
 
-Use ServiceNow® Now Assist for Mobile platform to summarize case information, generate case resolution notes, and more.
+Use ServiceNow Otto® for Mobile platform to summarize case information, generate case resolution notes, and more.
 
 ## Get started
 
 <table id="table_agh_hpn_51c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Now Assist for Mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/exploring-now-assist-mobile.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Otto for Mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/exploring-now-assist-mobile.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist for Mobile and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Otto for Mobile and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 
 </td><td>
 

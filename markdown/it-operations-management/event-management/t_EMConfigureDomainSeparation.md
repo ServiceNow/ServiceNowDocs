@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Domain separation and Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Domain separation and Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Event Management domain separation

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Hardware Asset Management \(HAM\)
-description: Use the Now Assist for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair process with the agentic workflows.
+title: ServiceNow Otto for Hardware Asset Management \(HAM\)
+description: Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair process with the agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.html
 release: australia
@@ -13,13 +13,11 @@ keywords: [AI Agents, Agentic AI]
 breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Now Assist for Hardware Asset Management \(HAM\)
+# ServiceNow Otto for Hardware Asset Management \(HAM\)
 
-Use the Now Assist for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair processwith the agentic workflows.
+Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair processwith the agentic workflows.
 
 ## Get started with AI
-
-Starting with the Australia release, Now Assist for Hardware Asset Management \(HAM\) is being prepared for future deprecation. It will be hidden and no longer installed on new ServiceNow instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -30,6 +28,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 For more information on AI capabilities in HAM, see [AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ai-in-ham.md).
+
+**Note:** ServiceNow Otto for HAM provides its capabilities through agentic workflows. You can access and manage these agentic workflows in the AI Agent Studio.
 
 **Important:**
 

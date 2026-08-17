@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Data Foundations advisor dashboard indicators, DF CIs missing name location managed by group, principal class data quality indicators, DF Duplicate CIs, CIs not updated indicators]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -38,13 +39,13 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
     Total number of CI records from principal classes missing a managed by group, measured daily, where the CI does not have a managed by group assigned.
 
--   **DF duplicate CIs**
+-   **DF Duplicate CIs**
 
     Total number of CI records within principal classes identified as duplicates based on key matching attributes, measured daily.
 
 -   **DF CIs not updated in last 7 days**
 
-    Total number of CI records from principal classes not updated in the last seven days, measured daily, where the update timestamp is older than seven days.
+    Total number of CI records from principal classes not updated in the last 7 days, measured daily, where the update timestamp is older than 7 days.
 
 -   **DF CIs not updated in last 14 days**
 

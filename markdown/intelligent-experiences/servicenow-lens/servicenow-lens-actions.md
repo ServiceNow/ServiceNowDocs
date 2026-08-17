@@ -7,7 +7,7 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 22
 breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -303,7 +303,7 @@ Default Additional Directions
 
 </td><td>
 
-Default instructions that are supplied to Now Assist in addition to the user-provided instructions.For example, `Summarize this paper by extracting the title, author name, publication date in the dd-mm-yyyy format, abstract, and keywords`
+Default instructions that are supplied to AI in addition to the user-provided instructions.For example, `Summarize this paper by extracting the title, author name, publication date in the dd-mm-yyyy format, abstract, and keywords`
 
 </td></tr><tr><td id="transform-response">
 
@@ -410,11 +410,11 @@ Option to attach the captured images to the record that is auto-filled using Ser
 </td></tr></tbody>
 </table>7.  To assign users or groups or rolesto the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
 
-<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d42030e951">
+<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d53771e948">
 
 Method
 
-</th><th align="left" id="d42030e954">
+</th><th align="left" id="d53771e951">
 
 Steps
 
@@ -476,15 +476,15 @@ Repeat the step to add more groups.
 
 10. Update the assignment of users or groups or roles to the Lens action.
 
-<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d42030e1164">
+<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d53771e1161">
 
 Assignment type
 
-</th><th align="left" id="d42030e1167">
+</th><th align="left" id="d53771e1164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42030e1173">
+</th></tr></thead><tbody><tr><td id="d53771e1170">
 
 **Roles**
 
@@ -495,7 +495,7 @@ Steps
 3.  Assign one or more new roles. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d42030e1207">
+</td></tr><tr><td id="d53771e1204">
 
 **Users**
 
@@ -506,7 +506,7 @@ Steps
 3.  Assign one or more new users. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d42030e1236">
+</td></tr><tr><td id="d53771e1233">
 
 **Groups**
 
@@ -539,7 +539,7 @@ You can define in the Lens action that ServiceNow AI Lens must be triggered from
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Lens** &gt; **Lens Actions**.
+1.  Navigate to **All** &gt; **ServiceNow AI Lens** &gt; **Lens Actions**.
 
 2.  In the **Name** field, enter `Auto-fill Insurance Request from desktop`.
 
@@ -559,7 +559,7 @@ You can define in the Lens action that ServiceNow AI Lens must be triggered from
 
     `policy_number, location_of_incident, policy_holder_name, vehicle_number, policy_state, policy_checks_failed, policy_checks_passed, incident_date_time, damage_description, claim_type, claim_evaluation_percentage`
 
-10. In the **Default Additional Directions** field, enter the following directions for the Now Assist.
+10. In the **Default Additional Directions** field, enter the following directions for the AI.
 
     ```
     1. Incident Date : If available, extract the date from pictures uploaded.
@@ -615,7 +615,7 @@ You can define in the Lens action that ServiceNow AI Lens must be triggered from
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Lens** &gt; **Lens Actions**.
+1.  Navigate to **All** &gt; **ServiceNow AI Lens** &gt; **Lens Actions**.
 
 2.  In the **Name** field, enter `Extract data from vendor agreements`.
 
@@ -682,7 +682,7 @@ You can define in the Lens action that ServiceNow AI Lens must be triggered from
     }
     ```
 
-9.  In the **Default Additional Directions** field, enter directions for the Now Assist, such as `Leave the fields empty if you do not find the relevant information. Do not hallucinate. Enter the date in the DD-MM-YYYY.`
+9.  In the **Default Additional Directions** field, enter directions for the AI, such as `Leave the fields empty if you don't find the relevant information. Don't hallucinate. Enter the date in the DD-MM-YYYY.`
 
 10. Select the **Enable Post Processing** option.
 
@@ -729,7 +729,7 @@ You can define in the Lens action that ServiceNow AI Lens must be triggered from
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Lens** &gt; **Lens Actions**.
+1.  Navigate to **All** &gt; **ServiceNow AI Lens** &gt; **Lens Actions**.
 
 2.  Select **New**.
 
@@ -822,15 +822,15 @@ Ensure that the Lens action for this purpose is already defined. To view the ste
 
     \[Omitted image "lens-excel-mapping-file-upload-window.png"\] Alt text: Excel file upload window.
 
-<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d42030e2351">
+<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d53771e2341">
 
 File upload method
 
-</th><th align="left" id="d42030e2354">
+</th><th align="left" id="d53771e2344">
 
 File upload procedure
 
-</th></tr></thead><tbody><tr><td id="d42030e2360">
+</th></tr></thead><tbody><tr><td id="d53771e2350">
 
 **Add file**
 
@@ -847,7 +847,7 @@ File upload procedure
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 
 
-</td></tr><tr><td id="d42030e2407">
+</td></tr><tr><td id="d53771e2397">
 
 **Drag and drop files**
 

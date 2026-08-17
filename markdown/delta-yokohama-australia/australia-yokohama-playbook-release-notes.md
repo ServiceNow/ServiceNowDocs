@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-playbook-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -155,8 +155,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -194,7 +194,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+The now.assist.creator role is no longer a required role to generate a playbook or playbook recommendation when using Now Assist.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -270,7 +270,7 @@ Australia
 
 The Playbooks application comes with the Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like Process Automation Content and Process Automation Experience Demo. The Playbooks application can be downloaded for patch fixes.
 
- To use playbook generation features in Workflow Studio, download the [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=australia&ft:locale=en-US) application. To use Agentic Playbooks, enable it through Now Assist.
+ To use playbook generation features in Workflow Studio, download the [ServiceNow Otto for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=australia&ft:locale=en-US) application. To use Agentic Playbooks, enable it through Now Assist.
 
  
 

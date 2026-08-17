@@ -1,6 +1,6 @@
 ---
-title: Activate Telecom Discrepancy Identification and Reconciliation
-description: Activate the Telecom Discrepancy Identification and Reconciliation feature \(part of the Telecom Visibility plugin\) to ensure consistency between telecom network resources discovered in the live network and the data represented in the CMDB or Telecom Network Inventory \(TNI\). This feature helps detect and remediate mismatches automatically, supporting service accuracy and data integrity across your telecom environment.
+title: Activate Telecom Discrepancy and Reconciliation
+description: Activate the Telecom Discrepancy Identification and Reconciliation feature to ensure consistency between telecom network resources and CMDB or Telecom Network Inventory \(TNI\) data. This feature helps detect and remediate mismatches automatically, supporting service accuracy and data integrity across your telecom environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Activate Telecom Discrepancy Identification and Reconciliation
+# Activate Telecom Discrepancy and Reconciliation
 
-Activate the Telecom Discrepancy Identification and Reconciliation feature \(part of the Telecom Visibility plugin\) to ensure consistency between telecom network resources discovered in the live network and the data represented in the CMDB or Telecom Network Inventory \(TNI\). This feature helps detect and remediate mismatches automatically, supporting service accuracy and data integrity across your telecom environment.
+Activate the Telecom Discrepancy Identification and Reconciliation feature to ensure consistency between telecom network resources and CMDB or Telecom Network Inventory \(TNI\) data. This feature helps detect and remediate mismatches automatically, supporting service accuracy and data integrity across your telecom environment.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ To use this feature, your organization must have an active subscription to TSOM.
 
 ## About this task
 
-Plugin dependencies - Ensure the following plugins are installed and activated:
+Plugin dependencies: verify the following plugins are installed and activated:
 
 |Plugin|ID / App ID|Type|
 |------|-----------|----|

@@ -63,12 +63,12 @@ Scan your ServiceNow instance for findings. These scans return the findings and 
 
 Scans are initiated in different ways. They run using the Scan Engine properties you configured.
 
-For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) and [Configure definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md).
+For more information, see [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md).
 
 -   **[Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiating-on-demand-scans-scan-engine.md)**  
-Scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. 
+Scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.
 -   **[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-update-set-scans.md)**  
-You can scan open update sets for findings to get insights into what you are importing and exporting across your environments. 
+Scan open update sets for findings to gain insights into what you're importing and exporting across your environments. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.
 -   **[Initiate instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-instance-scans.md)**  
 You can scan your ServiceNow instance for findings.
 -   **[Initiate limited definition scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-limited-def-scans.md)**  

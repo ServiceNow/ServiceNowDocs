@@ -9,7 +9,7 @@ classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Configure in Virtual Agent, Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure in Virtual Agent, Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent pre-built LLM topics
@@ -60,7 +60,7 @@ Check your device's health using Digital End-User Experience \(DEX\)
 
 </td><td>
 
-Use the Now Assist for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. See [Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
+Use the ServiceNow Otto in Virtual Agent for ITSM to monitor your device's performance and diagnose potential issues. See [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Use the Now Assist for ITSM Virtual Agent to monitor your device's performance a
 
 </td><td>
 
-Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the Now Assist for IT Service Management \(ITSM\) application.
+Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 </td></tr></tbody>
 </table>## Core ITSM topics

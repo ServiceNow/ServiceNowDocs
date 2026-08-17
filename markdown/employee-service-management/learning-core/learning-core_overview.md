@@ -24,11 +24,11 @@ Learning Core integrates with Cornerstone OnDemand, Pluralsight, Udemy, Sumtotal
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore. Learn about how Learning Core works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core.md)
+[Explore \[Omitted image "icon-explore.png"\] Learn about how Learning Core works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-explore.svg"\] Alt text: Configure. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md)
+[Configure \[Omitted image "bus-explore.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md)
 
 </td><td>
 
@@ -36,11 +36,11 @@ Learning Core integrates with Cornerstone OnDemand, Pluralsight, Udemy, Sumtotal
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Use. Create, curate, and manage learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
+[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Create, curate, and manage learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Reporting. Consolidate reports in each repository, course catalogs, and learning tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/ln-administration.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Consolidate reports in each repository, course catalogs, and learning tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/ln-administration.md)
 
 </td><td>
 

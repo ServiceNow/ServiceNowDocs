@@ -1,5 +1,5 @@
 ---
-title: Now Assist in Conversational Catalog Request
+title: Conversational Catalog Requests
 description: Provides a conversational experience based on generative AI for submitting catalog item request in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.html
@@ -8,11 +8,11 @@ product: Service Catalog
 classification: service-catalog
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Now Assist in Conversational Catalog Request
+# Conversational Catalog Requests
 
 Provides a conversational experience based on generative AI for submitting catalog item request in Virtual Agent.
 
@@ -20,7 +20,7 @@ Provides a conversational experience based on generative AI for submitting catal
 
 <table id="table_pwh_zfm_xfc" class="nav-card presentation"><tbody><tr><td>
 
-[Conversational Catalog Request\[Omitted image "bus-explore.svg"\] Alt text:Overview of conversational catalog requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)
+[Conversational Catalog Requests\[Omitted image "bus-explore.svg"\] Alt text:Overview of Conversational Catalog Requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)
 
 </td><td>
 
@@ -44,8 +44,8 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)**  
-Now Assist in Conversational Catalog Request provides a conversational, generative AI-powered experience for submitting catalog item requests through Virtual Agent.
--   **[Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.md)**  
+Conversational Catalog Requests provides a conversational, generative AI-powered experience for submitting catalog item requests through Virtual Agent.
+-   **[Configure Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-gen-ai-catalog-item.md)**  
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 -   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-agent-reference.md)**  
 Reference information of the catalog agent and LLM topic blocks to power conversational catalog requests.

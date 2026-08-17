@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, standard, remote, table, model]
-breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Standard remote and extraction tables, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Standard remote tables for Zero Copy Connector for ERP
@@ -45,13 +45,13 @@ For more details on working with remote tables, see [Remote tables](https://raw.
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
 -   
--   
--   
+-   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
+-   [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
 -   
 -   
 -   
 
-You can also access data from the system of record through the Glide API.
+You can also access data from the ERP system through the Glide API.
 
 The following is an example of a Glide query that fetches a customer name.
 
@@ -63,5 +63,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

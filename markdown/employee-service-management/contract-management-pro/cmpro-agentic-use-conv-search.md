@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Conversational contract search and insights Workflow
@@ -18,9 +18,9 @@ Configure conversational contract search and insights workflow to enable searchi
 
 ## Conditions for the Agentic Workflow to trigger
 
-The Conversational contract search and insights is triggered when you enter queries in the Now Assist panel.
+The Conversational contract search and insights is triggered when you enter queries in the ServiceNow Otto panel.
 
-Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller and now\_assist\_panel\_user role can view the agentic workflow conversation in the Now Assist panel.
+Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller and now\_assist\_panel\_user role can view the agentic workflow conversation in the ServiceNow Otto panel.
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 

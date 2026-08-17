@@ -1,5 +1,5 @@
 ---
-title: Fulfill enterprise asset requests by using the help manage enterprise asset requests agentic workflow
+title: Fulfill enterprise asset requests by using an agentic workflow
 description: You can use the help manage enterprise asset requests agentic workflow to fulfill enterprise asset requests autonomously. The workflow uses a collection of AI agents to automatically source assets for these requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.html
@@ -13,11 +13,13 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
-# Fulfill enterprise asset requests by using the help manage enterprise asset requests agentic workflow
+# Fulfill enterprise asset requests by using an agentic workflow
 
 You can use the help manage enterprise asset requests agentic workflow to fulfill enterprise asset requests autonomously. The workflow uses a collection of AI agents to automatically source assets for these requests.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+**Note:** Before you use the help manage enterprise asset requests agentic workflow, you can configure and activate it based on your organization's needs. For detailed instructions, see [Configure and activate agentic workflows for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/configure-activate-agentic-workflows-eam.md).
 
 ## Help manage enterprise asset requests agentic workflow overview
 
@@ -84,13 +86,13 @@ The AI agent automatically generates a purchase order to obtain additional asset
  **Note:** For instructions on how to enable the **Auto-purchase** option, see [Create stockroom for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockroom.md).
 
 </td></tr></tbody>
-</table>**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+</table>**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Validating enterprise asset requests
 
@@ -143,9 +145,9 @@ Asset sourcing assignment
 1.  After the request is approved, each RITM must be assigned to a user with the asset\_manager role.
 2.  After each RITM is assigned to a user, the help manage enterprise asset requests agentic workflow invokes automatically.
 
-**Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually.
+**Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually. For instructions on how to activate or deactivate this trigger, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
-**Note:** The progress of the workflow is always updated and displayed in the Now Assist panel. Users can access the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: on the page header of their ServiceNow instance.
+**Note:** The progress of the workflow is updated and displayed in the ServiceNow Otto panel. Users can access the panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the page header of their ServiceNow instance.
 
 
 </td></tr><tr><td>
@@ -183,12 +185,12 @@ After the request is successfully validated, the workflow sources the requested 
     -   If the **Auto-purchase** option is disabled, the workflow proceeds to [step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
 4.  If the requested assets cannot be sourced automatically, user intervention is required.
     1.  The asset sourcing AI agent creates sourcing plans to confirm how it should proceed with sourcing each requested asset.
-    2.  The AI agent launches the Now Assist panel to initiate a conversation with each user who is assigned to a requested asset.
+    2.  The AI agent launches the ServiceNow Otto panel to initiate a conversation with each user who is assigned to a requested asset.
     3.  After reviewing the sourcing plan for an assigned asset, each user must either accept or reject the plan.
     4.  Depending on whether a user accepts or rejects a sourcing plan, the workflow proceeds as follows:
         -   If a user accepts a sourcing plan without requesting any modifications, the relevant AI agent sources the asset accordingly.
 
-**Note:** If any modifications are required at a later time, the user must re-initiate the conversation in the Now Assist panel.
+**Note:** If any modifications are required at a later time, the user must re-initiate the conversation in the ServiceNow Otto panel.
 
         -   If a user rejects a sourcing plan, the requested asset must be sourced manually.
 

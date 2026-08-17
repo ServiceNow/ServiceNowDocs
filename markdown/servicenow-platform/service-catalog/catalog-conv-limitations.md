@@ -9,14 +9,14 @@ classification: service-catalog
 topic_type: reference
 last_updated: "2026-04-30"
 reading_time_minutes: 3
-breadcrumb: [Catalog Agent, Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Catalog Agent, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Catalog Agent conversational status conditions
 
 Conditions that determine whether a catalog item can deliver a fully conversational experience in the Premium chat interface.
 
-Premium chat is a conversational interface powered by Now Assist. Instead of filling out a traditional form, requesters can request catalog items through conversations. For a catalog item to work in this mode, it must meet certain conditions.
+Premium chat is a conversational interface powered by ServiceNow Otto. Instead of filling out a traditional form, requesters can request catalog items through conversations. For a catalog item to work in this mode, it must meet certain conditions.
 
 -   The conversation is turned off using the **turn\_off\_nowassist\_conversation** property, preventing the item from appearing in Premium chat mode, regardless of how the item is designed.
 -   The catalog item has been flagged to open as a form and not a chat using the **make\_item\_non\_conversational** property. This is used for complex items where a structured form is preferred over a guided conversation.

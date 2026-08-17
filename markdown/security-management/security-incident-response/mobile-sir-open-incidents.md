@@ -44,15 +44,15 @@ From the list of records, assign an open security incident to yourself, or reass
 
 5.  Choose one from the menu that is displayed to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d316021e165">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d318423e165">
 
 Option
 
-</th><th align="left" id="d316021e168">
+</th><th align="left" id="d318423e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d316021e174">
+</th></tr></thead><tbody><tr><td id="d318423e174">
 
 **Assign to Me**
 
@@ -60,7 +60,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d316021e183">
+</td></tr><tr><td id="d318423e183">
 
 **Reassign**
 
@@ -79,15 +79,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d316021e247">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d318423e247">
 
 Option
 
-</th><th align="left" id="d316021e250">
+</th><th align="left" id="d318423e250">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d316021e256">
+</th></tr></thead><tbody><tr><td id="d318423e256">
 
 **Menu icon**
 
@@ -97,7 +97,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 -   To reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
  After you complete your edits, tap **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d316021e289">
+</td></tr><tr><td id="d318423e289">
 
 **Activity Stream tab**
 
@@ -105,7 +105,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 
 With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon to add a work note or attach a file.
 
-</td></tr><tr><td id="d316021e301">
+</td></tr><tr><td id="d318423e301">
 
 **Related List tab**
 
@@ -115,7 +115,7 @@ With the Related List tab selected, view the items of any Related Lists of the s
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d316021e316">
+</td></tr><tr><td id="d318423e316">
 
 **Screen icons at the bottom of the screen.**
 

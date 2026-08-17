@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-removed-features.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-12"
-reading_time_minutes: 2
+last_updated: "2026-08-10"
+reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -30,12 +30,28 @@ AI Control Tower
 
 </td><td>
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
+-   AI Control Tower removed in [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md):
 
-[Early availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)
+The Number of clients connecting to MCP servers metrics in Overview tab have been removed. Also, you can't create security incidents from dormant agents using conversational prompts.
 
--   Adding legacy AI connections via Service Graph Connectors \(SGC\) is deprecated. In AI connections, under Legacy connections, the **New** button has been removed to block users from creating new connections using SGC.
+-   AI Control Tower \(legacy\) removed in [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md):
 
+The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
+
+-   AI Control Tower \(legacy\) removed in [Early availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md):
+
+Adding legacy AI connections via Service Graph Connectors \(SGC\) is deprecated. In AI connections, under Legacy connections, the **New** button has been removed to block users from creating new connections using SGC.
+
+
+</td></tr><tr><td>
+
+API
+
+</td><td>
+
+-   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
+-   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsSDK has been removed from Mobile SDK - Android.
 
 </td></tr><tr><td>
 
@@ -55,7 +71,15 @@ The Multisource Report Builder has been removed. Use CMDB 360 in CMDB Workspace 
 
 </td></tr><tr><td>
 
-Flows, Subflows, and Actions
+Dispute Rules Content Pack for Mastercard
+
+</td><td>
+
+For July store release, the sub-category RC 4834 — Late Presentment has been removed.
+
+</td></tr><tr><td>
+
+Flows, subflows, and actions
 
 </td><td>
 
@@ -68,22 +92,6 @@ Impact
 </td><td>
 
 On-demand value report and Value potential accelerators have been removed.
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
-Spoke generation has been removed from Now Assist for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
-
-</td></tr><tr><td>
-
-Now Assist for Zero Copy Connector
-
-</td><td>
-
-The Ask AI button has been removed from the Model Manager.
 
 </td></tr><tr><td>
 
@@ -106,6 +114,14 @@ Opportunity Management
 </td><td>
 
 -   Removed the **New** Opportunity Line button from the platform and workspace view.
+
+</td></tr><tr><td>
+
+Playbook
+
+</td><td>
+
+The now.assist.creator role is no longer a required role to generate a playbook or playbook recommendation when using Now Assist.
 
 </td></tr><tr><td>
 
@@ -139,13 +155,29 @@ Project Portfolio Management
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Creator
+
+</td><td>
+
+Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Zero Copy Connector
+
+</td><td>
+
+The Ask AI button has been removed from the Model Manager.
+
+</td></tr><tr><td>
+
 Third-party Risk Management
 
 </td><td>
 
 -   Assessments using entities are no longer supported.
 -   The `grc_business_user` and `grc_reader` roles are no longer directly inherited by TPRM roles.
--   The `scoring_rule` and `scoring_rule_ref` fields are removed from assessment forms and UI sections. Custom scripts or integrations that reference these fields must be updated.\\
+-   The `scoring_rule` and `scoring_rule_ref` fields are removed from assessment forms and UI sections. Custom scripts or integrations that reference these fields must be updated.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

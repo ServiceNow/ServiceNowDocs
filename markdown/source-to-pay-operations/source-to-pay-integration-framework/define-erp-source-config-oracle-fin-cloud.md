@@ -16,9 +16,11 @@ breadcrumb: [Configure, Source-to-Pay integration with Oracle Financial Cloud, I
 
 ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the Oracle Financial Cloud tables.
 
+\[Omitted video\] Description: Video demonstrating how to configure and define an ERP source configuration for Oracle Financial Cloud
+
 ## Before you begin
 
-Role required: sn\_shop.procurement\_administrator
+Role required: sn\_fcms\_intg.admin
 
 ## About this task
 

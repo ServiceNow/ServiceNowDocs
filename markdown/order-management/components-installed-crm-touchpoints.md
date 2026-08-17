@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-crm-touchpoints.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-21"
 reading_time_minutes: 1
-breadcrumb: [Activity Management reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Activity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with CRM Touchpoints
@@ -65,6 +65,34 @@ CRM touchpoint reader
 </td><td>
 
 Allows users with read permission on the associated entity to view CRM touchpoint records.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+CRM touchpoint responsibility write granular
+
+ \[sn\_crm\_touchpoint.touchpoint\_responsibility\_write\_granular\]
+
+</td><td>
+
+Provides granular write access to touchpoints through the responsibility framework. Access is scoped per record rather than granting blanket write access to all CRM touchpoint records.
+
+</td><td>
+
+sn\_crm\_touchpoint.touchpoint\_responsibility\_read\_granular
+
+</td></tr><tr><td>
+
+CRM touchpoint responsibility read granular
+
+ \[sn\_crm\_touchpoint.touchpoint\_responsibility\_read\_granular\]
+
+</td><td>
+
+Provides granular read access to touchpoints through the responsibility framework. Access is scoped per record rather than granting blanket read access to all CRM touchpoint records.
 
 </td><td>
 

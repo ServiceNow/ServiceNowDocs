@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-purchaseordermanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -124,7 +124,7 @@ View the expanded New activity today section on the Purchase order management la
 Convert supplier emails into purchase order exceptions when a registered supplier contact sends emails to a supplier inbox. Purchase order exceptions are created for all purchase order queries and assigned to the operational buyer. For queries unrelated to purchase order exceptions, a universal request record is created.
 
 
--   **[Identify and execute mitigation strategies for purchase order exceptions](https://www.servicenow.com/docs/access?context=mitigation-strategies-for-po-exceptions&family=australia&ft:locale=en-US)**
+-   **[Identify and execute mitigation strategies for PO exceptions](https://www.servicenow.com/docs/access?context=mitigation-strategies-for-po-exceptions&family=australia&ft:locale=en-US)**
 
 Use the Define PO exception mitigation strategy agentic workflow to identify and execute mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
@@ -136,7 +136,7 @@ Purchase order confirmation and confirmation line tables are available by defaul
 
 -   **[Enhancements to the automatic purchase order exception creation from email workflow](https://www.servicenow.com/docs/access?context=convert-emails-to-exceptions&family=australia&ft:locale=en-US)**
 
-The Create purchase order exception from email workflow is enhanced to automatically identify purchase order lines when the email contains an ERP PO and PO line ID instead of just a ServiceNow PO line ID. The workflow also supports additional languages \(French, Canadian French, German, Japanese, and Dutch\) for emails. These enhancements help in improving supplier communication and reducing manual intervention.
+The Create purchase order exception from email workflow is enhanced to automatically identify purchase order lines. The workflow automatically identifies PO lines when the email contains an ERP PO and PO line ID instead of just a ServiceNow PO line ID. The workflow also supports additional languages \(French, Canadian French, German, Japanese, and Dutch\) for emails. These enhancements help in improving supplier communication and reducing manual intervention.
 
 
 </td></tr></tbody>
@@ -474,30 +474,13 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
--   Support for purchase order confirmation data.
--   Enhancements to the automatic purchase order exception creation from email workflow.
-
- [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
- Australia Early Availability
-
 -   Create PO exceptions from universal requests during triage.
 -   Create PO exception tasks and track their progress directly from the PO exception.
 -   Get relevant data insights with improved visualization of new purchase order exceptions and PO exception workload distribution.
 -   Convert supplier emails into purchase order exceptions automatically when a registered supplier contact sends emails to a supplier inbox.
 -   Analyze delivery gaps and view suggested edits to orders with alternative suppliers with the Define purchase order exception mitigation strategy agentic workflow
+-   Support for purchase order confirmation data.
+-   Enhancements to the automatic purchase order exception creation from email workflow.
 
  See [Purchase Order Management](https://www.servicenow.com/docs/access?context=purchase-order-mgmt-landing-page&family=australia&ft:locale=en-US) for more information.
 

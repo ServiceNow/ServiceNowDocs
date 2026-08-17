@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/dynamic-translation-na-ms-azure-oem.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-07-31"
 reading_time_minutes: 3
 keywords: [Microsoft Azure OEM, Dynamic Translation, Now Assist, multi-language input, generative AI controller, translator configurations]
-breadcrumb: [Configure multilingual service for Now Assist applications, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Microsoft Azure OEM for Dynamic Translation in Now Assist
@@ -26,7 +26,7 @@ When dynamic translation in the Generative AI Controller is enabled, your users'
 3.  Now Assist returns a response in English.
 4.  The English response is translated to the user's preferred language and displayed in the UI.
 
-For more information about enabling dynamic translation in this context, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and [Enable Dynamic Translation for capabilities in Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.md).
+For more information about enabling dynamic translation in this context, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and [Enable Dynamic Translation for capabilities in Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.md).
 
 From the Zurich release, this spoke has available support for specific regulated markets, subject to conditions. For information see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
 
@@ -38,17 +38,23 @@ Microsoft Azure OEM appears as a row in the Translator Configurations \(sn\_dt\_
 
 If you try to update this record in the Translator Configurations table, the following error is displayed: "The Microsoft Azure OEM translator configuration is used in Generative AI flows. It cannot be edited".
 
-With the Xanadu Patch 3 release, the Microsoft Azure OEM translator includes support for . Also the API used by flows and subflows is automatically updated to v4.
+With the Xanadu Patch 3 release, the Microsoft Azure OEM translator includes support for [Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dyn-translation-exclusion-framework.md). Also the API used by flows and subflows is automatically updated to v4.
 
 The application scope for Microsoft Azure OEM is sn\_ms\_oem.
 
-For more information, see .
+For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation-overview.md).
+
+## Languages supported
+
+The Microsoft Azure OEM service supports all of the languages available as language packs on the ServiceNow platform, except I18N: Latin American Spanish Translations. Self-localized languages \(languages other than the default language packs\) aren't supported.
+
+For the list of available language packs, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
 ## Alteration or deactivation
 
 You can use a different machine translation service in Generative AI Controller, rather than the provided Microsoft Azure OEM translator configuration. If you want to switch to a translation service provider of your choice, you can update a system property as follows.
 
-1.  With the admin role, create an account with a third-party machine translation service provider and configure it in your instance. For details see .
+1.  With the admin role, create an account with a third-party machine translation service provider and configure it in your instance. For details see [Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/integration-with-other-translation-services.md).
 2.  Open the record for your translation service provider by navigating to the Translator Configurations \[sn\_dt\_translator\_configuration\] table, then selecting the appropriate row.
 3.  Copy the sys id of the record by opening the form context menu \[Omitted image "List\_MenuIcon.png"\] and selecting **Copy sys\_id**.
 
@@ -66,12 +72,14 @@ You can use a different machine translation service in Generative AI Controller,
 
 Alternatively, you can deactivate Dynamic Translation in this context using another sys property. For information see [Disable Dynamic Translation for LLM Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/disable-dynamic-translation-for-llm-va-conversations.md).
 
-**Parent Topic:**[Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 
 **Related topics**  
 
 
-[bundle-platadm.dynamic-translation-overview]
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation-overview.md)
 
 [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)
+
+[Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md)
 

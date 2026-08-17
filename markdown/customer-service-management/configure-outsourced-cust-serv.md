@@ -123,15 +123,15 @@ Role required: admin
 
 5.  Fill in the fields on the new record form, as appropriate.
 
-<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d119727e388">
+<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d119526e388">
 
 Option
 
-</th><th align="left" id="d119727e391">
+</th><th align="left" id="d119526e391">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119727e397">
+</th></tr></thead><tbody><tr><td id="d119526e397">
 
 **Description**
 
@@ -139,7 +139,7 @@ Description
 
 Description for the outsourcing criteria.
 
-</td></tr><tr><td id="d119727e406">
+</td></tr><tr><td id="d119526e406">
 
 **Table**
 
@@ -147,7 +147,7 @@ Description for the outsourcing criteria.
 
 The table that stores the task for which the outsourcing criteria is created. Select either **Account**, **Asset**, **Consumer**, or **Sold Product** tables.
 
-</td></tr><tr><td id="d119727e427">
+</td></tr><tr><td id="d119526e427">
 
 **Condition**
 
@@ -230,7 +230,7 @@ Role required: user\_admin
     |**Business Phone**|The OSP manager or agent's business phone number.|
     |**Assignment Group**|Select the group that was created while creating an OSP.|
 
-    **Note:** A new OSP staff member record is created and the OSP is created in the **Organization** field of the service organization external staff \[sn\_csm\_service\_organization\_external\_staff\] table. Additionally, the same change applies to other related lists, including Onboard Agent, ​Onboard Manager, ​Create Group​, Transfer Case, ​Register Staff​, and Register Member.
+    **Note:** A new OSP staff member record is created and the OSP is created in the **Organization** field of the external organization staff \(formerly service organization external staff\) \[sn\_csm\_service\_organization\_external\_staff\] table. Additionally, the same change applies to other related lists, including Onboard Agent, ​Onboard Manager, ​Create Group​, Transfer Case, ​Register Staff​, and Register Member.
 
 5.  Select **Submit**.
 
@@ -255,15 +255,15 @@ Role required: admin
 
 3.  Fill in the fields on the Outsourced Service Provider form, as appropriate.
 
-<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d119727e970">
+<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d119526e973">
 
 Option
 
-</th><th align="left" id="d119727e973">
+</th><th align="left" id="d119526e976">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119727e979">
+</th></tr></thead><tbody><tr><td id="d119526e982">
 
 **Name**
 
@@ -271,7 +271,7 @@ Description
 
 The OSP's name.
 
-</td></tr><tr><td id="d119727e988">
+</td></tr><tr><td id="d119526e991">
 
 **Service Provider Type**
 
@@ -279,7 +279,7 @@ The OSP's name.
 
 Customer or Field service provider.
 
-</td></tr><tr><td id="d119727e997">
+</td></tr><tr><td id="d119526e1000">
 
 **Manager**
 
@@ -287,7 +287,7 @@ Customer or Field service provider.
 
 The OSP's manager name.
 
-</td></tr><tr><td id="d119727e1006">
+</td></tr><tr><td id="d119526e1009">
 
 **Website**
 
@@ -295,7 +295,7 @@ The OSP's manager name.
 
 The web address for the internal business location.
 
-</td></tr><tr><td id="d119727e1016">
+</td></tr><tr><td id="d119526e1019">
 
 **Notes**
 
@@ -303,7 +303,7 @@ The web address for the internal business location.
 
 Any note regarding the OSP.
 
-</td></tr><tr><td id="d119727e1025">
+</td></tr><tr><td id="d119526e1028">
 
 **Company**
 
@@ -311,7 +311,7 @@ Any note regarding the OSP.
 
 The company or organization to which the OSP belongs.**Note:** The **Company** field is a read-only field. Additionally, there’s a 1:1 relationship between an OSP and a company. It means that only one company record can be mapped to an OSP record at any given time.
 
-</td></tr><tr><td id="d119727e1039">
+</td></tr><tr><td id="d119526e1042">
 
 **Active**
 
@@ -319,7 +319,7 @@ The company or organization to which the OSP belongs.**Note:** The **Company** f
 
 Enables the OSP. The default value is set to **True**.
 
-</td></tr><tr><td id="d119727e1051">
+</td></tr><tr><td id="d119526e1054">
 
 **Contact**
 
@@ -327,7 +327,7 @@ Enables the OSP. The default value is set to **True**.
 
 Enter **Phone** or **Fax phone** number.
 
-</td></tr><tr><td id="d119727e1066">
+</td></tr><tr><td id="d119526e1069">
 
 **Address**
 
@@ -342,7 +342,7 @@ The OSP's postal address. The following address fields are available by default:
 -   Country
 
 
-</td></tr><tr><td id="d119727e1094">
+</td></tr><tr><td id="d119526e1097">
 
 **Case Transfer**
 

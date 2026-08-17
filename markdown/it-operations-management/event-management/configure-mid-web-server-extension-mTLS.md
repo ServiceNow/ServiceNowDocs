@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 3
+breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure mTLS authentication for a MID Web Server
@@ -20,7 +20,9 @@ Enhance security in your MID Web Server extension by enabling mTLS authenticatio
 
 Ensure that you have enabled Transport Layer Security \(TLS\) on the agent. For details, see [Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md).
 
-Ensure that the **insecure-skip-tls-verify** parameter in the `acc.yml` configuration file is set to **false**. For details on the `acc.yml` file, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-yml-options.md).
+Ensure that the **insecure-skip-tls-verify** parameter in the `acc.yml` configuration file is set to `false`. For details on the `acc.yml` file, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-yml-options.md).
+
+**Note:** This procedure includes commands for both CentOS 7/Linux and Windows Server environments. Select the commands relevant for your host operating system. If working with another Linux distribution, adapt the commands as needed for your specific OS.
 
 Role required: agent\_client\_collector\_admin
 
@@ -43,42 +45,92 @@ The MID Web Server extension searches the following locations \(in the specified
 
 ## Procedure
 
-1.  Navigate to the root folder of your MID Server.
+1.  In a Linux environment:
 
-2.  Run the following command to add your certificate to the MID trust store:
+    1.  Navigate to the root folder of your MID Server.
 
-    ```
-    ./jre/bin/keytool -importcert -file /etc/pki/ca-trust/source/anchors/labcacert.pem -destkeystore ./jre/lib/security/cacerts -alias mtlsca
-    ```
+    2.  Run the following command to add your certificate to the MID trust store:
 
-3.  Enter **changeit** when prompted for a password.
+        ```
+        ./jre/bin/keytool -importcert -file /etc/pki/ca-trust/source/anchors/labcacert.pem -destkeystore ./jre/lib/security/cacerts -alias mtlsca
+        ```
 
-4.  Select **yes** on the confirmation message window to indicate that you trust the certificate.
+    3.  Enter `changeit` when prompted for a password.
 
-5.  Run the following command to verify that your certificate was successfully added to the MID trust store.
+    4.  Select **yes** on the confirmation message window to indicate that you trust the certificate.
 
-    ```
-    ./jre/bin/keytool -list -keystore ./jre/lib/security/cacerts -alias mtlsca
-    ```
+    5.  Run the following command to verify that your certificate was successfully added to the MID trust store:
 
-6.  Enter **changeit** when prompted for a password.
+        ```
+        ./jre/bin/keytool -list -keystore ./jre/lib/security/cacerts -alias mtlsca
+        ```
 
-7.  In the MID Server wrapper override configuration file \(`wrapper-override.conf`, located in the `home/conf` directory of the MID Server\), configure the revocation of client certificates in the **mid.webserver.cert.revocation.check.enabled** property.
+    6.  Enter `changeit` when prompted for a password.
 
-    -   If you have a custom internal certificate, set to **false** by adding the following line to the `conf/wrapper-override.conf` file on the MID Server:
+    7.  In the MID Server wrapper override configuration file \(`wrapper-override.conf`, located in the `conf` directory under the MID Server's home directory\), configure the revocation of client certificates using the **mid.webserver.cert.revocation.check.enabled** property.
+
+        If you have a custom internal certificate, set it to `false` by adding the following line to `conf/wrapper-override.conf` on the MID Server:
 
         ```
         wrapper.java.additional.4=-Dmid.webserver.cert.revocation.check.enabled=false
         ```
 
-    -   When enabling this property \(**true**\), configure the **mid.webserver.ocsp.responder.url** property with the OCSP responder URL. This value overrides any URL embedded in the certificate.
-8.  If you have changed properties in the wrapper override configuration file, restart the MID Server.
+        When enabling this property \(`true`\), configure the **mid.webserver.ocsp.responder.url** property with the OCSP responder URL. This value overrides any URL embedded in the certificate.
 
-9.  On your ServiceNow® instance, access the MID Server record and change the value of the **Authentication type** field to **mTLS**.
+    8.  If you have changed properties in the wrapper override configuration file, restart the MID Server.
 
-10. Restart the MID Web Server.
+    9.  Access the MID Server record on your ServiceNow instance and change the value of the **Authentication type** field to **mTLS**.
 
-11. Verify that the MID Web Server and websocket endpoint are up and running.
+    10. Restart the MID Web Server.
+
+    11. Verify that the MID Web Server and websocket endpoint are up and running.
+
+2.  In a Windows environment:
+
+    1.  Navigate to the root folder of your MID Server.
+
+    2.  Run the following command to add your certificate to the MID trust store:
+
+        ```
+        jre\bin\keytool.exe -importcert -file <path>\labcacert.pem -destkeystore jre\lib\security\cacerts -alias mtlsca
+        ```
+
+    3.  Enter `changeit` when prompted for a password.
+
+    4.  Select **yes** on the confirmation message window to indicate that you trust the certificate.
+
+    5.  Run the following command to verify that your certificate was successfully added to the MID trust store:
+
+        ```
+        jre\bin\keytool.exe -list -keystore jre\lib\security\cacerts -alias mtlsca
+        ```
+
+    6.  Enter `changeit` when prompted for a password.
+
+    7.  In the MID Server wrapper override configuration file \(`wrapper-override.conf`, located in the `conf` directory under the MID Server's home directory\), configure the revocation of client certificates using the **mid.webserver.cert.revocation.check.enabled** property.
+
+        -   If you have a custom internal certificate, set it to `false` by adding the following line to `conf\wrapper-override.conf` on the MID Server:
+
+            ```
+            wrapper.java.additional.4=-Dmid.webserver.cert.revocation.check.enabled=false
+            ```
+
+        -   When enabling this property \(`true`\), configure the **mid.webserver.ocsp.responder.url** property with the OCSP responder URL. This value overrides any URL embedded in the certificate.
+    8.  If you changed properties in the wrapper override configuration file, restart the MID Server using one of the following methods:
+
+        -   Windows Services app
+        -   Command line using the MID Server's configured service name:
+
+            ```
+            net stop AgentClientCollector
+            net start AgentClientCollector
+            ```
+
+    9.  Access the MID Web Server record on your ServiceNow instance and change the value of the **Authentication type** field to **mTLS**.
+
+    10. Restart the MID Web Server.
+
+    11. Verify that the MID Web Server and websocket endpoint are up and running.
 
 
 ## What to do next

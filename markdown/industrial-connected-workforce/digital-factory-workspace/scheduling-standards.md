@@ -18,7 +18,7 @@ Scheduling of standards and tasks enables a proactive planning approach in manuf
 
 This feature enables equipment owners and operators in manufacturing environments to plan and schedule all operational standards needed to maintain optimal equipment conditions. It replaces manual, spreadsheet-based planning with a centralized approach to task management. By doing so, it helps bring together planning activities that were previously spread across different systems.
 
-The system offers flexible scheduling options. You can set up daily, weekly, and monthly tasks, including more complex patterns such as "every Tuesday of every other week." This helps align maintenance and operational standards with how the equipment is used.
+The system offers flexible scheduling options, including daily, weekly, and monthly tasks. Complex patterns are also supported, such as "every Tuesday of every other week." These options align maintenance and operational standards with how the equipment is used.
 
 The scheduling feature creates tasks automatically based on predefined standards. It reduces the mental effort required from operators to remember or track tasks manually. They receive system prompts, which helps make sure that no critical tasks are missed.
 

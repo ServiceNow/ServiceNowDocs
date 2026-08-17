@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding, distribution set, admin]
-breadcrumb: [Invoice cost allocation, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, Source-to-Pay workspace, cost center, general ledger account, cost allocation, GL coding, distribution set, APO admin]
+breadcrumb: [Invoice cost allocation, Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Allocate costs using distribution set
@@ -37,7 +37,7 @@ Role required: sn\_ap\_apm.admin
 
 5.  Select **Create template**.
 
-    For distribution set with template, if there’s distribution lines created, by default, the distribution set is active. For non-template, if the allocation percentage doesn't sum upto 100%, then the distribution set remains inactive else it is saved as active.
+    For distribution set with template, if there’s distribution lines created, by default, the distribution set is active. For non-template, if the allocation percentage doesn't sum to 100%, then the distribution set remains inactive otherwise it is saved as active.
 
 6.  Select **Submit**.
 

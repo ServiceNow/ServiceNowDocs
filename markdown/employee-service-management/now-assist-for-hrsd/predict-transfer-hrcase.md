@@ -8,8 +8,8 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+reading_time_minutes: 2
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Predict service and transfer HR cases agentic workflow
@@ -18,11 +18,11 @@ Analyze an HR case and automatically route it to the most appropriate HR service
 
 ## Overview of Predict service and transfer HR cases agentic workflow
 
-The agents, tools, and triggers that are associated with the Predict service and transfer HR cases agentic workflow are provided by Now Assist applications. You can activate the agentic workflow template by making triggers active. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers that are associated with this agentic workflow are provided by the ServiceNow Otto application. To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
+
+**Note:** Verify that the sn\_hr\_core.case\_writer role includes the sn\_uxc\_gen\_ai.platform\_ai\_field\_predictor role; otherwise, the workflow will not operate as expected.
 
 ## Prerequisites and setup
-
-You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
 Perform the following steps after you [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md).
 
@@ -70,7 +70,7 @@ The AI agent decision log displays the AI agents that are working to predict and
 
 ## Prediction and transfer results on Agent Workspace for HR Case Management
 
-This is an example of how the Predict service and transfer HR cases agentic workflow automatically identifies the appropriate HR service for a case, and transfers the case to the identified service.
+This is an example of how the agentic workflow automatically identifies the appropriate HR service for a case, and transfers the case to the identified service.
 
 \[Omitted image "hr-predicted-service.png"\] Alt text: Prediction and transfer results on Agent Workspace for HR Case Management
 

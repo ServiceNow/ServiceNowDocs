@@ -4,8 +4,8 @@ description: The ServiceNow Configuration Compliance application enables you to 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-06-05"
-reading_time_minutes: 6
+last_updated: "2026-07-31"
+reading_time_minutes: 7
 ---
 
 # Configuration Compliance release notes
@@ -15,7 +15,7 @@ The ServiceNow® Configuration Compliance application enables you to prioritize 
 ## Configuration Compliance highlights for the Australia release
 
 -   The AWS Integration for Security Exposure Management supports integrations with AWS Inspector and AWS Security Hub.
--   If you're currently using Configuration Compliance and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Configuration Compliance and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Import Wiz issues and configuration test results from the Wiz scanners into test results in the Configuration Compliance application with the Vulnerability Response Integration with Wiz.
 -   With the sn\_vulc.remediation\_owner role, create remediation tasks manually in the IT Remediation Workspace.
 -   With the sn\_vulc.admin role, create remediation tasks manually in the Vulnerability Manager Workspace.
@@ -26,32 +26,42 @@ See [Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ## Important information for upgrading Configuration Compliance to Australia
 
-If you are currently using Configuration Compliance, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Configuration Compliance and for upgrades to supported third-party integration applications.
+If you're currently using Configuration Compliance, and you don't intend to upgrade to Unified Security Exposure Management \(USEM\), install a version previous v30.x of Configuration Compliance and for upgrades to supported third-party integration applications.
 
-The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-wiz-exploring-host-cf.md) is deprecated. If you are currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. Please review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-wiz-exploring-host-cf.md) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, backdate any of your existing Wiz primary integrations by three days and run them. See more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+
+For more information about the released versions of the Vulnerability Response application and the third party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
 ## New in the Australia release
+
+-   **Enhancements to the Vulnerability Response Integration with Wiz**
+
+    Enhancements to the Wiz integration that imports cloud configuration findings as Test Results in Configuration Compliance. Configuration issues related to AI assets, such as AI models and agents are routed into AI security exposure management tables \(AI posture findings\).
+
+    This enhancement helps with better visibility within AI Control Tower and for any AI-specific remediation workflows to be added in the future. The 'Send AI security findings to AI security exposure management' configuration setting has been added to the Wiz Test Results integration configuration page so that AI security findings are routed into AI security exposure management.
 
 -   **[Activate the Wiz Asset Integration and identify resource types for import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/wiz-assets-resources-tab.md)**
 
     Enhancements to the Wiz integration include:
 
-    -   Starting with version 32.1 \(USEM\) and version 4.1 \(non-USEM\), the Asset integration is deactivated by default and is not a mandatory prerequisite for the other Wiz integration imports.
+    -   Starting with version 32.1 \(USEM\) and version 4.1 \(non-USEM\), the Asset integration is deactivated by default. It is not a mandatory prerequisite for the other Wiz integration imports.
 
         If you choose to activate it, the Asset integration will retrieve assets for all resource types if you don't specify the ones you want on the **Asset Integration Configuration** tab. To avoid importing vulnerability data you don't need, identify only the resources \(assets\) that you want to import with this integration.
 
     -   Resource Type is no longer a mandatory field for configuring the Vulnerability Response Integration with Wiz. You can now save Wiz configurations for the integrations without specifying a Resource Type, simplifying setup for use cases where specifying a Resource Type isn't appropriate.
 -   **[Tenable compliance test uniqueness key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cc-tenable-compliance-test-uniqueness-key.md)**
 
-    You can now configure which identifier the system uses to uniquely match incoming Tenable compliance test records. Previously, compliance tests were identified by the check\_id field, which caused records to be overwritten when multiple tests shared the same control identifier. You can now select the identifier that best matches how your Tenable data is structured \(**compliance\_control\_id**, **check\_id**, or **compliance\_functional\_id**\), ensuring test records are accurately preserved during ingestion.
+    You can now configure which identifier the system uses to uniquely match incoming Tenable conformance test records. Previously, conformance tests were identified by the check\_id field, which caused records to be overwritten when multiple tests shared the same control identifier. You can now select the identifier that best matches how your Tenable data is structured \(**compliance\_control\_id**, **check\_id**, or **compliance\_functional\_id**\), ensuring test records are accurately preserved during ingestion.
 
 -   **[Qualys parameter to ignore passed test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/Qualys-cc-Integration.md)**
 
     Starting with v15.2.5 of Configuration Compliance, the ignore\_passed\_result integration instance parameter for the Qualys Integration for Security Operations has been added.
 
-    This parameter is set to `false` by default so that passed test results imported by Qualys are not ignored.
+    This parameter is set to `false` by default so that passed test results imported by Qualys aren't ignored.
 
     Set the parameter to **true** to ignore passed test results on import.
 
@@ -62,14 +72,14 @@ For more information about the released versions of the Vulnerability Response a
     The AWS Integration for Security Exposure Management supports integrations with the following AWS services:
 
     -   AWS Inspector is an automated vulnerability management service that continuously scans EC2 instances, ECR container images, and Lambda functions for software vulnerabilities \(CVEs\) and unintended network exposure. The Vulnerability Response integration with AWS Inspector imports host and container vulnerability findings from AWS Inspector.
-    -   AWS Security Hub is a security service that is used to centralize and update security checks across AWS accounts. It provides a unified view of security alerts and compliance status by integrating with various AWS services. The Vulnerability Response integration with AWS Security Hub imports host, container vulnerabilities, and misconfigurations from AWS Security Hub.
+    -   AWS Security Hub is a security service that is used to centralize and update security checks across AWS accounts. It provides a unified view of security alerts and conformance status by integrating with various AWS services. The Vulnerability Response integration with AWS Security Hub imports host, container vulnerabilities, and misconfigurations from AWS Security Hub.
 -   **[Optimized Tenable.io Compliance Results ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tenableIntegration.md)**
 
-    Starting with v 6.1.3, the Tenable.io Compliance Results Integration is replaced by the Tenable.io Fixed Compliance Results Integration and Tenable.io Open Compliance Results Integration. Compliance results are now imported based on their status, optimizing ingestion performance and scalability for environments with large volumes of compliance data while keeping remediation and compliance tracking aligned with the current state of findings.
+    Starting with v 6.1.3, the Tenable.io conformance Results Integration is replaced by the Tenable.io Fixed conformance Results Integration and Tenable.io Open conformance Results Integration. conformance results are now imported based on their status, optimizing ingestion performance and scalability for environments with large volumes of conformance data while keeping remediation and conformance tracking aligned with the current state of findings.
 
 -   **[Qualys Integration – API enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_QualysVulnIntegration.md)**
 
-    The Qualys Vulnerability Integration has been upgraded to support newer Qualys API versions across Host Detection, Host List, Knowledgebase, PC Controls, PC Policies, and PCRS integrations. The integrations now ingest additional data fields, including vulnerability detection source, authentication privilege status, active status for controls and policies, and cloud metadata, giving you better visibility into your vulnerability and compliance data. Use the new `posture_api_version` integration instance parameter to choose between the default v2.0 APIs or the newer v5.0 streaming APIs for the PCRS Policy Host and PCRS Test Results integrations.
+    The Qualys Vulnerability Integration has been upgraded to support newer Qualys API versions across Host Detection, Host List, Knowledgebase, PC Controls, PC Policies, and PCRS integrations. The integrations now ingest additional data fields, including vulnerability detection source, authentication privilege status, active status for controls and policies, and cloud metadata, giving you better visibility into your vulnerability and conformance data. Use the new `posture_api_version` integration instance parameter to choose between the default v2.0 APIs or the newer v5.0 streaming APIs for the PCRS Policy Host and PCRS Test Results integrations.
 
 -   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ms-defender-sem.md)**
 
@@ -82,7 +92,7 @@ For more information about the released versions of the Vulnerability Response a
 
 ## Activation information
 
-Install Configuration Compliance and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Configuration Compliance and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
 

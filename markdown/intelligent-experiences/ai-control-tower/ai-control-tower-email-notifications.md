@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Control Tower email notifications
@@ -43,5 +43,5 @@ The following notification is sent when an AI asset is retired or cancelled.
 
 ## Related information
 
-See  for email notifications for AI governance workflows, including AI Risk and Compliance, and inherited Risk Management processes.
+See [AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc_email_notifications.md) for email notifications for AI governance workflows, including AI Risk and Compliance, and inherited Risk Management processes.
 

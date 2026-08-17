@@ -15,7 +15,7 @@ breadcrumb: [Core Business Suite]
 
 Core Business Suite application provides a unified request experience across departments for organizations.
 
--   **[Now Assist requester experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-configurations-requesters.md)**  
+-   **[Otto requester experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-configurations-requesters.md)**  
 Requesters in CBS can use Now Assist in the conversational interface and in search functionality to raise requests and get AI-enabled responses.
 -   **[Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md)**  
 Raise a general request across departments, as an employee, on CBS.

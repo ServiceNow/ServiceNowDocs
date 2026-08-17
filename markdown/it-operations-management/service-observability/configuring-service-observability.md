@@ -20,6 +20,10 @@ After you install Service Observability, you must connect external observability
 
 -   **[Install Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/install-service-observability.md)**  
 If you have the system admin role, you can install the Service Observability application \(`sn_sow_svcobs`\). The application installs related ServiceNow® Store applications and plug-ins if they aren't already installed.
+-   **[Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md)**  
+The analyze service health skill uses generative AI to provide an analysis of all Service Observability dashboards for the selected service. You need to activate this skill before using it.
+-   **[Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md)**  
+The analyze Service Observability dashboard skill uses generative AI to provide an analysis of a Service Observability dashboard. You need to activate this skill before using it.
 -   **[Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/connect-an-observability-data-source.md)**  
 Connect Service Observability to an external observability system. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that observability instance.
 -   **[Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md)**  

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-12"
-reading_time_minutes: 8
+last_updated: "2026-08-10"
+reading_time_minutes: 9
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -30,19 +30,18 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Agent Advisor
+AI Agent Studio
 
 </td><td>
 
-The AI Agent Advisor application supports all platform accessibility features.
+-   **[Voice Input for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-</td></tr><tr><td>
+Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the . This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
-AI Control Tower
+After enabled, the Enable voice input for the ServiceNow Otto panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
 
-</td><td>
+Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
-The AI Control Tower application supports all platform accessibility features.
 
 </td></tr><tr><td>
 
@@ -64,7 +63,7 @@ Guided Tours is enhanced with more accessibility features including:
 
     -   Descriptive page titles
     -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
+    -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
 
 </td></tr><tr><td>
 
@@ -83,12 +82,32 @@ CPQ
 
 </td><td>
 
-The ServiceNow CPQ runtime configuration experience includes the following keyboard and screen reader accessibility improvements.
+The CPQ runtime configuration experience includes the following keyboard and screen reader accessibility improvements.
 
 -   Navigate and select options in single-select picklists, selectable product cards, and the product picker grid using a keyboard.
 -   Shopping cart and bill of materials \(BOM\) column headers are announced as text with full, untruncated labels, and table cells reference their row and column headers for screen reader context.
 -   Field labels are read across transaction runtime fields, keyboard focus returns to the date input after a calendar selection, and the field edit page provides more descriptive context for related item tiles and tooltips.
--   The ServiceNow CPQ and ServiceNow Quote Experience runtime interface supports 400% zoom without loss of content or functionality, meeting the WCAG 2.2 success criterion 1.4.10 \(Reflow\). Users who rely on screen magnification can navigate and interact with the quoting experience at 400% zoom on a standard viewport.
+-   The CPQ and ServiceNow Quote Experience runtime interface supports 400% zoom without loss of content or functionality, meeting the WCAG 2.2 success criterion 1.4.10 \(Reflow\). Users who rely on screen magnification can navigate and interact with the quoting experience at 400% zoom on a standard viewport.
+
+The CPQ admin UI includes the following keyboard and screen reader accessibility improvements:
+
+-   Skip links on list pages allow keyboard users to bypass navigation and go directly to main content or grid rows.
+-   Grid column headers announce sort direction, and sort indicators appear as separate elements to reduce announcement clutter.
+-   The New button announces the specific entity type to be created, field edit page tooltips are read aloud on focus, and related item tiles provide more descriptive context for assistive technology users.
+
+The CPQ runtime configuration and transaction experience includes the following keyboard and screen reader accessibility improvements:
+
+-   Navigate and select options in single-select picklists, selectable product cards, and the product picker grid using a keyboard.
+-   Radio button groups and rectangular pushbutton groups retain their selection when navigating away using a screen reader.
+-   The complete text of shopping cart or BOM column headers is announced; table cells reference their row and column headers for screen reader context.
+-   Field labels are read across transaction runtime fields, and keyboard focus returns to the date input after a calendar selection.
+-   Expandable section headers announce error indicators, field-level error messages are read aloud on input focus, and help popover content is reachable by screen readers.
+
+The CPQ AI runtime experience includes the following keyboard and screen reader accessibility improvements:
+
+-   The Config AI view is reachable and navigable using a keyboard, so users aren't misdirected to fields in the main layout during configuration sessions.
+-   Quote AI is accessible using keyboard navigation and screen readers.
+-   Smart Predict runtime experience elements, including trigger icons, notification icons, and modal interactions, are accessible using keyboard navigation and screen readers.
 
 </td></tr><tr><td>
 
@@ -115,7 +134,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 -   **Reflow**
 
-Docs in CWM Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
+Docs in CWM Configurable Workspace support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
 This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
@@ -160,7 +179,7 @@ Employee Slate
 
 </td><td>
 
-Employee Slate includes built-in accessibility compliance through the AI widget builder. Custom widgets automatically meet accessibility standards when created through the prompt-driven interface with design components that include accessibility features by default.
+The AI widget builder in Employee Slate includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
 
 </td></tr><tr><td>
 
@@ -221,45 +240,13 @@ To view Next Experience Components accessibility conformance information, refer 
 
 </td></tr><tr><td>
 
-Now Assist AI Agents
-
-</td><td>
-
--   **[Voice Input for Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
-
-After enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
-
-Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
-
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-The Now Assist Center application supports all the platform accessibility features.
-
-</td></tr><tr><td>
-
-Now Assist in Platform Analytics
-
-</td><td>
-
--   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
--   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
-
-</td></tr><tr><td>
-
 RPA Hub
 
 </td><td>
 
 -   **Accessibility improvements**
 
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
+Improvements were completed to support accessibility.
 
 
 </td></tr><tr><td>
@@ -296,6 +283,15 @@ Format Painter plugin for TinyMCE enables you to apply consistent font styles, s
 
 </td></tr><tr><td>
 
+ServiceNow Otto in Platform Analytics
+
+</td><td>
+
+-   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
+-   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
+
+</td></tr><tr><td>
+
 Telecommunications Network Inventory
 
 </td><td>
@@ -316,7 +312,7 @@ UI Builder
 
 </td><td>
 
-The expanded drop-down menus for column properties can be ready by screen readers.
+The expanded drop-down menus for column properties are compatible with screen readers, making interface navigation easier for screen reader users.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

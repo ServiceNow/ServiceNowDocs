@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-review-issues.html
 release: australia
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-07-21"
 reading_time_minutes: 2
-breadcrumb: [Review results, Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Review results, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Review issues discovered in agentic evaluations
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  From the list, select the automated evaluation you want to review.
 

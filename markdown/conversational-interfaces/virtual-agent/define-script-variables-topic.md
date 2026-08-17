@@ -27,22 +27,24 @@ For more information about writing scripts for Virtual Agent, see [Virtual Agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the home page, open an existing topic or create a new one.
+2.  Select the **Asset library** tab.
+
+3.  Open an existing topic or create a new one.
 
     The **Flow** tab displays the conversation flow.
 
-3.  In the sidebar, select the Variables tab, then select the **Script** plus \[Omitted image "icon-plus-clear.png"\] Alt text: Script plus icon. icon.
+4.  In the sidebar, select the Variables tab, then select the **Script** plus \[Omitted image "icon-plus-clear.png"\] Alt text: Script plus icon. icon.
 
-4.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Variable name|Name of the variable. The name is case-sensitive. Spaces in the name are replaced with an underscore character.|
     |Default value|Default value for the variable. You can use either a static value or a script that specifies a dynamic value for this variable.|
 
-5.  Select **Save**.
+6.  Select **Save**.
 
 
 **Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)

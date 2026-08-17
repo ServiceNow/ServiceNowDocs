@@ -59,7 +59,7 @@ The following user input controls are supported in LLM topics when you create an
 
 
 -   **[Input Collector user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-data-collector.md)**  
-Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
+Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 -   **[Text user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-text-input.md)**  
 The Text user input control in a Virtual Agent topic prompts the user for a text string.
 -   **[Static Choice user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-static-choicelist.md)**  

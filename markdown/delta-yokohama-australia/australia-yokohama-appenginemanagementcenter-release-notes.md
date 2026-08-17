@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-appenginemanagementcenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -115,7 +115,7 @@ Configure a standalone environment for deployments in the platform version of AE
 Streamline credential sharing between instances and automates the deployment process in ReleaseOps within the AEMC guided setup.
 
 
--   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=release-lifecycle-documentation-agent-landing&family=australia&ft:locale=en-US)**
+-   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=exploring-release-lifecycle-documentation-agent&family=australia&ft:locale=en-US)**
 
 Help improve transparency across your app development environment using the release lifecycle documentation AI agent, to generate update set descriptions and release notes.
 
@@ -464,7 +464,7 @@ Australia
 -   AEMC guided setup now includes ReleaseOps.
 -   AEMC now displays role-based banners.
 
- [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US) general availability
+ [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
 
 -   Use the release lifecycle documentation AI agent to regenerate release notes.
 -   Use the improved filter feature to sort requests based on specific criteria.

@@ -9,6 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [HAM data integrations tab, discovery pattern attribute coverage, Service Graph Connector integration status, improve HAM data coverage, data integration source breakdown]
 breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -22,7 +23,7 @@ Use the **Data integrations** tab in the CMDB success advisor for HAM to assess 
 
 Navigate to the CMDB success advisor, and on the HAM card, select **View insights**. Select the **Data integrations** tab. To access the dashboard, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md).
 
-**Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
+**Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 
 ## Required roles
 

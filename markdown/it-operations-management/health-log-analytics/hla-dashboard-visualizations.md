@@ -22,7 +22,7 @@ The data can be presented in various types of graphs and charts. You can adjust 
 
 This functionality is supported in the Service Operations Workspace Log Analytics application, Version 21.2.7 - November 2022 and later, and has a dependency on the Platform Analytics Workspace, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/aiops-dashboards-sow-itom.md).
+As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-dashboards-sow-itom.md).
 
 \[Omitted image "hla-log-dashboard-sample.png"\] Alt text: Log data dashboard sample.
 

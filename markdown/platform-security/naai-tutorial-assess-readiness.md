@@ -43,14 +43,14 @@ Once the required applications are installed, assign the following roles to the 
 
 -   **__sn\_nowassist\_admin.nsa\_admin__**
 
-    Required to configure Now Assist Admin settings, activate guardrails, and manage privacy policies.
+    Required to configure AI Admin Hub settings, activate guardrails, and manage privacy policies.
 
 -   **__sn\_generative\_ai.data\_steward__**
 
     Required to make data sharing decisions and configure privacy policies. Assign this role before configuring data protection settings in [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md).
 
 
-For a full list of roles installed with Now Assist, see [Now Assist Admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md).
+For a full list of roles installed with Now Assist, see [AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md).
 
 ## Classify user identity types
 

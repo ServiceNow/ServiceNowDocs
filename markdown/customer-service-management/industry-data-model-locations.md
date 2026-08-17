@@ -1,6 +1,6 @@
 ---
-title: Service Model Foundation business locations
-description: Use the business location entity to create an organizational structure that includes internal and external business locations such as stores, branches, franchises, and dealerships.
+title: Service Model Foundation business organizations
+description: Use the business organization \(formerly business location\) entity to create an organizational structure that includes internal and external organizations \(formerly internal and external business locations\) such as stores, branches, franchises, and dealerships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-locations.html
 release: australia
@@ -10,29 +10,31 @@ reading_time_minutes: 1
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Service Model Foundation business locations
+# Service Model Foundation business organizations
 
-Use the business location entity to create an organizational structure that includes internal and external business locations such as stores, branches, franchises, and dealerships.
+Use the business organization \(formerly business location\) entity to create an organizational structure that includes internal and external organizations \(formerly internal and external business locations\) such as stores, branches, franchises, and dealerships.
 
-A business location is an extension of a service organization. The business location entity enables you to model the internal and external organizational structure involved in supporting customers. It also enables you to give agents the correct level of visibility into customer data.
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
-With the business location entity you can:
+A business organization is an extension of a service organization. The business organization entity enables you to model the internal and external organizational structure involved in supporting customers. It also enables you to give agents the correct level of visibility into customer data.
 
--   Create internal and external business locations using a hierarchy, with parent and child locations.
--   Associate users within a business location, which makes them staff members of that location.
--   Provide staff members at a business location with access to the customer cases and information for that location.
+With the business organization entity you can:
+
+-   Create internal and external organizations \(formerly internal and external business locations\) using a hierarchy, with parent and child locations.
+-   Associate users within a business organization, which makes them staff members of that location.
+-   Provide staff members at a business organization with access to the customer cases and information for that location.
 -   Create teams of staff members to support accounts, consumers, and households.
 -   Provide the staff members on those teams with access that enables them to manage cases for their accounts, consumers, and households.
 
-## Creating a business location
+## Creating a business organization
 
-Maintain an organizational structure by creating internal and external business locations. To create a business location, see [Create a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-business-location.md).
+Maintain an organizational structure by creating internal and external organizations . To create a business organization \(formerly business location\), see [Create a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-business-location.md).
 
-## Accessing business locations
+## Accessing business organizations
 
-Managers have access to their business location and to the business locations that are designated as child locations in the hierarchy.
+Managers have access to their business organization and to the business locations that are designated as child locations in the hierarchy.
 
-When a user is added to the **Manager** field, the sn\_customerservice.svc\_location\_manager role is automatically added to that user. You can also add a user as the manager for multiple business locations.
+When a user is added to the **Manager** field, the sn\_customerservice.svc\_location\_manager role is automatically added to that user. You can also add a user as the manager for multiple business organizations.
 
 Staff members with the location agent role or location consumer agent role can perform the following actions:
 

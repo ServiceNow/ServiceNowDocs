@@ -7,9 +7,9 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-13"
 reading_time_minutes: 3
-breadcrumb: [Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a custom search matcher for global search
@@ -111,6 +111,10 @@ The name of the search application configuration record for the AI Search applic
 
         A linkage record for your custom search matcher and the selected AI Search application appears in the Custom matchers for Search Application \[m2m\_search\_context\_config\_custom\_matcher\] table.
 
+
+## Result
+
+Global searches performed with AI Search use your new custom search matcher. When a search query exactly matches the specified regular expression pattern, the custom matcher triggers and the search only returns exact-match results from the specified table and column.
 
 **Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
 

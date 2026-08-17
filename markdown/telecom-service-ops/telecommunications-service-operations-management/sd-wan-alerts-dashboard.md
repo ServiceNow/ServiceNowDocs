@@ -41,5 +41,5 @@ The **Alert Categorization** tab displays SD-WAN alerts grouped by customer and 
 |Title|Type|Description|
 |-----|----|-----------|
 |Alerts per Customer|Donut chart|Distribution of alerts grouped by customer|
-|Alert Severity HeatMap|Heat map|Distribution of alerts by severity level \(Major, Minor, and Warning\) over time|
+|Alert Severity HeatMap|Heat map|Distribution of alerts by severity \(for example, Critical, Major, Minor, Warning, and Clear\) over time|
 

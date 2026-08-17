@@ -1,6 +1,6 @@
 ---
 title: Administration cards
-description: The administration cards provide you with the capability to monitor and manage applications, where you can add, enable, or disable as necessary. You can get insights into the policies applied for compliance, view the list of DEX users and DEX administrators, manage the metric rules and devices with Agent Client Collector installed for data analysis.
+description: Use the administration cards to monitor and manage applications, policies, users, administrators, metric rules, and devices with Agent Client Collector installed. View compliance policies and manage DEX users and administrators from a single location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/administration-cards.html
 release: australia
@@ -9,12 +9,13 @@ classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [dex administration page, administration page cards, agent client collector \(acc\), acc deployment, desktop assistant \(da\), desktop assistant deployment, browser extension activation, self service configuration, system compliance policies, file management, windows registry configuration, agent policies, metric rules configuration, remedial actions, agent health monitoring, proactive engagement workbench, desktop assistant usage, applications management, user roles configuration]
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
 # Administration cards
 
-The administration cards provide you with the capability to monitor and manage applications, where you can add, enable, or disable as necessary. You can get insights into the policies applied for compliance, view the list of DEX users and DEX administrators, manage the metric rules and devices with Agent Client Collector installed for data analysis.
+Use the administration cards to monitor and manage applications, policies, users, administrators, metric rules, and devices with Agent Client Collector installed. View compliance policies and manage DEX users and administrators from a single location.
 
 <table id="table_rjd_p1l_1xb"><thead><tr><th>
 

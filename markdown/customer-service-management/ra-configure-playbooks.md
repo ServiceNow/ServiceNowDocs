@@ -50,8 +50,8 @@ Playbooks deliver step-by-step guidance directly within the Recommended Actions 
 
 7.  In the Launch mode field, select how to launch a playbook in the Agent workspace when an agent selects the action.
 
-    -   **Launch in expanded view**: The playbook opens in the configured location such as related tab.
-    -   **Launch in side panel**: The playbook opens in theSuggested Actions tab of the Recommended Actions Contextual Side Panel.
+    -   **Launch in expanded view**: The playbook opens in the configured location such as a related tab.
+    -   **Launch in side panel**: The playbook opens in the Suggested Actions tab of the Recommended Actions Contextual Side Panel.
     **Note:** This field appears when you select the `Playbooks` option in the Action type field.
 
 8.  Save the recommended action configuration.

@@ -1,6 +1,6 @@
 ---
-title: Example use case for Now Assist Skill Kit
-description: As an AI developer, you can create custom skills with Now Assist Skill Kit. For this example, create a custom skill for child incident summarization.
+title: Example use case for AI Skill Kit
+description: As an AI developer, you can create custom skills with AI Skill Kit. For this example, create a custom skill for child incident summarization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/example-na-skill-kit.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Example use case for Now Assist Skill Kit
+# Example use case for AI Skill Kit
 
-As an AI developer, you can create custom skills with Now Assist Skill Kit. For this example, create a custom skill for child incident summarization.
+As an AI developer, you can create custom skills with AI Skill Kit. For this example, create a custom skill for child incident summarization.
 
 As an AI developer, you must create a skill for child incident summarization. Creating this skill can help you organize and understand multiple incidents that are related to the same parent.
 
@@ -22,7 +22,7 @@ As an AI developer, you must create a skill for child incident summarization. Cr
 
 To create the skill:
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 2.  Select **Create new skill**.
 3.  On the form, fill in the fields. The following information is used to fill in the form for this example:
 
@@ -30,7 +30,7 @@ To create the skill:
     -   Description: `Summarization of child incidents`
     -   Default provider: `Now LLM Generic`
     -   Provider API: `Now LLM Generic`
-    \[Omitted image "nask-new-skill.png"\] Alt text: Create new skill modal for Now Assist Skill Kit.
+    \[Omitted image "nask-new-skill.png"\] Alt text: Create new skill modal for AI Skill Kit.
 
 4.  Select **Create skill**.
 
@@ -48,11 +48,11 @@ After you create the skill and configure the settings, you must develop the prom
 
 Select the **Inputs** for the skill. For this example, the record is selected as the input.
 
-\[Omitted image "nask-add-skill-input.png"\] Alt text: Skill input modal for Now Assist Skill Kit.
+\[Omitted image "nask-add-skill-input.png"\] Alt text: Skill input modal for AI Skill Kit.
 
 Select insert inputs for the prompt.
 
-\[Omitted image "nask-insert-inputs.png"\] Alt text: Prompt page for Now Assist Skill Kit with the Insert iIputs button outlined in red.
+\[Omitted image "nask-insert-inputs.png"\] Alt text: Prompt page for AI Skill Kit with the Insert iIputs button outlined in red.
 
 For this example, the following is used:
 
@@ -60,11 +60,11 @@ For this example, the following is used:
 
 Select the tools for the skill. For this example, select Flow Action and the IncidentDetailsFetcher flow resource.
 
-\[Omitted image "nask-add-tool-example.png"\] Alt text: Add tool modal in Now Assist Skill Kit.
+\[Omitted image "nask-add-tool-example.png"\] Alt text: Add tool modal in AI Skill Kit.
 
 ## Configure the skill deployment options
 
-The next step is to configure the skill deployment options. These options enable you to choose where to find the skill in Now Assist Admin.
+The next step is to configure the skill deployment options. These options enable you to choose where to find the skill in AI Admin Hub.
 
 1.  Select the **Skill settings** tab.
 2.  Select **Deployment Settings**.
@@ -87,5 +87,5 @@ If everything looks good, select **Finalize prompt**. After you finalize the pro
 
 ## Activate the skill
 
-After you test, finalize, and publish your skill, an admin must activate it in Now Assist Admin. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
+After you test, finalize, and publish your skill, an admin must activate it in AI Admin Hub. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 

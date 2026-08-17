@@ -9,7 +9,7 @@ classification: value-library
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Track your business ROI, Value management, Using Impact, Impact]
+breadcrumb: [Business ROI tracking with Value Reports, Value management, Using Impact, Impact]
 ---
 
 # Value calculation for Impact Value Reports

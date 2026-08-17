@@ -9,8 +9,8 @@ classification: event-management
 topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
-keywords: [IT Operations Management, configuration console, Event Management, ITOM, AIOps, Now Assist]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+keywords: [ITOM Config Console]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Access Event Management configuration console
@@ -19,7 +19,7 @@ Access the IT Operations Management configuration console to set up Event Manage
 
 ## Before you begin
 
-Verify that the ITOM AIOps and Now Assist for IT Operations Management plugins are installed.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Role required: evt\_mgmt\_admin
 
@@ -40,5 +40,7 @@ Role required: evt\_mgmt\_admin
     The Configure IT Operations Management page opens.
 
     \[Omitted image "aiops-admin-conf-itom-page.png"\] Alt text: The Configure IT Operations Management page where you can see the Discovery and the Event Management modules.
+
+    **Note:** The **Configure with AI** UI action appears only after you install both the ServiceNow Otto for ITOM and Now Assist plugins. This action lets you set up Now Assist powered alert handling, so you get AI assistance without configuring it manually.
 
 

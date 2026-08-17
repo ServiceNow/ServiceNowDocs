@@ -1,6 +1,6 @@
 ---
 title: Configuring dictionary, UI policy, and element variables
-description: Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
+description: Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view, which determine columns, required fields, and display in dependency assessment views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-enhanced-bia-logic.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Manageme
 
 # Configuring dictionary, UI policy, and element variables
 
-Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
+Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view, which determine columns, required fields, and display in dependency assessment views.
 
 Dictionary entries \[sys\_dictionary\] serve the purpose of providing additional details for each table and defining the columns on those tables. For more information on Dictionary entries, see [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataDictionaryTables.md).
 
@@ -20,7 +20,7 @@ UI policies are used to dynamically alter the behavior of information on a form.
 
 Element variables are employed to define additional data for a record, allowing for more granular control over the behavior and attributes of that record. For more information on Element variables, see [Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-variable-uib-ws.md).
 
-View rules are utilized to define the filter condition and execution order for a table, providing a way to customize the view and presentation of data within that table. For more information on View rules, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAViewRule.md).
+View rules are utilized to define the filter condition and execution order for a table. They provide a way to customize the view and presentation of data within that table. For more information on View rules, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAViewRule.md).
 
 Administrators play a crucial role in configuring the Dictionary, UI policy, element variables, and UI view for a dependency by performing these tasks:
 

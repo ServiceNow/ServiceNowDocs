@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [Procurement workspace, Offboard a supplier, Supplier Case form, Submit Case, Supplier Lifecycle Operations, Source-to-Pay Workspace, Playbook]
 breadcrumb: [Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

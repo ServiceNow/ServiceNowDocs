@@ -1,20 +1,20 @@
 ---
-title: Summarize a workplace case using Now Assist for WSD
-description: Use the case summarization skill to summarize the case context and take appropriate action.
+title: Summarize a workplace case using ServiceNow Otto for WSD
+description: Use the workplace case summarization skill to summarize the case context and take appropriate action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/summarize-workplace-case.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-02-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Summarize a workplace case using Now Assist for WSD
+# Summarize a workplace case using ServiceNow Otto for WSD
 
-Use the case summarization skill to summarize the case context and take appropriate action.
+Use the workplace case summarization skill to summarize the case context and take appropriate action.
 
 ## Before you begin
 
@@ -22,89 +22,87 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 ## About this task
 
-As an admin, you can configure the Workplace Case Summarization skill to customize the input fields and output summary. For more information about customizing the skill, see [Configure the Workplace Case Summarization Skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/customize-workplace-summarization.md).
+As an admin, you can configure the workplace case summarization skill to customize the input fields and output summary. For more information about customizing the skill, see [Configure the workplace case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/customize-workplace-summarization.md).
 
-You can use the case summarization skill in either Core UI or Workplace Central.
+You can use the workplace case summarization skill in either the Core UI or Workplace Central.
 
--   In Core UI, the summary appears in a banner in the case record.
+-   In the Core UI, the summary appears in a banner in the case record.
 -   In Workplace Central, the summary is generated in the **Details** tab.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central**.
 
-    You can also open Workplace Central from the Employee Center directly. Navigate to **Workspaces** &gt; **Workplace Central**.
+    You can also open Workplace Central from the Employee Center directly by navigating to **Workspaces** &gt; **Workplace Central**.
 
     The Workplace Analytics dashboard opens.
 
-2.  Select the **Case Management** icon \(\[Omitted image "casemgmt-icon.png"\] Alt text: Case Management icon.\).
+2.  Select the **Case Management** icon \[Omitted image "casemgmt-icon.png"\] Alt text:.
 
-    The Case Management dashboard opens.
+3.  On the Case Management dashboard, select a case from the Overview section or the All active cases section.
 
-3.  Select a case from the **Overview** section or the **All active cases** section.
-
-    The list view displays the cases as WCASEXXXX for normal workplace cases, WMCXXXX for maintenance cases and WMOVEXXXX for move cases.
+    The list view displays the cases as WCASEXXXX for normal workplace cases, WMCXXXX for maintenance cases, and WMOVEXXXX for move cases.
 
     The case details are displayed in a new tab. For more information about the Case details page, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
-4.  In the Workplace Case summary by Now Assist component, select **Summarize**.
+4.  In the Workplace Case summary by ServiceNow Otto component, select **Summarize**.
 
     **Note:** Generating the summary may take several seconds.
 
-5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
+5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about the case.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d254609e208">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d254839e201">
 
 Option
 
-</th><th align="left" id="d254609e211">
+</th><th align="left" id="d254839e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d254609e217">
+</th></tr></thead><tbody><tr><td id="d254839e210">
 
 **Save the summary information by adding it to the case work notes**
 
 </td><td>
 
 1.  Select **Share**.
-2.  In the **Share to work notes** dialog box, edit the summary.
+2.  In the Share to work notes dialog box, edit the summary.
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d254609e247">
+</td></tr><tr><td id="d254839e237">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the **Show more** or **Show less** button to see more or fewer summary details.
+Select **Show more** or **Show less** to see more or fewer summary details.
 
-</td></tr><tr><td id="d254609e262">
+</td></tr><tr><td id="d254839e252">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d254609e285">
+</td></tr><tr><td id="d254839e273">
 
 **Copy the case summary**
 
 </td><td>
 
-Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
+Select the copy icon \[Omitted image "icon-copy.png"\] Alt text: to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d254609e301">
+</td></tr><tr><td id="d254839e288">
 
 **View the information about the case summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
+If you want to check some details about the summary, select the more info icon \[Omitted image "icon-more-info.png"\] Alt text:.
 
 </td></tr></tbody>
 </table>

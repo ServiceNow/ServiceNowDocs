@@ -39,17 +39,17 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 5.  On the Manage data page, attach the three exported CSV data files to entries in the Data tables section as follows.
 
-    1.  In the Users data table, use the **Add file** link to attach the CSV data file that contains the User Mapping ID and Assignment Profile ID columns.
+    1.  In the Users data table, use the **Add file** link to attach the CSV data file from the Users custom report.
 
-        Data from this file populates the user mapping table for the connector. The connector crawls this table during user permission crawls. AI Search uses the retrieved data to find the original document access restrictions to apply for each search user.
+        This CSV file includes the contains the User Mapping ID and Assignment Profile ID columns. Data from this file populates the user mapping table for the connector. The connector crawls this table during user permission crawls. AI Search uses the retrieved data to find the original document access restrictions to apply for each search user.
 
-    2.  In the Library and assignment profiles data table, use the **Add file** link to attach the CSV data file that contains the Library ID and Assignment Profile ID columns.
+    2.  In the Library and assignment profiles data table, use the **Add file** link to attach the CSV data file from the Libraries and assignment profiles custom report.
 
-        Data from this file links assignment profiles to libraries. The connector crawls this table during user permission crawls. AI Search uses the retrieved links to enforce the original document access restrictions for each search user.
+        This CSV file includes the Library ID and Assignment Profile ID columns. Data from this file links assignment profiles to libraries. The connector crawls this table during user permission crawls. AI Search uses the retrieved links to enforce the original document access restrictions for each search user.
 
-    3.  In the Trainings data table, use the **Add file** link to attach the CSV data file that contains the Type ID, Item ID, Revision Date, Item Classification ID, Item Title, Item Description, and Aggregated Library ID columns.
+    3.  In the Trainings data table, use the **Add file** link to attach the CSV data file from the Training items custom report.
 
-        Data from this file provides content and metadata for training items. The connector crawls this table during content crawls. AI Search uses the retrieved information to make training item content and metadata searchable for users with the correct access controls.
+        This CSV file includes the Type ID, Item ID, Revision Date, Item Classification ID, Item Title, Item Description, Aggregated Library ID, and Locale\_ID columns. Data from this file provides content and metadata for training items. The connector crawls this table during content crawls. AI Search uses the retrieved information to make training item content and metadata searchable for users with the correct access controls.
 
     4.  In the Trainings data table, enter the URL for one of your SAP SuccessFactors source system's training items.
 

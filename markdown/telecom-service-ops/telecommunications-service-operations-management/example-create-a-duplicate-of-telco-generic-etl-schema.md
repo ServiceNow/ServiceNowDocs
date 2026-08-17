@@ -1,6 +1,6 @@
 ---
 title: Example - Duplicate the Telco Generic ETL Schema
-description: This example walks you through how to duplicate the Telco Generic Schema ETL to set up a customized Service Graph Connector \(SGC\) ETL for your telecom integration. Use this procedure when you want to create a baseline ETL in your connector’s application scope based on the standardized Telco Generic Schema, ensuring schema alignment, consistency, and faster deployment.
+description: This example walks you through how to duplicate the Telco Generic Schema ETL to set up a customized Service Graph Connector \(SGC\) ETL for your telecom integration. Use this procedure to create a baseline ETL in your connector's application scope based on the standardized Telco Generic Schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/example-create-a-duplicate-of-telco-generic-etl-schema.html
 release: australia
@@ -14,21 +14,21 @@ breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Bu
 
 # Example - Duplicate the Telco Generic ETL Schema
 
-This example walks you through how to duplicate the Telco Generic Schema ETL to set up a customized Service Graph Connector \(SGC\) ETL for your telecom integration. Use this procedure when you want to create a baseline ETL in your connector’s application scope based on the standardized Telco Generic Schema, ensuring schema alignment, consistency, and faster deployment.
+This example walks you through how to duplicate the Telco Generic Schema ETL to set up a customized Service Graph Connector \(SGC\) ETL for your telecom integration. Use this procedure to create a baseline ETL in your connector's application scope based on the standardized Telco Generic Schema.
 
 ## Scenario
 
-You are deploying a new Service Graph Connector and need to duplicate the Telco Generic Schema ETL into your connector’s application scope.
+You are deploying a new Service Graph Connector and need to duplicate the Telco Generic Schema ETL into your connector's application scope.
 
-Create a temporary data source, duplicate the ETL, and configure it to work with your connector’s device payloads.
+Create a temporary data source, duplicate the ETL, and configure it to work with your connector's device payloads.
 
 ## Steps to duplicate the Telco Generic Schema ETL
 
-1.  Switch to the connector’s application scope where you want to duplicate the ETL \(e.g., Nokia NSP Connector\).
+1.  Switch to the connector's application scope where you want to duplicate the ETL \(e.g., Nokia NSP Connector\).
 2.  Create the data source:
     -   Navigate to System Import Sets &gt; Administration &gt; Data Sources.
     -   Locate the Generic Schema Multi-Source Data Source provided by the TSOM Core application.
-    -   Copy this data source into your connector’s application scope.
+    -   Copy this data source into your connector's application scope.
     -   Test the copied data source by running Test Load 20 Records to create a sample import set.
 3.  Open the Duplicate ETL Transform Map Dialog: In ETL Studio, select Duplicate ETL to start the duplication process.
 4.  In the **Duplicate from** list, choose Telco Generic Schema.
@@ -40,9 +40,9 @@ Create a temporary data source, duplicate the ETL, and configure it to work with
 10. Click **Create Duplicate** to complete the duplication.
 11. Update **Basic Details**:
     -   After duplication, open the newly created ETL.
-    -   In step 1: specify **Basic Details**, replace the temporary data source with your connector’s production data source.
+    -   In step 1: specify **Basic Details**, replace the temporary data source with your connector's production data source.
 12. Save the ETL Configuration: click **Save** to finalize your changes.
-13. Run the **Data Source**: From Import Schedules, run your connector’s data source to ingest real device data.
+13. Run the **Data Source**: From Import Schedules, run your connector's data source to ingest real device data.
 
 Result: The system creates a new ETL based on the Telco Generic Schema settings and processes the payloads from your specified connector data source. The imported data is transformed into Configuration Items \(CIs\) and inserted into the ServiceNow CMDB with the expected relationships and structures.
 

@@ -41,3 +41,13 @@ DEX is compatible with the following operating systems:
     -   Sonoma
     -   Sequoia
 
+## CPU consumption
+
+Digital End-User Experience \(DEX\) utilizes approximately 1% average CPU consumption for both Windows and macOS devices.
+
+## CPU protection threshold
+
+When an agent meets the configured thresholds specified in the agent's `acc.yml` file, it enters CPU protection mode, either for an individual check or for all checks. For more information on the CPU protection threshold see, [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-set-silent-reference.md)
+
+**Note:** Configure the ACC CPU Protection Threshold to 20% for DEX deployments.
+

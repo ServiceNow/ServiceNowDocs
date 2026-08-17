@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Localization
@@ -43,5 +43,5 @@ The locale options are for timezone, currencies, and date/time format.
 
 See [Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-localization-il.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist in Virtual Agent system properties
+title: ServiceNow Otto for Virtual Agent system properties
 description: Use system properties to customize your assistant. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Legacy refers to the standard or enhanced chat experience. Premium refers to the premium chat experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.html
@@ -8,11 +8,11 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Now Assist in Virtual Agent reference, Now Assist in Virtual Agent, Conversational Interfaces]
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Otto for Virtual Agent reference, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
-# Now Assist in Virtual Agent system properties
+# ServiceNow Otto for Virtual Agent system properties
 
 Use system properties to customize your assistant. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Legacy refers to the standard or enhanced chat experience. Premium refers to the premium chat experience.
 
@@ -46,7 +46,7 @@ com.glide.cs.nass.synthesized\_response.disabled\_popover.hide
 
 </td><td>
 
-Hide the popover for inactive catalog items for Now Assist in Virtual Agent and Now Assist panel's enhanced chat. The default value is `false`.
+Hide the popover for inactive catalog items forServiceNow Otto for Virtual Agent and ServiceNow Otto panel's enhanced chat. The default value is `false`.
 
 </td><td>
 
@@ -82,7 +82,7 @@ sn\_ais\_assist.kgnlq\_schema\_name
 
 </td><td>
 
-Control the information available to Now Assist in Virtual Agent through Knowledge Graph. The default value is `sn_kg.now_user_graph_nlq`.
+Control the information available to ServiceNow Otto for Virtual Agent through Knowledge Graph. The default value is `sn_kg.now_user_graph_nlq`.
 
 </td><td>
 
@@ -237,41 +237,6 @@ Enable relevant history-based suggestions.
 </td><td>
 
 Legacy
-
-</td></tr></tbody>
-</table>View the table showing actions executed and corresponding suggested actions in the instance. The table is visible when the system property is set to `Log only` or `True`. The table location is: **sys\_now\_assist\_va\_suggested\_actions\_result\_log**.
-
-<table id="table_esd_jrb_1fc"><tbody><tr><td>
-
-Executing action name
-
-</td><td>
-
-Executing action description
-
-</td><td>
-
-SA1 name
-
-</td><td>
-
-SA1 description
-
-</td><td>
-
-SA1 model type
-
-</td><td>
-
-SA2 name
-
-</td><td>
-
-SA2 description
-
-</td><td>
-
-SA2 model type
 
 </td></tr></tbody>
 </table>

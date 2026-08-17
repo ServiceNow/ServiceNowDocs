@@ -54,11 +54,11 @@ It eliminates the need for manual lookup and ensures that branch records contain
     -   ID of the branch and its originating country
     The number for the branch is auto-generated. Once the branch details are complete, the information is ready to be captured in the information register.
 
-    For more information, see [Create New Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-branch-form.md).
+    For more information, see [Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-branch-form.md).
 
 4.  Select **Save**.
 
-    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the Name of the branch, Country of the branch, and LEI of the financial entity head office fields are automatically populated with data returned from GLEIF.
+    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the system automatically populates the Name of the branch, Country of the branch, and LEI of the financial entity head office fields.
 
     The digital resilience information for the branch is shown in the example.
 
@@ -75,8 +75,8 @@ It eliminates the need for manual lookup and ensures that branch records contain
 
 Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-function.md).
 
--   **[Create New Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-branch-form.md)**  
-On the Create New Branch form, fill in the fields.
+-   **[Create Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-branch-form.md)**  
+On the Create Branch form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

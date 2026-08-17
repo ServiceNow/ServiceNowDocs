@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with external datasets, Use, Process Mining, Platform Analytics]
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Create an audit table
@@ -56,6 +56,4 @@ Role required: sn\_process\_mining\_admin
 
 7.  Select **Next**.
 
-
-**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
 

@@ -204,7 +204,7 @@ The License operations view includes the following categories:
 
     -   **Devices to scan**
 
-        Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only. For more information about updating the VM managers, see [Specify the virtual machine managers \(VMMs\) for which you are tracking IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md).
+        Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only. For more information about updating the VM managers, see [Specify VMMs for IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md).
 
     -   **Device settings**
 
@@ -256,11 +256,4 @@ The License operations view includes the following categories:
 
     View the list of software products published in a phase-wise implementation of Software Asset Management. For more information, see [Manage phase-wise Software Asset Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-phasewise-imp-of-sam.md).
 
-
-**Related topics**  
-
-
-[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
-
-[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
 

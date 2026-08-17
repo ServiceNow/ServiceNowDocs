@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) determines the level at which time cards for the project tasks can be created. For example, at the project level, if a user is assigned to multiple tasks in a project, then the time spent on all the tasks is recorded under one time card only; and at the project task level, separate time cards are created corresponding to each planned task.
+The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) determines the level at which time cards for the project tasks can be created. For example, at the project level, if a user works on multiple tasks in a project, all the time is recorded under one time card. At the project task level, separate time cards are created corresponding to each planned task.
 
 ## Procedure
 
@@ -34,15 +34,15 @@ The **Allow time card reporting on** field on the [project form](https://raw.git
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d256835e101">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d263602e106">
 
 Time card type
 
-</th><th align="left" id="d256835e104">
+</th><th align="left" id="d263602e109">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d256835e110">
+</th></tr></thead><tbody><tr><td id="d263602e115">
 
 **All time cards for project and non-project tasks from a selected time sheet**
 
@@ -50,7 +50,7 @@ Option
 
 Tap Copy from previous time sheet
 
-</td></tr><tr><td id="d256835e119">
+</td></tr><tr><td id="d263602e124">
 
 **Time cards for all project tasks assigned to the user for the time sheet week that are in progress or planned in that week**
 
@@ -58,7 +58,7 @@ Tap Copy from previous time sheet
 
 Tap Generate time cards
 
-</td></tr><tr><td id="d256835e128">
+</td></tr><tr><td id="d263602e133">
 
 **Time card for assigned task**
 
@@ -69,7 +69,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d256835e152">
+</td></tr><tr><td id="d263602e157">
 
 **Time card for unassigned task**
 
@@ -80,7 +80,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d256835e177">
+</td></tr><tr><td id="d263602e182">
 
 **Time card for operational work, such as administration, meeting, and KTLO**
 

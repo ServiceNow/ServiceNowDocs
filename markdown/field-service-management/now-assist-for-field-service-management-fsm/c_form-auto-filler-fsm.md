@@ -1,29 +1,31 @@
 ---
 title: ServiceNow AI Lens form auto-filler
-description: The ServiceNow AI Lens form auto-filler uses AI image recognition to populate form fields from photos that field service technicians capture in the ServiceNow Agent mobile application. Technicians can auto-fill Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.Use ServiceNow AI Lens to auto-fill form fields by capturing or uploading an image in the ServiceNow Agent mobile app. The Lens Launcher is available on Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.Use ServiceNow AI Lens through Now Assist Virtual Agent \(NAVA\) in the ServiceNow Agent mobile application to analyze an image and receive a text summary. This flow does not auto-fill form fields.
+description: The ServiceNow AI Lens form auto-filler uses AI image recognition to populate form fields from photos that field service technicians capture in the ServiceNow Agent mobile application. Technicians can auto-fill Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.Use ServiceNow AI Lens to auto-fill form fields by capturing or uploading an image in the ServiceNow Agent mobile app. The Lens Launcher is available on Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.Use ServiceNow AI Lens through ServiceNow Otto Virtual Agent in the ServiceNow Agent mobile application to analyze an image and receive a text summary. This flow does not auto-fill form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/c\_form-auto-filler-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: concept
-last_updated: "2026-05-11"
-reading_time_minutes: 8
-keywords: [ServiceNow Lens, Form Auto-Filler, Lens Launcher, AI image recognition, Smart Assessment, Now Assist for FSM, mobile, ServiceNow Lens, Lens Launcher, auto-fill, Form Auto-Filler, Smart Assessment, Input Form, mobile, ServiceNow Lens, Now Assist Virtual Agent, NAVA, image analysis, mobile, Now Assist for FSM]
-breadcrumb: [Use generative AI skills, Now Assist for FSM]
+last_updated: "2026-07-10"
+reading_time_minutes: 7
+keywords: [ServiceNow Lens, Lens Launcher, auto-fill, Form Auto-Filler, Smart Assessment, Input Form, mobile, ServiceNow Lens, Now Assist Virtual Agent, NAVA, image analysis, mobile, Now Assist for FSM]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for FSM]
 ---
 
 # ServiceNow AI Lens form auto-filler
 
 The ServiceNow AI Lens form auto-filler uses AI image recognition to populate form fields from photos that field service technicians capture in the ServiceNow Agent mobile application. Technicians can auto-fill Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:**
+
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see.
 
 ## ServiceNow AI Lens form auto-filler
 
 The ServiceNow AI Lens form auto-filler reduces the effort of manually entering data by using AI image recognition to extract information from photos and populate form fields automatically.
 
-The feature is a direct implementation of the platform-level ServiceNow AI Lens capability for Field Service Management. Technicians access it from a **Lens Launcher** button on supported forms, or from the ServiceNow AI Lens topic in Now Assist Virtual Agent.
+The feature is a direct implementation of the platform-level ServiceNow AI Lens capability for Field Service Management. Technicians access it from the **Lens Launcher** button on supported forms, or from the ServiceNow AI Lens topic in ServiceNow Otto Virtual Agent.
 
 ## Supported form types
 
@@ -38,31 +40,20 @@ The ServiceNow AI Lens form auto-filler is available on the following form types
     Technicians can launch ServiceNow AI Lens from a Scripted Input Form, such as Smart Assessment questionnaires to auto-populate fields based on the form's underlying script.
 
 
-## ServiceNow AI Lens in Now Assist Virtual Agent
+## ServiceNow AI Lens in ServiceNow Otto Virtual Agent
 
-Technicians can use in-form auto-fill or access ServiceNow AI Lens through Now Assist Virtual Agent \(NAVA\) in the ServiceNow Agent mobile application. In this process, the technician selects ServiceNow AI Lens from the NAVA topic picker, uploads or captures an image, and receives a text summary response. This flow does not auto-fill form fields. For more information, see [Use ServiceNow AI Lens in Now Assist Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/c_form-auto-filler-fsm.md).
+Technicians can use in-form auto-fill or access ServiceNow AI Lens through ServiceNow Otto Virtual Agent in the ServiceNow Agent mobile application. In this process, the technician selects ServiceNow AI Lens from the Virtual Agent topic picker, uploads or captures an image, and receives a text summary response. This flow does not auto-fill form fields. For more information, see [Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/c_form-auto-filler-fsm.md).
 
 ## Plugins
 
 The ServiceNow AI Lens form auto-filler requires the following plugins:
 
--   `com.sn_ai_lens` — Platform ServiceNow AI Lens plugin.
--   `com.sn.fsm.gen.ai` — Now Assist for FSM plugin. Controls access to the Lens Launcher icon on FSM forms.
--   `com.snc.fsm_smart_asmt_questionnaire` — Smart Assessment Questionnaire plugin. Required for Lens Launcher on Smart Assessment questionnaires.
--   `com.snc.app_lens_util_pack` — Defines who can use the feature, how data is processed, and the field types that ServiceNow AI Lens can populate.
+-   `com.sn_ai_lens`- Platform ServiceNow AI Lens plugin.
+-   `com.sn.fsm.gen.ai`- ServiceNow Otto for the FSM plugin. Controls access to the Lens Launcher icon on the FSM forms.
+-   `com.snc.fsm_smart_asmt_questionnaire`- Smart Assessment questionnaire plugin. Required for Lens Launcher on Smart Assessment questionnaires.
+-   `com.snc.app_lens_until_pack`- Defines who can use the feature, how data is processed, and the fields that ServiceNow AI Lens can populate.
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
-
-**Related topics**  
-
-
-[Auto-fill a form with ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/c_form-auto-filler-fsm.md)
-
-[Use ServiceNow AI Lens in Now Assist Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/c_form-auto-filler-fsm.md)
-
-[Exploring Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
-
-[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+**Parent Topic:**[Using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 ## Auto-fill a form with ServiceNow AI Lens
 
@@ -149,15 +140,15 @@ An error message is displayed when the icon is selected.To resolve this, ensure 
 
 [ServiceNow AI Lens form auto-filler]()
 
-[Use ServiceNow AI Lens in Now Assist Virtual Agent]()
+[Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent]()
 
 [Smart Assessment questionnaires]()
 
 [Configuring Smart Assessment questionnaires for Now Mobile Agent]()
 
-## Use ServiceNow AI Lens in Now Assist Virtual Agent
+## Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent
 
-Use ServiceNow AI Lens through Now Assist Virtual Agent \(NAVA\) in the ServiceNow Agent mobile application to analyze an image and receive a text summary. This flow does not auto-fill form fields.
+Use ServiceNow AI Lens through ServiceNow Otto Virtual Agent in the ServiceNow Agent mobile application to analyze an image and receive a text summary. This flow does not auto-fill form fields.
 
 ### Before you begin
 
@@ -167,7 +158,7 @@ Role required: wm\_agent, which inherits the lens\_user role.
 
 ### About this task
 
-Use ServiceNow AI Lens through Now Assist Virtual Agent when you need to identify an asset, document, or item from an image and receive a text summary. This flow is useful for on-demand lookup during a job.
+Use ServiceNow AI Lens through ServiceNow Otto Virtual Agent to identify an asset, document, or item from an image and receive a text summary. This flow is useful for on-demand lookup during a job.
 
 **Note:** Review AI-generated responses for accuracy before acting on them. AI-generated results may not be accurate in all cases. Implement human review before using results in production.
 
@@ -175,7 +166,7 @@ Use ServiceNow AI Lens through Now Assist Virtual Agent when you need to identif
 
 1.  Log in to the ServiceNow Agent mobile application.
 
-2.  Select **Now Assist** in the navigation bar to open Now AssistVirtual Agent.
+2.  Select **ServiceNow Otto** in the navigation bar to open ServiceNow Otto Virtual Agent.
 
 3.  From the topic picker, select **ServiceNow Lens**.
 
@@ -183,16 +174,16 @@ Use ServiceNow AI Lens through Now Assist Virtual Agent when you need to identif
 
     -   To capture a new image, select the Camera icon \[Omitted image "form-auto-filler-fsm-upload.png"\] Alt text:, then take a photo.
     -   To upload an existing image, select the Image icon \[Omitted image "lens-nava-fsm.png"\] Alt text:, then select an image from the device.
-5.  Provide a relevant prompt for NAVA, such as `describe the details of the assets uploaded`, to generate a response.
+5.  Provide a relevant prompt for the Virtual Agent, such as `describe the details of the assets uploaded`, to generate a response.
 
-6.  Review the text summary that Now Assist Virtual Agent returns.
+6.  Review the text summary that ServiceNow Otto Virtual Agent returns.
 
     ServiceNow AI Lens analyzes the image and returns a text summary in the chat. This flow does not auto-fill any form fields. To auto-populate a form using ServiceNow AI Lens, see [Use ServiceNow AI Lens with the form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/c_form-auto-filler-fsm.md).
 
 
 ### Result
 
-The chat displays a text-based summary of the captured image, generated by Now Assist Virtual Agent.
+The chat displays a text-based summary of the captured image, generated by ServiceNow Otto Virtual Agent.
 
 **Related topics**  
 
@@ -201,7 +192,7 @@ The chat displays a text-based summary of the captured image, generated by Now A
 
 [Auto-fill a form with ServiceNow AI Lens]()
 
-[Summarize a record using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/summarize-a-record-using-now-assist-virtual-agent.md)
+[Summarize a record using ServiceNow Otto in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/summarize-a-record-using-now-assist-virtual-agent.md)
 
 [Create an Assistant for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/activate-virtual-agent-for-field-service-management.md)
 

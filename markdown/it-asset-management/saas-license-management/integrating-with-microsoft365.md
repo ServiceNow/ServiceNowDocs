@@ -37,11 +37,19 @@ Process
 
 </th><th>
 
-Required user role in the Microsoft Dynamics 365 and Power Apps application
+Required user role in Microsoft Dynamics 365 and Power Apps for Delegated permissions
 
 </th><th>
 
-Authentication scopes
+Authentication scopes for Delegated permissions
+
+</th><th>
+
+Required user role in Microsoft Dynamics 365 and Power Apps for Application permissions
+
+</th><th>
+
+Authentication scopes for Application permissions
 
 </th></tr></thead><tbody><tr><td>
 
@@ -50,6 +58,15 @@ Download subscriptions
 </td><td>
 
 Global Reader
+
+</td><td>
+
+-   LicenseAssignment.Read.All
+-   User.Read.All
+
+</td><td>
+
+Application developer
 
 </td><td>
 
@@ -67,6 +84,14 @@ Dynamics 365 administrator
 </td><td>
 
 user\_impersonation
+
+</td><td>
+
+Not supported by Microsoft
+
+</td><td>
+
+Not supported by Microsoft
 
 </td></tr></tbody>
 </table>## Set up Microsoft Azure Active Directory
@@ -126,24 +151,24 @@ URL that accesses Azure. Typically the URL of the ServiceNow instance.**Importan
 
 7.  Navigate to the Certificates and Secrets section.
 
-8.  Create a client secret and collect the client secret key.
+8.  Create a client secret by selecting **New client secret** and collect the client secret key.
 
     You need the client secret key while configuring your ServiceNow instance.
 
 9.  Under API Permission, select **Add a permission** and then select **APIs my organization uses**.
 
-10. Select Microsoft Graph and add the required scopes for Delegated or Application type permissions.
+10. Select **Microsoft Graph** and add the required scopes for **Delegated permissions** or **Application permissions**.
 
     -   `Organization.Read.All`
     -   `User.Read.All`
     -   `Offline_access`
-11. Select Dynamics CRM and add the following scope.
+11. Select **Dynamics CRM** and add the following scope.
 
     `user_impersonation`
 
     **Note:** User\_impersonation scope is offered only as a Delegated permission in Microsoft Dynamics CRM.
 
-12. Under Grant consent, select **Grant admin consent**.
+12. Grant admin consent for your application by selecting **Grant admin consent**.
 
 13. In the Authentication section, under the Redirect URI, enter the redirect URI of the ServiceNow instance.
 
@@ -206,15 +231,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d134657e709">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d135932e760">
 
 Interface
 
-</th><th align="left" id="d134657e712">
+</th><th align="left" id="d135932e763">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134657e718">
+</th></tr></thead><tbody><tr><td id="d135932e769">
 
 **Core UI**
 
@@ -225,7 +250,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d134657e760">
+</td></tr><tr><td id="d135932e811">
 
 **Software Asset Workspace**
 

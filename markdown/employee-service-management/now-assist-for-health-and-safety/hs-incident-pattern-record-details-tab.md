@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-06-21"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Incident pattern form

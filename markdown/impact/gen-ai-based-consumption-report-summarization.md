@@ -1,5 +1,5 @@
 ---
-title: Summarize Consumption Reports with generative AI
+title: Summarize Consumption Reports with ServiceNow Otto for Impact
 description: View a concise summary of a Consumption Report in Impact, including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and Instance Observer seats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/gen-ai-based-consumption-report-summarization.html
@@ -10,21 +10,21 @@ reading_time_minutes: 1
 breadcrumb: [Consumption Report, Using Impact, Impact]
 ---
 
-# Summarize Consumption Reports with generative AI
+# Summarize Consumption Reports with ServiceNow Otto for Impact
 
 View a concise summary of a Consumption Report in Impact, including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and Instance Observer seats.
 
 ## Before you begin
 
-Configure the Now Assist Consumption Report summarization for Impact to use the generative AI skills. For more information, see [Activate Now Assist skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md).
+Configure the ServiceNow Otto for Impact Consumption Report summarization for Impact to use the generative AI skills. For more information, see [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md).
 
-**Note:** Access to the AI-based Consumption Report summarization feature requires a Pro Plus license for any ServiceNow product.
+**Note:** Access to the Consumption Report summarization with ServiceNow Otto for Impact feature requires a Pro Plus license for any ServiceNow product.
 
 Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
 
 ## About this task
 
-Use the Gen AI based Consumption Report summary to view the following:
+Use the ServiceNow Otto based Consumption Report summary to view the following:
 
 -   Details of Accelerator usage and its alignment with business objectives.
 -   Overview of active Now Support cases, with details on response times for P1 and P2 cases and current resolution progress.
@@ -36,9 +36,9 @@ Use the Gen AI based Consumption Report summary to view the following:
 
 2.  Select **Summarize**.
 
-    Now Assist generates and displays summary information for the outcome, as shown in the following example.
+    ServiceNow Otto for Impact generates and displays summary information for the outcome, as shown in the following example.
 
-    \[Omitted image "image.consumptionreport\_summarization"\] Alt text: Consumption report feature overview.
+    \[Omitted image "consumptionreport\_summarization.png"\] Alt text: Consumption report feature overview.
 
 3.  Provide feedback for the summary by selecting the thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\] icons.
 

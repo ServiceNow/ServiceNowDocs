@@ -44,15 +44,13 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
     The transaction opens in the **Dispute workspace**.
 
-6.  Select the **Immediate final credit activity** from the **Dispute workspace**.
+6.  Select the **Immediate final credit** task from the **Dispute workspace**.
 
 7.  Select the immediate final credit task that you want to complete.
 
 8.  Fill in the required fields in the form, and any other related information that you have gathered.
 
 9.  In the **Work notes** field, enter any comments.
-
-    This step is optional.
 
 10. After you have entered the details in the task, select **Update**.
 

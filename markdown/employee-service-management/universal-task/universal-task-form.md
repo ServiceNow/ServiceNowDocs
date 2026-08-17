@@ -68,10 +68,10 @@ Type
 
 Type of task being assigned. The available options are:-   Submit Catalog Item
 -   Upload Documents
--   Upload Documents
 -   Mark When Complete
 -   Checklist
 -   Collect Employee Input
+-   URL
 
 </td></tr><tr><td>
 

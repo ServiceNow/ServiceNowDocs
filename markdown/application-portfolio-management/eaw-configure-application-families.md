@@ -16,7 +16,7 @@ An application family is an attribute to group a set of related applications bas
 
 By grouping related applications, you can easily identify redundancies, overlaps, or gaps in your application landscape. This enables better governance through lifecycle tracking and making informed investment decisions across related applications.
 
-You can define application families based on how you want to evaluate and compare applications, not just how they are classified. Create application families when multiple applications support the same business function, compete for the same investment, or share a common lifecycle or modernization goal. Group applications by business capability, platform or suite, or lifecycle direction only when it supports portfolio‑level decision‑making, and avoid creating application families when grouping does not add analytical value.
+You can define application families based on how you want to evaluate and compare applications, not just how they are classified. Create application families when multiple applications support the same business function, compete for the same investment, or share a common lifecycle or modernization goal. Group applications by business capability, platform or suite, or lifecycle direction only when it supports portfolio‑level decision‑making. Avoid creating application families when grouping does not add analytical value.
 
 **Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup.md)
 

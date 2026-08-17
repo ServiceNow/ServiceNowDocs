@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ To enable application patterns on the Agent Client Collector, install the follow
 -   Agent Client Collector for Visibility Content
 -   Discovery
 
-Ensure that the agent is connected to a MID Server to enable pattern execution. The MID Server runs the pattern, and each command step is evaluated against the agent as an ad-hoc check who's name begins with **PatternOnTheFlyCheck**.
+Ensure that the agent is connected to a MID Server to enable pattern execution. Pattern execution on an agent is supported only using a MID Server. Each pattern step is executed on the agent as an ad-hoc check; ad-hoc checks are logged on the agent side as **PatternOnTheFlyCheck**.
 
 Set the **sn\_agent.appl\_classification\_behavior** property to **full**, and restart any MID Servers connected to the agent.
 

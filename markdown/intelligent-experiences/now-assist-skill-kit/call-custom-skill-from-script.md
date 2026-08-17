@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Call a custom skill from a script
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Create a UI action.
 
-    For more information on creating UI actions, see .
+    For more information on creating UI actions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 3.  Add your script.
 
@@ -83,7 +83,7 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

@@ -20,7 +20,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Select the List icon.
 

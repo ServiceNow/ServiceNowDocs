@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Run SGC imports, Use, Telecommunications Service Operations Management]
 ---
@@ -41,7 +41,7 @@ If you have configured multiple Cisco Meraki connection aliases for different en
 
 5.  In the Executions related list, verify the import results by selecting the most recent Import Set record created by the execution of the import.
 
-6.  Review the import set log to verify the numbers of rows read, number of rows inserted or updated, or transformation success status, in the CMDB, which indicate that the CIs exist.
+6.  Review the import set log to verify the numbers of rows read, rows inserted or updated, and transformation success status in the CMDB.
 
     If you delete existing CIs and rerun the import, the log might show multiple inserts and updates, validating end-to-end functionality.
 

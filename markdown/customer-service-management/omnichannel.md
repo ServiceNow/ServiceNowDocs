@@ -37,26 +37,25 @@ Omnichannel brings together customer communications from email, chat, voice, mes
 
 ## Omnichannel workflow
 
-This scenario shows the omnichannel customer service journey, and how ServiceNow connects every channel to keep agents fully informed at each step.
+The following omnichannel workflow example shows how Alex, a customer service manager at a growing retail company, improves support across chat, email, messaging apps, and voice. Customers can start in one channel and continue in another without repeating themselves. A virtual agent collects order and issue details and attempts self-service resolution. When escalation is needed, the conversation moves to a live agent with full context, who creates and resolves the case while keeping the complete interaction history linked. From the unified workspace, Alex’s team can view every channel in one place, reduce resolution times, and provide consistent, informed service at each touchpoint.
 
-1.  A customer initiates a return. The Virtual Agent responds automatically, collects order details, and tries to resolve the issue through self-service.
-2.  The conversation escalates to a live agent with full context.
-3.  The agent creates a case from the interaction and resolves it.
-4.  The agent sends the resolution to the customer via email with all details. ServiceNow links the outbound email to the case and keeps the chat history for reference.
-5.  The customer accepts the resolution, which closes the case.
+\[Omitted image "omnichannel-use-case-workflow-revised1.png"\] Alt text: Omnichannel workflow diagram showing how customer interactions across channels connect to a unified agent workspace
 
-Throughout the journey, customers don't repeat themselves, and every agent has all information at every touchpoint.
+## Channel descriptions
 
-\[Omitted image "omnichannel-use-case-updated.png"\] Alt text: Omnichannel workflow diagram showing how customer interactions across channels connect to a unified agent workspace
+|Channel|Role|Description|
+|-------|----|-----------|
+|[Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ChatFeature.md)|Agent|Review incoming chat with full customer history and open cases, resolve the issue, and record a wrap-up code to close the interaction.|
+|Admin|Set up chat queues, define routing rules to distribute incoming chats by priority or skill, configure Virtual Agent escalation paths, and adjust agent capacity settings to balance workload.|
+|[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceEmailCommunication.md)|Agent|Review Al-generated email thread summaries and the full activity stream to understand customer issues without reading every message, compose responses, and log outcomes with wrap-up codes.|
+|Admin|Configure email routing rules to send messages to the correct team, set up shared inboxes for team access, and enable AI summarization to reduce agent review time.|
+|[Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-channels.md)|Agent|Engage with customers over messaging at a flexible pace and transfer conversations to other agents while preserving the full conversation thread.|
+|Admin|Connect and manage multiple messaging channels \(SMS, WhatsApp, social messaging\) from a single ServiceNow interface instead of toggling between separate tools.|
+|[Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PhoneCommunication.md)|Agent|Handle inbound and outbound calls with customer details and case history displayed before answering, then record a wrap-up code when complete.|
+|Admin|Integrate a CCaaS platform with ServiceNow, define voice routing rules, and manage agent availability, all within ServiceNow rather than switching to a separate platform.|
 
-|Channels|Role|Benefits|
-|--------|----|--------|
-|[Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ChatFeature.md)|Agent|Access full customer details and case history during each conversation and use wrap-up codes to record outcomes when closing.|
-|Admin|Configure chat queues, routing rules, Virtual Agent, and agent capacity settings to manage workload across teams.|
-|[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceEmailCommunication.md)|Agent|Manage inbound and outbound email with AI-generated summaries, wrap-up codes, and a full activity stream to capture context quickly without manually reviewing long email threads.|
-|Admin|Set up and manage email routing rules, inboxes, and AI summarization settings to streamline agent workflows.|
-|[Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-channels.md)|Agent|Manage messaging interactions at a flexible pace and transfer them without losing conversation history.|
-|Admin|Configure and manage multiple messaging channels from a single interface.|
-|[Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PhoneCommunication.md)|Agent|Handle inbound and outbound voice interactions with full customer context and case data available before the interaction begins and use wrap-up codes to record outcomes when closing.|
-|Admin|Configure CCaaS integration and routing rules within ServiceNow without switching platforms.|
+**Related topics**  
+
+
+[Configure Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Accounts Payable Operations \(APO\)
-description: Now Assist for APO uses generative AI to help AP fulfillers summarize cases, extract invoice data, and map PO lines.
+title: ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: ServiceNow Otto for APO uses generative AI to help AP fulfillers summarize cases, extract invoice data, and map PO lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo.html
 release: australia
@@ -8,31 +8,36 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice ingestion, generative AI, Now Assist, AI automation]
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, generative AI, ServiceNow Otto]
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Accounts Payable Operations \(APO\)
+# ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-Now Assist for APO uses generative AI to help AP fulfillers summarize cases, extract invoice data, and map PO lines.
+ServiceNow Otto for APO uses generative AI to help AP fulfillers summarize cases, extract invoice data, and map PO lines.
 
 ## Get started
 
 <table id="table_yd4_xmc_wcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for APO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for APO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities that are offered by Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities that are offered by ServiceNow Otto for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 </td></tr></tbody>
-</table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
+</table>**Important:**
+
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 

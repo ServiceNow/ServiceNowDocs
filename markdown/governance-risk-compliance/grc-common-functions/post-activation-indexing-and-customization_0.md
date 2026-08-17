@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [issue submission AI agent, report a GRC issue, AI agent studio, indexing, customization, issue definition, post activation, generative AI, Now Assist]
-breadcrumb: [Activate the Report a GRC issue AI agent, Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Activate the Report a GRC issue AI agent, Configure, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Post activation indexing and customization

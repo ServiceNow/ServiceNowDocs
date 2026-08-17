@@ -13,7 +13,7 @@ reading_time_minutes: 2
 
 Manage and resolve IT service requests, incidents, problems, and changes with ServiceNow® IT Service Management \(ITSM\).
 
-\[Omitted image "whitespace-icon.png"\] Alt text: icon.
+\[Omitted image "whitespace-icon.png"\] Alt text:
 
 ITSM increases agent productivity and accelerates issue resolution. With platform-native AI, agents get recommended actions on incoming requests, and employees can resolve common issues through conversational self-service. The ServiceNow AI Platform also gives users access to ITSM through mobile and web portal interfaces.
 
@@ -27,11 +27,11 @@ The ServiceNow AI Platform is built for the cloud with a shared data model, AI, 
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
-[Explore ITSM apps \[Omitted image "landing-explore-apps.png"\] Alt text: Discover apps and features for incident resolution, change management, and continuous service improvement.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-apps-overview.md)
+[Explore ITSM products \[Omitted image "landing-explore-apps.png"\] Alt text: Explore all IT Service Management products and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
 
 </td><td>
 
-[Use Now Assist for ITSM \[Omitted image "landing-elevate-experience.png"\] Alt text: Summarize incidents, generate resolution notes, and enable agents to propose quicker resolutions using generative AI and agentic AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+[Now Assist for ITSM \[Omitted image "landing-elevate-experience.png"\] Alt text: Handle common requests automatically using virtual agents. Reduce ticket volume and deliver consistent service experiences through conversational self-service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
 
 </td><td>
 

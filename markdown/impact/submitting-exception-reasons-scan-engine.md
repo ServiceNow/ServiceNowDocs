@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-26"
 reading_time_minutes: 1
-breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Submit exceptions for Scan Engine findings
@@ -42,6 +42,6 @@ Role required: sn\_se.scan\_engine\_admin, sn\_impact\_common.Impact Developer, 
 
     The finding card updates to show a gray background with an **Exception requested** label. The **Create exception** button is replaced with a link to view the exception reason that was entered.
 
-    **Note:** If the requester name or email notification does not display correctly in the exception record after submission, ensure your user account is properly synchronized between development and production environments. The Scan Engine exception workflow requires consistent user identification across instances.
+    **Note:** If the requester name or email notification does not display correctly in the exception record after submission, verify your user account is properly synchronized between development and production environments. The Scan Engine exception workflow requires consistent user identification across instances.
 
 

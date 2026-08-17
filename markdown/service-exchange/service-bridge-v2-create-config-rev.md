@@ -16,7 +16,7 @@ breadcrumb: [Configure for providers, Service Exchange for Providers, Service Ex
 
 As a provider, you can edit and create revisions of entitlements that contain updated functionality that can be developed and deployed to consumers.
 
-When the new revision is deployed, consumers can either activate and use the new revision, or continue to use the old revision. The new revision can be activated only if the consumer is using a Service Exchange application version that is compatible with the Service Exchange application version compatibility set on the revision. If the consumers want to use the new revision, they must upgrade their Service Exchange application to the minimum compatibility that is set on the configuration.
+When the new revision is deployed, consumers can either activate and use the new revision, or continue to use the old revision. The new revision can be activated only if the consumer is using a Service Exchange application version that is compatible with the version compatibility set on the revision. If the consumers want to use the new revision, they must upgrade their Service Exchange application to the minimum compatibility that is set on the configuration.
 
 ## Configuration revision life cycle
 

@@ -1,6 +1,6 @@
 ---
 title: Control CI attribute updates using Reconciliation rules
-description: To prevent specific attributes of a Configuration Item \(CI\) from being overwritten by Discovery or other data sources, use Reconciliation Rules. These rules define which data source is trusted to update a particular attribute when multiple sources provide values.
+description: To prevent specific attributes of a configuration item \(CI\) from being overwritten by Discovery or other data sources, use Reconciliation Rules. These rules define which data source is trusted to update a particular attribute when multiple sources provide values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Activate Discrepancy and Reconciliation, Configure Telecom Visibili
 
 # Control CI attribute updates using Reconciliation rules
 
-To prevent specific attributes of a Configuration Item \(CI\) from being overwritten by Discovery or other data sources, use Reconciliation Rules. These rules define which data source is trusted to update a particular attribute when multiple sources provide values.
+To prevent specific attributes of a configuration item \(CI\) from being overwritten by Discovery or other data sources, use Reconciliation Rules. These rules define which data source is trusted to update a particular attribute when multiple sources provide values.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 Reconciliation Rules are processed by the Identification and Reconciliation Engine \(IRE\) and are essential for maintaining data integrity in the CMDB.
 
-Use Case: If you want to prevent Discovery from updating a set of attributes while allowing another source \(like SCCM or manual entry\) to update them, define a rule that excludes the Discovery source.
+Use Case: You can prevent Discovery from updating specific attributes while allowing other sources to update them. Define a rule that excludes the Discovery source and permits updates from sources like SCCM or manual entry.
 
 **Note:** Only one Reconciliation Rule should be active for a specific CI class and attribute combination to avoid conflicts.
 

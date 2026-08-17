@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aia-use-case.html
 release: australia
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Modify an agentic workflow
@@ -32,10 +32,10 @@ Role required: sns\_aia.admin
     -   [Define the AI agent security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
     -   [\(Optional\) Add a trigger to automatically invoke your AI agent if a specified event occurs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md).
     -   [Determine the channels to invoke your agentic workflow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
-    **Note:** Some fields aren't editable if the agent is associated with a Now Assist application. If you want to make more modifications, [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and make changes to the duplicate.
+    **Note:** Some fields aren't editable if the agent is associated with a ServiceNow application. If you want to make more modifications, [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and make changes to the duplicate.
 
     -   For the **List of steps** field, you can create multiple versions of the same agentic workflow without losing previous versions. Creating versions enables you to test different instructions to evaluate performance. See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/version-control.md) for more information.
-    -   For the access control lists \(ACLs\), you can edit the security fields and define who can access the agentic workflow and edit the entity to run the agentic workflow as a dynamic user or an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+    -   For the access control lists \(ACLs\), you can edit the security fields and define who can access the agentic workflow and edit the entity to run the agentic workflow as a dynamic user or an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
     -   For more guidance on creating effective instructions, see the [general guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
     You can navigate through the steps of the Guided Setup with the **Continue** and **Back** buttons.
 

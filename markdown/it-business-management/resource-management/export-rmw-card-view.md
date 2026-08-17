@@ -1,6 +1,6 @@
 ---
 title: Export resource portfolio view to Excel or CSV format
-description: Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders, even if they don't have access to your instance.
+description: Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders. This works even if they don't have access to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/export-rmw-card-view.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Resource Management Workspace, Use, Resource Management Works
 
 # Export resource portfolio view to Excel or CSV format
 
-Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders, even if they don't have access to your instance.
+Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders. This works even if they don't have access to your instance.
 
 ## Before you begin
 

@@ -29,7 +29,7 @@ Use application rationalization to edit existing demands associated with busines
 -   **[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)**  
 Use application rationalization to edit existing projects associated with business applications.
 -   **[Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-export-app-rat-list-data.md)**  
-Export the application rationalization list view data to Microsoft Excel or CSV so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis.
+Export the application rationalization list view data to Microsoft Excel or CSV to obtain insights, share with stakeholders, and prepare for analysis.
 
 **Parent Topic:**[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-app-rat.md)
 

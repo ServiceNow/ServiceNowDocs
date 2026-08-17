@@ -33,7 +33,7 @@ Use the Multi-response bot response control in a Virtual Agent topic to sequenti
 -   **[Script bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-script-output.md)**  
 Use the Script bot response control in a Virtual Agent topic to run a script that returns a single response or a multi-part response.
 -   **[Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md)**  
-Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
+Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. You can include rich content, such as a video or image.
 -   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/table-bot-response.md)**  
 Use the Table bot response control in a Virtual Agent topic to display a bot response as a table.
 -   **[Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-video-bot-response.md)**  

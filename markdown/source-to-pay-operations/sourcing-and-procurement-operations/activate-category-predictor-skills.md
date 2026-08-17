@@ -1,21 +1,21 @@
 ---
 title: Activate Product and Spend category predictor skills
-description: Activate the Product category predictor and Spend category predictor skills in Now Assist Admin to make both skills available to the Spend categorization agent.
+description: Activate the Product category predictor and Spend category predictor skills in AI Admin Hub to make both skills available to the Spend categorization agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-keywords: [Now Assist skills, Product category predictor, Spend category predictor, Now Assist Admin]
-breadcrumb: [Activate the Spend categorization agent, Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+keywords: [Now Assist skills, Product category predictor, Spend category predictor, AI Admin]
+breadcrumb: [Activate the Spend categorization agent, Configure ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Activate Product and Spend category predictor skills
 
-Activate the Product category predictor and Spend category predictor skills in Now Assist Admin to make both skills available to the Spend categorization agent.
+Activate the Product category predictor and Spend category predictor skills in AI Admin Hub to make both skills available to the Spend categorization agent.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: admin.
 
 ## About this task
 
-The Spend categorization agent uses two Now Assist skills in the Category Prediction skill family. Each skill suggests a category for a fulfiller when the primary machine learning \(ML\) prediction doesn't meet the confidence threshold. Both skills are inactive by default.
+The Spend categorization agent uses two AI skills in the Category Prediction skill family. Each skill suggests a category for a fulfiller when the primary machine learning \(ML\) prediction doesn't meet the confidence threshold. Both skills are inactive by default.
 
 |Skill|Description|
 |-----|-----------|
@@ -34,11 +34,11 @@ The Spend categorization agent uses two Now Assist skills in the Category Predic
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **AI Admin Hub**.
 
-2.  Open the Now Assist for Sourcing and Procurement Operations experience that contains the Category Prediction skills.
+2.  Open the ServiceNow Otto for Sourcing and Procurement Operations experience that contains the Category Prediction skills.
 
-3.  In the Finance and Supply Chain workflow group, select **Sourcing and Procurement Operations** to view the skills for the Now Assist for SPO features.
+3.  In the Finance and Supply Chain workflow group, select **Sourcing and Procurement Operations** to view the skills for the ServiceNow Otto for SPO features.
 
 4.  Select the **Product category predictor** skill.
 

@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice capture, invoice processing, DocIntel, Document Intelligence, generative AI, AP case]
-breadcrumb: [Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\), Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice capture, invoice processing, DocIntel, Document Intelligence]
+breadcrumb: [Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\), Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Copy and activate the generative AI DocIntel flow
@@ -25,9 +25,9 @@ Scope: Accounts Payable Operations integration with Document Intelligence.
 
 Plugins required:
 
--   Now assist in Document Intelligence
+-   ServiceNow Otto in Document Intelligence
 -   Account Payable Invoice Processing
--   Now assist for Account Payable Operations
+-   ServiceNow Otto for Accounts Payable Operations \(APO\)
 -   Document Intelligence for Accounts Payable Operations Content Pack
 
 ## About this task
@@ -46,4 +46,9 @@ Plugins required:
 
     The **DocIntel Extract Values Flow - Invoice Processing - Gen AI - Invoice Processing - Gen AI Integration** is copied and activated successfully.
 
+
+**Related topics**  
+
+
+[Use invoice data extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

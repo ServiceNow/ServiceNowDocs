@@ -1,26 +1,26 @@
 ---
 title: Activate contextual email matching for CSM
-description: Activate the Contextual Email Matching skill in Now Assist Skill Kit to link emails received on closed interactions by analyzing open cases linked to the closed interaction, enabling downstream flows to associate interactions with cases.
+description: Activate the Contextual Email Matching skill in AI Skill Kit to link emails received on closed interactions by analyzing open cases linked to the closed interaction, enabling downstream flows to associate interactions with cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-contextual-email-matching-csm.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 keywords: [contextual email matching, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, case matching, generative AI]
-breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Email channel, Configure Omnichannel, Configure, Customer Service Management]
 ---
 
 # Activate contextual email matching for CSM
 
-Activate the Contextual Email Matching skill in Now Assist Skill Kit to link emails received on closed interactions by analyzing open cases linked to the closed interaction, enabling downstream flows to associate interactions with cases.
+Activate the Contextual Email Matching skill in AI Skill Kit to link emails received on closed interactions by analyzing open cases linked to the closed interaction, enabling downstream flows to associate interactions with cases.
 
 ## Before you begin
 
 Confirm the following prerequisites are met before you begin:
 
 -   The Email Interaction for CSM plugin must be installed and active on your instance.
--   A Now Assist for CSM license must be active on your instance.
+-   A ServiceNow Otto for CSM license must be active on your instance.
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

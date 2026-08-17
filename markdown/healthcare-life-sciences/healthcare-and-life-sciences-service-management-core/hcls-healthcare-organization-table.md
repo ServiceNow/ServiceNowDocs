@@ -22,9 +22,9 @@ The Healthcare organization \[sn\_hcls\_organization\] table stores the details 
 -   Other healthcare organizations can be nested within while also being associated with multiple healthcare locations.
 -   When a healthcare organization is created, an associated business location is also created with the same name that references the healthcare organization.
 -   Contains the Business location field, which references the CSM business location \[sn\_csm\_business\_location\] table.
--   To associate healthcare organizations with healthcare locations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md).
+-   To associate healthcare organizations with healthcare locations, see [Associate healthcare locations with a healthcare organizations]().
 
-For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations]().
 
 Role required to configure the table: sn\_hcls.admin.
 

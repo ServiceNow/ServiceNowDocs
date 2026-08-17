@@ -140,3 +140,5 @@ Workplace case record that is created for allocation changes to the workplace lo
 
 [User Workplace Profile form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

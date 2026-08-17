@@ -7,9 +7,9 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Generate and modify resolution steps in LEAP

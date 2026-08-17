@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure an ACL, Access Control Lists, Access Management]
+breadcrumb: [Configure an ACL, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Secure records in an embedded list

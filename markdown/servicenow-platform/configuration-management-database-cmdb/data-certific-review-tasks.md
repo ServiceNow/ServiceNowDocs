@@ -31,6 +31,13 @@ If a certification task isn't properly assigned, you can reassign it to another 
 -   If the policy is configured to disallow empty attribute values, you will only be able to fail certification of the associated CIs, but you won't be able to certify them unless you populate the empty attributes first.
 -   If the policy is configured to disallow updates to field values, you won't be able to update non-compliant CIs, resulting in failing their certification.
 
+On the right-sidebar in the Review not completed tab, you can:
+
+-   Select the 'i' icon to expand or collapse the Important information panel that shows important task details such as associated instructions.
+-   Select the Attachments icon to attache files such as supporting documents for various findings, to the task.
+-   Select **Reassign** to reassign the tasks on this page, see Step 2 to review the reassignment options.
+-   Select **Reset** to restart the certification process for the task. For more information, see [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md).
+
 ## Procedure
 
 1.  Navigate to the Certification tasks list in either of the following ways:

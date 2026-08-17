@@ -66,7 +66,7 @@ Employee Slate for Now Assist includes 14 preconfigured notification use cases. 
 -   RITM approval assigned.
 -   RITM commented.
 
-## Moveworks notifications in Employee Slate
+## ServiceNow Otto notifications in Employee Slate
 
 In Moveworks deployments, administrators configure notifications on the Moveworks platform instead of through **Employee Slate Admin Console**. Moveworks notifications appear in Employee Slate persistent navigation alongside platform-triggered notifications. You see all your alerts in one place. Selecting a Moveworks notification brings the related update into Moveworks AI Assistant context. You can ask follow-on questions or take direct action from the assistant.
 

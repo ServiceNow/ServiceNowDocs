@@ -1,6 +1,6 @@
 ---
 title: Configure Process Classification Attachment using DI flow
-description: Configure process classification attachment di flow using the flow designer to enable submitting of email attachments to the Document Intelligence classification use case \(consisting of AI solution\) for document type identification.
+description: Copy and activate the Process Classification Attachment using DI flow to submit email attachments to Document Intelligence for document type identification. Complete this task as part of the Accounts Payable Operations integration with Document Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/process-classification-attachment-di.html
 release: australia
@@ -9,12 +9,13 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Accounts payable document classification skill, Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Document Intelligence, DI flow, Accounts Payable Invoice Processing, DocIntel]
+breadcrumb: [Configure Accounts payable document classification skill, Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Process Classification Attachment using DI flow
 
-Configure process classification attachment di flow using the flow designer to enable submitting of email attachments to the Document Intelligence classification use case \(consisting of AI solution\) for document type identification.
+Copy and activate the Process Classification Attachment using DI flow to submit email attachments to Document Intelligence for document type identification. Complete this task as part of the Accounts Payable Operations integration with Document Intelligence.
 
 ## Before you begin
 
@@ -24,9 +25,9 @@ Scope: Accounts Payable Operations integration with Document Intelligence.
 
 Plugins required:
 
--   Now assist in Document Intelligence
+-   ServiceNow Otto in Document Intelligence
 -   Account Payable Invoice Processing
--   Now assist for Account Payable Operations
+-   ServiceNow Otto for Accounts Payable Operations \(APO\)
 -   Document Intelligence for Accounts Payable Operations Content Pack
 
 ## Procedure

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-
 release: australia
 topic_type: task
 last_updated: "2026-06-08"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Create tool Knowledge graph for MCP]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
@@ -77,6 +77,16 @@ The description of what the tool intends to do. This input is exposed to AI clie
 
 </td></tr><tr><td>
 
+Annotations
+
+</td><td>
+
+Indication of the tool's behavior with MCP clients. 'Read Only' is the default annotation or tool behavior Knowledge Graph.
+
+ The MCP client will use the selected annotations to categorise tools according to their behavior.
+
+</td></tr><tr><td>
+
 MCP Servers
 
 </td><td>
@@ -89,7 +99,17 @@ One or more servers you want to add your tool to.
     -   anchortables: Use one or more table names to make your query more specific when you select Enterprise Graph or Enterprise Graph \(small\). This is helpful when you know which tables are relevant to your question. This is an optional field.
     -   tags: Include one or more tags to prioritize a specific group of tables. For example, you can use tags like 'CSM', 'HR'. These tags are required for the Enterprise Graph and Enterprise Graph \(small\) though they are only mandatory for the latter. See [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.md) for details on creating Knowledge Graph tags.
     -   description: Your query or request that will use Knowledge Graph.
-    -   apioptions
+    -   apioptions: Manually enter the JSON object as a collection of key-value pairs. It configures how to run queries and organizes the response:
+
+        |Option|Type|Default|Purpose|
+        |------|----|-------|-------|
+        |`resultLimit`|Number|10|Control how many records are returned in the response|
+        |`getEncodedQuery`|Boolean|false|Include a ServiceNow encoded query per table — useful for navigating to matching records in the UI|
+        |`getStatusMessages`|Boolean|false|Include a `meta` field with messages about result truncation and execution errors|
+        |`showColumnProperties`|Boolean|false|Include metadata for each column \(table name, display value, sys\_id\) alongside the raw value|
+        |`groupByTable`|Boolean|false|Group result columns by their source table name — results structured as `{ tableName: { columnName: value } }`|
+        |`getExplanation`|Boolean|false|Include an explanation of the query — the tables, relationships, etc. to get the results|
+
     See [Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md) to learn more. The tool is now published on the MCP Server and discoverable by MCP clients.
 
 

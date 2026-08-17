@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Operator phase 2: Triage an alert

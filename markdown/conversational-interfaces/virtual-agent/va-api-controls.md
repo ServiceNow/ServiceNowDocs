@@ -356,7 +356,7 @@ nluTextEnabled
 
 </td><td>
 
-Whether nlu is enabled at this node or not.
+Whether NLU is enabled at this node or not.
 
 </td></tr></tbody>
 </table>## Boolean

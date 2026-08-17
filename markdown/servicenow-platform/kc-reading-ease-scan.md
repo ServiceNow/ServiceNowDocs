@@ -65,5 +65,5 @@ The scan detects articles that score below 60 on the Flesch-Kincaid reading ease
 
 The article meets the readability threshold and no further reading ease findings are generated. Most articles reach a passing score after one or two review cycles.
 
-**Parent Topic:**[Using Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

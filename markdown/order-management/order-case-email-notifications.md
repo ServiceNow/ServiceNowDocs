@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management, Sales Customer Relationship Management]
+breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Email notifications for order cases
@@ -28,7 +28,7 @@ To customize the subject, content, or formatting of these default email template
 
 The application scope must be set to Manage Order Operations. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

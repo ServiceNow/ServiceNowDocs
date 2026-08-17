@@ -82,8 +82,8 @@ The Microsoft Word based audit report is accessible and user-friendly for audit 
 A common record page can be used and configured within all the GRC applications.
 -   **[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)**  
 Reference topics provide information about tables, roles, and properties installed with the GRC application.
--   **[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)**  
-The Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI‑related concerns without revealing their identity. Employees are automatically signed out of the **Employee Center** when ARC opens.
+-   **[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)**  
+Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI-related concerns without revealing their identity
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
 

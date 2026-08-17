@@ -98,7 +98,7 @@ Low-code app development streamlines the development process to build more apps 
 -   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
 -   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md)
 -   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-builder.md)
--   [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
+-   [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
 
 For more information on low-code development tools, see [Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-low-code-applications-with-app-engine.md).
 

@@ -22,7 +22,7 @@ Resource management uses a default schedule named Resource Management Schedule. 
 -   Monday through Friday 08:00-12:00
 -   Monday through Friday 13:00-17:00
 
-While planning a resource request for a resource plan, the user's schedule is considered to calculate planned and requested hours, if all users in that resource plan have the same schedule and that schedule is different from the resource management schedule.
+While planning a resource request for a resource plan, the user's schedule is considered to calculate planned and requested hours. This applies if all users in that resource plan have the same schedule and that schedule is different from the resource management schedule.
 
 ## Default schedule
 

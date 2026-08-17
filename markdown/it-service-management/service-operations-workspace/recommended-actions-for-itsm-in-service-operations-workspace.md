@@ -16,7 +16,7 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 Get guidance-based or field-level recommendations for records in Service Operations Workspace.
 
--   **[Get Guidance based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md)**  
+-   **[Get guidance-based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md)**  
 Get actionable real-time recommendations in the side panel to help address customer issues and resolve issues quickly.
 -   **[Get field recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-field-recommendations.md)**  
 Get incident field recommendations in Service Operations Workspace while creating or updating incidents.

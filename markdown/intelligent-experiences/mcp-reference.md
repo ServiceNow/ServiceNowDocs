@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Model Context Protocol Client reference

@@ -1,6 +1,6 @@
 ---
 title: Processing a Visa card dispute
-description: When a case is submitted, it automatically moves to the Initiate stage. Once the sequence of steps in the Initiate stage are completed, it moves to the Processing stage. Here, the case playbook displays the disputed transaction details, including customer details, dispute amount, timestamp, card details, merchant, transaction state, current activity, and activity SLA.
+description: A dispute case moves through Initiate, Processing, and Closure stages. The case playbook displays disputed transaction details, including customer information, dispute amount, card details, merchant, transaction state, and activity SLA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/processing-a-dispute-case.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Managing disputes integrated with Visa, Processing, Use, Dispute Ma
 
 # Processing a Visa card dispute
 
-When a case is submitted, it automatically moves to the **Initiate** stage. Once the sequence of steps in the **Initiate** stage are completed, it moves to the **Processing** stage. Here, the case playbook displays the disputed transaction details, including customer details, dispute amount, timestamp, card details, merchant, transaction state, current activity, and activity SLA.
+A dispute case moves through **Initiate**, **Processing**, and **Closure** stages. The case playbook displays disputed transaction details, including customer information, dispute amount, card details, merchant, transaction state, and activity SLA.
 
-After a dispute case is submitted, each disputed transaction is displayed in a **Dispute Workspace**. The dispute transaction progresses through these stages: **Investigate**, **Chargeback**, and **Complete**. As the dispute proceeds, the appropriate stage is updated accordingly. To open a transaction in the **Dispute Workspace**, select the transaction number.
+After a dispute case is submitted, all disputed transactions are displayed in the case playbook. Each transaction can be viewed in a separate **Dispute Workspace**, which displays all the details of the transaction. The dispute transaction progresses through these stages: **Investigate**, **Chargeback**, and **Complete**. To open a transaction in the **Dispute Workspace**, select the transaction number.
 
 -   Each transaction progresses through a series of steps, during which a corresponding sequence of tasks is generated. The tasks are displayed in **Tasks**.
 -   The **Open** tab displays the tasks open along with the SLA and State.
@@ -38,5 +38,5 @@ This stage enables you to report fraud, initiate chargeback, associate dispute t
 **Related topics**  
 
 
-[Summarize a dispute or claims case with case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-case-using-now-assist-fso.md)
+[Summarize a dispute or claims case with case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/summarize-case-using-now-assist-fso.md)
 

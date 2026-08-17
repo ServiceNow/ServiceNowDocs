@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, clone, duplicate, copy, model]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Clone an ERP model in Zero Copy Connector for ERP
@@ -30,7 +30,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
+Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
 Clone ERP models to make customizations so that your changes don't break connections to other ServiceNow AI Platform applications.
 
@@ -66,6 +66,4 @@ Clone ERP models to make customizations so that your changes don't break connect
 ## What to do next
 
 Next, manage the model to specify additional criteria, such as the tables it reads and joins. You can also define create, read, and update operations, and input/output parameters. For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

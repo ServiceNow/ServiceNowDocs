@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-29"
 reading_time_minutes: 2
-breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
 # Quote creation via Self-Service fields for Channel Partners
@@ -55,5 +55,5 @@ Enter the products that the customer is interested in the **Select a catalog** f
 
 Apply a header discount across all line items, or delete line items in the **Apply header discount**.
 
-**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 

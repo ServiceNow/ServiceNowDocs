@@ -42,15 +42,15 @@ For information on adding an action for a safety inspection or audit through Mob
 
     **Note:** You can add actions from the Actions tab on the record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d744479e162">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d744864e162">
 
 Option
 
-</th><th align="left" id="d744479e165">
+</th><th align="left" id="d744864e165">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d744479e171">
+</th></tr></thead><tbody><tr><td id="d744864e171">
 
 **From an inspection record**
 
@@ -61,7 +61,7 @@ Steps
 3.  In the **Inspection actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d744479e204">
+</td></tr><tr><td id="d744864e204">
 
 **From an audit record**
 
@@ -72,7 +72,7 @@ Steps
 3.  In the **Audit actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d744479e237">
+</td></tr><tr><td id="d744864e237">
 
 **From the Findings tab**
 

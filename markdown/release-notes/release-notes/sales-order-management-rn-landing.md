@@ -4,13 +4,23 @@ description: ServiceNow Sales Customer Relationship Management is a set of new a
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-07-23"
+reading_time_minutes: 5
 ---
 
 # Sales Customer Relationship Management release notes
 
 ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Australia release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of the following ServiceNow products. Your product entitlements remain unchanged. There is no change to functionality or existing customer configurations. Check your entitlements to determine your access to specific features.
+
+|Existing name|New name|
+|-------------|--------|
+|Now Assist for Sales Force Automation \(SFA\)|ServiceNow Otto for Sales Automation|
+|Now Assist for Configure, Price, Quote \(CPQ\)|ServiceNow Otto for Configure, Price, Quote \(CPQ\)|
+|Now Assist for Order Management|ServiceNow Otto for Order Management|
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
@@ -38,10 +48,12 @@ Also, agents can use the Case Management for Order Operations and Case Managemen
 ServiceNow® Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.
 -   **[Advanced Approval Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/advanced-approval-management-for-sales-rn.md)**  
 The ServiceNow® Advanced Approval Management application enables you to define workflows for approving Sales Customer Relationship Management entities, such as customer quotes. Advanced Approval Management is a new application in the Australia release.
+-   **[Advanced Approval Management AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/advanced-approval-management-ai-rn.md)**  
+The ServiceNow® Advanced Approval Management AI application enables advanced approval users to manage quote approvals using natural language requests in Model Context Protocol \(MCP\)-compatible clients, without opening a ServiceNow instance. Advanced Approval Management AI is a new application in the Australia release.
 -   **[Buying Group release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/buying-group-rn.md)**  
 The ServiceNow® Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
--   **[ServiceNow CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cpq-transaction-manager-rn.md)**  
-ServiceNow CPQ is a configuration engine that acts as the "C" in Configure, Price, Quote. It uses an attribute-based approach to simplify complex product logic. The engine delivers dynamic blueprints, real-time user interfaces, and a Commerce Logic Engine that generates accurate outputs like bills of materials.
+-   **[CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cpq-transaction-manager-rn.md)**  
+CPQ is a configuration engine that acts as the "C" in Configure, Price, Quote. It uses an attribute-based approach to simplify complex product logic. The engine delivers dynamic blueprints, real-time user interfaces, and a Commerce Logic Engine that generates accurate outputs like bills of materials.
 -   **[Customer Engagement Sequences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-engagement-sequences-rn.md)**  
 The ServiceNow® Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities to engage customers throughout the time they're associated with your business. Customer Engagement Sequences was enhanced and updated in the Australia release.
 -   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-self-service-som-rn.md)**  
@@ -64,6 +76,10 @@ The ServiceNow® Sales CRM applications include the ServiceNow® Product Catalog
 The ServiceNow® Sales Forecasting application helps you project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting was enhanced and updated in the Australia release.
 -   **[Sales Territory Management​ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-territory-management-rn.md)**  
 The ServiceNow® Sales Territory Management​ application structures and optimizes the sales efforts of your organization based on territories. It involves overseeing daily sales activities, adjusting team assignments to verify complete customer coverage, monitoring sales performance against goals, and updating territory assignments as markets change. Sales Territory Management​ was enhanced and updated in the Australia release.
+-   **[Partner Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/partner-relationship-management-rn-static1.md)**  
+The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. See the following sections for release notes by version.
+-   **[Version 9.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/partner-relationship-managementt-rn-2026-08.md)**  
+Streamline deal registration approvals and task management with configurable rules, automated notifications, and centralized visibility.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

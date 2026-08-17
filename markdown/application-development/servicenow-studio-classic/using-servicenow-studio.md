@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Studio, Developing your application, Building applications]
 ---
 
@@ -28,8 +28,12 @@ ServiceNow Studio combines the tools and features you need for app development i
 Use Build Agent, an autonomous AI agent, to create and update applications in ServiceNow Studio through conversational interaction.
 -   **[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)**  
 Create, update, manage, publish, and delete applications in ServiceNow Studio — all from a single environment, based on your permissions.
--   **[Now Assist tools and AI files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)**  
-Use Now Assist tools in ServiceNow Studio to create and summarize apps using AI, and add AI files to applications to enhance user productivity through conversation and proactive experiences.
+-   **[Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-integration.md)**  
+Link your application to a Git source control repository in ServiceNow Studio to save, manage, and share multiple versions of a global or scoped application from a non-production instance.
+-   **[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)**  
+Developing and maintaining applications in source code enables you to create and modify complex applications, manage code in source control more easily, and catch errors at build time.
+-   **[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)**  
+Use AI tools and files in ServiceNow Studio to create and summarize apps using generative AI. You can also add AI files to applications to enhance user productivity through conversation and proactive experiences.
 -   **[Change your development experience in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/change-your-development-experience.md)**  
 Switch between development environments in ServiceNow Studio using the experience switcher to use the best tool for each stage of your app development.
 -   **[Debug a script in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/debug-script-servicenow-studio.md)**  

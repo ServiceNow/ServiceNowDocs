@@ -9,14 +9,14 @@ classification: service-catalog
 topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 1
-breadcrumb: [LLM topic blocks, Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Prefill in conversational catalog request
 
 The generalized prefill capability for conversational catalog request automatically populates catalog item form fields using data sourced from the requesting user's profile and from the active chat conversation history. This reduces manual data entry for requesters, improves form completion accuracy, and accelerates time-to-submission for service requests raised through the conversational interface.
 
-Prefill functionality works similarly across both conversational and traditional form-based catalog experiences, automatically populating fields to reduce manual data entry and improve accuracy. The same underlying prefill sources and behavior apply whether requesters use Now Assist conversations or standard web forms.
+Prefill functionality works similarly across both conversational and traditional form-based catalog experiences, automatically populating fields to reduce manual data entry and improve accuracy. The same underlying prefill sources and behavior apply whether requesters use ServiceNow Otto conversations or standard web forms.
 
 ## User profile prefill
 

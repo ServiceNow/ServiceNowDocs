@@ -100,7 +100,7 @@ If resolving the incident involves creating a problem, change, service request, 
 -   **[Remedial actions using Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/remedial-actions-playbook.md)**  
 Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
 -   **[Close resolved incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/close-resolved-incident-sow.md)**  
-Close an resolved incident when the user is satisfied with the provided resolution.
+Close a resolved incident when the user is satisfied with the provided resolution.
 -   **[Reopen an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/reopen-incident-sow.md)**  
 Reopen a resolved incident from the incident record in Service Operations Workspace \(SOW\).
 -   **[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-im-reference.md)**  
@@ -115,7 +115,7 @@ Reference topics provide additional information about Incident Management in Ser
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Live Agent chat in Service Operations Workspace]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-classicworkflow-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -85,7 +85,7 @@ Zurich
 
 -   **[Restrict access to Workflow Editor with a new role](https://www.servicenow.com/docs/access?context=r_WorkflowRoles&family=zurich&ft:locale=en-US)**
 
-Grant access to the Workflow editor by giving users the snc\_required\_script\_writer role.
+Grant access to the Workflow editor by giving users the snc\_required\_script\_writer\_permission role.
 
 
 </td></tr><tr><td>
@@ -420,7 +420,7 @@ Zurich
 
 </td><td>
 
--   Added the snc\_required\_script\_writer role to all Workflow tasks.
+-   Added the snc\_required\_script\_writer\_permission role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
  See [Classic Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&family=zurich&ft:locale=en-US) for more information.

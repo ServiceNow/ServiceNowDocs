@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Common Finance and Supply Chain features skill
-description: If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+title: Customize a generative AI skill
+description: If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-fsc-common
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Configure, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
+breadcrumb: [Configure, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
 
-# Customize a Now Assist for Common Finance and Supply Chain features skill
+# Customize a generative AI skill
 
-If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 
 ## Before you begin
 
@@ -22,15 +22,17 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
+From the AI Admin Hub, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-2.  In the **Finance and Supply Chain** workflow group, select **Common Finance and Supply Chain features** to view the skills for the Now Assist for Common Finance and Supply Chain features.
+2.  Select the **AI Skills** tab.
 
-3.  Create a copy of a skill and customize the input fields.
+3.  In the **Finance and Supply Chain** workflow group, select **Common Finance and Supply Chain features** to view the AI skills for Common Finance and Supply Chain features.
+
+4.  Create a copy of a skill and customize the input fields.
 
     1.  On the Purchase order summarization for fulfillers feature card, select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
@@ -38,15 +40,15 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
 
-4.  In the General details step, fill in the fields.
+5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
 
     1.  Enter a name and description for the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-5.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
+6.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
 
     Configure the base input table fields and related lists for the different input templates for the skill.
 
@@ -107,7 +109,7 @@ Description of the base input field value.
 
     4.  Select **Save and continue** to go to the next step.
 
-6.  Customize the prompt.
+7.  Customize the prompt.
 
     Review and test the prompt for each input template configuration. You can edit the prompt by adding new predefined sections and reordering them, as needed.
 
@@ -158,7 +160,7 @@ Closed
 
     4.  Select **Save and continue** to go to the next step.
 
-7.  Define how the skill is available to your users.
+8.  Define how the skill is available to your users.
 
     1.  Configure the skill to be always available to users, or select conditions that must be met before the skill is available.
 
@@ -166,38 +168,40 @@ Closed
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Configure where to display the record summarization.
+9.  Configure where to display the record summarization.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
         -   **In-product desktop**: When selected, the customized Purchase order summarization for fulfillers skill is shown on the forms and workspaces in all Common Finance &amp; Supply Chain features products.
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, the AI skills are available in the ServiceNow Otto panel.
 
-            Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
+            AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
 
-            **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            **Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-9.  Review and activate the skill.
+10. Review and activate the skill.
 
     Review your choices and select **Activate** to complete the skill customization.
 
     The fulfillers having the sn\_fsc\_genai.now\_assist\_fulfiller role can now select **Summarize** for a purchase order record in the Source-to-Pay Workspace to generate the summary for the purchase order.
 
 
--   **[Skill inputs for Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-now-assist-fsc.md)**  
+-   **[Skill inputs for ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-now-assist-fsc.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
-**Parent Topic:**[Configuring Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
 
 **Related topics**  
 
 
 [Customize supplier summarization for fulfillers skill]()
+
+[Plugins for AI capabilities in Finance and Supply Chain]()
 

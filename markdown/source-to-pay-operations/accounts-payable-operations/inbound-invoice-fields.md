@@ -1,5 +1,5 @@
 ---
-title: Inbound Invoice Fields
+title: Inbound invoice fields
 description: Field descriptions, data types, and mandatory fields for the Inbound Invoice table used to import invoice data through the integration framework to create invoices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.html
@@ -9,17 +9,17 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, inbound integration]
+keywords: [APO, Accounts Payable Operations, invoice management, integration framework, ERP company code, Inbound Invoice table]
 breadcrumb: [Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Inbound Invoice Fields
+# Inbound invoice fields
 
 Field descriptions, data types, and mandatory fields for the Inbound Invoice table used to import invoice data through the integration framework to create invoices.
 
 <table id="table_c3s_fj1_dwb"><thead><tr><th>
 
-Column
+Field
 
 </th><th>
 

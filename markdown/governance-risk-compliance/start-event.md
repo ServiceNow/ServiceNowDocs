@@ -16,7 +16,7 @@ To initiate an event, first pull the relevant plans into the event, and then rev
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
 ## Procedure
 
@@ -69,7 +69,7 @@ Role required: admin
 
 6.  Check the state of the assets in the event.
 
-    The example shows that the Facebook asset is partially recovered as the partially recovered tasks of Facebook asset are completed, but the Photoshop asset is still not recovered because both its partial and full recovery tasks remain incomplete.
+    The example shows that the Facebook asset is partially recovered as the partially recovered tasks of Facebook asset are completed. The Photoshop asset is still not recovered because both its partial and full recovery tasks remain incomplete.
 
     \[Omitted image "event-asset-par-recovered.png"\] Alt text: Assets.\[Omitted image "event-asset-another-activated-plan.png"\] Alt text: Plan.
 
@@ -101,7 +101,7 @@ Role required: admin
 
     **Note:**
 
-    If an asset is recovered with the completion of an earlier event task, such as step 4 in the example, the actual start time and actual end time are calculated until the end of the last event task in the plan \(step 6 in this example\).
+    "If an asset is recovered during an earlier task \(step 4\), actual start and end times are calculated through the last event task \(step 6\).
 
     \[Omitted image "event-task-time-taken.png"\] Alt text: Event tasks.
 
@@ -109,7 +109,7 @@ Role required: admin
 
     Verify that all plans and tasks are closed before submitting the event for an approval.
 
-8.  Update the **Actual start** and **Actual end** dates for the event task the **Results** section on the **Details** tab.
+8.  Update the **Actual start** and **Actual end** dates for the event task in the **Results** section on the **Details** tab.
 
 9.  Update the assignment fields as necessary.
 

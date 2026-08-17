@@ -1,18 +1,18 @@
 ---
 title: Set up a runtime client
-description: Configure a runtime client. Doing so creates a token that you can use to authenticate runtime calls. This can be useful when ServiceNow CPQ is embedded in a VisualForce page.
+description: Configure a runtime client. Doing so creates a token that you can use to authenticate runtime calls. This can be useful when CPQ is embedded in a VisualForce page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-set-up-a-runtime-client.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ admin settings, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # Set up a runtime client
 
-Configure a runtime client. Doing so creates a token that you can use to authenticate runtime calls. This can be useful when ServiceNow CPQ is embedded in a VisualForce page.
+Configure a runtime client. Doing so creates a token that you can use to authenticate runtime calls. This can be useful when CPQ is embedded in a VisualForce page.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-Runtime clients can be set up that provide a token for authentication of runtime calls when launching ServiceNow CPQ outside of the regular workflow. For example, ServiceNow CPQ may be started through a quote in Salesforce when embedding ServiceNow CPQ in a Visualforce page, Lightning web component, or HTML page.
+Runtime clients can be set up that provide a token for authentication of runtime calls when launching CPQ outside of the regular workflow. For example, CPQ may be started through a quote in Salesforce when embedding CPQ in a Visualforce page, Lightning web component, or HTML page.
 
-**Note:** This authentication can be used only by end users launching a ServiceNow CPQ configuration in runtime. To authenticate admin calls, users should leverage [Admin API Keys](https://logikio3.my.site.com/s/article/Logik-io-admin-API-Keys).
+**Note:** This authentication can be used only by end users launching a CPQ configuration in runtime. To authenticate admin calls, users should leverage [Admin API Keys](https://logikio3.my.site.com/s/article/Logik-io-admin-API-Keys).
 
 ## Procedure
 
@@ -60,5 +60,5 @@ Runtime clients can be set up that provide a token for authentication of runtime
 **Related topics**  
 
 
-[Use case: Embed ServiceNow CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md)
+[Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md)
 

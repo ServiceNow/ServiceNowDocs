@@ -1,6 +1,6 @@
 ---
-title: Summarize a Case with Now Assist for Threat Intelligence Security Center
-description: Use Now Assist for Threat Intelligence Security Center to generate a concise summary of a case, including its key findings and recommended next steps.
+title: Summarize a Case using generative AI
+description: Use to generate a concise summary of a case, including its key findings and recommended next steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.html
 release: australia
@@ -12,19 +12,19 @@ reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Summarize a Case with Now Assist for Threat Intelligence Security Center
+# Summarize a Case using generative AI
 
-Use Now Assist for Threat Intelligence Security Center to generate a concise summary of a case, including its key findings and recommended next steps.
+Use to generate a concise summary of a case, including its key findings and recommended next steps.
 
 ## Before you begin
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_sec\_tisc.analyst
 
 ## About this task
 
-The Case Summarization skill analyzes the content of a threat case — including linked threat intelligence objects, notes, and activity history — and generates a concise summary. Analysts can review the summary and quickly understand the current state of the case.
+The TISC Case Summarization skill analyzes the content of a threat case — including linked threat intelligence objects, notes, and activity history — and generates a concise summary. Analysts can review the summary and quickly understand the current state of the case.
 
 ## Procedure
 

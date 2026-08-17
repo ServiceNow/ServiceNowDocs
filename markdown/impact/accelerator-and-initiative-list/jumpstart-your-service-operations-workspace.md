@@ -18,7 +18,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator Overview
 
-Jumpstart Your Service Operations Workspace provides Impact customers with a comprehensive overview of Service Operations Workspace, showcasing how to unify day-to-day IT Service Management \(ITSM\) and IT Operations Management \(ITOM\) activities in a single, streamlined experience.This Accelerator also equips customers with key resources and leading practices to help them get started quickly and drive adoption with confidence.
+Jumpstart Your *Service Operations Workspace* provides customers with a comprehensive overview of *Service Operations Workspace*, showcasing how to unify day-to-day *IT Service Management* \(*ITSM*\) and IT Operations Management \(ITOM\) activities in a single, streamlined experience.This Accelerator also equips customers with key resources and leading practices to help them get started quickly and drive adoption with confidence.
 
 ## Package Availability
 

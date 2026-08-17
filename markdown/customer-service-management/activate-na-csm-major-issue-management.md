@@ -1,5 +1,5 @@
 ---
-title: Activate Now Assist for CSM Major Issue Management
+title: Activate ServiceNow Otto for CSM Major Issue Management
 description: Activate the AI skill, test it against your data, then activate the agentic workflow to begin AI-assisted major case detection on new cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-na-csm-major-issue-management.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-06-02"
 reading_time_minutes: 2
-breadcrumb: [Configure Now Assist for CSM Major Issue Management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure ServiceNow Otto for CRM Major Issue Management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Activate Now Assist for CSM Major Issue Management
+# Activate ServiceNow Otto for CSM Major Issue Management
 
 Activate the AI skill, test it against your data, then activate the agentic workflow to begin AI-assisted major case detection on new cases.
 
@@ -29,7 +29,7 @@ This procedure has three stages. Complete all three before AI detection takes ef
 
 1.  Activate the **Major Cases Similarity Search** Now Assist skill.
 
-    1.  Navigate to **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Customer** &gt; **CSM** &gt; **Major Cases Similarity Search**.
+    1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Customer** &gt; **CSM** &gt; **Major Cases Similarity Search**.
 
     2.  Select **Activate Skill**.
 
@@ -82,5 +82,5 @@ The AI detection runs automatically on each newly created case that matches the 
 
 ## What to do next
 
-[Now Assist for CSM Major Issue Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/na-for-csm-mim-properties.md)
+[ServiceNow Otto for CSM Major Issue Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/na-for-csm-mim-properties.md)
 

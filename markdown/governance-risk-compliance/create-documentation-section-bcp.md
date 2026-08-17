@@ -48,7 +48,7 @@ These UI actions are available for the documentation sections:
 
     **Note:** When you create a documentation section on the **Documentation** tab without using the plan template, the **Reset to template** UI action is not available for that documentation section.
 
-    To create a documentation section that is displayed as the second section in the Sections panel, assign it an order value that is more than 0 and less than 100, such as 50.
+    To display a documentation section as the second section in the Sections panel, assign it an order value between 0 and 100, such as 50.
 
     The documentation section with an order value of 50 is displayed as the second documentation section in the Sections panel on the **Documentation** tab.
 

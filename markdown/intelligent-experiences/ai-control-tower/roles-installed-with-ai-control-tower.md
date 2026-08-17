@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Control Tower roles
@@ -61,20 +61,9 @@ AI steward\[sn\_ai\_governance.ai\_steward\]
 
  For AI Gateway:
 
- -   Add an MCP server via AI Agent Studio
--   Set up MCP client connections
-
 </td><td>
 
--   sn\_nowassist\_admin.user
--   sn\_ai\_governance.workspace\_admin
--   sn\_aia.admin
--   aig\_admin
--   sn\_mcp\_client.admin
--   sn\_align\_core.apw\_user- Can create, update, and delete portfolio plans, free-form road maps, and planning items
--   it\_demand\_manager- User who manages the inflow, screening and facilitates the prioritization of IT demands
--   it\_project\_manager- User of the project management application, and manager of IT projects
--   sn\_apw\_advanced.pf\_user- Can create, view, update, and delete the Product Feedback records
+
 
 </td></tr><tr><td>
 

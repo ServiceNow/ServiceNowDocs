@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, rest, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to ERP with REST, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a REST entity to a model operation
@@ -49,11 +49,17 @@ For information about the REST API connector tables added for Zero Copy Connecto
 
 8.  In **Select service**, specify the REST service to use.
 
-    If you don't see the service you need, add the service by selecting **+ Add service manually**. For more information, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
+    \[Omitted image "erp-add-rest-entity-to-model7.png"\] Alt text: Add entity page with select service field specified as workday.
 
-9.  After the **REST Endpoints** field loads, in **Select the endpoints**, specify an endpoint discovered from the URL or uploaded file.
+    If you don't see the service you need, add the service. For more information, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
-10. After you complete the configuration, select **Add entity**.
+9.  In **REST Services**, select a **REST service** from the drop-down list.
+
+    The service is listed, along with the endpoint and return type.
+
+    \[Omitted image "erp-add-rest-entity-to-model8.png"\] Alt text: Add entity page with rest service added.
+
+10. Select **Add entity**.
 
     The entity card shows the date and time information was last retrieved.
 
@@ -63,6 +69,4 @@ For information about the REST API connector tables added for Zero Copy Connecto
 -   Map top-level and nested JSON fields \(up to three levels deep\) to model fields.
 -   Configure pagination parameters to control how data is retrieved in batches.
 -   Define input parameters and output fields.
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

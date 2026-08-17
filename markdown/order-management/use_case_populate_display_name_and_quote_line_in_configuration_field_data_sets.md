@@ -1,24 +1,24 @@
 ---
 title: Use case: Populate display names and quote lines in Configuration Field Data Set objects
-description: Learn how to set up custom objects and Apex triggers in SFDC to populate the display names of ServiceNow CPQ fields.
+description: Learn how to set up custom objects and Apex triggers in SFDC to populate the display names of CPQ fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_populate\_display\_name\_and\_quote\_line\_in\_configuration\_field\_data\_sets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Populate display names and quote lines in Configuration Field Data Set objects
 
-Learn how to set up custom objects and Apex triggers in SFDC to populate the display names of ServiceNow CPQ fields.
+Learn how to set up custom objects and Apex triggers in SFDC to populate the display names of CPQ fields.
 
-As part of the ServiceNow CPQ Managed Package, the functionality of the Configuration Field Data Set object in SFDC is to return the Configuration ID of the configuration, every field variable name used by the blueprint, the value of that field, and the label of that value after every save from the ServiceNow CPQ configurator:
+As part of the CPQ Managed Package, the functionality of the Configuration Field Data Set object in SFDC is to return the Configuration ID of the configuration, every field variable name used by the blueprint, the value of that field, and the label of that value after every save from the CPQ configurator:
 
 \[Omitted image "cpq-configuration-field-data-sets-1.png"\] Alt text: Field Data list
 
-However, there might be some extra necessities about the configuration in ServiceNow CPQ outside of these fields created by the Managed Package that an organization needs for downstream processes. For instance, we might want to populate the display names of the ServiceNow CPQ fields, or easily jump to the Quote Line of the associated Configuration Field Data objects for an easy connection to the BOM.
+However, there might be some extra necessities about the configuration in CPQ outside of these fields created by the Managed Package that an organization needs for downstream processes. For instance, we might want to populate the display names of the CPQ fields, or easily jump to the Quote Line of the associated Configuration Field Data objects for an easy connection to the BOM.
 
 \[Omitted image "cpq-configuration-field-data-sets-2.png"\] Alt text: Field data list
 
@@ -30,7 +30,7 @@ Enable “Push Config Data to CPQ Salesforce Object” in the Admin Settings if 
 
 \[Omitted image "cpq-admin-settings-push-config-data.png"\] Alt text: Admin settings
 
-**Note:** The creation of these Configuration Field Data Sets will occur every time a configuration is saved from ServiceNow CPQ, even if the quote itself is not saved. This can lead to a lot of data being created in your Salesforce org. If you do not have a use case for pulling every field used by the Blueprint into SFDC, it is best to keep this setting disabled and rely on the Extended Information property in the BOM Data.
+**Note:** The creation of these Configuration Field Data Sets will occur every time a configuration is saved from CPQ, even if the quote itself is not saved. This can lead to a lot of data being created in your Salesforce org. If you do not have a use case for pulling every field used by the Blueprint into SFDC, it is best to keep this setting disabled and rely on the Extended Information property in the BOM Data.
 
 ## Populate the display name
 
@@ -100,14 +100,14 @@ This new LGK Label object will be where we will host the Field Variable Name and
     ```
 
 
-The framework is complete. Add the new Display Name field to the Configuration Field Data Set layout. All thatʼs left is to import the field label names into the LGK Labels objects. Depending on how you use ServiceNow CPQ Fields, there are three methods of accomplishing this.
+The framework is complete. Add the new Display Name field to the Configuration Field Data Set layout. All thatʼs left is to import the field label names into the LGK Labels objects. Depending on how you use CPQ Fields, there are three methods of accomplishing this.
 
 <table><tbody><tr><td>
 
-Manual ServiceNow CPQ Label Creation
+Manual CPQ Label Creation
 
  1.  Create a new CPQ Label Object from the LGK Labels tab
-2.  Enter the “variablename” to exactly match the ServiceNow CPQ variable name
+2.  Enter the “variablename” to exactly match the CPQ variable name
 3.  Enter the “label” to be any label you wish
 
 </td><td>
@@ -115,15 +115,15 @@ Manual ServiceNow CPQ Label Creation
 Pros:
 
  -   Good if you have a low number of fields for which you need the display name
--   Allows you to customize the field label names to be different than how they appear in the ServiceNow CPQ Admin and the Layout
+-   Allows you to customize the field label names to be different than how they appear in the CPQ Admin and the Layout
 
  Con: Can be a tedious process for a large number of fields
 
 </td></tr><tr><td>
 
-Bulk Import from exporting all ServiceNow CPQ fields
+Bulk Import from exporting all CPQ fields
 
- 1.  From the ServiceNow CPQ Admin Field’s Tab, click **Export**
+ 1.  From the CPQ Admin Field’s Tab, click **Export**
 2.  Open the CSV file and delete all data besides columns “B” and “C”
 3.  Rename the headers to “label” and “variablename,” and save
 4.  In SFDC, go to the LGK Label tab and click **Import**
@@ -148,7 +148,7 @@ Pros:
 
 Bulk Import from exporting the Blueprint Layout
 
- 1.  From the ServiceNow CPQ Blueprint youʼd like to use, go to your Layout, and click **Export**
+ 1.  From the CPQ Blueprint youʼd like to use, go to your Layout, and click **Export**
 2.  Open the CSV
 3.  Filter column “A” by “field”
 4.  Delete all data except columns “A”, “D”, and “E”
@@ -224,7 +224,7 @@ Pros:
 
 Now, every time a Quote is saved in SFDC, the Quote Line of the Parent Configurable Product will populate into the Configuration Field Data Set. Remember to add this custom field to the Configuration Field Data Sets layout to see it in the tab.
 
-**Note:** Configuration Field Data Sets are created immediately after you click **Save** in the ServiceNow CPQ Configurator. When you enter the Quote Line Editor, the Quote Line field will not be populated because it hasnʼt been created or updated yet. Only once you save from the Editor will the quote line appear in the field.
+**Note:** Configuration Field Data Sets are created immediately after you click **Save** in the CPQ Configurator. When you enter the Quote Line Editor, the Quote Line field will not be populated because it hasnʼt been created or updated yet. Only once you save from the Editor will the quote line appear in the field.
 
 **Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
 

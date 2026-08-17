@@ -1,5 +1,5 @@
 ---
-title: Copy and configure the Invoice processing case for Invoice email flow
+title: Configure the Invoice processing case for Invoice email flow
 description: Copy and configure the Invoice processing case for Invoice email flow and add a trigger condition to specify when to create an invoice processing case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Invoice processing case, Invoice email flow, Process Automation, Accounts Payable Operations, APO integration, Document Intelligence]
 breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Copy and configure the Invoice processing case for Invoice email flow
+# Configure the Invoice processing case for Invoice email flow
 
 Copy and configure the Invoice processing case for Invoice email flow and add a trigger condition to specify when to create an invoice processing case.
 

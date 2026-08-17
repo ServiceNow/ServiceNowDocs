@@ -136,28 +136,38 @@ Role required: admin.
 
 ### Procedure
 
-1.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Open the record of **BMC Remedy spoke** whose **Type** is **Connection and Credential**, for example, `BMCRemedy`.
+2.  Click the **Integrations** tab.
 
-3.  From the **Connections** tab, click **New**.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  On the form, fill these values.
+4.  Locate the alias for **BMCRemedy** and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the BMC Remedy spoke, click **View Details**.
+
+        \[Omitted image "image.BMCRem\_Connection"\] Alt text: BMC Remedy spoke connection
+
+    -   To manage more than one BMC Remedy spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "image.BMCRem\_Connect\_Conf"\] Alt text: BMC Remedy spoke connection configuration
+
+5.  On the form, fill in these fields:
 
     |Field|Value required|
     |-----|--------------|
-    |Name|Name to uniquely identify the connection record. For example, enter `BMC Remedy Connection`.|
-    |Credential|Credential record you created for BMC Remedy. For example, select **Remedy Cred**.|
-    |Connection alias|Connection alias associated with this record.|
-    |URL builder|Option to manually enter the connection URL or use system to build the URL based on the inputs.|
-    |Connection URL|URL to launch the BMC Remedy application. For example, `http://<bmc-remedy-localhost>:8008/api`|
-    |Use MID server|Option to use a MID Server.|
-    |Capabilities|Capability of the MID Server. This field appears only when the **Use MID server** option is selected.|
-    |MID Application|Option to use a MID Server. This field appears only when the **Use MID server** option is selected.|
-    |Active|Option to actively use the connection record.|
-    |Domain|Domain that the action runs in.|
+    |Connection Information|
+    |Name|Auto-generated name to identify the connection record.|
+    |URL|URL of the connection website.|
+    |Credential Information|
+    |User Name|User name of the BMC Remedy user.|
+    |Password|Password of the BMC Remedy user's account.|
+    |Token Status|Status of the BMC Remedy token. Select `Active`.|
 
-5.  Click **Submit**.
+    \[Omitted image "image.BMCRem\_Config\_temp"\] Alt text: BMC Remedy spoke configuration template.
+
+6.  Click **Configure and Get OAuth Token**.
 
 
 ### Result

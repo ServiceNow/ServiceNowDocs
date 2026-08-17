@@ -32,7 +32,7 @@ The default GDS Service Portal homepage contains the following widgets that can 
 |Portal Banner with Quick Links|Contains a personalized greeting message, customizable call-to-action button, and search functionality for services and articles.|
 |Case Cards|Display recent case updates in card format. Include timestamps and status indicators.|
 |Quick Links|Cards for common actions \(e.g., Create procurement request, Incident report\). Links to guides and tutorials.|
-|Browse Catalog Cards|Grid or card layout for service categories \(Driving licence application, Child benefit application, Report an issue, etc.\).|
+|Browse Catalog Cards|Grid or card layout for service categories \(Driving license application, Child benefit application, Report an issue, etc.\).|
 |Knowledge Links|Showcase popular articles with engagement metrics \(views, likes, comments\).|
 |Catalog Quick Links|Highlight frequently accessed services for quick navigation.|
 |FAQ|Expandable list of common questions with answers|

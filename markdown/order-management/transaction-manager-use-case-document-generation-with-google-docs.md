@@ -7,21 +7,21 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience use case: Document generation with Google Docs
 
 Generate documents from ServiceNow Quote Experience by using Google Docs and Google Apps Script.
 
-To generate a document from ServiceNow Quote Experience, Google Docs combined with Google Apps Script provides an efficient and straightforward solution. By creating custom APIs using Apps Script, you can easily receive GET and POST requests from a direct URL. This eliminates the need for middleware, streamlining integration with services like ServiceNow CPQ or ServiceNow Quote Experience.
+To generate a document from ServiceNow Quote Experience, Google Docs combined with Google Apps Script provides an efficient and straightforward solution. By creating custom APIs using Apps Script, you can easily receive GET and POST requests from a direct URL. This eliminates the need for middleware, streamlining integration with services like CPQ or ServiceNow Quote Experience.
 
 You can trigger document generation by either of these methods:
 
--   ServiceNow CPQ Webhook: Automatically send POST requests to initiate document creation.
+-   CPQ Webhook: Automatically send POST requests to initiate document creation.
 -   ServiceNow Quote Experience: Use this for managing and automating processes.
 
-## Setting up a Google doc to pull ServiceNow CPQ data
+## Setting up a Google doc to pull CPQ data
 
 To access the developer window, open the Google doc where you want to integrate the script. In the menu bar, go to Extensions &gt; Apps Script to open the development environment.
 
@@ -151,7 +151,7 @@ When you access the live URL, you receive this message:
 
 \[Omitted image "cpq-txn-mgr-use-case-doc-gen-msg.png"\] Alt text: Message:Document Generation Web App is running.
 
-The `doPost` is important, because it will probably handle the Webhook or Integration payloads being sent from ServiceNow CPQ via POST requests.
+The `doPost` is important, because it will probably handle the Webhook or Integration payloads being sent from CPQ via POST requests.
 
 Next, we create a function to generate a Google Doc using the `doPost` function.
 

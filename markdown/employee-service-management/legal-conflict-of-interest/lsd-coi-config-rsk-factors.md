@@ -26,8 +26,8 @@ Risk factors define the criteria evaluated when scoring a request. Each factor i
     **Note:**
 
     -   The skill is available in the base system to evaluate an COI request only when you have installed and configured Legal Service Delivery - Prime that is a paid application.
-    -   You can access the skill by navigating to **Now Assist Skill Kit** &gt; **Home** &gt; **Custom skills** and selecting Legal Risk Evaluator Prompt.
-    For more information, see [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
+    -   You can access the skill by navigating to **AI Skill Kit** &gt; **Home** &gt; **Custom skills** and selecting Legal Risk Evaluator Prompt.
+    For more information, see [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
 
 -   Subflow: Executes a Flow Designer subflow to evaluate the disclosure. Use this type when the evaluation requires complex logic, external integrations, or multi-step processing.
 
@@ -57,15 +57,15 @@ Role required: sn\_lco\_cmn.config
 
 3.  Configure evaluation type.
 
-<table id="choicetable_xj5_tp1_33c"><thead><tr><th align="left" id="d433276e264">
+<table id="choicetable_xj5_tp1_33c"><thead><tr><th align="left" id="d433415e260">
 
 Evaluation type
 
-</th><th align="left" id="d433276e267">
+</th><th align="left" id="d433415e263">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d433276e273">
+</th></tr></thead><tbody><tr><td id="d433415e269">
 
 **Subflow**
 
@@ -75,7 +75,7 @@ A Subflow reference field appears.
 
 Select the Flow Designer subflow that executes custom evaluation logic and returns a risk score in the Subflow field.
 
-</td></tr><tr><td id="d433276e284">
+</td></tr><tr><td id="d433415e280">
 
 **Condition**
 
@@ -92,7 +92,7 @@ Select the Flow Designer subflow that executes custom evaluation logic and retur
 -   In the **Applies to** filter, define filter conditions using the condition builder. Example: Is it a true governance board for an organization is Advisory Board.
 
 
-</td></tr><tr><td id="d433276e351">
+</td></tr><tr><td id="d433415e347">
 
 **Skill**
 

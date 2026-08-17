@@ -33,13 +33,13 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
+Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -78,7 +78,7 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
 Log data starts streaming from the ServiceNow System Log table to the Health Log Analytics AI engine, based on the configured filters. The dedicated HLA engine for your instance starts analyzing your system logs in real-time.
 
-**Note:** Starting with Health Log Analytics version 37.0.15, you can use the ServiceNow System Logs Retriever integration to automatically detect errors and anomalies in your ServiceNow instance's system log. By combining HLA's anomaly detection with Now Assist's GenAI capabilities, you can identify and resolve platform issues more effectively for a better user experience. For more information, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-use-case-syslogs.md).
+**Note:** Starting with Health Log Analytics version 37.0.15, you can use the ServiceNow System Logs Retriever integration to automatically detect errors and anomalies in your ServiceNow instance's system log. By combining HLA anomaly detection with ServiceNow Otto for ITOM, you can identify and resolve platform issues more effectively for a better user experience. For more information, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-use-case-syslogs.md).
 
 ## What to do next
 

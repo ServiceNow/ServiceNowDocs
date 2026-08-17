@@ -116,5 +116,5 @@ Option for launching the instance in the default browser of your machine.
 
 ## What to do next
 
-You can start creating automations from the RPA Desktop Design Studio home page. For more information on how to create automations, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md) or [Create an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
+You can start creating automations from the RPA Desktop Design Studio home page. For more information on how to create automations, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md) or [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
 

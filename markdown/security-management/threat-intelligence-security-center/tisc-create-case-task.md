@@ -71,7 +71,7 @@ Role required: sn\_sec\_tisc.analyst, sn\_sec\_tisc.admin
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Working with Investigation Canvas]()
 

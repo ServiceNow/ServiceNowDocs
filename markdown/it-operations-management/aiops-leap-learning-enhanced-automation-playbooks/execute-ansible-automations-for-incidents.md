@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-07"
 reading_time_minutes: 2
 keywords: [Ansible execution, incident remediation, automation, Service Operations Workspace]
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Execute Ansible automations for incidents

@@ -27,7 +27,7 @@ Virtual Agent activates automatically when you enable it for Customer Service Ma
 **Related topics**  
 
 
-[Now Assist in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nava-csp-csm-portals.md)
+[ServiceNow Otto in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nava-csp-csm-portals.md)
 
-[Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nass-portal.md)
+[ServiceNow Otto conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nass-portal.md)
 

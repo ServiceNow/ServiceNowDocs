@@ -1,6 +1,6 @@
 ---
 title: Select active data patterns
-description: Select the active data patterns to be used for Data Discovery jobs.
+description: Active data patterns are only used for certain product capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-active-data-patterns.html
 release: australia
@@ -14,11 +14,19 @@ breadcrumb: [Data Discovery sources, Data Discovery Store, Data Discovery, Platf
 
 # Select active data patterns
 
-Select the active data patterns to be used for Data Discovery jobs.
+Active data patterns are only used for certain product capabilities.
 
 ## Before you begin
 
 Role required: discovery.admin
+
+## About this task
+
+The appropriate product capabilities and use cases for using active data patterns include:
+
+-   Data pattern anonymization techniques \([Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)\)
+-   Granular configurations \([Scanning with Granular Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-configuration.md)\)
+-   Testing whether the regex for a data pattern works
 
 ## Procedure
 

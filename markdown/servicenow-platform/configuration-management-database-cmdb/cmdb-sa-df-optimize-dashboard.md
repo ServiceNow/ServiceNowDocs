@@ -1,5 +1,5 @@
 ---
-title: Manage Data Foundations advisor scope in CMDB success advisor
+title: Managing Data Foundations advisor scope in CMDB success advisor
 description: After the Data Foundations advisor dashboard is configured, you can update the principal class scope to keep it aligned with your goals, and resolve discrepancies when classes are changed outside the advisor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.html
@@ -9,10 +9,11 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 1
+keywords: [manage Data Foundations advisor scope, Set principal classes dialog box, add or remove principal classes, out-of-sync principal classes]
 breadcrumb: [Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Manage Data Foundations advisor scope in CMDB success advisor
+# Managing Data Foundations advisor scope in CMDB success advisor
 
 After the Data Foundations advisor dashboard is configured, you can update the principal class scope to keep it aligned with your goals, and resolve discrepancies when classes are changed outside the advisor.
 
@@ -28,7 +29,7 @@ Role required: sn\_cmdb\_admin
 
 ## Managing principal classes
 
-Use the **Set principal classes** dialog box to add or remove CI classes from the Data Foundations advisor scope. Changes take effect when you select **Done**, and the dashboard updates to reflect the new scope.
+Use the Set principal classes dialog box to add or remove CI classes from the Data Foundations advisor scope. Changes take effect when you select **Done**, and the dashboard updates to reflect the new scope.
 
 For instructions, see [Manage principal classes in the Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manage-scope.md).
 

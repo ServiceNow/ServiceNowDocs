@@ -1,6 +1,6 @@
 ---
-title: Configure File Explorer Repository Drive
-description: The Microsoft SharePoint connector provides various capabilities to be implemented in Microsoft SharePoint File Explorer features by managing and tracking the file metadata.
+title: Configure File Explorer repository drive
+description: Configure the File Explorer repository drive to establish a connection between your MSIM workspace and Microsoft SharePoint, enabling team members to manage incident documents centrally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-repository-config.html
 release: australia
@@ -8,13 +8,13 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure File Explorer Component, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Configure File Explorer Repository Drive
+# Configure File Explorer repository drive
 
-The Microsoft SharePoint connector provides various capabilities to be implemented in Microsoft SharePoint File Explorer features by managing and tracking the file metadata.
+Configure the File Explorer repository drive to establish a connection between your MSIM workspace and Microsoft SharePoint, enabling team members to manage incident documents centrally.
 
 ## Before you begin
 
@@ -28,11 +28,11 @@ Role required: sn\_msi.workspace\_admin
 
 <table id="table_xcc_rjh_zpb"><thead><tr><th>
 
-Field Name
+Field
 
 </th><th>
 
-Field Description
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -68,7 +68,7 @@ Document Library Name
 
 </td><td>
 
-Create a document library under the Microsoft SharePoint site and provide the same document library name here.This would be the same document library that you created in the Microsoft SharePoint Connector Drive setup.
+Create a document library under the Microsoft SharePoint site and provide the same document library name here.
 
 </td></tr><tr><td>
 
@@ -89,12 +89,17 @@ Select the File Explorer REST tenant record. For more information on the tenant 
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-4.  Select **Test Connection** tab to test the connection and validate the file repository drive configuration properties.
+4.  Select the **Test Connection** tab to test the connection and validate the file repository drive configuration properties.
 
     **Note:** Before **Activating** the file repository, make sure that the corresponding document library at Microsoft SharePoint doesn't have any folder or file data.
 
-5.  Select **Activate** to activate the file repository.
+5.  Select **Activate** to activate the file repository. Select **OK** on the confirmation pop-up.
 
+    **Note:** The **Activate** button appears on the form only when all of the following conditions are met:
+
+    -   The **Provider** field is set to Microsoft SharePoint.
+    -   The **Graph Connection** and **REST Connection** fields are configured with valid Microsoft SharePoint tenant records.
+    -   The record has been saved and validated successfully. The system resolves the Microsoft SharePoint Site ID automatically during validation. If validation fails, the Activate button does not appear.
 6.  Select the **Troubleshooting** check box to verify the file repository **Execution Details** and verify the **Fetch State** is complete and make sure that the Microsoft SharePoint Drive Subscriptions is created and state is complete.
 
     **Note:** Using the **Test Connection** button, either MSI Administrator or MSI Manager can only validate the file repository configuration.

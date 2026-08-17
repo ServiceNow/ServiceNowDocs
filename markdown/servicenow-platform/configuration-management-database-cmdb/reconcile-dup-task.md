@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -21,7 +21,12 @@ Remediate a single de-duplication task by using the Duplicate CI Remediator wiza
 -   Review the following topics to familiarize yourself with important concepts of duplicate CI remediation:
     -   [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md): To learn about general duplicate CI remediation concepts, restrictions, and special cases such as remediations that involve a large number of duplicate CIs.
     -   [Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md): To learn about important properties that affect processes of duplicate CI remediation. Including the glide.duplicate\_ci\_remediator.dry\_run property that determines if the Duplicate CI Remediator actually updates the CMDB or not.
--   To access the Now Assist for CMDB remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled. For information about setting up Now Assist for CMDB 3.0, see [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+-   To access the ServiceNow Otto for CMDB remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled.
+
+    For more information about:
+
+    -   Setting up ServiceNow Otto for CMDB, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+    -   The De-duplication task resolution assistant skill, see [Resolving de-duplication tasks with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.md).
 
 Role required: sn\_cmdb\_editor or itil to read. sn\_cmdb\_admin, cmdb\_dedup\_admin, or itil\_admin to write
 
@@ -29,7 +34,7 @@ Role required: sn\_cmdb\_editor or itil to read. sn\_cmdb\_admin, cmdb\_dedup\_a
 
 Important notes:
 
--   Duplicate CI Remediator provides a remediation option that is based on the AI engine of the Now Assist for CMDB De-duplication task resolution assistant skill. This skill fills out the remediation options, based on the AI analysis of CMDB data. Use the Now Assist option to bypass all the tabs in the Duplicate CI Remediator where you typically manually enter those selections, and go directly to the final review to initiate the remediation.
+-   Duplicate CI Remediator provides a remediation option that is based on the AI engine of the De-duplication task resolution assistant skill. This skill fills out the remediation options, based on the AI analysis of CMDB data. Use this ServiceNow Otto option to bypass all the tabs in the Duplicate CI Remediator where you typically manually enter those selections, and go directly to the final review to initiate the remediation.
 -   Instead of using Duplicate CI Remediator \(built on Core UI\) to resolve a single de-duplication task, you can use the De-duplication Dashboard, and de-duplication templates and libraries, available in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and in [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md). Using de-duplication capabilities in CMDB Workspace or in Service Graph Workspace is especially useful for bulk remediation of de-duplication tasks. These capabilities let you preconfigure a de-duplication template with remediation settings, which can then be applied in a consistent manner to multiple de-duplication tasks. For more information, see [CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 As you progress through the tabs of the Duplicate CI Remediator, CIs aren't updated. All updates are applied only in the final step, after you select **Remediate**.
@@ -50,7 +55,7 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs aren't upda
 
         **Note:** This option isn't available with non-CMDB tables.
 
-    -   **Use the Duplicate CI Remediator \(Now Assist\)**: Use the Now Assist for CMDB De-duplication task resolution assistant skill to skip directly to the final dashboard to review the selections made by the skill. Using this option, you can skip directly to the final step of this procedure.
+    -   **Use the Duplicate CI Remediator \(AI\)**: Use the ServiceNow Otto for CMDB De-duplication task resolution assistant skill to skip directly to the final dashboard to review the selections made by the skill. Using this option, you can skip directly to the final step of this procedure.
     -   **Use a custom remediation workflow**: Use an existing CMDB remediation rule or select **Add New** to [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBRemediationRule.md).
 
         -   On the CMDB Remediation Rule form, set **Task type** to `Remediate Duplicate Task` and select **Active**.
@@ -135,7 +140,7 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs aren't upda
 
     1.  Review the summary of the expected updates for this duplicate CIs reconciliation. Updates are based on the selections and therefore the summary includes only the details that are applicable. This summary can include details of the relationships and related items that will be merged to the main CI, the attribute values that the main CI will be set with, and the number of CIs that will be deleted. Select **Attributes**, **Relationships**, **Related Items**, or **Duplicate CI Actions** if applicable, to display further details such as changes to attribute values.
 
-        If you chose the **Use the Duplicate CI Remediator \(Now Assist\)** remediation option, carefully examine the summary generated by the Now Assist De-duplication task resolution assistant skill. Expand each item in the summary to review the reasoning for the recommendations. You can go back to any tab and change the skill's selections, aside from the selection of the main CI. However, changing a selection, ends the use of the Now Assist remediation option and switches to a manual use of the Duplicate CI Remediator.
+        If you chose the **Use the Duplicate CI Remediator \(AI\)** remediation option, carefully examine the summary generated by the De-duplication task resolution assistant skill. Expand each item in the summary to review the reasoning for the recommendations. You can go back to any tab and change the skill's selections, aside from the selection of the main CI. However, changing a selection, ends the use of the ServiceNow Otto remediation option and switches to a manual use of the Duplicate CI Remediator.
 
     2.  Select **Remediate** to complete the reconciliation according to your reconciliation settings.
 

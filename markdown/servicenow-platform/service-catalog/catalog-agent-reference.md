@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-26"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Reference
@@ -22,5 +22,5 @@ Use this reference to understand the Catalog Agent capabilities, supported reque
 -   **[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)**  
 Use this reference to understand the LLM topic blocks capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

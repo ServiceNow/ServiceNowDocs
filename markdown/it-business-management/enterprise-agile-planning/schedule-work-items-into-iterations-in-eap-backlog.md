@@ -18,7 +18,7 @@ Perform backlog grooming and schedule work from the team's backlog for the upcom
 
 ## Before you begin
 
--   [Create next PI and Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+-   [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 -   [Create work items for teams in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.md).
 
 Role required: sn\_apw\_advanced.eap\_user

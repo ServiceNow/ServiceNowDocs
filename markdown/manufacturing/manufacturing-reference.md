@@ -15,7 +15,7 @@ breadcrumb: [Manufacturing Commercial Operations]
 Reference topics provide additional information about Manufacturing Commercial Operations.
 
 -   **[Components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-components-installed.md)**  
-Several types of components are installed with installation of the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
+Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
 -   **[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)**  
 Learn about the Manufacturing Commercial Operations application as well as its entitlements and integrations by viewing the data model and integrations architecture diagrams. These diagrams show the relationships between the tables and roles within the application. They provide an overall picture of how the Manufacturing Commercial Operations application operates.
 -   **[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-integrate.md)**  
@@ -30,4 +30,6 @@ Includes all the forms related to quality issue management.
 General forms used in MCO.
 -   **[Domain separation for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-domain-separation.md)**  
 Domain separation is supported for Manufacturing Commercial Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including the users who can see and access data.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-troubleshooting.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-troubleshooting.md)**  
+
 

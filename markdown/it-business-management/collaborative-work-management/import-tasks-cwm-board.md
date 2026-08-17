@@ -9,7 +9,7 @@ classification: collaborative-work-management
 topic_type: task
 last_updated: "2026-05-26"
 reading_time_minutes: 2
-breadcrumb: [Import tasks using Now Assist, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
+breadcrumb: [Import tasks using ServiceNow Otto, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Import existing tasks into a CWM Board
@@ -25,7 +25,7 @@ Bring existing work from a spreadsheet or document into a CWM Board. Column mapp
     -   Includes a column that contains a task title or name, used as the short description during import.
     -   For Excel files \(.xls or .xlsx\): place the column names in the first row. The AI always treats the first row as the header row.
     -   If your file contains dates, the dates must match the format set in the `glide.sys.date_format` system property. Dates in other formats are silently left blank after import.
--   Verify that Now Assist for CWM is active on your instance.
+-   Verify that ServiceNow Otto for CWM is active on your instance.
 -   Role required: sn\_cwm\_ai.cwm\_ai\_user or lens\_user
 
 ## Procedure
@@ -48,18 +48,14 @@ Bring existing work from a spreadsheet or document into a CWM Board. Column mapp
 
     The file is processed and the wizard advances to the **Field mapping** step automatically.
 
-    \[Omitted image "cwm-import-upload-file.png"\] Alt text: Upload file step with AI scanning the uploaded file.
-
 6.  On the **Field mapping** step, review the proposed mapping.
 
     For each source column, a target column on your Board is suggested. Adjust the mapping in any of these ways:
 
     -   To map a source column to a different existing column, select a value from the target list.
     -   To add a new custom column on your Board, select **Add as new custom column**, and then choose the column type.
-    -   To return to the original column mapping, select **Reset to Now Assist mapping**.
+    -   To return to the original column mapping, select **Reset to ServiceNow Otto mapping**.
     The Short description column is required. Each source column must map to a different target column.
-
-    \[Omitted image "cwm-import-ai-column-mapping.png"\] Alt text: Field mapping step showing AI column mapping recommendation.
 
 7.  Select **Preview tasks**.
 

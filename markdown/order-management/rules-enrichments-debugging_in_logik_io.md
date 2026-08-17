@@ -1,5 +1,5 @@
 ---
-title: Debugging in ServiceNow CPQ
+title: Debugging in CPQ
 description: How to use the debugger to perfect your scripts before deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/rules-enrichments-debugging\_in\_logik\_io.html
@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Debugging in ServiceNow CPQ
+# Debugging in CPQ
 
 How to use the debugger to perfect your scripts before deployment.
 
-When you need to fix a script in ServiceNow CPQ, the debugging tool in Advanced Functions and Enrichment Scripts can help. This guide shows you how to write debug JSONs to isolate and test your scripts before deployment. By following these best practices for debugging faulty scripts, you can help ensure your blueprints run flawlessly.
+When you need to fix a script in CPQ, the debugging tool in Advanced Functions and Enrichment Scripts can help. This guide shows you how to write debug JSONs to isolate and test your scripts before deployment. By following these best practices for debugging faulty scripts, you can help ensure your blueprints run flawlessly.
 
 ## General guidelines for debugging
 
@@ -40,7 +40,7 @@ When in the script editor:
 
 -   Returned objects and console.log information appear in the Debugger Output panel \(d\).
 
-The ServiceNow CPQ debugger uses JSON format, which is written using attribute-value pairs. The attributes are the variable names of the fields used in the rule, and the value is the fieldʼs data in its object format.
+The CPQ debugger uses JSON format, which is written using attribute-value pairs. The attributes are the variable names of the fields used in the rule, and the value is the fieldʼs data in its object format.
 
 **Note:** As long as a field is referenced in the rule or enrichment, it must have a corresponding attribute in the JSON, or the script cannot be run in the debugger.
 

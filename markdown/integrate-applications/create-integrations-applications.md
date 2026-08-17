@@ -31,7 +31,7 @@ Automate and connect anything to ServiceNow. Unify your approach to automation w
 
 </td></tr><tr><td>
 
-External Content Connectors \[Omitted image "bus-proxy.svg"\] Alt text: Search content and metadata from supported external data repositories.
+[External Content Connectors \[Omitted image "bus-proxy.svg"\] Alt text: Search content and metadata from supported external data repositories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 
 </td><td>
 
@@ -112,7 +112,7 @@ Integration Hub Remote Process Sync enables you to set up one-way or bidirection
 
 </td></tr><tr><td>
 
-
+[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 
 </td><td>
 
@@ -153,7 +153,7 @@ Securely connect to an external data source and access external data directly fr
 
     Define an inbound email action to script how the system responds to an inbound email.
 
--   ****
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 

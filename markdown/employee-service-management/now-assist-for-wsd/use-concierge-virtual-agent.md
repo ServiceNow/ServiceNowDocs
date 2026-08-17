@@ -1,6 +1,6 @@
 ---
-title: Use Workplace Concierge with Now Assist in Virtual Agent
-description: Invoke Workplace Concierge from Now Assist in Virtual Agent to invite visitors to your organization.
+title: Use Workplace Concierge with ServiceNow Otto for Virtual Agent
+description: Invoke Workplace Concierge from to invite visitors to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/use-concierge-virtual-agent.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2026-03-22"
 reading_time_minutes: 1
-breadcrumb: [Workplace Concierge agentic workflow, Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Concierge agentic workflow, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Use Workplace Concierge with Now Assist in Virtual Agent
+# Use Workplace Concierge with ServiceNow Otto for Virtual Agent
 
-Invoke Workplace Concierge from Now Assist in Virtual Agent to invite visitors to your organization.
+Invoke Workplace Concierge from to invite visitors to your organization.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_wsd\_core.workplace\_user and now\_assist\_panel\_user
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  From the Employee Center portal home page, select the Now Assist in Virtual Agent chat interface.
+2.  From the Employee Center portal home page, select the ServiceNow Otto for Virtual Agent in chat interface.
 
 3.  Enter an utterance or query to invite visitors.
 
@@ -34,7 +34,7 @@ Role required: sn\_wsd\_core.workplace\_user and now\_assist\_panel\_user
 
     **Note:** The questions asked by the Chat Visit Agent agent are based on the initial requirements that are set by your admin.
 
-    For example, if the visitor email is missing, the Chat Visit Agent agent prompts you to enter the email, then you can enter `abel.tuter@example.com`.
+    For example, if the visitor email is missing, the agent prompts you to enter the email, then you can enter `abel.tuter@example.com`.
 
     After all the required information is provided, the visit information is displayed for confirmation.
 
@@ -49,7 +49,7 @@ Role required: sn\_wsd\_core.workplace\_user and now\_assist\_panel\_user
 
 Visitors can reply to the invitation email to provide information for their pre-check tasks. The Email Visitor Intake agent processes email replies and updates the visitor records.
 
-If Workplace Concierge is included in any emails that are sent to the visitors, the Email Visitor Intake agent scans the email threads for relevant data and updates the visitor records.
+If Workplace Concierge is included in any emails sent to visitors, the Email Visitor Intake agent scans the email threads. The agent extracts relevant data and updates the visitor records.
 
 **Parent Topic:**[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)
 

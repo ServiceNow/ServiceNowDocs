@@ -34,5 +34,5 @@ Discover and identify performance issues with efficient query patterns to filter
 -   **[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-experience-insights.md)**  
 Explore real-time user monitoring to analyze user experience and performance insights in Instance Observer​ telemetry into node, transaction type, URL, and user level breakdowns for Impact Total customers.
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

@@ -9,7 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Create a check definition for a custom remedial action

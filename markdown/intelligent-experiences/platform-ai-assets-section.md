@@ -1,19 +1,19 @@
 ---
-title: Now Assist AI assets
-description: The Now Assist AI experience includes generative AI skills, AI agents, and AI agentic workflows. These components work alone or in combination to help achieve efficiencies and results on your instance.
+title: AI assets
+description: The AI experience in the ServiceNow AI Platform includes generative AI skills, AI agents, and AI agentic workflows. These components work alone or in combination to help achieve efficiencies and results on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-ai-assets-section.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-14"
 reading_time_minutes: 4
 keywords: [AI Agents, Agentic AI, generative AI, AI skills]
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist AI assets
+# AI assets
 
-The Now Assist AI experience includes generative AI skills, AI agents, and AI agentic workflows. These components work alone or in combination to help achieve efficiencies and results on your instance.
+The AI experience in the ServiceNow AI Platform includes generative AI skills, AI agents, and AI agentic workflows. These components work alone or in combination to help achieve efficiencies and results on your instance.
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -27,20 +27,24 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_vhh_f41_zgc" class="nav-card presentation"><tbody><tr><td>
 
-[Now Assist skills\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Now Assist skills are predefined capabilities that use generative AI to perform tasks such as generating summaries, resolution notes, and so forth.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
+[Generative AI skills\[Omitted image "bus-ai-otto.svg"\] Alt text:Skills are predefined capabilities that use generative AI to perform tasks such as generating summaries, resolution notes, and so forth.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
 </td><td>
 
-[Now Assist agentic workflows\[Omitted image "bus-rocketship.svg"\] Alt text:An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective. You can create and manage these workflows in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+[AI agents\[Omitted image "bus-checkmark-circle.svg"\] Alt text:An AI agent is a software program that can understand your goals, make decisions, and take actions on your behalf—without needing you to approve every step. You can create and manage AI agents in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+
+</td></tr><tr><td>
+
+[Agentic workflows\[Omitted image "bus-rocketship.svg"\] Alt text:An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective. You can create and manage these workflows in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 </td><td>
 
 [Platform AI agents\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:An agent is a software entity that can perceive its environment, make decisions, and take actions to achieve specific goals. They are often used to automate tasks, interact with users, or manage complex processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents.md)
 
 </td></tr></tbody>
-</table>**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+</table>**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-For a list of AI assets that are turned on by default, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+For a list of AI assets that are turned on by default, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 **Important:**
 

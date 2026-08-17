@@ -1,6 +1,6 @@
 ---
-title: Create a work order on ServiceNow Agent using Now Assist for Field Service Management \(FSM\)
-description: Create a work order on the ServiceNow Agent mobile application using Now Assist for Field Service Management \(FSM\) from a text description or an image of the issue.
+title: Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)
+description: Create a work order on the ServiceNow Agent mobile application using ServiceNow Otto for Field Service Management \(FSM\) from a text description or an image of the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-mobile-now-assist-fsm.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [create work order, AI agent, mobile, image]
-breadcrumb: [Use agentic AI in FSM, Now Assist for FSM]
+breadcrumb: [Use agentic AI in FSM, ServiceNow Otto for FSM]
 ---
 
-# Create a work order on ServiceNow Agent using Now Assist for Field Service Management \(FSM\)
+# Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)
 
-Create a work order on the ServiceNow Agent mobile application using Now Assist for Field Service Management \(FSM\) from a text description or an image of the issue.
+Create a work order on the ServiceNow Agent mobile application using ServiceNow Otto for Field Service Management \(FSM\) from a text description or an image of the issue.
 
 ## Before you begin
 
@@ -27,17 +27,15 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
 ## Procedure
 
-1.  Tap Now Assist from the navigation bar.
+1.  Tap ServiceNow Otto on the navigation bar.
 
 2.  Navigate to **My Work**.
 
 3.  Tap the plus icon \[Omitted image "mobile-plus-icon.png"\] Alt text:.
 
-4.  Tap **Ask Now Assist**.
+4.  Tap **Ask ServiceNow Otto**.
 
-5.  Tap **Create work order**, or ask Now Assist to create a work order.
-
-    \[Omitted image "now-assist-mobile-create-wo.png"\] Alt text: The Create work order workflow in Now Assist Virtual Agent on the mobile app.
+5.  Tap **Create work order**, or ask AI to create a work order.
 
 6.  Provide a description of the issue for the work order.
 

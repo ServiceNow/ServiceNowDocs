@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/per
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Order Management for business location, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+reading_time_minutes: 2
+breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Roles and responsibilities
 
 After successful integration of Order Management with Service Model Foundation, various roles are added to the list view menu.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 ## Description of roles and their responsibilities
 
@@ -103,7 +105,7 @@ Organization Sales Manager \(sn\_bus\_org\_orm.org\_sales\_mgr\)
 
 </td><td>
 
-This role enables enterprise sales persona to create, manage, and approve account and consumer related orders for their assigned organizational hierarchy.They can view consumer-related orders and order line items across both parent and child business locations.
+This role enables enterprise sales persona to create, manage, and approve account and consumer related orders for their assigned organizational hierarchy.They can view consumer-related orders and order line items across both parent and child business organizations \(formerly business locations\).
 
 The Location Sales Manager has full access to create and approve all order types, including both B2B and B2C orders.
 

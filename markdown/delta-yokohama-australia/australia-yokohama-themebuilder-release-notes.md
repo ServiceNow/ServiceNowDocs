@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-themebuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -107,13 +107,13 @@ Zurich
 
 Upload your brand guidelines as a PDF to the theme creation workflow within the Now Assist panel to generate themes aligned with your brand.
 
--   **[Create a theme using Now Assist](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
 
-As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires Now Assist for Creator.
+As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator.
 
 -   **[Create a theme with AI in Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=zurich&ft:locale=en-US)**
 
-As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires Now Assist for Creator.
+As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
 
 -   **[Publish the new Coral theme](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US)**
 
@@ -136,13 +136,13 @@ As of Theme Builder version 6.1, configure the following new image categories to
 
 As of version 6.1, learn about additional features and complete tasks through interactive steps by taking guided tours within Theme Builder.
 
--   **[Create a theme using Now Assist](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
 
-As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires Now Assist for Creator.
+As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator.
 
 -   **[Create a theme with AI in Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=zurich&ft:locale=en-US)**
 
-As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires Now Assist for Creator.
+As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
 
 
 </td></tr><tr><td>
@@ -156,18 +156,18 @@ Australia
 As of Theme Builder, version 7.1, upload brand guidelines as a PDF in the Theme Builder wizard to generate theme colors from your documented brand standards.
 
 
--   **[Upload brand guidelines to generate theme colors in the Now Assist panel](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=australia&ft:locale=en-US)**
+-   **[Upload brand guidelines to generate theme colors in the ServiceNow Otto panel](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=australia&ft:locale=en-US)**
 
-Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the Now Assist panel to generate themes aligned with your brand.
+Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the ServiceNow Otto panel to generate themes aligned with your brand.
 
 
 -   **[AI-powered color palette theme creation](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=australia&ft:locale=en-US)**
 
-Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires Now Assist for Creator.
+Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
 
--   **[Generate themes using Now Assist](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=australia&ft:locale=en-US)**
+-   **[Generate themes using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=australia&ft:locale=en-US)**
 
-Leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires Now Assist for Creator and a theme creation workflow enabled in AI Agent Studio.
+Use ServiceNow Otto to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator and a theme creation workflow enabled in AI Agent Studio.
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
@@ -175,8 +175,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Override default icons for a fully branded experience](https://www.servicenow.com/docs/access?context=tb-icon-illustrations&family=australia&ft:locale=en-US)**
@@ -219,7 +219,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 
 </td></tr><tr><td>
 
@@ -227,7 +230,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -554,7 +560,7 @@ Australia
 
 </td><td>
 
--   Generate color palettes instantly by uploading a brand image or brand guidelinesand let our AI theme generator automatically detect your brand colors.
+-   Generate color palettes instantly by uploading a brand image or brand guidelines and let the AI theme generator automatically detect your brand colors.
 -   Customize fonts by category and adjust font sizes to scale typography across specific component categories like headers, buttons, and form fields, or by size groups for consistent styling.
 -   Access the new icon library to configure and override default icons using custom assets.
 

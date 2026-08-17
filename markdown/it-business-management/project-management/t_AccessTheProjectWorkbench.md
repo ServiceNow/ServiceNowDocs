@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Access the project workbench in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d282810e62">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d290515e62">
 
 Option
 
-</th><th align="left" id="d282810e65">
+</th><th align="left" id="d290515e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d282810e71">
+</th></tr></thead><tbody><tr><td id="d290515e71">
 
 **From Planning Console**
 
@@ -43,7 +43,7 @@ Steps
 3.  Select the **Planning Console** selection arrow on the banner and select **Project Workbench**.
 
 
-</td></tr><tr><td id="d282810e108">
+</td></tr><tr><td id="d290515e108">
 
 **From a project record**
 

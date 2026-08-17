@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Notifications Rules page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Notifications Rules page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Add a Notification rule
@@ -40,4 +40,10 @@ Role required: admin
 
 4.  Select **Create Rule**.
 
+
+## Result
+
+The created notification rule displays on the Notifications page.
+
+**Parent Topic:**[Notification Rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/notification-rules-page.md)
 

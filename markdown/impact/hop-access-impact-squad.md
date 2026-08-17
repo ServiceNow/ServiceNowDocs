@@ -104,5 +104,5 @@ Refer to [Using Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 **Previous topic:**[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-other-integration-options.md)
 
-**Next topic:**[Activate Now Assist skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
+**Next topic:**[Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
 

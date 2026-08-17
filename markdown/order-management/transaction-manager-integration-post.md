@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience Integration - POST
@@ -16,9 +16,9 @@ Learn how to write data to a third-party application suh as Salesforce by using 
 
 ## Prerequisites
 
-This article assumes that you have a ServiceNow CPQ environment that is integrated to a corresponding Salesforce environment. Before you continue, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md) to complete the necessary integrations.
+This article assumes that you have a CPQ environment that is integrated to a corresponding Salesforce environment. Before you continue, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md) to complete the necessary integrations.
 
-When the end user initiates a function that writes ServiceNow CPQ data back to the corresponding Salesforce transaction record, ServiceNow CPQ must have the Salesforce transaction’s record identifier on hand. To understand how to retrieve the Salesforce transaction ID and save it into ServiceNow CPQ for future use, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-get.md).
+When the end user initiates a function that writes CPQ data back to the corresponding Salesforce transaction record, CPQ must have the Salesforce transaction’s record identifier on hand. To understand how to retrieve the Salesforce transaction ID and save it into CPQ for future use, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-get.md).
 
 ## Salesforce setup
 
@@ -26,7 +26,7 @@ In this example, we write LGK data to the Salesforce fields listed below. Review
 
 Header fields \(Salesforce object:**LGK\_\_Transaction\_\_c**\)
 
--   **LGK\_\_Stage\_\_c** holds the stage of the ServiceNow CPQ transaction.
+-   **LGK\_\_Stage\_\_c** holds the stage of the CPQ transaction.
 -   **LGK\_\_PricingExtendedNet\_\_c** is the transaction \(header-level\) net total.
 -   **LGK\_\_Id\_\_c** is mapped to the **id** of the parent transaction.
 
@@ -49,7 +49,7 @@ Because the Composite Graph API is a core Salesforce capability, no setup is nec
 
 ## ServiceNow Quote Experience setup
 
-The transaction ID mappings mentioned in the Salesforce Setup section help ServiceNow CPQ send the right line IDs to Salesforce and manage updates, deletions, and additions effectively. By mapping LGK\_\_TransactionId\_\_c to the parent transaction ID, Salesforce can link all line-level changes to the correct transaction, ensuring proper association. The LGK\_\_ParentTransactionLineId\_\_c checks for a parent line reference; if present, it assigns the corresponding line ID, ensuring that only valid lines are updated or deleted. If no reference exists, it sets the value to null. The LGK\_\_Product2Id\_\_c maps to the product’s partner ID, ensuring the correct product is linked to the line for accurate pricing and discount application. These dynamic mappings ensure that Salesforce can accurately update quantities, delete lines, and add new ones while preserving user's line-level discounts by maintaining proper associations with transaction and product data.
+The transaction ID mappings mentioned in the Salesforce Setup section help CPQ send the right line IDs to Salesforce and manage updates, deletions, and additions effectively. By mapping LGK\_\_TransactionId\_\_c to the parent transaction ID, Salesforce can link all line-level changes to the correct transaction, ensuring proper association. The LGK\_\_ParentTransactionLineId\_\_c checks for a parent line reference; if present, it assigns the corresponding line ID, ensuring that only valid lines are updated or deleted. If no reference exists, it sets the value to null. The LGK\_\_Product2Id\_\_c maps to the product’s partner ID, ensuring the correct product is linked to the line for accurate pricing and discount application. These dynamic mappings ensure that Salesforce can accurately update quantities, delete lines, and add new ones while preserving user's line-level discounts by maintaining proper associations with transaction and product data.
 
 This integration transform requires the use of two custom line fields, **lineReferenceId** and **parentLineReferenceId**. These fields must be set up to store a variation of the **txn.line.id** and \(potentially\) **txn.line.parent.id** system fields.
 

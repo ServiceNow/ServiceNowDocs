@@ -1,6 +1,6 @@
 ---
 title: Web application — Devices page
-description: The Active devices and Impacted devices list captures data about the devices, latest logged-in user, last logged in location, and time when the application was last accessed on the device. This information helps with security, access control, and provides insights into user behavior and application usage.
+description: The Active devices and Impacted devices lists display device details, recent user login information, login location, and last application access time. Use this data to review security posture, manage access control, and analyze usage patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/web-app-users-form.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Applications list, DEX Application and Device Health reference, Ref
 
 # Web application — Devices page
 
-The Active devices and Impacted devices list captures data about the devices, latest logged-in user, last logged in location, and time when the application was last accessed on the device. This information helps with security, access control, and provides insights into user behavior and application usage.
+The Active devices and Impacted devices lists display device details, recent user login information, login location, and last application access time. Use this data to review security posture, manage access control, and analyze usage patterns.
 
 <table id="table_lsb_btf_4wb"><thead><tr><th>
 

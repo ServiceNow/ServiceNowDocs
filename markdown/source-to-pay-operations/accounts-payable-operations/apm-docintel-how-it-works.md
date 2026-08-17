@@ -43,7 +43,7 @@ When you receive an invoice as an attachment via email from a supplier or an emp
 1.  An invoice case is created with category **Invoice automation** and subcategory **Invoice processing** in Accounts Payable Operations.
 2.  If Document Intelligence determines that the extraction confidence is lower than the threshold value, it doesn’t extract the invoice data and as a consequence an invoice isn’t created.
 3.  In this scenario, the Accounts Payable Specialist must do the following:
-    1.  Open the invoice processing case created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md).
+    1.  Open the invoice processing case created in Step1.
 
         The case displays the following error message: Invoice has a data extraction error. Review invoice with automation to continue processing.
 
@@ -74,12 +74,12 @@ You must collaborate with the administrator to resolve this issue.
 
 Accounts Payable Operations supports multiple languages. The current DocIntel model is trained to extract invoices in the English language only. If you want to process the invoice in multi-lingual languages supported by DocIntel, you must train the DocIntel model on your own.
 
-For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
+For more information on Document Intelligence, see [Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
 
 -   **[Required fields for creating an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.md)**  
-Required fields for invoices and invoice lines that the Accounts Payable Operations integration with Document Intelligence application checks before creating an invoice.
+Mandatory invoices and invoice lines fields that the Accounts Payable Operations integration with Document Intelligence application checks before creating an invoice.
 -   **[Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md)**  
-Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values, including dates, currencies, unit prices, and decimals, into formats supported by downstream processing systems.
+Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values into formats supported by downstream processing systems.
 
 **Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

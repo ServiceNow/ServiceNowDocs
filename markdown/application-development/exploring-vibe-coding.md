@@ -17,7 +17,7 @@ To build apps agentically on the ServiceNow AI Platform, you interact with tools
 
 ## Agentic development overview
 
-The ServiceNow core offerings for agentic development include several products, such as Build Agent, Now Assist for Creator, built-in security and governance, and an enhanced developer experience.
+The ServiceNow core offerings for agentic development include several products, such as Build Agent, ServiceNow Otto for Creator, built-in security and governance, and an enhanced developer experience.
 
 \[Omitted image "vc-vs-trad.png"\] Alt text: Differences between agentic development and traditional development
 
@@ -29,11 +29,11 @@ Build Agent can do the following:
 -   Handle UI design, database schema, business logic, integrations, and testing automatically.
 -   Include audit trails, security controls, and governance for enterprise compliance.
 -   Build a custom AI agent, agentic workflow, or AI skill for the ServiceNow AI Platform.
--   Integrates with Now Assist for Creator and App Engine for enterprise-grade workflows.
+-   Integrates with ServiceNow Otto for Creator and App Engine for enterprise-grade workflows.
 
-## Now Assist for Creator and using AI to build out apps
+## ServiceNow Otto for Creator and using AI to build out apps
 
-While not exclusively an agentic development tool, Now Assist for Creator can do the following for agentic development:
+While not exclusively an agentic development tool, ServiceNow Otto for Creator can do the following for agentic development:
 
 -   Provide AI-powered developer tools embedded in ServiceNow Studio and ServiceNow IDE.
 -   Generate JavaScript for server-side and client-side logic to enable text-to-code.

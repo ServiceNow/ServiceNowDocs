@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions.
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
+reading_time_minutes: 3
+breadcrumb: [Impact reference, Impact]
 ---
 
 # Scan Engine definitions
@@ -67,13 +67,13 @@ User Experience
 Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.See [Scan Engine definitions: User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-user-experience.md) for additional information.
 
 </td></tr></tbody>
-</table>For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md).
+</table>For more information, see [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md).
 
 ## Custom definitions
 
 Users can create their own custom definitions. For more information, see [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definitions.md).
 
-**Note:** The number of custom definitions that is permitted varies based on your Impact package. For more information, see .
+**Note:** The number of custom definitions that is permitted varies based on your Impact package. For more information, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md).
 
 ## Scan Engine definition suites
 
@@ -94,4 +94,17 @@ By default, the following suites are available:
 **Note:** Only users with the `sn_se.scan_engine_admin_role` role can modify existing suites and their relationship with their definitions.
 
 For more information, see [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md).
+
+-   **[Scan Engine definitions: Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-security.md)**  
+Scan Engine security definitions measure implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.
+-   **[Scan Engine definitions: Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-performance.md)**  
+Scan Engine performance definitions measure the efficiency of a ServiceNow instance, encompassing aspects such as speed, responsiveness, resource utilization, and overall dependability.
+-   **[Scan Engine definitions: Manageability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-manageability.md)**  
+Scan Engine Manageability definitions measure the extent to which ServiceNow instances, applications, or infrastructure can be effectively monitored, configured, and maintained.
+-   **[Scan Engine definitions: Upgradeability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-upgradeability.md)**  
+Scan Engine upgradeability definitions assess the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.
+-   **[Scan Engine definitions: User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-user-experience.md)**  
+Scan Engine user experience definitions evaluate the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.
+
+**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
 

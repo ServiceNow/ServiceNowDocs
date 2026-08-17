@@ -17,7 +17,7 @@ Modify the landing pages on your Next Experience instance so that users see a la
 
 In Next Experience, you can configure multiple landing pages. Next Experience landing pages provide the information you need to start working. These landing pages typically present content specific to your role and tasks. Landing pages can include lists, Performance Analytics and Reporting \(PAR\) information, and other features to access your new and prioritized tasks from one location.
 
-By default, users on new Next Experience instances see the Next Experience landing page. Users on upgraded instances see the landing pages they had before in the Next Experience UI. You can also set a [Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16.md) landing page for all users and configure user-specific landing pages.
+By default, users on new Next Experience instances see the Next Experience landing page. Users on upgraded instances see the landing pages they had before in the Next Experience UI. You can also set a [Configure a Core UI global landing page in Next Experience enabled instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ui16-landing-page-in-next-experience.md) landing page for all users and configure user-specific landing pages.
 
 **Note:** If you want to turn off the welcome splash screen after upgrading your instance, see [Turn off the Next Experience welcome screen after upgrading your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/remove-welcome-splash-screen.md).
 

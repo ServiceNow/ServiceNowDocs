@@ -63,13 +63,13 @@ Role required: sn\_customerservice.customer\_admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Pending Contact Registrations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Pending Registrations Requests**.
 
 2.  Select a registration request with a state of **Pending**.
 
 3.  Select an **Account** for the requester.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     The registration request is sent to the customer administrator of the assigned account.
 

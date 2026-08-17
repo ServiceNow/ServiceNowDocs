@@ -18,7 +18,7 @@ Use the Telecommunications API notification to inform third-party systems about 
 
 ## Introduction to API notifications
 
-Trouble ticket in the TMF ecosystem is an incident that tracks and resolves customer-reported issues, network outages, or other problems. A trouble ticket incident can be created in either the reactive or proactive way. In the reactive approach, an incident is generated after conducting root cause analysis \(RCA\) on a case that is reported due to a system fault. In the proactive approach, an incident is generated after receiving alerts, enabling for the performance of RCA or service impact analysis \(SIA\) to evaluate the impact on the services. With the trouble ticket notification feature, you can send the details of the incident to the outbound systems.
+Trouble ticket in the TMF ecosystem is an incident that tracks and resolves customer-reported issues, network outages, or other problems. A trouble ticket incident can be created in either the reactive or proactive way. In the reactive approach, an incident is generated after conducting root cause analysis \(RCA\) on a case that is reported due to a system fault. In the proactive approach, an incident is generated after receiving alerts. This enables the performance of RCA or service impact analysis \(SIA\) to evaluate the impact on the services. With the trouble ticket notification feature, you can send the details of the incident to the outbound systems.
 
 ## API notification framework
 

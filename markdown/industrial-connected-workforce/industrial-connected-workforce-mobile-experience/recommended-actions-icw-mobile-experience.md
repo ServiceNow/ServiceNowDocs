@@ -1,6 +1,6 @@
 ---
 title: Recommended Actions in the Industrial Connected Workforce Mobile Experience
-description: The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task and are intended to support you during manufacturing processes by providing relevant guidance at the point of need.
+description: The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task. They provide relevant guidance at the point of need to support you during manufacturing processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/recommended-actions-icw-mobile-experience.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Explore, Industrial Connected Workforce Mobile Experience, Industri
 
 # Recommended Actions in the Industrial Connected Workforce Mobile Experience
 
-The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task and are intended to support you during manufacturing processes by providing relevant guidance at the point of need.
+The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task. They provide relevant guidance at the point of need to support you during manufacturing processes.
 
 Each recommended action is generated dynamically using the information that is specific to a task. This helps to focus on the actions that are relevant to your current task and reduce the time spent searching for supporting information. The Recommended Actions for ICW Mobile is available through the Now Mobile Agent.
 
-Recommendations on mobile are produced by the same task contexts and rules as the Digital Factory Workspace experience, so the guidance you receive in the field is consistent with a mobile device or a computer.
+Recommendations on mobile are produced by the same task contexts and rules as the Digital Factory Workspace experience. The guidance you receive in the field is consistent whether you use a mobile device or a computer.
 
 ## Supported use cases
 

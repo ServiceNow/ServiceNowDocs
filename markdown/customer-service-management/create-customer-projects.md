@@ -1,6 +1,6 @@
 ---
 title: Create customer projects
-description: Create customer projects at internal or external business locations to manage location openings, renovations, closings, or other location-specific initiatives.
+description: Create customer projects at internal or external organizations \(formerly internal or external business locations\) to manage location openings, renovations, closings, or other location-specific initiatives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-customer-projects.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 # Create customer projects
 
-Create customer projects at internal or external business locations to manage location openings, renovations, closings, or other location-specific initiatives.
+Create customer projects at internal or external organizations \(formerly internal or external business locations\) to manage location openings, renovations, closings, or other location-specific initiatives.
 
 ## Before you begin
 
@@ -23,6 +23,8 @@ Role required: admin, it\_project\_manager, sn\_service\_org.project\_manager
 ## About this task
 
 A customer project can be initiated by applying templates, or by importing and exporting projects. Furthermore, cases can be created to address issues either at the project or project task level.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -142,17 +144,17 @@ Account
 
 Account for the project. Select an account from the displayed list.**Note:**
 
--   On selecting an account, the **Service Organization** field disappears.
+-   On selecting an account, the **Organization \(formerly Service Organization\)** field disappears.
 -   The customer project manager can’t access projects or project tasks associated with service organization project manager.
 
 
 </td></tr><tr><td>
 
-Service Organization
+Organization \(formerly Service Organization\)
 
 </td><td>
 
-Service organization for the project. Select an internal business location \(IBL\) or external business location \(EBL\) from the displayed list.**Note:**
+Service organization for the project. Select an Internal Organization \(formerly internal business location \(IBL\)\) or External Organization \(formerly external business location \(EBL\)\) from the displayed list.**Note:**
 
 -   On selecting a service organization, the **Account** field disappears.
 -   The service organization project manager can’t access projects or project tasks associated with customer project manager.

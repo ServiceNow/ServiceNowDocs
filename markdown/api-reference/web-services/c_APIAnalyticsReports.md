@@ -34,15 +34,15 @@ The REST &amp; SOAP API Analytics dashboard contains Usage Overview, Usage by AP
 
 2.  Select one of the following tabs in the dashboard.
 
-<table id="choicetable_trp_2cg_z1c"><thead><tr><th align="left" id="d795230e102">
+<table id="choicetable_trp_2cg_z1c"><thead><tr><th align="left" id="d796017e102">
 
 Option
 
-</th><th align="left" id="d795230e105">
+</th><th align="left" id="d796017e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d795230e111">
+</th></tr></thead><tbody><tr><td id="d796017e111">
 
 **Usage Overview**
 
@@ -50,7 +50,7 @@ Action
 
 View general usage statistics for all REST and SOAP APIs.
 
-</td></tr><tr><td id="d795230e120">
+</td></tr><tr><td id="d796017e120">
 
 **Usage by API**
 
@@ -61,7 +61,7 @@ View detailed usage statistics for each API. 1.  From the **API Stats by API** m
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d795230e149">
+</td></tr><tr><td id="d796017e149">
 
 **Usage by Requestor**
 

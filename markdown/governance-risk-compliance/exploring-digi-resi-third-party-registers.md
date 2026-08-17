@@ -21,7 +21,7 @@ Beginning with Release 19.1.x, the following applications are supported for ICT 
 -   Digital Operational Resilience Management: This application is used for uploading and downloading of all individual DORA tables.
 -   Digital Resilience Third-party Information Register: This application is used to download the Digital resilience third-party registers. The application contains the Microsoft Excel template that includes all tabs for reporting purposes. It helps the financial entities to maintain a comprehensive register of their contractual arrangements with ICT Third-party service providers at the individual entity, sub-consolidated, and consolidated levels.
 
-    Customers use Digital resilience third-party registers to create or edit the records in bulk or individually for assessments, branches, contracts, functions, legal entities, supply chains, third parties, or third-party engagements using the Microsoft Excel upload and download feature.
+    Customers use Digital resilience third-party registers to create or edit records in bulk or individually. Records can be created for assessments, branches, contracts, functions, legal entities, supply chains, third parties, or third-party engagements using the Microsoft Excel upload and download feature.
 
     **Note:** The IRM Professional license users can access Digital resilience third-party registers in the Operational Resilience Workspace. The TPRM license users can access Digital resilience third-party registers in the TPRM Workspace.
 
@@ -43,7 +43,7 @@ Digital Operational Resilience aligns with the Digital Operational Resilience A
 
 DORA Regulation mandates that financial entities incorporate and periodically review a strategy for managing ICT third-party risk within their ICT risk management framework. This strategy must include a policy governing the use of ICT services that support critical or important functions, as provided by third-party ICT service providers.
 
-A financial institution's policy on using third-party ICT service providers plays a crucial role in defining key aspects of its governance, risk management, and internal control frameworks for these services. Financial entities must perform risk assessments and due diligence before signing contracts with third-party ICT service providers. They must also ensure they can terminate these arrangements if needed and maintain business continuity for critical or important functions. For instance, an action could be necessary where the service is not optimal, external ICT systems malfunction, or the service is disrupted due to sanctions.
+A financial institution's policy on using third-party ICT service providers plays a crucial role in defining key aspects of its governance, risk management, and internal control frameworks. This policy applies to these services. Financial entities must perform risk assessments and due diligence before signing contracts with third-party ICT service providers. They must also ensure they can terminate these arrangements if needed and maintain business continuity for critical or important functions. For instance, an action could be necessary where the service is not optimal, external ICT systems malfunction, or the service is disrupted due to sanctions.
 
 ## Pillars for DORA
 

@@ -9,7 +9,7 @@ classification: document-intelligence
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Document Intelligence, Enable AI experiences]
+breadcrumb: [Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Exploring Document Intelligence
@@ -18,7 +18,7 @@ Document Intelligence helps you to quickly and accurately classify and extract i
 
 **Important:**
 
-This product has been deprecated and replaced by [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) \(NADI\) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
+This product has been deprecated and replaced by [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) \(NADI\) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
 
 ## Document Intelligence overview
 

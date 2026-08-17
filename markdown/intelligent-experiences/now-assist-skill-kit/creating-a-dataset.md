@@ -1,5 +1,5 @@
 ---
-title: Creating a dataset using Now Assist Skill Kit
+title: Creating a dataset using AI Skill Kit
 description: Use these guidelines to create an effective dataset. Having an effective dataset provides better results for your prompt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/creating-a-dataset.html
@@ -9,16 +9,16 @@ classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [General guidelines for Now Assist Skill Kit, Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Creating a dataset using Now Assist Skill Kit
+# Creating a dataset using AI Skill Kit
 
 Use these guidelines to create an effective dataset. Having an effective dataset provides better results for your prompt.
 
-## Now Assist Skill Kit dataset creation overview
+## AI Skill Kit dataset creation overview
 
-A data-driven approach to skill development relies on the collection of a high-quality dataset to develop and test the skill. When you use Now Assist Skill Kit, you can also leverage the existing capabilities of the ServiceNow AI Platform to create a high-quality dataset.
+A data-driven approach to skill development relies on the collection of a high-quality dataset to develop and test the skill. When you use AI Skill Kit, you can also leverage the existing capabilities of the ServiceNow AI Platform to create a high-quality dataset.
 
 When collecting data for this purpose, you should aim to create datasets that are:
 

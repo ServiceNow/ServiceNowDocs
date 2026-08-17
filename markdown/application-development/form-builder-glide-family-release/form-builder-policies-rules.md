@@ -112,12 +112,12 @@ You can create and edit UI policies only for applications that you own. For more
 
 1.  In the UI policies section, on the **Policies and rules** tab, select the policy that you want to edit.
 
-    You can also edit a field's UI policy directly in the form by selecting it in the **UI policies** tab of the right pane that appears when you select a field.
+    You can also edit a field's UI policy directly in the form. Select the field, then select the **UI policies** tab in the right pane.
 
 2.  Change the UI policy fields and attributes as needed.
 
     For more information on field definitions, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
-3.  Click **Update UI policy**.
+3.  Select **Update UI policy**.
 
 

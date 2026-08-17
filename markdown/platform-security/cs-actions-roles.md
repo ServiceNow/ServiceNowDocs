@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-actions-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-19"
+last_updated: "2026-07-31"
 reading_time_minutes: 3
 keywords: [code signing, roles, permissions, actions, reference]
 breadcrumb: [Administer and Troubleshoot, Code Signing, Platform Security]
@@ -37,6 +37,8 @@ Code Signing includes three primary roles with different levels of access:
 
     Read-only access. Can view signature configurations and signing jobs but can't create or modify them.
 
+
+Many Code Signing actions also require the security\_admin role, which is an elevated role. Users must manually elevate to security\_admin by selecting the profile icon and selecting **Elevate Roles**.
 
 |Action|Description|Required roles|Instance type|
 |------|-----------|--------------|-------------|

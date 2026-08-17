@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-16"
 reading_time_minutes: 1
 keywords: [Business App Mapping AI Agent, confidence thresholds, CSDM, ITOM]
-breadcrumb: [AI Agents for Service Mapping, AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Business App Mapping AI Agent confidence thresholds
@@ -23,5 +23,5 @@ Use this reference to understand how the Business App Mapping AI Agent handles m
 |0.1 – 0.29|Medium|The agent saves the candidate to the staging table \[sn\_sm\_gen\_ai\_ba\_candidate\_rel\] for administrator review. No relationship is created automatically. Administrators can accept a candidate to create the \[cmdb\_rel\_ci\] relationship, or dismiss it.|
 |Below 0.1|Low|The candidate is filtered out. The agent does not create a record or a relationship.|
 
-**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 

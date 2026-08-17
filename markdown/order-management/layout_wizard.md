@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Layout Wizard
@@ -24,7 +24,7 @@ Have a blueprint created with desired fields associated to it.
 
 ## How it works
 
-View a walkthrough of the ServiceNow CPQ Layout Wizard.
+View a walkthrough of the CPQ Layout Wizard.
 
 [Layout Wizard Walkthrough](https://www.youtube.com/watch?v=7ZZ9nE_8t_4)
 

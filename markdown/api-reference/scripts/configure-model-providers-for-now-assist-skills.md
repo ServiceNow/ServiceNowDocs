@@ -1,30 +1,30 @@
 ---
-title: Configure AI model providers for Now Assist for Code skills
-description: Select a large language model \(LLM\) as the AI service provider for Now Assist for Code skills.Select a large language model \(LLM\) as the AI service provider for Now Assist for Code skills.Select an AI model provider for specific skills within the script editor.
+title: Configure AI model providers for ServiceNow Otto for Code skills
+description: Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.Select an AI model provider for specific skills within the script editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/configure-model-providers-for-now-assist-skills.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
-breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Configure AI model providers for Now Assist for Code skills
+# Configure AI model providers for ServiceNow Otto for Code skills
 
-Select a large language model \(LLM\) as the AI service provider for Now Assist for Code skills.
+Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for Now Assist skills in your instance through the Now Assist Admin console. As a user, you can override the instance default AI model provider and select a different model provider for Now Assist for Code skills in the script editor.
+AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for generative AI skills in your instance through the AI Admin Hub console. As a user, you can override the instance default AI model provider and select a different model provider for ServiceNow Otto for Code skills in the script editor.
 
-**Parent Topic:**[Configuring Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configuring-now-assist-code.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configuring-now-assist-code.md)
 
 ## Set default AI model providers for your instance
 
-Select a large language model \(LLM\) as the AI service provider for Now Assist for Code skills.
+Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.
 
 ### Before you begin
 
@@ -32,29 +32,27 @@ Role required: admin
 
 ### About this task
 
-Set the default AI model providers for Now Assist skills in your instance through the Now Assist Admin console.
+Set the default AI model providers for generative AI skills in your instance through the AI Admin Hub console.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
-2.  Go to the **Manage model providers** tab and select **Model Providers**.
+2.  Go to the **Manage AI models** &gt; **Manage model providers** tab and select **Model providers**.
 
-    \[Omitted image "now-assist-code-manage-model-provider.png"\] Alt text: Manage model providers
-
-3.  Change the model provider by selecting **Edit LLM Provider**.
+3.  Select **Edit model provider** to change the model provider.
 
 4.  Select a model provider for either all skill groups or just a specific skill group.
 
-<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d728963e198">
+<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d728637e190">
 
 Choice
 
-</th><th align="left" id="d728963e201">
+</th><th align="left" id="d728637e193">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d728963e207">
+</th></tr></thead><tbody><tr><td id="d728637e199">
 
 **Select a model provider for all the skill groups and skills in the instance.**
 
@@ -63,9 +61,9 @@ Description
 1.  In the Edit model provider Window, set the edit scope to **Instance**.
 2.  From the Default model provider list, select a model provider.
 3.  Select **Save and activate**.
- \[Omitted image "now-assist-code-llm-instance.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
+ \[Omitted image "soc-instance-edit-model-provider.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
 
-</td></tr><tr><td id="d728963e252">
+</td></tr><tr><td id="d728637e246">
 
 **Select a model provider for a specific skill group.**
 
@@ -74,12 +72,12 @@ Description
 1.  In the Edit model provider Window, set the edit scope to **Customize**.
 2.  To change the model provider for a skill group, do the following:
     1.  From the Skill group name list, select the skill group.
-    2.  From the Default LLM provider list, select a model provider.
-    3.  Select **Save and activate**
+    2.  From the default model provider list, select a model provider.
+    3.  Select **Save**.
 
-\[Omitted image "now-assist-code-llm-customize-skill-group.png"\] Alt text: Select model provider for a skill group.
+\[Omitted image "soc-customize-group-edit-model-provider.png"\] Alt text: Select a model provider for a specific skill group.
 
-</td></tr><tr><td id="d728963e305">
+</td></tr><tr><td id="d728637e289">
 
 **Select a model provider for a specific skill.**
 
@@ -89,11 +87,9 @@ Description
 2.  To change the model provider for specific skills, do the following:
 
     1.  From the Select skills list, select the skill.
-    2.  From the Default LLM provider list, select a model provider.
-    3.  Select **Save and activate**.
-**Note:** You can select a different model provider for each skill.
-
-\[Omitted image "now-assist-code-llm-customize-skill.png"\] Alt text: Select model provider for specific skills.
+    2.  From the default model provider list, select a model provider.
+    3.  Select **Save**.
+\[Omitted image "soc-customize-skills-edit-model-provider.png"\] Alt text: Select a model provider for a specific skill.
 
 </td></tr></tbody>
 </table>
@@ -101,7 +97,7 @@ Description
 
 The skills and the skill groups are updated with the selected model providers.
 
-## Select an AI model provider for Now Assist for Code skills in script editor
+## Select an AI model provider for ServiceNow Otto for Code skills in script editor
 
 Select an AI model provider for specific skills within the script editor.
 
@@ -111,13 +107,13 @@ Role required: authenticated user
 
 ### About this task
 
-AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for Now Assist skills in your instance through the Now Assist Admin console. As a user, you can override the instance default AI model provider and select a different model provider for Now Assist for Code skills in the script editor. You can only choose from the models that are enabled in the AI Control Tower.
+AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for generative AI skills in your instance through the AI Admin Hub console. As a user, you can override the instance default AI model provider and select a different model provider for ServiceNow Otto for Code skills in the script editor. You can only choose from the models that are enabled in the AI Control Tower.
 
 ### Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
-    For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
+    For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script.
 
 2.  Select **Settings**.
 
@@ -125,12 +121,12 @@ AI stewards can enable or disable AI model providers in the AI Control Tower. Ad
 
 3.  Select a model provider.
 
-    \[Omitted image "now-assist-code-settings.png"\] Alt text: From the list of AI Providers, select a model provider.
+    \[Omitted image "soc-settings.png"\] Alt text: From the list of AI Providers, select a model provider.
 
 
 ### Result
 
-All requests to Now Assist for Code, including Code auto-complete, Code explain, Code generation, and Code edit, use the model provider that you selected.
+All requests to ServiceNow Otto for Code, including Code auto-complete, Code explain, Code generation, and Code edit, use the model provider that you selected.
 
 **Note:**
 

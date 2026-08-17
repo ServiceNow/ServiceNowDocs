@@ -1,20 +1,20 @@
 ---
 title: Telecom Discovery via Cisco Meraki SD-WAN
-description: The Service Graph Connector \(SGC\) for Cisco Meraki provides a cloud-based management platform that provides a visual representation of network traffic flow between services and applications, enabling centralized configuration, monitoring, and management. Network administrators can easily discover and map services, enforce security policies, and troubleshoot issues in real time.
+description: The Service Graph Connector \(SGC\) for Cisco Meraki provides a cloud-based management platform that visualizes network traffic flow between services and applications. Network administrators can easily discover and map services, enforce security policies, and troubleshoot issues in real time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom Discovery via Cisco Meraki SD-WAN
 
-The Service Graph Connector \(SGC\) for Cisco Meraki provides a cloud-based management platform that provides a visual representation of network traffic flow between services and applications, enabling centralized configuration, monitoring, and management. Network administrators can easily discover and map services, enforce security policies, and troubleshoot issues in real time.
+The Service Graph Connector \(SGC\) for Cisco Meraki provides a cloud-based management platform that visualizes network traffic flow between services and applications. Network administrators can easily discover and map services, enforce security policies, and troubleshoot issues in real time.
 
 The Cisco Meraki SGC provides visibility, control, and synchronization of physical and logical network infrastructure for service providers and telecom enterprises. It leverages REST APIs and a MID Server to deliver a unified, telecom-model-aligned view.
 

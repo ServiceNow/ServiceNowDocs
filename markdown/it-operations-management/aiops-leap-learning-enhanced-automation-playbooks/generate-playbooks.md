@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Generate LEAP playbooks
@@ -30,15 +30,15 @@ Role required: LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d739211e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d744009e105">
 
 UI option
 
-</th><th align="left" id="d739211e108">
+</th><th align="left" id="d744009e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d739211e114">
+</th></tr></thead><tbody><tr><td id="d744009e114">
 
 **Actions**
 
@@ -46,18 +46,18 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\], and select **Create Playbook**.
 
-</td></tr><tr><td id="d739211e128">
+</td></tr><tr><td id="d744009e128">
 
-**Explore**
+**Ask Otto**
 
 </td><td>
 
-1.  Select Explore button \[Omitted image "explore-button.png"\].
-2.  In the Now Assist panel, select **Create playbook**.
+1.  Select \[Omitted image "Otto-01.svg"\] Alt text: Ask Otto button.
+2.  In the ServiceNow Otto panel, select **Create playbook**.
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "create-leap-playbook-updated.png"\] Alt text: Create playbooks from Actions button Workflow Studio opens and the playbook generation process starts. The **Playbook name** and **Now Assist directions** fields are pre-filled with the problem record title and the generated resolution steps.
+</table>    \[Omitted image "create-leap-playbook-updated.png"\] Alt text: Create playbooks from Actions button Workflow Studio opens and the playbook generation process starts. The **Playbook name** and **directions** fields are pre-filled with the problem record title and the generated resolution steps.
 
     \[Omitted image "workflow-studio-for-playbooks.png"\] Alt text: LEAP playbook in Workflow studio
 

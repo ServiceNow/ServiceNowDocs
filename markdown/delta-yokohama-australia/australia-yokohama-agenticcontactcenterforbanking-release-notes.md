@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-agenticcontactcenterforbanking-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -289,7 +289,7 @@ Australia
 
 </td><td>
 
-This application is dependent on Now Assist for Financial Services Operations \(FSO\). For more information, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations-rn&family=australia&ft:locale=en-US).
+This application is dependent on ServiceNow Otto for Financial Services Operations \(FSO\). For more information, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations-rn&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Browser requirements

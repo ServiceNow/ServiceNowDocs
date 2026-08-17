@@ -35,24 +35,15 @@ Discovery uses the following patterns to discover the entire Kubernetes infrastr
 
 These patterns query the Cloud, collect data on all Kubernetes clusters, and create a serverless schedule for each cluster. When the cluster is deleted, the schedule is marked as inactive. This feature eliminates the overhead of creating and managing multiple credentials and serverless discovery schedules per cluster. The Cloud infrastructure patterns are triggered through standard Cloud discovery.
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Container Packaging. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disable-docker-container-discovery.md).
+Starting with Discovery and Service Mapping Patterns version 1.31.0, you can choose to discover Docker image CIs only, without discovering Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU. For more information, see [Disable Docker container CI discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disable-docker-container-discovery.md).
 
 ## Supported versions
 
-The patterns have been validated with the following Kubernetes and Red Hat OpenShift versions:
-
-|Platform/pattern|Validated version|
-|----------------|-----------------|
-|On-Premises Kubernetes|1.34|
-|Google Kubernetes Engine \(GKE\)|1.34|
-|Azure Kubernetes Engine \(AKS\)|1.34|
-|Amazon Elastic Kubernetes Service \(EKS\)|1.34|
-|Kubernetes Event patterns|1.34|
-|OpenShift|4.19.20|
+For the list of Kubernetes distribution versions validated against the Kubernetes and Kubernetes Event patterns, see [Kubernetes Versions Tested with ServiceNow Discovery \[KB3145280\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3145280).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -793,7 +784,7 @@ sn\_itom\_pattern.bring\_discovery\_container
 
 </td><td>
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, the property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs or only Docker image CIs. Check your entitlements to determine whether you have access to 2026 Container Packaging.
+Starting with Discovery and Service Mapping Patterns version 1.31.0, the property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs or only Docker image CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU.
 
 </td><td>
 

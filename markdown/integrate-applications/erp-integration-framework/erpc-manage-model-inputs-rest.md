@@ -1,6 +1,6 @@
 ---
-title: Manage input parameters for a Zero Copy Connector for ERP model operation with a REST entity
-description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record using REST.
+title: Manage input parameters for a model operation with a REST entity
+description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the ERP system using REST.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.html
 release: australia
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-04-26"
 reading_time_minutes: 3
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to ERP with REST, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Manage input parameters for a Zero Copy Connector for ERP model operation with a REST entity
+# Manage input parameters for a model operation with a REST entity
 
-Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record using REST.
+Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the ERP system using REST.
 
 ## Before you begin
 
@@ -72,7 +72,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 15. Select **OK**.
 
-    Zero Copy Connector for ERP automatically suggests mappings between source fields and mapped fields. This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP semantic mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
+    Zero Copy Connector for ERP automatically suggests mappings between source fields and mapped fields. This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP AI semantic field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
 
     Mapped field names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
@@ -86,7 +86,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
         Field information is added to **Data type**, **Required**, **Mapping type**, and **Mapped field** automatically.
 
-        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see .
+        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 17. Select **Save**.
 
@@ -94,6 +94,4 @@ Role required: sn\_erp\_integration.erp\_admin
 ## What to do next
 
 Next, check the output parameters for the operation and update as needed. For more information, see [Select model output parameters for REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-rest.md).
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

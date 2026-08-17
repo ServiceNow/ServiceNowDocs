@@ -1,6 +1,6 @@
 ---
 title: Configure skill deployment settings
-description: Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
+description: Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 4
-breadcrumb: [Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Configure skill deployment settings
 
-Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
+Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: sn\_skill\_builder.admin
 
 ## About this task
 
-Deployment settings control two things: where the skill appears in the Now Assist Admin console for an admin, and which activation methods are available to that admin. You must configure both before publishing the skill.
+Deployment settings control two things: where the skill appears in the AI Admin Hub console for an admin, and which activation methods are available to that admin. You must configure both before publishing the skill.
 
 **Important:** Deployment settings for cloned ServiceNow skills cannot be edited. If you select **Deployment settings** on a cloned skill, a notification informs you that these settings are locked. To use custom deployment settings, create a skill from scratch instead of cloning.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to configure from the **Custom Skills** list.
 
@@ -36,7 +36,7 @@ Deployment settings control two things: where the skill appears in the Now Assis
 
 4.  Select **Deployment Settings**.
 
-5.  In the **Now Assist features** section, fill in the fields.
+5.  In the **ServiceNow Otto features** section, fill in the fields.
 
 <table id="table_qfd_3nh_lcc"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Workflow
 
 The high-level category that this skill pertains to, such as **Technology**, **Employee**, **Creator**, or **Platform**. You can also select **Other** if none of the categories fit.
 
- The workflow that you choose determines where the skill appears in the Now Assist Admin console.
+ The workflow that you choose determines where the skill appears in the AI Admin Hub console.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Product
 
 </td><td>
 
-The specific product that this skill operates within, such as ITSM, ITOM, HR Service Delivery, Now Assist Admin.
+The specific product that this skill operates within, such as ITSM, ITOM, HR Service Delivery, AI Admin Hub.
 
 </td></tr><tr><td>
 
@@ -105,15 +105,15 @@ Additional Information
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 
-Allows the skill to be triggered through the Now Assist Panel.
+Allows the skill to be triggered through the ServiceNow Otto Panel.
 
 </td><td>
 
-The Now Assist panel is the conversational interface found within the Now Assist Center, learn more about this feature at [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-now-assist-panel.md).
+The ServiceNow Otto panel is the conversational interface found within the ServiceNow Otto Center, learn more about this feature at [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-now-assist-panel.md).
 
 </td></tr><tr><td>
 
@@ -141,19 +141,19 @@ Allows the skill to be used from a flow action. Once activated, you can access t
 
 </td><td>
 
-Details on the **Execute Skill** flow action can be found at .
+Details on the **Execute Skill** flow action can be found at [Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/execute-skill-action.md).
 
 </td></tr><tr><td>
 
-Now Assist context menu
+ServiceNow Otto context menu
 
 </td><td>
 
-Makes the skill available for activation and use through the Now Assist context menu.
+Makes the skill available for activation and use through the ServiceNow Otto context menu.
 
 </td><td>
 
-For details on the context menu, see[Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md).
+For details on the context menu, see[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Makes the skill available for activation and use in various chat experiences wit
 
 </td><td>
 
-For more information about Now Assist in Virtual Agent, see .
+For more information about ServiceNow Otto in Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Makes the skill available in UI Builder. You can find it in the Data and scripts
 Learn how to use UI Builder to create web user interfaces at [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 </td></tr></tbody>
-</table>    **Tip:** You can select more than one deployment location. Selecting a location here makes it available for an admin to activate, but not activate the skill automatically. An admin must still activate the skill in Now Assist Admin. To learn more, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
+</table>    **Tip:** You can select more than one deployment location. Selecting a location here makes it available for an admin to activate, but not activate the skill automatically. An admin must still activate the skill in AI Admin Hub. To learn more, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 
 7.  Select **Save**.
 
@@ -189,7 +189,7 @@ Learn how to use UI Builder to create web user interfaces at [UI Builder](https:
 
 After you configure the skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

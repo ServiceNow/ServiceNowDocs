@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Core Business Suite, Configure Core Business Suite using Now Assist, Configure, Core Business Suite]
+breadcrumb: [ServiceNow Otto for Core Business Suite \(CBS\), Configure Core Business Suite using Otto, Configure, Core Business Suite]
 ---
 
 # Edit a notification
@@ -63,5 +63,5 @@ Role required: admin, sn\_cbs.admin
     Now Assist saves the changes and displays a success message.
 
 
-**Parent Topic:**[Now Assist for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
 

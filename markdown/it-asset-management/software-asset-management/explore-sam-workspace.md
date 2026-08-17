@@ -94,6 +94,8 @@ Software Asset Demand
 </td></tr></tbody>
 </table>-   **[Software Asset Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)**  
 An overview of the functionality of the Software Asset Management application.
+-   **[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)**  
+ServiceNow Otto for Software Asset Management \(SAM\) uses AI to automate software asset management operations, improve compliance, and optimize license management.
 -   **[Now Mobile app for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-moile-app-for-sam.md)**  
 Use the Now Mobile app to view the hardware and software assets that are assigned to you.
 -   **[Virtual Agent for software requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/virtual-agent-software-request-auto-allocation.md)**  

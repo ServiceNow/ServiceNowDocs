@@ -9,16 +9,16 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, supplier, inbound integration]
-breadcrumb: [Inbound Invoice Fields, Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, ERP, Scheduled payment]
+breadcrumb: [Inbound invoice fields, Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Inbound invoice payment fields
 
 Field descriptions and data types for inbound invoice payment records used to import supplier invoice payment data into Accounts Payable Operations.
 
-|Column|Description|Data type|
-|------|-----------|---------|
+|Field|Description|Data type|
+|-----|-----------|---------|
 |Payment amount|Payment details about the invoice|Decimal number|
 |ERP invoice number|The ERP invoice number of the supplier invoice|String|
 |Payment date|The date on which the invoice payment was completed|String \(yyy-mm-dd\)|
@@ -34,5 +34,5 @@ Field descriptions and data types for inbound invoice payment records used to im
 |ERP Source|The available ERP|String|
 |Currency|Standard of amount exchangedin Currency Code ISO 4217 format \(USD, GBP, INR, etc\)|String|
 
-**Parent Topic:**[Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
+**Parent Topic:**[Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
 

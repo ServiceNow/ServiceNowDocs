@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-supported-metadata.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-28"
 reading_time_minutes: 5
 keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -197,6 +197,14 @@ Build Agent creates JavaScript modules for organizing reusable server-side code 
 
 </td></tr><tr><td>
 
+Knowledge base access
+
+</td><td>
+
+Configurations that control which users and groups can read, contribute to, or manage knowledge bases and knowledge articles.
+
+</td></tr><tr><td>
+
 LDAP server configurations
 
 </td><td>
@@ -299,7 +307,7 @@ Skills
 
 </td><td>
 
-Now Assist skills for AI-powered responses and actions.
+ServiceNow Otto skills for AI-powered responses and actions.
 
 </td></tr><tr><td>
 

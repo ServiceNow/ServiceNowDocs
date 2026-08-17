@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management, Sales Customer Relationship Management]
+breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View customer context for an order exception chat
@@ -42,7 +42,7 @@ When a customer's chat for an order exception is escalated to a live agent, the 
 3.  Review the AI-generated chat summary in the Active Chat panel to understand the customer's request and what the order exception AI agent has done so far.
 
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 
 **Related topics**  
 

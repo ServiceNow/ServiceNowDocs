@@ -1,6 +1,6 @@
 ---
 title: Access your ServiceNow data using SQL API
-description: The SQL API provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
+description: The SQL API \(formerly known as SQL API\) provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Additional integration resources, Web services, API implementation,
 
 # Access your ServiceNow data using SQL API
 
-The SQL API provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
+The SQL API \(formerly known as SQL API\) provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
 ## Get started
 
@@ -36,7 +36,7 @@ The SQL API provides read-only access to your ServiceNow tables, allowing you to
 
 </td></tr></tbody>
 </table>-   **[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)**  
-The ServiceNow SQL API provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
+The ServiceNow SQL API Live Connect, \(formerly known as SQL API\) provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
 -   **[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)**  
 This section guides you through the complete setup process for the ServiceNow SQL API, covering both instance configuration and driver installation. You will configure your ServiceNow instance to enable SQL API access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 -   **[Integrate SQL API Drivers with external BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-drivers-bi-tools.md)**  

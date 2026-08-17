@@ -45,5 +45,5 @@ Role required: admin
     The table contains information on the alerts.
 
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

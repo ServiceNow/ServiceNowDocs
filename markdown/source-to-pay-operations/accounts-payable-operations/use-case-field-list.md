@@ -1,5 +1,5 @@
 ---
-title: List of invoice and invoice line fields included in the use case for Accounts Payable Operations integration with Document Intelligence
+title: Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence
 description: The DO NOT USE - Invoice Processing use case includes invoice and invoice line fields used to extract information from invoice documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-case-field-list.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, Invoice Processing, Supplier, Purchase order, ACH routing, BIC]
 breadcrumb: [Invoice Processing use case, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# List of invoice and invoice line fields included in the use case for Accounts Payable Operations integration with Document Intelligence
+# Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence
 
 The **DO NOT USE - Invoice Processing** use case includes invoice and invoice line fields used to extract information from invoice documents.
 

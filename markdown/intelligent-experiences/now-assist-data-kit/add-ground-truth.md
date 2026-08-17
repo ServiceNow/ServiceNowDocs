@@ -9,7 +9,7 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Add a ground truth to each dataset record

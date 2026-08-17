@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-desktop-action-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-11-02"
+last_updated: "2026-07-21"
 reading_time_minutes: 7
-breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+keywords: [defined desktop action, deterministic desktop action]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a defined desktop action tool to an AI agent for desktop and web-based task
@@ -208,7 +209,7 @@ Display output
 
 </td><td>
 
-Permission to display the output of the execution in the Now Assist panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
 -   **No**
 If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 

@@ -25,23 +25,27 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
+Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the Integrate section, under Integrations, select **Add integration**.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+
+    The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
+
+3.  From the Integrate section, under Integrations, select **Add integration**.
 
     The Integrations Launchpad appears.
 
-3.  In the **Browse integrations** tab, search for the OpenTelemetry \(MID-less\) integration and select its tile.
+4.  In the **Browse integrations** tab, search for the OpenTelemetry \(MID-less\) integration and select its tile.
 
     **Note:** If you start an integration setup before meeting all prerequisites, a message appears. You can cancel the setup and complete the prior requirements first. Alternatively, you can continue in draft mode and complete the requirements later. Note that you can't activate the integration until you have completed all the prerequisites.
 
-4.  On the **Provide details** form, fill in the fields and then select **Next**.
+5.  On the **Provide details** form, fill in the fields and then select **Next**.
 
-5.  On the **Set-up instruction** screen, follow the provided procedure to enable sending log data to ServiceNow using OpenTelemetry.
+6.  On the **Set-up instruction** screen, follow the provided procedure to enable sending log data to ServiceNow using OpenTelemetry.
 
     1.  Copy the provided access token, endpoint, and integration ID to the clipboard.
 
@@ -71,13 +75,20 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
         For more detailed instructions, see the [Configure an OpenTelemetry Collector or 3rd Party agent to send data to HLA \[KB2117238\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2117238) article in the Now Support knowledge base. For further assistance, contact your OpenTelemetry Collector administrator.
 
-6.  On the OpenTelemetry Collector integration **Set-up instruction** screen, complete the integration setup by doing one of the following.
+7.  Do one of the following.
 
-    |Option|Description|
-    |------|-----------|
-    |**Prerequisites complete — activate with AI**|Select **Activate with AI** to enable AI-powered automatic mapping of log data. When the integration is activated successfully, the **Overview** tab is displayed and Now Assist collects and analyzes log data. An AI icon indicates that Now Assist auto-maps log data to service instances and components for contextual alert generation.|
-    |**Prerequisites complete — activate without AI**|Select **Activate** to activate the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.|
-    |**Prerequisites not complete**|Select **Save draft**. The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. You can complete the prerequisites and activate the integration later. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).|
+    -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option.
+
+        -   **Activate with AI** enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts.
+
+            When the integration is activated successfully, the **Overview** tab is displayed. ServiceNow Otto for ITOM collects and analyzes log data. An AI icon indicates that AI is active.
+
+        -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
+        On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+
+    -   If you didn't complete all the prior requirements, select **Save draft**.
+
+        The system saves the integration as a draft in the Integrations Launchpad **Installed integrations** tab, under **Waiting for your action**. At a later time, complete the prerequisites and activate the installation. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
 
 
 ## What to do next
@@ -89,8 +100,6 @@ On the **Overview** tab, do the following:
     -   [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
     -   [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
     -   [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
-
-If you activated the integration with AI, verify that AI correctly auto-mapped log data to service instances and components. To do this, select **View mapping** under **Log context mapping**. You can override the AI mapping by selecting a different log field from each list. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
 **Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
 

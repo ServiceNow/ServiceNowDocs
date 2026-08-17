@@ -8,7 +8,8 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
+keywords: [Supplier Lifecycle Operations, supplier performance dashboard, supplier score, risk score, performance domain, KPI scores]
 breadcrumb: [Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

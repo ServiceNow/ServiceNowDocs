@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 12
-breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # Installing the Salesforce ServiceNow Quote Experience Integration Package extension
@@ -16,17 +16,17 @@ Install the Salesforce ServiceNow Quote Experience Integration Package Extension
 
 ## Prerequisites
 
-This guide assumes that your ServiceNow CPQ environment is integrated with a Salesforce org, and that ServiceNow Quote Experience is enabled. If your Salesforce org has no ServiceNow CPQ packages installed, install version 2.7 or later of the ServiceNow CPQ Managed Package. For instructions, see [Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+This guide assumes that your CPQ environment is integrated with a Salesforce org, and that ServiceNow Quote Experience is enabled. If your Salesforce org has no CPQ packages installed, install version 2.7 or later of the CPQ Managed Package. For instructions, see [Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-**Note:** ServiceNow CPQ ServiceNow Quote Experience has no dependencies on Salesforce CPQ. You can ignore any steps or references specific to Salesforce CPQ.
+**Note:** CPQ ServiceNow Quote Experience has no dependencies on Salesforce CPQ. You can ignore any steps or references specific to Salesforce CPQ.
 
-Submit a support ticket requesting ServiceNow Quote Experience is turned on in your ServiceNow CPQ environment.
+Submit a support ticket requesting ServiceNow Quote Experience is turned on in your CPQ environment.
 
 **Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
-## About the ServiceNow CPQ ServiceNow Quote Experience extension
+## About the CPQ ServiceNow Quote Experience extension
 
-The ServiceNow CPQ ServiceNow Quote Experience Extension is a package of components that Salesforce administrators install on their Salesforce environment to facilitate the integration between Salesforce and ServiceNow CPQ ServiceNow Quote Experience.
+The CPQ ServiceNow Quote Experience Extension is a package of components that Salesforce administrators install on their Salesforce environment to facilitate the integration between Salesforce and CPQ ServiceNow Quote Experience.
 
 Contact ServiceNow customer support for information on the latest version and how to access the managed package for installation.
 
@@ -40,13 +40,13 @@ After it is installed, you can view the version of the package in the **Installe
 
 The Salesforce environment must have Custom Address Fields enabled. If this feature is not enabled, see this article for more information: [Enable Custom Address Fields](https://help.salesforce.com/s/articleView?id=sf.fields_caf_enable.htm&type=5)
 
-## Salesforce: Allow security exceptions for ServiceNow CPQ
+## Salesforce: Allow security exceptions for CPQ
 
 Add trusted URLs:
 
 1.  From Salesforce Setup Home, go to **Settings** &gt; **Security** &gt; **Trusted URLs**. Create a new trusted URL.
 2.  Provide an API name.
-3.  Enter the URL of the ServiceNow CPQ environment, as shown below.
+3.  Enter the URL of the CPQ environment, as shown below.
 
     \[Omitted image "cpq-salesforce-logik-env-url.jpeg"\] Alt text: Enable Custom Address Fields
 
@@ -59,7 +59,7 @@ Configure remote site settings:
 
 1.  From Salesforce Setup Home, go to **Settings** &gt; **Security** &gt; **Remote Site Settings**. Create a new remote site.
 2.  Provide a name.
-3.  Enter the URL of the ServiceNow CPQ environment as shown in image below, and click **Save**.
+3.  Enter the URL of the CPQ environment as shown in image below, and click **Save**.
 
     \[Omitted image "cpq-salesforce-remote-site-name.jpeg"\] Alt text: Remote settings
 
@@ -72,21 +72,21 @@ Optionally, allow microphone access for Cosmo Converse \(currently in beta\). Co
 
 \[Omitted image "cpq-salesforce-session-settings.jpeg"\] Alt text: Session settings
 
-## ServiceNow CPQ: Set up the runtime client token
+## CPQ: Set up the runtime client token
 
-The ServiceNow CPQ runtime client token facilitates authentication for communications from Salesforce to ServiceNow CPQ. For steps to create a runtime client token in ServiceNow CPQ, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md). For this ServiceNow Quote Experience use case, please be sure to enable permissions on this runtime client for TRANSACTION, and add a valid User ID that is recognized by the corresponding Salesforce environment.
+The CPQ runtime client token facilitates authentication for communications from Salesforce to CPQ. For steps to create a runtime client token in CPQ, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md). For this ServiceNow Quote Experience use case, please be sure to enable permissions on this runtime client for TRANSACTION, and add a valid User ID that is recognized by the corresponding Salesforce environment.
 
-Note that in ServiceNow CPQ Admin, the runtime client token must be updated to include TRANSACTION in its permissions and itself as an origin. \(For example, the runtime client token for `https://test-txn.test02.cpq` must have an origin of `https://test-txn.test02.cpq`.\) Also, when a runtime client token includes TRANSACTION, a user must be included. Make sure that the user has permission to perform the Create Transaction event.
+Note that in CPQ Admin, the runtime client token must be updated to include TRANSACTION in its permissions and itself as an origin. \(For example, the runtime client token for `https://test-txn.test02.cpq` must have an origin of `https://test-txn.test02.cpq`.\) Also, when a runtime client token includes TRANSACTION, a user must be included. Make sure that the user has permission to perform the Create Transaction event.
 
 \[Omitted image "cpq-salesforce-edit-runtime-client.png"\] Alt text: Edit runtime client
 
 When you have set up the runtime client token, copy it to your local clipboard for use in the next procedure.
 
-## Install the ServiceNow CPQ Transaction Runtime Token in Salesforce
+## Install the CPQ Transaction Runtime Token in Salesforce
 
 1.  From the Salesforce App Launcher, search for and open **ServiceNow CPQ.io Admin Custom Settings**.
 2.  Press the **Set** button next to the **Runtime Client Token** field to enable it.
-3.  Paste the token from ServiceNow CPQ into the editable field, and click **Save**.
+3.  Paste the token from CPQ into the editable field, and click **Save**.
 
 **Note:** The runtime client token isn’t displayed on the Admin Custom Settings page after it’s been saved.
 
@@ -142,7 +142,7 @@ If the transaction button is missing from the buyside opportunity detail page, f
 
 ## Salesforce: Set up custom field mappings
 
-When a new ServiceNow CPQ transaction record is initiated in ServiceNow CPQ, it can be helpful to transfer essential data from the Salesforce transaction record. This section sets up field mappings that copy \(or "twin"\) information from a field in Salesforce to a field in ServiceNow CPQ, or visa versa, during the transaction creation flow. As an example, it is common for the administrator to twin the value held in **LGK\_\_OpportunityId\_\_c** to the corresponding ServiceNow CPQ transaction field, **txn.opportunity.id**.
+When a new CPQ transaction record is initiated in CPQ, it can be helpful to transfer essential data from the Salesforce transaction record. This section sets up field mappings that copy \(or "twin"\) information from a field in Salesforce to a field in CPQ, or visa versa, during the transaction creation flow. As an example, it is common for the administrator to twin the value held in **LGK\_\_OpportunityId\_\_c** to the corresponding CPQ transaction field, **txn.opportunity.id**.
 
 1.  In Salesforce, go to Setup.
 2.  In the Quick Find bar, search for `Custom Metadata Types`.
@@ -161,7 +161,7 @@ When a new ServiceNow CPQ transaction record is initiated in ServiceNow CPQ, it 
     -   Environment: Choose the source of the field value:
         -   Select **Salesforce** for fields originating in Salesforce.
 
-        -   Select **ServiceNow CPQ** for fields originating in ServiceNow CPQ.
+        -   Select **ServiceNow CPQ** for fields originating in CPQ.
 
     -   Object: Enter `Transaction`.
     -   Field: Specify the field name.
@@ -169,14 +169,14 @@ When a new ServiceNow CPQ transaction record is initiated in ServiceNow CPQ, it 
 
             \[Omitted image "cpq-salesforce-fields-relationships.jpeg"\] Alt text: Field relationship
 
-        -   For ServiceNow CPQ fields, include prefixes such as `txn.` or `txn.line.` to denote the field \(for example, `txn.TotalAmount`\). Be sure to use the exact field variable names from **Admin** &gt; **Transaction** &gt; **Associated Fields**.
+        -   For CPQ fields, include prefixes such as `txn.` or `txn.line.` to denote the field \(for example, `txn.TotalAmount`\). Be sure to use the exact field variable names from **Admin** &gt; **Transaction** &gt; **Associated Fields**.
 
             \[Omitted image "cpq-txn-mgr-assoc-fields.jpeg"\] Alt text: Transactions
 
     Target fields:
 
-    -   Environment: Indicate where the field value should be updated \(Salesforce or ServiceNow CPQ\).
-    -   Field: Enter the field name of the target in the same format \(for example, Salesforce fields with `__c` or ServiceNow CPQ fields with `txn.` prefixes\).
+    -   Environment: Indicate where the field value should be updated \(Salesforce or CPQ\).
+    -   Field: Enter the field name of the target in the same format \(for example, Salesforce fields with `__c` or CPQ fields with `txn.` prefixes\).
 
         \[Omitted image "cpq-salesforce-custom-meta-types-mapping.jpeg"\] Alt text: Metadata screen
 
@@ -190,17 +190,17 @@ When a new ServiceNow CPQ transaction record is initiated in ServiceNow CPQ, it 
 
 **Note:** By default, the following flows are active:
 
--   ServiceNow CPQ.ai Copy Transaction
--   ServiceNow CPQ.ai Create Transaction \(Record Trigger\)
--   ServiceNow CPQ.ai Create Transaction \(Screen\)
+-   CPQ.ai Copy Transaction
+-   CPQ.ai Create Transaction \(Record Trigger\)
+-   CPQ.ai Create Transaction \(Screen\)
 
 1.  From Salesforce Setup Home, search for "Flows". Click **Process Automation** &gt; **Flows**.
 
 2.  Search for the following. You will perform step 3 for each:
 
-    -   ServiceNow CPQ.io Opportunity Line Sync \(Upsert\)
-    -   ServiceNow CPQ.io Opportunity Line Sync \(Delete\)
-    -   ServiceNow CPQ.io Primary Transaction Change
+    -   CPQ.io Opportunity Line Sync \(Upsert\)
+    -   CPQ.io Opportunity Line Sync \(Delete\)
+    -   CPQ.io Primary Transaction Change
 3.  For each of the three flows identified in step 2, activate one of the following options:
     -   Option 1: Using the drop-down menu:
         -   Click the arrow to the right of the flow name.
@@ -226,11 +226,11 @@ Make sure all the flows are in active status.
 
 **Note:** Opportunity line syncing is applied only to the transaction assigned to the Primary Transaction opportunity field.
 
-## End-user flow: Launching a ServiceNow CPQ transaction from Salesforce
+## End-user flow: Launching a CPQ transaction from Salesforce
 
 -   Create a transaction record in Salesforce
 
-    There are several ways for the end user to initiate a ServiceNow CPQ transaction in Salesforce. The most common flow starts on the Opportunity record.
+    There are several ways for the end user to initiate a CPQ transaction in Salesforce. The most common flow starts on the Opportunity record.
 
     1.  From an Opportunity record, click the arrow in the transaction's related list, and then click **New**.
 
@@ -240,7 +240,7 @@ Make sure all the flows are in active status.
 
         \[Omitted image "cpq-salesforce-create-transaction-record-2.png"\] Alt text: New transaction
 
-    3.  A record-triggered flow in the managed package creates a new transaction in ServiceNow CPQ. The UUID of the new ServiceNow CPQ transaction record updates in Salesforce \(**LGK\_\_TransactionUUID\_\_c**\). If the transaction ID does not appear immediately, refreshing the browser usually corrects the anomaly.
+    3.  A record-triggered flow in the managed package creates a new transaction in CPQ. The UUID of the new CPQ transaction record updates in Salesforce \(**LGK\_\_TransactionUUID\_\_c**\). If the transaction ID does not appear immediately, refreshing the browser usually corrects the anomaly.
 
         \[Omitted image "cpq-salesforce-create-transaction-record-3.png"\] Alt text: Transaction details
 
@@ -248,7 +248,7 @@ Make sure all the flows are in active status.
 
 -   Edit a transaction
 
-    From a Salesforce transaction \(or a transaction related list\), ServiceNow Quote Experience can be launched using either the **Edit Transaction** button on the transaction detail page or the link available via the **Edit Transaction** field. This loads a ServiceNow CPQ transaction based on the **Transaction Id** field in the Salesforce record.
+    From a Salesforce transaction \(or a transaction related list\), ServiceNow Quote Experience can be launched using either the **Edit Transaction** button on the transaction detail page or the link available via the **Edit Transaction** field. This loads a CPQ transaction based on the **Transaction Id** field in the Salesforce record.
 
     ServiceNow Quote Experience loads in an iFrame, replacing the current subtab in Salesforce.
 
@@ -256,19 +256,19 @@ Make sure all the flows are in active status.
 
 -   Copy Transaction
 
-    By clicking the **Clone** button on the Salesforce transaction record, users can call a ServiceNow CPQ Copy event to recreate the transaction and lines in ServiceNow Quote Experience. This action is based on the transaction ID on the header record in Salesforce and results in a cloned transaction record.
+    By clicking the **Clone** button on the Salesforce transaction record, users can call a CPQ Copy event to recreate the transaction and lines in ServiceNow Quote Experience. This action is based on the transaction ID on the header record in Salesforce and results in a cloned transaction record.
 
     **Note:** Cloning a transaction from Salesforce does not automatically make copies of the affiliated line records to the new transactions. To clone the lines to the new transaction, launch the new \(cloned\) transaction record in ServiceNow Quote Experience, and initiate a Salesforce sync.
 
 
-## Troubleshooting: ServiceNow CPQ fails to launch with a “Transaction with id ‘null’ could not be found” error
+## Troubleshooting: CPQ fails to launch with a “Transaction with id ‘null’ could not be found” error
 
 \[Omitted image "cpq-txn-mgr-null-id-error.jpeg"\] Alt text: Error message
 
-This error occurs when the creation of a new ServiceNow CPQ transaction record is initiated via API call from Salesforce and fails. This failure usually occurs due to one of two reasons:
+This error occurs when the creation of a new CPQ transaction record is initiated via API call from Salesforce and fails. This failure usually occurs due to one of two reasons:
 
--   The Transaction runtime token is incorrectly set up or has expired. Review the steps in the "ServiceNow CPQ: Set Up the runtime client token" section above.
--   The user creating the ServiceNow CPQ transaction record from the Salesforce UI does not have permission to do so.
+-   The Transaction runtime token is incorrectly set up or has expired. Review the steps in the "CPQ: Set Up the runtime client token" section above.
+-   The user creating the CPQ transaction record from the Salesforce UI does not have permission to do so.
 
 To troubleshoot permissions errors, follow these steps.
 
@@ -281,7 +281,7 @@ To troubleshoot permissions errors, follow these steps.
 
     \[Omitted image "cpq-txn-mgr-persona-managed-by.png"\] Alt text: Personas screen
 
-4.  Open the view that manages the persona’s access. In our example, the view is named "sales". To open the view, in ServiceNow CPQ Transaction Admin Home, go to Views, and then click the managing view.
+4.  Open the view that manages the persona’s access. In our example, the view is named "sales". To open the view, in CPQ Transaction Admin Home, go to Views, and then click the managing view.
 
     \[Omitted image "cpq-txn-mgr-personas-view.png"\] Alt text: Transaction details
 
@@ -306,7 +306,7 @@ User persona assignment
 
 </td><td>
 
-Navigate to **Personas** in ServiceNow CPQ Transaction Admin, and select a persona record.
+Navigate to **Personas** in CPQ Transaction Admin, and select a persona record.
 
  -   To add a user to a persona, click **+ Associate Users**.
 -   To remove a user from a persona, select a user name, and then click **Remove Selected**.
@@ -317,7 +317,7 @@ Persona view assignment
 
 </td><td>
 
-In ServiceNow CPQ Transaction Admin, go to **Views**, select a view record, and then click **Associated Personas**.
+In CPQ Transaction Admin, go to **Views**, select a view record, and then click **Associated Personas**.
 
 </td></tr><tr><td>
 
@@ -327,7 +327,7 @@ View: access to each event, per stage
 
 For information about how to perform fine-grained access administration \(recommended\), see the Events CSV File section in [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md).
 
- To administer access in a less precise way, go to Events in ServiceNow CPQ Transaction Admin, Select the **Create Transaction** event, Select **Edit Event Access**, and set the event access to Active. By default, the event is active across all stages and views.
+ To administer access in a less precise way, go to Events in CPQ Transaction Admin, Select the **Create Transaction** event, Select **Edit Event Access**, and set the event access to Active. By default, the event is active across all stages and views.
 
 </td></tr></tbody>
 </table>

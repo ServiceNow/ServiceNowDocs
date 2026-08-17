@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [erp, canvas, content, pack, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Available Zero Copy Connector for ERP content packs
@@ -58,15 +58,4 @@ The ERP Content Pack for Source to Settle contains models including Purchase Ord
 |Content pack contents|Target systems|Methods|
 |---------------------|--------------|-------|
 |Models|ECC and S/4|RFC/BAPI/OData V2|
-
--   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)**  
-Find details about the models and process extensions in the Zero Copy Connector for ERP Enterprise Data Foundation content pack.
--   **[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)**  
-Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order content pack.
--   **[Zero Copy Connector for ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-recruit-to-retire-content-pack.md)**  
-The Zero Copy Connector for ERP Hire to Retire content pack contains models and process extensions that manage the employee lifecycle.
--   **[Zero Copy Connector for ERP Source to Settle content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-source-to-settle-data-product.md)**  
-Find details about the models and process extensions in the Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settle content pack.
-
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

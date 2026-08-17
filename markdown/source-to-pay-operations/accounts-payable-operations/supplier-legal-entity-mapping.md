@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice management, supplier, purchase order, PO]
+keywords: [APO, Accounts Payable Operations, Legal Entity Mapping, invoice processing, General ledger, supplier, Purchase Order]
 breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

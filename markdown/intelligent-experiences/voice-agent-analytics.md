@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-08-13"
 reading_time_minutes: 1
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # AI voice agent analytics
@@ -16,5 +16,5 @@ The Voice dashboard page in the Analytics tab of Assistant Designer helps you mo
 
 ## Accessing AI voice agent analytics
 
-To view the dashboard, navigate to **All** &gt; **Assistant Designer** &gt; **Analytics** and select the **Voice** tab. See  for more information.
+To view the dashboard, navigate to **All** &gt; **Assistant Designer** &gt; **Analytics** and select the **Voice** tab. See [Voice page in assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/voice-assistant-analytics.md) for more information.
 

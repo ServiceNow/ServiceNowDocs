@@ -36,13 +36,18 @@ The CSDM framework provides context for incidents—both the CIs involved in the
 
 Use the Incident form to see the impact of an incident and restore affected services. Complete the following steps:
 
-1.  Populate the **Impacted Services** related list with the services and service offerings that are related to the populated CI.
+1.  Populate the **Impacted Services** related list \[task\_cmdb\_ci\_service\] with the services and service offerings that are related to the populated CI.
 2.  \(Optional\) Use the **Service** and **Service Offering** attributes to help narrow the list of available CIs.
 
     **Note:** Narrowing the list of available CIs is not a feature of the base system. To narrow the list, you need to configure the Incident form.
 
 3.  Populate the **Configuration Item** attribute \[configuration\_item\] with the CI or the affected service. You can then use the CI to identify details for incident routing. For example, you can use the CI data like Support Group and provide information about the service impact by using dependency relationships.
-4.  \(Optional\) Add the **Impacted Services** related list \[task\_cmdb\_ci\_service\] to see the services and CIs that are impacted by the incident.
+4.  \(Optional\) Add the **Affected CI** related list \[task\_ci\] to identify the CIs that might have caused the incident. You can populate this list in two ways:
+
+    -   Select CIs manually using the search field in the related list.
+    -   Select an application service in the **Configuration Item** field. Dependent CIs from the service dependency map automatically appear in the **Impacted Services** list.
+    **Note:** The auto population of CI depends on the completeness of your CSDM service model and CI relationship data.
+
 
 \[Omitted image "incident-form-use-case.png"\] Alt text: Incident form with numbered fields.
 

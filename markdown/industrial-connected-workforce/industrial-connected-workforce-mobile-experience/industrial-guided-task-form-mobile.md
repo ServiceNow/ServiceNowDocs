@@ -7,7 +7,7 @@ release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-08"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -96,6 +96,39 @@ Assigned to
 
 User that the task has been assigned to.
 
+</td></tr><tr><td>
+
+Score status
+
+</td><td>
+
+Result of the scoring for the guided task, displayed in the header once the task is submitted or closed complete. Options are:-   Successful
+-   Unsuccessful
+-   Not scored
+
+The score status is hidden when the value is No target available.
+
+</td></tr><tr><td>
+
+Total score
+
+</td><td>
+
+Calculated score for the completed guided task, based on the assessment results. Displayed in the header when the score status is No target available, and always shown in the task details, once the task is submitted or closed complete.
+
+</td></tr><tr><td>
+
+Target score
+
+</td><td>
+
+Desired score set as a performance goal on the standard. Displayed in the task details once the task is submitted or closed complete.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-connected-workforce-mobile-experience-reference.md)
+
+**Related topics**  
+
+
+[Scoring in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.md)
 

@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Legacy: State model and transitions, Configure, Change Management, IT Service Management]
 ---
 
@@ -24,6 +24,12 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
 
 1.  Complete the following steps to add state change criteria in a script include that enables a state transition.
 
+    **Note:** Before editing a **Script Include** consider configuring state transitions through Change Models and Model State Transitions as it doesn't require scripting. For the configuration approach, see [Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md)
+
+    You can configure state transitions in two ways:
+
+    -   **Configuration:** Use Change Models and Model State Transitions to define transition conditions without scripting. This approach applies to most requirements.
+    -   **Script includes or UI policies:** Use these methods when transition logic requires conditions that the configuration approach cannot express.
     1.  Navigate to **System Definitions** &gt; **Script Includes**.
 
     2.  Open the script include for the state transition model that you want to edit.
@@ -44,7 +50,7 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
 
     1.  Navigate to **System UI** &gt; **UI Policies**.
 
-    2.  Open a default UI policy to edit or click **New** to create a new policy.
+    2.  Open a default UI policy to edit or select **New** to create a new policy.
 
         The following are the default UI policies.
 

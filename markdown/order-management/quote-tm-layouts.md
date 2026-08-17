@@ -1,18 +1,18 @@
 ---
 title: Quote transaction layouts
-description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
+description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 11
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction layouts
 
-Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
+Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
 
 Layouts in ServiceNow Quote Experience retain much of the look and feel of the configuration experience. Layouts can be managed in the administration interface using the visual layout editor or directly in YAML. The visual layout editor is selected by default. The option to edit layouts in JSON is retired in favor of the visual editor.
 
@@ -110,13 +110,13 @@ Three options are available for displaying line numbers in the quote lines grid.
 
     Displays hierarchical line numbering for all lines — for example, 1, 1.1, 2, 2.1, 2.2, 2.2.1. Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
 
 -   **`txn.line.number` system field**
 
     Displays sequential line numbering for all lines \(1, 2, 3\). Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
 
 
 ## Line-level button icons

@@ -1,18 +1,18 @@
 ---
 title: Advanced product filtering for quotes
-description: Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in ServiceNow CPQ.
+description: Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-advanced-product-filtering.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Advanced product filtering for quotes
 
-Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in ServiceNow CPQ.
+Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in CPQ.
 
 Advanced product filtering enables administrators to dynamically filter the product catalog using business rules. Filtering logic runs during the Add Lines operation in ServiceNow Quote Experience. The feature supports real-time data synchronization from managed tables and maintains sub-second search performance even with catalogs of more than a million products.
 

@@ -7,8 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
+keywords: [add application, add application for monitoring, monitor application, new application, installed app, web app, application monitoring]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]
 ---
 

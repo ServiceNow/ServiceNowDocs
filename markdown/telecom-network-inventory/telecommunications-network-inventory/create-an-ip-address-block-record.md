@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -36,18 +36,66 @@ The IP Address Block label in the user interface refers to the Managed IP Pool c
 
 3.  Select **Create Address Block**.
 
-4.  On the Create Address Block form, fill in the fields:
+4.  On the Create Address Block form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Address Block Name|Name the IP Address Block.|
-    |CIDR|CIDR on save is subject to validation. For more information about the validation rules, see [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).|
-    |Description|Free-text description of the block.|
-    |Managed Network|The value set in the Managed Network propagates to every subnetwork beneath this block and cannot be changed at a lower level. If you leave this empty, the block is unscoped, and its child subnetworks can each set their own Managed Network. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).|
-    |Life cycle stage|The current life-cycle stage. Default: Operational.|
-    |Life Cycle Stage Status|The current life-cycle status. Default: In Use. The block must be Operational and In Use to support child subnetworks and IP allocations.|
+<table id="create-address-block-fields"><thead><tr><th>
 
-5.  Select **Submit**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Address Block Name
+
+</td><td>
+
+Name the IP Address Block.
+
+</td></tr><tr><td>
+
+CIDR
+
+</td><td>
+
+CIDR on save is subject to validation. For more information about the validation rules, see [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Free-text description of the block.
+
+</td></tr><tr><td>
+
+Managed Network
+
+</td><td>
+
+The value set in the Managed Network propagates to every subnetwork beneath this block and cannot be changed at a lower level. If you leave this empty, the block is unscoped, and its child subnetworks can each set their own Managed Network. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
+
+</td></tr><tr><td>
+
+Life cycle stage
+
+</td><td>
+
+Current life-cycle stage. This field is automatically set to **Operational**.
+
+</td></tr><tr><td>
+
+Life Cycle Stage Status
+
+</td><td>
+
+Current life-cycle status. This field is automatically set to **In Use**. **Note:** The block must be **Operational** and **In Use** to support child subnetworks and IP allocations.
+
+</td></tr></tbody>
+</table>5.  Select **Submit**.
 
     If the CIDR fails validation, an inline error message is displayed beneath the CIDR field. Correct the CIDR and resubmit. On successful submission, the system navigates to the new IP Address Block record. The record shows three tabs: Details, IP Subnetwork, and Packs.
 
@@ -61,7 +109,7 @@ The IP Address Block label in the user interface refers to the Managed IP Pool c
 
     For more information about packs, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md) .
 
-8.  To add attachments such as graphics or documents, select the attachment icon.
+8.  Add attachments such as graphics or documents by selecting the attachment icon.
 
 9.  View the hierarchy of records under this block by selecting the **Dependency View** option from the three-dot menu.
 

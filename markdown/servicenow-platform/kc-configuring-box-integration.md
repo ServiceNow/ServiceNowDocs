@@ -1,6 +1,6 @@
 ---
 title: Integrate Box in Knowledge Center
-description: Configure a Box application and connect it to your ServiceNow instance so that knowledge authors can use Box as an external content source for knowledge article creation using Now Assist.Create an application on the Box Platform.Connect your ServiceNow instance to Box by configuring an OAuth entity and linking it to the REST message record.
+description: Configure a Box application and connect it to your ServiceNow instance so that knowledge authors can use Box as an external content source for knowledge article creation using AI.Create an application on the Box Platform.Connect your ServiceNow instance to Box by configuring an OAuth entity and linking it to the REST message record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-configuring-box-integration.html
 release: australia
@@ -12,11 +12,11 @@ breadcrumb: [Configuring Knowledge Center, Knowledge Center, Manage content capa
 
 # Integrate Box in Knowledge Center
 
-Configure a Box application and connect it to your ServiceNow instance so that knowledge authors can use Box as an external content source for knowledge article creation using Now Assist.
+Configure a Box application and connect it to your ServiceNow instance so that knowledge authors can use Box as an external content source for knowledge article creation using AI.
 
 To integrate your Box account with Knowledge Center, you must have an admin access to the Box Dev Console for your organization. To use Box, each author must have a Box user account.
 
-Complete this two-part configuration to enable the Box integration for knowledge article creation from Now Assist, in the Knowledge Center. First, create and authorize a Box application. Then, connect your ServiceNow instance to Box by configuring an OAuth entity and linking it to the REST message record. After you complete these steps, knowledge authors can select Box as a content source when they create articles with Now Assist.
+Complete this two-part configuration to enable the Box integration for knowledge article creation from ServiceNow Otto, in the Knowledge Center. First, create and authorize a Box application. Then, connect your ServiceNow instance to Box by configuring an OAuth entity and linking it to the REST message record. After you complete these steps, knowledge authors can select Box as a content source when they create articles with AI.
 
 ## Configure Box application
 
@@ -110,10 +110,10 @@ Role required: admin
 
 ### Result
 
-The Box integration is active. The **Box** option appears under the Integration section of the **Source** drop-down on the article creation page in the Knowledge Center. Knowledge authors with a matching Box user account can now select Box as a content source when they create articles with Now Assist.
+The Box integration is active. The **Box** option appears under the Integration section of the **Source** drop-down on the article creation page in the Knowledge Center. Knowledge authors with a matching Box user account can now select Box as a content source when they create articles with AI.
 
 **Related topics**  
 
 
-[Create knowledge articles using Now Assist and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-article-with-Box.md)
+[Create knowledge articles using AI and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-article-with-Box.md)
 

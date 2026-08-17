@@ -1,15 +1,15 @@
 ---
 title: Discovery Admin Workspace Schedules
-description: The Schedules page provides a single place to monitor Discovery performance, efficiently manage schedules and statuses, and set up new IP-based or Cloud Discovery schedules.Discovery Admin Workspace enables you to conveniently view, edit, and run both IP-based and Cloud Discovery schedules conveniently within a single interface.The Discovery Status Details page offers a summary of a discovery initiated from a schedule, detailing the devices identified, any errors encountered, and any anomalies found.
+description: The Schedules page provides a single place to monitor Discovery performance, efficiently manage schedules and statuses, and set up new IP-based or Cloud Discovery schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-workspace-schedules.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
-keywords: [Discovery, Admin, Workspace, Discovery, Admin, Workspace, Discovery, Admin, Workspace]
+last_updated: "2026-07-25"
+reading_time_minutes: 6
+keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -19,7 +19,7 @@ The Schedules page provides a single place to monitor Discovery performance, eff
 
 To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.13.0 or later. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.19.0. Specific version requirements are noted for individual features where applicable.
 
 ## Key features
 
@@ -37,7 +37,7 @@ To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces
 
     **Note:** You can configure the time scale reflected in the displayed counts on the [Settings]() page.
 
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
 <table id="table_cb2_yjv_fsb"><thead><tr><th>
 
@@ -134,25 +134,21 @@ Displays the count of all Discovery errors by category.Select a category to add 
 
     Provides a centralized view for monitoring and managing IP‑based Discovery schedules and coverage.
 
-    Depending on your IPv6 IP Address Management \(IPAM\) integration, items that require attention are displayed, such as IPs that aren't currently covered by Discovery schedules or schedules that were auto created from IPAM that require activation. Select **Review missing coverage** to access the [CMDB Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-coverage.md) page where you can view coverage analysis results and create Discovery schedules from IP Ranges. If you haven't enabled auto-created Discovery schedules via IPAM, select **Review in Settings** to access the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page. When auto‑created schedules are enabled, a notification displays the number of Discovery schedules that require activation. Select **View and activate schedules** to open the Auto‑created schedules page. For details on activating these schedules, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md). For more information about IPv6 IPAM integration, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
+    Depending on your IPv6 IP Address Management \(IPAM\) integration, items that require attention are displayed. These items include IPs not covered by Discovery schedules and schedules that were auto-created from IPAM that require activation. Select **Review missing coverage** to access the [CMDB Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-coverage.md) page where you can view coverage analysis results and create Discovery schedules from IP Ranges. If you haven't enabled auto-created Discovery schedules via IPAM, select **Review in Settings** to access the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page. When auto‑created schedules are enabled, a notification displays the number of Discovery schedules that require activation. Select **View and activate schedules** to open the Auto‑created schedules page. For details on activating these schedules, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md). For more information about IPv6 IPAM integration, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
 
-    IP resources are available via Additional information. Select the **Total IP address** link to access a [CMDB Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-coverage.md) analysis.
+    Select **View Inventory** to open the IP inventory page. On the IP inventory page, you can manage the IP ranges, networks, and IPAM data that Discovery relies on. For more information, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-ip-inventory.md).
 
-    **Note:** You must have the CMDB Coverage application v1.0.0 installed to access this link.
-
-    Select the **All IP range sets** to access the Discovery Range Sets \[discovery\_range\] table.
-
-    Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
+    Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 
 -   **Cloud discovery tab**
 
     Gives you quick access to all of your cloud-based Discovery schedules.
 
-    Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
+    Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 
 -   **Discovery status tab**
 
-    Shows the status of scheduled discoveries. You can select a Discovery status number to view detailed information. For more details, see [Discovery Admin Workspace status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
+    Shows the status of scheduled discoveries. You can select a Discovery status number to view detailed information. For more details, see [Discovery Admin Workspace status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-disco-status-details.md).
 
 
 **Related topics**  
@@ -177,93 +173,4 @@ Displays the count of all Discovery errors by category.Select a category to add 
 [Create an oVirt Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-ovirt-schedule-DAW.md)
 
 [Create a VMware Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-vmware-schedule-DAW.md)
-
-## Discovery Admin Workspace schedule details
-
-Discovery Admin Workspace enables you to conveniently view, edit, and run both IP-based and Cloud Discovery schedules conveniently within a single interface.
-
-To access Discovery schedule details in Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules** &gt; **Discovery schedules**.
-
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.8.0 or later. Specific version requirements are noted for individual features where applicable.
-
-After selecting a schedule name from the table, the schedule header displays key information such as Discovery details, MID Server details, and anomaly severity.
-
-**Important:** Anomaly information only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
-
-### Key features
-
--   **Overview**
-
-    The **Overview** tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule's performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered. Additionally, the visualizations highlight trends over time, enabling you to quickly identify patterns and potential issues. For a full list of the visualizations available on this tab, see [Discovery Admin Workspace data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_dawScheduleDetailsOverview.md).
-
-    **Note:** The time scale reflected on this page can be configured on the Settings page. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
-
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
-
--   **Schedule Details**
-
-    The **Schedule Details** tab provides in-depth information about the Discovery schedule and enables you to update the information directly within the interface.
-
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), to access additional actions for customizing and managing the form interface.
-
-    To create a range of IP addresses to discover, select **Quick Ranges**. Execute a run by selecting **Discover now**. For more information about Discovery schedule configuration, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
-
--   **Run History**
-
-    The **Run History** tab displays the status of the last 10 scheduled discoveries, including icons for anomaly detection, when enabled. Select a Discovery status number to view detailed information. For more details, see [Discovery Admin Workspace status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
-
-
-## Discovery Admin Workspace status details
-
-The Discovery Status Details page offers a summary of a discovery initiated from a schedule, detailing the devices identified, any errors encountered, and any anomalies found.
-
-To access Discovery status details in Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules** &gt; **Discovery status**.
-
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.8.0 or later. Specific version requirements are noted for individual features where applicable.
-
-After selecting a discovery status from the table, the schedule header displays key information such as Discovery details, MID Server details, and anomaly severity.
-
-\[Omitted image "daw-status-details-schedule-header.png"\] Alt text: Discovery schedule and status details display in the headers
-
-**Note:** Starting with v1.10.0, the schedule header displays 'Quick Discovery' when the schedule is created using the Quick Discovery feature. Additionally, if the schedule associated with a run is deleted, the header no longer displays the schedule name.
-
-The status header shows run-related details, including start and end times, the number of probes triggered and completed, and any anomalies detected.
-
-**Important:** Anomaly information only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
-
-If the status is Active or Starting, selecting the **Refresh** icon \(\[Omitted image "daw-refresh-icon.png"\]\) updates the Started and Completed values in the header in real time.
-
-### Key features
-
--   **Details**
-
-    The **Details** tab includes visualizations that provide detailed information about the Discovery status. Depending on whether the status pertains to a discovery that is IP-based or cloud-based, the visualizations provide a detailed overview of the schedule’s performance and current status. They highlight key metrics such as the number of devices and IPs discovered, cloud resources identified, and any errors encountered during the run.
-
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
-
-    |Report title|Discovery Type|Description|
-    |------------|--------------|-----------|
-    |Errors|Both IP and cloud-based|Displays the number of errors that were detected during the run.|
-    |Total Devices|IP-based|Displays the number of devices that were discovered during the run.|
-    |New Devices|Displays the number of new devices that were discovered during the run.|
-    |Total IPs|Displays the number of IP addresses that were discovered during the run.|
-    |Duplicate IPs|Displays the number of duplicate IP addresses that were discovered during the run.|
-    |Total Cloud Resources|Cloud-based|Displays the number of cloud resources that were discovered during the run.|
-
-    Selecting an indicator reveals related information in a table. By default, detected errors display, sorted by priority. Each error card includes details such as the error title, severity, refined code, occurrence count, and error category. Selecting an error card or the **Occurrences** link opens the Error Details page, where you can view the root cause, remediation steps, and individual error instances. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md).
-
-    For IP-based schedules, the **Total Devices**, **New Devices**, and **Duplicate IPs** tables provide additional details such as the Source, Classification probe, and Scan status. Selecting the **Source** hyperlink opens a page where you can view more information about the device, apply tags, and access the Discovery Log and ECC Queue details. Selecting the **Total IPs** indicator opens the Shazzam Summary table, where you can access details such as IP addresses, IP Range, and Network Range. To learn more about a specific item, simply select its hyperlink in the table.
-
-    For cloud-based schedules, selecting the **Total Cloud Resources** indicator reveals a bar chart that categorizes each discovered cloud resource by its CI type. Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), to refresh or save the chart.
-
--   **Debugging**
-
-    The **Debugging** tab provides information about the Discovery Log and ECC Queue.
-
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), to refresh the data for each visualization in this section.
-
-    By default, the **Discovery Log** table displays information such as classification failures, CMDB updates, and authentication failures. A Discovery Log record is created for each action associated with a discovery status.
-
-    Selecting the **ECC Queue** indicator displays entries in the **ECC Queue** provide you with a connected flow of probe and sensor activity, as well as the actual XML payload that is sent to or from an instance.
-
 

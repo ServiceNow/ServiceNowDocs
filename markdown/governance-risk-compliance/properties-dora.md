@@ -63,7 +63,7 @@ Controls whether records are saved when LEI validation fails against the GLEIF d
 
  **Note:**
 
-This property governs the Excel upload path only. It does not affect whether records are saved when a GLEIF validation failure occurs on a UI form save \(UI form saves always allow the record to be saved regardless of this property; the client script displays a warning independently\). LEI format and checksum errors always block saving regardless of this property value, because those failures never reach the GLEIF API. When the GLEIF API is unreachable \(timeout or HTTP error\), saving is always allowed regardless of this property value.
+This property governs the Excel upload path only. It does not affect whether records are saved when a GLEIF validation failure occurs on a UI form save. \(UI form saves always allow the record to be saved regardless of this property; the client script displays a warning independently\). LEI format and checksum errors always block saving regardless of this property value, because those failures never reach the GLEIF API. When the GLEIF API is unreachable \(timeout or HTTP error\), saving is always allowed regardless of this property value.
 
 </td></tr><tr><td>
 

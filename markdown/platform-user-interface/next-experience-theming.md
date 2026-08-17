@@ -38,7 +38,7 @@ Customers upgrading from a previous release continue to see the theme applied to
 
 ## Theme record
 
-This image shows the default Polaris theme, which is read-only. You create your own themes and styles to be used by experiences in your instance by either copying the Polaris or Coral theme or [by copying a Theme Builder theme record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-custom-theme-using-theme-builder-record.md). If you copy either the Polaris or Coral theme, you also must copy the styles under UX Theme Styles and make changes to those styles, as desired. At least one Core type style must be defined.
+This image shows the default Polaris theme, which is read-only. Polaris and Coral are fixed, base themes and cannot be copied or edited. You create your own themes and styles to be used by experiences in your instance by [by copying a Theme Builder theme record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-custom-theme-using-theme-builder-record.md). After copying a theme record, you must also copy the styles under UX Theme Styles and make changes to those styles, as desired. At least one Core type style must be defined.
 
 \[Omitted image "comp-theme-overview.png"\] Alt text: Next Experience Polaris UX theme main record with Applicability, Order, Style and Type columns highlighted
 

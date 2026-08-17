@@ -1,5 +1,5 @@
 ---
-title: Use automated flow for certificate management
+title: Using automated flow for certificate management
 description: Certificate and Management streamlines your TLS certificate processes, offering benefits such as improved efficiency and enhanced security. Automating certificate management ensures timely renewal of certificates, which minimizes the risk of expired certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/use-automated-flow-cert-requests.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Automated certificate management for TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Use automated flow for certificate management
+# Using automated flow for certificate management
 
 Certificate and Management streamlines your TLS certificate processes, offering benefits such as improved efficiency and enhanced security. Automating certificate management ensures timely renewal of certificates, which minimizes the risk of expired certificates.
 

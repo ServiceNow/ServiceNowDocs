@@ -17,7 +17,7 @@ Choose one of these tiles to get started.
 
 <table id="table_btj_11r_r5b" class="nav-card"><tbody><tr><td>
 
-[Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md)
+Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.
 
 </td><td>
 
@@ -25,7 +25,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
+Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.
 
 </td></tr><tr><td>
 
@@ -37,11 +37,11 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)
+Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.
 
 </td></tr><tr><td>
 
-[Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/convint-landing-page.md)
+Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.
 
 </td><td>
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, recruit, retire, data, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Hire to Retire content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Hire to Retire, Available content packs, Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Hire to Retire content pack models
@@ -27,6 +27,4 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Hire to Retire 
 |Job Application|Retrieve a list of job applications and information such as qualifications and experience.|ERP|OData V2|
 |Job Requisition|Retrieve a list of job requisitions and information such as title, location, and description.|ERP|OData V2|
 |Position|Retrieve a list of positions \(approved job requisitions\).|ERP|OData V2|
-
-**Parent Topic:**[Zero Copy Connector for ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-recruit-to-retire-content-pack.md)
 

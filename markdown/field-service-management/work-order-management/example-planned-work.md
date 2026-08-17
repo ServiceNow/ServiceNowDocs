@@ -120,7 +120,7 @@ Create third schedule
 </td></tr></tbody>
 </table>6.  Complete the remaining configurations.
 
-    For more information, see [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-planned-work-records.md).
+    For more information, see [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-planned-work-records.md).
 
 7.  Create work orders for the planed work.
 
