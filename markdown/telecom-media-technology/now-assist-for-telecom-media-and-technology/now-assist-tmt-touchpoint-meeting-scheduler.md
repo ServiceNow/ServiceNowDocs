@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
-description: Use the Trigger risk mitigation touchpoint agentic workflow to schedule and edit a touchpoint meeting for a specific user.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) draft and schedule touchpoint meetings agentic workflow
+description: Use the Draft and schedule touchpoint meetings agentic workflow to schedule and edit a touchpoint meeting for a specific user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-touchpoint-meeting-scheduler.html
 release: australia
@@ -8,15 +8,15 @@ product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Customer Success Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+reading_time_minutes: 3
+breadcrumb: [Customer Success Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) draft and schedule touchpoint meetings agentic workflow
 
-Use the Trigger risk mitigation touchpoint agentic workflow to schedule and edit a touchpoint meeting for a specific user.
+Use the Draft and schedule touchpoint meetings agentic workflow to schedule and edit a touchpoint meeting for a specific user.
 
-## Trigger risk mitigation touchpoint agentic workflow overview
+## Draft and schedule touchpoint meetings agentic workflow overview
 
 The agentic workflow enables customer success agents to optimize meeting schedules within the customer success workflow by creating and managing meetings. It create and manage meetings based on key details such as invitees, agenda, meeting type, and scheduling preferences. With this agentic workflow, customer success managers can:
 
@@ -24,9 +24,23 @@ The agentic workflow enables customer success agents to optimize meeting schedul
 -   Create a meeting with all required details.
 -   Schedule draft meetings without manual coordination.
 
-In the Trigger risk mitigation touchpoint agentic workflow, when the risk record's probability is very high or occurred, the customer success agent is assigned to that risk receives a Now Assist panel notification. From the risk record, the agentic workflow automates the creation of meeting and schedules the meeting.
+The meeting AI plugin \(app-meeting-ai-ag\) installs automatically with the Customer Success AI agent.
 
-To modify the Trigger risk mitigation touchpoint agentic workflow [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+**Important:** In the Now Assist skills page, make sure to Activate the meeting proposal generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md) for more details.
+
+When the risk record's probability is very high or occurred, the customer success agent assigned to that risk receives a Now Assist panel notification. The agentic workflow automates the creation and scheduling of the meeting.
+
+The Meeting AI plugin supports these tables:
+
+-   Touchpoint \(sn\_acct\_lc\_touchpoint\)
+-   Account Onboarding Case \(sn\_acct\_lc\_onb\_case\)
+-   Engagement \(sn\_acct\_lc\_engagement\)
+-   Customer Account \(customer\_account\)
+-   Risk Signal and Issue \(sn\_acct\_lc\_risk\_signal\_issue\)
+
+**Note:** To create the meeting AI plugin extensible to other business units, see [KB3119608](https://support.servicenow.com/kb?sys_kb_id=696e678cc37d8fd4a9ea601bb0013170&id=kb_article_view).
+
+To modify the Draft and schedule touchpoint meetings agentic workflow [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Note:** You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
@@ -34,9 +48,9 @@ To modify the Trigger risk mitigation touchpoint agentic workflow [Duplicate an 
 
 Required role: sn\_acct\_lc.customer\_success\_agent
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-## Trigger risk mitigation touchpoint agentic workflow
+## Draft and schedule touchpoint meetings agentic workflow
 
 This workflow does the following:
 
@@ -53,7 +67,7 @@ This workflow does the following:
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
-2.  Select **Trigger risk mitigation touchpoint**.
+2.  Select **Draft and schedule touchpoint meetings**.
 
 To create an agentic workflow, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
 
@@ -66,7 +80,7 @@ To access the use case testing page:
 
 To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
-## AI agents used in the Trigger risk mitigation touchpoint agentic workflow
+## AI agents used in the Draft and schedule touchpoint meetings agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 

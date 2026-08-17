@@ -37,31 +37,27 @@ The default canvas dashboard is the starting layout that employees see on their 
 
 2.  In the **Subtitle** field, enter a subtitle and save the change.
 
-    The subtitle appears below the canvas title on the employee canvas page. The preview shows the change after the save completes.
+    The preview shows the change after the save completes.
 
-3.  Review the preview in light mode, dark mode, desktop, and mobile.
+3.  Use the theme and device controls at the top of the preview to confirm that the layout renders correctly in light mode, dark mode, desktop, and mobile.
 
-    Use the theme and device controls at the top of the preview to confirm that the layout renders correctly for each combination.
-
-4.  Open the dashboard editor to modify the widget layout.
-
-    Select the **folder icon** or the **canvas preview** to open the dashboard editor.
+4.  Select the folder icon or the canvas preview to open the dashboard editor.
 
 5.  Reset the canvas to an empty layout if you're starting from scratch.
 
-    Refresh the page after the reset to confirm that the canvas is empty.
+    **Note:** The canvas is empty. Refresh the page to confirm that the canvas is empty.
 
-6.  Add widgets to the canvas.
+6.  Drag widgets from the widget library onto the canvas, resize them, and rearrange them to the layout you want.
 
-    Drag widgets from the **widget library** onto the canvas, resize them, and rearrange them to the layout you want.
+7.  Select the **Edit in Widget Builder** from the widget settings to open the widget.
 
-7.  Edit a widget directly from the canvas.
-
-    Select the **widget settings**, then select **Edit in Widget Builder** to open the widget in the Widget Builder. Edit the component source to adjust the widget and save the change.
+    Edit the component source to adjust the widget and save the change.
 
 8.  Save and publish the canvas layout.
 
-    The published canvas layout is available as the default canvas dashboard for employees. Refresh the canvas configuration page to confirm that the layout appears in the preview.
+    The published canvas layout is available as the default canvas dashboard for employees.
+
+    **Note:** Refresh the canvas configuration page to confirm that the layout appears in the preview.
 
 
 ## Result

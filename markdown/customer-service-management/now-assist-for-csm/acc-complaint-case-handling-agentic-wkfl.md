@@ -1,6 +1,6 @@
 ---
-title: Configure the Accelerate Complaint Case Handling agentic workflow
-description: Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
+title: Configure AI Agents for CSM - Complaint Case workflow
+description: Configure the AI Agents for CSM - Complaint Case workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Accelerate complaint case handling collection, Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Accelerate complaint case handling collection, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure the Accelerate Complaint Case Handling agentic workflow
+# Configure AI Agents for CSM - Complaint Case workflow
 
-Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
+Configure the AI Agents for CSM - Complaint Case workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage.**.
 
-2.  Select **Accelerate Complaint Case Handling**.
+2.  Select **AI Agents for CSM - Complaint Case**.
 
 3.  Define the key requirements.
 
@@ -32,7 +32,7 @@ Role required: admin
 
     1.  Write a clear description and list of steps.
 
-    2.  Add AI agents that can perform these steps or ask Now Assist to suggest AI agents.
+    2.  Add AI agents that can perform these steps or ask ServiceNow Otto to suggest AI agents.
 
     3.  From the list, select any LLM providers that this agentic workflow does not support.
 
@@ -57,7 +57,7 @@ Role required: admin
 
 5.  Add triggers.
 
-    You can add triggers if you want an agentic workflow or AI agent to launch according to pre-defined rules, and you want to spare your users the effort of reaching out for help, add a trigger.
+    Add triggers if you want an agentic workflow or AI agent to launch according to pre-defined rules. Triggers spare your users the effort of reaching out for help.
 
     If you do not add triggers, the workflow executes only in response to users' requests for help.
 
@@ -65,7 +65,7 @@ Role required: admin
 
     Select the channels where you want this agentic workflow to be available for users.
 
-    -   Engage via the Now Assist panel: When users send a message to Now Assist, they can discover and use this workflow.
+    -   Engage via the ServiceNow Otto panel: When users send a message to ServiceNow Otto, they can discover and use this workflow.
 
     -   Engage via UI actions on specific records: When users select a UI action displayed on certain records, this workflow is activated.
 7.  Select **Save and test**.

@@ -16,7 +16,10 @@ The ServiceNow® Partner Relationship Management application provides a unified 
 
 -   Enable channel partners to create, manage, and track quotes end-to-end directly in the Partner portal.
 -   Accelerate deal registration velocity, with a guided creation playbook for channel partners.
--   Enable channel partners to monitor their quote pipeline from a dedicated quotes landing page in the Partner portal, with widgets tracking quote volume, stalled quotes, and highest-value active quotes.
+-   Enable channel partners to monitor their quote pipeline from a dedicated quotes landing page in the Partner portal. Widgets track quote volume, stalled quotes, and highest-value active quotes.
+-   Submit deal registrations for structured approval using configurable approval rules driven by deal attributes.
+-   Create and manage deal registration tasks with automatic task creation triggered by deal state transitions and email notifications to assigned users.
+-   PRM applications are upgraded to Fluent Apps, delivering enhanced usability and maintainability
 
 See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md) for more information.
 
@@ -36,10 +39,18 @@ See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceN
 
     Channel partners can create, manage, and track quotes end-to-end in the Partner portal using the new Quote Self-Service application \(`com.sn_quote_self_service`\). Built on the existing Quote Management application, the guided quote creation playbook delivers a self-service quoting experience without requiring access to internal workspaces.
 
+-   **[Deal registration Advanced Approval Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**
+
+    Submit deal registrations for approval, configure rules by deal attributes, and auto-approve low-risk deals. Lock records during review, recall and resubmit if needed, track audit trails, and automatically notify approvers.
+
+-   **[Deal registration task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**
+
+    Create and manage structured deal registration tasks, configure auto-creation rules via Flow Designer, centralize visibility in Channel Partner workspace. Notify assigned users via email, and control data growth with retention policies.
+
 
 ## Activation information
 
-Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md).
+Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md).
 
 ## Related ServiceNow applications and features
 

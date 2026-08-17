@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-productcatalogmanagementandpricingmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 17
+last_updated: "2026-08-17"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,7 @@ Pricing Management v15.0.0 provides a default pricing plan that includes new ste
 
  If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true. When set to true, this property enables the CPQ Configurator.
 
- If you want to use AI Search for product catalog searches, before upgrading install Now Assist for Sales Force Automation \(SFA\), which includes the plugins needed for AI Search functionality. After upgrading, complete various steps to implement AI Search. These steps include running a scheduled job to set up AI Search and enabling AI Search in the product catalog interface by setting the **enable\_ai\_search\_in\_catalog** system property to true. For details on these configuration steps, see [Configuring AI Search for product catalog search](https://www.servicenow.com/docs/access?context=configure-ai-search-prod-catalog&family=zurich&ft:locale=en-US).
+ If you want to use AI Search for product catalog searches, before upgrading install ServiceNow Otto for Sales Automation, which includes the plugins needed for AI Search functionality. After upgrading, complete various steps to implement AI Search. These steps include running a scheduled job to set up AI Search and enabling AI Search in the product catalog interface by setting the **enable\_ai\_search\_in\_catalog** system property to true. For details on these configuration steps, see [Configuring AI Search for product catalog search](https://www.servicenow.com/docs/access?context=configure-ai-search-prod-catalog&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,9 @@ Australia
 
 </td><td>
 
-Pricing Management v16.0.0 provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to Pricing Management v16.0.0, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+Pricing Management provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to a new version of Pricing Management, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+
+ If you've been using AI Search for product catalog in a previous release, after upgrading to Product Catalog Management Core v.19.0.0 or higher, republish the stop word dictionary, search profiles, and index tables used by AI Search. To republish, run the **Scheduled job to publish stop words dictionary, search profiles and index tables**. Republishing includes the changes for multilingual support of product catalog entities introduced in the v.19.0.0 release.
 
 </td></tr></tbody>
 </table>## New features
@@ -138,6 +140,14 @@ Enable pricing admins or managers to set different product costs based on produc
 Australia
 
 </td><td>
+
+-   **[Eligible catalog-category hierarchy API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)**
+
+Enable external integrations and in-platform applications to retrieve the eligible catalog-category tree hierarchy by using a REST endpoint.
+
+-   **[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)**
+
+Enable external integrations to query the product catalog by calling the `POST /api/sn_prd_pm/v1/catalog/search` endpoint. This REST API accepts a JSON request body and returns product offering and service specification results, including a semantic similarity score when AI Search is enabled. Users with the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer role can access the endpoint.
 
 -   **[Multilingual support for product catalog entities](https://www.servicenow.com/docs/access?context=product-catalog-multilingual-support&family=australia&ft:locale=en-US)**
 
@@ -239,6 +249,10 @@ Support the export and import of product catalog-related entities:
 Australia
 
 </td><td>
+
+-   **[Domain separation support](https://www.servicenow.com/docs/access?context=domain-separation-overview&family=australia&ft:locale=en-US)**
+
+Starting with Product Catalog Management Core v19.1.0, all product catalog tables support the basic level of domain separation.
 
 -   **[Product catalog interface enhancement](https://www.servicenow.com/docs/access?context=using-product-catalog&family=australia&ft:locale=en-US)**
 
@@ -574,6 +588,8 @@ Australia
 
 </td><td>
 
+-   In derived pricing, enable the automatic creation of target product lines based on source products and their contract start and end dates.
+-   Use the Product Catalog Search API to enable external integrations to query the product catalog.
 -   In the Sales CRM Pricing API, support pricing requests using custom external IDs or codes for objects such as product offerings, price lists, and unit of measure instead of ServiceNow sys\_ids.
 -   Support pricing calculations for renewals of products with price and quantity ramps.
 -   Provide visibility into how the final price for a derived product is determined using adjustment records.
@@ -581,7 +597,7 @@ Australia
 -   Use standard predefined formulas \(SUM, AVG, MIN, and MAX\) in derived pricing calculations to capture adjustments at each pricing step.
 -   Enable agents and customers to view attribute-based pricing where the product offering price is based on a combination of attributes.
 
- See [Product Catalog Management](https://www.servicenow.com/docs/access?context=product-catalog-managment&family=australia&ft:locale=en-US) and [Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&family=australia&ft:locale=en-US) for more information.
+ See [Product Catalog Management](https://www.servicenow.com/docs/access?context=product-catalog-managment&family=australia&ft:locale=en-US) and [Product pricing](https://www.servicenow.com/docs/access?context=pricing-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)

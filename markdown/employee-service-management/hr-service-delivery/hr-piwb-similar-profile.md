@@ -49,8 +49,6 @@ Discover all the users who have a similar profile as the employee. Identify the 
 
     For more information about the Clustering solution definition form fields, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-clustering-solution.md) and [Test a classification solution prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-solution-prediction.md).
 
-    **Note:** For details regarding trained use case integration implementation, see Predictive Intelligence Workbench integration and customization.
-
 
 ## Result
 

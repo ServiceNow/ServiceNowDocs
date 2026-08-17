@@ -1,6 +1,6 @@
 ---
-title: Invoice Exception Rule Form
-description: Invoice exception rules in Accounts Payable Operations define which invoices trigger exceptions and how they are handled. Use this reference to understand each form field and its configuration options.
+title: Invoice Exception Rule form
+description: Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.html
 release: australia
@@ -9,12 +9,13 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-06-08"
 reading_time_minutes: 1
+keywords: [Invoice Exception, APO, Accounts Payable Management, Accounts Payable Operations, invoice processing]
 breadcrumb: [Invoice exception form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Invoice Exception Rule Form
+# Invoice Exception Rule form
 
-Invoice exception rules in Accounts Payable Operations define which invoices trigger exceptions and how they are handled. Use this reference to understand each form field and its configuration options.
+Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 
 Invoice exception rules define the conditions under which invoices are flagged as exceptions in Accounts Payable Operations. Each rule specifies the exception type, triggering conditions, handling behavior, and processing order. The form fields control rule activation, resolution workflow, and exception prioritization.
 
@@ -22,8 +23,8 @@ Invoice exception rules define the conditions under which invoices are flagged a
 
 The following table describes each field in the invoice exception rule for.
 
-|Field name|Description|
-|----------|-----------|
+|Field|Description|
+|-----|-----------|
 |Active|Controls whether the rule is enabled. When selected, the rule is active and exceptions are triggered. When cleared, the rule is inactive and invoices aren't flagged by this rule.|
 |Allow bypass|When selected, authorized users can bypass this exception and proceed with invoice processing without triggering the exception.|
 |Rejection mode|Controls how exceptions from this rule are resolved. Options: "Manual" or "None".|

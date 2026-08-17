@@ -58,7 +58,7 @@ Role required: admin
 
     \[Omitted image "configured-element-def.png"\] Alt text: Sample display of the property.
 
-    The updated number of the element definitions are displayed on the **Dependency Assessment** tab.
+    The updated element definitions are displayed on the **Dependency Assessment** tab.
 
 
 **Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)

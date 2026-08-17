@@ -1,5 +1,5 @@
 ---
-title: List of plugins \(Australia\)
+title: Available plugins and applications
 description: You can view all plugins available to you in the Application Manager if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-of-plugins.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# List of plugins \(Australia\)
+# Available plugins and applications
 
 You can view all plugins available to you in the Application Manager if you have the admin role.
 

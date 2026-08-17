@@ -28,6 +28,8 @@ Manage the version of UserCookie that is enabled on your instance to secure the 
 Manage how the password reset functionality operates on your instance.
 -   **[Enable HTTP Only Cookie Flag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.md)**  
 Use the **glide.cookies.http\_only** property to enable the HTTPOnly attribute for sensitive cookies.
+-   **[Enable MID Server Governance Checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-mid-server-governance-checks.md)**  
+Use an inactivity timeout on your MID Servers to reduce exposure to potential attackers.
 -   **[Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-invalidate-session-after-oauth-token-expiration.md)**  
 Use a system property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
 -   **[Minimize concurrent interactive session quantity \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-glide-authenticate-max-concurrent-interactive-sessions.md)**  

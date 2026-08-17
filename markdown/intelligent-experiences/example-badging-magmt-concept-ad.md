@@ -16,7 +16,7 @@ Automate various tasks related to badge requests through desktop actions using A
 
 Your HR representatives manage repetitive badge-related tasks. For example, issuing new badges, distributing temporary badges, replacing lost badges, and disabling badges during offboarding. To streamline and automate this work, you can create a desktop action for each task and assign these actions to an AI Agent in AI Agent Studio.
 
-When new requests come in, HR representatives can trigger the AI agent from the Now Assist panel. The AI Agent automatically selects and runs the appropriate desktop action. This automation reduces manual effort and enables them to focus on higher-value work.
+When new requests come in, HR representatives can trigger the AI agent from the ServiceNow Otto panel. The AI Agent automatically selects and runs the appropriate desktop action. This automation reduces manual effort and enables them to focus on higher-value work.
 
 ## Create badge desktop action in AI Desktop Actions
 
@@ -320,7 +320,7 @@ List of steps
 
 ### What to do next
 
-Enable your HR representatives to trigger AI agents from the Now Assist panel to address badge-related requests.
+Enable your HR representatives to trigger AI agents from the ServiceNow Otto panel to address badge-related requests.
 
 For more information, see [Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md).
 

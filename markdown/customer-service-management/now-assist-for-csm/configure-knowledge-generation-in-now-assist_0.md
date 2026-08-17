@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure knowledge generation
@@ -18,9 +18,9 @@ Configure the Knowledge Generation skill to draft knowledge articles on resolvin
 
 ## Before you begin
 
-Confirm that the following is set up before you activate the skill:
+Ensure that the following is set up before you activate the skill:
 
-1.  Install the Required Plugin- Now Assist for CSM plugin.
+1.  Install the Required Plugin- ServiceNow Otto for CSM plugin.
 2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CSM Configurable Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
 
     -   In Core UI, the action is implemented as a UI Action.
@@ -31,7 +31,7 @@ Confirm that the following is set up before you activate the skill:
     -   sn\_customerservice.kcs.enable\_template\_on\_case\_workspace
         -   If this property is false, the button is a UI Action and clicking it does not open a template selector.
         -   If this property is true, the button is a Declarative Action and clicking it opens a template selector modal.
-    If either property is inactive, the action will not appear in CSM Configurable Workspace—even if it is visible in Core UI.
+    If either property is disabled, the action will not appear in CSM Configurable Workspace—even if it is visible in Core UI.
 
 3.  Activate the KCS template.
     1.  Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Article Template**.
@@ -40,7 +40,7 @@ Confirm that the following is set up before you activate the skill:
 
         **Important:**
 
-        -   -   For Now Assist panel, if property sn\_customerservice.enable\_knowledge\_kcs and KCS Article Template is not enabled then it will create article using standard template for cases.
+        -   -   For ServiceNow Otto panel, if property sn\_customerservice.enable\_knowledge\_kcs and KCS Article Template is not enabled then it will create article using standard template for cases.
 -   For Core UI / Workspace, if sn\_customerservice.enable\_knowledge\_kcs and KCS Article Template is not enabled then it will not show **Create Knowledge** button on case form.
 
 Role required: admin
@@ -55,14 +55,14 @@ The knowledge generation skill incorporates information that you enter in the fo
 
 Any modifications to the names or labels of these fields can quality the generation and quality of knowledge generation articles.
 
-**Note:** Revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, confirm a copy of the skill has been created, as not all fields are removable/configurable. Additionally, confirm that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
+**Note:** It is recommended to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, confirm a copy of the skill has been created, as not all fields are removable/configurable. Additionally, confirm that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
 
 -   sn\_customerservice.enable\_knowledge\_kcs
 -   kcs.enable\_template\_on\_case\_workspace
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt;Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub&gt;AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -72,7 +72,7 @@ Any modifications to the names or labels of these fields can quality the generat
 
 4.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
 
-    **Note:** You cannot modify the input data source.
+    **Note:** You can't modify the input data source.
 
 <table id="table_mnf_45q_1bc"><thead><tr><th>
 
@@ -116,7 +116,7 @@ Input fields
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
@@ -124,8 +124,8 @@ Input fields
 
 7.  Select **Display** to determine where the KB generation appears.
 
-    -   Select In-product desktop to display Now Assist skills on forms and workspaces.
-    -   Select Now Assist panel to display Now Assist skills in the Now Assist panel.
+    -   Select In-product desktop to display AI skills on forms and workspaces.
+    -   Select ServiceNow Otto panel to display AI skills in the panel.
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the KB generation settings.
 
 9.  Select **Activate** to turn on the skill for agents and complete the configuration.

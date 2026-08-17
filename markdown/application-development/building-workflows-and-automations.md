@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/building-workflows-and-automations.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
+keywords: [Low-code, app building, workflows]
 breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
 ---
 

@@ -57,7 +57,7 @@ Role required: admin
         -   Apps updated: Total apps that got upgraded during the upgrade or post upgrade
         -   Apps to be updated: Total apps that have updates but are yet to be upgraded
         -   Scheduled Apps: Total selected apps for scheduled upgrade at later point of time
-    -   Now assist update suite: Select **Suite Version** to select a suite version from the dropdown menu. The dropdown menu shows the suite versions available for the now assist suite.
+    -   Otto update suite: Select **Suite Version** to select a suite version from the dropdown menu. The dropdown menu shows the suite versions available for the Otto App suite.
 
         **Note:** Only the applications whose upgraded versions are available to be upgraded in the selected suite version are shown in the list. No new applications can be installed here. The applications that are already updated in the Preview application upgrade step are not listed in the list.
 
@@ -70,11 +70,11 @@ Role required: admin
         -   Status: Status of the application
         **Note:** Downgrading of application versions is not allowed.
 
-        Select **All dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Now assist update suite applications list.
+        Select **All dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Otto update suite applications list.
 
         \[Omitted image "uc-dependent-apps.png"\] Alt text:
 
-        For example, if you have 5 applications in the selected version of Now assist update suite, the Now assist update suite dependencies modal lists only the dependencies of these 5 applications.
+        For example, if you have 5 applications in the selected version of Otto update suite, the Otto update suite dependencies modal lists only the dependencies of these 5 applications.
 
     -   Upgrade store applications: List of applications that have been selected in the pre-upgrade stage and have updated versions available.
 

@@ -100,3 +100,5 @@ Role required: admin
     8.  Repeat needed steps for any additional classification settings that should use your CI Naming Strategy.
 
 
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-summary-fixes.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-13"
-reading_time_minutes: 24
+last_updated: "2026-08-10"
+reading_time_minutes: 60
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
 
@@ -106,11 +106,131 @@ Xanadu Patch 3
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 3 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 3 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 3 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 3 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 3 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 3 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 3 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 3 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 3 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 3 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -178,11 +298,131 @@ Xanadu Patch 3 Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 3 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x03.01-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -250,11 +490,131 @@ Xanadu Patch 4
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 4 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 4 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 4 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 4 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 4 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 4 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 4 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 4 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 4 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 4 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 4 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x04.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -322,11 +682,131 @@ Xanadu Patch 5
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 5 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 5 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 5 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 5 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 5 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 5 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 5 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 5 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 5 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 5 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 5 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x05.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -394,11 +874,131 @@ Xanadu Patch 7
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 7 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 7 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 7 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 7 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 7 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 7 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 7 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 7 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 7 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 7 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 7 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x07.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -466,11 +1066,131 @@ Xanadu Patch 8
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 8 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 8 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 8 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 8 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 8 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 8 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 8 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 8 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 8 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 8 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 8 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x08.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -538,11 +1258,131 @@ Xanadu Patch 9
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 9 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 9 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 9 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 9 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 9 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 9 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 9 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 9 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 9 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 9 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 9 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -610,11 +1450,131 @@ Xanadu Patch 9a
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 9a to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 9a to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 9a to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 9a to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 9a to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 9a to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 9a to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 9a to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 9a to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 9a to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 9a to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x09a.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -682,11 +1642,131 @@ Xanadu Patch 11 Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from xanadu patch 11 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a03.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-x11.01-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -754,11 +1834,131 @@ Yokohama Early Access
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama early access to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama early access to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama early access to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama early access to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama early access to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama early access to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama early access to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama early access to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama early access to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama early access to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama early access to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -826,11 +2026,131 @@ Yokohama Early Access Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama early access hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama early access hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y00.01-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -898,11 +2218,131 @@ Yokohama Patch 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y01.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -970,11 +2410,131 @@ Yokohama Patch 2
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 2 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 2 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 2 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 2 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 2 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 2 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 2 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 2 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 2 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 2 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y02.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1042,11 +2602,131 @@ Yokohama Patch 3
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 3 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 3 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 3 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 3 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 3 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 3 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 3 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 3 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 3 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 3 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1114,11 +2794,131 @@ Yokohama Patch 3 Hot Fix 2
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 3 hot fix 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y03.02-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1186,11 +2986,131 @@ Yokohama Patch 4a
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 4a to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 4a to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 4a to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 4a to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 4a to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 4a to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 4a to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 4a to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 4a to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 4a to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 4a to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y04a.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1258,11 +3178,131 @@ Yokohama Patch 5
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 5 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 5 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 5 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 5 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 5 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1330,11 +3370,131 @@ Yokohama Patch 5 Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 5 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.01-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1402,6 +3562,30 @@ Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 5 hot fix 4 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 4
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 5 hot fix 4 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 4
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
@@ -1410,147 +3594,99 @@ from yokohama patch 5 hot fix 4 to australia patch 3[csv](https://downloads.docs
 
 </td></tr><tr><td>
 
-Yokohama Patch 6
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Early Access
+Australia Patch 3 Hot Fix 1
 
 </td><td>
 
-from yokohama patch 6 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.00-a00.00.csv)
+from yokohama patch 5 hot fix 4 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a03.01.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Early Access Hot Fix 1
+Australia Patch 3 Hot Fix 2
 
 </td><td>
 
-from yokohama patch 6 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.00-a00.01.csv)
+from yokohama patch 5 hot fix 4 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a03.02.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Patch 1
+Australia Patch 3 Hot Fix 3
 
 </td><td>
 
-from yokohama patch 6 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.00-a01.00.csv)
+from yokohama patch 5 hot fix 4 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a03.03.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Patch 2
+Australia Patch 4
 
 </td><td>
 
-from yokohama patch 6 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.00-a02.00.csv)
+from yokohama patch 5 hot fix 4 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a04.00.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Patch 2 Hot Fix 1
+Australia Patch 4 Hot Fix 1
 
 </td><td>
 
-from yokohama patch 6 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.00-a02.01.csv)
+from yokohama patch 5 hot fix 4 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a04.01.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Patch 3
+Australia Patch 4 Hot Fix 2
 
 </td><td>
 
-from yokohama patch 6 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.00-a03.00.csv)
+from yokohama patch 5 hot fix 4 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a04.02.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6 Hot Fix 1
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Early Access
+Australia Patch 4 Hot Fix 3
 
 </td><td>
 
-from yokohama patch 6 hot fix 1 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.01-a00.00.csv)
+from yokohama patch 5 hot fix 4 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a04.03.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 6 Hot Fix 1
+Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
-Australia Early Access Hot Fix 1
+Australia Patch 5
 
 </td><td>
 
-from yokohama patch 6 hot fix 1 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.01-a00.01.csv)
-
-</td></tr><tr><td>
-
-Yokohama Patch 6 Hot Fix 1
-
-</td><td>
-
-Australia Patch 1
-
-</td><td>
-
-from yokohama patch 6 hot fix 1 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.01-a01.00.csv)
-
-</td></tr><tr><td>
-
-Yokohama Patch 6 Hot Fix 1
-
-</td><td>
-
-Australia Patch 2
-
-</td><td>
-
-from yokohama patch 6 hot fix 1 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.01-a02.00.csv)
-
-</td></tr><tr><td>
-
-Yokohama Patch 6 Hot Fix 1
-
-</td><td>
-
-Australia Patch 2 Hot Fix 1
-
-</td><td>
-
-from yokohama patch 6 hot fix 1 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.01-a02.01.csv)
-
-</td></tr><tr><td>
-
-Yokohama Patch 6 Hot Fix 1
-
-</td><td>
-
-Australia Patch 3
-
-</td><td>
-
-from yokohama patch 6 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.01-a03.00.csv)
+from yokohama patch 5 hot fix 4 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y05.04-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1618,11 +3754,131 @@ Yokohama Patch 6 Hot Fix 2
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 6 hot fix 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y06.02-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1690,11 +3946,131 @@ Yokohama Patch 10 Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from yokohama patch 10 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a03.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y10.01-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1762,6 +4138,30 @@ Yokohama Patch 12
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 12 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 12 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
@@ -1770,7 +4170,103 @@ from yokohama patch 12 to australia patch 3[csv](https://downloads.docs.servicen
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 1
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 12 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 12 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 12 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from yokohama patch 12 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 12 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 12 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 12 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 12 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y12.00-a05.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
@@ -1778,11 +4274,11 @@ Australia Early Access
 
 </td><td>
 
-from yokohama patch 13 hot fix 1 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.01-a00.00.csv)
+from yokohama patch 13 hot fix 5 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a00.00.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 1
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
@@ -1790,11 +4286,11 @@ Australia Early Access Hot Fix 1
 
 </td><td>
 
-from yokohama patch 13 hot fix 1 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.01-a00.01.csv)
+from yokohama patch 13 hot fix 5 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a00.01.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 1
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
@@ -1802,11 +4298,11 @@ Australia Patch 1
 
 </td><td>
 
-from yokohama patch 13 hot fix 1 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.01-a01.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a01.00.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 1
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
@@ -1814,11 +4310,11 @@ Australia Patch 2
 
 </td><td>
 
-from yokohama patch 13 hot fix 1 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.01-a02.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a02.00.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 1
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
@@ -1826,11 +4322,35 @@ Australia Patch 2 Hot Fix 1
 
 </td><td>
 
-from yokohama patch 13 hot fix 1 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.01-a02.01.csv)
+from yokohama patch 13 hot fix 5 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a02.01.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 1
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a02.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a02.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
@@ -1838,79 +4358,103 @@ Australia Patch 3
 
 </td><td>
 
-from yokohama patch 13 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.01-a03.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a03.00.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 2
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
-Australia Early Access
+Australia Patch 3 Hot Fix 1
 
 </td><td>
 
-from yokohama patch 13 hot fix 2 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.02-a00.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a03.01.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 2
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
-Australia Early Access Hot Fix 1
+Australia Patch 3 Hot Fix 2
 
 </td><td>
 
-from yokohama patch 13 hot fix 2 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.02-a00.01.csv)
+from yokohama patch 13 hot fix 5 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a03.02.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 2
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
-Australia Patch 1
+Australia Patch 3 Hot Fix 3
 
 </td><td>
 
-from yokohama patch 13 hot fix 2 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.02-a01.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a03.03.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 2
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
-Australia Patch 2
+Australia Patch 4
 
 </td><td>
 
-from yokohama patch 13 hot fix 2 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.02-a02.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a04.00.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 2
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
-Australia Patch 2 Hot Fix 1
+Australia Patch 4 Hot Fix 1
 
 </td><td>
 
-from yokohama patch 13 hot fix 2 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.02-a02.01.csv)
+from yokohama patch 13 hot fix 5 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a04.01.csv)
 
 </td></tr><tr><td>
 
-Yokohama Patch 13 Hot Fix 2
+Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
-Australia Patch 3
+Australia Patch 4 Hot Fix 2
 
 </td><td>
 
-from yokohama patch 13 hot fix 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.02-a03.00.csv)
+from yokohama patch 13 hot fix 5 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a04.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a04.03.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-y13.05-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -1978,11 +4522,131 @@ Zurich Patch 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from zurich patch 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z01.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -2050,11 +4714,131 @@ Zurich Patch 2 Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from zurich patch 2 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a03.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.01-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -2122,11 +4906,131 @@ Zurich Patch 2 Hot Fix 3
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from zurich patch 2 hot fix 3 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a03.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z02.03-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -2194,6 +5098,30 @@ Zurich Patch 6 Hot Fix 2
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
@@ -2202,7 +5130,103 @@ from zurich patch 6 hot fix 2 to australia patch 3[csv](https://downloads.docs.s
 
 </td></tr><tr><td>
 
-Zurich Patch 7b
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z06.02-a05.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
 
 </td><td>
 
@@ -2210,11 +5234,11 @@ Australia Early Access
 
 </td><td>
 
-from zurich patch 7b to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.00-a00.00.csv)
+from zurich patch 11 hot fix 1 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a00.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b
+Zurich Patch 11 Hot Fix 1
 
 </td><td>
 
@@ -2222,11 +5246,11 @@ Australia Early Access Hot Fix 1
 
 </td><td>
 
-from zurich patch 7b to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.00-a00.01.csv)
+from zurich patch 11 hot fix 1 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a00.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b
+Zurich Patch 11 Hot Fix 1
 
 </td><td>
 
@@ -2234,11 +5258,11 @@ Australia Patch 1
 
 </td><td>
 
-from zurich patch 7b to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.00-a01.00.csv)
+from zurich patch 11 hot fix 1 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a01.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b
+Zurich Patch 11 Hot Fix 1
 
 </td><td>
 
@@ -2246,11 +5270,11 @@ Australia Patch 2
 
 </td><td>
 
-from zurich patch 7b to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.00-a02.00.csv)
+from zurich patch 11 hot fix 1 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a02.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b
+Zurich Patch 11 Hot Fix 1
 
 </td><td>
 
@@ -2258,11 +5282,35 @@ Australia Patch 2 Hot Fix 1
 
 </td><td>
 
-from zurich patch 7b to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.00-a02.01.csv)
+from zurich patch 11 hot fix 1 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a02.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
 
 </td><td>
 
@@ -2270,11 +5318,107 @@ Australia Patch 3
 
 </td><td>
 
-from zurich patch 7b to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.00-a03.00.csv)
+from zurich patch 11 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a03.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b Hot Fix 1
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.01-a05.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
 
 </td><td>
 
@@ -2282,11 +5426,11 @@ Australia Early Access
 
 </td><td>
 
-from zurich patch 7b hot fix 1 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.01-a00.00.csv)
+from zurich patch 11 hot fix 2 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a00.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b Hot Fix 1
+Zurich Patch 11 Hot Fix 2
 
 </td><td>
 
@@ -2294,11 +5438,11 @@ Australia Early Access Hot Fix 1
 
 </td><td>
 
-from zurich patch 7b hot fix 1 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.01-a00.01.csv)
+from zurich patch 11 hot fix 2 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a00.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b Hot Fix 1
+Zurich Patch 11 Hot Fix 2
 
 </td><td>
 
@@ -2306,11 +5450,11 @@ Australia Patch 1
 
 </td><td>
 
-from zurich patch 7b hot fix 1 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.01-a01.00.csv)
+from zurich patch 11 hot fix 2 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a01.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b Hot Fix 1
+Zurich Patch 11 Hot Fix 2
 
 </td><td>
 
@@ -2318,11 +5462,11 @@ Australia Patch 2
 
 </td><td>
 
-from zurich patch 7b hot fix 1 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.01-a02.00.csv)
+from zurich patch 11 hot fix 2 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a02.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b Hot Fix 1
+Zurich Patch 11 Hot Fix 2
 
 </td><td>
 
@@ -2330,11 +5474,35 @@ Australia Patch 2 Hot Fix 1
 
 </td><td>
 
-from zurich patch 7b hot fix 1 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.01-a02.01.csv)
+from zurich patch 11 hot fix 2 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a02.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 7b Hot Fix 1
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
 
 </td><td>
 
@@ -2342,11 +5510,107 @@ Australia Patch 3
 
 </td><td>
 
-from zurich patch 7b hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z07b.01-a03.00.csv)
+from zurich patch 11 hot fix 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a03.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 8 Hot Fix 3
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.02-a05.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
 
 </td><td>
 
@@ -2354,11 +5618,11 @@ Australia Early Access
 
 </td><td>
 
-from zurich patch 8 hot fix 3 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z08.03-a00.00.csv)
+from zurich patch 11 hot fix 3 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a00.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 8 Hot Fix 3
+Zurich Patch 11 Hot Fix 3
 
 </td><td>
 
@@ -2366,11 +5630,11 @@ Australia Early Access Hot Fix 1
 
 </td><td>
 
-from zurich patch 8 hot fix 3 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z08.03-a00.01.csv)
+from zurich patch 11 hot fix 3 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a00.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 8 Hot Fix 3
+Zurich Patch 11 Hot Fix 3
 
 </td><td>
 
@@ -2378,11 +5642,11 @@ Australia Patch 1
 
 </td><td>
 
-from zurich patch 8 hot fix 3 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z08.03-a01.00.csv)
+from zurich patch 11 hot fix 3 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a01.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 8 Hot Fix 3
+Zurich Patch 11 Hot Fix 3
 
 </td><td>
 
@@ -2390,11 +5654,11 @@ Australia Patch 2
 
 </td><td>
 
-from zurich patch 8 hot fix 3 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z08.03-a02.00.csv)
+from zurich patch 11 hot fix 3 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a02.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 8 Hot Fix 3
+Zurich Patch 11 Hot Fix 3
 
 </td><td>
 
@@ -2402,11 +5666,35 @@ Australia Patch 2 Hot Fix 1
 
 </td><td>
 
-from zurich patch 8 hot fix 3 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z08.03-a02.01.csv)
+from zurich patch 11 hot fix 3 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a02.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 8 Hot Fix 3
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
 
 </td><td>
 
@@ -2414,11 +5702,107 @@ Australia Patch 3
 
 </td><td>
 
-from zurich patch 8 hot fix 3 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z08.03-a03.00.csv)
+from zurich patch 11 hot fix 3 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a03.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 1
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a03.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a03.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a03.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a04.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a04.01.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a04.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a04.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z11.03-a05.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 12
 
 </td><td>
 
@@ -2426,11 +5810,11 @@ Australia Early Access
 
 </td><td>
 
-from zurich patch 9 hot fix 1 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.01-a00.00.csv)
+from zurich patch 12 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a00.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 1
+Zurich Patch 12
 
 </td><td>
 
@@ -2438,11 +5822,11 @@ Australia Early Access Hot Fix 1
 
 </td><td>
 
-from zurich patch 9 hot fix 1 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.01-a00.01.csv)
+from zurich patch 12 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a00.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 1
+Zurich Patch 12
 
 </td><td>
 
@@ -2450,11 +5834,11 @@ Australia Patch 1
 
 </td><td>
 
-from zurich patch 9 hot fix 1 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.01-a01.00.csv)
+from zurich patch 12 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a01.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 1
+Zurich Patch 12
 
 </td><td>
 
@@ -2462,11 +5846,11 @@ Australia Patch 2
 
 </td><td>
 
-from zurich patch 9 hot fix 1 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.01-a02.00.csv)
+from zurich patch 12 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a02.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 1
+Zurich Patch 12
 
 </td><td>
 
@@ -2474,11 +5858,35 @@ Australia Patch 2 Hot Fix 1
 
 </td><td>
 
-from zurich patch 9 hot fix 1 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.01-a02.01.csv)
+from zurich patch 12 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a02.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 1
+Zurich Patch 12
+
+</td><td>
+
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from zurich patch 12 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 12
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from zurich patch 12 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 12
 
 </td><td>
 
@@ -2486,151 +5894,103 @@ Australia Patch 3
 
 </td><td>
 
-from zurich patch 9 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.01-a03.00.csv)
+from zurich patch 12 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a03.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 2
+Zurich Patch 12
 
 </td><td>
 
-Australia Early Access
+Australia Patch 3 Hot Fix 1
 
 </td><td>
 
-from zurich patch 9 hot fix 2 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.02-a00.00.csv)
+from zurich patch 12 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a03.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 2
+Zurich Patch 12
 
 </td><td>
 
-Australia Early Access Hot Fix 1
+Australia Patch 3 Hot Fix 2
 
 </td><td>
 
-from zurich patch 9 hot fix 2 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.02-a00.01.csv)
+from zurich patch 12 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a03.02.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 2
+Zurich Patch 12
 
 </td><td>
 
-Australia Patch 1
+Australia Patch 3 Hot Fix 3
 
 </td><td>
 
-from zurich patch 9 hot fix 2 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.02-a01.00.csv)
+from zurich patch 12 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a03.03.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 2
+Zurich Patch 12
 
 </td><td>
 
-Australia Patch 2
+Australia Patch 4
 
 </td><td>
 
-from zurich patch 9 hot fix 2 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.02-a02.00.csv)
+from zurich patch 12 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a04.00.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 2
+Zurich Patch 12
 
 </td><td>
 
-Australia Patch 2 Hot Fix 1
+Australia Patch 4 Hot Fix 1
 
 </td><td>
 
-from zurich patch 9 hot fix 2 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.02-a02.01.csv)
+from zurich patch 12 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a04.01.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 9 Hot Fix 2
+Zurich Patch 12
 
 </td><td>
 
-Australia Patch 3
+Australia Patch 4 Hot Fix 2
 
 </td><td>
 
-from zurich patch 9 hot fix 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z09.02-a03.00.csv)
+from zurich patch 12 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a04.02.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 10
+Zurich Patch 12
 
 </td><td>
 
-Australia Early Access
+Australia Patch 4 Hot Fix 3
 
 </td><td>
 
-from zurich patch 10 to australia early access[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z10.00-a00.00.csv)
+from zurich patch 12 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a04.03.csv)
 
 </td></tr><tr><td>
 
-Zurich Patch 10
+Zurich Patch 12
 
 </td><td>
 
-Australia Early Access Hot Fix 1
+Australia Patch 5
 
 </td><td>
 
-from zurich patch 10 to australia early access hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z10.00-a00.01.csv)
-
-</td></tr><tr><td>
-
-Zurich Patch 10
-
-</td><td>
-
-Australia Patch 1
-
-</td><td>
-
-from zurich patch 10 to australia patch 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z10.00-a01.00.csv)
-
-</td></tr><tr><td>
-
-Zurich Patch 10
-
-</td><td>
-
-Australia Patch 2
-
-</td><td>
-
-from zurich patch 10 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z10.00-a02.00.csv)
-
-</td></tr><tr><td>
-
-Zurich Patch 10
-
-</td><td>
-
-Australia Patch 2 Hot Fix 1
-
-</td><td>
-
-from zurich patch 10 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z10.00-a02.01.csv)
-
-</td></tr><tr><td>
-
-Zurich Patch 10
-
-</td><td>
-
-Australia Patch 3
-
-</td><td>
-
-from zurich patch 10 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z10.00-a03.00.csv)
+from zurich patch 12 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-z12.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -2686,11 +6046,131 @@ Australia Early Access
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from australia early access to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a02.02.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from australia early access to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a02.03.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
 
 from australia early access to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a03.00.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 3 Hot Fix 1
+
+</td><td>
+
+from australia early access to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a03.01.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 3 Hot Fix 2
+
+</td><td>
+
+from australia early access to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a03.02.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from australia early access to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a03.03.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from australia early access to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a04.00.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from australia early access to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a04.01.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from australia early access to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a04.02.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from australia early access to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a04.03.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia early access to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.00-a05.00.csv)
 
 </td></tr><tr><td>
 
@@ -2734,6 +6214,30 @@ Australia Early Access Hot Fix 1
 
 </td><td>
 
+Australia Patch 2 Hot Fix 2
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 2 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a02.02.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 2 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a02.03.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
 Australia Patch 3
 
 </td><td>
@@ -2742,31 +6246,103 @@ from australia early access hot fix 1 to australia patch 3[csv](https://download
 
 </td></tr><tr><td>
 
-Australia Patch 1
+Australia Early Access Hot Fix 1
 
 </td><td>
 
-Australia Patch 2
+Australia Patch 3 Hot Fix 1
 
 </td><td>
 
-from australia patch 1 to australia patch 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a01.00-a02.00.csv)
+from australia early access hot fix 1 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a03.01.csv)
 
 </td></tr><tr><td>
 
-Australia Patch 1
+Australia Early Access Hot Fix 1
 
 </td><td>
 
-Australia Patch 2 Hot Fix 1
+Australia Patch 3 Hot Fix 2
 
 </td><td>
 
-from australia patch 1 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a01.00-a02.01.csv)
+from australia early access hot fix 1 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a03.02.csv)
 
 </td></tr><tr><td>
 
-Australia Patch 1
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a03.03.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a04.00.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a04.01.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Australia Early Access Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia early access hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a00.01-a05.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 2 Hot Fix 3
 
 </td><td>
 
@@ -2774,43 +6350,235 @@ Australia Patch 3
 
 </td><td>
 
-from australia patch 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a01.00-a03.00.csv)
+from australia patch 2 hot fix 3 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a03.00.csv)
 
 </td></tr><tr><td>
 
-Australia Patch 2
+Australia Patch 2 Hot Fix 3
 
 </td><td>
 
-Australia Patch 2 Hot Fix 1
+Australia Patch 3 Hot Fix 1
 
 </td><td>
 
-from australia patch 2 to australia patch 2 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.00-a02.01.csv)
+from australia patch 2 hot fix 3 to australia patch 3 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a03.01.csv)
 
 </td></tr><tr><td>
 
-Australia Patch 2
+Australia Patch 2 Hot Fix 3
 
 </td><td>
 
-Australia Patch 3
+Australia Patch 3 Hot Fix 2
 
 </td><td>
 
-from australia patch 2 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.00-a03.00.csv)
+from australia patch 2 hot fix 3 to australia patch 3 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a03.02.csv)
 
 </td></tr><tr><td>
 
-Australia Patch 2 Hot Fix 1
+Australia Patch 2 Hot Fix 3
 
 </td><td>
 
-Australia Patch 3
+Australia Patch 3 Hot Fix 3
 
 </td><td>
 
-from australia patch 2 hot fix 1 to australia patch 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.01-a03.00.csv)
+from australia patch 2 hot fix 3 to australia patch 3 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a03.03.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from australia patch 2 hot fix 3 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a04.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from australia patch 2 hot fix 3 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a04.01.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from australia patch 2 hot fix 3 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a04.02.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from australia patch 2 hot fix 3 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a04.03.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 2 Hot Fix 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia patch 2 hot fix 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a02.03-a05.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4
+
+</td><td>
+
+from australia patch 3 hot fix 3 to australia patch 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a03.03-a04.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+from australia patch 3 hot fix 3 to australia patch 4 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a03.03-a04.01.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from australia patch 3 hot fix 3 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a03.03-a04.02.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from australia patch 3 hot fix 3 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a03.03-a04.03.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 3 Hot Fix 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia patch 3 hot fix 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a03.03-a05.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+from australia patch 4 hot fix 1 to australia patch 4 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a04.01-a04.02.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from australia patch 4 hot fix 1 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a04.01-a04.03.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 4 Hot Fix 1
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia patch 4 hot fix 1 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a04.01-a05.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+from australia patch 4 hot fix 2 to australia patch 4 hot fix 3[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a04.02-a04.03.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 4 Hot Fix 2
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia patch 4 hot fix 2 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a04.02-a05.00.csv)
+
+</td></tr><tr><td>
+
+Australia Patch 4 Hot Fix 3
+
+</td><td>
+
+Australia Patch 5
+
+</td><td>
+
+from australia patch 4 hot fix 3 to australia patch 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/australia/prbs-a04.03-a05.00.csv)
 
 </td></tr></tbody>
 </table>

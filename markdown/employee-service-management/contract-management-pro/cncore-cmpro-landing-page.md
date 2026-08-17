@@ -1,6 +1,6 @@
 ---
 title: Contract Management Pro
-description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: australia
@@ -15,13 +15,11 @@ breadcrumb: [Legal and Contract Operations, Employee Service Management]
 
 # Contract Management Pro
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
 
 You can use the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 
 With Contracts Dashboard, you can analyze the various contract request trends and also get insights into the volume of contract requests that are handled by your team.
-
-The following video provides an overview of Contract Management Pro.\[Omitted video\] Description: Video providing an overview of Contract Management Pro and its capabilities. Approximately four minutes long.
 
 \[Omitted image "mmasset0021176-final-clm.png"\] Alt text: An overview diagram of the various stages of Contract Management Pro.
 
@@ -57,7 +55,7 @@ The following video provides an overview of Contract Management Pro.\[Omitted vi
 
 </td><td>
 
-[Now Assist in Contract Management\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist in Contract Management to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[ServiceNow Otto for Contract Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Use ServiceNow Otto for Contract Management Pro to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 

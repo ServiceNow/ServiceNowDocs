@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Export data
@@ -24,9 +24,9 @@ Role required: admin
 
 2.  On the Settings page, select the **Exports** tab.
 
-    \[Omitted image "settings-export-connections.png"\] Alt text: Export tab
+    \[Omitted image "settings-export-connections.png"\] Alt text: Export connections
 
-    **Note:** For information about creating a Console database backup, see [Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-console-backup-concept.md).
+    **Note:** For information, see .
 
 3.  Select and export data into JSON files.
 
@@ -51,5 +51,7 @@ Role required: admin
 
     The default frequency is 1 day. The time-of-day defaults to 00:00 AM UTC.
 
+
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
 
 [^1]: There are two version of Connections API. They provide the same information in two different formats.

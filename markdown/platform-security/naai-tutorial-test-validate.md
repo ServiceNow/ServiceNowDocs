@@ -30,7 +30,7 @@ Verify that your ACL configuration works correctly by running access tests as di
 -   To test user access to an AI agent, see [Test user access to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md).
 -   To test user access to an agentic workflow, see [Test user access to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aw-access.md).
 
-If access test results are unexpected, review your ACL configuration. See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for details on how ACLs interact across the agent, workflow, and tool layers.
+If access test results are unexpected, review your ACL configuration. See [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for details on how ACLs interact across the agent, workflow, and tool layers.
 
 ## Run automated evaluations
 
@@ -40,7 +40,7 @@ Automated evaluations test your agent against a dataset of expected inputs and o
 
 ## Review Guardian logs from testing
 
-Export and review Now Assist Guardian logs from your test runs before going live. The logs show you what content Guardian detected during testing, which helps you decide whether your current blocking configuration is appropriate for production use. See .
+Export and review AI Guardian logs from your test runs before going live. The logs show you what content Guardian detected during testing, which helps you decide whether your current blocking configuration is appropriate for production use. See .
 
 If you see unexpected detections in the logs, adjust your Guardian configuration before proceeding. Common causes include overly broad sensitive topic filters or test utterances that trigger offensiveness detection.
 

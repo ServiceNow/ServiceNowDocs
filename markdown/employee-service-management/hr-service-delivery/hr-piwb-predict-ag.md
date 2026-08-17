@@ -126,8 +126,6 @@ Role required: sn\_piwb\_hr\_content.admin
 
     You have integrated a use case model into your business process.
 
-    **Note:** For details regarding trained use case integration implementation, refer to Predictive Intelligence Workbench integration and customization.
-
 
 **Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 

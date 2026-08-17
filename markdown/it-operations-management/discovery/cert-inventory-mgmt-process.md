@@ -9,7 +9,7 @@ classification: discovery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Certificate Inventory and Management process flow

@@ -34,6 +34,8 @@ Use the location policy form to assign a visitor policy to a workplace location,
 Use the New visit form to select a purpose, location, date and time for your visit. Additionally, add visitors and optional co-hosts
 -   **[Additional requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/additional-req-form.md)**  
 The Additional requirement form specifies visitor information that is required while adding a visitor.
+-   **[Differences between Workplace Visitor Management versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/visitor-mgmt-v1-v2-differences.md)**  
+Workplace Visitor Management version 2.0.0 introduces significant architectural, data model, portal, security, and feature changes compared to earlier versions \(1.19 or earlier\).
 
 **Parent Topic:**[Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md)
 

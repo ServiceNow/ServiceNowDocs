@@ -62,9 +62,9 @@ Table Name
 
 Table where you must define the criteria.
 
- To establish customer associations, you must select **Account**, **Consumer**, or **Household** from the drop-down list in the **Table** field. Similarly, for associating products and services, you must choose **Internal Business Location** from the drop-down list in the **Table** field.
+ To establish customer associations, you must select **Account**, **Consumer**, or **Household** from the drop-down list in the **Table** field. Similarly, for associating products and services, you must choose **Internal Organization \(formerly Internal Business Location\)** from the drop-down list in the **Table** field.
 
- Selecting **Business Location** or **Service Organization** from the drop-down list in the **Table** field leads to an error because the system currently doesn’t support fulfillment capabilities for external business locations when resolving a case.
+ Selecting **Business Location** or **Service Organization** from the drop-down list in the **Table** field leads to an error because the system currently doesn’t support fulfillment capabilities for external organizations \(formerly external business locations\) when resolving a case.
 
 **Note:** Support can be extended to other tables by configuring them in the `SOCriteriaTableScript` script include.
 

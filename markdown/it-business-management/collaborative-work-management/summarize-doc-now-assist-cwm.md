@@ -20,7 +20,7 @@ Gain insights into the page content by summarizing it or improve content quality
 
 [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -38,20 +38,16 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
     -   To refine the selected text:
         1.  Select a single block or multiple blocks of content on the page.
-        2.  Select **Now Assist** and choose an option.
+        2.  Select **ServiceNow Otto** and choose an option.
 
             -   **Summarize** to summarize the selected text.
             -   **Elaborate** to lengthen the selected text based on the existing context.
             -   **Shorten** to make the selected text concise.
             \[Omitted image "eap-now-assist-selected-content.png"\] Alt text: Summarize, elaborate, or shorten the selected text
 
-    -   To summarize the entire content on the page, select **Now Assist** from the Doc header and select **Summarize**.
-
-        \[Omitted image "eap-now-assist-doc-summarize.png"\] Alt text: Summarize the entire content on the page
-
     **Tip:** If there’s more content to summarize, you can remove some text and retry.
 
-    Now Assist analyzes the text and generates an output in a separate pop-up.
+    ServiceNow Otto analyzes the text and generates an output in a separate pop-up.
 
 5.  Based on the output generated, you can further refine the result.
 

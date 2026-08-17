@@ -1,6 +1,6 @@
 ---
 title: Configure the category of a Portal Mega Menu widget
-description: Configure a Portal Mega Menu widget to define a menu category and associate pages to it to be able to navigate easily to different pages from the portal page.
+description: Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Configurable
 
 # Configure the category of a Portal Mega Menu widget
 
-Configure a Portal Mega Menu widget to define a menu category and associate pages to it to be able to navigate easily to different pages from the portal page.
+Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
 
 ## Before you begin
 
@@ -32,11 +32,11 @@ Role required: sp\_admin
 
 4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record-icon.jpg"\] Alt text: Preview this record icon\).
 
-    If a message appears about the application scope, select **here** to be able to edit the record.
+    If a message appears about the application scope, select the link to edit the record.
 
 5.  On the Instance with Menu form, select **Open Record**.
 
-6.  On the CSP Header Menu form, if Portal Mega Menu doesn’t appear in the **Widget** field, search for and select it.
+6.  On the CSP Header Menu form, if Portal Mega Menu doesn't appear in the **Widget** field, search for and select it.
 
 7.  Select **Update**.
 

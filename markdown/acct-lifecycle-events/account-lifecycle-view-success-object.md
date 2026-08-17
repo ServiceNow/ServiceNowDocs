@@ -24,7 +24,7 @@ To view this page, follow these steps:
 This page includes the following sections:
 
 -   Header: This section shows the progress, priority, state, the driver category, the number of days left for this objective to be completed, and the planned end date.
--   Success outcomes: The success outcomes associated with the objective. For each objective, you can see the status, value realized \(the current value based on the percentage of the target achieved\), and the number of days left for this outcome to be achieved. Select a success outcome to view the success initiatives associated with it. Select **Edit** to drill down to the Success Outcome page.
+-   Success outcomes: The success outcomes associated with the objective. For each objective, you can see the status, value realized \(the current value based on the percentage of the target achieved\), and the number of days left. Select a success outcome to view the success initiatives associated with it. Select **Edit** to drill down to the Success Outcome page.
 -   Success initiatives: The list of initiatives associated with the selected success outcome. The subject, progress, and the number of days remaining are displayed. Select the **Number** column to drill down to the Success Initiative record page.
 
 **Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-opportunitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
+last_updated: "2026-08-17"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -159,7 +159,7 @@ Gain complete visibility into customer engagement by viewing a complete touchpoi
 
 -   **[Add competitors](https://www.servicenow.com/docs/access?context=opportunity-management-competitors-tab&family=australia&ft:locale=en-US)**
 
-Identify and store competitor information for product offerings/product family within an opportunity.​
+Identify and store competitor information for product offerings and product family within an opportunity.​
 
 
 -   **[Support for opportunity allocation](https://www.servicenow.com/docs/access?context=manage-allocations&family=australia&ft:locale=en-US)**
@@ -174,23 +174,40 @@ Capture the deal type \(Direct or Indirect\) on customer entities to align oppor
 
 -   **[Manage touchpoints](https://www.servicenow.com/docs/access?context=manage-touchpoints-opportunity&family=australia&ft:locale=en-US)**
 
-Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity is available providing full visibility into customer engagement throughout the sales cycle.
+Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity provides full visibility into customer engagement throughout the sales cycle.
 
 
 -   **[Opportunity probability score and insights](https://www.servicenow.com/docs/access?context=opportunity-management&family=australia&ft:locale=en-US)**
 
-Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI/ML-powered probability score \(0–100%\) with qualitative ratings, explainability, and trend visibility. The score is integrated into the opportunity workspace and landing page and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
+Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI-powered probability score \(0–100%\) with qualitative ratings. The score is integrated into the opportunity workspace and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
 
 
--   **[Manage opportunities in the Now Assist chat panel](https://www.servicenow.com/docs/access?context=manage-opportunity-records&family=australia&ft:locale=en-US)**
+-   **[Manage opportunities in the MCP client](https://www.servicenow.com/docs/access?context=manage-opportunity-records&family=australia&ft:locale=en-US)**
 
-Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items by typing a request in the Now Assist chat panel or from any MCP client, without navigating to individual record forms.
+Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items from any MCP client, without navigating to individual record forms.
 
 
 -   **[AI summarization for opportunities](https://www.servicenow.com/docs/access?context=now-assist-som-summarize-opportunity&family=australia&ft:locale=en-US)**
 
 Generate AI-powered summaries of opportunity data including emails, tasks, meetings, and notes for a snapshot of current status, identify potential risks early, and reduce ramp-up time when transitioning ownership of an opportunity.
 
+
+-   **[Guided selling on opportunity](https://www.servicenow.com/docs/access?context=use-guided-selling-opportunity&family=australia&ft:locale=en-US)**
+
+Guided selling on opportunity helps enforce process compliance and manage all deal-related actions from a unified workspace by letting you:
+
+    -   Configure mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
+    -   Guide sellers with stage-contextual playbook activities, progress indicators, and inline compact playbook views all without leaving the opportunity **Overview** tab.
+    -   Consolidate all deal-related tasks, meetings, touchpoints, and stage guidance into a single Action Center panel that updates in real time.
+    -   Display quote tasks for the primary quote as cards in the opportunity Action Center, with the same mark complete and add notes actions as other tasks.
+    -   Guide agents with contextual empty states to create a task when no actions are pending.
+
+-   **[Mandatory reason fields on closed opportunities](https://www.servicenow.com/docs/access?context=configure-guided-selling-exit-criteria&family=australia&ft:locale=en-US)**
+
+Enforce completion of the win or loss reason fields before agents move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement for each outcome using system properties.
+
+
+ 
 
 </td></tr></tbody>
 </table>## Changes
@@ -621,9 +638,13 @@ Australia
 -   Split opportunity revenue across multiple contributors using opportunity allocations to ensure accurate attribution, incentive crediting, and forecast reporting for collaborative sales teams.
 -   Capture Direct or Indirect deal types to align opportunities with defined routes to market.
 -   Create touchpoints and schedule meetings directly from an opportunity record for a consolidated view of all customer interactions.
--   Prioritize deals with an AI/ML-powered probability score, qualitative ratings, and explainable insights integrated into the opportunity workspace.
--   Create, view, update, and delete opportunity records and related entities using natural language from the Now Assist panel or any MCP client.
+-   Prioritize deals with an AI-powered probability score, qualitative ratings, and explainable insights integrated into the opportunity workspace.
+-   Create, view, and update opportunity records and related entities using natural language from the MCP client.
 -   Summarize an opportunity with Now Assist for a quick snapshot of status, risks, and recent engagement.
+-   Configure a guided selling playbook to enforce mandatory stage activities, surface stage-specific guidance to sales agents, and consolidate all deal-related actions in a unified opportunity workspace.
+-   Manage opportunity line items, competitor details, and touchpoint information conversationally within the conversational interface without navigating to individual records.
+-   Enforce mandatory win or loss reason capture before agents move an opportunity to a closed stage to keep outcome data complete and reportable.
+-   Track quote tasks for the primary quote directly in the opportunity Action Center, and guide agents with contextual empty states when no actions are pending.
 
  See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=australia&ft:locale=en-US) for more information.
 

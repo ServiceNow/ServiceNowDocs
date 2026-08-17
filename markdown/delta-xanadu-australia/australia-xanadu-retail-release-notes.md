@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-retail-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -512,6 +512,9 @@ Australia
 
 </td><td>
 
+-   Enable store staff and HQ support agents to report, resolve, and track equipment failures through a structured break-fix workflow.
+-   Enable HQ to publish standardized audit plans that automatically generate store audit cases and tasks for field auditors.
+-   Enable Moveworks to notify store associates in real time when a break-fix case is assigned, resolved, or needs more information.
 -   Enable HQ to create and distribute standardized questionnaires with stores to capture audit results and operational insights.
 -   Build smart store task questionnaires for Retail with conditional logic, attachment support, and role-based response visibility.
 -   Complete store task questionnaires for Retail directly from the Retail mobile app.

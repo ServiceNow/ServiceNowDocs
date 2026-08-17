@@ -14,9 +14,9 @@ breadcrumb: [Exploring the Setup page in the Enterprise Architecture Workspace, 
 
 You can configure certification policies to keep your business applications inventory up to date. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
 
-If you have directly installed version 4.0.0 of the EA Workspace store application, the certifications data is saved to and fetched from the CMDB Data Management Task \(cmdb\_data\_management\_task\) table.
+If you have directly installed version 4.0.0 of the EA Workspace store application, the certifications data is saved to the CMDB Data Management Task \(cmdb\_data\_management\_task\) table. The data is also fetched from this table.
 
-If you upgraded your EA Workspace from a previous version to version 4.0.0, you may see that your certification data is still fetched from the Certification Schedules \(cert\_schedule\) table, In this case, you must migrate your certification policies to the CMDB Data Management Certification Policies \(sn\_cmdb\_ws\_dm\_certification\_policy\) table.
+If you upgraded your EA Workspace from a previous version to version 4.0.0, your certification data is still fetched from the Certification Schedules \(cert\_schedule\) table. You must migrate your certification policies to the CMDB Data Management Certification Policies \(sn\_cmdb\_ws\_dm\_certification\_policy\) table.
 
 ## Convert certification schedules to certification policies
 

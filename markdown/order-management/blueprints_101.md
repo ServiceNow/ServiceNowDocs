@@ -1,20 +1,20 @@
 ---
 title: Set up blueprints
-description: Blueprints define the structure of a configuration experience in ServiceNow CPQ. They act as containers that bring together fields, rules, layouts, and configurable products, enabling administrators to design, deploy, and manage complete configuration workflows across environments.
+description: Blueprints define the structure of a configuration experience in CPQ. They act as containers that bring together fields, rules, layouts, and configurable products, enabling administrators to design, deploy, and manage complete configuration workflows across environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/blueprints\_101.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up blueprints
 
-Blueprints define the structure of a configuration experience in ServiceNow CPQ. They act as containers that bring together fields, rules, layouts, and configurable products, enabling administrators to design, deploy, and manage complete configuration workflows across environments.
+Blueprints define the structure of a configuration experience in CPQ. They act as containers that bring together fields, rules, layouts, and configurable products, enabling administrators to design, deploy, and manage complete configuration workflows across environments.
 
-The blueprint defines the configuration experience. It acts as a container for all the parts necessary to be plugged in for the end- user interface. Because ServiceNow CPQ rules and fields are global, they can be used to facilitate any number of configuration experiences. The blueprint record allows the administrator to associate the subset of the fields and rules that are relevant to the configuration experience it represents. Further, the blueprint defines layouts and configurable products.
+The blueprint defines the configuration experience. It acts as a container for all the parts necessary to be plugged in for the end- user interface. Because CPQ rules and fields are global, they can be used to facilitate any number of configuration experiences. The blueprint record allows the administrator to associate the subset of the fields and rules that are relevant to the configuration experience it represents. Further, the blueprint defines layouts and configurable products.
 
 Unlike fields and rules, layouts can only be associated with one blueprint. A layout is defined and built in the context of, and to explicitly support, one blueprint — one configuration experience. However, a blueprint may have multiple layouts.
 
@@ -77,7 +77,7 @@ This tab shows the enrichment scripts that have been created for the blueprint. 
 
 ## Deploying a blueprint
 
-ServiceNow CPQ configuration experiences are deployed \(made available to application end users\) at the blueprint level. Administrator edits to fields, rules, layouts, and configurable products are not visible to the end user until deployed.
+CPQ configuration experiences are deployed \(made available to application end users\) at the blueprint level. Administrator edits to fields, rules, layouts, and configurable products are not visible to the end user until deployed.
 
 To deploy a blueprint, in the Blueprints list administration page, check the box to the left of the blueprint to deploy, and then select **Deploy**. \(You can also select **Deploy** in the blueprint itself.\)
 
@@ -91,9 +91,9 @@ The blueprint administration list page shows the deployment status of each bluep
 
 \[Omitted image "cpq-blueprints-icon-not-deployed.png"\] Alt text: Expiring Soon icon Expiring Soon
 
-In production sector environments provided to ServiceNow CPQ customers, once a blueprint is deployed, it remains deployed, no matter its end-user activity.
+In production sector environments provided to CPQ customers, once a blueprint is deployed, it remains deployed, no matter its end-user activity.
 
-In test sector environments provided to ServiceNow CPQ partners, blueprints are automatically un-deployed after a period of thirty days with no end-user engagement. Redeploying the blueprint or launching a configuration of the blueprint resets the thirty-day period after ServiceNow's database syncs each evening.
+In test sector environments provided to CPQ partners, blueprints are automatically un-deployed after a period of thirty days with no end-user engagement. Redeploying the blueprint or launching a configuration of the blueprint resets the thirty-day period after ServiceNow's database syncs each evening.
 
 In demo sector environments, blueprints are automatically un-deployed every weekend.
 
@@ -108,7 +108,7 @@ After a blueprint is deployed, a notification alerts you to the status of the de
 
 [Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
 
-[ServiceNow CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
+[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
 
 [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
 

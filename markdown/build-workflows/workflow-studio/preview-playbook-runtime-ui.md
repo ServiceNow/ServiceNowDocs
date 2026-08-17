@@ -26,9 +26,9 @@ Role required: playbook\_experience.admin
 
 2.  Select the playbook you want to preview.
 
-3.  On the diagram canvas, hover over an activity card to display its toolbar, and then select the Edit icon \[Omitted image "playbook-edit-button.png"\].
+3.  On the diagram canvas, hover over an activity card to display its toolbar, and then select the Edit UI Layout icon \[Omitted image "playbook-edit-button.png"\].
 
-    The activity configuration panel opens.
+    The activity configuration panel opens with the UI preview open. Selecting the Edit icon opens the configuration panel without the UI preview open.
 
 4.  Select **Show UI preview** to view the runtime appearance of the activity.
 
@@ -44,9 +44,29 @@ Role required: playbook\_experience.admin
 
     The live preview updates in real-time to reflect your changes.
 
-7.  Select **Hide UI preview** to dismiss the runtime view.
+7.  Add sample data that displays in the UI Layout preview for a field in an activity that uses record inputs, for example a Record Form activity.
 
-8.  Select **Save and close**.
+    When pills are unresolvable, an option to provide sample data is provided. The sample data entered for the field appears across all other instances of the same input field in other activities in the designer.
+
+    1.  In the activity configuration panel, select the **UI Layout** tab.
+
+    2.  Under **Associated Record**, enter a table to reference in the **Associated table** field.
+
+    3.  Select the Data pill picker icon \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon next to the **Associated record** field.
+
+        If the data pill can't be resolved the option to add sample data is enabled.
+
+    4.  Select **Add sample data for this pill**.
+
+        \[Omitted image "playbook-add-sample-data.png"\] Alt text: Screenshot of the Add sample data for this pill option.
+
+    5.  Select a record to use as sample data.
+
+    6.  Select **Save and close** before leaving.
+
+8.  Select **Hide UI preview** to dismiss the runtime view.
+
+9.  Select **Save and close**.
 
 
 **Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)

@@ -16,6 +16,8 @@ breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Source-to-Pay in
 
 You can create a copy of the a flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 
+\[Omitted video\] Description: Video demonstrating how to copy a flow or subflow in Oracle Financial Cloud
+
 ## Before you begin
 
 Role required: sn\_fcms\_intg.integration\_user

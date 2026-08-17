@@ -18,7 +18,7 @@ Run quick start tests to verify the Leader Hub app still works after each upgrad
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_egd\_lh.admin
 
 ## Procedure
 

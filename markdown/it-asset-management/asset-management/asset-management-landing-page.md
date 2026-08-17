@@ -55,7 +55,7 @@ Manage software licenses, ensure compliance, and eliminate risk with real-time e
 
 </td><td>
 
--   Now Assist for Software Asset Management \(SAM\) for Software Asset Management to streamline and automate the software asset management tasks
+-   ServiceNow Otto for Software Asset Management \(SAM\) for Software Asset Management to streamline and automate the software asset management tasks
 -   Software request via service catalog
 -   Discovery, normalization, and inventory coverage
 -   License reclamation and cost optimization
@@ -72,7 +72,7 @@ Manage the physical technology assets from the moment a purchase request is rais
 
 </td><td>
 
--   Now Assist for Hardware Asset Management \(HAM\) for Hardware Asset Management to streamline and automate the hardware asset management tasks
+-   ServiceNow Otto for Hardware Asset Management \(HAM\) for Hardware Asset Management to streamline and automate the hardware asset management tasks
 -   End-to-end lifecycle management
 -   Loss prevention and asset visibility
 -   Automation and guided workflows
@@ -124,7 +124,7 @@ Manage the entire lifecycle of physical and non-IT business assets, including pl
 
 </td><td>
 
--   Now Assist for Enterprise Asset Management \(EAM\) for Enterprise Asset Management to streamline and automate the enterprise asset management tasks
+-   ServiceNow Otto for Enterprise Asset Management \(EAM\) for Enterprise Asset Management to streamline and automate the enterprise asset management tasks
 -   Automate the full enterprise asset lifecycle
 -   Schedule and manage maintenance plans to maximize asset uptime
 -   Track total cost of ownership across the entire asset lifecycle
@@ -147,9 +147,9 @@ Asset Management works with the following ServiceNow applications to support ass
 
 -   [Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/am-landing-page.md)
 -   [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
--   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+-   [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 -   [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
--   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
+-   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 -   [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
 -   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
 -   [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response.md)

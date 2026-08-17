@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, ignore alerts, noise reduction]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert ignore automations
@@ -19,7 +19,7 @@ Configure ignore rules to automatically suppress alerts that are not actionable 
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you are in the Configure IT Operations Management page.
 
@@ -39,11 +39,11 @@ Ignore rules help reduce alert noise by automatically suppressing alerts that ma
 
     A list of ignore alert automations appears.
 
-4.  Select **Create automation**.
+4.  Select **+Create automation**.
 
     The Ignore alerts page opens.
 
-5.  Follow the steps in [Create Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md).
+5.  Follow the steps in [Create Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

@@ -1,6 +1,6 @@
 ---
 title: Ledger account
-description: Field descriptions for the \[sn\_fin\_gl\_account\] table, which stores ledger account data fetched from an ERP system, and used when viewing or updating general ledger account records associated with invoice generation.
+description: Field descriptions for the General Ledger Account table \[sn\_fin\_gl\_account\], used to view or update ERP-synchronized ledger accounts for invoice generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/ledger-account.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice management]
+keywords: [APO, Accounts Payable Operations, General Ledger Account, ERP, invoice generation]
 breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Ledger account
 
-Field descriptions for the \[sn\_fin\_gl\_account\] table, which stores ledger account data fetched from an ERP system, and used when viewing or updating general ledger account records associated with invoice generation.
+Field descriptions for the General Ledger Account table \[sn\_fin\_gl\_account\], used to view or update ERP-synchronized ledger accounts for invoice generation.
 
 ## sn\_fin\_gl\_account table
 

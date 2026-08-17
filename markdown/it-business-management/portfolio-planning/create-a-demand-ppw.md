@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create a demand
@@ -24,7 +24,7 @@ Role required: it\_demand\_manager, it\_demand\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
 3.  Select **New**.
 
@@ -54,8 +54,8 @@ Category
 
 Category of the demand.The available values are:
 
--   Strategic: For demands for plans, such as projects or stories.
--   Operational: For demands for operational work, such as changes or defects.
+-   Strategic: For demands for plans, such as projects or stories. These demands go through strategic evaluation and prioritization regardless of scope, from large initiatives, such as a project or epic, to smaller, well-defined changes, such as a story.
+-   Operational: For demands for operational work, such as changes or defects. These demands address business-as-usual work that doesn't require strategic evaluation or prioritization.
 
 
 </td></tr><tr><td>
@@ -106,9 +106,9 @@ Description of the demand.
 </td></tr></tbody>
 </table>5.  Select **Create**.
 
-    The created demand opens in the **Playbook** page.
+    The created demand opens in the **Details** page.
 
-    \[Omitted image "ppw-demand-playbook.png"\] Alt text: Demand opens in the Playbook page with the first stage and activity expanded.
+    \[Omitted image "demand-details-landing.png"\] Alt text: Demand opens in the Details page.
 
 
 ## What to do next

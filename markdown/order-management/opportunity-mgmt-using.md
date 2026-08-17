@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-mg
 release: australia
 topic_type: concept
 last_updated: "2026-06-12"
-reading_time_minutes: 4
-breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
+reading_time_minutes: 5
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Opportunity Management
@@ -152,6 +152,8 @@ Schedule a client meeting directly from an opportunity record to associate it wi
 Track stage exit criteria, complete playbook activities, and manage deal-related actions on an opportunity to advance deals through the sales cycle.
 -   **[View an existing opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-viewing-an-opportunity.md)**  
 View an existing opportunity to make changes, such as updating its status or additional details.
+-   **[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)**  
+Generate an AI-powered summary of an opportunity in the CRM Workspace to get an immediate view of key details, customer needs, recent activity, and risks without reviewing multiple records.
 -   **[Track opportunities using Kanban view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-kanban-view.md)**  
 Personalize and manage the opportunities information that is most relevant to you and your stakeholders using the Kanban view.
 -   **[Export opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-export-opportunities.md)**  
@@ -164,8 +166,12 @@ Sync quote information from the quote record to an opportunity record. This keep
 Initiate a discussion with internal and external stakeholders, such as sales agents, solution consultants, and subject matter experts using sidebar integration with Microsoft Teams.
 -   **[Location-based transactions for Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/location_based_transactions_for_opportunity.md)**  
 Agents can create opportunities and support product configurations and services for different locations.
+-   **[View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-opty-scores-insights.md)**  
+Review AI-generated win probability scores and contextual insights for an opportunity to assess deal health without opening individual activity, contact, or deal records. Use this to prioritize pipeline opportunities and identify risks.
+-   **[Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)**  
+Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
 
-**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 

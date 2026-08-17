@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [dex components, dex roles, dex administrator role, dex engineer role, dex user role, dex service desk agent, dex application table, metric rules table, alert metadata table, alert impacted users table, alert locations table, action app config table, ci device configuration table]
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 

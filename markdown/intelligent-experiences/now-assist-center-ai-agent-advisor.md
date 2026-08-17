@@ -1,17 +1,17 @@
 ---
-title: AI Agent Advisor in Now Assist Center
+title: AI Agent Advisor in AI Admin Center
 description: AI Agent Advisor automatically discovers automation opportunities in your instance based on actual operational data and helps you to deploy AI agents to implement them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-ai-agent-advisor.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-07-30"
 reading_time_minutes: 3
-keywords: [AI Agent Advisor, AI agents, Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Explore, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
+breadcrumb: [Explore, AI Admin Center, Enable AI experiences]
 ---
 
-# AI Agent Advisor in Now Assist Center
+# AI Agent Advisor in AI Admin Center
 
 AI Agent Advisor automatically discovers automation opportunities in your instance based on actual operational data and helps you to deploy AI agents to implement them.
 
@@ -19,7 +19,7 @@ AI Agent Advisor automatically discovers automation opportunities in your instan
 
 AI Agent Advisor analyzes your instance data to identify the most frequent and impactful opportunities for efficiency gains in your workflows. For each identified opportunity, it proposes AI agents that can automate the solution, and generates new agents when no existing match is available.
 
-This gives the Now Assist administrator a data-driven starting point for AI adoption, eliminating the guesswork of deciding where to apply automation.
+This gives the AI administrator a data-driven starting point for AI adoption, eliminating the guesswork of deciding where to apply automation.
 
 ## How it works
 
@@ -48,9 +48,9 @@ The result is a prioritized list of automation opportunities. Each opportunity d
 
 For more information on the AI Agent Advisor application, see [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md).
 
-## Accessing AI Agent Advisor in Now Assist Center
+## Accessing AI Agent Advisor in AI Admin Center
 
-AI Agent Advisor displays automation opportunities in several places in Now Assist Center.
+AI Agent Advisor displays automation opportunities in several places in AI Admin Center.
 
 -   **Home page**
 
@@ -65,16 +65,16 @@ AI Agent Advisor displays automation opportunities in several places in Now Assi
     The resolution steps page displays the automation opportunity details and includes a set of proposed resolution steps that show how to automate it.
 
 
-For more information on using AI Agent Advisor in Now Assist Center, see [Using AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md).
+For more information on using AI Agent Advisor in AI Admin Center, see [Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md).
 
-**Parent Topic:**[Exploring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
+**Parent Topic:**[Exploring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
 
 **Related topics**  
 
 
-[Now Assist Center workspace]()
+[AI Admin Center workspace]()
 
-[Now Assist Readiness Evaluation in Now Assist Center]()
+[AI readiness assessments in AI Admin Center]()
 
-[Supporting information for Now Assist Center]()
+[Supporting information for AI Admin Center]()
 

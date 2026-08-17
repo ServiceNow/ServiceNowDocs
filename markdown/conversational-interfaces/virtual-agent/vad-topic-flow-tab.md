@@ -21,7 +21,7 @@ Use the topic **Flow** tab to build the conversation flow. Use the controls for 
 
 \[Omitted image "DesignerTextNodeCalloutSections-2.png"\] Alt text: View of Virtual Agent Designer topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 <table id="table_njp_rgk_zhb"><thead><tr><th>
 
@@ -58,17 +58,17 @@ For more information, see [Localizing Virtual Agent conversations](https://raw.g
     -   **Included in Topic Discovery**: Option to make the topic discoverable via keywords, NLU, or Now LLM Service. If inactive, the topic is included when performing search fallback.
     -   **Included in List of Topics**: Option to make the topic visible under the “show me everything” list of topics.
 -   **Save**: Saves the current design.
--   **Test**: Opens the design in a chat test window so that you can preview and test the conversation. If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
+-   **Test**: Opens the design in a chat test window so that you can preview and test the conversation. If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 -   **Publish**: Activates the design and makes it available to the chat clients. If you're using language-specific NLU models, select **Review and publish** from the Publish list to specify languages.
 -   More actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text: More actions icon.
     -   **Duplicate**: Copy the current design to create an unpublished version of the design.
     -   **Delete**: Remove the current and published version of the design.
 
-When updating designs, the header bar displays an `Unpublished Changes` message until you publish the topic.Hover over the message to see a tooltip explaining the unpublished changes. For example, the changes can include your topic's main design or Natural Language Understanding \(NLU\) language mappings.\[Omitted image "vad-flow-tab-unpublished-changes-tooltip.png"\] Alt text: Virtual Agent Designer flow tab header bar showing Unpublished changes warning message. A tooltip detailing unpublished changes appears when you hover over the message.
+When updating designs, the header bar displays an `Unpublished Changes` message until you publish the topic.Hover over the message to see a tooltip explaining the unpublished changes. For example, the changes can include your topic's main design or Natural Language Understanding \(NLU\) language mappings.\[Omitted image "vad-flow-tab-unpublished-changes-tooltip.png"\] Alt text: Assistant Designer Asset library flow tab header bar showing Unpublished changes warning message. A tooltip detailing unpublished changes appears when you hover over the message.
 
-If you close the topic without saving, a **Recover changes** button appears on the header bar. Select this button to recover any unpublished changes that were unsaved before closing. The **Recover changes** button is replaced by the `Unpublished changes` message.\[Omitted image "vad-flow-tab-recover-changes-button.png"\] Alt text: Virtual Agent Designer flow tab header bar showing Recover changes button after reopening an unsaved topic.
+If you close the topic without saving, a **Recover changes** button appears on the header bar. Select this button to recover any unpublished changes that were unsaved before closing. The **Recover changes** button is replaced by the `Unpublished changes` message.\[Omitted image "vad-flow-tab-recover-changes-button.png"\] Alt text: Assistant Designer Asset library flow tab header bar showing Recover changes button after reopening an unsaved topic.
 
-If you add a node, then close the topic before saving or publishing, the node disappears and the button and message appear when you reopen the topic. Select **Recover changes** to restore the node and remove the button.\[Omitted image "vad-flow-tab-unpublished-recover-combined.png"\] Alt text: Virtual Agent Designer flow tab header bar showing Unpublished changes message and Recover changes button. Both appear after reopening an unsaved topic with a node added.
+If you add a node, then close the topic before saving or publishing, the node disappears and the button and message appear when you reopen the topic. Select **Recover changes** to restore the node and remove the button.\[Omitted image "vad-flow-tab-unpublished-recover-combined.png"\] Alt text: Assistant Designer Asset library flow tab header bar showing Unpublished changes message and Recover changes button. Both appear after reopening an unsaved topic with a node added.
 
 </td></tr><tr><td>
 
@@ -78,11 +78,11 @@ If you add a node, then close the topic before saving or publishing, the node di
 
 Collapsible sidebar with Components and Variables tabs.The Components tab shows a list of controls that you can drag onto the canvas to build a conversation. The following types of controls are available:
 
--   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When Now Assist is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
+-   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When ServiceNow Otto is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
 -   [Bot Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md): Controls for showing virtual agent responses in a conversation.
 -   [Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md): Controls for performing actions within a topic, such as running a script, adding different conversation paths \(branches\) in a topic, or adding topic blocks.
 
-The Variables tab includes inputs and scripts.\[Omitted image "variables-tab.png"\] Alt text: Variables tab showing Input and Scripts in topic being viewed in Virtual Agent Designer.
+The Variables tab includes inputs and scripts.\[Omitted image "variables-tab.png"\] Alt text: Variables tab showing Input and Scripts in topic being viewed in Assistant Designer Asset library.
 
 -   **Input section**
     -   Live Agent variables specified on the topic **Properties** tab to provide contextual information from the virtual agent session to the live agent.

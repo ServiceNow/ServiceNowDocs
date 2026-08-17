@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, AP specialist, invoice automation]
+keywords: [APO, Accounts Payable Operations, AP specialist, APO Admin, Document Intelligence, invoice automation]
 breadcrumb: [Document Intelligence processing with playbook, Playbook for updating the invoice primary data, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -31,7 +31,7 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View invoice processing case**.
 

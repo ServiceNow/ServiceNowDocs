@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-23"
 reading_time_minutes: 4
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create maintenance rules
@@ -175,14 +175,14 @@ Example of a maintenance rule that uses the advanced script feature.
 In the Maintenance Rule page, select the **Advanced** option. Customize the provided example script:
 
 ```
-var now_GR = new GlideRecord('cmdb_ci');
+var gr = new GlideRecord('cmdb_ci');
 gr.addQuery('name', 'your_name_here');
 gr.query();
 while (gr.next()){
  result.push(gr.sys_id +'');}
 ```
 
-The return value for this example script is a text string that represents an array of CI IDs, for example, \['sys\_id1','sys\_id2','sys\_id3'\].
+The advanced script must always return a text string that represents an array of CI IDs, for example, \['sys\_id1','sys\_id2','sys\_id3'\]. Ensure that every possible execution path returns a value. If the script does not return a value, the maintenance calculator job fails with an exception.
 
 You can use this script as an example to prepare your own customized script.
 

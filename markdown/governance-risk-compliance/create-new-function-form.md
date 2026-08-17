@@ -1,6 +1,6 @@
 ---
-title: Create Function form
-description: On the Create New Function form, fill in the fields.
+title: Create a function form
+description: On the Create a function form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-function-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Create a function and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create Function form
+# Create a function form
 
-On the Create New Function form, fill in the fields.
+On the Create a function form, fill in the fields.
 
 <table id="table_jsk_134_ycc"><thead><tr><th>
 
@@ -80,7 +80,7 @@ Function Identifier
 
 </td><td>
 
-Function identifier that is composed by the letter F \(capital letter\) followed by a natural number \(for example, “F1” for the 1st function identifier and “Fn” for the nth function identifier with “n” being a natural number\). For example, when you create newer functions, it will be F1, F2, F3, and so on. This field is auto-filled.
+Function identifier composed of the letter F \(capital letter\) followed by a natural number. For example, “F1”, “Fn”, “n”. This field is auto-filled.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Recovery time objective of the function
 
 Recovery time objective of the function in number of hours. If the recovery time objective is less than 1 hour, ‘1’ is reported. In case the recovery time objective of the function is not defined, ‘0’ is reported.
 
- If a Business Impact Analysis \(BIA\) has been conducted for the business process, service, or service offering, and Business Continuity Management \(BCM\) is also set up in the same instance, then the values are copied from the relevant BIA for this function.
+ If a Business Impact Analysis \(BIA\) has been conducted for the business process, service, or service offering, the values are copied from the relevant BIA. Business Continuity Management \(BCM\) must be set up in the same instance.
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ Recovery point objective of the function
 
 Recovery point objective of the function in number of hours. If the recovery point objective is less than 1 hour, ‘1’ is reported. In case the recovery point objective of the function is not defined, ‘0’ is reported.
 
- If a Business Impact Analysis \(BIA\) has been conducted for the business process, service, or service offering, and Business Continuity Management \(BCM\) is also set up in the same instance, then the values are copied from the relevant BIA for this function.
+ If a Business Impact Analysis \(BIA\) has been conducted for the business process, service, or service offering, the values are copied from the relevant BIA for this function. Business Continuity Management \(BCM\) must be set up in the same instance.
 
 </td></tr><tr><td>
 

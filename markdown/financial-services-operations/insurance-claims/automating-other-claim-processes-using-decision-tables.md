@@ -32,7 +32,7 @@ You can modify the included decision table in the Insurance claims application s
 **Related topics**  
 
 
-[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md)
+[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md)
 
 [Configure flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md)
 

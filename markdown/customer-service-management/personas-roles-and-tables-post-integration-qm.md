@@ -97,5 +97,5 @@ Granular role for organization staff to ensure consistent sales quote experience
 None
 
 </td></tr></tbody>
-</table>**Note:** For more information on channel partners see, .
+</table>**Note:** For more information on channel partners, see [Quote Experience in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md).
 

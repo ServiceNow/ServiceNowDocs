@@ -56,7 +56,7 @@ The operator uses the Service Operations Workspace to view the realted alerts an
 
 ## AI-powered alert analysis and resolution
 
-At 1:15 p.m., a complex alert from the core banking system arrives with cryptic error codes. The operator uses Now Assist for ITOM to receive:
+At 1:15 p.m., a complex alert from the core banking system arrives with cryptic error codes. The operator uses ServiceNow Otto for IT Operations Management \(ITOM\) to receive:
 
 -   Human-readable explanation of database connection timeout caused by connection pool exhaustion
 -   Historical context showing similar patterns occurred three times in past six months

@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Admin APIs: Managed tables
 
 Information about APIs that interact with managed tables
 
-Use [Admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md) to interact with the ServiceNow CPQ APIs for managed tables. Bulk-level permissions are necessary for your admin API key to authenticate calls related to managed tables. For more information on these APIs, see the full API documentation:
+Use [Admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md) to interact with the CPQ APIs for managed tables. Bulk-level permissions are necessary for your admin API key to authenticate calls related to managed tables. For more information on these APIs, see the full API documentation:
 
-[ServiceNow CPQ API documentation](https://api-docs.logik.io/#introduction)
+[CPQ API documentation](https://api-docs.logik.io/#introduction)
 
 The following Postman collection demonstrates how to retrieve and manipulate table metadata and data using the deprecated JWT authorization noted below:
 

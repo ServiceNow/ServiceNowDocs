@@ -28,17 +28,17 @@ For new customers, the standard ticket page is enabled by default. For upgrade c
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Page Route Maps**.
 
-2.  Search for Customer Service Management ticket route maps.
+2.  Search for CSM Standard Ticket.
 
 3.  Set the value to **true** in the **Active** column.
 
-4.  Click the name of the page route map.
+4.  Select the name of the page route map.
 
-5.  Click **here** to edit the record.
+5.  Select **here** to edit the record.
 
 6.  Select the **Active** check-box.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 **Related topics**  

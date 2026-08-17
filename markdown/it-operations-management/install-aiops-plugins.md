@@ -1,6 +1,6 @@
 ---
-title: Install ITOM AIOps apps using Setup Hub
-description: Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and Now Assist for IT Operations Management.
+title: Install ITOM AIOps apps using ServiceNow Otto for Setup
+description: Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNow Otto for ITOM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/install-aiops-plugins.html
 release: australia
@@ -11,9 +11,9 @@ keywords: [ITOM AIOps, plugin installation, Now Assist, IT Operations Management
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
 
-# Install ITOM AIOps apps using Setup Hub
+# Install ITOM AIOps apps using ServiceNow Otto for Setup
 
-Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and Now Assist for IT Operations Management.
+Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNow Otto for ITOM.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ Role required: evt\_mgmt\_admin
 
     The Admin Home page opens.
 
-    \[Omitted image "aiops-admin-conf-home-page1.png"\] Alt text: Admin home page showing the product families.
+    \[Omitted image "nowassist-setup-admin-home-page.png"\] Alt text: Admin home page showing the product families.
 
-2.  In the IT Operations Management tile, select **View product overview**.
+2.  In the IT Operations Management tile, select **Ready to configure**.
 
     The Welcome! Let's get started dialog box appears.
 
@@ -35,13 +35,13 @@ Role required: evt\_mgmt\_admin
 
 3.  Select **Start setup**.
 
-    View all unavailable plugins in the **Not Installed** tab.
+    View all available plugins in the **Not Installed** tab.
 
     \[Omitted image "aiops-admin-conf-not-installed-tab.png"\] Alt text: IT Operations Management page showing the plugins to be installed.
 
 4.  Install the ITOM AIOps plugin by selecting the install icon \(\[Omitted image "icon-aiops-admin-conf-install.png"\] Alt text: install icon\).
 
-5.  To select the Now Assist for IT Operations Management \(ITOM\) plugin, perform the following steps:
+5.  To select the ServiceNow Otto for ITOM plugin, perform the following steps:
 
     1.  Select the Application manager icon \(\[Omitted image "icon-aiops-admin-install-now-assist-itom.png"\] Alt text: Application page icon\).
     2.  On the Application manager page, select **Install**.

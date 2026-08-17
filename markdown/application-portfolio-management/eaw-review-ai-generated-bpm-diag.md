@@ -1,5 +1,5 @@
 ---
-title: Review a AI-generated business process map diagram
+title: Review an AI-generated business process map diagram
 description: After ServiceNow AI lens generates a business process map \(BPM\) diagram from an uploaded image, review the diagram and resolve any low-confidence shapes, and accept or discard it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-review-ai-generated-bpm-diag.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-05-13"
 reading_time_minutes: 5
-breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
+breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Review a AI-generated business process map diagram
+# Review an AI-generated business process map diagram
 
 After ServiceNow AI lens generates a business process map \(BPM\) diagram from an uploaded image, review the diagram and resolve any low-confidence shapes, and accept or discard it.
 
@@ -18,7 +18,7 @@ After ServiceNow AI lens generates a business process map \(BPM\) diagram from a
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Before you begin
 
@@ -58,7 +58,7 @@ Role required: sn\_apm.apm\_user
 
     The shape updates to the selected type. All existing connections to the shape and their labels are retained.
 
-7.  To update the ServiceNow® record a shape is linked to without changing its shape type, perform the following: select the shape to open its **Data** panel, then use **Choose Existing** to link it to a different existing record, or **Create new** to stage a new record.
+7.  To update the record a shape is linked to without changing its shape type, perform the following: select the shape to open its **Data** panel, then use **Choose Existing** to link it to a different existing record, or **Create new** to stage a new record.
 
     1.  Select the shape on the canvas and then select the open the side panel icon \(\[Omitted image "icon-open-side-panel.png"\] Alt text: Open side panel\).
     2.  Select **Choose Existing** to link it to a different existing record.
@@ -74,7 +74,7 @@ Role required: sn\_apm.apm\_user
 9.  Verify entity sync for shapes that represent records, by selecting each shape and checking the **Data** panel.
 
     -   **Choose Existing**: AI Lens found a matching record in the corresponding database table and linked the shape to it automatically.
-    -   **Create new**: No matching record was found. A temporary record is staged for the shape and will be committed following the standard approval workflow for that table, provided you have the appropriate permissions for that table.
+    -   **Create new**: No matching record was found. A temporary record is staged for the shape. The record will be committed following the standard approval workflow for that table if you have the appropriate permissions.
     **Note:** Users without access to create records in a given database table will not have new records committed for the corresponding shapes, even after accepting the diagram.
 
 10. When satisfied with the diagram, take one of the following actions:
@@ -92,7 +92,7 @@ Role required: sn\_apm.apm\_user
 
 After accepting, the diagram is in draft state and behaves as any other diagram in EA Workspace. The **Share** button, **Show Version**, and the more actions menu are restored. You can share the diagram with other users, associate it with an architectural artifact, and continue editing it as needed.
 
-**Parent Topic:**[Using Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-now-assist-for-ea.md)
+**Parent Topic:**[Working with business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-bp-map.md)
 
 **Related topics**  
 
@@ -104,4 +104,10 @@ After accepting, the diagram is in draft state and behaves as any other diagram 
 [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens-landing-page.md)
 
 [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-sn-lens.md)
+
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
+
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+
+[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/sn-otto-access-roles.md)
 

@@ -35,7 +35,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d115939e126">
+<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d115941e126">
 
 **Show the Edit option**
 
@@ -43,7 +43,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 Clear the **Omit edit button** check box.
 
-</td></tr><tr><td id="d115939e138">
+</td></tr><tr><td id="d115941e138">
 
 **Hide the Edit option**
 
@@ -51,7 +51,7 @@ Clear the **Omit edit button** check box.
 
 Select the **Omit edit button** check box.
 
-</td></tr><tr><td id="d115939e150">
+</td></tr><tr><td id="d115941e150">
 
 **Show the Edit option if the check box is cleared and the button does not appear.**
 

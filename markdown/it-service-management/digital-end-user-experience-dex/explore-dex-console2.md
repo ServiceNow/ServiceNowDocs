@@ -152,7 +152,7 @@ Having a positive digital experience can lead to the following benefits:
 
 -   **Optimized end-user digital experience**
 
-    Empower your employees with Desktop Assistant – a centralized hub that provides a comprehensive view of requests and device health, enables internet connection testing, and offers a usage metrics dashboard for communication with the ServiceNow® instance.
+    Desktop Assistant is a centralized hub that gives employees visibility into requests and device health. It supports internet connection testing and provides a usage metrics dashboard for communication with the ServiceNow® instance.
 
 
 ## Better together
@@ -163,7 +163,7 @@ Having a positive digital experience can lead to the following benefits:
 
     Use incident investigation with DEX to review device health, detected issues, and suggested resolutions. Implement resolutions and remedial actions directly from your workspace and monitor the status of actions. For more information, see [Incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diagnostics-guided-resolutions.md).
 
-    Use the DEX issue diagnosis and resolution agentic workflow to resolve detected issues with automated root cause analysis, targeted resolution plans, and documentation of resolution summary in incident records. For more information, see [DEX issue diagnosis and resolution agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-dex-diagnosis-resolution-workflow.md).
+    Use the DEX issue diagnosis and resolution agentic workflow to resolve detected issues with automated root cause analysis, targeted resolution plans, and resolution summaries documented in incident records. For workflow details, see [DEX issue diagnosis and resolution agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-dex-diagnosis-resolution-workflow.md).
 
 -   **[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md)**
 

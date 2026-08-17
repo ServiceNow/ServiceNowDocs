@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 33
+reading_time_minutes: 35
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -63,13 +63,13 @@ action
 Action that the VA should take.Valid values:
 
 -   [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Switches the conversation from VA to Live Agent.
--   [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Creates a chat interaction.
+-   [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Creates a chat interaction. Set **syncResponse** to `true` to return the conversation and interaction details back in the response.
 -   [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Ends the chat conversation. The **message.text** parameter should be empty when using this action.
 -   [FAULT\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Faults a conversation. When setting a FAULT\_CONVERSATION action, provide a description for the **cause** parameter.
 -   [SEND\_HISTORY](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Updates only the chat history. The chat history can also be sent using standard message processing with the **history** parameter.
 -   SET\_USER\_TIMEZONE: Sets the user’s time zone to the time zone specified in the **timezone** parameter. This time zone remains in effect until you reset it using this same parameter.
 -   [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Starts a chat conversation.
--   [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Starts a chat conversation initiated using `CREATE_CONVERSATION`.
+-   [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Starts a chat conversation initiated using `CREATE_CONVERSATION`. Set **syncResponse** to `true` to process the request synchronously and avoid race conditions that cause timing issues.
 -   [SWITCH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Switch the conversation to a topic that matches what is specified in the **intent.id** or **topic.name** parameters.
 
 **Note:** Only use the `SWITCH` action for topic switching when the intent discovery happens in the primary bot. If the intent discovery happens in the ServiceNow® VA, use the **message.text** parameter.
@@ -451,6 +451,23 @@ Flag that indicates whether this is a silent message. A silent message is a mess
 Data type: Boolean
 
 Default: false
+
+</td></tr><tr><td>
+
+syncResponse
+
+</td><td>
+
+Applicable for CREATE\_CONVERSATION and START\_CREATED\_CONVERSATION actions. Flag that indicates whether to wait before returning a synchronous response from the API.
+
+**Note:** This parameter prevents a potential race condition where the `Work Offer` API could be triggered before the `CREATE_CONVERSATION` and `START_CREATED_CONVERSATION` request finished processing. Making the response synchronous eliminates this timing issue.
+
+ Valid values:
+
+-   true: Returns a synchronous response.
+-   false: Returns a response without waiting.
+
+ Default: false
 
 </td></tr><tr><td>
 
@@ -1453,7 +1470,7 @@ userId
 Identifier of the end user who is interacting with the bot.Data type: String
 
 </td></tr></tbody>
-</table>### Start a conversation using the START\_CONVERSATION action to start a conversation
+</table>### Start a conversation using the START\_CONVERSATION action
 
 The following example shows how to use the [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action to start a conversation with Virtual Agent. This call directs the user to the greeting topic.
 
@@ -1576,9 +1593,55 @@ The following is the response body sent from the VA to the configured response e
 }
 ```
 
+### Start a synchronous CREATE\_CONVERSATION conversation
+
+The following example initiates a new Virtual Agent conversation with the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action and waits for a synchronous response before returning. The **syncResponse** parameter is set to `true`, indicating that the API should respond synchronously.
+
+```
+curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
+  --request POST \
+  --header "Accept:application/json" \
+  --header "Content-Type:application/json" \
+  --data '{
+    "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
+    "userId": "first.last",
+    "emailId": "first.last@example.com",
+    "action": "CREATE_CONVERSATION",
+    "syncResponse": true,
+    "message": {},
+    "contextVariables": {
+      "live_agent_only": "true",
+      "interaction_client_session_id": "externalId123456575"
+    },
+    "appInboundId": "NT"
+  }' \
+  --user "username":"password"
+```
+
+Response body:
+
+```
+{
+  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
+  "message": {},
+  "userId": "first.last", 
+  "appInboundId": "NT",
+  "body": [
+    {
+      "uiType": "ActionMsg",
+      "actionType": "CreateConversation",
+      "conversationId": "113927672fe7be10b252672bcfa4e353",
+      "interactionId": "9d3923a72fe7be10b252672bcfa4e3c4",
+      "messageId": "553923a72fe7be10b252672bcfa4e3e0"
+    }
+  ],
+  "score": 1
+}
+```
+
 ### Start a conversation initiated using the START\_CREATED\_CONVERSATION action
 
-The following example shows how to start a chat conversation that has been initiated using the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action.
+The following example shows how to start a chat conversation that has been initiated using the [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1671,6 +1734,70 @@ The following is the response body sent from the VA to the configured response e
    ], 
    "score":1 
 } 
+```
+
+### Start a synchronous START\_CREATED\_CONVERSATION conversation
+
+This example initiates the [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action and waits for a synchronous response before returning. The **syncResponse** parameter is set to `true`, indicating that the API should respond synchronously with the conversation details.
+
+```
+curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
+  --request POST \
+  --header "Accept:application/json" \
+  --header "Content-Type:application/json" \
+  --data '{
+  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
+  "userId": "first.last",
+  "emailId": "first.last@example.com",
+  "action": "START_CREATED_CONVERSATION",
+  "syncResponse": true,
+  "message": {},
+  "appInboundId": "NT"
+  }' \
+  --user "username":"password"
+```
+
+Response body:
+
+```
+{
+  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
+  "message": {},
+  "userId": "first.last",
+  "appInboundId": "NT",
+  "body": [
+    {
+      "uiType": "ActionMsg",
+      "actionType": "StartConversation",
+      "conversationId": "113927672fe7be10b252672bcfa4e353",
+      "messageId": "6989aba72fe7be10b252672bcfa4e3b2"
+    },
+    {
+      "uiType": "ActionMsg", 
+      "actionType": "SubscribeToSupportQueue",
+      "supportQueue": "{@type=InteractionQueue, external=false, type=interaction, queueAmbChannel=/cs/support_queue/c3lzX2lkPW51bGw=}",
+      "messageId": "a989aba72fe7be10b252672bcfa4e3d6"
+    },
+    {
+      "uiType": "ActionMsg",
+      "actionType": "StartSpinner",
+      "spinnerType": "none",
+      "message": "Routing you to a live agent...",
+      "waitTime": "13 Seconds",
+      "messageId": "b189aba72fe7be10b252672bcfa4e3da"
+    },
+    {
+      "uiType": "ActionMsg",
+      "actionType": "SubscribeToChatPresence",
+      "channel": "/sn/rp/sys_cs_conversation/113927672fe7be10b252672bcfa4e353",
+      "userDetails": "{name=Guest, sysId=5136503cc611227c0183e96598c4f706, avatarPath=null, displayName=Guest, initials=G, showNameInHeader=false, userName=guest, email=guest@example.com, channel=null}",
+      "chatSessionId": "113927672fe7be10b252672bcfa4e353",
+      "messageId": "7189aba72fe7be10b252672bcfa4e3f0"
+    }
+  ],
+  "agentChat": true,
+  "score": 1
+}
 ```
 
 ### Fault a conversation using

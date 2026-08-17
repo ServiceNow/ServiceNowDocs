@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Hybrid search, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Hybrid search, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate hybrid search for a search application configuration in AI Search
@@ -25,7 +25,7 @@ Role required: ais\_admin
 
 ## About this task
 
-Beginning with Now Assist in AI Search 17, when Now Assist in AI Search is installed for the first time, hybrid search is automatically activated for all search application configurations \(SACs\) in the instance. If you upgraded to Now Assist in AI Search 17 from an earlier release, hybrid search isn't automatically activated in your SACs for search applications that use as their search engine. You can perform this task to manually activate hybrid search in the SAC for a search application that uses as its search engine. Repeat these steps for each application you want to switch to hybrid search for.
+Beginning with ServiceNow Otto for AI Search 17, when ServiceNow Otto for AI Search is installed for the first time, hybrid search is automatically activated for all search application configurations \(SACs\) in the instance. If you upgraded to ServiceNow Otto for AI Search from an earlier release, hybrid search isn't automatically activated in your SACs for search applications that use AI Search as their search engine. You can perform this task to manually activate hybrid search in the SAC for a search application that uses AI Search as its search engine. Repeat these steps for each application you want to switch to hybrid search for.
 
 To learn more about the nature and benefits of hybrid search, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/hybrid-search-ais.md).
 
@@ -39,15 +39,15 @@ To learn more about the nature and benefits of hybrid search, see [Hybrid search
 
 3.  If you don't see the \[\[\[ **Hybrid search** \]\]\] option shown on the Search Application Configuration form, select a situation and follow the corresponding steps.
 
-<table id="choicetable_ex3_b2j_njc"><thead><tr><th align="left" id="d77372e163">
+<table id="choicetable_ex3_b2j_njc"><thead><tr><th align="left" id="d77472e159">
 
 Situation
 
-</th><th align="left" id="d77372e166">
+</th><th align="left" id="d77472e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77372e172">
+</th></tr></thead><tbody><tr><td id="d77472e168">
 
 **Beginning with Australia patch 3**
 
@@ -62,7 +62,7 @@ The Search Application Attribute Configuration New record page appears.
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d77372e216">
+</td></tr><tr><td id="d77472e212">
 
 **Versions before Australia patch 3**
 

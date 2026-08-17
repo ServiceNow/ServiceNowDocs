@@ -46,7 +46,7 @@ Role required: TSOM Visibility admin
 
         Once all MID Server steps are complete, proceed to **Configure Connectivity**.
 
-4.  Enable the Service Graph Connector to reference the Fortinet connection by name, extracting active aliases from the CMDB, and initiate data collection on the associated HTTP connection by creating connection aliases, credentials, and HTTP connections.
+4.  Create connection aliases, credentials, and HTTP connections to enable data collection.
 
     1.  Select **Get Started**.
 
@@ -101,7 +101,7 @@ Role required: TSOM Visibility admin
             2.  From the **Connection** drop-down list, select the connection alias. For example, sn\_sgc\_fortinet.Fortinet\_Alias.
     4.  Set specific filter criteria for each connection alias.
 
-        1.  Ensure that the \[FIELD NAME FOR DATA SOURCE\] field is set to the data source SGC-Fortinet Filtering Discovery.
+        1.  Verify that the \[FIELD NAME FOR DATA SOURCE\] field is set to the data source SGC-Fortinet Filtering Discovery.
         2.  In the **Connection Alias** field, choose a connection alias.
         3.  Set the filtering parameters.
             -   To filter by IP address, in the **Filtered IPs** field, add IP filters in the desired format.

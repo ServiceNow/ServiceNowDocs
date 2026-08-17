@@ -8,7 +8,7 @@ product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
@@ -46,8 +46,8 @@ The integration process for with the external service test management systems is
 
         **Note:**
 
-        -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy to the external system that is configured in the application spoke selector.
-        -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run to the external system that is configured in the application spoke selector.
+        -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy. These test runs are sent to the external system that is configured in the application spoke selector.
+        -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run. The test run is sent to the external system that is configured in the application spoke selector.
         To learn more about spokes, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md).
 
 3.  If the fulfillment request is successful, a response is received from the external system and is captured in the Test Run table \(sn\_st\_mgmt\_test\).

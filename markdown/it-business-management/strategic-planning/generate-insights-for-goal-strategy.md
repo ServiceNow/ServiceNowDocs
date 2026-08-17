@@ -18,7 +18,7 @@ Review AI-generated insights to identify at-risk goals, assess forecasted status
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_apw\_advanced.spw\_goal\_user
 
@@ -34,8 +34,6 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 
 **Note:** Only the owner or contributors of the goal can generate insights for the goal.
 
-\[Omitted image "generate-goal-insights.gif"\] Alt text: Generate goal insights in Strategic Planning Workspace using Goal insights skill.
-
 **Note:** If the Goal insights generation job is enabled, it automatically generates insights for each goal based on the job's run frequency. Before manually regenerating, check the timestamp on the goal insights summary card to confirm when insights were last generated — regenerating unnecessarily increases token consumption. You can also view the last generated insights in the **AI rationale** column of the goal list. If goal or target data has changed since the last run, select the refresh icon on the goal insights summary card to regenerate the insights.
 
 ## Procedure
@@ -50,7 +48,7 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 
     Alternatively, you can select **Show insights** on the goal's full details page.
 
-    The Goal insights side pane appears to process the insights for the goal. After a while, the Insights by Now Assist pane shows the insights for the goal including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations.
+    The Goal insights side pane appears to process the insights for the goal. After a while, the Insights by AI pane shows the insights for the goal including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations.
 
 5.  Review AI-generated insights to identify risk, assess forecasted statuses, and act on recommendations before goals fall off track.
 

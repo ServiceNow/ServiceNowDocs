@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice management, tax, manager]
-breadcrumb: [Tax calculations, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Tax calculations, Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create tax types to be used in an invoice
@@ -33,7 +33,7 @@ Role required: Tax manager
 
 <table id="table_uw1_42x_dcc"><thead><tr><th>
 
-Field
+Tax type field
 
 </th><th>
 

@@ -16,7 +16,7 @@ breadcrumb: [Customizing a chat experience, Configure, Virtual Agent, Conversati
 
 Setup topics are part of a standard conversation structure applied to all your conversations, such as the welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on the context, keywords, or utterances entered by the user, and any conditions that are specified for the setup topic.
 
-You define setup topics in a Virtual Agent Designer chat experience using the Custom Greetings and Setup option. A chat experience sets the context in which users run Virtual Agent. This context includes:
+You define setup topics in a Virtual Agent chat experience using the Custom Greetings and Setup option. A chat experience sets the context in which users run Virtual Agent. This context includes:
 
 -   Setup topics applied to bot conversations.
 -   A small list of topics, called promoted topics, initially displayed in the chat window.

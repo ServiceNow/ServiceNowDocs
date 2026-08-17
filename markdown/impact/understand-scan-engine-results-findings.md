@@ -1,6 +1,6 @@
 ---
 title: Understand scan results and findings
-description: After a scan runs, you can monitor its progress in real-time, review the completed results, and then work with the findings it identifies to resolve issues in your instance.
+description: After a scan runs, you can monitor its progress in real-time, review the completed results, and then work with the findings to resolve issues in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/understand-scan-engine-results-findings.html
 release: australia
@@ -8,17 +8,17 @@ topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 3
 keywords: [scan results, scan findings, platform health]
-breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Understand scan results and findings
 
-After a scan runs, you can monitor its progress in real-time, review the completed results, and then work with the findings it identifies to resolve issues in your instance.
+After a scan runs, you can monitor its progress in real-time, review the completed results, and then work with the findings to resolve issues in your instance.
 
 Reviewing scan results and acting on findings is a two-phase process.
 
 1.  View scan results: Monitor an active scan or open a completed scan record to see its status, duration, and batch progress. See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/viewing-scan-results-scan-engine.md).
-2.  Work with findings: Open individual findings from the scan record to understand their enforcement level and impact, then apply fixes or submit exceptions for review. See [Work with Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/work-with-scan-engine-findings.md).
+2.  Work with findings: Open individual findings from the scan record to understand their enforcement level and impact, then apply fixes or submit exceptions for review. See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md).
 
 ## How findings are evaluated
 
@@ -32,12 +32,14 @@ Every finding in your instance is evaluated along two critical dimensions to hel
 
     The business and technical risk of leaving the finding unresolved, rated from 1 \(minimal\) to 10 \(critical\) within each enforcement level. Higher values indicate findings that should be addressed first within that level.
 
-    Impact ratings operate independently within each enforcement level and do not create a global 1–10 scale across all levels.
+    Impact ratings operate independently within each enforcement level and don't create a global 1–10 scale across all levels.
 
 
-These two dimensions work together, enforcement level determines what action is required, while impact rating determines the order in which findings should be addressed within that enforcement level. For full details, see [Work with Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/work-with-scan-engine-findings.md).
+These two dimensions work together, enforcement level determines what action is required, while impact rating determines the order in which findings should be addressed within that enforcement level.
 
 ## Enforcement levels and risk impact
+
+Depending on the level of the definition, users may be required to fix a finding before saving a record.
 
 <table id="table_scan_findings"><thead><tr><th>
 
@@ -69,7 +71,7 @@ Critical issues that can break functionality, cause security vulnerabilities, or
 
 </td><td>
 
--   The record can not be saved until the code is fixed to meet the requirements in the definition.
+-   The record can't be saved until the code is fixed to meet the requirements in the definition.
 -   No exception reason option is available.
 -   An override requires admin-level rights or the disabling of the definition.
 
@@ -87,7 +89,7 @@ High severity issues that may degrade performance, stability, or security. Excep
 
 </td><td>
 
--   The record can not be saved until the issue is resolved or and exception reason is provided formal approval.
+-   The record can't be saved until the issue is resolved or and exception reason is provided formal approval.
 -   For more information, refer to [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md).
 
 </td></tr><tr><td>
@@ -107,6 +109,7 @@ Moderate issues, often related to optimization, maintainability, or best practic
 -   Address during future development cycle
 -   Does not block progress
 -   Prompts to check for a better solution, if one is available.
+-   Select whether to Exclude suggestion finding, which hides Suggestion level findings messages from displaying.
 
 </td></tr><tr><td>
 
@@ -118,11 +121,12 @@ REVIEW
 
 </td><td>
 
-Low impact, informational findings with minimal impact \(e.g., unused fields or minor UI inconsistencies\).
+Low impact, informational findings with minimal impact \(i.e., unused fields or minor UI inconsistencies\).
 
 </td><td>
 
-Monitor and optionally fix during future development cycles.
+-   Monitor and optionally fix during future development cycles.
+-   Displays an informational message without blocking saves or creating finding records.
 
 </td></tr></tbody>
 </table>**Important:** Impact rating applies independently to each enforcement level. An ACT 1 finding is always higher priority than a recommend 10 level finding, even though the numbers appear reversed.
@@ -140,6 +144,4 @@ These two metrics work together to help teams balance enforcement and risk prior
 
 
 [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/viewing-scan-results-scan-engine.md)
-
-[Work with Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/work-with-scan-engine-findings.md)
 

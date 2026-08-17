@@ -1,6 +1,6 @@
 ---
 title: Agentic conversations in Virtual Agent
-description: When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you.
+description: When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
 release: australia
@@ -15,10 +15,10 @@ breadcrumb: [Explore, Virtual Agent, Conversational Interfaces]
 
 # Agentic conversations in Virtual Agent
 
-When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you.
+When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 
 -   If for the given assistant, specific agents are available to perform user tasks or sub tasks, they’re used.
--   If a specific agent isn’t available for the task or sub task, the system automatically employs the Search Agent to discover answers or appropriate skills within the system \(again based on the assistant scope\).
+-   If a specific agent isn’t available, the system automatically employs the Search Agent to discover answers or appropriate skills within the system \(again based on the assistant scope\).
 -   If skill execution is required, the system automatically executes the discovered skills.
 -   The system can plan and orchestrate execution among multiple agents, skills, and QnA to accomplish complex tasks.
 
@@ -26,7 +26,7 @@ When you ask a question to the virtual agent, the agent understands the query. I
 
 Role required: admin or virtual\_agent\_admin
 
-**Note:** You must manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for Assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
+**Note:** You must manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
 
 To enable AI agents in Virtual Agent:
 
@@ -124,7 +124,7 @@ Utterance: `I am going on PTO tomorrow. Get my expense report and my IT ticket s
 
     \[Omitted image "utterance3-qna.png"\] Alt text: Non-agentic response.
 
--   Agentic response: Breaks it into multiple distinct tasks, reasons and plans, understands the dependencies, and executes one after another, completing the entire user request using output from prior actions as context as needed.
+-   Agentic response: Breaks it into multiple distinct tasks, reasons and plans, understands the dependencies, and executes one after another. The response completes the entire user request using output from prior actions as context as needed.
 
     \[Omitted image "utterance3-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance3-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance3-agentic3.png"\] Alt text: Agentic response part3.\[Omitted image "utterance3-agentic4.png"\] Alt text: Agentic response part4.\[Omitted image "utterance3-agentic5.png"\] Alt text: Agentic response part5.\[Omitted image "utterance3-agentic6.png"\] Alt text: Agentic response part6.
 
@@ -150,12 +150,14 @@ If you want to stop an agentic conversation mid-query, hover over the send icon 
 
 When the AI agent cannot understand a request, encounters a system error, or a session becomes inactive, it displays a message and presents options to help you continue.
 
--   When Now Assist cannot find an answer:
+-   When ServiceNow Otto cannot find an answer:
 
     Depending on how your administrator has configured the assistant, these options may include:
 
-    -   Requesting a live agent
-    -   Creating a support request
+    -   Requesting a live agent.
+
+    -   Creating a support request.
+
     -   Viewing office hours
     For example, if you ask about a topic the AI agent cannot find information on, you might see a message such as: “I can’t find anything on that directly but I can help you explore other options.” Select one of the displayed options to continue.
 

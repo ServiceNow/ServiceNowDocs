@@ -39,5 +39,5 @@ Bubble charts are useful for comparing demands based on common metrics such as r
 
 **Previous topic:**[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/associate-widget-to-demand.md)
 
-**Next topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Next topic:**[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)
 

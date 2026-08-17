@@ -48,7 +48,7 @@ Role required: admin
 
     For more information on adding a viewport, see [Add a viewport component to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-with-viewport-components.md).
 
-    1.  In the configuration panel, select **+ Add** to attach the **Now Assist in Contract Management** page collection.
+    1.  In the configuration panel, select **+ Add** to attach the **ServiceNow Otto for Contract Management Pro** page collection.
 
     2.  Select **Apply default configuration with added URL parameters** and then select done.
 

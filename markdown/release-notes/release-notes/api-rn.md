@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 11
 ---
 
 # API release notes
@@ -19,7 +19,7 @@ ServiceNow® APIs enable you to build custom applications and experiences. APIs 
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-implementation-reference.md) for more information.
 
 ## New in the Australia release
 
@@ -33,7 +33,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
 
 </td><td>
 
@@ -54,7 +54,7 @@ Methods:
 
 </td></tr><tr><td>
 
-
+[GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
 
 </td><td>
 
@@ -82,11 +82,11 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDescriptor - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td><td>
 
-
+[GlideElementDescriptor - isEncrypted\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td></tr></tbody>
 </table><table id="table_nds_wxf_gfc"><thead><tr><th>
@@ -103,13 +103,33 @@ Release month
 
 </th><th>
 
-API
+Class
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v19.2.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
+
+</td><td>
+
+The new getEligibleCatalogCategoryHierarchy\(\) method lets you retrieve the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The API automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that customers see only the offerings they qualify for.**Note:** The REST version of this endpoint is [Product Catalog Search - POST /api/sn\_prd\_pm/v1/catalog/eligible-catalog-category-hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md).
+
+</td></tr><tr><td>
 
 Product Catalog Management
 
@@ -123,16 +143,16 @@ v20.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
 -   CatalogSearch\(\) constructor
 -   getCatalogData\(\)
 
- Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+ Though identically named to `CatalogSearch` Server API, the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
 
- **Note:** The REST version of this API is .
+ **Note:** The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md) REST API wraps this Server API.
 
 </td></tr><tr><td>
 
@@ -148,7 +168,7 @@ v0.1
 
 </td><td>
 
-
+[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ConsolidationServiceAPI.md)
 
 </td><td>
 
@@ -174,7 +194,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
 
 </td><td>
 
@@ -195,7 +215,7 @@ Methods:
 
 </td></tr><tr><td>
 
-
+[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
 </td><td>
 
@@ -203,7 +223,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDateAPI.md)
 
 </td><td>
 
@@ -212,7 +232,7 @@ setAggregateWorkflow\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md)
 
 </td><td>
 
@@ -220,7 +240,7 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
 
 </td><td>
 
@@ -230,7 +250,7 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[MIDHermesProducer - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MIDHermesProducerAPI.md)
 
 </td><td>
 
@@ -239,11 +259,11 @@ getDynamicNamespace\(\)
 
 </td></tr><tr><td>
 
-
+[GlideElementDescriptor - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td><td>
 
-
+[GlideElementDescriptor - isEncrypted\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementDescriptorScopedAPI.md)
 
 </td></tr></tbody>
 </table><table id="table_bps_p1y_x3c"><thead><tr><th>
@@ -260,13 +280,37 @@ Release month
 
 </th><th>
 
-API
+Class
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
+
+Automated Test Framework
+
+</td><td>
+
+v3.1
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Cloud Runner TestRunnerApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.md)
+
+</td><td>
+
+Three new methods enable asynchronous test job management without requiring `sn_boq` record creation:-   cancelJobByTracker
+-   progressFromTracker
+-   startJob
+
+Use these methods when you start a test run with `startJobAsync` and only have the `rootTrackerId`; no need to poll for a `sn_boq` record.
+
+</td></tr><tr><td>
 
 Product Catalog Management
 
@@ -280,16 +324,16 @@ v20.0
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
 -   CatalogSearch\(\) constructor
 -   getCatalogData\(\)
 
- Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+ Though identically named, to `CatalogSearch`, the new `CatalogSearchAPI` is used within the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
 
- **Note:** The REST version of this API is .
+ **Note:** The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md) REST API wraps this Server API.
 
 </td></tr><tr><td>
 
@@ -305,7 +349,7 @@ v0.1
 
 </td><td>
 
-
+[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ConsolidationServiceAPI.md)
 
 </td><td>
 
@@ -331,7 +375,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md)
 
 </td><td>
 
@@ -345,7 +389,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-
+[Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/help-request-api.md)
 
 </td><td>
 
@@ -353,7 +397,7 @@ POST /now/helprequest/action/create\_or\_update
 
 </td></tr><tr><td>
 
-
+[ATF Code Coverage API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/atf-code-coverage-api.md)
 
 </td><td>
 
@@ -363,7 +407,7 @@ POST /now/helprequest/action/create\_or\_update
 
 </td></tr><tr><td>
 
-
+[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)
 
 </td><td>
 
@@ -393,6 +437,46 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
+Product Catalog Management
+
+</td><td>
+
+v19.2.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)
+
+</td><td>
+
+POST /eligible-catalog-category-hierarchy is a new endpoint that retrieves the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The endpoint automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that only offerings qualified for the requesting customer are returned.**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md) JavaScript API.
+
+</td></tr><tr><td>
+
+Smart Assessment Engine
+
+</td><td>
+
+ 
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Reassign Assessment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/reassign-assessment-api.md)
+
+</td><td>
+
+The new Reassign Assessment API provides a streamlined way to transfer assessment ownership within Smart Assessment workflows. This endpoint enables dynamic reassignment of in-progress assessments when team members change roles, leave the organization, or when assessments need to be delegated to more appropriate team members.
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -405,7 +489,7 @@ v6.0.0
 
 </td><td>
 
-
+[AI Assets Inventory API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ai-assets-inventory-api.md)
 
 </td><td>
 
@@ -426,7 +510,7 @@ v1.0
 
 </td><td>
 
-
+[HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md)
 
 </td><td>
 
@@ -446,11 +530,11 @@ v20.0
 
 </td><td>
 
-
+[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)
 
 </td><td>
 
-POST /api/sn\_prd\_pm/catalog/search**Note:** The script include version of this API is .
+POST /api/sn\_prd\_pm/catalog/search**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md) JavaScript API.
 
 </td></tr><tr><td>
 
@@ -466,7 +550,7 @@ Usage Insight Data Export
 
 </td><td>
 
-
+[UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/usage-insight-data-exp-api.md)
 
 </td><td>
 
@@ -486,7 +570,7 @@ Workplace Service Delivery
 
 </td><td>
 
-
+[WSD Presence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_presence-api.md)
 
 </td><td>
 
@@ -516,7 +600,7 @@ Workplace Service Delivery
 
 </td><td>
 
-
+[WSD User API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_user-api.md)
 
 </td><td>
 
@@ -536,7 +620,7 @@ Workplace Service Delivery
 
 </td><td>
 
-
+[WSD Unified Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_unified-search-api.md)
 
 </td><td>
 
@@ -557,7 +641,7 @@ Synthetic monitoring
 
 </td><td>
 
-
+[SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/synth-async-api.md)
 
 </td><td>
 
@@ -569,14 +653,7 @@ Synthetic monitoring
 |---|----------|
 |[Warranty Claims SOAP API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/warranty-claims-SOAP-API.md)|ProcessRepairOrder: A STAR SOAP operation used to process and exchange repair operation–level information between systems in a standardized STAR XML format.|
 
-## Changed in this release
-
-The following tables lists changed API classes and methods in Australia and ServiceNow Store.
-
-|Application|App Version|Release month|API|Methods|
-|-----------|-----------|-------------|---|-------|
-
-<table id="table_gbh_3zx_x3c"><thead><tr><th>
+<table id="table_xcs_y5z_1kc"><thead><tr><th>
 
 Application
 
@@ -590,40 +667,19 @@ Release month
 
 </th><th>
 
-API
+Module
 
 </th><th>
 
-Methods
+Types
 
 </th></tr></thead><tbody><tr><td>
 
-Lead to Cash Core
+Mobile SDK Libraries - Android
 
 </td><td>
 
-v1.8
-
-</td><td>
-
-2026-03
-
-</td><td>
-
-
-
-</td><td>
-
-The following enhancements provide support for building and committing complete, ramp entity structures across header and headerless workflows:-   : This method now supports selective record retrieval and multiple root entity definitions, enabling developers to explicitly fetch and aggregate ramp data \(for example, via **fetchRecordSysIds** and **multiSelectMerge**\) in both single‑ and multi‑select, headerless scenarios.
--   : This method now returns a structured `dataObject` that preserves all committed root entities—such as Sold Products and Ramps—grouped by type, enabling reliable access to ramp data from a single commit response without custom post‑processing.
-
-</td></tr><tr><td>
-
-Lead to Cash Core
-
-</td><td>
-
-v1.9
+2.22.0
 
 </td><td>
 
@@ -631,14 +687,60 @@ v1.9
 
 </td><td>
 
-
+NowVoice
 
 </td><td>
 
-- Added an optional `additionalParams.returnDeletedGr` Boolean flag that, when set to `true`, causes the deleted GlideRecord to be passed to `_postProcess` and `_postHierarchyCommit` after a DELETE operation.
+-   [NowVoiceCallbacks interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.md)
+-   [NowVoiceEndpoint class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)
+-   [NowVoiceSDK object - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md)
+-   [NowVoiceService class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md)
+-   [NowVoiceTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)
+-   [NowVoiceThemeDark class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md)
+-   [NowVoiceUiConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceUiConfigAndroidClass.md)
+-   [TranscriptMessage class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/TranscriptMsgAndroidClass.md)
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - iOS
+
+</td><td>
+
+2.22.0
+
+</td><td>
+
+2026-06
+
+</td><td>
+
+NowVoice
+
+</td><td>
+
+-   [NowVoice API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md)
+-   [NowVoiceCallbacks structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)
+-   [NowVoiceDefaultTheme structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md)
+-   [NowVoiceEndpoint structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)
+-   [NowVoiceService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md)
+-   [NowVoiceThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md)
+-   [NowVoiceTranscriptMessage typealias - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.md)
+-   [NowVoiceUIConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)
 
 </td></tr></tbody>
-</table><table id="table_omt_fmc_tcc"><thead><tr><th>
+</table>## Changed in this release
+
+The following tables lists changed API classes and methods in Australia and ServiceNow Store.
+
+|Application|App Version|Release month|API|Methods|
+|-----------|-----------|-------------|---|-------|
+| | | | | |
+
+|Application|App Version|Release month|Class|Methods|
+|-----------|-----------|-------------|-----|-------|
+|Lead to Cash Core|v1.9|2026-06|[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)|[LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)- Added an optional `additionalParams.returnDeletedGr` Boolean flag that, when set to `true`, causes the deleted GlideRecord to be passed to `_postProcess` and `_postHierarchyCommit` after a DELETE operation.|
+
+<table id="table_omt_fmc_tcc"><thead><tr><th>
 
 Class
 
@@ -648,18 +750,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
-
-</td><td>
-
-On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:-   clearValue\(\)
--   setValue\(\)
-
-For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
-
-</td></tr><tr><td>
-
-
+[GlideForm \(g\_form\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
 
 </td><td>
 
@@ -670,7 +761,18 @@ For more information, see [Configuring read-only security options](https://raw.g
 
 </td></tr><tr><td>
 
+[GlideForm \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideFormAPINX.md)
 
+</td><td>
+
+On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:-   clearValue\(\)
+-   setValue\(\)
+
+For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
+
+</td></tr><tr><td>
+
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
 
 </td><td>
 
@@ -691,11 +793,11 @@ Release month
 
 </th><th>
 
-API
+Class
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
 
@@ -711,7 +813,7 @@ v1.2
 
 </td><td>
 
-
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
 
 </td><td>
 
@@ -732,25 +834,25 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td><td>
 
-Previously, all GET endpoints didn't return results for Account records as expected due to a hardcoded flag. As a fix, users are now required to install the plugin Customer Service Base Entities \(com.snc.cs\_base\), which adds the Active field to Customer \[customer\_account\] and Core Company \[core\_company\] tables.-   
--   
--   
--   
+Previously, all GET endpoints didn't return results for Account records as expected due to a hardcoded flag. As a fix, users are now required to install the plugin Customer Service Base Entities \(com.snc.cs\_base\), which adds the Active field to Customer \[customer\_account\] and Core Company \[core\_company\] tables.-   [Party Management – GET /api/sn\_tmf\_api/v1/party/individual](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Party Management - GET /api/sn\_tmf\_api/v1/party/individual/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Party Management – GET /api/ sn\_tmf\_api/v1/party/organization/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Party Management - GET /api/sn\_tmf\_api/v1/party/organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td></tr><tr><td>
 
-
+[Wrap Up API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
 
 </td><td>
 
-Added support for AI-generated wrap‑up codes and notes.-   
--   
--   
--   
+Added support for AI-generated wrap‑up codes and notes.-   [Wrap Up - GET /now/wrapup/segment/\{segment\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
+-   [Wrap Up - GET /now/wrapup/segment/agent/\{agent\_id\}/interaction/\{interaction\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
+-   [Wrap Up - POST /now/wrapup/segment/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
+-   [Wrap Up - PUT /now/wrapup/segment/update/ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wrap-up-api.md)
 
 </td></tr></tbody>
 </table><table id="table_nbf_qmc_tcc"><thead><tr><th>
@@ -775,6 +877,84 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
+Telecommunications Open APIs \(sn\_tmf\_api\)
+
+</td><td>
+
+v7.2.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+Updated APIs:
+
+-   [Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+-   [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-open-api.md)
+-   [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-inventory-open-api.md)
+-   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf622_product_ordering-api.md)
+-   [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-catalog-open-api.md)
+-   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md)
+
+</td><td>
+
+These TMF APIs are updated with the following:
+
+1.  You can now safely customize TMF API behavior for your business needs, without modifying ServiceNow®'s default code or risking conflicts when you upgrade. Custom extensions automatically inherit all version-specific logic \(such as external ID fields in responses\), ensuring your integrations always work correctly. This V2 pattern works the same way across all TMF APIs, so you get a predictable, documented approach whether you're customizing one API or several. Existing V1 APIs and integrations are unaffected.
+
+**Note:** By default, the product ships with V1 as the default version. Any API calls to the standard URL use V1 logic. If you want to use V2, you have two options:
+
+    -   Toggle the "Is default" checkbox in the sys\_ws\_definition record to make V2 the default for all calls.
+    -   Call the version-specific V2 URL directly from your integration source.
+2.  **externalId** is now returned in V2 GET/LIST responses.
+
+</td></tr><tr><td>
+
+Telecommunications Open APIs \(sn\_tmf\_api\)
+
+</td><td>
+
+v7.2.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
+
+</td><td>
+
+The Party Management Open API has been updated to align with TMF 632 CTK \(Core Transaction Kernel\) compliance standards. The `PartyOrPartyRole` object has been removed and replaced with a mandatory `@type` field at the root level to explicitly declare party type \(`Account`, `Consumer`, or `Contact`\). The `relatedParty` object now includes a mandatory `@type` field to align with the latest TMF 632 schema. For migration guidance, see the related documentation.
+
+</td></tr><tr><td>
+
+Virtual Agent \(sn\_va\_as\_service\)
+
+</td><td>
+
+v4.4.0
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/bot-api.md)
+
+</td><td>
+
+Now supports synchronous responses for the START\_CREATED\_CONVERSATION and CREATE\_CONVERSATION actions. By setting the **syncResponse** parameter to `true` in the request body,
+
+-   CREATE\_CONVERSATION: Callers receive the conversation ID and interaction details in the API response, ensuring the conversation is fully initialized before the response is returned.
+-   START\_CREATED\_CONVERSATION: Prevents potential race conditions and timing issues, for example when using the AWA Offer Work API.
+
+</td></tr><tr><td>
+
 Automated Test Framework
 
 </td><td>
@@ -787,7 +967,7 @@ v3.1
 
 </td><td>
 
-
+[Cloud Runner Test Runner REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cloudrunner-testrunner-api.md)
 
 </td><td>
 
@@ -798,6 +978,27 @@ The following endpoints are updated as follows:
 -   GET /test\_runner\_progress: Introduces `rootTrackerId` as an alternative identifier for tracking and canceling test runs.
 
  All Cloud Runner Test REST APIs now standardize on HTTP error codes: 400 for validation errors and 500 for unexpected errors.
+
+</td></tr><tr><td>
+
+Synthetic monitoring
+
+</td><td>
+
+1.7.1
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+[SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/synth-async-api.md)
+
+</td><td>
+
+Updated functionality for POST /synthetics\_async\_bulk\_create: -   Checks for uniqueness against existing monitors on the fields **name**, **url**, **location**, **valid\_http\_code**, and **valid\_http\_code\_type** to avoid creating duplicates.
+-   Request parameters **parent\_service\_sys\_id** and **support\_group\_sys\_id** are no longer required for endpoints that have a parent service relationship in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 </td></tr><tr><td>
 
@@ -813,7 +1014,7 @@ v4.1.1
 
 </td><td>
 
-
+[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td><td>
 
@@ -833,7 +1034,7 @@ v4.0
 
 </td><td>
 
-
+[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md)
 
 </td><td>
 
@@ -853,12 +1054,12 @@ v12.5.0
 
 </td><td>
 
--   
--   
+-   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md)
+-   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
-The **characteristicObj** parameter is introduced as a fix to validate the **.value** property against allowed choice-type values by default. If an invalid value is submitted, the API adds a work note to the record.A new system property, `sn_ind_tmt_orm.disableCharValueValidation`, allows you to revert to pre-fix behavior when needed. The property isn't shipped by default. To disable validation, create a system property named `sn_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When disabled, the value is set directly from the request payload and no work notes are generated.
+The **characteristicObj** parameter is introduced as a fix to validate the **.value** property against allowed choice-type values by default. If an invalid value is submitted, the API adds a work note to the record.A new system property, `sn_ind_tmt_orm.disableCharValueValidation`, allows you to revert to pre-fix behavior when needed. The property isn't shipped by default. To turn off validation, create a system property named `sn_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When turned off, the value is set directly from the request payload and no work notes are generated.
 
 </td></tr><tr><td>
 
@@ -874,16 +1075,61 @@ v1.0
 
 </td><td>
 
-
+[WSD Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/wsd_reservation-api.md)
 
 </td><td>
 
 In the POST /add endpoint, the **reservable\_module** request parameter is no longer required as of this release, but is required for earlier releases.
 
 </td></tr></tbody>
-</table>## Deprecations
+</table><table id="table_jl3_1zz_1kc"><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Release month
+
+</th><th>
+
+Module
+
+</th><th>
+
+Types
+
+</th></tr></thead><tbody><tr><td>
+
+Mobile SDK Libraries - iOS
+
+</td><td>
+
+2.22.0
+
+</td><td>
+
+2026-06
+
+</td><td>
+
+NowChat
+
+</td><td>
+
+New properties on [NowChatConfiguration class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) enable NowChat to integrate with NowVoice:-   **voiceConfiguration**
+-   **voiceUIConfiguration**
+-   **voiceCallbacks**
+
+</td></tr></tbody>
+</table>## Removed in this release
 
 -   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
+-   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsSDK has been removed from Mobile SDK - Android.
 
 ## Activation information
 
@@ -898,7 +1144,7 @@ The following APIs are available by default:
 -   GlideElementDescriptor
 -   GlideElementDynamicAttributeStore
 -   GlideForm
--   GlideForm \(Next Experience\)
+-   GlideForm\(Next Experience\)
 
 The following APIs require plugin activation:
 

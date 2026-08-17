@@ -16,9 +16,11 @@ breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platfor
 
 The **com.glide.csp.self\_script\_src\_svg** property adds the **script-src none** directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
 
-The **com.glide.csp.self\_script\_src\_svg** system property adds "script-src none" to the Content-Security-Policy header when SVGs are accessed via the ".iix" file extension, which prevents the exploitation of stored XSS from crafted file attachments stored within the instance.
+The **com.glide.csp.self\_script\_src\_svg** system property adds "script-src none" to the Content-Security-Policy header when SVGs are accessed via the ".iix" file extension. This prevents the exploitation of stored XSS from crafted file attachments stored within the instance.
 
-Ensure that the property **com.glide.csp.self\_script\_src\_svg** is set to **true**.
+Verify that the property **com.glide.csp.self\_script\_src\_svg** is set to **true**.
+
+**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 ## More information
 
@@ -94,7 +96,7 @@ Security risk
 
 -   Severity score: 7.1
 -   CVSS score: High
--   Security risk details: Without this policy, a malicious actor could trick a user into running arbitrary JavaScript code in their web browser leading to consequences such as data exfiltration or session takeover.
+-   Security risk details: Without this policy, attackers can inject malicious JavaScript that users unknowingly execute, leading to data exfiltration or session takeover.
 
 </td></tr><tr><td>
 

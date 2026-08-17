@@ -1,30 +1,30 @@
 ---
-title: Now Assist Guardian analytics
-description: Monitor the performance of guardrails enabled through Now Assist Guardian.
+title: AI Guardian analytics
+description: Monitor the performance of guardrails enabled through AI Guardian.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-guardian-analytics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Now Assist Guardian analytics
+# AI Guardian analytics
 
-Monitor the performance of guardrails enabled through Now Assist Guardian.
+Monitor the performance of guardrails enabled through AI Guardian.
 
-The Now Assist Guardian analytics dashboard helps admins monitor and evaluate the effectiveness of offensive content and prompt injection guardrails in tracking and analyzing requests sent to large language models \(LLM\) and their responses.
+The AI Guardian analytics dashboard helps admins monitor and evaluate the effectiveness of offensive content and prompt injection guardrails in tracking and analyzing requests sent to large language models \(LLM\) and their responses.
 
 \[Omitted image "naa-nag-offensive-content.png"\] Alt text: Prompt injection dashboard page
 
-The indicators on the Now Assist Guardian dashboard page provide the following insights.
+The indicators on the AI Guardian dashboard page provide the following insights.
 
 -   Average latency as a result of active offensive content and prompt injection guardrails. High latency could mean increased guardrail activity in the period.
 -   Count and percentage of offensive content and prompt injection occurrences.
 -   Skills where offensive content and prompt injection occurrences were detected.
 
-Apply the filters on the dashboard to view guardrail activity for skills in a date range. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+Apply the filters on the dashboard to view guardrail activity for skills in a date range. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 ## Offensive content indicators
 
@@ -48,7 +48,7 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
 
 -   **Categories of offensive content**
 
-    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see .
+    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
 
     \[Omitted image "naa-nag-categories-offensive-content.png"\] Alt text: Categories of offensive content indicator.
 
@@ -86,5 +86,5 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
     \[Omitted image "naa-nag-prompt-injection-by-skill.png"\] Alt text: Prompt injection occurrences by skill indicator.
 
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
 

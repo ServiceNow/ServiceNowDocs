@@ -27,15 +27,15 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 2.  Update a monetary benefit plan using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d249212e86">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d255706e86">
 
 Option
 
-</th><th align="left" id="d249212e89">
+</th><th align="left" id="d255706e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d249212e95">
+</th></tr></thead><tbody><tr><td id="d255706e95">
 
 **Using Monetary benefit plan related list**
 
@@ -46,7 +46,7 @@ Procedure
 3.  In the Details tab, edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d249212e122">
+</td></tr><tr><td id="d255706e122">
 
 **Using finanicals record page**
 

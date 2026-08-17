@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/supporting-information-ai-agent-advisor.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-15"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [AI Agent Advisor, AI agents, Now Assist, Now Assist Center, Gen AI, Generative AI]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [Explore, AI Agent Advisor, Enable AI experiences]
 ---
 
@@ -17,15 +17,15 @@ Get a quick overview of the important information that is related to the AI Agen
 
 ## Supported versions
 
-AI Agent Advisor v1.0 is supported starting with Australia general availability \(Patch 2\).
+AI Agent Advisor v1.0 is supported starting with Australia general availability \(Patch 2\) and Zurich \(Patch 9\).
 
 ## Supported user interfaces
 
-The AI Agent Advisor application is supported in the Now Assist Center workspace.
+The AI Agent Advisor application is supported in the AI Admin Center workspace.
 
-The Now Assist Center workspace provides features that enable you to set up of your AI solutions in a unified experience without switching between separate Now Assist applications.
+The AI Admin Center workspace provides features that enable you to set up of your AI solutions in a unified experience without switching between separate AI applications.
 
-For more information, see [Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md).
+For more information, see [AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md).
 
 ## Licensing requirements
 
@@ -43,7 +43,7 @@ This store app has the following dependencies.
 |Insights Clustering Utils|sn\_icu|2.0.2|App|
 |Group-Action Framework|sn\_gaf|6.0.5|App|
 |AI Search| | | |
-|Now Assist Admin console|sn\_nowassist\_admin|8.0.7|App|
+|AI Admin Hub|sn\_nowassist\_admin|8.0.7|App|
 |Now Assist Troubleshooting|sn\_nowassist\_diagn|4.0.2|App|
 |Admin Experience Framework|sn\_ace|5.2.0|App|
 |Platform AI Agents and Skills|sn\_uxc\_gen\_ai|12.0.12|App|

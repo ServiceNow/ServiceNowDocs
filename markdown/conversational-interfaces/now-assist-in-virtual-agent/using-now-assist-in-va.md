@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist in Virtual Agent
-description: Now Assist in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
+title: Using ServiceNow Otto for Virtual Agent
+description: ServiceNow Otto for Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.html
 release: australia
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
 keywords: [Using, Now Assist, Virtual Agent, AI Search, enhanced chat, dynamic window, full-page experience, full page experience, standard chat, genius results, generative AI]
-breadcrumb: [Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
-# Using Now Assist in Virtual Agent
+# Using ServiceNow Otto for Virtual Agent
 
-Now Assist in Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
+ServiceNow® Otto for Virtual Agent enhances the user experience by combining AI Search with generative AI chat skills. These skills can speed up issue resolution and reduce deflection to a live agent.
 
 ## Standard, enhanced, and premium chat
 
-During the Now Assist in Virtual Agent guided setup, you may be presented with three user experiences to select from: standard chat, enhanced chat, or premium chat. Standard chat is a conversational support experience within a static chat widget. Enhanced chat and premium chat are conversational experiences within a resizable and movable chat window that include the ability to have multiple active conversations. Enhanced and premium chat enable users to choose their way of engaging with Now Assist on their ServiceNow portals from a variety of entry points. When choosing enhanced or premium chat from the guided setup, if you also have AI Search enabled on your portal, you’re presented with the **Allow the search bar to open into a full-page chat experience** option. If you select this option, your conversational and search experience appears as a full page inside the portal. The conversational fluidity and citation behavior between the enhanced or premium chat and the chat's full-page experience remains the same regardless of which chat experience you choose. You can still access enhanced or premium chat's resizable and moveable chat window when you have full-page experience turned on and are on screens other than the full-page experience itself. Turning on enhanced or premium chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
+During the ServiceNow Otto for Virtual Agent guided setup, you may be presented with three user experiences to select from: standard chat, enhanced chat, or premium chat. Standard chat is a conversational support experience within a static chat widget. Enhanced chat and premium chat are conversational experiences within a resizable and movable chat window that include the ability to have multiple active conversations. Enhanced and premium chat enable users to choose their way of engaging with ServiceNow Otto on their ServiceNow portals from a variety of entry points. When choosing enhanced chat from the guided setup, if you also have AI Search enabled on your portal, you’re presented with the **Allow the search bar to open into a full-page chat experience** option. If you select this option, your conversational and search experience appears as a full page inside the portal. The conversational fluidity and citation behavior between the enhanced or premium chat and the chat's full-page experience remains the same regardless of which chat experience you choose. You can still access enhanced or premium chat's resizable and moveable chat window when you have full-page experience turned on and are on screens other than the full-page experience itself. Turning on enhanced or premium chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
 
 **Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
@@ -52,15 +52,15 @@ The appearance of the default chat widget button varies depending on whether you
 
 ## Enhanced or premium chat's full-page experience
 
-Where your users learn about search results differs between the enhanced or premium chat and enhanced or premium chat's full-page experience. For enhanced or premium chat, when you enter a search query through your portal's search bar, you’re redirected to the portal's search results page. At the top of the search results page, you see Genius Results in a synthesized response generated by Now Assist. When you're using enhanced or premium chat's full-page experience and you enter a search query through one of the portal's search bars, you’re redirected to the full-page experience's chat tab. Within the chat tab, you may see a synthesized response generated by Now Assist within a conversation depending on your utterance. You continue the conversation within the chat tab.
+Where your users learn about search results differs between the enhanced or premium chat and enhanced or premium chat's full-page experience. For enhanced or premium chat, when you enter a search query through your portal's search bar, you’re redirected to the portal's search results page. At the top of the search results page, you see Genius Results in a synthesized response generated by ServiceNow Otto. When you're using enhanced or premium chat's full-page experience and you enter a search query through one of the portal's search bars, you’re redirected to the full-page experience's chat tab. Within the chat tab, you may see a synthesized response generated by ServiceNow Otto within a conversation depending on your utterance. You continue the conversation within the chat tab.
 
-\[Omitted image "nass-full-page-now-assist-tab-zp4.png"\] Alt text: A synthesized response appears for an order a laptop prompt in the Now Assist tab.
+\[Omitted image "nass-full-page-now-assist-tab-zp4.png"\] Alt text: A synthesized response appears for an order a laptop prompt in the ServiceNow Otto tab.
 
 The conversational fluidity and citation behavior between the enhanced or premium chat and enhanced or premium chat's full-page experience remains the same regardless of which chat experience you use. The conversations that you have either through the enhanced or premium chat's window or full-page experience remain in synchronization, and the conversational history is retained in both mediums. For example, if you enter `Order a loaner laptop` the conversational fluidity and citations that appear are the same whether in enhanced or premium chat or enhanced or premium chat's full-page experience. If you begin the laptop catalog request in the full-page experience, you can still view and continue the conversation in the enhanced or premium chat's window because the chat experiences remain in synchronization with one another. For more information about conversational behavior and citations, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md) or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
 
 Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any previous Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(\[Omitted image "llm-thumbs-up-like.png"\] Alt text: Thumbs up icon.\). If the response wasn't helpful, select the dislike thumbs down icon \(\[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: Thumbs down icon.\). This feedback is used to train the LLM model and improve responses over time. Depending on the context of the response, an additional go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) may appear in the feedback icons panel. This icon appears alongside synthesized responses in Virtual Agent, clarifying questions in Virtual Agent, and fallback topics whenever a synthesized response is unavailable but there are regular search results available. When the full-page experience is on and you select the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\), you’re redirected to the **Search** tab. After redirecting to the **Search** tab, a search query using the last five chat utterances you entered begins.Additionally, a copy message icon \(\[Omitted image "dw-feedback-copy-message-icon.png"\]\) appears on received Virtual Agent responses.
 
-The Now Assist sub-header consists of four elements. The following figure and table shows an example and description of those elements.
+The ServiceNow Otto sub-header consists of four elements. The following figure and table shows an example and description of those elements.
 
 \[Omitted image "nass-full-page-now-assist-tab-figure-zp4.png"\] Alt text: Chat window controls include New Chat, Chats, Support, and Settings.
 
@@ -97,7 +97,7 @@ All chats appear.
 
 The name of the conversation.
 
- If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to Now Assist** field, your initial utterance becomes the chat name. The chat name appears in both the Now Assist subheader and **Chats list** &gt; **Active** section.
+ If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to** field, your initial utterance becomes the chat name. The chat name appears in both the ServiceNow Otto subheader and **Chats list** &gt; **Active** section.
 
 </td></tr><tr><td>
 
@@ -206,10 +206,10 @@ Want to learn more? Visit these resources.
 
 -   For more information on enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 -   For more information on enhanced chat in Employee Center, see [Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/nass-now-assissist-self-service.md).
--   For more information on enhanced chat in self-service portals, see [Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nass-portal.md).
+-   For more information on enhanced chat in self-service portals, see [ServiceNow Otto conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nass-portal.md).
 -   For more information on premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
--   For more information on Now Assist, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   For more information on Now Assist in AI Search, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md).
+-   For more information on ServiceNow Otto, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   For more information on ServiceNow Otto for AI Search, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md).
 -   For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md).
--   For more information on Now Assist in Virtual Agent analytics, see .
+-   For more information on ServiceNow Otto for Virtual Agent analytics, see .
 

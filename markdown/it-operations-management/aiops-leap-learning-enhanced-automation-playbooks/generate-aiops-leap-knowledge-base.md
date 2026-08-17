@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-12"
 reading_time_minutes: 1
 keywords: [LEAP knowledge base, KB article generation, resolution steps, automation opportunity]
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Generate LEAP knowledge base articles
@@ -49,7 +49,7 @@ The article is created in draft state and routed through the standard knowledge 
 
     LEAP generates a complete knowledge base article from the resolution steps. The article opens in the Knowledge Center in draft state.
 
-    **Tip:** You can also generate a knowledge base article by selecting the \[Omitted image "explore-button.png"\] Alt text: Generate LEAP knowledge base button \[Omitted image "explore-button.png"\] Alt text: to open the Now Assist panel and selecting the knowledge base option from the workflow menu.
+    **Tip:** You can also generate a knowledge base article by selecting the \[Omitted image "Otto-01.svg"\] Alt text: Ask Otto button to open the ServiceNow Otto panel and selecting the knowledge base option from the workflow menu.
 
 5.  Review the generated article, including all sections and auto-populated metadata, and make any corrections.
 

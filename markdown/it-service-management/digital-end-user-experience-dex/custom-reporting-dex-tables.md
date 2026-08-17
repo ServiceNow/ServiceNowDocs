@@ -320,7 +320,7 @@ Experience issue ID, issue registry numbers, state, reason for end state, fallba
 -   Employee self-service from Desktop Assistant
 -   Device actions from DEX Self-service
 -   Device actions from Desktop Assistant
--   Self-service using Now Assist
+-   Self-service using ServiceNow Otto
 -   Proactive Engagement
 -   Actions initiated by service desk agents
 

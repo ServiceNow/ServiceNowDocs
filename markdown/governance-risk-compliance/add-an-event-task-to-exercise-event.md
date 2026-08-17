@@ -58,7 +58,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
     The dialog filters groups by **Active** = true. Filters that are currently applied to the **Event tasks** list — for example, **Phase** = **Recovery validation** — are applied as default values on the created tasks. Phase values that are already set on a task template take precedence over the list filter.
 
-    \[Omitted image "event-task-more-actions-menu.png"\] Alt text: Exercise event Event tasks tab More Actions menu showing Add groups, Add tasks, Export to Excel, and New ad-hoc task.
+    \[Omitted image "event-task-more-actions-menu.png"\] Alt text: Event tasks tab More Actions menu showing Add groups, Add tasks, Export to Excel, and New ad-hoc task.
 
     \[Omitted image "exercise-event-select-task-template-groups-step-one.png"\] Alt text: Select task template groups wizard with step 1 active and step 2 upcoming.
 
@@ -72,7 +72,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 5.  After the bulk add completes, wait for the auto-refresh banner to dismiss, or select **Refresh** to refresh the **Event tasks** list manually.
 
-    The **Event tasks** list does not auto-refresh row by row. Instead, the banner **The event tasks are updated. Select Refresh to see updated data. List will auto-refresh once all tasks are created.** is displayed while the system creates the tasks. About ten seconds after the last task is created, the list refreshes once. This avoids repeated refreshes on event tasks lists that contain a large number of rows. For more information, see [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-event-task-template-progress.md).
+    The **Event tasks** list does not auto-refresh row by row. Instead, the banner **The event tasks are updated. Select Refresh to see updated data. List will auto-refresh once all tasks are created.** is displayed while the system creates the tasks. About ten seconds after the last task is created, the list refreshes once. This avoids repeated refreshes on event tasks lists that contain many rows. For more information, see [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-event-task-template-progress.md).
 
     \[Omitted image "event-tasks-auto-refresh-banner.png"\] Alt text: Yellow banner stating the event tasks are updated with a Refresh button.
 
@@ -80,7 +80,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 6.  To save a set of event tasks as a reusable task template group, select the tasks in the **Event tasks** list and then select **Save as group** &gt; **Save tasks**.
 
-    To append them to an existing group, you can select **Save as group** &gt; **Add to group**. Event tasks are saved as task templates that can later be applied from an exercise event, a crisis event, an activated plan, a plan, a loss scenario, or a recovery strategy. The element definition associated with each event task is preserved on the resulting templates so element-definition filtering still applies when the group is reused.
+    To append them to an existing group, you can select **Save as group** &gt; **Add to group**. Event tasks are saved as task templates that can be applied from exercise events, crisis events, activated plans, plans, loss scenarios, or recovery strategies. The element definition associated with each event task is preserved on the resulting templates. Element-definition filtering still applies when the group is reused.
 
     \[Omitted image "save-as-group-create-dialog.png"\] Alt text: Create task template group modal showing You selected 2 task\(s\) and the Group name field.
 
@@ -98,7 +98,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 8.  To exclude specific tasks from time calculation, select the **Do not include in time calculation** option.
 
-    The actual time taken is then calculated based on the minimum start time and maximum end time of included tasks, while the total effort is the sum of the effort for each task, excluding those with the check box checked.
+    The actual time taken is then calculated based on the minimum start time and maximum end time of included tasks. The total effort is the sum of the effort for each task, excluding those with the check box checked.
 
 9.  Enter the Planned start date in the event and select **Save**.
 
@@ -110,7 +110,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 10. To indicate the achieved recovery level of the impacted asset of the task, update **Asset recovery level**.
 
-    Previously, the assets were automatically marked as Recovered only when all plan tasks were completed, even those assets in later phases such as Return to Normal or Post-Incident Review. This approach delayed visibility into operational readiness. For example, an asset could be functionally available during the Recovery phase, but the system wouldn’t reflect the status until all tasks were done.
+    Previously, assets were marked as Recovered only when all event tasks were completed, even if assets were in later phases like Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, an asset could be functionally available during the Recovery phase, but the system wouldn’t reflect the status until all tasks were done.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state.
 

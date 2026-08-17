@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 keywords: [configure metric aggregation job, scheduled job, metric aggregation, TSOM]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
@@ -65,11 +65,11 @@ Each scheduled job handles one aggregation. The job script defines the source da
     }
     ```
 
-    For a flat, range-based aggregation, set the mode to flat, identify the source resources by range, optionally apply field filters, and provide the anchor CI that holds the result, as shown in the following example.
+    For a flat, range-based aggregation, set the mode to flat, identify the source resources by range, and optionally apply field filters. Provide the anchor CI that holds the result, as shown in the following example.
 
     ```
     var impls = new GlideScriptedExtensionPoint()
-        .getExtensions('TSOMMetricAggregatorSEP');
+        .getExtensions('sn_tsom_em_conns.TSOMMetricAggregatorSEP');
     
     if (!impls || !impls.length) {
         gs.warn('TSOMMetricAggregator: No implementations registered for TSOMMetricAggregatorSEP');
@@ -91,11 +91,11 @@ Each scheduled job handles one aggregation. The job script defines the source da
     }
     ```
 
-    To roll up only a subset of source CIs into a parent CI, use hierarchy mode and narrow the source resources by range and field filters, as shown in the following example. This example averages a metric across a range of SIM cards with an active operational status and publishes the result to the parent mobile private network \(MPN\) service.
+    To roll up only a subset of source CIs into a parent CI, use hierarchy mode. Narrow the source resources by range and field filters, as shown in the following example. This example averages a metric across a range of SIM cards with an active operational status. The result is published to the parent mobile private network \(MPN\) service.
 
     ```
     var impls = new GlideScriptedExtensionPoint()
-        .getExtensions('TSOMMetricAggregatorSEP');
+        .getExtensions('sn_tsom_em_conns.TSOMMetricAggregatorSEP');
     
     if (impls && impls.length) {
         impls[0].aggregate({

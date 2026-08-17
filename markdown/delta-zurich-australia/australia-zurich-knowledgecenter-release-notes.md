@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-knowledgecenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -211,6 +211,10 @@ Australia
 
 Knowledge Center is available by default to all roles in Knowledge Management.
 
+ To use auto-update, enable the **Article Optimization** skill and the `sn_km_center.ao_auto_update.enabled` system property. This property is enabled by default. Enable **AO auto publish enabled** on a Knowledge Base to automatically update articles in that Knowledge Base.
+
+ To use auto-merge, enable the **Identify duplicate articles** and **Merge Articles** skills, and the `sn_km_gen_ai.auto_merge.enable` system property. If this property is inactive, users see the existing potential duplicate article experience. Enable **Enable auto merge publish** on a Knowledge Base to automatically merge and publish potential duplicate articles in that Knowledge Base. Use the `sn_km_gen_ai.auto_merge.confidence_threshold` property to set the confidence threshold for automatic merge and publish. Use the `sn_km_gen_ai.auto_merge.revert_ttl_days` property to set the number of days after which an automatically merged article can no longer be reverted.
+
 </td></tr></tbody>
 </table>## Additional requirements
 
@@ -346,7 +350,9 @@ Zurich
 
 </td><td>
 
--   Use Knowledge Center to manage and distribute organizational knowledge through a centralized and organized interface.
+[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.
 -   Format your content within a knowledge article using editing tools in the article editor.
 -   Improve the quality and health of knowledge articles with article optimization, ensuring that the information is latest and relevant.
@@ -359,7 +365,13 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Automatically update the knowledge article titles and header tags, findings generated from the Article Optimization scans based on the confidence score.
+-   Automatically merge duplicate knowledge articles that are identified using identify duplicate articles skill.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Use the Article Health Score feature to view an article's quality score and get guidance to improve quality at the article level.
 -   Use Knowledge Health Score to understand content quality across the Knowledge Base and drill down for more detailed insights.

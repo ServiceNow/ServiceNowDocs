@@ -26,7 +26,7 @@ Role required: sn\_cwm.cwm\_user
 
 Each task on a Board is a unit of work that your team plans, assigns, and tracks to completion. Add tasks individually when you are starting fresh on a Board or as new work arises throughout a project.
 
-This procedure provides step by step guidance on how to add a single task to a CWM Board. To bring in many tasks at once from an existing file such as Excel, Word, or PDF, you can import them using Now Assist instead of adding them one by one. See [Import existing tasks into a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/import-tasks-cwm-board.md).
+This procedure provides step by step guidance on how to add a single task to a CWM Board. To bring in many tasks at once from an existing file such as Excel, Word, or PDF. You can import them using Now Assist instead of adding them one by one. See [Import existing tasks into a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/import-tasks-cwm-board.md).
 
 ## Procedure
 
@@ -46,7 +46,7 @@ This procedure provides step by step guidance on how to add a single task to a C
 ## What to do next
 
 -   Add more tasks to the Board and assign them to yourself or members of your team.
--   Edit the information of your task from the side panel by clicking the short description to open it or directly from the grid through inline editing by double-clicking a cell.
+-   Edit the information of your task from the side panel by clicking the short description to open it. Alternatively, edit it directly from the grid through inline editing by double-clicking a cell.
 -   Rearrange your tasks on the Board by using the drag-and-drop feature.
 -   Share tasks by their URL using the **Copy task link** option from the row context menu of the task. This way, when a user clicks the shared URL, the task opens in the side panel in the context of the Board that it belongs to.
 
@@ -59,7 +59,7 @@ Additionally, to enhance the planning and management of tasks, you can:
 -   Choose the columns to be displayed for the tasks on the Board. See [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
 
 -   **[Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)**  
-Use the generative AI capabilities of Now Assist to create tasks from the content of your Docs and help you add them to the required Board in CWM workspace.
+Use the generative AI capabilities of ServiceNow Otto to create tasks from the content of your Docs and help you add them to the required Board in CWM workspace.
 
 **Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

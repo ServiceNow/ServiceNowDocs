@@ -1,5 +1,5 @@
 ---
-title: Moveworks AI assistant capabilities
+title: ServiceNow Otto AI assistant capabilities
 description: You can handle work tasks, find information, and get things done faster with the Moveworks AI assistant. Chat naturally to update records, search company content, get answers, and complete requests without switching between different systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.html
@@ -9,11 +9,11 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 5
-keywords: [Moveworks, AI assistant, reasoning engine, specialized assistants, interactive split view, Enterprise Search, World Knowledge]
+keywords: [Otto, AI assistant, reasoning engine, specialized assistants, interactive split view, Enterprise Search, World Knowledge]
 breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Moveworks AI assistant capabilities
+# ServiceNow Otto AI assistant capabilities
 
 You can handle work tasks, find information, and get things done faster with the Moveworks AI assistant. Chat naturally to update records, search company content, get answers, and complete requests without switching between different systems.
 

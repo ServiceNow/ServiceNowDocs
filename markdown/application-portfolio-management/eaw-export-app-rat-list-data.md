@@ -1,6 +1,6 @@
 ---
 title: Export application rationalization data to Excel or CSV
-description: Export the application rationalization list view data to Microsoft Excel or CSV so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis.
+description: Export the application rationalization list view data to Microsoft Excel or CSV to obtain insights, share with stakeholders, and prepare for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-export-app-rat-list-data.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Use list view, Working with application rationalization, Managing E
 
 # Export application rationalization data to Excel or CSV
 
-Export the application rationalization list view data to Microsoft Excel or CSV so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis.
+Export the application rationalization list view data to Microsoft Excel or CSV to obtain insights, share with stakeholders, and prepare for analysis.
 
 ## Before you begin
 

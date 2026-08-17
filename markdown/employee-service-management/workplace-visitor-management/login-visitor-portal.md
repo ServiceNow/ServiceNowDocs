@@ -9,7 +9,7 @@ classification: workplace-visitor-management
 topic_type: concept
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Using the visitor portal, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Logging in to the visitor portal

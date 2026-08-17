@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Working with external datasets, Use, Process Mining, Platform Analytics]
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Create a project
@@ -120,6 +120,4 @@ Select the target reference field.**Note:** To provide a value for this field, y
 
     For information, see [Review and mine your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/review-mine.md).
 
-
-**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
 

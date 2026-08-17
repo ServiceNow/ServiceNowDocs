@@ -39,15 +39,15 @@ Your consumer service portal activity usually begins on the consumer service por
 |Knowledge|**Knowledge** on the header and the main page takes you to the kb\_home page. The knowledge home page allows you to search the knowledge base or view a list of top-rated or most viewed knowledge base articles.|
 |Requests|Displays all your requests and you can also request from the catalog for items and services.|
 |My lists|Lists all your cases.|
-|Get help menu|Click **Get Help** to open a product or order case.|
+|Get help menu|Select **Get Help** to open a product or order case.|
 |Support menu|Navigate to cases, orders, my products, and other quick links.|
 |Tours|View a tour for additional guidance on how the Customer Service Management application works. Tours appear when your administrator creates them on certain pages.|
-|Chat|Click **Chat** to chat with a virtual agent or a customer service agent.|
+|Chat|Select **Chat** to chat with a virtual agent or a customer service agent.|
 |Callback request|Request a callback when the wait time to reach agents is long or agents are unavailable.|
-|Profile menu|Click your profile photo to either view your profile or logout.|
-|Search|Enter a search term and click **Search** to view the search results.|
-|Ask the Community|Click **Ask the Community** to access the Community homepage.|
-|Get help|Click **Get help** to make a request or report a problem by opening a case.|
+|Profile menu|Select your profile photo to either view your profile or logout.|
+|Search|Enter a search term and select **Search** to view the search results.|
+|Ask the Community|Select **Ask the Community** to access the Community homepage.|
+|Get help|Select **Get help** to make a request or report a problem by opening a case.|
 |Most viewed articles|View a list of most viewed articles.|
 |Featured articles|View featured community content.|
 |Most useful articles|View most useful articles based on the usage count of the articles.|
@@ -60,7 +60,7 @@ Your consumer service portal activity usually begins on the consumer service por
 
 ## Customizing the Consumer Service Portal
 
-To customize this portal, navigate to **Service Portal** &gt; **Portals** and click **Customer Service**. See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) for more information about creating a custom interface.
+To customize this portal, navigate to **Service Portal** &gt; **Portals** and select **Customer Service**. See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) for more information about creating a custom interface.
 
 **Related topics**  
 

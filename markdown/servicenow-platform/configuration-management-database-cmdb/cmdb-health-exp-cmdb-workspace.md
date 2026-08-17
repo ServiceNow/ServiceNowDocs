@@ -25,8 +25,10 @@ CMDB Health is fully integrated into CMDB Workspaceand Service Graph Workspace. 
 Use the CMDB Workspace landing page and its views to access CMDB Health tiles that are based on CMDB Health activities and aggregations. For example:
 
 -   Use the Important actions tile on the landing page to access cards with CMDB Health-related tasks such as de-duplication tasks.
--   Use the CMDB Health tile to see overall health scores for the completeness, compliance, and correctness KPIs, and to drill down to the CMDB Health Dashboard within CMDB Workspace.
+-   Use the CMDB Health tile to see overall health scores for the completeness, compliance, and correctness KPIs. Also, to drill down to the CMDB Health Dashboard within CMDB Workspace.
 -   Use tiles throughout the CMDB Workspace to drill down to health overviews of specific CIs.
+
+## Access
 
 Access CMDB Health in CMDB Workspace by navigating to **Workspaces** &gt; **CMDB Workspace**.Access CMDB Health in Service Graph Workspace by navigating to **Workspaces** &gt; **Service Graph Workspace**, selecting the Insights icon in the navigation panel, and then selecting **CMDB Health** in the Insights navigation panel.
 

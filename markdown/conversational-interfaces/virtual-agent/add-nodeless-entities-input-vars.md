@@ -23,19 +23,23 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without prompting the user again. To prompt the user when not slot-filled, use input controls.
+If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without re-prompting the user. To prompt the user when not slot-filled, use input controls.
 
 For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md). For more information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Open a topic and view the **Flow** tab.
+2.  Select the **Asset library** tab.
 
-3.  In the sidebar, select the Variables tab, and select the **Input** icon \[Omitted image "icon-plus-clear.png"\].
+3.  In the Asset library, set the topic discovery switch to **NLU/Keyword**.
 
-4.  On the form, fill in the fields.
+4.  Open a topic and view the **Flow** tab.
+
+5.  In the sidebar, select the Variables tab, and select the **Input** icon \[Omitted image "icon-plus-clear.png"\].
+
+6.  On the form, fill in the fields.
 
 <table id="table_ncp_hnp_frb"><thead><tr><th>
 
@@ -158,7 +162,7 @@ Select one of the following:-   **Condition Builder**: Creates a filter used to 
 
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>7.  Select **Save**.
 
     NLU entities appear alongside topic input variables in the Variables sidebar.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accountspayableoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Zurich
 
 </td><td>
 
--   **[Tax Engine Integration](https://www.servicenow.com/docs/access?context=tax-engine-integration&family=zurich&ft:locale=en-US)**
+-   **[Tax engine integration](https://www.servicenow.com/docs/access?context=tax-engine-integration&family=zurich&ft:locale=en-US)**
 
 The tax engine integration framework validates supplier-provided tax against system tax at invoice line level, maintains compliance with regional and global tax regulations. This integration triggers automatic tax validation, handles exceptions for tax variance and missing data, enables manual revalidation and rolling up of system tax.
 
@@ -105,13 +105,13 @@ Australia
 
 </td><td>
 
--   **[Tax Engine Integration](https://www.servicenow.com/docs/access?context=tax-engine-integration&family=australia&ft:locale=en-US)**
+-   **[Tax engine integration](https://www.servicenow.com/docs/access?context=tax-engine-integration&family=australia&ft:locale=en-US)**
 
 The tax engine integration framework validates supplier-provided tax against system tax at invoice line level, and supports regional and global tax requirements. This integration triggers automatic tax validation, handles exceptions for tax variance and missing data, enables manual re validation and rolling up of system tax.
 
 -   **[Email parser agent for APO](https://www.servicenow.com/docs/access?context=email-parser-agent-for-apo&family=australia&ft:locale=en-US)**
 
-The Email parser is an AI agent that automatically processes incoming emails \(Level 1 support cases and tasks\) from suppliers and invoice owners, identifies actionable requests, classifies them, and creates invoice cases.
+The email parser agent is an AI agent that automatically processes incoming emails \(Level 1 support cases and tasks\) from suppliers and invoice owners. The email parser agent identifies actionable requests, classifies them, and creates invoice cases.
 
 
 -   **[Invoice rejection modes](https://www.servicenow.com/docs/access?context=invoice-rejection-modes&family=australia&ft:locale=en-US)**
@@ -155,7 +155,7 @@ Australia
 
 -   **[Invoice exceptions](https://www.servicenow.com/docs/access?context=work-with-invoice-exceptions&family=australia&ft:locale=en-US)**
 
-Accounts Payable Operations flags invoices received from unrecognized or unverified supplier sources as exceptions. The system compares sender email addresses and identities against registered supplier contacts; invoices from unmatched sources are held for verification. This helps reduce the risk of invoice fraud, verifies payment accuracy, and maintains supplier control by requiring verification before processing invoices from unknown sources.
+Accounts Payable Operations flags invoices received from unrecognized or unverified supplier sources as exceptions. The system compares sender email addresses and identities against registered supplier contacts; invoices from unmatched sources are held for verification. This helps to reduce the risk of invoice fraud, verifies payment accuracy, and maintains supplier control by requiring verification before processing invoices from unknown sources.
 
 
 </td></tr></tbody>
@@ -398,6 +398,7 @@ Australia
 
 </td><td>
 
+-   Invoice tax lines now capture the jurisdiction, jurisdiction type, and tax authority applied during tax calculation.
 -   Suppliers can submit, track, and confirm resolutions without portal navigation.
 -   Configure rejection modes to customize workflows so that AI workers focus on resolution quality rather than administrative tasks.
 -   Use automated email parsing and LLM-assisted responses to handle cases with less manual effort.

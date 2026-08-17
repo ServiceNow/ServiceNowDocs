@@ -1,5 +1,5 @@
 ---
-title: Create recall corrective actions using Now Assist for Manufacturing Commercial Operations \(MCO\)
+title: Create recall corrective actions using ServiceNow Otto for MCO
 description: Create recall corrective actions AI agent extracts the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/execute-recall-campaigns.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, Now Assist for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
 ---
 
-# Create recall corrective actions using Now Assist for Manufacturing Commercial Operations \(MCO\)
+# Create recall corrective actions using ServiceNow Otto for MCO
 
 Create recall corrective actions AI agent extracts the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 
@@ -24,7 +24,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 2.  Create a recall campaign record.
 
-3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the Now Assist panel.
+3.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the ServiceNow Otto panel.
 
 4.  Submit a request to initiate a corrective action.
 

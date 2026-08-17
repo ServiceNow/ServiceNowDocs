@@ -91,6 +91,10 @@ Major Security Incident \(sn\_msi\_incident\).
 
 8.  Add the **Channel Users** and **Channel User Groups** from the lookup list.
 
+    Default channels may include: Executive, Technical, Legal.
+
+    **Important:** All users and groups added to a channel template must have a valid Microsoft Account.
+
 9.  **Submit** the new chat channel configuration record.
 
     \[Omitted image "chat-channel-config-new-record.png"\] Alt text: Chat Channel Configuration

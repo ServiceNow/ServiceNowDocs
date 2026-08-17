@@ -28,7 +28,7 @@ Action group provides quick access to action items such as approve or reject the
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **Action framework** &gt; **Action Groups**.
 
-2.  Click **New** or edit an existing record such as **Approvals action group**.
+2.  Select **New** or edit an existing record such as **Approvals action group**.
 
 3.  Edit the **Action group name** or click save or update.
 

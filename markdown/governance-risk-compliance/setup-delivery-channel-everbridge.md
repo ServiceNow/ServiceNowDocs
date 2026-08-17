@@ -20,7 +20,7 @@ Role required: BCM admin \(sn\_bcm.admin\)
 
 ## About this task
 
-Finding out how to reach or connect with your stakeholders at the time of crisis may have many challenges. Your notifications may not reach them as they may no longer use those delivery methods through which you are trying. Having imported delivery channels to reach your contacts and selected groups make your notification service much more certain and manageable.
+Finding out how to reach or connect with your stakeholders at the time of crisis may have many challenges. Your notifications may not reach them as they may no longer use those delivery methods through which you are trying. Having imported delivery channels to reach your contacts and selected groups makes your notification service much more certain and manageable.
 
 ## Procedure
 

@@ -25,7 +25,7 @@ ERP Semantic Mining evaluates application candidates and presents a numeric scor
 -   A high potential indicates that ERP Semantic Mining can immediately use remote tables and extraction tables that match the ERP model for the application candidate without making additional changes.
 -   A low potential indicates that the application candidate matches few of the remote tables and extraction tables in the ERP models in Zero Copy Connector for ERP.
 
-Good candidates for replatforming tend to be smaller applications that use data from the system of record.
+Good candidates for replatforming tend to be smaller applications that use data from the ERP system.
 
 **Note:**
 

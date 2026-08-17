@@ -1,6 +1,6 @@
 ---
 title: Execute Skill action
-description: Run a published Now Assist skill and use the skill outputs in a flow or subflow.For existing actions and subflows, copy the short description from the product documentation, or insert a content reference to it. For new actions and subflows, create reusable content and insert a content reference to the short description.
+description: Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.For existing actions and subflows, copy the short description from the product documentation, or insert a content reference to it. For new actions and subflows, create reusable content and insert a content reference to the short description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/execute-skill-action.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, a
 
 # Execute Skill action
 
-Run a published Now Assist skill and use the skill outputs in a flow or subflow.
+Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.
 
 ## Roles and availability
 
@@ -22,7 +22,7 @@ Available as a Now Assist Skill Kit action.
 
 -   **Subscription requirements**
 
-    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    This action requires activiating the Now Assist Skill Kit plugin from the Now Assist panel. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   **Role requirements**
 

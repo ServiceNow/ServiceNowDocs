@@ -38,15 +38,15 @@ You can generate a location-based, default privacy configuration for each countr
 
 4.  Configure the privacy consent text if necessary.
 
-<table id="choicetable_w2c_2lg_gmb"><thead><tr><th align="left" id="d412503e101">
+<table id="choicetable_w2c_2lg_gmb"><thead><tr><th align="left" id="d412600e101">
 
 Privacy consent status
 
-</th><th align="left" id="d412503e104">
+</th><th align="left" id="d412600e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d412503e110">
+</th></tr></thead><tbody><tr><td id="d412600e110">
 
 **Consent is not required for the location**
 
@@ -54,7 +54,7 @@ Action
 
 Clear the **Needs privacy consent** check box.
 
-</td></tr><tr><td id="d412503e122">
+</td></tr><tr><td id="d412600e122">
 
 **Consent is required for the location**
 

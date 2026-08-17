@@ -36,15 +36,15 @@ Role required: sn\_apm.apm\_user
 
 8.  In the Add business capabilities window, add the relevant business capabilities or particular sub capabilities.
 
-<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d101820e146">
+<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d110531e146">
 
 Options
 
-</th><th align="left" id="d101820e149">
+</th><th align="left" id="d110531e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101820e155">
+</th></tr></thead><tbody><tr><td id="d110531e155">
 
 **Add parent business capabilities to the business application**
 
@@ -56,7 +56,7 @@ In the **Available items** box, select the check box next to a business capabili
 
  \[Omitted image "business-capability-added-to-ba.png"\] Alt text: Selected business capabilities that are to be added to the business application.
 
-</td></tr><tr><td id="d101820e183">
+</td></tr><tr><td id="d110531e183">
 
 **Add specific sub capabilities to the business application**
 
@@ -65,7 +65,7 @@ In the **Available items** box, select the check box next to a business capabili
 1.  In the **Available items** box, select the open item icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to a business capability.
 2.  In the sub capabilities box, select the check box next to the sub capability that you want to the business application.
 
-You can again select the open item icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to a sub capability to view more sub capabilities that are lower in the business capability hierarchy.\[Omitted image "business-sub-capability-added-to-ba.png"\] Alt text: Selected subcapabilities that are to be added to the business application.
+You can again select the open item icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to a sub-capability to view more sub- capabilities that are lower in the business capability hierarchy.\[Omitted image "business-sub-capability-added-to-ba.png"\] Alt text: Selected subcapabilities that are to be added to the business application.
 
 </td></tr></tbody>
 </table>9.  Select **Save**.

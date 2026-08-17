@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) help remediate bill issues agentic workflow
 description: Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/billissue-remediation-usecase.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) help remediate bill issues agentic workflow
 
 Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 
@@ -30,7 +30,7 @@ To modify the Help remediate bill issues agentic workflow, [Duplicate an agentic
 
 Required role: sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Help remediate bill issues agentic workflow
 

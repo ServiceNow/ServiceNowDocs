@@ -26,15 +26,15 @@ Registering a product associates it with your account so that support agents can
 
 1.  Log in to the Consumer Service Portal.
 
-2.  Click **Support** in the portal header and then click **Register Product**.
+2.  Select **Support** in the portal header and then select **Register Product**.
 
 3.  Type a search term in the search field and press Enter to display a list of products.
 
-4.  Click the **Select** button on the card for the desired product.
+4.  Select the **Select** button on the card for the desired product.
 
 5.  Enter the **Serial Number** and the **Purchase Date** for the selected product.
 
-6.  Click **Register**.
+6.  Select **Register**.
 
     After the product is successfully registered, it appears in the My Products list, which includes the products registered to the current user.
 

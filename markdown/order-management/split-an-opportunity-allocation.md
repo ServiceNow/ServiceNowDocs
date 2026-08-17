@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Manage allocations, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Manage allocations, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Split opportunity allocation
@@ -58,7 +58,7 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

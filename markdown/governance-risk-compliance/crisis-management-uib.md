@@ -27,7 +27,7 @@ Creating a crisis event includes these steps:
 
 ## Creating a crisis event in Business Continuity Workspace
 
-if you are the BCM program manager, you can create a crisis event in Business Continuity Workspace by using one of the options:
+If you are the BCM program manager, you can create a crisis event in Business Continuity Workspace by using one of the options:
 
 -   You can navigate to the **Crisis events** tab in the Home page and select **Report crisis** as shown in the example.
 

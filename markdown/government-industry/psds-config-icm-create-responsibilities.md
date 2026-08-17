@@ -27,7 +27,7 @@ You can use the responsibility definitions provided with the Investigative Case 
 |Responsibility| |
 |--------------|---|
 |Case Agent| |
-|Coroners Office Liason| |
+|Coroners Office Liaison| |
 |Crime Lab Technician| |
 |District Attorney| |
 |Expert Analyst| |

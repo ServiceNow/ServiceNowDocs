@@ -1,5 +1,5 @@
 ---
-title: Specify the virtual machine managers \(VMMs\) for which you are tracking IBM licenses
+title: Specify VMMs for IBM licenses
 description: Specify the virtual machine managers \(VMMs\), such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VMMs only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.html
@@ -12,13 +12,17 @@ reading_time_minutes: 1
 breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Specify the virtual machine managers \(VMMs\) for which you are tracking IBM licenses
+# Specify VMMs for IBM licenses
 
 Specify the virtual machine managers \(VMMs\), such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VMMs only.
 
 ## Before you begin
 
 Role required: sam\_admin or sam\_user
+
+## About this task
+
+**Note:** Nutanix and public cloud environments do not require this step.
 
 ## Procedure
 

@@ -1,59 +1,57 @@
 ---
-title: Use Now Assist Data Kit features in Now Assist Center
-description: Use Now Assist Data Kit on the data page in the Now Assist Center workspace.
+title: Use AI Data Kit features in AI Admin Center
+description: Use AI Data Kit on the data page in the AI Admin Center workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-use-data-kit-features.html
 release: australia
 topic_type: task
-last_updated: "2026-03-14"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Using other Now Assist applications from Now Assist Center, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using other AI applications from AI Admin Center, Use, AI Admin Center, Enable AI experiences]
 ---
 
-# Use Now Assist Data Kit features in Now Assist Center
+# Use AI Data Kit features in AI Admin Center
 
-Use Now Assist Data Kit on the data page in the Now Assist Center workspace.
+Use AI Data Kit on the data page in the AI Admin Center workspace.
 
 ## Before you begin
 
 The following applications must be installed before performing this task:
 
--   Now Assist Center.
+-   AI Admin Center.
 
-    For more information, see [Confirm installation of Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-install.md).
+    For more information, see [Confirm installation of AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-install.md).
 
--   Now Assist Data Kit.
+-   AI Data Kit.
 
-    For more information, see [Install and configure essential Now Assist plugins using Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
+    For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
 
 
 Role required: sn\_na\_center.nac\_admin
 
 ## About this task
 
-Follow these steps to use Now Assist Data Kit capabilities from Now Assist Center.
+Follow these steps to use AI Data Kit capabilities from AI Admin Center.
 
-Now Assist Data Kit enables you to add custom datasets to a data catalog and create collections for use in ServiceNow SDK. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
+AI Data Kit enables you to add custom datasets to a data catalog and create collections for use in ServiceNow SDK. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
 
-In Now Assist Center, the integration of Now Assist Data Kit includes multi-tabbing support for working with datasets without leaving the application context.
+In AI Admin Center, the integration of AI Data Kit includes multi-tabbing support for working with datasets without leaving the application context.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Select **Data** \(\[Omitted image "icon-now-assist-center-nav-data.png"\] Alt text: Data icon. \) in the side navigation bar.
 
-    The Data tab opens showing the Now Assist Data Kit home page.
+    The Data tab opens showing the AI Data Kit home page.
 
-    \[Omitted image "now-assist-center-data-kit-home.png"\] Alt text: Data page in Now Assist Center.
+3.  Perform any of the tasks you would perform in the AI Data Kit application.
 
-3.  Perform any of the tasks you would perform in the Now Assist Data Kit application.
+    Each action you take will open in a new tab in the AI Admin Center workspace.
 
-    Each action you take will open in a new tab in the Now Assist Center workspace.
-
-    For more information on Now Assist Data Kit, see [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+    For more information on AI Data Kit, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 
 
-**Parent Topic:**[Using other Now Assist applications and features from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)
+**Parent Topic:**[Using other AI applications and features from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)
 

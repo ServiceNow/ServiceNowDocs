@@ -7,7 +7,7 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [Components installed with ServiceNow Lens, Roles installed with ServiceNow Lens, Tables installed with ServiceNow Lens, ServiceNow Lens roles, ServiceNow Lens tables]
 breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]

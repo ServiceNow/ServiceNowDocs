@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Data sharing and processes, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure Now Assist privacy policies
@@ -38,7 +38,7 @@ The Now Assist **Privacy Policies** enables you to review and configure how pers
 
 4.  Select **Edit in Data Privacy**.
 
-    See  for more information on configuring Now Assist policies.
+    See [Configuring ServiceNow Otto for Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-now-assist-data-privacy.md) for more information on configuring Now Assist policies.
 
 
 **Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md)

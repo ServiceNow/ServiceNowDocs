@@ -203,6 +203,19 @@ sn\_wsd\_rsv.display\_invitees\_on\_outlook
 
 If the **Allow invitees** check box is selected on the Reservation module configuration page and the **sn\_wsd\_rsv.display\_invitees\_on\_outlook**is set to true,employees can see the option to select invitees when making a reservation using Microsoft Outlook Add-in.**Note:** If **Allow invitees** check box is selected in Reservable Module configuration, and sn\_wsd\_rsv.display\_invitees\_on\_outlook property is set to true, then, this property value is given priority and employees are allowed to add invitees to a reservation. If **Allow invitees** is selected, and**sn\_wsd\_rsv.display\_invitees\_on\_outlook**is set to false, employees can’t add invitees to a reservation. For more information, see [Configure Reservable Module for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-rsv-module-outlook.md).
 
+</td></tr><tr><td>
+
+sn\_wsd\_rsv.UNASSIGNED\_USER\_ACCESS\_MODE
+
+</td><td>
+
+This property controls space reservation access for users who don't have an assigned department, cost center, or workplace entity.-   Type: choicelist
+-   Values: `restricted`, `unrestricted`
+
+Restricted: Users with no assigned department, cost center, or workplace entity can only see and reserve spaces that match their own allocations.
+
+Unrestricted: Unassigned users don't have any restrictions on the spaces they can reserve.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 

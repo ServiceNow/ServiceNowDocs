@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Detailed information of the planning item.You can refine demand description using the Write planning item skill, if the Now Assist for SPM application is installed.
+Detailed information of the planning item.You can refine demand description using the Write planning item skill, if the ServiceNow Otto for SPM application is installed.
 
 </td></tr><tr><td>
 

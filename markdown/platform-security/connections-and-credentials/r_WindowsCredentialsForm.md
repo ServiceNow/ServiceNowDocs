@@ -48,13 +48,15 @@ To run Powershell commands to discover a Workgroup computer, configure the MID S
 -   Built-in administrator account on the Workgroup computer.
 -   Domain user on the Workgroup computer.
 
-## Multi-domain configuration
-
-To enable Windows credentials to function across multiple domains, make sure to sure to use the correct name formats and MID Server configuration.
+## Credential name formats
 
 Discovery and Orchestration support Windows domain credentials in both **User Principal Name** and **Down-Level Logon Name** user name formats. For example, **Domain\\UserName** or **UserName@example.domain.com**. You can provide Windows workgroup credentials in the following format: WORKGROUP\\UserName.
 
 **Note:** You can also provide a local account by using the **. \\** user name.
+
+## Multi-domain configuration
+
+To enable Windows credentials to function across multiple domains, make sure to use the correct name formats and MID Server configuration.
 
 These additional actions are required to enable credentials to function across multiple Windows domains.
 

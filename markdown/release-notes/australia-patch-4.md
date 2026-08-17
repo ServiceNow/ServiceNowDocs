@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-4
 release: australia
 topic_type: reference
 last_updated: "2026-07-09"
-reading_time_minutes: 112
+reading_time_minutes: 113
 breadcrumb: [Available patches and hotfixes, Learn about the Australia release, Australia release notes]
 ---
 
@@ -38,43 +38,43 @@ Australia Patch 4 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 4
 
--   ****
+-   **[Manage related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-archive-rule.md)**
 
     Archive, clear, or delete related records when an archive rule runs.
 
--   ****
+-   **[Create an archive rule in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-archive-rule.md)**
 
     Define a rule for archiving records.
 
--   ****
+-   **[Create a cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-cleanup-rule.md)**
 
     Define a rule for deleting records from a primary table on a recurring basis.
 
--   ****
+-   **[Create a one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md)**
 
     Define a rule for deleting records now or at a later date.
 
--   ****
+-   **[Define archive rule conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-archive-rule.md)**
 
     Define one or more conditions that identify the records to be archived.
 
--   ****
+-   **[Define cleanup rule conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-cleanup-rule.md)**
 
     Define one or more conditions that identify the records to be deleted.
 
--   ****
+-   **[Define one-time delete rule conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md)**
 
     Define one or more conditions that identify the records to be deleted.
 
--   ****
+-   **[Define destroy rule conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-archive-rule.md)**
 
     Delete archived records after a specified amount of time by configuring optional destroy rule conditions.
 
--   ****
+-   **[Deleting older or unwanted records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records.md)**
 
     Delete older, expired, or unwanted records from tables automatically.
 
--   ****
+-   **[Encryption at rest for Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/encryption-at-rest.md)**
 
     Encryption at rest for Hermes topics protects message data stored on broker disks from unauthorized access. Hermes supports both ServiceNow-managed keys and keys you provide using the Bring Your Own Key \(BYOK\) model.
 
@@ -96,43 +96,43 @@ Australia Patch 4 includes fixes for security-related problems that affected cer
     -   Default: false
     -   Learn more: 
     -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   ****
+-   **[Archiving records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-records.md)**
 
     Manage table size growth and improve query performance by archiving records.
 
--   ****
+-   **[Managing data growth in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-data-growth.md)**
 
     Manage the growth and storage of data on your instance by creating data management rules in the Data Management Console.
 
--   ****
+-   **[Restore archived records and related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-restore-archived-records.md)**
 
     Restore one or more archive records and any related records back into the primary table.
 
--   ****
+-   **[Previewing and deleting records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/previewing-deleting-records.md)**
 
     Safely delete records from a table without using scripts and without deleting the table by creating one-time delete rules.
 
--   ****
+-   **[Schedule or execute a one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md)**
 
     Schedule a date and time to execute a one-time delete rule or execute it after you finish creating it.
 
--   ****
+-   **[Select associated records to delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-cleanup-rule.md)**
 
     Specify which associated records to delete when the cleanup rule runs.
 
--   ****
+-   **[Select associated records to delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md)**
 
     Specify which associated records to delete when the one-time delete rule runs.
 
--   ****
+-   **[View a summary of your archive rule and activate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-archive-rule.md)**
 
     View a summary of your archive rule and decide whether to activate it.
 
--   ****
+-   **[View a summary of your cleanup rule and activate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-cleanup-rule.md)**
 
     View a summary of your cleanup rule and decide whether to activate it.
 
--   ****
+-   **[View a summary of your one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md)**
 
     View a summary of your one-time delete rule and acknowledge the deletion.
 
@@ -7478,8 +7478,12 @@ The 'Sort by' skill runs slowly.
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
+-   [Australia Patch 3 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3137130)
 -   [Australia Patch 3 Hot Fix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3104013)
 -   [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+-   [Australia Patch 2 Hotfix 4a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-4a-PO.md)
+-   [Australia Patch 2 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135839)
+-   [Australia Patch 2 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3137328)
 -   [Australia Patch 2 Hot Fix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101088)
 -   [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)

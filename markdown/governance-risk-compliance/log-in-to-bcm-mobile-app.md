@@ -89,9 +89,9 @@ Enter a nickname for this instance. If you have multiple instances added to the 
 6.  Access the BCM mobile app interface.
 
 
-If the instances screen for the BCM mobile app isn’t displayed after you tap the ServiceNow Agent app on your device, verify that the ServiceNow Agent app is permitted as a trusted app on your device. To permit access as a trusted app, navigate to the settings and general device management on your device and tap the option \(**Trust app**, and so on\) to permit access.
+If the instances screen for the BCM mobile app isn’t displayed after you tap the ServiceNow Agent app, verify that ServiceNow Agent is permitted as a trusted app. To permit access as a trusted app, navigate to the settings and general device management on your device and tap the option \(**Trust app**, and so on\) to permit access.
 
-If an error message is displayed after you enter your credentials in the log in screen, verify that your User name and password for the ServiceNow AI Platform instance is correct.
+If an error message appears after you enter your credentials, verify that your username and password for the ServiceNow AI Platform instance are correct.
 
 If you have problems viewing the landing screen, verify your network connection.
 

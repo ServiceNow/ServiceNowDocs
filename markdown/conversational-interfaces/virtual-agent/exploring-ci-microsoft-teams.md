@@ -51,7 +51,7 @@ To learn more about configuring and using Conversational Integration with Micros
 -   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md).
 -   [Integrate Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md).
 
-For more information about integrating Microsoft Copilot with Now Assist, see the following ServiceNow blog and community articles:
+For more information about integrating Microsoft Copilot with ServiceNow Otto, see the following ServiceNow blog and community articles:
 
 -   [https://www.servicenow.com/blogs/2024/now-assist-microsoft-copilot](https://www.servicenow.com/blogs/2024/now-assist-microsoft-copilot)
 -   [https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238](https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238)

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM AIOps, IT Operations Management]
+breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, Explore, ITOM AIOps, IT Operations Management]
 ---
 
 # Plugins or applications installed with ITOM AIOps
@@ -134,5 +134,5 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/app-now-assist-itom.md)
 

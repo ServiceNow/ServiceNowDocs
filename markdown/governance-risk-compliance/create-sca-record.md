@@ -56,7 +56,7 @@ Users with the sn\_oper\_res.user role can view records and playbook stages in r
     -   **Manual** — Uses an SME-driven assessment template without simulation.
     **Note:** The **Method** field defines which of the two scenario analysis flows you use; it is a choice, not an optional step. Select **Statistical Modelling** for a Monte Carlo simulation, or **Manual** for a qualitative SME assessment.
 
-    When you choose **Manual**, the **Statistical model profile** field is hidden, the playbook omits the Reference Data and Results steps, and the Scenario Testing step uses an SME-driven assessment template instead of a simulation. All other playbook steps are identical.
+    When you choose **Manual**, the **Statistical model profile** field is hidden, the playbook omits the Reference Data and Results steps. The Scenario Testing step uses an SME-driven assessment template instead of a simulation. All other playbook steps are identical.
 
     **Statistical Modelling** is selected by default.
 

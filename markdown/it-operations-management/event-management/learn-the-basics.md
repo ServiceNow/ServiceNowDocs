@@ -8,9 +8,9 @@ product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2024-12-19"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Event Management, AIOps, basics, implementation]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Learn the basics
@@ -23,7 +23,7 @@ Event Management is the central hub that ingests events from monitoring tools, a
 
 ## Implementation Stages
 
-Follow a phased approach to deploying Event Management, starting with a single high-value service and progressively moving through four stages — getting basic alert response working, reducing alert noise, reducing mean time to resolve \(MTTR\), and shifting from reactive to proactive operations — ensuring measurable value at every step.
+Deploy Event Management using a phased approach, starting with a single high-value service and progressing through four stages — basic alert response, noise reduction, faster MTTR, and proactive operations.
 
 ## Should I Wait for CMDB
 

@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-07-24"
 reading_time_minutes: 11
 breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -116,21 +116,21 @@ Search result previews display a default set of AI Search index fields. If you h
 
 When customizing a search result preview's EVAM view configuration, you can reference the AI Search index fields that exist on the previewed search result. To add a new AI Search index field to search results from an indexed source, define a **map\_to** field setting. This field setting populates the index field on each affected search result with the value of a field you specify from the search result's source record or document. For an overview of mapping source fields to AI Search index fields, see [Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-settings-ais.md). To create a new **map\_to** field setting for one of your indexed sources, see [Create a field setting for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-field-setting-ais.md).
 
-## Now Assist in Virtual Agent enhanced chat entry point
+## ServiceNow Otto® for Virtual Agent enhanced chat entry point
 
-If Now Assist in Virtual Agent enhanced chat is activated in the Now Assist panel, the search field in global and workspace search displays a search icon and `Search or ask Now Assist` placeholder text. When you enter search terms, the search field displays Now Assist suggestions. Selecting a Now Assist suggestion takes you to enhanced chat in the dynamic window.
+If ServiceNow Otto for Virtual Agent enhanced chat is activated in the ServiceNow Otto panel, the search field in global and workspace search displays a search icon and `Search or ask ServiceNow Otto®` placeholder text. When you enter search terms, the search field displays ServiceNow Otto suggestions. Selecting a ServiceNow Otto suggestion takes you to enhanced chat in the dynamic window.
 
 **Note:**
 
 To see this enhanced chat entry point behavior, your instance must satisfy all of the following conditions:
 
--   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) is installed.
--   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md) is installed.
--   Enhanced chat is activated via the Now Assist panel. For details on activating enhanced chat, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
+-   [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) is installed.
+-   [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md) is installed.
+-   Enhanced chat is activated via the ServiceNow Otto panel. For details on activating enhanced chat, see [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
 
-If these conditions aren't satisfied, the search field in global and workspace search doesn't display the icon and placeholder text or show Now Assist suggestions.
+If these conditions aren't satisfied, the search field in global and workspace search doesn't display the icon and placeholder text or show ServiceNow Otto suggestions.
 
-To learn about Now Assist in Virtual Agent enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
+To learn about ServiceNow Otto for Virtual Agent enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
 **Parent Topic:**[AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-next-experience-app.md)
 

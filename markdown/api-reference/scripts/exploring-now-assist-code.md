@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Code
-description: ServiceNow Now Assist for Code is a generative AI-powered tool designed to help developers create, edit, and summarize code.
+title: Exploring ServiceNow Otto for Code
+description: ServiceNow ServiceNow Otto for Code is a generative AI-powered tool designed to help developers create, edit, and summarize code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/exploring-now-assist-code.html
 release: australia
@@ -9,16 +9,16 @@ classification: scripts
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Exploring Now Assist for Code
+# Exploring ServiceNow Otto for Code
 
-ServiceNow® Now Assist for Code is a generative AI-powered tool designed to help developers create, edit, and summarize code.
+ServiceNow® ServiceNow Otto for Code is a generative AI-powered tool designed to help developers create, edit, and summarize code.
 
-Now Assist for Code is designed to empower developers with code suggestions. By using natural language prompts in the script editor on the ServiceNow AI Platform®, you will receive context-aware code suggestions that enhance your coding experience.
+ServiceNow Otto for Code is designed to empower developers with code suggestions. By using natural language prompts in the script editor on the ServiceNow AI Platform®, you will receive context-aware code suggestions that enhance your coding experience.
 
-Now Assist for Code supports Now LLM Service, Azure OpenAI, Google Gemini and AWS Anthropic model providers. This capability is a part of Creator Pro Plus offering and includes the following skills:
+ServiceNow Otto for Code supports Now LLM Service, Azure OpenAI, Google Gemini and AWS Anthropic model providers. This capability is a part of Creator Pro Plus offering and includes the following skills:
 
 -   Code generation
 -   Code autocomplete
@@ -29,7 +29,7 @@ Now Assist for Code supports Now LLM Service, Azure OpenAI, Google Gemini and AW
 
 The Code generation skill creates new code at the cursor location based on user input, without altering the surrounding code. It considers the context provided by the code preceding and following it.
 
-When code generation is enabled on an instance, a Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) appears at the bottom of the script editor.
+When code generation is enabled on an instance, Otto \(\[Omitted image "soc-otto-icon.png"\] Alt text: Otto icon appears in script editor\) appears in the script editor.
 
 After you describe the code you want to generate, you will receive code suggestions in the JavaScript editor on forms in the ServiceNow AI Platform® and in Script steps within Workflow Studio. Developers, regardless of their scripting experience on the ServiceNow AI Platform®, can benefit from code generation, allowing them to start writing custom code or refine existing code more efficiently.
 
@@ -61,7 +61,7 @@ The Code explain and summarize skill provides a summary of the code and a compre
 
 For more information, see [Explain and summarize code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md).
 
-## Now Assist for Code benefits
+## ServiceNow Otto for Code benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|

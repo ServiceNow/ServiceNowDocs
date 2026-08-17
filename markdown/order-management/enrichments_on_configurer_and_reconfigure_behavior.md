@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Scripting: Checking for first and subsequent configurations
@@ -36,7 +36,7 @@ All fields will have the **userEdited** property set to false when the configura
 
 Alternatively, if youʼd like to make only one check in the On Configure/Reconfigure enrichment script, and have Salesforce integration, the **lineId** partner field will only be populated with the Salesforce ID of the parent configurable productʼs quote line when reconfiguring. It will not be populated when a configuration is initialized.
 
-This is because when a ServiceNow CPQ configuration is initialized, this ID does not yet exist, because the configuration has yet to be saved. Only after a ServiceNow CPQ configuration has been created and the quote line editor saved are any quote lines created in Salesforce. So, when we see that the **lineId** partner field is present, we can be sure that the current session is due to a reconfiguration, not a new configuration.
+This is because when a CPQ configuration is initialized, this ID does not yet exist, because the configuration has yet to be saved. Only after a CPQ configuration has been created and the quote line editor saved are any quote lines created in Salesforce. So, when we see that the **lineId** partner field is present, we can be sure that the current session is due to a reconfiguration, not a new configuration.
 
 Script writers can take advantage of this distinction by putting any code that must be run only on initialization or reconfiguration under a check for this value.
 
@@ -66,7 +66,7 @@ if (cfgRequest.partner.quote.lineId.value != null) {
 }
 ```
 
-For more information on partner fields, see [ServiceNow CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md).
+For more information on partner fields, see [CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md).
 
 ## isInitial: creating a text field
 

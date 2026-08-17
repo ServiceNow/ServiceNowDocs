@@ -1,6 +1,6 @@
 ---
 title: Product Support for Technology
-description: ServiceNow Product Support for Technology provide a way for telecommunications, media, and technology \(TMT\) service providers to deliver end-to-end support, while understanding customer impact, and offering transparent communication to all parties involved in the support process.
+description: ServiceNow Product Support for Technology provides telecom and technology service providers to deliver end-to-end support while understanding customer impact, and offering transparent communication to all parties involved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/assurance-workflows.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 
 # Product Support for Technology
 
-ServiceNow® Product Support for Technology provide a way for telecommunications, media, and technology \(TMT\) service providers to deliver end-to-end support, while understanding customer impact, and offering transparent communication to all parties involved in the support process.
+ServiceNow® Product Support for Technology provides telecom and technology service providers to deliver end-to-end support while understanding customer impact, and offering transparent communication to all parties involved.
 
 ## Applications and features
 
@@ -33,8 +33,8 @@ ServiceNow® Product Support for Technology provide a way for telecommunications
 
 -   Learn more about what's new and changed, see the [Product Support for Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/proactive-service-experience-workflows-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Product Support for Technology features at [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/proactive-service-experience?id=learning_course_prev&course_id=58f0f69f87a4ae90cfa68519dabb35ec&s=1&ssa=3)
--   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Product Support for Technology features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=proactive%20service%20experience%20workflows&spa=1)
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   Connect with other Product Support for Technology users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
 

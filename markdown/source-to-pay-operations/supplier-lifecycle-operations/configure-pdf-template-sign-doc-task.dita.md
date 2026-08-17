@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

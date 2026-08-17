@@ -1,18 +1,18 @@
 ---
 title: Matrix Loader
-description: Learn how the Matrix Loader accelerates configuration management by simplifying large-scale data creation, updates, and migrations across your ServiceNow CPQ environments.
+description: Learn how the Matrix Loader accelerates configuration management by simplifying large-scale data creation, updates, and migrations across your CPQ environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/matrix\_loader\_table\_of\_contents.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Matrix Loader
 
-Learn how the Matrix Loader accelerates configuration management by simplifying large-scale data creation, updates, and migrations across your ServiceNow CPQ environments.
+Learn how the Matrix Loader accelerates configuration management by simplifying large-scale data creation, updates, and migrations across your CPQ environments.
 
 The Matrix Loader is a bulk data management utility that enables administrators to efficiently add, edit, and migrate configuration elements such as fields, field options, rules, layouts, product pickers, and tables. Instead of creating elements one by one in the Admin interface, the Matrix Loader lets you define configurations in CSV files—making it ideal for scaling complex implementations, backing up configurations, and moving data between test and production environments.
 
@@ -41,7 +41,7 @@ The Matrix Loader eliminates the repetitive and time-consuming steps involved in
 
 ## Matrix Loader configuration types
 
-The Matrix Loader supports multiple configuration types, each designed to streamline a specific aspect of the ServiceNow CPQ setup:
+The Matrix Loader supports multiple configuration types, each designed to streamline a specific aspect of the CPQ setup:
 
 |Upload Type|Purpose|Example Use Case|
 |-----------|-------|----------------|

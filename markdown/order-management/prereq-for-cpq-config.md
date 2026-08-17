@@ -1,5 +1,5 @@
 ---
-title: Prerequisites for configuring ServiceNow CPQ Configurator
+title: Prerequisites for configuring CPQ Configurator
 description: Verify that you have completed the prerequisites before configuring the Configurator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/prereq-for-cpq-config.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [With guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [With guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Prerequisites for configuring ServiceNow CPQ Configurator
+# Prerequisites for configuring CPQ Configurator
 
 Verify that you have completed the prerequisites before configuring the Configurator.
 
@@ -62,17 +62,17 @@ Role required: admin
 
         **Note:** Replace `<service_instance_url>` with your ServiceNow instance in the URL mentioned above.
 
-    2.  Check that the ServiceNow CPQ.AI Admin UI Application Registry exists with a ClientID and Client secret.
+    2.  Check that the CPQ.AI Admin UI Application Registry exists with a ClientID and Client secret.
 
         This information is required in the following step.
 
-3.  Request a ServiceNow CPQ instance by completing the following the step.
+3.  Request a CPQ instance by completing the following the step.
 
     1.  Navigate to [Now Support](https://support.servicenow.com/now?id=ns_get_help).
 
     2.  Select **Create a case**.
 
-    3.  In the Now Assist chat, select the option to open the case form.
+    3.  In the ServiceNow Otto panel, select the option to open the case form.
 
     4.  Select **Service request**.
 

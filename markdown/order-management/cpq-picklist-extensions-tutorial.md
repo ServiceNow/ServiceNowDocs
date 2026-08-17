@@ -1,18 +1,18 @@
 ---
 title: Configure picklist extensions
-description: Learn how to create and configure picklist extensions \(Picklist extensions\) in ServiceNow CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
+description: Learn how to create and configure picklist extensions \(Picklist extensions\) in CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-picklist-extensions-tutorial.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure picklist extensions
 
-Learn how to create and configure picklist extensions \(Picklist extensions\) in ServiceNow CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
+Learn how to create and configure picklist extensions \(Picklist extensions\) in CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
 
 ## Before you begin
 
@@ -87,7 +87,7 @@ Role required: Admin
 
 18. Click **Save Mapping**, and then in the upper right corner, click **Save**.
 
-19. Add the picklist extension field to the layout via the ServiceNow CPQ Admin UI or by CSV upload, and deploy.
+19. Add the picklist extension field to the layout via the CPQ Admin UI or by CSV upload, and deploy.
 
     For more information, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).\[Omitted image "cpq-picklist-extensions-ples-5.png"\] Alt text: Picklist extensions
 

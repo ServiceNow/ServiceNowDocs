@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Code
-description: ServiceNow Now Assist for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
+title: ServiceNow Otto for Code
+description: ServiceNow ServiceNow Otto for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/now-assist-code-landing.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---
 
-# Now Assist for Code
+# ServiceNow Otto for Code
 
-ServiceNow® Now Assist for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
+ServiceNow® ServiceNow Otto for Code is a generative AI-powered tool that assists you by providing code suggestions. It accelerates the coding tasks and boosts productivity when scripting on the ServiceNow AI Platform.
 
 ## Get started
 

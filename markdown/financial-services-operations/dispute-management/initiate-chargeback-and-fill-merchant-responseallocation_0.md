@@ -36,7 +36,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 5.  Select the transaction ID from the playbook.
 
-6.  Select the **Initiate chargeback and fill merchant response** activity.
+6.  Select the **Initiate chargeback and fill merchant response** task.
 
 7.  The chargeback reason code and dispute amount is displayed.
 

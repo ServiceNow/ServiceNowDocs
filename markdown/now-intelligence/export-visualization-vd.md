@@ -23,10 +23,11 @@ Role required: You can export any visualization that you created or that was sha
 
 Not all visualizations support all output types. Some export options shown in the UI for a visualization may not be valid. Consult the following table.
 
-| |Supported data visualization export formats|
-|---|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|
-|Lists|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
+|Type of Data visualization|Supported Data visualization export formats|
+|--------------------------|-------------------------------------------|
+|Calendar reports, Indicator scorecards, Geomap|None|
+|Pivot tables|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
+|Lists|PDF, Microsoft Excel \(.xls or .xlsx\), CSV|
 |Other data visualizations|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|Not applicable|
 
@@ -34,7 +35,7 @@ Data visualizations exported to PowerPoint include the title and the description
 
 **Note:**
 
-If you have any Now Assist applications installed, you can probably export a dashboard conversationally through the Now Assist panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
+If you have any ServiceNow Otto applications installed, you can probably export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
 
 ## Procedure
 

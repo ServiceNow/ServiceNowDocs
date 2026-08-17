@@ -1,20 +1,20 @@
 ---
 title: Scripts
-description: Learn how scripting extends ServiceNow CPQ beyond simple rules—understand where scripts run, what they return, and how to use them to model advanced configuration logic safely and efficiently.
+description: Learn how scripting extends CPQ beyond simple rules—understand where scripts run, what they return, and how to use them to model advanced configuration logic safely and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/scripts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Scripts
 
-Learn how scripting extends ServiceNow CPQ beyond simple rules—understand where scripts run, what they return, and how to use them to model advanced configuration logic safely and efficiently.
+Learn how scripting extends CPQ beyond simple rules—understand where scripts run, what they return, and how to use them to model advanced configuration logic safely and efficiently.
 
-Scripting enhances ServiceNow CPQ when configuration logic requires more flexibility than simple rules. Administrators can use scripts to calculate complex values, evaluate conditions, or manipulate product data dynamically. Scripts are available in rule conditions, actions, and in blueprint enrichments for initialization, validation, or pricing.
+Scripting enhances CPQ when configuration logic requires more flexibility than simple rules. Administrators can use scripts to calculate complex values, evaluate conditions, or manipulate product data dynamically. Scripts are available in rule conditions, actions, and in blueprint enrichments for initialization, validation, or pricing.
 
 Scripting complements, but does not replace, declarative options. Use standard rules, picklist extensions, and product pickers first. Reserve scripting for specialized scenarios.
 

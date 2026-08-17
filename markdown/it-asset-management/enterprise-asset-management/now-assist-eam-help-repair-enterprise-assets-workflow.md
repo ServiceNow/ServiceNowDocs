@@ -1,5 +1,5 @@
 ---
-title: Fulfill repair orders by using the help repair enterprise assets agentic workflow
+title: Fulfill repair orders by using an agentic workflow
 description: You can use the help repair enterprise assets agentic workflow to help you manage and complete the troubleshooting and repair of your defective enterprise assets. The workflow uses a collection of AI agents to automatically generate comprehensive troubleshooting, diagnostics, and repair instructions for these assets. The workflow uses also uses these AI agents to automatically validate, update, and close relevant tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.html
@@ -13,13 +13,15 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
-# Fulfill repair orders by using the help repair enterprise assets agentic workflow
+# Fulfill repair orders by using an agentic workflow
 
 You can use the help repair enterprise assets agentic workflow to help you manage and complete the troubleshooting and repair of your defective enterprise assets. The workflow uses a collection of AI agents to automatically generate comprehensive troubleshooting, diagnostics, and repair instructions for these assets. The workflow uses also uses these AI agents to automatically validate, update, and close relevant tasks.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Note:** Before you use the help repair enterprise assets agentic workflow, you can configure and activate it based on your organization's needs. For detailed instructions, see [Configure and activate agentic workflows for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/configure-activate-agentic-workflows-eam.md).
+
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Help repair enterprise assets agentic workflow overview
 
@@ -30,13 +32,13 @@ The help repair enterprise assets agentic workflow helps you manage and complete
 -   Increases troubleshooting and repair completion rates.
 -   Enhances and simplifies the user experience.
 
-**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Validating repair asset tasks
 
@@ -95,9 +97,9 @@ Repair asset task assignment
     -   If the task is already assigned to a user, the user assignment can be updated.
 2.  After the user assignment is added or updated, the help repair enterprise assets agentic workflow invokes automatically.
 
-**Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually.
+**Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually. For instructions on how to activate or deactivate this trigger, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
-**Note:** The progress of the workflow is always updated and displayed in the Now Assist panel. Users can access the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: on the page header of their ServiceNow instance.
+**Note:** The progress of the workflow is updated and displayed in the ServiceNow Otto panel. Users can access the panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the page header of their ServiceNow instance.
 
 
 </td></tr><tr><td>
@@ -120,10 +122,10 @@ Asset troubleshooting
 After the repair asset task is successfully validated, the workflow helps the user troubleshoot the asset.1.  The asset next best action AI agent triggers the evaluate asset AI agent.
 2.  The evaluate asset AI agent performs a web search to identify potential asset issues and to generate corresponding troubleshooting steps.
 
-**Note:** All troubleshooting steps are displayed in the Now Assist panel.
+**Note:** All troubleshooting steps are displayed in the ServiceNow Otto panel.
 
 3.  The user who is assigned to the repair asset task must perform all troubleshooting steps to determine the asset issue.
-4.  In the Now Assist panel, the AI agent asks the user to confirm if the troubleshooting steps helped with determining the asset issue.
+4.  In the ServiceNow Otto panel, the AI agent asks the user to confirm if the troubleshooting steps helped with determining the asset issue.
 5.  Depending on if the troubleshooting steps helped the user, the workflow proceeds as follows:
     -   If the troubleshooting steps helped, the AI agent asks the user to confirm whether the asset is repairable, unrepairable, or redeployable. The workflow then proceeds to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
 
@@ -160,10 +162,10 @@ Asset repair
 After the repair asset task is successfully validated, the workflow helps the user repair the asset.1.  The asset next best action AI agent triggers the repair asset AI agent.
 2.  The repair asset AI Agent performs a web search to generate repair steps based on the asset issue that was determined during troubleshooting.
 
-**Note:** All repair steps are displayed in the Now Assist panel.
+**Note:** All repair steps are displayed in the ServiceNow Otto panel.
 
 3.  The user who is assigned to the repair asset task must perform the repair steps.
-4.  In the Now Assist panel, the AI agent asks the user to confirm if the repair steps helped with resolving the asset issue.
+4.  In the ServiceNow Otto panel, the AI agent asks the user to confirm if the repair steps helped with resolving the asset issue.
 5.  Depending on if the repair steps helped the user, the workflow proceeds as follows:
     -   If the repair steps helped, the AI agent asks the user to confirm whether the asset was repaired, unrepairable, or redeployable. The workflow then proceeds to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
     -   If the repair steps did not help, the AI agent refines its web search. The workflow then returns to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).

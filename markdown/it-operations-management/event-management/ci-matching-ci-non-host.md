@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 2
+breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Bind non-host CIs using CI field matching
@@ -21,6 +21,8 @@ If no match is found using the **Node** field, the system uses the **CI identifi
 Role required: evt\_mgmt\_admin
 
 ## About this task
+
+**Note:** Use [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to transform and standardize alert data for better response.
 
 If no match is found using the **Node** field, the system looks at the **Additional information** field of the alert. When you select a CI type, such as File System, the system automatically searches for a matching record in the \[cmdb\_ci\_file\_system\] table. It uses the details provided in event rule record, specifically in the **Additional information** field, to refine the search. For example, if the **Additional information** field contains values like `{"mount_point": "/snap/amazon-ssm-agent/9565", "name": "/dev/loop0"}`, the system looks for a record in the \[cmdb\_ci\_file\_system\] table that matches these values. If a match is found, the system binds the CI to the alert, ensuring accurate identification and association. Similarly, if the **CI type** is **Network Adapter**, the system searches in the \[cmdb\_ci\_network\_adapter\] table.
 

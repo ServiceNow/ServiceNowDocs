@@ -1,22 +1,22 @@
 ---
-title: Now Assist AI agents reference
-description: Find more information about user roles, tables, and the different properties that are installed in Now Assist AI agents.
+title: ServiceNow Otto AI agents reference
+description: Find more information about user roles, tables, and the different properties that are installed in ServiceNow Otto AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-aia-reference.html
 release: australia
 topic_type: reference
 last_updated: "2025-10-27"
 reading_time_minutes: 9
-breadcrumb: [Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
-# Now Assist AI agents reference
+# ServiceNow Otto AI agents reference
 
-Find more information about user roles, tables, and the different properties that are installed in Now Assist AI agents.
+Find more information about user roles, tables, and the different properties that are installed in ServiceNow Otto AI agents.
 
-## Now Assist AI agents roles
+## AI agents roles
 
-The following roles are installed with Now Assist AI agents with a compatible Now Assist application.
+The following roles are installed with ServiceNow Otto AI agents with a compatible ServiceNow Otto application.
 
 |Role|Description|
 |----|-----------|
@@ -27,7 +27,7 @@ The following roles are installed with Now Assist AI agents with a compatible No
 
 **Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
 
-## Now Assist AI agents system properties
+## AI agents system properties
 
 The following are system properties that define default values and behavior.
 
@@ -47,8 +47,8 @@ glide.ai\_record\_activity.validation.feature.enabled
 
 Enables UI validation for agentic AI and skills at the instance level. If this feature is enabled, then any UI validation, such as required fields, must be met before the AI process is completed. The following properties are context-specific gates that determine where validation is done when the feature is enabled:
 
- -   glide.ai\_record\_activity.ai\_detection.nap.enabled: Now Assist panel executions
--   glide.ai\_record\_activity.ai\_detection.skill.enabled: Now Assist skill execution with UI actions or in Virtual Agent
+ -   glide.ai\_record\_activity.ai\_detection.nap.enabled: ServiceNow Otto panel executions
+-   glide.ai\_record\_activity.ai\_detection.skill.enabled: generative AI skill execution with UI actions or in Virtual Agent
 -   glide.ai\_record\_activity.ai\_agent.validation.enabled: agentic AI-initiated record updates with UI actions or in Virtual Agent
 
  If you want to enable these gates of the UI validation feature, you must create the system property and set the value to **true**. You don't need to enable this feature for individual skills or agentic AI assets.
@@ -294,9 +294,9 @@ mcp\_guardian\_check
 
 </td><td>
 
-Enables guardian check for MCP Client when the value is set to **true**.The default value is **false**.
+Determines whether AI Guardian runs on MCP tool executions.You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
 
-**Note:** To enable guardian check for MCP Client, verify that you enable Now Assist guardian on **AI Agent Studio** &gt; **Settings** page.
+**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
 
 </td></tr><tr><td>
 
@@ -493,23 +493,11 @@ no\_followup\_close\_conversation
 
 </td></tr><tr><td>
 
-mcp\_guardian\_check
-
-</td><td>
-
-Determines whether Now Assist Guardian runs on MCP tool executions
-
-</td><td>
-
-false
-
-</td></tr><tr><td>
-
 show\_citations
 
 </td><td>
 
-Determines whether agentic AI-generated responses in Now Assist panel or Now Assist in Virtual Agent add citations for their output
+Determines whether agentic AI-generated responses in ServiceNow Otto panel or in Virtual Agent add citations for their output.
 
 </td><td>
 
@@ -521,7 +509,7 @@ kill\_switch.mode
 
 </td><td>
 
-Controls how the feature responds to a detected breach
+Controls how the feature responds to a detected breach.
 
 </td><td>
 
@@ -654,9 +642,9 @@ Time window, in minutes, for checking for matching execution updates
 15
 
 </td></tr></tbody>
-</table>## Now Assist AI agents tables installed
+</table>## AI agents tables installed
 
-The following tables are installed so Now Assist AI agents works as expected:
+The following tables are installed so AI agents work as expected:
 
 <table id="table_trq_gvx_k2c"><thead><tr><th>
 

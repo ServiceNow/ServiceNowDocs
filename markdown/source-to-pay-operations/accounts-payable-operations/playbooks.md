@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, invoice processing, playbook, guided resolution]
+keywords: [APO, Accounts Payable Operations, invoice processing, playbook, guided resolution, status indicators, Process Automation Designer, Invoice validation]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -33,14 +33,14 @@ Playbooks in Accounts Payable Operations display the stages and activities for p
 -   **[Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md)**  
 Configure a playbook and visualize the step-by-step actions performed by an Accounts Payable specialist while processing an invoice.
 -   **[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)**  
-Invoices ingested through Document Intelligence may require manual actions by Accounts Payable specialists or administrators when automated processing is unavailable or requires intervention.
+Invoices ingested through Document Intelligence may require manual actions when automated processing is unavailable.
 
 **Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 
@@ -58,7 +58,7 @@ Invoices ingested through Document Intelligence may require manual actions by Ac
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 

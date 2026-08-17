@@ -204,7 +204,7 @@ Detect and dynamically translate Virtual Agent topics into a different language
 
 </td><td>
 
-[Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md)
+[Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md)
 
 </td></tr></tbody>
 </table>## Virtual Agent security
@@ -222,7 +222,7 @@ Virtual Agent provides optimized templates for the mobile experience. Configure 
 -   **[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)**  
 Virtual Agent features the ability to have multiple conversations at the same time, separated and directed by chosen context.
 -   **[Using catalogs and autopilot in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-catalogs.md)**  
-Use catalogs to search for and request services and products in chat widget conversations.
+Use catalogs to search for and request services and products in Natural Language Understanding \(NLU\)/Keyword chat widget conversations.
 -   **[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)**  
 Send ServiceNow notifications directly to users via the Virtual Agent chatbot on supported messaging channels. Notifications can be simple informational messages for review, or actionable messages with buttons that users can select to perform certain actions.
 -   **[Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md)**  

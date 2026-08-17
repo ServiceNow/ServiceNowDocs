@@ -1,18 +1,18 @@
 ---
-title: Create New Third party engagement form
-description: On the Create New Third-party engagement form, fill in the fields.
+title: Create a third party engagement form
+description: On the Create a third-party engagement form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-tp-engmt-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create a third-party engagement and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third-party engagement and enhance data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Third party engagement form
+# Create a third party engagement form
 
-On the Create New Third-party engagement form, fill in the fields.
+On the Create a third-party engagement form, fill in the fields.
 
 <table id="table_jfh_cl4_ycc"><thead><tr><th>
 
@@ -322,5 +322,5 @@ Digital resilience information for the third-party engagement. You can add the f
 -   Name of the ICT third-party service provider
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third-party engagement and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+</table>**Parent Topic:**[Create a third-party engagement and enhance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

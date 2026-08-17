@@ -34,7 +34,7 @@ Role required: hermes\_admin
 
     The selected topic is encrypted and the button changes to **Disable Encryption**.
 
-4.  In the topic record, verify in the Kafka Topic Override Configurations related list that the **snc.hermes.encryption.enabled** property value is set to true.
+4.  In the topic record, verify in the Kafka Topic Override Configurations related list that the **snc.hermes.encryption.enable** property value is set to true.
 
 
 **Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)

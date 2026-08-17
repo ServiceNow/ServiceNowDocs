@@ -22,7 +22,9 @@ The components and properties installed with Project Workspace are the same as m
 -   [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_ResourceProperties.md)
 
 -   **[Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/column-configuration-project-tasks.md)**  
-Now Assist extracts project and project task details from uploaded documents \(e.g., excel workbooks\). Recognized data is mapped to pm\_project and pm\_project\_task columns. Columns not present in the document are initialized with valid defaults internally.
+AI extracts project and project task details from uploaded documents \(e.g., excel workbooks\). Recognized data is mapped to pm\_project and pm\_project\_task columns. Columns not present in the document are initialized with valid defaults internally.
+-   **[Additional information on Project insights generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/email-project-summary-limitations.md)**  
+View the additional information about project insights generation skill such as column restrictions, date criteria, and so on.
 -   **[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)**  
 Field information for forms used in the Project Workspace application.
 

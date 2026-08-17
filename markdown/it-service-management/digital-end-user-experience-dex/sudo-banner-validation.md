@@ -18,7 +18,7 @@ Sudo banner validation flags missing sudo permissions on managed devices so you 
 
 The DEX agent requires specific sudo permissions to perform actions such as restarting services \(`restart_service`\) or removing files \(`rm`\). The agent flags missing required permissions.
 
-As a DEX administrator, you can control the sudo banner configuration for macOS. For example, if your organization does not use Jamf you can add that permission to the exclusion list so that the system does not show the banner on the device page for excluded commands.
+As a DEX administrator, you can control the sudo banner configuration for macOS. For example, if your organization does not use Jamf, add that command to the exclusion list. in this case, the banner does not appear on the device page for excluded commands.
 
 **Note:** Updating exclusion list doesn't change configured sudo permissions on the end-user device.
 

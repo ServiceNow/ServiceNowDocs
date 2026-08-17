@@ -24,11 +24,11 @@ Beginning with the Xanadu release, cyclic dependencies in recovery tasks can be 
 
 \[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.
 
-For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2, Cyclic plan example 2 invokes Cyclic plan example 3 and then again Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan to help prevent such issues from occurring in an event.
+For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2 and Cyclic plan example 2 invokes Cyclic plan example 3. Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan. It helps prevent such issues from occurring in an event.
 
 \[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.
 
-Similarly, if plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are created, an error message is displayed, suggesting the removal of the plan before saving the record.
+Similarly, if plans are activated beyond 10 levels or hierarchical links exceed 10 plan levels, an error message displays, suggesting plan removal before saving the record.
 
 \[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.
 
@@ -87,7 +87,7 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create New Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md).
+    For more information on the fields in the form, see [Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md).
 
 5.  Assign a phase to the recovery task.
 
@@ -113,9 +113,9 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
 
 7.  Verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field.
 
-    In events, the **Asset recovery level** field indicates the achieved recovery level of the impacted assets of that event task, once all tasks with that recovery level \(for example, all tasks with Partially recovered state\) are completed.
+    In events, the **Asset recovery level** field indicates the achieved recovery level of impacted assets once all tasks with that recovery level \(for example, Partially recovered\) are completed.
 
-    Previously, the assets were automatically marked as Recovered only when all event tasks were completed, even if those assets were in later phases such as Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system didn't reflect the status until all tasks were done.
+    Previously, assets were marked as Recovered only when all event tasks were completed, even if assets were in later phases like Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system did not reflect the status until all tasks were completed.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state, progressing from **Not Recovered** → **Partially Recovered** → **Recovered**.
 
@@ -170,8 +170,8 @@ From the **Recovery tasks** tab toolbar, select one or more rows and use the **S
 
 \[Omitted image "qi-save-tasks.png"\] Alt text: Recovery tasks tab toolbar showing the Save as group dropdown expanded with Save tasks and Add to group options.
 
--   **[Create New Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**  
-Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
+-   **[Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**  
+Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Field Service Management \(FSM\)
-description: Use the ServiceNow Now Assist for Field Service Management \(FSM\) application to summarize work order tasks. You can enable users to generate work order task summaries so that they can create notes faster and with more detail.
+title: ServiceNow Otto for Field Service Management \(FSM\)
+description: Use the ServiceNow ServiceNow Otto for Field Service Management \(FSM\) application to summarize work order tasks. You can enable users to generate work order task summaries so that they can create notes faster and with more detail.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.html
 release: australia
@@ -12,23 +12,23 @@ reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 ---
 
-# Now Assist for Field Service Management \(FSM\)
+# ServiceNow Otto for Field Service Management \(FSM\)
 
-Use the ServiceNow® Now Assist for Field Service Management \(FSM\) application to summarize work order tasks. You can enable users to generate work order task summaries so that they can create notes faster and with more detail.
+Use the ServiceNow® ServiceNow Otto for Field Service Management \(FSM\) application to summarize work order tasks. You can enable users to generate work order task summaries so that they can create notes faster and with more detail.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for FSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 </td></tr></tbody>
 </table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
@@ -43,8 +43,8 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 
--   [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
--   [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+-   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
+-   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 **Important:**
 

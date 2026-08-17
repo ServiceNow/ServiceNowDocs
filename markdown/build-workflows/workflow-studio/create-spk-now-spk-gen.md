@@ -1,5 +1,5 @@
 ---
-title: Create spoke and build actions using the spoke generation skill in Now Assist
+title: Create spoke and build actions using the spoke generation skill in ServiceNow Otto
 description: Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spk-now-spk-gen.html
@@ -7,18 +7,18 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 3
-breadcrumb: [Use Now Assist to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
+breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
-# Create spoke and build actions using the spoke generation skill in Now Assist
+# Create spoke and build actions using the spoke generation skill in ServiceNow Otto
 
 Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Role required: admin
 -   Create the required action categories for your integration in the Action Category \[sys\_hub\_category\] table.
@@ -28,7 +28,7 @@ Automate an integration and generate reusable actions by providing the required 
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Click **Create new** &gt; **Spoke**.
+2.  Click **New** &gt; **Spoke**.
 
 3.  On the Spoke Info screen, specify if you want to create the spoke in a new scope or an existing scope.
 
@@ -53,50 +53,23 @@ Automate an integration and generate reusable actions by providing the required 
 
         Here, we will go through an integration with LearnOrbit as an example.
 
-<table id="table_tz2_hs3_ccc"><thead><tr><th>
+        |Field|Description|
+        |-----|-----------|
+        |Application name|An existing application name or scope.|
+        |App scope name|Scope name that is auto-populated based in the selected **Application name**.|
+        |Description|Description about the custom spoke.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Application name
-
-</td><td>
-
-An existing application name or scope.\[Omitted image "spk-gen-existing-app-name.png"\] Alt text: Select an existing application.
-
-</td></tr><tr><td>
-
-App scope name
-
-</td><td>
-
-Scope name that is auto-populated based in the selected **Application name**.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Description about the custom spoke.
-
-</td></tr></tbody>
-</table>4.  Click **Continue**.
+4.  Click **Continue**.
 
 5.  On the Build Info screen, select the method using which you want to build your spoke.
 
-6.  Select **Now Assist** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
+6.  Select **With AI** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
 
     \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using Now Assist.
 
-7.  On the Generate action screen, paste the required content from the 360Learning API documentation in **Now Assist Context**.
+7.  On the Generate action screen, paste the required content from the API documentation in **AI Context**.
 
-    In this example, we will copy the documentation related to the enrollUser action and paste it in **Now Assist Context**.
+    In this example, we will copy the documentation related to the enrollUser action and paste it in **AI Context**.
 
     **Note:** Ensure that you paste the documentation related to only one action at a time.
 
@@ -108,9 +81,9 @@ Description about the custom spoke.
 
     \[Omitted image "build-action-outcome-preview.png"\] Alt text: Action generation outcome preview.
 
-9.  If you want to modify the generated action, modify the provided content in **Now Assist Context** accordingly and click **Regenerate preview**.
+9.  If you want to modify the generated action, modify the provided content in **AI Context** accordingly and click **Regenerate preview**.
 
-    If there are any missing fields in the content provided for **Now Assist Context**, an error message is displayed.
+    If there are any missing fields in the content provided for **AI Context**, an error message is displayed.
 
     \[Omitted image "build-spoke-action-error.png"\] Alt text: Action generation error sample.
 

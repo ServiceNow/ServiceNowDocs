@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Health Log Analytics, log analytics alert rule, modify alert rule, change alert rule, update alert settings, defined alerts, Log viewer, Defined alerts table, alert rule management, alert configuration, custom alert rules, alert settings, alert rule modification]
-breadcrumb: [Use custom alert rules, Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use custom alert rules, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Change a custom Log Analytics alert rule in Health Log Analytics

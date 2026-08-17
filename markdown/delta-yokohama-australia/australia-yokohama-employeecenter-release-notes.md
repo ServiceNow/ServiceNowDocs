@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-employeecenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -134,16 +134,16 @@ Zurich
 Use the **Company News and Events AI Agent** to enable employees to check their company-related news and any upcoming events using the Now Assist in Virtual Agent.
 
 
--   **[Now Assist for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US)**
 
-Enable a summary of the request, requested item, or case for approval task using Now Assist for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on.
+Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on.
 
 
  Zurich Early Availability
 
--   **[Now Assist for Employee Experience plugin](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Employee Experience plugin](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=zurich&ft:locale=en-US)**
 
-Enable employees to resolve and approve tasks easily through chat conversation using the Now Assist for Employee Experience plugin with Now Assist in Virtual Agent.
+Enable employees to resolve and approve tasks easily through chat conversation using the ServiceNow Otto for Employee Experience plugin with Now Assist in Virtual Agent.
 
 -   **[Browser Extension for Employee Center](https://www.servicenow.com/docs/access?context=ecbe-intro&family=zurich&ft:locale=en-US)**
 
@@ -538,13 +538,13 @@ Zurich
 
 [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
--   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the **Company News &amp; Events AI Agent** in the Now Assist for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company. For more information, see [Check latest company news and events](https://www.servicenow.com/docs/access?context=check-company-newsevent-ai-agent-for-emp-exp&family=zurich&ft:locale=en-US).
+-   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the **Company News &amp; Events AI Agent** in the ServiceNow Otto for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company. For more information, see [Check latest company news and events](https://www.servicenow.com/docs/access?context=check-company-newsevent-ai-agent-for-emp-exp&family=zurich&ft:locale=en-US).
 -   Employees can check all their to-do tasks and pending approvals using Now Assist in Virtual Agent for Microsoft Teams.
--   Enable a summary of the request, requested item, or case for approval task using Now Assist for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on. For more information, see [Now Assist for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US).
+-   Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on. For more information, see [ServiceNow Otto for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US).
 
  Zurich Early Availability
 
--   Use the Now Assist for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
+-   Use the ServiceNow Otto for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
 -   View and manage content and other company resources through the Browser Extension for Employee Center.
 -   Improve the My Requests experience with adoptive and scalable enhancements.
 

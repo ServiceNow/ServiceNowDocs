@@ -20,13 +20,13 @@ The type of service determines how you use dynamic CI groups.
 
 -   A dynamic CI group is a user-defined collection of CIs that is used as a group Cl in the Cl field of the record for Incident Management, Problem Management, and Change Management.
 -   You set up dynamic Cl groups based on common attributes or criteria.
--   A dynamic CI group cannot contain other groups.
+-   A dynamic CI group can't contain other groups.
 -   A CI can match multiple queries meaning it can appear in multiple dynamic CI groups.
 -   There is no limit on how many groups a CI can be part of.
 
 ## Dynamic CI groups for technology management services \(formerly Technical services\)
 
-You can group up to 10,000 similar items that are associated with a Technology management service and its associated Technology management offering. In this usage, a dynamic CI group functions as a collection of CIs that are managed individually. Because the CIs aren't necessarily related to each other, service associations are not needed. Impact analysis \(through Incident Management, Problem Management, or Change Management\) is also not meaningful or expected for unrelated CIs. Here are some examples:
+You can group up to 10,000 similar items that are associated with a Technology management service and its associated Technology management offering. In this usage, a dynamic CI group functions as a collection of CIs that are managed individually. Because the CIs aren't necessarily related to each other, service associations aren't needed. Impact analysis \(through Incident Management, Problem Management, or Change Management\) is also not meaningful or expected for unrelated CIs. Here are some examples:
 
 -   Servers with a particular operating system
 -   Network gear based on location

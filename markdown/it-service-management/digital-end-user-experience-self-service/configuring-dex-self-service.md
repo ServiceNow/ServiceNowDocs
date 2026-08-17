@@ -34,7 +34,7 @@ The DEX Self-service plugin gets installed automatically with the Digital End-Us
 
 4.  [Customize DEX Self-service issue configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-issues.md).
 
-    Link issues with device health subcategories and categories and define metrics evaluation criteria and issue resolutions. Based on these configurations, issues and their related resolutions display in DEX Self-service. You can access DEX Self-service through the Employee Center, Desktop Assistant, or Now Assist Virtual Agent.
+    Link issues with device health subcategories and categories and define metrics evaluation criteria and issue resolutions. Based on these configurations, issues and their related resolutions display in DEX Self-service. You can access DEX Self-service through the Employee Center, Desktop Assistant, or ServiceNow Otto Virtual Agent.
 
 5.  [Configure DEX Self-service categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-categories.md)
 

@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Universal Request, Create supplier case, Procurement Workpace, Supplier Lifecycle Operations, Source-to-Pay Workspace, Case form, Create Associated Ticket, Primary Ticket, Associated Tickets]
 breadcrumb: [Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

@@ -22,7 +22,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
 As a program manager, you can check if there are recovery strategies for various loss scenarios of the plans owned by the planners. Such assessments enable you to be prepared for those scenarios.
 
-When you see the details of a loss scenario associated to a plan, you can also view the assets that are attached to the plan, and the recovery strategies for each of these assets. For example, NYC datacenter can be a related asset for a datacenter outage loss scenario of a customer support plan. You can create a recovery strategy by estimating the time to implement the strategy to get the NYC datacenter up and running.
+When viewing a loss scenario associated with a plan, you can also view the plan's assets and their recovery strategies. For example, NYC datacenter can be a related asset for a datacenter outage loss scenario of a customer support plan. You can create a recovery strategy by estimating the time to implement the strategy to get the NYC datacenter up and running.
 
 \[Omitted image "AssetRecoveryStrategy.png"\] Alt text: Strategy coverage for a related asset
 

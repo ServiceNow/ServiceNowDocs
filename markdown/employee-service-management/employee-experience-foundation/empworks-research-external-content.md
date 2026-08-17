@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [external GPT opt-in, prospect research, NDA generation, DocuSign]
-breadcrumb: [Working with Moveworks capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Otto capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Research prospects and generate artifacts with the AI assistant

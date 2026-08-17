@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, entity, preview, see, model]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Add an entity to a model, ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Preview read table entities in Zero Copy Connector for ERP
@@ -99,6 +99,4 @@ After viewing tables, select **Manage entities**, then **Select entity**. In **S
 \[Omitted image "erpc-preview-entity-manage-entities.png"\] Alt text: Manage model page with manage entities option highlighted.
 
 For detailed information about adding entities, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

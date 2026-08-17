@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-se
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"
-reading_time_minutes: 4
+reading_time_minutes: 3
 ---
 
 # Agentic AI security and governance
@@ -15,7 +15,7 @@ Now Assist AI agents operate securely within the boundaries you define. Layered 
 
 Deploying AI agents introduces security considerations that go beyond standard platform hardening. Agents act autonomously, invoke tools, access data, and make decisions on behalf of users. This requires controls at every layer: who can invoke an agent, what it can access once running, how its actions are logged, and what catches harmful or unintended behavior at runtime.
 
-Now Assist is built on the ServiceNow AI Platform security model. AI agents are subject to the same ACL enforcement, role-based access controls, and domain separation that govern all platform activity. The controls in these sections extend that foundation with capabilities specific to agentic AI. These include identity classification for AI users, role masking to enforce least-privilege during tool execution, and runtime guardrails through Now Assist Guardian. Readiness assessment tools help verify your instance is prepared before agents go to production.
+Now Assist is built on the ServiceNow AI Platform security model. AI agents are subject to the same ACL enforcement, role-based access controls, and domain separation that govern all platform activity. The controls in these sections extend that foundation with capabilities specific to agentic AI. These include identity classification for AI users, role masking to enforce least-privilege during tool execution, and runtime guardrails through AI Guardian. Readiness assessment tools help verify your instance is prepared before agents go to production.
 
 ## AI security concepts
 
@@ -37,7 +37,7 @@ Now Assist is built on the ServiceNow AI Platform security model. AI agents are 
 
 </td><td>
 
-[AI threat protection\[Omitted image "bus-problem-benefit.svg"\] Alt text:Learn how Now Assist helps defend against AI-specific threats including offensive content, prompt injection, and sensitive subject detection using Now Assist Guardian.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-threat-protection.md)
+[AI threat protection\[Omitted image "bus-problem-benefit.svg"\] Alt text:Learn how Now Assist helps defend against AI-specific threats including offensive content, prompt injection, and sensitive subject detection using AI Guardian.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-threat-protection.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Now Assist is built on the ServiceNow AI Platform security model. AI agents are 
 
 <table id="table_bm1_dbp_w3c" class="nav-card presentation"><tbody><tr><td>
 
-[Now Assist Guardian\[Omitted image "bus-trust-in-us.svg"\] Alt text:Now Assist Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+[Now Assist Guardian\[Omitted image "bus-trust-in-us.svg"\] Alt text:AI Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
 
 </td><td>
 
@@ -68,11 +68,11 @@ Learn how to use tools like AI Control Tower to track, monitor, and report on yo
 -   **[Governance and admin safeguards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-governance-and-admin-safeguards.md)**  
 Find guidance on preparing your instance for AI deployment, maintaining domain separation, and reducing risk across your Now Assist implementation.
 -   **[AI threat protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-threat-protection.md)**  
-Learn how Now Assist helps defend against AI-specific threats including offensive content, prompt injection, and sensitive subject detection using Now Assist Guardian.
+Learn how Now Assist helps defend against AI-specific threats including offensive content, prompt injection, and sensitive subject detection using AI Guardian.
 -   **[External AI agent security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-3rd-party-security.md)**  
 Learn how to monitor and govern AI agents from external providers, with visibility into third-party data flows and assurances that sensitive data stays properly isolated across your AI ecosystem.
--   **[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)**  
-Now Assist Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.
+-   **[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)**  
+AI Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.
 -   **[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)**  
 Plan, build, secure, test, and deploy a Now Assist AI agent.
 

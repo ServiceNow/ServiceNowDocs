@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-07-02"
 reading_time_minutes: 2
-breadcrumb: [Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Indexed source retention policies and filter conditions

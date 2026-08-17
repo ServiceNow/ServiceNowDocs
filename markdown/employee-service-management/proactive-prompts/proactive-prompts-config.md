@@ -18,7 +18,7 @@ If you have the admin role, you can install the Proactive Prompts application an
 
 A signal is the configuration for prompts about when to send them, what to send, whom to send them to, where to send them, and related actions to generate and deliver them. You can define whom to send the signal to, how often, and on what channels. The Proactive Prompts application supports all conversational interface \(CI\) channels apart from the portal.
 
-**Note:** You must install and activate both the Proactive Prompts and the Now Assist for HRSD application should be installed and to use the capability and prompts from the base system. The two new signals that are available for use are the Approvals pending prompt, and the High leave balance prompt.
+**Note:** You must install and activate both the Proactive Prompts and the ServiceNow Otto for HRSD application should be installed and to use the capability and prompts from the base system. The two new signals that are available for use are the Approvals pending prompt, and the High leave balance prompt.
 
 Configuring Proactive Prompts is a multi-step process:
 

@@ -35,7 +35,7 @@ Configure agent workspaces and boost efficiency by optimizing interfaces, config
 
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install-playbooks-solutions.md)**
 
-    Install one or more playbook applications with Public Sector Digital Services. These tools provide an end-to-end workflow for handling public service requests submitted by consitutuents, enabling agents to resolve cases quickly and efficiently.
+    Install one or more playbook applications with Public Sector Digital Services. These tools provide an end-to-end workflow for handling public service requests submitted by constituents, enabling agents to resolve cases quickly and efficiently.
 
 -   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)**
 

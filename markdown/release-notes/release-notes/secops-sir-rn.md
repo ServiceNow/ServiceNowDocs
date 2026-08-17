@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 ---
 
 # Security Incident Response release notes
@@ -14,6 +14,7 @@ The ServiceNow® Security Incident Response \(SIR\) application helps your organ
 
 ## Security Incident Response highlights for the Australia release
 
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Security Incident Response \(SIR\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Enable automated response actions by integrating CrowdStrike Next-Gen SIEM with the ServiceNow Security Incident Response platform to retrieve detections and convert them into security incidents.
 -   Fetch closed offenses from IBM QRadar into Security Incident Response.
 -   Rapidly build integrations for Security Incident Response using auto-code generation through the Now Assist LLM-powered integration builder.
@@ -92,7 +93,7 @@ See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Add unmatched affected user for security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-unmatched-affected-user-for-si.md)**
 
-    The new “Security Incident Unmatched Users” table captures unmatched affected user records for security incidents, enabling analysts to identify and address discrepancies when user records don't match existing system records.
+    The new “Security Incident Unmatched Users” table captures unmatched affected user records for security incidents. This enables analysts to identify and address discrepancies when user records don't match existing system records.
 
 -   **[LLM-powered SIR integration builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sir-integration-builder-now-assist.md)**
 
@@ -141,8 +142,17 @@ See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/Se
 
     Determine whether the contextual menu panel for a security incident is expanded or collapsed by default when a security analyst opens a security incident.
 
+-   **[Configure the preview modal for attachment upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-attachment-upload-preview-modal.md)**
+
+    Configure whether the upload preview modal appears or not when security analysts attach files to a security incident record. Set the sn\_si\_aw.attachment.show\_preview\_modal system property to true to display the preview modal, or false \(default\) to upload files directly without displaying the modal.
+
 
 ## Changed in this release
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 
 -   **[Assign groups in PIR user assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-pir-assignment-rules.md)**
 
@@ -151,7 +161,7 @@ See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/Se
 
 ## Activation information
 
-Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)**
 

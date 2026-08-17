@@ -1,5 +1,5 @@
 ---
-title: IT Service Management release notes
+title: Simplified IT Service Management release notes
 description: The ServiceNow IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\). IT Service Management is a new application in the Australia release.
 locale: en-US
 release: australia
@@ -8,7 +8,7 @@ last_updated: "2026-04-01"
 reading_time_minutes: 4
 ---
 
-# IT Service Management release notes
+# Simplified IT Service Management release notes
 
 The ServiceNow® IT Service Management application provides simplified and automated implementation for administrators and a unified user experience for employees and fulfillers \(service desk agents\). IT Service Management is a new application in the Australia release.
 
@@ -24,7 +24,10 @@ The ServiceNow® IT Service Management application provides simplified and autom
     -   Enable a conversation-first experience for employees with Employee Slate. It has a unified Activity Hub showing open incidents and requested items, fulfillment progress, and a simplified request experience.
 -   Starting in version 3.1, following capabilities are available:
     -   Enable the Employee Slate experience when redirected from incident and request notifications.
-    -   Configure the inbound email setup for Google alongside the ServiceNow account option.
+    -   Configure the inbound email setup for Gmail alongside the ServiceNow account option.
+-   Starting in version 3.2, following capabilities are available:
+    -   Configure Incident Management and Request Management in the product console using granular roles.
+    -   Simplified request process in Employee Slate and Employee Center.
 
 See [Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md) for more information.
 
@@ -40,6 +43,7 @@ See [Simplified IT Service Management](https://raw.githubusercontent.com/Service
     -   Prebuilt catalog items for common IT issues and requests.
     -   Requester surveys for incidents and requested items.
     -   Multi-channel support through Employee Center, email, Microsoft Teams, and Slack.
+    -   Starting in version 3.2, a simplified request process in which a request is created for an order guide submission and requested item is created for a catalog item request.
 -   **[Simplified employee experience through Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-using-employee-slate.md)**
 
     Starting in version 3.0, simplify employee experience by leveraging the conversational experience in Employee Slate. The following capabilities are available as part of this experience for Employee Slate integration with both Now Assist and Moveworks:
@@ -49,6 +53,7 @@ See [Simplified IT Service Management](https://raw.githubusercontent.com/Service
     -   Chat history of active and closed conversations.
     -   Notifications for employee tasks.
     -   Starting in version 3.1, Employee Slate as primary engagement experience for incident and request notifications.
+    -   Starting in version 3.2, a simplified request process in which a request is created for an order guide submission and requested item is created for a catalog item request.
 -   **[Simplified fulfiller experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)**
 
     Provide an efficient IT support experience for incident and request management by leveraging AI recommendations for the following:
@@ -72,14 +77,16 @@ See [Simplified IT Service Management](https://raw.githubusercontent.com/Service
         -   Starting in version 3.0, a guided experience is available for the following configurations:
             -   Employee Slate
             -   Configuration items
-            -   Core setup areas required to make Change Management operational. See [Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md).
+            -   Core setup areas required to make Change Management operational.
         -   Starting in version 3.0, redirection to Service Operations Workspace Admin Center is available to configure advanced ITSM workflows such as Problem Management, Major Incident Management, On-Call Scheduling, and Walk-up Experience.
         -   Starting in version 3.1, a guided experience is available for Gmail inbound email configuration.
+        -   Starting in version 3.2, you can configure Incident Management using the sn\_incident\_admin role and Request Management using the sn\_request\_admin role.
+        -   Starting in version 3.2, admins can configure change forms and lists in the Configuration Console. See [Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
     -   AI agents to configure ITSM workflows from a single admin UI page using natural language. See [Conversational AI Agents for configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 ## Activation information
 
-Request the entitlement for IT Service Management from the ServiceNow Store and then install it. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Request the entitlement for IT Service Management from the ServiceNow Store and then install it. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -87,11 +94,11 @@ IT Service Management is available as a ServiceNow Store application.
 
 ## Related ServiceNow applications and features
 
--   **[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**
+-   **[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**
 
     Provides a modular and personalized Admin Home dashboard that centralizes instance management and helps with faster completion of critical tasks. It supports context-aware insights and recommended next actions.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Provides the generative AI capabilities embedded throughout Simplified IT Service Management such as chat summarization, resolution notes generation, and agentic workflows for IT teams.
 

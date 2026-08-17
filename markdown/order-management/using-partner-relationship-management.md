@@ -1,44 +1,28 @@
 ---
 title: Using Partner Relationship Management
-description: Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable administrators and channel partners to collaborate through the Partner portal and PRM workspace. As an Enterprise Partner Relationship Manager, you can manage partner relationships, approvals, and sales activity. As a channel partner, you can access the Partner portal to register deals, create quotes, and track opportunities—all from a single, branded experience.
+description: Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 3
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
 
 # Using Partner Relationship Management
 
-Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable administrators and channel partners to collaborate through the Partner portal and PRM workspace. As an Enterprise Partner Relationship Manager, you can manage partner relationships, approvals, and sales activity. As a channel partner, you can access the Partner portal to register deals, create quotes, and track opportunities—all from a single, branded experience.
+Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
 
-## What you can do
+As an Enterprise Partner Relationship manager or a channel partner you can use the Partner Portal to do any of the following tasks.
 
-**Enterprise Partner Relationship Managers**:
+-   Get a 360° view of the Partner portal.
+-   Add and manage staff members.
+-   Submit an inquiry to connect with the enterprise.
+-   Create quotes directly from the Partner portal.
+-   Access knowledge base articles and engage with the community.
 
--   Set up partner hierarchies, tiers, and territories
--   Configure approval workflows for deal registrations and quotes
--   Define product catalogs and discount governance by partner tier
--   Monitor partner sales activity and deal pipeline
--   Manage partner staff and access controls
--   Track deal registrations through approval stages
-
-**Channel Partners**:
-
--   Register deals through guided workflows
--   Create and submit quotes for enterprise approval
--   Track quote status and deal registrations in real-time
--   Manage staff members and team access
--   View opportunities and orders
--   Access knowledge articles and engage with the community
-
-:
-
-## Partner portal
-
-Partner portal is the partner-facing workspace where partners manage sales activity, quotes, and deal registrations.
+## Partner Portal
 
 \[Omitted image "partner-portal-ui.png"\] Alt text: Interface of the partner portal
 
@@ -171,58 +155,7 @@ Search
 Search for support articles and other requests.Enter a search word or term and select **Search** to view the results.
 
 </td></tr></tbody>
-</table>## Deal Registration
-
-Channel partners register deals through a structured workflow in the Partner Portal. To register a deal:
-
-1.  Select Create &gt; Register a Deal.
-2.  Enter deal details: account name, amount, close date, and product category.
-3.  The deal is saved in Draft status.
-4.  Submit for enterprise approval when ready.
-5.  Track approval progress in the Sales section.
-
-Enterprise managers configure approval workflows by territory, partner tier, and deal amount. Partners receive real-time notifications when their deal is approved or needs revision.
-
-## Quote Management
-
-Channel partners create and submit quotes directly from the Partner Portal. To create a quote:
-
-1.  Select Create &gt; Create Quote.
-2.  Select a customer and add products from the approved catalog.
-3.  Configure quantities and optionsApply pre-approved discounts \(within limits\).
-4.  Add attachments or internal notes.
-5.  Submit for approval.
-
-To track quotes:
-
--   View all quotes in the Sales section.
--   Filter by status: Draft, Submitted, or Approved.
--   Track approval progress in real-time.
--   Download approved quotes as PDF.
--   View full version history and activity.
-
-Enterprise managers define approval rules by quote amount, partner tier, and product category. Approved quotes can automatically convert to opportunities for downstream order processing.
-
-## CSM configurable workspace for PRM \(For Administrators\)
-
-The PRM workspace is where enterprise administrators configure partner programs, approvals, and governance.
-
-Key configuration areas:
-
--   Partner setup: Define partner hierarchies, tiers, programs, and territory assignments.
--   Approval workflows: Configure multi-stage approval rules for deal registrations and quotes by territory, tier, and amount.
--   Product catalog management: Manage which products each partner tier can access. Set discount limits and approval thresholds.
--   User roles and permissions: Assign roles to Partner Managers, Admins, and Agents. Control what each user sees and can approve.
--   Reporting and analytics: Track partner deal pipeline, quote activity, and approval metrics. Monitor channel revenue.
--   Integration settings: Configure automatic opportunity conversion from approved deals. Map custom fields for downstream workflows.
-
--   **[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-channel-partner-record.md)**  
-Create and track channel partner records on the partner workspace to manage and store all information related to the channel partners.
--   **[Create cases for channel partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-cases-for-channel-partners.md)**  
-Create customer service cases for channel partners to manage customer queries and offer resolution.
--   **[Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/update-deal-registration-record.md)**  
-Create a deal registration record or perform actions on an existing record on the CSM Configurable Workspace.
--   **[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/raise-an-inquiry-on-partner-portal.md)**  
+</table>-   **[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/raise-an-inquiry-on-partner-portal.md)**  
 Raise a query or concern with the enterprise on the Partner Portal.
 -   **[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-member-on-partner-portal.md)**  
 Register a new partner member or transfer existing staff within a partner organization.

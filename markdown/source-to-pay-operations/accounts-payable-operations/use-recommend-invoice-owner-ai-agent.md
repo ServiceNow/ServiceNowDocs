@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [AI agent, Now Assist, APO, Accounts Payable Operations, invoice approval, invoice processing, invoice management, AI automation, AP specialist]
-breadcrumb: [Recommend invoice owner AI agent, Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [AI agent, ServiceNow Otto, APO, Accounts Payable Operations, invoice approval, invoice processing, Invoice exceptions, Resolution Plan Scenario, AP specialist]
+breadcrumb: [Recommend invoice owner AI agent, Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Use Recommend invoice owner AI agent
@@ -31,7 +31,7 @@ Role required: Accounts Payable specialist \(sn\_ap\_apm.accounts\_payable\_spec
 
 4.  From the **Number** column, select the link for the 'Missing or invalid business owner' exception with the status **Review needed**.
 
-    The missing or invalid business owner exception opens. A message that Now Assist has a resolution plan to solve the exception displays.
+    The missing or invalid business owner exception opens. A message that AI has a resolution plan to solve the exception displays.
 
 5.  Select **View plan**.\[Omitted image "apo-view-resolution-plan.png"\] Alt text: View resolution plan
 
@@ -39,12 +39,10 @@ Role required: Accounts Payable specialist \(sn\_ap\_apm.accounts\_payable\_spec
 
 6.  Review and confirm the resolution plan.\[Omitted image "apo-confirm-resolution-plan.png"\] Alt text: Confirm recommendation
 
-    In this scenario, a business owner is assigned. \[Omitted image "apo-resolution-plan.png"\] Alt text: Review and confirm the resolution plan
-
 
 ## Result
 
-When a business owner is found, the AI agent updates the **Business owner** field on the invoice based on the closest matching invoice, updates the activity, and changes the exception status to **Review complete**.
+When a business owner is found, the AI agent updates the **Business owner** field on the invoice based on the closest matching invoice. The AI agent also updates the activity and changes the exception status to **Review complete**.
 
 If no business owner is found, the AI agent suggests creating a task.
 

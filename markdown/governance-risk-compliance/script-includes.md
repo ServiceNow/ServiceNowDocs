@@ -322,7 +322,7 @@ Script include
 
 </td><td>
 
-Contains the utility functions that are being used to fetch the data from different places in Operational Resilience and also to fetch all the issues that are related to a business service's entity or configuration item \(CI\). Used for updating the CSDM, dependencies, and their red flags.
+Contains the utility functions that are being used to fetch the data from different places in Operational Resilience. Also fetches all the issues that are related to a business service's entity or configuration item \(CI\). Used for updating the CSDM, dependencies, and their red flags.
 
 </td></tr><tr><td>
 

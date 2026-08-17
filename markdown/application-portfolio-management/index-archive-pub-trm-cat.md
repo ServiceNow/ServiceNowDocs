@@ -21,8 +21,8 @@ Role required: admin
 Your instance must meet the following prerequisites:
 
 -   Activate AI Search. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**. For instructions, see [Activate AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-ui-builder-agent.md)
--   Enable the Now Assist panel. Navigate to **Now Assist Admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and confirm the panel is turned on. For instructions, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
--   Install the Now Assist for EA plugin. For instructions, see [Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md).
+-   Enable the Now Assist panel. Navigate to **Now Assist Admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and confirm the panel is turned on. For instructions, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   Install the Now Assist for EA plugin. For instructions, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md).
 -   Install the EA Workspace May 2026 update from the ServiceNow Store.
 
 ## About this task

@@ -24,7 +24,7 @@ You need the following roles:
 -   sn\_ac.automation\_technical\_user
 -   sn\_ac.automation\_admin
 
-For more information, see the .
+For more information, see the [Submit an automation idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-ac.md).
 
 **Parent Topic:**[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-integrations.md)
 

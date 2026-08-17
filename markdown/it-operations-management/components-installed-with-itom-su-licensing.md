@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ITOM/OT SU Licensing Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Components installed with ITOM/OT SU Licensing

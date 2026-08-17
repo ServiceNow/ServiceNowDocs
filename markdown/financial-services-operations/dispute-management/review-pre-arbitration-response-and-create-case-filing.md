@@ -42,7 +42,7 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
     The **Chargeback** stage is initiated for the transaction.
 
-6.  Select the **Review pre arbitration response and create case filing** activity.
+6.  Select the **Review pre arbitration response and create case filing** task.
 
 7.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response received** field of the record.
 
@@ -52,15 +52,15 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d128365e218">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d127489e218">
 
 Selection
 
-</th><th align="left" id="d128365e221">
+</th><th align="left" id="d127489e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d128365e227">
+</th></tr></thead><tbody><tr><td id="d127489e227">
 
 **Unresolved**
 
@@ -73,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d128365e273">
+</td></tr><tr><td id="d127489e273">
 
 **Resolved**
 
@@ -92,7 +92,7 @@ After the request executes successfully, the transaction state changes to **Awai
 Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be viewed in the activity stream. You can withdraw the case filing by selecting **Withdraw case**.
 
 1.  After a decision by Visa is available, you can access it by selecting **Get case filing response**.
-2.  The task is automatically closed and the **Review case filing response** activity and appeal is available.
+2.  The task is automatically closed and the **Review case filing response** task and appeal are available.
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

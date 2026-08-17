@@ -19,7 +19,6 @@ This section explains quality issue management \(QIM\) tables in Manufacturing C
 The QIM feature adds or modifies the existing tables:
 
 -   Task \[sn\_customerservice\_task\]
--   RCA node category \[sn\_rca\_node\_category\]
 -   Planning item \[sn\_align\_core\_planning\_item\]
 -   Expense line \[fm\_expense\_line\]
 -   Case

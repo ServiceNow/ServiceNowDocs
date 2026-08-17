@@ -44,15 +44,15 @@ By default, all members of the HR group monitor the HR chat queue. When a questi
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d538336e150">
+<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d537973e150">
 
 Option
 
-</th><th align="left" id="d538336e153">
+</th><th align="left" id="d537973e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d538336e159">
+</th></tr></thead><tbody><tr><td id="d537973e159">
 
 **Accept a conversation from a queue**
 
@@ -60,7 +60,7 @@ Description
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d538336e179">
+</td></tr><tr><td id="d537973e179">
 
 **Accept a transfer request**
 

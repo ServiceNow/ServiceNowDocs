@@ -52,7 +52,7 @@ Role required: sn\_hr\_integrations.admin
 
 **Previous topic:**[Verify integration for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.md)
 
-**Next topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
+**Next topic:**[Integrating with the CIC Plus service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrating-with-cic-plus-service.md)
 
 **Related topics**  
 

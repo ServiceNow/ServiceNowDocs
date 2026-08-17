@@ -1,6 +1,6 @@
 ---
-title: Create New Digital Resilience Incident form
-description: On the Create New Digital Resilience Incident form, fill in the fields.
+title: Create Digital Resilience Incident form
+description: On the Create Digital Resilience Incident form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-dig-res-inci.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Report a major incident manually, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Digital Resilience Incident form
+# Create Digital Resilience Incident form
 
-On the Create New Digital Resilience Incident form, fill in the fields.
+On the Create Digital Resilience Incident form, fill in the fields.
 
 <table id="table_uj1_q5x_nvb"><thead><tr><th>
 

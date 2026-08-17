@@ -54,7 +54,7 @@ Theme Builder includes an option on the home page that you can use to provide fe
 -   **[Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md)**  
 Create a theme record for your web or mobile experiences by using the Home view in the Theme Builder application.
 -   **[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)**  
-Use AI to generate themes from images directly in Theme Builder or from the Now Assist panel.
+Use AI to generate themes from images directly in Theme Builder or from the ServiceNow Otto® panel.
 -   **[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)**  
 Customize and manage your theme and styling in a time and cost efficient way. After customizing, publish your new theme to either a web or mobile implementation of your instance.
 -   **[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md)**  

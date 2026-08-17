@@ -17,7 +17,7 @@ Your Impact Squad is a team of on-demand experts who work with you to take on yo
 **Note:**
 
 -   If you're a Guided customer, you will have a Customer Success Manager.
--   If you're a Total customer or a Guided customer with Add-Ons, you will have an Impact Squad, which includes a Customer Success Manager, Customer Success Executive, Platform Architect, and Support Account Manager. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for information about available Add-ons.
+-   If you're a Total customer or a Guided customer with Add-ons, you will have an Impact Squad, which includes a Customer Success Manager, Customer Success Executive, Platform Architect, and Support Account Manager. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for information about available Add-ons.
 
 <table id="table_qys_dgm_25b"><thead><tr><th>
 

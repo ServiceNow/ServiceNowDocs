@@ -7,8 +7,9 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-07-22"
 reading_time_minutes: 3
+keywords: [CMDB success advisor scheduled jobs, CMDB success advisor tables installed, components installed with CMDB success advisor, CMDB advisor daily data collection jobs, sn\_cmdb\_advisor tables]
 breadcrumb: [Reference, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -28,7 +29,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**CMDB Advisor - Auto Setup**
+CMDB Advisor - Auto Setup
 
 </td><td>
 
@@ -36,7 +37,7 @@ On-demand scheduled job that automatically configures the Data Foundations advis
 
 </td></tr><tr><td>
 
-**CMDB Advisor - Check Job Completion and Notify**
+CMDB Advisor - Check Job Completion and Notify
 
 </td><td>
 
@@ -44,23 +45,31 @@ Periodically checks whether Performance Analytics data collector jobs have compl
 
 </td></tr><tr><td>
 
-**CMDB Advisor - DF Daily Data Collection**
+CMDB Advisor - DF Daily Data Collection
 
 </td><td>
 
-Runs daily to refresh pre-aggregated indicator data for the Data Foundations product and invoke the Performance Analytics data collector jobs. Populates the charts and metrics on the Data Foundations advisor dashboard.
+Runs daily to refresh pre-aggregated indicator data for the Data Foundations product and invoke the **CMDB success advisor data collection for Data Foundation** Performance Analytics job. Populates the charts and metrics on the Data Foundations advisor dashboard.
 
 </td></tr><tr><td>
 
-**CMDB Advisor - HAM Daily Data Collection**
+CMDB Advisor - HAM Daily Data Collection
 
 </td><td>
 
-Runs daily to refresh pre-aggregated indicator data for the Hardware Asset Management \(HAM\) product and invoke the Performance Analytics data collector jobs. Populates the charts and metrics on the HAM advisor dashboard.
+Runs daily to refresh pre-aggregated indicator data for the Hardware Asset Management \(HAM\) product and invoke the **CMDB success advisor data collection for HAM** Performance Analytics job. Populates the charts and metrics on the HAM advisor dashboard.
 
 </td></tr><tr><td>
 
-**CMDB success advisor data collection for Data Foundation**
+CMDB Advisor - SAM Daily Data Collection
+
+</td><td>
+
+Runs daily to refresh pre-aggregated indicator data for the Software Asset Management \(SAM\) product and invoke the **CMDB success advisor data collection for SAM** Performance Analytics job. Populates the charts and metrics on the SAM advisor dashboard.
+
+</td></tr><tr><td>
+
+CMDB success advisor data collection for Data Foundation
 
 </td><td>
 
@@ -68,11 +77,19 @@ Runs on demand, invoked daily by the **CMDB Advisor - DF Daily Data Collection**
 
 </td></tr><tr><td>
 
-**CMDB success advisor data collection for HAM**
+CMDB success advisor data collection for HAM
 
 </td><td>
 
 Runs on demand, invoked daily by the **CMDB Advisor - HAM Daily Data Collection** scheduled script, to collect Performance Analytics scores for pre-aggregated HAM indicators. Populates the charts and metrics on the HAM advisor dashboard.
+
+</td></tr><tr><td>
+
+CMDB success advisor data collection for SAM
+
+</td><td>
+
+Runs on demand, invoked daily by the **CMDB Advisor - SAM Daily Data Collection** scheduled script, to collect Performance Analytics scores for pre-aggregated SAM indicators. Populates the charts and metrics on the SAM advisor dashboard.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -155,7 +172,7 @@ CMDB Advisor Aggregate Data
 
 </td><td>
 
-Stores pre-aggregated indicator data to populate charts and metrics on the advisor dashboards. Groups CI counts by principal class, discovery source, or model category for each active product. Records follow a draft, ready, and retired state life cycle.
+Stores pre-aggregated indicator data to populate charts and metrics on the advisor dashboards. Groups CI counts by principal class, discovery source, model category, or software product for each active product. Records follow a draft, ready, and retired state life cycle.
 
 </td></tr><tr><td>
 
@@ -175,7 +192,7 @@ CMDB Advisor selected context
 
 </td><td>
 
-Scope selections for each product dashboard, including principal classes in the Data Foundations advisor scope and model categories in the HAM advisor scope. Each record stores the product, associated content template, selected context item, context table, and whether the selection is manual or automatic.
+Scope selections for each product dashboard, including principal classes in the Data Foundations advisor scope, model categories in the HAM advisor scope, and software products in the SAM advisor scope. Each record stores the product, associated content template, selected context item, context table, and whether the selection is manual or automatic.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[CMDB success advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)

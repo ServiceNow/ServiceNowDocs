@@ -21,7 +21,7 @@ Retail Strategic Portfolio Management Suite is a purpose-built extension of the 
 
 Retail projects in Retail Strategic Portfolio Management Suite are structured, template-driven work items that guide teams through store life cycle scenarios.
 
-The Retail Strategic Portfolio Management Suite works as an extension to the existing SPM capabilities such as project templates, project fields, playbooks, and workflows to tailor them specifically for retail store operations giving all the personas a connected experience on one platform.
+The Retail Strategic Portfolio Management Suite works as an extension to the existing SPM capabilities such as project templates, project fields, playbooks, and workflows to tailor them specifically for retail store operations. This gives all the personas a connected experience on one platform.
 
 Retail companies run hundreds of store projects every year. A large grocery chain might be opening 40 new stores, refurbishing 120 others, closing 15, and refreshing technology in 200, all in the same fiscal year. These projects typically have three core problems.
 
@@ -46,7 +46,7 @@ Each project type consists of custom fields to the project record that capture t
 -   For a Store Closure, you get fields such as Closure decision date, Last trading day, Asset recovery completion date, and Closure confirmation date.
 -   For a Technology Refresh, you get fields such as Refresh approval date, Installation scheduled date, Installation completion date, and Store handover date.
 
-These fields serve two purposes: they give project managers a clear dashboard of where the project stands at key inflection points, and they give leadership a set of consistent, comparable data points across every project of the same type. When every store closure captures a Last trading day in the same field, you can report on that across the entire portfolio.
+These fields serve two purposes: they give project managers a clear dashboard of where the project stands at key inflection points. They also give leadership a set of consistent, comparable data points across every project of the same type. When every store closure captures a Last trading day in the same field, you can report on that across the entire portfolio.
 
 ## Portfolio-level visibility across all store projects
 
@@ -54,7 +54,7 @@ Every project of a given type shares the same fields, templates, and milestones,
 
 ## Life-cycle scenarios offered with the retail suite
 
-Each scenario has its own template, its own set of project fields, and its own guided playbook. These aren't five separate products; they're five configurations of the same underlying framework, all managed within the Workspace sharing the same reporting infrastructure and visible in a single portfolio view.
+Each scenario has its own template, its own set of project fields, and its own guided playbook. These aren't five separate products; they're five configurations of the same underlying framework, all managed within the Workspace. It shares the same reporting infrastructure and is visible in a single portfolio view.
 
 |Scenario|Offerings|Key milestones offered|
 |--------|---------|----------------------|
@@ -69,7 +69,7 @@ Each scenario has its own template, its own set of project fields, and its own g
 Retail Strategic Portfolio Management Suite provides benefits for retail project managers and their organizations.
 
 -   Standardized project structure for every store scenario: Retail Strategic Portfolio Management Suite provides predefined project templates for each store life cycle scenario.
--   Milestone tracking for store scenarios: Each project type includes custom fields that capture the key dates and milestones specific to that scenario, such as site approval date, construction start date, IT installation date, and store go-live date. These fields give leadership a consistent, comparable set of data points across every project of the same type.
+-   Milestone tracking for store scenarios: Each project type includes custom fields that capture the key dates and milestones specific to that scenario. These dates include site approval date, construction start date, IT installation date, and store go-live date. These fields give leadership a consistent, comparable set of data points across every project of the same type.
 -   Playbook-guided store life cycle: Stage-gate playbooks define the sequence of stages and activities that each store project must complete before advancing. Project managers are guided through required inputs, approvals, and validations at every stage, from initiation through handover.
 -   Portfolio-level visibility across all store projects: Because every project of a given type shares the same fields, templates, and milestones, status updates are available automatically. Executives can compare progress, identify risks, and report on the portfolio without manually gathering data from differently structured project plans.
 

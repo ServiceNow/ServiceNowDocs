@@ -8,7 +8,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -37,6 +37,4 @@ The following table outlines the key differences between a regulatory event aler
 [Regulatory process flow and tasks]()
 
 [Next Experience Discuss and Chat Collaboration]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
 

@@ -29,11 +29,11 @@ Role required: admin or ais\_admin
 
 3.  In the left pane, select **Result-card Interface**.
 
-4.  From the Select a bundle to edit list, select an EVAM configuration bundle.
+4.  From the **Select a bundle to edit** list, select an EVAM configuration bundle.
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Select the **More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions.\)** &gt; **Delete** at the end of the view configuration row that you want to delete.
+5.  Select the **More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More Actions.** &gt; **Delete** at the end of the view configuration row that you want to delete.
 
 
 ## Result

@@ -37,8 +37,8 @@ Role required: admin
 
     2.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
+    |Interaction related record field|Description|
+    |--------------------------------|-----------|
     |Interaction|System-generated interaction number.|
     |Record Type|Type of record created for a case or knowledge topic. By default, this task is auto-populated.|
     |Document table|Invoice case name that you want to associate with the interaction record.|

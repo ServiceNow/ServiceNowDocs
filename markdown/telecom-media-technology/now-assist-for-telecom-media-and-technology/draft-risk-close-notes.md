@@ -1,5 +1,5 @@
 ---
-title: Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/draft-risk-close-notes.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
 
@@ -29,7 +29,7 @@ A scheduled job runs everyday and automatically drafts closure notes for all ris
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select **Activate** in the **Draft close notes** card.
 
@@ -46,5 +46,5 @@ A scheduled job runs everyday and automatically drafts closure notes for all ris
     For more details on creating the activity context group, see [Configure activity groups for the Customer History view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-activity-groups-ca.md).
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Playbook recommendations, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Playbook recommendations, Use generative AI, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Turn on Playbook recommendations
@@ -19,7 +19,7 @@ Turn on the playbook recommendations skill to get recommendations for the activi
 ## Before you begin
 
 -   Role required: admin
--   Install the Now Assist for Creator application. For more information, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
 
 ## Procedure
 

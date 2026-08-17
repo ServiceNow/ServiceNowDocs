@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  Edit or delete the signatory.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d632105e142">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d631763e142">
 
 Action
 
-</th><th align="left" id="d632105e145">
+</th><th align="left" id="d631763e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d632105e151">
+</th></tr></thead><tbody><tr><td id="d631763e151">
 
 **Edit the signatory**
 
@@ -59,7 +59,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d632105e178">
+</td></tr><tr><td id="d631763e178">
 
 **Delete the signatory**
 

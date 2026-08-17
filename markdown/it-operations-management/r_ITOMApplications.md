@@ -48,7 +48,7 @@ Instantly see the service impact of your infrastructure issues and changes, simp
 
 \[Omitted image "health75.png"\] Alt text: Events prioritized on the dashboard
 
-ITOM AIOps uses the power of AIOps to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM AIOps applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
+ITOM AIOps uses AI to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM AIOps applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
 
 ## Accelerate cloud strategy and reduce costs
 

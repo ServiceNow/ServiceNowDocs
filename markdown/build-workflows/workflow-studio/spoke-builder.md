@@ -18,11 +18,11 @@ Automate integration tasks by creating a sequence of reusable actions to develop
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps, for information about submitting requests to the store, and to download and install Spoke Generator \(sn\_spoke\_builder\). For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps, for information about submitting requests to the store, and to download and install Spoke Generator \(sn\_spoke\_builder\). For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## App dependencies
 
-If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or Now Assist.
+If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or with AI.
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -90,5 +90,5 @@ Spoke actions created by importing OpenAPI specification, contain the OpenAPI st
 
 ## App version
 
-Spoke Generator v4.2.4 is the latest version.
+Spoke Generator v5.0.0 is the latest version.
 

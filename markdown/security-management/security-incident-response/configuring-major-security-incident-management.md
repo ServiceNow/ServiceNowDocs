@@ -29,6 +29,8 @@ The File Explorer workspace component organizes and tracks the collection of art
 Configure Major Security Incident Management with Microsoft Teams which helps communication over the chat to resolve Major Security Incident.
 -   **[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-slack-chat-connector-msi.md)**  
 Integrate and collaborate with Slack to resolve Major Security Incident to view and filter collaboration chat activities.
+-   **[Customize SI to MSI flows \(optional\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/customize-si-to-msi-flows-for-msim.md)**  
+Copy and customize the SI to MSI promotion flows to control how File Explorer and chat channels are configured when a Security incident is promoted to a Major Security Incident.
 
 **Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 

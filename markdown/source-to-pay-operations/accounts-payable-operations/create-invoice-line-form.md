@@ -1,6 +1,6 @@
 ---
 title: Create New Invoice Line form
-description: Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping addresses.
+description: Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.html
 release: australia
@@ -9,19 +9,19 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [APO, Accounts Payable Operations, invoice automation, invoice management, AP automation]
+keywords: [APO, Accounts Payable Operations, invoice automation, invoice management, Tax code, ERP, SWIFT or BIC code]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create New Invoice Line form
 
-Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping addresses.
+Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping.
 
 |Field|Description|
 |-----|-----------|
 |Invoice Line|
 |Number|An auto-generated number that uniquely identifies the invoice line.|
-|Invoice|Invoice for which you are creating the invoice line.|
+|Invoice|Invoice for which you're creating the invoice line.|
 |Status|Status of the invoice line.|
 |ERP line number|Unique number generated within the ERP system for the invoice line.|
 |Line description|A description of the goods or services represented by the invoice line item.|
@@ -49,9 +49,9 @@ Field descriptions for the Create New Invoice Line form used to add invoice line
 |Supplier part number|The part number of the supplier product.|
 
 -   **[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)**  
-Field descriptions for the Create New Invoice form, organized by section, for entering invoice details, supplier information, accounting data, and address fields.
+Field descriptions for the Create New Invoice form, organized by section, for entering invoice details, supplier information, accounting data, and address.
 -   **[Invoice Line form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-line-form-related-list.md)**  
-Tab descriptions for the Invoice Line form, including invoice line details, exceptions, and goods receipts.
+Tab descriptions for the Invoice Line form, including details, exceptions, and goods receipts. Use this reference when reviewing or completing invoice line records in Accounts Payable Operations.
 
 **Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
@@ -85,6 +85,8 @@ Tab descriptions for the Invoice Line form, including invoice line details, exce
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

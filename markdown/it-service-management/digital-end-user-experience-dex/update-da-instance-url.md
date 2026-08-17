@@ -1,6 +1,6 @@
 ---
 title: Update instance URL in the Desktop Assistant configuration file
-description: As a system administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices on which it is installed.
+description: As a system administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices where it is installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/update-da-instance-url.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Download and install, Set up Desktop Assistant, Configure, Digital 
 
 # Update instance URL in the Desktop Assistant configuration file
 
-As a system administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices on which it is installed.
+As a system administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices where it is installed.
 
 ## Before you begin
 

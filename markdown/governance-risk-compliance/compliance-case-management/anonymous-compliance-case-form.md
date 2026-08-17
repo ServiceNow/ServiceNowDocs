@@ -1,6 +1,6 @@
 ---
-title: Anonymous compliance case form
-description: The fields in the Report a compliance case form capture details about the suspected or confirmed compliance issue without disclosing the reporter's identity.
+title: Report a compliance case form
+description: The Report a compliance case form enables you to provide infomation about a suspected or confirmed compliance issue without disclosing your identity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Report a compliance case anonymously, Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
-# Anonymous compliance case form
+# Report a compliance case form
 
-The fields in the **Report a compliance case** form capture details about the suspected or confirmed compliance issue without disclosing the reporter's identity.
+The Report a compliance case form enables you to provide infomation about a suspected or confirmed compliance issue without disclosing your identity.
 
 <table id="table_syf_t3x_h3c"><thead><tr><th>
 
@@ -62,11 +62,11 @@ Rate this case on criticality
 
 </td><td>
 
-Severity level of the case.-   **1 - Critical**
--   **2 - High**
--   **3 - Moderate**
--   **4 - Low**
--   **5 - Planning**
+Severity level of the case. The available values are:-   1 - Critical
+-   2 - High
+-   3 - Moderate
+-   4 - Low
+-   5 - Planning
 
 </td></tr><tr><td>
 
@@ -94,11 +94,4 @@ Location where the event occurred. For example, office site, department area, or
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
-
-**Related topics**  
-
-
-[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
-
-[Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
 

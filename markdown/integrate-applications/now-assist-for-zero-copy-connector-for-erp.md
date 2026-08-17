@@ -1,19 +1,19 @@
 ---
-title: Now Assist for Zero Copy Connector
-description: Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
+title: ServiceNow Otto for Zero Copy Connector
+description: Use the ServiceNow Otto for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-for-zero-copy-connector-for-erp.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workflow Data Fabric]
 ---
 
-# Now Assist for Zero Copy Connector
+# ServiceNow Otto for Zero Copy Connector
 
-Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
+Use the ServiceNow Otto for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -25,27 +25,19 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_fqw_fwq_2hc" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Now Assist for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-zero-copy-connector.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-zero-copy-connector.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Now Assist for ZCC application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md)
-
-</td><td>
-
- 
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Otto for ZCC application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md)
 
 </td></tr><tr><td>
 
-[Use generative AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connectors-skills.md)
+[Use generative AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI capabilities offered by Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connectors-skills.md)
 
 </td><td>
 
-[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic AI workflows offered by Now Assist for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.md)
-
-</td><td>
-
- 
+[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use agentic AI workflows offered by Otto for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.md)
 
 </td></tr></tbody>
 </table>**Important:**

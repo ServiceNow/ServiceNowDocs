@@ -49,7 +49,7 @@ The process is terminated.
 
 ## What to do next
 
-In the contextual side panel, select the Playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text: Playbook icon\) to access the current action of the device and to review the action execution history of the device.
+In the contextual side panel, select the Playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text: Playbook icon\) to access the current device action and to review the action execution history of the device.
 
 **Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-10"
 reading_time_minutes: 6
 keywords: [scripted extension point, extension point, SmartAsmtResponseAssistExtensionPoint, AI Response Assist, Document Provider, customize AI sources]
-breadcrumb: [Configure, Now Assist, Smart Assessment Engine, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Customizing AI Response Assist sources
@@ -172,5 +172,5 @@ After you create the script include, register it as an implementation of `sn_sma
 
 [Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/ai-generated-responses-for-smart-assessment.md)
 
-[Configure Now Assist for Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-now-assist-for-smart-assessment-engine.md)
+[Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
 

@@ -46,7 +46,7 @@ Health score
 
 The health score represents the percentage of definition occurrences used across the platform that did not return any findings. It is calculated as:
 
- `1 - (F / D) * 100`
+ `(1 - (F / D)) * 100`
 
  Where F is the number of findings, and D is the number of definition occurrences.
 

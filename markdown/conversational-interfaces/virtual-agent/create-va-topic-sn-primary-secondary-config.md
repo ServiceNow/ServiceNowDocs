@@ -30,26 +30,28 @@ There are two ways to integrate secondary Virtual Agent topics with Bot Intercon
 
 -   Create one Virtual Agent Bot Interconnect topic per secondary Virtual Agent topic.
 
-    In case of NLU topics, each Bot Interconnect topic has the same name as the corresponding secondary Virtual Agent topic. For example, if you have two secondary Virtual Agent topics named **order a drink** and **book a ticket**, then you would create two Virtual Agent Bot Interconnect topics also named **order a drink** and **book a ticket**.
+    In case of NLU topics, each Bot Interconnect topic has the same name as the corresponding Virtual Agent topic. For example, for two secondary topics, **order a drink** and **book a ticket**, create two Virtual Agent Bot Interconnect topics. Name the two new topics to match the secondary topics.
 
     In case of LLM topics, each Bot Interconnect topic has the same name and description as the corresponding secondary Virtual Agent topic.
 
 -   Map multiple secondary Virtual Agent topics to a single Virtual Agent Bot Interconnect topic. This scenario is applicable only for NLU topics.
 
-    Create one Virtual Agent Bot Interconnect topic and name it accordingly. For example, **SVA ordering issues**. In this scenario, the secondary Virtual Agent topics are mapped to the Bot Interconnect shell topic as either keywords or utterances, depending on your method of topic discovery. So if you have two secondary Virtual Agent topics named **order a drink** and **book a ticket**, you would add both phrases to the Bot Interconnect topic as keywords or you would add them as utterances to the Bot Interconnect topic's corresponding intent.
+    Create one Virtual Agent Bot Interconnect topic and name it accordingly. For example, **SVA ordering issues**. In this scenario, the secondary Virtual Agent topics are mapped to the Bot Interconnect shell topic as either keywords or utterances. If you have two secondary Virtual Agent topics named **order a drink** and **book a ticket**, add both phrases to the Bot Interconnect topic as keywords, or as utterances to the Bot Interconnect topic's corresponding intent.
 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assisant Designer**.
 
-2.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) in your primary instance of Virtual Agent.
+2.  Select the **Asset library** tab.
+
+3.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) in your primary instance of Virtual Agent.
 
     In case of NLU topics, include the secondary Virtual Agent topic names as either keywords or utterances in the corresponding Bot Interconnect intent. In case of LLM topics, the topic name and description of the Bot Interconnect topic should match the topic name and description of the secondary Virtual Agent topic.
 
-3.  On the **Flow** tab, drag a Topic Block utility node onto the canvas.
+4.  On the **Flow** tab, drag a Topic Block utility node onto the canvas.
 
-4.  Select the node, and then fill in the form as follows:
+5.  Select the node, and then fill in the form as follows:
 
 <table id="table_oq1_5px_ksbxxx"><thead><tr><th>
 
@@ -94,9 +96,9 @@ Async Response Transformer
 If the secondary bot is configured in asynchronous mode, enter `sn_va_bot_ic.va_api_bot_interconnect_async_response_handler`
 
 </td></tr></tbody>
-</table>5.  Click **Save**.
+</table>6.  Click **Save**.
 
-6.  Click **Publish**.
+7.  Click **Publish**.
 
 
 **Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)

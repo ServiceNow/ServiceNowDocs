@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Check which CI types require an ITOM subscription

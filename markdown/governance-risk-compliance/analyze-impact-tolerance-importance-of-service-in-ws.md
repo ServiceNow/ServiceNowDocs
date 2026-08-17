@@ -23,15 +23,15 @@ A business service's importance is determined by such factors as the number of c
 -   Impact Tolerance \(Financial Impact\)
 -   Impact Tolerance \(Transaction Volume\)
 
-If you have the sn\_oper\_res.admin role, you can create and maintain a pre-defined assessment template in Operational Resilience. With the sn\_oper\_res.manager role, you can select one or more business services that you want to analyze and use the assessment template to calculate the importance and the impact tolerance​ of your business services.
+If you have the sn\_oper\_res.admin role, you can create and maintain a pre-defined assessment template in Operational Resilience. With the sn\_oper\_res.manager role, you can select one or more business services to analyze. Use the assessment template to calculate the importance and impact tolerance​ of your business services.
 
 ## Using Smart Assessment to evaluate importance and impact tolerance of a service
 
-Beginning with Operational Resilience, release 21.x.x, the Smart Assessment functionality has been integrated with the Importance and impact tolerance assessment, enabling you to create and manage the Importance and impact tolerance assessments efficiently. It includes features such as an assessment type field with legacy and smart options, default templates, and automated data updates. To progress, all assessments must be completed, after which they become read-only and are ready for approval.
+Beginning with Operational Resilience, release 21.x.x, the Smart Assessment functionality has been integrated with the Importance and impact tolerance assessment. It enables you to create and manage the Importance and impact tolerance assessments efficiently. It includes features such as an assessment type field with legacy and smart options, default templates, and automated data updates. To progress, all assessments must be completed, after which they become read-only and are ready for approval.
 
 The system requires assessments to be completed, as cancellations are not supported. Defining the assessment scope is mandatory, and the system prevents creation of an assessment without the scope.
 
-With the enhanced approval flow, completed assessments are reviewed and validated, after which the assessor can request approval, and the approver can then approve the assessment, completing the workflow. With Smart Assessment, the assessment can now be moved back to the **Pending Response** state, allowing the assessor to retake the assessment and resubmit it for approval.
+With the enhanced approval flow, completed assessments are reviewed and validated, after which the assessor can request approval. Approver can then approve the assessment, completing the workflow. With Smart Assessment, the assessment can now be moved back to the **Pending Response** state, allowing the assessor to retake the assessment and resubmit it for approval.
 
 ## Tasks and states that are associated with the assessment workflow
 

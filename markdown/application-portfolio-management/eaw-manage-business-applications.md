@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -26,10 +26,10 @@ Use the Business Application form to create a record and capture the details of 
 
 The architecture type values help in the following business cases:
 
--   Assess the performance of the platform as a whole as well as assess the performance of individual applications running on it.
+-   Assess the performance of the platform as a whole and assess the performance of individual applications running on it.
 -   Platform may be owned by a business owner who may not be the owner of the applications running on that platform. In such a scenario, the platform owner can assess the performance of the platform independent of the application owners, who assess the applications associated with the platform.
 
-For example, you can create a business application record for the ServiceNow® platform. Then, create individual business application records such as Enterprise Architecture, Financial Management, and Project Portfolio Management and associate these applications to the ServiceNow® platform. The distinction between the records whether it’s a business application running on a host or a platform hosting the applications lies in the **Architecture type** values of platform application and platform host.
+For example, you can create a business application record for the ServiceNow® platform. Then, create individual business application records such as Enterprise Architecture, Financial Management, and Project Portfolio Management and associate these applications to the ServiceNow® platform. The **Architecture type** field distinguishes between records. Use platform application for applications running on a host and platform host for platforms hosting applications.
 
 **Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-portfolio.md)
 

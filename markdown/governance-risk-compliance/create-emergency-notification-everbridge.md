@@ -20,9 +20,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
 
 ## About this task
 
-Send an event notification from the workspace that triggers a complete workflow of activities from the **Draft** to **Complete** state in Everbridge, where all the activities can be monitored from the workspace.
+Send an event notification from the workspace that triggers a complete workflow of activities from the **Draft** to **Complete** state in Everbridge. All the activities can be monitored from the workspace.
 
-When you send an emergency notification from the workspace, the action creates an incident and a notification for the incident in Everbridge to be sent to the right contacts and groups.
+When you send an emergency notification from the workspace, the action creates an incident. A notification for the incident is created in Everbridge and it is sent to the right contacts and groups.
 
 ## Procedure
 

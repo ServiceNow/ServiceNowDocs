@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-07"
 reading_time_minutes: 2
 keywords: [step-to-job mapping, Ansible jobs, resolution steps, automation mapping]
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Map Ansible jobs to resolution steps

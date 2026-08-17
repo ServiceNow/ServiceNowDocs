@@ -91,7 +91,7 @@ Properties for a field label:-   **Tooltip** property that is displayed when a u
 </td></tr></tbody>
 </table>## Default value
 
-The default value automatically fills in the field on the empty form for a new record, or fills in the field later \(if the field is empty\) when your user submits the new record. You can specify the default values as either a constant or use a script to generate them.
+The default value automatically fills in the field on the empty form for a record. If the field is empty when the user submits the record, the default value fills it in. Specify default values as a constant or use a script to generate them.
 
 To learn how to define a default value for the fields, see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecifyingADefaultValue.md).
 

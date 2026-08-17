@@ -1,6 +1,6 @@
 ---
 title: Set up authentication profile using Relish credentials
-description: Create a basic authentication profile that can be used for web service integration with Relish. Register the Relish user name and password to create the authentication profile.
+description: Set up a basic authentication profile using Relish credentials to enable web service integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [authentication profile, Relish credentials, Connections and Credentials, Credential alias, Configuration form, authentication configuration, Basic Auth Credentials]
 breadcrumb: [Relish Integration, Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Set up authentication profile using Relish credentials
 
-Create a basic authentication profile that can be used for web service integration with Relish. Register the Relish user name and password to create the authentication profile.
+Set up a basic authentication profile using Relish credentials to enable web service integration.
 
 ## Before you begin
 

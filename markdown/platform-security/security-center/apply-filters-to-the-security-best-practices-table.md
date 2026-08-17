@@ -1,6 +1,6 @@
 ---
-title: Filters the security best practices table
-description: Apply filters to return more relevant results for your security best practices.Discover the steps for saving filters in your security best practices for later reuse.Discover the steps for using the filters that you saved for your security best practices.
+title: Filter the security best practices table
+description: Apply filters to return more relevant results for your security best practices.Save filters in your security best practices for later reuse to streamline your review process.Apply a saved filter to your security best practices to quickly view the results you need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/apply-filters-to-the-security-best-practices-table.html
 release: australia
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Security Best Practices, Security posture console, Security Center, Platform Security]
 ---
 
-# Filters the security best practices table
+# Filter the security best practices table
 
 Apply filters to return more relevant results for your security best practices.
 
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Navigate to the **Best Practices** table and select a field you want to apply a filter to by selecting its kebab menu, or the one with three vertical dots \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: vertical dots\).
 
-<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d174947e74">
+<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d175336e79">
 
 Fields
 
-</th><th align="left" id="d174947e77">
+</th><th align="left" id="d175336e82">
 
 Filter
 
-</th></tr></thead><tbody><tr><td id="d174947e83">
+</th></tr></thead><tbody><tr><td id="d175336e88">
 
 **Name**
 
@@ -42,7 +42,7 @@ Filter
 
 Combine a conditional operator with a string of text to return security best practices that match the name you entered.
 
-</td></tr><tr><td id="d174947e92">
+</td></tr><tr><td id="d175336e97">
 
 **Maturity level**
 
@@ -56,7 +56,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Add advanced features
 
 
-</td></tr><tr><td id="d174947e119">
+</td></tr><tr><td id="d175336e124">
 
 **Status**
 
@@ -70,7 +70,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Completed
 
 
-</td></tr><tr><td id="d174947e146">
+</td></tr><tr><td id="d175336e151">
 
 **Priority**
 
@@ -84,7 +84,7 @@ Apply a filter to return security best practices that match the following priori
 -   Not applicable
 
 
-</td></tr><tr><td id="d174947e174">
+</td></tr><tr><td id="d175336e179">
 
 **Goals**
 
@@ -100,7 +100,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Secure emails
  **Note**: Advanced filters are applied for goals by default. To modify them, select **Make changes** &gt; **Advanced view** &gt; **Select field goals** and then build the rest of the conditions and select **Update**.
 
-</td></tr><tr><td id="d174947e228">
+</td></tr><tr><td id="d175336e233">
 
 **First introduced**
 
@@ -108,7 +108,7 @@ Apply a filter to return security best practices that match one or more of the f
 
 Combine a conditional operator with a string of text to return best practices that were first introduced with the version you entered.
 
-</td></tr><tr><td id="d174947e237">
+</td></tr><tr><td id="d175336e242">
 
 **Changed**
 
@@ -116,7 +116,7 @@ Combine a conditional operator with a string of text to return best practices th
 
 Combine a conditional operator with a string of text to return security best practices that changed in the version you entered.
 
-</td></tr><tr><td id="d174947e246">
+</td></tr><tr><td id="d175336e251">
 
 **Removed**
 
@@ -130,7 +130,7 @@ Combine a conditional operator with a string of text to return security best pra
 
 ## Save a filter for future use
 
-Discover the steps for saving filters in your security best practices for later reuse.
+Save filters in your security best practices for later reuse to streamline your review process.
 
 ### Before you begin
 
@@ -161,7 +161,7 @@ After you create filters in the security best practices table, you can save them
 
 ## Use a saved filter
 
-Discover the steps for using the filters that you saved for your security best practices.
+Apply a saved filter to your security best practices to quickly view the results you need.
 
 ### Before you begin
 

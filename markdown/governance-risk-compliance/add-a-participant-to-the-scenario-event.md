@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -53,11 +53,11 @@ Role required: sn\_oper\_res.manager
 
         An email notification is automatically sent to the participant.
 
-        On the **Responses** tab of scenario analysis responses, the details of the response task such as the response task number, name of the assigned participant, and state of the response task are displayed. An email notification is sent to the assigned user.
+        On the **Responses** tab, the response task details are displayed. These details include the response task number, assigned participant name, and response task state.
 
 3.  On the **Responses** tab, fill in the fields.
 
-    1.  Log in as the assigned user of the scenario analysis response and update the impact duration of the scenario analysis response in days, hours, minutes, seconds in the **Impact Duration** field.
+    1.  Log in as the assigned user and update the impact duration in the **Impact Duration** field.
 
     2.  Add notes in the **Observation**, **Gap**, and **Recommendation** fields.
 

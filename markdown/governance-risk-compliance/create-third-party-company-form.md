@@ -1,6 +1,6 @@
 ---
-title: Create New Company form
-description: On the Create New Company form, fill in the fields for the third party.
+title: Create third-party company form
+description: On the Create third-party company form, fill in the fields for the third party.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-third-party-company-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Create a third party and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Company form
+# Create third-party company form
 
-On the Create New Company form, fill in the fields for the third party.
+On the Create third-party company form, fill in the fields for the third party.
 
 <table id="table_cyz_r34_ycc"><thead><tr><th>
 

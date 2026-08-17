@@ -58,7 +58,7 @@ The **Track what's important to you** section of the Admin Home page provides in
 
 The **Get information about your instance** section of the Admin Home page shows information about your instance's current version, violations, and scheduled upgrade. It also shows the status of licensed applications as a list of installed applications on your instance and the applications that need to be updated, as well as a card with easy access to [Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-achieve-business-objective.md).
 
-If your instance has one or more Now Assist plugins installed, a card displaying the status of your instance's Now Assist skills will be shown.
+If your instance has one or more ServiceNow Otto plugins installed, a card displaying the status of your instance's ServiceNow Otto skills will be shown.
 
 \[Omitted image "Now\_Assist\_Admin\_Card.png"\] Alt text: The Now Assist Admin card with skills information.
 

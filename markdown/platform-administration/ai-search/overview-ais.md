@@ -48,15 +48,15 @@ Watch this short video to see how users can find answers using AI Search.
 
 </td></tr><tr><td>
 
-[AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console.md) \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:Configure, test, and activate AI Search solutions across different types of search applications.
+[AI Search Admin console \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:Configure, test, and activate AI Search solutions across different types of search applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console.md)
 
 </td><td>
 
-[Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/adv-ais-mgmt-tools-content-pack.md) \[Omitted image "bus-it-leader.svg"\] Alt text:Analyze trends for search query traffic, review indexed record counts and configuration settings, and preview search query results.
+[Advanced AI Search Management Tools \[Omitted image "bus-it-leader.svg"\] Alt text:Analyze trends for search query traffic, review indexed record counts and configuration settings, and preview search query results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/adv-ais-mgmt-tools-content-pack.md)
 
 </td><td>
 
-[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md) \[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Search content and metadata from supported external source systems.
+[External Content Connectors \[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Search content and metadata from supported external source systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
 
 </td></tr></tbody>
 </table>**Note:** AI Search isn't available in personal developer instances \(PDIs\).

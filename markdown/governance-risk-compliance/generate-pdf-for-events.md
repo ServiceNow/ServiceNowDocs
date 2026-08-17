@@ -1,6 +1,6 @@
 ---
 title: Generate event reports in PDF or Microsoft Word
-description: Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for a future reference.
+description: Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-pdf-for-events.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Man
 
 # Generate event reports in PDF or Microsoft Word
 
-Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for a future reference.
+Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for future reference.
 
 ## Before you begin
 

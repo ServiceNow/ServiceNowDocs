@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 ## About this task
 
-When you publish a TRM catalog, the details such as products, lifecycle phases, and standards are transformed into structured Knowledge Base articles that can be searched, browsed, and consumed across the organization. This allows technology standards maintained by enterprise architects to be accessed by a much broader audience, including application owners, developers, and solution architects.
+When you publish a TRM catalog, the details such as products, lifecycle phases, and standards are transformed into structured Knowledge Base articles. These articles can be searched, browsed, and consumed across the organization. This allows technology standards maintained by enterprise architects to be accessed by a much broader audience, including application owners, developers, and solution architects.
 
 **Note:** You can create only one publishing configuration for a specific combination of catalog type and access type within the same domain.
 

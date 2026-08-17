@@ -1,6 +1,6 @@
 ---
 title: Application indicator score calculation in Enterprise Architecture Workspace
-description: Enterprise Architecture Workspace calculates a composite score for each business application and business capability by running data from configured indicators through a multi-step pipeline that normalizes raw values, applies weighted contributions, and aggregates the results into a final score per fiscal period.
+description: Enterprise Architecture Workspace calculates a composite score for each business application and business capability by running data from configured indicators through a multi-step pipeline. The pipeline normalizes raw values, applies weighted contributions, and aggregates the results into a final score per fiscal period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-application-indicator-score-calculation.html
 release: australia
@@ -12,13 +12,13 @@ breadcrumb: [Rationalization of business applications, Exploring Enterprise Arch
 
 # Application indicator score calculation in Enterprise Architecture Workspace
 
-Enterprise Architecture Workspace calculates a composite score for each business application and business capability by running data from configured indicators through a multi-step pipeline that normalizes raw values, applies weighted contributions, and aggregates the results into a final score per fiscal period.
+Enterprise Architecture Workspace calculates a composite score for each business application and business capability by running data from configured indicators through a multi-step pipeline. The pipeline normalizes raw values, applies weighted contributions, and aggregates the results into a final score per fiscal period.
 
 ## Scoring pipeline overview
 
-An indicator is a single metric or measure of a particular aspect of a business application or business capability. Indicators can be subjective, such as assessment responses, or objective, such as operational or risk data from the CSDM service graph — for example, the number of incidents linked to an application.
+An indicator is a single metric or measure of a particular aspect of a business application or business capability. Indicators can be subjective, such as assessment responses. They can also be objective, such as operational or risk data from the CSDM service graph — for example, the number of incidents linked to an application.
 
-By running indicators through a consistent scoring pipeline, Enterprise Architecture Workspace confirms that applications assessed on different data types—such as assessment responses, change counts, or custom script outputs—can be compared meaningfully on a single score. Scores are stored per application per fiscal period, so historical data is preserved across scoring runs.
+By running indicators through a consistent scoring pipeline, Enterprise Architecture Workspace confirms that applications assessed on different data types can be compared meaningfully on a single score. Data types include assessment responses, change counts, and custom script outputs. Scores are stored per application per fiscal period, so historical data is preserved across scoring runs.
 
 Administrators control which indicators contribute to a profile, how they are weighted, and whether fixed or dynamic value ranges are used during normalization.
 
@@ -46,7 +46,7 @@ Each indicator has a data source that determines how the raw weight is collected
 
 ## Normalization
 
-After the raw weight is collected for each application, the system normalizes the value to a 1–10 scale so that indicators using different units and ranges can be combined meaningfully. Regardless of direction, a normalized value of 10 always represents the best-performing application for that indicator, and 1 represents the worst. The Direction setting controls how the raw value maps to this scale.
+After the raw weight is collected for each application, the system normalizes the value to a 1–10 scale. This normalization allows indicators using different units and ranges to be combined meaningfully. Regardless of direction, a normalized value of 10 always represents the best-performing application for that indicator, and 1 represents the worst. The Direction setting controls how the raw value maps to this scale.
 
 <table id="table_szl_ys5_hjc"><thead><tr><th>
 
@@ -80,7 +80,7 @@ normalizedValue =
 
 </td></tr><tr><td>
 
-Direction = Minimize \(the application with the lowest raw value scores 10; the application with the highest raw value scores 1; for example, Incident Count\)
+Direction = Minimize \(the application with the lowest raw value scores 10; the application with the highest raw value scores 1; for example, incident Count\)
 
 </td><td>
 

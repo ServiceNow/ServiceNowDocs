@@ -4,7 +4,7 @@ description: The ServiceNow Predictive Intelligence application enables you to c
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-27"
 reading_time_minutes: 1
 ---
 
@@ -14,7 +14,8 @@ The ServiceNow® Predictive Intelligence application enables you to create and t
 
 ## Predictive Intelligence highlights for the Australia release
 
-A new Predictive Intelligence Usage Analytics dashboard provides you with actionable insights into model performance, user engagement, adoption trends, and product health.
+-   A new Predictive Intelligence Usage Analytics dashboard provides you with actionable insights into model performance, user engagement, adoption trends, and product health.
+-   The sys property ML Trainer - Glide communication KAA \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation when mTLS is enabled.
 
 See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md) for more information.
 
@@ -24,6 +25,10 @@ See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/Servi
 
     Usage Analytics dashboard is a central location to understand the adoption, effectiveness, and overall value of all your Predictive Intelligence solutions. Dashboard widgets offer several metrics such as total monthly count of predictions per solution type.
 
+-   **Sys property: [ML Trainer - Glide communication KAA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-properties.md)**
+
+    A sys property \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation to the ML Trainer server. KAA validation occurs only if mTLS is enabled on the instance. If this property is enabled but mTLS isn't enabled, the KAA validation is skipped. Default value is true \(from the Australia release\).
+
 
 ## Activation information
 
@@ -31,9 +36,9 @@ Predictive Intelligence is a ServiceNow AI Platform feature that is active by de
 
 ## Related ServiceNow applications and features
 
--   **[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)**
+-   **[Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-nowassist-landing.md)**
 
-    Document Intelligence is an artificial intelligence solution that enables any organization to automate and accelerate the process of extracting data from documents.
+    With the Now Assist in Document Intelligence application, you can use generative AI to get key information from digital documents into your automation workflows.
 
 -   **[Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence.md)**
 

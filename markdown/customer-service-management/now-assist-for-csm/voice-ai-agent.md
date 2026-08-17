@@ -1,6 +1,6 @@
 ---
-title: AI voice agent in CSM
-description: Use the AI voice agent to create cases and check case status through natural, conversational voice calls.
+title: AI voice agents in CSM
+description: Use the AI voice agents to create cases and check case status through natural, conversational voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/voice-ai-agent.html
 release: australia
@@ -10,22 +10,22 @@ topic_type: concept
 last_updated: "2026-02-02"
 reading_time_minutes: 3
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use agentic AI in CSM, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# AI voice agent in CSM
+# AI voice agents in CSM
 
-Use the AI voice agent to create cases and check case status through natural, conversational voice calls.
+Use the AI voice agents to create cases and check case status through natural, conversational voice calls.
 
-## AI voice agent overview
+## AI voice agents overview
 
-The AI voice agent streamlines customer interactions by integrating with contact center platforms including Genesys, Twilio, NICE, Five9, 3CLogic, and Amazon Connect CCaaS platforms.
+The AI voice agents streamlines customer interactions by integrating with contact center platforms including Genesys, Twilio, NICE, Five9, 3CLogic, and Amazon Connect.
 
-The AI voice agent enables customers to get case status and create cases entirely through voice commands. This solution reduces manual intervention, improves service resolution times, and delivers consistent functionality across all supported contact center partners.
+The AI voice agents enables customers to get case status and create cases entirely through voice commands. This solution reduces manual intervention, improves service resolution times, and delivers consistent functionality across all supported contact center partners.
 
 ## Key Capabilities
 
-The AI voice agent helps with case management by using natural, conversational voice interactions:
+The AI voice agents helps with case management by using natural, conversational voice interactions:
 
 -   Check the status of your cases just by asking.
 -   Create cases without filling out any forms.
@@ -36,13 +36,13 @@ The AI voice agent helps with case management by using natural, conversational v
 
 ## Benefits
 
-With the AI voice agent, there’s improvement in both customer experience and operational efficiency:
+With the AI voice agents, there’s improvement in both customer experience and operational efficiency:
 
 -   Support teams spend less time answering routine questions because the agent handles case status checks and updates.
 -   Customers don't need training or knowledge of internal processes—The agent guides them.
 -   Customer satisfaction increases because the service is faster, easier, and more intuitive.
 
-## CSM AI voice agent
+## CSM AI voice agents
 
 There are two AI voice agents for CSM. Each agent is associated with a voice service acting as a virtual customer service agent and can be configured with welcome messages, voice profiles, and fallback options like human agent routing or case creation. This setup enables efficient, AI-driven support for customers.
 
@@ -63,10 +63,10 @@ This interface enables admins to [create a AI voice agents](https://raw.githubus
 **Note:**
 
 -   To enable customer access and use of AI voice agents, an admin must install the plugin Customer Service Management AI agent collection
--   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements.
+-   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements. For more info see, [Configure and customize the AI Voice Agent for ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
 
 **Important:**
 
--   When you modify an AI agent, or a tool, make sure that you update all instructions accordingly. For more info, see [Configure and customize the AI Voice Agent for Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
+-   When you modify an AI agent, or a tool, make sure that you update all instructions accordingly.
 -   In the Define availability screen for the AI agent, make sure that the **Status** field is enabled to activate the AI agent.
 

@@ -22,17 +22,19 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
 Applications range from a few files to thousands of files. In ServiceNow Studio, you can create and work on apps of any size with a variety of file types, based on your permissions.
 
-## How do I create a new application?
+## How do I create an application?
 
-Use either **Create** button on the ServiceNow Studio home page to start creating an app. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md).
+Use either **Create** button on the ServiceNow Studio home page to start creating an app with metadata records. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md).
 
-\[Omitted image "sn-studio-create-button-zs1.png"\] Alt text: Both Create buttons on the home page enable you to create a new application.
+Create an app in source code by selecting the Explorer tab and selecting **Create an app**. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+
+\[Omitted image "sn-studio-create-button-as2.png"\] Alt text: Use either Create button on the home page to begin working on a new application.
 
 ## Opening an existing application for the first time
 
 When you open ServiceNow Studio for the first time, open your apps from the Navigator panel on the left side of the screen. Search for the app by name or select it from the list.
 
-\[Omitted image "sn-studio-app-list-zs2.png"\] Alt text: The Navigator panel shows a list of applications in ServiceNow Studio
+\[Omitted image "sn-studio-app-list-as2.png"\] Alt text: The Navigator panel shows a list of applications in ServiceNow Studio.
 
 Selecting an app opens its full contents in the Navigator panel, with all file types organized by category, such as Automation. Select **App details** to open the app in a new tab.
 
@@ -60,8 +62,6 @@ Create an app file in ServiceNow Studio to define how an aspect of an applicatio
 The App details page in ServiceNow Studio shows metadata about your app and provides access to common development actions — including creating files, updating app settings, and publishing your app for deployment.
 -   **[Bookmark apps and app files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/bookmark-apps-and-app-files.md)**  
 Bookmark apps and app files in ServiceNow Studio so you can access them quickly from the Bookmarks tab in the Navigator panel.
--   **[Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)**  
-Use source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
 -   **[Preview an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/preview-app-file.md)**  
 Preview app files in ServiceNow Studio before publishing to confirm that the file looks and functions as expected. Only files with a user interface support preview.
 -   **[Find an app or app file using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/find-app-app-file-using-code-search.md)**  

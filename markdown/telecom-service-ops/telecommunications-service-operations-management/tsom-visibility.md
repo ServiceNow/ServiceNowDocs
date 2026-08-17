@@ -16,11 +16,11 @@ breadcrumb: [Explore, Telecommunications Service Operations Management]
 
 Telecom Visibility extends the discovery and reconciliation capabilities of ITOM Visibility to meet the specific needs of telecom service providers. It enables accurate, telecom-aware network inventory by discovering real-time network data, reconciling mismatches, and maintaining a consistent telecom model in your CMDB and TNI \(Telecommunications Network Inventory\).
 
-Discover physical and logical network components across telecom domains, reconcile discrepancies between discovery and inventory data, and maintain a telecom-specific CMDB structure to support advanced automation and assurance use cases.
+Discover physical and logical network components across telecom domains and reconcile discrepancies between discovery and inventory data. Maintain a telecom-specific CMDB structure to support advanced automation and assurance use cases.
 
 ## Telecom Visibility overview
 
-Telecom Visibility is a unified solution for discovering and managing telecom network resources. It leverages proven discovery technologies such as Horizontal Discovery, Telecommunications Discovery Patterns, and Service Graph Connectors \(SGC\) to bring network data from various systems \(for example, CLI/SNMP-based standalone devices or API-driven EMS/NMS/controllers\) into your CMDB.
+Telecom Visibility is a unified solution for discovering and managing telecom network resources. It leverages proven discovery technologies such as Horizontal Discovery, Telecommunications Discovery Patterns, and Service Graph Connectors \(SGC\). These technologies bring network data from various systems \(for example, CLI/SNMP-based standalone devices or API-driven EMS/NMS/controllers\) into your CMDB.
 
 Telecom Visibility helps communication service providers \(CSPs\) and telecom operators:
 

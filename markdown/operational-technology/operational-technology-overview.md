@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-12"
-reading_time_minutes: 7
+last_updated: "2026-07-09"
+reading_time_minutes: 6
 ---
 
 # Operational Technology
@@ -66,10 +66,6 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
     Creates the foundational data and relationships that enable your organization to use the ServiceNow® OT solution.
 
--   [Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)
-
-    Helps streamline processes in the Industrial Workspace related to your OT device data.
-
 -   [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-landing.md)
 
     Amplifies the visibility of devices in your OT environment.
@@ -106,10 +102,6 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
     Accesses external sources related to an OT incident, and contextualizes how the document is relevant to the incident.
 
--   [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
-
-    Summarizes OT incident information and generates incident resolution notes.
-
 -   [Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-employee-portal-landing.md)
 
     Central location where you can submit requests related to OT and industrial services.
@@ -127,11 +119,11 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 -   Watch features demonstrated via [DemoNow](https://www.servicenow.com/lpdem/demonow.html).
 -   For information on how to request and set up Operational Technology, see
     -   [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
-    -   [Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-na-otm.md)
+    -   [Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-na-otm.md)
     -   [Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
     -   [Configuring Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-vulnerability-response/configuring-oper-tech-vulnerability-response.md)
     -   [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
-    -   [Configure Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-now-assist-otsm.md)
+    -   [Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
     -   [Configuring Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/configuring-operational-technology-change-request.md)
     -   [Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
     -   [Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)

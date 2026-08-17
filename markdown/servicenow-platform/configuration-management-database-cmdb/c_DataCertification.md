@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -41,8 +41,9 @@ You can use [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/Servic
 -   [Convert legacy certification schedules into Data Manager certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.md).
 -   [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
 -   [Review failed certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md).
+-   [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md)
 
-The Data Certification experience in CMDB Workspace doesn’t provide functionality such as reset, merging of multiple certification tasks, and escalation.
+The Data Certification experience in CMDB Workspace or Service Graph Workspacedon't provide functionality such as merging of multiple certification tasks and escalation.
 
 For more information about using Data Certification, see [Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 

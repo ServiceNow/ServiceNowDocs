@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -26,166 +26,23 @@ In an iterative process, before the TPR manager closes an assessment, the TPR ma
 
 ## Procedure
 
-1.  In the **Quick actions** box on the TPRM home page \[Omitted image "icon-tprm-ws-home.png"\] Alt text:, select **Create task**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **External tasks** &gt; **All tasks**.
 
-2.  Fill in the form and then select **Save**.
+2.  Select **New** and fill in the form.
 
-<table id="table_krg_p53_2yb"><thead><tr><th>
+    For descriptions of all these fields, see [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md).
 
-Field
+3.  Select **Save**.
 
-</th><th>
 
-Description
+## What to do next
 
-</th></tr></thead><tbody><tr><td>
+Monitor and manage the task as work progresses, including updating its state and reviewing third-party portal activity, as described in [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md). If you made the task visible in the third-party portal, the third-party contact can view and act on it there.
 
-Short description / Description
+**Related topics**  
 
-</td><td>
 
-High-level and detailed information about the issue that needs to be resolved and the method for resolving it.
+[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)
 
-</td></tr><tr><td>
+[Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md)
 
-Number
-
-</td><td>
-
-For each task, the system auto-assigns a unique ID number that starts with the text VRT.The unique ID is used in all references to the item. You can use the ID to search or filter for the item that you want to work on.
-
-</td></tr><tr><td>
-
-Applies to
-
-</td><td>
-
--   **Third party**: The task applies to the parent third-party organization.
--   **Engagement**: The task applies to the engagement.
--   **Entity**: The task applies to the third-party element entity.
-
-
-</td></tr><tr><td>
-
-Third party
-
-</td><td>
-
-Third party with which the task is associated.
-
-</td></tr><tr><td>
-
-Assessment
-
-</td><td>
-
-Assessment with which the task is associated.
-
-</td></tr><tr><td>
-
-Issue
-
-</td><td>
-
-Issue with which the task is associated.
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
-State of progress for the task.-   Open
--   Submitted to third party
--   Review
--   Closed complete
--   Closed incomplete
--   Closed cancelled
-
-
-</td></tr><tr><td>
-
-Priority
-
-</td><td>
-
-Specify the priority. The value appears in all reports that include the task.
-
-</td></tr><tr><td>
-
-Assigned to
-
-</td><td>
-
-User that is responsible for managing and closing the task.
-
-</td></tr><tr><td>
-
-Third-party contact
-
-</td><td>
-
-Contact at the third party with which the task is associated.
-
-</td></tr><tr><td>
-
-Watch list
-
-</td><td>
-
-Add other users to help ensure that they see updates in the task state and other values.
-
-</td></tr><tr><td>
-
-Visible in third-party portal
-
-</td><td>
-
-Option to display the task to the third-party contacts in the third-party portal.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-**Task schedule section**
-
-</td></tr><tr><td>
-
-Planned duration / Actual duration
-
-</td><td>
-
-The time period that you expect the task to require and the actual duration that is calculated from the actual start and actual end dates.
-
-</td></tr><tr><td>
-
-Planned start date / Planned end date
-
-</td><td>
-
-Expected start and end dates for the task.
-
-</td></tr><tr><td>
-
-Actual start date / Actual end date
-
-</td><td>
-
-Actual start and end dates for the task based on the first action and the date the task was closed.
-
-</td></tr><tr><td>
-
-Closed by
-
-</td><td>
-
-User who closed the task \(typically the owner — the **Assigned to** user\).
-
-</td></tr><tr><td>
-
-Created / Updated
-
-</td><td>
-
-Dates that the task was saved and date of the latest change.
-
-</td></tr></tbody>
-</table>

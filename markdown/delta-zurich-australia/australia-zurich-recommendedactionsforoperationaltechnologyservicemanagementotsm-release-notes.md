@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,6 +67,11 @@ Zurich
 
 </td><td>
 
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
 
 Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.
@@ -82,6 +87,11 @@ Use Recommended Actions to see relevant actions that can help resolve your OT in
 Australia
 
 </td><td>
+
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=australia&ft:locale=en-US)**
 
@@ -339,7 +349,16 @@ Zurich
 
 </td><td>
 
+[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+ [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
+
+ Zurich Early Availability
+
 -   Display relevant actions to users based on the context of an OT incident record.
 
  See [Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=recommended-actions-for-otsm&family=zurich&ft:locale=en-US) and [AI Enhanced Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=ai-enhanced-ra-otsm-landing&family=zurich&ft:locale=en-US) for more information.
@@ -349,6 +368,12 @@ Zurich
 Australia
 
 </td><td>
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+ Australia Early Availability
 
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 

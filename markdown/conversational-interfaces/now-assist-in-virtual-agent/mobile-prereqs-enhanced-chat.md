@@ -9,14 +9,14 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Mobile app prerequisites for enhanced chat
 
 Now Assist in Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
 
-For information on choosing how you want Now Assist in Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between Now Assist in Virtual Agent standard and enhanced chat experiences, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+For information on choosing how you want Now Assist in Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between Now Assist in Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 The three different mobile app components that admins can integrate with an assistant are a mobile search widget, chat launcher, and custom app.
 

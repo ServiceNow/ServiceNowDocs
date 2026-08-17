@@ -9,8 +9,8 @@ classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, generative AI]
-breadcrumb: [Use generative AI skills, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Generate issue recommendations for TPRM
@@ -25,7 +25,7 @@ The assessment you are using to generate issue recommendations must use the Smar
 
 Set this property in your non-production instances and conduct thorough testing before changing your production instances. Failure to do so may result in unexpected issues.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -33,11 +33,13 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 The third party or engagement must have completed prior assessments, and reviewers must have previously created issues from those assessments. The recommendation skill uses these historical issues and their associated questions and responses as reference data. TPR Assessors generate issue recommendations. TP Reviewers can review, accept, or dismiss the generated recommendations.
 
+**Note:** The skill can identify a question-and-answer pair as a potential issue only if a similar question-and-answer pair was previously flagged as an issue in the historical data.
+
 For more information on activating the recommendation for TPRM issues skill, refer to [Activate TPRM issue recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.md).
 
 **Note:** If you want generated issues to be created using historical data for individual third parties or engagements, a team member with the administrator role needs to navigate to **All** &gt; **System Properties** &gt; **All** select `sn_tprm_genai.same_vendor_required` and set the property to true.
 
-By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 **Important:** Be sure to check AI-generated recommendations for accuracy.
 
@@ -57,15 +59,10 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
     On the Predicted issues pane, a message indicates the status of your recommendations request.
 
-    -   No predicted issues available: If there’s no relevant historical data, the Predicted issues pane indicates that issue generation is complete and no issues are available.
+    -   No predicted issues available: If there’s no historical data \(prior issues and their associated Smart Assessment Engine or Classic assessment questions and responses\), the Predicted issues pane indicates that issue generation is complete and no issues are available.
     -   Generating predicted issues: If the request is in progress, try refreshing after some time.
 
 ## What to do next
 
 Create issues based on generated issue recommendations or dismiss the issue recommendations. For more information, see [Create or dismiss issues using recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.md).
-
--   **[Create or dismiss issues using recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.md)**  
-Accept recommendations to create issues based on historical assessment data, or dismiss recommendations that aren’t relevant. Accepting or dismissing issue recommendations helps reviewers efficiently act on AI‑predicted findings while retaining control over which issues are created.
-
-**Parent Topic:**[Using Now Assist for Third-party Risk Management \(TPRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/using-now-assist-for-tprm.md)
 

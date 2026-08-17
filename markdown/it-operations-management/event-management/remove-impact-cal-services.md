@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Remove application services from impact calculation
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
 ## About this task
 
-Removing or deleting a record from the list won’t necessarily exclude the application service from impact calculation if the CMDB class still exists in em\_impact\_inclusion\_class.list. However, even if the class exists in em\_impact\_inclusion\_class.list, the application service will not be considered for impact calculation if its status is set to **Calculate Impact** = **false** in em\_impact\_filter\_service.list.
+Removing or deleting a record from the list won't necessarily exclude the application service from impact calculation if the CMDB class still exists in em\_impact\_inclusion\_class.list. Even if the class exists in em\_impact\_inclusion\_class.list, the application service is not considered for impact calculation. This applies if the application service's status is set to **Calculate Impact** = **false** in em\_impact\_filter\_service.list.
 
 For the application service that you want to exclude from the impact calculation, add the application service with **Calculate Impact** = **false**, or change the **Calculate Impact** = **false**, if this record already exist. The procedure shows how to configure this setting.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/translation-for-now-assist.html
 release: australia
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-07-31"
 reading_time_minutes: 6
 keywords: [Translation, Now Assist, Generative AI, GenAI, Native translation]
-breadcrumb: [Configure multilingual service for Now Assist applications, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Multilingual service for Now Assist
@@ -109,26 +109,10 @@ Some providers, such as Azure OpenAI, offer additional language support beyond t
 
 ## Dynamic Translation
 
-Dynamic Translation for Now Assist uses the Microsoft Azure OEM translation service through ServiceNow. Every language available as a language pack on the ServiceNow platform is supported by Microsoft Azure OEM. These languages are:
+Dynamic Translation for Now Assist uses the Microsoft Azure OEM translation service through ServiceNow. Most languages available as a language pack on the ServiceNow platform are supported by Microsoft Azure OEM. Self-localized languages \(languages other than the default language packs\) aren't supported.
 
--   Swedish
--   Finnish
--   Czech
--   Hebrew
--   Hungarian
--   Korean
--   Norwegian
--   Polish
--   Portuguese
--   Russian
--   Simplified Chinese
--   Traditional Chinese
--   Thai
--   Turkish
--   Arabic
--   Danish
-
-For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+-   For the list of available language packs, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+-   For more information about Microsoft Azure OEM, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
 
 ## Choosing a translation service
 
@@ -136,11 +120,11 @@ There are different factors that can go into your decision to use one translatio
 
 **Note:** The native translation service is included in Pro Plus and Enterprise licenses, by default.
 
-For more information on tracking Now Assist usage, see Monitoring Now Assist usage.
+For more information on tracking Now Assist usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Enabling translation for Now Assist
 
 For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
-**Parent Topic:**[Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 

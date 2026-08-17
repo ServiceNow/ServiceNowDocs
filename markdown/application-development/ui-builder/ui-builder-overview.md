@@ -68,6 +68,8 @@ Get a full understanding of everything that you can do when creating a page for 
 UI Builder can be used by application developers with a variety of skill levels. We recommend developers with a high level of experience, sometimes referred to as pro-coders, perform the procedures in this section.
 -   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-builder-uib.md)**  
 Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
+-   **[UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-landing.md)**  
+UI generation in ServiceNow Otto uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
 
 **Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/builder-library-table.md)
 

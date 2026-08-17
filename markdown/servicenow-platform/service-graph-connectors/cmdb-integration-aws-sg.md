@@ -18,7 +18,7 @@ Use the Service Graph Connector for AWS to securely bring in Amazon Web Services
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The integration uses AWS native technologies and AWS security best practices to enable cloud teams to connect the data within their ServiceNow workflow. For more information about the Service Graph Connector for AWS, see the [Service Graph Connector for AWS - Introduction](https://community.servicenow.com/community?id=community_article&sys_id=13aa801f1b1ec910c465ece6b04bcbec) article on the ServiceNow Community site.
 

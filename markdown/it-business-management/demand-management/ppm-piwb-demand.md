@@ -50,6 +50,10 @@ Role required: piwb\_manager
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -63,10 +67,6 @@ Role required: piwb\_manager
 [Move and resize a demand]()
 
 [Train the similarity solution for Demand Management to find similar demands]()
-
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
-
-[Summarize demands with demand summarization skill]()
 
 [Associate AI systems with demands]()
 

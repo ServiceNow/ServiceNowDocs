@@ -1,6 +1,6 @@
 ---
 title: IT Asset Management purchase order invoice processing
-description: When IT Asset Management integrates with Sourcing and Procurement Operations, invoice exceptions for ITAM purchase orders are handled automatically through quantity validation, discrepancy notifications, and invoice revalidation.
+description: IT Asset Management invoice exceptions for purchase orders are automatically handled through quantity validation, discrepancy notifications, and revalidation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-integration-with-itam.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 
 # IT Asset Management purchase order invoice processing
 
-When IT Asset Management integrates with Sourcing and Procurement Operations, invoice exceptions for ITAM purchase orders are handled automatically through quantity validation, discrepancy notifications, and invoice revalidation.
+IT Asset Management invoice exceptions for purchase orders are automatically handled through quantity validation, discrepancy notifications, and revalidation.
 
 In IT Asset Management \(ITAM\), assets are created when you acknowledge the receipt of the requested items. As part of the Better Together integration, all the received asset is handled within IT Asset Management \(ITAM\).
 
@@ -46,4 +46,9 @@ The following are the plugin dependencies that are required to use Asset Managem
 -   Supplier Collaboration Portal \[sn\_supplier\_sp\]
 -   ERP Integration Framework \[sn\_fcms\_intg\]
 -   Finance Common Architecture \[sn\_fin\]
+
+**Related topics**  
+
+
+[Invoice processing using IT Asset Management purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-using-itam-po.md)
 

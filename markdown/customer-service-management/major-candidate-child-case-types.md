@@ -61,11 +61,17 @@ The primary contact for an account is automatically added to the child case as a
 
 When a major case is in the **Proposed** state, the AI detection workflow populates the **Suggested child cases** related list with cases that have been identified as potential members of the major case group.
 
-A major issue manager can review the suggested child cases and use the **Add to major case** action on the **Suggested child cases** related list to add the cases as child cases of that major case. This action is available only when the major case state is **Accepted** and the case is in a non-terminal state.
+As a major issue manager, take the following steps:
+
+-   Review the suggested child cases
+-   Use the **Add to major case** action on the **Suggested child cases** related list to add the cases as child cases of that major case.
+
+    **Note:** This action is available only when the major case state is **Accepted** and the case is in a non-terminal state.
+
 
 When a suggested child case is added to the major case, it is removed from the **Suggested child cases** list and added to the **Child Cases** related list.
 
-When a major case moves to the **Accepted** state, all of the suggested child cases become child cases and are moved to the **Child Cases** related list.
+When a major case moves to the **Accepted** state, all of the suggested child cases are moved to the **Child Cases** related list.
 
 ## Synchronization between major cases and associated child cases
 

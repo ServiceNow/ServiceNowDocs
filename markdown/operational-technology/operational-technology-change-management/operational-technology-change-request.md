@@ -1,20 +1,20 @@
 ---
 title: Using Operational Technology Change Management to optimize your production process
-description: The Operational Technology Change Management application enables your team members to work collaboratively on changes to operational technology \(OT\) devices or industrial equipment configurations. These changes include any optimizations, alterations in the production process, or vulnerability fixes.
+description: The Operational Technology Change Management application enables your team members to work collaboratively on changes to Operational Technology \(OT\) devices or industrial equipment configurations. These changes include any optimizations, alterations in the production process, or vulnerability fixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/operational-technology-change-request.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Explore, Operational Technology Change Management, Operational Technology]
 ---
 
 # Using Operational Technology Change Management to optimize your production process
 
-The Operational Technology Change Management application enables your team members to work collaboratively on changes to operational technology \(OT\) devices or industrial equipment configurations. These changes include any optimizations, alterations in the production process, or vulnerability fixes.
+The Operational Technology Change Management application enables your team members to work collaboratively on changes to Operational Technology \(OT\) devices or industrial equipment configurations. These changes include any optimizations, alterations in the production process, or vulnerability fixes.
 
 ## Operational Technology Change Management overview
 

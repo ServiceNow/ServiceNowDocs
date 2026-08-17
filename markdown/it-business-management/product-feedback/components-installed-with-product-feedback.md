@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Feedback reference, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Reference, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Components installed with Feedback application

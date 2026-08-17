@@ -1,6 +1,6 @@
 ---
 title: Set system properties for invoice exception
-description: Set the maximum parallel threads system property \( sn\_ap\_apm.exception.engine.max\_parallel\_thread\_count \) to optimize the performance of the exception engine scheduler in Accounts Payable Operations.
+description: Set the maximum parallel threads system property \( sn\_ap\_apm.exception.engine.max\_parallel\_thread\_count \) to optimize exception engine scheduler performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-system-properties-for-invoice-exception.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, Accounts Payable Operations, invoice exception, invoice processing, admin]
+keywords: [APO, Accounts Payable Operations, Invoice exception, Admin, Engine scheduler, System properties]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Set system properties for invoice exception
 
-Set the maximum parallel threads system property \(`sn_ap_apm.exception.engine.max_parallel_thread_count`\) to optimize the performance of the exception engine scheduler in Accounts Payable Operations.
+Set the maximum parallel threads system property \(`sn_ap_apm.exception.engine.max_parallel_thread_count`\) to optimize exception engine scheduler performance.
 
 ## Before you begin
 

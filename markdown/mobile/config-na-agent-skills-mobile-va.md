@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Enable Now Assist Agent skills for Virtual Agent on Mobile
@@ -35,5 +35,5 @@ Role required: admin
     \[Omitted image "na-enable-va-skills.png"\] Alt text: Mobile dropdown page with the Chat widget experience selected
 
 
-**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 

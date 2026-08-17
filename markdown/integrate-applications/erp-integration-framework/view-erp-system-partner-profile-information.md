@@ -50,5 +50,3 @@ Partner profiles are fetched from SAP during initial load. If any new profiles a
     For field descriptions, see [Zero Copy Connector for ERP partner profile field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-partner-profile-fields.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
-

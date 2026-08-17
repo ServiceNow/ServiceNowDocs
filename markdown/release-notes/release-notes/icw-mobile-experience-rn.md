@@ -85,7 +85,7 @@ See [Exploring Industrial Connected Workforce Mobile Experience](https://raw.git
 
 ## Activation information
 
-Install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. Install ICW Mobile by requesting it from the ServiceNow Store. The application is optimized for latest iOS and Android devices and may require a Mobile UI Framework dependency provided by the ICW suite. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. Install ICW Mobile by requesting it from the ServiceNow Store. The application is optimized for latest iOS and Android devices and may require a Mobile UI Framework dependency provided by the ICW suite. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 

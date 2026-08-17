@@ -44,7 +44,7 @@ The process of collecting and analyzing electronic data for legal investigations
 
 ## G
 
-### generative AI
+### Generative AI
 
 A technology that uses large language model \(LLM\) to generate text, summaries, and other content.
 

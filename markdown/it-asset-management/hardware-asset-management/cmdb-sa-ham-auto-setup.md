@@ -29,16 +29,16 @@ The dashboard card on the CMDB success advisor landing page displays a badge wit
 
 Auto-setup runs only when all the following conditions are met:
 
--   The instance has a HAM Pro entitlement. See [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-licensing.md).
+-   The instance has a HAM entitlement. See [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-licensing.md).
 -   The CMDB success advisor for HAM setup isn't yet complete.
--   The total number of CIs on the instance is fewer than 65 million.
+-   The total number of CIs on the instance is fewer than 5 million.
 -   If the Hardware Asset Management plugin \(sn\_hamp\) is installed, at least one HAM resource category is opted in. See [Managing opt-in and opt-out resource categories for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md).
 
 **Note:** If any condition isn't met, you can configure the HAM advisor dashboard manually.
 
 ## Scope selected by auto-setup
 
-Auto-setup selects the top five recommended HAM model categories. Rankings are based on the asset financial value and footprint of each model category in your environment.
+Auto-setup selects the top five recommended HAM model categories. Rankings are based on the asset footprint of each model category in your environment.
 
 For each selected model category, auto-setup also marks the corresponding CI class as a principal class so the class appears in CI selection filters on incident, change, and problem forms.
 
@@ -48,7 +48,9 @@ After auto-setup completes, data collection begins automatically. Data collectio
 
 The **CMDB Advisor - Check Job Completion and Notify** scheduled job checks whether data collection has completed. When collection completes, the job sends a notification to users with the sn\_cmdb\_admin role that includes a link to the configured dashboard. After all notifications are sent, the job is deactivated.
 
-When you first open the HAM advisor after auto-setup completes, a notification indicates that the advisor is ready and shows the number of model categories automatically selected based on asset financial value and footprint.
+When you first open the HAM advisor after auto-setup completes, a notification indicates that the advisor is ready and shows the number of model categories automatically selected based on asset footprint.
+
+This notification lets you refresh the dashboard view from anywhere in the ServiceNow AI Platform, including the CMDB success advisor landing page. You can also check HAM setup progress from the side panel in the Governance view of Service Graph Workspace. For more information about accessing the Governance view, see .
 
 ## Reviewing and modifying the auto-setup scope
 

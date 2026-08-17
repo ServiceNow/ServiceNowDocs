@@ -16,7 +16,7 @@ breadcrumb: [Explore, Demand Management, Project Portfolio Management, Strategic
 
 The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
 
-The PPM Predictive Intelligence Workbench includes a prebuilt use case template that systematically guides you through the process of creating and training new predictive models, evaluating and testing them, and finally adding them to your business process to add value to your Idea, Demand, and Project Management.
+The PPM Predictive Intelligence Workbench includes a prebuilt use case template that guides you through creating, training, evaluating, and testing predictive models. After testing, add the models to your business process to add value to your Idea, Demand, and Project Management workflows.
 
 Once you train your custom use cases, they’re usable immediately. No prior knowledge or experience with artificial intelligence or machine learning is required when you use the PPM Predictive Intelligence Workbench.
 

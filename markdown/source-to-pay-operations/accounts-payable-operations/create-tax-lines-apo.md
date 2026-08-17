@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [APO, Accounts Payable Operations, invoice management, tax, invoice automation]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -34,9 +34,11 @@ The following table displays the fields in the tax lines tab.
 |Invoice|Invoice for which this tax is applicable.|
 
 -   **[Invoice Tax lines fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-lines.md)**  
-Field descriptions for the Invoice Tax Lines tab used to record tax details for invoiced purchases.
+Field descriptions for the Invoice Tax Lines tab used to record tax details for invoice lines.
 -   **[Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-status.md)**  
 The tax status field in the invoice record is used to track the current status of tax validation processing throughout the tax integration workflow.
+-   **[Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md)**  
+Field descriptions for the Tax integration field mappings \[sn\_spend\_intg\_tax\_field\_map\] table, which defines the outbound and inbound mappings that transform invoice data between APO and a tax engine.
 
 **Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
@@ -70,6 +72,8 @@ The tax status field in the invoice record is used to track the current status o
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

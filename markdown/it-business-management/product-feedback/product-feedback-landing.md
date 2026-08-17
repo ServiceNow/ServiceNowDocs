@@ -1,5 +1,5 @@
 ---
-title: Feedback application in Strategic Planning
+title: Feedback in Strategic Planning
 description: Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/product-feedback-landing.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Feedback application in Strategic Planning
+# Feedback in Strategic Planning
 
 Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 

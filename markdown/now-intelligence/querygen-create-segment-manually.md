@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-04-10"
 reading_time_minutes: 4
 keywords: [manual segments, query generation, semantic layer, saved searches]
-breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Create a manual segment

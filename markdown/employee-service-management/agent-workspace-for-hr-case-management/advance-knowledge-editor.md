@@ -18,9 +18,9 @@ The Knowledge Center article editor has editing tools that help in formatting kn
 
 **Note:** To enable the advanced Knowledge Center article editor layout, navigate to **Knowledge Center Workspace** &gt; **Home** &gt; **Knowledge Management Properties** &gt; **Knowledge Center Properties** and turn on the **Enable new ECE editor system wide** toggle switch.
 
-The toolbar within the article editor contains an array of icons that enable you to edit and format the text content of your knowledge article. You can use the editor to also add images, links, audio, and video to the knowledge article. You can also use Now Assist to create or enhance knowledge article content from within the Knowledge Center article editor.
+The toolbar within the article editor contains an array of icons that enable you to edit and format the text content of your knowledge article. You can use the editor to also add images, links, audio, and video to the knowledge article. You can also use ServiceNow Otto to create or enhance knowledge article content from within the Knowledge Center article editor.
 
-For more information on the Knowledge Center article editor, see [Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md).
+For more information on the article editor, see [Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md).
 
 You can use the Article Optimization tool to scan your knowledge articles and get instant, actionable feedback. For more information, see [Knowledge Center Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center-article-optimization.md).
 

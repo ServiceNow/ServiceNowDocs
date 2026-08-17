@@ -36,18 +36,18 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 4.  You can perform the following additional actions on this read-only screen.
 
-<table id="choicetable_a2c_l1c_wvb"><tbody><tr><td id="d232752e163">
+<table id="choicetable_a2c_l1c_wvb"><tbody><tr><td id="d237642e163">
 
 **Navigation overview controls**
 
 </td><td>
 
-Select the **Overview toggle** icon \(\[Omitted image "icn-us2-schemaview-overview.png"\] Alt text: Overview toggle icon.\) in the lower right corner to toggle the navigational overview controls on or off. This navigational control enables you to perform the following actions:-   When the schema diagram is zoomed in, you can drag the rectangle showing your view around by clicking and dragging it to focus it on the part of the diagram you want to review.
+Select the **Overview toggle** icon \(\[Omitted image "icn-us2-schemaview-overview.png"\] Alt text: Overview toggle icon.\) in the lower right corner to toggle the navigational overview controls on or off. This navigational control enables you to perform the following actions:-   When the schema diagram is zoomed in, drag the overview rectangle to focus on the part of the diagram you want to review.
 -   Select the **Zoom in** icon \(\[Omitted image "icn-us2-schemaview-zin.png"\] Alt text: Zoom in icon.\) to zoom in.
 -   Select the **Zoom out** icon \( \[Omitted image "icn-us2-schemaview-zout.png"\] Alt text: Zoom out icon.\) to zoom out.
 
 
-</td></tr><tr><td id="d232752e210">
+</td></tr><tr><td id="d237642e210">
 
 **Show / hide table fields**
 
@@ -55,7 +55,7 @@ Select the **Overview toggle** icon \(\[Omitted image "icn-us2-schemaview-overvi
 
 The **Expand tables** toggle is toggled on by default to show all the fields within the displayed schema tables. To hide the fields within the displayed schema tables, select **Expand tables** to toggle it off.
 
-</td></tr><tr><td id="d232752e225">
+</td></tr><tr><td id="d237642e225">
 
 **Show / hide tables**
 
@@ -63,7 +63,7 @@ The **Expand tables** toggle is toggled on by default to show all the fields wit
 
 Use the **Items selected** menu to view a list of application and non-application tables that are displayed in the schema diagram. You can select the table name to remove the selection checkmark, which hides the table from displaying in the diagram. To show the table, select the table name again to toggle the checkmark back on.
 
-</td></tr><tr><td id="d232752e237">
+</td></tr><tr><td id="d237642e237">
 
 **Set field options**
 
@@ -73,7 +73,7 @@ Use the **Field options** menu to control how fields display in the schema diagr
 -   Select **Field type** to show the type of field for each field displayed in the schema tables.
 
 
-</td></tr><tr><td id="d232752e263">
+</td></tr><tr><td id="d237642e263">
 
 **Group fields**
 
@@ -85,7 +85,7 @@ Use the **Group fields by** menu to group fields within the displayed tables \(e
 -   Type
 
 
-</td></tr><tr><td id="d232752e290">
+</td></tr><tr><td id="d237642e290">
 
 **Sort fields**
 
@@ -95,7 +95,7 @@ Use the **Sort fields** menu to sort fields within the displayed tables. Choose 
 -   Alphabetically \(Z to A\)
 
 
-</td></tr><tr><td id="d232752e310">
+</td></tr><tr><td id="d237642e310">
 
 **View legends**
 
@@ -103,7 +103,7 @@ Use the **Sort fields** menu to sort fields within the displayed tables. Choose 
 
 Select **View legends** to view information for interpreting the displayed schema diagram.
 
-</td></tr><tr><td id="d232752e322">
+</td></tr><tr><td id="d237642e322">
 
 **Table-specific options**
 
@@ -111,7 +111,7 @@ Select **View legends** to view information for interpreting the displayed schem
 
 Select the **Additional options** icon \(\[Omitted image "icn-us2-schemaview-addloption.png"\] Alt text: Additional options icon.\) for a table to control how fields in the selected table are displayed, grouped, and/or sorted similar to the top-level options described above.
 
-</td></tr><tr><td id="d232752e340">
+</td></tr><tr><td id="d237642e340">
 
 **View in Table Builder**
 

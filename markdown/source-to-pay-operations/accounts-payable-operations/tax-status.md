@@ -9,6 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Tax Status, tax integration, tax validation, Tax Engine Integration, invoice record]
 breadcrumb: [Tax lines, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -29,7 +30,7 @@ The following table displays the tax status \[tax\_status\] fields in the invoic
 |Integration error|Tax engine connectivity or communication failure occurred.|
 |Recalculate tax|Invoice header or invoice line needs field changes, invoice tax status changes to recalculate tax. The invoice is sent for tax revalidation manually or through scheduler.|
 
-For more information on using tax status, see [Tax Engine Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-engine-integration.md).
+For more information on using tax status, see [Tax engine integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-engine-integration.md).
 
 **Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-06-16"
 reading_time_minutes: 1
 keywords: [AI indicator, reference, AIOps LEAP]
-breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # LEAP AI indicators

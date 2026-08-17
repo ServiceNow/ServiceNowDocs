@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Using Now Assist in Document Intelligence
@@ -33,5 +33,5 @@ In this workflow:
 -   **[Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md)**  
 Use the Document Intelligence workspace to review the information that was extracted from a document or image file by Now Assist in Document Intelligence.
 
-**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

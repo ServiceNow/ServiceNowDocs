@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 6
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Create decision tables in Workflow Studio
@@ -18,7 +18,7 @@ Create decision tables in Workflow Studio to embed business logic into a series 
 
 ## Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -40,13 +40,13 @@ You can create decision tables for use in flows, subflows,playbooks, and scripts
     |Description|Description of the decision table.|
     |Application|Application scope for the decision table.|
     |Accessible from|Scopes that can use the decision table. Available values are **Application scope only**or **All application scopes**.|
-    |Enable draft authoring|Option to author decision tables in draft mode before publishing to make them available for use. This function also enables you to change a decision table in draft mode after it has been published and republish with changes.|
+    |Enable draft authoring|Option to author decision tables in draft mode before publishing to make them available for use. You can also change a decision table in draft mode after it has been published and republish with changes.|
 
 5.  Select **Build decision table**.
 
 6.  Select **Add an input**.
 
-    **Note:** Note that adding more then 30 inputs to your table can adversely affect the performance of the application while you create the table.
+    **Note:** Adding more than 30 inputs to your table can adversely affect the performance of the application while you create the table.
 
 7.  On the form, fill in the fields.
 
@@ -72,7 +72,7 @@ Type
 
 </td><td>
 
-Type of data used for the input.When the input type is **Reference**, a new column titled **Reference** appears in the input section and displays the reference table. This input type enables you to add multiple condition columns to a decision table.
+Type of data used for the input.When the input type is **Reference**, a new column titled **Reference** appears in the input section and displays the reference table. This input type lets you add multiple condition columns to a decision table.
 
 The available input types are:
 
@@ -107,7 +107,7 @@ Add reference filter
 Option to filter the list of reference records in a linked condition column where the input type is **Reference** and the Data to evaluate is **Reference record**. Use this field to build a filter condition statement. For more information, see [Filter reference inputs and results in a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md).
 
 </td></tr></tbody>
-</table>    **Note:** For the Choice input type, the ability to select an existing choice list depends on the choice list living on a table in the same application scope as the decision table. For example, if you create a decision table in the Global scope, you can use any existing choice list on tables in the Global scope. But, if you create a decision table in a custom scope, you can only use existing choice lists from tables in the same custom scope.
+</table>    **Note:** For the Choice input type, selecting an existing choice list depends on the choice list living on a table in the same application scope as the decision table. For example, if you create a decision table in the Global scope, you can use any existing choice list on tables in the Global scope. But, if you create a decision table in a custom scope, you can only use existing choice lists from tables in the same custom scope.
 
 8.  Select **Add condition column**.
 
@@ -260,7 +260,7 @@ Option to filter the list of reference records in the result column when the res
     -   Navigate to the first result column, select the plus icon \(+\), and select **Add result column**.
     -   Navigate to the last result column and select the plus icon \(+\).
     -   Point to a result column and select the plus icon \(+\).
-16. For each condition, click into the empty box in the condition column to select an operator and enter a value.
+16. For each condition, select the empty box in the condition column to select an operator and enter a value.
 
     \[Omitted image "populate-decision-table.png"\] Alt text: Decision table with empty cells
 
@@ -278,7 +278,7 @@ Option to filter the list of reference records in the result column when the res
 
     2.  Select **Done** to commit your changes.
 
-18. For each result, click into the empty box in the result column and enter a result value.
+18. For each result, select the empty box in the result column and enter a result value.
 
     \[Omitted image "populate-decision-table-results.png"\] Alt text: Empty decision table, adding results
 
@@ -288,10 +288,10 @@ Option to filter the list of reference records in the result column when the res
 
 21. Select **Publish**.
 
-    A modal appears asking if you’re sure you want to publish. If you want to make edits to this table after it's published, you must create a draft of the table. For more information about editing a published decision table, see [Edit decision tables using draft authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/edit-decision-tables-using-draft-authoring.md).
+    A modal appears asking if you're sure you want to publish. To make edits to this table after it's published, you must create a draft of the table. For more information about editing a published decision table, see [Edit decision tables using draft authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/edit-decision-tables-using-draft-authoring.md).
 
 22. Select **Publish**.
 
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

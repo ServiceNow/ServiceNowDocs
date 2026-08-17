@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowvault-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
+last_updated: "2026-08-17"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -134,19 +134,19 @@ Use Ask Now Assist to enhance your security posture autonomously by identifying,
 
 -   **[Securing custom apps with Vault agents agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-securing-custom-apps-agents&family=australia&ft:locale=en-US)**
 
-Propose data classifications and available protections for a custom application. When you install Now Assist for Vault, this agentic workflow is turned on by default.
+Propose data classifications and available protections for a custom application. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 -   **[Access Observer configuration agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-access-observer-config&family=australia&ft:locale=en-US)**
 
-View, create, deactivate, and delete Access Observer settings for a particular field. The access observer configuration agentic workflow helps you monitor the people and processes that access data on your instance. When you install Now Assist for Vault, this agentic workflow is turned on by default.
+View, create, deactivate, and delete Access Observer settings for a particular field. The access observer configuration agentic workflow helps you monitor the people and processes that access data on your instance. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 -   **[Summarize Access Observer logs agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-access-observer-logs&family=australia&ft:locale=en-US)**
 
-Review and summarize access logs for a specific field, identifying access sources, users, and their roles. For example, you can ask Now Assist to summarize access logs to view users who accessed a field, along with their roles and how they accessed the data. When you install Now Assist for Vault, this agentic workflow is turned on by default.
+Review and summarize access logs for a specific field, identifying access sources, users, and their roles. For example, you can ask Now Assist to summarize access logs to view users who accessed a field, along with their roles and how they accessed the data. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 -   **[Field encryption with Vault module agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-field-encryption-module&family=australia&ft:locale=en-US)**
 
-Encrypt specific fields and configure secure access to users with designated roles using the field encryption with vault module agentic workflow. When you install Now Assist for Vault, this agentic workflow is turned on by default.
+Encrypt specific fields and configure secure access to users with designated roles using the field encryption with vault module agentic workflow. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 
 -   **[Sensitive data monitoring in AI Insights](https://www.servicenow.com/docs/access?context=vault-tools&family=australia&ft:locale=en-US)**
@@ -193,7 +193,19 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Removed `security_admin` role from Vault console admin](https://www.servicenow.com/docs/access?context=vault-roles&family=australia&ft:locale=en-US)**
+
+The `security_admin` role has been removed from the roles required to elevate to and administer Vault Console. All administrative tasks including that of viewing tools metrics across the dashboard is now available to the `sn_vault_console.vault_console_admin`
+
+-   **[ServiceNow Otto name change](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=australia&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+-   **[Default model provider for AI assets](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Azure OpenAI is the default model for all AI assets in ServiceNow Otto for Vault.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -304,7 +316,7 @@ Australia
 
 </td><td>
 
-Install Vault Console, Now Assist for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -498,7 +510,12 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   The `security_admin` role no longer appears on the elevated roles list required for Vault Console administration. This change was made to conform with the principle of least privilege, ensuring administrators only elevate to roles they actually need.
+-   Starting with [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US), Now Assist for Vault is now ServiceNow Otto for Vault. Access AI-powered security capabilities within Vault Console with the [ServiceNow Otto for Vault](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=australia&ft:locale=en-US) application. This change reflects the evolution of AI assistance features while existing entitlements remain unchanged. Check your entitlements to determine access to specific features.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Receive the full value of your ServiceNow Vault subscription with the new Vault Suite, which installs the complete set of paid ServiceNow Vault capabilities, including Vault Console, Field Encryption, Zero Trust Access, Log Export Service, and Cloud Encryption, on entitled instances.
 -   Begin exporting security and audit logs from your instance by default with a preconfigured Log Export Service topic and curated log sources.

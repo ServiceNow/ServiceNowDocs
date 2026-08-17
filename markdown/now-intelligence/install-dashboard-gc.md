@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-gc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [General Counsel \(GC\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -17,6 +17,8 @@ For a general counsel, this dashboard provides transparency into legal service d
 ## Before you begin
 
 Role required: admin, platform\_analytics\_admin, sn\_lsd\_dashboard.gc\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The General Counsel Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications: Legal Services Delivery. This application includes a license for Platform Analytics.
 
@@ -52,7 +54,7 @@ Application plugins:
 
         Assign the role sn\_lsd\_dashboard.gc\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the GC dashboard.
+        **Note:** Only users with this role can configure the GC dashboard.
 
     -   **GC Dashboard end users**
 

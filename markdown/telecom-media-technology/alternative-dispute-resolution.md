@@ -1,187 +1,61 @@
 ---
-title: Alternative dispute resolution management
-description: Use the Alternative Dispute Resolution \(ADR\) case to resolve customer disputes efficiently while confirming transparency, accountability, and regulatory conformance.
+title: Customer Dispute Management
+description: Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/alternative-dispute-resolution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
+keywords: [customer dispute management, dispute resolution, complaint management, regulatory compliance]
 breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Alternative dispute resolution management
+# Customer Dispute Management
 
-Use the Alternative Dispute Resolution \(ADR\) case to resolve customer disputes efficiently while confirming transparency, accountability, and regulatory conformance.
+Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
 
-## ADR overview
+Customer Dispute Management \(CDM\) is a specialized complaint management system within the CSM/FSM workspace. CDM extends complaint case functionality to handle formal dispute resolution processes between customers and organizations.
 
-ADR is a specialized complaint management system within ServiceNow, Inc.'s CSM/FSM workspace. An ADR in the context of customer complaints is a formal process used to address and resolve disagreements between a customer and an organization. ADR extends the complaint case functionality to handle dispute resolution processes. The ADR case provides an end-to-end workflow that includes the necessary steps to resolve a customer complaint.
+## Key benefits
 
-## ADR workflow
+CDM provides the following benefits:
 
-The ADR workflow begins when a customer raises a complaint regarding a product, service, billing issue, or contractual matter. As an ADR manager records the escalated complaint, captures requester details, the reviews the related complaint cases, and gathers relevant evidence. Then, communicate with the customer to understand the issue clearly and propose a solution. The objective is to investigate fairly, provide a justified response, and reach a mutually acceptable solution. If the customer accepts the resolution plan, the ADR manager creates the case tasks and resolves the customer issue. If the customer rejects the resolution plan and chooses to escalate the issue externally, the ADR manager issues and shares a deadlock letter with the customer.
+-   Supports compliance with regulatory bodies that require formal, auditable dispute resolution processes.
+-   Provides a structured workflow for acknowledging, investigating, and resolving customer disputes.
+-   Maintains an audit trail of investigation findings, proposed resolutions, and customer responses.
+-   Classifies dispute analysis using a hierarchical structure of product, category, subcategory, and reason for consistent analysis reporting.
 
-|Component|Description|
-|---------|-----------|
-|ADR case type|Captures all necessary details, including the ADR category, customer information, and previous interaction history. Also includes partner contact information for disputes involving third parties.|
-|Fact capture|Captures all facts, investigation details, findings, and proposed resolutions, such as credit notes or bill corrections.|
-|Service Level Agreements \(SLAs\)|Defined and adhered to based on the severity of the ADR, confirming issues are addressed within specified timeframes to maintain customer trust and satisfaction.|
-|Audit trail|Maintains a comprehensive record of all interactions and root cause analysis \(RCA\) details, including evidence, for reporting and compliance purposes.|
-|Deadlock letter|Created in cases where a deadlock is reached, capturing the history and RCA of the ADR and informing the customer of the deadlock situation and dispute details.|
+## How it works
 
-## ADR stages and activities
+A customer dispute moves through four stages:
 
-The ADR case record uses the Case Playbook for Complaints feature to capture the details and execute the workflow. To learn more about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md). The following table lists the stages and activities that agents can use to resolve customer issues in the ADR case record.
+-   **Intake**: The dispute is registered with details of the submitter, affected product or service, and supporting documents. The customer or authorized representative receives an email notification confirming registration.
+-   **Investigation**: The agent reviews the customer's previously reported records, links relevant records to the dispute, and documents key findings.
+-   **Resolution and dispute analysis**: The agent drafts a resolution plan, creates resolution tasks, and records a dispute analysis including product, category, subcategory, and dispute reason.
+-   **Closure**: The agent proposes the resolution to the customer by email and records whether the customer accepts or rejects it. If the customer rejects the resolution, the agent generates and sends a deadlock letter. The agent notifies the customer of the outcome, records customer feedback, and closes the dispute with a resolution code and closing notes. For disputes submitted by a regulatory body, the agent sends a summary of findings, proposed resolution, and customer feedback.
 
-<table id="table_nrj_z2s_llb"><thead><tr><th>
+For more information on the steps at each stage, see [CDM playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cdm-playbook-stages-and-activities.md).
 
-Stage
+CDM case records use the Case Playbook for Complaints feature to capture details and execute the workflow. For more information about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md).
 
-</th><th>
+## Dispute analysis
 
-Activity
+A dispute analysis record captures the analysis of a dispute using a hierarchy of product, category, subcategory, and reason. The record also identifies the assignment group responsible for the affected product line. Agents can create dispute analysis records manually during the resolution and dispute analysis stage.
 
-</th><th>
+## Roles and permissions
 
-Activity Details
+The following roles control access to customer dispute, regulatory, and dispute analysis data:
 
-</th></tr></thead><tbody><tr><td>
+|Role|Description|
+|----|-----------|
+|sn\_telco\_adr\_mgmt.manager|Create, read, and update customer dispute records.|
+|sn\_telco\_adr\_mgmt.viewer|Read access to customer dispute data tables.|
+|sn\_telco\_adr\_mgmt.admin|Create, read, update, and delete access to dispute analysis category, reason, analysis, and regulatory data tables. Users without this role have read-only access or create/read/update access limited to the dispute analysis table only.|
 
-**Intake** Guides the agent to collect the needed to create the ADR case.
+## Related information
 
-</td><td>
-
-Capture initiator details
-
-</td><td>
-
-Captures the details of the requester such as contact information, communication channel, and involved parties.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Capture ADR information
-
-</td><td>
-
-Captures the details of the complaint such as product or service details, complaint date, complaint description, and any other additional information relevant to the complaint.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Upload documents
-
-</td><td>
-
-Captures any evidence related to the complaint.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Notify customer
-
-</td><td>
-
-Displays the details of the email that was automatically sent to the customer at the completion of the Intake stage.
-
-</td></tr><tr><td>
-
-**Investigate**Enables the agent to do the initial troubleshooting on the case.
-
-</td><td>
-
-Lookup record history
-
-</td><td>
-
-Captures the complaint case records related to the customer complaint.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Analyze linked fats
-
-</td><td>
-
-Analyzes the linked records details to understand the complaint details.
-
-</td></tr><tr><td>
-
-**Resolution**Manages the activities for case resolution.
-
-</td><td>
-
-Propose resolution plan
-
-</td><td>
-
-Proposes a resolution for the complaint and sends the details to the customer.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Resolution feedback
-
-</td><td>
-
-Captures the feedback from the customer after sending the resolution plan to the customer.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Generate deadlock letter
-
-</td><td>
-
-If customer rejects the resolution plan, this activity enables you to create a deadlock letter and share with the customer. Customer may escalate the issue with an external authority.
-
-</td></tr><tr><td>
-
-OutcomeEnables the agent to create the case tasks and send to different back-office teams for resolution.
-
-</td><td>
-
-implement resolution
-
-</td><td>
-
-If customer accepts the resolution plan, this activity enables you to create a deadlock letter and share with the customer.
-
-</td></tr><tr><td>
-
-**Closure**Close the activities for closing the case.
-
-</td><td>
-
-Close ADR
-
-</td><td>
-
-When the customer accepts the resolution, the Outcome stage completes and the Close stage is also marked as complete. When the customer rejects the resolution, the deadlock letter is created, and the Close stage is also marked as complete.
-
-</td></tr></tbody>
-</table>## Using ADR case
-
-To learn more about how to use ADR case, see [Using alternative dispute resolution case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md).
+For information about using CDM cases, see [Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md).
 
 **Related topics**  
 

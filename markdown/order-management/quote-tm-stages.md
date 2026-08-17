@@ -1,18 +1,18 @@
 ---
 title: Quote transaction stages
-description: Stages represent phases in the quoting process. Each stage can have entry criteria, rule group associations, and stage-specific layout behavior in ServiceNow CPQ.
+description: Stages represent phases in the quoting process. Each stage can have entry criteria, rule group associations, and stage-specific layout behavior in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-stages.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction stages
 
-Stages represent phases in the quoting process. Each stage can have entry criteria, rule group associations, and stage-specific layout behavior in ServiceNow CPQ.
+Stages represent phases in the quoting process. Each stage can have entry criteria, rule group associations, and stage-specific layout behavior in CPQ.
 
 Stages structure the quoting process into discrete phases. A typical implementation uses stages such as Draft, Pending Approval, Approved, Contracted, and Ordered, but administrators can add or remove stages to match their organization's selling process. A transaction is in one stage at a time.
 
@@ -26,7 +26,7 @@ Transitions represent structured movement from one stage to the next. A transact
 
 ## Entry criteria
 
-Entry criteria are conditions that must be met before a transaction can advance to a stage. When an event transition is set to **forward**, ServiceNow CPQ evaluates the entry criteria of each succeeding stage until a stage's criteria are met. If no stage meets the criteria, no transition occurs. When an event transition is set to **backward**, the transaction moves to the stage defined by the administrator without checking entry criteria. The first stage in a process has no entry criteria.
+Entry criteria are conditions that must be met before a transaction can advance to a stage. When an event transition is set to **forward**, CPQ evaluates the entry criteria of each succeeding stage until a stage's criteria are met. If no stage meets the criteria, no transition occurs. When an event transition is set to **backward**, the transaction moves to the stage defined by the administrator without checking entry criteria. The first stage in a process has no entry criteria.
 
 For example, a transaction might transition to the **pending approval** stage, or, if approval is not required, it might bypass **pending approval** and move directly to the **approved** stage. This is configured using entry criteria on the **pending approval** stage.
 

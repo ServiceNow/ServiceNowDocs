@@ -1,6 +1,6 @@
 ---
-title: Generate a formula using Now Assist for CWM
-description: Use Now Assist to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
+title: Generate a formula using ServiceNow Otto
+description: Use ServiceNow Otto to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.html
 release: australia
@@ -9,13 +9,13 @@ classification: collaborative-work-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [formula column, Now Assist, CWM, formula builder, List view, generate formula, formula syntax]
+keywords: [formula column, Now Assist, ServiceNow Otto, CWM, formula builder, List view, generate formula, formula syntax]
 breadcrumb: [Add a formula column, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
-# Generate a formula using Now Assist for CWM
+# Generate a formula using ServiceNow Otto
 
-Use Now Assist to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
+Use ServiceNow Otto to automatically generate formulas to compute values such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
 ## Before you begin
 
@@ -23,11 +23,9 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
 ## About this task
 
-\[Omitted video\] Description: Generate a formula in CWM using Now Assist
-
 Formula columns in the List view of a CWM Board compute values from existing CWM columns. Examples include calculating date differences from existing Date columns or deriving metrics such as Profit from existing values of Revenue and Cost columns.
 
-Instead of building the formula syntax manually, you can describe your calculation in plain language, and Now Assist generates a valid formula that you can insert directly into the column with a single click.
+Instead of building the formula syntax manually, you can describe your calculation in plain language. ServiceNow Otto then generates a valid formula that you can insert directly into the column with a single click.
 
 The steps in this procedure use the example of a formula column that calculates the number of days remaining until a task's due date. Follow the steps as guidelines to build a formula of your choice.
 
@@ -45,17 +43,11 @@ The steps in this procedure use the example of a formula column that calculates 
 
     In this example, the column is named **Days until due**.\[Omitted image "cwm-formula-column-name.png"\] Alt text: Formula column name field with "Days until due" entered as the column name.
 
-5.  In the Define Formula side panel, describe your formula in natural language in the Now Assist input field and submit.
+5.  In the Define Formula side panel, describe your formula in natural language in the ServiceNow Otto input field and submit.
 
-    In this example, the input is `Count the number of days remaining from today until the due date.`
-
-    \[Omitted image "na-cwm-formula-instruction.png"\] Alt text: The Define Formula side panel showing a natural language description entered in the Now Assist input field.
-
-    Now Assist generates a formula syntax based on your instruction.
+    ServiceNow Otto generates a formula syntax based on your instruction.
 
 6.  Review the generated formula and select **Insert** to add it to the Formula field.
-
-    \[Omitted image "na-cwm-formula-insert.png"\] Alt text: The Define Formula side panel showing the Now Assist-generated formula syntax with the Insert button available.
 
 7.  Select **Set Formula** to save and apply to the formula column.
 

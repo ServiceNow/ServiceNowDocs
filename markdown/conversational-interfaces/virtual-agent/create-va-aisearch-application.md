@@ -40,21 +40,21 @@ A search application configuration specifies the AI Search profile used by the R
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d82679e171">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d80554e171">
 
 Option
 
-</th><th align="left" id="d82679e174">
+</th><th align="left" id="d80554e174">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d82679e180">
+</th></tr></thead><tbody><tr><td id="d80554e180">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
 </td><td>
 
-Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and select the topic or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+Add the AI Search topic block to a conversation topic. For details, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**, select the **Asset library** tab, and open your topic or [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 2.  In the Flow tab, drag the Topic Block utility onto the canvas.
 3.  Complete the Topic Block Properties sheet:
     -   In the **Topic Block** field, select AI Search.
@@ -68,7 +68,7 @@ If you leave this field empty, AI Search uses the default search application con
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d82679e290">
+</td></tr><tr><td id="d80554e290">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 

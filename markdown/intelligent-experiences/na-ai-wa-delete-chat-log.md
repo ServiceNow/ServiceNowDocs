@@ -25,17 +25,17 @@ Role required: now\_assist\_panel\_user
 
 As you're interacting with an AI agent, the text of your conversation with the AI agent is recorded in a chat log. The screenshots taken during the session are also recorded in the chat.
 
-While interacting with an AI agent in the Now Assist panel, the **Web view** tab displays the following notice from the title's information icon \[Omitted image "info-icon.png"\]:
+While interacting with an AI agent in the ServiceNow Otto panel, the **Web view** tab displays the following notice from the title's information icon \[Omitted image "info-icon.png"\]:
 
 **Screenshots are being captured by the system. You can delete the chat log if any sensitive information was captured.**
 
-After your chat session is closed, its title is listed in your Now Assist panel under the **Closed** section.
+After your chat session is closed, its title is listed in your ServiceNow Otto panel under the **Closed** section.
 
 Review your chat log by selecting its title. Use the following procedure if you decide to permanently delete your chat log from chat history.
 
 ## Procedure
 
-1.  In the Now Assist panel, select the context menu icon \[Omitted image "icon-docintel-additional-actions.png"\] and navigate to **Chats** &gt; **Closed**.
+1.  In the ServiceNow Otto panel, select the context menu icon \[Omitted image "icon-docintel-additional-actions.png"\] and navigate to **Chats** &gt; **Closed**.
 
 2.  Locate the title of your AI agent session, and hover your cursor over it.
 
@@ -43,7 +43,7 @@ Review your chat log by selecting its title. Use the following procedure if you 
 
 3.  Select the delete icon \[Omitted image "Form\_DeleteIcon.png"\] Alt text: that appears when you hover your cursor over the chat title.
 
-    \[Omitted image "na-ai-wa-delete-chat-log2Z.png"\] Alt text: In theNow Assist panel, the delete icon is highlighted.
+    \[Omitted image "delete-chat-log.png"\] Alt text: In theServiceNow Otto panel, the delete icon is highlighted.
 
     A dialog box appears with the question **Delete this chat?**
 

@@ -1,6 +1,6 @@
 ---
-title: Run the Agent Client Collector \(ACC\) health instance scan as a scheduled job
-description: Run the Run \(ACC\) health instance scan scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
+title: Schedule the Agent Client Collector \(ACC\) health instance scan
+description: Run the Run \(ACC\) health instance scan as a scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-instance-scan-run.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [ACC health instance scan suite, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Run the Agent Client Collector \(ACC\) health instance scan as a scheduled job
+# Schedule the Agent Client Collector \(ACC\) health instance scan
 
-Run the **Run \(ACC\) health instance scan** scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
+Run the **Run \(ACC\) health instance scan** as a scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
 
 ## Before you begin
 

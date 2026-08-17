@@ -1,6 +1,6 @@
 ---
 title: Direct Discovery using Discovery Patterns
-description: The Telecommunications Discovery Patterns plugin \(also known as TSOM Patterns\) extends ServiceNow AI Platform Telecom Discovery to support direct discovery of standalone network elements—such as routers and switches—without relying on traditional network management systems. These patterns enable Communication Service Providers \(CSPs\) to identify and map multivendor xNFs using protocols like SNMP and CLI.
+description: The Telecommunications Discovery Patterns plugin \(also known as TSOM Patterns\) extends ServiceNow AI Platform Telecom Discovery. It supports direct discovery of standalone network elements—such as routers and switches—without relying on traditional network management systems. These patterns enable Communication Service Providers \(CSPs\) to identify and map multivendor xNFs using protocols like SNMP and CLI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications 
 
 # Direct Discovery using Discovery Patterns
 
-The Telecommunications Discovery Patterns plugin \(also known as TSOM Patterns\) extends ServiceNow AI Platform Telecom Discovery to support direct discovery of standalone network elements—such as routers and switches—without relying on traditional network management systems. These patterns enable Communication Service Providers \(CSPs\) to identify and map multivendor xNFs using protocols like SNMP and CLI.
+The Telecommunications Discovery Patterns plugin \(also known as TSOM Patterns\) extends ServiceNow AI Platform Telecom Discovery. It supports direct discovery of standalone network elements—such as routers and switches—without relying on traditional network management systems. These patterns enable Communication Service Providers \(CSPs\) to identify and map multivendor xNFs using protocols like SNMP and CLI.
 
 Telecommunications Discovery Patterns provide a powerful, pattern-based approach to discover and manage telecom network resources directly from network elements. These patterns are especially valuable for discovering standalone xNFs \(such as routers and switches\) that aren't managed through traditional EMS/NMS systems.
 
@@ -46,7 +46,7 @@ Telecommunications Discovery Patterns are executed through Horizontal Discovery 
 
 The discovery logic follows the TNI data model, which restructures complex CI relationships \(e.g., card-on-card scenarios\) to align with telecom modeling best practices. For example, If a child card is discovered inside a parent card, Telecom Discovery synthesizes a subslot to insert the child, avoiding an invalid card-on-card configuration.
 
-For every discovered network interface, both logical \(such as VLANs\) and physical \(such as Gigabit Ethernet ports\), Telecom Discovery sets the Equipment reference field to the parent equipment \(the network device\), even when the underlying port resides on a card or on a card within a card. The interface's relationship to that card is captured separately in the CI relationship hierarchy, so the Equipment reference field consistently resolves to the parent equipment, in alignment with the TNI data model.
+For every discovered network interface, both logical \(such as VLANs\) and physical \(such as Gigabit Ethernet ports\), Telecom Discovery sets the Equipment reference field to the parent equipment. This applies even when the underlying port resides on a card or on a card within a card. The interface's relationship to that card is captured separately in the CI relationship hierarchy. The Equipment reference field consistently resolves to the parent equipment. This alignment follows the TNI data model.
 
 ## Architecture using Horizontal Discovery and Telecommunications Discovery Patterns
 
@@ -54,7 +54,7 @@ The following infographic is an example of the implementation for standalone SNM
 
 ## Horizontal Discovery Application
 
-The Horizontal Discovery application in ServiceNow is a versatile and highly scalable discovery engine to operate effectively across network, IT, and cloud environments, collecting data across multiple layers to provide a holistic view of the infrastructure.
+The Horizontal Discovery application in ServiceNow is a versatile and highly scalable discovery engine. It operates effectively across network, IT, and cloud environments, collecting data across multiple layers to provide a holistic view of the infrastructure.
 
 For more information, see [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/disco-process-flow-patterns.md).
 

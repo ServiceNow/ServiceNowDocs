@@ -1,20 +1,20 @@
 ---
 title: Decision Builder user interface
-description: Learn more about the decision tables user interface in Workflow Studio.
+description: The decision tables user interface in Workflow Studio provides controls for creating, editing, and managing decision tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-builder-user-interface.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision Builder user interface
 
-Learn more about the decision tables user interface in Workflow Studio.
+The decision tables user interface in Workflow Studio provides controls for creating, editing, and managing decision tables.
 
 ## Decision tables home page in Workflow Studio
 
@@ -28,11 +28,11 @@ You can do the following on the Decision tables home page in Workflow Studio:
 -   Edit the available columns by selecting the List Actions icon \(\[Omitted image "gear-icon.png"\] Alt text: Gear icon\).
 -   Delete selected decision tables.
 
-## New decision table
+## Decision table
 
-\[Omitted image "db-new-table.png"\] Alt text: New decision table page
+\[Omitted image "db-new-table.png"\] Alt text: Decision table page
 
-You can do the following on a new decision table:
+You can do the following on a decision table:
 
 -   Name your decision table and provide a description.
 -   Select an application to associate the decision table with.
@@ -66,7 +66,7 @@ On a saved decision table, you can do the following:
 
 ## Pagination
 
-Pagination is a method used to present large data sets by breaking them down into smaller, more manageable sections called pages. This feature helps you to switch between pages by selecting the page you would like to see.
+Pagination presents large data sets in smaller, manageable sections called pages. Select a page number to navigate between pages.
 
 **Note:**
 

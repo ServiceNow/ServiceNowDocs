@@ -21,7 +21,7 @@ Pre-configure your organization's ServiceNow® instance URL so that it appears r
 
 Role required: admin
 
-ServiceNow AI Lens must be installed on the user's machine. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+ServiceNow AI Lens must be installed on the user's machine. For more information, see [Download ServiceNow AI Lens and set launch preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 ## Procedure
 

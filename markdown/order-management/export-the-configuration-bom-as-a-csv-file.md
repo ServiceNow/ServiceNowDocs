@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export the configuration BOM to a CSV file
@@ -20,7 +20,7 @@ Role required: Admin
 
 ## Enhanced shopping cart with CSV export
 
-ServiceNow CPQ lets you export the configuration bill of materials \(BOM\) before the quote is finalized by exporting the BOM to a CSV file. The BOM UI has been enhanced to enable on-screen manipulation of fields, such as resizing of columns, pinning of fields, and hiding of fields.
+CPQ lets you export the configuration bill of materials \(BOM\) before the quote is finalized by exporting the BOM to a CSV file. The BOM UI has been enhanced to enable on-screen manipulation of fields, such as resizing of columns, pinning of fields, and hiding of fields.
 
 ## Procedure
 

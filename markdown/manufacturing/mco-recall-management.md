@@ -19,5 +19,5 @@ Recall management enables the OEMs to identify and remove or replace the faulty 
 |[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)|Displays all the recall campaign that are assigned to the person logged in to the workspace.|
 |[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-all-campaigns.md)|Displays all the recall campaign that are created by the OEM.|
 |[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaign-phases.md)|Displays all the recall campaign phases that are assigned to the person logged in to the workspace.|
-||Displays all the recall campaign phases that are created by the OEM.|
+|[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-phases.md)|Displays all the recall campaign phases that are created by the OEM.|
 

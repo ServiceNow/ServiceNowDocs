@@ -1,0 +1,69 @@
+---
+title: Discovery Admin Workspace status details
+description: The Discovery Status Details page offers a summary of a discovery initiated from a schedule, detailing the devices identified, any errors encountered, and any anomalies found.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-disco-status-details.html
+release: australia
+product: Discovery
+classification: discovery
+topic_type: concept
+last_updated: "2026-08-17"
+reading_time_minutes: 3
+keywords: [Discovery, Admin, Workspace]
+breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+---
+
+# Discovery Admin Workspace status details
+
+The Discovery Status Details page offers a summary of a discovery initiated from a schedule, detailing the devices identified, any errors encountered, and any anomalies found.
+
+To access Discovery status details in Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules** &gt; **Discovery status**.
+
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.8.0. Specific version requirements are noted for individual features where applicable.
+
+After selecting a discovery status from the table, the schedule header displays key information such as Discovery details, MID Server details, and anomaly severity.
+
+\[Omitted image "daw-status-details-schedule-header.png"\] Alt text: Discovery schedule and status details display in the headers
+
+**Note:** Starting with v1.10.0, the schedule header displays 'Quick Discovery' when the schedule is created using the Quick Discovery feature. Additionally, if the schedule associated with a run is deleted, the header no longer displays the schedule name.
+
+The status header shows run-related details, including start and end times, the number of probes triggered and completed, and any anomalies detected.
+
+**Important:** Anomaly information only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+
+If the status is Active or Starting, selecting the **Refresh** icon \(\[Omitted image "daw-refresh-icon.png"\]\) updates the Started and Completed values in the header in real time.
+
+## Key features
+
+-   **Details**
+
+    The **Details** tab includes visualizations that provide detailed information about the Discovery status. Depending on whether the status pertains to a discovery that is IP-based or cloud-based, the visualizations provide a detailed overview of the schedule’s performance and current status. They highlight key metrics such as the number of devices and IPs discovered, cloud resources identified, and any errors encountered during the run.
+
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
+
+    |Report title|Discovery Type|Description|
+    |------------|--------------|-----------|
+    |Errors|Both IP and cloud-based|Displays the number of errors that were detected during the run.|
+    |Total Devices|IP-based|Displays the number of devices that were discovered during the run.|
+    |New Devices|Displays the number of new devices that were discovered during the run.|
+    |Total IPs|Displays the number of IP addresses that were discovered during the run.|
+    |Duplicate IPs|Displays the number of duplicate IP addresses that were discovered during the run.|
+    |Total Cloud Resources|Cloud-based|Displays the number of cloud resources that were discovered during the run.|
+
+    Selecting an indicator reveals related information in a table. By default, detected errors display, sorted by priority. Each error card includes details such as the error title, severity, refined code, occurrence count, and error category. Selecting an error card or the **Occurrences** link opens the Error Details page, where you can view the root cause, remediation steps, and individual error instances. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md).
+
+    For IP-based schedules, the **Total Devices**, **New Devices**, and **Duplicate IPs** tables provide additional details such as the Source, Classification probe, and Scan status. Selecting the **Source** hyperlink opens a page where you can view more information about the device, apply tags, and access the Discovery Log and ECC Queue details. Selecting the **Total IPs** indicator opens the Shazzam Summary table, where you can access details such as IP addresses, IP Range, and Network Range. To learn more about a specific item, simply select its hyperlink in the table.
+
+    For cloud-based schedules, selecting the **Total Cloud Resources** indicator reveals a bar chart that categorizes each discovered cloud resource by its CI type. Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), to refresh or save the chart.
+
+-   **Debugging**
+
+    The **Debugging** tab provides information about the Discovery Log and ECC Queue.
+
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), to refresh the data for each visualization in this section.
+
+    By default, the **Discovery Log** table displays information such as classification failures, CMDB updates, and authentication failures. A Discovery Log record is created for each action associated with a discovery status.
+
+    Select the **ECC Queue** indicator to display entries in the **ECC Queue**. The entries show a connected flow of probe and sensor activity and the actual XML payload sent to or from an instance.
+
+

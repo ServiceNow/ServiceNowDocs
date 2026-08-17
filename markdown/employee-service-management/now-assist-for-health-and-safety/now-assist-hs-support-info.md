@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Health and Safety
-description: Get a quick overview of the important information that is related to the Now Assist for Health and Safety application.
+title: Supporting information for ServiceNow Otto for Health and Safety
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Health and Safety application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-support-info.html
 release: australia
@@ -9,20 +9,20 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Explore, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Supporting information for Now Assist for Health and Safety
+# Supporting information for ServiceNow Otto for Health and Safety
 
-Get a quick overview of the important information that is related to the Now Assist for Health and Safety application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Health and Safety application.
 
 ## Supported versions
 
-Now Assist for Health and Safety is supported starting with the Xanadu release.
+ServiceNow Otto for Health and Safety is supported starting with the Xanadu release.
 
 ## Supported user interfaces
 
-The Now Assist for Health and Safety application includes the skills that are listed in the following table.
+The ServiceNow Otto for Health and Safety application includes the skills that are listed in the following table.
 
 |Interface|Skill|
 |---------|-----|
@@ -31,14 +31,14 @@ The Now Assist for Health and Safety application includes the skills that are li
 
 ## Application information
 
-Activate the Now Assist for Health and Safety store app \(sn\_hs\_gen\_ai\) to use the Health and Safety incident summarization skills.
+Activate the ServiceNow Otto for Health and Safety store app \(sn\_hs\_gen\_ai\) to use the Health and Safety incident summarization skills.
 
 This store app has a dependency on Health and Safety Incident Management \(sn\_ohs\_im\).
 
 Activate the applications in the following order:
 
 1.  Health and Safety Incident Management
-2.  Now Assist for Health and Safety
+2.  ServiceNow Otto for Health and Safety
 
-For more information, see [Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md).
+For more information, see [Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md).
 

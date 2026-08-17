@@ -1,6 +1,6 @@
 ---
 title: Invoice processing cases
-description: Learn how Accounts Payable Operations integration with Document Intelligence creates invoice processing cases automatically from email attachments and how to manage cases that require manual creation. Verify whether the invoice data is complete and accurate.
+description: Integrate Accounts Payable Operations integration with Document Intelligence to auto-create invoice cases and verify data accuracy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice capture, invoice processing, DocIntel, Document Intelligence, AP case, integration, email ingestion]
+keywords: [APO, Accounts Payable Operations, invoice automation, invoice processing, DocIntel, Document Intelligence, Flow Designer, email ingestion, Orphan Invoice flow]
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice processing cases
 
-Learn how Accounts Payable Operations integration with Document Intelligence creates invoice processing cases automatically from email attachments and how to manage cases that require manual creation. Verify whether the invoice data is complete and accurate.
+Integrate Accounts Payable Operations integration with Document Intelligence to auto-create invoice cases and verify data accuracy.
 
 By default, when an inbound email is received in Accounts Payable Operations integration with Document Intelligence, the invoice processing flow is triggered and an invoice case with a category of **Invoice automation** and sub-category of **Invoice processing** is created. For more information, see [Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md).
 
@@ -28,7 +28,7 @@ Activate the Start Invoice Processing for Orphan Invoice flow in Flow Designer. 
 -   **[Work on an invoice processing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.md)**  
 Perform manual actions to review, update, and resolve invoice processing issues during the invoice lifecycle.
 -   **[Invoice ingestion process when Document Intelligence is unavailable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-ingest-docintel-unavailable.md)**  
-When Document Intelligence is unavailable or not installed, Accounts Payable Operations creates an invoice processing case without generating an invoice record, requiring manual invoice creation.
+When Document Intelligence is unavailable, Accounts Payable Operations requires manual invoice creation for cases.
 
 **Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
@@ -39,11 +39,11 @@ When Document Intelligence is unavailable or not installed, Accounts Payable Ope
 
 [Rules based engine]()
 
-[Invoice processing overview]()
+[Invoice processing]()
 
 [Invoice exceptions]()
 
-[Tolerance Rules and Variances for invoices]()
+[Tolerance rules and variances for invoices]()
 
 [Invoice approvals]()
 

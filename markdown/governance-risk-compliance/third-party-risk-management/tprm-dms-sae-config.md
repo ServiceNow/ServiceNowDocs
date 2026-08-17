@@ -19,9 +19,9 @@ Turn on AI-assisted questionnaire pre-fill for a smart assessment template categ
 
 ## Before you begin
 
--   Now Assist for Smart Assessment Engine is installed and the Smart Assessment Response Assist skill is active.
+-   ServiceNow Otto for Smart Assessment Engine \(SAE\) is installed and the Smart Assessment Response Assist skill is active.
 
-    For more information, see [Activate smart assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
+    For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
 
 -   Smart Assessment Engine is enabled and your TPRM smart assessment and questionnaire templates are active.
 

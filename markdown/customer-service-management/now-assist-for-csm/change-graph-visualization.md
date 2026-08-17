@@ -1,6 +1,6 @@
 ---
 title: Change graph visualization
-description: Change a graph visualization to a different type within the same graph group, such as converting a horizontal bar chart to a vertical bar chart or an area chart to a line chart.
+description: Change a graph visualization to a different type within the same graph group, such as converting a bar chart or area chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-graph-visualization.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
-breadcrumb: [Trending topics dashboard, Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Change graph visualization
 
-Change a graph visualization to a different type within the same graph group, such as converting a horizontal bar chart to a vertical bar chart or an area chart to a line chart.
+Change a graph visualization to a different type within the same graph group, such as converting a bar chart or area chart.
 
 ## Before you begin
 
@@ -59,7 +59,7 @@ This procedure allows you to change a graph to a different visualization type wi
 **Related topics**  
 
 
-[Change an insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
+[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
 
-[Add a new filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 

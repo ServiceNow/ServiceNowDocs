@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Set the priority for tag category definitions for Tag Categorization

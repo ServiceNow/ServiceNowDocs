@@ -1,5 +1,5 @@
 ---
-title: Generate new conversations from scenarios
+title: Generate conversations from scenarios
 description: Create execution log data for AI voice agentic assets By creating new conversations from typical scenarios you configure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generate-conversations.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 4
-breadcrumb: [Execute a run for an AI voice agentic asset, Execute a run, Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Execute a run for an AI voice agentic asset, Execute a run, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
-# Generate new conversations from scenarios
+# Generate conversations from scenarios
 
 Create execution log data for AI voice agentic assets By creating new conversations from typical scenarios you configure.
 
@@ -105,11 +105,15 @@ The scenarios you generate are the context for creating new execution logs for y
 
     5.  Repeat for additional scenarios.
 
-11. Name your dataset.
+11. Configure background noise.
+
+    Toggle **Background noise** to test how your AI voice agent responds to callers in noisy environments.
+
+12. Name your dataset.
 
     Choosing a descriptive name for your dataset makes it easier to find if you want to use it again.
 
-12. Select **Continue** to move to the next step of the guided setup.
+13. Select **Continue** to move to the next step of the guided setup.
 
 
 ## What to do next

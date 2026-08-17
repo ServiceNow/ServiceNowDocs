@@ -14,7 +14,7 @@ breadcrumb: [Use, Sales Customer Relationship Management]
 
 Learn how to use configure, price, quote applications.
 
--   **[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)**  
+-   **[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)**  
 Agents and customers use the Configurator to customize configurable products in Sales Customer Relationship Management transactions such as opportunities, quotes, and orders.
 -   **[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md)**  
 The configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.
@@ -22,6 +22,8 @@ The configurator in Sales Customer Relationship Management is an interface for c
 Use the Quote Management application to build your quote. The interface includes the following tabs to help you create and manage product quotes.
 -   **[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)**  
 Sales teams can use workflows for approving Sales Customer Relationship Management entities such as customer quotes. Workflows begin with approval requests submitted by sales agents, which are then routed for approval by designated approvers.
+-   **[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)**  
+Advanced Approval Management AI enables approval requesters and approvers to manage quote approvals using natural language requests in an MCP client, without opening a ServiceNow instance.
 -   **[Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-post-sales-support.md)**  
 Learn how consumers, managers, agents, and administrators use the Customer Contracts and Entitlements application to generate customer contracts and contract lines.
 -   **[Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt-using.md)**  

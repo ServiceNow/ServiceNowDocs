@@ -31,8 +31,8 @@ Actual cost incurred for projects or demands will be summed up and displayed in 
 
 **Note:**
 
--   \(For customers upgraded from legacy Investment Funding plugin to the ServiceNow Store application\) If you have entered actuals manually prior to upgrade, then the same does not match with the actuals posted in the project post-upgrade.
--   If the **Budget** field on the cost plan breakdown of a project or demand has been edited post funding, the CapEx and OpEx budgets do not match the amount funded from the Investment Funding flow.
+-   \(For customers upgraded from legacy Investment Funding plugin to the ServiceNow Store application\) If you have entered actuals manually before upgrade. In this case, the actuals do not match those posted in the project post-upgrade.
+-   If the **Budget** field on the cost plan breakdown of a project or demand has been edited post funding. In this case, the CapEx and OpEx budgets do not match the amount funded from the Investment Funding flow.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ Actual cost incurred for projects or demands will be summed up and displayed in 
 
 5.  In the Request Funds list, specify the actual amount spent under the **Actual CapEx** and **Actual OpEx** columns for your investments.
 
-    **Note:** If you do not see the **Actual CapEx** and **Actual OpEx** columns in the list, click the configuration icon \(\[Omitted image "configuration-icon.png"\] Alt text: Configuration\) and select them.
+    **Note:** If you don't see the **Actual CapEx** and **Actual OpEx** columns in the list, select the configuration icon \(\[Omitted image "configuration-icon.png"\] Alt text: Configuration\) and select them.
 
 
 ## Result

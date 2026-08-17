@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-publicsectordigitalservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
+last_updated: "2026-08-17"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -56,6 +56,8 @@ Australia
 
 After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
 
+ Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+
 </td></tr></tbody>
 </table>## New features
 
@@ -83,9 +85,9 @@ Simplify and streamline Grant application intake and screening​ with Grants Ma
 
 Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using Service Bridge for Public Sector Digital Services. Service Bridge enables unified case collaboration across agencies, streamlined approval workflows for funding distribution, and real-time crisis coordination with dynamic task management. Agencies can share citizen &amp; agency data securely through ​compliance-driven access.​​​
 
--   **[Post-chat summarization in Now Assist for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
+-   **[Post-chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
 
-Condense chat records into short summaries using the chat summarization skill in the Now Assist for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The Now Assist for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
+Condense chat records into short summaries using the chat summarization skill in the ServiceNow Otto for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The ServiceNow Otto for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
 
 
 </td></tr><tr><td>
@@ -137,9 +139,22 @@ Create an investigative case using Investigative Case Management. Investigative 
     -   Evidence Management
 With Entity Management, investigators can create investigative tasks and workflows for investigative activities with automated metadata capture \(time, source, entities, classification\)​, as well as define processing with teams and attorneys and collaborate across agencies/divisions. With Evidence Management, investigators can log and triage evidence metadata \(digital, physical, testimonial\)​ and maintain an audit trail \(Chain of Custody logging\), as well as draft, review, and create reports with supporting evidence​​.
 
--   **[Use Now Assist for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents](https://www.servicenow.com/docs/access?context=now-assist-psds-using&family=australia&ft:locale=en-US)**
+-   **[Task Tab and Field Service Management case escalation in Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-using-icm&family=australia&ft:locale=en-US)**
 
-Complete case narratives and make refinements to investigative case records using Now Assist for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
+Use the Tasks tab in the investigative case record to view and create investigative tasks directly within the case context. Use the **Create Work Order** to escalate a case directly to an Field Service Management work order without leaving the ICM workspace​​.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Use ServiceNow Otto for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents](https://www.servicenow.com/docs/access?context=now-assist-psds-using&family=australia&ft:locale=en-US)**
+
+Complete case narratives and make refinements to investigative case records using ServiceNow Otto for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
 
 -   **[Use the Case Narrative Refinement AI Agent to refine case narratives in Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-na-case-narrative-refinement-agent&family=australia&ft:locale=en-US)**
 
@@ -147,7 +162,11 @@ Produce clear, accurate, and well-structured case narratives using the Case narr
 
 -   **[Document Screening AI Skill for Social Benefits Playbook](https://www.servicenow.com/docs/access?context=psds-ai-skill-doc-screening&family=australia&ft:locale=en-US)**
 
-Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of Now Assist for Public Sector Digital Services \(PSDS\).
+Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of ServiceNow Otto for Public Sector Digital Services \(PSDS\).
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://www.servicenow.com/docs/access?context=psds-gdsp-overview&family=australia&ft:locale=en-US)**
+
+Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
 
 -   **[Granular configuration admin roles](https://www.servicenow.com/docs/access?context=roles-installed-with-public-sector-digital-services&family=australia&ft:locale=en-US)**
 
@@ -206,15 +225,29 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+/
 
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
+
+
+-   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)**
+    -   [Grants Management Program Budget activity](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)
+
+Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
+
+    -   [Grants Management Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)
+
+Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
+
+-   **[Enhancements to Grants Management: Proposal Playbook](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)**
+    -   [Grants Management Screen activity](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)
+
+Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
+
+-   ****
 
 </td></tr></tbody>
 </table>## Removed
@@ -496,7 +529,7 @@ Yokohama
 
 -   Review requests for grants, and create new grant programs using Grants Management.
 -   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
--   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+-   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
  See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
@@ -520,6 +553,11 @@ Australia
 
 </td><td>
 
+-   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the **Create Work Order** button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace.
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Public Sector Digital Services \(PSDS\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Control the visibility of the grant program lifecycle stepper on the Grant Program record page by disabling or enabling it per instance.
+-   Route flagged documents back to applicants, prompting re-upload of the corrected document, maintaining a complete audit trail within the system. Flagged documents now persist in the system rather than being deleted immediately.
+-   Enter award information and allocate budget across categories using the restructured Program Budget activity. The new three-section workflow separates total program budget, budget categories, and award allocation types for a clearer, more intuitive budget configuration experience. Budget allocations and balances update in real-time as you enter percentages across categories.
 -   Enable other governments to launch citizen-facing services using the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow UK GDS guidelines, enabling ServiceNow developers to build compliant service portals for UK government customers.
 
 -   Submit funding and decline recommendations, as a Grant Program Manager for any scored subset of proposals as a Funding Allocation Request, enabling incremental funding decisions without waiting for the entire portfolio to complete review. The Grant Program Director can approve or reject each request, with rejected proposals returning to the working queue for future consideration.
@@ -530,7 +568,7 @@ Australia
 -   Manage physical and digital evidence tied to investigative cases, with structure fields for collection details, source and context, security classification, and links to related entities such as persons, vehicles, locations, and organizations using Investigative Case Management Evidence Management.
 -   Create Chain of custody documentation in every evidence record, capturing each transfer from the moment of collection.
 -   Synthesize narratives, entities, evidence, and activity history into a structured summary using Investigative Case Management Case Summarization.
--   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with Now Assist for Public Sector Digital Services \(PSDS\).
+-   Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents with the Document Screening Al Skill, used with ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
  See [Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=australia&ft:locale=en-US) for more information.
 

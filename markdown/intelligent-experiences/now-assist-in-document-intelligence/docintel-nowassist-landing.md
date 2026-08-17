@@ -1,5 +1,5 @@
 ---
-title: Now Assist in Document Intelligence
+title: Now Assist in Document Intelligence \(Legacy\)
 description: With ServiceNow Now Assist in Document Intelligence, you can use generative AI to get key information from digital documents into your automation workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.html
@@ -8,18 +8,20 @@ product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist in Document Intelligence
+# Now Assist in Document Intelligence \(Legacy\)
 
 With ServiceNow® Now Assist in Document Intelligence, you can use generative AI to get key information from digital documents into your automation workflows.
 
 \[Omitted video\] Description: Video that shows you how you can use Now Assist in Document Intelligence to get key information from documents and images into your automation workflows.
 
 ## Get started
+
+**Important:** The ServiceNow® Content Understanding application replaces Now Assist in Document Intelligence. It brings multimodal generative AI to document and image processing, extracting key data, answering natural-language questions, and generating summaries from unstructured text, tables, and images. For more information, see [Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-landing.md).
 
 <table id="table_ekk_gb3_xcc" class="nav-card presentation"><tbody><tr><td>
 

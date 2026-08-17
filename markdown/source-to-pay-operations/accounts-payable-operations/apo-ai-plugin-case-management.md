@@ -9,6 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, Invoice case management, APO Foundation, Invoice Processing, FSC Common Foundation]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -32,20 +33,6 @@ Plugin dependencies
 
 </th></tr></thead><tbody><tr><td>
 
-Prime
-
-</td><td>
-
-app-accounts-payable-gen-ai-prime
-
-</td><td>
-
--   Accounts Payable Invoice Processing \[sn\_ap\_apm\]
--   APO Foundation \[sn\_ai\_apo\_fdn\]
--   FSC Common Prime \[sn\_ai\_fsc\_prime\]
-
-</td></tr><tr><td>
-
 Foundation
 
 </td><td>
@@ -54,7 +41,7 @@ app-accounts-payable-gen-ai-foundation
 
 </td><td>
 
--   Now Assist for Accounts Payable Operations \[sn\_ap\_gen\_ai\]
+-   ServiceNow Otto for Accounts Payable Operations \(APO\) \[sn\_ap\_gen\_ai\]
 -   FSC Common Foundation \[sn\_ai\_fsc\_fdn\]
 
 </td></tr><tr><td>
@@ -67,9 +54,23 @@ app-accounts-payable-gen-ai
 
 </td><td>
 
--   Now Assist for Platform \[sn\_genai\_platform\]
--   Now Assist for FSC Common \[sn\_fsc\_genai\]
+-   ServiceNow Otto for Platform \[sn\_genai\_platform\]
+-   ServiceNow Otto for Finance and Procurement \[sn\_fsc\_genai\]
 -   Invoice Case Management \[sn\_ap\_cm\]
+
+</td></tr><tr><td>
+
+Prime
+
+</td><td>
+
+app-accounts-payable-gen-ai-prime
+
+</td><td>
+
+-   Accounts Payable Invoice Processing \[sn\_ap\_apm\]
+-   APO Foundation \[sn\_ai\_apo\_fdn\]
+-   Finance and Procurement Prime \[sn\_ai\_fsc\_prime\]
 
 </td></tr></tbody>
 </table>

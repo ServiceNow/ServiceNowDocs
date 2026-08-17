@@ -1,26 +1,26 @@
 ---
-title: Supporting information for Now Assist for Purchase Order Management \(POM\)
-description: Get a quick overview of the important information that is related to the Now Assist for Purchase Order Management \(POM\) application.
+title: Supporting information for ServiceNow Otto for Purchase Order Management \(POM\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Purchase Order Management \(POM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supporting-information-na-pom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Explore ServiceNow Otto for POM, ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Purchase Order Management \(POM\)
+# Supporting information for ServiceNow Otto for Purchase Order Management \(POM\)
 
-Get a quick overview of the important information that is related to the Now Assist for Purchase Order Management \(POM\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Purchase Order Management \(POM\) application.
 
 ## Supported versions
 
-Now Assist for POM is supported starting with Zurich.
+ServiceNow Otto for POM is supported starting with Australia.
 
 ## Supported user interfaces
 
-The Now Assist for POM application includes the workflows that are listed in the following table.
+The ServiceNow Otto for POM application includes the workflows that are listed in the following table.
 
 |Interface|Workflow|
 |---------|--------|
@@ -29,23 +29,23 @@ The Now Assist for POM application includes the workflows that are listed in the
 
 ## Application information
 
-Activate the Now Assist for POM store app \(sn\_poem\_gen\_ai\) to use the GenAI capabilities for streamlining the purchase order execution process.
+Activate the ServiceNow Otto for POM store app \(sn\_poem\_gen\_ai\) to use the GenAI capabilities for streamlining the purchase order execution process.
 
 This store app has the following dependencies:
 
--   Now Assist for Platform \(com.sn.now.platform\)
--   Now Assist for FSC Common \(com.snc.sn\_fsc\_genai\)
--   Purchase Order Management application \(com.snc.sn\_poem\_core\)
--   Now Assist for POM store app \(sn\_poem\_gen\_ai\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for FSC Common \(com.snc.sn\_fsc\_genai\)
+-   Purchase Order Management application \(sn\_poem\_core\)
+-   ServiceNow Otto for POM store app \(sn\_poem\_gen\_ai\)
 
 Activate the applications in the following order:
 
--   Now Assist for Platform \(com.sn.now.platform\)
--   Now Assist for FSC Common \(com.snc.sn\_fsc\_genai\)
--   Purchase Order Management application \(com.snc.sn\_poem\_core\)
--   Now Assist for POM store app \(sn\_poem\_gen\_ai\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for FSC Common \(sn\_fsc\_genai\)
+-   Purchase Order Management application \(sn\_poem\_core\)
+-   ServiceNow Otto for POM store app \(sn\_poem\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
+For more information, see [Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md).
 
-**Parent Topic:**[Exploring Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
+**Parent Topic:**[Explore ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/exploring-na-for-pom.md)
 

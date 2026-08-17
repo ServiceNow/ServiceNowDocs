@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Library functions
@@ -77,7 +77,7 @@ Calling the function:
 -   Recursive calls are not supported.
 -   External API calls and async operations are not supported.
 -   Parameters are passed by copy, not by reference.
--   Functions must be free of side effects, external calls, and ServiceNow CPQ field references.
+-   Functions must be free of side effects, external calls, and CPQ field references.
 
 ## General guidelines
 

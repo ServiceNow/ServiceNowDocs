@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing Feedback application in Strategic Planning, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create Feedback in Strategic Planning
@@ -28,15 +28,15 @@ Role required: pf\_user
 
 3.  Select **Feedback** and then choose one of these options to create a feedback.
 
-<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d220945e87">
+<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d226793e87">
 
 Choice
 
-</th><th align="left" id="d220945e90">
+</th><th align="left" id="d226793e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d220945e96">
+</th></tr></thead><tbody><tr><td id="d226793e96">
 
 **All feedback**
 
@@ -46,7 +46,7 @@ From the feedback page:-   Select **All feedback** card to view all the feedback
 -   Select **New feedback** from either the overview or list page.
 
 
-</td></tr><tr><td id="d220945e122">
+</td></tr><tr><td id="d226793e122">
 
 **New filter**
 
@@ -57,7 +57,7 @@ From the feedback page:-   Select **New filter** to create a new filter based on
 -   Select **New feedback** from either overview or list page.
 
 
-</td></tr><tr><td id="d220945e155">
+</td></tr><tr><td id="d226793e155">
 
 **Existing filter**
 

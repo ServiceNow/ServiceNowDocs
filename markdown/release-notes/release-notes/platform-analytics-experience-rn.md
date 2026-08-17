@@ -33,7 +33,7 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
 ## New in the Australia release
 
--   **Use new UI Builder templates for Dashboards and Data visualization libraries**
+-   **[Use new UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)**
 
     Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
 
@@ -148,7 +148,7 @@ Platform Analytics experience is a ServiceNow AI Platform feature that is active
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md)**
+-   **[ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md)**
 
     Use AI-powered tools to enhance the value you get from Platform Analytics.
 

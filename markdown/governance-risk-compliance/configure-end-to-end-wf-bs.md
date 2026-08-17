@@ -44,7 +44,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The selected service is added to Operational Resilience reporting.
 
-5.  Verify that an entity is created for the business service, it is listed in the Business Services entity type on the Entity types page, and it is set to active on that page.
+5.  Verify that an entity is created for the business service on the Entity types page.
 
     You can verify that the value of the Active column for the Business Services is set to **True**. Verify that the entity is listed in the **Entities** tab and it is marked as Active in the **Details** tab.\[Omitted image "bs-sample-ent-ty-pg.png"\] Alt text: Business Services.\[Omitted image "bs-sample-ent-listed.png"\] Alt text: Entity listed.
 

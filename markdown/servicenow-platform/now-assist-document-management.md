@@ -1,5 +1,5 @@
 ---
-title: Now Assist in Document Management
+title: ServiceNow Otto in Document Management
 description: Use ServiceNow Now Assist in Document Management to get key insights from the document through interactive Q&amp;A, and auto- generated common questions. You can enable your agents to understand the documents so that they can give quick insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-document-management.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Now Assist in Document Management
+# ServiceNow Otto in Document Management
 
 Use ServiceNow Now Assist in Document Management to get key insights from the document through interactive Q&amp;A, and auto- generated common questions. You can enable your agents to understand the documents so that they can give quick insights.
 

@@ -33,5 +33,5 @@ The Public Sector Digital Services application uses roles to provide access to i
 -   **[Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/properties-installed-with-psds.md)**  
 Use the system properties that are added with the activation of the Public Sector Digital Services application to configure access control to application data.
 -   **[Plugins installed with Public Sector Digital Services Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/plugins-installed-with-psds-addtl-plugins.md)**  
-These plugins are automatically installed with the following Public Sector Digital Services applications, if they are not already active.
+These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 

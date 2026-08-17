@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-23"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Core Business Suite release notes
@@ -21,6 +21,8 @@ The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to 
 -   Install CBS applications from the Product Hub depending on your subscription.
 -   Automate assignment rules for the CBS requester role, enabling administrators reduce manual effort.
 -   View performance insights and resolution trends across business units on the Core Business Suite Analytics dashboard.
+-   Use the Knowledge module in Core Business Suite to adjust the settings of default knowledge bases, import or edit Knowledge Base articles, or create new ones across organization.
+-   Assign specific persons to groups to organize tasks and projects across Core Business Suite.
 
 See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md) for more information.
 
@@ -36,10 +38,11 @@ See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNo
     -   Prime: Act autonomously with all AI assets, and create your own
     For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
+-   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 ## Core Business Suite features
 
--   **[Configure Core Business Suite using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)**
+-   **[Configure Core Business Suite using Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)**
 
     Use a guided flow to set up the CBS.
 
@@ -47,7 +50,7 @@ See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
     Use the new CBS home page to initiate installations of different applications across BUs in one place. Track setup progress and receive guided configuration support from a unified product console. You can install and configure applications according to your business requirements.
 
--   **[Now Assist requester experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-configurations-requesters.md)**
+-   **[Otto requester experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-configurations-requesters.md)**
 
     Provide your employees with the AI-native requester experience in CBS.
 
@@ -68,9 +71,19 @@ See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNo
     Access all CBS customer insights in one place to monitor and review request activity across departments, both detailed and in AI-enabled summaries on the Core Business Suite Analytics Dashboard.
 
 
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**
+
+    Use the Knowledge module in CBS to adjust the default settings for Knowledge Base articles. You can also import articles, or create additional knowledge bases to support cross-functional knowledge sharing across business units.
+
+
+-   **[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)**
+
+    Assign people to groups for task and project management across Core Business Suite organizations in CBS.
+
+
 ## Activation information
 
-Install Core Business Suite by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Core Business Suite by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -84,11 +97,11 @@ Install Core Business Suite by requesting it from the ServiceNow Store. Visit th
 
 ## Related ServiceNow applications and features
 
--   **[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**
+-   **[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**
 
     Provides a modular and personalized admin home dashboard that helps centralize instance management and complete critical tasks. It supports context-aware insights and recommended next actions.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Provides the generative AI capabilities embedded throughout CBS, such as chat summarization, resolution notes generation, and agentic workflows.
 

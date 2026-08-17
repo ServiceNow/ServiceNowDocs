@@ -66,7 +66,7 @@ Role required: sn\_bcm.admin
 
     \[Omitted image "update-word-temp.png"\] Alt text: Update the template.
 
-7.  To delete the template, select the **Delete** in the record.
+7.  To delete the template, select **Delete** in the record.
 
 8.  To publish the template, select **Publish** in the record.
 

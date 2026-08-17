@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/explore-guided-selling.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-05"
-reading_time_minutes: 1
+last_updated: "2026-07-21"
+reading_time_minutes: 2
 keywords: [guided selling, opportunity stages, stage exit criteria, playbook, action center]
-breadcrumb: [Opportunity Management, Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Guided selling on opportunities
@@ -31,7 +31,11 @@ Guided selling on opportunities includes the following components:
 
 -   **Action Center**
 
-    A panel on the opportunity that consolidates all deal-related tasks, meetings, touchpoints, and stage guidance in one place. The Action Center updates in real time as agents complete actions.
+    A panel on the opportunity that consolidates all deal-related tasks, meetings, touchpoints, quote tasks, and stage guidance in one place. The Action Center updates in real time as agents complete actions.
+
+-   **Closed stage reason enforcement**
+
+    Optional enforcement that requires sales agents to complete the win or loss reason fields before they move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement through system properties. For more information, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md).
 
 
 ## Benefits

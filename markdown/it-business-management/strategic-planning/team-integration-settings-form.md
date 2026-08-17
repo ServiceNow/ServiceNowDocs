@@ -49,7 +49,7 @@ Jira Board
 Jira board for the selected Jira project.
 
 -   For team-managed projects, enter the Jira board associated with the project.
--   For company-managed projects, even if multiple boards exist for a single Jira project, you can map only one board to an EAP team in the Team Integration Settings form.
+-   For company-managed projects, if multiple boards exist for a single Jira project, you can map one board to an EAP team in the Team Integration Settings form.
 -   The selected board determines which work items sync bidirectionally between the Jira Project and the EAP team.
 -   Real-time import and export will apply only to the mapped board for company-managed projects.
 

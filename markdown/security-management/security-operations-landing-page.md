@@ -1,17 +1,17 @@
 ---
 title: Security Operations
-description: ServiceNow Security Operations applications import incident data from your security tools into a structured response engine that uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on the impact they pose to your organization.
+description: ServiceNow Security Operations applications import incident data from your security tools into a structured response engine. Intelligent workflows, automation, and data visualizations help you prioritize and resolve threats based on their impact to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-operations-landing-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-07-29"
 reading_time_minutes: 4
 ---
 
 # Security Operations
 
-ServiceNow® Security Operations applications import incident data from your security tools into a structured response engine that uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on the impact they pose to your organization.
+ServiceNow® Security Operations applications import incident data from your security tools into a structured response engine. Intelligent workflows, automation, and data visualizations help you prioritize and resolve threats based on their impact to your organization.
 
 Choose one of these tiles to get started.
 
@@ -21,15 +21,15 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist for Security Incident Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+[Now Assist for Security Incident Response\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how Now Assist for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td><td>
 
-[Now Assist for Vulnerability Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Vulnerability Response supports ServiceNow® Generative AI \(GenAI\) skills in the Vulnerability Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
+[ServiceNow Otto for Unified Security Exposure Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Unified Security Exposure Management supports ServiceNow® Generative AI \(GenAI\) skills in the workspaces and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-usem-landing-ties.md)
 
 </td></tr><tr><td>
 
-[Now Assist for Threat Intelligence Security Center\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Threat Intelligence Security Center supports ServiceNow® Generative AI \(GenAI\) skills in the Threat Intelligence Security Center workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-landing.md)
+[Now Assist for Threat Intelligence Security Center\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Threat Intelligence Security Center \(TISC\) supports ServiceNow® Generative AI \(GenAI\) skills in the Threat Intelligence Security Center workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-landing.md)
 
 </td><td>
 

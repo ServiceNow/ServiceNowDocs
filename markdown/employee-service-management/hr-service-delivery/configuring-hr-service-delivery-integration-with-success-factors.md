@@ -33,7 +33,7 @@ After you install the HR Service Delivery Integration with SuccessFactors, the s
 
 3.  Set up SuccessFactors spoke.
 
-    **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the SuccessFactors spoke version 3.1.2
+    **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the latest version of the SuccessFactors spoke from ServiceNow® Store.
 
     For more information, see set up [SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/successfactors-spoke.md).
 

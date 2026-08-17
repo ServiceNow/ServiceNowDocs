@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Activity Management reference
@@ -35,5 +35,5 @@ Field descriptions for viewing or editing an opportunity record from the Service
 -   **[Staged Email table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/staged-email-fields-outlook.md)**  
 Field descriptions for viewing email records linked to CRM entities in the Staged Email \[sys\_email\_staging\] table.
 
-**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
 

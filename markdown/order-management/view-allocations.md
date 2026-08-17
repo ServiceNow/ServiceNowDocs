@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 1
-breadcrumb: [Manage allocations, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Manage allocations, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # View allocations for an opportunity
@@ -46,7 +46,7 @@ The allocations for the opportunity are displayed in a read-only list and groupe
 **Related topics**  
 
 
-[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
 
 [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

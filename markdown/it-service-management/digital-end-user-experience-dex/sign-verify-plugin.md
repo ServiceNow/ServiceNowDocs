@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-09"
 reading_time_minutes: 1
 keywords: [sign acc plugin, verify plugin signature, self signed certificate, openssl, plugin validation, sign and verify plugin]
-breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Sign and verify an ACC plugin

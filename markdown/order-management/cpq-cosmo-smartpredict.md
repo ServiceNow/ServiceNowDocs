@@ -7,20 +7,20 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Cosmo SmartPredict
 
 Cosmo SmartPredict delivers AI-powered, in-context recommendations during configuration, helping users make informed decisions. It learns from live or uploaded data to generate accurate suggestions, improving configuration speed and consistency across blueprints. For clarity, suggestions are labeled Good, Better, or Best.
 
-Cosmo SmartPredict provides users with fast, in-context, predictive recommendations as they complete their configurations. SmartPredict can be trained either on existing configurations that are stored in the ServiceNow CPQ environment or on data that is uploaded via a CSV file.
+Cosmo SmartPredict provides users with fast, in-context, predictive recommendations as they complete their configurations. SmartPredict can be trained either on existing configurations that are stored in the CPQ environment or on data that is uploaded via a CSV file.
 
 Cosmo SmartPredict leverages a strong underlying AI model, but depends on the quantity and the quality of the data that it is provided for training.
 
 ## Setting up Cosmo SmartPredict
 
-Access to Cosmo SmartPredict is restricted. To have SmartPredict provisioned in your ServiceNow CPQ environment, contact support.
+Access to Cosmo SmartPredict is restricted. To have SmartPredict provisioned in your CPQ environment, contact support.
 
 **Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
@@ -30,7 +30,7 @@ To create a SmartPredict model, click **Create** to start defining the model par
 
 -   Training with live data
 
-    If you choose to use live data to train your model, existing and future configurations in ServiceNow CPQ that use this blueprint will serve as inputs to refine the model for the fields in the blueprint. You can further refine the training data by defining a start date and by specifying inclusion or exclusion of fields. You can create additional filters based on field values. Any filtering of the training data is optional. If all other parameters are left blank, the model will be trained on all existing configurations of the blueprint. Once finished setting parameters, click **Save &amp; Train** to begin training the model.
+    If you choose to use live data to train your model, existing and future configurations in CPQ that use this blueprint will serve as inputs to refine the model for the fields in the blueprint. You can further refine the training data by defining a start date and by specifying inclusion or exclusion of fields. You can create additional filters based on field values. Any filtering of the training data is optional. If all other parameters are left blank, the model will be trained on all existing configurations of the blueprint. Once finished setting parameters, click **Save &amp; Train** to begin training the model.
 
     Optional filtering parameters include:
 

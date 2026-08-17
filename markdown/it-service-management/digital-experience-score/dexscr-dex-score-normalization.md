@@ -9,7 +9,7 @@ classification: digital-experience-score
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Reference, Digital Experience Score, Digital End-User Experience, IT Service Management]
+breadcrumb: [Digital Experience Score reference, Digital Experience Score, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX Score normalization for metric scores

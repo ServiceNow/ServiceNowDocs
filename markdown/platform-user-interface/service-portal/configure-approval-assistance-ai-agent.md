@@ -83,7 +83,7 @@ Auto-populated
 
 </td><td>
 
-Choose an application scope, such as Global or Now Assist Agent for Requester.
+Choose an application scope, such as Global or ServiceNow Otto® Agent for Requester.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-02"
 reading_time_minutes: 1
-breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure event collection from Logicmonitor
@@ -51,9 +51,9 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) rules provided wit
 
     **Note:** The Update queue business rule in the Alert table identifies each manual update of the alert and updates the connector queue accordingly. By default, changes to all alert fields are tracked.
 
-4.  Select the**Active**check box and click**Save**.
+4.  Select the **Bi-directional** and **Active** check boxes, and then click **Save**.
 
-    The LogicMonitor pull connector does not retrieve Events or populate the Events \[em\_event\] table.
+    The LogicMonitor pull connector does not retrieve events or populate the Events \[em\_event\] table.
 
 
 **Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)

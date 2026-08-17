@@ -15,7 +15,8 @@ The ServiceNow® Usage Insights application, formerly known as User Experience A
 ## Usage Insights highlights for the Australia release
 
 -   User Experience Analytics is now known as Usage Insights.
--   Tag and create new events and update event descriptions.
+-   Usage Insight Data Export is delivered as a store app that adds a REST API endpoint to your instance and provisions a dedicated messaging topic for result delivery.
+-   Tag and create events and update event descriptions.
 -   View funnels you create in Usage Insights directly in Platform Analytics.
 -   Create dashboards for Platform Analytics directly in Usage Insights.
 
@@ -24,6 +25,10 @@ See [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 **Important:** Usage Insights is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-export-restapi.md)**
+
+    Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
 
 -   **[Creating custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tagged-events.md)**
 

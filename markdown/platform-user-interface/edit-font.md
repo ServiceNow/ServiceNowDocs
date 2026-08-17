@@ -31,7 +31,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     \[Omitted image "tb-editor-page-list.png"\] Alt text: Page drop-down list with Editor selected.
 
-3.  From the Theme drop-down list, select the theme that you want to edit.
+3.  From the Theme drop-down list located in the header bar, select the theme that you want to edit.
 
     The **Global styles** tab opens automatically with the Overview panel displayed.
 
@@ -41,17 +41,17 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     \[Omitted image "tb-overview-typography.png"\] Alt text: Overview panel with Typography section.
 
-    **Note:** You can also change the font directly from the Typography tab.
-
-    \[Omitted image "tb-typography-panel.png"\] Alt text: Global styles Typography tab.
-
 5.  Select a new font from the list of fonts.
 
     \[Omitted image "tb-pick-default-font-modal.png"\] Alt text: Pick a default font modal with Open Sans selected.
 
-    **Note:** Use the preview pane within the modal to view the font face variations of each font. Your uploaded custom fonts also appear as selectable options in the modal.
+    **Note:** Use the preview pane within the modal to view the font face variations of each font. If you have uploaded any custom fonts, they will appear as selectable options in the modal.
 
 6.  Select **Save**.
+
+7.  Use the **Abstract UI** or **Experience** preview tabs on the main stage to view how your new font appears globally throughout your theme.
+
+    Depending on their size, custom fonts can inadvertently adjust the amount of text on the page. Test and preview your fonts before publishing your theme to your instance.
 
 
 ## Result

@@ -1,18 +1,18 @@
 ---
-title: Using lead and opportunity management applications
-description: Learn how to use lead and opportunity management applications.
+title: Using sales automation applications
+description: Learn how to use sales automation applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-lead-opportunity-mgt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 1
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
 
-# Using lead and opportunity management applications
+# Using sales automation applications
 
-Learn how to use lead and opportunity management applications.
+Learn how to use sales automation applications.
 
 -   **[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)**  
 Use the Lead Management to create your lead.

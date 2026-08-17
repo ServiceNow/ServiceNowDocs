@@ -30,7 +30,7 @@ Automation Center provides an integration with the ServiceNow® RPA Hub applicat
 
 ## Integration with Document Intelligence
 
-Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see .
+Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see [Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
 
 ## Integration with UiPath
 
@@ -46,7 +46,7 @@ The Automation Center API enables you to create and update processes, robots, an
 
 ## Integration with Task Mining
 
-Automation Center integrates with Task Mining enabling you to create automations from Task Mining workspace. For more information, see .
+Automation Center integrates with Task Mining enabling you to create automations from Task Mining workspace. For more information, see [Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining.md).
 
 ## Get started
 
@@ -69,7 +69,7 @@ Automation Center integrates with Task Mining enabling you to create automations
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

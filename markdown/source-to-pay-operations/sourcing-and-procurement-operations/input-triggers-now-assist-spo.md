@@ -1,5 +1,5 @@
 ---
-title: Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)
+title: Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.html
@@ -7,25 +7,25 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 8
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)
+# Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
-## Overview of skills
+## Overview of AI skills
 
-Inputs identify the data used for a skill. Inputs include the table and fields used to generate a record summary.
+Inputs identify the data used for an AI skill. Inputs include the table and fields used to generate a record summary.
 
-You can modify inputs, but you can't modify a skill's data source. The data source contains the tables and fields that the skill relies on.
+You can modify inputs, but you can't modify an AI skill's data source. The data source contains the tables and fields that the skill relies on.
 
-## Now Assist skills for Now Assist for SPO
+## AI skills for ServiceNow Otto for SPO
 
-The Now Assist for SPO includes the following skills:
+The ServiceNow Otto for SPO includes the following AI skills:
 
 -   Email response for acknowledgement task
 -   Email response for negotiation
@@ -49,7 +49,7 @@ The Now Assist for SPO includes the following skills:
 
 Generates clear, context-aware email responses and ready-to-use acknowledgement templates that help fulfillers draft emails quickly while maintaining concise and effective communication.
 
-The following table lists the inputs for Email response for acknowledgement task from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for acknowledgement task from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_plk_dck_k3c"><thead><tr><th>
 
@@ -85,7 +85,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use negotiation templates to help fulfillers draft emails quickly while maintaining clear, professional communication.
 
-The following table lists the inputs for Email response for negotiation skill from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for negotiation skill from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_i4z_42k_k3c"><thead><tr><th>
 
@@ -121,7 +121,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use templates for procurement scenarios, enabling fulfillers to draft emails quickly while ensuring clear and professional communication.
 
-The following table lists the inputs for Email response for procurement case from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for procurement case from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_gzh_p2k_k3c"><thead><tr><th>
 
@@ -157,7 +157,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use templates for procurement tasks, helping fulfillers draft emails quickly while maintaining clear and professional communication.
 
-The following table lists the inputs for Email response for procurement task from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for procurement task from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_s4m_p2k_k3c"><thead><tr><th>
 
@@ -193,7 +193,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use templates for purchase requisitions, enabling fulfillers to draft emails quickly while ensuring clear and professional communication.
 
-The following table lists the inputs for Email response for purchase requisition from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for purchase requisition from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_gsq_p2k_k3c"><thead><tr><th>
 
@@ -229,7 +229,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use templates for sourcing events, enabling fulfillers to draft emails quickly while ensuring clear and professional communication.
 
-The following table lists the inputs for Email response for sourcing event from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for sourcing event from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_bwv_p2k_k3c"><thead><tr><th>
 
@@ -265,7 +265,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use templates for sourcing requests, helping fulfillers draft emails quickly while maintaining clear and professional communication.
 
-The following table lists the inputs for Email response for sourcing request from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for sourcing request from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_xb1_q2k_k3c"><thead><tr><th>
 
@@ -301,7 +301,7 @@ Base input fields
 
 Generates context-aware email responses and provides ready-to-use templates for sourcing tasks, enabling fulfillers to draft emails quickly while ensuring clear and professional communication.
 
-The following table lists the inputs for Email response for sourcing task from Choose input for email response page in the Now Assist Admin console.
+The following table lists the inputs for Email response for sourcing task from Choose input for email response page in the AI Admin Hub console.
 
 <table id="table_c22_q2k_k3c"><thead><tr><th>
 
@@ -337,7 +337,7 @@ Base input fields
 
 Inputs for the Negotiation summarization for fulfillers skill identify the table and fields that are used when the summary is generated for a negotiation.
 
-The following table lists the inputs for the Negotiation summarization for fulfillers from the Choose input for negotiation page in the Now Assist Admin console.
+The following table lists the inputs for the Negotiation summarization for fulfillers from the Choose input for negotiation page in the AI Admin Hub console.
 
 <table id="table_ds4_dqw_tcc"><thead><tr><th>
 
@@ -377,7 +377,7 @@ Base input fields
 
 Inputs for the Procurement case summarization for fulfillers skill identify the table and fields that are used when the summary is generated for a procurement case.
 
-The following table lists the inputs for the Procurement case summarization for fulfillers from the Choose input for procurement case page in the Now Assist Admin console.
+The following table lists the inputs for the Procurement case summarization for fulfillers from the Choose input for procurement case page in the AI Admin Hub console.
 
 <table id="table_il3_sfj_1cc"><thead><tr><th>
 
@@ -418,7 +418,7 @@ Base input fields
 
 Inputs for the Purchase order summarization for requesters skill identify the table and fields used when the summary is generated for a purchase order.
 
-The following table lists the inputs for the Purchase order summarization skill for requesters from the Choose input for purchase order page in the Now Assist Admin console.
+The following table lists the inputs for the Purchase order summarization skill for requesters from the Choose input for purchase order page in the AI Admin Hub console.
 
 <table id="table_pjd_jrp_1fc"><thead><tr><th>
 
@@ -452,7 +452,7 @@ Base input fields
 
 Inputs for the Purchase requisition summarization for fulfillers skill identify the table and fields that are used when the summary is generated for a purchase requisition.
 
-The following table lists the inputs for the Purchase requisition summarization for fulfillers from the Choose input for purchase requisition page in the Now Assist Admin console.
+The following table lists the inputs for the Purchase requisition summarization for fulfillers from the Choose input for purchase requisition page in the AI Admin Hub console.
 
 <table id="table_mc2_fqw_tcc"><thead><tr><th>
 
@@ -490,7 +490,7 @@ Base input fields
 
 Inputs for the Purchase requisition summarization for requesters skill identify the table and fields used when the summary is generated for a purchase requisition.
 
-The following table lists the inputs for the Purchase requisition summarization skill for requesters from the Choose input for purchase requisition page in the Now Assist Admin console.
+The following table lists the inputs for the Purchase requisition summarization skill for requesters from the Choose input for purchase requisition page in the AI Admin Hub console.
 
 <table id="table_mc2_rqp_1fc"><thead><tr><th>
 
@@ -529,7 +529,7 @@ Base input fields
 
 Analyzes requester sentiment across procurement cases to help fulfillers prioritize urgent issues and make informed decisions. This capability delivers sentiment assessments, trend analysis, and AI-generated summaries that clearly explain the rationale behind each evaluation based on the scheduler frequency.
 
-The following table lists the inputs for Sentiment analysis for procurement case from Choose input for sentiment analysis page in the Now Assist Admin console.
+The following table lists the inputs for Sentiment analysis for procurement case from Choose input for sentiment analysis page in the AI Admin Hub console.
 
 <table id="table_jjz_q2k_k3c"><thead><tr><th>
 
@@ -566,7 +566,7 @@ Base input fields
 
 Inputs for the Sourcing event summarization for fulfillers skill identify the table and fields that are used when the summary is generated for a sourcing event.
 
-The following table lists the inputs for the Sourcing event summarization for fulfillers from the Choose input for sourcing event page in the Now Assist Admin console.
+The following table lists the inputs for the Sourcing event summarization for fulfillers from the Choose input for sourcing event page in the AI Admin Hub console.
 
 <table id="table_ydc_fqw_tcc"><thead><tr><th>
 
@@ -604,7 +604,7 @@ Base input fields
 
 Inputs for the Sourcing request summarization for fulfillers skill identify the table and fields used when the summary is generated for a sourcing request.
 
-The following table lists the inputs for the Sourcing request summarization for fulfillers skill from the Choose input for sourcing request page in the Now Assist Admin console.
+The following table lists the inputs for the Sourcing request summarization for fulfillers skill from the Choose input for sourcing request page in the AI Admin Hub console.
 
 <table id="table_arz_fk3_1cc"><thead><tr><th>
 
@@ -643,7 +643,7 @@ Base input fields
 
 Inputs for the Sourcing request summarization for requesters skill identify the table and fields used when the summary is generated for a sourcing request.
 
-The following table lists the inputs for the Sourcing request summarization skill for requesters from the Choose input for sourcing request page in the Now Assist Admin console.
+The following table lists the inputs for the Sourcing request summarization skill for requesters from the Choose input for sourcing request page in the AI Admin Hub console.
 
 <table id="table_typ_fqp_1fc"><thead><tr><th>
 
@@ -680,12 +680,12 @@ Base input fields
 -   Business owner
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 
 
-[Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill]()
+[Customize an AI skill in Sourcing and Procurement Operations]()
 
 [Activate the Spend categorization agent]()
 

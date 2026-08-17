@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 1
-keywords: [Accounts Payable Operations, APO, invoice automation, AP automation, finance automation]
+keywords: [Accounts Payable Operations, APO, Explicit Roles plugin, Role-based access control, User access control, snc\_internal role, snc\_external role, Plugin dependencies, Role assignment, Access permissions, Plugin configuration, Role containment]
 breadcrumb: [Using Supplier Collaboration Portal in APO, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

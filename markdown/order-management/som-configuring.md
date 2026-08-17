@@ -26,7 +26,7 @@ As a user with the admin role, complete the following main configuration tasks t
 
 </td><td>
 
-[Lead and opportunity management\[Omitted image "bus-funnel.svg"\] Alt text:Set up tools to capture leads, engage customers, manage opportunities, forecast sales, and define sales territories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md)
+[Sales automation\[Omitted image "bus-funnel.svg"\] Alt text:Set up tools to capture leads, engage customers, manage opportunities, forecast sales, and define sales territories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md)
 
 </td></tr><tr><td>
 
@@ -53,35 +53,26 @@ As a user with the admin role, complete the following main configuration tasks t
  
 
 </td></tr></tbody>
-</table>## Additional configuration tasks
-
--   
-
-    Review and assign roles to users of the Sales CRM applications that you install.
-
--   [Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-agent-tools.md)
-
-    The applications in Sales Customer Relationship Management share common features and tools for agents, such as location-based transactions.
-
-
--   **[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-to-cash-foundation.md)**  
+</table>-   **[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-to-cash-foundation.md)**  
 Learn how to configure lead-to-cash foundation applications to establish a unified platform for Sales Customer Relationship Management entities such as managing leads, opportunities, quotes, and orders efficiently.
+-   **[Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md)**  
+Learn how to install and configure the sales automation applications to support pre-sales workflows.
 -   **[Configuring the configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-cpq.md)**  
 Learn how to configure the configure, price, quote applications to streamline complex product, pricing, and quote-to-contract workflows.
--   **[Configuring the lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-opportunity-mgt.md)**  
-Learn how to install and configure the lead and opportunity management applications to support pre-sales workflows.
 -   **[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)**  
 Learn how to configure the features and components that you need for customer and service order processing, depending on whether you are a provider or an enterprise customer.
 -   **[Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-order-operations.md)**  
 Learn how to configure the order operations applications to help sales and support teams to monitor the sales processes, and manage post-sale support and returns respectively.
 -   **[Post-sales engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-post-sales-engagement.md)**  
 Learn how to configure the Customer Life Cycle Management Workflows application to manage post-sale workflows on sold products.
--   **[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)**  
+-   **[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)**  
 Install the PRM \(com.snc.partner\_relationship\_management\) application from ServiceNow® Store to enable enterprises to hire partners and improve their sales cycles.
 -   **[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)**  
 Enable B2B customers to self-serve key processes such as order creation, order case management, invoice management, request for quote \(RFQ\) creation by configuring the Business Portal \(sn\_b2b\_portal\).
 -   **[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-agent-tools.md)**  
 The applications in Sales Customer Relationship Management share common features and tools for agents.
+-   **[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md)**  
+Use the AI Admin Hub console to activate the various AI applications and skills that you're entitled to use.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)
 

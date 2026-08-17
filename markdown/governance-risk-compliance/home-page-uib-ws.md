@@ -357,7 +357,7 @@ You can select the card to view the plans with exercises.
 
 -   **Plans without exercises**
 
-You can select the card to view without exercises.
+You can select the card to view plans without exercises.
 
 -   **Plans with events**
 

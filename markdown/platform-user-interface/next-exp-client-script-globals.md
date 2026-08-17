@@ -22,7 +22,7 @@ Next Experience global variables are used in client scripts to determine whether
 
     Returns **true** if the page is running in the Next Experience Unified Navigation. This global variable exists only in the Unified Navigation.
 
-    For more information about the Unified Navigation, see [Using the Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-the-next-experience-global-header.md).
+    For more information about the Unified Navigation, see [Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-the-next-experience-global-header.md).
 
 
 Client script:

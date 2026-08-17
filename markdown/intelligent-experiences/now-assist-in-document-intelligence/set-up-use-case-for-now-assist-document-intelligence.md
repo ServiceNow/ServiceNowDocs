@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Configure, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Configure, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Set up a use case for Now Assist in Document Intelligence
@@ -181,11 +181,11 @@ Upload from this device
 
     4.  Use the conditions to select certain fields as specific triggers for the integration.
 
-        Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see .
+        Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md).
 
     5.  Select the **Create Flow** option to create a flow for this integration in Workflow Studio.
 
-        **Tip:** This option should be selected, unless you are planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see .
+        **Tip:** This option should be selected, unless you are planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md).
 
     6.  Select **Save**.
 

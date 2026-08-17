@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Code reference, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Reference, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Keyboard shortcuts
@@ -28,5 +28,5 @@ Learn about the keyboard shortcuts that you can use in the script editor on the 
 |Replace all|Control+Alt+R|Command+Alt+R|
 |Open Generate code with Now Assist dialog box|Control+Enter|Command+Enter|
 
-**Parent Topic:**[Now Assist for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
 

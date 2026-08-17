@@ -37,7 +37,7 @@ If the consumer has enabled auto-publish for the subscription, accepting it will
 
 4.  Select **Accept**.
 
-    If you reject the subscription by selecting **Reject**, your consumer needs to resend the sample files, and you must reconfigure the subscription items before you can accept the subscription again.
+    If you reject the subscription by selecting **Reject**, your consumer needs to resend the sample files. Also, you must reconfigure the subscription items before you can accept the subscription again.
 
 
 ## Result

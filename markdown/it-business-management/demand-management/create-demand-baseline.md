@@ -1,6 +1,6 @@
 ---
 title: Create a baseline of a demand
-description: Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
+description: Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/create-demand-baseline.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Manageme
 
 # Create a baseline of a demand
 
-Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
+Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
 
 ## Before you begin
 
@@ -30,15 +30,15 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d320250e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d329243e86">
 
 Option
 
-</th><th align="left" id="d320250e89">
+</th><th align="left" id="d329243e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d320250e95">
+</th></tr></thead><tbody><tr><td id="d329243e95">
 
 **From a related link**
 
@@ -49,7 +49,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d320250e122">
+</td></tr><tr><td id="d329243e122">
 
 **From a related list**
 

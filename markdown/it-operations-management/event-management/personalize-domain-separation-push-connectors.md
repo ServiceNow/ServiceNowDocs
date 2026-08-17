@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Connector domain personalization, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Connector domain personalization, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure domain separation for push connector events
@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d275120e187">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d274914e187">
 
 Domain creation location
 
-</th><th align="left" id="d275120e190">
+</th><th align="left" id="d274914e190">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d275120e196">
+</th></tr></thead><tbody><tr><td id="d274914e196">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d275120e218">
+</td></tr><tr><td id="d274914e218">
 
 **The domain provided in the payload of each event**
 

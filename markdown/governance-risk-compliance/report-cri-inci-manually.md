@@ -20,7 +20,7 @@ Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager, sn\_op
 
 ## About this task
 
-Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains a record for the financial entity submitting the report and that sn\_dora\_accel\_third\_party contains records for any ICT third-party providers involved. The Initial report questionnaire references these tables.
+Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains a record for the financial entity submitting the report. Confirm that sn\_dora\_accel\_third\_party contains records for any ICT third-party providers involved. The Initial report questionnaire references these tables.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains
 
 4.  On the New record form, fill in the fields.
 
-    To view more information on the fields, see the [Create New Digital Resilience Incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-dig-res-inci.md).
+    To view more information on the fields, see the [Create Digital Resilience Incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-dig-res-inci.md).
 
 5.  Select **Accept work**.
 

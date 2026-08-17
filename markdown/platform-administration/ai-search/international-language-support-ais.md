@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-07-24"
 reading_time_minutes: 9
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -98,7 +98,7 @@ Language dependence and supported languages
 
 </td><td>
 
-AI Search only evaluates Genius Result configurations with NLU triggers if the linked NLU model has the same language as the search query.Genius Result configurations that use an LLM or a heuristic model, such as Now Assist Multi-Content Response or Q&amp;A, are limited to languages supported by the model.
+AI Search only evaluates Genius Result configurations with NLU triggers if the linked NLU model has the same language as the search query.Genius Result configurations that use an LLM or a heuristic model, such as Summary or Q&amp;A, are limited to languages supported by the model.
 
 Supported languages: Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French, French - Canada, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish.
 

@@ -1,16 +1,16 @@
 ---
-title: Install and configure Opportunity Management
+title: Configuring Opportunity Management
 description: Install the Opportunity Management application, which enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-opportunity-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 3
+breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Install and configure Opportunity Management
+# Configuring Opportunity Management
 
 Install the Opportunity Management application, which enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.
 
@@ -35,18 +35,6 @@ Role
 </td><td>
 
 Install Opportunity Management from the ServiceNow® Store Store.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-
-
-</td><td>
-
-Assign the user roles for Opportunity Management, Product Catalog Management, and Pricing Management.
 
 </td><td>
 
@@ -147,6 +135,18 @@ Define mandatory exit criteria per opportunity stage to enforce process complian
 </td><td>
 
 Opportunity setup writer
+
+</td></tr><tr><td>
+
+[Customize the opportunity summarization skill in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-opportunity-summarization-skill-now-assist-som.md)
+
+</td><td>
+
+Configure the opportunity summarization skill to generate AI-powered opportunity summaries in the CRM Workspace, including which data sources and fields contribute to the summary.
+
+</td><td>
+
+Admin
 
 </td></tr></tbody>
 </table>**Related topics**  

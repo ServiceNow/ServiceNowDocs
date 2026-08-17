@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
@@ -39,14 +39,14 @@ The Overview tab is available in both the SOW workspace and the Network Inventor
 
 The Overview tab is split into two regions:
 
--   The tree renders the inventory template at the root, with all related templates beneath it as expandable child nodes. Each node label is the resolved name the related template produces when instantiated.
+-   The tree renders the inventory template at the root, with all related templates beneath it as expandable child nodes. Each node label is the resolved name that the related template displays when the related template is applied.
 -   The detail pane shows the attributes of the selected tree node: **Name**, **Parent**, **Inventory model**, **Relationship type**, **Default field values**, and **Name Pattern** where one is defined.
 
 The detail pane is read-only. To edit any of the fields shown, open the related template record by selecting **View details**.
 
 ## Hierarchy tree behavior
 
-The tree traverses the inventory template's full composition graph. Related templates that contain child templates are rendered as expandable nodes. Selecting the chevron beside a node reveals its children, which may also be expandable.
+The tree displays the full structure of the inventory template. Related templates that contain child templates are rendered as expandable nodes. Selecting the chevron beside a node reveals its children, which may also be expandable.
 
 The hierarchy can extend several levels deep. For example, a chassis device template may have five levels of nesting: slots, card templates, sub-slots, interface card templates, and ports.
 
@@ -67,5 +67,5 @@ For full details on validation behavior, see [Name pattern validation](https://r
 
 [Name pattern validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-pattern-validation.md)
 
-[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/results-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Results page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+reading_time_minutes: 2
+breadcrumb: [Results page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Filter results for Host Status
@@ -68,4 +68,6 @@ Raw data is useful for debugging and verification because:
     -   Raw data confirms why a host was marked Up/Down \(reason field\).
     -   Raw data shows what Nmap actually returned \(good for support/investigations\).
     -   Raw data helps validate scripts when querying/mapping doesn’t show expected information.
+
+**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/results-page-console.md)
 

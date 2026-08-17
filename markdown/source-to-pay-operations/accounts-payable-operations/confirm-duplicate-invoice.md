@@ -86,7 +86,7 @@ The status of the invoice changes to Confirmed duplicate and the state of the in
 
 [Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice]()
+[Enter missing invoice information and submit an invoice]()
 
 [Convert invoice type]()
 
@@ -94,5 +94,5 @@ The status of the invoice changes to Confirmed duplicate and the state of the in
 
 [Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications]()
+[Start processing a third-party invoice]()
 

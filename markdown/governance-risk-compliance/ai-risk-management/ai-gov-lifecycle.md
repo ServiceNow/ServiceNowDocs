@@ -39,7 +39,7 @@ In summary, you can use each application as follows:
 
 -   AICT manages the AI life cycle and serves as the system of record.
 
-    For more information, see [AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md), [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md), and [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-control-tower.md).
+    For more information, see [AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md), [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md), and [Exploring AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-control-tower.md).
 
 -   AIRC performs independent risk, regulatory, and control governance.
 -   Life cycle progression in AICT depends on risk and compliance decisions made in AIRC.

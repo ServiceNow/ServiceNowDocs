@@ -1,6 +1,6 @@
 ---
 title: Agile board in Agile Development 2.0
-description: The Agile board is a landing page where you can perform key actions of the scrum process such as managing your backlogs, planning your sprints, and tracking the sprint progress.
+description: The Agile board is a landing page where you can perform key actions of the scrum process. These actions include managing your backlogs, planning your sprints, and tracking the sprint progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-board.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Exploring Agile Development 2.0, Agile Development 2.0, Agile Devel
 
 # Agile board in Agile Development 2.0
 
-The Agile board is a landing page where you can perform key actions of the scrum process such as managing your backlogs, planning your sprints, and tracking the sprint progress.
+The Agile board is a landing page where you can perform key actions of the scrum process. These actions include managing your backlogs, planning your sprints, and tracking the sprint progress.
 
 The Agile board is organized in the following tabs to help you manage these activities. You would require one or more of the scrum\_admin, scrum\_master, scrum\_product\_owner, or scrum\_sprint\_planner user roles.
 

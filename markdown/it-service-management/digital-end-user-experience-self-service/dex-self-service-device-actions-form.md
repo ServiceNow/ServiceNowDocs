@@ -9,7 +9,7 @@ classification: digital-end-user-experience-self-service
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Self-service reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX Self-service device action form
@@ -38,7 +38,7 @@ Quick action label
 
 </td><td>
 
-The label displayed to users when the action appears in Employee Center, Now Assist, or the DEX Desktop Assistant.
+The label displayed to users when the action appears in Employee Center, ServiceNow Otto, or the DEX Desktop Assistant.
 
 </td></tr><tr><td>
 

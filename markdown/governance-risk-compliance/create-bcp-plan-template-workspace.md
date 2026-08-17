@@ -52,17 +52,17 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     **Note:**
 
-    The tabs that are available in the Plan view depends on the value that you have selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bcp-template.md) that is used in this plan.
+    The tabs that are available in the Plan view depend on the value that you have selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bcp-template.md) that is used in this plan.
 
     \[Omitted image "PlanTabAuthoringType.png"\] Alt text: Plan authoring type values
 
-    When you create a plan using a template, the plan documentations associated to the plan template are copied over to the documentation section of the plan that you created.
+    When you create a plan using a template, the plan documentations associated to the plan template are copied over to the documentation section.
 
 7.  Review the plan details in the **Overview** tab.
 
-8.  Click the **Details** tab to update the plan details.
+8.  Select the **Details** tab to update the plan details.
 
-9.  To save the plan and update its details later, click **Save**.
+9.  To save the plan and update its details later, select **Save**.
 
 10. To save and submit it for review, click **Submit for Review**.
 
@@ -102,16 +102,16 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     -   **Archived**
 
-        When you archive the plan, it becomes read only. All underlying tables from where the plan retrieves its data to populate in the plan assets, related asset dependencies, recovery strategy, documentation, recovery teams, loss scenarios, and recovery tasks tabs become read only. You cannot edit the information in these tabs anymore.
+        When you archive the plan, it is set to read only. All underlying tables that populate data in the plan assets, related asset dependencies, recovery strategy, documentation, recovery teams, loss scenarios, and recovery tasks tabs are set to read-only. You can't edit the information in these tabs anymore.
 
     **Note:** A scheduled job runs weekly to move the plans that have expired to **Archived** state.
 
-11. To export the plan to different locations and make it available for people to execute the plan in a crisis situation, click **Generate PDF**.
+11. To export the plan to different locations and make it available for people to execute the plan in a crisis situation, select **Generate PDF**.
 
     **Note:** You can generate a PDF if you are a plan contributor \(sn\_bcp.plan\_contributor\) or plan manager \(sn\_bcp.plan\_manager\).
 
     You can generate a PDF of the plan in all states except **Approved** and **Archived** states. If the plan is approved, then by default a PDF is generated and attached to the plan.
 
-    The plan is exported in its entirety with its summary, recovery teams, loss scenarios, recovery tasks, and an appendix table listing the contact number of every member who is part of the recovery team.
+    The plan is exported in its entirety with its summary, recovery teams, loss scenarios, recovery tasks, and an appendix table listing recovery team members' contact numbers.
 
 

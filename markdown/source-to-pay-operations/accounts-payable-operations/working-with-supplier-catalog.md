@@ -23,13 +23,13 @@ Many-to-many \(M2M\) mapping between supplier contact and suppliers enable one s
 
 **Note:** You can also select an **Raise a request** option in the Supplier Collaboration Portal header to perform the following actions.
 
--   [Submit an Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)
--   [Submit Invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.md)
+-   [Submit an invoice inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)
+-   [Submit invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.md)
 
--   **[Submit an Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)**  
+-   **[Submit an invoice inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)**  
 Submit an invoice inquiry case through the Supplier Collaboration Portal to report an issue to the accounts payable team for evaluation and resolution.
--   **[Submit Invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.md)**  
-Submit a new PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
+-   **[Submit invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.md)**  
+Submit a PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
 
 **Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

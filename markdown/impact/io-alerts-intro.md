@@ -124,5 +124,5 @@ Set up a basic integration between Instance Observer \(IO\) and third-party inte
 -   **[Custom payload in alerts integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/custom-payload-help-guide-impact.md)**  
 Instance Observer integrations enable you to define and manage custom JSON request payload for ServiceNow and third-party integrations.
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

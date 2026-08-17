@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-telecommunicationscustomer360-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,6 +91,23 @@ Australia
 
 </td><td>
 
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[Add the Customer 360 view to a record page](https://www.servicenow.com/docs/access?context=c360-configure-c360&family=australia&ft:locale=en-US)A**
+
+Add Customer 360 as a dedicated tab to any record page along with the Run Diagnostics and Recommended Actions options to the contextual side panel. The Customer 360 tab replaces the Customer Details tab on the record page.
+
+
+-   **[Smart actions for Telecom](https://www.servicenow.com/docs/access?context=now-assist-tmt-smart-actions-agentic-workflow&family=australia&ft:locale=en-US)**
+
+Diagnose customer issues automatically from the Recommended Actions panel using the Smart Actions for Telecom AI agentic workflow. The workflow checks product inventory, open cases and incidents, work orders, and outstanding billing for the current account or consumer record and returns a structured summary with findings.
+
+
+-   **[Launch agentic workflow guidance](https://www.servicenow.com/docs/access?context=c360-launch-agentic-workflow-guidance&family=australia&ft:locale=en-US)**
+
+Automatically launch agentic workflows in the Recommendations panel based on the current interaction or case record, and provide context data during the execution of the workflow.
+
+
 [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Telecom Customer 360 component](https://www.servicenow.com/docs/access?context=c360-component&family=australia&ft:locale=en-US)**
@@ -117,12 +134,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
--   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
-
-Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Australia Early Availability
@@ -195,6 +208,13 @@ Australia
 -   **[Customer history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&family=australia&ft:locale=en-US)**
 
 The **Interaction history** card has been renamed to **Customer history**. Phone interactions, chat messages, cases, contracts, work orders, and other activity types that have been configured are displayed.
+
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
 
 
 </td></tr></tbody>
@@ -491,12 +511,18 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Automate customer issue diagnosis with the Smart Actions for Telecom agentic workflow which checks product inventory, open cases, billing status, and incidents from the Recommended Actions panel.
+-   Access Customer 360, Run Diagnostics, and Recommended Actions in a single workspace from any record page.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Add the 360-degree customer view to any record page with the Telecom Customer 360 UI Builder component.
 -   Find KB articles and agentic workflows for the current customer with the Recommendations panel.
 
- Australia Early Availability
+ **Australia Early Availability**
 
 -   Provide agents with customer information, context, and insights for service problem analysis and faster resolution.
 -   Enable agents to create cases for billing and service-related issues, manage orders, and book field service appointments directly from the customer view.

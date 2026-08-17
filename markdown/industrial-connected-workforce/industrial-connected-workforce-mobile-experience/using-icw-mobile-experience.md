@@ -49,7 +49,7 @@ Create an Industrial Guided Task \(IGT\) with the requested standard to keep pro
 -   **[Execute an Industrial Guided Task with the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/execute-igt-icw-mobile.md)**  
 Execute an Industrial Guided Task \(IGT\) with the Industrial Connected Workforce Mobile Experience to keep operations consistent, safe, and aligned with industry standards.
 -   **[Save an Industrial Guided Task while offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/save-igt-offline-icw-mobile.md)**  
-Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode so that your changes are preserved and automatically uploaded when connectivity is restored.
+Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode. Changes are preserved and uploaded automatically when connectivity is restored.
 -   **[Create an action in the Industrial Connected Workforce Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-action-mobile.md)**  
 Create an action in Industrial Connected Workforce Mobile Experience to manage all ad-hoc tasks that don't fit into any of the standard processes.
 -   **[Create an action from another task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-action-from-another-task-mobile.md)**  
@@ -66,7 +66,7 @@ Create a breakdown when the impact of the anomaly increases. For example, when t
 Use breakdown analysis to investigate the cause of breakdown further.
 -   **[Create a safety incident from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-create-safety-incident-from-task.md)**  
 Create a safety incident directly from an existing task when you are using the Industrial Connected Workforce Mobile Experience.
--   **[Report safety incident from ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)**  
+-   **[Report a safety incident from ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)**  
 Report a safety incident directly from your mobile device when you encounter a safety-related issue on the shop floor.
 
 **Parent Topic:**[Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-exp-landing-page.md)

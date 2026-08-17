@@ -141,7 +141,7 @@ Add contacts, accounts, and consumers as related parties by selecting **New**.
 **Related topics**  
 
 
-[Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sp-for-business-location.md)
+[Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sp-for-business-location.md)
 
 [Edit a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/edit-contract.md)
 

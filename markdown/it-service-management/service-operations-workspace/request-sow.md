@@ -60,7 +60,7 @@ Access the My Approvals in SOW to manage the approval requests for change, reque
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Live Agent chat in Service Operations Workspace]()
 

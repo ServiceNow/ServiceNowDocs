@@ -63,15 +63,15 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d145096e279">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d146976e279">
 
 Field
 
-</th><th align="left" id="d145096e282">
+</th><th align="left" id="d146976e282">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145096e288">
+</th></tr></thead><tbody><tr><td id="d146976e288">
 
 **Facts table**
 
@@ -79,7 +79,7 @@ Description
 
 Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d145096e304">
+</td></tr><tr><td id="d146976e304">
 
 **Report source**
 
@@ -91,7 +91,6 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 </table>    **Warning:**
 
     -   Performance Analytics does not support remote tables.
-    -   Performance Analytics does not support Workflow Data Fabric tables.
     -   Do not change the facts table for a source after you have started collecting data. If you change the facts table, you lose all historical scores for the associated indicators at the next score collection.
 7.  If you select a facts table directly, add **Conditions** that must be fulfilled before the data is included in the subset.
 
@@ -121,7 +120,7 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
 10. In the Records View tab, in **List view**, select the default view.
 
-    The default view applies on Workbench widgets and to the lists of records collected for this indicator source on the Analytics Hub and KPI Details. The available views vary depending on the facts table.
+    The default view applies on Workbench widgets and to the lists of records collected for this indicator source on KPI Details. The available views vary depending on the facts table.
 
 11. In the Records Collection tab, override the maximum number of records that a job can collect for a single indicator source, for this indicator source only.
 

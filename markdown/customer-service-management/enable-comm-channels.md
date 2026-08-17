@@ -1,5 +1,5 @@
 ---
-title: Enable communication channels
+title: Configure Omnichannel
 description: Set up multiple communication channels so that customers can contact you through their preferred methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-comm-channels.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure, Customer Service Management]
 ---
 
-# Enable communication channels
+# Configure Omnichannel
 
 Set up multiple communication channels so that customers can contact you through their preferred methods.
 

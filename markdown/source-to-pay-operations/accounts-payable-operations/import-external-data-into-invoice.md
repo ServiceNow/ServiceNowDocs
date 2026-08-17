@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, invoice automation]
+keywords: [APO, Accounts Payable Operations, Accounts Payable Workspace, Invoice Import, invoice payment, Excel template]
 breadcrumb: [Accounts Payable Operations integration framework, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

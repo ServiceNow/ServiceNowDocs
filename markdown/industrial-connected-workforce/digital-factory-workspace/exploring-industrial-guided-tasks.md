@@ -49,7 +49,7 @@ The Industrial Guided Tasks application enables you to:
 -   View embedded shopfloor insights on every published standard record to analyze execution performance across shifts, lines, and versions.
 -   Use execution analytics to identify performance gaps, track completion rates, and monitor follow-up actions and deviations.
 -   Compare execution results across standard versions to measure the impact of improvements to the standard.
--   Automatically track actual task execution duration on both the Digital Factory Workspace and ICW mobile to measure the percentage of tasks closed in time and compare actual versus planned performance.
+-   Automatically track actual task execution duration on the Digital Factory Workspace and ICW mobile. Use this data to measure the percentage of tasks closed on time and compare actual versus planned performance.
 
 -   **[Scoring in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.md)**  
 Scoring enables the automatic calculation of performance scores after completing an Industrial Guided Task \(IGT\).

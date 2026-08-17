@@ -35,7 +35,7 @@ The **Access** relationship type is available in three variants: single-directio
 
 ## Non-ArchiMate and mixed connectors
 
-When at least one connected shape is a non-ArchiMate shape \(for example, a CSDM or AWS shape\), or when connecting shapes from two different notations, the toolbar shows the following controls:
+The toolbar shows the following controls when at least one connected shape is a non-ArchiMate shape \(for example, a CSDM or AWS shape\). The toolbar also shows these controls when connecting shapes from two different notations.
 
 \[Omitted image "connector-line-non-archimate.png"\] Alt text: Non-ArchiMate connector toolbar showing line style, start arrow, Flip, end arrow, icon, and T+ controls above a connector linking two shapes.
 

@@ -39,7 +39,7 @@ Role required: admin
     1.  Download and install the Discovery Console for OT package.
     2.  Download and install the Discovery Sensor for OT package \(ISO and OVR\).
     3.  Download and install the OT Discovery Collector package that's compatible with your OS.
-    **Note:** You can download and install the Console and Collector containerized packages. Be sure to select the Collector package that is compatible to your OS. See [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md) for more information.
+    **Note:** You can download and install the Console and Collector containerized packages. Be sure to select the Collector package that is compatible to your OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
 
 6.  The second prerequisite is to configure the MID Server.
 
@@ -49,4 +49,6 @@ Role required: admin
 
 7.  Verify that the prerequisites are complete and select **Continue**.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
 

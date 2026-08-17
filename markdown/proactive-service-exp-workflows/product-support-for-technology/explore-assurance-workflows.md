@@ -18,13 +18,9 @@ Learn how you can use the Product Support for Technology application to automati
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Proactive Service Experience Workflows capabilities
-
-Watch this short video for an introduction to the Proactive Service Experience Workflows application.
-
-\[Omitted video\] Description: Proactive Service Experience Workflow overview
 
 Proactive Service Experience Workflows deliver end-to-end support, while understanding customer impact, and offering transparent communication to all parties involved in the support process. Telecommunications, media, or technology service providers can:
 

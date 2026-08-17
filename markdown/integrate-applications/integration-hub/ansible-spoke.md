@@ -7,8 +7,8 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-08-03"
+reading_time_minutes: 5
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -18,7 +18,7 @@ Integrate your ServiceNow instance with Ansible Tower. Automate Ansible Tower ta
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## IntegrationHub subscription
 
@@ -26,7 +26,9 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Ansible spoke v2.3.0 is the latest version.
+Ansible spoke v2.4.0 is the latest version.
+
+**Note:** Ansible spoke supports MID Server from v2.4.0 onwards. If you are using a previous version of the spoke and want to use MID Server, upgrade to the latest version of Ansible spoke, delete the existing connection and credential record, and create a new connection and credential record using authentication template. For more information, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ansible.md).
 
 ## Supported version
 
@@ -98,4 +100,10 @@ The Ansible spoke provides actions to automate Ansible Tower tasks when events o
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
 For information about setting up the spoke, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ansible.md).
+
+## MID Server requirements
+
+This spoke can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the Ansible alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

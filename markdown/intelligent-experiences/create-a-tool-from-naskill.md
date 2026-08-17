@@ -76,6 +76,16 @@ The description of what the tool intends to do. This input is exposed to AI clie
 
 </td></tr><tr><td>
 
+Annotations
+
+</td><td>
+
+Indication of the tool's behavior with MCP clients, including whether it only reads data, is idempotent, makes destructive changes or updates, or can call external links. You can also specifically combine these annotations as needed.
+
+ The MCP client will use the selected annotations to categorise tools according to their behavior.
+
+</td></tr><tr><td>
+
 MCP Servers
 
 </td><td>

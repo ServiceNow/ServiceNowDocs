@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Delete a decision table
@@ -31,5 +31,5 @@ Role required: admin
 4.  Select **Delete**.
 
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

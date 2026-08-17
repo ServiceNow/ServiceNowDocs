@@ -9,6 +9,7 @@ classification: app-engine-management-center
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [App Engine Management Center, AEMC, Custom app governance, Governing app development, Deploy applications]
 breadcrumb: [Governing app development, Building applications]
 ---
 

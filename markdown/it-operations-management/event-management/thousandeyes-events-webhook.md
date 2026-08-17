@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Integrate ThousandEyes platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate ThousandEyes platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate ThousandEyes with basic authentication
@@ -18,9 +18,11 @@ Integrate ThousandEyes with Event Management by adding a webhook in the Thousand
 
 ## Before you begin
 
-Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
+Verify that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 
 Discovery for ThousandEyes services is not supported, so you must create a CI manually in the ServiceNow instance for event binding to work.
+
+Verify you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Role required: evt\_mgmt\_admin
 

@@ -19,12 +19,12 @@ You can also add new plans with assets to be recovered in a sequence.
 The advantages of automatic data flow are:
 
 -   You can reuse the configuration item \(CI\) data that is created in CMDB in BIA, and from the BIA the dependencies are used in the plans and events.
--   You have the capability to branch off to a related referred plan within the task of the main plan before executing the rest of the tasks in the main plan, especially when the referred plans are managed by planners of other departments or teams to recover their respective assets.
+-   You can branch to a related plan within a main plan task before executing remaining tasks, especially when other departments or teams manage the related plans.
 -   The flow of execution is sequenced as per the Task ID and no event task is skipped in between.
 
 ## Automatic data flow from CMDB to BIA and BIA to plans
 
-When a record in created in ServiceNow AI Platform as a configuration item in CMDB, the record with all its related items are available for you to leverage as assets to assess dependencies in BIA.
+When a record is created in ServiceNow AI Platform as a configuration item in CMDB, the record and its related items are available as assets to assess dependencies in BIA.
 
 -   **CMDB**
 
@@ -51,15 +51,15 @@ In this planning phase, as a planner you can identify the related assets, add th
 
 \[Omitted image "RecoveryTaskPlanningBCP.png"\] Alt text: Recovery tasks to activate related plans.
 
-If you must recover assets in Data center A before recovering assets in Data center B, then you can refer to a different plan that follows the recovery process of Data Center A. In this case, use the **Refer a different plan** option in the **Recovery Tasks** tab of the main plan, and select the relevant plan from the related plans to recover Data center A. The referred plan has its own set of tasks that the application executes when it comes to this particular task. You can also set a sequence for the execution of the referred plan within the event tasks of the main plan.
+If you must recover assets in Data center A before recovering assets in Data center B, refer to a different plan for recovery process of Data Center A. In this case, use the **Refer a different plan** option in the **Recovery Tasks** tab of the main plan. Select the relevant plan from the related plans to recover Data center A. The referred plan has its own set of tasks that the application executes when it comes to this particular task. You can also set a sequence for the execution of the referred plan within the event tasks of the main plan.
 
 ## Tracking and execution phase
 
 In the tracking and execution phase, you can activate relevant plans during an event recovery. When you add an impacted asset in the **Impacts** tab of an exercise, then all the related assets and related plans are pulled in. Similarly, if you add a plan, then all its sub-plans are also added.
 
-Navigate to the **Event Tasks** tab to track the execution of the event tasks of the selected main plan. When you click the **Start Event** button for an event, the tasks are triggered for execution. When you select the main activated plan in the **Plans** section of the left pane, you can view all the event tasks of the selected plan listed on the right pane as event tasks. In the **Plans** section on the left, below the main plan are the **Related plans**. The event tasks of the main plan are executed in the order of Task ID sequentially but when a particular task in the sequence has a referred or a related plan, then the application branches off to that plan and executes all the tasks listed in that plan thereof and completes the sequence before coming back to the original main plan from where it branched off to complete the rest of the tasks in the sequence. Therefore, there's a main list of recovery tasks under a main plan, within which there are sub-plans with their own set of recovery sub-tasks. The application executes all the tasks sequentially within the referred plan before it continues to execute the rest of the recovery tasks sequentially in the main plan.
+Navigate to the **Event Tasks** tab to track the execution of the event tasks of the selected main plan. When you click the **Start Event** button for an event, the tasks are triggered for execution. When you select the main activated plan in the **Plans** section of the left pane, you can view all the event tasks of the selected plan. In the **Plans** section on the left, below the main plan are the **Related plans**. The event tasks of the main plan are executed in the order of Task ID sequentially. When a particular task in the sequence has a referred or a related plan, then the application branches off to that plan. It executes all the tasks listed in that plan thereof. It completes the sequence before coming back to the original main plan. Therefore, there's a main list of recovery tasks under a main plan, within which there are sub-plans with their own set of recovery sub-tasks. The application executes all the tasks sequentially within the referred plan before it continues to execute the rest of the recovery tasks sequentially in the main plan.
 
 **Note:**
 
-For a primary main plan, if there are related referred plans within, then the application executes only the referred sub-plan but does not execute any other related plan that the sub-plan might have. The hierarchy of execution stops with the first level only if there are sub-plans.
+For a primary main plan, if there are related referred plans within, then the application executes only the referred sub-plan. It does not execute any other related plan that the sub-plan might have. The hierarchy of execution stops with the first level only if there are sub-plans.
 

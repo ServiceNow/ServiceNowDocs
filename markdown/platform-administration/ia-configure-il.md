@@ -1,5 +1,5 @@
 ---
-title: Understand the Configuration page flow in Setup Hub
+title: Understand the Configuration page flow in ServiceNow Otto for Setup
 description: Implement the following steps to understand the configuration page flow to start the configuration process for either the Platform module or a specific product module on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-configure-il.html
@@ -7,16 +7,16 @@ release: australia
 topic_type: task
 last_updated: "2025-12-04"
 reading_time_minutes: 5
-breadcrumb: [Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Understand the Configuration page flow in Setup Hub
+# Understand the Configuration page flow in ServiceNow Otto for Setup
 
 Implement the following steps to understand the configuration page flow to start the configuration process for either the Platform module or a specific product module on your instance.
 
 ## Before you begin
 
-Before performing this task you must install Setup Hub application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
+Before performing this task you must install ServiceNow Otto for Setup application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
 Role required: admin
 
@@ -42,7 +42,7 @@ Role required: admin
 
 3.  Select **Get Started** on the modules.
 
-    You are redirected to the first configuration of the selected module. See [Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
+    You are redirected to the first configuration of the selected module. See [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
 
 4.  Find a console item efficiently using the Search configurations search bar on the left navigation.
 
@@ -66,17 +66,17 @@ Role required: admin
 
     This step packages the current batch of configuration changes into an update set XML file. A new XML file is created every time you make any configuration changes.
 
-9.  Select **Configure with Now Assist** to start AI-assisted configuration or receive guided assistance with Now Assist agent.
+9.  Select **Configure with AI** to start AI-assisted configuration or receive guided assistance with ServiceNow Otto agent.
 
-    **Note:** As a pre-req, install Now Assist for the **Configure with Now Assist** button to show up on the Configuration Console page.
+    **Note:** As a pre-req, install ServiceNow Otto for the **Configure with AI** button to show up on the Configuration Console page.
 
-    You can now use the agent to ask questions in natural language and get guidance during the configuration process. The agent retrieves relevant information from ServiceNow documentation and presents a summarized response with links to related topics. For example, if you ask “What are roles?”, the agent searches the ServiceNow documentation site and returns a definition along with links to learn more. Select the **Choose something else** pill in the Now Assist agent chat view to review all available console items and start a different configuration path.
+    You can now use the agent to ask questions in natural language and get guidance during the configuration process. The agent retrieves relevant information from ServiceNow documentation and presents a summarized response with links to related topics. For example, if you ask “What are roles?”, the agent searches the ServiceNow documentation site and returns a definition along with links to learn more. Select the **Choose something else** pill in the ServiceNow Otto agent chat view to review all available console items and start a different configuration path.
 
-    The adoption of LitJS components in NAP enables the import and use of reusable components, promoting a scalable and consistent framework while improving development efficiency. You can also select the Now Assist icon on the menu bar to see the Open in expanded view pill that guides you through the configuration process using LitJS components.
+    The adoption of LitJS components in NAP enables the import and use of reusable components, promoting a scalable and consistent framework while improving development efficiency. You can also select the **ServiceNow Otto** icon on the menu bar to see the Open in expanded view pill that guides you through the configuration process using LitJS components.
 
-    The Now Assist panel shows up and starts the agentic configuration process.
+    The ServiceNow Otto panel shows up and starts the agentic configuration process.
 
-    **Note:** The **Configure with Now Assist** button appears only for console items that are backed by AI capabilities.
+    **Note:** The **Configure with AI** button appears only for console items that are backed by AI capabilities.
 
 10. Select **Download XML** to download the XML update set batch file.
 
@@ -122,5 +122,5 @@ Role required: admin
 
 After the configuration completes, you can promote the changes to test or production instances by re-running the auto-installation, committing retrieved update sets, and validating ATF tests.
 
-**Parent Topic:**[Configure in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
+**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
 

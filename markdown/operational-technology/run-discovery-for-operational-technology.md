@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/run-disc
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [IT Discovery for Operational Technology \(OT\) Networks, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -30,15 +30,15 @@ Role required: ot\_discovery\_admin
 
 2.  Run Quick Discovery or select or create an OT discovery schedule.
 
-<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26903e142">
+<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26664e142">
 
 Task
 
-</th><th align="left" id="d26903e145">
+</th><th align="left" id="d26664e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26903e151">
+</th></tr></thead><tbody><tr><td id="d26664e151">
 
 **Run an immediate Quick Discovery**
 
@@ -49,7 +49,7 @@ Select **Quick Discovery** and do the following actions:1.  In the **Target IP**
 3.  Select **OK**.
 
 
-</td></tr><tr><td id="d26903e193">
+</td></tr><tr><td id="d26664e193">
 
 **Select or create an OT discover schedule**
 
@@ -62,15 +62,15 @@ Select **Quick Discovery** and do the following actions:1.  In the **Target IP**
 </td></tr></tbody>
 </table>3.  In the form, fill in the OT Discovery Schedule fields.
 
-<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26903e226">
+<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26664e226">
 
 Field
 
-</th><th align="left" id="d26903e229">
+</th><th align="left" id="d26664e229">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26903e235">
+</th></tr></thead><tbody><tr><td id="d26664e235">
 
 **Name**
 
@@ -78,7 +78,7 @@ Description
 
 Unique, descriptive name for your OT discovery schedule.
 
-</td></tr><tr><td id="d26903e244">
+</td></tr><tr><td id="d26664e244">
 
 **Discover**
 
@@ -92,7 +92,7 @@ Uses Discovery identifiers to match devices with configuration items \(CIs\) in 
 
 Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but don't update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
 
-</td></tr><tr><td id="d26903e295">
+</td></tr><tr><td id="d26664e295">
 
 **Default Purdue level**
 
@@ -114,4 +114,6 @@ Purdue level that you want the OT discovery schedule to run in or select **--Non
 ## Result
 
 When the IT Discovery for OT Networks process runs, it creates a history record in the Discovery Status related list.
+
+**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md)
 

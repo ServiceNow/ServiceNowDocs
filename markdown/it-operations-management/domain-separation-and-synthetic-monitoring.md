@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Domain separation and synthetic monitoring

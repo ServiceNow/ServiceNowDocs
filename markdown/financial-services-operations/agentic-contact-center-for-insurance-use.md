@@ -35,11 +35,11 @@ Insurance customer service representatives perform these tasks in Agentic Contac
 
     Review insurance claims and service cases for a customer in the Customer 360 page to understand the customer's open and recent service activity.
 
--   [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/generate-insurance-customer-insights-customer-360.md)
+-   [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-insurance-customer-insights-customer-360.md)
 
     Use the Insurance CSR customer insights AI agent in the Customer 360 page to generate AI-powered answers about a customer's policies, claims, and coverage.
 
--   [Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/request-insurance-ai-agent-interaction-workspace.md)
+-   [Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md)
 
     Use the Insurance CSR support AI agent in the Interaction page to receive real-time retrieval support during calls with a customer.
 

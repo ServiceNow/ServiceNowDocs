@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/execute-voice-aia-eval.html
 release: australia
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-07-21"
 reading_time_minutes: 5
-breadcrumb: [Execute a run, Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Execute a run, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Execute a run for an AI voice agentic asset
@@ -16,7 +16,7 @@ Evaluate AI voice agentic assists against datasets to monitor performance and co
 
 ## Before you begin
 
-Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI in Now Assist. You can also create execution log data after setting up your evaluation run.
+Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI. You can also create execution log data after setting up your evaluation run.
 
 For more information about testing agentic workflows, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
@@ -26,7 +26,7 @@ Role required: sn\_voice\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
     You can also start from the testing page of the AI Agent Studio. Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**. Select **Start automated evaluation** to access the guided setup.
 
@@ -34,7 +34,7 @@ Role required: sn\_voice\_aia.admin
 
 3.  In the modal, select **Voice agent or assistant**, then select **Proceed**.
 
-    The following steps are for voice agentic AI assets. If you are evaluating an AI voice agentic asset, see [Execute a run for a chat AI agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md). Many steps are similar, but there are aspects specific to AI voice agentic assets that require special attention.
+    The following steps are for voice agentic AI assets. If you're evaluating an AI voice agentic asset, see [Execute a run for a chat AI agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md). Many steps are similar, but there are aspects specific to AI voice agentic assets that require special attention.
 
 4.  In the **Add general info** step, add a name and description.
 
@@ -57,6 +57,8 @@ Role required: sn\_voice\_aia.admin
     To see more information about each plan, you can expand the card for each evaluation plan by selecting the chevron icon \[Omitted image "chevron-down-outline-24.svg"\] Alt text: Chevron icon..
 
     Any custom metrics that you have published appear as options. If you don't see your custom metric, verify that it's published. See [Create a custom metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-custom-metric.md) for more information.
+
+    \[Omitted image "aia-eval-metrics-526.png"\] Alt text: Tool performance evaluation agentic evaluation guided setup step for selecting an evaluation method with three options selected \(overall task completeness, tool performance, and tool calling\).
 
 8.  Configure your dataset.
 
@@ -86,7 +88,7 @@ Added filters
 
 Conditions for narrowing down the AI execution log records you want to include in the dataset.
 
- **Note:** Filter conditions are not supported for creating datasets of AI voice agent execution logs.
+ **Note:** Filter conditions aren't supported for creating datasets of AI voice agent execution logs.
 
 </td></tr><tr><td>
 
@@ -106,6 +108,8 @@ The maximum number of records within the dataset for evaluation. If the dataset 
     If you want to make changes, you can select **Back** to go to a previous step, or you can select the step in the sidebar.
 
     When evaluating an AI voice agentic asset, you can choose a run mode in this step of the guided setup. Select **Pause to review** to stop after each stage and review results before continuing, or **Run continuously** to get your results without intermediary steps.
+
+    \[Omitted image "aia-eval-review-526.png"\] Alt text: Tool performance review page of the guided setup.
 
 10. Select **Start evaluation**.
 

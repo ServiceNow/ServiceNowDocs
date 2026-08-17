@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Activate the data visualization generation skill
@@ -16,7 +16,7 @@ Give users generative AI capabilities for creating data visualizations from the 
 
 ## Before you begin
 
-The data visualization generation skill is included in Generative AI Controller, which is in most Now Assist applications from the ServiceNow® Store.
+The data visualization generation skill is included in Generative AI Controller, which is in most ServiceNow Otto® applications from the ServiceNow® Store.
 
 The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
 
@@ -24,19 +24,21 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the product area pane, select **Data and Analytics** &gt; **Analytics**.
 
-3.  In Now Assist skills for Analytics, search for the data visualization generation skill.
+3.  In AI skills for Analytics, search for the data visualization generation skill.
 
-    \[Omitted image "nowass-data-viz-gen-skill.png"\] Alt text: Now Assist Skills tab of Now Assist Admin console, showing the Data visualization generation skill under Data and Analytics.
+    \[Omitted image "nowass-data-viz-gen-skill.png"\] Alt text: AI Skills tab of AI Admin Hub, showing the Data visualization generation skill under Data and Analytics.
 
-4.  In the **Define access** page, you can add roles who can use this skill.
+4.  In the **User access - Access Control List \(ACL\)** page, you can add roles who can use this skill.
 
-    By default, the now.assist.creator.analytics, now\_assist\_explorer\_user, and now\_assist\_analytics\_generation roles have these rights. Think carefully before making any changes.
+    By default, the now.assist.creator.analytics and now\_assist\_analytics\_generation roles have these rights. Think carefully before making any changes.
 
-    All **Analytics** skills have this option. The data visualization skill and Query Generation skills should have one role in common. Note that each default data visualization generation role contains the sn\_query\_gen.user role, which is the default role for Query Generation skills.
+    All **Analytics** skills have this option. The data visualization skill and Query Generation skills should have one role in common. Note that both default data visualization generation roles contains the sn\_query\_gen.user role, which is the default role for Query Generation skills.
+
+    After installation, you can return to the AI Admin Hub and change role access for the skill. Select **Edit Configuration** on the tile for an activated skill to reopen the **User access - Access Control List \(ACL\)** page.
 
 5.  Select **Turn on**.
 

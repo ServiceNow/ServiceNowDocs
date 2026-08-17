@@ -38,3 +38,7 @@ The customer success workflow includes the following:
 -   Success blueprint
 -   Scheduled touchpoints and touchpoint planner
 
+The following diagram shows the different stages involved in the customer success journey.
+
+\[Omitted image "0123-MMASSET0022089.svg"\] Alt text:
+

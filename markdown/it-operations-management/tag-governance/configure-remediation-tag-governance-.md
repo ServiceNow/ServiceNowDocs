@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Establishing Tag Governance policies, Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Establish policies, Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure remediation policies on tag audit findings

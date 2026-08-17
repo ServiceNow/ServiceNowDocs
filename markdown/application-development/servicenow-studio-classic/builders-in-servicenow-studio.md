@@ -24,11 +24,11 @@ For a full list of the builders integrated in ServiceNow Studio, see [Integrated
 
 ## How do builders open in ServiceNow Studio?
 
-Decision tables and most other automation file types open in new tabs.
+Decision tables and most other automation file types open in new tabs within ServiceNow Studio.
 
 \[Omitted image "sn-studio-builder-dt-as1.png"\] Alt text: Decision tables open in the Workflow Studio builder.
 
-Mobile App Builder opens in a new tab.
+Mobile App Builder opens in a new browser tab.
 
 \[Omitted image "sn-studio-builder-mobile.png"\] Alt text: When you open Mobile App Builder, it opens in a new browser tab.
 

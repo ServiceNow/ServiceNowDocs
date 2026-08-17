@@ -1,5 +1,5 @@
 ---
-title: Digital End-User Experience Remedial Actions
+title: Digital End-User Experience remedial actions
 description: ServiceNow Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-diff-ra.html
@@ -8,37 +8,55 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 13
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
-# Digital End-User Experience Remedial Actions
+# Digital End-User Experience remedial actions
 
 ServiceNow® Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 
-<table id="table_opb_n5d_zfc"><thead><tr><th>
+<table id="new_ra_table"><thead><tr><th>
 
-Remedial Action name
+Remedial action
 
 </th><th>
 
-Supported OS
+Input parameters
+
+</th><th>
+
+Supported OS and required privileges
 
 </th><th>
 
 Description
 
+</th><th>
+
+Use cases
+
 </th></tr></thead><tbody><tr><td>
 
-Battery replacement catalog request
+Add a registry key
 
 </td><td>
 
-Windows/macOS
+`registry_path`, `registry_data`, `registry_type`
 
 </td><td>
 
-Catalog request for battery replacement to solve poor battery performance due to deteriorated battery. A catalog request would be raised for you based on your device and battery details.
+Windows: Local System Account for registry modifications, especially HKLM keysAdmin access to the device is required.
+
+</td><td>
+
+Adds a registry key to the device using a fully qualified path, value, and type.The Windows registry key stores settings or configuration data for the device operating system and Windows applications.
+
+</td><td>
+
+Push specific configurations remotely without Group Policy updates or manual device access. Possible use cases may include the following:-   Configure Windows OS or app settings that require new registry entries. \(Path example: HKCU\\ControlPanel\\TestColors\\WindowText.\)
+-   Apply security configurations or app behavior settings at the registry level.
+-   Push targeted configuration changes without a Group Policy update.
 
 </td></tr><tr><td>
 
@@ -46,16 +64,23 @@ Clear application cache
 
 </td><td>
 
-Windows/macOS
+`app_name`, `auto_close` \(closes the application before clearing the cache to confirm all cache files are cleared\), `process_name` \(for example, zoom.exe\), `cache_path`
 
 </td><td>
 
-Performing this action removes the app cache for the selected application on this device. This helps the device run faster and frees up storage space. Supported applications include Microsoft Teams Classic \(macOS\), Google Chrome \(macOS\), Zoom \(macOS and Windows\), Slack \(macOS\), Outlook \(Windows\), and Teams \(Windows\).Use the dex\_action\_app\_config table to add more applications that support this action. Configure the corresponding cache URL to be cleared for each application in the same table. Separate cache URLs by a comma if entering multiple URLs for an app.
+Windows: Local System AccountmacOS: Sudo permissions
 
-**Note:**
+Admin access to the device is required.
 
--   Select the field auto-close, which closes the application before clearing the cache to confirm all the cache files are cleared.
--   To clear application cache, you need to have the admin access to the device.
+</td><td>
+
+Removes the app cache for the configured application on the device.
+
+</td><td>
+
+Apply a safe first-response fix for collaboration-app performance, sync, and crash issues caused by corrupted cache. Possible use cases may include the following:-   Resolve Teams or Outlook performance issues, missing content, or sync errors from corrupted cache.
+-   Fix Zoom video or audio quality issues attributed to corrupted cache files.
+-   Free up disk space consumed by excessive app cache.
 
 </td></tr><tr><td>
 
@@ -63,79 +88,21 @@ Clear browser cache
 
 </td><td>
 
-Windows/macOS
+`browsers`
 
 </td><td>
 
-Clearing your browser cache removes temporary data stored on your laptop, such as cookies and website files.**Note:** To clear browser cache, you need to have the admin access to the device.
-
-</td></tr><tr><td>
-
-End process
+Windows: Local System AccountAdmin access to the device is required.
 
 </td><td>
 
-Windows/macOS
+Removes temporary data stored on the device, such as cookies and website files.
 
 </td><td>
 
-Performing this action on an end user's device forcefully stops a running process.
-
-</td></tr><tr><td>
-
-Execute Jamf policy
-
-</td><td>
-
-macOS
-
-</td><td>
-
-Execute the Jamf policy either with a policy ID or with a predefined action. Predefined actions, configured by DEX admins in the `dex_jamf_policy_table`, can be selected and executed by service desk agents, who don’t have access to the policy IDs. The predefined actions must be set in the table `dex_jamf_policy` and update the fields Action name, Application, Policy ID, and Active. The detailed information on the fields is listed in the following table.The following are the Jamf limitations:
-
--   As DEX Admin, you must know the Jamf pro features and have knowledge about the policies configured for applications at the customer Jamf server.
--   Some policies when run, notify the user to update the application instead of automatically updating it. For example, Zoom doesn't automatically update. In cases like these, the policy is executed successfully only if the employee approves the update of the application. Otherwise, the remedial action execution fails.
-
-</td></tr><tr><td>
-
-Restart service
-
-</td><td>
-
-Windows/macOS
-
-</td><td>
-
-Performing this action on a end-user's laptop involves restarting the service or application running on their device.**Note:** To restart service, you need to have the admin access to the device.
-
-</td></tr><tr><td>
-
-Windows disk cleanup for low disk space
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing Windows disk clean up to solve slow system performance due to insufficient disk space. Files such as temporary internet files, recycle bin, thumbnails, temporary files, etc would be deleted to free up your disk space.
-
-</td></tr><tr><td>
-
-Perform disk cleanup
-
-</td><td>
-
-Windows/macOS
-
-</td><td>
-
-Performing this action deletes temporary internet, memory, log, and cache files to free up the hard drive space and optimize the device performance similar to the following:-   `C:\Windows"="*.dmp`
--   `"C:\Windows\Downloaded Program Files"="*.*"`
--   `"$env:UserProfile\Appdata\Local\Microsoft\Windows\Temporary Internet Files"="*.*"`
--   `"C:\Windows\Temp"="*.*"`
--   `"C:\Windows\System32\LogFiles"="*.*"`
--   `"C:\ProgramData\Microsoft\Windows\WER\ReportQueue"= "*.*"`
+Remove temporary browser data stored in your laptop to address slow device performance issues. Possible use cases may include the following:-   Automatically clear browser cache when device performance degrades due to accumulated temporary files.
+-   Fix display errors, stale content, and login issues in browser-based business apps.
+-   Resolve website loading issues or authentication problems caused by stale cookies and cached data.
 
 </td></tr><tr><td>
 
@@ -143,26 +110,23 @@ Clear DNS cache
 
 </td><td>
 
-Windows/macOS
+None
 
 </td><td>
 
-Performing this action on an end-user's device will clear the DNS cache.
+Windows: No elevated privileges requiredmacOS: Sudo permissions
 
-</td></tr><tr><td>
-
-Reset Google Chrome browser settings
+Admin access to the device is required.
 
 </td><td>
 
-Windows/macOS
+Removes temporary data stored on your laptop, such as cookies and website files.
 
 </td><td>
 
-Performing this action resets the Google Chrome browser settings to default on all devices.**Note:** This action would reset the configuration established by default by your organization's IT department. This is not the same as performing a factory reset.
-
--   Only the extensions that are synced with the user account are restored.
--   Preferences and Secure preferences files will be removed.
+Resolve display errors and login issues caused by outdated browser cache instantly, without remote desktop or user involvement. Possible use cases may include the following:-   Resolve web application loading issues from outdated or corrupted browser cache.
+-   Fix display errors, stale content, and login issues in browser-based business apps.
+-   Clear cache across multiple browsers in a single action execution.
 
 </td></tr><tr><td>
 
@@ -170,17 +134,45 @@ Clear Google Chrome browsing data
 
 </td><td>
 
-Windows/macOS
+`Remove web data` \(true or false\)
 
 </td><td>
 
-Deleting Google Chrome browsing data enhances its speed, resolves page loading issues, and safeguards the user's privacy.**Note:**
+Windows: Local System AccountmacOS: Sudo permissions
 
--   Clearing web data will sign you out of your Google account and remove all saved addresses, payment methods, and auto-fill data. To stay signed in and keep this data, do not clear your web data.
--   You need these minimum permissions on Windows to clear browsing data.
-    -   List folder / read data
-    -   Write attributes
-    -   Delete sub-folders and files
+</td><td>
+
+Deletes Google Chrome browsing data to enhance speed, resolve page loading issues, and safeguard user privacy.
+
+</td><td>
+
+Resolve authentication loops and display failures caused by corrupted cookies or stale cached data. Possible use cases may include the following:-   Resolve login or SSO authentication loops caused by corrupted Chrome cookies.
+-   Fix Chrome-based web application display issues caused by outdated cached content.
+-   Clear browsing data for privacy or compliance requirements.
+
+</td></tr><tr><td>
+
+Clear Recycle Bin
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountmacOS: No elevated privileges required
+
+Admin access to the device is required.
+
+</td><td>
+
+Clears the recycle bin on the device.
+
+</td><td>
+
+Reclaim disk space consumed by deleted files that continue to take up storage. Possible use cases may include the following:-   Recover disk space on devices where deleted files are accumulating in the Recycle Bin or Trash.
+-   Address low-disk-space alerts where the Recycle Bin or Trash is a significant contributor.
+-   Combine with Disk Cleanup for more comprehensive storage reclamation.
 
 </td></tr><tr><td>
 
@@ -188,251 +180,21 @@ Configure device power scheme
 
 </td><td>
 
-macOS
+`power_mode` \(Low Power, Automatic, or High Power\)
 
 </td><td>
 
-Performing this action on the end-user's device configures the power scheme settings and optimizes the performance, energy efficiency and battery life of the device.
-
-</td></tr><tr><td>
-
-Clear recycle bin
+macOS: Sudo permissions
 
 </td><td>
 
-Windows/macOS
+Configures the power scheme settings and optimizes the performance, energy efficiency and battery life of the device.
 
 </td><td>
 
-Performing this action on an end-user's device will clear the recycle bin on the device.**Note:**
-
--   To clear recycle bin, you need to have the admin access to the device.
--   For Windows devices, only C: drive recycle bin is targeted as part of the remedial action.
-
-</td></tr><tr><td>
-
-Elevate temporary admin access
-
-</td><td>
-
-Windows/macOS
-
-</td><td>
-
-Performing this action on the end-user's device provides temporary administrative privileges for a period of time to perform specific tasks without compromising on security.**Note:**
-
--   To elevate the temporary administrative privileges, you need to have the admin access to the device.
--   The task scheduler must be enabled to get the admin rights.
-
-</td></tr><tr><td>
-
-Remediate Zscaler connectivity
-
-</td><td>
-
-Windows/macOS
-
-</td><td>
-
-Performing this action on the end-user's device will fix any connectivity issues with Zscaler Private Access.**Note:**
-
--   Enable the Zscaler Command Line interface feature on the device.
--   It is applicable only if version 4.4 and later for Windows and Zscaler Client Connector version 4.3 and later for macOS is installed on the device.
-
-</td></tr><tr><td>
-
-Restart Microsoft OneDrive
-
-</td><td>
-
-Windows/macOS
-
-</td><td>
-
-Performing this action on the end-user's device will restart OneDrive to resolve any sync issues and update all recent changes as long as you are signed in to OneDrive.**Note:**
-
--   For macOS users, you need to stay logged in on OneDrive in order to restart OneDrive.
--   For Windows users, you need admin access to restart OneDrive if it is installed in the user's folder.
-
-</td></tr><tr><td>
-
-Repair corrupt Outlook files
-
-</td><td>
-
-Windows/macOS
-
-</td><td>
-
-Performing this action on an end-user's device detects and repairs both OST and PST file types in Microsoft Classic Outlook. This helps in enhancing Outlook performance and synchronization.**Note:** OST/PST files upto 2 GB size can be fixed using the `SCANPST.exe` and beyond 2 GB, the behaviour is as follows:
-
--   2-20 GB: The performance degrades, success depends on the corruption severity.
--   20-50 GB: Significantly reduced effectiveness, frequent failures are reported.
--   Over 50 GB: Very low success rate, tool struggles or fails completely.
--   In order to Fix outlook data file Remedial Action to work, you need permissions for the following folders where the OST/PST files reside.
-    -   List folder / read data
-    -   Write attributes
-    -   modify or delete subfolders and files
-
-</td></tr><tr><td>
-
-Uninstall the application
-
-</td><td>
-
-Windows
-
-</td><td>
-
--   Performing this action on an end-user's device uninstalls the selected application from the action library.
--   Only applications installed through .exe or .msi files will be uninstalled. Core OS and system applications do not get uninstalled, even if the action is executed successfully.
-
- **Note:** In order to uninstall an application, you need to have the admin access to the device.
-
-</td></tr><tr><td>
-
-Map Network Drive
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action maps a network drive using a specified drive letter and network path. This action allows users to connect to shared resources on the network.**Note:**
-
--   The drive\_letter parameter specifies the drive letter to which the network location will be mapped, and the network\_path parameter specifies the path of the shared network location that is to be mapped.
--   The network\_path should not require authentication, or it should be pre-authenticated, for this check to run successfully.
-
-</td></tr><tr><td>
-
-Delete Network Drive
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action removes a mapped network drive using the drive letter. This helps in cleaning up unused or outdated network connections.
-
-</td></tr><tr><td>
-
-Restart Audio Services
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action restarts audio services **AudioEndpointBuilder** and **Audiosrv** to restore sound and microphone functionality. This fixes common playback and recording issues on your device.
-
-</td></tr><tr><td>
-
-Modify USB storage access: Execute
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action adjusts the Execute permission, which controls whether programs or scripts can run directly from a removable USB storage device. Use this action to prevent unauthorized execution of files from USB devices.**Note:**
-
--   This action is effective only if removable USB storage access is not already controlled by other mechanisms, such as Group Policies, third-party endpoint protection tools, or device control software.
--   In order to perform this action, you need to have the admin access to the device.
--   After you perform this action, restart the device for the access changes to take effect.
-
-</td></tr><tr><td>
-
-Modify USB storage access: Read
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action adjusts the Read permission, allowing or blocking the ability to read data from a Removable USB storage device. Use this action to restrict data exfiltration or unauthorized data access.**Note:**
-
--   This action is effective only if removable USB storage access is not already controlled by other mechanisms, such as Group Policies, third-party endpoint protection tools, or device control software.
--   In order to perform this action, you need to have the admin access to the device.
--   After you perform this action, restart the device for the access changes to take effect.
-
-</td></tr><tr><td>
-
-Modify USB storage access: Write
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action adjusts the Write permission, allowing or blocking the ability to write data to a Removable USB storage device. Use this action to prevent data leakage or unauthorized file transfers to USB devices.**Note:**
-
--   This action is effective only if removable USB storage access is not already controlled by other mechanisms, such as Group Policies, third-party endpoint protection tools, or device control software.
--   In order to perform this action, you need to have the admin access to the device.
--   After you perform this action, restart the device for the access changes to take effect.
-
-</td></tr><tr><td>
-
-Restart Microsoft Outlook
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action restarts Microsoft Outlook on the user's device.
-
-</td></tr><tr><td>
-
-Add a Registry Key
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action adds a registry key to this device using a fully qualified path \(for example, `HKCU\Control Panel\TestColors\WindowText.`\), value \(for example,`2222`\), and type \(for example, String, DWord\). Windows registry key stores settings or configuration data for the device Operating system and Windows applications.
-
- **Note:**
-
--   The following types are supported:
-    -   String – A null-terminated string. It can be Unicode or ANSI, depending on the function used.
-    -   ExpandString – A null-terminated string with unexpanded environment variable references \(for example, %PATH%\).Use the ExpandEnvironmentStrings function to expand these references.
-    -   DWord – A 32-bit number.
-    -   QWord – A 64-bit number. Binary – Binary data in any form.
-    -   Binary – Binary data in any form.
-    -   MultiString – A sequence of null-terminated strings, terminated by an empty string \(\\0\). Example: String1\\0String2\\0String3\\0LastString\\0\\0. The final terminator must be included in the length.
--   To add a registry key value, you need to have the admin access to the device.
-
-</td></tr><tr><td>
-
-Modify a registry key value
-
-</td><td>
-
-Windows
-
-</td><td>
-
-Performing this action updates the registry key value using a fully qualified path \(for example, `HKCU\Control Panel\TestColors\WindowText.`\), value \(for example, `2222`\), and type \(for example, String, DWord\).
-
- **Note:**
-
--   The following types are supported:
-    -   String – A null-terminated string. It can be Unicode or ANSI, depending on the function used.
-    -   ExpandString – A null-terminated string with unexpanded environment variable references \(for example, %PATH%\).Use the ExpandEnvironmentStrings function to expand these references.
-    -   DWord – A 32-bit number.
-    -   QWord – A 64-bit number. Binary – Binary data in any form.
-    -   Binary – Binary data in any form.
-    -   MultiString – A sequence of null-terminated strings, terminated by an empty string \(\\0\). Example: String1\\0String2\\0String3\\0LastString\\0\\0. The final terminator must be included in the length.
--   To modify a registry key value, you need to have the admin access to the device.
+Adjust macOS power settings remotely to match the user's context without requiring user action. Possible use cases may include the following:-   Improve macOS performance by switching to High Power mode when a user reports sluggishness.
+-   Extend battery life by switching to Low Power mode for remote or traveling employees.
+-   Standardize power settings across macOS device fleets remotely.
 
 </td></tr><tr><td>
 
@@ -440,81 +202,493 @@ Delete a file
 
 </td><td>
 
-Windows
+`file_name_or_path` — full filename or absolute file path.
 
 </td><td>
 
-Performing this action will permanently delete the entered file \(full file name or absolute file path\) from the user’s device. Proceed with caution when deleting critical system files.**Note:** Only one file can be entered at a time. The file name must include a valid extension \(for example, `.log`, `.txt`\).
+Windows: No elevated privileges required
+
+</td><td>
+
+Permanently deletes the entered file \(full file name or absolute file path\) from the device.
+
+</td><td>
+
+Remove specific files with IT-controlled precision when broader system changes aren't appropriate. Possible use cases may include the following:-   Delete corrupted or blocker files preventing software installations or updates.
+-   Remove files left over from failed uninstalls or incomplete cleanup operations.
+-   Delete specific files as part of security incident response.
 
 </td></tr><tr><td>
 
-Modify Device Battery Power Plan
+Delete network drive
 
 </td><td>
 
-Windows
+action \(MAP or DELETE\), drive\_letter, network\_path \(for example, `\\server\share`\)
 
 </td><td>
 
-Performing this action on the end-user’s device will adjust device power plan settings using PowerShell scripts to optimize performance, energy efficiency, and battery life.
+Windows: Local System Account
+
+</td><td>
+
+Removes a mapped network drive from your system and disconnects access to the shared location.
+
+</td><td>
+
+Network drive access issues are a common helpdesk request — mapping or removing drives remotely eliminates the need for IT remote desktop sessions or on-site visits. Possible use cases may include the following:-   Re-map a disconnected network drive when a user loses access to a shared file location.
+-   Provision new network drive access for new hires or team changes.
+-   Remove outdated or incorrect drive mappings.
 
 </td></tr><tr><td>
 
-Sync device to Intune
+Disable startup program
 
 </td><td>
 
-Windows
+`startup_programs` \(comma-separated list\)
 
 </td><td>
 
-Performing this action on an end-user's device will sync the device on Intune.**Note:**
+Windows: Local System Account
 
--   The minimum Microsoft Intune Spoke version required to run this action is 1.4.0.
--   For more information on sync device action, see [https://learn.microsoft.com/en-us/graph/api/intune-devices-manageddevice-syncdevice?view=graph-rest-1.0](https://learn.microsoft.com/en-us/graph/api/intune-devices-manageddevice-syncdevice?view=graph-rest-1.0).
+</td><td>
 
+Disables the specified startup programs on the device.
+
+</td><td>
+
+Disable startup programs categorized as non-essential with user approval to reduce boot time and improve device performance after login. Possible use cases may include the following:-   Speed up device startup when it takes more than 2 minutes after power-on for the device to be ready to use.
+-   Improve device performance after login when too many programs launch at once.
+-   Reduce recurring startup delays caused by non-essential programs that launch automatically at startup.
+
+</td></tr><tr><td>
+
+Disk cleanup for low disk space
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+</td><td>
+
+Performs disk cleanup to solve slow system performance due to insufficient disk space.\*
+
+</td><td>
+
+Reclaim disk space automatically without user involvement or IT site visits. Possible use cases may include the following:-   Recover disk space on devices with low storage before performance degrades.
+-   Proactively address low-disk-space alerts as part of routine endpoint maintenance.
+-   Reduce disk usage remotely without user involvement.
+
+</td></tr><tr><td>
+
+Elevate temporary admin access
+
+</td><td>
+
+`user_name` \(Windows\) or `user_id` as email \(macOS\)`duration` — dropdown: 1, 2, 4, or 8 hours
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+Admin access to the device is required.
+
+</td><td>
+
+Provides temporary administrative privileges on the device for a period of time to perform specific tasks without compromising security.
+
+</td><td>
+
+Grant just-in-time admin access that expires automatically, supporting zero-standing-privilege policies. Possible use cases may include the following:-   Enable just-in-time admin access for software installations without permanent elevation.
+-   Support PAM workflows with automatic, time-bound privilege expiry.
+-   Reduce the risk of standing admin accounts on managed devices.
+
+</td></tr><tr><td>
+
+End process
+
+</td><td>
+
+`process_name` or `pid`
+
+</td><td>
+
+Windows: No elevated privileges requiredmacOS: Sudo permissions
+
+</td><td>
+
+Forcefully stops a running process on the device.
+
+</td><td>
+
+Stop a running process on your device to resolve slow computer performance issues caused by unresponsive programs or applications. Possible use cases may include the following:-   Automatically end resource-intensive or background processes causing slow device performance.
+-   Stop unresponsive or frozen applications.
+
+</td></tr><tr><td>
+
+Execute Jamf policy
+
+</td><td>
+
+`policy_id` — the ID of the Jamf policy to execute
+
+</td><td>
+
+macOS: Sudo permissions
+
+</td><td>
+
+Executes the Jamf policy either with a policy ID or with a predefined action.Predefined actions, configured by DEX admins in dex\_jamf\_policy\_table, can be selected and executed by service desk agents, who don't have access to the policy IDs.
+
+</td><td>
+
+Bring macOS MDM actions directly into DEX alert-driven automation without switching between platforms. Possible use cases may include the following:-   Deploy or remove applications on Jamf-managed macOS devices directly from ServiceNow workflows.
+-   Trigger any Jamf-managed policy without requiring the user to open Jamf Self Service.
+-   Enforce software configurations or security policies through existing Jamf policies.
+
+</td></tr><tr><td>
+
+Kill zombie/orphan processes
+
+</td><td>
+
+`app_name`
+
+</td><td>
+
+Windows: No elevated privileges requiredmacOS: Sudo permissions
+
+Admin access to the device is required.
+
+</td><td>
+
+Resolves app hangs and frees the device resources.
+
+</td><td>
+
+Possible use cases may include the following:-   Resolve application unresponsive behavior caused by zombie \(macOS\) or orphan processes \(Windows\) consuming system resources.
+-   Free up CPU and memory held by defunct or parentless processes identified via top processes diagnostics or DEX alerts.
+
+</td></tr><tr><td>
+
+Map network drive
+
+</td><td>
+
+`drive_letter` \(drive letter to which the network location is mapped\)`network_path` \(path of the shared network location to be mapped\)
+
+</td><td>
+
+Windows: No elevated privileges required
+
+</td><td>
+
+Maps or removes a network drive using a specified drive letter and network path. These actions enable you to connect to shared resources on the network or help in cleaning up unused or outdated network connections.
+
+</td><td>
+
+Connect to shared resources on the network or remove outdated mappings without IT remote desktop sessions or on-site visits. Possible use cases may include the following:-   Re-map a disconnected network drive when a user loses access to a shared file location.
+-   Provision new network drive access for new hires or team changes.
+-   Remove outdated or incorrect drive mappings.
+
+</td></tr><tr><td>
+
+Modify a registry key value
+
+</td><td>
+
+`registry_path`, `registry_data`, `registry_type`
+
+</td><td>
+
+Windows: Local System AccountAdmin access to the device is required.
+
+</td><td>
+
+Updates a registry key value using a fully qualified path, value \(for example, `2222`\), and type \(for example, String, DWord\).
+
+</td><td>
+
+Correct specific registry entries remotely without disruptive system-wide changes. Possible use cases may include the following:-   Correct misconfigured registry values causing application or OS behavior issues.
+-   Apply registry-level changes as part of automated remediation for known configuration drift.
+-   Update application behavior through existing registry settings without manual device access.
+
+</td></tr><tr><td>
+
+Modify device battery power plan
+
+</td><td>
+
+`power_mode`
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Adjusts device power plan settings using PowerShell scripts to optimize performance, energy efficiency, and battery life.
+
+</td><td>
+
+Adjust device power plan settings to extend battery life and optimize energy efficiency and device performance. Possible use cases may include the following:-   Automatically switch to balanced or power-saving modes to improve battery life on low-battery devices.
+-   Address poor battery performance by enabling appropriate power modes based on device usage patterns.
+-   Improve overall device performance and battery longevity by managing power consumption remotely.
+
+</td></tr><tr><td>
+
+Modify USB storage access \(Execute, Write, Read\)
+
+</td><td>
+
+`access` \(Read, Write, or Execute\), `value` \(Allow or Deny\)
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Adjusts the following permissions:-   Execute: controls whether programs or scripts can run directly from a removable USB storage device.
+-   Read: allows or blocks the ability to read data from a removable USB storage device.
+-   Write: allows or blocks the ability to write data to a removable USB storage device.
+
+</td><td>
+
+Lock down or restore USB access at the permission level instantly, without endpoint management console access. Possible use cases may include the following:-   Lock down USB write access to prevent data exfiltration during a security investigation.
+-   Restore specific USB permissions for an authorized use case after a temporary restriction.
+-   Enforce DLP policies by restricting USB Execute access to prevent running unauthorized code.
+-   Prevent unauthorized execution of files from USB devices.
+-   Prevent data leakage or unauthorized file transfers to USB devices.
+
+</td></tr><tr><td>
+
+Remediate Zscaler connectivity
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+</td><td>
+
+Fixes connectivity issues with Zscaler Private Access on the device.
+
+</td><td>
+
+Automate a fix for ZPA connection drops that leave remote employees cut off from internal applications. Possible use cases may include the following:-   Resolve ZPA connectivity issues remotely without IT remote desktop access.
+-   Fix ZPA connections stuck in a disconnected or failed state.
+-   Enable automated remediation when Zscaler monitoring detects a failure.
+
+</td></tr><tr><td>
+
+Repair corrupt Outlook files
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountYou require permissions for the folders where OST/PST files reside:
+
+-   List folder/read data
+-   Write attributes
+-   Modify or delete subfolders and files
+
+</td><td>
+
+Detects and repairs both OST and PST file types in Microsoft Classic Outlook on end-user devices.
+
+</td><td>
+
+Enhance Microsoft Outlook performance and synchronization on end-user devices.The `SCANPST.exe` tool is used to fix files up to 2 GB in size. For larger files, the following behavior applies:
+
+-   2-20 GB: Performance degrades, success depends on the corruption severity.
+-   20-50 GB: Significantly reduced effectiveness, frequent failures are reported.
+-   Over 50 GB: Very low success rate, tool struggles or fails completely.
+
+</td></tr><tr><td>
+
+Reset Google Chrome browser settings
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+</td><td>
+
+Resets the Google Chrome browser settings to default on all profiles of the current logged-in user.
+
+</td><td>
+
+Resolve corrupted Chrome settings and problematic extensions without reinstalling Chrome. Possible use cases may include the following:-   Resolve browser issues from misconfigured or corrupted Chrome settings.
+-   Remove conflicting or malicious Chrome extensions affecting browser behavior or security.
+-   Restore Chrome stability when it is crashing or behaving unexpectedly.
+
+</td></tr><tr><td>
+
+Reset network adapter
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+</td><td>
+
+Resets the WiFi network adapter by turning it off and back on.
+
+</td><td>
+
+Resolve connectivity issues where the device shows a strong WiFi signal but experiences poor network performance or application timeouts. Possible use cases may include the following:-   Speed up applications and web pages when network connectivity is degraded despite showing a strong WiFi signal.
+-   Help identify if poor performance is caused by network issues rather than a slow device.
+-   Restore WiFi connection with user approval when the adapter stops responding.
+
+</td></tr><tr><td>
+
+Restart Audio Services
+
+</td><td>
+
+`service_name`
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Restarts audio services to restore sound and microphone functionality.
+
+</td><td>
+
+Restart audio services to restore sound and microphone functionality and resolve playback and recording issues on the device. Possible use cases may include the following:-   Automatically restart audio services when sound or microphone functionality fails or becomes unresponsive.
+-   Resolve microphone issues affecting communication applications like Zoom by restarting audio services.
+
+Use **AudioEndpointBuilder** and **Audiosrv** to restore sound and microphone functionality. This fixes common playback and recording issues on the device.
+
+</td></tr><tr><td>
+
+Restart Microsoft OneDrive
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+</td><td>
+
+Restarts Microsoft OneDrive on the device to resolve sync issues and update all recent changes, as long as the user is signed in to Microsoft OneDrive.
+
+</td><td>
+
+Resolve Microsoft OneDrive sync failures that block access to cloud-stored files, without user involvement or a reboot. Possible use cases may include the following:-   Resolve Microsoft OneDrive sync failures or stuck uploads and downloads.
+-   Fix Microsoft OneDrive showing as disconnected, paused, or stuck on "syncing".
+-   Address OneDrive performance issues caused by a hung or unresponsive process.
+
+</td></tr><tr><td>
+
+Restart Microsoft Outlook
+
+</td><td>
+
+`process_name`, `app_name`
+
+</td><td>
+
+Windows: No elevated privileges required
+
+</td><td>
+
+Restarts Microsoft Outlook on the device.
+
+</td><td>
+
+Restart Microsoft Outlook on end-user devices to resolve application performance issues. Possible use cases may include the following:-   Automatically restart Microsoft Outlook to resolve email synchronization delays or connection issues.
+-   Resolve frozen or unresponsive Outlook windows by forcefully restarting the application.
+-   Restore Microsoft Outlook functionality and stability.
+
+</td></tr><tr><td>
+
+Restart service
+
+</td><td>
+
+`service_name` \(for example, Spooler or \)
+
+</td><td>
+
+Windows: Local System AccountmacOS: Sudo permissions
+
+Admin access to the device is required.
+
+</td><td>
+
+Restarts the service or application running on the device.
+
+</td><td>
+
+Restore failed or hung services without rebooting the device, minimizing user disruption. Possible use cases may include the following:-   Restore a failed or hung service without rebooting the device.
+-   Fix services that stopped after software updates \(print spooler, VPN client, security agents\).
+-   Recover managed monitoring or security agents that have stopped responding.
+
+</td></tr><tr><td>
+
+Uninstall an application
+
+</td><td>
+
+`app_name` \(selected from a pre-configured dropdown in the UI\)
+
+</td><td>
+
+Windows: Local System AccountAdmin access to the device is required.
+
+</td><td>
+
+Uninstalls a selected application from the action library on the device.
+
+</td><td>
+
+Enforce software compliance remotely at scale by removing unauthorized or redundant applications. Possible use cases may include the following:-   Remove unauthorized or prohibited software from managed devices without user action.
+-   Enforce software compliance policies during audits or security reviews.
+-   Support license reclamation by removing software from specific devices.
 
 </td></tr></tbody>
-</table><table id="table_f5n_gcl_cfc"><thead><tr><th>
+</table>**Note:** \* For the Disk cleanup for low disk space action, temporary files are deleted from the following device locations.
 
-Field name
+-   Windows:
+    -   `C:\Windows"="*.dmp`
+    -   `"C:\Windows\Downloaded Program Files"="*.*"`
+    -   `"$env:UserProfile\Appdata\Local\Microsoft\Windows\Temporary Internet Files"="*.*"`
+    -   `"C:\Windows\Temp"="*.*"`
+    -   `"C:\Windows\System32\LogFiles"="*.*"`
+    -   `"C:\ProgramData\Microsoft\Windows\WER\ReportQueue"= "*.*"`
+-   macOS:
+    -   $HOME/Library/Caches/\*/ = cache files older than 7 days \(excluding Homebrew\)
+    -   $HOME/Library/Developer/Xcode/DerivedData/\*/ = Xcode build artifacts \(if Xcode is installed\)
+    -   $HOME/Library/Caches/Homebrew/ = Homebrew package download cache \(if Homebrew is installed\)
+    -   $HOME/Library/Caches/Homebrew/\*/ = Homebrew package download cache in subdirectories \(if Homebrew is installed\)
+    -   /tmp/\*/ = temporary files older than 3 days
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Action name
-
-</td><td>
-
-Name of the action that is defined in the policy. Admins can predefine an action name so that SD agents don't need the policy ID to execute any action. The format is &lt;action&gt; &lt;application name&gt; &lt;version&gt;. For example, Reinstall Zoom 3.4.1 or Uninstall Firefox 134.2.
-
-</td></tr><tr><td>
-
-Active true/false
-
-</td><td>
-
-Enables the action to appear in action library.
-
-</td></tr><tr><td>
-
-Application
-
-</td><td>
-
-Identifies the application for which the policy is defined.
-
-</td></tr><tr><td>
-
-Policy ID
-
-</td><td>
-
-ID of the policy defined in Jamf server for the corresponding action.
-
-</td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

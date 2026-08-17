@@ -1,5 +1,5 @@
 ---
-title: Create a renewal certificate request
+title: Create renewal certificate requests
 description: Manually initiate renewal requests for certificates using the Service Catalog for added flexibility and control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-renew-cert-requests.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manual flow for certificate requests, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Manual flow for certificate requests, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Create a renewal certificate request
+# Create renewal certificate requests
 
 Manually initiate renewal requests for certificates using the Service Catalog for added flexibility and control.
 

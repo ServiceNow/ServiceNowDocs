@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications
-description: Use the ServiceNow Now Assist for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+description: Use the ServiceNow Otto for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-now-assist.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales CRM for Telecommunications
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
 
-Use the ServiceNow® Now Assist for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+Use the ServiceNow Otto for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -20,11 +20,11 @@ Use the ServiceNow® Now Assist for Sales CRM for Telecommunications application
 
 <table id="table_rdm_5rm_23c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-somt-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-somt-explore.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/using-aiagents-somt.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/using-aiagents-somt.md)
 
 </td></tr></tbody>
 </table>**Important:**

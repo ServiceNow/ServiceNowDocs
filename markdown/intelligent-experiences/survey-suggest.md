@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-01"
 reading_time_minutes: 5
-breadcrumb: [Platform agentic workflows, Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Propose survey responses agentic workflow
@@ -20,23 +20,23 @@ The Propose survey responses agentic workflow can help simplify and increase sur
 
 When this agentic workflow and trigger are activated, the assignee receives an email with AI-suggested answers to their survey based on the associated Incident or Request. They then have the option to accept the AI-generated answers with a link at the bottom of the email. They can also choose to fill out the survey manually.
 
-The agents, tools, and triggers that are associated with the Propose survey responses agentic workflow are provided by Now Assist applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making the trigger active. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers that are associated with the Propose survey responses agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making the trigger active. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your needs, and activate the duplicated version of the agentic workflow instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
-You can use this workflow for any survey triggered on the Incident or Request table. For example, this agentic workflow can be used by the Short Customer Satisfaction Survey with Smiley Face when an Incident is closed. You can change existing surveys, and the agentic workflow can still propose answers. The agentic workflow can also be used for custom surveys triggered by the Incident or Request table as long as there’s a trigger associated with the survey. See Configure a trigger condition for a survey for instructions on adding a trigger to a survey.
+You can use this workflow for any survey triggered on the Incident or Request table. For example, this agentic workflow can be used by the Short Customer Satisfaction Survey with Smiley Face when an Incident is closed. You can change existing surveys, and the agentic workflow can still propose answers. The agentic workflow can also be used for custom surveys triggered by the Incident or Request table as long as there’s a trigger associated with the survey. See [Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateATriggerCondition.md) for instructions on adding a trigger to a survey.
 
-Propose survey responses isn’t available for Now Assist panel.
+Propose survey responses isn’t available for ServiceNow Otto panel.
 
 ## Role masking
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_survey\_response.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of survey tables and other related tables.
 
@@ -59,7 +59,7 @@ If you don't see your UI actions after configuring it in AI Agent Studio, ensure
 
 ## Sample utterance
 
-After the workflow has been activated in AI Agent Studio, you need to set a trigger for the workflow to run. This workflow cannot be triggered from the Now Assist panel.
+After the workflow has been activated in AI Agent Studio, you need to set a trigger for the workflow to run. This workflow cannot be triggered from the ServiceNow Otto panel.
 
 If you want to test the agentic workflow in AI Agent Studio and you have the sn.aia\_admin role, enter the following phrase in the Testing page in the Task field: `Help me with survey AINST00XXXX. List of fields to extract inc/case/req details: number, short_description, description, calendar_stc, escalation, reopen_count, close_code, close_notes, state, priority, caller_id`. You must include the list of fields to extract.
 

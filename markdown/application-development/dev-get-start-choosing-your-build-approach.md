@@ -1,6 +1,6 @@
 ---
 title: Choosing your build approach
-description: Understand when to use AI-assisted tools like the app generation skill with Now Assist for Creator and Build Agent versus when to build an application manually on the ServiceNow AI Platform.
+description: Understand when to use AI-assisted tools like the app generation skill with ServiceNow Otto for Creator and Build Agent versus when to build an application manually on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-choosing-your-build-approach.html
 release: australia
@@ -12,13 +12,13 @@ breadcrumb: [AI-native app development, Getting Started guide for developers, Bu
 
 # Choosing your build approach
 
-Understand when to use AI-assisted tools like the app generation skill with Now Assist for Creator and Build Agent versus when to build an application manually on the ServiceNow AI Platform.
+Understand when to use AI-assisted tools like the app generation skill with ServiceNow Otto for Creator and Build Agent versus when to build an application manually on the ServiceNow AI Platform.
 
 ServiceNow offers a spectrum of development approaches, from AI-driven app generation to fully manual builds. The right approach depends on the complexity of your application, how well defined your requirements are, and how much control you need over the implementation details. Many projects benefit from a hybrid approach, using AI tools to accelerate routine work while applying manual techniques where precision matters most.
 
 ## When to use AI-assisted tools
 
-AI-assisted tools are most effective when you want to accelerate development, reduce repetitive work, or quickly explore what is possible on the ServiceNow AI Platform. Consider using Build Agent or the app generation skill available with Now Assist for Creator when your project meets one or more of the following conditions:
+AI-assisted tools are most effective when you want to accelerate development, reduce repetitive work, or quickly explore what is possible on the ServiceNow AI Platform. Consider using Build Agent or the app generation skill available with ServiceNow Otto for Creator when your project meets one or more of the following conditions:
 
 -   **Requirements are clear and well-scoped.**
 
@@ -34,7 +34,7 @@ AI-assisted tools are most effective when you want to accelerate development, re
 
 -   **You want to accelerate individual development tasks.**
 
-    Even if you plan to build most of an app manually, contextual skills within Now Assist for Creator can help with discrete tasks such as generating flows, writing scripts, or creating business rules, saving time without requiring a full AI-driven build.
+    Even if you plan to build most of an app manually, contextual skills within ServiceNow Otto for Creator can help with discrete tasks such as generating flows, writing scripts, or creating business rules, saving time without requiring a full AI-driven build.
 
 -   **You're newer to using the ServiceNow AI Platform.**
 

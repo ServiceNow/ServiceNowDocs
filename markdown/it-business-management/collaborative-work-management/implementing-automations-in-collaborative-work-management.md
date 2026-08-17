@@ -32,7 +32,7 @@ Six predefined templates are provided in the application to help you build multi
 
 Based on the changing conditions of your team's workflow, you can edit, disable, or delete automations anytime later. For a Board, a maximum of 10 automations can be created, which includes all the active and inactive ones.
 
-In this example automation, when the **Priority** of a task on this Board changes to **High**, the people in the **Assigned to** column of the task and the owners of this Space are notified of it.
+In this example automation, when the **Priority** of a task on this Board changes to **High**. The people in the **Assigned to** column of the task and the owners of this Space are notified of it.
 
 Going forward, when the priority of any item of this Board changes to High, a notification is sent to the user assigned to that task and the Space owners. Thus this automation saves the time that it takes to perform this action manually instead.
 

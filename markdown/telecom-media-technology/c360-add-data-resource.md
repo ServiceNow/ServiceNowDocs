@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-05-28"
 reading_time_minutes: 1
 keywords: [Setup Customer360 Context, data resource, Telecom Customer 360]
-breadcrumb: [Telecommunications Customer 360 component, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Telecommunications Customer 360 component, Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Add the Setup Customer360 Context data resource

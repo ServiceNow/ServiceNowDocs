@@ -14,7 +14,7 @@ breadcrumb: [General administration setup for BCM, Configure, Business Continuit
 
 The BCM administrators configure the Dependency Configuration records.
 
-Administrators configure the Dependency Configuration records in the administrator view \(UI 16 view\) to schedule an auto-update of the BIA dependencies, related assets, and sources based on the source data and relationships in the CMDB.
+Administrators configure Dependency Configuration records in the administrator view \(UI 16\) to schedule an auto-update of BIA dependencies, related assets, and sources based on CMDB data.
 
 **Note:** Beginning with the Xanadu release, you can access up-to-date information on dependencies related to Business Impact Analysis, Plans, and Events. To access the most recent updates for dependencies, choose **All records** or **Latest record only** from the **Source records to consider** option in the Impact analysis dependency update configuration, Planning dependency update configuration, and Event dependency source configuration records. Based on your selection, the application pulls dependencies from all sources or only from the latest record for each source.
 
@@ -26,11 +26,11 @@ Consider an example where you have 2 BIAs done on Acrobat and the configuration 
 
 \[Omitted image "source-records-dep-update-config.png"\] Alt text: Source records.\[Omitted image "all-bia-records.png"\] Alt text: All BIA.
 
-When **Latest record only** option is selected and you select **Update dependencies** UI action from the plan record, the application considers one of the records of the two BIAs and it fetches the dependency assessment of that BIA record.
+When **Latest record only** option is selected and you select **Update dependencies** UI action from the plan record, the application considers one of the records of the two BIAs. It fetches the dependency assessment of that BIA record.
 
 \[Omitted image "latest-bia.png"\] Alt text: Latest BIA.\[Omitted image "dep-assmt-latest-bia.png"\] Alt text: Dependency assessment from latest BIA.
 
-For the **Update dependencies** UI action in the plan record and the **Update BCP dependencies snapshot** scheduled job to function, it is necessary to have the Impact analysis dependency update configuration, Planning dependency update configuration, and Event dependency source configuration records established.
+The **Update dependencies** UI action and the **Update BCP dependencies snapshot** scheduled job require Impact analysis dependency update configuration, Planning dependency update configuration, and Event dependency source configuration records established.
 
 ## Pulling latest dependency updates for impact analysis, plans, and events
 
@@ -59,11 +59,11 @@ For information on configuring the planning dependency updates, see [Configuring
 For information on configuring the sources for adding the event dependencies, see [Configuring sources for adding event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-event-dep-updates.md).
 
 -   **[Configuring impact analysis dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/imp-ana-dep-update-config-module.md)**  
-The BCM administrators configure the Impact analysis dependency update configuration record so that an auto-update of the BIA dependencies can be scheduled based on the source data and relationships in the CMDB.
+The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
 -   **[Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/confi-planning-dep-updates.md)**  
-The BCM administrators configure the Planning dependency update configuration record so that an auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
+The BCM administrators configure the Planning dependency update configuration record. An auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
 -   **[Configuring sources for adding event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-event-dep-updates.md)**  
-The BCM administrators configure the sources in the Event dependency source configuration record so that the impacted assets are added in the events and exercises based on the source data and relationships in the BIA, CMDB, and plans.
+The BCM administrators configure the sources in the Event dependency source configuration record. The impacted assets are added in the events and exercises based on the source data and relationships in the BIA, CMDB, and plans.
 
 **Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure quote PDF documents, Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [PDF template for Quotes, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up PDF document signers
@@ -23,8 +23,6 @@ Role required: sales\_operations\_specialists
 Contacts listed in the account for a quote can be external signers. The email listed with the contact is used to send the PDF.
 
 Internal signers are all the users that have either sales\_agent or sales\_ops\_specialist roles.
-
-To assign roles for internal users, see .
 
 ## Procedure
 

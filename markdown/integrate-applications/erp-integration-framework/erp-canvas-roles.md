@@ -146,5 +146,3 @@ Assign the following roles to give users access to specific ERP data models, suc
 |Vendor invoice user|sn\_erp\_integration.sap\_vendor\_invoice\_user|
 |Vendor user|sn\_erp\_integration.sap\_vendor\_user|
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
-

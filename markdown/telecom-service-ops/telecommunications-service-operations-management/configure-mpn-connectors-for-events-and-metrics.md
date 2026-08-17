@@ -1,6 +1,6 @@
 ---
 title: Configure elastic event pull connectors for MPN
-description: Configure a mobile private network \(MPN\) pull connector instance to collect metrics from specified KPI domains in Elastic data store and publish them for assurance monitoring and analytics.
+description: Configure a mobile private network \(MPN\) pull connector instance to collect metrics, including latency KPIs, from specified KPI domains in Elastic data store. The connector publishes metrics for assurance monitoring and analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-connectors-for-events-and-metrics.html
 release: australia
@@ -8,13 +8,13 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-05-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure elastic event pull connectors for MPN
 
-Configure a mobile private network \(MPN\) pull connector instance to collect metrics from specified KPI domains in Elastic data store and publish them for assurance monitoring and analytics.
+Configure a mobile private network \(MPN\) pull connector instance to collect metrics, including latency KPIs, from specified KPI domains in Elastic data store. The connector publishes metrics for assurance monitoring and analytics.
 
 ## Before you begin
 
@@ -47,6 +47,8 @@ Roles required: tsom\_assurance\_admin and assigned roles for MID Server.
     |kpi\_domain identifier|Domains to collect metrics from. Leaving the field empty collects metrics from all domains. Entering one or more domain identifiers, with values separated by commas \(for example, `RAN, Core`\) collect metrics only from specific domains.|
     |Metrics collection schedule|How long, in seconds, each metrics collection should run.|
 
+    **Note:** Active connector instances also collect the latency KPIs, from a separate Elasticsearch index, on the same metrics collection schedule. For a list of the latency KPIs collected and how the derived KPI is calculated, see the MPN latency KPIs reference.
+
 5.  Add a MID Server.
 
     1.  In the **MID Servers for Connectors** section, select the plus icon next to **Insert a new row**.
@@ -66,6 +68,8 @@ Roles required: tsom\_assurance\_admin and assigned roles for MID Server.
 
 **Related topics**  
 
+
+[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
 
 [View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metric-to-CI-binding.md)
 

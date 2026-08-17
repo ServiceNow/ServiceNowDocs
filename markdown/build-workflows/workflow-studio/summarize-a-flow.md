@@ -1,13 +1,13 @@
 ---
 title: Summarize a flow
-description: Generate a summary of a flow with Now Assist for Creator.
+description: Generate a summary of a flow or flow execution details with ServiceNow Otto for Creator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/summarize-a-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-20"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
@@ -15,7 +15,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 # Summarize a flow
 
-Generate a summary of a flow with Now Assist for Creator.
+Generate a summary of a flow or flow execution details with ServiceNow Otto for Creator.
 
 \[Omitted video\] Description: Summarize a flow with Now Assist
 
@@ -34,7 +34,7 @@ Turn on the flow summarization skill. See .
 
 2.  On the homepage, select **Flows**.
 
-3.  Open the flow that you want to summarize.
+3.  Open the flow or flow execution details that you want to summarize.
 
 4.  From the More Actions menu, select **Flow summary**.
 
@@ -45,7 +45,7 @@ Turn on the flow summarization skill. See .
 
 ## Result
 
-Now Assist for Creator generates a summary of the flow. The flow summary also displays its creation date.
+ServiceNow Otto for Creator generates a summary of the flow. The flow summary also displays its creation date.
 
 ## What to do next
 

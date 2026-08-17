@@ -28,21 +28,21 @@ You must create a catalog item using one of the available catalog item templates
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Builder**.
 
-2.  Select the **Dashboard** tab and click **Create a new catalog item**.
+2.  Select the **Dashboard** tab and select **Create a new catalog item**.
 
-3.  Review the steps involved in the creation process and click **Continue**.
+3.  Review the steps involved in the creation process and select **Continue**.
 
-4.  Select a template from the list and click **Use this item template**.
+4.  Select a template from the list and select **Use this item template**.
 
     **Note:**
 
     -   After you select the template, the preview of this template is available.
     -   You can only view templates assigned to you.
-    -   Based on the template configuration, during the item creation or editing, few attributes have pre-specified values, are not editable, have limited options to select, and are mandatory.
+    -   Based on the template configuration, during the item creation or editing, few attributes have pre-specified values, aren't editable, have limited options to select, and are mandatory.
     -   When selecting a record submission table for record producers, you can only select tables in that scope.
 5.  Select **Build on your own**.
 
-    By default, the **Build with Now Assist** option is selected, enabling you to leverage automated assistance for catalog generation. Alternatively, you can choose to create the item manually from scratch if you prefer a hands-on approach.
+    By default, the **Build with ServiceNow Otto** option is selected, enabling you to use automated assistance for catalog generation. Alternatively, you can choose to create the item manually from scratch if you prefer a hands-on approach.
 
 6.  Select **Build**.
 
@@ -102,8 +102,8 @@ Question sets \(variable sets\) or questions for the item. By default, the quest
 
  **Note:**
 
--   The questions within a question set cannot be edited. The question sets can be reordered by dragging and dropping them.
--   Question sets specified in the template cannot be removed, while the ones added by the user can be removed.
+-   The questions within a question set can't be edited. The question sets can be reordered by dragging and dropping them.
+-   Question sets specified in the template can't be removed, while the ones added by the user can be removed.
 -   Removal of question sets simply removes the association with the item and does not delete the question set.
 -   A single-column question set can be added to a single-column or a two-column container. Two-column question set cannot be added to a container.
 -   The questions for a catalog item are available as options on which a condition can be applied for a step when you create service fulfillment steps for that catalog item.

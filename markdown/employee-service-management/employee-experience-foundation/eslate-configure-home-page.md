@@ -45,7 +45,7 @@ Configure each widget to scope the content for the audience.
 
     Set the task types and the source queues that appear in the widget. Employees can take action on a task from the widget or open the detailed Tasks and requests view.
 
-4.  [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+4.  [Create announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
     Select the announcement source and the carousel order. Employees can select a slide to open the announcement details.
 
@@ -53,19 +53,21 @@ Configure each widget to scope the content for the audience.
 
     Set the holiday source by work location. Employees view the next holiday based on the location set on the user record.
 
-6.  [Manage quick links widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.md).
+6.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
 
     Add knowledge articles, catalog items, or external links. Employees select a link to navigate directly to the destination.
 
-7.  Configure the **Popular Content** widget.
+7.  [Configure notifications for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)
+
+8.  Configure the **Popular Content** widget.
 
     Set the source for knowledge articles and catalog items. The widget shows the most viewed knowledge and the most requested catalog item for the chosen scope.
 
-8.  Verify the home page from an employee account such as Abel Tuter.
+9.  Verify the home page from an employee account such as Abel Tuter.
 
-    Sign in to Employee Slate and confirm that the chat entry, the five widgets, and the quick links render as configured.
+    Sign in to Employee Slate and confirm that the chat entry, the widgets, and the quick links render as configured.
 
-9.  Save the configuration.
+10. Save the configuration.
 
     The save commits the AI chat entry and the widget settings. Refresh the home page to confirm the change.
 

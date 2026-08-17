@@ -45,7 +45,7 @@ Validation results are returned in a downloadable report that includes:
 -   Real-world field labels and record identifiers.
 -   Row-level error summaries.
 
-Third-party risk managers \(sn\_vdr\_risk\_asmt.vendor\_manager\) can review downloaded RoI packages using the same Plain-CSV Report Package option. After a validation report is generated for a Register of Information \(RoI\) package, the system automatically sends an email notification to whoever initiated the download or upload request. This email alerts the user that the process has been completed and provides access to the results. If validation warnings are detected, both the validation report and the CSV package are attached to the request record. If no issues are found, only the CSV package is included. This automated notification ensures timely awareness and facilitates efficient follow-up actions for compliance and data correction workflows.
+Third-party risk managers \(sn\_vdr\_risk\_asmt.vendor\_risk\_manager\) can review downloaded RoI packages using the same Plain-CSV Report Package option. After a validation report is generated for a Register of Information \(RoI\) package, the system automatically sends an email notification to whoever initiated the download or upload request. This email alerts the user that the process has been completed and provides access to the results. If validation warnings are detected, both the validation report and the CSV package are attached to the request record. If no issues are found, only the CSV package is included. This automated notification ensures timely awareness and facilitates efficient follow-up actions for compliance and data correction workflows.
 
 Validation checks help identify structural and business‑rule issues based on DORA‑aligned specifications. Validation results do not represent a regulatory determination, and supervisory authorities may apply additional or updated checks when reviewing submitted data.
 
@@ -54,8 +54,6 @@ To assist with error resolution, you can cross-reference the validation report w
 To improve troubleshooting, the system maps rule expressions to real-world field labels and record identifiers. Even when malformed data is uploaded, the validation API returns meaningful error messages to help you identify and resolve issues efficiently.
 
 Excel master templates are available for download from the **Download/Upload Request** page. These templates mirror the expected CSV structure and provide field definitions, formats, and sample values to assist with validation and error resolution.
-
-**Important:** Only users with the TPR admin \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\] role can perform validation tasks.
 
 ## Common validation issues
 

@@ -1,6 +1,6 @@
 ---
 title: Create Lookup Request for IoC Changes workflow
-description: The Security Incident Response - Create Lookup Request for IoC Changes flow is triggered by a business rule to run automatically when an IoC is added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
+description: The Security Incident Response - Create Lookup Request for IoC Changes flow is triggered by the Lookup Security Incident Observables scheduled job to automatically look up IoCs that are added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateScanRequestforIoCChanges.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Security Incident Response Orchestration workflows and activities, 
 
 # Create Lookup Request for IoC Changes workflow
 
-The **Security Incident Response - Create Lookup Request for IoC Changes** flow is triggered by a business rule to run automatically when an IoC is added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
+The **Security Incident Response - Create Lookup Request for IoC Changes** flow is triggered by the **Lookup Security Incident Observables** scheduled job to automatically look up IoCs that are added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
 
 ## Before you begin
 

@@ -1,6 +1,6 @@
 ---
 title: Knowledge Graph
-description: The Knowledge Graph application, uses the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills.
+description: The Knowledge Graph application, uses the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of ServiceNow Otto for Virtual Agent, AI agents, and generative AI skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/knowledge-graph-landing.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Enable AI experiences]
 
 # Knowledge Graph
 
-The Knowledge Graph application, uses the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills.
+The Knowledge Graph application, uses the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of ServiceNow Otto for Virtual Agent, AI agents, and generative AI skills.
 
 \[Omitted video\] Description: Knowledge Graph overview video
 
@@ -45,7 +45,19 @@ Learn more about Knowledge Graph and how it can help fit your specific business 
 
 </td><td>
 
+[Graph Query Builder\[Omitted image "bus-customer-service.svg"\] Alt text:Build and run queries on Knowledge Graph.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
+
+</td></tr><tr><td>
+
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information to configure Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/smart-
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
@@ -57,6 +57,14 @@ template\_manager or template\_admin
 
 </td></tr><tr><td>
 
+Administer templates and assessments
+
+</td><td>
+
+Questionnaire admin \(questionnaire\_admin\)This role includes both the template manager \(sn\_smart\_asmt.template\_manager\) and questionnaire user \(questionnaire\_user\) roles.
+
+</td></tr><tr><td>
+
 Edit templates in assessment workspace
 
 </td><td>
@@ -69,7 +77,39 @@ View templates and complete assessments in the workspace or Mobile Agent app
 
 </td><td>
 
-Template reader \(sn\_smart\_asmt.template\_reader\), actor \(sn\_smart\_asmt.actor\), and category role associated with the templateThe template reader and actor roles are a part of the questionnaire\_user role, which is included in the wm\_agent role. Therefore, to view templates and complete assessments in the workspace, simply add the category role to the existing wm\_agent role.
+Template reader \(sn\_smart\_asmt.template\_reader\), actor \(sn\_smart\_asmt.actor\), and category role associated with the templateThe template reader and actor roles are a part of the questionnaire user \(questionnaire\_user\) role, which is included in the wm\_agent role. Therefore, to view templates and complete assessments in the workspace, simply add the category role to the existing wm\_agent role.
+
+</td></tr><tr><td>
+
+View templates and assessments \(read-only\)
+
+</td><td>
+
+Questionnaire viewer \(questionnaire\_viewer\)
+
+</td></tr><tr><td>
+
+Not confirmed
+
+</td><td>
+
+Assessment reader \(sn\_smart\_asmt.assessment\_reader\) and assessment admin \(sn\_smart\_asmt.assessment\_admin\)
+
+</td></tr><tr><td>
+
+Not confirmed
+
+</td><td>
+
+wm\_admin
+
+</td></tr><tr><td>
+
+Not confirmed
+
+</td><td>
+
+wm\_dispatcher
 
 </td></tr></tbody>
 </table>## Business Rules

@@ -14,7 +14,7 @@ breadcrumb: [Zero Copy Connector for ERP and ERP Semantic Mining glossary, Refer
 
 # connection and credential alias
 
-The credential alias is the system connection access enabler that's maintained in the ServiceNow credential alias. The credential alias is used to access the ERP system of record.
+The credential alias is the system connection access enabler that's maintained in the ServiceNow credential alias. The credential alias is used to access the ERP system.
 
 **Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

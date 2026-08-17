@@ -23,8 +23,10 @@ For more information on your store inquiry cases, see the following topics:
 -   [Manage a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
 -   [Track a store inquiry case from a Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-tract-store-inquiry-case-retail-mobile-app.md)
 -   [Resolve a store inquiry support request from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.md)
--   
+-   [Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-store-services.md)
 
+-   **[Use ServiceNow Otto for Retail Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/agentic-workflows-now-assist-retail.md)**  
+Use ServiceNow Otto to improve and enhance the store inquiry processes in Retail Service Management \(RSM\). The store inquiry AI agent—now part of the ServiceNow Otto brand—enables intelligent automation for store inquiries.
 -   **[Create a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-create-store-service-portal.md)**  
 Create a retail store inquiry case from the Retail portal to report issues on behalf of the store that you're associated with. By using the Retail portal to create a case, you can more efficiently get updated information about your case in real time.
 -   **[Manage a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-case.md)**  

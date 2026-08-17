@@ -22,7 +22,7 @@ When an article has a low health score, the scan parameters identify specific fi
 2.  **Fix the recommendations**. In the article optimization window you can see the articles and their scores, further you can edit the article to fix the recommendation. Each finding includes a recommendation, for example, adding missing alt text to an image, removing a duplicate H1 heading, or updating a broken link. Apply the recommended changes and save the article.
 3.  **Check the updated score**. After saving, switch to the **Health score** tab in the right-side panel to see the recalculated score. The score updates to reflect the improvements made. For more information, see [View the Knowledge Health Score dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-knowledge-health-base.md)
 
-Repeat this process for the parameters with the lowest scores first as these have the highest impact on the overall article score and, by extension, the knowledge base and instance scores.
+Repeat this process for the parameters with the lowest scores first. The articles with the lowest scores have the highest impact on the overall article score and, therefore, the knowledge base and instance scores.
 
 ## Scan parameters
 

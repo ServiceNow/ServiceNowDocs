@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Dealer, Set up MCO, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up Dealer, Configure, Manufacturing Commercial Operations]
 ---
 
 # Create channel partner
@@ -37,6 +37,8 @@ Role required: admin
 
 **Related topics**  
 
+
+[Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-partner-staff-on-workspace.md)
 
 [Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-channel-partner-record.md)
 

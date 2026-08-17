@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-creatorstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
+last_updated: "2026-08-17"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -193,7 +193,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[ServiceNow Otto rebrand](https://www.servicenow.com/docs/access?context=creator-studio-text-to-form&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 
 </td></tr></tbody>
 </table>## Removed

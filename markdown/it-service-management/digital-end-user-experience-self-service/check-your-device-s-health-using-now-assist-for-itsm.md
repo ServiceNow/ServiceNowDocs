@@ -1,6 +1,6 @@
 ---
-title: Check device health using Now Assist for ITSM Virtual Agent
-description: Use the Now Assist for ITSM Virtual Agent to monitor device performance, diagnose potential issues, and use suggested resolutions to address them.
+title: Check device health using ServiceNow Otto for ITSM Virtual Agent
+description: Use the ServiceNow Otto for ITSM Virtual Agent to monitor device performance, diagnose potential issues, and use suggested resolutions to address them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.html
 release: australia
@@ -9,17 +9,17 @@ classification: digital-end-user-experience-self-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [Use DEX Self-Service, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
-# Check device health using Now Assist for ITSM Virtual Agent
+# Check device health using ServiceNow Otto for ITSM Virtual Agent
 
-Use the Now Assist for ITSM Virtual Agent to monitor device performance, diagnose potential issues, and use suggested resolutions to address them.
+Use the ServiceNow Otto for ITSM Virtual Agent to monitor device performance, diagnose potential issues, and use suggested resolutions to address them.
 
 ## Before you begin
 
 -   Install the Digital End-User Experience \(sn\_dex\) application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md).
--   Configure Now Assist for ITSM to access the Check Device health topic in the Virtual Agent chat box.
+-   Configure ServiceNow Otto for ITSM to access the Check Device health topic in the Virtual Agent chat box.
 -   Install the Desktop Assistant \[sn\_dex\_desktop\] plugin if you're launching Virtual Agent from Desktop Assistant. For more information, see [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: none

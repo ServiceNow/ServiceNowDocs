@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [desktop assistant components, desktop assistant roles, desktop assistant administrator role, desktop assistant user role, desktop assistant tables, desktop assistant card table, desktop assistant section table, desktop assistant tab table, desktop assistant installation table]
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 

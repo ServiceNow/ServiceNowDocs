@@ -1,6 +1,6 @@
 ---
 title: Configure notifications for Employee Slate
-description: Configure the content, the trigger conditions, and the recipients for the 14 default notifications shipped with Employee Slate for Now Assist.
+description: Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate for Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-notifications.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Notifications, Working with Employee Slate capabilities, Employee S
 
 # Configure notifications for Employee Slate
 
-Configure the content, the trigger conditions, and the recipients for the 14 default notifications shipped with Employee Slate for Now Assist.
+Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate for Now Assist.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: admin or Employee Slate administrator.
 
 ## About this task
 
-Each notification has a content template, an icon, a set of trigger conditions, and a recipient list. Employees view notifications in the **bell tray** at the top of Employee Slate. Each notification moves through three states: new, viewed, and open. Notifications on the same item group automatically. Employees can mark all as read with a bulk action.
+Each notification has a content template, an icon, a set of trigger conditions, and a recipient list. Each notification moves through three states: new, viewed, and open. Notifications on the same item group automatically. Employees can mark all as read with a bulk action.
 
 **Note:** Notifications for Moveworks use a separate configuration path.
 
@@ -33,11 +33,11 @@ Each notification has a content template, an icon, a set of trigger conditions, 
 
 1.  Go to **All** &gt; **Employee Center** &gt; **Portal Notifications**.
 
-    The page lists the 14 default notifications shipped for Employee Slate for Now Assist.
+    The page lists the default notifications shipped for Employee Slate for Now Assist.
 
 2.  Select a notification, such as **Incident commented**.
 
-    The notification folder holds the content template, the icon, the trigger conditions, and the recipient list.
+    The notification folder opens and displays the content template, icon, trigger conditions, and recipient list.
 
 3.  Edit the content under **Notification content**.
 
@@ -45,7 +45,7 @@ Each notification has a content template, an icon, a set of trigger conditions, 
 
 4.  Set the icon for the notification.
 
-    The icon appears next to the notification in the **bell tray** and identifies the source.
+    The icon appears next to the notification and identifies the source.
 
 5.  Set the trigger conditions under **When to send**.
 
@@ -55,17 +55,17 @@ Each notification has a content template, an icon, a set of trigger conditions, 
 
     The recipient list resolves at run time and identifies the employees who receive the notification.
 
-7.  Open the **logs table** to review notification activity.
+7.  Open the logs table to review notification activity.
 
-    The **logs table** records every notification sent and the state for each recipient: new, viewed, or open.
+    The logs table records every notification sent and the state for each recipient: new, viewed, or open.
 
 8.  Verify the experience from an employee account.
 
-    Trigger the source event, open the **bell tray**, and confirm that the notification appears with the configured content and icon. Select **Mark all as read** to confirm the toast message and the state change in the log.
+    Trigger the source event, select the notifications and confirm that the notification appears with the configured content and icon. Select **Mark all as read** to confirm the toast message and the state change in the log.
 
 9.  Save the configuration.
 
-    The save commits the content, the icon, the trigger conditions, and the recipient list.
+    The configuration is saved with the updated content, icon, trigger conditions, and recipient list.
 
 
 ## Result

@@ -1,34 +1,34 @@
 ---
-title: Create Now Assist context Menu configuration
-description: Create a new Now Assist context Menu configuration to deploy and activate a custom skill.
+title: Create ServiceNow Otto context Menu configuration
+description: Create a new ServiceNow Otto context Menu configuration to deploy and activate a custom skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-now-assist-configuration-with-guided-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist context menu for custom skill deployment, Now Assist context menu, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Use ServiceNow Otto context menu for custom skill deployment, ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Create Now Assist context Menu configuration
+# Create ServiceNow Otto context Menu configuration
 
-Create a new Now Assist context Menu configuration to deploy and activate a custom skill.
+Create a new ServiceNow Otto context Menu configuration to deploy and activate a custom skill.
 
 ## Before you begin
 
-To configure custom skills in action, ensure that the skill is activated in Now Assist.
+To configure custom skills in action, ensure that the skill is activated in ServiceNow Otto.
 
 Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Experiences** &gt; **Now Assist Context Menu**.
+1.  Navigate to **All** &gt; **Admin center** &gt; **AI Admin Hub** &gt; **AI Experiences** &gt; **ServiceNow Otto context menu**.
 
-2.  Select **Configurations** tab in the Now Assist context menu home page.
+2.  Select **Configurations** tab in the ServiceNow Otto context menu home page.
 
 3.  Select **Create New**.
 
-4.  Enter values for the following fields on the Configure Now Assist context menu form.
+4.  Enter values for the following fields on the Configure ServiceNow Otto context menu form.
 
     -   Workflow
     -   Product
@@ -40,15 +40,15 @@ Role required: sn\_skill\_builder.admin
     -   Name
     -   Description
     -   Table name
-7.  Select a location where you want to add the trigger for the Now Assist context menu.
+7.  Select a location where you want to add the trigger for the ServiceNow Otto context menu.
 
     The options are:
 
     -   Record form field: Select this option to add the trigger on UI16 form
     -   Custom location: Select this option to add the trigger on any other desired location.
-8.  If you select Record form fields, add the form fields where you want the Now Assist context menu icon.
+8.  If you select Record form fields, add the form fields where you want the ServiceNow Otto context menu icon.
 
-    **Note:** Now Assist context menu can only be set up at the table level. Currently, it doesn’t support filtering or configuring options based on specific record conditions.
+    **Note:** ServiceNow Otto context menu can only be set up at the table level. Currently, it doesn’t support filtering or configuring options based on specific record conditions.
 
 9.  If you select Custom location, choose the context menu display type.
 
@@ -85,5 +85,5 @@ Role required: sn\_skill\_builder.admin
 15. Select **Preview** and **Done**.
 
 
-**Parent Topic:**[Use Now Assist context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
+**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

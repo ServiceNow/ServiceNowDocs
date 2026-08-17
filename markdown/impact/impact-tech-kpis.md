@@ -31,7 +31,7 @@ Tech KPIs empowers you with a easy to use visualizations of your organizations t
 
 ## Monitor
 
-As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md) for more information.
+As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md) for more information.
 
 ## Support
 

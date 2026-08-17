@@ -21,6 +21,8 @@ Learn how to invoke Dynamic Guidance and use it effectively to enhance your expe
 
 Role required: sn\_dyn\_guidance\_user
 
+**Note:** Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
+
 Google must be turned on in AI control tower for Dynamic Guidance to work.
 
 ## How to use Dynamic Guidance
@@ -29,7 +31,7 @@ Google must be turned on in AI control tower for Dynamic Guidance to work.
 
 1.  Go to an instance you want help on.
 
-2.  Choose from Now Assist panel or Help Center as one of the options to launch Dynamic Guidance from.
+2.  Choose from ServiceNow Otto panel or Help Center as one of the options to launch Dynamic Guidance from.
 
 3.  Follow these steps to invoke Dynamic Guidance via Help Center:
 
@@ -39,15 +41,15 @@ Google must be turned on in AI control tower for Dynamic Guidance to work.
 
     2.  Select **Start**.
 
-4.  Follow these steps to invoke Dynamic Guidance from Now Assist panel:
+4.  Follow these steps to invoke Dynamic Guidance from ServiceNow Otto panel:
 
-    1.  Navigate to Now Assist panel on your instance.
+    1.  Navigate to ServiceNow Otto panel on your instance.
 
     2.  Select Dynamic Guidance.
 
-        \[Omitted image "launch-dg-nap.png"\] Alt text: Invoke Dynamic Guidance via Now assist panel
+        \[Omitted image "launch-dg-nap.png"\] Alt text: Invoke Dynamic Guidance via ServiceNow Otto panel
 
-    3.  Invoke the help agent from Now Assist panel via skill named 'Ask Dynamic Guidance for help'.
+    3.  Invoke the help agent from ServiceNow Otto panel via skill named 'Ask Dynamic Guidance for help'.
 
     4.  Select **Open Dynamic Guidance**.
 
@@ -63,7 +65,7 @@ Google must be turned on in AI control tower for Dynamic Guidance to work.
 
 8.  Allow and enable voice and screen sharing in browser tabs, when prompted.
 
-9.  Ask your question verbally to hear a conversational response real-time.
+9.  Ask your question verbally to hear a conversational response real time.
 
     \[Omitted image "ads-dynamic-guidance-hello.png"\] Alt text: Dynamic guidance live
 

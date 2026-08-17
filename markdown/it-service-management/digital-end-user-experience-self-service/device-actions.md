@@ -25,8 +25,12 @@ Each device action is made up of three connected components:
 -   Device action: Represents a user-facing action used to resolve a device or application issue.
 -   Issue configuration: Defines a device or application issue, evaluation metrics and criteria, device operating system \(OS\), user applicability, availability across interfaces, and issue resolution.
 
-    Only eligible configurations are available for selection when creating a device action. An issue configuration is not eligible if it is already associated with another device action, is not enabled for end users, is linked to an unsupported resolution type, or uses an unsupported engagement type.
+    Only eligible configurations appear when you create a device action. A configuration is ineligible if it meets any of the following conditions:
 
+    -   It is associated with another device action.
+    -   It is not enabled for end users.
+    -   It is linked to an unsupported resolution type.
+    -   It uses an unsupported engagement type.
 -   Resolution: Defines how the issue is resolved when the device action is triggered and is configured in Proactive Engagement.
 
 All three components must be configured and connected for a device action to work correctly. If the issue configuration or resolution is missing, the device action is visible but inactive.
@@ -52,13 +56,13 @@ Device actions are available in the following interfaces, based on the issue con
 
     This interface is enabled by default.
 
--   Now Assist: The Virtual Agent chat interface. This option is inactive by default and must be enabled for each device action.
+-   ServiceNow Otto: The Virtual Agent chat interface. This option is inactive by default and must be enabled for each device action.
 
-    Device actions can be triggered through Virtual Agent conversations when enabled. This allows end users to initiate actions within guided interactions. For more information, see [Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md).
+    Device actions can be triggered through Virtual Agent conversations when enabled. This allows end users to initiate actions within guided interactions. For more information, see [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md).
 
 -   DEX Desktop Assistant: A desktop application that provides employees access to self-service options, device health checks, and support resources. For more information, see [Setting up DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/config-dex-desktop-exp.md) and [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md).
 
-Device action availability for Employee Center and Now Assist is configured on the issue configuration associated with the device action. For more information, see [Enable issue configurations for DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md).
+Device action availability for Employee Center and ServiceNow Otto is configured on the issue configuration associated with the device action. For more information, see [Enable issue configurations for DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md).
 
 For availability in Desktop Assistant, set up and log in to Desktop Assistant. For more information, see [Setting up DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/config-dex-desktop-exp.md).
 

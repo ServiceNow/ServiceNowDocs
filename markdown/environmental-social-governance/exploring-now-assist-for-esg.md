@@ -1,5 +1,5 @@
 ---
-title: Exploring Now Assist for Operational Sustainability \(formerly ESG\)
+title: Exploring ServiceNow Otto for Operational Sustainability
 description: With the Operational Sustainability Management application, you can use the skills to automate the collection of operational sustainability metric data from utility bill documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/exploring-now-assist-for-esg.html
@@ -8,29 +8,29 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [explore]
-breadcrumb: [Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Exploring Now Assist for Operational Sustainability \(formerly ESG\)
+# Exploring ServiceNow Otto for Operational Sustainability
 
 With the Operational Sustainability Management application, you can use the skills to automate the collection of operational sustainability metric data from utility bill documents.
 
-## Now Assist for Operational Sustainability overview
+## ServiceNow Otto for Operational Sustainability overview
 
-The Now Assist for Operational Sustainability Management is designed to enable you to leverage various Now Assist skills and agentic workflows focused on Operational Sustainability Management. Now Assist for Operational Sustainability Management is available based on entitlements.
+The ServiceNow Otto for Operational Sustainability Management enables you to use various AI skills and agentic workflows focused on Operational Sustainability Management. ServiceNow Otto for Operational Sustainability Management is available based on entitlements.
 
-## Now Assist for Operational Sustainability benefits
+## ServiceNow Otto for Operational Sustainability benefits
 
-The generative AI skill in the Now Assist for Operational Sustainability Management application offers the following benefits:
+The generative AI skill in the ServiceNow Otto for Operational Sustainability Management application offers the following benefits:
 
 -   Automation of operational sustainability data processes, reducing manual effort in collecting, validating, and reporting of data.
 -   Minimized human intervention in repetitive tasks, enabling operational sustainability teams to focus on strategic initiatives and compliance goals.
 -   Accelerated data processing and reporting, enabling faster turnaround for audits and disclosures.
 -   Scalable and future-ready framework, supporting integration of new operational sustainability skills and workflows for evolving regulatory requirements.
 
-## Now Assist for Operational Sustainability skills
+## ServiceNow Otto for Operational Sustainability skills
 
-The following generative AI skill and agentic workflows are available in Now Assist for Operational Sustainability:
+The following generative AI skill and agentic workflows are available in ServiceNow Otto for Operational Sustainability:
 
 |Skill|Description|User|
 |-----|-----------|----|
@@ -38,17 +38,17 @@ The following generative AI skill and agentic workflows are available in Now Ass
 
 ## What to explore next
 
-To learn more about configuring and using Now Assist for Operational Sustainability skills, see:
+To learn more about configuring and using ServiceNow Otto for Operational Sustainability skills, see:
 
--   [Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md)
--   [Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
+-   [Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md)
+-   [Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
 
 -   **[Document intelligence for utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.md)**  
-The AI-driven document intelligence for utility invoices feature is designed to automate metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
--   **[Supporting information for Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/supporting-information-for-now-assist-for-esg.md)**  
-Get a quick overview of the important information that is related to the Now Assist for Operational Sustainability application.
+The AI-driven document intelligence for utility invoices feature automates metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
 -   **[Carbon calculations using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/carbon-calulations-agentic-workflow.md)**  
 Automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions categories. Uses AI-powered document analysis and semantic matching to confirm accuracy, reducing manual effort for ESG program managers.
+-   **[Supporting information for ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/supporting-information-for-now-assist-for-esg.md)**  
+Get a quick overview of the important information that is related to the ServiceNow Otto for Operational Sustainability application.
 
-**Parent Topic:**[Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/now-assist-for-esg.md)
+**Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/now-assist-for-esg.md)
 

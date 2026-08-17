@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-general-guidelines.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-07-24"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -21,9 +21,9 @@ To maximize Build Agent effectiveness, use the following practices:
 
 -   Design before coding: Think through and document the requirements for your application across the data and UI layers, for example using Workflow Studio or Figma.
 -   Start with a clear plan: Collaborate with Build Agent to define scope, required tables, and metadata types.
--   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system, and ask Build Agent to use the file as context for its work.
+-   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system. You can then ask Build Agent to use the file as context for its work.
 -   Use specific terminology: Treat Build Agent as your development partner. Provide specific, clear instructions using ServiceNow platform terminology such as table names, field names, roles, and artifact types.
--   Test early and often: Add sample records, test on the instance, and build ATF tests throughout development.
+-   Test early and often: Add sample records, test on the instance, and run ATF tests throughout development.
 -   Use version control: Use Git for tracking changes and maintaining a clean workspace structure.
 -   Provide visual context: Give screenshots to Build Agent to troubleshoot UI issues and request changes.
 -   Extend with third-party libraries: Integrate third-party Node Package Manager \(NPM\) libraries, such as React JS, for enhanced interfaces.
@@ -72,6 +72,10 @@ Use the following guidelines to get better results from Build Agent.
     -   Technical standards: coding practices, preferred patterns, and anti-patterns to avoid
     -   Development cadence: processes, update set management, and code review requirements
     -   Last-resort actions that require explicit approval: creating new tables, changing ACLs or roles, modifying system properties, and altering base system business rules
+-   **Use custom skills and rules**
+
+    Define instance-level, application-level, and user-level instructions that Build Agent follows in every session. Use rules to enforce consistent behavior automatically, such as naming conventions or required fields. Use skills to provide on-demand guidance for specific tasks. Unlike markdown grounding files, custom skills and rules require no project files and apply across all sessions at the configured scope. For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-configure-custom-skills-rules.md).
+
 -   **Use ESLint**
 
     Use ESLint on the ServiceNow AI Platform to define your preferred coding style, and ask Build Agent to manage and enforce the ESLint configuration, for example using snake case for variables.

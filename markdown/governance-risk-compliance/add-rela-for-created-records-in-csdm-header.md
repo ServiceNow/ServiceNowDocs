@@ -26,7 +26,7 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "main-node-configs.png"\] Alt text: Main node configurations.
 
-2.  Verify that and CI and non-CI relationships are configured in CMDB, Main node configurations and node relationship configurations are set up, and entities are generated in Operational Resilience.
+2.  Verify that CI and non-CI relationships are configured in CMDB, Main node configurations and node relationship configurations are set up, and entities are generated in Operational Resilience.
 
 
 ## What to do next

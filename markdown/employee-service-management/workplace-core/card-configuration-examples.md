@@ -8,7 +8,7 @@ product: Workplace Core
 classification: workplace-core
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -90,7 +90,9 @@ extendCardsData: function(cards) {
 
 ## Adding a field
 
-In the template \(macro\) XML code, add a `<div>` element in the section that requires a new field, then add the logic to populate the field value in the `WSDConfigurableCardDataInjector` script include. For example:
+In the template \(macro\) XML code, add a `<div>` element in the section that requires a new field.
+
+You can then add the logic to populate the field value in the `WSDConfigurableCardDataInjector` script include. For example:
 
 ```xml
 <!-- Adding a new row with a new field -->
@@ -109,6 +111,39 @@ cards.forEach( function(card) {
         var spaceGr.get(card.data.sysId)) {
             card.data.usable_size_sq_meter = spaceGr.getValue('usable_size_sq_meter');
         }
+    }
+});
+```
+
+## Adding a redirect button
+
+You can add redirection buttons \(e.g. to a KB article or external portal\) on WSD location cards using the `action == 'redirect'` and a URL. You can use the target attribute to open the link in the same tab or a new tab.
+
+```javascript
+cards.forEach(function(card) {
+    if (card.type === 'space') {
+        // Internal KB article (same tab)
+        card.data.actions.secondary.push({
+            label: 'Custom Action',
+            id: 'custom_action',
+            action: 'custom_action',
+            label: gs.getMessage('Workplace guidelines'),
+            id: 'kb_guidelines',
+            action: 'redirect',
+            url: '/kb?id=kb_article_view&sysparm_article=KB0012345',
+            isDisabled: false,
+            type: 'secondary'
+        });
+        // External portal (new tab)
+        card.data.actions.secondary.push({
+            label: gs.getMessage('Catering portal'),
+            id: 'catering_portal',
+            action: 'redirect',
+            url: 'https://catering.example.com/order',
+            target: '_blank',
+            isDisabled: false,
+            type: 'secondary'
+        });
     }
 });
 ```

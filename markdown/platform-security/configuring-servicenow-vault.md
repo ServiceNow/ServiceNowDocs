@@ -28,9 +28,9 @@ Learn how to install and configure ServiceNow Vault.
 
     Install and verify the plug-ins needed to make the most of ServiceNow Vault.
 
--   [Install Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md)
+-   [Install ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md)
 
-    Install Now Assist for Vault to make use of generative and agentic AI capabilities within ServiceNow Vault.
+    Install ServiceNow Otto for Vault to make use of generative and agentic AI capabilities within ServiceNow Vault.
 
 
 ## Using guided setup to implement ServiceNow Vault

@@ -1,6 +1,6 @@
 ---
 title: Report a compliance case anonymously
-description: Use the Anonymous Reporting Center \(ARC\) to submit any suspected or confirmed compliance case without disclosing your identity.
+description: Submit any suspected or confirmed compliance case without having to disclose your identity using the Anonymous Reporting Center \(ARC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.html
 release: australia
@@ -14,21 +14,19 @@ breadcrumb: [Report compliance case, Use, Compliance Case Management, Governance
 
 # Report a compliance case anonymously
 
-Use the Anonymous Reporting Center \(ARC\) to submit any suspected or confirmed compliance case without disclosing your identity.
+Submit any suspected or confirmed compliance case without having to disclose your identity using the Anonymous Reporting Center \(ARC\).
 
 ## Before you begin
 
-Role required: sn\_comp\_case.compliance\_case\_business\_user
-
-**Note:** This role is only required to access the **Employee Center**. No role is required to submit a report directly through ARC.
+Role required: To access Employee Center, you must have the sn\_comp\_case.compliance\_case\_business\_user role.
 
 ## About this task
 
-ARC enables you to report suspected misconduct safely and confidentially, encouraging early disclosure of compliance issues that might otherwise go unreported. You can report a case anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it.
+When submitting an anonymous report, don't include personal data about yourself or other individuals that could directly or indirectly reveal an identity. For example, do not include names, email addresses, or phone numbers.
 
-**Note:** When submitting an anonymous report, don't include personal data about yourself or other individuals that could directly or indirectly reveal an identity. For example, names, email addresses, or phone numbers.
+Avoid including executable code, scripts, or unsupported special characters, which will be removed automatically during submission. For more information, refer to [Overview of Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
-Anonymous reports accept standard text characters. Avoid including executable code, scripts, or unsupported special characters, because they may be removed automatically during submission. For more information, refer to [Overview of Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
+**Note:**
 
 ## Procedure
 
@@ -46,27 +44,27 @@ Anonymous reports accept standard text characters. Avoid including executable co
 
 6.  Select **Report a compliance case**.
 
-7.  On the form, fill in the fields.
+7.  On the Report a Compliance Case form, fill in the fields.
 
-    For a description of the field values on the **Report a Compliance Case** form, see [Anonymous compliance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.md).
+    For a description of the field values, see [Report a compliance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.md).
 
-8.  Enter the CAPTCHA verification code on the screen.
+8.  Enter the CAPTCHA verification code displayed on the screen in the **Text verification** field.
 
 9.  Select **Submit**.
 
-10. To save a PDF copy of your report, select **Download report copy**.
+10. Save a PDF copy of your report that includes the report key and report number by selecting **Download report copy**.
 
-    **Note:** Save the report securely. The **Report key** and **Report number** are required to access updates or comments related to an anonymous report.
+    **Note:** You need the report key and report number to access updates or comments related to your report.
 
 
 ## Result
 
-A compliance case is created and routed to the compliance case team for review. Your identity remains anonymous and is recorded as a guest. If the assigned case analyst needs more details, they may add comments to the report.
+A compliance case is created and routed to the compliance case team for review. Your identity remains anonymous and is recorded as a guest.
 
-To respond to their comments, refer to [Follow up on a case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md).
+If assigned case analysts need more details, they might add comments to the report. To respond to their comments, refer to [Follow up on a case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md).
 
--   **[Anonymous compliance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.md)**  
-The fields in the **Report a compliance case** form capture details about the suspected or confirmed compliance issue without disclosing the reporter's identity.
+-   **[Report a compliance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.md)**  
+The Report a compliance case form enables you to provide infomation about a suspected or confirmed compliance issue without disclosing your identity.
 
 **Parent Topic:**[Reporting a compliance case in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/reporting-compliance-case.md)
 

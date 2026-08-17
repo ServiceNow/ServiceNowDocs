@@ -26,14 +26,14 @@ If you have configured multiple Fortinet connection aliases for different enviro
 
 **Note:**
 
--   If Concurrent Import option is enabled in the import schedule, records are imported into the Concurrent Import Set table instead of the standard Import Set table.
+-   If the Concurrent Import option is enabled in the import schedule, records are imported into the Concurrent Import Set table instead of the standard Import Set table.
 -   Each concurrent job creates its own import set and log entry. The structure of the execution records remains the same.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Fortinet** &gt; **Import Schedules**.
+1.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Fortinet** &gt; **Import Schedules**.
 
-2.  Select the import schedule that you want to run.
+2.  Select the import schedule to run.
 
 3.  From the list of scheduled data imports, select the scheduled data import.
 
@@ -41,9 +41,9 @@ If you have configured multiple Fortinet connection aliases for different enviro
 
 5.  In the Executions related list, verify the import results by selecting the most recent Import Set record created by the execution of the import.
 
-6.  Review the import set log to verify the numbers of rows read, number of rows inserted or updated, or transformation success status, in the CMDB, which indicate that the CIs exist.
+6.  Review the import set log to verify the number of rows read, the number of rows inserted or updated, or the transformation success status.
 
-    If you delete existing CIs and rerun the import, the log might show multiple inserts and updates, validating end-to-end functionality.
+    These values in the CMDB indicate that the CIs exist. If you delete existing CIs and rerun the import, the log might show multiple inserts and updates, validating end-to-end functionality.
 
 
 ## Result

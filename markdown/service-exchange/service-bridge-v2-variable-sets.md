@@ -16,12 +16,12 @@ breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange f
 
 Use single and multi-row variable sets with remote record producers.
 
-Variable sets allow you to create a collection of variables that can be reused across multiple catalog items and order guides. Using variable sets saves time because you do not have to create the same variables individually for many catalog items. Also, when variables should be modified, you can modify the variable set and the changes are reflected across all the remote record producers that are associated with the variable set.
+Variable sets allow you to create a collection of variables that can be reused across multiple catalog items and order guides. Using variable sets saves time because you do not have to create the same variables individually for many catalog items. Also, when variables should be modified, you can modify the variable set. The changes are reflected across all the remote record producers that are associated with the variable set.
 
 As a provider, you can create and associate variable sets with remote record producers. Any changes made to these variable sets are automatically synced to the remote record producers that the consumers are entitled to. You can create the following types of variable sets:
 
 -   Single-row variable set: Use a single-row variable set to capture data from variables that are grouped together.
--   Multi-row variable set: Use a multi-row variable set to capture variable data in a grid layout for a group of entities. For example, for HR during the reorganization of employees, a single remote record producer should be able to capture the relevant information such as the department and manager for a group of employees.
+-   Multi-row variable set: Use a multi-row variable set to capture variable data in a grid layout for a group of entities. For example, for HR during the reorganization of employees, a single remote record producer should be able to capture the relevant information. Such information includes the department and manager for a group of employees.
 
 **Note:**
 

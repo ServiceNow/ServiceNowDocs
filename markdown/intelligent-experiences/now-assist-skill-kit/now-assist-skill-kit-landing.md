@@ -1,6 +1,6 @@
 ---
-title: Now Assist Skill Kit
-description: Use ServiceNow Now Assist Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist's generative AI capabilities.
+title: AI Skill Kit
+description: Use ServiceNow AI Skill Kit to create and publish custom prompts and skills for Otto. Creating custom skills and prompts enables you to have greater flexibility with Otto's generative AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.html
 release: australia
@@ -12,25 +12,25 @@ reading_time_minutes: 3
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist Skill Kit
+# AI Skill Kit
 
-Use ServiceNow® Now Assist Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist's generative AI capabilities.
+Use ServiceNow® AI Skill Kit to create and publish custom prompts and skills for Otto. Creating custom skills and prompts enables you to have greater flexibility with Otto's generative AI capabilities.
 
-\[Omitted video\] Description: Now Assist Skill Kit video that shows how to build a custom skill.
+\[Omitted video\] Description: Otto Skill Kit video that shows how to build a custom skill.
 
 ## Get started
 
 <table id="table_k4y_wm5_sbc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist Skill Kit and creating effective prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Skill Kit and creating effective prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Now Assist Skill Kit prompt and deployment settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure AI Skill Kit prompt and deployment settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 </td></tr><tr><td colspan="2">
 
-[Use\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist Skill Kit to create custom skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+[Use\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI Skill Kit to create custom skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -42,7 +42,7 @@ Use ServiceNow® Now Assist Skill Kit to create and publish custom prompts and s
 
 ## Troubleshoot and get help
 
--   [Ask questions and explore other resources for Now Assist Skill Kit in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Ask questions and explore other resources for AI Skill Kit in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

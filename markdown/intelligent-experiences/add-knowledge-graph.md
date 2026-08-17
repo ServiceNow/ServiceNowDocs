@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a Knowledge Graph to an AI agent
@@ -96,7 +96,7 @@ Display output
 
 </td><td>
 
-Permission to display the output of the execution in the Now Assist panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
 -   **No**
 If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 

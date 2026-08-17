@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
@@ -46,7 +46,9 @@ Role required: TSOM Visibility admin
 
         Once all MID Server steps are complete, proceed to **Configure Connectivity**.
 
-4.  Enable the Service Graph Connector to reference the VeloCloud connection by name, extracting active aliases from the CMDB, and initiate data collection on the associated HTTP connection by creating connection aliases, credentials, and HTTP connections.
+4.  Create connection aliases, credentials, and HTTP connections to enable data collection.
+
+    This configuration allows the Service Graph Connector to reference the VeloCloud connection by name and extract active aliases from the CMDB.
 
     1.  Select **Get Started**.
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, table, join, condition]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP table join conditions field descriptions
@@ -37,7 +37,7 @@ ERP model table field
 
 </td><td>
 
-Name of the join field on the ERP system of record, which represents an attribute or column in the table where data is stored.
+Name of the join field on the ERP system, which represents an attribute or column in the table where data is stored.
 
 </td></tr><tr><td>
 

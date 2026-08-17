@@ -44,9 +44,9 @@ The CMDB, when used by the CSDM framework, provides value to Enterprise Architec
 
 With this use case, CSDM provides Enterprise Architecture a consistent way to model business applications and relate critical data. The use case ensures that the application services \(instances\) are defined as required for automating the technology risk scores, costs, and other metrics used for analysis.
 
-## TPM use case
+## TLM use case
 
-TPM gives you a better understanding of the risks associated with using software and hardware that is at the end-of-life \(EOL\) date. You can use the details provided by the CSDM framework to determine the risk of using software and hardware that is at EOL. Each product life cycle EOL date is calculated, then combined following the CSDM framework to provide a score at the Business Application level.
+TLM gives you a better understanding of the risks associated with using software and hardware that is at the end-of-life \(EOL\) date. You can use the details provided by the CSDM framework to determine the risk of using software and hardware that is at EOL. Each product life cycle EOL date is calculated, then combined following the CSDM framework to provide a score at the Business Application level.
 
 ## Results of the TPM use case
 
@@ -54,7 +54,7 @@ The CSDM framework provides a consistent data structure. This consistent data st
 
 Because of the way the CSDM framework is structured, you can leverage many products from ITOM, Service Management \(Service Portfolio Management\), and IT Application Management \(ITAM\).
 
-The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model identified in the CMDB, and matched with a software and hardware product model.
+The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model identified in the CMDB.
 
 You can enter the life-cycle data manually, import it from an external source, or use the data provided with your Software Asset Management Professional or Hardware Asset Management license.
 

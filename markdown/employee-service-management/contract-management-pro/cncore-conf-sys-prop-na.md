@@ -8,8 +8,8 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Configure metadata extraction, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure system properties for contract metadata extraction
@@ -63,7 +63,7 @@ The initiation method for metadata extraction is configured.
 
 [Enable notification for contract metadata extraction]()
 
-[Configure the workspace URL for contract metadata extraction notifications]()
+[Configure the URL for metadata extraction notifications]()
 
 [Configure an extension point to add contract metadata]()
 

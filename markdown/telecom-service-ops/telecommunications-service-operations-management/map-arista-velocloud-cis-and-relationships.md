@@ -1,5 +1,5 @@
 ---
-title: Map Arista VeloCloud CIs and relationships
+title: Mapping Arista VeloCloud CIs and relationships
 description: Use the Service Graph Connector \(SGC\) for Arista VeloCloud to map discovered physical and logical SD-WAN resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). SGC support consistent service modeling, provide visibility into network components, and automate the creation of logical and physical relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/map-arista-velocloud-cis-and-relationships.html
@@ -12,13 +12,13 @@ reading_time_minutes: 2
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Map Arista VeloCloud CIs and relationships
+# Mapping Arista VeloCloud CIs and relationships
 
 Use the Service Graph Connector \(SGC\) for Arista VeloCloud to map discovered physical and logical SD-WAN resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). SGC support consistent service modeling, provide visibility into network components, and automate the creation of logical and physical relationships.
 
 To confirm accurate CI classification and insertion, the connector uses the Robust Transform Engine \(RTE\) and Identification and Reconciliation Engine \(IRE\).
 
-The connector classifies and relates discovered CIs using telecom-specific models based on device type, function, and chassis structure. This organization helps maintain a clean and normalized CMDB across vendors. Discovered model names from Fortinet are automatically transformed into ServiceNow AI Platform standard model identifiers and categories for slot and subslot components.
+The connector classifies and relates discovered CIs using telecom-specific models based on device type, function, and chassis structure. This organization helps maintain a clean and normalized CMDB across vendors. Discovered model names from Arista VeloCloud are automatically transformed into ServiceNow AI Platform standard model identifiers and categories for slot and subslot components.
 
 ## CI mapping and relationships
 
@@ -26,15 +26,15 @@ The following table lists the CI object types in the CMDB that can be discovered
 
 <table id="table_m5l_m1b_wfc"><thead><tr><th>
 
-CMDB CI Class
+CMDB CI class
 
 </th><th>
 
-CMDB CI Table
+CMDB CI table
 
 </th><th>
 
-CMDB Hierarchy
+CMDB hierarchy
 
 </th><th>
 
@@ -42,7 +42,7 @@ Object types / models
 
 </th><th>
 
-Description and Relationships
+Description and relationships
 
 </th></tr></thead><tbody><tr><td>
 
@@ -91,7 +91,7 @@ SD-WAN Edge / network or service router is represented by the IP router
 
 </td></tr><tr><td>
 
-Network Interface CI
+Network interface CI
 
 </td><td>
 
@@ -107,7 +107,7 @@ The list of support port models is defined in the vendor-specific network physic
 
 </td><td>
 
--   IP router or wireless access point is the main device in the network hierarchy.
+-   IP router is the main device in the network hierarchy.
 -   Network card within the IP router is the primary component.
 -   Represents the physical ports contained within the device \(IP router\).
 
@@ -130,7 +130,7 @@ Network service instance
 </td><td>
 
 -   Network service instance includes IP routers and network interfaces.
--   Network site is a member of a group.
+-   The network service instance contains the SD-WAN edge devices and is a member of the organization group.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Network sites and network service instance are members.
 
 </td></tr><tr><td>
 
-IP Address CI
+IP address CI
 
 </td><td>
 

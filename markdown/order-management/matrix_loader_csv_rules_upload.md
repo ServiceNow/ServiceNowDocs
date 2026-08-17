@@ -1,20 +1,20 @@
 ---
 title: Matrix Loader: CSV rules upload
-description: Use the Matrix Loader to bulk create, edit, and export rules in ServiceNow CPQ. Define rule conditions, actions, and logic in a CSV file to streamline configuration management and automate large-scale updates.
+description: Use the Matrix Loader to bulk create, edit, and export rules in CPQ. Define rule conditions, actions, and logic in a CSV file to streamline configuration management and automate large-scale updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/matrix\_loader\_csv\_rules\_upload.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure the Matrix Loader, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure the Matrix Loader, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Matrix Loader: CSV rules upload
 
-Use the Matrix Loader to bulk create, edit, and export rules in ServiceNow CPQ. Define rule conditions, actions, and logic in a CSV file to streamline configuration management and automate large-scale updates.
+Use the Matrix Loader to bulk create, edit, and export rules in CPQ. Define rule conditions, actions, and logic in a CSV file to streamline configuration management and automate large-scale updates.
 
-The the Matrix Loader enables administrators to efficiently upload and manage all rule types in ServiceNow CPQ. Instead of manually creating each rule in the Admin interface, you can define them in a spreadsheet, export the sheet to CSV format, and upload it directly into the environment. This enables faster configuration setup, easier testing, and simplified migration between sandbox and production environments.
+The the Matrix Loader enables administrators to efficiently upload and manage all rule types in CPQ. Instead of manually creating each rule in the Admin interface, you can define them in a spreadsheet, export the sheet to CSV format, and upload it directly into the environment. This enables faster configuration setup, easier testing, and simplified migration between sandbox and production environments.
 
 ## Rules upload structure
 
@@ -24,7 +24,7 @@ Each row in the CSV file represents a rule record. The following table outlines 
 |-----------|-----------|------------|-----|
 |record\_type|Identifies this as a rule upload|rule|Required|
 |rule\_name|Name displayed on the rule list Admin page|Valid strings can be composed of up to 255 characters, including letters, numbers, spaces, and the following special characters: `{}[]()|\~`_^@?<=>;:/.-,+*’&%$#”!`|Required|
-|rule\_variable\_name|Unique string used by ServiceNow CPQ to reference the rule|Valid field variable names consist of up to 128 letters, numbers, and underscores. The first and last character must be a letter or number.|Required; must be unique|
+|rule\_variable\_name|Unique string used by CPQ to reference the rule|Valid field variable names consist of up to 128 letters, numbers, and underscores. The first and last character must be a letter or number.|Required; must be unique|
 |rule\_description|Contextual description for administrator reference|Valid strings can be composed of up to 255 characters, including letters, numbers, spaces, and the following special characters: `{}[]()|\~`_^@?<=>;:/.-,+*’&%$#”!`|Optional|
 |rule\_status|Determines if the rule is active|active, inactive|Required; inactive rules are ignored by the engine|
 |action\_type|Defines the type of action executed when the rule runs|visibility, message, exclusion, inclusion, determination, product|Required|
@@ -69,7 +69,7 @@ The following operators are supported for condition evaluation:
 
 ## Exporting rules to CSV
 
-Administrators can export all rule definitions from the ServiceNow CPQ environment to CSV format for review or migration. The resulting ZIP file contains a single CSV file of all exported rule definitions.
+Administrators can export all rule definitions from the CPQ environment to CSV format for review or migration. The resulting ZIP file contains a single CSV file of all exported rule definitions.
 
 1.  In the left Admin navigation pane, click **Rules**.
 2.  Optional: enter a search string and press Enter to narrow results.

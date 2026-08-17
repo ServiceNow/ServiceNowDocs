@@ -36,7 +36,7 @@ Role required: sn\_bcm.admin
 
 
 -   **[Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impact-category-new-record-form.md)**  
-Use the Impact Category record form to add details about the impact category such as name, criteria that the impact category contributes to, applicable timeframes, maximum RTO value, and so on in BCM UIB Workspace.
+Use the Impact Category record form to add impact category details such as name, criteria, applicable timeframes, maximum RTO value, and so on in BCM UIB Workspace.
 
 **Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

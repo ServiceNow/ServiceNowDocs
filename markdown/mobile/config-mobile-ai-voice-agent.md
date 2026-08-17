@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Configure Mobile AI Voice Agent
@@ -18,7 +18,7 @@ Follow these steps to enable the Mobile AI Voice Agent feature for your mobile a
 
 Role required: admin
 
--   Make sure that Now Assist is enabled in the instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   Make sure that Now Assist is enabled in the instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 -   Ensure you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist Voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 ## Procedure
@@ -52,5 +52,5 @@ Role required: admin
     For steps on how to configure your function with a voice assistant, see [Integrate voice assistant with mobile app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
 
-**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 

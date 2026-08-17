@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/configuri
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
 
@@ -255,7 +255,7 @@ For information about configuring Walk-up Experience from SOW Admin Center, see 
 |-------------|-----------|---------------------|-----------------------|
 |Dashboard|Managing dashboards and data visualizations to track progress quickly.|Preconfigured dashboard on workspace landing page that provides visibility into agent workload with key metrics such as Assigned to you, Overdue, and Unassigned.|Edit the existing dashboard or create your own dashboard in Platform Analytics workspace. To create a dashboard using Platform Analytics, see [Platform Analytics KPIs and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/operational-success-kpi.md).|
 
-## Now Assist for ITSM
+## Otto for ITSM
 
 <table id="table_shv_kmq_whc"><thead><tr><th>
 
@@ -279,7 +279,7 @@ Agentic workflows
 
 </td><td>
 
-An agentic workflow is a coordinated, multi‑step process where AI agents plan, act, and collaborate to achieve a complex business goal. For information about agentic workflows in ITSM, see [Use agentic AI in Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
+An agentic workflow is a coordinated, multi‑step process where AI agents plan, act, and collaborate to achieve a complex business goal. For information about agentic workflows in ITSM, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
 
 </td><td>
 
@@ -292,19 +292,19 @@ Remove an agent that is part of the agentic workflow or manage \(edit, deactivat
 
 </td></tr><tr><td>
 
-Now Assist skills
+AI skills
 
 </td><td>
 
-Prebuilt, LLM‑powered capabilities that surface in the right UI touchpoints and can be activated or configured by admins across workflow. For example, summarization, KB generation, and email drafting. For information about Now Assist skills in ITSM, see [Using Now Assist for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
+Prebuilt, LLM‑powered capabilities that surface in the right UI touchpoints and can be activated or configured by admins across workflow. For example, summarization, KB generation, and email drafting. For information about AI skills in ITSM, see [Using ServiceNow Otto for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
 
 </td><td>
 
-Now Assist skills such as KB generation, Incident summarization, Chat summarization, Resolution notes generation, and Email generation are enabled in the base system.
+AI skills such as KB generation, Incident summarization, Chat summarization, Resolution notes generation, and Email generation are enabled in the base system.
 
 </td><td>
 
-Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
 
 </td></tr></tbody>
 </table>## Change Management
@@ -326,6 +326,38 @@ Default configuration
 Optional configurations
 
 </th></tr></thead><tbody><tr><td>
+
+Forms
+
+</td><td>
+
+Review and configure the change forms that IT fulfiller staff use to create and manage changes.
+
+</td><td>
+
+Pre-configured change forms which helps fulfiller staff plan, approve, and implement changes with minimal risk.
+
+</td><td>
+
+Use the Form Builder to customize form layouts, fields, and sections to match your organization's change processes.
+
+</td></tr><tr><td>
+
+Lists
+
+</td><td>
+
+Configure which columns appear in the change lists for your IT fulfiller staff.
+
+</td><td>
+
+Pre-configured change fields available in the **Selected** columns list.
+
+</td><td>
+
+Add or remove change fields for Default or Related Lists.
+
+</td></tr><tr><td>
 
 Team roles
 

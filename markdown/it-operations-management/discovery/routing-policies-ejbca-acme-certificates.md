@@ -1,5 +1,5 @@
 ---
-title: Create a routing policy for EJBCA ACME certificates
+title: Create routing policies for EJBCA ACME certificates
 description: Automate your EJBCA ACME workflows by creating a routing policy that aligns with your Certificate Signing Requests \(CSRs\) to request, renew, and revoke certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/routing-policies-ejbca-acme-certificates.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ACME integration with KeyFactor EJBCA, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Integration with KeyFactor EJBCA, Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Create a routing policy for EJBCA ACME certificates
+# Create routing policies for EJBCA ACME certificates
 
 Automate your EJBCA ACME workflows by creating a routing policy that aligns with your Certificate Signing Requests \(CSRs\) to request, renew, and revoke certificates.
 
@@ -32,9 +32,9 @@ Streamline your certificate life-cycle workflow by filling out a routing policy 
 
 3.  On the Certificate Routing Policy form, fill in the fields.
 
-    For a description of the field values, see [Certificate routing policy form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+    For a description of the field values, see [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 
-    **Warning:** For your automated workflow to work, you must fill in every field in your routing policy form. If you don’t, your CSR requires manual steps. You can see all the fields and values at the [Certificate routing policy form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+    **Warning:** For your automated workflow to work, you must fill in every field in your routing policy form. If you don’t, your CSR requires manual steps. You can see all the fields and values at the [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 
 4.  Select **Submit**.
 

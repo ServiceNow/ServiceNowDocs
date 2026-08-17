@@ -23,7 +23,7 @@ UX: Virtual Agent Experience Design or Review helps Impact customers create more
 
 ## Package Availability
 
-**Note:** This Accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
 ## What You Get
 

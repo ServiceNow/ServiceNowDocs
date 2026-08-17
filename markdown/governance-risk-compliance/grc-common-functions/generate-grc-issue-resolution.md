@@ -9,8 +9,8 @@ classification: grc-common-functions
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI]
-breadcrumb: [Agentic workflows in Risk &amp; Sustainability, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Agentic workflows in Risk &amp; Sustainability, Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Optimize a GRC issue resolution
@@ -19,7 +19,7 @@ Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution 
 
 ## Before you begin
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
@@ -35,9 +35,9 @@ To modify the Optimize GRC issue resolution workflow [duplicate it](https://raw.
 
 2.  Open the issue that you want to resolve by using the agentic workflow.
 
-3.  Select the Now Assist \(\[Omitted image "nap-icon.png"\] Alt text: Now Assist panel icon.\) icon.
+3.  Select the ServiceNow Otto icon.
 
-    The Now Assist panel is displayed.
+    The ServiceNow Otto panel is displayed.
 
 4.  Resolve the GRC issue by generating an issue action plan and generating recommended remediation tasks.
 

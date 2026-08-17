@@ -30,6 +30,8 @@ Add new tables to roadmap preferences and configure their details so that these 
 Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
 -   **[Hierarchy tab display configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/hierarchy-display-configuration-strategic-planning.md)**  
 Show or hide parent records of planning items shown in the Hierarchy tab for high-level and regular portfolio plans by configuring system properties.
+-   **[Update execution URLs for planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-execution-url-for-demand-spw.md)**  
+Run this scheduled job after upgrading to update execution URLs on existing demand planning items so they redirect correctly to the Demands module.
 
 **Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

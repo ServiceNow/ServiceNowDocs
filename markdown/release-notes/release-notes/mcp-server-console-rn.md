@@ -14,7 +14,11 @@ The ServiceNow® MCP Server Console application enables secure and governed acce
 
 ## MCP Server Console highlights for the Australia release
 
+-   Unify the MCP Server creation process by embedding OAuth Client registration directly within the MCP Server Console wizard. This eliminates the need for users to switch contexts between multiple consoles.
+-   Enable administrators to configure annotations across all supported tool types. Annotations will be included in the tools/list response per MCP specification, allowing MCP clients like Claude to apply correct permission policies.
 -   Get started with the preconfigured Quickstart Server for looking up and summarizing incident and case records.
+-   Create MCP apps to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
+-   Integrate third-party identity provider \(IDP\) with MCP server to support users authentication through a third-party \(IDP\).
 -   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
 -   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 
@@ -39,7 +43,7 @@ See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Activation information
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Plugin information
 
@@ -52,7 +56,7 @@ MCP Server Console is available with activation of a Now Assist application. For
 
 ## Related ServiceNow applications and features
 
--   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md)**
+-   **[AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md)**
 
     AI Control Tower enables enterprises to manage, optimize, govern, secure, and measure the value of their AI investments. AI Gateway in AI Control Tower is a registry for MCP Server Console servers and provides observability and metrics for servers and their tools.
 

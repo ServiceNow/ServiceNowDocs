@@ -1,5 +1,5 @@
 ---
-title: Set up the routing policy for ACME
+title: Set up routing policies for ACME
 description: Set up a routing policy to establish an Automated Certificate Management Environment \(ACME\). It involves creating a policy based on factors such as Certificate Authority \(CA\), environment, and other features, ensuring efficient SSL/TLS certificate management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/set-up-routing-policy-for-acme.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring ACME, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Set up the routing policy for ACME
+# Set up routing policies for ACME
 
 Set up a routing policy to establish an Automated Certificate Management Environment \(ACME\). It involves creating a policy based on factors such as Certificate Authority \(CA\), environment, and other features, ensuring efficient SSL/TLS certificate management.
 
@@ -34,7 +34,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 3.  On the **Certificate Routing Policy** form, fill in the fields.
 
-    For the description of the field values, see [Certificate Routing Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-field-values.md).
+    For the description of the field values, see [Certificate Routing Policy form for ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-field-values.md).
 
 4.  Select **Update**.
 

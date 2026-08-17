@@ -69,7 +69,7 @@ Playbooks for Customer Service Management
 
 </td><td>
 
-[Using Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using.md)- -   Customer service agents can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
+[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md) -   Customer service agents can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
 -   Playbooks provide step-by-step guidance through the lifecycle of a customer service case.
 -   Playbooks include multiple stages and each stage includes one or more activities for an agent to complete.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customerserviceproblemmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
+last_updated: "2026-08-17"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -87,6 +87,17 @@ Australia
 
 </td><td>
 
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[Service Problem case record page](https://www.servicenow.com/docs/access?context=service-problem-case-record-page&family=australia&ft:locale=en-US)**
+
+Access account context and diagnostics in one workspace without navigating away from the case View using Service Problem Case record view. You can also view the Customer 360 data with broader account context.
+
+-   **[Resolve a customer dispute and record the dispute analysis](https://www.servicenow.com/docs/access?context=resolve-customer-dispute&family=australia&ft:locale=en-US)**
+
+Record the analysis of a dispute using the hierarchy of product, category, subcategory, and reason in the dispute analysis record. You can record the these details in the Resolution and dispute analysis stage of the CDM playbook. This gives you much clearer visibility into why disputes happen and where to focus process improvements.
+
+
 [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   **[Preliminary troubleshooter](https://www.servicenow.com/docs/access?context=now-assist-tmt-preliminary-troubleshooter-agentic-workflow&family=australia&ft:locale=en-US)**
@@ -100,25 +111,25 @@ Runs the test groups that are mapped to a task and creates repair tasks for the 
 
 Australia Early Availability
 
--   **[Alternative Dispute Resolution \(ADR\)](https://www.servicenow.com/docs/access?context=alternative-dispute-resolution&family=australia&ft:locale=en-US)**
+-   **[Customer Dispute Management](https://www.servicenow.com/docs/access?context=alternative-dispute-resolution&family=australia&ft:locale=en-US)**
 
-Use the ADR case type to capture complete case details and manage investigations and resolutions while enforcing Service Level Agreement \(SLA\) compliance. You can also maintain audit and Root Cause Analysis \(RCA\) history and generate deadlock letters for customer or partner communication.
+Use the CDM case type to capture complete case details and manage investigations and resolutions while enforcing Service Level Agreement \(SLA\) compliance. You can also maintain audit and Root Cause Analysis \(RCA\) history and generate deadlock letters for customer or partner communication.
 
 -   **[Generate ADR resolution notes](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution-notes-ad&family=australia&ft:locale=en-US)**
 
-Generates resolution notes for a customer dispute in the Alternative Dispute Resolution \(ADR\) case record.
+Generates resolution notes for a customer dispute in the CDM case record.
 
 -   **[Analyze the sentiment of a service problem case](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-sentiment-spc-adr&family=australia&ft:locale=en-US)**
 
-Analyze customer sentiment on the case records that are linked with the customer dispute. This skill enables you to select the relevant linked records for ADR case record.
+Analyze customer sentiment on the case records that are linked with the customer dispute. This skill enables you to select the relevant linked records for CDM case record.
 
 -   **[Summarize the linked records](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-linked-record&family=australia&ft:locale=en-US)**
 
-Generates a comprehensive summary the case records that are linked to the customer dispute in the ADR case record.
+Generates a comprehensive summary the case records that are linked to the customer dispute in the CDM case record.
 
 -   **[Generate a deadlock letter](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-deadlock-letter&family=australia&ft:locale=en-US)**
 
-Generates a deadlock letter details for a customer dispute in the ADR case record. You can generate the deadlock letter when the customer rejects the complaint resolution and opt for legal procedures.
+Generates a deadlock letter details for a customer dispute in the CDM case record. You can generate the deadlock letter when the customer rejects the complaint resolution and opt for legal procedures.
 
 
 </td></tr></tbody>
@@ -148,7 +159,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -264,7 +278,7 @@ Australia
 
 </td><td>
 
-You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the ADR case type.
+You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use the CDM case type.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -384,15 +398,21 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Use the Service Problem Case record page to view Customer 360 data.
+-   Perform and record dispute analysis in the Customer Dispute Management \(CDM\) case.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Processes task requests that require payment status, contextual information from similar cases and Knowledge Base articles.
 -   Runs the test groups that are mapped to a task and creates repair tasks for the failed test runs.
 
  Australia Early Availability
 
--   Use Alternative Dispute Resolution \(ADR\) feature to acknowledge and register customer disputes, complaints, or ADRs, conduct investigations, and deliver timely resolutions.
--   Automatically generate clear resolution notes to help you efficiently document and close customer disputes in ADR cases.
+-   Use CDM feature to acknowledge and register customer disputes or complaints, conduct investigations, and deliver timely resolutions.
+-   Automatically generate clear resolution notes to help you efficiently document and close customer disputes in CDM cases.
 -   Gain insights into customer sentiment and easily identify the most relevant case records to support faster and informed dispute resolution.
 -   Get a comprehensive summary of all linked case records to quickly understand and act on customer disputes.
 -   Generate deadlock letters to support consumers moving to legal procedures when complaint resolutions are not accepted.

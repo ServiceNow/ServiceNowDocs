@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-migration-idi.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
@@ -28,13 +28,17 @@ Role required: impact app admin, admin
 
 3.  On the Impact Data Migration overviews table, select **Start Data Migration**.
 
+    **Note:** See [Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md) for the available tables for migration.
+
     \[Omitted image "initiate-data-migration.png"\] Alt text: Initiate migration step with the Start data migration button highlighted.
 
 4.  Check the migration status for each table in the Impact Data Migration Overviews table.
 
 5.  Refresh the page to re-populate the migration statuses in the table data.
 
-    The **Overall Migration Status** for each table will update to `Completed` when successfully transferred. Reach out to your Impact Squad if you require assistance or a table failed to migrate.
+    -   The **Overall Migration Status** for each table will update to `Completed` when successfully transferred.
+    -   Select to **Re-migrate Data** for added tables or missed tables.
+    **Important:** Reach out to your Impact Squad if you require assistance or a table failed to migrate.
 
 6.  Select **Mark as Complete** on the Initiate Migration page when the data transfer is complete.
 

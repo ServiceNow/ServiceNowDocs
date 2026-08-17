@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [segmentation rule, Supplier Lifecycle Operations, Source to Pay Workspace, Segmentation rules, Performance management, KPI templates, collection tasks, KPI collection tasks]
 breadcrumb: [Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

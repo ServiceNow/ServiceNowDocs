@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-13"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # AgentCard specification

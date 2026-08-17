@@ -20,6 +20,8 @@ My Work provides a centralized view of all your assigned tasks, including projec
 
 Work items from all ServiceNow applications assigned to you’re displayed in My Work. If you receive a work item on the CWM Board via Connected Work, those items appear here as well. This ensures you have a single source for all assigned work without the need to switch between applications.
 
+Project tasks from Project Workspace also appear in My Work when they are assigned to you directly or through a group. For details on the assignment paths that surface project tasks, see [View project tasks assigned to you in CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/view-project-tasks-in-cwm-my-work.md).
+
 **Note:**
 
 -   Any task record created in a table that doesn’t extend the Task \[task\] table, such as VTask, won't show up in My Work.

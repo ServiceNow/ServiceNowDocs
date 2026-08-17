@@ -1,20 +1,20 @@
 ---
-title: Create New Recovery task form
-description: Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
+title: Create Recovery task form
+description: Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-recovery-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Add recovery tasks, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Recovery task form
+# Create Recovery task form
 
-Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
+Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
-## Create New Recovery task form
+## Create Recovery task form
 
 For description of the field values, see the table.
 
@@ -72,7 +72,7 @@ Don’t include this task in time calculation option
 
 Option to exclude specific event tasks from time calculations.
 
- When this flag is checked, the selected task is excluded from time calculations during an event. In the Crisis management app, checking this flag confirms that the task is not included in the **Actual time taken** and **Total effort** field updates for both the asset and the activated plan associated with the event.
+ When this flag is checked, the selected task is excluded from time calculations during an event. In the Crisis management app, checking this flag confirms that task is not included in **Actual time taken** and **Total effort** for assets and the activated plan associated with the event.
 
  For scenarios with multiple tasks, you can exclude specific tasks from overall time calculations, effectively removing them from the total time estimate. This enables for more accurate time tracking by focusing only on relevant tasks. Any task that is excluded isn’t considered in the plan and asset time calculation.
 
@@ -202,7 +202,7 @@ Option to activate a related plan for the recovery task.
 
  The enhanced application software checks for cyclic dependencies among the recovery tasks, as these can lead to errors during execution. If a cyclic dependency is detected in a task, an error message is displayed, helping prevent further actions on that task. If the dependency level of the tasks is more than 10, you can’t save the recovery task record.
 
- You can also record the estimated duration of a recovery task and view the sequence of the recovery tasks in the plan, which are organized based on their dependencies.
+ You can record estimated duration of a recovery task and view sequence of the recovery tasks in the plan. The tasks are organized based on their dependencies.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

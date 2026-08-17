@@ -18,6 +18,8 @@ The Cloud Services Catalog Terraform Connector uses API key credentials to authe
 
 To learn more about API key permissions and tokens, see [https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/api-tokens](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/api-tokens).
 
+**Note:** The Terraform Connector integration requires an organization-level token. Organization-level tokens provide all the necessary permissions for the integration.
+
 <table id="table_bbz_drq_p5b"><thead><tr><th>
 
 Field

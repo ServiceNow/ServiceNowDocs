@@ -1,6 +1,6 @@
 ---
-title: Anonymous privacy case form
-description: The fields in the Report a privacy case form capture information about the suspected or confirmed privacy issue while keeping the reporter's identity confidential.
+title: Report a privacy case form
+description: The Report a privacy case form enables you to provide information about a suspected or confirmed privacy issue while keeping your identity confidential.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Report a privacy case anonymously, Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Anonymous privacy case form
+# Report a privacy case form
 
-The fields in the **Report a privacy case** form capture information about the suspected or confirmed privacy issue while keeping the reporter's identity confidential.
+The Report a privacy case form enables you to provide information about a suspected or confirmed privacy issue while keeping your identity confidential.
 
 <table id="table_syf_t3x_h3c"><thead><tr><th>
 
@@ -62,11 +62,11 @@ Rate this case on priority
 
 </td><td>
 
-Priority level of the case.-   **1 - Critical**
--   **2 - High**
--   **3 - Moderate**
--   **4 - Low**
--   **5 - Planning**
+Priority level of the case. The avaialble ooptions are:-   1 - Critical
+-   2 - High
+-   3 - Moderate
+-   4 - Low
+-   5 - Planning
 
 </td></tr><tr><td>
 
@@ -118,11 +118,4 @@ Total number of individuals whose personal data was exposed, accessed, or compro
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
-
-**Related topics**  
-
-
-[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
-
-[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 

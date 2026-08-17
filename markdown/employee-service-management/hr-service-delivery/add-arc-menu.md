@@ -44,7 +44,7 @@ The Anonymous Report Center plugin includes three out-of-the-box catalog items:
 
     3.  In the **Catalog item** field, select the Anonymous Resource Center catalog items.
 
-    \[Omitted image "arc-taxonomy.png"\] Alt text: Once the steps above are complete, the ARC catalog items appear in the Connected Content tab for the Employee conduct topic
+    \[Omitted image "arc-taxonomy.png"\] Alt text: Once the steps are complete, the ARC catalog items appear in the Connected Content tab for the Employee conduct topic
 
 4.  After adding the catalog items, verify that they appear as intended by navigating to the Employee Center to the **Human Resources** &gt; **Employee Conduct** topic.
 

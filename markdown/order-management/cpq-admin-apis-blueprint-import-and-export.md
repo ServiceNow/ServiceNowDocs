@@ -1,28 +1,28 @@
 ---
 title: Admin APIs: Blueprint import and export
-description: You can export a blueprint to back it up, or export and import a blueprint to move it from one ServiceNow CPQ environment to another.
+description: You can export a blueprint to back it up, or export and import a blueprint to move it from one CPQ environment to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-admin-apis-blueprint-import-and-export.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Admin APIs: Blueprint import and export
 
-You can export a blueprint to back it up, or export and import a blueprint to move it from one ServiceNow CPQ environment to another.
+You can export a blueprint to back it up, or export and import a blueprint to move it from one CPQ environment to another.
 
-The ServiceNow CPQ blueprint admin APIs provide the import and export API calls for working with blueprints. Common use cases include migrating blueprints across ServiceNow CPQ environments and backing up blueprints. To view the ServiceNow CPQ blueprint admin APIs, see:
+The CPQ blueprint admin APIs provide the import and export API calls for working with blueprints. Common use cases include migrating blueprints across CPQ environments and backing up blueprints. To view the CPQ blueprint admin APIs, see:
 
-[ServiceNow CPQ blueprint admin APIs](https://github.com/logikioopensource/API-Documentation/blob/main/Admin/blueprint.yml)
+[CPQ blueprint admin APIs](https://github.com/logikioopensource/API-Documentation/blob/main/Admin/blueprint.yml)
 
-For a comprehensive list of all ServiceNow CPQ APIs, see the ServiceNow CPQ API Reference:
+For a comprehensive list of all CPQ APIs, see the CPQ API Reference:
 
 API documentation introduction.
 
-You can also view the ServiceNow CPQ open source API documentation on Github:
+You can also view the CPQ open source API documentation on Github:
 
 [https://github.com/opensource/API-Documentation](https://github.com/opensource/API-Documentation)
 

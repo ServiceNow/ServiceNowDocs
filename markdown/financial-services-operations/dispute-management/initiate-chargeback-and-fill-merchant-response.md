@@ -36,7 +36,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 5.  Select the transaction ID from the playbook.
 
-6.  Select the **Initiate chargeback and fill merchant response** activity.
+6.  Select the **Initiate chargeback and fill merchant response** task.
 
 7.  The chargeback reason code and dispute amount is displayed.
 
@@ -54,7 +54,7 @@ The questionnaire data from the **Initiate** stage is sent to Visa. The task is 
 Review the response from the merchant and fill the further details.
 
 1.  After you receive the merchant's response, the **Dispute response** field is set to **Yes** or **No** and the next activity [Review a dispute response and initiate pre-arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.md) is displayed.
-2.  Select **Close task**. The next activity appears based on the selected option.
+2.  Select **Close task**. The next task appears based on the selected option.
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

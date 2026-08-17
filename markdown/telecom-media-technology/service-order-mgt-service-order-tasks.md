@@ -27,7 +27,7 @@ When you create a manual fallout record, or an automated one is generated, the f
 -   Its **State** field changes to On hold, with a comment on which logged-in user caused it to change.
 -   In the Activity section, a work order note indicates that the order task state has changed from its former state, usually In Progress, to On hold. A work order note with the message `A fallout record FOnnnn has been created` also appears.
 
-If you create a manual fallout record or an automated one is generated for the order tasks, you can easily review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
+If you create a manual fallout record or an automated one is generated for order tasks, you can review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
 To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
 

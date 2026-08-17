@@ -27,7 +27,7 @@ Report any violation of the organization's policies or guidelines by using the E
 -   **[Create a compliance case in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-compliance-case.md)**  
 Report any violation of the organization's policies or guidelines by using the Compliance Case Management application. By reporting a case, you reduce and avert the adverse regulatory actions that could impact the company's financials, reputation, and growth.
 -   **[Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)**  
-Use the Anonymous Reporting Center \(ARC\) to submit any suspected or confirmed compliance case without disclosing your identity.
+Submit any suspected or confirmed compliance case without having to disclose your identity using the Anonymous Reporting Center \(ARC\).
 -   **[Report a compliance case through email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-comp-case-email.md)**  
 Report a compliance issue by sending an email to your organization's compliance mailbox. This creates a compliance case automatically in Compliance Case Management.
 

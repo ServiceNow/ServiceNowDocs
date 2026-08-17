@@ -1,6 +1,6 @@
 ---
-title: Enter the missing required invoice information and submit an invoice
-description: Manually enter missing invoice data and submit the invoice when Document Intelligence encounters a transformation error and only partially populates invoice fields.
+title: Enter missing invoice information and submit an invoice
+description: Complete a partially populated invoice and submit it for processing when Document Intelligence encounters a transformation error.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.html
 release: australia
@@ -8,13 +8,14 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
+keywords: [Accounts Payable Workspace, Document Intelligence, invoice data entry, transformation error, draft invoice, invoice submission, invoice processing case]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Enter the missing required invoice information and submit an invoice
+# Enter missing invoice information and submit an invoice
 
-Manually enter missing invoice data and submit the invoice when Document Intelligence encounters a transformation error and only partially populates invoice fields.
+Complete a partially populated invoice and submit it for processing when Document Intelligence encounters a transformation error.
 
 ## Before you begin
 
@@ -68,5 +69,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 [Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications]()
+[Start processing a third-party invoice]()
 

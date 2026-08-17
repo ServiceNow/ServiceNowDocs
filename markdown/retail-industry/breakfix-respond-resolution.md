@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-respond-resolution.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Manage Break-Fix cases, Retail]
 ---
@@ -22,7 +22,7 @@ Review proposed resolutions and respond by accepting, rejecting with a reason, o
 
 ## About this task
 
-After HQ proposes a resolution, you review it from the portal or mobile app. Accept/Reject actions only appear when case is in "Resolution Proposed" state. You have three options: Accept the resolution \(closes case immediately\), Reject with mandatory reason \(reopens case to HQ\), or Self-Close \(closes without HQ resolution\).
+After HQ proposes a resolution, review it from the portal or mobile app. Accept/Reject actions only appear when the case is in "Resolution Proposed" state. Choose one of these mutually exclusive actions to proceed.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ After HQ proposes a resolution, you review it from the portal or mobile app. Acc
 
 3.  Open the break-fix case with "Resolution Proposed" state
 
-    **Note:** Accept/Reject actions only appear in Resolution Proposed state.
+    **Note:** Accept and Reject actions only appear when the case is in the Resolution Proposed state.
 
 4.  Review the proposed resolution details
 
@@ -55,15 +55,17 @@ After HQ proposes a resolution, you review it from the portal or mobile app. Acc
 
 ## Result
 
-**If Accepted:** Case status changes to "Closed". Case is resolved and archived.
+**When you Accept:** Case status changes to "Closed" and is resolved and archived.
 
-**If Rejected:** Case reopens to HQ queue with state = "New". HQ receives notification with your rejection reason and will propose alternative resolution.
+**When you Reject:** Case reopens to HQ queue with state "New". HQ receives notification with your rejection reason and will propose an alternative resolution.
 
-**If Self-Closed:** Case status changes to "Closed" without HQ involvement. No notification sent to HQ.
+**When you Self-Close:** Case status changes to "Closed" without HQ involvement, and no notification is sent to HQ.
 
 ## What to do next
 
 If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, HQ Support Agents will receive your reason and propose an alternative resolution, which you will review similarly. See [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-resolve-workspace.md) to understand HQ's resolution process.
+
+**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 

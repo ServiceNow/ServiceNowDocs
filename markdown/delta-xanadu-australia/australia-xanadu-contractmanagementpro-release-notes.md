@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-contractmanagementpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 18
+last_updated: "2026-08-17"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -62,7 +62,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+No upgrade actions are required for this release.
 
 </td></tr></tbody>
 </table>## New features
@@ -122,6 +122,14 @@ Logout and application scope change functionality in Microsoft Word add-in for S
 Zurich
 
 </td><td>
+
+-   **[Signatory roles](https://www.servicenow.com/docs/access?context=cncore-signatory-roles&family=zurich&ft:locale=en-US)**
+
+Assign a role to each signatory in a contract request to define how each participant interacts with a contract document during the signature workflow. The available roles are Signer, Viewer, Receiver, and Approver. These roles apply to Docusign electronic signature process only. For wet or offline signature types, the **Signatory Role** field is inactive and all signatories are set to the Signer role.
+
+You can also configure the signatory roles in internal signatory rules to apply them automatically when a contract is generated.
+
+To enable this feature, set the `sn_cm_core.enable_docusign_signature_roles` system property to `true` and upgrade Docusign to version 4.4.3.
 
 -   **[Support for offline signatures](https://www.servicenow.com/docs/access?context=cncore-signature-workflow&family=zurich&ft:locale=en-US)**
 
@@ -185,6 +193,14 @@ Australia
 
 </td><td>
 
+-   **[Signatory roles](https://www.servicenow.com/docs/access?context=cncore-signatory-roles&family=australia&ft:locale=en-US)**
+
+Assign a role to each signatory in a contract request to define how each participant interacts with a contract document during the signature workflow. The available roles are Signer, Viewer, Receiver, and Approver. These roles apply to Docusign electronic signature process only. For wet or offline signature types, the **Signatory Role** field is inactive and all signatories are set to the Signer role.
+
+You can also configure the signatory roles in internal signatory rules to apply them automatically when a contract is generated.
+
+To enable this feature, set the `sn_cm_core.enable_docusign_signature_roles` system property to `true` and upgrade Docusign to version 4.4.3.
+
 -   **[Support for offline signatures](https://www.servicenow.com/docs/access?context=cncore-signature-workflow&family=australia&ft:locale=en-US)**
 
 Record contracts that are signed outside Contract Management Pro, without sending signature request emails to the signatories.
@@ -194,7 +210,6 @@ Contract fulfillers and contract users can select **Offline signature** as the s
 -   **[Add signatory initials placeholders to contract templates](https://www.servicenow.com/docs/access?context=cncore-addin-add-signatory&family=australia&ft:locale=en-US)**
 
 Add initials placeholders to a contract template to mark the locations where signatories provide their initials. In the Microsoft Word add-in, select the **Signatory initials** tag while configuring participants or signature blocks. The initials tag is supported for Adobe Sign and Docusign.
-
 
 -   **[Better visibility of undelivered signature requests for a contract](https://www.servicenow.com/docs/access?context=cncore-cr-state-status&family=australia&ft:locale=en-US)**
 
@@ -304,6 +319,18 @@ Zurich
 
 </td><td>
 
+-   **[Contract family hierarchy](https://www.servicenow.com/docs/access?context=cmpro-linking-parent-child&family=zurich&ft:locale=en-US)**
+
+The Related contract requests tab displays the complete contract family hierarchy for the open contract request, including parent, sibling, and child records at all levels. A visual indicator highlights the contract request that is currently open within the hierarchy. Previously, only the immediate parent and direct children were displayed.
+
+-   **[Supporting document upload in additional contract request states](https://www.servicenow.com/docs/access?context=cncore-ss-add-suprt-doc&family=zurich&ft:locale=en-US)**
+
+Upload multiple supporting documents in a single action from your computer, activity stream, or external storage from the Supporting Documents tab. You can attach supporting documents in the Awaiting Approval, Awaiting Signature, and Contract Signed states, along with the previously supported Draft, Work in Progress, and Awaiting Review states.
+
+-   **[Signatory status](https://www.servicenow.com/docs/access?context=cncore-signatory-roles&family=zurich&ft:locale=en-US)**
+
+The signatory statuses in a contract request have been updated. Pending Signature is now Pending, Signed is now Completed, and Signature Declined is now Declined. The Not started status is unchanged.
+
 -   **[Send contracts for signature using Adobe Sign without signing in](https://www.servicenow.com/docs/access?context=cncore-nss-review-request&family=zurich&ft:locale=en-US)**
 
 Send contracts for signature in Adobe Sign without requiring users to sign in to the e-signature portal. Any modifications to the signatory details and contract documents are restricted in the Adobe Sign portal and must be completed in Contract Management Pro before initiating the signature process.
@@ -384,6 +411,18 @@ Australia
 
 </td><td>
 
+-   **[Contract family hierarchy](https://www.servicenow.com/docs/access?context=cmpro-linking-parent-child&family=australia&ft:locale=en-US)**
+
+The Related contract requests tab displays the complete contract family hierarchy for the open contract request, including parent, sibling, and child records at all levels. A visual indicator highlights the contract request that is currently open within the hierarchy. Previously, only the immediate parent and direct children were displayed.
+
+-   **[Supporting document upload in additional contract request states](https://www.servicenow.com/docs/access?context=cncore-ss-add-suprt-doc&family=australia&ft:locale=en-US)**
+
+Upload multiple supporting documents in a single action from your computer, activity stream, or external storage from the Supporting Documents tab. You can attach supporting documents in the Awaiting Approval, Awaiting Signature, and Contract Signed states, along with the previously supported Draft, Work in Progress, and Awaiting Review states.
+
+-   **[Signatory status](https://www.servicenow.com/docs/access?context=cncore-signatory-roles&family=australia&ft:locale=en-US)**
+
+The signatory statuses in a contract request have been updated. Pending Signature is now Pending, Signed is now Completed, and Signature Declined is now Declined. The Not started status is unchanged.
+
 -   **[Send contracts for signature using Adobe Sign without signing in](https://www.servicenow.com/docs/access?context=cncore-nss-review-request&family=australia&ft:locale=en-US)**
 
 Send contracts for signature in Adobe Sign without requiring users to sign in to the e-signature portal. Any modifications to the signatory details and contract documents are restricted in the Adobe Sign portal and must be completed in Contract Management Pro before initiating the signature process.
@@ -398,7 +437,7 @@ See when a clause, table, or signature block is incorrectly tagged while configu
 
 -   **[Improved Microsoft Word document processing](https://www.servicenow.com/docs/access?context=cncore-set-ext-app-config&family=australia&ft:locale=en-US)**
 
-Contract Management Pro now supports processing of Microsoft Word documents larger than 10 MB. This enhancement applies to all document operations such as contract revision generation, document synchronization, and document comparison.
+Contract Management Pro supports processing of Microsoft Word documents larger than 10 MB. This enhancement applies to all document operations such as contract revision generation, document synchronization, and document comparison.
 
 
 </td></tr></tbody>
@@ -534,7 +573,7 @@ Australia
 
 </td><td>
 
-Install Contract Management Pro by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Contract Management Pro is available in the ServiceNow store. Check your entitlements to determine whether you have access to this application.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -758,6 +797,9 @@ Zurich
 
 </td><td>
 
+-   View the complete contract family hierarchy — including parent, sibling, and child contract requests — from the Related contract requests tab of the contract request.
+-   Upload multiple supporting documents in a single action from your computer, activity stream, or external storage.
+-   Assign roles to signatories to define their level of participation in the Docusign e-signature process.
 -   Contract requests now support offline signatures, enabling users to manage contracts signed outside the system.
 -   Send contracts for signature using Adobe Sign without having to sign in to the electronic signature portal.
 -   Compare two revisions of the contract document and view the redlined compared document.
@@ -774,13 +816,13 @@ Australia
 
 </td><td>
 
--   Contract requests now support offline signatures, enabling users to manage contracts signed outside the system.
--   Send contracts for signature using Adobe Sign without having to sign in to the electronic signature portal.
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Contract Management Pro. Check your entitlements to determine your access to specific features.
+-   View the complete contract family hierarchy — including parent, sibling, and child contract requests — from the Related contract requests tab of the contract request.
+-   Upload multiple supporting documents in a single action from your computer, activity stream, or external storage.
+-   Assign roles to signatories to define their level of participation in the Docusign e-signature process.
+-   Manage contracts signed outside the system using offline signature support for contract requests.
+-   Send contracts for signature using Adobe Sign without signing in to the electronic signature portal.
 -   Track undelivered electronic signature requests for a contract.
--   Compare two revisions of a contract document that are stored in external storage.
--   Support for processing Microsoft Word documents larger than 10 MB in Contract Management Pro.
-
- See [Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-cmpro-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

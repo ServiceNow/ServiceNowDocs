@@ -1,6 +1,6 @@
 ---
 title: ServiceNow AI implementation
-description: Getting ready to implement Now Assist is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
+description: Getting ready to implement ServiceNow Otto is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-implementation-landing.html
 release: australia
@@ -12,13 +12,15 @@ breadcrumb: [Enable AI experiences]
 
 # ServiceNow AI implementation
 
-Getting ready to implement Now Assist is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
+Getting ready to implement ServiceNow Otto is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
 
 ## Get started
 
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 <table id="table_vhh_f41_zgc" class="nav-card presentation"><tbody><tr><td>
 
-[Now Assist overview\[Omitted image "bus-explore.svg"\] Alt text:Learn about the applications and features that make up the Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-overview-tools.md)
+[ServiceNow Otto overview\[Omitted image "bus-explore.svg"\] Alt text:Learn about the applications and features that make up the ServiceNow Otto experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-overview-tools.md)
 
 </td><td>
 
@@ -26,15 +28,15 @@ Getting ready to implement Now Assist is more than just installing plugins—it�
 
 </td><td>
 
-[Data readiness\[Omitted image "bus-database.svg"\] Alt text:Learn how to prepare your instance data for Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md)
+[Data readiness\[Omitted image "bus-database.svg"\] Alt text:Learn how to prepare your instance data for ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md)
 
 </td></tr><tr><td>
 
-[Application readiness\[Omitted image "bus-management-console.svg"\] Alt text:Ensure that your instance is ready to take advantage of Now Assist by preparing Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-app-readiness.md)
+[Application readiness\[Omitted image "bus-management-console.svg"\] Alt text:Ensure that your instance is ready to take advantage of ServiceNow Otto by preparing Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-app-readiness.md)
 
 </td><td>
 
-[Resolve common issues\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Address issues or gaps in your Now Assist configuration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-install-config-checklist.md)
+[Resolve common issues\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Address issues or gaps in your ServiceNow Otto configuration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-install-config-checklist.md)
 
 </td><td>
 
@@ -45,7 +47,7 @@ Getting ready to implement Now Assist is more than just installing plugins—it�
 
 Additional implementation information is available on [Now Create](https://learning.servicenow.com/nowcreate).
 
-For additional Now Assist resources, see [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-additional-resources.md).
+For additional ServiceNow Otto resources, see [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-additional-resources.md).
 
 **Important:**
 

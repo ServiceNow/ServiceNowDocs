@@ -46,7 +46,7 @@ Group
 
 </td><td>
 
-Group for which the operational resource plan is created.If you select **Role** in the **Resource type** field, then the choice list displays the groups for the selected role.
+Group for which the operational resource plan is created.If you select **Role** in the **Resource type** field, then the list displays the groups for the selected role.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Role
 
 </td><td>
 
-Specific [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-role.md) that you want to associate with the plan. This option appears if you select **Group** or **Role** in the **Resource type** field.If you select **Group** in the **Resource type** field, then the choice list displays the roles for the selected group.
+Specific [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-role.md) that you want to associate with the plan. This option appears if you select **Group** or **Role** in the **Resource type** field.If you select **Group** in the **Resource type** field, then the list displays the roles for the selected group.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Members preference
 
 </td><td>
 
-Specific members or all members from the selected group or role. The default is set to **All members**. This field appears only when the **Group** or **Role** option is selected in the **Resource type** field.-   If the **All members** option is selected, the resource plan includes all members of the selected group or role. Time is proportionally divided among the selected group or role members, depending upon their capacity. Before making the hard allocation, if all members are not required, as a resource manager, you can select only specific members from the group or role.
+Specific members or all members from the selected group or role. The default is set to **All members**. This field appears only when the **Group** or **Role** option is selected in the **Resource type** field.-   If the **All members** option is selected, the resource plan includes all members of the selected group or role. Time is proportionally divided among the selected group or role members, depending on their capacity. Before making the hard allocation, if all members aren't required, as a resource manager, you can select only specific members from the group or role.
 -   If the **Specific member** option is selected, a request is made for the specified members. The requested hours are proportionately split among specified users of the group or role, based on their available capacity.
 
 </td></tr><tr><td>
@@ -111,7 +111,7 @@ Actual hours
 
 </td><td>
 
-Hours spent on a planned operational task.**Note:** When you submit a time card, upon approval of the time card, actual hours are updated for an allocation record of an operational resource plan.
+Hours spent on a planned operational task.**Note:** When you submit a time card, on approval of the time card, actual hours are updated for an allocation record of an operational resource plan.
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Type of allocation spread. The value in this field determines the manner in whic
  For example, if a resource is requested for 30 hours in week 10, then:
 
 -   Selecting **Even** equally divides 30 hours between all weekdays, which is 6 hours per day for a five-day work week.
--   Selecting **Front Load**consumes all the available hours on Monday, moves on to Tuesday, and so on, until all the 30 hours are allocated. If the resource is not available for 30 hours in week 10, it over-allocates by filling up the remaining hours from the start date up to 24 hours per day.
+-   Selecting **Front Load**consumes all the available hours on Monday, moves on to Tuesday, and so on, until all the 30 hours are allocated. If the resource is not available for 30 hours in week 10. It then over-allocates by filling up the remaining hours from the start date up to 24 hours per day.
 
 </td></tr><tr><td>
 
@@ -236,7 +236,7 @@ Additional correspondence and information.
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Copy Resource Plan|Copies the opened resource plan to create a new resource plan.|
+|Copy Resource Plan|Copies the opened resource plan to create resource plan.|
 
 <table id="table_zdk_zr1_mcc"><thead><tr><th>
 

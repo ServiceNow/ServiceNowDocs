@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, ERP integration, inbound integration]
+keywords: [APO, Accounts Payable Operations, invoice management, ERP Source, inbound integration, Invoice Imports, Load Invoice data]
 breadcrumb: [Accounts Payable Operations integration framework, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -29,7 +29,7 @@ Role required: sn\_spend\_intg\_admin or sn\_spend\_intg\_procurement\_integrato
 
 1.  Open `sn_spend_intg_imp_invoice_list.do` staging table.
 
-    The **Invoice Imports** lists the inbound invoice columns. For more information on the inbound fields, refer [Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md).
+    The **Invoice Imports** lists the inbound invoice columns. For more information on the inbound fields, refer [Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md).
 
     **Note:** If the required inbound fields are validated and entered, then the **Status** is set to inserted.
 
@@ -41,4 +41,9 @@ Role required: sn\_spend\_intg\_admin or sn\_spend\_intg\_procurement\_integrato
 
     Invoice record is created in the **Draft** state and the scheduled job is run every thirty minutes. If the required fields on the invoice are filled, and no exceptions are found, then the invoice is auto set to **Approved** status.
 
+
+## What to do next
+
+-   [Working with outbound invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.md)
+-   [Working with integration error tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.md)
 

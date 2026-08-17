@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Create and edit a synthetic monitor
@@ -35,7 +35,7 @@ Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.syn
 
     1.  In the Monitor details section, enter a unique name for the monitor and a description.
 
-    2.  In the HTTP settings section, fill in the fields.
+    2.  In the Endpoint settings section, select HTTP Endpoints and complete the fields with required details.
 
 <table id="table_fyp_s2l_c2c"><thead><tr><th>
 
@@ -51,7 +51,7 @@ HTTP method
 
 </td><td>
 
-HTTP method that you want to monitor for the endpoint.**Note:** HEAD and OPTIONS methods aren't supported from a MID Server.
+HTTP method that you want to monitor for the endpoint.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ HTTP endpoint CI
 
 </td><td>
 
-CI for the endpoint that you want the monitor to test.If the endpoint doesn't exist, choose **Manage HTTP endpoints in CMDB** to create a CI.
+CI for the endpoint that you want the monitor to test.If the endpoint doesn't exist, choose **Create** to create a endpoint CI. When this field is populated, the Related service CI and support group are available.
 
 </td></tr><tr><td>
 

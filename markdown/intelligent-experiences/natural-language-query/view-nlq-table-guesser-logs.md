@@ -45,7 +45,7 @@ Review these logs to troubleshoot which CMDB tables were inferred by NLQ.
 
 ## What to do next
 
-For more information on CMDB queries, see .
+For more information on CMDB queries, see [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md).
 
 **Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 

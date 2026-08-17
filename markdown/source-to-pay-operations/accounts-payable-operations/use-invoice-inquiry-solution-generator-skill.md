@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case]
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice management, generator skill, Finance and Supply Chain, AI Admin, invoice inquiry case]
+breadcrumb: [Use ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Use Invoice inquiry solution generator skill
@@ -23,7 +23,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub console.
 
 2.  Expand the **Finance and Supply Chain** workflow group and select **Accounts Payable Operations**.\[Omitted image "invoice-inquiry-solution-generate.png"\] Alt text: Invoice inquiry solution generator skill
 
@@ -34,5 +34,5 @@ Role required: admin
 
 ## Result
 
-The invoice and related inquiry data is analyzed by AI skills, AI agent, and case and auto-recommends resolution, which will be reviewed by the AP agent resulting in automatic updating of case closure notes.
+AI skills and the AI agent analyze the invoice and related inquiry data, then recommend a resolution. The AP agent reviews the recommendation and the case closure notes are updated automatically.
 

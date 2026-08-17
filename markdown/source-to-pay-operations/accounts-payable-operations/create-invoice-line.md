@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice capture, invoice processing, AP specialist]
-breadcrumb: [Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create an invoice line manually
@@ -39,7 +39,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 
 -   **[Invoice rejection modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-rejection-modes.md)**  
-Invoice rejection modes control how Accounts Payable Operations handles exceptions that require an invoice to be rejected, either automatically by the system or through manual review by an AP specialist.
+Invoice rejection modes control how Accounts Payable Operations processes exceptions, automatically by system or manual review.
 -   **[Reject an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reject-an-invoice-manually.md)**  
 Review exceptions flagged for manual rejection and reject an invoice from the invoice case when AP specialist confirmation is required.
 -   **[Credit memo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.md)**  

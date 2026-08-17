@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceoperationsworkspaceforitsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
+last_updated: "2026-08-17"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -158,7 +158,7 @@ Australia
 
 -   **[UI16 links to SOW redirection behavior](https://www.servicenow.com/docs/access?context=manage-admin-console-sow-itsm&family=australia&ft:locale=en-US)**
 
-Improve the fulfiller experience by redirecting UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
+Redirect UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
 
 For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center. You can enable this feature for the UI16 links and user groups or specifically for a custom table. You can also enable this feature for specific user groups or all user groups within the custom table or applications in SOW.
 
@@ -228,11 +228,11 @@ Australia
 
 -   **[Configure reference field auto-load behavior from SOW Admin Center](https://www.servicenow.com/docs/access?context=admin-center-sow&family=australia&ft:locale=en-US)**
 
-Use the Reference field auto-load behavior option from the SOW Properties section of the SOW Admin Center to configure the **Reference search on click ** \(**ref\_search\_on\_click**\) UX page property. The option enables you to configure the automatic searching of field value results displayed for reference fields such as Configuration item, Service offering, and Service.
+Use the Reference field auto-load behavior option from the SOW Properties section of the SOW Admin Center to configure the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property. The option enables you to configure the automatic searching of field value results displayed for reference fields such as Configuration item, Service offering, and Service.
 
 -   **[Recent list links in SOW record](https://www.servicenow.com/docs/access?context=view-inc-record-info-contextual-sidepanel&family=australia&ft:locale=en-US)**
 
-Selecting the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
+Select the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
 
 -   **[Generate, update and publish PIR](https://www.servicenow.com/docs/access?context=review-update-pir-mim-sow&family=australia&ft:locale=en-US)**
 
@@ -328,7 +328,7 @@ Australia
 
 </td><td>
 
-Service Operations Workspace for ITSM is active by default and its default version is 9.0 in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM 9.0 is automatically installed.
+Service Operations Workspace for ITSM is active by default and its default version is `9.0` in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM `9.0` is automatically installed.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -500,10 +500,10 @@ Australia
 -   Access SOW configuration and property pages of various SOW applications using granular admin roles.
 -   Improve the focus on relevant contextual information by hiding the contextual side panel for a specific table and tab combination.
 -   Configure reference field auto-load behavior from the SOW Admin Center.
--   Enable service desk agents to easily create, manage, and track checklists for Request and RITM records directly within the workspace to confirm that all steps are completed.
+-   Enable service desk agents to create, manage, and track checklists for Request and RITM records directly within the workspace to confirm that all steps are completed.
 -   Starting in version 9.2, you can do the following:
     -   Perform various actions on the post incident report \(PIR\) if you have the incident\_write role and added as co-contributor to the PIR.
-    -   Reduce the effort to investigate and resolve incidents using the AI incident summary and resolution plan suggestion in the **Overview** tab of an incident record.
+    -   Investigate and resolve incidents by using the AI incident summary and resolution plan suggestion in the **Overview** tab of an incident record.
 
  See [Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&family=australia&ft:locale=en-US) for more information.
 

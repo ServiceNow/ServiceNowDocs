@@ -90,11 +90,11 @@ To configure the Pre-Eligibility questions for a new Grant Program using a decis
 
 When applicants proceed to answer eligibility questions, they are presented with the questionnaire that you have just created using the decision tree. Based on their responses:
 
--   \[Omitted image "psds\_gm\_pre\_eligible.png"\] Alt text: pre-eligbility questions view
+-   \[Omitted image "psds\_gm\_pre\_eligible.png"\] Alt text: pre-eligibility questions view
 
     If eligible, they will see a success message and the option to proceed with their proposal.
 
--   \[Omitted image "psds\_gm\_pre\_not\_eligible.png"\] Alt text: pre-eligbility questions view
+-   \[Omitted image "psds\_gm\_pre\_not\_eligible.png"\] Alt text: pre-eligibility questions view
 
     If not eligible, a message will indicate that they may not be eligible and suggest reviewing their answer.
 

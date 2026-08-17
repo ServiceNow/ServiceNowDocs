@@ -28,7 +28,7 @@ There are two database rotation plugins.
     **Note:** Deployment of this plugin should be executed in partnership with a ServiceNow representative.
 
 
-For new instances, database rotation is active by default. If you are upgrading from a previous version, users with the admin role can activate the Database Rotations \(com.snc.db.rotation\) plugin if it isn't already active.
+For new instances, database rotation is active by default. If you're upgrading from a previous version, users with the admin role can activate the Database Rotations \(com.snc.db.rotation\) plugin if it isn't already active.
 
 ## Procedure
 

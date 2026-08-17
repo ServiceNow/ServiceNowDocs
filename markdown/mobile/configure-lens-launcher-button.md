@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Configure a Lens launcher button
@@ -42,15 +42,15 @@ If any Inputs in an input form screen have the **DisableAILensAutoFill** attribu
 
 5.  Select **New** under the function instance option that corresponds to where you want the button to appear, then complete the fields in the **Function instance** form.
 
-<table><thead><tr><th align="left" id="d110396e144">
+<table><thead><tr><th align="left" id="d110770e144">
 
 Option
 
-</th><th align="left" id="d110396e147">
+</th><th align="left" id="d110770e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d110396e153">
+</th></tr></thead><tbody><tr><td id="d110770e153">
 
 **__Top icon function instances__**
 
@@ -62,7 +62,7 @@ Creates a button in the top header. -   **Name** — Enter a name for the functi
 -   **Function** — Select **New** to display the function form.
 
 
-</td></tr><tr><td id="d110396e189">
+</td></tr><tr><td id="d110770e189">
 
 **__Top menu function instances__**
 
@@ -95,5 +95,5 @@ Enable write-back actions to use attachment IDs in your ServiceNow AI Lens launc
 -   **[Configure Lens launcher using scripted screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-lens-launcher-scripted-screen.md)**  
 Configure a ServiceNow AI Lens launcher button with scripted screen.
 
-**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 

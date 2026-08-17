@@ -1,5 +1,5 @@
 ---
-title: Implement access control in Now Assist AI agents
+title: Implement access control in AI agents
 description: Implement security controls for AI agents and agentic workflows through access control lists \(ACLs\), user identities, and role masking to implement the access control-based security measures in the agentic system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-security-implementation.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2025-09-11"
 reading_time_minutes: 4
 keywords: [agentic AI Security, ACLs in AI agents]
-breadcrumb: [Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
 ---
 
-# Implement access control in Now Assist AI agents
+# Implement access control in AI agents
 
 Implement security controls for AI agents and agentic workflows through access control lists \(ACLs\), user identities, and role masking to implement the access control-based security measures in the agentic system.
 
@@ -21,7 +21,7 @@ Access controls for agentic AI on the ServiceNow AI Platform comprises the major
 
 ## Access control lists
 
-The access control lists \(ACLs\) in Now Assist AI agents determine which role\(s\) a user must have to be allowed to invoke an agentic workflow or an AI agent. ACLs must be configured individually for each agentic workflow, AI agent, and certain AI agent tools.
+The access control lists \(ACLs\) in AI agents determine which role\(s\) a user must have to be allowed to invoke an agentic workflow or an AI agent. ACLs must be configured individually for each agentic workflow, AI agent, and certain AI agent tools.
 
 The ACLs added to an AI agent and agentic workflow are available in the respective related lists for reference.
 
@@ -43,7 +43,7 @@ There are two possible user configurations to select from:
 
 -   **AI user**: A dedicated user identity that the AI agent or an agentic workflow runs as during execution, which has assigned roles that remain consistent regardless of who or how the execution is invoked. For example, an AI agent or an agentic workflow may need to be run with elevated privileges that the dynamic user might not have. If configured as a dynamic user, the execution would fail. However, if the AI agent or agentic workflow is configured to run as an AI user that has the elevated roles assigned to it, the execution will succeed even when invoked by a user with lower privileges.
 
-If you don't have a suitable AI user but want to use the **AI user** identity, you must create a record on the User \[sys\_user\] table. See Create a user and select **AI user** as the identity type.
+If you don't have a suitable AI user but want to use the **AI user** identity, you must create a record on the User \[sys\_user\] table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) and select **AI user** as the identity type.
 
 **Note:**
 
@@ -54,7 +54,7 @@ If you don't have a suitable AI user but want to use the **AI user** identity, y
 
     **Note:**
 
-    -   Now Assist Skills and other tools of AI agents always run as Dynamic Users.
+    -   The generative AI Skills and other tools of AI agents always run as Dynamic Users.
     -   This flow applies to user-invoked agents. Agents with automated triggers operate without a conversational user; role masking still applies, but the invoking context is a system session rather than an individual user.
 
 ## Supervised execution mode for AI agents

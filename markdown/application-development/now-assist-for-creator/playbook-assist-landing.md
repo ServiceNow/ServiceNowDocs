@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use generative AI, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Playbook generation
@@ -56,11 +56,11 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 -   **[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md)**  
 Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 -   **[Turn on the playbook generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-playbook-generation-skill.md)**  
-Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 -   **[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)**  
 Generate a playbook using AI by providing text directions or an image.
 -   **[Roles in Now Assist for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-roles.md)**  
-The following roles are installed for use with the Now Assist for Creator playbook generation skill.
+The following roles are installed for use with the ServiceNow Otto for Creator playbook generation skill.
 
-**Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using generative AI with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

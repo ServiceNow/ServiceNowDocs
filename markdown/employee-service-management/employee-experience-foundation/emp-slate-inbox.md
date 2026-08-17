@@ -73,7 +73,7 @@ Access all your tasks, approvals, and requests from a unified space, Employee Sl
 
 Conversational filters apply along with the filters that administrators configure.
 
-**Note:** AI summaries, AI prioritization, AI Insights for approvals, and chat-driven actions require Now Assist. Employee Slate deployments that use Moveworks without Now Assist include the tasks and requests without some AI capabilities.
+**Note:** AI summaries, AI prioritization, AI Insights for approvals, and chat-driven actions require Now Assist. Employee Slate deployments that use ServiceNow Otto without Now Assist include the tasks and requests without some AI capabilities.
 
 **Related topics**  
 

@@ -17,7 +17,7 @@ Use the securing custom apps with Vault agents agentic workflow to get recommend
 
 ## Securing custom apps with Vault agents agentic workflow overview
 
-When you install Now Assist for Vault, this agentic workflow is turned on by default.
+When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
@@ -30,7 +30,7 @@ To access and configure the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Securing custom apps with Vault agents**.
 
-**Note:** The securing custom apps with Vault agents agentic workflow is triggered automatically when you secure custom applications using ServiceNow Vault console dashboard. You can also invoke the agentic workflow manually in the Now Assist panel.
+**Note:** The securing custom apps with Vault agents agentic workflow is triggered automatically when you secure custom applications using ServiceNow Vault console dashboard. You can also invoke the agentic workflow manually in the ServiceNow Otto panel.
 
 ## AI agents used in the securing custom apps with Vault agents agentic workflow
 
@@ -54,7 +54,7 @@ Uses various tools to perform the following:-   Analyzes the table schema and it
 -   Proposes zero trust access and data privacy protection.
 
 </td></tr></tbody>
-</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+</table>There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-**Parent Topic:**[Use agentic AI in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 

@@ -63,7 +63,7 @@ RPA Attended robot and AI Desktop Actions parallel execution
 
 </td><td>
 
-To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
+To avoid conflicts, don't run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
 
 </td></tr><tr><td>
 

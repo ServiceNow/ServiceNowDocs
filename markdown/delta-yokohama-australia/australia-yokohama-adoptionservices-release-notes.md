@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-adoptionservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -159,7 +159,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[genai\_admin role in Dynamic Guidance](https://www.servicenow.com/docs/access?context=configure&family=zurich&ft:locale=en-US)**
+
+The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
+
 
 </td></tr><tr><td>
 
@@ -167,7 +170,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[genai\_admin role in Dynamic Guidance](https://www.servicenow.com/docs/access?context=configure&family=australia&ft:locale=en-US)**
+
+The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -278,7 +284,7 @@ Australia
 
 </td><td>
 
-Adoption Services is active by default with the plugins. Do not activate this feature.
+Adoption Services is a ServiceNow AI Platform feature that is active by default.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -401,7 +407,7 @@ Guided Tours is enhanced with more accessibility features including:
 
     -   Descriptive page titles
     -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
+    -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
 
 </td></tr></tbody>
 </table>## Localization information

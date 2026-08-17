@@ -8,7 +8,7 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Strategic Portfolio Management]
 ---
 
@@ -47,6 +47,10 @@ Explore the generative AI features available in the Strategic Planning applicati
 </td><td>
 
 [\[Omitted image "bus-management-console.svg"\] Alt text: Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/dashboards-in-spw.md)
+
+</td><td>
+
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text: RIDAC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-ridac-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

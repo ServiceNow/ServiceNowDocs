@@ -1,6 +1,6 @@
 ---
 title: Identify loss scenarios and align them to the plan
-description: When you create a continuity plan or a recovery plan for a department or a business unit, it is necessary to identify and align loss scenarios to the plan.
+description: Create a continuity or recovery plan for a department or business unit, identify, and align loss scenarios with the plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/loss-scenarios-align-with-bcp.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Cl
 
 # Identify loss scenarios and align them to the plan
 
-When you create a continuity plan or a recovery plan for a department or a business unit, it is necessary to identify and align loss scenarios to the plan.
+Create a continuity or recovery plan for a department or business unit, identify, and align loss scenarios with the plan.
 
 ## Before you begin
 

@@ -1,6 +1,6 @@
 ---
 title: Add propensity score for a supplier
-description: The propensity score is used to identify the likelihood of a supplier to accept credit card payments. The supplier managers can manually update the propensity score for suppliers from the Source-to-Pay Workspace.
+description: Add propensity scores to identify suppliers likely to accept credit card payments for optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-propensity-score.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Supplier Payment Optimization, Use, Supplier Lifecycle Operat
 
 # Add propensity score for a supplier
 
-The propensity score is used to identify the likelihood of a supplier to accept credit card payments. The supplier managers can manually update the propensity score for suppliers from the Source-to-Pay Workspace.
+Add propensity scores to identify suppliers likely to accept credit card payments for optimization.
 
 ## Before you begin
 

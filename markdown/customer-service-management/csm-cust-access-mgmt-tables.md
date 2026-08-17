@@ -322,7 +322,7 @@ Organization Core
 
  sn\_customer\_service\_organization
 
- Service organization that is primarily responsible for the install base.
+ Organization that is primarily responsible for the install base.
 
 </td></tr><tr><td>
 

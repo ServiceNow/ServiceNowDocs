@@ -3052,7 +3052,7 @@ Incident Number: INC0010004, Short Description: Incident for assessment not gene
 
 Sets the value of the field with the specified name to the specified value.
 
-Normally the script does a `now_GR.category = value`. However, if the element name is itself a variable then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure the data type of the field matches the data type of the value you enter.
+Normally the script does a `now_GR.category = value`. However, if the element name is itself a variable then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure the data type of the field matches the data type of the value you enter. For information about the differences between using setValue\(\) and direct assignment, see [Explanation of Assignment Behavior for Reference GlideList Fields \[KB2557324\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2557324) in the Now Support Knowledge Base.
 
 **Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md).
 

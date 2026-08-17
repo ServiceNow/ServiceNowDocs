@@ -18,7 +18,7 @@ Use access control rules to configure table and column-level security in the Ser
 
 Self-Paced Training: [Securing Applications](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_securingapps_rome_securing_applications)
 
-Documentation: [Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)
+Documentation: [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)
 
 When considering security:
 

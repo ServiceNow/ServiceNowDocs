@@ -28,6 +28,8 @@ Configuring the Software Asset Management application by the system administrato
 
 -   **[Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md)**  
  The ServiceNow® Software Asset Management Professional \(com.snc.samp\) plugin requires a separate subscription. This plugin includes demo data. Depending on your environment, you may choose to request one or more related plugins.
+-   **[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)**  
+Configure the ServiceNow Otto for Software Asset Management \(SAM\) application to use the agentic workflow and generativeAI skills for managing your software assets autonomously.
 -   **[Overwrite customizations for Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_MigrateSAMCustom.md)**  
 When migrating from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 -   **[Configure SCCM for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-sccm-sam.md)**  

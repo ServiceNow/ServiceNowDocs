@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ The Discovery Admin Workspace Home page features tools to help you identify and 
 
 To access the Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0. If the **sn\_disco\_workspace.enable\_error\_framework** system property is turned off, the Home page displays the legacy experience. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. If the **sn\_disco\_workspace.enable\_error\_framework** system property is turned off, the Home page displays the legacy experience. Specific version requirements are noted for individual features where applicable.
 
 \[Omitted image "daw-home-ef.png"\] Alt text: Discovery Admin Workspace Settings page
 
@@ -37,7 +37,7 @@ After you complete configuration, the Home page displays an Onboarding for Disco
 
 View the status of discovery using data counts and identify any irregularities that might impact discovery. For detailed information, select the appropriate tile.
 
-Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
+Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
 **Note:** You can configure the time scale reflected in the displayed counts on the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
 

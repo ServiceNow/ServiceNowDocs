@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [application registries form fields, oauth client registration, client id field, client secret field, redirect url field, public client, access token lifespan, refresh token lifespan, default grant type, application registry configuration, oauth client configuration]
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
@@ -96,7 +97,7 @@ Accessible from
 
 </td><td>
 
-IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client with a service provider, you may be required to provide a list of IP addresses or domains that are allowed to make requests to the service provider's API on behalf of your client.
+IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client, you may be required to provide a list of IP addresses or domains allowed to make requests to the service provider's API.
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Refresh Token Lifespan
 
 </td><td>
 
-The duration of a user's session before requiring reauthentication in your application.
+The duration \(in seconds\) of a user's session before requiring reauthentication in your application.
 
 </td></tr><tr><td>
 
@@ -120,7 +121,7 @@ Access Token Lifespan
 
 </td><td>
 
-Refers to the period of time during which an access token is considered valid for use by an application.
+The duration \(in seconds\) for which an access token is considered valid for use by an application.
 
 </td></tr><tr><td>
 

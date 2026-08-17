@@ -16,7 +16,7 @@ breadcrumb: [Explore, Opportunity Marketplace, Hiring Experiences, HR Service De
 
 Gigs have a single role with one or more vacancies. Gigs and other opportunity types are configured by ServiceNow admins from the Opportunity Type Configuration form.
 
-Gigs refer to temporary jobs that involve well-defined tasks or projects. Gigs are flexible opportunities that can be short-term or long-term employment contracts. Gigs enable companies to find specialized skills or to scale their workforce according to project demands without committing to long-term resource commitments. For more information about opportunity types, see .
+Gigs refer to temporary jobs that involve well-defined tasks or projects. Gigs are flexible opportunities that can be short-term or long-term employment contracts. Gigs enable companies to find specialized skills or to scale their workforce according to project demands without committing to long-term resource commitments.
 
 **Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

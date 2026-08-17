@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure Sales Forecasting, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Forecast Model
@@ -146,8 +146,18 @@ Base
 
 Option to submit and adjust forecasts at base forecast source. **Note:** If you select this option, **Single** is the default option for Rollup Type field.
 
+</td></tr><tr><td>
+
+Reopen Submission
+
+</td><td>
+
+Option to enable users to reopen a completed forecast submission and resubmit within the current submission window. This field remains editable even when the forecast model is active.
+
 </td></tr></tbody>
-</table>4.  Enter the configurations for forecast generation.
+</table>    **Note:** When the forecast model is active, the admin can set the attribute **readOnlyWhenActive** as `true` to make the fields read-only. By default, this value is `false` to make the fields editable.
+
+4.  Enter the configurations for forecast generation.
 
     1.  Select **Forecast Configuration Overrides** related list.
 

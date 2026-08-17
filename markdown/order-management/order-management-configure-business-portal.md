@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/order-manageme
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
@@ -65,12 +65,21 @@ The following tasks help you further customize and configure the Business Portal
     Add order checkout terms and conditions in the CartTermsAndCo document template block for your Business Portal.
 
 
+## Enable AI-powered workflows on the Business Portal
+
+-   [Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
+
+    Enable B2B customers to submit order cases using from the Business Portal using chat and voice options.
+
+-   [Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
+
+    Enable B2B customers to submit invoice cases using from the Business Portal using chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CSM/FSM Configurable Workspace to resolve invoice cases.
+
+
 **Related topics**  
 
 
 [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 
 [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
-
-[Enable the manage order operations agent on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-manage-order-operations-ai-agent.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 breadcrumb: [Automated testing for Virtual Agent topics that use NLU topic discovery, Testing NLU/Keyword topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Avoid failures when performing automated tests for topics in Assistant Designer 
 
 ## Before you begin
 
-Set up a test case for a topic that includes dynamic inputs. See [Create an automated test in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-automated-test-vad.md) for more information.
+Set up a test case for a topic that includes dynamic inputs. See [Create an automated test in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-automated-test-vad.md) for more information.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -28,17 +28,19 @@ When running a test in Assistant Designer, some tests may fail even when a topic
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Set the discovery type toggle switch to **NLU/keyword**, then select **Manage test cases**.
+2.  Select the **Asset library** tab.
 
-3.  Open the test case that you want to work with.
+3.  Set the discovery type toggle switch to **NLU/keyword**, then select **Manage test cases**.
 
-4.  Under the **Test Steps** tab, select the Active column of the test step you want to exclude, and set its value to `False`.
+4.  Open the test case that you want to work with.
 
-5.  Repeat Step 4 with as many test steps as you want to deactivate.
+5.  Under the **Test Steps** tab, select the Active column of the test step you want to exclude, and set its value to `False`.
 
-6.  Run or debug your test case.
+6.  Repeat Step 4 with as many test steps as you want to deactivate.
+
+7.  Run or debug your test case.
 
 
 **Parent Topic:**[Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/automated-testing-va-topics.md)

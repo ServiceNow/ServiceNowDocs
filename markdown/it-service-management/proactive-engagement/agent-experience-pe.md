@@ -9,7 +9,7 @@ classification: proactive-engagement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using, Proactive Engagement, Digital End-User Experience, IT Service Management]
+breadcrumb: [Use DEX Proactive Engagement, Proactive Engagement, Digital End-User Experience, IT Service Management]
 ---
 
 # Agent experience through Proactive Engagement

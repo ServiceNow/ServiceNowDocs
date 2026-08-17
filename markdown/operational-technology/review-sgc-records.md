@@ -47,3 +47,5 @@ These are optional tasks.
 7.  Use the items in the menu to review information from the Service Graph Connector for ServiceNow OT Discovery Guided Setup settings.
 
 
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+

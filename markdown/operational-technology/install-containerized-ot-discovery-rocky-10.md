@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-01"
 reading_time_minutes: 1
-breadcrumb: [Air-gapped networks and OT Discovery installation, Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Air-gapped networks and OT Discovery installation, Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install containerized OT Discovery components on Rocky 10
@@ -124,4 +124,6 @@ Role required: admin
     
     ```
 
+
+**Parent Topic:**[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md)
 

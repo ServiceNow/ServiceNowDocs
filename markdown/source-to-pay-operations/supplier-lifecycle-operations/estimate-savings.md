@@ -1,6 +1,6 @@
 ---
 title: Estimate savings using the saving estimator tool
-description: The saving estimator tool is used to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create new estimates.
+description: Use the saving estimator tool to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create estimates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Supplier Payment Optimization, Use, Supplier Lifecycle Operat
 
 # Estimate savings using the saving estimator tool
 
-The saving estimator tool is used to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create new estimates.
+Use the saving estimator tool to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create estimates.
 
 \[Omitted video\] Description: Estimate savings using the saving estimator tool
 

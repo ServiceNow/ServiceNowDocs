@@ -1,6 +1,6 @@
 ---
 title: Invoice data transformation logic
-description: Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values, including dates, currencies, unit prices, and decimals, into formats supported by downstream processing systems.
+description: Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values into formats supported by downstream processing systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice management, DocIntel, Document Intelligence, integration]
+keywords: [APO, Accounts Payable Operations, data transformation, invoice type, invoice processing, Date conversion logic, DocIntel, Document Intelligence]
 breadcrumb: [How Accounts Payable Operations integration with Document Intelligence works, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice data transformation logic
 
-Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values, including dates, currencies, unit prices, and decimals, into formats supported by downstream processing systems.
+Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values into formats supported by downstream processing systems.
 
 ## Type deriving logic
 
@@ -134,7 +134,7 @@ Purchase Order
 </td><td>
 
 The system does the following:-   The system considers the purchase order value mentioned in the invoice stage
--   If the purchase order value is prefixed with special characters, alphabets or zeroes, then the application ignores the prefixes and matches the remaining purchase order value with the ERP number from the purchase order table
+-   If the purchase order value is prefixed with special characters, alphabets, or zeroes, the application ignores the prefixes. It then matches the remaining purchase order value with the ERP number from the purchase order table.
 -   If a unique purchase order is found, then the application populates the purchase order in the invoice
 
 </td></tr><tr><td>
@@ -144,8 +144,8 @@ Supplier
 </td><td>
 
 The system does one of the following:-   The system considers the value mentioned in the invoice and does a complete match with supplier in Supplier table.
--   If the invoice contains a purchase order associated with the supplier, the application matches with the supplier name mentioned in the invoice with the supplier name of purchase order and populates the supplier.
--   If the invoice document contains supplier name with more than two words, the application performs partial name match against the supplier details in the supplier table along with street address or city. Example. If the invoice document contains supplier name as XX Corp, and the supplier name in the supplier table is XX Ltd, the application matches XX in supplier table along with the address and populates the invoice document with the corresponding supplier.
+-   If the invoice contains a purchase order associated with the supplier, the application matches the supplier name in the invoice with the supplier name on the purchase order. It then populates the supplier.
+-   If the invoice contains a supplier name with more than two words, the application performs a partial name match against the supplier table. The match includes the street address or city. For example, if the invoice contains the supplier name XX Corp and the supplier table contains XX Ltd, the application matches XX with the address. It then populates the invoice with the corresponding supplier.
 
 If a unique supplier record is found in any of the above, then the application populates the supplier in the invoice.
 

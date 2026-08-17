@@ -1,6 +1,6 @@
 ---
 title: Create use cases for contract analysis
-description: Create a use case for contract analysis that is used by Now Assist to identify non-standard and missing clauses in a contract document.
+description: Create a use case for contract analysis that is used by AI to identify non-standard and missing clauses in a contract document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.html
 release: australia
@@ -9,13 +9,13 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Contract analysis, Create use case, Contract analysis use case, Now Assist use cases, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Create use case, Contract analysis use case, Now Assist use cases, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract analysis
 
-Create a use case for contract analysis that is used by Now Assist to identify non-standard and missing clauses in a contract document.
+Create a use case for contract analysis that is used by AI to identify non-standard and missing clauses in a contract document.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 The contract analysis use case contains field groups and their associated fields.
 
-Field groups represent the clauses that are used in the contract document. Field groups are linked to clause variations of a clause library. Now Assist uses the mapped clause content to display suggestions for missing or non-standard clause.
+Field groups represent the clauses that are used in the contract document. Field groups are linked to clause variations of a clause library. AI uses the mapped clause content to display suggestions for missing or non-standard clause.
 
-Fields are the prompt questions added for a field group. Fields are mapped to an expected response. Now Assist executes these fields \(prompt questions\) on a contract document to identify the non-standard clauses.
+Fields are the prompt questions added for a field group. Fields are mapped to an expected response. AI executes these fields \(prompt questions\) on a contract document to identify the non-standard clauses.
 
 When creating a use case, add a field group, and then define the fields within that field group to ensure that the fields are linked to the field group.
 
@@ -39,13 +39,13 @@ For more information on the computation of non-standard and missing clauses, see
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -83,7 +83,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents this is by Now Assist.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
+Language of the contract documents this is by AI.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ LLM provider
 
 </td><td>
 
-Large language model \(LLM\) provider for the use case that is used to analyze contracts.**Note:** For contract analysis use cases, select large LLMs such as Now LLM Service Large to ensure more accurate results.
+Large language model \(LLM\) provider for the use case that is used to analyze contracts.
 
 </td></tr><tr><td>
 
@@ -211,5 +211,5 @@ The use case for Contract analysis skill is created.
 
 [Map a use case for contract analysis]()
 
-[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

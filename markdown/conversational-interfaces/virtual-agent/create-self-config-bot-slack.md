@@ -26,23 +26,23 @@ Role required: none
 
 1.  Log in to [Slack API](https://api.slack.com/apps).
 
-2.  Navigate to **Your Apps** and click **Create New App**.
+2.  Navigate to **Your Apps** &gt; **Create New App**.
 
-3.  Enter an **App Name**, select your **Slack Workspace** and click **Create App**.
+3.  Enter an **App Name**, select your **Slack Workspace**, and then select **Create App**.
 
-4.  Configure Interactive Components.
+4.  Configure interactive components.
 
     1.  Navigate to **Interactivity** &gt; **Shortcuts** in the left menu and turn on **Interactivity**.
 
     2.  Update the **Request URL**.
 
-        If you are setting up your self-configured bot on an ServiceNow instance, then the request URL must be `https://<instance-name>/api/now/v1/cs/adapter/slack/actions`.
+        If you are setting up your self-configured bot on a ServiceNow instance, then the request URL must be `https://<instance-name>/api/now/v1/cs/adapter/slack/actions`.
 
-    3.  Click **Save**.
+    3.  Select **Save**.
 
-5.  Configure Event Subscriptions.
+5.  Configure event subscriptions.
 
-    1.  Click **Event Subscriptions** in the left menu and turn on **Enable Events**.
+    1.  select **Event Subscriptions** in the left menu and turn on **Enable Events**.
 
     2.  Update the **Request URL**.
 
@@ -50,31 +50,27 @@ Role required: none
 
     3.  Wait for the Request URL to get verified.\[Omitted image "slack-event-subscriptions.png"\] Alt text: The Request URL field displays green "Verified" text with a check mark.
 
-    4.  Under Subscribe to bot events, click **Add Bot User Event** and add `message.im`.
+    4.  Under Subscribe to bot events, select **Add Bot User Event** and add `message.im`.
 
-    5.  Click **Save**.
+    5.  Select **Save**.
 
-6.  Navigate to the **Incoming Webhook** tab and slide the **Activate Incoming Webhooks** toggle switch to enable it.
+6.  Navigate to the **Incoming Webhook** tab, and then slide the **Activate Incoming Webhooks** toggle switch to enable it.
 
-7.  Configure OAuth &amp; Permissions.
+7.  Configure OAuth and permissions.
 
-    1.  Click OAuth &amp; Permissions from the left menu and navigate to **Scopes** &gt; **Bot Scopes**.
+    1.  Select OAuth &amp; Permissions from the left menu and navigate to **Scopes** &gt; **Bot Scopes**.
 
     2.  Select **Add an OAuth Scope** and add the following scopes:
 
         -   chat:write
-        -   channels:write
         -   files:read
         -   files:write
-        -   groups:write
         -   im.history
         -   incoming-webhook
-        -   mpim:write
-        -   im:write
         -   team:read
         -   users:read
         -   users:read.email
-8.  Navigate to **OAuth &amp; Permissions**, click **Install to Workspace**, and click **Allow**.
+8.  Navigate to **OAuth &amp; Permissions**, select **Install to Workspace**, and then select **Allow**.
 
     \[Omitted image "allow-bot-install.png"\] Alt text: Dialog box window for allowing or canceling installation of a Test Bot in a Slack workspace.
 

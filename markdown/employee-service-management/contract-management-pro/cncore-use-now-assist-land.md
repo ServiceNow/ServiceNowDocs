@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist in Contract Management
-description: If you have the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can review the non-standard and missing clauses in a contract, extract the information from a signed contract to add it to the contract repository and search using natural language by using the Now Assist in the Contract Management application.
+title: Using ServiceNow Otto for Contract Management Pro
+description: If you have the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can review the non-standard and missing clauses in a contract, extract the information from a signed contract to add it to the contract repository and search using natural language by using the ServiceNow Otto for Contract Management Pro application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-use-now-assist-land.html
 release: australia
@@ -9,18 +9,18 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro]
-breadcrumb: [Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro, AI in contract management pro]
+breadcrumb: [ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Using Now Assist in Contract Management
+# Using ServiceNow Otto for Contract Management Pro
 
-If you have the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can review the non-standard and missing clauses in a contract, extract the information from a signed contract to add it to the contract repository and search using natural language by using the Now Assist in the Contract Management application.
+If you have the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can review the non-standard and missing clauses in a contract, extract the information from a signed contract to add it to the contract repository and search using natural language by using the ServiceNow Otto for Contract Management Pro application.
 
--   **[Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)**  
-As a contract fulfiller, use Now Assist in Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
--   **[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)**  
-As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the Now Assist contextual side panel by using the Now Assist in the Contract Management application.
+-   **[Contract metadata extraction using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)**  
+As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+-   **[Contract analysis using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)**  
+As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the AI contextual side panel by using the ServiceNow Otto for Contract Management Pro application.
 
-**Parent Topic:**[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+**Parent Topic:**[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 

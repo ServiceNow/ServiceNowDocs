@@ -40,8 +40,8 @@ Role required: sn\_apw\_advanced.eap\_admin
 
         For example, submit migration requests in the sequence of PI 1 &gt; PI 2 &gt; PI 3 and so on.
 
-    -   If the composition of a SAFe ART has been changed any time after it is created, it is suggested to migrate only those PIs that have the current composition of the ART.
-    -   For a Portfolio SAFe migration, if a SAFe Epic is associated with SAFe Features but is not linked to any Portfolio, then this Epic will not be migrated by the automated migration.
+    -   If the composition of a SAFe ART has been changed any time after it is created. In this case, migrate only those PIs that have the current composition of the ART.
+    -   For a Portfolio SAFe migration, if a SAFe Epic is associated with SAFe Features but is not linked to any Portfolio. In that case, this Epic is not migrated by the automated migration.
     -   Migration can be run multiple times for the same criteria. In such case, any newly created records will be migrated to EAP.
     -   If changes are made to already migrated SAFe records, these changes will not be synched with the EAP records.
 4.  Select **Submit**.
@@ -53,7 +53,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 Monitor the progress of data migration:
 
--   If the migration is successful, the Import Requests related list shows the details of the data migration such as failed count, insert count, and total count of records moved from SAFe to EAP.
+-   If the migration is successful, the Import Requests related list shows the details of the data migration. These details include failed count, insert count, and total count of records moved from SAFe to EAP.
 -   If the migration encounters any error, the Migration Errors related list shows the details of records that failed to migrate from SAFe to EAP.
 
 ## What to do next

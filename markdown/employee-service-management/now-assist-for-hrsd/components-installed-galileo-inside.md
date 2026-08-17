@@ -1,5 +1,5 @@
 ---
-title: Components installed with Now Assist for HR - Galileo Inside
+title: Components installed with ServiceNow Otto for HRSD – Galileo Inside
 description: Information about the roles and scheduled jobs that are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/components-installed-galileo-inside.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Components installed with Now Assist for HR - Galileo Inside
+# Components installed with ServiceNow Otto for HRSD – Galileo Inside
 
 Information about the roles and scheduled jobs that are installed.
 
@@ -40,7 +40,7 @@ sn\_hr\_na\_galileo.read
 
 </td><td>
 
-Enables users to receive Now Assist responses containing Galileo data
+Enables users to receive responses containing Galileo data
 
 </td></tr></tbody>
 </table><table id="table_l5y_yht_dfc"><thead><tr><th>
@@ -62,5 +62,5 @@ Retrieves data from the Josh Bersin company. The admin first manually executes t
  Subsequently, the system runs the scheduled job monthly to retrieve new data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+</table>**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

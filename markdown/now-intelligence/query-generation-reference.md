@@ -1,18 +1,18 @@
 ---
 title: Query Generation reference
-description: A list of Now Assist applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
+description: A list of ServiceNow Otto applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/query-generation-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation reference
 
-A list of Now Assist applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
+A list of ServiceNow Otto applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
 
 -   **[Supported chart types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-supported-charts.md)**  
 Query Generation and the applications that use it to generate data visualizations support these visualization types.

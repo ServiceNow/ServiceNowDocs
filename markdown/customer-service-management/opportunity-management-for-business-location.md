@@ -14,6 +14,8 @@ breadcrumb: [Integration with Sales Customer Relationship Management, Configure 
 
 Integrate Service Model Foundation with Opportunity Management for Business Locations to support channel sales.
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## Overview of the integration
 
 Use the Opportunity Management for Business Locations plugin \(com.snc.business\_organization\_opptym\) to perform the following actions.

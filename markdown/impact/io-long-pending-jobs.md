@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Log in to Instance Observer and navigate to **Alerts** &gt; **Configure Alerts**.
 
-    For more information on how to configure alerts, see [Configure key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    For more information on how to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 3.  In the **Search** field of the **All Alerts** tab that displays by default, enter `long pending jobs`.
 

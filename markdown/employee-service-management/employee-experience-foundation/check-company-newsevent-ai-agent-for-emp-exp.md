@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use AI Agents, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use AI Agents, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # Company News &amp; Events AI Agent
@@ -18,19 +18,17 @@ Use this agent to enable users to check their company-related latest news and up
 
 Verify that you have the following plugins:
 
--   Now Assist for Employee Experience version 2.0.3 and later.
+-   ServiceNow Otto for Employee Experience version 2.0.3 and later.
 
     The AI Agents for Employee Experience is automatically installed with the updated version.
 
 -   Content Publishing version 36.0.4 \(Installed automatically as part of Employee Center Pro\)
 
-\[Omitted image "uex-aiagent-event.png"\] Alt text: Checking company events in Now Assist\[Omitted image "uex-aiagent-eventtopic.png"\] Alt text: Checking more details about a specify event in Now Assist.\[Omitted image "uex-aiagent-steps.png"\] Alt text: Latest news and events in Now Assist.
-
 ## Company News &amp; Events AI Agent overview
 
 The **Company News &amp; Events AI Agent** helps users stay informed by sharing the latest updates on news, events, and announcements.
 
-It understands general questions like "What’s the latest news?" or "Are there any upcoming events?", casual questions like "show me New York news" or "what's happening in Atlanta this month," and also specific questions such as "Get the latest news on 401k," "Show me events happening in New York," or "Show local news."
+It understands general questions like "What’s the latest news?" or "Are there any upcoming events?". You can also ask casual questions like "show me New York news" or "what's happening in Atlanta this month," and also specific questions such as "Get the latest news on 401k," "Show me events happening in New York," or "Show local news."
 
 On prompting, it also provides updates based on the user’s location and their interests. Shows nearby events, local news stories, company updates, and news related to relevant people or topics the user cares about.
 

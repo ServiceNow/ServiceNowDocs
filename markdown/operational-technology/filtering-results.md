@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Results page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Results page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Filter results
@@ -40,4 +40,6 @@ If you select Operating System, for example, another drop-down menu opens with a
 \[Omitted image "type-list.png"\] Alt text: Operating System type list
 
 After you have made your selection, any query that matches the filter displays on the Result page.
+
+**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/results-page-console.md)
 

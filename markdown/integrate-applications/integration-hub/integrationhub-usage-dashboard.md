@@ -18,6 +18,8 @@ Get insights on the usage of Integration Hub data from the Integration Hub Usage
 
 The Integration Hub Usage Dashboard gives insights in the form of reports. Access to the dashboard is role-based. The reports are available under various sections in the **Transactions** and **Data Egress** tabs. You can customize the data that you want to view by using filters or drilling down reports.
 
+**Note:** The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see .
+
 \[Omitted image "ih-dashboard-layout.png"\] Alt text: Integration Hub Dashboard elements and layout.
 
 ## Integration Hub Usage Dashboard version

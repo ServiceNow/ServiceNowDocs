@@ -1,6 +1,6 @@
 ---
 title: Create Security Attributes
-description: Create new Security Attributes with a step-by-step guide.
+description: Create security attributes with a step-by-step guide.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-security-attributes.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Security Attributes, Access Management]
 
 # Create Security Attributes
 
-Create new Security Attributes with a step-by-step guide.
+Create security attributes with a step-by-step guide.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ Label
 
 </td><td>
 
-Label of Security Attribute.
+Label of the security attribute.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Name
 
 </td><td>
 
-Name of Security Attribute.
+Name of the security attribute.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Type
 
 </td><td>
 
-The type of Security Attribute. -   compound
+The type of security attribute. -   compound
 
 **Note:** For further information about Compound Security Attributes see [Compound Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/compound-security-attributes.md)
 
@@ -74,7 +74,7 @@ Is dynamic
 
 </td><td>
 
-If the Security Attribute value needs to be re-evaluated per each
+Whether the security attribute value needs to be re-evaluated for each transaction.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Description
 
 </td><td>
 
-User generated description of Security Attribute
+User-generated description of the security attribute.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Lookup Table
 
 </td><td>
 
-Reference an external table for evaluation.
+Reference an external table for evaluation. For example, if you want to verify a user's role, enter `Role [sys_user_role]`.
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Lookup Table Column
 
 </td><td>
 
-Reference a table column for evaluation.
+Reference a table column for evaluation. For example, if you want to verify a user's role by name, enter `name`, which is a column in sys\_user\_role.
 
 </td></tr><tr><td>
 

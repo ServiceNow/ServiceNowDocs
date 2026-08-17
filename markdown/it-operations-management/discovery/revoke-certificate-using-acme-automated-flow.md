@@ -1,5 +1,5 @@
 ---
-title: Revoke certificate using ACME automated flow
+title: Revoke certificates using ACME automated flow
 description: Request a revoke certificate for an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using ACME, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Revoke certificate using ACME automated flow
+# Revoke certificates using ACME automated flow
 
 Request a revoke certificate for an application.
 

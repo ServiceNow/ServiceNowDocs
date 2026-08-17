@@ -22,15 +22,15 @@ Validate a newly installed MID Server so it can communicate with the ServiceNow 
 Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the Now Assist for IT Operations Management plugin. For more information, see [Install Now Assist for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/install-na-itom.md).
 -   You're on the Configure IT Operations Management page of the Configuration Console. For more information, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/access-itom-config-console-disco.md).
 
 Role required: admin
 
 ## About this task
 
-Validating a MID Server establishes trust between ServiceNow and the MID Server, allowing it to securely access credentials and perform automation and Discovery tasks while preventing untrusted systems from executing work on behalf of the instance.
+Validating a MID Server establishes trust between ServiceNow and the MID Server. A validated MID Server can securely access credentials and perform automation and Discovery tasks, and prevents untrusted systems from executing work on behalf of the instance.
 
 ## Procedure
 

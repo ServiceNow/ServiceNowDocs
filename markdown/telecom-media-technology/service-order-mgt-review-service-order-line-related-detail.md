@@ -66,7 +66,7 @@ As needed, review and update the related contact, order characteristic values, a
 
 **Note:**
 
-If you create a manual fallout record or an automated one is generated for the order tasks, you can easily review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
+If you create a manual fallout record or an automated one is generated for order tasks, you can review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
 To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
 

@@ -22,11 +22,11 @@ Role required: sn\_customerservice.consumer
 
 1.  Log in to the Consumer Service Portal.
 
-2.  Click **Support** &gt; **My Products** in the portal header.
+2.  Select **Support** &gt; **My Products** in the portal header.
 
     This displays a list of products registered to the current user.
 
-3.  If desired, click a product to display more information about the product.
+3.  If desired, select a product to display more information about the product.
 
 
 **Related topics**  

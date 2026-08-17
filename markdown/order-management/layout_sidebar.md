@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The sidebar
@@ -18,7 +18,7 @@ In a layout, the sidebar element can be used to show persistent information to t
 
 \[Omitted image "cpq-layout-sidebar.png"\] Alt text: Sidebar displayed on the configuration layout
 
-**Note:** This feature is not available in the ServiceNow CPQ layout editor. You must create the sidebar element in the layout CSV and then import the CSV file.
+**Note:** This feature is not available in the CPQ layout editor. You must create the sidebar element in the layout CSV and then import the CSV file.
 
 ## Setup
 
@@ -62,7 +62,7 @@ Add width properties to the sidebar value to define how wide the sidebar compone
 
 ## Use case: 3D visualizer
 
-The sidebar can host 3D visualization tools used during configuration. Any changes to fields tied to the visualization are visible to end users regardless of the tier they are on. For more information, see [Integrating ServiceNow CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik-io-integration-wtih-visualization-tools.md).
+The sidebar can host 3D visualization tools used during configuration. Any changes to fields tied to the visualization are visible to end users regardless of the tier they are on. For more information, see [Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik-io-integration-wtih-visualization-tools.md).
 
 ## Use case: product information
 

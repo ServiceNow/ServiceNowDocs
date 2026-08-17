@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/rto-
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -26,7 +26,7 @@ Setting up the impact ratings to evaluate an impact category is a crucial step i
 
 -   **BIA workflow**
 
-    When a business impact analysis \(BIA\) owner submits the BIA for a review, the BIA is updated to the review state. The BIA owner responds to the questions in the assessment questionnaire. If you are an IT analyst or IT owner, you can estimate the recovery point objective for your data applications and systems by responding to the Recovery point objective assessment in the BIA. Based on the configuration set up by BCM administrator, the questions are displayed in the **Recovery point objective assessment** tab of the BIA.
+    When a business impact analysis \(BIA\) owner submits the BIA for a review, the BIA is updated to the review state. The BIA owner responds to the questions in the assessment questionnaire. If you are IT analyst or owner, you can estimate the RPO for data applications and systems by responding to the RPO assessment in the BIA. Based on the configuration set up by BCM administrator, the questions are displayed in the **Recovery point objective assessment** tab of the BIA.
 
     A sample BIA workflow is shown in the example.
 
@@ -39,7 +39,7 @@ The business users and IT owners perform business impact analysis by responding 
 
 \[Omitted image "bia-assessments-tab.png"\] Alt text: Assessments tab in the BIA.
 
-If you are the IT owner, you can estimate the recovery point objective for your data applications and systems by responding to the Recovery point objective assessment in the BIA.
+If you are the IT owner, you can estimate the RPO for your data applications and systems by responding to the Recovery point objective assessment in the BIA.
 
 ## Administrator view for configuring impact category and ratings
 
@@ -75,7 +75,7 @@ The application uses the Score Timeframe Mapping, defined at the template level,
 
 ## Recovery time objective assessment
 
-If you are the business user, you can estimate the recovery time objective for your business services and processes by responding to the Recovery time objective assessment in the **Assessments** tab. The questions are displayed in the **Recovery time objective assessment** tab according to the configuration set up by BCM administrators. A sample Recovery time objective assessment is shown in the example.
+If you are the business user, you can estimate the RTO for your business services and processes by responding to the Recovery time objective assessment in the **Assessments** tab. The questions are displayed in the **Recovery time objective assessment** tab according to the configuration set up by BCM administrators. A sample Recovery time objective assessment is shown in the example.
 
 \[Omitted image "rto-assessment-questions.png"\] Alt text: Recovery time objective assessment.
 
@@ -85,7 +85,7 @@ Consider the scenario where each question response is assigned a numeric value. 
 
 \[Omitted image "rto-score-for-BIA-step-a.png"\] Alt text: Tolerable value for each RTO.
 
-The application then calculates the “Tolerable downtime” value for each RTO Impact category as the Impact rating with a value higher than the highest tolerable value. If no value exists, the application uses the maximum RTO value \(that is defined at the Impact category\) as the “Tolerable downtime.” The system calculates the RTO score based on the lowest “Tolerable downtime” value from all RTO impact categories.
+The application calculates the “Tolerable downtime” value for each RTO Impact category as the Impact rating with a value higher than highest tolerable value. If no value exists, the application uses the maximum RTO value. It is defined at the Impact category as the “Tolerable downtime.” The system calculates the RTO score based on lowest “Tolerable downtime” value from all RTO impact categories.
 
 **Note:** RTO cannot be calculated when the recovery tier doesn’t exist for the “Tolerable downtime” value.
 
@@ -170,7 +170,7 @@ If the administrator has set all the impact ratings as tolerable, the value spec
 </td></tr></tbody>
 </table>-   **Calculation of overall impact assessment result for a BIA**
 
-    When you update the **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category. For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the disruption duration value of the legal impact category, then the RTO value of the BIA is recalculated based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
+    When you update **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category. For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update disruption duration value of legal impact category, RTO value of the BIA is recalculated based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
 
     |RTO value|Recovery Tier|
     |---------|-------------|

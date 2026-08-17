@@ -1,6 +1,6 @@
 ---
 title: Skills performance
-description: Use the Skills performance dashboard page to view usage and performance indicators of one or more Now Assist skills that are active.
+description: Use the Skills performance dashboard page to view usage and performance indicators of active AI skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/skill-usage.html
 release: australia
@@ -8,21 +8,21 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist, skills, performance, dashboard, indicators, usage, generative AI, Gen AI]
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Skills performance
 
-Use the Skills performance dashboard page to view usage and performance indicators of one or more Now Assist skills that are active.
+Use the Skills performance dashboard page to view usage and performance indicators of active AI skills.
 
-The Skills performance dashboard page contains indicators that help you analyze the usage and performance of active skills. Use the **Date range**, **Product**, and **Skills** filters to break down by date range, Now Assist product, and skill, respectively. The filter selection applies to all visualizations on the page. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Skills performance dashboard page contains indicators that help you analyze the usage and performance of active skills. Use the **Date range**, **Product**, and **Skills** filters to break down by date range, product, and skill, respectively. The filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
-\[Omitted image "naa-skills-performance.png"\] Alt text: Now Assist skills usage and performance indicators.
+\[Omitted image "naa-skills-performance.png"\] Alt text: AI skills usage and performance indicators.
 
-The indicators on the Skills performance dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Skills performance dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Skills usage trend visualization for a selected period can reveal skills that have been used more frequently or less frequently.
--   The Number of actions visualization for a selected period can reveal the scale of Now Assist skill executions. The trend line comparison shows the increasing or decreasing trend from the previous period.
+-   The Number of actions visualization for a selected period can reveal the scale of AI skill executions. The trend line comparison shows the increasing or decreasing trend from the previous period.
 -   The Total daily active users indicator shows a breakdown of daily active users by product and skill.
 
 Select the **View skill details** button to view the usage and performance indicators of skills mapped to a dashboard.
@@ -37,19 +37,19 @@ Select the **View skill details** button to view the usage and performance indic
 
 -   **Number of actions**
 
-    This area of the dashboard shows the number of Now Assist actions for the selected date range, product, and skill. A single use of a skill represents an action. The headline number is an indicator of the scale of skill usage across products. The trend line comparison shows the increase or decrease in the number of actions from the previous period.
+    This area of the dashboard shows the number of AI actions for the selected date range, product, and skill. A single use of a skill represents an action. The headline number is an indicator of the scale of skill usage across products. The trend line comparison shows the increase or decrease in the number of actions from the previous period.
 
-    \[Omitted image "naa-skill-performance-noa.png"\] Alt text: Number of Now Assist actions indicator.
+    \[Omitted image "naa-skill-performance-noa.png"\] Alt text: Number of AI actions indicator.
 
 -   **Total daily active users**
 
-    This area of the dashboard shows the cumulative number of daily active users who have used Now Assist products with one or more active skills. Select a filter combination to see skill usage patterns. For example, you can visualize the number of users who have used the Chat Summarization skill across all products in the last month.
+    This area of the dashboard shows the cumulative number of daily active users who have used ServiceNow Otto products with one or more active skills. Select a filter combination to see skill usage patterns. For example, you can visualize the number of users who have used the Chat Summarization skill across all products in the last month.
 
     \[Omitted image "naa-total-daily-active-users.png"\] Alt text: Total daily active users indicator.
 
 -   **Total daily active users by skills**
 
-    This area of the dashboard shows the number of daily active users who have used Now Assist skills in the selected date range. When you hover over a date in the visualization, a pop-over shows all active skills with the count of users against each skill. Select a filter combination to visualize patterns in user activity.
+    This area of the dashboard shows the number of daily active users who have used AI skills in the selected date range. When you hover over a date in the visualization, a pop-over shows all active skills with the count of users against each skill. Select a filter combination to visualize patterns in user activity.
 
     \[Omitted image "naa-total-daily-active-users-by-skill.png"\] Alt text: Total daily active users by skills indicator.
 
@@ -59,5 +59,5 @@ Use the Skill details dashboard page to view usage and performance indicators of
 -   **[Custom skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/custom-skill-details.md)**  
 Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
 

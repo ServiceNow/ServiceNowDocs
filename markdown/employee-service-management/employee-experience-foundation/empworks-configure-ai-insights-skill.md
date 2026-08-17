@@ -1,21 +1,21 @@
 ---
 title: Configure a custom AI insights skill for a task type
-description: Configure a task to use a custom Now Assist skill for AI insights in the Ticket Details widget. The custom skill lets you tailor insights that are relevant to the task types or business requirements.
+description: Configure a task to use a custom Now Assist skill for AI insights in the Task details widget. Optionally add a custom script to pre-process input or post-process the skill response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-07-04"
-reading_time_minutes: 2
-keywords: [AI insights skill, Bring Your Own Skill, task configuration, Now Assist skill, Employee Works]
-breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-07-27"
+reading_time_minutes: 4
+keywords: [AI insights skill, Bring Your Own Skill, task configuration, ServiceNow Otto skill, Employee Works, custom script, Applies to, Employee Center]
+breadcrumb: [Task configuration, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure a custom AI insights skill for a task type
 
-Configure a task to use a custom Now Assist skill for AI insights in the Ticket Details widget. The custom skill lets you tailor insights that are relevant to the task types or business requirements.
+Configure a task to use a custom Now Assist skill for AI insights in the Task details widget. Optionally add a custom script to pre-process input or post-process the skill response.
 
 ## Before you begin
 
@@ -27,13 +27,15 @@ Role required: sn\_hr\_sp.esc\_admin or admin
 
 ## About this task
 
-Configure a skill only for task types that need AI-generated insights. You can configure a custom skill to tailor AI insights on the **Tasks** page. For example, you can configure the following custom skills.
+AI insights help employees understand task details and make informed decisions. Configure a skill for each task type that requires AI-generated insights in the **Task details** widget. Learn about task scope and action widget configuration from [Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md)
 
--   A skill that checks policies for Concur approval tasks
--   A skill that shows CLM field-level insights for contract tasks
--   A skill that shows the time-off balance details
+You can configure custom skills to provide task-specific insights. Examples include:
 
-**Note:** By default, the **Ticket details** widget does not display AI insights when you don't configure a custom skill for the task type.
+-   Policy compliance checks for Concur approval tasks
+-   Field-level insights for CLM contract tasks
+-   Time-off balance details for leave requests
+
+**Note:** The widget displays AI insights only when you configure a skill for the task type.
 
 ## Procedure
 
@@ -41,25 +43,47 @@ Configure a skill only for task types that need AI-generated insights. You can c
 
 2.  In the **Task Configurations** related list, open the task configuration for the required record type, such as **Request**.
 
-    Task configuration page opens.
-
-    **Note:** By default, the AI insights skill field is empty.
+    Task configuration page and its related list open.
 
     \[Omitted image "es-tasks-config-ai-insight.png"\] Alt text: Task configuration with AI insights skill
 
-3.  Set the **AI insights skill** field to a Now Assist skill from the available list.
+3.  Go to the **AI insights** tab and select the **AI insights skill** field to a Now Assist skill from the available list.
 
     \[Omitted image "es-tasks-ai-skill-field.png"\] Alt text: Task Configuration record for Request Item with the AI insights skill field set
 
-    **Note:** Administrators can select the available skills such as built-in Checklist Generation skill instead of building a custom one. For example, select the built-in **Approval summary checklist generation** skill to show the approval checklist behavior. The checklist appears only while the approval is still actionable.
+    You can select one of the two
 
-4.  Confirm that the task configuration is **Active**.
+    -   Existing AI Insight Skills: Select from the existing pre-configured AI Insight skills provided by ServiceNow.
+    -   Custom AI Insight Skills: Enable custom skill processing by checking the custom skill option and providing your JSON format configuration.
+    **Note:** By default, the AI insights skill field is empty. Administrators can select the available skills such as built-in Checklist Generation skill instead of building a custom one. For example, select the built-in **Approval summary checklist generation** skill to show the approval checklist behavior. The checklist appears only while the approval is still actionable.
 
-5.  Save the task configuration.
+4.  Select the **Use custom script** check box to customize how the skill processes data,
 
-    You can now see the associated skill from the **Task Configuration** tab. The configured skill generates AI insights for every record of that task type.
+    Write a script in the **Skill execution script** field that performs the following actions:
 
-    \[Omitted image "es-tasks-skill-config.png"\] Alt text: Skill configuration for task AI insights
+    -   Pre-processes the input data
+    -   Calls the AI insights skill
+    -   Post-processes the skill output
+    -   Returns a response that matches the skill output contract
+    \[Omitted image "es-tasks-skill-config.png"\] Alt text: Custom script skill configuration for task AI insights
+
+    Use a custom script to fetch external data before the skill runs. For example, fetch leave balances from Workday before a leave-approval task runs. You can also retrieve prior expense reports from Concur before an expense-approval task runs. Your script can use the following variables to build internal record or knowledge article URLs:
+
+    -   **__hostname__**
+
+        The virtual host of the instance, for example **now**.
+
+    -   **__experience__**
+
+        The current experience suffix, for example **employee** or **aiux-portal**.
+
+    The **Skill execution script** field opens.
+
+5.  Confirm that the task configuration is **Active**.
+
+6.  Save the task configuration.
+
+    You can now see the associated skill from the **Task Configuration** tab. The configured skill or your custom script generates AI insights for every record of that task type in the experience set by **Applies to**.
 
 
 ## Result
@@ -68,10 +92,14 @@ Employees who open the task type see a summary and any reference links in the AI
 
 The skill run fails if the selected skill does not accept **sys\_id** and **table** parameters or if its output does not match the expected format. When a skill run fails, you see an error message instead of insights. To remove the AI insights section for that task type, clear the **AI insights skill** field and reload the page.
 
+The skill execution script fails if it does not return a response that matches the skill output contract. When the script fails, you see a generic error message instead of insights.
+
 Understand the basics of AI insights skill, see [AI insights skill reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.md).
 
 **Related topics**  
 
 
 [AI insights skill reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.md)
+
+[Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md)
 

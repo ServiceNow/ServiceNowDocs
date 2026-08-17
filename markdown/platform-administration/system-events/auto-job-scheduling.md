@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **System** &gt; **Event Registry**.
+1.  Navigate to **All** &gt; **System Policy** &gt; **Events** &gt; **Registry**.
 
 2.  Select **New** to register a new event.
 

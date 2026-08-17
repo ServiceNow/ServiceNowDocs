@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Email channel, Configure Omnichannel, Configure, Customer Service Management]
 ---
 
 # Enable agents to respond to customers with email activity history
@@ -17,7 +17,9 @@ Enable agents to respond to customers with email activity history, which is crea
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, sn\_esm\_agent
+
+**Note:** Agents need the sn\_esm\_agent role to view the email client and email templates.
 
 ## Procedure
 

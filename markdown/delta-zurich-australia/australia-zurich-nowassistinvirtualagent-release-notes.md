@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistinvirtualagent-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 26
+last_updated: "2026-08-17"
+reading_time_minutes: 29
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,6 +67,62 @@ Zurich
 
 </td><td>
 
+-   **[View Live Agent status updates](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
+
+Routing messages and section headers indicate when the live agent has entered and left the chat in premium chat conversations.
+
+-   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://www.servicenow.com/docs/access?context=assign-mcp-servers&family=zurich&ft:locale=en-US)**
+
+Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
+
+-   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US)**
+
+Enable estimated wait time for the next live agent. When enabled, users see the estimated wait time for the live agent in the chat menu item.
+
+-   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US)**
+
+Premium chat now supports uploading documents directly into a conversation.
+
+-   **[Review settings](https://www.servicenow.com/docs/access?context=review-assistant-settings&family=zurich&ft:locale=en-US)**
+
+The MCP servers section shows which users can access Model Context Protocol \(MCP\)-provided capabilities through the assistant.
+
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
+
+Personalization is now shown by default.
+
+
+-   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=zurich&ft:locale=en-US)**
+
+Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.
+
+By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.
+
+The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
+
+-   **[Select a display experience](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&family=zurich&ft:locale=en-US)**
+
+Mobile custom apps support configuration of enhanced chat and premium chat display options, with availability dependent on the widget's current configuration.
+
+-   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=zurich&ft:locale=en-US)**
+
+If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.
+
+Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
+
+-   **[Edit a chat assistant](https://www.servicenow.com/docs/access?context=edit-assistant&family=zurich&ft:locale=en-US)**
+
+When editing an assistant with premium chat, create, edit, or delete prompts from the prompt library. Prompts help users ask better questions and get more accurate answers. Use the prompt library to manage prompts that users see in premium chat. Create your own prompts or use the default prompts.
+
+-   **[Prompt library](https://www.servicenow.com/docs/access?context=now-assist-prompt-library&family=zurich&ft:locale=en-US)**
+
+Browse and select from promoted prompt templates or save your own custom prompts, eliminating the need to retype frequently-used prompts within your chats. Access your reusable templates instantly from the omnibar for faster, more consistent conversations.
+
+-   **[View uploaded documents in interactive view](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
+
+When in premium chat conversations, you can upload a document and view it in the interactive view.
+
+
 -   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=zurich&ft:locale=en-US)**
 
 For premium chat, catalog items have improved fluidity; however, some of them are no longer conversational. They’ll open in a catalog form instead. This applies to Now Assist in Virtual Agent assistants and Now Assist panel – Platform assistant.
@@ -85,7 +141,7 @@ An alert is shown when the instance is eligible for premium chat or when there i
 
 Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.
 
-To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US).
+To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US).
 
 -   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US)**
 
@@ -109,13 +165,17 @@ There is no limit to the number of assets that can be promoted.
 
 If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
 
--   **[Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
 
 Use the **sn\_nowassist\_va.assistant\_personalization** system property to show or hide chat personalization when branding an assistant. Personalization determines the tone of the assistant, response length, and persona.
 
--   **[Now Assist deployment configuration properties](https://www.servicenow.com/docs/access?context=deployment-config-attributes&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-convint.deployment-config-attributes\]](https://www.servicenow.com/docs/access?context=deployment-config-attributes&family=zurich&ft:locale=en-US)**
 
 Manage the behavior of suggestions that users see when typing in the input box.
+
+-   **[Post-chat survey in premium chat](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
+
+Collect user feedback in premium chats through post-chat surveys that trigger on agent task completion instead of waiting for a chat-end event. When an agent completes a task in an agentic flow, the survey can surface based on a configured probability, enabling you to gather insights that were previously unavailable.
 
 
 -   **[View assistants](https://www.servicenow.com/docs/access?context=view-assistants&family=zurich&ft:locale=en-US)**
@@ -140,22 +200,22 @@ Depending on your configuration, different greeting, closing, and fallback optio
 
 Test your chat assistant \(standard, enhanced, or premium chat\) to simulate an end-to-end conversation before moving your experience into a production environment.
 
--   **[Now Assist in Virtual Agent on mobile](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=zurich&ft:locale=en-US)**
+-   **[Now Assist in Virtual Agent on mobile](https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=zurich&ft:locale=en-US)**
 
 Use the modified version of Now Assist in Virtual Agent on your mobile device. This redesigned version adapts to smaller screens without losing functionality or clarity.
 
 
--   **[Clarifying questions for unclear requests](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[Clarifying questions for unclear requests](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Get precise, relevant answers from Now Assist in Virtual Agent premium chat even when your request is unclear, as the assistant asks you a targeted clarifying question before responding instead of returning an overwhelming list of results. When the assistant is confident that it understands your request, it responds immediately without interrupting the conversation.
 
--   **[Upload documents](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[Upload documents](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Upload documents directly into a Now Assist in Virtual Agent conversation during topic, skill, catalog, or agent execution, and let the assistant extract information from them to automatically fill in required fields, answer questions, and keep the conversation moving. Uploaded document context is retained for the duration of the session and cleared when the session ends to protect your data.
 
 -   **[Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=zurich&ft:locale=en-US)**
 
-For new and upgrading customers, Now Assist panel - Platform assistant comes with the option to opt into premium chat if your instance meets certain criteria. For more information, see [Premium chat](https://www.servicenow.com/docs/access?context=now-assist-panel-premium&family=zurich&ft:locale=en-US) and [\[Placeholder link text to key display-nap-assistant\]](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=zurich&ft:locale=en-US).
+For new and upgrading customers, Now Assist panel - Platform assistant comes with the option to opt into premium chat if your instance meets certain criteria. For more information, see [Premium chat](https://www.servicenow.com/docs/access?context=now-assist-panel-premium&family=zurich&ft:locale=en-US) and [Display assistant on Platform or ServiceNow Studio](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=zurich&ft:locale=en-US).
 
 -   **[Display assistant on Platform or ServiceNow Studio](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=zurich&ft:locale=en-US)**
 
@@ -179,28 +239,28 @@ Feedback surveys are supported in both standard chat and enhanced chat experienc
 
 Edit an assistant to turn response feedback on or off. For more information, see [Manage response feedback](https://www.servicenow.com/docs/access?context=manage-sentiment-survey&family=zurich&ft:locale=en-US).
 
--   **[Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
 
 Turn premium chat on or off for the Now Assist panel – Platform assistant using the **sn\_nowassist\_va.enable\_nap\_aix\_experience** system property. The default value is set to `false`. When the system property is set to `false`, you can switch back to your previous state \(standard chat or enhanced chat\) from the Assistant Designer chat experience modal. When the system property is set to `true`, you won't have the option to make edits to the chat experience. Premium chat is only available if your instance meets all requirements.
 
 
--   **[Start NAVA conversations from anywhere](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[Start NAVA conversations from anywhere](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Start a Now Assist in Virtual Agent premium chat from any page in the Employee Hub with a single click, without interrupting existing workflows. You can upload files, toggle web search on or off, and receive a personalized greeting with promoted topics when opening a new conversation.
 
--   **[Response feedback](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[Response feedback](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Provide more detailed feedback on Now Assist in Virtual Agent responses by selecting thumbs up or thumbs down, then choosing from configurable check box options or adding your own comments to explain exactly what was helpful or what fell short. Your feedback is captured and made available through analytics dashboards, helping admins continuously improve the quality of the responses that you receive.
 
--   **[Use natural-language questions](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[Use natural-language questions](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Enable users to ask natural-language questions and receive concise, synthesized answers while maintaining transparency, trust, and efficient task completion.
 
--   **[New building block framework](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[New building block framework](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
-Provide a consistent, reusable building block framework for the NextWave web experience using primitives and widgets.
+Provide a consistent, reusable building block framework for Now Assist in Virtual Agent premium chat.
 
--   **[New Include Web results button](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+-   **[New Include Web results button](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Enable a web search experience that includes a **Include Web results** button in the input box that includes internal and external web results.
 
@@ -211,6 +271,10 @@ Test voice agents directly in Assistant Designer with live transcription, tool e
 -   **[Dutch and Thai language support](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
 
 Dutch and Thai language support for voice assistants enables users to experience natural pronunciation and culturally appropriate interactions with AI voice agents.
+
+-   **[Post-chat survey in enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+
+Collect user feedback in enhanced chats through post-chat surveys that trigger on agent task completion instead of waiting for a chat-end event. When an agent completes a task in an agentic flow, the survey can surface based on a configured probability, enabling you to gather insights that were previously unavailable.
 
 
 -   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
@@ -332,7 +396,7 @@ The **Continue to next task** button appears in the new **Ready to move on to yo
 
 Virtual Agent can answer multiple questions that were submitted in a single message query. Now Assist panel or Now Assist in Virtual Agent answers the multiple questions consecutively in a response.
 
--   **[Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
 
 Use **sn\_aia.use\_agents\_in\_planner** to configure AI agent discovery behavior. The default value is `true`, preferring AI agents over assets including catalogs, topics, Q&amp;A knowledge base articles, workflows, and sub-workflows. When set to `false`, there’s no preference for AI agents. AI agents and assets are treated the same.
 
@@ -444,6 +508,11 @@ Zurich
 
 </td><td>
 
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+
+
+
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 
@@ -451,7 +520,7 @@ Zurich
 
 -   **[Conversational Platform Now Assist skills are active by default](https://www.servicenow.com/docs/access?context=now-assist-skills&family=zurich&ft:locale=en-US)**
 
-The following Platform Now Assist skills are active by default and no longer visible in the Now Assist Admin console:
+The following Platform Now Assist skills are active by default and no longer visible in the AI Admin Hub console:
 
     -   Now Assist Multi-Turn Catalog Ordering
     -   Now Assist Q&amp;A Genius Results
@@ -481,7 +550,7 @@ Manually enter into web search mode via the input bar for standard and enhanced 
 
 -   **[Profanity recognition response](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
 
-If Now Assist Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
+If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
 
 </td></tr><tr><td>
@@ -542,7 +611,7 @@ Zurich
 
 -   In Patch 4, the **sn\_aia.use\_agents\_in\_planner** system property has been removed. The system property was used for configuring AI agent discovery behavior.
 -   In Patch 4, the Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
--   In Patch 1, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in Now Assist Skill Kit.
+-   In Patch 1, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in AI Skill Kit.
 
 </td></tr><tr><td>
 
@@ -605,7 +674,7 @@ Zurich
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&family=zurich&ft:locale=en-US) requires a license for Virtual Agent and at least one Now Assist product.
+[ServiceNow Otto for Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&family=zurich&ft:locale=en-US) requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 
@@ -721,7 +790,15 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
+[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   Prompts help users ask better questions and get more accurate answers. Admins can turn prompt library on or off and further configure the default recommended prompts for users.
+
+ [Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
 
 -   Opt into premium chat for your Now Assist in Virtual Agent assistants.
 -   Enable voice input for Now Assist in Virtual Agent assistants \(premium chat\), and for the Now Assist panel - Platform assistant \(standard, enhanced, or premium chat\).
@@ -768,7 +845,7 @@ Zurich
 -   Expand the fallback options.
 -   Enter into web search mode manually via the input bar.
 
- See [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&family=zurich&ft:locale=en-US) for more information.
+ See [ServiceNow Otto for Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

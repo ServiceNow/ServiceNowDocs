@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 30
+reading_time_minutes: 26
 keywords: [Patterns, Azure, Cloud, Discovery]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Discovery uses multiple patterns to discover components of the Microsoft Azure C
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -201,110 +201,6 @@ The Azure - Marketplace LB \(LP\) pattern discovers the following Azure Marketpl
 
 
 ## Data collected by Discovery during horizontal discovery
-
--   **Resources discovered by the Microsoft Azure - Application LB \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the load balancer.|
-    |Location \[location\]|The path of the load balancer.|
-    |State \[state\]|The current state of the load balancer.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |IP Address \[ip\_address\]|IP Address of the load balancer.|
-    |Fully qualified domain name \[fqdn\]|The fully qualified domain name of the load balancer.|
-    |DNS Name \[dns\_name\]|The DNS name of the load balancer.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |IP Address \[ip\_address\]|IP address of the load balancer.|
-    |IPAddress Type \[ipaddress\_type\]|The type of the IP address. Possible values are private or public.|
-    |Fully qualified domain name \[fqdn\]|The fully qualified domain name of the load balancer.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the load balancer pool.|
-    |Location \[location\]|Path of the load balancer pool.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the load balancer service.|
-    |Location \[location\]|Path of the load balancer service.|
-    |Port \[port\]|The TCP port that the load balancer service listens to.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
-
--   **Resources discovered by the Microsoft Azure - Network and Subnet \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the cloud network.|
-    |Location \[location\]|Path of the network.|
-    |State \[state\]|The current state of the network.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |CIDR \[cidr\]|CIDR representation of the network. For example, 10.0.0.0/24.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the cloud subnet.|
-    |Location \[location\]|Identifier for internal usage \(deletion strategy\).|
-    |State \[state\]|The current state of the subnet.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |CIDR \[cidr\]|CIDR representation of the subnet. For example, 10.0.0.0/24.|
-
--   **Resources discovered by the Microsoft Azure - NIC \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the network interface.|
-    |Location \[location\]|Path of the network interface.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |State \[state\]|The current state of the network interface.|
-    |Public IP \[public\_ip\]|The address of the Elastic IP address bound to the network interface.|
-    |Private IP \[private\_ip\]|The IPv4 address of the network interface within the subnet.|
-    |Primary \[primary\]|True/False. Defines if the network interface is the primary network interface or not.|
-    |MAC Address \[mac\_address\]|The MAC address of the network interface.|
-    |Public DNS \[public\_dns\]|The public DNS name of the network interface.|
-
--   **Resources discovered by the Microsoft Azure - Private Gateway \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the private gateway.|
-    |Location \[location\]|Path of the private gateway.|
-    |Connection Type \[connection\_type\]|Type of VPN connection the gateway supports.|
-    |Operational status \[operational\_status\]|The state of the resource.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the endpoint.|
-    |Location \[location\]|Path of the endpoint.|
-
--   **Resources discovered by the Microsoft Azure - Public IP \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the IP address.|
-    |Location \[location\]|Path of the IP address.|
-    |State \[state\]|The current state of the IP address.|
-    |Public IP Address \[public\_ip\_address\]|The address of the Elastic IP address.|
-    |Public DNS \[public\_dns\]|The public DNS name.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
 
 -   **Resources discovered by the Microsoft Azure - Resource Group \(LP\) pattern**
 
@@ -711,50 +607,6 @@ References the direct parent Azure Management Group \[cmdb\_ci\_azure\_managemen
 
 The Microsoft Azure patterns create the following relationships and references to support Microsoft Azure discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
--   **Relationships discovered using the Microsoft Azure - Application LB \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Owns::Owned by|Cloud LB IPAddress \[cmdb\_ci\_cloud\_lb\_ipaddress\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Load Balancer Service \[cmdb\_ci\_lb\_service\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-
--   **Relationships discovered using the Microsoft Azure - Network and Subnet \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Network \[cmdb\_ci\_network\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Cloud Network \[cmdb\_ci\_network\]|Contains::Contained by|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Network \[cmdb\_ci\_network\]|
-
--   **Relationships discovered using the Microsoft Azure - NIC \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
-
--   **Relationships discovered using the Microsoft Azure - Private Gateway \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|Implement End Point To::Implement End Point From|Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|
-    |Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Cloud Network \[cmdb\_ci\_network\]|Use End Point To::Use End Point From|Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|
-
--   **Relationships discovered using the Microsoft Azure - Public IP \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Contains::Contained by|Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|
-
 -   **Relationships discovered using the Microsoft Azure - Resource Group \(LP\) pattern**
 
     |CI|Relationship|CI|
@@ -908,6 +760,8 @@ Service Mapping uses tag-based discovery to create service instance maps includi
 
 -   **[Azure Application Insight Data Collection Rule pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-app-insight-data-collect-rule.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Application LB pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-application-lb-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure application load balancers on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Blob Storage pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-blob-storage-pattern.md)**  
 Discovery and Service Mapping Patterns finds blob resources within Azure Blob Storage on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Classic Load Balancer pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-classic-load-balancer-pattern.md)**  
@@ -938,10 +792,18 @@ Discovery and Service Mapping Patterns finds Azure Local Network Gateway resourc
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure NAT Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-nat-gateway-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure NAT Gateway resources on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Network and Subnet pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-network-subnet-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure virtual networks, subnets, and virtual network peerings on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure NIC pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-nic-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure network interfaces Controller \(NIC\) on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure OS image pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-os-image-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure OS images on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Private DNS Zone pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-private-dns-zone-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure Private DNS Zone resources on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Private Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-private-gateway-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure virtual network gateways on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Public IP pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-public-ip-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure public IP addresses on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Recovery Services Vault pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-recovery-services-vault.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Recovery Services Vault Backup Item pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-recovery-services-vault-backup.md)**  

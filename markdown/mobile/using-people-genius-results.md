@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using People Genius results on mobile
@@ -22,5 +22,5 @@ Select a person’s name to view their user profile. The profile displays inform
 
 For information on configuring People Genius results for mobile, see [Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-people-genius-results-ais.md).
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

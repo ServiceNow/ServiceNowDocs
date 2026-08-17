@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Playbook recommendations, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Playbook recommendations, Use generative AI, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Generate recommendations for placeholder activities
@@ -19,13 +19,13 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
 ## Before you begin
 
--   Verify that the Now Assist for Creator plugin is installed and the **Playbook recommendations** skill is active.
+-   Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook recommendations** skill is active.
 
     **Note:** Skills are available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
 
     \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
 
-    For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+    For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 
 -   You can only generate recommendations for placeholder activities in a generated playbook outline. To learn how to generate a playbook outline, see [Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md).
 -   Role required:
@@ -33,7 +33,9 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
 ## Procedure
 
-1.  Open you playbook and hover over the placeholder activity and select the recommendations icon \(\[Omitted image "recommendations-icon.png"\] Alt text: Now Recommendations icon\) in the mini-picker.
+1.  Open you playbook and hover over the placeholder activity and select the recommendations icon \[Omitted image "recommendations-icon.png"\] Alt text: Now Recommendations icon in the mini-picker.
+
+    \[Omitted image "playbook-recommendation-otto.png"\] Alt text: Sample AI recommendation for placeholder activity.
 
 2.  Select one of the recommended activity definitions, if appropriate.
 

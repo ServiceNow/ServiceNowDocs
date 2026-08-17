@@ -22,7 +22,7 @@ To send a notification, you need correct contacts, groups, and delivery channels
 
 You can send an event notification that triggers a complete workflow of the activities from the **Draft** to the **Complete** state in Everbridge. You can monitor all activities from Business Continuity Workspace.
 
-When you send an emergency notification from the Business Continuity Workspace, the action creates an incident and a notification for the incident in Everbridge to be sent to the right contacts and groups.
+When you send an emergency notification from the Business Continuity Workspace, the action creates an incident. A notification for the incident in Everbridge to be sent to the right contacts and groups.
 
 The emergency notifications for an event are displayed on the **Emergency notifications** tab for the event. You can view the details of the emergency notification such as the notification state, start date, end date, and so on as shown in the example.
 

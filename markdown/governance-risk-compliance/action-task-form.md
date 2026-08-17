@@ -1,6 +1,6 @@
 ---
-title: Create New Action task form
-description: On the Create New Action task form, fill in the fields.
+title: Create Action task form
+description: On the Create Action task form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/action-task-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage an assessment-type action task, Creating an action task for the operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Action task form
+# Create Action task form
 
-On the Create New Action task form, fill in the fields.
+On the Create Action task form, fill in the fields.
 
 <table id="table_aqy_k2x_rvb"><thead><tr><th>
 

@@ -927,7 +927,7 @@ Unauthenticated users may gain access to sensitive data through Service Portal w
 
 </td></tr><tr><td>
 
-[Honor Admin Override ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-honor-admin-override-acls.md)
+[Honor admin override ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-honor-admin-override-acls.md)
 
 </td><td>
 
@@ -2728,7 +2728,7 @@ Unauthenticated access to WSDL Requests, when combined with misconfigured guest 
 
 </td></tr><tr><td>
 
-[Restrict HR case updates from personal emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-hr-case-updates-from-personal-emails-plugin-applicability-human-resources-scoped-app.md)
+[Restrict HR case updates from personal emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-hr-case-updates-from.md)
 
 </td><td>
 
@@ -3281,7 +3281,7 @@ If the value is too high, it will be easier for attackers to brute force the SMS
 
 </td></tr><tr><td>
 
-[Require CAPTCHA for guest walk-up experience in customer service application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)
+[Require CAPTCHA for guest walk-up experience in customer service application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest.md)
 
 </td><td>
 

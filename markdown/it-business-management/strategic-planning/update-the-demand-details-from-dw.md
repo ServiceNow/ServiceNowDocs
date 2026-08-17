@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-12"
 reading_time_minutes: 1
 keywords: [demand details, demand update, scope, priority, capacity]
-breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update demand details
@@ -25,9 +25,9 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-3.  Open the demand record.
+3.  Open a demand from the **List** page.
 
 4.  Select the **Details** tab.
 

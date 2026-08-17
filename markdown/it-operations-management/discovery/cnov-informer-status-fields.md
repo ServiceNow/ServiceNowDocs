@@ -8,9 +8,9 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, status, fields, reference, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Kubernetes Visibility Agent Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Kubernetes Visibility Agent Informer status fields
@@ -51,9 +51,9 @@ Full discovery status
 
 </td><td>
 
-Status of the current full discovery. Possible values are: Empty, In Progress, Queued, Completed, Failed.
+Status of the current full discovery. Possible values are: Empty, In Progress, Queued, Completed, Failed, Skipped, and Timed out.
 
- **Note:** Full discovery is performed either periodically or on demand. By default, it is run once a day.
+ **Note:** Full discovery is performed either periodically or on demand. By default, it is run once a day. Full discovery status is considered Skipped if, when the time came to run full discovery by a given informer, the informer was in the Down state and was not able to communicate with the instance. The full discovery status is considered Timed Out if the instance doesn't receive confirmation that the full discovery is completed within the expected time window.
 
 </td></tr><tr><td>
 
@@ -80,6 +80,8 @@ Status
 The status of the Informer. Possible values are: Up, Down, Paused.
 
  **Note:** The status of an Informer is considered Down when no message has been received in the last 15 minutes.
+
+ When the auto-retirement feature is enabled, clusters with Informers in the Down state for an extended period may be automatically retired during full discovery cycles. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/remove-inactive-cis.md).
 
 </td></tr><tr><td>
 

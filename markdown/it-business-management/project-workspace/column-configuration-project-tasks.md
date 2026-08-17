@@ -1,6 +1,6 @@
 ---
 title: Supported columns for project and task generation
-description: Now Assist extracts project and project task details from uploaded documents \(e.g., excel workbooks\). Recognized data is mapped to pm\_project and pm\_project\_task columns. Columns not present in the document are initialized with valid defaults internally.
+description: AI extracts project and project task details from uploaded documents \(e.g., excel workbooks\). Recognized data is mapped to pm\_project and pm\_project\_task columns. Columns not present in the document are initialized with valid defaults internally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/column-configuration-project-tasks.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Project Workspace reference, Project Workspace, Project Portfolio M
 
 # Supported columns for project and task generation
 
-Now Assist extracts project and project task details from uploaded documents \(e.g., excel workbooks\). Recognized data is mapped to pm\_project and pm\_project\_task columns. Columns not present in the document are initialized with valid defaults internally.
+AI extracts project and project task details from uploaded documents \(e.g., excel workbooks\). Recognized data is mapped to pm\_project and pm\_project\_task columns. Columns not present in the document are initialized with valid defaults internally.
 
 |Column|Description|
 |------|-----------|

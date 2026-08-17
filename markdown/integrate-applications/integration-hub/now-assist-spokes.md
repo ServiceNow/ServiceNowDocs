@@ -38,16 +38,16 @@ The ServiceNow Otto for Integration Hub application is supported on Australia re
 
 ## Application version
 
-ServiceNow Otto for Integration Hub v2.3.1 is the latest version.
+ServiceNow Otto for Integration Hub v2.3.2 is the latest version.
 
 ## Activation of the application
 
 After installing the ServiceNow Otto for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
 -   See Otto to learn about AI agents.
--   See  to learn more about configuring the conversational settings.
--   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in  to learn more about conversation experience and skills.
+-   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md) to learn more about configuring the conversational settings.
+-   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See  in [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents
 
@@ -57,7 +57,7 @@ Available AI agent includes, [Meeting scheduler AI agent](https://raw.githubuser
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 **Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

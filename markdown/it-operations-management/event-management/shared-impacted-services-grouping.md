@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
-breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Shared impacted services alert grouping
@@ -38,5 +38,5 @@ Shared Impacted Services grouping is the better choice when your service topolog
 
 In short: if your service trees are shallow, either approach works. If your service trees are deep and span many topology levels, use Shared Impacted Services grouping to ensure no related alert is left out.
 
-For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 

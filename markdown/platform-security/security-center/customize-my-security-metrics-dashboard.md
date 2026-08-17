@@ -1,6 +1,6 @@
 ---
 title: Customize the My security metrics dashboard
-description: Discover the flexibility of the My security metrics dashboard, which can be customized with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
+description: Customize the My security metrics dashboard with metrics from various sources like graphs and charts to suit your organization's specific requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/customize-my-security-metrics-dashboard.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 # Customize the My security metrics dashboard
 
-Discover the flexibility of the My security metrics dashboard, which can be customized with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
+Customize the My security metrics dashboard with metrics from various sources like graphs and charts to suit your organization's specific requirements.
 
 ## Before you begin
 

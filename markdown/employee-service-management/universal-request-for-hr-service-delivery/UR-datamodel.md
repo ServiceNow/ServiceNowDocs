@@ -94,7 +94,7 @@ Current state of the Universal Request. A UR can be in any of the following stat
 -   In Progress
 -   Awaiting Response from user
 -   Closed
--   Canceled
+-   Cancelled
 
  For more information on the UR states, see [Universal Request states and reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-states.md).
 

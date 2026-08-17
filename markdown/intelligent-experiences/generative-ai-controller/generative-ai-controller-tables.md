@@ -8,8 +8,8 @@ product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Reference for Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+reading_time_minutes: 4
+breadcrumb: [Reference for Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Generative AI Controller tables
@@ -60,6 +60,7 @@ Logs generative AI prompts, responses, and edited responses for debugging LLM ca
 |Updated|Date/Time|Date and time when the log entry was last updated.|
 |Updated By|String|User who made updates to the log.|
 |Updates|Integer|Number of updates made to the log record.|
+|Reasoning tokens|Integer|Internal thinking tokens from reasoning models. Defaults to 0 for non-reasoning models. Used for cost/performance tracking.|
 
 ## Gen AI Usage Log \[sys\_gen\_ai\_usage\_log\] table
 

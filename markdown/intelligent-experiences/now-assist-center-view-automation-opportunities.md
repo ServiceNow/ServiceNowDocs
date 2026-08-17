@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-view-automation-opportunities.html
 release: australia
 topic_type: task
-last_updated: "2026-03-13"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Using AI Agent Advisor in Now Assist Center, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using AI Agent Advisor in AI Admin Center, Use, AI Admin Center, Enable AI experiences]
 ---
 
 # View your automation opportunities
@@ -17,7 +17,7 @@ Review the automation opportunities that AI Agent Advisor has identified for you
 
 ## Before you begin
 
-Automation discovery must be set up and an analysis run must be completed. For more information, see [Set up automation opportunity discovery for AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-set-up-automation-discovery.md).
+Automation discovery must be set up and an analysis run must be completed. For more information, see [Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md).
 
 Role required: sn\_na\_center.nac\_admin
 
@@ -27,7 +27,7 @@ After AI Agent Advisor completes an analysis, it produces a prioritized list of 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Review the Automation opportunitiessection of the home page to see the top automation opportunities.
 
@@ -49,9 +49,60 @@ After AI Agent Advisor completes an analysis, it produces a prioritized list of 
 
         Use the search field or the filter and sort controls adjust the list.
 
-        \[Omitted image "now-assist-center-agent-advisor-opportunities-list-2.png"\] Alt text: Automation opportunities tab showing a list of all automation opportunities.
+        \[Omitted image "ai-agent-advisor-opportunities-list-3.png"\] Alt text: Automation opportunities tab showing a list of all automation opportunities.
 
-    3.  Select a combination of sort, filter, and display options to refine the list.
+        The status of the opportunity displays in the **Status** column.
+
+<table id="table_l3q_ky1_bkc"><thead><tr><th>
+
+Status
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Requires installation
+
+</td><td>
+
+The instance requires installation of a plugin to get a base-system AI agent for this opportunity, No other prebuilt AI agents are available.
+
+</td></tr><tr><td>
+
+Ready to build
+
+</td><td>
+
+All resolution steps for the opportunity are matched to AI tools.
+
+</td></tr><tr><td>
+
+Ready to activate
+
+</td><td>
+
+There is a prebuilt AI agent available to activate for the opportunity.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+There is an activated AI agent for the opportunity.
+
+</td></tr><tr><td>
+
+\(Empty\)
+
+</td><td>
+
+The status is empty for an opportunity that has at least one step requiring an AI tool.
+
+</td></tr></tbody>
+</table>    3.  Select a combination of sort, filter, and display options to refine the list.
 
         -   Type in the search box and select the **Submit search** icon \(\[Omitted image "icon-now-assist-center-search.png"\] Alt text: Submit search icon.\) to filter by search criteria.
         -   Select the filter button \(\[Omitted image "icon-now-assist-center-filter.png"\] Alt text: Filter icon.\), choose one or more filters, and select **Apply**.
@@ -60,14 +111,14 @@ After AI Agent Advisor completes an analysis, it produces a prioritized list of 
 
 ## What to do next
 
-Implement an automation opportunity. For more information, see [Implement an automation opportunity from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md).
+Implement an automation opportunity. For more information, see [Implement an automation opportunity from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md).
 
-**Parent Topic:**[Using AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+**Parent Topic:**[Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
 
 **Related topics**  
 
 
-[Implement an automation opportunity from Now Assist Center]()
+[Implement an automation opportunity from AI Admin Center]()
 
 [Edit an AI agent from an automation opportunity]()
 

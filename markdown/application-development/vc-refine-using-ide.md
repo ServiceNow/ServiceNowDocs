@@ -24,7 +24,7 @@ For full documentation on using the ServiceNow IDE, see [ServiceNow IDE](https:/
 
 To refine your app in the ServiceNow IDE, follow these steps:
 
-1.  Create a workspace. Use Build Agent to create or edit application metadata. For more information, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
+1.  Create a workspace. Use Build Agent to create or edit application metadata. For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 2.  Create an app.
     -   Use Build Agent to create the app.
     -   You can choose to edit an existing app.
@@ -32,7 +32,7 @@ To refine your app in the ServiceNow IDE, follow these steps:
     -   Review business rules, script includes, and flow logic.
     -   Apply general guidelines for performance and security.
 4.  Inspect the metadata objects and adjust the data model.
-    -   Launch the ServiceNow IDE and load the app created by Now Assist or Build Agent.
+    -   Launch the ServiceNow IDE and load the app created by ServiceNow Otto or Build Agent.
     -   The ServiceNow IDE Metadata Explorer displays all generated metadata, including tables, scripts, forms, flows, UI components, and ACLs.
     -   Verify field types, choice lists, default values, and relationships.
     -   Confirm indexes and unique keys are set appropriately for your use case.
@@ -43,7 +43,7 @@ To refine your app in the ServiceNow IDE, follow these steps:
 6.  Validate security and roles.
     -   Review ACLs to confirm that the correct roles and conditions are applied.
     -   Tighten permissions and remove any overly permissive logic introduced during scaffolding.
-7.  Use Build Agent to generate and run Automated Test Framework. For more information, see [Testing what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md).
+7.  Use Build Agent to generate and run Automated Test Framework. For more information, see [Test what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md).
 8.  Move to local development with the ServiceNow SDK for deeper refactoring.
     -   Use the ServiceNow SDK command line interface \(CLI\) for build, deploy, and fetch operations, version control, and CI integration.
     -   Use the Source Control extension within the ServiceNow IDE to move changes between local versions and the ServiceNow IDE. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
@@ -58,7 +58,7 @@ To refine your app in the ServiceNow IDE, follow these steps:
 
 ## ServiceNow Fluent and agentic development
 
-ServiceNow Fluent is a development framework and SDK for ServiceNow that connects traditional coding with AI-assisted workflow automation.
+ServiceNow Fluent is a development framework and SDK for ServiceNow that connects traditional coding with agentic workflow automation.
 
 With ServiceNow Fluent, you can:
 
@@ -77,5 +77,5 @@ ServiceNow Fluent works with agentic development and Build Agent. You can genera
 1.  ServiceNow IDE: Best for file‑centric, code‑heavy edits, rapid iteration, and pairing with the ServiceNow SDK for local dev/CI. Suitable for developers familiar with the ServiceNow AI Platform.
 2.  ServiceNow Studio: Best for metadata‑centric review \(tables, ACLs, roles\) and cross‑scope editing with a visual overview of app artifacts; keeps Now Assist in‑context for conversational adjustments. Suitable for developers with various levels of experience on the ServiceNow AI Platform.
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
 

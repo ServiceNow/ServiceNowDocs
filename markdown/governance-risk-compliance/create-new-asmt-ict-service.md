@@ -1,6 +1,6 @@
 ---
-title: Create New Assessment of the ICT service
-description: On the Create New Assessment of the ICT service form, fill in the fields.
+title: Create assessment of the ICT service
+description: On the Create assessment of the ICT service form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-asmt-ict-service.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Create an assessment and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Assessment of the ICT service
+# Create assessment of the ICT service
 
-On the Create New Assessment of the ICT service form, fill in the fields.
+On the Create assessment of the ICT service form, fill in the fields.
 
 <table id="table_aqy_k2x_rvb"><thead><tr><th>
 
@@ -28,7 +28,7 @@ SysID
 
 </td><td>
 
-Unique 32-character GUID \(Globally Unique ID\) that identifies each assessment record in an instance. Provide this value if you want to update an existing record. Provide a value of -1 if you want to create a new record in the system.
+Unique 32-character GUID \(Globally Unique ID\) that identifies each assessment record in an instance. Provide this value if you want to update an existing record. Provide a value of -1 if you want to create a record in the system.
 
 </td></tr><tr><td>
 

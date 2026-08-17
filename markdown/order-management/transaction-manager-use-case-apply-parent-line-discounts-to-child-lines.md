@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience use case: Apply parent line discounts to child lines

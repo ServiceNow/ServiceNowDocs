@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configuring-synthetic-monitoring.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -24,10 +24,10 @@ Create a synthetic monitoring location to run a synthetic monitor. If you plan t
 Create or edit a synthetic monitor to test the availability and performance of your HTTP endpoints before your users discover issues.
 -   **[Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitors-from-incidents.md)**  
 Create synthetic monitors from incidents to proactively track endpoint failures and reduce repeat occurrences.
+-   **[Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md)**  
+Create a synthetic monitor to test the availability of APIs discovered through API Insights.
 -   **[Manage synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/manage-synthetic-monitors.md)**  
 Edit or delete synthetic monitors after creating them.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/resolve-incident-synthetic-creator-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/resolve-incident-synthetic-creator-agent.md)**  
-
 
 **Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)
 

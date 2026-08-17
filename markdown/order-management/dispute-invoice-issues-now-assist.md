@@ -1,33 +1,33 @@
 ---
-title: Dispute invoice issues using Now Assist Virtual Assistant
-description: Dispute invoice issues such as quantity discrepancies in a guided conversational flow using Now Assist Virtual Assistant from the Business Portal, without needing to contact support.
+title: Dispute invoice issues using ServiceNow Otto Virtual Agent
+description: Dispute invoice issues such as quantity discrepancies in a guided conversational flow using ServiceNow Otto Virtual Agent from the Business Portal, without needing to contact support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/dispute-invoice-issues-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-08-04"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management, Sales Customer Relationship Management]
+breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
 ---
 
-# Dispute invoice issues using Now Assist Virtual Assistant
+# Dispute invoice issues using ServiceNow Otto Virtual Agent
 
-Dispute invoice issues such as quantity discrepancies in a guided conversational flow using Now Assist Virtual Assistant from the Business Portal, without needing to contact support.
+Dispute invoice issues such as quantity discrepancies in a guided conversational flow using ServiceNow Otto Virtual Agent from the Business Portal, without needing to contact support.
 
 ## Before you begin
 
 The following applications must be installed and configured on your ServiceNow instance:
 
--   Now Assist for Platform \(sn\_genai\_platform\)
--   Now Assist for Order Management \(sn\_now\_assist\_om\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for Order Management \(sn\_now\_assist\_om\)
 -   Invoice Case Self Service \(sn\_invoice\_case\_ss\)
 
 Role required: sn\_customerservice.customer
 
 ## About this task
 
-When you describe your issue on the Now Assist panel, the AI agent validates the dispute using an Available-to-Promise \(ATP\) API call and presents resolution options, such as a credit note or fulfillment of outstanding items.
+When you describe your issue on the ServiceNow Otto panel, the AI agent validates the dispute using an Available-to-Promise \(ATP\) API call and presents resolution options, such as a credit note or fulfillment of outstanding items.
 
 If you express dissatisfaction or explicitly request human assistance at any point, the AI agent transfers the conversation to a human agent.
 
@@ -35,9 +35,9 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 1.  Log in to the Business Portal.
 
-2.  Launch the Now Assist chat panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
+2.  Launch the ServiceNow Otto chat panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:.
 
-    Now Assist uses the context of the current page to tailor its responses and offer support. For example, launching it from an invoice details page offers help in the context of that invoice.
+    ServiceNow Otto uses the context of the current page to tailor its responses and offer support. For example, launching it from an invoice details page offers help in the context of that invoice.
 
 3.  In natural language, describe the invoice issue you want to dispute.
 
@@ -103,7 +103,7 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 When the dispute is resolved, an email notification is sent to you with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 
 **Related topics**  
 

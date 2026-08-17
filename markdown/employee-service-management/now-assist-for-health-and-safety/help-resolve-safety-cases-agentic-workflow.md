@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use agentic workflows, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Help resolve health and safety cases agentic workflow
@@ -31,7 +31,7 @@ To access the agentic workflow:
 
     **Note:** Confirm that the application scope is selected as **AI agents for Health and Safety** to enable the **Save** option when you change the trigger status to Active. For more information on changing the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
-4.  Enable the Now Assist panel from the **Select display** option.
+4.  Enable the ServiceNow Otto panel from the **Select display** option.
 
 ## AI agents used in the Help resolve health and safety cases agentic workflow
 

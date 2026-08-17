@@ -224,7 +224,7 @@ sn\_now\_assist\_cr.llm.accept\_user\_input\_as\_is
 
 </td><td>
 
-When filling out catalog forms in Now Assist, this enables users to provide input to be taken as is. This applies only to textual fields \(for example, single-line, multi-line, HTML\). However, if Now Assist determines that user is attempting to 'skip' a field or to 'exit' the conversation, these actions take place with higher priority. There are these two uses cases:
+When filling out catalog forms in ServiceNow Otto, this enables users to provide input to be taken as is. This applies only to textual fields \(for example, single-line, multi-line, HTML\). However, if ServiceNow Otto determines that user is attempting to 'skip' a field or to 'exit' the conversation, these actions take place with higher priority. There are these two uses cases:
 
 -   A: User enters meaningless answer, for example, "abcd"
 -   B: User enter long content so that the LLM response is the empty values

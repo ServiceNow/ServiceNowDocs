@@ -57,7 +57,7 @@ You can use MFA along with the following:
 **Related topics**  
 
 
-[Multi-factor Authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
+[Multi-factor authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
 
 [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Testing using Test Management 2.0
-description: You can use Test Management 2.0 for general testing such as testing a phase in a release, testing a set of features or products before their market launch, or performing release readiness testing on integration and accessibility \(for new software\).
+description: You can use Test Management 2.0 for general testing such as testing a phase in a release, testing a set of features or products before their market launch. It also includes performing release readiness testing on integration and accessibility \(for new software\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/release-readiness-testing.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Test Management 2.0, Test Management applications, Strategic Portfo
 
 # Testing using Test Management 2.0
 
-You can use Test Management 2.0 for general testing such as testing a phase in a release, testing a set of features or products before their market launch, or performing release readiness testing on integration and accessibility \(for new software\).
+You can use Test Management 2.0 for general testing such as testing a phase in a release, testing a set of features or products before their market launch. It also includes performing release readiness testing on integration and accessibility \(for new software\).
 
 General testing comprises the following steps:
 
@@ -33,7 +33,7 @@ Group related tests into a test set. Test sets help you find tests by category o
 -   **[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md)**  
 Test Board gives you a comprehensive view of your test plans and enables you to manage test plans more efficiently.
 -   **[Create a test execution suite in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/create-test-execution-suite.md)**  
-Create a short test plan when the testing effort is minimal and you do not want to go through the overhead of creating a test plan and a test cycle for a test execution suite.
+Create a short test plan when the testing effort is minimal. You can also use it when you want to avoid the overhead of creating a test plan and a test cycle for a test execution suite.
 -   **[Run your test assignments in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/run-your-test-assignments.md)**  
 Run your test assignments and capture the results.
 

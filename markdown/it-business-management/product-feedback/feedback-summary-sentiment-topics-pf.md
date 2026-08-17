@@ -1,6 +1,6 @@
 ---
-title: Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)
-description: Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the Now Assist for Strategic Portfolio Management \(SPM\) application.
+title: Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
+description: Generate a summary from the name and description of feedback records. This helps you analyze a large volume of feedback quickly without reading each record manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/feedback-summary-sentiment-topics-pf.html
 release: australia
@@ -8,42 +8,42 @@ product: Product Feedback
 classification: product-feedback
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Managing Feedback application in Strategic Planning, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+reading_time_minutes: 5
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)
+# Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
 
-Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the Now Assist for Strategic Portfolio Management \(SPM\) application.
+Generate a summary from the name and description of feedback records. This helps you analyze a large volume of feedback quickly without reading each record manually.
 
 \[Omitted video\] Description: Multi feedback summarization video.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
+**Important:** This AI skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills will turn on automatically.
+    When you install a Otto product, designated skills will turn on automatically.
 
 -   **Existing customers who are upgrading**
 
     Any previously unconfigured skill will turn on automatically \(the skill was never turned on, then off again\).
 
-    There is no change to Now Assist skills that are currently enabled and customized.
+    There is no change to Otto skills that are currently enabled and customized.
 
     Previously configured skills that were turned on, then off, will remain inactive.
 
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
 
-The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
 
 Role required: pf\_user
 
 ## About this task
 
-With the feedback or multi feedback summarization skill, you can get enough details about the feedback that you received on your product so that you can improve the product features, usability, and performance.
+With the feedback or multi feedback summarization skill, you can get enough details about the feedback that you received on your product. Use these details to improve the product features, usability, and performance.
 
 ## Procedure
 
@@ -59,33 +59,29 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 4.  Select **Summarize**.
 
-    View an animation for the Now assist icon when you hover over it.
+    View an animation for the Otto icon when you hover over it.
 
     You can generate a summary of a single feedback record by using the feedback summarization skill. This image shows the AI-generated summary for a single feedback record.
 
-    \[Omitted image "single-feedback-summarization-screen.png"\] Alt text: AI-generated summary for a single feedback record using feedback summarization skill.
-
     You can use the multi feedback summarization skill to generate summaries of one or multiple feedback records. For example, you can analyze the high-priority feedback, filter them, summarize the records, and gain insights into the requirements.
-
-    \[Omitted image "multi-feedback-summarization-example.png"\] Alt text: AI-generated summary for multiple feedback records using the multi feedback summarization skill.
 
     **Note:** Because the information in these fields is automatically generated, it's a good idea to review the text and make sure it's accurate.
 
     The feedback or multi feedback summarization skill uses the name and description information of the feedback record to generate a paragraph or bullet-point summary from the feedback.
 
-    View the hover animation for the Now Assist icon on the Summarize button in the feedback list and Docs.
+    View the hover animation for the Otto icon on the Summarize button in the feedback list and Docs.
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d142155e207">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d145259e211">
 
 Option
 
-</th><th align="left" id="d142155e210">
+</th><th align="left" id="d145259e214">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d142155e216">
+</th></tr></thead><tbody><tr><td id="d145259e220">
 
 **Expand or collapse the summary**
 
@@ -93,7 +89,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse-spm.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d142155e237">
+</td></tr><tr><td id="d145259e241">
 
 **More information on summary**
 
@@ -101,7 +97,7 @@ Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d142155e252">
+</td></tr><tr><td id="d145259e256">
 
 **View more or less summary**
 
@@ -109,7 +105,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d142155e267">
+</td></tr><tr><td id="d145259e271">
 
 **Provide feedback for the summary**
 
@@ -117,7 +113,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d142155e291">
+</td></tr><tr><td id="d145259e295">
 
 **Copy the feedback summary**
 
@@ -125,7 +121,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text: Copy to clipboard icon.\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d142155e306">
+</td></tr><tr><td id="d145259e310">
 
 **Refresh the summary**
 
@@ -133,7 +129,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d142155e318">
+</td></tr><tr><td id="d145259e322">
 
 **Copy and create epic from summary**
 
@@ -148,6 +144,19 @@ Select **Copy and create epic** to create a planning or non-planning item by usi
 
 6.  Select **Copy and create epic** to copy the generated summary and create a planning item.
 
-    Save time and streamline your work flow by linking the feedback with planning items, which eliminates the need to copy summaries. You can quickly create work items in Feedback and view them in the roadmap.
+    Save time and streamline your workflow by linking the feedback with planning items, which eliminates the need to copy summaries. You can quickly create work items in Feedback and view them in the roadmap.
 
+
+**Related topics**  
+
+
+[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+
+[Install AI plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/install-now-assist-spm-plugin.md)
+
+[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)
+
+[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-admin-spm.md)
+
+[Supporting information for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/supporting-info-now-assist-spm.md)
 

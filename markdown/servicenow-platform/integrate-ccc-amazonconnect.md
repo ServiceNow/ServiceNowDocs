@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/integrate-c
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -17,8 +17,9 @@ Connect ServiceNow Voice of your ServiceNow instance with the Amazon Connect ins
 ## Before you begin
 
 -   Procure an Amazon Web Services \(AWS\) account with the administrative access to complete the integration setup between Amazon Connect and ServiceNow. For information about creating the AWS account, see the Amazon [documentation](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/).
--   Review the pricing policies for the services provisioned during this setup. Required services, resources, roles are set up in your AWS account.
+-   Review the pricing policies for the services provisioned during this setup. Required services, resources, and roles are set up in your AWS account.
 -   Create a service account in your ServiceNow instance to allow communication from your AWS account to your ServiceNow instance. If you do not have the permissions to create service accounts on your instance, contact your ServiceNow administrator for creating this service account.
+-   If you want to use the **AI Voice Agents** capability, then your Admin would have to enable the feature in your instance.
 
 Role required: sn\_cti\_amzn\_cct.admin
 
@@ -26,7 +27,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
 ## Procedure
 
-1.  Log in to your Amazon Web Services \(AWS\) account and setup an Amazon Connect instance.
+1.  Log in to your Amazon Web Services \(AWS\) account and set up an Amazon Connect instance.
 
     For instructions on setting up this instance, see the [Amazon Connect documentation](https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-instances.html).
 
@@ -76,7 +77,7 @@ Override Params
 
 </td><td>
 
-Option to edit the domain for Amazon Connect instance parameters. You should select this option only when you want to integrate the ServiceNow instance with an Amazon Connect instance created before introducing the new domain for the Amazon Connect console. For information about this new domain, see the Amazon Connect [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-release-notes.html#new-domain).
+Option to edit the domain for Amazon Connect instance parameters. Select this option only when you want to integrate the ServiceNow instance with an Amazon Connect instance created before the new domain was introduced. For information about this new domain, see the Amazon Connect [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-release-notes.html#new-domain).
 
 </td></tr><tr><td>
 
@@ -101,13 +102,15 @@ Auto-generated parameters based on the name of the Amazon Connect instance.For e
 </td></tr></tbody>
 </table>3.  Configure the Amazon Connect components in your ServiceNow instance.
 
-    \[Omitted image "amazon-connect-home.png"\] Alt text: Amazon Connect integration setup homepage in the ServiceNow instance
+    You can **Enable AI Voice Agents** for your Amazon Connect instance to use the capability. The Admin would enable the **AI Voice Agents** capability.
+
+    \[Omitted image "amazon-connect-home.png"\] Alt text: Amazon Connect integration setup homepage in the ServiceNow instance.
 
     1.  Navigate to **Amazon Connect Integration** &gt; **View Instances**.
 
     2.  Select the instance you want to configure.
 
-    3.  Click the **Setup Guide** related link.
+    3.  Select the **Setup Guide** related link.
 
     4.  Work through the guided setup steps in the order displayed, and complete the instructions for components specified in each section.
 
@@ -121,11 +124,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Select Application
+Select Application / Home
 
 </td><td>
 
 Select an application for which you want to configure the Amazon Connect components.
+
+ To enable AI Voice Agents, select **Enable AI Voice Agents** and enter values in the **Call Context API URL** and **Voice Service ID** fields.
+
+**Note:** Obtain the **Call Context API URL** and **Voice Service ID** field values from the voice service configured in Assistant Designer.
 
 </td></tr><tr><td>
 
@@ -145,7 +152,7 @@ Set up a collection of the required Amazon Web Services \(AWS\) resources. For m
 
 -   Use AWS Cloud Formation template to describe AWS resources and properties
 -   Use AWS Cloud Formation stack to provision the resources described in the template
-**Note:** If you are upgrading from a previous release, point your existing deployment of Lambda function running on Node.js 10.x to point it to Node.js 14.x. For more information, see the Amazon [documentation](https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/).
+**Note:** If you're upgrading from a previous release, point your existing deployment of Lambda function running on Node.js 10.x to point it to Node.js 14.x. For more information, see the Amazon [documentation](https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/).
 
 </td></tr><tr><td>
 
@@ -153,7 +160,7 @@ Deploy Lex Bot
 
 </td><td>
 
-Build voice-based conversational interfaces for your users. For more information on Lex Bot, see the Amazon [documentation](https://docs.aws.amazon.com/lex/latest/dg/chatbot-service.html)
+Build voice-based conversational interfaces for your users. For more information on Lex Bot, see the Amazon [documentation](https://docs.aws.amazon.com/lex/latest/dg/chatbot-service.html)**Note:** If you have selected ServiceNow **AI Voice Agents**, you're not required to Deploy Lex Bot
 
 </td></tr><tr><td>
 
@@ -178,6 +185,7 @@ Import Contact Flows
 
 -   Based on your subscription, you have default inbound and outbound contact flows. For example, for the integration of ServiceNow Voice with ITSM applications, see [Components installed with ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-cloud-call-center-itsm.md).
 
+-   If you have selected ServiceNow **AI Voice Agents**, for import contact flows you have to download the flow module for that, which will connect the inbound flow to the voice service.
 -   For an inbound contact flow, create queues to route contacts from AWS queues to ServiceNow queues. For information on creating queues in AWS, see the Amazon [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/transfer-to-agent.html).
 
 -   Set up call transfer flows through Amazon Connect using Transfer to Agent Flow and Transfer to Queue Flow. The transfer flows are reusable and can also be applied to ServiceNow Voice for ITSM.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-touchpoint-related-tasks.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-21"
 reading_time_minutes: 1
-breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a related task from a touchpoint

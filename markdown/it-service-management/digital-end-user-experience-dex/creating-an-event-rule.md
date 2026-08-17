@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-04-27"
 reading_time_minutes: 1
+keywords: [event rule, create event rule, performance thresholds, alert criteria, event filters]
 breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 

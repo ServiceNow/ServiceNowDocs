@@ -24,14 +24,14 @@ Generate structured release notes for a release using AI-driven summarization, r
 
         For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
 
-    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\) version 12.0.0 or later.
+    -   ServiceNow Otto for ITSM plugin \(sn\_itsm\_gen\_ai\) version 12.0.0 or later.
 
-        For more information, see [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
+        For more information, see [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
 
 -   **Configuration:**
     -   The Generate Release Notes skill must be active.
 
-        For more information, see [Configure Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+        For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 
     -   The release phase set as the release readiness must be in progress or completed.
 

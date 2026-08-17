@@ -1,6 +1,6 @@
 ---
 title: Premium chat
-description: Now Assist in Virtual Agent premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
+description: ServiceNow Otto for Virtual Agent premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.html
 release: australia
@@ -9,14 +9,14 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-01-23"
 reading_time_minutes: 17
-breadcrumb: [Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Premium chat
 
-Now Assist in Virtual Agent premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
+ServiceNow® Otto for Virtual Agent premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
 
-To access the Now Assist in Virtual Agent premium chat screen, select the Now Assist icon or enter text in the omnibar. \[Omitted image "nava-portal-screen.png"\] Alt text:
+To access the ServiceNow Otto for Virtual Agent premium chat screen, select the ServiceNow Otto icon or enter text in the omnibar. \[Omitted image "nava-portal-screen.png"\] Alt text:
 
 After the premium chat screen appears, begin entering a prompt in the chat input box. You can enter the entire prompt or select one of the recommended prompts that displays below the chat input box. Recommended prompts may include:
 
@@ -24,7 +24,7 @@ After the premium chat screen appears, begin entering a prompt in the chat input
 -   Keyword-based prompts
 -   Direct links to relevant content
 
-**Note:** For more information about how Now Assist in Virtual Agent and Now Assist in AI Search combine to include recommended prompts, see [Auto-complete suggestion types included with Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/auto-complete-suggestion-types-na-ais.md).
+**Note:** For more information about how ServiceNow Otto for Virtual Agent and Now Assist in AI Search combine to include recommended prompts, see [Auto-complete suggestion types included with ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/auto-complete-suggestion-types-na-ais.md).
 
 ## Chat input box features
 
@@ -46,12 +46,17 @@ The chat input box has these features:
 
 -   **File upload**
 
-    You can upload files by selecting the file upload icon or by dragging and dropping files directly into the chat input box. The premium chat screen displays thumbnails for the first three uploaded files and you can upload up to 20 files in a single interaction.
+    You can upload files by selecting the file upload icon or by dragging and dropping files directly into the chat input box. You can upload a maximum of 5 files per conversation and a total upload limit of 30 MB. Supported file formats are:
 
+    -   PDF
+    -   JPEG
+    -   TXT
+    -   CSV
+    -   PNG
 
 ## Navigating the chat window resizing options and controls toolbar
 
-The Now Assist sub-header consists of four elements. The following figure and table shows an example and description of those elements.
+The ServiceNow Otto sub-header consists of four elements. The following figure and table shows an example and description of those elements.
 
 \[Omitted image "nava-premium-window-controls.png"\] Alt text:
 
@@ -88,7 +93,7 @@ All chats appear.
 
 The name of the conversation.
 
- If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to Now Assist** field, your initial utterance becomes the chat name. The chat name appears in both the Now Assist subheader and **Chats list** &gt; **Active** section.
+ If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to** field, your initial utterance becomes the chat name. The chat name appears in both the ServiceNow Otto subheader and **Chats list** &gt; **Active** section.
 
 </td></tr><tr><td>
 
@@ -118,22 +123,26 @@ Support contact information such as phone numbers and email addresses are listed
 
 **Note:** This icon only appears in the sub-header whenever the interactive view is available.
 
- Open or close the interactive view. The interactive view appears towards the right of the conversational chat area. Interactive view is available whenever an organizational chart is an available option in a people citation popover. If multiple interactive views are available in the same conversation, for example, you opened multiple people's org charts in a conversation, a drop-down is available to switch between the different interactive views' tabs.
+ Open or close the interactive view. The interactive view appears to the right of the conversational chat area. The drop-down selector displays the names of all interactive views opened in the current conversation, including Knowledge Base articles, catalog forms, org charts, and AI agent widgets.Interactive view is only available in the following scenarios:
+
+-   An organizational chart is available to view.
+-   A document was uploaded and you choose to preview the document.
+-   A source is available and you choose to select and view the source content.
 
 </td></tr></tbody>
 </table>## Chatting with Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-catalog-ordering-gr.md) and [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-qna-genius-results.md).
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-catalog-ordering-gr.md) and [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-qna-genius-results.md).
 
-If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the Now Assist Multi-Turn Catalog Ordering skill is enabled.
+If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the ServiceNow Otto Multi-Turn Catalog Ordering skill is enabled.
 
-**Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
+**Note:** For full catalog functionality, enable the generative AI experience for catalog item request submissions. For more information, see [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
 Whenever only a single search result for topics is found, the synthesized response and options are bypassed by default and users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
-You can create a new query from within a Now Assist conversation using mid-topic discovery. For more information, see [Mid-topic switching during Now Assist in Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
+You can create a new query from within a ServiceNow Otto conversation using mid-topic discovery. For more information, see [Mid-topic switching during ServiceNow Otto for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md).
 
-If Now Assist Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous on the portal search, a synthesized response appears along with an **Ask a follow up** option. Selecting the **Ask a follow up** option redirects you to a Virtual Agent chat. In the Virtual Agent chat, you can submit your follow-up question or request, but the synthesized response links are only available to select on the portal page and are unavailable to select in the chat window. If your follow-up question or request is too ambiguous in the Virtual Agent chat, Virtual Agent asks a clarifying question and displays the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) in the feedback panel.
+If AI Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous on the portal search, a synthesized response appears along with an **Ask a follow up** option. Selecting the **Ask a follow up** option redirects you to a Virtual Agent chat. In the Virtual Agent chat, you can submit your follow-up question or request, but the synthesized response links are only available to select on the portal page and are unavailable to select in the chat window. If your follow-up question or request is too ambiguous in the Virtual Agent chat, Virtual Agent asks a clarifying question and displays the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) in the feedback panel.
 
 Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(\[Omitted image "llm-thumbs-up-like.png"\] Alt text: Thumbs up icon.\). If the response wasn't helpful, select the dislike thumbs down icon \(\[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: Thumbs down icon.\). When you select the thumbs up or thumbs down icon, you are prompted to provide detailed feedback by selecting one or more reason check boxes. You can also select **Other** to add comments or suggestions \(up to 300 characters\). After making your selection, select **Submit** to submit your feedback or select **X** to close the dialog without submitting feedback. All submitted feedback is captured, stored, and made available through analytic dashboards.
 
@@ -143,7 +152,7 @@ Depending on the context of the response, an additional go to search results ico
 
 \[Omitted image "nava-premium-feedback-panel.png"\] Alt text:
 
-Responses generated in Now Assist in Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, knowledge articles, attachments, external content sources, and people citations. Inline citations appear at the end of the relevant synthesized response sentence. Selecting an inline citation results in a popover containing either a link to an article or source, or a description and action to start the action. The following options may appear as synthesized response in-line citations depending on what search results are returned:
+Responses generated in ServiceNow Otto for Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, knowledge articles, attachments, external content sources, and people citations. Inline citations appear at the end of the relevant synthesized response sentence. Selecting an inline citation results in a popover containing either a link to an article or source, or a description and action to start the action. The following options may appear as synthesized response in-line citations depending on what search results are returned:
 
 -   Catalog
 -   Topic, subflows, or actions
@@ -182,15 +191,15 @@ Select an entity in-line citation to view that entity record in a new tab, or se
 
 You can chat with a live agent if you need more support. Select the **Contact Live Agent** button found in the Support and settings \(\[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: Support and settings icon.\) option, enter a request such as `Chat with live agent` into the chat, or select the **Request a live agent** fallback option. After an agent has accepted your chat, the agent's name and avatar appears at the top of the chat in a banner. Only one live agent chat at a time is permitted. To exit the live chat, select **End live chat**. The chat history then moves to the Closed chat section.
 
-\[Omitted image "dw-end-live-chat-yp6.png"\] Alt text: End live chat button appears in a banner at the top of the chat.
+\[Omitted image "dw-premium-live-agent-example.png"\] Alt text: End live chat button appears in a banner at the top of the chat.
 
 ## Submitting catalog requests
 
-You can submit catalog requests directly from Now Assist in Virtual Agent premium chat without leaving the chat experience.
+You can submit catalog requests directly from ServiceNow Otto for Virtual Agent premium chat without leaving the chat experience.
 
 To submit a catalog request:
 
-1.  Open Now Assist in Virtual Agent premium chat.
+1.  Open ServiceNow Otto for Virtual Agent premium chat.
 2.  Find a catalog item through chat.
 3.  Select the item and a catalog form opens inline in the interactive view.
 4.  Complete the required form fields.
@@ -223,7 +232,7 @@ Select a fallback option to launch that mode or action.
 
 \[Omitted image "dw-web-search-fallback-example.png"\] Alt text: Search the web and Create a generic ticket buttons are fallback options for end users.
 
-When you're using premium chat and you enter a search query through your portal's search bar, you’re redirected to the portal's search results page. At the top of the search results page, you see Genius Results in a synthesized response generated by Now Assist. This synthesized response answer provides inline citations that appear at the end of each sentence. You can select citations and if applicable, such as for conversational catalog items, select whether to \[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request with form icon.**Request with form** or \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.**Request in chat**. Similar options also appear in the regular search results area, as indicated by the request in chat icon \( \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.\) and request with form icon \(\[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request in form icon.\). Depending on your selection, the catalog request flow launches within either the Virtual Agent chat or a form.
+When you're using premium chat and you enter a search query through your portal's search bar, you’re redirected to the portal's search results page. At the top of the search results page, you see Genius Results in a synthesized response generated by ServiceNow Otto. This synthesized response answer provides inline citations that appear at the end of each sentence. You can select citations and if applicable, such as for conversational catalog items, select whether to \[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request with form icon.**Request with form** or \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.**Request in chat**. Similar options also appear in the regular search results area, as indicated by the request in chat icon \( \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.\) and request with form icon \(\[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request in form icon.\). Depending on your selection, the catalog request flow launches within either the Virtual Agent chat or a form.
 
 \[Omitted image "dw-synthesized-response-search-bar.png"\] Alt text: A synthesized response appears at the top of the search results after a search query for request laptop was made.
 
@@ -235,7 +244,7 @@ You can start the chat experience either through the chat icon on the portal's s
 
 After selecting the chat widget button on the portal, the floating chat window opens and replaces the chat button. A greeting message appears, and a chat is created only after you have entered an initial utterance. If you have an active chat ongoing, the current active chat appears instead of a greeting message. You can select a predefined action, topic, suggested search query, start a new conversation, or view all options, if applicable. The **View all options** link only shows if more than one suggested search query or promoted topic is available.
 
-**Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
+**Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
-If language detection is turned on and the initial utterance entered into the portal's search bar or chat differs from the user's profile language preference, the conversational language automatically switches to the detected language. For more information and examples of language detection in premium chat conversations, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
+If language detection is turned on and the initial utterance entered into the portal's search bar or chat differs from the user's profile language preference, the conversational language automatically switches to the detected language. For more information and examples of language detection in premium chat conversations, see [Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 

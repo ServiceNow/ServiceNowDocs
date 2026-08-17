@@ -9,8 +9,8 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, generative AI, AI Agents, agentic ai, SLO AI Agent, SLO Agentic AI]
-breadcrumb: [AI driven supplier onboarding, Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+keywords: [Now Assist, generative AI, AI Agents, agentic ai, SLO AI Agent, SLO Agentic AI, AI Agent Studio]
+breadcrumb: [AI driven supplier onboarding, Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Activate AI agents
@@ -25,7 +25,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 
-2.  Under AI agents, select and activate all the AI agents one by one to make them available in the Now Assist panel.
+2.  Under AI agents, select and activate all the AI agents one by one to make them available in the ServiceNow Otto panel.
 
     -   Supplier data steward AI agent
     -   Supplier data validator AI agent
@@ -49,7 +49,7 @@ Role required: admin
 
     The Describe trigger page is read-only.
 
-7.  In the Define availability page, switch the **Display** toggle to the open position so that the AI agents are enabled in the Now Assist panel.
+7.  In the Define availability page, switch the **Display** toggle to the open position so that the AI agents are enabled in the ServiceNow Otto panel.
 
 8.  To activate the agentic workflow, select **Save and test**.
 
@@ -61,7 +61,7 @@ After agents are activated, agentic workflow must also be activated separately.
 **Related topics**  
 
 
-[AI driven supplier onboarding using Now Assist for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.md)
+[AI driven supplier onboarding using ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.md)
 
 [Supplier document strategy generator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-document-strategy-generator-ai-agent.md)
 

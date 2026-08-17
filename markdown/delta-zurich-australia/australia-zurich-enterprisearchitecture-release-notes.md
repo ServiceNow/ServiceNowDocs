@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-enterprisearchitecture-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 30
+last_updated: "2026-08-17"
+reading_time_minutes: 33
 breadcrumb: [Products combined by family]
 ---
 
@@ -138,8 +138,8 @@ Export the Business Portfolio data to Microsoft Excel or CSV format.
 Assign an owner to a TRM category to ensure clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
 
 -   **[TPM lifecycle record enhancements](https://www.servicenow.com/docs/access?context=eaw-tpm&family=zurich&ft:locale=en-US)**
-    -   TPM lifecycle records are now assigned unique identifiers are automatically,while creating the TPM lifecycle record. These identifiers serve as clickable links that provide direct access to full record details.
-    -   Run the Populate Number field in TPM Discovered Technologies scheduled job to populate the TPM lifecycle record identifiers of existing records created using previous versions \(before version 1.9.0\) of the TPM plugin. For details, [Run a scheduled job to populate TPM lifecycle record identifier](https://www.servicenow.com/docs/access?context=eaw-run-job-to-populate-tpm-lifecycle-identifier&family=zurich&ft:locale=en-US).
+    -   TLM lifecycle records are now assigned unique identifiers are automatically,while creating the TLM lifecycle record. These identifiers serve as clickable links that provide direct access to full record details.
+    -   Run the Populate Number field in TPM Discovered Technologies scheduled job to populate the TPM lifecycle record identifiers of existing records created using previous versions \(before version 1.9.0\) of the TLM plugin. For details, [Run a scheduled job to populate TLM lifecycle record identifier](https://www.servicenow.com/docs/access?context=eaw-run-job-to-populate-tpm-lifecycle-identifier&family=zurich&ft:locale=en-US).
 -   **[Working with Portfolio list view](https://www.servicenow.com/docs/access?context=eaw-work-with-portfolio-list-view&family=zurich&ft:locale=en-US)[AI Portfolio section enhancements](https://www.servicenow.com/docs/access?context=eaw-exploring-the-ai-portfolio&family=zurich&ft:locale=en-US)**
 
 The following AI product models added to the AI Portfolio section:
@@ -204,6 +204,45 @@ Australia
 
 </td><td>
 
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[New business architecture entities](https://www.servicenow.com/docs/access?context=eaw-using-business-architecture&family=australia&ft:locale=en-US)**
+
+Model additional layers of your business architecture using five new entity types in the Business Architecture section of the Portfolio List view:
+
+    -   [Business actors](https://www.servicenow.com/docs/access?context=eaw-business-actors&family=australia&ft:locale=en-US) represent the people, teams, or organizational units that perform business processes and activities.
+    -   [Business roles](https://www.servicenow.com/docs/access?context=eaw-business-roles&family=australia&ft:locale=en-US) represent the responsibilities, rights, and duties associated with performing specific business behavior, independently of who holds the role. Business roles can have a parent role, letting you build a role hierarchy.
+    -   [Stakeholders](https://www.servicenow.com/docs/access?context=eaw-stakeholders&family=australia&ft:locale=en-US) represent the individuals or teams with an interest in your enterprise architecture outcomes, rated by influence and interest level.
+    -   [Drivers](https://www.servicenow.com/docs/access?context=eaw-drivers&family=australia&ft:locale=en-US) represent the internal or external conditions that motivate your organization to define goals and implement changes, rated by urgency.
+    -   [Business process activities](https://www.servicenow.com/docs/access?context=eaw-business-process-activities&family=australia&ft:locale=en-US) represent discrete units of work, such as a manual task, an approval step, or a system-triggered action, associated with the business actors who perform them.
+You can create, edit, and associate each entity with related business actors, roles, stakeholders, drivers, goals, value streams, and business processes from the Portfolio List view.
+
+-   **[Connections between business architecture entities](https://www.servicenow.com/docs/access?context=portfolio-list-view&family=australia&ft:locale=en-US)**
+
+Associate related records between existing and new business architecture entities directly from their related lists in the Portfolio page of Enterprise Architecture Workspace:
+
+    -   Add or remove business capabilities on a business unit.
+    -   Add or remove business units on a business capability.
+    -   Add or remove business processes on a business unit.
+    -   Add or remove business units on a business process.
+    -   Add or remove business processes on a goal.
+    -   Add or remove goals on a business process.
+    -   Add or remove business capabilities on a goal.
+    -   Add or remove goals on a business capability.
+You can also create related record directly from the related list instead of searching for an existing one.
+
+-   **[Exploring Enterprise Architecture query agent](https://www.servicenow.com/docs/access?context=ea-qna-overview&family=australia&ft:locale=en-US)**
+
+When an Enterprise Architecture query agent response references a specific record, such as a business application or a capability, the record name now appears as linked text. Select the linked text to navigate directly to that record in Enterprise Architecture Workspace.
+
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Now Assist for Enterprise Architecture \(EA\) enhancements](https://www.servicenow.com/docs/access?context=now-assist-ea&family=australia&ft:locale=en-US)**
+
+Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
+
+
 [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Enterprise Modeling and Visualization enhancements](https://www.servicenow.com/docs/access?context=eaw-work-with-ent-model-and-visual&family=australia&ft:locale=en-US)**
@@ -232,7 +271,7 @@ For information, see [Shape connector properties in Enterprise Modeling and Visu
     -   Replace an existing shape or entity in a modeling diagram with a different shape type. Existing connections and relationship lines associated with the shape are preserved after the replacement. For information, see [Replace a shape in a diagram](https://www.servicenow.com/docs/access?context=eaw-modeling-replace-shape&family=australia&ft:locale=en-US).
     -   Upload an image of an existing process diagram to generate a new, editable business process map \(BPM\) diagram in Enterprise Modeling and Visualization, using the ServiceNow AI Lens Now Assist skill. AI Lens identifies shapes, pools, lanes, gateways, and connections from the image, maps recognized shapes to existing records where matching records exist, and stages new records for shapes with no match.
 
-The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create business process map diagram from image using Now Assist](https://www.servicenow.com/docs/access?context=eaw-create-bpm-diag-from-image&family=australia&ft:locale=en-US) and [Review Now Assist-generated business process map diagram](https://www.servicenow.com/docs/access?context=eaw-review-ai-generated-bpm-diag&family=australia&ft:locale=en-US)
+The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create business process map diagram from image using ServiceNow Otto](https://www.servicenow.com/docs/access?context=eaw-create-bpm-diag-from-image&family=australia&ft:locale=en-US) and [Review ServiceNow Otto generated business process map diagram](https://www.servicenow.com/docs/access?context=eaw-review-ai-generated-bpm-diag&family=australia&ft:locale=en-US)
 
 -   **[Sync TRM product names with software product names](https://www.servicenow.com/docs/access?context=eaw-schedule-job-sync-trm-product-names&family=australia&ft:locale=en-US)**
 
@@ -257,7 +296,7 @@ Monitor AI adoption across your enterprise from the **AI Portfolio** tab on the 
     -   **AI Systems by Business Application Association**: Shows the total number of AI systems, segmented by whether they are linked to a business application.
 Both widgets source their data from approved AI System–Business Application linkage records. For information, see [Exploring the AI Portfolio](https://www.servicenow.com/docs/access?context=eaw-exploring-the-ai-portfolio&family=australia&ft:locale=en-US).
 
--   **[Enterprise Architecture query agent](https://www.servicenow.com/docs/access?context=ea-qna-overview&family=australia&ft:locale=en-US)**
+-   **[Exploring Enterprise Architecture query agent](https://www.servicenow.com/docs/access?context=ea-qna-overview&family=australia&ft:locale=en-US)**
 
 The Enterprise Architecture query agent is a new Now Assist agentic AI skill that lets you ask natural language questions about your enterprise architecture portfolio directly from EA Workspace.
 
@@ -293,8 +332,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Exploring the architecture analyzer](https://www.servicenow.com/docs/access?context=eaw-explore-arch-analyzer&family=australia&ft:locale=en-US)Architecture Analyzer**
@@ -423,6 +462,18 @@ Australia
 
 </td><td>
 
+-   **[Renamed Technology Portfolio Management](https://www.servicenow.com/docs/access?context=eaw-tpm&family=australia&ft:locale=en-US)**
+
+Technology Portfolio Management \(TPM\) is renamed Technology Lifecycle Management \(TLM\) in the Enterprise Architecture Workspace.
+
+-   **[Renamed Now Assist](https://www.servicenow.com/docs/access?context=exploring-now-assist-for-ea&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto for Enterprise Architecture \(EA\) is rebranded to ServiceNow Otto. User-facing text and icons across the Enterprise Modeling and Visualization tool are updated to reflect the new branding.
+
+
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=australia&ft:locale=en-US)**
+    -   
+    -   Changed the default LLM model for all ServiceNow Otto for Enterprise Architecture \(EA\) is to Azure OpenAI.
 -   **[Granular admin role changes in Enterprise Architecture](https://www.servicenow.com/docs/access?context=eaw-gran-admin-role-changes&family=australia&ft:locale=en-US)**
 
 Added the granular level admin role \(sn\_apm.apm\_admin\) to the following system properties in the Enterprise Architecture:
@@ -435,8 +486,8 @@ Added the granular level admin role \(sn\_apm.apm\_admin\) to the following syst
     -   **sn\_apm.discoveryModelProductTypesForTPMSuggestions**: Product types of discovery models to consider for TPM software suggestions.
     -   **sn\_apm.noOfSDLCComponentPerTPMPage**: The number of Agile Development components to show per page.
     -   **glide.ui.cmdb\_ci\_business\_app\_activity.fields**: Business application activity formatter fields.
-    -   **sn\_apm.startRangeOfTPMLifecycle**: The number of years before the current date is included when displaying software model lifecycle phases in the TPM timeline.
-    -   **sn\_apm.endRangeOfTPMLifecycle**: The number of years beyond the current date is included when displaying software model lifecycle phases in the TPM timeline.
+    -   **sn\_apm.startRangeOfTPMLifecycle**: The number of years before the current date is included when displaying software model lifecycle phases in the TLM timeline.
+    -   **sn\_apm.endRangeOfTPMLifecycle**: The number of years beyond the current date is included when displaying software model lifecycle phases in the TLM timeline.
     -   **noOfBusinessAppsPerTPMPage**: The number of business applications to show per page.
 
 -   **[Enhancements to the My certifications section](https://www.servicenow.com/docs/access?context=manage-requests-certs-assessments&family=australia&ft:locale=en-US)**
@@ -536,7 +587,7 @@ Australia
 
 Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&family=australia&ft:locale=en-US).
 
- Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+ Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -696,10 +747,23 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Model your business architecture using five new entities in the Business Architecture section: Business Actor, Business Role, Stakeholder, Driver, and Business Process Activity.
+-   Technology Portfolio Management \(TPM\) is renamed Technology Lifecycle Management \(TLM\) in the Enterprise Architecture Workspace. Table and scheduled job names continue to use TPM.
+-   Select a linked record name in an Enterprise Architecture query agent response to navigate directly to that record in Enterprise Architecture Workspace.
+-   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Support added for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
+-   Third-party AI models are the default models for all ServiceNow Otto for EA skills.
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Align two or more shapes to a common edge or center, and distribute three or more shapes at equal spacing on the modeling diagram canvas.
--   Preview shapes in the **Shapes** panel by hovering over a shape icon or navigating with arrow keys to see a larger view and its label before adding it to the canvas.
+-   Preview shapes in the **Shapes** panel by hovering over a shape icon or using arrow keys to see a larger view and label.
 -   Connect shapes from any direction by using bi-directional connector ports on ArchiMate, AWS, CSDM, and EA Extended shape libraries.
 -   Add specific records of upstream or downstream entities to a shape in a modeling diagram instead of all records of an entity type.
 -   Run a scheduled job to sync TRM product names in EA Workspace with the latest names of their linked software products.

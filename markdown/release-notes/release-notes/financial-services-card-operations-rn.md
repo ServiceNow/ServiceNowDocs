@@ -14,7 +14,7 @@ The ServiceNow® Financial Services Card Operations application enables dispute 
 
 ## Financial Services Card Operations highlights for the Australia release
 
--   Work on Visa dispute transactions and associated transactions from a unified**Dispute Workspace** for all active transactions.
+-   Work on Visa dispute transactions and associated transactions from a unified **Dispute Workspace** for all active transactions.
 -   Streamline dispute document submission to Mastercard with the document attachment and validation enhancement.
 -   Improve dispute resolution accuracy with updated internal policy rules that evaluate the dispute amount rather than the original transaction amount.
 
@@ -68,7 +68,7 @@ See [Financial Services Card Operations](https://raw.githubusercontent.com/Servi
 
 ## Activation information
 
-Install Financial Services Card Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Financial Services Card Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

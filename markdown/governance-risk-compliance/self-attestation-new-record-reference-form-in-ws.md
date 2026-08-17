@@ -1,6 +1,6 @@
 ---
-title: Create New Self attestation form
-description: If you're the owner of the self-attestation, use the Create New Self attestation form in Operational Resilience Workspace to submit the self-attestation for the services.
+title: Create Self attestation form
+description: If you're the owner of the self-attestation, use the Create Self attestation form in Operational Resilience Workspace to submit the self-attestation for the services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/self-attestation-new-record-reference-form-in-ws.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Perform the self-attestation assessment, Certifying services using self-attestation, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Self attestation form
+# Create Self attestation form
 
-If you're the owner of the self-attestation, use the Create New Self attestation form in Operational Resilience Workspace to submit the self-attestation for the services.
+If you're the owner of the self-attestation, use the Create Self attestation form in Operational Resilience Workspace to submit the self-attestation for the services.
 
-## Create New Self attestation form
+## Create Self attestation form
 
 For a description of the field values on the form, see the following table.
 

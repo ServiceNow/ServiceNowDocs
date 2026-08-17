@@ -17,7 +17,9 @@ ServiceNow Order Management provides a centralized platform to create and manage
 
 ## Overview of the order life cycle
 
-Access the Order Management capabilities from the CSM/FSM Configurable Workspace to capture and manage orders. A typical order life cycle is a structured, multiphase process that guides a customer's request from initial submission to final delivery and fulfillment.
+Access the Order Management capabilities from the CSM/FSM Configurable Workspace to capture and manage orders. A typical order life cycle is a structured, multiphase process that guides a customer's request from initial submission to final delivery and fulfillment, as shown in the following illustration.
+
+\[Omitted image "using-order-management-landing.svg"\] Alt text: Order life cycle Infographic showing how to create and manage orders using Order Management. For details, refer to the list of task topics that follows.
 
 1.  [Creating orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-order.md)
 
@@ -43,25 +45,21 @@ Access the Order Management capabilities from the CSM/FSM Configurable Workspace
 
     Work orders are created if you have an integration with Field Service Management.
 
-6.  \(Optional\) [Inflight order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
-
-    Inflight order changes come into the picture after an order has been submitted and is actively being processed, but before it has been completely fulfilled and closed. These changes are a form of MACD orders \(Modify, Adds, Changes, and Deletes\) that occur during the fulfillment life cycle.
-
-7.  [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+6.  [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
     Fulfillment agents complete order tasks assigned to them. Fulfillment managers monitor the fulfillment process and manage issues using features such as Jeopardy Management to alert teams about potential delays and Fallout Management to handle errors.
 
     As each fulfillment task is completed, the service or product is activated or delivered to the customer. This can involve anything from a physical delivery to the electronic provisioning of a digital service. Once all products and services are activated and delivered, the order is officially closed. The system updates the order status to reflect completion and updates creates sold product records.
 
-8.  [Managing order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+7.  [Managing order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
 
     Manage failures that may take place during order fulfillment due to errors and exceptions. These exceptions include incorrect data, connectivity problems, inadequate inventory supply, or other unforeseen issues.
 
-9.  [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+8.  [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
 
     Proactively monitor and mitigate order delivery delays, dynamically track task progression to predict potential order fulfillment delays, and alert service delivery teams when fulfillment plans exceed or are expected to exceed committed completion times by monitoring the jeopardy status.
 
-10. [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+9.  [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
 
     Order agents can make the following post-sale changes to the orders after an initial order has been placed and fulfilled:
 
@@ -84,8 +82,6 @@ Access the Order Management capabilities from the CSM/FSM Configurable Workspace
 [Methods of creating orders in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-capture-methods-som.md)
 
 [Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-customer-accounts.md)
-
-[Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management.md)
 
 [Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
 

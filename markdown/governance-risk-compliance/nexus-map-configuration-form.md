@@ -14,7 +14,7 @@ breadcrumb: [Configure the Nexus map configurations, Configure the Main node con
 
 Use the Nexus map configuration form to define the UI configuration for the selected Main node configuration. It also helps you to define the node and edge configurations, determining how the Nexus map is displayed.
 
-## Nexus map configuration new record form
+## Nexus map configuration record form
 
 |Field|Description|
 |-----|-----------|

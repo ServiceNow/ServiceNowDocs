@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,9 @@ Role required: inventory\_template\_manager.
 
 1.  Navigate to the SOW workspace or the Network Inventory workspace.
 
-    Go to **List** &gt; **Network Inventory Templates** &gt; **Inventory Templates** and select the inventory template that contains the related template you want to update.
+    1.  Go to **List** &gt; **Network Inventory Templates** &gt; **Inventory Templates**.
+
+    2.  Select the inventory template that contains the related template you want to update.
 
 2.  Open the related template record.
 
@@ -34,21 +36,27 @@ Role required: inventory\_template\_manager.
 
 3.  Open the name pattern editor for the related template.
 
-    On the related template record's form, locate the **Name Pattern** field. Select the **Define name pattern** button at the right edge of the field.
+    1.  On the related template record's form, locate the **Name Pattern** field.
+
+    2.  Select the **Define name pattern** button.
 
     The Define name pattern modal opens. The modal shows the current pattern, if one exists, in the **Name pattern** input.
 
-    **Note:** The **Define name pattern** button is visible only to users with the Inventory Template Manager role. Users without this role see the Name Pattern field as read-only.
+    **Note:** The **Define name pattern** button is visible only to users with the Inventory Template Manager role. Users without this role see the **\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`\`** field as read-only.
 
 4.  Edit the pattern in the **Name pattern** input.
 
     Enter or update the JavaScript expression that produces the CI name. The pattern can combine literal text, variables, string methods such as `.replace()`, and conditional logic using the ternary operator.
 
-    For the full pattern syntax, see [Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
+    For the full pattern syntax, see [CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md).
 
 5.  Insert a variable from the token library.
 
-    Place the cursor in the **Name pattern** input. The list of available variables opens automatically. Select a variable from the list to insert it into the pattern at your cursor position.
+    1.  Place the cursor in the **Name pattern** input.
+
+        The list of available variables opens automatically.
+
+    2.  Select a variable from the list to insert it into the pattern at your cursor position.
 
 6.  Review the inline pattern feedback.
 
@@ -62,13 +70,13 @@ Role required: inventory\_template\_manager.
 
         A red message appears: `Name pattern results in empty name. Please try again.` The **Apply** action is blocked. The same message appears whether the pattern has invalid JavaScript, references a variable that is not in the token library, or evaluates to an empty string.
 
-7.  Select **Preview** to refresh the inline feedback.
+7.  Refresh the inline feedback by selecting **Preview**.
 
     Selecting **Preview** re-runs the pattern and updates the sample name shown in the green message.
 
-8.  Select **Apply** to add the pattern to the Name Pattern field.
+8.  Add the pattern to the Name Pattern field by selecting **Apply**.
 
-    The modal closes, the **Name Pattern** field shows the new pattern, and the record form indicates you have unsaved changes.
+    The modal closes. The **Name Pattern** field shows the new pattern. The record form indicates you have unsaved changes.
 
     **Note:** **Apply** does not save the record. The pattern stays in the form until you save the record.
 
@@ -77,7 +85,13 @@ Role required: inventory\_template\_manager.
 
 ## What to do next
 
-To confirm the pattern produces the expected resolved name, open the parent inventory template, select the **Overview** tab, and select **Refresh**. The tree updates to show the resolved names. For more information, see [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md).
+Confirm the pattern produces the expected resolved name:
+
+1.  Open the parent inventory template.
+2.  Select the **Overview** tab.
+3.  Select **Refresh**.
+
+The tree updates to show the resolved names. For more information, see [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md).
 
 **Parent Topic:**[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 
@@ -88,7 +102,7 @@ To confirm the pattern produces the expected resolved name, open the parent inve
 
 [Model and template naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.md)
 
-[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 
 [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 

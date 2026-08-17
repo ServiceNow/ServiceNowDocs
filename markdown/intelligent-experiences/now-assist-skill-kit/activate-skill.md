@@ -1,6 +1,6 @@
 ---
 title: Activate a skill
-description: After you publish a skill, a Now Assist admin must activate it in Now Assist Admin. Activating the skill makes it available for users to trigger within the platform.
+description: After you publish a skill, a Otto admin must activate it in AI Admin Hub. Activating the skill makes it available for users to trigger within the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/activate-skill.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-04-21"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Activate a skill
 
-After you publish a skill, a Now Assist admin must activate it in Now Assist Admin. Activating the skill makes it available for users to trigger within the platform.
+After you publish a skill, a Otto admin must activate it in AI Admin Hub. Activating the skill makes it available for users to trigger within the platform.
 
 ## Before you begin
 
@@ -22,19 +22,19 @@ Role required: admin
 
 ## About this task
 
-Published custom skills appear in Now Assist Admin under the **Now Assist Skills** tab. Skills are organized in the left sidebar by the **Workflow** value selected during deployment settings configuration. Within each workflow category, skills are grouped by **Product**. Custom skills that use **Other** as their workflow value appear under **Other** at the bottom of the sidebar.
+Published custom skills appear in AI Admin Hub under the **ServiceNow Otto Skills** tab. Skills are organized in the left sidebar by the **Workflow** value selected during deployment settings configuration. Within each workflow category, skills are grouped by **Product**. Custom skills that use **Other** as their workflow value appear under **Other** at the bottom of the sidebar.
 
 A published skill appears on the **Available** tab with a **Not started** state badge until it is activated. After activation it moves to the **Active** tab.
 
 **Important:** Make sure you are in the correct application scope before you activate the skill. To learn more about application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
-**Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.
+Some skills might need to be reviewed and approved by a data steward before you can activate them.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Admin**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **ServiceNow Otto Skills** tab.
 
 3.  In the sidebar, select the workflow category that matches the **Workflow** value you configured in the skill's deployment settings.
 
@@ -54,18 +54,18 @@ A published skill appears on the **Available** tab with a **Not started** state 
 
 7.  On the **Define access** step, review or update the access control list \(ACL\) and role restrictions, then select **Save and continue**.
 
-    The ACL determines which users can invoke the skill. The ACL configured here reflects the user access settings defined when the skill was created or last edited in Now Assist Skill Kit. To learn more about skill ACLs and role restrictions, see .
+    The ACL determines which users can invoke the skill. The ACL configured here reflects the user access settings defined when the skill was created or last edited in AI Skill Kit. To learn more about skill ACLs and role restrictions, see .
 
 8.  On the **Review and activate** step, review the configuration and select **Activate**.
 
 
 ## What to do next
 
-After activation, the skill moves to the **Active** tab in Now Assist Admin. Users can now trigger the skill from the deployment locations you configured in the skill's deployment settings.
+After activation, the skill moves to the **Active** tab in AI Admin Hub. Users can now trigger the skill from the deployment locations you configured in the skill's deployment settings.
 
-You can enable Now Assist Guardian for your skills. To learn more about Now Assist Guardian, see .
+You can enable AI Guardian for your skills. To learn more about AI Guardian, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md).
 
-**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

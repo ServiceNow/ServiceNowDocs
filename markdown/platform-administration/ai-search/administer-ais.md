@@ -35,7 +35,7 @@ AI Search filters search query results and displays only records that the curren
 -   **[Encrypted fields in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/encrypted-fields-ais.md)**  
 AI Search excludes source record fields encrypted with Encryption Support or Edge Encryption.
 -   **[Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md)**  
-Semantic vector search allows the Now LLM Service to find results based on how similar they are in meaning to your search terms. Now Assist Q&amp;A Genius Results and Now Assist in Virtual Agent use semantic vector search to improve recall with natural language interpretation of search queries.
+Semantic vector search enables the Now LLM Service to find results based on how similar they are in meaning to your search terms. Knowledge base articles Genius Results and ServiceNow® Otto for Virtual Agent use semantic vector search to improve recall with natural language interpretation of search queries.
 -   **[AI Search logging and debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/logging-debugging-ais.md)**  
 Review AI Search logs and history to analyze performance and diagnose issues. View log messages and ingestion history, or use session debugging to capture detailed messages for a user session.
 -   **[Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-preview-ui-new.md)**  

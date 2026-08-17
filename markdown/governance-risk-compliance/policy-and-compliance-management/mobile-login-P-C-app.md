@@ -34,7 +34,7 @@ Time to complete this task: 5-7 minutes.
 
 2.  If the ServiceNow AI Platform instance with the Policy and Compliance Management core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
+    1.  On the Instances screen that is displayed, tap the plus icon.
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 

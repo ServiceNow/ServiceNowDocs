@@ -18,7 +18,7 @@ Generate labor costs in the Financials view for attribute-based resource assignm
 
 ## Before you begin
 
-When the distribution of effort for a resource assignment is adjusted without changing the total planned effort, the system automatically recalculates and generates labor costs to align with the updated effort distribution. For example, consider a resource assignment of 100 hours distributed as 60 hours in January and 40 hours in February; now if you swap the efforts to make 40 hours in January and 60 hours in February. Now the system automatically adjusts the labor costs so that January reflects the cost of 40 hours and February reflects the cost of 60 hours, ensuring that costs accurately correspond to the revised effort distribution.
+When the distribution of effort for a resource assignment is adjusted without changing the total planned effort, the system recalculates labor costs. These costs align with the updated effort distribution. For example, consider a resource assignment of 100 hours distributed as 60 hours in January and 40 hours in February. Now if you swap the efforts to make 40 hours in January and 60 hours in February. Now the system automatically adjusts the labor costs so that January reflects the cost of 40 hours and February reflects the cost of 60 hours. This verifies that costs accurately correspond to the revised effort distribution.
 
 Role required: it\_project\_manager
 

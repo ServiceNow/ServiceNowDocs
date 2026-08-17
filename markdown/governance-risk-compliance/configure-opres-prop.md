@@ -42,7 +42,7 @@ Configurations and customizations: When you update an application property, it's
     -   Facilities: 2fad3034533112105806ddeeff7b123f
 4.  Update the **sn\_oper\_res.max\_top** property.
 
-    This property is used for the 'Top vulnerabilities to be fixed' section on the Home page. If the property value is set to 5, records are generated for the top 5 vulnerabilities which have most impacted entities, and they are displayed in the ''Top vulnerabilities to be fixed' report on the Home page.
+    This property is used for the 'Top vulnerabilities to be fixed' section on the Home page. If the property value is set to 5, records are generated for the top 5 vulnerabilities which have most impacted entities. They are displayed in the ''Top vulnerabilities to be fixed' report on the Home page.
 
 5.  Configure the **sn\_oper\_res.top\_class\_name** property to designate any class as the top class in the dashboard.
 

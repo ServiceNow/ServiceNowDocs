@@ -70,9 +70,9 @@ Review the de-duplication templates and ensure that they're properly configured 
 
 ## Manage duplicate CIs skill
 
-You can use the manage duplicate CIs skill that Now Assist for CMDB provides to get step-by-step guidance through the de-duplication process. The manage duplicate CIs skill guides you through reviewing de-duplication templates, assigning tasks to the templates, and then running the templates. The manage duplicate CIs skill presents you with relevant options for your next step, as you go, until you complete the remediation.
+You can use the Manage duplicate CIs skill that ServiceNow Otto for CMDB provides to get step-by-step guidance through the de-duplication process. The manage duplicate CIs skill guides you through reviewing de-duplication templates, assigning tasks to the templates, and then running the templates. The manage duplicate CIs skill presents you with relevant options for your next step, as you go, until you complete the remediation.
 
-For more information, see [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+For more information, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
 
 -   **[Create a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-create-template.md)**  
 Create a de-duplication template that you can then run to apply pre-configured and consistent remediation to de-duplication tasks, in bulk. Organize your templates in libraries that make sense in your organization.

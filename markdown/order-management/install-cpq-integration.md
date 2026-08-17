@@ -1,18 +1,18 @@
 ---
-title: Activate ServiceNow CPQ Integration
-description: You can install the ServiceNow CPQ Integration application \(sn\_cpq\_intg\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
+title: Activate CPQ Integration
+description: You can install the CPQ Integration application \(sn\_cpq\_intg\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-cpq-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Activate ServiceNow CPQ Integration
+# Activate CPQ Integration
 
-You can install the ServiceNow CPQ Integration application \(sn\_cpq\_intg\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
+You can install the CPQ Integration application \(sn\_cpq\_intg\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with the ServiceNow CPQ Integration:
+The following items are installed with the CPQ Integration:
 
 -   Scheduled jobs
 -   Tables
@@ -32,7 +32,7 @@ The following items are installed with the ServiceNow CPQ Integration:
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the ServiceNow CPQ Integration application \(sn\_cpq\_intg\) using the filter criteria and search bar.
+2.  Find the CPQ Integration application \(sn\_cpq\_intg\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 

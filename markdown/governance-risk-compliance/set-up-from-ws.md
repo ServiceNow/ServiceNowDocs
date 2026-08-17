@@ -107,7 +107,7 @@ The supporting pillars are listed: -   Application Services
 
     3.  Activate an entity type by selecting and opening its record.
 
-        For more information on the fields in the form, see [Entity type New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/entity-type-reference.md).
+        For more information on the fields in the form, see [Entity type record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/entity-type-reference.md).
 
         The example shows the entity types that are set up in the instance.
 

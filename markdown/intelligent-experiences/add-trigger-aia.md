@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-trigger-aia.html
 release: australia
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a trigger to an AI agent
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 Adding a trigger is optional. If you want your AI agent to be used only in chats, you don't need to add a trigger. Only add a trigger if you want to invoke the AI agent automatically when some event occurs.
 
-**Note:** Triggers contain instance-specific information. If you are moving AI agents or agentic workflows between instances using Update Sets, you must set the triggers to inactive before adding them to the update sets and then activate them on the new instance.
+**Note:** Triggers contain instance-specific information. If you're moving AI agents or agentic workflows between instances using Update Sets, you must set the triggers to inactive before adding them to the update sets and then activate them on the new instance.
 
 If you don't want to add a trigger, skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
 
@@ -89,9 +89,9 @@ Channel
 
 </td><td>
 
-Medium for the AI agent output: Now Assist panel or Virtual Agent.
+Medium for the AI agent output: ServiceNow Otto panel or Virtual Agent.
 
- **Note:** To view the output from a triggered AI agent in the Now Assist panel, you need the now\_assist\_panel\_user role.
+ **Note:** To view the output from a triggered AI agent in the ServiceNow Otto panel, you need the now\_assist\_panel\_user role.
 
 </td></tr><tr><td>
 

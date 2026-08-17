@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, version, variant, history]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use model versioning
@@ -43,6 +43,4 @@ As you work with model records on a development instance, at certain intervals y
 
     \[Omitted image "erp-model-versions2.png"\] Alt text: Model record with version number highlighted.
 
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

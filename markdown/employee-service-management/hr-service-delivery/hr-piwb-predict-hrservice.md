@@ -118,19 +118,19 @@ Role required: sn\_piwb\_hr\_content.admin
 
 29. View the test results data for the use case model in the **View test results** section.
 
-30. If you are ready to integrate your use case model into your business processes, return to the use case **Evaluate and tune your models** page and select the box next to the model that you want to integrate.**Start** in the **Integrate the best model** section.
+30. To integrate your use case model into your business processes, go to the **Evaluate and tune your models** use case and select the model box that you want to integrate.
 
-31. In the **Select an Action** list menu, select **Integrate this model**.
+31. Select **Start** in the **Integrate the best model** section.
+
+32. In the **Select an Action** list menu, select **Integrate this model**.
 
     The **Select a model to integrate** page opens.
 
-32. Click **Integrate**.
+33. Click **Integrate**.
 
-33. Click **Integrate** again when the pop-up asks you if you are sure you want to perform this action.
+34. Click **Integrate** again when the pop-up asks you if you are sure you want to perform this action.
 
     You have integrated a use case model into your business process.
-
-    **Note:** For details regarding trained use case integration implementation, refer to Predictive Intelligence Workbench integration and customization.
 
 
 **Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)

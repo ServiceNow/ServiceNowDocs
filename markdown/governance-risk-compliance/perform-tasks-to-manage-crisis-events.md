@@ -24,7 +24,7 @@ Business Continuity Management \(BCM\) program managers create crisis events to 
 
 ## Bulk editing of tasks from the Event tasks related list
 
-Starting with version 6.1.x of the Business Continuity Management application, users who have editing access to the event record can now perform bulk edits on tasks directly from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
+Starting with version 6.1.x of the Business Continuity Management application, users with editing access to event records can perform bulk edits from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
 
 In the recovery tasks list, users with the necessary edit permissions can modify these fields simultaneously:
 
@@ -99,7 +99,7 @@ Add a task to the crisis event in BCM UIB Workspace. You can then monitor and co
 -   **[Import automated tasks and start an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-the-automated-task-in-an-event.md)**  
 Import the automated task from the business continuity plan in an actual event. Utilizing automated tasks during an actual event enhances efficiency and reduces response time for users.
 -   **[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-action-items-in-crisis.md)**  
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
 -   **[Create a similar tasks group in a crisis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sim-tasks-grp-crisis.md)**  
 Identify and group similar or duplicate tasks related to a crisis event using the **Similar tasks groups** tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 -   **[Request an approval and approve the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-event-task-for-crisis-event-uib-ws.md)**  

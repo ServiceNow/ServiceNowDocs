@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-sourcingandprocurementoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
@@ -207,9 +207,9 @@ Shoppers can now initiate replacements for goods directly from the Shopping Hub/
 
 Extract metadata from a signed contract attached in a contract repository record and analyze a contract document with agentic AI to identify non-standard and missing clauses.
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
 
-Activate the following new skills for Now Assist for SPO:
+Activate the following new skills for ServiceNow Otto for SPO:
 
     -   Negotiation summarization for fulfillers: Summarize negotiations to keep fulfillers informed on their current status, progress, and action items.
     -   Negotiation event summarization for fulfillers: Summarize negotiation events to keep fulfillers informed on their current status, progress, and action items.
@@ -329,9 +329,9 @@ Australia
 
 -   **[Savings opportunities](https://www.servicenow.com/docs/access?context=savings-opportunity-identification&family=australia&ft:locale=en-US)**
 
-The Savings Opportunity Discovery agentic workflow analyzes contracts, spend data, sourcing pipeline, and supplier performance on a recurring schedule to identify and prioritize savings opportunities. Category managers can review opportunities on the Potential Savings Opportunities page and either create a pipeline project in the Now Assist panel or dismiss the opportunity from the Share feedback modal.
+Savings Opportunity Discovery agentic workflow identifies cost-saving opportunities from contracts, spend data, and supplier performance. Review and act on opportunities from the Potential Savings Opportunities page.
 
--   **[Email parser agent for SPO](https://www.servicenow.com/docs/access?context=email-parser-agent-spo&family=australia&ft:locale=en-US)**
+-   **[Email parser agent](https://www.servicenow.com/docs/access?context=email-parser-agent-spo&family=australia&ft:locale=en-US)**
 
 Analyzes incoming emails to automatically identify the appropriate procurement intent and create corresponding procurement cases using the intent to action agentic workflow. Procurement teams can review the generated cases and take the necessary actions to efficiently manage procurement requests.
 

@@ -1,18 +1,18 @@
 ---
 title: Change how messages are displayed to the end user
-description: Control how messages appear in ServiceNow CPQ.
+description: Control how messages appear in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/can\_i\_change\_how\_messages\_are\_displayed\_to\_the\_end\_user.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Change how messages are displayed to the end user
 
-Control how messages appear in ServiceNow CPQ.
+Control how messages appear in CPQ.
 
 You can show messages to the end user in different formats.
 

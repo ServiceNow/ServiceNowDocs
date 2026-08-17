@@ -28,7 +28,7 @@ Role required: virtual\_agent\_admin or admin
 
 With consumer context added to a portal configuration, that portal acts as context for multiple active conversations with Virtual Agent.
 
-**Note:** These instructions are for configuring Natural Language Understanding \(NLU\) conversations. Large Language Model \(LLM\) conversations are configured for multiple active conversations based on portals, with no configuration necessary.
+**Note:** These instructions are for configuring Natural Language Understanding \(NLU\) conversations. Large language model \(LLM\) conversations are configured for multiple active conversations based on portals, with no configuration necessary.
 
 ## Procedure
 

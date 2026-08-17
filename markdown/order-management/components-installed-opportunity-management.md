@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-09"
 reading_time_minutes: 2
-breadcrumb: [Opportunity Management reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Opportunity Management

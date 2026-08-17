@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Work with changes in Git
@@ -29,5 +29,5 @@ Apply or delete stashed changes in ServiceNow Studio to restore saved work or re
 -   **[Resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-resolving-conflicts.md)**  
 Resolve conflicts in ServiceNow Studio when applying remote or stashed changes that conflict with the local version of the same application file.
 
-**Parent Topic:**[Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 

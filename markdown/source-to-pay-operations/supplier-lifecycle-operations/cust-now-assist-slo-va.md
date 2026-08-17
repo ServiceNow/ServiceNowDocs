@@ -1,6 +1,6 @@
 ---
-title: Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat
-description: If you have the admin role, you can configure the Now Assist for Supplier Lifecycle Operations \(SLO\) application so that suppliers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Customize ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat
+description: If you have the admin role, you can configure the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application so that suppliers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Configure, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat
+# Customize ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat
 
-If you have the admin role, you can configure the Now Assist for Supplier Lifecycle Operations \(SLO\) application so that suppliers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application so that suppliers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
 ## Before you begin
 
@@ -23,14 +23,14 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub to configure ServiceNow Otto for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Procedure
 
-1.  Install the Now Assist for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
+1.  Install the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
 3.  From the list of existing LLM Virtual Agents, select **Now Assist in Virtual Agent - Supplier**.
@@ -53,7 +53,7 @@ Use the Now Assist Admin console to configure Now Assist for SLO. This console c
 **Related topics**  
 
 
-[Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.md)
+[Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.md)
 
-[Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
+[Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
 

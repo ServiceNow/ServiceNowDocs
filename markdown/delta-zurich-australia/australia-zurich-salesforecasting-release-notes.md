@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-salesforecasting-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -111,6 +111,14 @@ Enable forecast owners to configure forecasting with product family as a seconda
 -   **[Enable forecasting at base forecast source](https://www.servicenow.com/docs/access?context=using-sales-forecasting&family=australia&ft:locale=en-US)**
 
 Provide forecast owners and managers with visibility into the opportunities and line items contributing to each forecast number, directly from the dashboard. Support forecast creation, submissions, and adjustments at the individual record level, such as opportunity and opportunity lines.
+
+-   **[Resubmit forecast submissions](https://www.servicenow.com/docs/access?context=reopening-and-resubmitting-a-forecast&family=australia&ft:locale=en-US)**
+
+Enable users to reopen and modify completed forecast submissions in the current submission window. After making adjustments to the forecast values, users can resubmit a forecast. Admins can enable or disable resubmission for each forecast model.
+
+-   **[Customize the forecast dashboard view](https://www.servicenow.com/docs/access?context=using-sales-forecasting&family=australia&ft:locale=en-US)**
+
+Enable forecast viewers to customize their dashboard view by selecting which columns to display and saving their preferences for future sessions. The grid automatically adjusts column widths to distinguish forecast categories. Users can choose different sets of columns for different forecast models.
 
 
 </td></tr></tbody>

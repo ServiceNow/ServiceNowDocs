@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, integration, outbound integration]
+keywords: [APO, Accounts Payable Operations, invoice management, integration framework, Outbound invoice line, General Ledger Account]
 breadcrumb: [Outbound invoice fields, Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -17,8 +17,8 @@ breadcrumb: [Outbound invoice fields, Create New Invoice form, Create New Invoic
 
 Field descriptions and data types for the Outbound invoice line \[sn\_spend\_intg\_outbound\_invoice\_line\] table used to transfer invoice line details from Accounts Payable Operations to third-party applications through the integration framework.
 
-|Column|Description|Data type|
-|------|-----------|---------|
+|Field|Description|Data type|
+|-----|-----------|---------|
 |Line description|Description of the invoice line|String|
 |Purchase order line|Information of the individual lines under a purchase order line or a sourcing request for the referenced supplier|Reference|
 |Invoice line quantity|The number of items that have been invoiced|String|

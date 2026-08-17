@@ -29,15 +29,15 @@ An AI model is a core component of an AI system that performs learning, predicti
 
 1.  Request an AI model using one of the following options.
 
-<table><thead><tr><th align="left" id="d165007e80">
+<table><thead><tr><th align="left" id="d165331e80">
 
 Option
 
-</th><th align="left" id="d165007e83">
+</th><th align="left" id="d165331e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d165007e89">
+</th></tr></thead><tbody><tr><td id="d165331e89">
 
 **Employee Center**
 
@@ -48,7 +48,7 @@ Description
 3.  Select the **Request an AI model** card.
  **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d165007e140">
+</td></tr><tr><td id="d165331e140">
 
 **AI Control Tower**
 

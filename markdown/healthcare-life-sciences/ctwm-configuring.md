@@ -24,7 +24,7 @@ Set up the Care Team Work Management application.
 
     To manage access effectively in Care Team Work Management, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
-3.  [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
+3.  [Setting up healthcare locations and healthcare organizations]()
 
     Understand how healthcare locations and healthcare organizations function and should be organized to set up your care teams and the physical locations they operate in correctly.
 

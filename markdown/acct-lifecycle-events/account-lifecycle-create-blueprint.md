@@ -76,7 +76,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
     -   Information such as Assigned to, Priority, Category, Number of Tasks, and Days remaining are shown on the timeline.
 13. Select the \[Omitted image "icon-menu-square.png"\] Alt text: icon and select one of the following options:
 
-    -   Add objectives: Select and add any optional objectives to add to your success blueprint. Select the objective to be added, select **Next**. Use the **Toggle** option to select any of the optional outcomes, enter other required details, and select **Save Objective** and then select **Create** to add the objective along with the outcome to the success blueprint.
+    -   Add objectives: Select and add any optional objectives to add to your success blueprint. Select the objective to be added, select **Next**. Use the **Toggle** option to select any of the optional outcomes and enter other required details. Select **Save Objective** and then select **Create** to add the objective along with the outcome to the success blueprint.
     -   Add outcomes: Select any optional outcomes to add to your success blueprint.
 14. Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the [Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-success-object.md).
 

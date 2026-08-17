@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice management, integration, invoice management]
+keywords: [APO, Accounts Payable Operations, Outbound invoice field, ERP, invoice management, Integration framework, invoice management]
 breadcrumb: [Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -17,8 +17,8 @@ breadcrumb: [Create New Invoice form, Create New Invoice Line form, Reference, A
 
 Field descriptions and data types for the outbound invoice table used to transfer invoice details from Accounts Payable Operations to third-party applications through the integration framework.”
 
-|Column|Description|Data type|
-|------|-----------|---------|
+|Field|Description|Data type|
+|-----|-----------|---------|
 |Supplier invoice number|The combination of supplier invoice number or supplier and ERP source and ERP invoice number|String|
 |Business owner.Email|Name of the owner who owns the application from the business side|String|
 |Amount invoiced \(Transaction currency\).amount|Charges added to the invoice|String|

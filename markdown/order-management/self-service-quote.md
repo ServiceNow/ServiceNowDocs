@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-14"
 reading_time_minutes: 1
-breadcrumb: [Install Quote Management for Channel Partners, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install Quote Management for Channel Partners, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote creation via Self-Service for Channel Partners

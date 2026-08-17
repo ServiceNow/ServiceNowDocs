@@ -1,5 +1,5 @@
 ---
-title: Renew certificate using ACME automated flow of DNS challenge
+title: Renew certificates using ACME automated DNS challenge flow
 description: Request to renew the certificate and automatically retrieve the certificates for an application using an Automated Certificate Management Environment \(ACME\) automated flow of DNS challenge.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/renew-certificate-using-acme-automated-flow-dns.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using ACME, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Renew certificate using ACME automated flow of DNS challenge
+# Renew certificates using ACME automated DNS challenge flow
 
 Request to renew the certificate and automatically retrieve the certificates for an application using an Automated Certificate Management Environment \(ACME\) automated flow of DNS challenge.
 

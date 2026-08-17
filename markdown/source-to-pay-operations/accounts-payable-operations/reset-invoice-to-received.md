@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, duplicate invoice detection, AP specialist]
+keywords: [APO, Accounts Payable Operations, duplicate invoice detection, AP specialist, invoice processing case]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -53,7 +53,7 @@ The status of the invoice changes to Received.
 
 [Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice]()
+[Enter missing invoice information and submit an invoice]()
 
 [Confirm whether an invoice is a duplicate]()
 
@@ -61,5 +61,5 @@ The status of the invoice changes to Received.
 
 [Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications]()
+[Start processing a third-party invoice]()
 

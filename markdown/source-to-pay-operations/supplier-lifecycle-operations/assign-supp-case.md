@@ -1,6 +1,6 @@
 ---
 title: Assign a supplier case to yourself from the Source-to-Pay Workspace
-description: As a supplier manager, assign a case to yourself and start working on it.
+description: Assign an open supplier case to yourself to begin working on it as supplier manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/assign-supp-case.html
 release: australia
@@ -9,12 +9,13 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Procurement Workspace, Procurement Specialist, supplier case, supplier manager, Source-to-Pay Workspace, Supplier Lifecycle Operations]
 breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Assign a supplier case to yourself from the Source-to-Pay Workspace
 
-As a supplier manager, assign a case to yourself and start working on it.
+Assign an open supplier case to yourself to begin working on it as supplier manager.
 
 ## Before you begin
 

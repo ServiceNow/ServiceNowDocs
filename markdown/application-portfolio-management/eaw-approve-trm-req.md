@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-approve-trm-req.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Working with Enterprise Architecture workspace home page, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2026-07-22"
+reading_time_minutes: 2
+breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Approve or reject TRM requests
@@ -22,7 +22,11 @@ Role required: sn\_apm.apm\_analyst
 
 ## About this task
 
-When an Enterprise Architecture user requests for TRM product or TRM product lifecycle approval, an email notification is received by the approver. The approver belongs to the Enterprise Architect group.
+When an Enterprise Architecture user submits a TRM product request or a TRM product lifecycle request, the Enterprise Architect group receives an email notification.
+
+A TRM product request can include one or more associated lifecycle requests. The product request record displays the requested lifecycles in the **Requested Lifecycles** tab and any existing lifecycles for the same product in the **Existing Lifecycles** tab.
+
+A standalone TRM product lifecycle request can include multiple child lifecycle records submitted in a single bulk request. The parent lifecycle request record shows all child lifecycle records in the **Requested Lifecycles** tab. Approving or rejecting the parent request determines the outcome for all associated child lifecycle records.
 
 ## Procedure
 
@@ -30,18 +34,26 @@ When an Enterprise Architecture user requests for TRM product or TRM product lif
 
 2.  In the Needs Attention section, select the **My Approvals** tab.
 
-3.  Select a product request number to open it.
+3.  Select a request number to open it.
 
-4.  Select **Approve** or **Reject**.
+    The Approvals list includes both TRM product requests \(TRMPREQ\) and TRM product lifecycle requests \(TRMLCREQ\).
 
-    You can also edit the request details such as Requested TRM phase, Category, and Business Justification and select **Save**.
+4.  Review the request details and the associated lifecycle records.
+
+    -   Select the **Requested Lifecycles** tab to view the lifecycle records included in this request. Each lifecycle record shows the version, edition \(for software products\) or hardware model \(for hardware products\), requested TRM phase, and phase start and end dates.
+    -   Select the **Existing Lifecycles** tab to view any lifecycles already on the product to help you identify potential conflicts before approving.
+5.  Select **Approve** or **Reject**.
+
+    Edit the request details such as **Requested TRM phase**, **Category**, and **Business Justification** before approving, if needed. Select **Update** to save edits without triggering an approval decision.
 
 
 ## Result
 
-The requester receives an email notification for the approval or rejection.
+-   When a TRM product request is approved, the TRM product and all associated lifecycle records are created in the system simultaneously. The requester receives an email notification.
+-   When a standalone TRM product lifecycle request is approved, all child lifecycle records in the request are created and linked to the parent product. The requester receives an email notification.
+-   When a request is rejected, no product or lifecycle records are created. The requester receives an email notification.
 
-**Parent Topic:**[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 

@@ -24,9 +24,9 @@ Role required: manager
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **Your team** &gt; **Team members**.
 
-2.  Select the Now Assist icon to start a conversation with the agent.
+2.  Select the ServiceNow Otto icon to start a conversation with the agent.
 
-3.  Converse with Now Assist in Virtual Agent to create a feedback request.
+3.  Converse with ServiceNow Otto to create a feedback request.
 
 4.  Select the employee who you'd like to collect feedback for from the drop-down options suggested by the agent.
 
@@ -44,6 +44,6 @@ Role required: manager
 
 8.  Provide a time frame for the feedback to be submitted by when prompted by the agent.
 
-9.  View a preview of the feedback request and end the chat with Now Assist in Virtual Agent.
+9.  View a preview of the feedback request and end the chat with in ServiceNow Otto.
 
 

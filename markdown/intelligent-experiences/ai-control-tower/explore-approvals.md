@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Explore Approvals

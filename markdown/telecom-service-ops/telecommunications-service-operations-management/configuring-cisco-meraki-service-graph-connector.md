@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -20,7 +20,7 @@ Configure the Cisco Meraki Service Graph Connector \(SGC\) to import physical an
 
 You must authenticate before initiating discovery. During the authentication process, the discovery service receives an access token, which it then uses for bulk or specific discovery operations. The integration uses Cisco Meraki REST APIs to discover managed elements such as network equipment, interfaces, and services.
 
-This integration uses REST APIs \(via a MID Server\) to promote the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.md).
+This integration uses REST APIs \(through a MID Server\) so that the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.md).
 
 **Note:** A valid Telecommunications Service Operations Management subscription is required to use this connector.
 
@@ -43,7 +43,7 @@ The following sections are available under the Cisco Meraki navigation pane. Use
 |Section|Description|
 |-------|-----------|
 |Setup|Configure MID Server, define Cisco Meraki connections, and schedule imports.|
-|Data Sources|Predefined data sources for bulk and filtered discovery \(SGC-Cisco Meraki Bulk Discovery, SGC-Cisco Meraki Filtering Discovery\). Enable parallel loading if needed. For more information on parallel loading.|
+|Data Sources|Predefined data sources for bulk and filtered discovery \(Cisco Meraki Full Discovery, Cisco Meraki Filtered Discovery\). Enable parallel loading if needed. For more information on parallel loading.|
 |Import Schedules|Manage scheduling for each Cisco Meraki connection alias. Run jobs manually or at defined intervals.|
 |Connections &amp; Credential Aliases|Define aliases for each Cisco Meraki instance. Store connection metadata and credentials.|
 |Connections|Define Cisco Meraki instance details, such as URL, selected MID Server, credential reference, and connection alias reference.|
@@ -51,7 +51,7 @@ The following sections are available under the Cisco Meraki navigation pane. Use
 |Filters|Configure filtering parameters used in filtered discovery \(for example, by device IP or name\).|
 |Properties|Modify system behavior using connector-specific properties. For more information, see.|
 
-## Access the Guided Setup
+## Access the guided setup
 
 Use the guided setup to simplify the configuration process. This setup provides an organized sequence of steps to help you complete integration quickly and correctly. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.md).
 

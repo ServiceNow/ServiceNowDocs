@@ -121,6 +121,30 @@ None
 
 </td></tr><tr><td>
 
+Case and Knowledge Management Restricted caller or application access definitionsn\_hr\_core.basic\_case\_writer
+
+</td><td>
+
+An application accessor definition used by HR Core to grant applications with the HR Basic persona the ability to write to HR Case-related resources.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Case and Knowledge Management restricted caller definitionsn\_hr\_core.restricted\_caller
+
+</td><td>
+
+Used by the HR Core application to control which application scopes are allowed to invoke protected HR Core APIs, Script Includes, tables, or other resources.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
 HR content writer\[sn\_hr\_core.content\_writer\]
 
 </td><td>

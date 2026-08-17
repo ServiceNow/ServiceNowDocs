@@ -572,7 +572,7 @@ Runs daily to populate the following tables:
 
 Reads de-duplication task data records and calculates the root cause analysis for the duplication.
 
- Used in support of Now Assist for CMDB.
+ Used in support of ServiceNow Otto for CMDB.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -973,7 +973,7 @@ Remediate Duplicate Task Groups
 
 Groupings of de-duplication tasks, the CI class affected, any discovery source associated with the de-duplication task, and the CI identification rule that was used to discover the CIs.
 
- Used in support of Now Assist for CMDB.
+ Used in support of ServiceNow Otto for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges
@@ -988,7 +988,7 @@ Group Task Mapping
 
 Reference to the Remediate Duplicate Task Groups table and a root cause analysis summary of the reason that the Cis were added to the de-duplication task
 
- Used in support of Now Assist for CMDB.
+ Used in support of ServiceNow Otto for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges

@@ -147,7 +147,7 @@ Monitor the loss scenarios of the plan
 
 </td><td>
 
-Create crisis scenarios that can be included in your plan \(for example, Loss of Datacenters or Vendor disruption\) and add assets dependencies or recovery strategies to the loss scenarios.
+Create crisis scenarios that can be included in your plan \(for example, Loss of Datacenters or Vendor disruption\). Then add assets dependencies or recovery strategies to the loss scenarios.
 
 </td><td>
 
@@ -231,7 +231,7 @@ Avoid creating cyclic tasks for the same plan while adding plan dependencies.
 
 </td><td>
 
-Stop processing same plan if its already part of the hierarchy. Avoid creation such plan dependencies during planning phase. Verify that plan dependency in recovery task doesn’t create a cycle.
+Stop processing same plan if it's already part of the hierarchy. Avoid creation such plan dependencies during planning phase. Verify that plan dependency in recovery task doesn’t create a cycle.
 
 </td><td>
 

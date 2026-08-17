@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Carbon calculations using AI agents
@@ -47,5 +47,5 @@ The benefits are as follows:
 -   Promotes transparency and traceability by providing step-by-step guidance and workflow audit logs.
 -   Simplifies user experience through an intuitive conversational assistant embedded in the Now Assist Panel.
 
-**Parent Topic:**[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
 

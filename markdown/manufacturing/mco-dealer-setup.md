@@ -1,5 +1,5 @@
 ---
-title: Dealer
+title: Set up Dealer
 description: Configure dealer accounts and roles to enable dealers to manage campaigns and submit claims through the dealer portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-dealer-setup.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-06-29"
 reading_time_minutes: 1
-breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
 
-# Dealer
+# Set up Dealer
 
 Configure dealer accounts and roles to enable dealers to manage campaigns and submit claims through the dealer portal.
 

@@ -1,6 +1,6 @@
 ---
-title: Invoice processing overview
-description: Invoices are generated for payments against purchase orders and processed through automated and manual workflows, with Accounts Payable specialists managing them from creation through approval.
+title: Invoice processing
+description: Invoices generated for purchase orders are processed through automated and manual workflows, managed by Accounts Payable specialists from creation to approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-invoices.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice management, purchase order, PO, Accounts Payable Workspace]
+keywords: [APO, Accounts Payable Operations, Accounts Payable Specialists, Source-to-Pay Workspace, Automatic Data Extraction, purchase order, PO Invoice, Non-PO Invoice, Credit Memo, Accounts Payable Workspace]
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Invoice processing overview
+# Invoice processing
 
-Invoices are generated for payments against purchase orders and processed through automated and manual workflows, with Accounts Payable specialists managing them from creation through approval.
+Invoices generated for purchase orders are processed through automated and manual workflows, managed by Accounts Payable specialists from creation to approval.
 
 Accounts Payable Operations integration with Document Intelligence automatically extracts data from the invoices that are received as an attachment via email, and creates the invoice records and the invoice line records. When the invoice is in certain states during automated invoice processing, manual intervention is required by the Accounts Payable Specialist to move the invoice to the next stage of processing.
 
@@ -47,7 +47,7 @@ View invoices you own directly from Employee Center to monitor invoice status an
 
 [Invoice exceptions]()
 
-[Tolerance Rules and Variances for invoices]()
+[Tolerance rules and variances for invoices]()
 
 [Invoice approvals]()
 

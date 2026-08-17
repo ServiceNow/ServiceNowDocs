@@ -1,18 +1,18 @@
 ---
 title: Layout: a deeper dive
-description: Learn advanced layout concepts in ServiceNow CPQ, including tiers, column sets, and product list layouts. Understand how to structure pages, tabs, and sections in CSV files to create dynamic, responsive configuration interfaces with organized and intuitive user experiences.
+description: Learn advanced layout concepts in CPQ, including tiers, column sets, and product list layouts. Understand how to structure pages, tabs, and sections in CSV files to create dynamic, responsive configuration interfaces with organized and intuitive user experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_deeper\_dive.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Layout: a deeper dive
 
-Learn advanced layout concepts in ServiceNow CPQ, including tiers, column sets, and product list layouts. Understand how to structure pages, tabs, and sections in CSV files to create dynamic, responsive configuration interfaces with organized and intuitive user experiences.
+Learn advanced layout concepts in CPQ, including tiers, column sets, and product list layouts. Understand how to structure pages, tabs, and sections in CSV files to create dynamic, responsive configuration interfaces with organized and intuitive user experiences.
 
 ## Tiers and tierDef
 
@@ -50,11 +50,11 @@ For both fields and tiers, the text entered in the label column is the text that
 
 ## variablename
 
-Variables are used to define the path and call specific fields created in ServiceNow CPQ. In row 9 of the following image, the variablename **background** is defined in column E. In rows 25-29, **background** is added to the path \(column B\). This lets ServiceNow CPQ know that those go in the **background** tier.
+Variables are used to define the path and call specific fields created in CPQ. In row 9 of the following image, the variablename **background** is defined in column E. In rows 25-29, **background** is added to the path \(column B\). This lets CPQ know that those go in the **background** tier.
 
 \[Omitted image "cpq-layout-deeper-dive-variablename-1.png"\] Alt text: Tiers and tierDef
 
-Variables pertaining to layout must be different than variables defined in ServiceNow CPQ for fields or rules. This is because variables defined in ServiceNow CPQ are also used in the layout CSV. The variables names assigned to a field in ServiceNow CPQ UI are used to add the field to the layout. The following images show the CSV file referencing a field variable \(variablename=**desiredIrons**\) that was created in ServiceNow CPQ resulting in the field appearing in the layout.
+Variables pertaining to layout must be different than variables defined in CPQ for fields or rules. This is because variables defined in CPQ are also used in the layout CSV. The variables names assigned to a field in CPQ UI are used to add the field to the layout. The following images show the CSV file referencing a field variable \(variablename=**desiredIrons**\) that was created in CPQ resulting in the field appearing in the layout.
 
 \[Omitted image "cpq-layout-deeper-dive-variablename-2.png"\] Alt text: Tiers and tierDef
 
@@ -64,7 +64,7 @@ Variables pertaining to layout must be different than variables defined in Servi
 
 ## Column set types
 
-Column sets help define the vertical positioning of objects in a tier. The layout is responsive to the width of the browser \(which can change\), so ServiceNow CPQ uses column sets to help the Admin identify an intentional row breakpoint.
+Column sets help define the vertical positioning of objects in a tier. The layout is responsive to the width of the browser \(which can change\), so CPQ uses column sets to help the Admin identify an intentional row breakpoint.
 
 If the user is using a smaller window where the whole column set does not fit on one row, columns will continue onto the next row. The end of the column set always triggers a new row.
 
@@ -96,7 +96,7 @@ The following is a screen shot of the product list section of the layout CSV.
 
 A few things to note:
 
-1.  The variables in this column match the values in the productList.&lt;param&gt; column \{hauss- extList and List are missing\}. This tells ServiceNow CPQ to add the user inputs to the table.
+1.  The variables in this column match the values in the productList.&lt;param&gt; column \{hauss- extList and List are missing\}. This tells CPQ to add the user inputs to the table.
 2.  To adjust the alignment of the text in the individual columns add the class **slds-text- align\_left**, **slds-text-align\_right**, or **slds-text-align\_center**. To add multiple class names, separate them with a space.
 3.  **price**, **list**, and **extList** always align right so the numbers align nicely.
 4.  To save space on the screen, select **modal** for **location**.

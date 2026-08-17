@@ -77,9 +77,9 @@ The Gantt chart bars are drawn from the plan's **Planned start** date and each t
     -   **Insert in parallel** — Same as the others, with the drop-down set to **in parallel**.
     \[Omitted image "gantt-row-actions-edit.jpg"\] Alt text: Gantt chart row-action menu open on a recovery task row, showing Quick edit form.
 
-    \[Omitted image "gantt-row-insert-before.jpg"\] Alt text: Create a quick recovery task modal launched from the Insert before row action; the Insert task drop-down is set to "before" and the reference field is pre-populated with Task 2.1.
+    \[Omitted image "gantt-row-insert-before.jpg"\] Alt text: Create a quick recovery task modal launched from the Insert before row action. The Insert task drop-down is set to "before" and the reference field is pre-populated with Task 2.1.
 
-10. To reorder using quick actions: select the task row’s action menu and choose Add after, Add before, or Add in parallel.
+10. To reorder using quick actions, select the task row’s action menu and choose **Insert task after**, **before**, or **In parallel**.
 
     The chart updates to reflect the new task order.
 

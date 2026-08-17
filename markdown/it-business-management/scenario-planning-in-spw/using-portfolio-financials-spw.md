@@ -18,7 +18,7 @@ View the financial breakdown of estimates, approved costs, benefits, and actuals
 
 As a portfolio user, you can view the rolled up financial values of top-level demands, projects, and epics.
 
-You can view the costs by expense type or cost type. Using the Financials view at portfolio level, you can view different financial fields such as Budget \(approved budget for planning items\), Forecast, Variance \(difference between the approved budget and latest forecast\), Actuals, and the Remaining Estimates for Capex, Opex, Total, and Benefits for each planning item. This information can be used to track the financials status of the planning items and take an informed decision on which planning items to consider while working on the next planning cycle and track the to avoid overspending.
+You can view the costs by expense type or cost type. Using the Financials view at portfolio level, you can view different financial fields such as Budget \(approved budget for planning items\). These fields include Forecast, Variance \(difference between the approved budget and latest forecast\), Actuals, and the Remaining Estimates for Capex, Opex, Total, and Benefits for each planning item. This information helps you track the financial status of the planning items and decide which planning items to consider for the next planning cycle. It also helps you track spend to avoid overspending.
 
 Using the portfolio financials, portfolio managers can:
 
@@ -41,7 +41,7 @@ The default view of portfolio financials is set to display the planning items gr
 
 **Note:** Portfolio financials view is not yet compatible with Investment Funding. This view may not show the right budget values allocated to planning items from Investment Funding application. This will be add as a future enhancement.
 
-In the left-grid, planning item details such as name, rank, planning state, planning item type, approved start date, total planned cost, total actual costs, total planned benefits and ROI for the full planning item duration.
+In the left-grid, planning item details include name, rank, planning state, planning item type, and approved start date. These details also include total planned cost, total actual costs, total planned benefits, and ROI for the full planning item duration.
 
 In the right-grid, financial attributes of the planning items such as, Budget, Forecast, Variance, Actuals, and Remaining Estimates for Capex, Opex, Total, and Benefits portfolio for the portfolio timeline or breakdowns by year, quarter, month, or period.
 

@@ -80,7 +80,9 @@ Discovery Status
 History of the results of the current and past OT discovery schedule runs.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md)
+
+**Related topics**  
 
 
 [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)

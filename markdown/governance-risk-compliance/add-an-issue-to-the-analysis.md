@@ -28,15 +28,15 @@ Role required: sn\_oper\_res.manager
 
     **Note:** If you’ve associated an open issue with your scenario analysis, you can still request an approval for the scenario analysis. It isn’t required to close the open issues for requesting an approval for the scenario analysis.
 
-<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d394402e89">
+<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d394902e89">
 
 Step
 
-</th><th align="left" id="d394402e92">
+</th><th align="left" id="d394902e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394402e98">
+</th></tr></thead><tbody><tr><td id="d394902e98">
 
 **Select __Add__.**
 
@@ -44,7 +44,7 @@ Description
 
 Add an existing issue to the analysis. The following example shows how to add an existing issue to the analysis.\[Omitted image "add-issue.png"\] Alt text: Add an existing issue to the analysis.
 
-</td></tr><tr><td id="d394402e122">
+</td></tr><tr><td id="d394902e122">
 
 **Select __New__.**
 
@@ -52,7 +52,7 @@ Add an existing issue to the analysis. The following example shows how to add an
 
 Create an issue that you can add to the scenario analysis. The following example shows how to create an issue that you can add to the scenario analysis.\[Omitted image "create-new-issue-opres.png"\] Alt text: Create an issue that you can add to the scenario analysis.
 
- For the descriptions of the field values on the Create New Issue form, see [Create New Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
+ For the descriptions of the field values on the Create New Issue form, see [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>3.  In the Operational vulnerabilities tab, add an operational vulnerability to the scenario analysis.

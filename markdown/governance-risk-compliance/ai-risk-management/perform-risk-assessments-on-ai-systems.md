@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-05-20"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [risk assessment, AI systems, risk score, Advanced Risk, risk assessment methodology, perform risk assessment, AI Risk and Compliance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -21,7 +21,7 @@ Perform risk assessments on AI systems to evaluate the likelihood and impact of 
 
 The Advanced Risk application must be installed to perform risk assessment on the AI systems.
 
-Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
+Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst or \[sn\_ai\_governance.ai\_steward\]
 
 ## About this task
 
@@ -29,8 +29,10 @@ To confirm risk-based assessments on AI assets and risk roll-up function correct
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
+1.  Navigate to one of the following locations:
 
+    -   **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
+    -   **All** &gt; **AI Control Tower \(Legacy\)**
 2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:.
 
 3.  From the Lists, open the AI systems for which you want to perform risk assessments.

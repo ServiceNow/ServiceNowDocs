@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation table access by role
 
 The user roles that can access the Service Model Foundation tables.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 <table id="table_zj3_gj2_2mb"><thead><tr><th>
 
@@ -36,7 +38,7 @@ Delete
 
 </th></tr></thead><tbody><tr><td>
 
-Organization Core
+Organization Core \(formerly Service Organization\)
 
  \[sn\_customer\_service\_organization\]
 
@@ -60,7 +62,7 @@ Organization Core
 
 </td></tr><tr><td>
 
-Business Organization
+Business Organization \(formerly Business Location\)
 
  \[sn\_csm\_business\_location\]
 
@@ -87,7 +89,7 @@ Business Organization
 
 </td></tr><tr><td>
 
-Internal Organization
+Internal Organization \(formerly Internal Business Location\)
 
  \[sn\_csm\_business\_location\_internal\]
 
@@ -116,7 +118,7 @@ Internal Organization
 
 </td></tr><tr><td>
 
-External Organization
+External Organization \(formerly External Business Location\)
 
  \[sn\_csm\_business\_location\_external\]
 
@@ -143,7 +145,7 @@ External Organization
 
 </td></tr><tr><td>
 
-Service Organization Member\[sn\_csm\_service\_organization\_member\]
+Organization Member \(formerly Service Organization Member\)\[sn\_csm\_service\_organization\_member\]
 
 </td><td>
 

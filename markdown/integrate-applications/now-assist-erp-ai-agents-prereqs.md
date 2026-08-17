@@ -1,36 +1,36 @@
 ---
-title: Now Assist for Zero Copy Connector agentic workflow prerequisites
-description: Before you use Now Assist for Zero Copy Connector agentic workflows, you must complete several prerequisites.
+title: ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites
+description: Before you use ServiceNow Otto for Zero Copy Connector agentic workflows, you must complete several prerequisites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-ai-agents-prereqs.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-24"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Use agentic AI, Now Assist for Zero Copy Connector, Workflow Data Fabric]
+breadcrumb: [Use agentic AI, ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
-# Now Assist for Zero Copy Connector agentic workflow prerequisites
+# ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites
 
-Before you use Now Assist for Zero Copy Connector agentic workflows, you must complete several prerequisites.
+Before you use ServiceNow Otto for Zero Copy Connector agentic workflows, you must complete several prerequisites.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Check status of assistants
 
-Now Assist in Virtual Agent and Now Assist panel must be on. For information about how to check the status of assistants, see 
+Otto in Virtual Agent and the ServiceNow Otto panel must be on. For information about how to check the status of assistants, see .
 
 ## Activate conversational skills
 
-In Now Assist in Virtual Agent, check that **Now Assist Q&amp;A**, **Now Assist Topics**, and **AI agents** are activated.
+In Otto in Virtual Agent, check that **Otto Q&amp;A**, **Otto Topics**, and **AI agents** are activated.
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 2.  Select **Manage assistants**.
-3.  Select Now Assist in Virtual Agent.
-4.  Select **Now Assist skills** in the left side menu.
-5.  Confirm that **Now Assist Q&amp;A**, **Now Assist Topics**, and **AI agents** are activated. Activate if necessary.
+3.  Select **Now Assist** **in** **Virtual Agent**.
+4.  Select **Otto skills** in the left side menu.
+5.  Confirm that **Otto Q&amp;A**, **Otto Topics**, and **AI agents** are activated. Activate if necessary.
 
 ## Set large language model \(LLM\) provider and check connection
 

@@ -30,7 +30,7 @@ When you have multiple standalone tools for development, testing, and project tr
 
 -   **Agile Development 2.0**
 
-    Agile Development 2.0 supports agile-based execution. It provides an agile software development environment for product-based or project-based efforts, using the scrum agile framework. With Agile Development 2.0, you have the flexibility to implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure.
+    Agile Development 2.0 supports agile-based execution. It provides an agile software development environment for product-based or project-based efforts, using the scrum agile framework. With Agile Development 2.0, you have the flexibility to implement a pure agile approach over the entire life cycle of a product. It also supports a hybrid approach using agile methods within a traditional project structure.
 
     For more information, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-landing-page.md).
 

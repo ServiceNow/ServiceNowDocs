@@ -86,7 +86,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|The maximum image size is determined by the **com.glide.attachment.max\_size** system property. The default value is 1024 MB.|
 |Mobile UI|Supported|The maximum image size is determined by the **com.glide.attachment.max\_size** system property. The default value is 1024 MB.|
-|Now Assist panel|Not supported|Not applicable|
+|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|For details about the maximum image size allowed, check the Slack documentation.|
 |Workplace|Supported|For details about the maximum image size allowed, check the Workplace documentation.|
@@ -99,7 +99,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ## Example Image bot response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 

@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience use case: Calculate the total of line-level prices
 
 ServiceNow Quote Experience can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
 
-In ServiceNow CPQ ServiceNow Quote Experience, you can use a determination rule to calculate the sum of line-level total net prices and store the result in a header-level field. This is particularly useful when multiple fields need to be aggregated from line items to the transaction header.
+In CPQ ServiceNow Quote Experience, you can use a determination rule to calculate the sum of line-level total net prices and store the result in a header-level field. This is particularly useful when multiple fields need to be aggregated from line items to the transaction header.
 
 ## Example Rule Configuration
 

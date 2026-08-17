@@ -1,22 +1,22 @@
 ---
 title: Modify decision table structure in Workflow Studio
-description: Evolve with your business logic by modifying the inputs or columns of your decision table in Workflow Studio.Modify an input by changing the label, modifying the type and associated properties, and changing the mandatory toggle.Narrow down the list of results to only information that you need to see for Reference type input and result fields in decision tables in Workflow Studio.Make changes to an existing filter on Reference type inputs or results in decision tables in Workflow Studio.Delete inputs that are no longer necessary from your decision table in Workflow Studio. Deleting an input also deletes any related condition columns.Modify a condition column by renaming the label, editing the description, or updating the input type or default operator of your decision table in Workflow Studio.Change the data that a decision evaluates by changing the source table for that decision table in Workflow Studio.
+description: Modify the inputs or columns of a decision table in Workflow Studio to keep pace with changing business logic.Modify an input by changing the label, modifying the type and associated properties, and changing the mandatory toggle.Narrow down the list of results to only information that you need to see for Reference type input and result fields in decision tables in Workflow Studio.Make changes to an existing filter on Reference type inputs or results in decision tables in Workflow Studio.Delete inputs that are no longer necessary from your decision table in Workflow Studio. Deleting an input also deletes any related condition columns.Modify a condition column by renaming the label, editing the description, or updating the input type or default operator of your decision table in Workflow Studio.Change the data that a decision evaluates by changing the source table for that decision table in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/format-decision-table-in-decision-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 4
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify decision table structure in Workflow Studio
 
-Evolve with your business logic by modifying the inputs or columns of your decision table in Workflow Studio.
+Modify the inputs or columns of a decision table in Workflow Studio to keep pace with changing business logic.
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 
 ## Modify an input for a decision table
 
@@ -24,7 +24,7 @@ Modify an input by changing the label, modifying the type and associated propert
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -34,7 +34,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 3.  Select a decision table.
 
-4.  Choose the input that you want to modify.
+4.  Select the input to modify.
 
 5.  Modify the input.
 
@@ -65,15 +65,15 @@ Role required: admin or decision\_table\_admin
 
 4.  Create a filter for an input or result.
 
-<table id="choicetable_mgh_hb1_cyb"><thead><tr><th align="left" id="d50627e271">
+<table id="choicetable_mgh_hb1_cyb"><thead><tr><th align="left" id="d50420e274">
 
 Action
 
-</th><th align="left" id="d50627e274">
+</th><th align="left" id="d50420e277">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d50627e280">
+</th></tr></thead><tbody><tr><td id="d50420e283">
 
 **Create a filter for a Reference type input**
 
@@ -85,10 +85,10 @@ Description
 
 The **Reference** column appears and displays the Reference table.
 
-4.  In the **Table** field, select the table you want to reference. For example, `sys_user`.
+4.  In the **Table** field, select the table to reference. For example, `sys_user`.
 
 
-</td></tr><tr><td id="d50627e330">
+</td></tr><tr><td id="d50420e333">
 
 **Create a filter for a Reference type result**
 
@@ -97,7 +97,7 @@ The **Reference** column appears and displays the Reference table.
 1.  Select **Add result column**.
 2.  In the **Result column label** field, enter a name for the field.
 3.  In the **Result type** field, select **Reference**.
-4.  Select the table that you want to reference in the **Result table** field.
+4.  In the **Result table** field, select the table to reference.
 
 
 </td></tr></tbody>
@@ -134,7 +134,7 @@ Role required: admin
 
 3.  Select a decision table.
 
-4.  Select an input or result that you want to modify.
+4.  Select the input or result to modify.
 
 5.  Point to the result column header, and select the Edit column properties icon \(\[Omitted image "Pencil.png"\] Alt text: Edit column properties icon\).
 
@@ -153,7 +153,7 @@ Delete inputs that are no longer necessary from your decision table in Workflow 
 
 Deleting an input from a decision table can break a flow, playbook, or script passing data through the input. Because of this possibility, you should know where the decision table is used before deleting anything from it.
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -174,7 +174,7 @@ Modify a condition column by renaming the label, editing the description, or upd
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -199,7 +199,7 @@ Change the data that a decision evaluates by changing the source table for that 
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -211,7 +211,7 @@ Role required: admin, decision\_table\_admin, delegated developer permissions. F
 
 4.  Point to the results column header and select the Edit column properties icon \(\[Omitted image "Pencil.png"\] Alt text: Edit icon.\).
 
-5.  Replace the existing result table with a new source table.
+5.  Replace the existing result table with a different source table.
 
     **Note:** Changing the result table deletes the current decision table results values.
 

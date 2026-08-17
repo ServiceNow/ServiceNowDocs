@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [solution configuration limits, hierarchy depth, maximum configurations, field mapping constraints]
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Solution configuration limits
@@ -26,7 +26,7 @@ Structural limits that apply to solution configurations, including hierarchy dep
 |Sets and Product Pickers in mapping|Mapping of an entire Set or an entire Product Picker is not supported. Fields inside a Set can be mapped. Product Picker subfields cannot be mapped.|
 |Reverting a configurable product action|Once a product action is marked as configurable, it cannot be changed back to a standard product action.|
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 **Related topics**  
 

@@ -1,6 +1,6 @@
 ---
 title: Demand tasks
-description: Demand tasks are units of work within a demand that help you plan and organize initial activities before converting the demand into a work entity such as a product, feature, or enhancement.
+description: Demand tasks are units of work within a demand. Use them to plan and organize initial activities before converting the demand into a work entity such as a product, feature, or enhancement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/demand-tasks-ppw.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Plannin
 
 # Demand tasks
 
-Demand tasks are units of work within a demand that help you plan and organize initial activities before converting the demand into a work entity such as a product, feature, or enhancement.
+Demand tasks are units of work within a demand. Use them to plan and organize initial activities before converting the demand into a work entity such as a product, feature, or enhancement.
 
 ## Demand task overview
 
-Demand tasks enable you to organize and track early-stage planning activities within the demand record before you convert a demand into a work entity such as a feature, product, or enhancement. Unlike project tasks, which track execution and drive project completion dates, demand tasks focus on planning and preparation. This fundamental difference shapes what demand tasks can do and how you use them.
+Demand tasks organize and track early-stage planning activities within the demand record. Use them before converting a demand into a work entity such as a feature, product, or enhancement. Unlike project tasks, which track execution and drive project completion dates, demand tasks focus on planning and preparation. This difference shapes what demand tasks can do and how you use them.
 
 Examples of demand tasks include:
 

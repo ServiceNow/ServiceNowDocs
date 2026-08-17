@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-threatintelligencesecuritycenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -99,7 +99,7 @@ Zurich
 Take advantage of external sharing for secure, automated, and on-demand dissemination of threat intelligence using STIX 2.1 and MISP formats. Supports sharing across external agencies \(CISA, ISAC\), integrations \(SIEMs, EDRs\), TAXII-based TISC instances, and inbound intelligence from external entities.
 
 
--   **[About Report Templates in TISC](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
+-   **[Configure report templates](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
 
 Generate reports outside case management using base templates through a new reporting section in the Threat Intelligence Library.
 
@@ -133,9 +133,14 @@ Australia
 
 </td><td>
 
--   **[Case Summarization](https://www.servicenow.com/docs/access?context=now-assist-tisc-case-summarization&family=australia&ft:locale=en-US)**
+-   **[Generate a Case Report using generative AI](https://www.servicenow.com/docs/access?context=na-tisc-generate-ai-reports&family=australia&ft:locale=en-US)**
 
-Now Assist for Threat Intelligence Security Center brings generative AI capabilities directly into threat intelligence workflows.  Analysts can generate concise AI-powered summaries of threat cases, including case overview, findings, key actions taken, and recommended next steps.
+Introduced the TISC Report Authoring skill to generate analyst‑grade threat intelligence reports from threat cases. Supports configurable styling and analyst-defined instructions for content and focus.
+
+
+-   **[Summarize a case](https://www.servicenow.com/docs/access?context=now-assist-tisc-case-summarization&family=australia&ft:locale=en-US)**
+
+The TISC Case Summarization skill brings generative AI capabilities directly into threat intelligence workflows.  Analysts can generate concise AI-powered summaries of threat cases, including case overview, findings, key actions taken, and recommended next steps.
 
 
 -   **[Automatic Threat Actor priority tagging](https://www.servicenow.com/docs/access?context=tisc-threat-actor-priority-tagging&family=australia&ft:locale=en-US)**
@@ -275,6 +280,11 @@ Navigate and use the MITRE-ATT&amp;CK model within the Investigation Canvas more
 Australia
 
 </td><td>
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+
+
 
 -   **[MITRE ATT&amp;CK Technique Extraction Rules](https://www.servicenow.com/docs/access?context=mitre-extraction-rules&family=australia&ft:locale=en-US) and [View extracted MITRE ATT&amp;CK Techniques](https://www.servicenow.com/docs/access?context=mitre-extraction-method&family=australia&ft:locale=en-US)**
 
@@ -612,7 +622,9 @@ Australia
 
 </td><td>
 
--   Introduced Now Assist Case Summarization skill that analysts can use to generate concise, AI-based case summaries.
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Threat Intelligence Security Center \(TISC\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Introduced AI-generated threat intelligence reports from case data with analyst-guided instructions.
+-   Introduced AI-generated case summarization that analysts can use to generate concise case summaries.
 -   Added playbooks support in Case Management, giving analysts a guided, stage-based workflow for investigations.
 -   Added historical data ingestion and flexible expiration handling to TISC Add-on for Splunk Enterprise. 
 -   Enhanced MITRE Extraction rule schema to add a combined Techniques and Tactics regex extraction type.

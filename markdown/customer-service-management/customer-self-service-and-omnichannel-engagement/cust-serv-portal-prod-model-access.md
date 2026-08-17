@@ -18,7 +18,11 @@ Use a system property to limit customer access to data in the Product Models tab
 
 From the Customer Service Portal, product model data can be accessed by external users with the sn\_esm\_user role. System administrators can use the **csm\_cmdb\_model.customer\_visible\_flag** system property and the **Customer Visible** field on the Product Models table \(cmdb\_model\) and child tables to limit this access.
 
-The **csm\_cmdb\_model.customer\_visible\_flag** system property enables the **Customer Visible** field for the tables listed below. By default, this property is set to false. When set to true, the system uses the setting in the **Customer Visible** field to determine access to product model data on the Customer Service Portal.
+The **csm\_cmdb\_model.customer\_visible\_flag** system property enables the **Customer Visible** field for the tables listed below.
+
+By default, this property is set to true. When set to true.
+
+The system uses the setting in the **Customer Visible** field to determine access to product model data on the Customer Service Portal.
 
 -   Product Models table \(cmdb\_model\)
 -   Software Models table \(cmdb\_software\_product\_model\)

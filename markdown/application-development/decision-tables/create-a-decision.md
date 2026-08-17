@@ -7,7 +7,7 @@ release: australia
 product: Decision Tables
 classification: decision-tables
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 3
 breadcrumb: [Decision tables in the classic environment, Decision Tables, Builder library, Developing your application, Building applications]
 ---
@@ -24,17 +24,17 @@ Role required: decision\_table\_admin
 
 1.  Create or select a table to use for your decision answer records.
 
-    You will associate an answer record to each decision on your decision table in later steps. This answer record is returned when that decision is reached based on your inputs. For information on creating a table, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATable.md).
+    Associate an answer record to each decision on your decision table in later steps. This answer record is returned when that decision is reached based on your inputs. For information on creating a table, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATable.md).
 
-2.  Ensure that one field on the table that you use for your decision records has been set as the display value.
+2.  Verify that one field on the table that you use for your decision records has been set as the display value.
 
     This field is used as a label when you display decision answers in Workflow Studio.
 
-    You can use an existing table or create a new table to use for your decision records.
+    You can use an existing table or create a table to use for your decision records.
 
 3.  Create a record on this table to each answer in your decision.
 
-    If you have modified an existing table, you may need to customize the form to show the new fields that you have added.
+    If you have modified an existing table, you might need to customize the form to show the fields that you have added.
 
 4.  Create a decision table record.
 

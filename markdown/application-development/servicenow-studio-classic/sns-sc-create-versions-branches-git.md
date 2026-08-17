@@ -9,14 +9,14 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-05-27"
 reading_time_minutes: 3
-breadcrumb: [Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Create versions and branches in Git
 
 Create tags and branches in a Git repository from ServiceNow Studio to version application releases and manage parallel development streams.
 
-**Parent Topic:**[Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 
 ## Create a tag to link to a particular application version
 
@@ -73,15 +73,15 @@ Role required: admin
 
 5.  Choose whether to stash or discard local changes before switching.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d207737e393">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d213199e393">
 
 Option
 
-</th><th align="left" id="d207737e396">
+</th><th align="left" id="d213199e396">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d207737e402">
+</th></tr></thead><tbody><tr><td id="d213199e402">
 
 **Stash local changes**
 
@@ -89,7 +89,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d207737e411">
+</td></tr><tr><td id="d213199e411">
 
 **Discard local changes**
 

@@ -98,16 +98,64 @@ Number of scheduled jobs events that are on schedule.
 
 Use the Current Scores section to have a direct check on the sysevent table and shows the current states of the events.
 
-|Field|Description|
-|-----|-----------|
-|Total Events|Total events in the system within the set time period|
-|Total Ready|Total events that are ready to be processed|
-|Total Processing|Total events that are processing|
-|Total Processed|Total events that are already processed|
-|Total Error|Total errors in the events|
-|Total Transferred|Total events that have been transferred from one chart to the next|
+<table id="table_wwg_yvf_nxb"><thead><tr><th>
 
-## Scores-Trends
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Total Events
+
+</td><td>
+
+Total events in the system within the set time period
+
+</td></tr><tr><td>
+
+Total Ready
+
+</td><td>
+
+Total events that are ready to be processed
+
+</td></tr><tr><td>
+
+Total Processing
+
+</td><td>
+
+Total events that are processing
+
+</td></tr><tr><td>
+
+Total Processed
+
+</td><td>
+
+Total events that are already processed
+
+</td></tr><tr><td>
+
+Total Error
+
+</td><td>
+
+Total errors in the events
+
+</td></tr><tr><td>
+
+Total Transferred
+
+</td><td>
+
+Total events transferred from previous shard to the current shard
+
+</td></tr></tbody>
+</table>## Scores-Trends
 
 Use the Trends section to have a metric-based graphical understanding of the activities in the event processing system.
 

@@ -9,7 +9,7 @@ classification: discovery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Firewall Audits and Reporting, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall rule requests

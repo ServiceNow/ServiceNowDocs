@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Phone channel, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Phone channel, Configure Omnichannel, Configure, Customer Service Management]
 ---
 
 # Create an OpenFrame configuration

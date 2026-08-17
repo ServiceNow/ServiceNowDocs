@@ -24,7 +24,7 @@ Install base items represent the products and assets sold to customers. Each ins
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Select the List icon.
 
@@ -32,7 +32,7 @@ Install base items represent the products and assets sold to customers. Each ins
 
 4.  Select **New**.
 
-5.  On the Install based item form, fill in the fields.
+5.  On the Install base item form, fill in the fields.
 
     For a description of the field values, see [Install based item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-based-item-form.md).
 
@@ -52,7 +52,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Child Install Base items
+Child Install Base Items
 
 </td><td>
 
@@ -64,7 +64,7 @@ Sold Products
 
 </td><td>
 
-List of the sold products that are associated with an install base Item. Edit a sold product by selecting **Edit**.
+List of the sold products that are associated with an install base item. Edit a sold product by selecting **Edit**.
 
 </td></tr><tr><td>
 
@@ -91,11 +91,11 @@ Contracts
 List of contracts that are related to an install base. Edit a contract by selecting **Edit**.
 
 </td></tr></tbody>
-</table>    For more information on the related lists, see .
+</table>    For more information on the related lists, see [Related list for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-related-list.md).
 
 8.  Select **Update**.
 
-    For more information on importing install base items, see .
+    For more information on importing install base items, see [Import install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-install-base-items.md).
 
 
 ## Result
@@ -105,5 +105,5 @@ The install base item is added to the account or consumer that you selected. You
 **Related topics**  
 
 
-[bundle-csm.install-base-item]
+[Install base items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-item.md)
 

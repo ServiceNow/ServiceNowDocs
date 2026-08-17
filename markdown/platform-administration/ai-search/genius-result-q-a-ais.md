@@ -1,6 +1,6 @@
 ---
-title: Q&amp;A Genius Results
-description: Q&amp;A Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
+title: Knowledge base articles Genius Results
+description: Knowledge base articles Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Knowledge base articles Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-q-a-ais.html
 release: australia
@@ -9,26 +9,24 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Genius Result configurations in the base system, Genius Results, Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Q&amp;A Genius Results
+# Knowledge base articles Genius Results
 
-Q&amp;A Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
+Knowledge base articles Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Knowledge base articles Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
 
 A snippet is a short, typically paragraph-length, section of text that contains useful and relevant information. A Genius Result answer's topic snippet indicates the subject for the answer, while the answer snippet provides details on that subject.
 
-\[Omitted image "genius-result-q-a.png"\] Alt text: Q&amp;A answer card for knowledge article with View Article action link.
-
 Select **View Article** to view the full Knowledge article.
 
-**Note:** Knowledge search property settings don't affect Q&amp;A Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
+**Note:** Knowledge search property settings don't affect Knowledge base articles Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
 
-Q&amp;A Genius Results only support English searches.
+Knowledge base articles Genius Results only support English searches.
 
-Because the Q&amp;A implementation is based on deep neural networks that are continually improving, Q&amp;A results for specific queries may vary from release to release. Articles boosted or promoted by result improvement rules are more likely to appear as Q&amp;A Genius Results, but aren't guaranteed to appear.
+Because the Knowledge base articles implementation is based on deep neural networks that are continually improving, Knowledge base articles results for specific queries may vary from release to release. Articles boosted or promoted by result improvement rules are more likely to appear as Knowledge base articles Genius Results, but aren't guaranteed to appear.
 
-## Topic and answer snippet extraction for Q&amp;A Genius Results
+## Topic and answer snippet extraction for Knowledge base articles Genius Results
 
 By default, AI Search automatically determines which elements of a Knowledge article's HTML field values to extract as the Q&amp;A topic and answer snippets. You can't configure the criteria for this extraction behavior.
 
@@ -85,38 +83,38 @@ Set this class on the HTML field element that contains text that you want to des
 
 </td><td>
 
-Set this class on the HTML element that contains text that you want to designate as the Q&amp;A Genius Result answer snippet for the Knowledge article.**Note:** Answer snippets should be from 250 to 300 characters in length. Longer answer snippets may be cut off when displayed on the Q&amp;A Genius Results card.
+Set this class on the HTML element that contains text that you want to designate as the Knowledge base articles Genius Result answer snippet for the Knowledge article.**Note:** Answer snippets should be from 250 to 300 characters in length. Longer answer snippets may be cut off when displayed on the Knowledge base articles Genius Results card.
 
 </td></tr></tbody>
 </table>## Machine reading comprehension model
 
-AI Search uses a machine reading comprehension \(MRC\) model to validate extracted answer snippets. The MRC model analyzes each extracted snippet to determine whether it answers your question. An answer snippet must pass this validation filter step before it can be displayed as a Q&amp;A Genius Result answer.
+AI Search uses a machine reading comprehension \(MRC\) model to validate extracted answer snippets. The MRC model analyzes each extracted snippet to determine whether it answers your question. An answer snippet must pass this validation filter step before it can be displayed as a Knowledge base articles Genius Result answer.
 
-When you enable factoid extraction for Q&amp;A Genius Results, the MRC model also finds the exact span of text within the extracted snippet that represents the answer to your question.
+When you enable factoid extraction for Knowledge base articles Genius Results, the MRC model also finds the exact span of text within the extracted snippet that represents the answer to your question.
 
-You can't configure settings for MRC models or choose which model to use for Q&amp;A Genius Results. AI Search performs A/B testing with different search query parameter values to automatically select the best MRC model for you. For more details on this A/B testing process, see [Search query parameter evaluation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/srch-qry-parm-eval-fw-ais.md).
+You can't configure settings for MRC models or choose which model to use for Knowledge base articles Genius Results. AI Search performs A/B testing with different search query parameter values to automatically select the best MRC model for you. For more details on this A/B testing process, see [Search query parameter evaluation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/srch-qry-parm-eval-fw-ais.md).
 
-## Knowledge Management and Q&amp;A Genius Results
+## Knowledge Management and Knowledge base articles Genius Results
 
 When you activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\), Q&amp;A Genius Results can return answers from records on the FAQ \[kb\_template\_faq\] table as well as records on the Knowledge \[kb\_knowledge\] table and its child tables.
 
-Additionally, if a search query satisfies one of the following conditions, AI Search bypasses the usual Q&amp;A routines and returns the FAQ record's **Answer** field value as a Q&amp;A Genius Result answer:
+Additionally, if a search query satisfies one of the following conditions, AI Search bypasses the usual Q&amp;A routines and returns the FAQ record's **Answer** field value as a Knowledge base articles Genius Result answer:
 
 -   The user's search query exactly matches the **Question** field value from the FAQ record.
 -   A result improvement rule promotes the FAQ record to be the first result for the user's search
 
-As an example, suppose you create an FAQ record with **Question** `How do I reset my password?`. When a user searches for `how do I reset my password`, AI Search returns a Q&amp;A Genius Result card with an answer snippet extracted from the FAQ record's **Answer** field value.
+As an example, suppose you create an FAQ record with **Question** `How do I reset my password?`. When a user searches for `how do I reset my password`, AI Search returns a Knowledge base articles Genius Result card with an answer snippet extracted from the FAQ record's **Answer** field value.
 
-## Interaction with other search features for Q&amp;A Genius Results
+## Interaction with other search features for Knowledge base articles Genius Results
 
-The following table describes interactions between Q&amp;A Genius Results and other search features.
+The following table describes interactions between Knowledge base articles Genius Results and other search features.
 
-|Feature|Interaction with Q&amp;A Genius Results|
-|-------|---------------------------------------|
-|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md) with block actions|When computing Q&amp;A Genius Results for a search query, AI Search ignores blocked search results.|
-|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search ignores stop words in the query.|
-|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search expands synonyms in the query.|
-|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search corrects terms in the query.|
+|Feature|Interaction with Knowledge base articles Genius Results|
+|-------|-------------------------------------------------------|
+|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md) with block actions|When computing Knowledge base articles Genius Results for a search query, AI Search ignores blocked search results.|
+|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|When computing Knowledge base articles Genius Results for a search query, AI Search ignores stop words in the query.|
+|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|When computing Knowledge base articles Genius Results for a search query, AI Search expands synonyms in the query.|
+|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|When computing Knowledge base articles Genius Results for a search query, AI Search corrects terms in the query.|
 
 -   **[Factoid extraction for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/factoid-extraction-qa-grs-ais.md)**  
 Factoid extraction uses the machine reading comprehension \(MRC\) model to find the exact span of text within a longer extracted snippet that represents the answer to your question.

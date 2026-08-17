@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with Quote Management for Business Locationspeer :
+The following items are installed with Quote Management for Business Location speer:
 
 -   Plugins
 -   Store applications

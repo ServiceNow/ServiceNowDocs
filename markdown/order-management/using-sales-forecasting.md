@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Sales Forecasting
@@ -22,7 +22,7 @@ You can view the Sales Forecast dashboard to see the current sales status and ta
 
 ## Using the Sales Forecast dashboard
 
-To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information. The Active Forecasts list on the side panel displays the forecast models configured for your Sales Forecasting dashboard. Select the forecast model that you want to view. You can view forecasts with one hierarchy or two hierarchies.
+To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information. The Active Forecasts list on the side panel displays the forecast models configured for your Sales Forecasting dashboard. Select the forecast model that you want to view. You can view forecasts with one hierarchy or two hierarchies. You can customize your Sales Forecast dashboard columns and view. For more info, see [Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-forecast-dashboard.md).
 
 \[Omitted image "sales-forecasting-dashboard.png"\] Alt text: Sales Forecast dashboard.
 
@@ -51,9 +51,13 @@ The Submission Entry tab displays the cumulative value of all the opportunities 
 -   **[Create forecast adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-forecast-adjustment.md)**  
 Modify system-generated forecast values based on your judgment and prediction. Sales agents can adjust their individual forecasts and managers can modify team forecasts to align with overall targets. Sales managers can override team-level adjustments and the system automatically recalculates the roll-ups to reflect the updated forecast values.
 -   **[Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-a-forecast.md)**  
-Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit in the specified time frame.
+Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
+-   **[Reopening and resubmitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reopening-and-resubmitting-a-forecast.md)**  
+Adjust the values of a submitted forecast by reopening it and resubmitting the updated forecast within the current submission window.
+-   **[Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-forecast-dashboard.md)**  
+Customize the columns that are displayed on your Sales Forecast dashboard and set your preferred column order to match your workflow.
 
-**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 

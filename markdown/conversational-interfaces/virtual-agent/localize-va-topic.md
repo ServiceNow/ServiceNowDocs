@@ -45,7 +45,7 @@ The localization process flow depends on the method of topic discovery that you 
 
 -   Natural Language Understanding \(NLU\) topic discovery
 
-    If your topics use NLU, both the topic and the model group must be localized. When you request a translation from Virtual Agent Designer, the topic and any optional keywords are translated. You must request translation for model groups from NLU Workbench. For more information about that process, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translate-multilingual-model.md).
+    If your topics use NLU, both the topic and the model group must be localized. When you request a translation from Assistant Designer Asset library, the topic and any optional keywords are translated. You must request translation for model groups from NLU Workbench. For more information about that process, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translate-multilingual-model.md).
 
     Once the topic and secondary models are localized, you may need to [map the models to the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-nlu-language-model.md) before publishing them.
 
@@ -94,7 +94,7 @@ Use the ServiceNow Localization Framework to manage the process of localizing Vi
 -   **[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)**  
 Use the ServiceNow Localization Framework to manage the process of localizing Virtual Agent conversations that use Natural Language Understanding \(NLU\).
 -   **[Edit translations for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/edit-translations-va-topics.md)**  
-A Virtual Agent admin user can edit and publish translations directly in Virtual Agent Designer.
+A Virtual Agent admin user can edit and publish translations directly in Assistant Designer Asset library.
 -   **[Request bulk translations for multiple topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/request-bulk-translations-va.md)**  
 If you need to translate many Virtual Agent topics across multiple models at one time, you can use the \[sys\_cs\_topic\] table list view to request translations.
 -   **[Authoring Virtual Agent conversations for localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/authoring-va-l18n.md)**  

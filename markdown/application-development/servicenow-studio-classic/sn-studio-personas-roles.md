@@ -62,7 +62,8 @@ Admins can review and approve tasks related to custom application development.
 
 -   Access ServiceNow Studio.
 -   Create apps in ServiceNow Studio.
--   Edit existing apps and app files, or delegate development to another user.
+-   Create Fluent apps in source code from the Explorer tab.
+-   Edit existing apps and metadata records, or delegate development to another user.
 -   Create, edit, and manage update sets.
 -   Update existing metadata records.
 -   Create and edit global \(unscoped\) metadata records.

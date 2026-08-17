@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Create LEAP problem records
@@ -55,6 +55,6 @@ The automated data transfer is characterized with:
 
     \[Omitted image "create-leap-problem-record-updated.png"\] Alt text: Create problem records
 
-    Another option is to invoke the LEAP AI agent by selecting the Explore button \[Omitted image "explore-button.png"\] Alt text: Explore button and creating problem record.
+    Another option is to invoke the LEAP AI agent by selecting the \[Omitted image "ask-Otto-button.png"\] Alt text: Ask Otto Ask Otto button and creating problem record.
 
 

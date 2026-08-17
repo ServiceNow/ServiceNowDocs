@@ -1,20 +1,20 @@
 ---
-title: Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
-description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+title: Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
+description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
+# Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the case summarization skill, and then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub, you can select the input table, related records, and fields for each input template of the case summarization skill. You can then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** to access the **AI Features** tab of the AI Admin Hub.
 
-2.  In the **Customer** workflow group, view the skills for the Now Assist for CSM features.
+2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for CSM features.
 
-3.  Activate and copy the Now Assist for CSM feature case summarization skill for customization.
+3.  Activate and copy the ServiceNow Otto for CSM feature case summarization skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
@@ -40,7 +40,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: Icon for more actions for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -56,9 +56,9 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     2.  Select **Save and continue** to go to the next step.
 
-5.  View the input data for each skill, such as the base input fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\).
+5.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
 
-    You can change the base input table and add case extension tables for the copied skill. To create an extended table, select **New** on the Tables list page, and select the table to extend from the **Extends table** search field. This option is only available when you’re creating a table, because it incorporates all of the fields of the original table and creates system fields for the new table.
+    You can change the base input table and add case extension tables for the copied skill. To create an extended table, select **New** on the Tables list page, and select the table to extend from the **Extends table** search field. This option is only available when you’re creating a table. It incorporates all of the fields of the original table and creates system fields for the new table.
 
     Configure the base input table fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\) for the skill.
 
@@ -69,8 +69,6 @@ From the Now Assist Admin console, you can select the input table, related recor
     1.  For each input template state \(New, Work in progress, or Resolved\), select **+New base input field** and configure the base input table fields.
 
         Add multiple base input fields, as necessary.
-
-        \[Omitted image "now-assist-csm-view-input.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -129,9 +127,9 @@ Description of the base input field value.
 
 6.  Customize the prompt.
 
-    Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the Now Assist admin screen.
+    Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the AI Admin Hub screen.
 
-    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. This will redirect you to the AI Skill Kit, where you can manage prompt configurations for the skill. For more info, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 
@@ -163,17 +161,17 @@ Description of the base input field value.
 
 9.  Configure where to display the case summarization.
 
-    1.  Select either **In-product** or **Now Assist panel**.
+    1.  Select either **In-product** or **ServiceNow Otto panel**.
 
-        -   **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+        -   **In-product**: When selected, the AI skills are displayed on the forms and workspaces.
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, the AI skills are available in the panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 

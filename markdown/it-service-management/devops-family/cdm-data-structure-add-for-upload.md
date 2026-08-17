@@ -1,5 +1,5 @@
 ---
-title: Add the nodes that will contain config data to a new CDM application
+title: Add nodes with config data to CDM application
 description: Add the data structure to a new application that will accept the uploaded config data into appropriate nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-data-structure-add-for-upload.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
-# Add the nodes that will contain config data to a new CDM application
+# Add nodes with config data to CDM application
 
 Add the data structure to a new application that will accept the uploaded config data into appropriate nodes.
 

@@ -361,5 +361,13 @@ Steps
 -   atf.catalog\_SP.variableStateValidation\_SP
 -   atf.catalog\_SP.validateVariableValue\_SP
 
+</td></tr><tr><td>
+
+[UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-ui-category.md)
+
+</td><td>
+
+atf.uiTestScript.runTest
+
 </td></tr></tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Configure the Telecom Discovery Builder ETL
-description: Leverage the prebuilt Telecom Discovery Builder framework ETL by duplicating it into your connector scope, assigning the appropriate data source, and deploying it as part of a new service graph connector.
+description: Duplicate the prebuilt Telecom Discovery Builder framework ETL into your connector scope. Assign the appropriate data source and deploy it as part of a new service graph connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service
 
 # Configure the Telecom Discovery Builder ETL
 
-Leverage the prebuilt Telecom Discovery Builder framework ETL by duplicating it into your connector scope, assigning the appropriate data source, and deploying it as part of a new service graph connector.
+Duplicate the prebuilt Telecom Discovery Builder framework ETL into your connector scope. Assign the appropriate data source and deploy it as part of a new service graph connector.
 
-The Telecom Discovery Builder framework ETL provided with the Telecom Service Operations Management \(TSOM\) Core is a ready-to-use framework designed to streamline data ingestion into the CMDB across telecom connectors. Rather than configuring it directly, as an administrator, you can duplicate the ETL into a connector’s application scope and update the data source to align with the connector’s discovery payload.
+The Telecom Discovery Builder framework ETL is provided with the Telecom Service Operations Management \(TSOM\) Core. This ready-to-use framework streamlines data ingestion into the CMDB across telecom connectors. Rather than configuring it directly, duplicate the ETL into a connector’s application scope. Then update the data source to align with the connector’s discovery payload.
 
 ## Steps to use the Telecom Discovery Builder framework ETL in a connector
 

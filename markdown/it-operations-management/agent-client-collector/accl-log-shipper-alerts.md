@@ -38,7 +38,7 @@ Log shipper alerts are generated from log shipper events with a severity of Majo
 
 2.  Review the information provided in the Alerts list.
 
-    For details and a description of the columns, see [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/t_EMUseAlertConsole.md).
+    For details and a description of the columns, see [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMUseAlertConsole.md).
 
 
 **Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-setup.md)

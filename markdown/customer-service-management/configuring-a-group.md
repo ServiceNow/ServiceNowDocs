@@ -47,6 +47,8 @@ You can assign one or more roles to a group to grant required access to the grou
 
 Role required: user\_admin
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ### Procedure
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Groups**.
@@ -62,5 +64,5 @@ Role required: user\_admin
 
 ### Result
 
-The roles are successfully added to the assignment group. You can now start associating these groups to a business location. For more information, see [Associate a group to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-a-group-to-a-business-location-so.md).
+The roles are successfully added to the assignment group. You can now start associating these groups to a business organization \(formerly business location\). For more information, see [Associate a group to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-a-group-to-a-business-location-so.md).
 

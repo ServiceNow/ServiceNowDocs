@@ -32,7 +32,7 @@ When finished, your app will look like a catalog of items that people can reques
 
     A form describes one item in the catalog and provides space for questions that a requester will answer to specify details about what they want, such as the model number of a laptop. If your catalog needs multiple items, you can create multiple forms.
 
-    **Note:** You can create a form using Now Assist. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
+    **Note:** You can create a form using AI. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
 
 
 ## Automate workflows and simplify tasks with playbooks

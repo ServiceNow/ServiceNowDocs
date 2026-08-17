@@ -96,7 +96,7 @@ Document Intelligence
 
 </td><td>
 
-Built-in AI capabilities extract meaningful data from unstructured files like scanned documents and PDFs, making them actionable within automated workflows. This turns static documents into structured data that can trigger automations.For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
+Built-in AI capabilities extract meaningful data from unstructured files like scanned documents and PDFs, making them actionable within automated workflows. This turns static documents into structured data that can trigger automations.For more information, see [Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ AI Agent Execution on Connected Data
 
 </td><td>
 
-ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 </td></tr><tr><td>
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -38,8 +38,11 @@ Use business processes to connect operational workflows to other enterprise arch
 -   Associate architectural artifacts with business processes to link design decisions to execution.
 -   Add business processes to process maps or diagrams to visualize relationships.
 -   Link business processes to value streams to show how internal workflows support end‑to‑end value delivery.
+-   Associate business processes with the business units that own them.
 
 Use business processes to model internal workflows and relate them to supporting applications. Use business capabilities to describe what the organization does. Use value streams to describe end‑to‑end value delivery across functions.
+
+A business process is not the same as a business process activity. A business process models the overall workflow and its L0-L2 hierarchy. A business process activity is a separate, standalone entity that represents a discrete unit of work performed by a business actor. For more information, see [Exploring business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-activities.md).
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 
@@ -53,4 +56,8 @@ Use business processes to model internal workflows and relate them to supporting
 [Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bp.md)
 
 [Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
+
+[Add a business unit to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-unit-to-business-process.md)
+
+[Remove a business unit from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-process.md)
 

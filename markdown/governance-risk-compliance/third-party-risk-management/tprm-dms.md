@@ -88,7 +88,7 @@ For more information, see [AI-assisted questionnaire pre-fill using the Document
 
 ## Now Assist document skills
 
-If your organization uses DMS and Now Assist for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. Now Assist for Document Management and Now Assist for TPRM offer the following key skills:
+If your organization uses DMS and ServiceNow Otto for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. Now Assist for Document Management and ServiceNow Otto for TPRM offer the following key skills:
 
 -   TPRM issue summarization– Condenses complex third-party risk issues into actionable summaries, helping risk analysts review and respond faster.
 
@@ -96,11 +96,11 @@ If your organization uses DMS and Now Assist for TPRM, you can leverage AI-drive
 
 -   Smart documents – Summarizes risk management documents and provides quick Q&amp;A, reducing manual review and speeding up due diligence.
 
-    For more information, see [Smart Documents Skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-smart-documents.md).
+    For more information, see [Smart Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-smart-documents.md).
 
 -   Extract information from documents – Uses AI to pull specific data points \(such as risk indicators, compliance clauses, or contract terms\) from large documents, reducing manual review time and improving accuracy.
 
-    For more information, see [Now Assist extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-extract-information-from-documents.md).
+    For more information, see [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-extract-information-from-documents.md).
 
 
 For more information on Now Assist for Document Management skills, see [Explore Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/explore-now-assist-in-document-management.md).

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 2
 keywords: [semantic layer, column descriptions, usage instructions, query generation, dimensions, Semantic Column Configuration, update sets]
-breadcrumb: [Customizing semantic metadata, Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Customizing semantic metadata, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Customize column descriptions and usage instructions

@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Incident pattern analysis, Use generative AI skills, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Incident pattern analysis, Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Work on an incident pattern record

@@ -28,6 +28,8 @@ Create visualization configurations for the Portfolio Overview section and apply
 Create configurations for the Health or Insights section and apply them as needed.
 -   **[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-eaw-using-setup-page.md)**  
 Use the Setup page to configure Enterprise Architecture Workspace.
+-   **[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
 
 **Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md)
 

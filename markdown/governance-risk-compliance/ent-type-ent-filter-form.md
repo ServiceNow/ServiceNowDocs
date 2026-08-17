@@ -1,6 +1,6 @@
 ---
-title: Create New Entity Filter form
-description: Use the Create New Entity Filter form to create a filter condition for an entity type depending on your business requirement.
+title: Create Entity Filter form
+description: Use the Create Entity Filter form to create a filter condition for an entity type depending on your business requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ent-type-ent-filter-form.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 2
 breadcrumb: [Configure the entity filters, Setting up pillars, entity types, entity filters, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Entity Filter form
+# Create Entity Filter form
 
-Use the Create New Entity Filter form to create a filter condition for an entity type depending on your business requirement.
+Use the Create Entity Filter form to create a filter condition for an entity type depending on your business requirement.
 
-## Entity filter new record form
+## Entity filter record form
 
 For a description of the field values, see the following table.
 

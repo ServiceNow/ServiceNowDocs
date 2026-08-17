@@ -21,7 +21,7 @@ Use the Carousel user input control in a Virtual Agent topic to present a prompt
 
 ## Carousel input control properties for LLM topic discovery
 
-**Note:** The Carousel user input control is not supported in Now Assist in Virtual Agent.
+**Note:** The Carousel user input control is not supported in ServiceNow Otto in Virtual Agent.
 
 <table id="table_qmh_lgk_h1c"><thead><tr><th>
 
@@ -287,12 +287,12 @@ Skip reprompting if
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
 
 </td></tr></tbody>
 </table>## Example Carousel input control for NLU topic discovery
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -408,7 +408,7 @@ None
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 

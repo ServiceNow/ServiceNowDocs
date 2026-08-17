@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) Support renewals and expansion
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Support renewals and expansion
 description: Assess engagements and contracts due for renewal, analyze trends, and recommend renewal strategies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-renewal-analyzer.html
@@ -9,16 +9,16 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Customer Success Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Customer Success Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) Support renewals and expansion
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Support renewals and expansion
 
 Assess engagements and contracts due for renewal, analyze trends, and recommend renewal strategies.
 
 ## Support renewals and expansion agentic workflow overview
 
-The Support renewals and expansion agentic workflow enables customer success agents to assess the health, value, and product adoption of an engagement or contract. It provides data-driven insights and renewal play recommendations and enables customer success agents to manage multiple customer engagements efficiently. The workflow uses the Renewal Insight Engine skill to evaluate individual product metrics, health score trends, usage trends, and value scores at both the engagement and contract level, providing more granular insights than the earlier decision table-based approach. See [Renewal insight engine skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/renewal-insight.md)for details.
+The Support renewals and expansion agentic workflow enables customer success agents to assess the health, value, and product adoption of an engagement or contract. It provides data-driven insights and renewal play recommendations and enables customer success agents to manage multiple customer engagements efficiently. The workflow uses the Renewal Insight Engine skill to evaluate individual product metrics, health score trends, usage trends, and value scores at both the engagement and contract level. This approach provides more granular insights than the earlier decision table-based approach. See [Renewal insight engine skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/renewal-insight.md) for details.
 
 Customer success managers can use the Support renewals and expansion agentic workflow to:
 
@@ -35,7 +35,7 @@ Customer success managers can use the Support renewals and expansion agentic wor
 
 Before you use the agentic workflow, you must do the following:
 
--   Activate the Renewal Insight Engine skill in Now Assist for TMT. The skill is inactive by default and must be manually activated. See [Renewal insight engine skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/renewal-insight.md) for details.
+-   Activate the Renewal Insight Engine skill in ServiceNow Otto for TMT. The skill is inactive by default and must be manually activated. See [Renewal insight engine skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/renewal-insight.md) for details.
 -   Configure the following fields in the Renewal analysis AI agent:
     -   Engagement adoption source sysID
     -   Contract adoption source sysID
@@ -63,7 +63,7 @@ For more details on configuring the data sources, see [Configure the Data contex
     -   Generic Prompt Vertex AI \(Google Cloud Chat Completion\)
     -   Generic Prompt \(Amazon Bedrock Chat Completions\)
 
-When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The customer success manager can monitor the progress in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) and select one of the following scans:
+When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The customer success manager can monitor the progress in the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) and select one of the following scans:
 
 -   Value
 -   Health

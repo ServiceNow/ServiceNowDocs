@@ -24,15 +24,15 @@ Role required: safe\_art\_user or safe\_admin
 
 1.  Create a feature using any of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d77096e64">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d78424e64">
 
 Option
 
-</th><th align="left" id="d77096e67">
+</th><th align="left" id="d78424e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77096e73">
+</th></tr></thead><tbody><tr><td id="d78424e73">
 
 **From the Backlog tab**
 
@@ -44,7 +44,7 @@ Steps
 4.  From the Create list, select **Create Feature**. The feature is displayed in the **Backlog** tab with the state as **Backlog**.
 
 
-</td></tr><tr><td id="d77096e121">
+</td></tr><tr><td id="d78424e121">
 
 **From the Feature module**
 
@@ -54,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d77096e151">
+</td></tr><tr><td id="d78424e151">
 
 **From the Epics module**
 
@@ -65,7 +65,7 @@ Steps
 3.  In the SAFE Features related list, click **New**.
 
 
-</td></tr><tr><td id="d77096e184">
+</td></tr><tr><td id="d78424e184">
 
 **From the Agile Release Trains module**
 
@@ -246,7 +246,7 @@ Estimated duration for completion of the job.
 Use the SAFe stories related list to view and add stories to the feature.
 
 -   **[Split a SAFe feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.md)**  
-Split a SAFe feature into two separate features so that you can track complete and incomplete stories. You can move the feature with the incomplete stories to your backlog or to a future program increment \(PI\) so that you can maintain accurate metrics of the previous sprints and PIs.
+Split a SAFe feature into two separate features so that you can track complete and incomplete stories. Move the feature with the incomplete stories to your backlog or to a future program increment \(PI\). This maintains accurate metrics of the previous sprints and PIs.
 
 **Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 

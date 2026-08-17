@@ -1,5 +1,5 @@
 ---
-title: Inputs and triggers for Now Assist for Threat Intelligence Security Center
+title: Inputs and triggers for ServiceNow Otto for Threat Intelligence Security Center \(TISC\)
 description: You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/input-triggers-now-assist-tisc.html
@@ -13,7 +13,7 @@ keywords: [Now Assist TISC, Threat Intelligence Security Center]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Inputs and triggers for Now Assist for Threat Intelligence Security Center
+# Inputs and triggers for ServiceNow Otto for Threat Intelligence Security Center \(TISC\)
 
 You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 
@@ -25,7 +25,7 @@ You can modify inputs and triggers, but you can't modify a skill's data source. 
 
 ## Case Summarization skill
 
-Inputs for the Case Summarization skill identify the table and fields used when a threat case summary is generated. The following table lists the inputs for the Case Summarization skill from the Choose Input page in the Now Assist Admin console.
+Inputs for the Case Summarization skill identify the table and fields used when a threat case summary is generated. The following table lists the inputs for the Case Summarization skill from the Choose Input page in the AI Admin Hub console.
 
 <table id="table_tisc_case_summ_inputs"><thead><tr><th>
 

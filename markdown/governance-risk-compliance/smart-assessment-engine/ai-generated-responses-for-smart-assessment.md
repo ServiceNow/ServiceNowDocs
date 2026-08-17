@@ -9,7 +9,7 @@ classification: smart-assessment-engine
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Explore, Now Assist, Smart Assessment Engine, Governance, Risk, and Compliance]
+breadcrumb: [Explore, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Smart Assessment response assist skill

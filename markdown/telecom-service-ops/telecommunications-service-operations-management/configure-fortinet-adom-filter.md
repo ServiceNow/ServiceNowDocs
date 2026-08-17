@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -26,6 +26,7 @@ By default, the Fortinet pull connector collects metric data from all ADOMs. To 
 
 |Parameter|Default|Description|
 |---------|-------|-----------|
+|`adom`|||
 |`adomFilterEnabled`|`false`|Turns ADOM filtering on or off. When `false`, the connector collects all ADOMs and the filter is bypassed. When `true`, the connector collects only the ADOMs that the filter class accepts.|
 |`adomFilterClass`|`FortinetAdomFilterVF`|Name of the MID Server script include that implements the filter. Evaluated only when `adomFilterEnabled` is `true`. The class must be active, deployed to the MID Server, and expose a `shouldIncludeAdom(adomData)` handler that returns a Boolean.|
 
@@ -55,5 +56,5 @@ Two filter classes are provided:
 
 ## What to do next
 
-To apply your own filtering logic, create a MID Server script include \(`ecc_agent_script_include`\) that exposes a `shouldIncludeAdom(adomData)` handler returning `true` to collect the ADOM or `false` to skip it, deploy it to the MID Server, and set `adomFilterClass` to its name.
+To apply your own filtering logic, create a MID Server script include \(`ecc_agent_script_include`\) that exposes a `shouldIncludeAdom(adomData)` handler. The handler returns `true` to collect the ADOM or `false` to skip it. Deploy the script include to the MID Server and set `adomFilterClass` to its name.
 

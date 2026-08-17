@@ -1,6 +1,6 @@
 ---
-title: Enable voice input for the Now Assist panel
-description: Learn more about the Enable voice input for the Now Assist panel accessibility preference.
+title: Enable voice input for the ServiceNow Otto panel
+description: Learn more about the Enable voice input for the ServiceNow Otto panel accessibility preference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html
 release: australia
@@ -10,21 +10,21 @@ reading_time_minutes: 1
 breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Enable voice input for the Now Assist panel
+# Enable voice input for the ServiceNow Otto panel
 
-Learn more about the Enable voice input for the Now Assist panel accessibility preference.
+Learn more about the Enable voice input for the ServiceNow Otto® panel accessibility preference.
 
-**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in the [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
+**Note:** Voice input is automatically activated when the ServiceNow Otto® panel is activated. As of the Zurich Patch 4 release, voice input is configured in the [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
 
-\[Omitted image "pol-pref-voice-input.png"\] Alt text: Enable voice input for the Now Assist panel.
+\[Omitted image "pol-pref-voice-input.png"\] Alt text: Enable voice input for the ServiceNow Otto panel.
 
 The purpose of this preference is to provide an alternative input method.
 
-**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+**Note:** This preference appears only if your system administrator has enabled ServiceNow Otto® voice input for your instance. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
 Learn more about this preference from the following tutorial:
 
-\[Omitted video\] Description: Voice input for Now Assist
+\[Omitted video\] Description: Voice input for ServiceNow Otto
 
 <table id="table_kgl_jgy_hgc"><thead><tr><th>
 
@@ -63,15 +63,15 @@ Deactivated
 
 </th></tr></thead><tbody><tr><td>
 
-The Now Assist panel includes a microphone button for voice input.
+The ServiceNow Otto® panel includes a microphone button for voice input.
 
-\[Omitted image "a11y-pref-voice-input-on.png"\] Alt text: Ask Now Assist search bar with Voice input preference turned on and microphone displayed.
+\[Omitted image "a11y-pref-voice-input-on.png"\] Alt text: Ask ServiceNow Otto search bar with Voice input preference turned on and microphone displayed.
 
 </td><td>
 
-The microphone button isn’t available in the Now Assist panel.
+The microphone button isn’t available in the ServiceNow Otto® panel.
 
-\[Omitted image "a11y-pref-voice-input-off.png"\] Alt text: Ask Now Assist search bar without microphone displayed.
+\[Omitted image "a11y-pref-voice-input-off.png"\] Alt text: Ask ServiceNow Otto search bar without microphone displayed.
 
 </td></tr></tbody>
 </table>

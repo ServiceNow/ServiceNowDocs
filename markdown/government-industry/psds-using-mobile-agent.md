@@ -39,9 +39,9 @@ The applet launcher includes all the applets that you need to address or resolve
 | | |
 |---|---|
 |New Service Request Cases|All service request cases that are assigned to you in the **New** state.|
-|Active Service Request Cases|All service request cases that you have access to but haven’t been resolved or cancelled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
+|Active Service Request Cases|All service request cases that you have access to but haven’t been resolved or canceled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
 |New Information Request Cases|All service request cases that are assigned to you in the **New** state.|
-|Active Information Request Cases|All information request cases that you have access to but haven’t been resolved or cancelled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
+|Active Information Request Cases|All information request cases that you have access to but haven’t been resolved or canceled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
 
 To launch an applet, select it in the app.
 

@@ -4,7 +4,7 @@ description: The ServiceNow AI Search application provides a consumer-grade sear
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-28"
+last_updated: "2026-07-28"
 reading_time_minutes: 5
 ---
 
@@ -13,6 +13,10 @@ reading_time_minutes: 5
 The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
 
 ## AI Search highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+Display actionable information from any indexed source in your system using multi-source synthesis.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
@@ -29,7 +33,10 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 ## New in the Australia release
 
--   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate_multicontent_sythesized-sources.md)**
+-   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-multi-content-synthesized-sources.md)**
+
+    AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
+
 
 -   **[Multimodal captioning for attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-multimodal-captioning.md)**
 
@@ -40,25 +47,25 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
     Beginning with Now Assist in AI Search 15.0, administrators on instances with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
 
--   **[Configure AI Search as the source for Ask Now Assist suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md)**
+-   **[Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md)**
 
     Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
 
 
 ## UI changes
 
--   ****
+-   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/show-borders-search-result-cards-portal-search.md)**
 
     By default, AI Search displays no borders between search result cards on the portal search results page. Administrators can enable display of borders between search result cards on the portal search results page by configuring the Faceted Search Service Portal widget.
 
--   ****
+-   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/show-borders-search-result-cards-global-search.md)**
 
-    By default, AI Search displays no borders between search result cards on the global search results page. Administrators can enable display of borders between search result cards on the global search results page by configuring the search result wrapper component for the Unified Navigation app in UI Builder.
+    By default, AI Search displays no borders between search result cards on the global search results page. Administrators can enable display of borders between search result cards on this page by configuring the search result wrapper component for the Unified Navigation app in UI Builder.
 
 
 ## Changed in this release
 
--   **[Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
+-   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
 
     If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
 
@@ -98,13 +105,13 @@ AI Search supports international languages. For details of language support by f
 
     The Advanced AI Search Management Tools application adds new functionality to AI Search. Administrators can review dashboards with metrics, trends, and reports relating to AI Search usage and configuration.
 
--   **[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)**
+-   **[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)**
 
-    The Now Assist in AI Search application combines the power of search with the Now LLM Service agentic AI model to answer questions in user searches with actionable AI-generated answers from relevant Knowledge articles.
+    The ServiceNow Otto for AI Search application combines the power of search with LLM processing to answer questions in user searches with actionable AI-generated answers from relevant Knowledge articles.
 
 -   **[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)**
 
-    The External Content Connectors ServiceNow Store application enables AI Search applications to search content and metadata from supported external source systems, including Atlassian Confluence Cloud, Atlassian Jira, Google Drive, Microsoft SharePoint Online, Microsoft Teams, Salesforce Slack, ServiceNow product documentation, and public websites supported by the predefined web sources external content connector.
+    The External Content Connectors ServiceNow Store application enables AI Search applications to search content and metadata from supported external source systems.
 
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)

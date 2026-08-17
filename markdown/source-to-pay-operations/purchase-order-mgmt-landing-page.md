@@ -33,4 +33,24 @@ The ServiceNow® Purchase Order Management application enables your suppliers an
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
 
 </td></tr></tbody>
-</table>
+</table>## Helpful resources
+
+Here are some additional ServiceNow resources that can help you:
+
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
+
+    Learn more about what's new and changed. See the [Purchase Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/purchase-order-management-rn.md).
+
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
+
+    Access real-time courses, self-paced training, and career resources, such as [Get to Value Quickly with S2P Operations](https://learning.servicenow.com/lxp/en/source-to-pay-operations/get-to-value-quickly-with-s2p-operations?id=learning_course_prev&course_id=c8c45f1d9702e650adf832471153af50) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
+
+    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation and deployment of Source-to-Pay Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/collections/sourcetopay-operations-best-practices).
+
+-   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
+
+    Connect with other Purchase Order Management users at [ServiceNow Community](https://www.servicenow.com/community/source-to-pay-operations/ct-p/source-2-pay-operations).
+
+

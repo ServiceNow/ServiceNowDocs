@@ -1,6 +1,6 @@
 ---
-title: Task import into CWM Boards using Now Assist
-description: Save time and effort by importing tasks or stories from a spreadsheet or document into a Collaborative Work Management Board. Now Assist proposes column mapping so you can bring existing work onto a Board without manually recreating each row.
+title: Task import into CWM Boards using ServiceNow Otto
+description: Save time and effort by importing tasks or stories from a spreadsheet or document into a Collaborative Work Management Board. ServiceNow Otto proposes column mapping so you can bring existing work onto a Board without manually recreating each row.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.html
 release: australia
@@ -9,25 +9,23 @@ classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-05-29"
 reading_time_minutes: 3
-keywords: [Import tasks, Now Assist, CWM, bulk import]
+keywords: [Import tasks, ServiceNow Otto, CWM, bulk import]
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
-# Task import into CWM Boards using Now Assist
+# Task import into CWM Boards using ServiceNow Otto
 
-Save time and effort by importing tasks or stories from a spreadsheet or document into a Collaborative Work Management Board. Now Assist proposes column mapping so you can bring existing work onto a Board without manually recreating each row.
+Save time and effort by importing tasks or stories from a spreadsheet or document into a Collaborative Work Management Board. ServiceNow Otto proposes column mapping so you can bring existing work onto a Board without manually recreating each row.
 
 Teams migrating to CWM from external task tracking tools often have months of structured work already documented in spreadsheets or documents. Recreating that work manually on a CWM Board is time-consuming and error-prone.
 
-The import feature on a CWM Board lets you bring that existing work in from a file. Now Assist scans the file, identifies the tasks, and proposes how each source column maps to a column on your Board. You review and adjust the mapping, preview the tasks before they are created, and confirm to complete the import.
-
-\[Omitted image "cwm-import-upload-file.png"\] Alt text: Upload file step with AI scanning the uploaded file
+The import feature on a CWM Board lets you bring that existing work in from a file. ServiceNow Otto scans the file, identifies the tasks, and proposes how each source column maps to a column on your Board. You review and adjust the mapping, preview the tasks before they are created, and confirm to complete the import.
 
 ## Key capabilities
 
 -   **AI-proposed column mapping**
 
-    Now Assist analyzes your file and proposes a target Board column for each source column based on the data it detects. Because the mapping is AI-generated, review each proposal and adjust as needed before proceeding to the preview.
+    ServiceNow Otto analyzes your file and proposes a target Board column for each source column based on the data it detects. Because the mapping is AI-generated, review each proposal and adjust as needed before proceeding to the preview.
 
 -   **Manual mapping adjustments**
 
@@ -39,7 +37,7 @@ The import feature on a CWM Board lets you bring that existing work in from a fi
 
 -   **Reset to AI mapping**
 
-    If you have adjusted mappings manually and need to start over, you can reset the entire mapping to the original Now Assist proposal.
+    If you have adjusted mappings manually and need to start over, you can reset the entire mapping to the original ServiceNow Otto proposal.
 
 -   **Preview before import**
 
@@ -79,7 +77,7 @@ The available target columns in the mapping step depend on the record type that 
 
 -   **Access requirements**
 
-    The **Import** button is visible only on Boards where Now Assist for CWM is active. You need the sn\_cwm\_ai.cwm\_ai\_user and lens\_user roles.
+    The **Import** button is visible only on Boards where ServiceNow Otto for CWM is active. You need the sn\_cwm\_ai.cwm\_ai\_user and lens\_user roles.
 
 -   **Single file per import**
 
@@ -91,7 +89,7 @@ The available target columns in the mapping step depend on the record type that 
 
 -   **Tabular data required**
 
-    The file must contain structured, tabular data with identifiable rows and columns. Files that contain only freeform or narrative text can't be processed, and the import fails if Now Assist can't detect any importable rows.
+    The file must contain structured, tabular data with identifiable rows and columns. Files that contain only freeform or narrative text can't be processed, and the import fails if ServiceNow Otto can't detect any importable rows.
 
 -   **Import can't be reversed**
 

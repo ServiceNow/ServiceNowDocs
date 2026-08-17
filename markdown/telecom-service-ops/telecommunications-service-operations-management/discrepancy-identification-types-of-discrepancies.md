@@ -1,6 +1,6 @@
 ---
 title: Discrepancy identification – types of discrepancies
-description: The Telecom Discrepancy Identification and Reconciliation capability identifies and classifies mismatches between the network state \(as discovered through TSOM Discovery or Service Graph Connectors\) and the inventory data stored in the CMDB or TNI.
+description: The Telecom Discrepancy Identification and Reconciliation capability identifies and classifies mismatches between the discovered network state and inventory data stored in the CMDB or TNI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Identify and reconcile discrepancies, Telecom Visibility, Explore, 
 
 # Discrepancy identification – types of discrepancies
 
-The Telecom Discrepancy Identification and Reconciliation capability identifies and classifies mismatches between the network state \(as discovered through TSOM Discovery or Service Graph Connectors\) and the inventory data stored in the CMDB or TNI.
+The Telecom Discrepancy Identification and Reconciliation capability identifies and classifies mismatches between the discovered network state and inventory data stored in the CMDB or TNI.
 
 Discrepancy identification is powered by the CMDB Compliance Certification Audit, which:
 
@@ -28,12 +28,12 @@ The audit process identifies discrepancies by comparing discovered network data 
 
 -   **Missing in network - entities existing in inventory but missing in network**
 
-    Definition: A CI is detected by Discovery but is either missing from the CMDB/TNI or incorrectly represented. For example, Discovery detects Card05 installed in Slot04, but the CMDB still lists Card04, or worse, shows both Card04 and Card05 in the same slot—violating cardinality or model constraints.
+    Definition: A CI exists in the CMDB/TNI inventory but is no longer detected on the network by Discovery. This indicates that the equipment has been removed, decommissioned, or is otherwise no longer present, but the inventory record remains.
 
     Impact:
 
-    -   A discrepancy task is generated to highlight the data conflict.
-    -   Optional remediation subflows may be triggered to reconcile the data by retiring outdated records or updating slot assignments.
+    -   A discrepancy task is generated to highlight the missing network entity.
+    -   Optional remediation subflows may be triggered to retire or update the inventory record.
 -   **Mismatched configuration items \(CIs\) - entities that exist in inventory and network but differ in attribute values and hierarchical relationships**
 
     Definition: The CI exists in both Discovery and CMDB/TNI, but discrepancies exist in relationships, hierarchy, or attribute values. The following are the sub types:
@@ -150,19 +150,16 @@ Equipment \(sn\_tsom\_core.audit. equipment\_tables\)
 
 -   **SD-WAN discrepancy types**
 
-    The SD-WAN audit detects the same categories of discrepancy as the telecom audit, applied to the SD-WAN CI classes listed above:
+    The SD-WAN audit detects the same categories of discrepancy as the telecom audit, applied to the SD-WAN CI classes listed above.
 
-    Missing reference: A required reference \(such as Company or Location\) is not populated on the CI. A follow-on task is created with the description identifying which reference is missing.
-
-    Incorrect relationships: A required relationship is missing or exceeds the allowed count. For example, a Site CI without a Group parent, or an Equipment CI with more than one Service parent. A follow-on task is created with the description identifying the relationship issue.
-
-    Missing in CMDB: A CI is discovered on the network but no corresponding record exists in the CMDB. The audit identifies the CI as new when its creation date matches its discovery date, and creates a single follow-on task at the equipment level. For details on this discrepancy type, see the section **Missing in CMDB** above.
-
+    -   **Missing reference:** A required reference \(such as Company or Location\) is not populated on the CI. A follow-on task is created with the description identifying which reference is missing.
+    -   **Incorrect relationships:** A required relationship is missing or exceeds the allowed count. For example, a Site CI without a Group parent, or an Equipment CI with more than one Service parent. A follow-on task is created with the description identifying the relationship issue.
+    -   **Missing in CMDB:** A CI is discovered on the network but no corresponding record exists in the CMDB. The audit identifies the CI as new when its creation date matches its discovery date, and creates a single follow-on task at the equipment level. For details on this discrepancy type, see the section **Missing in CMDB** above.
 
 **Related topics**  
 
 
-[Activate Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
+[Activate Telecom Discrepancy and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
 
 [Run Telecom Discrepancy audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
 

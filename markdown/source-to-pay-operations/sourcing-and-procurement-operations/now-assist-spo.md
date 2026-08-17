@@ -1,38 +1,38 @@
 ---
-title: Now Assist for Sourcing and Procurement Operations \(SPO\)
-description: Use the ServiceNow Now Assist for Sourcing and Procurement Operations \(SPO\) application to guide your requesters through a conversation-like experience for their procurement needs.
+title: ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
+description: ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) provides conversational AI assistance for procurement tasks. You can summarize records, draft emails, categorize purchases, analyze supplier messages, submit requests through conversation, and upload documents for processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 3
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Sourcing and Procurement Operations \(SPO\)
+# ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-Use the ServiceNow® Now Assist for Sourcing and Procurement Operations \(SPO\) application to guide your requesters through a conversation-like experience for their procurement needs.
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) provides conversational AI assistance for procurement tasks. You can summarize records, draft emails, categorize purchases, analyze supplier messages, submit requests through conversation, and upload documents for processing.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for SPO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for SPO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 </td></tr><tr><td>
 
-[Use Sourcing and Procurement Operations AI agent collection\[Omitted image "bus-explore.svg"\] Alt text:Use agentic workflows in Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+[Use Sourcing and Procurement Operations AI agent collection\[Omitted image "bus-explore.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 </td><td>
 

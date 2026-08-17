@@ -1,5 +1,5 @@
 ---
-title: Explore Now Assist in Contract Management
+title: Explore ServiceNow Otto for Contract Management Pro
 description: Use AI capabilities to identify non-standard and missing clauses in a contract and locate contract insights from contract metadata and documents using natural language. With metadata extraction, automatically extract metadata from signed contracts and add it to the contract repository. Use obligation extraction to capture obligations from signed contracts and create obligation records to track and fulfill compliance requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.html
@@ -9,22 +9,22 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-keywords: [Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro]
-breadcrumb: [Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro, ServiceNow Otto use cases, ServiceNow Otto for contract management pro]
+breadcrumb: [ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Explore Now Assist in Contract Management
+# Explore ServiceNow Otto for Contract Management Pro
 
 Use AI capabilities to identify non-standard and missing clauses in a contractand locate contract insights from contract metadata and documents using natural language. With metadata extraction, automatically extract metadata from signed contracts and add it to the contract repository. Use obligation extraction to capture obligations from signed contracts and create obligation records to track and fulfill compliance requirements.
 
-## Now Assist in Contract Management overview
+## ServiceNow Otto for Contract Management Pro overview
 
 The following AI capabilities are available to a contract fulfiller:
 
 -   Extract the metadata from a signed contract to review and add the information to the mapped fields in the contract repository.
 -   Analyze the contract documents for non-standard and missing clauses by using AI-generated suggestions to minimize deviations and reduce turnaround time.
 -   Automatically extract obligations from a signed contract and review those obligations in the contract playbook to create obligation records in a contract record.
--   Use conversational search to query the contract repository based on contract metadata and to perform semantic search in the signed contract documents from the Now Assist panel.
+-   Use conversational search to query the contract repository based on contract metadata and to perform semantic search in the signed contract documents from the ServiceNow Otto panel.
 
 ## Skills
 
@@ -32,13 +32,13 @@ The following AI capabilities are available to a contract fulfiller:
 
     Extracts metadata from a signed contract in contract repository record and displays the information on the Document Intelligence interface.
 
-    For more information on activating the skill, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on extracting the metadata from a contract, see [Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md).
+    For more information on activating the skill, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on extracting the metadata from a contract, see [Contract metadata extraction using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md).
 
 -   **Contract analysis**
 
     Reviews the contract document for non-standard and missing clauses.
 
-    For more information on activating the skill, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on contract analysis, see [Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
+    For more information on activating the skill, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on contract analysis, see [Contract analysis using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
 -   **Contract obligation extraction**
 
@@ -46,7 +46,7 @@ The following AI capabilities are available to a contract fulfiller:
 
     **Note:** Obligation extraction is available only with the manage contract repository agentic workflow.
 
-    For more information on activating the skill, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information on activating the skill, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 -   **Conversational contract search and insights**
 
@@ -62,12 +62,12 @@ The following AI capabilities are available to a contract fulfiller:
 
     -   No support for search within scanned PDF documents
     -   Search functionality is limited to contracts stored in internal storage only
-    For more information on activating the skill, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information on activating the skill, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-## Now Assist in Contract Management users
+## ServiceNow Otto for Contract Management Pro users
 
 <table id="table_ns3_1vj_qcc"><thead><tr><th>
 
@@ -83,7 +83,7 @@ Administrator\[sn\_cm\_gen\_ai.ai\_contract\_admin\]
 
 </td><td>
 
-Provides administrative access to Now Assist in Contract Management.Installs Now Assist in Contract Management plugin, and activates the required skills.
+Provides administrative access to ServiceNow Otto for Contract Management Pro.Installs ServiceNow Otto for Contract Management Pro plugin, and activates the required skills.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Configurator\[sn\_cm\_gen\_ai.ai\_contract\_config\]
 
 </td><td>
 
-Configures the use case mappings for the Now Assist in Contract Management application.
+Configures the use case mappings for the ServiceNow Otto for Contract Management Pro application.
 
 </td></tr><tr><td>
 
@@ -99,18 +99,18 @@ AI contract fulfiller\[sn\_cm\_gen\_ai.ai\_contract\_fulfiller\]
 
 </td><td>
 
-Uses the Now Assist in Contract Management capabilities to analyze the contract documents for deviations and to extract the metadata from signed contracts.Uses the manage contract repository agentic workflow to extract metadata and obligations automatically from signed contracts and review the extracted information in a contract playbook.
+Uses the ServiceNow Otto for Contract Management Pro capabilities to analyze the contract documents for deviations and to extract the metadata from signed contracts.Uses the manage contract repository agentic workflow to extract metadata and obligations automatically from signed contracts and review the extracted information in a contract playbook.
 
-Uses conversational search to query the contract repository based on contract metadata and to perform semantic search inside the signed contract documents from the Now Assist panel.
+Uses conversational search to query the contract repository based on contract metadata and to perform semantic search inside the signed contract documents from the ServiceNow Otto panel.
 
 </td></tr></tbody>
 </table>## Metadata extraction workflow
 
-The following workflow shows how different users work together to configure and extract the metadata from the contract by using the Now Assist in Contract Management application.
+The following workflow shows how different users work together to configure and extract the metadata from the contract by using the ServiceNow Otto for Contract Management Pro application.
 
-1.  The contract AI administrator installs the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
+1.  The contract AI administrator installs the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\).
 2.  The contract AI administrator assigns users to the roles of contract AI fulfiller and contract AI configurator.
-3.  The contract AI configurator configures and activates the contract metadata extraction skill in the Now Assist Admin console.
+3.  The contract AI configurator configures and activates the contract metadata extraction skill in the AI Admin Hub console.
 4.  In the system properties, the administrator specifies whether the metadata extraction should be automatically or manually initiated.
 5.  When a contract repository record is created with a signed contract, a contract manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role initiates the metadata extraction process.
 
@@ -126,19 +126,19 @@ The following workflow shows how different users work together to configure and 
 
 ## Contract analysis workflow
 
-The following sample end-to-end workflow shows how different users work together to configure and review the contract by using Now Assist in Contract Management.
+The following sample end-to-end workflow shows how different users work together to configure and review the contract by using ServiceNow Otto for Contract Management Pro.
 
-1.  The contract AI administrator installs the Now Assist in Contract Management.
+1.  The contract AI administrator installs the ServiceNow Otto for Contract Management Pro.
 2.  The contract AI administrator assigns users to the roles of contract AI fulfiller and contract AI configurator.
-3.  The contract AI configurator configures and activates the contract analysis skill in the Now Assist Admin console.
+3.  The contract AI configurator configures and activates the contract analysis skill in the AI Admin Hub console.
 4.  The contract AI configurator maps the question groups to the active clauses in the clause library, maps the questions to the expected responses, and then maps the use case to specific tables.
-5.  The contract AI fulfiller initiates the contract analysis by using Now Assist in Contract Management.
-6.  The Now Assist in Contract Management application analyzes the contract and identifies the non-standard and missing clauses.
+5.  The contract AI fulfiller initiates the contract analysis by using ServiceNow Otto for Contract Management Pro.
+6.  The ServiceNow Otto for Contract Management Pro application analyzes the contract and identifies the non-standard and missing clauses.
 7.  The contract AI fulfiller reviews the analysis and accepts or ignores the suggested clauses.
 8.  The contract AI fulfiller can also add the missing clauses from the clause library.
 9.  The contract AI fulfiller completes the review task.
 
-## Now Assist in Contract Management benefits
+## ServiceNow Otto for Contract Management Pro benefits
 
 |Benefit|Key feature|Role|
 |-------|-----------|----|
@@ -149,8 +149,8 @@ The following sample end-to-end workflow shows how different users work together
 
 ## What to explore next
 
-To learn more about configuring and using Now Assist in Contract Management, see the following topics:
+To learn more about configuring and using ServiceNow Otto for Contract Management Pro, see the following topics:
 
--   [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
--   [Using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
+-   [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+-   [Using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
 

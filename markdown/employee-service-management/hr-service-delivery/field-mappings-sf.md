@@ -29,7 +29,7 @@ The Trigger SAP SuccessFactors Integration Flow maps the entity profile fields f
 
 [Use transform maps]()
 
-[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
+[ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
 
 [Use HCM AI agents for HR Service Delivery Integration with SuccessFactors]()
 

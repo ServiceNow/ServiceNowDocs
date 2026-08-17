@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ema
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [email reply routing, closed interactions, email routing]
 breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---

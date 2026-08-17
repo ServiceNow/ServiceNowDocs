@@ -1,6 +1,6 @@
 ---
 title: Add fields to the semantic index for legal records
-description: Add the description, short description, and legal category field to the semantic index record to be indexed for a semantic search in the Now Assist for Legal Service Delivery \(LSD\) application. During AI Search, the legal records are retrieved based on the description, short description, and legal category fields that are added in the semantic index.
+description: Add the description, short description, and legal category field to the semantic index record to be indexed for a semantic search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. During AI Search, the legal records are retrieved based on the description, short description, and legal category fields that are added in the semantic index.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/add-field-legal-requests.html
 release: australia
@@ -9,13 +9,13 @@ classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, Configure AI Agents]
-breadcrumb: [Configure agentic workflow, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, Configure AI Agents]
+breadcrumb: [Configure agentic workflow, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add fields to the semantic index for legal records
 
-Add the description, short description, and legal category field to the semantic index record to be indexed for a semantic search in the Now Assist for Legal Service Delivery \(LSD\) application. During AI Search, the legal records are retrieved based on the description, short description, and legal category fields that are added in the semantic index.
+Add the description, short description, and legal category field to the semantic index record to be indexed for a semantic search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. During AI Search, the legal records are retrieved based on the description, short description, and legal category fields that are added in the semantic index.
 
 ## Before you begin
 

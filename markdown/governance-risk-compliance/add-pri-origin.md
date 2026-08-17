@@ -26,7 +26,7 @@ Consider the following example where the relationships are configured between ob
 
 \[Omitted image "csdm-objects-rel.png"\] Alt text: CSDM objects.
 
-If you have a business process BP1 as shown in the relationship diagram, it has service offering SO1 and business service BS1 as upstream relationships. With the enhanced functionality, adding BP1 as an operational vulnerability automatically includes SO1 and BS1 in the impacted areas, which are displayed in the Impacted Areas tab of the operational vulnerability record.
+If you have a business process BP1 as shown in the relationship diagram, it has service offering SO1 and business service BS1 as upstream relationships. With the enhanced functionality, adding BP1 as an operational vulnerability automatically includes SO1 and BS1 in the impacted areas. The impacted areas are displayed in the Impacted Areas tab of the operational vulnerability record.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ If you have a business process BP1 as shown in the relationship diagram, it has 
 
 4.  Update the source record in the **Source record** field in the Primary origin section of the **Details** tab and select **Save**.
 
-    If you add the source in the **Source** field and the source record in the **Source record** field in the Primary origin section of the **Details** tab, the system automatically edits the primary origin and displays it on the **Primary origin** tab. In the following example, the Source Table is Business Service, the Source is Business service, and the selected source record is BS1000.\[Omitted image "pri-origin-src-field.png"\] Alt text: Source field.
+    When you add the source and source record in the Primary origin section of the **Details** tab, the system automatically edits the primary origin. The primary origin displays on the **Primary origin** tab. In the following example, the Source Table is Business Service, the Source is Business service, and the selected source record is BS1000.\[Omitted image "pri-origin-src-field.png"\] Alt text: Source field.
 
     As shown in the example, the source record BS1000 is automatically updated as the primary origin on the **Primary origin** tab.\[Omitted image "pri-origin-updated.png"\] Alt text: Primary origin tab.
 
@@ -46,7 +46,7 @@ If you have a business process BP1 as shown in the relationship diagram, it has 
 
     \[Omitted image "pri-ori-imp-area.png"\] Alt text: Primary origin impacted area.
 
-    For example, you establish a relationship from a business service to a service offering, and from the service offering to a business process \(BS - SO - BP\), where SO is the downstream entity of BS and BP is the downstream entity of SO. In the **Primary origin** tab of the operational vulnerability, if you fetch the business process \(BP\), it automatically adds its upstream dependencies, as shown in the examples.
+    For example, you establish a relationship from a business service to a service offering, and from the service offering to a business process \(BS - SO - BP\). SO is the downstream entity of BS, and BP is the downstream entity of SO. In the **Primary origin** tab of the operational vulnerability, if you fetch the business process \(BP\), it automatically adds its upstream dependencies, as shown in the examples.
 
     \[Omitted image "pri-ori-up-dep-1.png"\] Alt text: Dependency.\[Omitted image "pri-ori-up-dep-2.png"\] Alt text: Upstream dependencies.
 
@@ -64,7 +64,9 @@ If you have a business process BP1 as shown in the relationship diagram, it has 
 
     \[Omitted image "op-vul-count-0.png"\] Alt text: Count 0.
 
-    For example, when the impacted areas in the operational vulnerability are updated, the operational vulnerability count on the overview page of SO1 is 0 before the scheduled job runs. After running the scheduled job, the operational vulnerability count on the overview page of SO1 is updated to 1. This ensures that the updated data is promptly reflected on the Operational Resilience dashboard.
+    For example, when impacted areas in the operational vulnerability are updated, the operational vulnerability count on the overview page of SO1 is 0 before the scheduled job runs. After the scheduled job runs, the count is updated to 1.
+
+    The updated data is promptly reflected on the Operational Resilience dashboard.
 
     \[Omitted image "op-vul-count-1.png"\] Alt text: Count 1.
 

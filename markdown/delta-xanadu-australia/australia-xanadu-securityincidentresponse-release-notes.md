@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-securityincidentresponse-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 23
+last_updated: "2026-08-17"
+reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
 
@@ -372,8 +372,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[CrowdStrike Next-Gen SIEM integration](https://www.servicenow.com/docs/access?context=crowdstrike-next-gen-integration-secops&family=australia&ft:locale=en-US)**
@@ -393,7 +393,7 @@ A new Profile Admin role \(sn\_si.ingestion\_profile\_admin\) provides access to
 
 -   **[Add unmatched affected user for security incidents](https://www.servicenow.com/docs/access?context=view-unmatched-affected-user-for-si&family=australia&ft:locale=en-US)**
 
-The new “Security Incident Unmatched Users” table captures unmatched affected user records for security incidents, enabling analysts to identify and address discrepancies when user records don't match existing system records.
+The new “Security Incident Unmatched Users” table captures unmatched affected user records for security incidents. This enables analysts to identify and address discrepancies when user records don't match existing system records.
 
 -   **[LLM-powered SIR integration builder](https://www.servicenow.com/docs/access?context=sir-integration-builder-now-assist&family=australia&ft:locale=en-US)**
 
@@ -441,6 +441,10 @@ Send emails without having to switch tabs by composing them directly from the Re
 -   **[Configure default view for contextual menu](https://www.servicenow.com/docs/access?context=configure-default-view-for-contextual-menu&family=australia&ft:locale=en-US)**
 
 Determine whether the contextual menu panel for a security incident is expanded or collapsed by default when a security analyst opens a security incident.
+
+-   **[Configure the preview modal for attachment upload](https://www.servicenow.com/docs/access?context=configure-attachment-upload-preview-modal&family=australia&ft:locale=en-US)**
+
+Configure whether the upload preview modal appears or not when security analysts attach files to a security incident record. Set the sn\_si\_aw.attachment.show\_preview\_modal system property to true to display the preview modal, or false \(default\) to upload files directly without displaying the modal.
 
 
 </td></tr></tbody>
@@ -702,6 +706,11 @@ You cannot modify the attachments of a security incident once the security incid
 Australia
 
 </td><td>
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+
+
 
 -   **[Assign groups in PIR user assignment rules](https://www.servicenow.com/docs/access?context=create-pir-assignment-rules&family=australia&ft:locale=en-US)**
 
@@ -1090,6 +1099,7 @@ Australia
 
 </td><td>
 
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Security Incident Response \(SIR\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Enable automated response actions by integrating CrowdStrike Next-Gen SIEM with the ServiceNow Security Incident Response platform to retrieve detections and convert them into security incidents.
 -   Fetch closed offenses from IBM QRadar into Security Incident Response.
 -   Rapidly build integrations for Security Incident Response using auto-code generation through the Now Assist LLM-powered integration builder.

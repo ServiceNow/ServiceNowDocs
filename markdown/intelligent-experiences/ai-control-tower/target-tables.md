@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Target tables for Azure and Copilot
@@ -26,7 +26,7 @@ Both Azure Foundry and Copilot data sources use the following main target tables
 ## Entity Tables
 
 -   sn\_ent\_ai\_tool- AI Tools
--   sn\_ent\_ai\_system\_subcomponent\_m2m- AI System Subcomponent many-to-many relationships
+-   sn\_ent\_ai\_system\_subcomponent\_m2m- AI System Subcomponent many-to-many relationships.
 
 ## Usage Table
 
@@ -36,6 +36,6 @@ sn\_ai\_disc\_ai\_usage- AI Usage/Execution data.
 
 -   Staging tables are import set tables where data is initially loaded from external sources.
 -   Target tables are the destination where transformed data is stored.
--   Data flows from Data Source → Staging Table → Transform Map → Target Table
+-   Data flows from Data Source → Staging Table → Transform Map → Target Table.
 -   For the tools attached to AI Agents which are discovered, the tool names are suffixed to ensure uniqueness. This is the format for tool name- tool-name:tenantid:resource-name:project-name.
 

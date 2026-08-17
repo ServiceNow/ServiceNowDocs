@@ -19,7 +19,7 @@ Integrate the ServiceNow instance and ServiceNow University by using the Oauth c
 ## Before you begin
 
 -   Have ITSM Enterprise license subscription.
--   Integrate Coaching with Learning with ServiceNow University. For more information, see .
+-   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 -   Role required: admin.
 
 ## Procedure

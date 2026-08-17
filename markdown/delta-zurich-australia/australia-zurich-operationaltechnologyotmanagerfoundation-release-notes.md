@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-operationaltechnologyotmanagerfoundation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,6 +67,11 @@ Zurich
 
 </td><td>
 
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **[Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=zurich&ft:locale=en-US)**
 
 Use the OT CMDB search function to find an OT configuration item \(CI\) and OT device information in an OT CMDB table.
@@ -102,6 +107,11 @@ Release notes
 Zurich
 
 </td><td>
+
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
 
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
@@ -341,7 +351,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
 
 -   Review changes to Now Assist usage measurement.
 
@@ -351,7 +365,7 @@ Zurich
 -   Find OT Configuration Management Database \(CMDB\) records more quickly by using the OT CMDB search function.
 -   Simplify the upload, validation, and import of your OT device data by using the Import OT device spreadsheet into OT CMDB agentic workflow.
 
- See [Now Assist for OTM](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=zurich&ft:locale=en-US) for more information.
+ See [OT Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

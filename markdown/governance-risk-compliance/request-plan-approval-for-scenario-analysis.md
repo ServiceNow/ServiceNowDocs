@@ -1,6 +1,6 @@
 ---
 title: Submit the scenario analysis and receive an approval
-description: Submit the scenario analysis for an approval in the Operational Resilience Workspace. The analysis approver for the scenario analysis reviews the details and subsequently approves it. Having an scenario analysis is the final step in the workflow.
+description: Submit the scenario analysis for an approval in the Operational Resilience Workspace. The analysis approver for the scenario analysis reviews the details and subsequently approves it. Having a scenario analysis is the final step in the workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/request-plan-approval-for-scenario-analysis.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis,
 
 # Submit the scenario analysis and receive an approval
 
-Submit the scenario analysis for an approval in the Operational Resilience Workspace. The analysis approver for the scenario analysis reviews the details and subsequently approves it. Having an scenario analysis is the final step in the workflow.
+Submit the scenario analysis for an approval in the Operational Resilience Workspace. The analysis approver for the scenario analysis reviews the details and subsequently approves it. Having a scenario analysis is the final step in the workflow.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_oper\_res.manager
 
     -   **Workspaces** &gt; **Operational Resilience Workspace** &gt; **All scenario analysis**
     -   **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Tasks** &gt; **Scenario analysis approvals**
-    If you navigate to the scenario analysis from the Tasks page, you can skip steps 2 and 3 and update the state of the scenario analysis as outlined in step 4.
+    If you navigate to the scenario analysis from the Tasks page, skip steps 2 and 3. Update the state of the scenario analysis as outlined in step 4.
 
 2.  Select **Request analysis approval**.
 

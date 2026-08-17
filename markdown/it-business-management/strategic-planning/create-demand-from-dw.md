@@ -8,8 +8,8 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+reading_time_minutes: 2
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create a demand
@@ -24,11 +24,13 @@ Role required: it\_demand\_manager, it\_demand\_user
 
 \[Omitted video\] Description: This video shows how to create a demand in the Strategic Planning Workspace.
 
+By default, a new demand opens in its **Details** page. If you want your demands to land on a different page on creation, the related system property can be modified. See [Configure the landing page for created demand records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configure-demand-record-landing-page-dw.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
 3.  Select **New**.
 
@@ -58,8 +60,8 @@ Category
 
 Category of the demand.The available values are:
 
--   Strategic: For demands for plans, such as projects or stories.
--   Operational: For demands for operational work, such as changes or defects.
+-   Strategic: For demands for plans, such as projects or stories. These demands go through strategic evaluation and prioritization regardless of scope, from large initiatives, such as a project or epic, to smaller, well-defined changes, such as a story.
+-   Operational: For demands for operational work, such as changes or defects. These demands address business-as-usual work that doesn't require strategic evaluation or prioritization.
 
 
 </td></tr><tr><td>
@@ -110,9 +112,9 @@ Description of the demand.
 </td></tr></tbody>
 </table>5.  Select **Create**.
 
-    The demand opens in the **Playbook** page.
+    The created demand opens in the **Details** page.
 
-    \[Omitted image "demand-playbook.png"\] Alt text: Demand opens in the Playbook page with the first stage and activity expanded.
+    \[Omitted image "demand-details-landing.png"\] Alt text: Demand opens in the Details page.
 
 
 ## What to do next

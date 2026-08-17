@@ -14,10 +14,10 @@ The ServiceNow® Configuration Management Database \(CMDB\) application stores d
 
 ## CMDB highlights for the Australia release
 
--   Use CMDB success advisor to achieve Data Foundations and Hardware Asset Management \(HAM\) target outcomes.
+-   Use CMDB success advisor to achieve Data Foundations, Hardware Asset Management \(HAM\), and Software Asset Management \(SAM\) target outcomes.
 -   Users with CMDB related roles can perform all CMDB functions as access to CMDB tables is no longer restricted to users with elevated privileges.
 -   Switch into using the Service Graph Workspace instead of CMDB Workspace. The Service Graph Workspace provides access to data such as company, location, user and CMDB. The new workspace is specifically organized to help CMDB administrators, data owners, and analysts work efficiently with the CMDB.
--   Simplify duplicate CI remediation by using the Now Assist for CMDB remediation option in the Duplicate CI Remediator, and using the automatically-filled remediation options.
+-   Simplify duplicate CI remediation by using the ServiceNow Otto for CMDB remediation option in the Duplicate CI Remediator, and using the automatically-filled remediation options.
 -   Use Dynamic Identification and Reconciliation Engine \(IRE\) that eliminates the need for manually-created identification rules and reduces incorrect detection of duplicate CIs in the CMDB.
 -   Protect sensitive information with domain separation that supports key CMDB tables such as the Key Value \[cmdb\_key\_value\] table.
 
@@ -35,7 +35,7 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
 -   **[CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-landing-page.md)**
 
-    Use CMDB success advisor to achieve Data Foundations and HAM target outcomes. The store app monitors and improves CMDB data quality through dedicated dashboards for principal CI classes and hardware assets, providing targeted recommendations and remediation actions to address data gaps. Access the dashboards directly from the Service Graph Workspace.
+    Use CMDB success advisor to achieve Data Foundations, HAM, and SAM target outcomes. The store app monitors and improves CMDB data quality through dedicated dashboards for principal CI classes, hardware assets, and software installs. Dashboards provide targeted recommendations and remediation actions to address data gaps and are accessible directly from the Service Graph Workspace.
 
 -   **[CMDB Workspace v8.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-workspace.md)**
 
@@ -48,11 +48,11 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     Use Dynamic IRE to accurately identify CIs across multiple data sources, and by so, minimize duplicate CIs. Dynamic IRE is applicable only to the Hardware \[cmdb\_ci\_hardware\] class and its descending class, using a dynamic identification process which eliminates the need to manually create and maintain identification rules.
 
--   **[Simplify resolving de-duplication tasks by using a Now Assist for CMDB skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/reconcile-dup-task.md)**
+-   **[Simplify resolving de-duplication tasks by using a ServiceNow Otto for CMDB skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/reconcile-dup-task.md)**
 
     Use the De-duplication task resolution assistant skill in the Duplicate CI Remediator to use preselected remediation options instead of manually making selections. An AI agent preselects the options to resolve the task, such as the choice of the main CI. Then, before initiating the remediation, you can review all suggested options with supported reasoning.
 
-    To use the De-duplication task resolution assistant skill, you must install the Now Assist for CMDB version v3.0.
+    To use the De-duplication task resolution assistant skill, you must install the ServiceNow Otto for CMDB version v3.0.
 
 -   **[Quick start tests for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/quick-start-tests-cmdb.md)**
 
@@ -67,8 +67,6 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
     -   CMDB tables that required the admin or itil\_admin roles are now also accessible to the sn\_cmdb\_admin user role.
     -   CMDB tables that required the itil role are now also accessible to the sn\_cmdb\_editor user role.
-    For more information, see the [CMDB Granular Role EPIC changes \[KB0561055\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0561055) article in the Now Support Knowledge Base.
-
 -   **[Automatically generate de-duplication tasks for lookup and related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/id-detect-dup-ci.md)**
 
     Configure IRE to automatically generate de-duplication tasks for specific lookup or related tables during the identification process. You can then process those de-duplication tasks to remediate any duplications.
@@ -138,9 +136,9 @@ The Australia release includes an installation of CMDB Workspace. However, you c
 
     Use CMDB success advisor to monitor and improve the quality of data in your CMDB through dedicated dashboards for principal class data quality and hardware asset management.
 
--   **[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-landing-cmdb.md)**
+-   **[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-landing-cmdb.md)**
 
-    Use ServiceNow® Now Assist for CMDB to improve the quality of CMDB data, get help as you search the CMDB, troubleshoot issues with Service Graph Connector import sets, remediate duplicate CIs, manually create CIs, and view the comprehensive summaries for CIs. For release notes, see [Now Assist for Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-cmdb-rn.md).
+    Use ServiceNow® ServiceNow Otto for CMDB to improve the quality of CMDB data, get help as you search the CMDB, troubleshoot issues with Service Graph Connector import sets, remediate duplicate CIs, manually create CIs, and view the comprehensive summaries for CIs. For release notes, see [ServiceNow Otto for Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-cmdb-rn.md).
 
 
 **Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)

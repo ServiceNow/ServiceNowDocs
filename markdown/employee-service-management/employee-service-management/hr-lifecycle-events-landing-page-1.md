@@ -16,23 +16,23 @@ The Lifecycle Events app helps to facilitate daily activities among various cros
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Define and document the lifecycle event process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/define-lifecycle-event-process.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Define and document the lifecycle event process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/define-lifecycle-event-process.md)
 
 </td><td>
 
-[Configure enterprise lifecycle events \[Omitted image "bus-application-development.svg"\] Alt text: Configure Enable the automation of onboarding and other employee lifecycle events that span across company departments.]()
+[Configure enterprise lifecycle events \[Omitted image "bus-application-development.svg"\] Alt text: Enable the automation of onboarding and other employee lifecycle events that span across company departments.]()
 
 </td><td>
 
-[Configure lifecycle events \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Enable and configure digital workflows to manage employee lifecycle events through a single service delivery platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
+[Configure lifecycle events \[Omitted image "bus-sdlc.svg"\] Alt text: Enable and configure digital workflows to manage employee lifecycle events through a single service delivery platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Build lifecycle events to automate fulfillment of HR cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Build lifecycle events to automate fulfillment of HR cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Analytics and Reporting Solutions Lifecycle Events dashboards provide visibility into lifecycle events.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LifecycleEventsDashboard.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Lifecycle Events dashboards provide visibility into lifecycle events.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LifecycleEventsDashboard.md)
 
 </td><td>
 

@@ -24,13 +24,13 @@ Role required: sn\_apw\_advanced.eap\_user
 
 \[Omitted video\] Description: Breakdown work into child work items.
 
-From the full details page of a work item, you can create all types of associated child work items. For example, based on the EAP configuration, the full details page of an Epic shows separate tabs for its child work items \(Capabilities, Features, or Stories\) and the full details page of a Capability shows separate tabs for Features and Stories.
+From the full details page of a work item, you can create all types of associated child work items. For example, based on the EAP configuration, the full details page of an Epic shows separate tabs for its child work items \(Capabilities, Features, or Stories\). Similarly, the full details page of a Capability shows separate tabs for Features and Stories.
 
 Use the **New** button in each of these related tabs to breakdown work from the parent work item record.
 
 **Note:** Views for all default EAP configurations include child item-specific related lists to enable work breakdown. For any new or custom configuration, work with your EAP admin to include these related lists in the EAP views for your configuration.
 
-This task provides guidance to create child items directly from the parent work item record page, taking the example of creating a Capability record as the child item for an Epic.
+This task provides guidance to create child items directly from the parent work item record page. For example, it explains how to create a Capability record as the child item for an Epic.
 
 ## Procedure
 
@@ -59,9 +59,9 @@ This task provides guidance to create child items directly from the parent work 
 
 ## What to do next
 
--   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
+-   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md).
 
-    This feature requires activating the Write planning item skill of Now Assist for SPM.
+    This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
 -   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 

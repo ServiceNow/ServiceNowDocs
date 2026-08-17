@@ -18,9 +18,9 @@ For the Business service to dependencies Main node configuration, the source is 
 
 ## Node relationship configurations
 
-You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag in the Business service to dependencies Main node configuration as shown in the example.
+You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag. The following example shows the Business service to dependencies Main node configuration.
 
 \[Omitted image "node-rel-config-bs-to-dep.png"\] Alt text: Business service to dependencies Main node configuration.
 
-TPRM integration: As shown in the node relationship configuration of the Business Service to Dependencies, if you have the TPRM application installed, you can establish relationships between a business service and a contract, and from a contract to a company or an engagement.
+TPRM integration: If you have the TPRM application installed, you can establish relationships between a business service and a contract. You can also establish relationships from a contract to a company or an engagement.
 

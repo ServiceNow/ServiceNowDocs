@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure Gen AI Virtual Agent for HRSD
@@ -42,7 +42,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 1.  Turn on the required Virtual Agent Skills: **Multi-Assist Multi-turn Catalog Ordering** and/or **Now-Assist Q&amp;A Genius Results**.
 
-2.  Set up Now Assist in Virtual Agent.
+2.  Set up ServiceNow Otto in Virtual Agent.
 
     For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
@@ -51,5 +51,5 @@ When the generative AI experience is configured for catalog item request submiss
     -   Configure the required conditions for the Virtual Agent Skills.
     -   HR Service Delivery Virtual Agent will be replaced with the Gen AI Virtual Agent.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

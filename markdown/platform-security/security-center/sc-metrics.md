@@ -39,7 +39,7 @@ Each category displays a dashboard similar to the security **My metrics dashboar
 \[Omitted image "sc-metrics-example.png"\] Alt text: Dashboard for the data classification category
 
 -   **[Customize the My security metrics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/customize-my-security-metrics-dashboard.md)**  
-Discover the flexibility of the My security metrics dashboard, which can be customized with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
+Customize the My security metrics dashboard with metrics from various sources like graphs and charts to suit your organization's specific requirements.
 -   **[Configure Security Metrics to send email when thresholds are triggered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/configure-security-metrics-to-send-emails-for-thresholds.md)**  
 Learn how to configure Security Metrics so that your instance generates an email notification when a threshold is triggered.
 -   **[All Security Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-security-metrics.md)**  

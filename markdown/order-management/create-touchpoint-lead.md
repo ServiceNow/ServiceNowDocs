@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [Manage touchpoints, Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Manage touchpoints, Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a touchpoint from a lead

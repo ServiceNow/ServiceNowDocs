@@ -33,3 +33,5 @@ Role required: admin
 
 OT Discovery Collector restarts in the Linux environment.
 
+**Parent Topic:**[Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-discovery-collector.md)
+

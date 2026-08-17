@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-predictiveaiforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
+last_updated: "2026-08-17"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,9 +107,21 @@ Australia
 
 </td><td>
 
+-   **[Recommended Actions - Support for the Now Assist Multi-Content Response \(MCR\) genius model](https://www.servicenow.com/docs/access?context=ra-configuring-ai-search&family=australia&ft:locale=en-US)**
+
+Recommended Actions now supports the Now Assist Multi-Content Response \(MCR\) genius model. When an author configures a recommendation backed by the MCR model, the agent sees a single MCR recommendation card in the Suggested Actions tab. The card appears in the Recommended Actions Contextual Side Panel in the agent workspace. The MCR recommendation card displays all its content blocks and citations grouped together under that one card.
+
+-   **[Real-time AI assistance for voice interactions using Live Agent Assist](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&family=australia&ft:locale=en-US)**
+
+Live Agent Assist brings real-time AI assistance to agents during live voice interactions in Agent Workspace. Select the **Get Recommendations** button in the Otto panel during a call. The AI agent determines the customer query from the live call transcript. It generates answers drawn from the customer context such as customer account, interaction history, and relevant knowledge articles. This capability reduces handling time and improves first-contact resolution.
+
+-   **[Add a playbook as an action type in Recommended Actions](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&family=australia&ft:locale=en-US)**
+
+As an admin, you can configure playbooks as an action type in Recommended Actions, and the Recommended Actions rule engine recommends the right playbook based on context. Playbooks surface inline as cards in the Recommended Actions panel in Agent Workspace and walk Agents through branching decision trees for support, sales, and troubleshooting scenarios. Embedded actions such as creating a task or triggering a workflow can be executed from within the playbook in the Recommended Actions panel in Agent Workspace.
+
 -   **[Now Assist for CSM Major Issue Management](https://www.servicenow.com/docs/access?context=configure-na-for-csm-major-issue-management&family=australia&ft:locale=en-US)**
 
-Use AI to proactively detect emerging issues from case patterns and automatically propose major cases when similar cases trend together. The system monitors recent cases for correlated patterns across the product model hierarchy, and when it identifies a developing issue that no existing major case covers, it proposes a case as a major case candidate for review. Major issue managers gain earlier visibility into developing case patterns and can escalate to major case status faster, reducing the time customers experience disruption.
+Use AI to proactively detect emerging issues from case patterns and automatically propose major cases when similar cases trend together. The system monitors recent cases for correlated patterns across the product model hierarchy. When it identifies a developing issue that no existing major case covers, it proposes a case as a major case candidate for review. Major issue managers gain earlier visibility into developing case patterns and can escalate to major case status faster, reducing the time customers experience disruption.
 
 -   **[Now Assist for CSM- Case insights section](https://www.servicenow.com/docs/access?context=now-assist-csm-summarize-case&family=australia&ft:locale=en-US)**
 
@@ -121,7 +133,7 @@ Reduce live agent dependency by enabling customers to check open case statuses a
 
 -   **[Customer sentiment analysis on email interaction page](https://www.servicenow.com/docs/access?context=analyze-sentiments-in-now-assist-for-csm&family=australia&ft:locale=en-US)**
 
-View automated sentiment scores and trends from conversation directly on the email interaction page in Now Assist for CSM, The system reads customer emails and gives a score to show how the customer is feeling, so agents and managers can quickly check the customer's mood without reading the whole conversation.
+View automated sentiment scores and trends from conversation directly on the email interaction page in ServiceNow Otto for CSM. The system reads customer emails and gives a score to show how the customer is feeling, so agents and managers can quickly check the customer's mood without reading the whole conversation.
 
 -   **[Now Assist for CSM Case Playbook for Complaints](https://www.servicenow.com/docs/access?context=accelerate-complaint-case-handling&family=australia&ft:locale=en-US)**
 
@@ -129,7 +141,7 @@ Replaced the Agent Assist tab in the side panel with a Recommended Actions tab.
 
 -   **[Configure extended tables](https://www.servicenow.com/docs/access?context=configure-extended-table-support-for-the-resolution-notes-skill&family=australia&ft:locale=en-US)**
 
-Automatically receive concise summaries of case resolutions in Now Assist for CSM, with the extended table, enabling customer agents to quickly understand resolution details and respond to customers.
+Automatically receive concise summaries of case resolutions in ServiceNow Otto for CSM, with the extended table, enabling customer agents to quickly understand resolution details and respond to customers.
 
 
 -   **[Now Assist for CSM- Quality assurance management skill](https://www.servicenow.com/docs/access?context=quality-assurance-management&family=australia&ft:locale=en-US)**
@@ -138,7 +150,7 @@ Automatically evaluate agent activity on closed cases using AI models that score
 
 -   **[Now Assist for CSM-Extended table support for email reply recommendation skill](https://www.servicenow.com/docs/access?context=configure-extended-table-support-for-the-email-reply-recommendation-skill&family=australia&ft:locale=en-US)**
 
-Automatically receive email reply recommendations on extended table record pages in Now Assist for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
+Automatically receive email reply recommendations on extended table record pages in ServiceNow Otto for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
 
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
@@ -147,8 +159,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Now Assist for CSM-AI workflow tab added in Core UI](https://www.servicenow.com/docs/access?context=ai-workflow-pattern-in-customer-service-management&family=australia&ft:locale=en-US)**
 
@@ -156,7 +168,7 @@ Availability of AI Workflow tab within case view of case table records and email
 
 -   **[Now Assist for CSM-Filter controls in Now Assist Guardian](https://www.servicenow.com/docs/access?context=now-assist-guardian-csm-filters&family=australia&ft:locale=en-US)**
 
-Availability of filter controls for CSM in the Now Assist Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
+Availability of filter controls for CSM in the AI Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
 
 
 -   **[Guided Decisions - UI Layout tab for the Guided Decision with inputs/outputs activity](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&family=australia&ft:locale=en-US)**
@@ -165,7 +177,7 @@ Configure the display of knowledge articles directly from the UI Layout tab by s
 
 -   **[Guided Decisions - Restart option for the Guided Decision with inputs and outputs activity](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&family=australia&ft:locale=en-US)**
 
-As an agent, you can restart a Guided Decision with inputs and outputs activity in a playbook by selecting the **Restart Activity** option when the activity is in a complete, skipped, or error state and the stage is still in progress.
+As an agent, you can restart a Guided Decision with inputs and outputs activity in a playbook by selecting the **Restart Activity** option. This option is available when the activity is in a complete, skipped, or error state and the stage is still in progress.
 
 -   **[Recommended Actions - Search query term available as an action input mapping value](https://www.servicenow.com/docs/access?context=ra-create-search-result-mapping-for-ai-search&family=australia&ft:locale=en-US)**
 
@@ -243,13 +255,31 @@ Australia
 
 </td><td>
 
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto® introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
+-   **[Automated quality assurance dashboard](https://www.servicenow.com/docs/access?context=quality-assurance-management&family=australia&ft:locale=en-US)**
+
+Enable admins to filter scoring parameters and sort agent and case lists. Admins can sort data, manage filters, and easily organize cases on the dashboard with the new sorting, visibility, and skill management capabilities.
+
+-   **[Activate Now Assist skills](https://www.servicenow.com/docs/access?context=activate-now-assist-for-customer-service-management-csm-skills_0&family=australia&ft:locale=en-US)**
+
+Enable admins to view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities.
+
+
 -   **[Knowledge generation](https://www.servicenow.com/docs/access?context=configure-knowledge-generation-in-now-assist_0&family=australia&ft:locale=en-US)**
 
-Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in Now Assist for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
+Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in ServiceNow Otto for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
 
 -   **[Sidebar summarization](https://www.servicenow.com/docs/access?context=configure-sidebar-summarization-in-now-assist&family=australia&ft:locale=en-US)**
 
-Enable customer agents to generate summaries built from the required case and task tables in Now Assist for CSM as default tables can now be pre-selected and locked.
+Enable customer agents to generate summaries built from the required case and task tables in ServiceNow Otto for CSM as default tables can now be pre-selected and locked.
 
 -   **[Provide Customer 360 insights agentic workflow](https://www.servicenow.com/docs/access?context=customer-service-management-ai-agent-collection-customer-360&family=australia&ft:locale=en-US)**
 
@@ -395,11 +425,11 @@ Australia
 
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=australia&ft:locale=en-US).
 
- Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+ Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
- Starting with Vancouver Patch 4, Now Assist for CSM is supported.
+ Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
 
- Starting with Zurich Patch 7, Customer Service Management AI agent collection is supported. Check your entitlements to determine whether you have access to the Now Assist for CSM
+ Starting with Zurich Patch 7, Customer Service Management AI agent collection is supported. Check your entitlements to determine whether you have access to the ServiceNow Otto for CSM
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -624,21 +654,26 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Customer Service Management \(CSM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Resolve cases faster with a new case insights section that consolidates key case details, customer history, sentiment scores, and special handling notes into a single view.
 -   Use AI to proactively detect emerging issues from case patterns and automatically propose major cases when similar cases trend together.
 -   View automated sentiment scores and trends from conversations directly on the email interaction page.
 -   Enable customers to make case updates through AI voice agent.
+-   Use Live Agent Assist for voice calls to generate recommendations during live voice calls.
 
  [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
 
 -   Automatically evaluate post-interaction customer conversations using AI models that score against a configurable quality rubric, eliminating manual effort.
--   Receive intelligent email reply recommendations on extended table record pages in Now Assist for CSM, helping agents respond faster with less manual effort.
+-   Receive intelligent email reply recommendations on extended table record pages in ServiceNow Otto for CSM, helping agents respond faster with less manual effort.
 
  [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
--   Availability of filter controls in Now Assist Guardian for Now Assist for CSM.
+-   Availability of filter controls in Now Assist Guardian for ServiceNow Otto for CSM.
 -   Availability of AI Workflow tab in Core UI.
 
  -   Use AI to populate interaction wrap-up codes and notes, saving agents time.

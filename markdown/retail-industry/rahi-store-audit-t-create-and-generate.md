@@ -1,86 +1,64 @@
 ---
-title: Create an audit plan and generate cases and tasks
-description: Use the Store audit playbook in CSM/FSM Workspace to author and publish an audit plan, then click Generate Cases/Tasks to create Store Audit Cases and Audit Tasks for all selected store locations.
+title: Create and publish an audit plan
+description: Use the Store audit playbook in CSM/FSM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-create-and-generate.html
 release: australia
 topic_type: task
-last_updated: "2026-06-30"
-reading_time_minutes: 3
-keywords: [create audit plan, generate cases, generate tasks, store audit playbook, plan author]
+last_updated: "2026-07-07"
+reading_time_minutes: 2
+keywords: [create audit plan, publish audit plan, store audit playbook, plan author]
 breadcrumb: [Manage Store Audit, Retail]
 ---
 
-# Create an audit plan and generate cases and tasks
+# Create and publish an audit plan
 
-Use the **Store audit** playbook in CSM/FSM Workspace to author and publish an audit plan, then click **Generate Cases/Tasks** to create Store Audit Cases and Audit Tasks for all selected store locations.
+Use the **Store audit** playbook in CSM/FSM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
 
 ## Before you begin
 
 -   Retail Organization records for all stores you want to audit exist on the instance.
--   The default Store Audit Plan Configuration and Template Item Configurations are present \(installed as out-of-the-box seed data\).
--   Role required: `sn_rtl_store_audit.plan_author` alongside `sn_rtl_store_audit.audit_manager` or `sn_rtl_store_audit.location_audit_manager`.
+-   Role required: `sn_rtl_store_audit.plan_author` assigned alongside `sn_rtl_store_audit.audit_manager` or `sn_rtl_store_audit.location_audit_manager`, and `sn_fsm_planned_wm.planned_work_admin`.
+
+**Note:** Use the `sn_fsm_planned_wm.planned_work_admin` role to avail the one-time and recurring schedule options.
 
 ## About this task
 
-Creating an audit plan and generating its cases and tasks is a two-phase process. In the first phase, the **Store audit** playbook guides you through configuring the full plan structure in a single session. In the second phase, you publish the plan and explicitly trigger record creation. This separation lets you review the plan before committing to case generation.
+The **Store audit** playbook guides you through configuring the full plan in a single session, ending with a Review activity where you publish.
 
 ## Procedure
 
-1.  Phase 1: Author the audit plan
-2.  Log in to CSM/FSM Workspace with your Plan Author credentials.
+1.  Log in to CSM/FSM Workspace with your Plan Author credentials.
 
-3.  In the Workspace, locate the Record Generator for Store Audit Plans and click **Create Audit Plan**.
+2.  In the application navigator, navigate to the **Store audit** menu and click **New**.
 
-    The system creates a new `sn_task_plan_template` record and launches the **Store audit** playbook automatically.
+3.  In the plan type picker that opens, select **Store audit** as the plan type.
 
-4.  In Activity 1 \(**Store case**\), configure the Store Audit Case template items, then click **Next**.
+    The system creates a new `sn_task_plan_template` record and the **Store audit** playbook launches automatically.
 
-    Each template item defines the structure for one store-level case.
+4.  In the **Store case** activity, configure the Store Audit Case template item, then click **Next**.
 
-5.  In Activity 2 \(**Audit task**\), configure the Audit Task template items for each Store Case using the Create Template Items subflow, then click **Next**.
+5.  In the **Audit task** activity, configure the Audit Task template item, then click **Next**.
 
-    Each task template item represents one Audit Task generated per Store Audit Case.
+6.  In the **Affected stores** activity, select the Retail Organizations where audit has to be done, then click **Next**.
 
-6.  In Activity 3 \(**Affected stores**\), select the Retail Organization locations to include in this audit plan, then click **Next**.
+7.  In the **Schedule options** activity, fill in the mandatory fields and set the generation as immediate, one-time, or recurring, then click **Next**.
 
-    You can select multiple Retail Organizations. Selections are saved to `sn_case_creation_service_org` and used during generation. This is the only place to associate stores with a plan—the Template Item form has no standalone store selector.
+8.  In the **Review** activity, confirm the plan summary, edit the details, if required and then click **Publish**.
 
-    The selected Retail Organizations are persisted and available for case generation.
-
-7.  In Activity 4 \(**Schedule options**\), set the audit start date, due date, and any other scheduling parameters, then click **Next**.
-
-8.  In Activity 5 \(**Review**\), confirm the plan summary—template items, affected stores, and schedule—then click **Publish**.
-
-    The plan state changes to Published. The **Generate Cases/Tasks** button becomes visible on the plan record.
-
-9.  Phase 2: Generate Store Audit Cases and Audit Tasks
-10. On the published plan record, verify the **Track plan** tab is empty, then click **Generate Cases/Tasks** in the action bar.
-
-    The button is visible only on Published plans and only to users with the `sn_rtl_store_audit.plan_author` role.
-
-    The system synchronously creates:
-
-    -   One Store Audit Case per selected Retail Organization, in state New.
-    -   One or more Audit Tasks per Store Audit Case, based on the Template Item Configurations.
-    -   One Work Order per Audit Task \(created by a before-insert Business Rule\).
-    Platform assignment rules route all generated cases and tasks to Auditors automatically.
-
-11. Click the **Track plan** tab to verify the generated Store Audit Cases.
-
-    The tab lists all generated Store Audit Cases with case number, created date, due date, and state.
+    For an immediate schedule, the Store Audit Cases and Audit Tasks are created automatically as part of publishing. For a one-time or recurring schedule, they are created later at the scheduled time.
 
 
 ## Result
 
-A published audit plan exists with Store Audit Cases and Audit Tasks created for all selected store locations. Cases are in state New and automatically routed to Auditors via assignment rules.
+A published audit plan exists. Click the **Track plan** tab on the plan record to see the generated Store Audit Cases once they exist.
+
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
 
 **Related topics**  
 
 
-[Audit plan and playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-plan-playbook.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Data model and case generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-generation-flow.md)
-
-[Override audit assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 

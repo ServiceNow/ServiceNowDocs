@@ -36,15 +36,15 @@ Role required: sn\_si.admin
 
     \[Omitted image "ms-configure-tile.png"\] Alt text: Configure Exchange Online link highlighted.
 
-<table id="choicetable_erq_lmy_c2b"><thead><tr><th align="left" id="d302074e137">
+<table id="choicetable_erq_lmy_c2b"><thead><tr><th align="left" id="d304151e137">
 
 Option
 
-</th><th align="left" id="d302074e140">
+</th><th align="left" id="d304151e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d302074e146">
+</th></tr></thead><tbody><tr><td id="d304151e146">
 
 **__Connection Settings tab__**
 
@@ -52,7 +52,7 @@ Description
 
  
 
-</td></tr><tr><td id="d302074e157">
+</td></tr><tr><td id="d304151e157">
 
 **Tenant**
 
@@ -60,7 +60,7 @@ Description
 
 The Microsoft Exchange Online tenant that you want to perform searches on. This text is the unique name that appears after @ for email addresses for your organization. For this example, `snowsecops.onmicrosoft.com` is the tenant \(domain\).
 
-</td></tr><tr><td id="d302074e172">
+</td></tr><tr><td id="d304151e172">
 
 **Certificate Thumbprint**
 
@@ -68,7 +68,7 @@ The Microsoft Exchange Online tenant that you want to perform searches on. This 
 
 A certificate thumbprint is a hash of a certificate, computed over all certificate data and its signature. Thumbprints are used as unique identifiers for certificates, in applications when making trust decisions, in configuration files, and displayed in interfaces.
 
-</td></tr><tr><td id="d302074e184">
+</td></tr><tr><td id="d304151e184">
 
 **OAuth Application ID**
 
@@ -76,7 +76,7 @@ A certificate thumbprint is a hash of a certificate, computed over all certifica
 
 The Application \(client\) ID that was generated for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-azure-account.md).
 
-</td></tr><tr><td id="d302074e213">
+</td></tr><tr><td id="d304151e213">
 
 **OAuth Client Secret**
 
@@ -84,7 +84,7 @@ The Application \(client\) ID that was generated for the account that you create
 
 Password \(client secret\) for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-azure-account.md).
 
-</td></tr><tr><td id="d302074e241">
+</td></tr><tr><td id="d304151e241">
 
 **__Additional Settings tab__**
 
@@ -92,7 +92,7 @@ Password \(client secret\) for the account that you created in the Microsoft Azu
 
  
 
-</td></tr><tr><td id="d302074e252">
+</td></tr><tr><td id="d304151e252">
 
 **Email Search Window \(days\)**
 
@@ -102,7 +102,7 @@ The email search history range in number of days. The integration searches for e
 
 Before executing the email search, there are no parameters that permit you to change this value for individual searches.
 
-</td></tr><tr><td id="d302074e269">
+</td></tr><tr><td id="d304151e269">
 
 **Maximum Search Duration**
 
@@ -110,7 +110,7 @@ Before executing the email search, there are no parameters that permit you to ch
 
 Use this option to set the search timeout threshold. If the timeout threshold is reached, the search ends and no results are displayed. You can specify a default value of 90 minutes and a maximum value of 240 minutes. By setting this threshold, you can avoid endless search loops that could cause performance issues on the Microsoft Exchange Online tenant and the ServiceNow instance.
 
-</td></tr><tr><td id="d302074e284">
+</td></tr><tr><td id="d304151e284">
 
 **Tagging**
 
@@ -124,7 +124,7 @@ Security tag. Default is selected.
 
  For more information, see [Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-edit-tags.md).
 
-</td></tr><tr><td id="d302074e319">
+</td></tr><tr><td id="d304151e319">
 
 **Recover Deleted Emails**
 
@@ -138,7 +138,7 @@ If you want users to recover the emails you delete, select this check box.
 
 If this check box is selected, depending on how the user's account is configured in Microsoft Exchange Online, the emails you delete using the workflow of this integration are placed in the Deleted Items folder in the mailbox of the user. If an account is configured so that the user can view the Deleted Items folder in their mailbox, the user can recover the emails you delete from their Microsoft Exchange Online account. For more information, see [Recover deleted items or email in Outlook Web App](https://support.office.com/en-us/article/recover-deleted-items-or-email-in-outlook-web-app-c3d8fc15-eeef-4f1c-81df-e27964b7edd4?ui=en-US&rs=en-US&ad=US).
 
-</td></tr><tr><td id="d302074e348">
+</td></tr><tr><td id="d304151e348">
 
 **Search Completion Notification**
 
@@ -146,7 +146,7 @@ If this check box is selected, depending on how the user's account is configured
 
 Select this option to enable notifications when the search is completed. If the **Enable** check box is selected, you’ll receive notifications if any matching emails are found. If the check box is cleared, search completion notifications aren’t sent.
 
-</td></tr><tr><td id="d302074e363">
+</td></tr><tr><td id="d304151e363">
 
 **Approvals**
 
@@ -162,7 +162,7 @@ Request approval to delete emails. Default is cleared.
 
  After a request is submitted to an approval group, only one approval is required from the group to complete the request. Any member of the approval group has approval authority. Having a group with more than one person with approval permission ensures that these requests are processed in a timely way.
 
-</td></tr><tr><td id="d302074e390">
+</td></tr><tr><td id="d304151e390">
 
 **Failure Notifications**
 
@@ -170,13 +170,17 @@ Request approval to delete emails. Default is cleared.
 
 Select the check box to enable failure notifications when the search or delete action fails due to invalid OAuth credentials. If Enabled, failure notifications are sent through email to each member of the failure notifications group when OAuth credentials are invalid. If the check box is cleared, no failure notifications are sent.
 
-</td></tr><tr><td id="d302074e402">
+</td></tr><tr><td id="d304151e402">
 
 **Email Result Threshold**
 
 </td><td>
 
-From version 10.3 or later, you can specify an email delete threshold for approvals. If the number of emails being deleted is greater than or equal to the value specified here, the Delete request must be approved before the Delete action is invoked. If the threshold value is set to 1, every Delete request must be approved.
+If the number of emails being deleted is greater than or equal to the value specified here, the Delete request must be approved before the Delete action is invoked.
+
+ If the threshold value is set to 1, every Delete request must be approved.
+
+ From version 10.3 or later, you can specify an email delete threshold for approvals.
 
 </td></tr></tbody>
 </table>5.  Choose one to continue.
@@ -184,7 +188,7 @@ From version 10.3 or later, you can specify an email delete threshold for approv
     |Option|Description|
     |------|-----------|
     |**Save**|Save your edits. This action doesn’t verify your connection.|
-    |**On the Connection Settings tab, select Validate.**|This action validates your Certificate authentication, your MID server connection, and OAuth credentials. If your credentials are valid, the **Validate** button and both indicators are green.|
+    |**On the Connection Settings tab, select Validate.**|This action validates your Certificate authentication and OAuth credentials. If your credentials are valid, the **Validate** button and both indicators are green.|
 
 
 If an error message is displayed, or one or more of the indicators to the right of the Validate button are red, verify that the user account credentials you entered are valid. Enter your credentials and select **Save** again.
@@ -205,7 +209,7 @@ Validate button is green and all the small colored indicators are green.
 
 </td><td>
 
-Indicates that the MID Server connection and the credentials are valid.
+Indicates that the credentials are valid.
 
 </td></tr><tr><td>
 
@@ -221,9 +225,8 @@ Validate button is light red and one or all of the small colored indicators are 
 
 </td><td>
 
--   Exchange Online certificate-based authentication or OAuth credentials button is red: Indicates that the Exchange Online certificate-based authentication or OAuth credentials are invalid.
--   Exchange Online certificate-based authentication and MID Server Ready buttons are red: Indicates that the MID Server isn’t reachable and therefore, Exchange Online certificate-based authentication through the MID Server has failed.
--   Exchange Online certificate-based authentication indicator is red but MID Server Ready button is green: Indicates that the MID Server is active and configured correctly, but the Exchange Online certificate-based authentication are incorrect.
+-   Exchange Online certificate-based authentication indicator is red: Indicates that the Exchange Online certificate-based authentication is invalid.
+-   OAuth credentials indicator is red: Indicates that the OAuth credentials are invalid.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)

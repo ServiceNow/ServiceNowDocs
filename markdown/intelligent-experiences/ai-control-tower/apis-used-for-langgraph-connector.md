@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # LangGraph APIs
@@ -40,7 +40,7 @@ https://api.smith.langchain.com /api/v1/workspaces/
 
 </td><td>
 
-Lists all workspaces at the given endpoint for the current API key or user
+Lists all workspaces at the given endpoint for the current API key or user.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ https://api.host.langchain.com/v2/deployments
 
 </td><td>
 
-Lists all agent deployments for a particular workspace
+Lists all agent deployments for a particular workspace.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ https://api.smith.langchain.com/api/v1/sessions
 
 </td><td>
 
-Lists all tracer sessions for a given workspace
+Lists all tracer sessions for a given workspace.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ https://api.smith.langchain.com /api/v1/runs/stats
 
 </td><td>
 
-Gets stats on a particular run, including LLM invocations
+Gets stats on a particular run, including LLM invocations.
 
 </td></tr></tbody>
 </table>This table lists all the LangGraph Agent Deployment APIs used by the connector. The “endpoint\_url” following will be specific to each deployment and will be discovered at runtime by the app.
@@ -103,7 +103,7 @@ Search Assistants
 
 </td><td>
 
-Lists all assistants in each deployment
+Lists all assistants in each deployment.
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Search Threads
 
 </td><td>
 
-Lists all threads for each deployment
+Lists all threads for each deployment.
 
 </td></tr></tbody>
 </table>

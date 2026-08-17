@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-06-02"
-reading_time_minutes: 7
+reading_time_minutes: 9
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -20,9 +20,13 @@ With the integration of Smart Assessment Engine \(SAE\), TPRM now supports both 
 
 The Smart Assessment Engine in Vendor Management Workspace enables you to create both internal and external questionnaires using configurable templates, logical grouping of questions, inline guidance, and automations.
 
+In the Vendor Management Workspace, you can view the templates available for TPRM. Confirm that the assessment template category is set to one of the supported TPRM template purposes. Also confirm that assessment targets are set to **Third party** and **Engagement**, along with any related components such as subsidiaries or engagement risk assessments that apply to your assessment. Only the assessment templates that are published are available for performing the assessments.
+
 For more information about the Smart Assessment Engine application, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
 
 **Note:** To use Smart Assessment Engine, you must enable the Smart Assessment Engine enabled \[sn\_vdr\_risk\_asmt.sae\_enabled\] property. After setting this property, you can't create new assessments and questionnaire templates using the Classic assessment engine.
+
+For the full list of prerequisites, including required scoped applications and template migration, see [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md) and [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md).
 
 ## Benefits of using the Smart Assessment Engine experience
 
@@ -78,6 +82,8 @@ SAE with TPRM has the following limitations.
 **Note:** For more information on migration results and migration limitations, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
 
 ## What to explore next
+
+To get started, the TPR admin configures the assessment questionnaire and the TPR manager configures the tier-based, provider-based, or event-driven management rules that determine when an assessment is sent to a third party or engagement. Based on the assessment results, appropriate risk mitigation measures are identified and implemented.
 
 To learn more about configuring and using SAE with Third-party Risk Management, see:
 

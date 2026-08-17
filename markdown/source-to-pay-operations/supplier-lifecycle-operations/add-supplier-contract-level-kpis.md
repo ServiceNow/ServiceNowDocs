@@ -1,6 +1,6 @@
 ---
 title: Create supplier-level KPIs from KPI management
-description: You can add supplier-level for a supplier from the KPI management tab of the supplier page. You can also define contract-level KPIs under their respective supplier-level KPIs.
+description: Add supplier-level and contract-level KPIs from KPI management tab to measure performance metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contract-level-kpis.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure Supplier Relationship and Performance Management, Configu
 
 # Create supplier-level KPIs from KPI management
 
-You can add supplier-level for a supplier from the **KPI management** tab of the supplier page. You can also define contract-level KPIs under their respective supplier-level KPIs.
+Add supplier-level and contract-level KPIs from **KPI management** tab to measure performance metrics.
 
 ## Before you begin
 

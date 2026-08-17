@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -45,7 +45,7 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
 3.  On the **Details** tab of the **Create New Impact analysis** form, fill in the required fields.
 
-    For more information on the fields, see [Create New Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
+    For more information on the fields, see [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
 
     The business impact analysis is created in the **Draft** state and it’s displayed in the List view. The state and details of the business impact analysis are displayed in these tabs:
 
@@ -56,7 +56,7 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     The **Finalized RTO** field is auto-calculated according to the values in the **Recovery time objective** and **Adjusted RTO** fields available on the same form.
 
-    If the BIAs already have the **Recovery time objective** field, the application uses that Recovery time objective value automatically for the finalized RTO. If the BIA has the **Adjusted RTO** field, the application uses that Adjusted RTO value automatically for the finalized RTO. For information on the field, see the field description in the [Create New Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
+    If the BIAs already have the **Recovery time objective** field, the application uses that Recovery time objective value automatically for the finalized RTO. If the BIA has the **Adjusted RTO** field, the application uses that Adjusted RTO value automatically for the finalized RTO. For information on the field, see the field description in the [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
 
     The example shows that the **Finalized RTO** field is empty because the application didn't run the fix script.
 
@@ -76,7 +76,7 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     The **Finalized RPO** field is auto-calculated according to the values in the **Recovery point objective** and **Adjusted RPO** fields available on the same form.
 
-    If the BIAs already have the **Recovery point objective** field, the application uses that Recovery point objective value automatically for the finalized RPO. If the BIA has the **Adjusted RPO** field, the application uses that Adjusted RTO value automatically for the finalized RPO. For information on the field, see the field description in the [Create New Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
+    If the BIAs already have the **Recovery point objective** field, the application uses that Recovery point objective value automatically for the finalized RPO. If the BIA has the **Adjusted RPO** field, the application uses that Adjusted RTO value automatically for the finalized RPO. For information on the field, see the field description in the [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
 
 7.  Add the RPO manually in the **Adjusted RPO** field as an optional step, add the reason for adjusted RPO, and save the changes.
 
@@ -94,17 +94,17 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     \[Omitted image "add-details-from-rel-bias.png"\] Alt text: Add details from related BIAs.
 
-    Consider a scenario where you’re conducting an importance assessment for a service. This assessment is carried out by the business service owner or the business process owners. It encompasses all the necessary dependencies that support their daily operations, including teams, applications, hardware resources, vendors, and locations, to verify that the process is effectively completed and delivered.
+    Consider a scenario where you’re conducting an importance assessment for a service. This assessment is carried out by the business service owner or the business process owners. It encompasses all the necessary dependencies that support their daily operations. It includes teams, applications, hardware resources, vendors, and locations, to verify that the process is effectively completed and delivered.
 
     Beginning with the Xanadu release, when conducting a dependency assessment, the dependencies are pulled in and the requirements are visible within the same record. For example, the business requirement for Business Application: Acrobat specifies that the downtime shouldn’t exceed 72 hours, which is the established recovery time objective \(RTO\) by the business.
 
     \[Omitted image "rrt-example.png"\] Alt text: RRT example.
 
-    However, the RTO committed by the IT team, as shown in the Related item RTO, is one month. Additionally, viewing details from the Related item Business Impact Analysis \(BIA\), Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier columns on the same screen enable the BIA owner to evaluate the data and determine the necessary recovery timeframe and data backup requirements.
+    However, the RTO committed by the IT team, as shown in the Related item RTO, is one month. The Related item columns \(BIA, RTO, RPO, Recovery Tier\) enable the BIA owner to evaluate data and determine necessary recovery timeframes and backup requirements.
 
-9.  Launch the impact analysis assessments as an owner of the assessment, select the card for Recovery time objective assessment, Recovery point objective assessment, or Dependency assessment, and respond to the questions.
+9.  Launch the impact analysis assessments, select a card \(RTO, RPO, or Dependency assessment\), and respond to the questions.
 
-    Previously, the **Assessments** tab in the BIA displayed a single assessment card and the **Open assessment** button. Beginning with the Yokohama release, the layout of the cards in the **Assessments** tab of the BIA has been updated to display multiple assessments and dependency assessments a two-column arrangement.
+    Previously, the **Assessments** tab in the BIA displayed a single assessment card and the **Open assessment** button. The layout of the cards in the **Assessments** tab of the BIA has been updated to display multiple assessments and dependency assessments in a two-column arrangement.
 
     \[Omitted image "asmt-tab-bia.png"\] Alt text: Assessments tab.\[Omitted image "asmt-rpo-page.png"\] Alt text: Assessment.
 
@@ -140,7 +140,7 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     \[Omitted image "acrobat-example.png"\] Alt text: Acrobat example.\[Omitted image "acrobat-bia-added.png"\] Alt text: BIA for Acrobat.
 
-    When "Acrobat" is added, the Related item finalized RTO and Related item finalized RPO values associated with the "Acrobat" BIA are populated in the Dependency assessment of the "Application downtime assessment for Acrobat" BIA record.
+    When "Acrobat" is added, the Related item finalized RTO and Related item finalized RPO values associated with the "Acrobat" BIA are populated in the Dependency assessment.
 
     \[Omitted image "rel-item-fin-rto-output.png"\] Alt text: Related item finalized RTO output.
 
@@ -188,8 +188,8 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 20. To save the BIA record, select **Save**.
 
 
--   **[Create New Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md)**  
-Use the Create New Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
+-   **[Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md)**  
+Use the Create Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
 
 **Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Create a ServiceNow Quote Experience integration
-description: Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in ServiceNow CPQ.
+description: Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 4
-breadcrumb: [Integrations, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrations, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a ServiceNow Quote Experience integration
 
-Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in ServiceNow CPQ.
+Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in CPQ.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Integrations define how ServiceNow Quote Experience exchanges data with external systems. Each integration specifies the HTTP operation, which lines to include, how to authenticate via a connection, and how to map external data to ServiceNow CPQ fields using a transformation template. Integrations are assigned to stages and events to trigger them during the quote lifecycle.
+Integrations define how ServiceNow Quote Experience exchanges data with external systems. Each integration specifies the HTTP operation, which lines to include, how to authenticate via a connection, and how to map external data to CPQ fields using a transformation template. Integrations are assigned to stages and events to trigger them during the quote lifecycle.
 
 ## Procedure
 
@@ -69,11 +69,11 @@ Integrations define how ServiceNow Quote Experience exchanges data with external
     Connections are created in the Utilities area. If the required connection does not appear, create it first. For more information, see [Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-a-connection.md).
 
 12. Define the transformation template
-13. In the **Transformation Template** area, enter the JSON that maps external data to ServiceNow CPQ fields, or maps ServiceNow CPQ data to external system fields.
+13. In the **Transformation Template** area, enter the JSON that maps external data to CPQ fields, or maps CPQ data to external system fields.
 
-    The template uses JSON with Mustache \(handlebar\) syntax to extract values from the external response. Each object in the `fields` array contains a `variableName` \(the ServiceNow CPQ field that receives the data\) and a `value` \(the expression that identifies the external field to extract from\). Use `{{#each records}}` and `{{/each}}` to iterate over records in the query response.
+    The template uses JSON with Mustache \(handlebar\) syntax to extract values from the external response. Each object in the `fields` array contains a `variableName` \(the CPQ field that receives the data\) and a `value` \(the expression that identifies the external field to extract from\). Use `{{#each records}}` and `{{/each}}` to iterate over records in the query response.
 
-    The following example maps three Salesforce fields to ServiceNow CPQ transaction fields.
+    The following example maps three Salesforce fields to CPQ transaction fields.
 
     ```
     {
@@ -94,7 +94,7 @@ Integrations define how ServiceNow Quote Experience exchanges data with external
     }
     ```
 
-    In this example, each `variableName` is a ServiceNow CPQ field that receives the extracted value. The `{{#each records}}` / `{{/each}}` block iterates over each record in the query response and extracts the named Salesforce field.
+    In this example, each `variableName` is a CPQ field that receives the extracted value. The `{{#each records}}` / `{{/each}}` block iterates over each record in the query response and extracts the named Salesforce field.
 
 14. To verify the transformation template before saving, paste a sample query response into the **Sample Return Data** area, then select **Run Transformation** below the Transformation Template area.
 
@@ -112,5 +112,5 @@ Integrations define how ServiceNow Quote Experience exchanges data with external
 Assign the integration to an event or a stage to trigger it during the quote lifecycle.
 
 -   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md).
--   To assign to a stage, see .
+-   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md).
 

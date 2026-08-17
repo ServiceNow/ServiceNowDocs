@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -18,10 +18,10 @@ Each connector type enforces minimum and maximum values for the granularity and 
 
 |Connector|API / metric type|Field|Constraint|
 |---------|-----------------|-----|----------|
-|Meraki|All metrics|Granularity|Must be a valid value supported by the Meraki API|
+|Meraki|All metrics|Granularity|Granularity must be a positive multiple of 60 seconds and must divide evenly into the metrics collection schedule.|
 |Uplink loss and latency|Granularity|Maximum 5 minutes|
-|Device performance \(CPU usage\)|Metrics collection schedule|Minimum 30 minutes|
-|Fortinet|Interface logs|Metrics collection schedule|Maximum 10 minutes|
+|Device performance|Metrics collection schedule|30 minutes \(1800 seconds\) is the default collection window. If a lower value is set, an error is shown and the value is reset to the default of 1800 seconds.|
+|Fortinet|Interface logs|Metrics collection schedule|10 minutes \(600 seconds\) is the default collection window. If a higher value is set, an error is shown and the value is reset to the default of 600 seconds.|
 
 ## Field descriptions
 

@@ -44,7 +44,7 @@ For more information, see [Workflow Data Fabric Home roles](https://raw.githubus
     |Name|App ID|
     |----|------|
     |WDF Unified Hub|sn\_wdf\_unified\_hub|
-    |Now Assist for Workflow Data Fabric \(WDF\)|sn\_nowassist\_wdf|
+    |ServiceNow Otto for Workflow Data Fabric \(WDF\)|sn\_nowassist\_wdf|
 
     A list of the versions available to you is displayed.
 

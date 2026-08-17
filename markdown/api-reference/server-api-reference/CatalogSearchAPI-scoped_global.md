@@ -1,6 +1,6 @@
 ---
 title: CatalogSearchAPI - Scoped, Global
-description: CatalogSearchAPI is a script include used to fetch product catalog data from all application scopes.Creates an instance of the CatalogSearchAPI class.Searches the product catalog and returns matching catalog items with optional pricing information. Supports searching across multiple catalog types.
+description: CatalogSearchAPI is a script include used to search and retrieve product catalog data from all application scopes.Creates an instance of the CatalogSearchAPI class.Searches the product catalog and returns matching catalog items with optional pricing information. Supports searching across multiple catalog types.Retrieves the product catalog-category hierarchy filtered by eligibility rules. Resolves the input header context request object \(currency, pricelist, address, etc.\), applies eligibility encoded queries to filter out ineligible catalogs/categories to construct the tree.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CatalogSearchAPI-scoped\_global.html
 release: australia
@@ -8,21 +8,21 @@ product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-06-29"
-reading_time_minutes: 10
+reading_time_minutes: 15
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
 # CatalogSearchAPI- Scoped, Global
 
-CatalogSearchAPI is a script include used to fetch product catalog data from all application scopes.
+CatalogSearchAPI is a script include used to search and retrieve product catalog data from all application scopes.
 
 The CatalogSearchAPI API is available by default with the Product Catalog Management application and is offered as the script include sn\_prd\_pm.CatalogSearchAPI under the namespace sn\_prd\_pm. No special roles are required to access this API.
 
-Find the REST version of this API at [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-search-api.md).
+The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-search-api.md) REST API wraps this CatalogSearchAPI JavaScript API.
 
 **Note:** There are distinct differences between this API and [CatalogSearch - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CatalogSearchScoped.md) though they're almost identically named. CatalogSearch API is a native ServiceNow platform API documented in the public API reference under `com.glideapp.servicecatalog.CatalogSearch`. It provides basic catalog item search functionality available in scoped scripts via the standard platform.
 
-This API, CatalogSearchAPI \(sn\_prd\_pm.CatalogSearchAPI\), is the script include wrapper API specific to the Product Catalog Management application. It extends beyond the native API to support product offerings and service specifications, with richer filtering, account-based pricing and eligibility via `headerContext`, and AI Search integration.
+This API, CatalogSearchAPI \(sn\_prd\_pm.CatalogSearchAPI\), is the script include wrapper API specific to the Product Catalog Management application. Use this API to query product offerings, service specifications, and catalog-category hierarchies, with support for account-specific pricing, eligibility, and localization through a `headerContext` object.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
@@ -437,7 +437,7 @@ Field to sort results by. Accepted values are dependent on the value of **catalo
     -   `display_name`
     -   `name`
     -   `score`
-    -   `specificaton_code`
+    -   `specification_code`
 
 Data type: String
 
@@ -774,8 +774,8 @@ List of all eligible catalog objects when no default catalog is configured and "
 "selectedCatalogHierarchy": [
   {
    "id": "String",
-   "label": String",
-   "children": [] 
+   "label": "String",
+   "children": [Array] 
   }
 ]
 ```
@@ -812,7 +812,7 @@ Child category nodes. Dependent on the value set for **selectedCategory** in the
  "label": "String",
  "children": [
   {
-   "id": "String"
+   "id": "String",
    "label": "String",
    "children": [Array]
   }
@@ -1086,7 +1086,7 @@ Output:
       "description": {
         "value": "Managed VPN Service",
         "displayValue": "Managed VPN Service"
-      },
+      },sort
       "offerType": {
         "value": "config",
         "displayValue": "config"
@@ -1094,6 +1094,553 @@ Output:
     }
   ],
   "count": 2
+}
+```
+
+## CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)
+
+Retrieves the product catalog-category hierarchy filtered by eligibility rules. Resolves the input header context request object \(currency, pricelist, address, etc.\), applies eligibility encoded queries to filter out ineligible catalogs/categories to construct the tree.
+
+<table id="table_p3q_sc3_zjc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+headerContext
+
+</td><td>
+
+Object
+
+</td><td>
+
+Context object that controls the eligibility used to resolve the catalog-category hierarchy. When omitted, the API derives context from the account if one is provided.```
+"headerContext": {
+    "account": "String",
+    "billing_city": "String",
+    "billing_country": "String",
+    "billing_location": "String",
+    "billing_state": "String",
+    "billing_street": "String",
+    "billing_zip": "String",
+    "currency": "String",
+    "pricelist": "String",
+    "sales_agreement": "String",
+    "shipping_city": "String",
+    "shipping_country": "String",
+    "shipping_location": "String",
+    "shipping_state": "String",
+    "shipping_street": "String",
+    "shipping_zip": "String",
+    "transaction_date": "String"
+  }
+```
+
+</td></tr><tr><td>
+
+headerContext.account
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Sys\_id of the account to use for context resolution. When provided and other context fields are omitted, pricing and eligibility are resolved from the account.Table: Accounts \[customer\_account\]
+
+</td></tr><tr><td>
+
+headerContext.billing\_city
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. City for the billing address.
+
+</td></tr><tr><td>
+
+headerContext.billing\_country
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Country for the billing address.
+
+</td></tr><tr><td>
+
+headerContext.billing\_location
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Sys\_id of the billing location record.Table: Location \[location\]
+
+</td></tr><tr><td>
+
+headerContext.billing\_state
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. State or province code of the billing address.
+
+</td></tr><tr><td>
+
+headerContext.billing\_street
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Street address for billing.
+
+</td></tr><tr><td>
+
+headerContext.billing\_zip
+
+</td><td>
+
+String
+
+</td><td>
+
+Postal code for the billing address.Example: 75254-7536
+
+</td></tr><tr><td>
+
+headerContext.currency
+
+</td><td>
+
+String
+
+</td><td>
+
+Currency code to use for pricing.Example: USD
+
+Default: Derived from account if not supplied. If account not provided, resolves to system currency.
+
+</td></tr><tr><td>
+
+headerContext.pricelist
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Sys\_id of the price list.Default: Derived from account if not supplied.
+
+Table: Pricing List \[sn\_csm\_pricing\_price\_list\]
+
+</td></tr><tr><td>
+
+headerContext.sales\_agreement
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Sys\_id of the sales agreement to apply.Table: Sales Agreement \[sn\_sales\_agmt\_core\_sales\_agreement\]
+
+</td></tr><tr><td>
+
+headerContext.shipping\_city
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. City for the shipping address.
+
+</td></tr><tr><td>
+
+headerContext.shipping\_country
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Country for the shipping address.Example: USA
+
+</td></tr><tr><td>
+
+headerContext.shipping\_location
+
+</td><td>
+
+String
+
+</td><td>
+
+Sys\_id of the shipping location record.Table: Location \[location\]
+
+</td></tr><tr><td>
+
+headerContext.shipping\_state
+
+</td><td>
+
+String
+
+</td><td>
+
+State or province for the shipping address. Example: TX
+
+</td></tr><tr><td>
+
+headerContext.shipping\_street
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Street address for shipping.
+
+</td></tr><tr><td>
+
+headerContext.shipping\_zip
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Postal code for the shipping address.Example: 75254-7536
+
+</td></tr><tr><td>
+
+headerContext.transaction\_date
+
+</td><td>
+
+String
+
+</td><td>
+
+Date and time of the transaction.Format: yyyy-MM-dd HH:mm:ss
+
+Example: 2026-03-30 20:20:08
+
+</td></tr></tbody>
+</table><table id="table_q3q_sc3_zjc" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+defaultCatalog
+
+</td><td>
+
+Primary catalog configured as the default for the current context, containing its full category hierarchy tree. Only present when a published catalog with `is_default=true` exists and has eligible categories beyond "Show all". Data type: Object
+
+```
+{
+  "id": "String",
+  "label": "String",
+  "categories": [Array]
+}
+```
+
+</td></tr><tr><td>
+
+defaultCatalog.id
+
+</td><td>
+
+Sys\_id of the default product offering catalog record.Table: Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+defaultCatalog.label
+
+</td><td>
+
+Display name of the default catalog. Data type: String
+
+</td></tr><tr><td>
+
+defaultCatalog.categories
+
+</td><td>
+
+Top-level categories within the default catalog, each containing a recursive children tree of subcategories. Always includes a synthetic "Show all" entry as the first element. Data type: Array of Objects
+
+```
+{
+  "id": "String",
+  "label": "String",
+  "categories": [Array]
+}
+```
+
+</td></tr><tr><td>
+
+catalogList
+
+</td><td>
+
+Array of all other eligible published product offering catalogs \(excluding the default\), each with its own category hierarchy tree. Present even when empty.Data type: Array of Objects
+
+```
+{
+  "id": "String",
+  "label": "String",
+  "categories": [Array]
+}
+```
+
+</td></tr><tr><td>
+
+catalogList.id
+
+</td><td>
+
+Sys\_id of the product offering catalog record.Table: Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+catalogList.label
+
+</td><td>
+
+Display name of the catalog. Data type: String
+
+</td></tr><tr><td>
+
+catalogList.categories
+
+</td><td>
+
+Array of top-level categories within the catalog, each containing a recursive children tree of subcategories. Always includes a synthetic "Show all" entry as the first element. Catalogs that would contain only "Show all" \(no eligible categories\) are removed entirely from the response.Data type: Array of Objects
+
+```
+{
+  "id": "String",
+  "label": "String",
+  "categories": [Array]
+}
+```
+
+</td></tr><tr><td>
+
+categories.id
+
+</td><td>
+
+Sys\_id of the category record, or the literal string "showAll" for the default catch-all entry.Table: Product Category \[sn\_prd\_pm\_product\_category\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+categories.label
+
+</td><td>
+
+Localized display name of the category \(translated via gs.getMessage for "Show all", via getDisplayValue\('name'\) for real categories\).Data type: String
+
+</td></tr><tr><td>
+
+categories.children
+
+</td><td>
+
+Child category objects following the same structure recursively \(id, label, children\). Empty array \[\] when the category is a leaf node. Empty object \{\} for the "Show all" entry.Data type: Array of Objects
+
+```
+{
+  "id": "String",
+  "label": "String",
+  "categories": [Array]
+}
+```
+
+</td></tr></tbody>
+</table>The following example retrieve complete product catalog-category hierarchy.
+
+```
+var res = new sn_prd_pm.CatalogSearchAPI().getEligibleCatalogCategoryHierarchy();  
+
+gs.info(JSON.stringify(res)); 
+```
+
+Output:
+
+```
+{
+  "defaultCatalog": {
+    "id": "eaf0159fd0a63110f8770dbf976be178",
+    "label": "Solana US Catalog",
+    "categories": [
+      {
+        "id": "showAll",
+        "label": "Show all",
+        "children": {}
+      },
+      {
+        "id": "eaf0159fd0a63110f8770dbf976be18a",
+        "label": "Connected Car",
+        "children": []
+      },
+      {
+        "id": "7e6d2c02742e4a10f877468e695efae1",
+        "label": "Connectivity Services",
+        "children": []
+      }
+    ]
+  },
+  "catalogList": [
+    {
+      "id": "caecc5fd4f12e110c5ff2624b2ce0b0e",
+      "label": "Business Ethernet Plan",
+      "categories": [
+        {
+          "id": "showAll",
+          "label": "Show all",
+          "children": {}
+        },
+        {
+          "id": "9fe305a143b631105029d1529ab8f27b",
+          "label": "Business Ethernet Plan_all_offers",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "c835d8792b11525047f3f3e30391bf31",
+      "label": "Food and Beverage Processing",
+      "categories": [
+        {
+          "id": "showAll",
+          "label": "Show all",
+          "children": {}
+        },
+        {
+          "id": "1c7950f12b51525047f3f3e30391bfac",
+          "label": "Beverage Processing",
+          "children": [
+            {
+              "id": "5c8814712b51525047f3f3e30391bf3f",
+              "label": "Boiling Water Treatment",
+              "children": []
+            },
+            {
+              "id": "2da810b12b51525047f3f3e30391bf48",
+              "label": "Cooling Water Treatment",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1ca954f12b51525047f3f3e30391bfee",
+          "label": "Food Processing",
+          "children": [
+            {
+              "id": "60c95cb12b51525047f3f3e30391bf94",
+              "label": "Automation Data & Digital",
+              "children": [
+                {
+                  "id": "c4ae46362b519e5021e4f1e04391bf3a",
+                  "label": "Asset Performance Management",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Response with eligibility filtering applied
+
+Eligibility rules can restrict which catalogs and categories are returned based on the resolved context \(e.g., account, currency, pricelist, address, or any combination configured in the eligibility rule matrix\). When a catalog/category is deemed ineligible, it is removed entirely from the response - it does not appear in defaultCatalog or catalogList.
+
+In this example, eligibility rules configured on the instance exclude "Solana US Catalog" for the given context. As a result, the next eligible catalog marked as default - "Configurable Products" - is promoted to defaultCatalog.
+
+```
+var req = {
+  "headerContext": {  
+    "account": "86837a386f0331003b3c498f5d3ee4ca"  
+  }  
+};  
+
+var res = new sn_prd_pm.CatalogSearchAPI().getEligibleCatalogCategoryHierarchy(req);  
+gs.info(JSON.stringify(res));
+```
+
+Output:
+
+```
+{
+  "defaultCatalog": {
+    "id": "b3082af8ff30bad005aafffffffffff9",
+    "label": "Configurable Products",
+    "categories": [
+      {
+        "id": "showAll",
+        "label": "Show all",
+        "children": {}
+      },
+      {
+        "id": "7f082af8ff30bad005aafffffffffff9",
+        "label": "Configurable Products",
+        "children": []
+      }
+    ]
+  },
+  "catalogList": [
+    {
+      "id": "caecc5fd4f12e110c5ff2624b2ce0b0e",
+      "label": "Business Ethernet Plan",
+      "categories": []
+    }
+  ]
 }
 ```
 

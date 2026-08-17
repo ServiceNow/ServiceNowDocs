@@ -24,11 +24,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
 
-    For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
 
-3.  Access the **Now Assist Skills** tab of the Now Assist Admin console.
+3.  Access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 4.  Navigate to **Employee** &gt; **CM Pro**.
 

@@ -1,6 +1,6 @@
 ---
 title: Planning dependency update configuration form
-description: Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences and schedule an auto-update of the related assets in the plans.
+description: Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can then schedule an auto-update of the related assets in the plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/pla-dep-update-confi-form.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Set up Planning dependency update configuration, Configuring planni
 
 # Planning dependency update configuration form
 
-Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences and schedule an auto-update of the related assets in the plans.
+Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can then schedule an auto-update of the related assets in the plans.
 
 ## Planning dependency update configuration record form
 

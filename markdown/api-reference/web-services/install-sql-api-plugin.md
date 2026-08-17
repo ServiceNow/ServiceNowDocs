@@ -30,7 +30,7 @@ Install the SQL API plugin to enable the ODBC and JDBC drivers to connect to you
 
 1.  Navigate to **All** &gt; **Application Manager**.
 
-2.  Search for `SQL API` and select the **SQL API** tile.
+2.  Search for SQL API and select the SQL API tile.
 
 3.  Select **Install**.
 

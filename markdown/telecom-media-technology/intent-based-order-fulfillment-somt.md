@@ -15,9 +15,9 @@ breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunicati
 
 Sales CRM for Telecommunications supports intent-based order fulfillment, translating non-catalog configuration inputs into order tasks without requiring explicit catalog entries for every product variant.
 
-Sales CRM for Telecommunications extends catalog-driven order fulfillment with intent-based orchestration. Rather than requiring a catalog entry for every product variant, the platform translates configuration inputs — including non-catalog items — into structured order tasks using spec relationships, decomposition rules, and attribute mapping.
+Sales CRM for Telecommunications extends catalog-driven order fulfillment with intent-based orchestration. Rather than requiring a catalog entry for every product variant, the platform translates configuration inputs into structured order tasks. This includes non-catalog items using spec relationships, decomposition rules, and attribute mapping.
 
-This approach separates the commercial catalog \(what is sold\) from the fulfillment view \(what is activated\), allowing sales and network operations teams to work from a shared order structure without manual translation between domains.
+This approach separates the commercial catalog \(what is sold\) from the fulfillment view \(what is activated\). Sales and network operations teams can work from a shared order structure without manual translation between domains.
 
 ## How intent-based fulfillment works
 
@@ -29,7 +29,7 @@ When a customer order is submitted, Sales CRM for Telecommunications applies thr
 
 -   **Decomposition rules**
 
-    Control how a customer order is broken down into domain orders — product orders \(PO\), service orders \(SO\), and resource orders \(RO\). Rules support staggered decomposition and dependency sequencing across order line items.
+    Control how a customer order is broken down into domain orders product orders \(PO\), service orders \(SO\), and resource orders \(RO\). Rules support staggered decomposition and dependency sequencing across order line items.
 
 -   **Attribute mapping**
 
@@ -64,5 +64,5 @@ This structure maps directly to TM Forum standards: Service Catalog Management \
 |Attribute mapping|Maps attributes from the quote through to order tasks, making the correct data available to southbound APIs during service order orchestration.|
 |Dependency sequencing|Supports staggered decomposition based on catalog characteristic values, so dependent order line items activate in the correct sequence without manual coordination.|
 |Closed-loop extension|Supports extension for closed-loop orchestration, enabling activation feedback from downstream systems to update order status automatically.|
-|TMF standards alignment|Aligns to TM Forum Open APIs — TMF633 \(Service Catalog Management\), TMF620 \(Product Order\), and TMF641 \(Service Order\) — for standards-based integration with third-party systems.|
+|TMF standards alignment|Aligns to TM Forum Open APIs TMF633 \(Service Catalog Management\), TMF620 \(Product Order\), and TMF641 \(Service Order\) for standards-based integration with third-party systems.|
 

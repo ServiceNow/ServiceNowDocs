@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Connect work, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -40,7 +40,7 @@ Role required: sn\_cwm.cwm\_user
 
     1.  From the **Table** field, select a table.
 
-        For example, to bring in all the incidents, select the Incident \[incident\] table.
+        For example, to bring in all the incidents, select the Incident \[incident\] table. To bring project tasks onto the Board, select the Project Task \[pm\_project\_task\] table.
 
         **Note:** Only those tables that you have access to and from the applications that are already installed and active in your ServiceNow instance are available for you.
 

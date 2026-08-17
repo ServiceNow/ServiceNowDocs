@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 3
-breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add an MCP server with OAuth 2.1

@@ -33,11 +33,11 @@ ServiceNow Vault provides a single location to review and implement data securit
 
 </td></tr><tr><td>
 
-[Use generative AI skills in Now Assist for Vault\[Omitted image "bus-chat.svg"\] Alt text:Streamline your administrative workload with generative AI skills in Now Assist for Vault.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)
+[Use generative AI skills in ServiceNow Otto for Vault\[Omitted image "bus-ai-otto.svg"\] Alt text:Streamline your administrative workload with generative AI skills in ServiceNow Otto for Vault.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)
 
 </td><td>
 
-[Use agentic AI in Now Assist for Vault\[Omitted image "bus-workflow.svg"\] Alt text:Complete tasks autonomously using Now Assist for Vault agentic workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
+[Use agentic AI in ServiceNow Otto for Vault\[Omitted image "bus-workflow.svg"\] Alt text:Complete tasks autonomously using ServiceNow Otto for Vault agentic workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 
 </td></tr></tbody>
 </table>## Resources
@@ -46,10 +46,10 @@ For implementation general guidelines, see the [ServiceNow Vault implementation 
 
 -   **[Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-servicenow-vault.md)**  
 Learn more about ServiceNow Vault and review the benefits it can provide for your data protection needs.
--   **[Use agentic AI in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)**  
-Use the Now Assist for Vault agentic workflows to complete tasks autonomously.
--   **[Use generative AI skills in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)**  
-The Now Assist for Vault application includes the generative AI skills and features that enable you to streamline your administrative workload.
+-   **[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)**  
+Use the ServiceNow Otto for Vault agentic workflows to complete tasks autonomously.
+-   **[Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)**  
+The ServiceNow Otto for Vault application includes the generative AI skills and features that enable you to streamline your administrative workload.
 -   **[ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-dashboard.md)**  
 Use the ServiceNow Vault console dashboard to track and manage your ServiceNow Vault security tools.
 

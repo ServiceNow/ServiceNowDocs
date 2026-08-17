@@ -43,7 +43,7 @@ You can also view cases and case tasks directly from the Workbench Overview that
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 

@@ -1,6 +1,6 @@
 ---
 title: Accounts Payable Operations properties
-description: Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management, including property names, default values, and required roles.
+description: Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 
 # Accounts Payable Operations properties
 
-Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management, including property names, default values, and required roles.
+Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management.
 
 |Property|Description|Role|
 |--------|-----------|----|
@@ -149,6 +149,8 @@ Maximum number of invoices that can be sent to the external tax engine in a sing
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

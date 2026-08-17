@@ -18,7 +18,7 @@ ServiceNow AI Platform Telecom Discovery provides visibility into your telecom n
 
 Built for communication service providers \(CSPs\), this solution enables the discovery and mapping of network elements across multi-vendor environments using standardized protocols and integration with network management systems.
 
-By combining Telecom Discovery plugins with the power of Service Graph Connectors and Discovery Patterns, you can automatically populate and maintain accurate records of your telecom resources in the Configuration Management Database \(CMDB\), providing a unified view of both IT and network infrastructure.
+Telecom Discovery plugins work with Service Graph Connectors and Discovery Patterns to automatically populate and maintain accurate records of your telecom resources in the CMDB. This provides a unified view of both IT and network infrastructure.
 
 With Telecom Discovery, you can:
 

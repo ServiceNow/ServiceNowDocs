@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Usage Insights, Platform Analytics]
+breadcrumb: [Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Usage Insights reference
@@ -25,5 +25,5 @@ Durations in Usage Insights have specific calculations. Review these equations t
 -   **[Domain separation in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-experience-analytics-domain-separation.md)**  
 Domain separation is not supported for the Usage Insights application.
 
-**Parent Topic:**[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+**Parent Topic:**[Access analytics overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-access-analytics-overlay.md)
 

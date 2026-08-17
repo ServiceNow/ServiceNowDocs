@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-enterpriseservicemanagementfoundation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -292,7 +292,7 @@ Australia
 
 </td><td>
 
-Enterprise Service Management Foundation is available in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US). For more details on the individual products, see [Core Business Suite release notes](https://www.servicenow.com/docs/access?context=cbs-rn&family=australia&ft:locale=en-US) and [IT Service Management release notes](https://www.servicenow.com/docs/access?context=ai-native-it-service-desk-rn&family=australia&ft:locale=en-US).
+Enterprise Service Management Foundation is available in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US). For more details on the individual products, see [Core Business Suite release notes](https://www.servicenow.com/docs/access?context=cbs-rn&family=australia&ft:locale=en-US) and [Simplified IT Service Management release notes](https://www.servicenow.com/docs/access?context=ai-native-it-service-desk-rn&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements

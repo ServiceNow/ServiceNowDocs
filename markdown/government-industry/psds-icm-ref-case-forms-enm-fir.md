@@ -249,7 +249,7 @@ Ballistic Signature ID
 
 </td><td>
 
-Whether any unique, microscopic marks were usedto identify the firearm.
+Whether any unique, microscopic marks were used to identify the firearm.
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # HR AI voice agents
@@ -99,9 +99,7 @@ Travel Expense Expert Voice**Note:** Requires integration with Zoho
 Assists employees with tasks related to travel expenses, including submitting expenses, retrieving expenses, and the expense policy.
 
 </td></tr></tbody>
-</table>Certain voice agents require integration with Oracle HCM or Zoho. For more information, see [Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-third-party-systems.md).
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md)

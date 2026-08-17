@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # Create an AI voice agent
@@ -57,7 +57,7 @@ Navigate in AI Agent Studio
 </td></tr></tbody>
 </table>2.  On the Define the specialty page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
 
-    Select **Generate details** to generate a description and instructions with Now Assist. If you provide the description of what you want the agent to do, you can select **Generate** to write the name, description, AI agent role, and instructions fields for you. You can change those fields after the text has been generated or try again with new instructions.
+    Select **Generate details** to generate a description and instructions with AI. If you provide the description of what you want the agent to do, you can select **Generate** to write the name, description, AI agent role, and instructions fields for you. You can change those fields after the text has been generated or try again with new instructions.
 
     **Note:** The more details that you provide, the more accurately your AI agent can perform.
 
@@ -112,7 +112,7 @@ AI Agent role
 
 Capabilities and responsibilities for your AI agent. Roles enable your AI agent to perform its required actions.
 
- Example for the Incident manager: You’re an AI agent with the purpose of communicating incident details and making changes to those incidents for users calling in as long as they match the caller for those incidents. You have access to tools that can retrieve a few fields for incidents, comments, and escalate the urgency. Only proceed with gathering information and tool execution if the user and caller listed on the incident match.
+ Example for the Incident manager: You’re an AI agent that communicates incident details and makes changes to incidents for callers. You can retrieve incident fields and comments, and escalate urgency. Only gather information and run tools if the caller matches the user listed on the incident.
 
 </td></tr><tr><td>
 
@@ -183,9 +183,9 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
 3.  In the **Add tools and information** tab, configure additional tools and data sources that provide capabilities necessary to your AI agent to accomplish its objectives.
 
-    Select **Recommend Tools** for Now Assist to suggest the tools that are required for the AI agent to carry out the tasks that it's built for. Now Assist suggests tools based on the AI agent description and instructions given in the previous section.
+    Select **Recommend Tools** for AI to suggest the tools that are required for the AI agent to carry out the tasks that it's built for. AI suggests tools based on the AI agent description and instructions given in the previous section.
 
-    You can add the tools suggested by Now Assist or manually select the tools from the Add tool drop-down list. You must add at least one tool to continue setting up your AI agent, but you can also add more tools to your AI agent. The data input and output type for tools must be string for optimal voice experience.
+    You can add the tools suggested by AI or manually select the tools from the Add tool drop-down list. You must add at least one tool to continue setting up your AI agent, but you can also add more tools to your AI agent. The data input and output type for tools must be string for optimal voice experience.
 
     The following tools are available for AI voice agents:
 
@@ -217,15 +217,15 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
     3.  Define the user identity of the AI agents to determine what data it has access to.
 
-        The default selection is Dynamic user, in which the user passes their roles to the AI agent which allows the AI agent to run as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
+        The default selection is **Dynamic user**. The user passes their roles to the AI agent, and the AI agent runs as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
 
 5.  Select channels and activation status for your AI voice agent.
 
     1.  Select **Allow** to enable users to use phone calls to invoke the AI agent.
 
-    2.  In the **Voice assistants** field, select **Now Assist Voice Deployment** or a custom provider.
+    2.  In the **Choose voice assistants** field, select the default assistant or a custom assistant.
 
-        Voice assistants are created in Assistant Designer. See  for more information.
+        Voice assistants are created in Assistant Designer. See [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-voice-assistants.md) for more information.
 
     3.  Activate the AI agent by toggling the **Status**.
 

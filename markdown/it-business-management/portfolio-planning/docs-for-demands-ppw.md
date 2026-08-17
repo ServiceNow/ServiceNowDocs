@@ -1,6 +1,6 @@
 ---
-title: Docs for demands in Next Experience for Demand Management
-description: Store and manage documentation for demands from a centralized location in Next Experience for Demand Management.
+title: Collaborate with docs in Next Experience for Demand Management
+description: Docs supports real-time collaboration on documentation such as meeting notes, demand requirements, and technical specifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/docs-for-demands-ppw.html
 release: australia
@@ -12,65 +12,42 @@ reading_time_minutes: 2
 breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Docs for demands in Next Experience for Demand Management
+# Collaborate with docs in Next Experience for Demand Management
 
-Store and manage documentation for demands from a centralized location in Next Experience for Demand Management.
+Docs supports real-time collaboration on documentation such as meeting notes, demand requirements, and technical specifications.
 
-## Docs overview
+You can create multiple Docs for a demand and within each Doc, you can create unlimited pages to help you effectively organize your information.
 
-Demand managers can store information for demands using the Docs feature.
+## Key features of Docs
 
--   Each demand can have a separate doc page to capture related information. For example, create a doc page for business objectives or technical requirements.
--   Each demand can have multiple doc pages to help you effectively organize key artifacts.
--   Predefined templates such as Project Brief, Product Requirements, Brainstorming Ideas, and Meeting Notes are available. Create doc pages using one of these templates or start with an empty page.
-
-## Features of Docs
-
-The following are the key features of Docs:
-
--   Auto-save content.
--   See who is viewing or working on a doc page using the feature of live user presence.
--   Create documents using pre-defined templates.
--   Use rich text paragraph formatting, which includes headings, lists, alignment, and others.
--   Move text blocks to change their placement using block-level editing.
--   Tag team members inline or insert tables using the **/** command.
--   Add reference to other ServiceNow AI Platform tables to connect work across teams.
--   Insert images by uploading files or using web URLs.
-
-    **Note:** The experience of inserting Google Images links might not work.
-
-
-## Real-time collaboration in Docs
-
-With the feature of real-time collaboration, edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.
-
-\[Omitted image "cwm-docs-rtc.png"\] Alt text: Docs real-time collaboration.
-
-**Note:** A huge number of users editing the same block of content simultaneously might result in issues with application performance.
-
-## Dynamic data linking in Docs
-
-Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records.
-
-For example, if you add a reference to a Project record, the reference shows the latest field information of the project in Docs without requiring manual edits. Selecting the project reference opens up the project form so that you can view the full details of the project and make any necessary changes.
-
-A hover popover displays the details of the mentioned record, providing quick access to additional information without leaving the current context.
-
-\[Omitted image "cwm-docs-dynamic-record.png"\] Alt text: Dynamic linking a project record in SPW Docs.
-
-Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of a Project record.
-
-\[Omitted image "cwm-docs-dynamic-field.png"\] Alt text: Dynamic linking the Assigned to field of a project record in SPW Docs.
-
-You can add references from any ServiceNow table you have access to, with no setup or configuration needed.
-
-This feature reduces the need to switch between multiple ServiceNow applications within your instance and helps maintain a single, reliable source of truth for collaborative work, making it easier for teams to stay aligned and informed.
+-   Auto save content.
+-   Live user presence: See who is viewing or editing the document in real time.
+-   Templates: Create and apply document templates.
+-   Rich text formatting: Headings, lists, alignment, and other paragraph styles.
+-   Block-level editing: Move text blocks to change placement.
+-   Cross-references: Add references to other ServiceNow AI Platform tables to connect work across teams.
+-   Copy and paste within Docs: Transfer text, images, lists, and tables between Docs pages.
+-   Table features such as size and color formatting and copy and paste between tables.
 
 ## Images in Docs
 
-Insert images into your Docs by uploading a file from your device or adding a web URL. Note that inserting Google Images links might not work.
+You can insert images in or adding a web URL. You can also save images from your demand documents directly to your device, to share or use them outside Docs. For more information, see [Add images in demand Docs or download them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/insert-images-in-demand-docs-ppw.md).
 
-Save images from your CWM documents directly to your device, making it easier to share or use them outside of the Docs environment. Click an image to access the download icon \(\[Omitted image "cwm-icon-docs-image-download.png"\] Alt text:\), then click the icon to save it to your device. Alternatively, right-click the image and use your browser's built-in save option.
+## Dynamic data linking in Docs
 
-\[Omitted image "cwm-docs-image-download.png"\] Alt text: Options to align and download an image in a Doc page.
+Keep record information in your documentation current and reduce manual effort with the Dynamic data linking feature in Docs. You can automatically reflect the latest updates from ServiceNow application records or fields in a record by including references to them. You can add references from any ServiceNow table you have access to.
+
+For example, if you add a reference to an Incident record, the reference shows the latest field information of the incident in Docs.
+
+For more information, see [Add dynamic data to demand Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-dynamic-data-links-in-demand-docs-ppw.md).
+
+\[Omitted image "cwm-docs-dynamic-record.png"\] Alt text: Dynamic linking an incident record in Docs.
+
+## Real-time collaboration in Docs
+
+Real-time collaboration enables multiple people to work on a doc page at the same time. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators while working on or reviewing the content of the page through the More Actions menu.
+
+**Note:** Application performance might be affected if many users are editing a doc at the same time.
+
+\[Omitted image "cwm-docs-rtc.png"\] Alt text: Docs real-time collaboration.
 

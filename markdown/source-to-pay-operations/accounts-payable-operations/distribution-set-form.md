@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding, distribution set]
+keywords: [APO, Accounts Payable Operations, invoice management, invoice lines, cost allocation, AP specialist, distribution set]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -67,6 +67,8 @@ Field descriptions for the Distribution set form, organized by section, for conf
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

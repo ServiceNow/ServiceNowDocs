@@ -118,12 +118,14 @@ You can register the Sensor after you have installed the OT Discovery Console an
 
     \[Omitted image "sensor-install-dmi-ip.png"\] Alt text: DMI page URL
 
-26. Use this URL to log into the DMI and register your Discovery Sensor for OT to the Console.
+26. Use this URL to log in to the DMI and register your Discovery Sensor for OT to the Console.
 
-    See [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/registering-ot-sensor.md) on how to register the Sensor.
+    For more information, see [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/registering-ot-sensor.md).
 
 
 ## What to do next
 
 [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/registering-ot-sensor.md)
+
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
 

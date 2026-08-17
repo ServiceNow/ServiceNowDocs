@@ -8,8 +8,8 @@ product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+reading_time_minutes: 1
+breadcrumb: [Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Preliminary troubleshooter agentic workflow
@@ -18,7 +18,7 @@ Use the preliminary troubleshooter agentic workflow to resolve broadband and int
 
 ## Test and repair telecom service issues overview
 
-Resolve the customer issues such as internet or broadband issues using a team of agents in the preliminary troubleshooter agentic workflow.This agentic workflow processes task requests that require payment status, contextual information from similar cases and Knowledge Base articles. This workflow runs autonomously in the background without any user interaction.
+The preliminary troubleshooter agentic workflow resolves customer issues such as internet or broadband problems. This agentic workflow processes task requests that require payment status, contextual information from similar cases, and Knowledge Base articles. The workflow runs autonomously in the background without user interaction.
 
 The Preliminary troubleshooter agentic workflow supports these tables:
 
@@ -38,7 +38,7 @@ To modify the Preliminary troubleshooter agentic workflow [Duplicate an agentic 
 
 Required role: sn\_tmt\_agentic\_ai.test\_and\_repair\_telecom\_service\_ai\_agent
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Preliminary troubleshooter agentic workflow
 

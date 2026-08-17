@@ -21,6 +21,10 @@ Personalize your Next Experience instance by selecting a theme and it's variant 
 
 Role required: none
 
+You can also watch a short video on how to select a theme.
+
+\[Omitted video\] Description: Select a theme in Next Experience.
+
 ## Procedure
 
 1.  Navigate to **User Menu** &gt; **Preferences** &gt; **Theme**.

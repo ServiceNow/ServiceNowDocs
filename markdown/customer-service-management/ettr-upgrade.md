@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr-upgrade.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
 breadcrumb: [Estimated time to resolve a case, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ After upgrading, configure some settings to view the **Time to Resolve Numeric V
 You must have a trained default estimated time to resolve a case regression solution. For more information, see [Configure the default estimated resolution time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr_configure.md).
 
 Role required: admin
+
+## About this task
+
+**Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-regression-solution.md).
 
 ## Procedure
 

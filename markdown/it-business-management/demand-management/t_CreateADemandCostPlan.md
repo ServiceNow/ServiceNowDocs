@@ -24,11 +24,11 @@ Role required: it\_demand\_manager
 
 The application automatically creates cost plan breakdown records when you save the cost plan. The cost plan breakdowns are records that specify the estimated and actual costs and the budget at a granular level for specific fiscal periods, such as FY16: M04 and FY16: M05. The demand cost plans are added to the parent program and portfolio.
 
-The cost plan breakdowns that specify the estimated cost and actual cost at a granular level for a fiscal period of the demand cost plan are recalculated in the project currency. Similarly, the estimated breakdown amounts of the planned benefit and actual benefit of the demand benefit plans are recalculated in the project currency. The project currency amounts are then rolled up to the cost plan, benefit plan, and the project records.
+Cost plan breakdowns for each fiscal period are recalculated in the project currency. This recalculation applies to estimated and actual costs in the demand cost plan, and to estimated and actual benefit amounts in the demand benefit plans. The project currency amounts roll up to the cost plan, benefit plan, and project records.
 
 If you want to use multiple currencies, create a cost plan for another currency.
 
-If you’re creating benefit plan for a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, the fields in the **Financials** section differ from the Default view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-fields-demand.md).
+If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the **Financials** section fields differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-fields-demand.md).
 
 ## Procedure
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -50,6 +50,18 @@ Collect, aggregate, and report data based on your fiscal calendars, which may di
 Import historical metric data by using a pre-defined import template with instructions. This process helps with updating and managing metric data within an organization, helping ensure that all data complies with established business rules and maintains integrity throughout the process.
 -   **[Convert metric data to a different unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/convert-data-into-any-unit.md)**  
 Convert any metric data into a preferred reporting unit.
+-   **[Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-campaigns.md)**  
+Enable campaigns to let data owners and approvers move groups of metrics through collection, review, and approval as a single unit, instead of one at a time.
+-   **[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-campaign.md)**  
+Create a campaign to group manual, calculated, and automated metrics into a single unit for collection, review, and approval.
+-   **[Add or remove entities and metrics from a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.md)**  
+Add or remove entities and metrics from a campaign to control which records are included in its data collection.
+-   **[Configure data owner and approver assignments for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-data-owner-and-approver-assignments-for-a-campaign.md)**  
+Assign a data owner and one or more levels of approvers to a campaign, so the right users receive metric data tasks and approve them in sequence.
+-   **[Schedule a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/schedule-a-campaign.md)**  
+Set the schedule for a campaign to control when data collection starts, when the next cycle begins, and when submissions are due.
+-   **[Publish a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/publish-a-campaign.md)**  
+Publish a campaign to start generating campaign cycles and metric data tasks for its metrics.
 
 **Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)
 

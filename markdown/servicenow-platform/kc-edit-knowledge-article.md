@@ -36,8 +36,6 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 6.  Start by entering the **Knowledge base**, **Short description** \(title\), and other details in the metadata pane of the article form.
 
-    \[Omitted image "Using-article-editor.jpeg"\] Alt text: Article editor page.
-
 7.  As you create the article in the main article editor space, drag **Components**, such as columns and text section, into the article area from the **Blocks** pane.
 
 8.  You can also add tables to the article from the components.
@@ -54,7 +52,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 12. Upload images and re-size, rotate, or flip using the image-editing tools.
 
-13. Use the Now Assist article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
+13. Use the ServiceNow Otto article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
 
 14. Select **Save** to save the draft of the article.
 
@@ -62,7 +60,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 **Related topics**  
 
 
-[Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
 [Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)
 

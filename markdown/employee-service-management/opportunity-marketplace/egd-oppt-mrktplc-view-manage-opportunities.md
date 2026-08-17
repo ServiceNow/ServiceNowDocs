@@ -57,7 +57,7 @@ The title of the opportunity that applicants and opportunity owners see when loo
 There are 3 opportunity types that come with the base system.-   **Gig**
 -   **Project**
 -   **Volunteer**
- As an admin, you can add custom opportunity types, see .
+ As an admin, you can add custom opportunity types, see[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md).
 
 </td></tr><tr><td>
 

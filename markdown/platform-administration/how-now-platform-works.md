@@ -36,7 +36,7 @@ The ServiceNow AI Platform is built for enterprise scale, with global datacenter
 
 ## Administration
 
-The ServiceNow AI Platform [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md) gives business administrators at-a-glance information and access to configuration management and AI-powered implementation with [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
+The ServiceNow AI Platform [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md) gives business administrators at-a-glance information and access to configuration management and AI-powered implementation with [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
 
 Localization is available in more than a dozen languages and currencies. In-house and third-party translation services handle communications, virtual agent chat, user input translation, and more. For more information, see [Translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translation-and-localization.md).
 
@@ -60,7 +60,7 @@ The Workflow Data Fabric enables connections between instances and external serv
 
 The ServiceNow AI Platform delivers [AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and intelligent [AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) that go beyond recommendations to take action—running workflows across enterprise systems, all governed by your business rules and policies. Now Assist, generative AI, and flexible large language model \(LLM\) integration bring AI capabilities across every department.
 
-The platform supports prompt customization and prebuilt AI experiences, with full visibility through [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
+The platform supports prompt customization and prebuilt AI experiences, with full visibility through [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
 
 ## Platform agentic workflows
 

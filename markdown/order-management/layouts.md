@@ -1,18 +1,18 @@
 ---
 title: Layouts
-description: Layouts define how the configuration experience looks and feels for your users. They control where fields appear, how steps are grouped, and how the product list \(shopping cart\) is presented—turning a blueprint’s logic and data into an intuitive, guided UI in ServiceNow CPQ.
+description: Layouts define how the configuration experience looks and feels for your users. They control where fields appear, how steps are grouped, and how the product list \(shopping cart\) is presented—turning a blueprint’s logic and data into an intuitive, guided UI in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Layouts
 
-Layouts define how the configuration experience looks and feels for your users. They control where fields appear, how steps are grouped, and how the product list \(shopping cart\) is presented—turning a blueprint’s logic and data into an intuitive, guided UI in ServiceNow CPQ.
+Layouts define how the configuration experience looks and feels for your users. They control where fields appear, how steps are grouped, and how the product list \(shopping cart\) is presented—turning a blueprint’s logic and data into an intuitive, guided UI in CPQ.
 
 A layout is the presentation layer of a configuration experience. Where a blueprint brings together fields, rules, layouts, and configurable products, the layout focuses on how those elements are displayed:
 
@@ -27,7 +27,7 @@ When a blueprint has multiple layouts, end users can rotate through them using t
 
 ## How layouts fit into the configuration model
 
-Layouts are placed at the presentation layer of the ServiceNow CPQ configuration stack:
+Layouts are placed at the presentation layer of the CPQ configuration stack:
 
 -   Fields collect and display data.
 -   Rules control behavior \(visibility, messaging, calculations, product inclusion, and more\).

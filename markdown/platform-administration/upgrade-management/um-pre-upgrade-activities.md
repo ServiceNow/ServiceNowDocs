@@ -162,11 +162,11 @@ Role required: admin
 
             **Note:** If you have disabled Upgrade store applications to the latest version previously, the value for Apps to be upgraded depends on the manual selection of the Upgrade store applications section.
 
-    -   Update Now Assist Suite: Use the Update Now Assist Suite section to manage application version compatibility. When you upgrade an application in the compatibility matrix, the system automatically updates all related applications to compatible versions.
+    -   Update Otto App Suite: Use the Update Otto App Suite section to manage application version compatibility. When you upgrade an application in the compatibility matrix, the system automatically updates all related applications to compatible versions.
 
         Select **Suite Version** to select a suite version from the dropdown menu. The dropdown menu shows the suite versions available in the selected version. For example, if you want to upgrade your instance to Australia, only the suite versions available in Australia are shown in the dropdown menu options.
 
-        **Note:** Select None as the Suite Version option if you don’t want to update Now Assist Suite.
+        **Note:** Select None as the Suite Version option if you don’t want to update Otto App Suite.
 
         Select Execution tracker link to track the progress of the list. The Execution tracker form shows up. Select Show status related link to see the current status.
 
@@ -179,11 +179,11 @@ Role required: admin
         -   Selected Version: Configured version of the application in the selected suite version
         **Note:** Downgrading of application versions is not allowed.
 
-        Select **Dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Now Assist Suite applications list.
+        Select **Dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Otto App Suite applications list.
 
         \[Omitted image "uc-dependent-apps.png"\] Alt text:
 
-        For example, if you have 5 applications in the selected version of Now Assist Suite, the Now assist suite dependencies modal lists only the dependencies of these 5 applications.
+        For example, if you have 5 applications in the selected version of Otto App Suite, the Otto App suite dependencies modal lists only the dependencies of these 5 applications.
 
     -   Upgrade store applications
 

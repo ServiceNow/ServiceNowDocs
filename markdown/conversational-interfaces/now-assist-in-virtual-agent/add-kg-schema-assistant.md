@@ -7,9 +7,9 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-03-18"
 reading_time_minutes: 2
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a Knowledge Graph schema to a chat assistant
@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 Knowledge Graph transforms search into an intelligent, predictive, and efficient experience, increasing accuracy, and improving productivity.
 
-**Note:** Knowledge Graph is not applicable to the Now Assist panel - Developer assistant.
+**Note:** Knowledge Graph is not applicable to the ServiceNow Otto panel - Developer assistant.
 
 For more information about Knowledge Graph, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
 
@@ -38,7 +38,7 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
 1.  If Knowledge Graph is turned on, select the Knowledge Graph schema to apply to the assistant.
 
-    \[Omitted image "NAinVA-kg-122025.png"\] Alt text: Choose your Knowledge Graph
+    \[Omitted image "sno-kg-0826.png"\] Alt text: Choose your Knowledge Graph
 
     **Note:** During a platform upgrade, if you previously created an assistant and assigned a Knowledge Graph schema to the assistant, you may need to reassign the schema to the assistant as it may show as **None**.
 
@@ -48,20 +48,18 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
     Enterprise Graph is a predefined graph schema that represents all tables. Use tags to annotate tables in the global schema for higher accuracy responses to questions on a specific subject matter. Selecting the button next to the Enterprise Graph selection directs you to the Knowledge Graph console where you can edit the specific Knowledge Graph.
 
-    **Note:** For Now Assist panel - Platform \(default\) assistant, if Enterprise Graph and Enterprise Graph \(Small\) are selected within the NLQ schema, tags can be selected for specific workspaces that are active on the instance.
+    **Note:** For ServiceNow Otto panel - Platform \(default\) assistant, if Enterprise Graph and Enterprise Graph \(Small\) are selected within the NLQ schema, tags can be selected for specific workspaces that are active on the instance.
 
     For more information about Knowledge Graph tags, see [Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/tagging-in-knowledge-graph.md).
 
-    \[Omitted image "NAinVA-kg-workspace-tags2-122025.png"\] Alt text: Fields to add workspace tags.
+    \[Omitted image "sno-kg-workspace-tags-0826.png"\] Alt text: Fields to add workspace tags.
 
 2.  Select**Manage tags** to open the tag list from the Knowledge Graph as a new browser tab.
-
-    \[Omitted image "NAinVA-kg-tags-122025.png"\] Alt text: Manage tags.
 
 3.  Select **Manage Knowledge Graph** to open a new browser tab that directs you to the Knowledge Graph app.
 
 
 ## What to do next
 
-See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+See [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md).
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-industrialprocessmanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 12
+last_updated: "2026-08-17"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -169,26 +169,6 @@ Generate a complete location hierarchy for an ISA equipment model entity tree wh
 
 Visualize your OT network, subnets, and device-to-device connections with the OT Network Map in the Industrial Workspace.
 
--   **[Set the operational status for equipment model entity sites](https://www.servicenow.com/docs/access?context=equipment-model-workspace&family=zurich&ft:locale=en-US)**
-
-Set equipment model entity sites to not in use in the Industrial Workspace by selecting the **Not in use** value for the **Operational Status** field.
-
--   **[Filter out Not in use and Retired equipment model entities from view](https://www.servicenow.com/docs/access?context=filter-out-non-operational-equipment-model-entities&family=zurich&ft:locale=en-US)**
-
-Filter out **Not in use** and **Retired** equipment model entities in the Industrial Workspace using the **Operational Status** field value for a site.
-
--   **[Add child equipment model entities to a Favorites view in the Industrial Workspace](https://www.servicenow.com/docs/access?context=favorite-child-equipment-model-entity&family=zurich&ft:locale=en-US)**
-
-Use the Favorite icon \(\[Omitted image "image.mark-as-favorite"\] Alt text:\) to add a child equipment model entity as a favorite in the Equipment Model Manager on the Industrial Workspace. You can then use the **Show Favorites** toggle to display them.
-
--   **[Assign Processing Order to sort equipment model entities in a site](https://www.servicenow.com/docs/access?context=view-child-entities-equipment-model-entity&family=zurich&ft:locale=en-US)**
-
-Use the **Processing Order** field to assign values to an equipment model entity that determines their functional importance in a site.
-
--   **[The Daily Activity tab in the Equipment Model view in the Industrial Workspace](https://www.servicenow.com/docs/access?context=view-ot-eme-daily-summary&family=zurich&ft:locale=en-US)**
-
-View the list of previous day's activities on the **Daily Activity** tab of an OT device. The activities include adding an OT device and changing the field-level attributes for existing OT devices. For example, IP address, Device Criticality, and more.
-
 
 </td></tr><tr><td>
 
@@ -254,10 +234,6 @@ Zurich
 -   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=zurich&ft:locale=en-US)**
 
 Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.
-
--   **[Viewing multiple records at once in the Equipment Model Manager](https://www.servicenow.com/docs/access?context=managing-equipment-models-after-data-import&family=zurich&ft:locale=en-US)**
-
-In the Equipment Model Manager of the Industrial Workspace, view multiple records and keep the record context available instead of only viewing one record at a time. When creating or opening multiple records, the records open in single row of tabs at the same level so you can navigate back to other opened records.
 
 
 </td></tr><tr><td>
@@ -533,10 +509,7 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -642,10 +615,6 @@ Zurich
 -   Visualize your OT network using the OT Network Map.
 -   Automatically create a location for equipment model entities to visualize your location hierarchy.
 -   Use the updated Automated Mapping Across Zone-based IP Network Groups \(AMAZING\) feature to uniquely identify OT devices during equipment model entity mapping.
--   Identify sites on your equipment model entity that aren't in use with a new **Operational Status** field value in the Industrial Workspace.
--   Filter out **Not in use** or **Retired** equipment model entities in the Industrial Workspace using the **Operational Status** field value.
--   Sort equipment model entities for a Site using the new value **Processing Order**.
--   View the **Daily Activity** tab for a summarized version of the previous day's activities on the Operational Technology \(OT\) devices.
 
  See [Manufacturing Process Manager](https://www.servicenow.com/docs/access?context=industrial-process-manager-overview&family=zurich&ft:locale=en-US) for more information.
 

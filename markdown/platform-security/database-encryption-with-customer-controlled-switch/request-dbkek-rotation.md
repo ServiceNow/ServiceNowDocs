@@ -20,7 +20,7 @@ Rotate the database key annually or as needed by submitting a request to support
 
 Role required: admin
 
-**Important:** Starting with the Washington DC release, Database Encryption is being prepared for future deprecation. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
 
 ## About this task
 

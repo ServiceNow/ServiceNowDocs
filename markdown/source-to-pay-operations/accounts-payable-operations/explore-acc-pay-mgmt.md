@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, Invoice processing, Duplicate detection, Exception handling, Inquiry case management, Invoice automation, Invoice approval, Three-way matching, Invoice ingestion, Supplier inquiries, Invoice reconciliation, AP workflow]
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -66,7 +66,7 @@ The following figure shows a high-level illustration of the various components t
 -   **[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)**  
 Accounts Payable Invoice Processing automates invoice document ingestion and data extraction using ServiceNow® Document Intelligence and supports the complete invoice life cycle from capture through approval.
 -   **[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)**  
-Invoice case management enables agents to resolve invoice discrepancies and exceptions through structured workflows, including requesting information from suppliers, assigning tasks, and tracking resolution progress in the Source-to-Pay Workspace.
+Invoice case management enables agents to resolve invoice discrepancies and exceptions in the Source-to-Pay Workspace through structured workflows.
 -   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-workspace.md)**  
 Use the Source-to-Pay Workspace to manage cases and tasks related to invoices and invoice exceptions.
 -   **[Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.md)**  

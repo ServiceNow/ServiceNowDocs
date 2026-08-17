@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-deal-registration-management.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+last_updated: "2026-08-17"
+reading_time_minutes: 1
+breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Deal Registration
@@ -45,15 +45,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d174620e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d176125e134">
 
 Demo data install task
 
-</th><th align="left" id="d174620e137">
+</th><th align="left" id="d176125e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d174620e143">
+</th></tr></thead><tbody><tr><td id="d176125e143">
 
 **If demo data is available and you want to install it**
 
@@ -63,7 +63,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d174620e173">
+</td></tr><tr><td id="d176125e173">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -81,10 +81,7 @@ Load the demo data after installing Deal Registration Management.1.  Install Dea
 
 You have successfully installed the Deal Registration Management \(com.snc.deal\_registration\_management\) application.
 
--   **[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-deal-registration-management.md)**  
-The deal registration management data model provides a framework for channel partners to establish a consistent and organized engagement model with channel partners.
-
-**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
 
 **Related topics**  
 

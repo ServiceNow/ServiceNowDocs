@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Setting up the Crisis Map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configure search for places in crisis map
@@ -16,7 +16,7 @@ Set the system property to manage searching places on the crisis map.
 
 ## Before you begin
 
-Role required: Administrator
+Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 

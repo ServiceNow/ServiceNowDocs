@@ -1,18 +1,18 @@
 ---
 title: Create an account staff relationship
-description: Create a relationship between a staff member at a business location and an account.
+description: Create a relationship between a staff member at a business organization \(formerly business location\) and an account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-staff-account-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business locations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Business Organizations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create an account staff relationship
 
-Create a relationship between a staff member at a business location and an account.
+Create a relationship between a staff member at a business organization \(formerly business location\) and an account.
 
 ## Before you begin
 
@@ -27,11 +27,13 @@ You can assign users who have been added as staff members to a business location
 
 Relationships are based on responsibilities. A responsibility definition describes a role or a function that supports a customer or consumer. To create an account team member relationship, use the Account Manager responsibility.
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal/External Business Locations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal/External Organizations**.
 
-2.  Select either an internal or an external business location.
+2.  Select either an internal or external organization \(formerly internal or external business location\).
 
 3.  In the Account Staff Relationships related list, select **New**.
 

@@ -34,7 +34,7 @@ For details on the transform maps, navigate to **Integrations Framework** &gt; *
 
 [Field mappings]()
 
-[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
+[ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
 
 [Use HCM AI agents for HR Service Delivery Integration with SuccessFactors]()
 

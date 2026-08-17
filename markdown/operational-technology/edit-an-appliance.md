@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-06-10"
 reading_time_minutes: 5
-breadcrumb: [Appliances page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Appliances page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit an Appliance
@@ -89,4 +89,6 @@ The **Actions** button in the appliance record enables the following actions.
 -   **Remove from Console**: Removes the appliance from the Console.
 
 \[Omitted image "appliance-action-button.png"\] Alt text: Action button
+
+**Parent Topic:**[Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md)
 

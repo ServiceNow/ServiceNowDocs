@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-06-05"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using premium chat
@@ -77,5 +77,5 @@ For more detailed information on all of standard chat’s specific skills, see [
 
 For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

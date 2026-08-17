@@ -1,6 +1,6 @@
 ---
-title: Service Graph Connector for Observability - Dynatrace SaaS properties
-description: Service Graph Connector for Observability - Dynatrace SaaS properties control the behavior of the connector.
+title: Service Graph Connector for Dynatrace SaaS properties
+description: Service Graph Connector for Dynatrace SaaS properties control the behavior of the connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.html
 release: australia
@@ -12,15 +12,15 @@ reading_time_minutes: 2
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service Graph Connector for Observability - Dynatrace SaaS properties
+# Service Graph Connector for Dynatrace SaaS properties
 
-Service Graph Connector for Observability - Dynatrace SaaS properties control the behavior of the connector.
+Service Graph Connector for Dynatrace SaaS properties control the behavior of the connector.
 
 ## Connection properties
 
-These connection properties are available for the Service Graph Connector for Observability - Dynatrace SaaS.
+These connection properties are available for the Service Graph Connector for Dynatrace SaaS.
 
-**Note:** To open the Service Graph Connection Properties \[sn\_cmdb\_int\_util\_service\_graph\_connection\_property\] table for the connector, navigate to **All** &gt; **Service Graph Connectors** &gt; **Observability - Dynatrace SaaS** &gt; **Connections** and select the connection name. The connection properties are displayed in the Service Graph Connection Properties related list.
+**Note:** To open the Service Graph Connection Properties \[sn\_cmdb\_int\_util\_service\_graph\_connection\_property\] table for the connector, navigate to **All** &gt; **Service Graph Connectors** &gt; **Dynatrace SaaS** &gt; **Connections** and select the connection name. The connection properties are displayed in the Service Graph Connection Properties related list.
 
 <table id="table_conn_props_observability-dynatrace-saas"><thead><tr><th>
 
@@ -109,7 +109,7 @@ Number of days to wait before retiring a CI that is no longer reported by Dynatr
 </td></tr></tbody>
 </table>## System property
 
-The following system property is available for the Service Graph Connector for Observability - Dynatrace SaaS.
+The following system property is available for the Service Graph Connector for Dynatrace SaaS.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 

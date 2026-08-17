@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Supplier Lifecycle Operations, SLO, Source-to-Pay Workspace, Agent Chat, Conversational Interfaces, Transcripts, Quick Action Toolbar, Procurement Workspace]
 breadcrumb: [Setting up Advanced Work Assignment for Supplier Lifecycle Operations, Advanced Work Assignment for Supplier Lifecycle Operations, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

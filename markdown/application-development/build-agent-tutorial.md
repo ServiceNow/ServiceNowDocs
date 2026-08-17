@@ -1,6 +1,6 @@
 ---
 title: Tutorial for Build Agent in ServiceNow Studio
-description: Learn to develop reusable server-side logic and build a ServiceNow application in Build Agent, from data modeling through testing, using AI-assisted development.
+description: Learn to develop reusable server-side logic and build a ServiceNow application in Build Agent, from data modeling through testing, using agentic development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-tutorial.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Plat
 
 # Tutorial for Build Agent in ServiceNow Studio
 
-Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using AI-assisted development.
+Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using agentic development.
 
 ## Tutorial information and link
 

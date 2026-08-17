@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Microsoft Defender integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -22,9 +22,7 @@ Role required: sn\_si.admin, sn\_si.ingestion\_profile\_admin
 
 ## About this task
 
-Filtering helps you isolate security incidents and limit the number of security incidents that you create. If you set additional filtering criteria, only the required incidents are ingested without having to change the query or the triggered incident configuration.
-
-Aggregation Conditions define additional incident field criteria that enable an incoming incident to be appended to an open security incident instead of creating one.
+\[Omitted video\] Description: Define filter and aggregation criteria
 
 ## Procedure
 
@@ -55,8 +53,6 @@ Aggregation Conditions define additional incident field criteria that enable an 
     -   If **AND** is selected, all conditions must be matched.
     -   If **OR** is selected, either condition can be matched.
 5.  To set a second filter condition, select **New Criteria**.
-
-    \[Omitted image "ms-def-fil-and-agg.png"\] Alt text: Define filter and aggregation criteria
 
 6.  Select **Aggregation Conditions** check box to define additional incident field criteria that enables an incoming incident to be appended to an open security incident instead of creating one.
 

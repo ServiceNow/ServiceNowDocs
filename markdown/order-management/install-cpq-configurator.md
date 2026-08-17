@@ -1,18 +1,18 @@
 ---
-title: Activate ServiceNow CPQ Configurator
-description: You can install the ServiceNow CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
+title: Activate CPQ Configurator
+description: You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-cpq-configurator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Activate ServiceNow CPQ Configurator
+# Activate CPQ Configurator
 
-You can install the ServiceNow CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
+You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the ServiceNow CPQ Configurator application \(sn\_cpq\_config\) using the filter criteria and search bar.
+2.  Find the CPQ Configurator application \(sn\_cpq\_config\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

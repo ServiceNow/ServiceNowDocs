@@ -18,6 +18,8 @@ HR Service Delivery is a suite of applications that drive employee productivity 
 
 \[Omitted image "hr-service-delivery-landing-page.svg"\] Alt text: HR Service Delivery applications support employees at each stage: hiring, self-service during employment, growth, and departure.
 
+## HR Service Delivery Users
+
 -   **Employees**
 
     Employees access HR services and self-service features through the Employee Center. HR Service Delivery applications power the features employees use to manage their careers and get help when they need it.
@@ -37,7 +39,7 @@ HR Service Delivery is a suite of applications that drive employee productivity 
 
 <table id="table_hlz_zwz_fgc" class="nav-card"><tbody><tr><td>
 
-[AI-Powered Experiences\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+[AI-Powered Experiences\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about the generative AI skills and capabilities offered by ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td><td>
 

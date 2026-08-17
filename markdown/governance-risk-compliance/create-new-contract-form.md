@@ -1,6 +1,6 @@
 ---
-title: Create New Contract form
-description: On the Create New Contract form, fill in the fields.
+title: Create Contract form
+description: On the Create Contract form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-contract-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Create a contract and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Contract form
+# Create Contract form
 
-On the Create New Contract form, fill in the fields.
+On the Create Contract form, fill in the fields.
 
 |Field|Description|
 |-----|-----------|

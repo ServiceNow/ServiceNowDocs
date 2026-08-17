@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist in Contract Management
+title: Using agentic workflows in ServiceNow Otto for Contract Management Pro
 description: Use agentic workflows in Contract Management Pro to extract metadata and obligations from signed contracts, and set reminders for contract renewals or termination.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-agentic-workflows.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [AI agents in CM Pro, AI agents in contracts, AI agents in contract management pro, agentic workflows in contract management pro, agentic workflows in contracts, agentic workflows in CM Pro]
-breadcrumb: [Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Using agentic workflows in Now Assist in Contract Management
+# Using agentic workflows in ServiceNow Otto for Contract Management Pro
 
 Use agentic workflows in Contract Management Pro to extract metadata and obligations from signed contracts, and set reminders for contract renewals or termination.
 
@@ -35,7 +35,7 @@ Manage contract repository
 
 </td><td>
 
-Uses an AI agent to extract key metadata and obligations from a signed contract, and calculate the contract reminder date by analyzing the contract end date, auto-renewal clause, and notice period for contract renewal or termination. The playbook in the contract record enables users to review AI extracted metadata and obligations to update the contract repository with extracted metadata, and create obligation records, respectively. Users can also set reminders for contract renewal or termination.**Note:** The agentic workflow is triggered in the Now Assist panel. It is not supported in the Virtual Agent panel.
+Uses an AI agent to extract key metadata and obligations from a signed contract, and calculate the contract reminder date by analyzing the contract end date, auto-renewal clause, and notice period for contract renewal or termination. The playbook in the contract record enables users to review AI extracted metadata and obligations to update the contract repository with extracted metadata, and create obligation records, respectively. Users can also set reminders for contract renewal or termination.**Note:** The agentic workflow is triggered in the ServiceNow Otto panel. It is not supported in the Virtual Agent panel.
 
 </td><td>
 
@@ -54,7 +54,7 @@ To modify an agentic workflow, you must first duplicate it, and then update it. 
 
 If you have customized the manage contract repository agentic workflow, [update the script include to run it autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md)
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 

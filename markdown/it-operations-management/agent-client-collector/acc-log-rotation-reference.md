@@ -38,7 +38,7 @@ log-retention-duration
 
 </td><td>
 
-Maximum age, in days, of the log file before it is rotated out of the system's storage.Default: **3**
+Maximum age, in days, of the log file before it is rotated out of the system's storage.Default: **72h**
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Theming for Now Assist in Virtual Agent enhanced chat

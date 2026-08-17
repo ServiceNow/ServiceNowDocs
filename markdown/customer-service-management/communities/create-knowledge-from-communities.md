@@ -52,15 +52,15 @@ You can only harvest solved questions with accepted solutions into a knowledge a
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_xkp_y35_4bb"><thead><tr><th align="left" id="d54970e219">
+<table id="choicetable_xkp_y35_4bb"><thead><tr><th align="left" id="d54940e219">
 
 To
 
-</th><th align="left" id="d54970e222">
+</th><th align="left" id="d54940e222">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d54970e228">
+</th></tr></thead><tbody><tr><td id="d54940e228">
 
 **Publish**
 
@@ -72,7 +72,7 @@ Click **Publish** to initiate the workflow associated with the knowledge base. A
 
 **Note:** You can only see the links if you are a logged-in community user and have been assigned the correct permissions in the forum.
 
-</td></tr><tr><td id="d54970e248">
+</td></tr><tr><td id="d54940e248">
 
 **Save**
 
@@ -80,7 +80,7 @@ Click **Publish** to initiate the workflow associated with the knowledge base. A
 
 Click **Save** to save the knowledge article as a draft. To publish the knowledge article at a later point in time, navigate to the platform UI and then **Knowledge** &gt; **Articles** &gt; **Unpublished**.
 
-</td></tr><tr><td id="d54970e272">
+</td></tr><tr><td id="d54940e272">
 
 **Delete**
 

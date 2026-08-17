@@ -1,5 +1,5 @@
 ---
-title: Synchronization between a parent and a child incident
+title: Synchronizing parent and child incidents
 description: The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/parent-child-state-sync.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
-# Synchronization between a parent and a child incident
+# Synchronizing parent and child incidents
 
 The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 

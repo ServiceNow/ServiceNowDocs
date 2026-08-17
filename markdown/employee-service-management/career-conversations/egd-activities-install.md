@@ -26,7 +26,7 @@ Dependent plugins and apps for Career Conversations
 -   See [Install the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-core-install.md).
 
 
-Role required: admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

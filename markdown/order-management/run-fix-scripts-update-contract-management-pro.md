@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrate with Contract Management Pro, Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrate with Contract Management Pro, Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Run fix scripts to update Contract Management Pro
@@ -30,4 +30,6 @@ If the demo data was installed, the Request Type field in the demo data will rem
 
 3.  Click **Run Fix Script** at the top of record, in the modal that opened up select **Proceed/Proceed in background** to run the script.
 
+
+**Parent Topic:**[Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md)
 

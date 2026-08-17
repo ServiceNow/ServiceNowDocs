@@ -22,7 +22,7 @@ Role required: icm.investigator, supervisory\_agent, admin
 
 ## About this task
 
-With Investigative Case Management Evidence Management, investigators can create a chain of custody log within the workspace to track the movement, transfer, and status changes of evidence records associated with the case. You can view timestamps and responsible personnel for each action with audit logging, capturing when and by who something was opened and viewed.
+With Investigative Case Management Evidence Management, investigators can create a chain of custody log within the workspace. The log tracks the movement, transfer, and status changes of evidence records associated with the case. Audit logging captures timestamps and responsible personnel for each action, including when and by whom evidence was opened and viewed.
 
 **Note:** A Chain of Custody Log cannot be created if the evidence record is in Draft state.
 

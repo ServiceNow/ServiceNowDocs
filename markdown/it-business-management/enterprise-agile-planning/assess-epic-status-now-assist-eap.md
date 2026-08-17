@@ -1,6 +1,6 @@
 ---
-title: Assess the status of an epic using Now Assist for Strategic Portfolio Management \(SPM\)
-description: Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). Now Assist returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
+title: Assess the status of an epic using ServiceNow Otto
+description: Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). ServiceNow Otto returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/assess-epic-status-now-assist-eap.html
 release: australia
@@ -9,17 +9,17 @@ classification: enterprise-agile-planning
 topic_type: task
 last_updated: "2026-04-29"
 reading_time_minutes: 2
-keywords: [epic status assessment, epic health, Now Assist, Enterprise Agile Planning]
+keywords: [epic status assessment, epic health, ServiceNow Otto, Enterprise Agile Planning]
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Assess the status of an epic using Now Assist for Strategic Portfolio Management \(SPM\)
+# Assess the status of an epic using ServiceNow Otto
 
-Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). Now Assist returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
+Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). ServiceNow Otto returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -35,7 +35,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 4.  From the Details tab, select **Epic status**.
 
-    Now Assist evaluates the epic and displays a status assessment card at the top of the page. The card shows a red, yellow, or green health status with reasoning based on the following dimensions:
+    ServiceNow Otto evaluates the epic and displays a status assessment card at the top of the page. The card shows a red, yellow, or green health status with reasoning based on the following dimensions:
 
     -   Story health: stories with zero story points or no sprint assigned.
     -   Blocked stories: stories that are actively blocked.
@@ -46,12 +46,10 @@ Role required: sn\_apw\_advanced.eap\_user
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
-
 **Related topics**  
 
 
-[Generate a story from an epic using Now Assist for SPM in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)
+[Generate a story from an epic using ServiceNow Otto in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)
 
-[Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)
+[Generate acceptance criteria for EAP stories using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)
 

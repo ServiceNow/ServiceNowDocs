@@ -9,7 +9,7 @@ classification: service-catalog
 topic_type: task
 last_updated: "2026-07-06"
 reading_time_minutes: 1
-breadcrumb: [Catalog item standards for catalog item generation, Catalog item generation reference, Now Assist in Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Catalog item standards for catalog item generation, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add and publish best practices to the article

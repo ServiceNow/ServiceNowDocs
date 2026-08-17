@@ -32,7 +32,7 @@ The BCP Plan Manager \(sn\_bcp.plan\_manager\) now includes the Doc writer \(sn\
 
 3.  Fill in the required fields in the **Details** tab of the **Create New Plan** form.
 
-    For more information on the fields, see [Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md).
+    For more information on the fields, see [Create Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md).
 
     The business continuity plan \(BCP\) is created in the **Draft** state and it’s displayed in the List view. The state and details of the business continuity plan are displayed in the tabs.
 
@@ -72,9 +72,9 @@ Contains the asset types list. For the selected asset type, shows the Item, Type
 
 The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add primary scope** or **Add related asset**.
 
- Add an asset to the scope of the plan and view the primary elements that are defined in the plan template. Beginning with the Xanadu release, the **Asset dependencies** tab now displays detailed information about the assets, replacing the Primary scope and Related asset toggles previously found in the **Scope** tab of the plan record. Additionally, the Type column in the **Scope** tab of the plan records has been renamed to Types column, enabling an asset to be categorized both as a primary scope and a related asset. The BIA column in the **Scope** tab has been updated from a document ID type to a reference type, enabling administrators to select and access the BIA record, update its information, and dot-walk to the plan record. It simplifies the process and saves time and effort. When two business impact analyses have identical asset dependencies, the most recent BIA is acknowledged as the source for these relationships.
+ Add an asset to the scope of the plan and view the primary elements that are defined in the plan template. The **Asset dependencies** tab displays detailed information about the assets. It replaces the Primary scope and Related asset toggles previously found in the **Scope** tab of the plan record. Additionally, the Type column in the **Scope** tab of the plan records has been renamed to Types column. It enables an asset to be categorized both as a primary scope and a related asset. The BIA column in the **Scope** tab has been updated from a document ID type to a reference type. It enables administrators to select and access the BIA record, update its information, and dot-walk to the plan record. It simplifies the process and saves time and effort. When two business impact analyzes have identical asset dependencies, the most recent BIA is acknowledged as the source for these relationships.
 
- When creating a business continuity plan, you can enter details such as the Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier, and BIA link based on the primary asset in the plan record. Updating the dependencies refreshes the asset details in these columns with information from the latest unarchived BIA record. If the asset originates from a downstream BIA, the columns for Recovery Timeframe and Required Data Backup are revised to display the latest data for that asset.
+ When creating a business continuity plan, you can enter details such as RTO, RPO, Recovery Tier, and BIA link based on the primary asset in the plan record. Updating the dependencies refreshes the asset details in these columns with information from the latest unarchived BIA record. If the asset originates from a downstream BIA, the columns for Recovery Timeframe and Required Data Backup are revised to display the latest data for that asset.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ The **source\_table\_fields** configuration applies to the **Scope** tab in the 
 
 </td><td>
 
-**Add primary scope** and **Add related asset** UI actions: You can mark an asset as a primary scope, assign it as a related asset, or link it as a related asset to a primary scope within the plan. This approach simplifies the classification of asset types and enables you to view the relationships directly on the plan record page. It shows which assets are impacted when the primary scope is operationally down, thereby saving time and effort. You can monitor the gaps in the primary and related items.
+**Add primary scope** and **Add related asset** UI actions: You can mark an asset as a primary scope, assign it as a related asset, or link it as a related asset to a primary scope. This approach simplifies the classification of asset types. It enables you to view the relationships directly on the plan record page. It shows which assets are impacted when the primary scope is operationally down, thereby saving time and effort. You can monitor the gaps in the primary and related items.
 
 The example shows that the IAD datacenter is added as both a related asset of a primary scope and as a primary scope itself.
 
@@ -160,9 +160,9 @@ Details of the recovery tasks such as Planned order, Short description, Owner, D
 
 You can create a recovery task within the business continuity plan.\[Omitted image "recovery-tasks-tab.png"\] Alt text: Recovery tasks tab.A cyclic dependency occurs when two or more recovery tasks rely on each other, either directly or indirectly. Beginning with the Xanadu release, it’s possible to help prevent cyclic dependencies in recovery tasks, verifying that the same plan is not triggered multiple times.
 
-\[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.For example, if the recovery task in Plan 1 triggers Plan 2, Plan 2 then triggers Plan 3, and Plan 3 subsequently triggers Plan 1, this sequence creates a cyclic dependency. An error message, similar to the example provided, is displayed to inform users that triggering the plan has resulted in a cyclic dependency and suggests selecting an alternative related plan. Choosing a different related plan in such cases helps avoid these issues during an event.
+\[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.For example, if the recovery task in Plan 1 triggers Plan 2, Plan 2 then triggers Plan 3. Plan 3 subsequently triggers Plan 1. This sequence creates a cyclic dependency. An error message is displayed to inform users that triggering the plan has resulted in a cyclic dependency and suggests selecting an alternative related plan. Choosing a different related plan in such cases helps avoid these issues during an event.
 
-\[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.If plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are established, an error message is displayed, advising the removal of the plan before the record can be saved.
+\[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.If plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are established, an error message is displayed. It advises the removal of the plan before the record can be saved.
 
 \[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.Beginning with the Xanadu release, the recovery tasks are organized based on their dependencies. You have the flexibility to assign dependencies to the tasks, and the application then determines a sequence for these tasks based on the assigned dependencies. If there are tasks without any dependencies linking them, they can be handled simultaneously. You can edit the **sn\_bcp.sync\_order\_calculation\_task\_limit** property to change the count for the recovery task order so that it’s calculated synchronously.
 
@@ -202,15 +202,15 @@ If you have over 500 recovery tasks and the dependencies are updated, the planne
 
     \[Omitted image "finalized-rpo-rto-plan.png"\] Alt text: Finalized RPO.
 
-    When you add a dependency in the **Scope** tab, the system retrieves the most recent Business Impact Analysis \(BIA\) and uses its "Finalized RTO" and "Finalized RPO" values for that specific dependency.
+    When you add a dependency in the **Scope** tab, the system retrieves the most recent Business Impact Analysis \(BIA\). It uses its "Finalized RTO" and "Finalized RPO" values for that specific dependency.
 
     Additionally, values for "Recovery Tier" and "BIA" are also retrieved and displayed in the plan record.
 
-    When you add "Acrobat" as a primary scope to the plan record, the "Finalized RTO" and "Finalized RPO", "Recovery Tier", and "BIA' values are retrieved from the BIA and populated in the columns.
+    When you add "Acrobat" as a primary scope, the "Finalized RTO", "Finalized RPO", "Recovery Tier", and "BIA" values are retrieved from the BIA and populated in the columns.
 
     \[Omitted image "acrobat-rto-plan.png"\] Alt text: Finalized RPO.
 
-    If you've already fetched a dependency and later update the BIA's RTO and RPO values and if the corresponding RTO fields for that dependency are empty, select**Update dependencies** to fetch the latest values from the BIA.
+    If you update the BIA's RTO and RPO values after fetching a dependency, select **Update dependencies** to fetch the latest values. This applies when the corresponding RTO fields are empty.
 
 6.  To add a contributor from the list to the business continuity plan record, launch the **Contributors** panel by selecting the **Contributors** icon in the side-bar.
 
@@ -246,8 +246,8 @@ If you have over 500 recovery tasks and the dependencies are updated, the planne
 14. Select **Delete** to delete the plan.
 
 
--   **[Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md)**  
-Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
+-   **[Create Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md)**  
+Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

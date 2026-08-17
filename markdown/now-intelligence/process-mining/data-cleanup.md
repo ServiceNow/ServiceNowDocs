@@ -213,11 +213,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Minimum records required per transition to initiate work notes analysis for users eligible for Now Assist work notes analysis **promin.work\_notes.min\_records\_with\_llm**
+Minimum records required per transition to initiate work notes analysis for users eligible for work notes analysis using AI **promin.work\_notes.min\_records\_with\_llm**
 
 </td><td>
 
-Set the minimum records required per transition to initiate work notes analysis for users eligible for Now Assist work notes analysis.-   Type: integer
+Set the minimum records required per transition to initiate work notes analysis for users eligible for work notes analysis using AI.-   Type: integer
 -   Default value: 5
 -   Location: Process Mining &gt; **System** &gt; **Properties**
 
@@ -227,7 +227,7 @@ Set the minimum transition records to trigger work notes analysis **promin.workn
 
 </td><td>
 
-Set the minimum transition records to trigger work notes analysis. If the transition records are below the provided value, work notes analysis will not be available.-   Type: integer
+Set the minimum transition records to trigger work notes analysis. If the transition records are less than the provided value, work notes analysis will not be available.-   Type: integer
 -   Default value: 50
 -   Location: Process Mining &gt; **System** &gt; **Properties**
 

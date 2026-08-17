@@ -39,3 +39,5 @@ Role required: admin
 6.  Select **Continue** to move to the next step.
 
 
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+

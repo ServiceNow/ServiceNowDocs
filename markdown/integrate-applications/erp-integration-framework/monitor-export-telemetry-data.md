@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, export, transaction, information, failure, excel, csv, json, pdf]
-breadcrumb: [Monitor transactions, Extracting and transforming data, Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Monitor transactions, Troubleshooting, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Export Zero Copy Connector for ERP transaction data
@@ -43,6 +43,4 @@ Role required: sn\_erp\_integration.erp\_admin
 
 8.  Select **Export**.
 
-
-**Parent Topic:**[Monitor Zero Copy Connector for ERP transactions and logged errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md)
 

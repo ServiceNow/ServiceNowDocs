@@ -1,6 +1,6 @@
 ---
-title: Assessment Metric Type New Record form
-description: Use the Assessment Metric Type New Record form to create an attestation template to create the attestations. Use the template form to create a record.
+title: Assessment Metric Type Record form
+description: Use the Assessment Metric Type Record form to create an attestation template to create the attestations. Use the template form to create a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/attestation-template-reference.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Create and edit the attestation template, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Assessment Metric Type New Record form
+# Assessment Metric Type Record form
 
-Use the Assessment Metric Type New Record form to create an attestation template to create the attestations. Use the template form to create a record.
+Use the Assessment Metric Type Record form to create an attestation template to create the attestations. Use the template form to create a record.
 
-## Assessment Metric Type New Record form
+## Assessment Metric Type Record form
 
 For a description of the field values on the form, see the following table.
 

@@ -34,7 +34,7 @@ Role required: sn\_bcm.recovery\_team\_member
 
 6.  To add any notes to the event task activity, click the Activity related list and add the information in the **Work notes** field.
 
-7.  To update the task to in progress **State** field, click the **Work in Progress** button.
+7.  To update the task to **In progress**, click the **Work in Progress** button.
 
 8.  To close the task, click either **Close Complete** or **Close Incomplete** button.
 

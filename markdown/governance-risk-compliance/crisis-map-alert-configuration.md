@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure search for places in crisis map, Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure search for places in crisis map, Setting up the Crisis Map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configure alert rules to display alerts in crisis map
@@ -16,7 +16,7 @@ Set alert rules to specify conditions under which a feed has to be bubbled up an
 
 ## Before you begin
 
-Role required: Administrator
+Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
@@ -26,7 +26,7 @@ Configuring an alert rule: Define simple conditions to evaluate an alert rule an
 
 -   **Feed condition filters**
 
-    Use these filter conditions to set your rules for a feed alert. Setting filter conditions help you to filter those alerts that are critical to your business locations from the thousands of feeds that come from the feed resources you have subscribed. Business locations can be corporate offices, employee locations, data centers, suppliers, and others.
+    Use these filter conditions to set your rules for a feed alert. Filter conditions help you identify alerts that are critical to your business locations from the thousands of feeds you have subscribed to. Business locations can be corporate offices, employee locations, data centers, suppliers, and others.
 
     \[Omitted image "AlertTriggerCondition.png"\] Alt text: Setting up filter for feed condition
 

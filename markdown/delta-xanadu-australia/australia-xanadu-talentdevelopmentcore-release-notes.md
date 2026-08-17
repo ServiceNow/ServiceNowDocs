@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-talentdevelopmentcore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -130,7 +130,7 @@ Skills related to Credentials \(badge template\) are synced to the user profile.
 
 As a Talent Development user, manage your career growth by creating a growth plan with the help of Now Assist. With Now Assist, you can provide details to craft a prompt that describes your career goals.
 
-**Note:** This feature is available when you have both Talent Development Core and Now Assist for HRSD installed.
+**Note:** This feature is available when you have both Talent Development Core and ServiceNow Otto for HRSD installed.
 
 
 </td></tr><tr><td>

@@ -86,3 +86,5 @@ Option to make the page configuration active.
 
 [Additional requirement form]()
 
+[Differences between Workplace Visitor Management versions]()
+

@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Customer Service Management \(CSM\) in Virtual Agent
-description: Use Now Assist for CSM in Virtual Agent to provide users a content-driven generative AI experience.
+title: Configure ServiceNow Otto for Customer Service Management \(CSM\) in Virtual Agent
+description: Use ServiceNow Otto for CSM in Virtual Agent to provide users a content-driven generative AI experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-now-assist-for-customer-service-management-csm-in-virtual-agent.html
 release: australia
@@ -10,25 +10,25 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure Now Assist for Customer Service Management \(CSM\) in Virtual Agent
+# Configure ServiceNow Otto for Customer Service Management \(CSM\) in Virtual Agent
 
-Use Now Assist for CSM in Virtual Agent to provide users a content-driven generative AI experience.
+Use ServiceNow Otto for CSM in Virtual Agent to provide users a content-driven generative AI experience.
 
 ## Before you begin
 
 Role required: admin
 
-To ensure LLM-based appointment booking works in Customer Service Management, the following apps are required:
+To confirm LLM-based appointment booking works in Customer Service Management, the following apps are required:
 
 ## About this task
 
-There are 6 main steps to configure Now Assist for CSM in Virtual Agent:
+There are 6 main steps to configure ServiceNow Otto for CSM in Virtual Agent:
 
 1.  [Activate Virtual Agent for Customer Service Management \(CSM\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md)
-2.  [Configure Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+2.  [Configure AI in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 3.  [Install Conversational Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md)
 4.  [Enable Walk-up Experience Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.md)
 5.  [Configure API credentials for OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-api-credentials-for-openai.md).
@@ -42,7 +42,7 @@ There are 6 main steps to configure Now Assist for CSM in Virtual Agent:
 
 3.  Select the **Properties** tab.
 
-4.  Locate the check box labeled Now Assist for Virtual Agent under Select LLM assistant to make topic available.
+4.  Locate the check box labeled AI for Virtual Agent under Select LLM assistant to make topic available.
 
 5.  Select **Save**.
 

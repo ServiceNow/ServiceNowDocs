@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/voice-a
 release: australia
 topic_type: reference
 last_updated: "2025-08-14"
-reading_time_minutes: 13
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+reading_time_minutes: 14
+breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # AI voice agent reference
@@ -16,7 +16,7 @@ Reference information for AI voice agents.
 
 ## AI voice agent roles
 
-The following table lists the roles installed with the Voice for Now Assist plugin.
+The following table lists the roles installed with the ServiceNow Otto for Voice Agents plugin.
 
 |Roles|Description|
 |-----|-----------|
@@ -290,7 +290,7 @@ async function getAccessToken(basePath, voiceServiceId) {
 
 // ─── Call context ─────────────────────────────────────────────────────────────
 
-function getCallContext(accessToken, contactData, voiceServiceId) {
+async function getCallContext(accessToken, contactData, voiceServiceId) {
 	const payload = JSON.stringify({
 		call_correlation_id: contactData.ContactId,
 		voice_service_id: voiceServiceId,
@@ -302,16 +302,43 @@ function getCallContext(accessToken, contactData, voiceServiceId) {
 		hostname: process.env.voice_service_host_name,
 		path: process.env.call_context_api_path,
 		method: 'POST',
-		agent: new https.Agent({ rejectUnauthorized: false }),
 		headers: {
 			'Content-Type': 'application/json',
 			'Authorization': `Bearer ${accessToken}`,
 			'Content-Length': Buffer.byteLength(payload)
 		}
 	};
-
+    
 	log('INFO', 'Requesting call context', { contactId: contactData.ContactId, voiceServiceId });
-	return sendHttpsRequest(options, payload);
+
+	const RETRY_DELAYS_MS = [500, 800, 1000];
+	const MAX_RETRIES = RETRY_DELAYS_MS.length;
+
+	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+		try {
+			const response = await sendHttpsRequest(options, payload);
+			const { dnis, tracing_id } = JSON.parse(response);
+
+			if (!dnis) {
+				log('WARN', 'No dnis returned', { attempt, contactId: contactData.ContactId });
+				if (attempt < MAX_RETRIES) {
+					await new Promise(resolve => setTimeout(resolve, RETRY_DELAYS_MS[attempt - 1]));
+					continue;
+				}
+				log('ERROR', 'No dnis returned after all retries', { contactId: contactData.ContactId });
+				return { statusCode: 502, body: JSON.stringify({ error: 'No dnis returned after all retries' }) };
+			}
+
+			return response;
+		} catch (e) {
+			log('ERROR', 'getCallContext request failed', { attempt, error: e.message, contactId: contactData.ContactId });
+			if (attempt < MAX_RETRIES) {
+				await new Promise(resolve => setTimeout(resolve, RETRY_DELAYS_MS[attempt - 1]));
+			} else {
+				return { statusCode: 502, body: JSON.stringify({ error: `getCallContext failed after ${MAX_RETRIES} attempts: ${e.message}` }) };
+			}
+		}
+	}
 }
 
 // ─── Interaction context ──────────────────────────────────────────────────────
@@ -555,7 +582,8 @@ Import the following JSON to create the Voice AI inbound contact flow in Amazon 
           }
         },
         "dynamicMetadata": {
-          "operation": false
+          "operation": false,
+          "voice_service_id": false
         }
       },
       "8f634a38-6e73-45b5-8db9-0235190f33af": {
@@ -778,7 +806,8 @@ Import the following JSON to create the Voice AI inbound contact flow in Amazon 
         "InvocationTimeLimitSeconds": "3",
         "InvocationType": "SYNCHRONOUS",
         "LambdaInvocationAttributes": {
-          "operation": "getInteractionContext"
+          "operation": "getInteractionContext",
+          "voice_service_id": "<voice-service-sys-id>"
         },
         "ResponseValidation": {
           "ResponseType": "STRING_MAP"

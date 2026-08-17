@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Service Portal release notes
@@ -14,6 +14,8 @@ The ServiceNow® Service Portal application enables you to build mobile-friendly
 
 ## Service Portal highlights for the Australia release
 
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto® onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   View the updated user interface for the Service Portal New Organization Chart widget. It includes additional display configurations, such as default and secondary field names.
 -   Use portal-specific authentication methods to allow users access to different portals without having to customize Service Portal authentication.
 -   Enhance Service Portal accessibility navigation for screen readers by using semantic tags.
@@ -68,7 +70,7 @@ Service Portal is a ServiceNow AI Platform feature that is active by default.
 
     Define and automatically generate XML sitemaps to improve the search engine optimization \(SEO\) of your public portal pages.
 
--   **[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)**
+-   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)**
 
     AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 

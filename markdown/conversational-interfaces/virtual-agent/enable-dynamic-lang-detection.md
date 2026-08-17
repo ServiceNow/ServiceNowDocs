@@ -36,7 +36,7 @@ Role required: virtual\_agent\_admin or admin
 
     2.  Turn on the **Dynamic language translation** toggle switch to enable it.
 
-        Turning on this toggle is only applicable to NLU conversations. For more information about turning on translation for LLM conversations, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
+        Turning on this toggle is only applicable to NLU conversations. For more information about turning on translation for LLM conversations, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
 
     3.  Select **View All**.
 

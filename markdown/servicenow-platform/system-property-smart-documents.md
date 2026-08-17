@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Activate the smart documents skill, Configure, Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Activate the smart documents skill, Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # System property for Smart Documents skill

@@ -62,7 +62,7 @@ The following third-party libraries have been tested in the Australia release. L
 
 ## Third-party libraries with limited support
 
--   aws/client-S3
+-   @aws-sdk/client-s3
 -   effect
 -   fast-csv
 -   underscore.string

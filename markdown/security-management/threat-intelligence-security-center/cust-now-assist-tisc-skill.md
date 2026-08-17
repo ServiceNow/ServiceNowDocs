@@ -1,6 +1,6 @@
 ---
-title: Customize the Now Assist for Threat Intelligence Security Center Case summarization skill
-description: Customize the Now Assist for Threat Intelligence Security Center to suit your requirements.
+title: Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills
+description: Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills to suit your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.html
 release: australia
@@ -13,9 +13,9 @@ keywords: [Now Assist TISC, Threat Intelligence Security Center]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Customize the Now Assist for Threat Intelligence Security Center Case summarization skill
+# Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills
 
-Customize the Now Assist for Threat Intelligence Security Center to suit your requirements.
+Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills to suit your requirements.
 
 ## Before you begin
 
@@ -23,13 +23,13 @@ Roles required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Under **Technology**, select **Security Operations**.
 
 3.  In **All features**, select **Threat Intelligence Security Center**.
 
-    The following Now Assist for Threat Intelligence Security Center skills are displayed:
+    The following ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills are displayed:
 
     -   TISC Case Summarization
     -   TISC Report Authoring

@@ -267,9 +267,9 @@ This task is optional.
 
  Set up the Smart Assessment Response Assist skill to generate initial draft responses from vendor documents and previously completed assessments. The skill works at the template category level.
 
- Install Now Assist for Smart Assessment Engine and activate the Smart Assessment Response Assist skill, then configure template categories for document-assisted drafting in TPRM.
+ Install ServiceNow Otto for Smart Assessment Engine \(SAE\) and activate the Smart Assessment Response Assist skill, then configure template categories for document-assisted drafting in TPRM.
 
- For more information, see [Activate smart assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md) and [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
+ For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md) and [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
 
 </td></tr><tr><td>
 

@@ -30,7 +30,7 @@ Activities specific to this flow are described here. For more information on oth
 
 The flow process activities include:
 
--   **[Execution Tracking Begin \(Mail Search\) action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begins-mail-search-activity.md)**  
+-   **[Legacy: Execution Tracking Begin \(Mail Search\) action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begins-mail-search-activity.md)**  
 The Execution Tracking - Begin \(Mail Search\) capability execution action creates an execution tracking record and marks the record state as Started. This action is used by all capability and implementation flows to keep track of their state.
 
 **Parent Topic:**[Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-search-capability.md)

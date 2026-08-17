@@ -82,3 +82,5 @@ Logging level verbosity to use for the application.Default: Info
 </td></tr></tbody>
 </table>    4.  Select **Save** and move to the next step.
 
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+

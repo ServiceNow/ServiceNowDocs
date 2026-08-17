@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, metrics, statistic, kpi, dashboard, log]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Explore, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtaining Zero Copy Connector for ERP metrics and statistics
@@ -45,5 +45,5 @@ The **Historical overview** tab contains all information.
 |Synchronous transactions by entity type|Bar|Synchronous transactions organized by entity type \(for example, read\).|
 |Users grouped by role \(available on the **Recent overview** tab for users with the sn\_erp\_mining.erp\_admin role\)|Donut|Users that have initiated a job, organized by role.|
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

@@ -22,7 +22,7 @@ Role required: sn\_uni\_task.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Universal Tasks** &gt; **Administration** &gt; **Employee Input Task Configuration**.
+1.  Navigate to **All** &gt; **Universal Task** &gt; **Administration** &gt; **Employee Input Task Configuration**.
 
 2.  Click **New**
 

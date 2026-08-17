@@ -32,7 +32,7 @@ For more information on recommended actions, see [Check candidate recommendation
 
 For each candidate, ERP Semantic Mining displays a **Similar candidates** tab, which lists each similar candidate, a numerical score to represent how closely the two candidates are related, and a link to other similar candidates.
 
-Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
+Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from an ERP system, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
 
 **Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-releaseops-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -145,11 +145,11 @@ Leverage Automated Test Framework \(ATF\) code coverage in ReleaseOps. ATF code 
 
 -   **[Generate an update set description](https://www.servicenow.com/docs/access?context=generate-update-set-description&family=australia&ft:locale=en-US)**
 
-If you have a Now Assist for Creator subscription, you can generate update descriptions using the release lifecycle documentation AI agent.
+Generate update descriptions using the release lifecycle documentation AI agent.
 
 -   **[Generate release notes](https://www.servicenow.com/docs/access?context=generate-release-notes&family=australia&ft:locale=en-US)**
 
-If you have a Now Assist for Creator subscription, you can generate release notes using the release lifecycle documentation AI agent.
+Generate release notes using the release lifecycle documentation AI agent.
 
 
 </td></tr></tbody>
@@ -491,7 +491,7 @@ Australia
 -   Use ReleaseOps guided setup process to simplify initial configuration.
 -   Add custom, flexible, and manual tasks to your ReleaseOps deployments with runbook tasks.
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
--   If you have a Now Assist for Creator subscription, you can use generate update set descriptions and release notes using the release lifecycle documentation AI agent.
+-   Generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
  See [Release Ops](https://www.servicenow.com/docs/access?context=releaseops-landing&family=australia&ft:locale=en-US) for more information.
 

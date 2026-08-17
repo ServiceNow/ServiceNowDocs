@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: With the Now Assist for Telecommunications, Media and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, internal plays, customer plays, successive initiatives, tests, risk signal and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
+title: Exploring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: With the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, and internal plays. Agents can also summarize customer plays, successive initiatives, tests, risk signals, and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.html
 release: australia
@@ -9,31 +9,31 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Exploring Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Exploring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-With the Now Assist for Telecommunications, Media and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, internal plays, customer plays, successive initiatives, tests, risk signal and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
+With the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, and internal plays. Agents can also summarize customer plays, successive initiatives, tests, risk signals, and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 
-## Overview of Now Assist for TMT
+## Overview of ServiceNow Otto for TMT
 
 The following generative AI capabilities are available:
 
--   **Telecommunications Now Assist capabilities**
+-   **Telecommunications ServiceNow Otto capabilities**
     -   The Telecom Customer 360 insights generation automatically generates AI-powered insights for a customer or consumer account.
     -   A service problem case sentiment analysis enables you to understand the customer sentiment on a service problem case.
     -   A comprehensive summary of linked records enables you to generate a summary of linked records of an escalated complaint in the Alternative Dispute Resolution \(ADR\) case.
     -   A deadlock letter draft generation enables you to generate the deadlock letter for an ADR case. If the customer rejects the resolution plan, you can share the deadlock letter with the customer.
     -   A resolution notes generation enables the agent to create a resolution plan for an escalated complaint in the ADR case record.
     -   A service problem case summary enables an agent to gather the case context on long-running or complex cases. Because these cases can contain several details, including conversation with customers or other agents, generating a summary can help agents to get a quicker understanding of the case.
-    -   The case resolution notes can help an agent to wrap up cases faster and provide the context about the case resolution to the other agents who might encounter similar issues.
+    -   The case resolution notes can help an agent to wrap up cases faster. They provide context about the case resolution to other agents who might encounter similar issues.
     -   A test summary assists an agent with obtaining the test results that were generated after executing the test runs. It provides a high-level overview of the test run in a clear format.
     -   Knowledge generation can help an agent to streamline content creation. An agent can automatically generate knowledge articles by using the relevant data from the case record after proposing a resolution or closing the case. By not having to generate knowledge articles manually, this feature can save your agents valuable time and effort.
     -   The customer service summary skill provides you with a concise summary of a sold product, including the current situation, root cause indicators, critical actions, and resolution details.
     -   Remote Hands Agents can generate a case summary from both the Remote Hands Case table and the CSM/FSM Configurable Workspace using the Summarize option. The summary provides a consolidated overview of the case, including key case details and related case summary for quick understanding.
--   **Technology Now Assist capabilities**
-    -   A draft closure notes for a risk signal automatically generates closure notes and closes eligible risk signals at the end of each day based on the status of their associated risk solutions.
+-   **Technology ServiceNow Otto capabilities**
+    -   Draft closure notes for risk signals automatically generate and close eligible signals daily based on their associated risk solution status.
     -   A lookup similar engagements skill to automatically generate a product adoption roadmap based on engagement data and insights from similar engagements.
     -   A renewal insight engine skill to analyze the renewal likelihood and expansion potential of an engagement or contract and generate recommended actions.
     -   An account onboarding case summary enables an agent to gather case context on onboarding cases. Agents can generate a summary to gain an understanding of any stage of the onboarding cycle.
@@ -48,13 +48,11 @@ The following generative AI capabilities are available:
 
 ## Skills
 
-The Now Assist for TMT application includes the following generative AI skills:
+The ServiceNow Otto for TMT application includes the following generative AI skills:
 
 -   **Service Problem Case sentiment analysis**
 
     Sentiment analysis helps agents to identify the most current sentiment on the service problem cases. This skill enables you to select the relevant linked records for ADR case record.
-
-    \[Omitted image "now-assist-sentiment-analysis.png"\] Alt text: Customer sentiment view on a service problem case.
 
 
 -   **Comprehensive Summary of Linked Records**
@@ -66,8 +64,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Resolution steps completed
     -   Outstanding gaps
     -   Recommended direction
-    \[Omitted image "now-assist-comp-summary-linked-records.png"\] Alt text: ADR Complaint summary by Now Assist view.
-
 
 -   **Deadlock letter draft generation**
 
@@ -78,8 +74,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Chronological sequence of events
     -   Identified findings
     -   Resolution steps completed
-    \[Omitted image "now-assit-deadlock-letter.png"\] Alt text: Deadlock letter draft generation view.
-
 
 -   **Resolution notes generation for ADR**
 
@@ -88,17 +82,15 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Issue
     -   Cause
     -   Resolution steps
-    \[Omitted image "now-assit-propose-resolution-adr.png"\] Alt text: Resolution notes view in an ADR case record.
-
 
 -   **Customer service summary**
 
-    Summarize the service details mentioning the current situation, any critical actions to be taken and find the root cause indicators using the knowledge graph and service summary skill.\[Omitted image "now-assist-generate-summary.png"\] Alt text: Generate service summary.
+    Summarize the service details mentioning the current situation, any critical actions to be taken and find the root cause indicators using the knowledge graph and service summary skill.
 
 
 -   **Service Problem Case summarization**
 
-    Generates a summary of a service problem case, including the issue and the actions taken. An agent can generate a summary of a case to understand the case context, refresh the summary so that it includes the latest updates to the case, and post the summary to the case work notes.
+    Generates a summary of a service problem case, including the issue and the actions taken. An agent can generate a summary of a case to understand the case context. The agent can refresh the summary to include the latest updates and post the summary to the case work notes.
 
     The service problem case summarization skill generates a service problem case summary and displays it previous the Case highlights card. The summary includes the information that the agent or customer enters in the following service problem case record fields:
 
@@ -123,25 +115,19 @@ The Now Assist for TMT application includes the following generative AI skills:
         -   Short description
         -   Work notes
         -   state
-    \[Omitted image "serviceproblemcase-summary.png"\] Alt text: Service problem case summary.
-
 -   **Resolution notes generation**
 
-    Generates resolution notes for a service problem case, proposes the resolution to the customer, and adds the information to the service problem case record.\[Omitted image "resolution-notes-summary.png"\] Alt text: Resolution notes summary.
+    Generates resolution notes for a service problem case, proposes the resolution to the customer, and adds the information to the service problem case record.
 
 -   **Test summarization**
 
     Generates a test run summary after the test is executed. It includes the main points covered during the test execution, including the test output, test interpretation, and other defined test parameters. An agent can generate a test summary of the executed tests to identify the root cause of the problem.
 
-    \[Omitted image "test-summary.png"\] Alt text: Test summary.
-
 -   **Knowledge generation**
 
     Generates a knowledge article from a case after proposing a resolution or closing the case.
 
-    The knowledge generation skill displays a pop-up window that an agent can use to generate a knowledge article that is based on similar cases and review it before publishing the knowledge article draft.
-
-    \[Omitted image "serviceproblemcase-knowledge-article.png"\] Alt text: knowledge article pop-up window.
+    The knowledge generation skill displays a pop-up window that an agent can use to generate a knowledge article based on similar cases. Agents can review the draft before publishing.
 
 -   **Account onboarding case summarization**
 
@@ -154,8 +140,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Development &amp; Automation
     -   Testing &amp; Training
     -   Go-live &amp; Post-Support
-    \[Omitted image "accountonboarding-summary.png"\] Alt text: Account onboarding case summary.
-
 -   **Engagement summarization**
 
     Generates the summary for an engagement including preconfigured parameters such as risks, initiatives, outcomes, cases, and internal plays. Customer success managers can quickly get up to speed on all activities and the overall engagement with a high-level summary of the key points of information.
@@ -165,8 +149,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Title
     -   Description
     -   Work notes
-    \[Omitted image "engagement-summary.png"\] Alt text: Engagement summary.
-
 -   **Touchpoint summarization**
 
     Generates a summary of the different touchpoints in the engagement lifecycle. Customer success managers can get a quick summary of all meetings and emails exchanged between the different stakeholders and any follow up activities.
@@ -177,8 +159,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Description
     -   Work notes
     -   Additional comments
-    \[Omitted image "touchpoint-summary.png"\] Alt text: Touchpoint summary.
-
 -   **Transform mapping assist**
 
     Uses the NOW Large language model \(LLM\) to enable Service Exchange providers to automatically generate a transform mapping between provider and consumer tables. This skill enables providers to streamline the transformation mapping process by reducing errors and improving overall efficiency.
@@ -192,8 +172,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Overview
     -   Progress updates
     -   Next steps
-    \[Omitted image "customer-play-summary.jpg"\] Alt text: Customer play summary
-
 -   **Internal play summarization**
 
     Generates a summary of the internal play and includes the record details and associated internal play tasks.
@@ -203,8 +181,6 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Overview
     -   Progress updates
     -   Next steps
-    \[Omitted image "internal-play-summary.jpg"\] Alt text: Internal play summary
-
 -   **Success initiative summarization**
 
     Generates a summary of the success initiative and includes the record details and associated success tasks.
@@ -214,11 +190,9 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Overview
     -   Progress updates
     -   Next steps
-    \[Omitted image "success-init-summary.jpg"\] Alt text: Success initiative summary
-
 -   **Analyze metric data trend**
 
-    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
+    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
 
 -   **Risk signal and issues summarization**
 
@@ -229,20 +203,16 @@ The Now Assist for TMT application includes the following generative AI skills:
     -   Overview
     -   Progress update
     -   Next steps
-    \[Omitted image "now-assist-risk-signal-issue.png"\] Alt text: risk signal and issues summarization.
 
+## ServiceNow Otto panel in CSM/FSM Configurable Workspace
 
-## Now Assist panel in CSM/FSM Configurable Workspace
+An agent can use the ServiceNow Otto panel in CSM/FSM Configurable Workspace.
 
-An agent can use the Now Assist panel in CSM/FSM Configurable Workspace.
+This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
-This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+## ServiceNow Otto in Remote Hands Request management application
 
-## Now Assist in Remote Hands Request management application
-
-Remote Hands Request Summarization is an Now Assist capability that provides a contextual overview of a Remote Hands case by combining current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case by selecting the **Summarize** option from either the Remote Hands Case table or the CSM/FSM Configurable Workspace.
-
-\[Omitted image "remote-hands-summary.png"\] Alt text: Image displays the example for Remote hands case summary
+Remote Hands Request Summarization is an ServiceNow Otto capability that provides a contextual overview of a Remote Hands case. It combines current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case. Select the **Summarize** option from either the Remote Hands Case table or the CSM/FSM Configurable Workspace.
 
 The comprehensive summary includes the following sections:
 
@@ -253,12 +223,10 @@ The comprehensive summary includes the following sections:
 -   Case Issue: The Case Issue displays the Short Description of the related case
 -   Case Resolution: The Case Resolution displays the Resolution Notes recorded in the related case
 
-\[Omitted image "remote-hands-summary-details.png"\] Alt text: Image displays the components in the Remote Hands Summary.
-
 **Related topics**  
 
 
-[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

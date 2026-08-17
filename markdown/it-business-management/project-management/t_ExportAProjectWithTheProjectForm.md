@@ -30,15 +30,15 @@ The option for exporting the project data in MPP and CSV format is available whe
 
 1.  Export the project data from any of the following options.
 
-<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d310272e86">
+<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d318870e86">
 
 Location
 
-</th><th align="left" id="d310272e89">
+</th><th align="left" id="d318870e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d310272e95">
+</th></tr></thead><tbody><tr><td id="d318870e95">
 
 **From the Export module**
 
@@ -48,7 +48,7 @@ Steps
 2.  Select a project From the Project to export list and select **Export**.
 
 
-</td></tr><tr><td id="d310272e131">
+</td></tr><tr><td id="d318870e131">
 
 **From the Project form**
 
@@ -59,7 +59,7 @@ Steps
 3.  In the Project form, select **Export to MS Project** from the context menu.
 
 
-</td></tr><tr><td id="d310272e170">
+</td></tr><tr><td id="d318870e170">
 
 **From the Planning Console**
 

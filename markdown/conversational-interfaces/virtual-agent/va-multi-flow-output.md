@@ -82,7 +82,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Not supported|Not applicable|
+|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
 |Workplace|Supported|None|
@@ -95,7 +95,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ## Example Multi-response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 

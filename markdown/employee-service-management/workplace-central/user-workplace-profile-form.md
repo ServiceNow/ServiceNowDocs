@@ -110,3 +110,5 @@ Location privacy setting for the workplace profile. This field is automatically 
 
 [Neighborhood User Assignment Rule form]()
 
+[Resolving custom variant issues in Workplace Central]()
+

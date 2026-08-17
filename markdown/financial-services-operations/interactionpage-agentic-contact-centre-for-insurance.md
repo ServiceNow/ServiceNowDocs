@@ -19,11 +19,11 @@ The Interaction page opens automatically when a CSR accepts a customer interacti
 
 ## Live transcript and AI-driven assistance
 
-During an active voice interaction, a live transcript of the conversation is captured. The transcript serves as the primary input for the AI agent that powers the Now Assist panel.
+During an active voice interaction, a live transcript of the conversation is captured. The transcript serves as the primary input for the AI agent.
 
-As the conversation progresses, the AI agent processes the customer's request, and displays relevant information and recommended next steps in the Now Assist panel when the CSR requests recommendations . The AI agent queries customer records, Knowledge Graph, and your configured knowledge bases.
+As the conversation progresses, the AI agent processes the customer's request, and displays relevant information and recommended next steps in the ServiceNow Otto panel when the CSR requests recommendations . The AI agent queries customer records, Knowledge Graph, and your configured knowledge bases.
 
-CSRs can also type their own questions directly into the Now Assist panel at any time. The panel displays responses from the AI agent in a structured format that may include insights, recommendations, and guidance based on the content and sentiment of the conversation.
+CSRs can also type their own questions directly into the ServiceNow Otto panel at any time. The panel displays responses from the AI agent in a structured format that may include insights, recommendations, and guidance based on the content and sentiment of the conversation.
 
 For more information, see [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md).
 
@@ -40,7 +40,7 @@ The customer summary includes:
 
 The customer summary is not visible when no account or consumer has been associated with the interaction.
 
-For more information, see  .
+For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md).
 
 ## Interaction form
 
@@ -81,17 +81,17 @@ The Activity stream tab displays the activity stream for the interaction record,
 
 ## Wrap-up
 
-The CSR wraps up the interaction when it concludes. When wrap-up codes are set up and the Wrap Up Completion Now Assist skill is configured, the CSR can generate an AI-powered chat summary. This summary provides a record of what is discussed and any action items in the interaction.
+The CSR wraps up the interaction when it concludes. When wrap-up codes are set up and the Wrap Up Completion ServiceNow Otto skill is configured, the CSR can generate an AI-powered chat summary. This summary provides a record of what is discussed and any action items in the interaction.
 
 For more information, see the following topics:
 
 -   [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
--   [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+-   
 
 **Related topics**  
 
 
-[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[bundle-csm.csm-workspaces-configure]
 
 [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md)
 

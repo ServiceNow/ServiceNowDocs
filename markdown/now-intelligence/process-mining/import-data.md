@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with external datasets, Use, Process Mining, Platform Analytics]
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Import data into the audit table
@@ -23,6 +23,8 @@ Import external dataset into the audit table to start working with the data in P
 You can import using ServiceNow Integration Hub or any other application. This section describes how to import data using ServiceNow Integration Hub.
 
 Role required: sn\_process\_mining\_admin
+
+**Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
 
 ## Procedure
 
@@ -40,7 +42,7 @@ Role required: sn\_process\_mining\_admin
 
 4.  On the NEW DATA IMPORT INTEGRATION page fill the fields.
 
-    **Note:** Ensure to specify `Process Mining for external data` in the **Application** field.
+    **Note:** Specify `Process Mining for external data` in the **Application** field.
 
     \[Omitted image "ext-data-inthub1.png"\] Alt text: New data import integration
 
@@ -51,7 +53,7 @@ Role required: sn\_process\_mining\_admin
     1.  Select **File** as a source type from the drop-down list.
     2.  Select either Excel or CSV depending on how your data is stored.
 
-        **Note:** It is good if you have the date formatted as jjjj-mm-dd uu:mm:ss. This reduces the transformation time in Integration Hub. Also, it is recommended that you use a CSV file for ease of import.
+        **Note:** It is good if you have the date formatted as jjjj-mm-dd uu:mm:ss. This reduces the transformation time in Integration Hub. Also, it's recommended that you use a CSV file for ease of import.
 
 7.  You must now map source to target.
 
@@ -64,6 +66,4 @@ Role required: sn\_process\_mining\_admin
 
     For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub-imports.md).
 
-
-**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
 

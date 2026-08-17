@@ -7,6 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [merge phases, merge sub-phases, cancel phase, recall campaign phase, Manufacturing Commercial Operations]
 breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
@@ -26,15 +27,15 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 3.  Select **Merge and Cancel phase**.
 
-    All the active campaign phases that are in either the Draft state or Pre-launched state can be merged.
+    All the active campaign phases that are in either the Draft state or the Pre-launched state can be merged.
 
-    The Merge assets to another phase &amp; cancel current phase window displays.
+    The Merge assets to another phase and cancel current phase window displays.
 
-4.  From the list, select **Move assets to phase or sub-phase**.
+4.  Select **Move assets to phase or sub-phase** from the list.
 
 5.  Select **OK**.
 
-    **Note:** Only phases or sub-phases without child phase can be merged.
+    **Note:** Only phases or sub-phases without a child phase can be merged.
 
 
 ## Result

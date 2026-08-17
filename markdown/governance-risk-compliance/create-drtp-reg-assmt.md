@@ -49,7 +49,7 @@ It's required that you review your contracts and third parties annually. You can
 
 4.  Set up the digital resilience information for the assessments on the form.
 
-    For more information, see [Create New Assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-asmt-ict-service.md).
+    For more information, see [Create assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-asmt-ict-service.md).
 
 5.  Select **Save**.
 
@@ -62,15 +62,15 @@ It's required that you review your contracts and third parties annually. You can
 
 7.  To export the record, select **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d371400e241">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d371745e241">
 
 Step
 
-</th><th align="left" id="d371400e244">
+</th><th align="left" id="d371745e244">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d371400e250">
+</th></tr></thead><tbody><tr><td id="d371745e250">
 
 **Select __File Type__.**
 
@@ -82,7 +82,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d371400e280">
+</td></tr><tr><td id="d371745e280">
 
 **Select __Delivery Type__.**
 
@@ -92,7 +92,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d371400e302">
+</td></tr><tr><td id="d371745e302">
 
 **Select __Export.__**
 
@@ -111,8 +111,8 @@ Once all details are captured, you can perform the following tasks:
 -   Download the information using the Microsoft Excel download feature
 -   Upload requests as needed
 
--   **[Create New Assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-asmt-ict-service.md)**  
-On the Create New Assessment of the ICT service form, fill in the fields.
+-   **[Create assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-asmt-ict-service.md)**  
+On the Create assessment of the ICT service form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

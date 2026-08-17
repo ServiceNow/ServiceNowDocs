@@ -32,7 +32,7 @@ The channel partners can view a detailed price breakdown for each quote line ite
 
 3.  On the Quote New record form, fill in the fields.
 
-    To learn more about the fields on the form, see .
+    To learn more about the fields on the form, see [Quote Experience in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md).
 
 4.  Select **Submit**.
 

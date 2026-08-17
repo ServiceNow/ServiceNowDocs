@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Activity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Activity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install AI sales activity association
@@ -27,7 +27,7 @@ Role required: admin
 The following store applications and plugins are installed as a dependency with AI sales activity association:
 
 -   Opportunity Management \[com.sn\_l2c\_oppty\_mgmt\]​
--   Now Assist for Platform \[com.sn.now.platform\]
+-   ServiceNow Otto for Platform \[com.sn.now.platform\]
 -   User Mailbox Integration \[com.glide.email.user\_mailbox.integration\]
 -   CRM Outlook Add-in \[com.sn\_crm\_outlook\_addin\]
 -   Notifications Email Agents \[com.sn\_notif\_agents\]

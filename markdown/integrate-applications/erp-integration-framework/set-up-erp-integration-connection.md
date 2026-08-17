@@ -1,6 +1,6 @@
 ---
-title: Connect to a system of record from Zero Copy Connector for ERP
-description: Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to a system of record, such as SAP, directly or using a load balancer to enable access to the ERP system.
+title: Connect to SAP with RFC or BAPI
+description: Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to SAP directly or using a load balancer to enable access to the ERP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, configure, system, load, balancer, connect, credential]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Connect to a system of record from Zero Copy Connector for ERP
+# Connect to SAP with RFC or BAPI
 
-Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to a system of record, such as SAP, directly or using a load balancer to enable access to the ERP system.
+Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to SAP directly or using a load balancer to enable access to the ERP system.
 
 ## Before you begin
 
@@ -26,7 +26,13 @@ Identify an existing connection to use or create a connection. For more informat
 Note the following:
 
 -   You must specify a connection and login credential to be used simultaneously. That is, the connection you configure uses the defined login credentials for the connection.
--   The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
+-   The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the ERP system.
+
+The following SAP systems are supported:
+
+-   SAP ECC
+-   SAP S/4HANA
+-   SAP S/4HANA Cloud
 
 ## About this task
 
@@ -48,6 +54,4 @@ Note the following:
 
     For more information, see [Zero Copy Connector for ERP new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

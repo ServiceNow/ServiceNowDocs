@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Mobile AI Voice Agent

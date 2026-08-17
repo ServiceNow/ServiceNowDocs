@@ -95,7 +95,7 @@ MID Server
 
 </td><td>
 
-REST actions run on the MID Server to get the access token from Altiplano, retrieve the list of devices for discovery, and get full device details \(OLT, ONU, physical, and logical\).
+REST actions run on the MID Server to get the access token, retrieve the device list, and get device details.
 
 </td></tr><tr><td>
 

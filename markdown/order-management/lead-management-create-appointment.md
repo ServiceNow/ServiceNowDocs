@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add lead tasks, Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Add lead tasks, Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create appointments for lead tasks
@@ -44,7 +44,7 @@ You can create appointments only after creating a lead task. To create a lead ta
 **Related topics**  
 
 
-[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
 
 [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

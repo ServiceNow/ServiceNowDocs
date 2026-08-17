@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/servicen
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -197,139 +197,17 @@ Catalog pages show relationships between the following data asset types:
 |View Table Mapping|Belongs to a View \(via has view table mapping\), Maps To Table \(via maps to table\), Selects data from Table|
 |Data Product|Contained within Application Scope, Has Data Content \(contains Tables and Views\)|
 |Data Interface|Contained within Application Scope, Has Fields, May extend another Table \(via extends table\), May be extended by child Tables|
+|Vault Data Classification|May have Parent Classification \(via parent classification\), May have Child Classifications, Classifies Fields and Tables \(via has classification\)|
+|Dashboard|Contained within Application Scope, Tabs contained in the Dashboard|
+|Dashboard Tab|Dashboard the Tab is contained within|
+|Data Collection Job|Contained within Application Scope, Indicators the Data Collection Job collects|
+|Indicator|Contained within Application Scope, Data Collection Jobs that collect this Indicator|
+|Indicator Source|Contained within Application Scope|
+|Visualization|Contained within Application Scope|
+|Breakdown|Contained within Application Scope|
+|Breakdown Source|Contained within Application Scope|
 
 ## Lineage for ServiceNow
-
-The following lineage information is collected by the ServiceNow collector.
-
-<table id="table_kzr_31y_13c"><thead><tr><th>
-
-Object
-
-</th><th>
-
-Lineage available
-
-</th></tr></thead><tbody><tr><td>
-
-View
-
-</td><td>
-
-View Table Mappings show: -   JOIN conditions and WHERE clauses
--   Tables from which the view selects data
--   Variable prefixes and mapping order
-
-</td></tr><tr><td>
-
-Table
-
-</td><td>
-
-Table inheritance lineage: -   Parent table \(via extended table relationship\)
--   Child tables that extend this table
-
-</td></tr><tr><td>
-
-Field
-
-</td><td>
-
-Reference field lineage: -   Fields in other tables that this field references
--   Indicates foreign key relationships
-
-</td></tr><tr><td>
-
-Data Fabric Table
-
-</td><td>
-
-External data source lineage. External DatabaseTable from which data is virtualized \(via prov:wasDerivedFrom\)
-
-</td></tr><tr><td>
-
-Data Interfaces
-
-</td><td>
-
-Table inheritance lineage: -   Parent table \(via extended table relationship\)
--   Child tables that extend this table
--   The Tables whose structure and attributes this Data Interface governs
-
-</td></tr><tr><td>
-
-Vault Data Classification
-
-</td><td>
-
-May have Parent Classification \(via parent classification\), May have Child Classifications, Classifies Fields and Tables \(via has classification\)
-
-</td></tr><tr><td>
-
-Dashboard
-
-</td><td>
-
-Contained within Application Scope, Tabs contained in the Dashboard
-
-</td></tr><tr><td>
-
-Dashboard Tab
-
-</td><td>
-
-Dashboard the Tab is contained within
-
-</td></tr><tr><td>
-
-Data Collection Job
-
-</td><td>
-
-Contained within Application Scope, Indicators the Data Collection Job collects
-
-</td></tr><tr><td>
-
-Indicator
-
-</td><td>
-
-Contained within Application Scope, Data Collection Jobs that collect this Indicator
-
-</td></tr><tr><td>
-
-Indicator Source
-
-</td><td>
-
-Contained within Application Scope
-
-</td></tr><tr><td>
-
-Visualization
-
-</td><td>
-
-Contained within Application Scope
-
-</td></tr><tr><td>
-
-Breakdown
-
-</td><td>
-
-Contained within Application Scope
-
-</td></tr><tr><td>
-
-Breakdown Source
-
-</td><td>
-
-Contained within Application Scope
-
-</td></tr></tbody>
-</table>## Lineage for ServiceNow
 
 The following lineage information is collected by the ServiceNow collector:
 

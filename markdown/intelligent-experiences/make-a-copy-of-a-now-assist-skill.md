@@ -1,19 +1,19 @@
 ---
-title: Make a copy of a Now Assist skill
-description: The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.
+title: Make a copy of AI skill
+description: The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings. Configure the skill to fit your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Copy, Now Assist, skill, admin, features]
-breadcrumb: [Using Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Make a copy of a Now Assist skill
+# Make a copy of AI skill
 
-The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.
+The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings. Configure the skill to fit your business needs.
 
 ## Before you begin
 
@@ -21,17 +21,17 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-The skills that come with the Now Assist applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the Now Assist Admin console or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills.
+The skills that come with the generative AI applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the AI Admin Hub console or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills.
 
-**Note:** The 'Make a copy' feature is not available for all Now Assist skills.
+**Note:** The 'Make a copy' feature is not available for all AI skills.
 
 **Note:** In a default scenario, only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Features** tab.
+    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to copy, such as Technology or Customer.
 
@@ -54,8 +54,8 @@ Continue the steps in the guided setup to activate the skill. For more informati
 
 If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
--   **[Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
-Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
+-   **[Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
+Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields and customize the prompt output for copies of the record summarization skills.
 
-**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
 

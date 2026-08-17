@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Configure AI Control Tower

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/summarize-quot
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for CPQ, Sales Customer Relationship Management]
+reading_time_minutes: 2
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Summarize a quote using quote summarization
@@ -17,6 +17,15 @@ Summarize a quote to generate a consolidated report of a quote record to quickly
 ## Before you begin
 
 Role required: sn\_sales\_common.sales\_agent
+
+## About this task
+
+The AI summarization of quotes provides sales teams and stakeholders with fast, reliable insight into complex quote information. AI summaries help:
+
+-   Deliver fast, consistent insight into key quote details.
+-   Reduce manual review and speed up quote turnaround.
+-   Surface issues early to prevent deal delays.
+-   Keep teams aligned and helps move deals forward.
 
 ## Procedure
 
@@ -34,15 +43,15 @@ Role required: sn\_sales\_common.sales\_agent
 
 4.  When you're finished summarizing a quote, you can save it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d135249e122">
+<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d136037e142">
 
 Option
 
-</th><th align="left" id="d135249e125">
+</th><th align="left" id="d136037e145">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d135249e131">
+</th></tr></thead><tbody><tr><td id="d136037e151">
 
 **Save the summary information by adding it to the work notes**
 
@@ -53,7 +62,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d135249e158">
+</td></tr><tr><td id="d136037e178">
 
 **Expand or collapse the summary**
 
@@ -61,7 +70,7 @@ Procedure
 
 Select the expand card icon \[Omitted image "icon-expand.png"\] Alt text: or the collapse card icon \[Omitted image "icon-collapse.png"\] Alt text: to see more details or fewer summary details.
 
-</td></tr><tr><td id="d135249e173">
+</td></tr><tr><td id="d136037e193">
 
 **Provide feedback for the summary**
 
@@ -69,7 +78,7 @@ Select the expand card icon \[Omitted image "icon-expand.png"\] Alt text: or the
 
 If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d135249e190">
+</td></tr><tr><td id="d136037e210">
 
 **Copy the quote summary**
 
@@ -77,7 +86,7 @@ If you think that the summary was helpful, select the helpful icon \[Omitted ima
 
 Select the copy to clipboard icon \[Omitted image "icon-copy.png"\] Alt text: to use the quote summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d135249e203">
+</td></tr><tr><td id="d136037e223">
 
 **View the information about the quote summary**
 
@@ -87,3 +96,5 @@ If you want to check details about the summary, select the more info icon \[Omit
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+

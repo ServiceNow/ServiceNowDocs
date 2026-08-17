@@ -1,6 +1,6 @@
 ---
 title: Unified sales and order management
-description: Sales CRM for Telecommunications consolidates product catalog, sales, and order fulfillment on one platform, carrying quote line items through to fulfilled services without intermediate transformation and decomposing customer orders into domain orders using catalog-defined rules.
+description: Sales CRM for Telecommunications consolidates product catalog, sales, and order fulfillment on one platform. It carries quote line items through to fulfilled services and decomposes customer orders into domain orders using catalog-defined rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/exploring-unified-sales-order-management-somt.html
 release: australia
@@ -13,11 +13,11 @@ breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunicati
 
 # Unified sales and order management
 
-Sales CRM for Telecommunications consolidates product catalog, sales, and order fulfillment on one platform, carrying quote line items through to fulfilled services without intermediate transformation and decomposing customer orders into domain orders using catalog-defined rules.
+Sales CRM for Telecommunications consolidates product catalog, sales, and order fulfillment on one platform. It carries quote line items through to fulfilled services and decomposes customer orders into domain orders using catalog-defined rules.
 
-The Unified Sales and Order Management \(USAM\) platform in Sales CRM for Telecommunications brings product catalog, sales, and order fulfillment together in one system. A unified Product, Service, and Resource \(PSR\) catalog serves as the single source of truth for all definitions across sales and fulfillment, removing the need to synchronize data between separate systems.
+The Unified Sales and Order Management \(USAM\) platform in Sales CRM for Telecommunications brings product catalog, sales, and order fulfillment together in one system. A unified Product, Service, and Resource \(PSR\) catalog serves as the single source of truth for all definitions across sales and fulfillment. This removes the need to synchronize data between separate systems.
 
-When a customer accepts a quote, the platform creates a customer order directly — no intermediate transformation required. Quote line items carry forward to order line items, preserving commercial terms, pricing, and configuration through fulfillment. After approval, the platform decomposes the order into domain orders and routes them to the appropriate fulfillment system. The flow covers the full customer journey from lead capture through service activation, supporting inflight changes, product inventory management, and multi-domain orchestration aligned to TM Forum \(TMF\) Open API standards.
+When a customer accepts a quote, the platform creates a customer order directly no intermediate transformation required. Quote line items carry forward to order line items, preserving commercial terms, pricing, and configuration through fulfillment. After approval, the platform decomposes the order into domain orders and routes them to the appropriate fulfillment system. The flow covers the full customer journey from lead capture through service activation. It supports inflight changes, product inventory management, and multi-domain orchestration aligned to TM Forum \(TMF\) Open API standards.
 
 ## Benefits
 
@@ -27,7 +27,7 @@ When a customer accepts a quote, the platform creates a customer order directly 
 -   Catalog-defined decomposition rules generate domain orders automatically after approval, removing manual order construction and reducing coordination overhead between teams.
 -   A customer order decomposes into product orders, service orders, and resource orders, routed to the appropriate fulfillment system in parallel or in sequence using catalog-defined rules.
 -   The platform instantiates product inventory from the same PSR catalog definition used to configure the quote, and updates inventory state automatically through upgrades, downgrades, suspensions, and disconnects.
--   Domain orders align to TMF622, TMF641, and TMF637 Open API standards, with TMF652 support planned, so third-party integrations don't require redesign when order types or fulfillment systems change.
+-   Domain orders align to TMF622, TMF641, and TMF637 Open API standards, so third-party integrations don't require redesign when order types or fulfillment systems change.
 -   Sales and operations teams track the full order lifecycle on one platform, from quote line item through domain orders and fulfillment tasks, reducing coordination overhead and escalations.
 
 ## Features
@@ -39,9 +39,9 @@ When a customer accepts a quote, the platform creates a customer order directly 
 |Inflight order changes|Supports quantity, configuration, and product type modifications at any stage of the order lifecycle without reconstructing the order. Applies to upgrade, downgrade, suspend, resume, and disconnect order types.|
 |Catalog-driven order decomposition|Decomposes a customer order into product orders, service orders, and resource orders using specification relationships and decomposition rules in the PSR catalog. No manual order construction is required.|
 |Multi-domain order routing|Routes domain orders to the appropriate fulfillment system based on catalog-defined rules, supporting parallel and sequential execution with dependency management across order line items.|
-|Product inventory management|Instantiates product inventory from the same PSR catalog definition used to configure the quote and updates inventory state automatically as the order progresses through upgrades, downgrades, suspensions, and disconnects.|
-|TMF standards alignment|Supports TMF622 \(Product Order\), TMF641 \(Service Order\), TMF637 \(Product Inventory\), and planned TMF652 \(Resource Order\) for standards-based integration with third-party systems without redesign.|
-|End-to-end order visibility|Tracks the full order lifecycle from quote line item through domain orders and fulfillment tasks on one platform, giving sales and operations teams a shared view of order status, inventory state, and service activation.|
+|Product inventory management|Instantiates product inventory from the same PSR catalog definition used to configure the quote and updates inventory state automatically as orders progress.|
+|TMF standards alignment|Supports TMF622 \(Product Order\), TMF641 \(Service Order\), TMF637 \(Product Inventory\) for standards-based integration with third-party systems without redesign.|
+|End-to-end order visibility|Tracks the full order lifecycle from quote line item through domain orders and fulfillment tasks on one platform. Sales and operations teams share a view of order status, inventory state, and service activation.|
 
 ## PSR catalog components
 

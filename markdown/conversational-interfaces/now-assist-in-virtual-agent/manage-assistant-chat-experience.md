@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 7
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Manage an assistant chat experience
@@ -34,7 +34,7 @@ A standard chat preview pane is shown for the default greeting topic and the def
 
 Fallbacks appear in the preview pane when you toggle individual or all fallbacks on.
 
-**Note:** Fallbacks aren't supported for Now Assist - Developer assistant.
+**Note:** Fallbacks aren't supported for ServiceNow Otto - Developer assistant.
 
 ## Procedure
 
@@ -42,17 +42,13 @@ Fallbacks appear in the preview pane when you toggle individual or all fallbacks
 
 2.  In the **Legacy messages** or the **Premium messages** section, set up your messages.
 
-    \[Omitted image "NAinVA-chat-experience-legacy-messages-0426.png"\] Alt text: Greeting message screen.
+    \[Omitted image "sno-chat-legacy-msgs-0826.png"\] Alt text: Greeting message screen.
 
-    Selecting a default topic shows its corresponding default message. You can also create your own topic from **All** &gt; **Assistant Designer** &gt; **Asset Library**, and use it as the greeting or closing topic. When selecting a custom topic, the message field isn’t shown in the preview pane.
-
-    Closing message only appears if you have a display experience with standard chat.
-
-    \[Omitted image "NAinVA-closing-message-122025.png"\] Alt text: Closing topic and closing message for the standard chat experience.
-
-    \[Omitted image "NAinVA-manage-premium-messages.png"\] Alt text: Premium messages screen.
-
+    -   Selecting a default topic shows its corresponding default message. You can also create your own topic from **All** &gt; **Assistant Designer** &gt; **Asset Library**, and use it as the greeting or closing topic. When selecting a custom topic, the message field isn’t shown in the preview pane.
+    -   Closing message only appears if you have a display experience with standard chat.
     For premium messages, select one of the greeting messages:
+
+    \[Omitted image "sno-chat-premium-msgs-0826.png"\] Alt text: Set up premium messages.
 
     -   Default greeting message: The assistant generates a contextually-relevant greeting message.
     -   Static greeting message: The message displays every time the assistant is accessed. You can customize your text in the input box.
@@ -69,7 +65,7 @@ Description
 
 </th><th>
 
-Now Assist in Virtual Agent assistant
+ServiceNow Otto for Virtual Agent assistant
 
 </th><th>
 
@@ -77,11 +73,11 @@ Employee Slate assistant
 
 </th><th>
 
-Now Assist panel - Platform assistant
+ServiceNow Otto panel - Platform assistant
 
 </th><th>
 
-Now Assist panel - Developer assistant
+ServiceNow Otto panel - Developer assistant
 
 </th></tr></thead><tbody><tr><td>
 
@@ -89,7 +85,7 @@ Greeting topic
 
 </td><td>
 
-Now Assist - Greeting is the default greeting topic for Now Assist in Virtual Agent assistants.Now Assist Panel - Greeting is the default greeting topic for Now Assist panel assistants.
+Greeting - requestor is the default greeting topic for ServiceNow Otto for Virtual Agent assistants.Greeting - fulfiller is the default greeting topic for ServiceNow Otto panel assistants.
 
 Select a custom greeting if you want to replace the default greeting topic.
 
@@ -143,7 +139,7 @@ Closing topic
 
 </td><td>
 
-Now Assist - Closing is the default closing topic. To replace it, select a topic from the drop-down menu.
+Closing is the default closing topic. To replace it, select a topic from the drop-down menu.
 
 </td><td>
 
@@ -167,7 +163,7 @@ Closing message
 
 </td><td>
 
-**Closing message** field is shown and used if the default Now Assist - Closing topic is selected.If a custom topic is selected, the **Closing message** field isn't shown.
+**Closing message** field is shown and used if the default closing topic is selected.If a custom topic is selected, the **Closing message** field isn't shown.
 
 </td><td>
 
@@ -191,7 +187,7 @@ Error topic
 
 </td><td>
 
-Now Assist - Error is the default topic for Now Assist in Virtual Agent assistants.Now Assist panel - Error is the default topic for Now Assist panel assistants.
+Error - requestor is the default topic for ServiceNow Otto for Virtual Agent assistants.Error - fulfiller is the default topic for ServiceNow Otto panel assistants.
 
 To replace the default topic, select a custom topic from the drop-down menu.
 
@@ -266,13 +262,13 @@ No
 </td></tr></tbody>
 </table>3.  In the **Legacy fallbacks** or **Premium fallbacks** sections, activate one or more fallback options.
 
-    \[Omitted image "NAinVA-chat-experience-legacy-fallbacks-0426.png"\] Alt text: Activate fallback options.
+    \[Omitted image "sno-chat-legacy-fallbacks-0826.png"\] Alt text: Activate fallback options.
 
-    \[Omitted image "NAinVA-manage-premium-fallbacks.png"\] Alt text: Activate fallback options.
+    \[Omitted image "sno-chat-premium-fallbacks-0826.png"\] Alt text: Activate fallback options.
 
     For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
 
-    **Note:** For Now Assist panel - Platform assistant, web search, record producer, and custom fallback are available options. End this chat and survey are available for the standard chat experience.
+    **Note:** For ServiceNow Otto panel - Platform assistant, web search, record producer, and custom fallback are available options. End this chat and survey are available for the standard chat experience.
 
     Live agent is not an available option.
 
@@ -283,9 +279,9 @@ No
     -   To use a custom topic while having the live agent transfer option.
     For premium chat, you can select a topic for fallback options.
 
-    1.  Route the user to an available agent by turning on **Live agent**. Selecting the **Live agent topic** field displays a drop-down for topics, and the text input is used for the fallback button in the assistant. The default **Live agent topic** is **Now Assist Live Agent**.The default button label is **Request a live chat**.
+    1.  Route the user to an available agent by turning on **Live agent**. Selecting the **Live agent topic** field displays a drop-down for topics, and the text input is used for the fallback button in the assistant. The default **Live agent topic** is **Live Agent**.The default button label is **Request a live chat**.
 
-        If your instance doesn't have Live Agent configured, the **Live Agent** fallback option is unavailable. To configure Live agent, select the **Configure** link and navigate to **CI Admin console** &gt; **Settings** &gt; **Agent chat** tab. Use the default Now Assist Live Agent topic or select a topic.
+        If your instance doesn't have Live Agent configured, the **Live Agent** fallback option is unavailable. To configure Live agent, select the **Configure** link and navigate to **CI Admin console** &gt; **Settings** &gt; **Agent chat** tab. Use the default ServiceNow Otto Live Agent topic or select a topic.
 
     2.  Provide the user with web search results by turning on **Web search**. The web search option is useful when the synthesized response can't generate answers. The **Web search** check box displays a text input that is used for the name of the fallback button in the assistant. The default button label is **Search the web**. The default web search provider is Google Gemini.
 

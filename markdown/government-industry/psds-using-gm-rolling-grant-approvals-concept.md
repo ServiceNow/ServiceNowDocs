@@ -31,9 +31,9 @@ Rolling grant approvals support two common program models:
 
 The **Spending Overview** panel on the **Funding Allocation** tab provides real-time budget and decision visibility. The panel contains two chart areas that provide visual breakdowns of the budget and decision metrics. Both chart areas update dynamically as proposals move through the workflow:
 
--   **Overall Spending**: Displays the total award budget, the committed budget \(Approved for Funding\), the amount pending director review \(Pending Funding Approval\), and the unallocated balance \(Remaining Budget\). A horizontal bar chart following these metrics shows approved funding by applicant type, labelled **Approved for funding by applicant type**.
+-   **Overall Spending**: Displays the total award budget, the committed budget \(Approved for Funding\), the amount pending director review \(Pending Funding Approval\), and the unallocated balance \(Remaining Budget\). A horizontal bar chart following these metrics shows approved funding by applicant type, labeled **Approved for funding by applicant type**.
 
--   **Decisions in Progress**: Displays the grant program manager's funding and decline recommendations the grant program manager has marked but not yet submitted. A bar chart following these metrics shows the funding recommendations by applicant type, labelled **Marked for funding by applicant type**.
+-   **Decisions in Progress**: Displays the grant program manager's funding and decline recommendations the grant program manager has marked but not yet submitted. A bar chart following these metrics shows the funding recommendations by applicant type, labeled **Marked for funding by applicant type**.
 
 
 \[Omitted image "psds-rolling-grants-funding-allocation-tab-july-26.png"\] Alt text: Funding allocation tab in rolling grants

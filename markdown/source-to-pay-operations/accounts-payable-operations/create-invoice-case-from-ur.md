@@ -48,7 +48,7 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
 5.  Select **Transfer** if the primary ticket belongs to a different team.
 
-    If a ticket is transferred to another team and the user who submitted the UR doesn't have the necessary permissions to access that team's case, updates to the UR will not be visible to them.
+    If a ticket is transferred to another team, the user who submitted the UR might not have the necessary permissions to access that team's case. Updates to the UR will not be visible to them.
 
     For more information on transferring a UR, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/route-primarytask-to-ur.md).\[Omitted image "transfer-ur.png"\] Alt text: Transfer UR
 
@@ -56,7 +56,7 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
     For more information on associated ticket, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-associated-ticket.md).
 
-    If the ticket is assigned to another team, and the original user who submitted the UR doesn’t possess the necessary privileges or access to view that team's case, they’ll be unable to monitor updates on the UR.
+    If the ticket is assigned to another team, the user who submitted the UR might not have the necessary privileges to view that team’'s case. They’ll be unable to monitor updates on the UR.
 
     \[Omitted image "ur-associated-ticket-success.png"\] Alt text: Associated ticket
 
@@ -65,7 +65,7 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
 ## Result
 
-Invoice case is created and processed. Once the case is resolved, the agent closes the case with appropriate reason. The UR is synced with invoice case details for invoice owners and suppliers to track the status of the UR.
+Invoice case is created and processed. Once the case is resolved, the agent closes the case with an appropriate reason. The UR is synced with invoice case details for invoice owners and suppliers to track the status of the UR.
 
 **Parent Topic:**[Universal Request in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.md)
 

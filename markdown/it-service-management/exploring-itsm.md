@@ -25,7 +25,7 @@ See: [Employee Center for IT Service Management](https://raw.githubusercontent.c
 
 Replace multiple tools with a single system to deliver consistent service experiences across all request types. Consolidating IT services lets you manage and allocate resources, track performance, and report on performance data from one reliable source.
 
-See: [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md), [Platform Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack-sd.md), [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md), [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md)
+See: [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md), [Platform Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack-sd.md), [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md), [Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md)
 
 ## Enable self-service
 
@@ -39,7 +39,7 @@ See: [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/
 
 Accelerate resolution with generative AI and agentic workflows.
 
-Now Assist for IT Service Management \(ITSM\) provides agents with AI-powered summarization, resolution recommendations, and automated incident categorization. Agentic workflows autonomously handle routine tasks such as incident assignment, change planning, and risk assessment. For more information, see [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
+ServiceNow Otto for IT Service Management \(ITSM\) provides agents with AI-powered summarization, resolution recommendations, and automated incident categorization. Agentic workflows autonomously handle routine tasks such as incident assignment, change planning, and risk assessment. For more information, see [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
 
 ITSM Virtual Agent handles common questions and gives employees 24/7 support.
 

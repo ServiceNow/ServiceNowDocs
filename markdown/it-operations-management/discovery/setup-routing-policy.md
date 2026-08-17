@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Automated certificate management for TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Set up routing policy for automated certificate management
@@ -24,7 +24,7 @@ Role required: pki\_admin or admin
 
 The routing policy decides which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
 
-**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d77534e186">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d75748e186">
 
 **If a single routing policy matches**
 
@@ -68,7 +68,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d77534e207">
+</td></tr><tr><td id="d75748e207">
 
 **If multiple routing policies are eligible**
 
@@ -76,7 +76,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d77534e216">
+</td></tr><tr><td id="d75748e216">
 
 **If there is no routing policy found**
 
@@ -84,7 +84,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d77534e225">
+</td></tr><tr><td id="d75748e225">
 
 **If single policy matches and approval needed flag is true**
 

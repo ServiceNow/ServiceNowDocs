@@ -39,5 +39,3 @@ Role required: sn\_erp\_integration.erp\_admin
     For a description of the field values, see [Zero Copy Connector for ERP system list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-system-list-descriptions.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
-

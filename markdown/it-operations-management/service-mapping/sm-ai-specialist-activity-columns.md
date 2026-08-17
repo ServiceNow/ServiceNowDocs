@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-16"
 reading_time_minutes: 1
 keywords: [AI Agent activity, mapping results, ITOM]
-breadcrumb: [AI Agents for Service Mapping, AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping AI Agent activity list tables
@@ -111,5 +111,5 @@ Created
 The date and time the activity record was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 

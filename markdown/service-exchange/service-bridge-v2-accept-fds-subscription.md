@@ -34,6 +34,6 @@ After the subscription item is validated, you must accept the subscription to co
 
 4.  Select **Accept**.
 
-    If you reject the subscription by selecting **Reject**, your provider needs to resend the sample files, and you must reconfigure the subscription items before you can accept the subscription again.
+    If you reject the subscription by selecting **Reject**, your provider needs to resend the sample files. Also, you must reconfigure the subscription items before you can accept the subscription again.
 
 

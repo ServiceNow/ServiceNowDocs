@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for Salesforce
-description: The AI Service Graph Connector for Salesforce enables you to discover and import AI assets from your Salesforce environment into ServiceNow AI Control Tower.
+description: The AI Service Graph Connector for Salesforce enables to discover and import AI agents, models, prompts, tools, and track agent usage from your Salesforce environment into ServiceNow AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/salesforce.html
 release: australia
@@ -9,14 +9,12 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for Salesforce
 
-The AI Service Graph Connector for Salesforce enables you to discover and import AI assets from your Salesforce environment into ServiceNow AI Control Tower.
-
-The connector integrates with your Salesforce account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+The AI Service Graph Connector for Salesforce enables to discover and import AI agents, models, prompts, tools, and track agent usage from your Salesforce environment into ServiceNow AI Control Tower.
 
 ## Download apps from the Store
 
@@ -47,26 +45,24 @@ Complete the following setup steps once when configuring the connector for the f
 
 **Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
 
-Update Data Source Access
+Update Data Source Access:
 
 The connector requires write permissions to the Data Source table to create data sources.
 
 To enable data source creation:
 
-1.  Select Global from the application picker
-2.  Navigate to Application Access
-3.  Select the Can create, Can update, and Can delete check boxes.
-4.  Select Update
-5.  Switch to the connector application scope
-
-Clear cache
+1.  Select **Global** from the application picker.
+2.  Navigate to **Application Access**.
+3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
+4.  Select **Update**.
+5.  Switch to the connector application scope.
 
 Clear the cached data for the Data Source and Tables.
 
 To clear the cache:
 
-1.  Navigate to System Definition &gt; Background Scripts
-2.  Paste the following script into the Run Script text box:
+1.  Navigate to **System Definition** &gt; **Background Scripts**.
+2.  Enter the following script in the **Run Script** text box:
 
     ```
     GlideTableManager.invalidateTable('sys_data_source');
@@ -76,11 +72,34 @@ To clear the cache:
     
     ```
 
-3.  Select Run Script.
+3.  Select **Run Script**.
 
-    **Note:** The script may take several minutes to complete.
+    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
 
-4.  After completion, switch to the connector application scope
+
+## Salesforce Prerequisites
+
+Before proceeding, ensure you have:
+
+-   Salesforce Account: Active Salesforce account with access to the services you want to connect.
+-   Credentials: Salesforce Consumer Key and Consumer Secret with read permissions for the services you plan to integrate.
+
+Required Permissions:
+
+These are found in Permission Sets or Profiles → System Permissions section:
+
+-   Manage Al Agents \(core/common permission required in almost all cases\).
+-   Agent-type-specific:
+    -   Service Agents \(common use case\): Manage Agentforce Service Agents + Manage Al Agents.
+    -   Agentforce \(Default\) Agent: Manage Agentforce Default Agent + Manage Al Agents.
+    -   Employee Agents: Manage Al Agents \(sometimes Manage Agentforce Employee Agents or Manage Employee Agent Access \(Beta\) for access management\).
+
+Salesforce Setup Documentation:
+
+Use these Salesforce resources to set up credentials and enable services:
+
+-   [Salesforce - Setting up Consumer Key and Consumer Secret](https://help.salesforce.com/s/articleView?id=xcloud.connected_app_create.htm&type=5)
+-   [Salesforce Agent force Studio](https://help.salesforce.com/s/articleView?id=ai.agent_builder_studio.htm&type=5)
 
 ## Data Mapping
 

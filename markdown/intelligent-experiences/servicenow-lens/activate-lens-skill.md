@@ -7,7 +7,7 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -24,7 +24,7 @@ Activate the ServiceNow AI Lens skill to start using generative AI to scan and a
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  In the workflow list, select **Platform**.
 

@@ -23,7 +23,7 @@ Newly added equipment appears in the equipment list. They can be used for variou
 The following image shows an example of the Operational Equipment Model.
 
 -   **[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)**  
-The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail so that you can move between sections of a functional location and between locations in the equipment model.
+The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail. Use these controls to move between sections of a functional location and between locations in the equipment model.
 
 **Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
 

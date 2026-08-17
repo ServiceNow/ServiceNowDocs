@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Connector domain personalization, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Connector domain personalization, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure domain separation for pull connector events
@@ -62,15 +62,15 @@ Role required: evt\_mgmt\_admin
 
 9.  In the Connector Instance Values list, provide a value in the **Value** field of the parameters.
 
-<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d703584e292">
+<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d707906e292">
 
 Parameter
 
-</th><th align="left" id="d703584e295">
+</th><th align="left" id="d707906e295">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d703584e301">
+</th></tr></thead><tbody><tr><td id="d707906e301">
 
 **__payloadDomainInfoFieldValue__**
 
@@ -78,7 +78,7 @@ Value
 
 The value that will be used to match the domain record. For example, ServiceNow.
 
-</td></tr><tr><td id="d703584e311">
+</td></tr><tr><td id="d707906e311">
 
 **__payloadDomainInfoFieldName__**
 

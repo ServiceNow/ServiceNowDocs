@@ -34,10 +34,10 @@ Classify the events of a similar type into an event group for your scenario. For
 
     The configuration of a sample event group is shown in the following example.
 
-    \[Omitted image "event-groups.png"\] Alt text: Sample configuration for the GRC Choice New record form.
+    \[Omitted image "event-groups.png"\] Alt text: Sample configuration for the GRC Choice record form.
 
 5.  In the **Order** field, enter the order for the event group and click **Submit**.
 
-    For more information on the fields in the Event group form, see [GRC Choice New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/event-group-reference.md).
+    For more information on the fields in the Event group form, see [GRC Choice record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/event-group-reference.md).
 
 

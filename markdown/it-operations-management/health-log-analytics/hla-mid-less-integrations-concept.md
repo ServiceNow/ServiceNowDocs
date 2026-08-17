@@ -35,7 +35,7 @@ This architecture relies on two components:
 
 -   **JSON Web Token \(JWT\)**
 
-    A secure, time-limited token used to authenticate the data stream between your log source and the ServiceNow datacenter. JWT authentication removes the requirement to store credentials such as AWS keys directly on your ServiceNow instance. For more information, see [Configure a JSON Web Token \(JWT\) provider and token for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
+    A secure, time-limited token used to authenticate the data stream between your log source and the ServiceNow datacenter. JWT authentication removes the requirement to store credentials such as AWS keys directly on your ServiceNow instance. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
 
 
 ## Supported MID-less integrations

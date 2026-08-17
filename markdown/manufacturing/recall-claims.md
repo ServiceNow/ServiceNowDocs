@@ -29,7 +29,7 @@ A recall is initiated when a particular defect impacts a significant number of p
 \[Omitted image "Data-model-recall-campaign.png"\] Alt text: Decorative
 
 -   **[Recall campaign tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/recall-claims-table.md)**  
-This section explains the recall campaign tables in Manufacturing Commercial Operations.
+Recall campaign tables list the tables added or modified to support recall campaign management in Manufacturing Commercial Operations.
 
 **Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
 

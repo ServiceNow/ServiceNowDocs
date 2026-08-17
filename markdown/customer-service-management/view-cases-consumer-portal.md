@@ -35,7 +35,7 @@ Selecting a case opens a form with the following sections:
 
 3.  Select the case number to view more information about the case.
 
-4.  If desired, type a message to the agent and click **Send**.
+4.  If desired, type a message to the agent and select **Send**.
 
     Your message becomes part of the case conversation. All responses from the agent are also included in the conversation.
 

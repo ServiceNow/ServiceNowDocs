@@ -1,6 +1,6 @@
 ---
 title: Installed application — Performance page
-description: The installed application performance section presents details on the location and app version, total number of crashes and total number of freezes, as well as the CPU, memory, and I/O performance information.
+description: The installed application performance section presents details on the location and app version, total number of crashes and freezes, the CPU, memory, and I/O performance information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/installed-app-health-form.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Applications list, DEX Application and Device Health reference, Ref
 
 # Installed application — Performance page
 
-The installed application performance section presents details on the location and app version, total number of crashes and total number of freezes, as well as the CPU, memory, and I/O performance information.
+The installed application performance section presents details on the location and app version, total number of crashes and freezes, the CPU, memory, and I/O performance information.
 
 **Note:** Application performance metrics are available for the previous 2 hours, 24 hours, or 30 days. Select the required time window from the drop-down list to update the visualization.
 

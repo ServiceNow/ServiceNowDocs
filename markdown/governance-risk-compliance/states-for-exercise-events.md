@@ -1,6 +1,6 @@
 ---
 title: States for an exercise and crisis event
-description: This section describes the states of progression for an exercises and crisis event.
+description: This section describes the states of progression for an exercise and crisis event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/states-for-exercise-events.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Man
 
 # States for an exercise and crisis event
 
-This section describes the states of progression for an exercises and crisis event.
+This section describes the states of progression for an exercise and crisis event.
 
 ## States for an exercise and crisis event
 

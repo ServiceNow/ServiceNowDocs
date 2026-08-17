@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowstudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 11
+last_updated: "2026-08-17"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -196,7 +196,16 @@ Australia
 
 </td><td>
 
--   **[Create a collection of files](https://www.servicenow.com/docs/access?context=qs-create-a-collection&family=australia&ft:locale=en-US)**
+-   **[Building apps in source code in ServiceNow Studio](https://www.servicenow.com/docs/access?context=building-apps-in-source-code-sn-studio&family=australia&ft:locale=en-US)**
+
+Use ServiceNow IDE capabilities within ServiceNow Studio to create apps in source code. Use the new Explorer tab to open Fluent files and see underlying Fluent source code.
+
+-   **[Metadata source control in ServiceNow Studio](https://www.servicenow.com/docs/access?context=source-control-in-servicenow-studio&family=australia&ft:locale=en-US)**
+
+Upgrade to the new version of source control in ServiceNow Studio to access more features, such as additional Git commands.
+
+
+ -   **[Create a collection of files](https://www.servicenow.com/docs/access?context=qs-create-a-collection&family=australia&ft:locale=en-US)**
 
 Create collections of your most frequently used apps, files, and lists for easy access. Collections extend current bookmark capabilities and can contain apps and files from different scopes.
 
@@ -220,7 +229,7 @@ Add UI Builder components, controllers, experiences, page collections, and UI in
 
 -   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US)**
 
-Explore vibe coding, which is a natural language approach to application development in ServiceNow, with new documentation, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
+Explore agentic development, which is a natural language approach to application development in ServiceNow. Learn how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 </td></tr></tbody>
@@ -272,6 +281,11 @@ No updates for this release.
 Australia
 
 </td><td>
+
+-   **[AI tools and files](https://www.servicenow.com/docs/access?context=working-with-now-assist-tools-sn-studio&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 
 -   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=australia&ft:locale=en-US)**
 
@@ -668,11 +682,11 @@ Australia
 
 </td><td>
 
+-   As of version 29.2.11 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   As of version 29.2.11, ServiceNow IDE capabilities have been merged into ServiceNow Studio under the new Explorer tab, enabling the ability to view Fluent files and open the underlying Fluent source code in ServiceNow Studio.
+-   As of version 29.2.11, use an improved version of source control while developing apps in Fluent source code.
 -   As of version 29.2.6, organize apps and files into collections, which extend the existing bookmark system by allowing multiple organized folders of applications, app files, and lists.
 -   As of version 29.2.6, view all deployment requests and attach update sets to them directly in ServiceNow Studio.
--   As of version 29.2.6, developers who prompt Build Agent to create an app from the [ServiceNow Developer site](https://developer.servicenow.com/dev.do) are redirected to ServiceNow Studio within their personal development instance \(PDI\) to continue building their app.
--   As of version 29.1.4, when opening a file that supports preview in ServiceNow Studio, the interface defaults to the preview pane instead of the underlying record form, providing immediate visual context for the file content.
--   As of version 29.1.4, when creating an application, the **Create with Now Assist** option opens Build Agent by default instead of the Now Assist for app generation skill.
 
  See [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&family=australia&ft:locale=en-US) for more information.
 

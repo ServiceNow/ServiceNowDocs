@@ -46,15 +46,15 @@ Role required: none
 
 5.  Depending on whether you allowed the mobile app to use your location, use the following steps.
 
-<table id="choicetable_sht_lj2_zvb"><thead><tr><th align="left" id="d104973e174">
+<table id="choicetable_sht_lj2_zvb"><thead><tr><th align="left" id="d105347e174">
 
 Option
 
-</th><th align="left" id="d104973e177">
+</th><th align="left" id="d105347e177">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d104973e183">
+</th></tr></thead><tbody><tr><td id="d105347e183">
 
 **If you allowed the mobile app to use your location**
 
@@ -68,7 +68,7 @@ Your path to the person or resource appears on the map.
 
 Follow the path and your position is updated automatically. Directions appear on the top banner, which indicate the way to turn \(left or right\) and if you must climb stairs. In addition, the distance, time left to travel to the resource, and expected arrival time also appear on your device. This information is updated in real time.
 
-</td></tr><tr><td id="d104973e215">
+</td></tr><tr><td id="d105347e215">
 
 **If you didn't allow the mobile app to use your location**
 

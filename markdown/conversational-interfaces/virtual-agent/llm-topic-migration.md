@@ -16,9 +16,9 @@ breadcrumb: [Getting started with the Asset library in Assistant Designer, Build
 
 The topic migration workflow enables you to migrate your existing Natural Language Understanding \(NLU\)/keyword topics into new large language model \(LLM\) topics.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
-Now Assist capabilities bring generative AI to Virtual Agent using LLM topics. With topic migration, there’s no need to manually recreate all your NLU and keyword topics to be LLM topics. You can select the topics that you want to migrate into LLM topics from your existing NLU and keyword topics. Migrating NLU and keyword topics doesn’t change the original NLU or keyword topics. A copy of the existing topic is created during topic migration, but the new topic's **Model Type** field is set to LLM and includes LLM-compatible nodes and descriptions.
+ServiceNow Otto capabilities bring generative AI to Virtual Agent using LLM topics. With topic migration, there’s no need to manually recreate all your NLU and keyword topics to be LLM topics. You can select the topics that you want to migrate into LLM topics from your existing NLU and keyword topics. Migrating NLU and keyword topics doesn’t change the original NLU or keyword topics. A copy of the existing topic is created during topic migration, but the new topic's **Model Type** field is set to LLM and includes LLM-compatible nodes and descriptions.
 
 All types of topics can be migrated from the NLU/Keyword model type to the LLM model type during topic migration, including the following asset types:
 
@@ -39,7 +39,7 @@ Users with the virtual\_agent\_admin role or sn\_vad\_genai.topic\_migration\_ad
 
 ## System properties
 
-Use the system property **sn\_vad\_genai.utterances.count.for.topic.description** to set the maximum number of NLU utterances that can be given to the LLM to generate the topic description for an NLU topic migrated to an LLM topic.
+Use the system property **sn\_vad\_genai.utterances.count.for.topic.description** to set the maximum number of NLU utterances given to the LLM to generate the description for a migrated NLU/Keyword topic.
 
 ## Topic descriptions
 
@@ -80,7 +80,7 @@ Contains script or data pill
 Migrates using the following template: `Collect + Node name`.For example, if you have an NLU node named `Get incident number` and the **Prompt** field's value contains a script or data pill, then the migrated LLM node's **Detail description** field's value is `Collect Get incident number`.
 
 </td></tr></tbody>
-</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
+</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 The following entities can be migrated from NLU nodes to LLM nodes:
 

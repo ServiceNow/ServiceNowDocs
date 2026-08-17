@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Use enhanced reference record
@@ -18,7 +18,7 @@ View and manage records when referring to other records in the current Decision 
 
 ## Before you begin
 
-You should have a label of type reference available in the Input interface.
+A label of type reference must be available in the Input interface.
 
 Role required: admin
 
@@ -34,7 +34,7 @@ You can view the detailed reference records in your current decision table insta
 
 2.  On the homepage, select **Decision tables**.
 
-3.  From the list of decision tables, select any desired decision table.
+3.  From the list of decision tables, select a decision table.
 
 4.  In the **Decision table**, select the column with the reference type.
 
@@ -42,12 +42,12 @@ You can view the detailed reference records in your current decision table insta
 
     For example, in the screenshot, the column labeled **Incident** has the condition set to `is` and the value is set as `INC0009005`.
 
-    After setting this value, you’ll see an info icon \[Omitted image "reference-record-icon.png"\] Alt text: reference record info icon in the value field similar to the screenshot.
+    An info icon \[Omitted image "reference-record-icon.png"\] Alt text: reference record info icon appears in the value field.
 
     \[Omitted image "reference-record-column.png"\] Alt text: reference record column
 
 6.  Select the \[Omitted image "reference-record-icon.png"\] Alt text: reference record info icon icon to view the record details.
 
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

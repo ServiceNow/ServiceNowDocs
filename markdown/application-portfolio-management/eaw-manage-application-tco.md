@@ -1,6 +1,6 @@
 ---
 title: Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace
-description: The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects to evaluate the cost of business applications and leverage the application costs to prioritize the application portfolio and align with the organization's business strategy.
+description: The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects evaluate the cost of business applications. Use application costs to prioritize the application portfolio and align with the organization's business strategy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-manage-application-tco.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architectur
 
 # Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace
 
-The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects to evaluate the cost of business applications and leverage the application costs to prioritize the application portfolio and align with the organization's business strategy.
+The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects evaluate the cost of business applications. Use application costs to prioritize the application portfolio and align with the organization's business strategy.
 
 ## Application TCO indicators
 

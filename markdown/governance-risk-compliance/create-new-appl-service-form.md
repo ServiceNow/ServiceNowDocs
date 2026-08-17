@@ -1,6 +1,6 @@
 ---
-title: Create New Service Instance form
-description: Use the Create New Service Instance form in Operational Resilience Workspace to set up an application service and configure its related lists.
+title: Create Service Instance form
+description: Use the Create Service Instance form in Operational Resilience Workspace to set up an application service and configure its related lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-appl-service-form.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 4
 breadcrumb: [Add an application service to Operational Resilience reporting, Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Service Instance form
+# Create Service Instance form
 
-Use the Create New Service Instance form in Operational Resilience Workspace to set up an application service and configure its related lists.
+Use the Create Service Instance form in Operational Resilience Workspace to set up an application service and configure its related lists.
 
-## Create New Service Instance form
+## Create Service Instance form
 
 For a description of the field values, see the following table.
 

@@ -27,7 +27,7 @@ Creates an instance of NowChatService with the specified configuration.
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance providing chat services.|
-|delegate|NowChatServiceDelegate|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
+|delegate|[NowChatServiceDelegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
 
 |Type|Description|
 |----|-----------|

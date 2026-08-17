@@ -1,5 +1,5 @@
 ---
-title: View related tasks for an Insufficient Goods Receipt invoice exception
+title: View tasks for an Insufficient Goods Receipt exception
 description: View purchase order tasks in Accounts Payable Operations to understand why an Insufficient Goods Receipt invoice exception has been raised.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-psm-task-inv-exception.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Goods Receipt, Invoice exception, Accounts Payable Operations, Source-to-Pay workspace, Sourcing and Procurement tasks., Procurement service management]
 breadcrumb: [Invoice exceptions, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# View related tasks for an Insufficient Goods Receipt invoice exception
+# View tasks for an Insufficient Goods Receipt exception
 
 View purchase order tasks in Accounts Payable Operations to understand why an Insufficient Goods Receipt invoice exception has been raised.
 

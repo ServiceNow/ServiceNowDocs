@@ -18,7 +18,7 @@ Starting with BCM release 9.0.x, the ServiceNow Document designer with Microsoft
 
 The Document designer with Microsoft Word application offers a low-code solution, enabling you to configure different aspects of Microsoft Word documents without requiring extensive technical expertise. The templates offered by ServiceNow are designed to align with the company's brand guidelines, confirming consistent and professional documentation.
 
-Use the Document designer with Microsoft Word application to generate intuitive and audit-ready Microsoft Word reports for business impact analysis \(BIAs\), business continuity plans \(BCPs\), and events directly from your ServiceNow instance. Configure the Microsoft Word templates in the application to include specific data from the records, such as tables and columns, into the reports. Options include using predefined templates, customizing them with low-code implementation, or creating your own templates to meet your company's specific guidelines.
+Use Document designer with Microsoft Word to generate audit-ready reports for business impact analysis \(BIAs\), business continuity plans \(BCPs\), and events directly from your ServiceNow instance. Configure the Microsoft Word templates in the application to include specific data from the records, such as tables and columns, into the reports. Options include using predefined templates, customizing them with low-code implementation, or creating your own templates to meet your company's specific guidelines.
 
 You can save these reports either within your ServiceNow instance or as cloud documents in Microsoft SharePoint.
 
@@ -78,7 +78,7 @@ Upload the newly created Microsoft Word template
 
 </td><td>
 
-Upload the newly created Microsoft Word template in the **All** &gt; **Business Continuity** &gt; **General Administration** &gt; **Word Templates**. Alternately, use a predefined template provided in the BCM instance to generating the reports in Microsoft Word format.
+Upload the newly created Microsoft Word template in the **All** &gt; **Business Continuity** &gt; **General Administration** &gt; **Word Templates**. Alternately, use a predefined template provided in the BCM instance to generate the reports in Microsoft Word format.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Generate the BIA, BCP, and event reports of the records in the Business Continui
 </td></tr></tbody>
 </table>## Downloading it as an optional application
 
-The Document designer with Microsoft Word application is optional. You can use the existing BCM functionality of generating the PDFs of BIAs, BCPs, and exercises or you can use the Document designer with Microsoft Word application to generate Microsoft Word documents. You must manually download and install it from the ServiceNow Store.
+The Document designer with Microsoft Word application is optional. You can use the existing BCM functionality of generating the PDFs of BIAs, BCPs, and exercises. You can also use the Document designer with Microsoft Word application to generate Microsoft Word documents. You must manually download and install it from the ServiceNow Store.
 
 The Document designer with Microsoft Word application has dependencies on these applications:
 

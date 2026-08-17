@@ -1,6 +1,6 @@
 ---
 title: Activate TPRM issue recommendation skill
-description: Activate the TPRM issue recommendation skill from Now Assist for TPRM to generate recommendations for TPRM issues.
+description: Activate the TPRM issue recommendation skill from ServiceNow Otto for TPRM to generate recommendations for TPRM issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.html
 release: australia
@@ -9,39 +9,43 @@ classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
-breadcrumb: [Configure, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI, GenAI, ServiceNow AI Platform]
+breadcrumb: [AI configuration, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Activate TPRM issue recommendation skill
 
-Activate the TPRM issue recommendation skill from Now Assist for TPRM to generate recommendations for TPRM issues.
+Activate the TPRM issue recommendation skill from ServiceNow Otto for TPRM to generate recommendations for TPRM issues.
 
 ## Before you begin
 
-Install the Now Assist for TPRM plugin \(sn\_tprm\_gen\_ai\).
+Install the ServiceNow Otto for TPRM plugin \(sn\_tprm\_gen\_ai\).
 
 Role required: admin
 
 ## About this task
 
-**Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
+**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
 
 The recommendation skill helps third-party risk assessors quickly identify issues by generating AI-driven suggestions based on the content of assessment responses. Recommendations simplify the process of associating issues and creating tasks, and are accessible when an external assessment questionnaire has received responses.
 
-To generate meaningful recommendations, data must be available from completed prior assessments and previously created issues. The recommendation skill uses these historical issues, along with their associated questions and responses, as reference data. After recommendations are generated, you can accept or dismiss them individually. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
+To generate meaningful recommendations, data must be available from completed prior assessments and previously created issues. The recommendation skill uses these historical issues, along with their associated questions and responses, as reference data.
+
+**Note:** The skill can identify a question-and-answer pair as a potential issue only if a similar question-and-answer pair was previously flagged as an issue in the historical data.
+
+After recommendations are generated, you can accept or dismiss them individually. For more information, see [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 
 **Note:** If you want generated issues to be created using historical data for individual third party, you need to navigate to **All** &gt; **System Properties** &gt; **All** select `sn_tprm_genai.same_vendor_required` and set the property to true.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub**.
 
-2.  Navigate to the Now Assist **Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
+2.  Navigate to the **AI Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
 
 3.  Select the **TPRM Issue recommendation** skill and then select **Activate skill**.
 
-4.  View the skill in the Now Assist context menu by selecting **Select display** and then toggling the **Display** button.
+4.  View the skill in the AI skill context menu by selecting **Select display** and then toggling the **Display** button.
 
     This skill is now available to be used in the Vendor Management Workspace.
 

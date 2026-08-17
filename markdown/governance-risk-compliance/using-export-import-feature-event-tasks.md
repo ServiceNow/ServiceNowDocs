@@ -21,7 +21,7 @@ Starting with the Australia release of the BCM application, import and export of
 
 You can download an empty template to see the expected format before any data exists. Import only  updates  existing records matched by the **Number** field— it does not create or delete records, or modify protected fields like **Number**, **Short description**, and **Activated plan**.
 
-The feature consists of two independent systems. The export layer uses the Microsoft Excel JS library on the front-end to generate structured files; the import layer uses the Record Transform Engine \(RTE\), which processes display values only.
+The feature consists of two independent systems. The export layer uses the Microsoft Excel JS library on the front-end to generate structured files. The import layer uses the Record Transform Engine \(RTE\), which processes display values only.
 
 Because the two layers are decoupled, you can use either independently. The Microsoft Excel JS library runs only in the browser. Export performance scales with the user's available memory and CPU, and the Max export rows limit is enforced for this reason.
 

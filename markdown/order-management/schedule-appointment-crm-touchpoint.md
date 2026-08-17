@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Schedule an appointment from a touchpoint

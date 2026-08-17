@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, platform, entity, entities, operation, input, output, map, field, data]
 breadcrumb: [Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -28,7 +28,7 @@ There are two types of models:
 -   Platform model: Model with input and output fields mapped to an already existing platform table. These models standardize ERP data by mapping it to ServiceNow standardized platform tables.
 -   ERP model: New, custom ERP model. These models follow the data structures defined by the connected, external ERP system. ERP models accommodate the unique formats of each ERP system.
 
-Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
+Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
 A model serves as a blueprint for configuring, customizing, and integrating the ERP system to meet your business requirements. A model functions as a staging area that contains all potential fields you can add to remote and extraction tables, as well as, create, read, and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
 
@@ -40,14 +40,14 @@ You can create as many models as needed, though you can't edit their field names
 
 ## How models are structured
 
-Each model is linked to ERP tables on the system of record, as well as remote tables and ERP extraction tables on the ServiceNow AI Platform. You can connect the same table to multiple different models.
+Each model is linked to tables on the ERP system, as well as remote tables and ERP extraction tables on the ServiceNow AI Platform. You can connect the same table to multiple different models.
 
 Models are connected to an ERP system, one ERP system for each model. The connected ERP system:
 
 -   Enables access to field and table information.
 -   Helps coordinate data synchronization, sharing, and collaboration, enabling seamless integration and operation between the model and the ERP system.
 
-Models encompass remote tables from the system of record, as well as APIs, ERP extraction tables, and create/read/update operations, to create a holistic dataset. For example, you can have one model for sales orders and another for inventory.
+Models encompass remote tables from the ERP system, as well as APIs, ERP extraction tables, and create/read/update operations, to create a holistic dataset. For example, you can have one model for sales orders and another for inventory.
 
 **Note:**
 
@@ -60,41 +60,4 @@ After you create or clone a model, you can specify how Zero Copy Connector for E
 Each model can have only one create, one read, and one update operation defined.
 
 For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
-
--   **[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)**  
-Use Zero Copy Connector for ERP content packs as examples to help you implement and deploy applications with less manual work.
--   **[View and edit the foundation of ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md)**  
-Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
--   **[Use model versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-use-model-versioning.md)**  
-Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
--   **[Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md)**  
-Clone a standard ERP \(Enterprise Resource Planning\) model that ships with Zero Copy Connector for ERP. After you clone the model you can make modifications, such as adding new fields or tables.
--   **[Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md)**  
-Add a model in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create a dataset containing ERP tables from the system of record to read and send updates to the ERP system.
--   **[Export and import custom models in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-export-and-import-custom-models.md)**  
-Move a custom ERP \(Enterprise Resource Planning\) model from one instance to another by exporting and importing a remote update set.
--   **[Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md)**  
-Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
--   **[Operation-level security for models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-set-operation-level-security-on-a-model.md)**  
-Control access to model operations with user roles and groups.
--   **[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)**  
-Specify the operation entity that Zero Copy Connector for ERP \(Enterprise Resource Planning\) uses for read, update, or create operations.
--   **[Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md)**  
-Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in Zero Copy Connector for ERP using table joins.
--   **[Manage input parameters for a Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md)**  
-Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record from Zero Copy Connector for ERP.
--   **[Manage input parameters for a Zero Copy Connector for ERP model operation with a REST entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.md)**  
-Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record using REST.
--   **[Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md)**  
-Specify output parameters for a model operation in Zero Copy Connector for ERP to define which ERP fields map to the ServiceNow AI Platform and how the returned data is stored.
--   **[Select model output parameters for REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-rest.md)**  
-Specify how fields on the ERP \(Enterprise Resource Planning\) system map to output parameters and their values. This defines the outputs for an operation that reads, creates, or updates the system of record using REST.
--   **[Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md)**  
-Manually edit mapped value field names for input and output when managing models in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
--   **[Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-call-response-data.md)**  
-Data that Zero Copy Connector for ERP \(Enterprise Resource Planning\) retrieves from ERP systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
--   **[Debug Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/debug-zero-copy-connector-for-erp-models.md)**  
-Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
-
-**Parent Topic:**[Using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
 

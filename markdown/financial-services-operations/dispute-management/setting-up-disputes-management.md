@@ -8,7 +8,7 @@ product: Dispute Management
 classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -22,7 +22,7 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Set up your implementation for Financial Services Card Operations by installing the application, importing financial services data, and reviewing and configuring the application's components.
 
--   [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-visa-spoke.md)
+-   
 
     Install Visa Spoke if Visa is your card payment network provider. Use the spoke to manage card disputes with Visa Resolve Online \(VROL\). Leverage Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
 
@@ -34,15 +34,15 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Dispute Rules Content Pack for Visa provides the questionnaire for intake of a dispute and dispute categorization rules as per Visa guidelines. Run chargeback eligibility rules based on Visa Core Rules and Visa Product and Service Rules.
 
--   [Set up Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-verifi-spoke.md)
+-   
 
     Use Verifi Spoke to integrate with the Verifi CDRN API suite and perform API calls to perform early dispute resolution.
 
--   [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-mastercard-spoke.md)
+-   
 
     Install Mastercard Spoke if Mastercard is your card payment network provider. Use the spoke to manage card disputes with Mastercard. Leverage Mastercard spoke actions, to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
 
--   [Set up Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-ethoca-spoke.md)
+-   
 
     Use the Ethoca spoke to integrate with Ethoca Consumer Clarity APIs.
 
@@ -62,13 +62,17 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Card data security helps organizations adhere to Payment Card Industry Data Security Standard \(PCI DSS\) requirements by protecting cardholder data. It provides a tokenizer service that substitutes sensitive data in dispute workflows—such as Primary Account Numbers \(PANs\) and documents—with non-sensitive equivalent values called tokens.
 
--   [Install Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
+-   [Configure ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-now-assist-for-fso.md)
 
-    Install Now Assist for Financial Services Operations \(FSO\) to leverage agentic and generative AI capabilities.
+    Configure ServiceNow Otto for Financial Services Operations \(FSO\) to leverage agentic and generative AI capabilities.
 
 
 -   **[Configure additional questions for dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md)**  
 Configure the questionnaire that appears for dispute agents or account holders when they initiate a dispute.
+-   **[Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-disputes-intake-via-virtual-agent.md)**  
+If you have the admin role, you can configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\). This provides a conversational experience for your customers to submit card disputes.
+-   **[Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.md)**  
+Use this agentic workflow to assist human agents with analyzing friendly fraud cases, selecting a course of action, and drafting a decision response to customers.
 
 **Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management.md)
 

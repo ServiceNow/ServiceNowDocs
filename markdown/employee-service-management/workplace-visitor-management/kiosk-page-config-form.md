@@ -133,3 +133,5 @@ The Variables related list contains the variables that are included with the rec
 
 [Additional requirement form]()
 
+[Differences between Workplace Visitor Management versions]()
+

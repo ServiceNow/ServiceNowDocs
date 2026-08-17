@@ -8,13 +8,26 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Insights reports, DevOps Change Velocity, IT Service Management]
 ---
 
 # DevOps Insights dashboard - Workspace
 
 The DevOps Insights dashboard provides a flexible graphical view of operational and business reports. Use the dashboard to evaluate the results of your overall DevOps process.
+
+**Note:** To collect daily or historical Insights data, unless these jobs were previously customized, you must select **Active** and set the **Run As** credentials to **System Administrator**:
+
+-   **\[DevOps\] Daily Data Collection \(Daily\)** \(active by default\)
+
+    **Note:** This is a scheduled job \(to be run regularly\) to collect daily DevOps data. For optimal performance, set this job to run during periods of low usage.
+
+-   **\[DevOps\] Historical Data Collection \(On Demand\)** \(inactive by default\)
+
+    For new DevOps Insights installations, if you have already been using the DevOps app and you Installed DevOps Insights at a later date, run the Historical Data Collection job to collect historical Insights data.
+
+    **Note:** This is a one-time job to collect historical DevOps data, and not meant to be on a schedule. It might take awhile, so plan on running this job during a period of low usage.
+
 
 ## Summary dashboard
 

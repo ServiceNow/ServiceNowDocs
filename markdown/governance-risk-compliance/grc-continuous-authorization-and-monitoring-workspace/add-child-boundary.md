@@ -38,7 +38,7 @@ Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_syst
 
     2.  Select one or more authorization boundaries and select **Add**.
 
-        \[Omitted image "child\_auth\_boundary\_add.gif"\] Alt text: Adding Child Authorization Boundary.
+        \[Omitted image "child\_auth\_boundary\_add.png"\] Alt text: Adding Child Authorization Boundary.
 
         You can add multiple child authorization boundaries.
 

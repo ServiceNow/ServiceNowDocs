@@ -1,5 +1,5 @@
 ---
-title: Standard ERP models and extraction tables for Zero Copy Connector for ERP
+title: Standard extraction tables for Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) provides a number of standard extraction tables that you can link to ERP models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.html
@@ -10,14 +10,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, standard, extraction, table]
-breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Standard remote and extraction tables, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Standard ERP models and extraction tables for Zero Copy Connector for ERP
+# Standard extraction tables for Zero Copy Connector for ERP
 
 Zero Copy Connector for ERP \(Enterprise Resource Planning\) provides a number of standard extraction tables that you can link to ERP models.
-
-Models function as templates for sets of tables that give you access to ERP data. You can use the standard Zero Copy Connector for ERP models as-is, or clone them to make changes.
 
 The following extraction tables are available through Zero Copy Connector for ERP.
 
@@ -44,5 +42,5 @@ The following extraction tables are available through Zero Copy Connector for ER
 
 For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

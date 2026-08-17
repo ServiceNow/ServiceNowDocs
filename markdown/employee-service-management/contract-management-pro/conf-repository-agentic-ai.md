@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Enable manage contract repository agentic workflow, Enable agentic workflows in Now Assist in Contract Management]
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Activate business rules for the Manage contract repository agentic workflow
@@ -52,9 +52,9 @@ Role required: admin
 
 ## Result
 
-The Manage contract repository agentic workflow is activated for Now Assist in Contract Management.
+The Manage contract repository agentic workflow is activated for ServiceNow Otto for Contract Management Pro.
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 
 **Related topics**  
 

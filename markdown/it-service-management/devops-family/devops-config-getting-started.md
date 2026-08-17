@@ -22,7 +22,7 @@ Watch this short video to see how config data snapshots in DevOps Config can hel
 
 Use root cause analysis of configuration-related outages or alerts to quickly identify and resolve unintended config data changes, also known as configuration "drift." Compare current and past versions of intended config data changes attached to change requests, and roll back to the desired state when needed.
 
-For more information, see [Investigate an alert that involves a change to config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).
+For more information, see [Investigate config change alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).
 
 \[Omitted image "devops-config-explore.png"\] Alt text: DevOps Config Use Cases for applications and Infrastructure as Code
 

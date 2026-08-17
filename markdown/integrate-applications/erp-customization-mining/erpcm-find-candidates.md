@@ -26,7 +26,7 @@ Role required: sn\_erp\_mining.erp\_user
 
 ## About this task
 
-Candidates are custom applications in your ERP system. ERP Semantic Mining scans your system of record to build a profile based on application logs and database activity logs. ERP Semantic Mining also scans for custom applications based on customized namespaces and other criteria. Replatformed apps use the ERP system of record as the live data source.
+Candidates are custom applications in your ERP system. ERP Semantic Mining scans your system of record to build a profile based on application logs and database activity logs. ERP Semantic Mining also scans for custom applications based on customized namespaces and other criteria. Replatformed apps use the ERP system as the live data source.
 
 **Note:**
 

@@ -1,20 +1,20 @@
 ---
 title: Generate summary for remote hands case record
-description: Remote Hands Request Summarization is a capability that generates a contextual summary of a Remote Hands case by combining current case data with insights from similar historical cases, using information submitted by the DCIM user through the CSM portal.
+description: Remote Hands Request Summarization generates a contextual summary of a Remote Hands case. It combines current case data with insights from similar historical cases using information submitted through the CSM portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/generate-summary-for-remote-hands-case-record.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Generate summary for remote hands case record
 
-Remote Hands Request Summarization is a capability that generates a contextual summary of a Remote Hands case by combining current case data with insights from similar historical cases, using information submitted by the DCIM user through the CSM portal.
+Remote Hands Request Summarization generates a contextual summary of a Remote Hands case. It combines current case data with insights from similar historical cases using information submitted through the CSM portal.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: Remote hands agent \(sn\_remote\_hands\_agent\)
 
 ## About this task
 
-Remote Hands Request Summarization is an Now Assist capability that provides a contextual overview of a Remote Hands case by combining current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case by selecting the **Summarize** option from either the Remote Hands Case table or the CSM/FSM Configurable Workspace. The information displayed in the summary is populated from the data entered by the DCIM user in the Remote Hands case record through the Customer Service Management \(CSM\) portal.
+Remote Hands Request Summarization is an ServiceNow Otto capability that provides a contextual overview of a Remote Hands case. It combines current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case by selecting the **Summarize** option. This option is available from either the Remote Hands Case table or the CSM/FSM Configurable Workspace. The information displayed in the summary is populated from the data entered by the DCIM user in the Remote Hands case record. This data is submitted through the Customer Service Management \(CSM\) portal.
 
-The Case Overview section displays key metadata retrieved from the Remote Hands Case table, including Case Category, Priority, Channel, and State. The Case Details section displays the Short Description and Description fields from the Remote Hands case record, providing detailed context about the current request. The Related Case Summary section is generated based on similar cases from the related cases present in the remote hands case record. Within this section, the Case Reference lists up to five similar cases identified by the system, the Case Issue displays the Short Description of each related case, and the Case Resolution displays the Resolution Notes recorded in the related cases.
+The Case Overview section displays key metadata retrieved from the Remote Hands Case table, including Case Category, Priority, Channel, and State. The Case Details section displays the Short Description and Description fields from the Remote Hands case record, providing detailed context about the current request. The Related Case Summary section is generated based on similar cases from the related cases present in the remote hands case record. Within this section, the Case Reference lists up to five similar cases identified by the system. The Case Issue displays the Short Description of each related case. The Case Resolution displays the Resolution Notes recorded in the related cases.
 
 This skill available in CSM/FSM Configurable Workspace and in Core UI
 
@@ -40,15 +40,15 @@ This skill available in CSM/FSM Configurable Workspace and in Core UI
 
 4.  After you're finished summarizing a Remote Hands case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d47226e92">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d48283e92">
 
 Option
 
-</th><th align="left" id="d47226e95">
+</th><th align="left" id="d48283e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d47226e101">
+</th></tr></thead><tbody><tr><td id="d48283e101">
 
 **View more or less summary details**
 
@@ -58,7 +58,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d47226e131">
+</td></tr><tr><td id="d48283e131">
 
 **Provide feedback for the summary**
 
@@ -68,7 +68,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d47226e164">
+</td></tr><tr><td id="d48283e164">
 
 **Copy the case summary**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the Remote Hands case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d47226e179">
+</td></tr><tr><td id="d48283e179">
 
 **View the information about the case summary**
 
@@ -86,5 +86,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

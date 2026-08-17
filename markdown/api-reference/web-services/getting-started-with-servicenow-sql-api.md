@@ -1,6 +1,6 @@
 ---
 title: Getting started with ServiceNow SQL API
-description: The ServiceNow SQL API provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
+description: The ServiceNow SQL API Live Connect, \(formerly known as SQL API\) provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/getting-started-with-servicenow-sql-api.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Access your ServiceNow data using SQL API, Additional integration r
 
 # Getting started with ServiceNow SQL API
 
-The ServiceNow SQL API provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
+The ServiceNow SQL API Live Connect, \(formerly known as SQL API\) provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
 
 The ServiceNow SQL API plugin uses ServiceNow web services support for a query-only interface. By default, the plugin supports only SELECT statements, allowing external applications to query authorized tables. It permits a limited set of additional SQL commands and enables you to compose more complex queries to retrieve only relevant data.
 
@@ -54,7 +54,7 @@ Your current ServiceNow security model still applies when you access the SQL API
 -   Your queries follow table-level, row level, field level, query level, and record-level security rules.
 -   By default, the SQL API checks access at the table, row, and field level for every query, following ServiceNow's secure-by-default approach. The SQL API validates all ACLs in your instance record by record, which may result in longer response times. This is expected.
 
-    If your use case does not require row and field-level checks — for example, a Business Intelligence integration — you can turn them off by assigning the `sn_sql_api_privileged_mode` role to the service account. Table-level ACL checks always remain in effect and cannot be turned off.
+    If your use case does not require row and field-level checks — for example, a Business Intelligence integration — you can turn them off by assigning the `sn_sql_api_privileged_mode` role to the service account. Table-level ACL checks always remain in effect and can't be turned off.
 
 -   Authentication is required for all connections.
 

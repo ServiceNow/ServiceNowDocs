@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM AIOps, IT Operations Management]
+breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, Explore, ITOM AIOps, IT Operations Management]
 ---
 
 # ITOM AIOps considerations for CSDM framework
@@ -26,6 +26,6 @@ Key considerations for implementing ITOM AIOps for CSDM framework include the fo
 
 -   **Recognizing common use cases for the Dynamic CI Group service**
 
-    In Event Management \(EM\), the Dynamic CI Group service functions as a logical grouping mechanism for Configuration Items \(CIs\), offering technology or service owners insight into the health status of the grouped entities.
+    In Event Management \(EM\), the Dynamic CI Group service functions as a logical grouping mechanism for Configuration Items \(CIs\). It offers technology or service owners insight into the health status of the grouped entities.
 
 

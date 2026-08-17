@@ -1,6 +1,6 @@
 ---
-title: Manage lean budgeting for demand
-description: Allocate budget for demands at each fiscal period instead of the entire fiscal year to reduce the overhead costs associated with traditional approach.
+title: Capture actual monetary benefits for a demand
+description: Capture actual benefits from planned benefits to measure revenue and calculate profits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/manage-lean-budgeting-for-demand-ppw.html
 release: australia
@@ -9,88 +9,43 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enable lean budgeting for demands, Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Create monetary benefit plans, Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Manage lean budgeting for demand
+# Capture actual monetary benefits for a demand
 
-Allocate budget for demands at each fiscal period instead of the entire fiscal year to reduce the overhead costs associated with traditional approach.
+Capture actual benefits from planned benefits to measure revenue and calculate profits.
 
 ## Before you begin
 
--   Lean budgeting is enabled. For more information, see [Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-lean-budgeting-for-demands-ppw.md).
--   Role required: sn\_invst\_pln.sn\_spm\_funding\_user
+A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
 
-    Any user role with this specific role attached can add or manage the investment budgets.
-
+Role required: it\_demand\_manager
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select **Investment Budget**.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** If the **Investment Budget** tab isn’t visible, select **More** and then select **Investment Budget**.
+5.  Select the **Monetary Benefit Plans** tab.
 
-4.  Add or edit an investment budget record:
+    **Note:** If the **Monetary Benefit Plans** tab isn't visible, select **More** &gt; **Monetary Benefit Plans**.
 
-    -   To add an investment budget record, select **New**.
-    -   To update the details of an investment budget record, select the record.
-5.  On the Create New Investment Budget form, fill in the fields.
+6.  Select the name of a required benefit plan.
 
-<table id="table_kwl_fkp_2dc"><thead><tr><th>
+7.  Select the **Monetary Benefit Plan Breakdowns** tab.
 
-Field
+8.  Select the value in the **Entered benefit** field.
 
-</th><th>
+9.  Change the planned benefit in the **Entered benefit** field.
 
-Description
+10. Enter the actual benefits from work execution in the **Actual benefit** field.
 
-</th></tr></thead><tbody><tr><td>
-
-Amount
-
-</td><td>
-
-Investment budget amount.
-
-</td></tr><tr><td>
-
-Fiscal period
-
-</td><td>
-
-Fiscal period to allocate the budget.
-
-</td></tr><tr><td>
-
-Investment
-
-</td><td>
-
-Planning item to allocate this budget to.**Note:** The current demand is selected by default.
-
-</td></tr><tr><td>
-
-Expense type
-
-</td><td>
-
-Type of the expense.-   **Capex** - Budget for capital expenses.
--   Opex - Budget for operational expenses.
-
-
-</td></tr></tbody>
-</table>6.  Select **Save**.
-
-    **Note:** To delete an investment budget record:
-
-    -   Select a demand budget record from the **Investment Budget** tab and select **Delete**.
-    -   Select **Delete** from the More Actions option in the investment budget record form.
-    After completing your work on the demand budget record, use the breadcrumb navigation to return to the **Investment Budget** tab.
+11. Select **Save**.
 
 

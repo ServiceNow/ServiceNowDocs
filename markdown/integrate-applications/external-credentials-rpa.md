@@ -41,7 +41,7 @@ After the REST API call fetches the credential from the vault, the credentials a
 
 You must configure the external credential settings appropriately, so that the data isn’t stored or logged in the ServiceNow instance.
 
-Verify that the value of the **Reporting** field is set to **Off** for the subflow of your external credential vault, for example **Demo CyberArk Subflow**. This setting verifies that the sensitive data isn’t captured or logged. For more information about configuring this setting, see .
+Verify that the value of the **Reporting** field is set to **Off** for the subflow of your external credential vault, for example **Demo CyberArk Subflow**. This setting verifies that the sensitive data isn’t captured or logged. For more information about configuring this setting, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/enable-flow-reporting.md).
 
 To configure the external credential vault in RPA Hub, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/config-ext-cred-rpa.md).
 

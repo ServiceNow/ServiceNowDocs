@@ -1,5 +1,5 @@
 ---
-title: Associate a work order template to a work schedule
+title: Associate work order template to a work schedule
 description: Map a single or multiple work order templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
-# Associate a work order template to a work schedule
+# Associate work order template to a work schedule
 
 Map a single or multiple work order templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 

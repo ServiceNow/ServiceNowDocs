@@ -9,7 +9,8 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+keywords: [Supplier Lifecycle Operations, Source-to-Pay Workspace, Generative AI skill, Email response skill, supplier task, Now Assist icon]
+breadcrumb: [Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Generate an email response for supplier tasks
@@ -18,7 +19,7 @@ Generate an email response for supplier tasks.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller and sn\_slm.fulfiller
 
@@ -40,11 +41,11 @@ The Email response skill uses supplier task details such as task type, short des
 
 5.  Go to the **Email** tab.
 
+    \[Omitted image "slo-email-generation-task.png"\] Alt text: Email generation for tasks via Email tab
+
 6.  Select anywhere within the email body textbox.
 
-7.  Generate an email draft by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
-
-    \[Omitted image "slo-email-generation-task.png"\] Alt text: Generated email response for a supplier task.
+7.  Generate an email draft by selecting the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for ServiceNow Otto.
 
 8.  Select **Insert**.
 
@@ -52,7 +53,7 @@ The Email response skill uses supplier task details such as task type, short des
 
     1.  Select the required content.
 
-    2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\].
+    2.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for ServiceNow Otto.
 
 10. Apply templates by selecting the template icon\[Omitted image "apply-template-icon.png"\].
 

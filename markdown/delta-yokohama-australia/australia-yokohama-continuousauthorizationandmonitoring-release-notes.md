@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-continuousauthorizationandmonitoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -173,11 +173,11 @@ Australia
 
 </td><td>
 
--   **[Support for exporting and importing the OSCAL Assessment Results \(AR\) model](https://www.servicenow.com/docs/access?context=import-oscal-assessment-plan&family=australia&ft:locale=en-US)**
+-   **[Support for exporting and importing the OSCAL Assessment Results \(AR\) model](https://www.servicenow.com/docs/access?context=oscal-cam-ws&family=australia&ft:locale=en-US)**
 
 After upgrading to version 22.3.3, Continuous Authorization and Monitoring supports import and export of OSCAL data for Assessment Results \(AR\) format.
 
--   **[Skip attestations configuration for controls within a package](https://www.servicenow.com/docs/access?context=categorize&family=australia&ft:locale=en-US)**
+-   **[Skip attestations configuration for controls within a package](https://www.servicenow.com/docs/access?context=skip-attestations&family=australia&ft:locale=en-US)**
 
 After upgrading to version 22.3.3, skip the attestation stage at the package level and move controls directly from Draft to Review without completing the attestation workflow.
 

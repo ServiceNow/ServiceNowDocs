@@ -193,15 +193,15 @@ Obligation fulfiller or Obligation user
 
 </td></tr><tr><td>
 
-Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository.
+Use ServiceNow Otto for Contract Management Pro to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository.
 
 </td><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 
-Now Assist contract fulfiller
+AI contract fulfiller
 
 </td></tr></tbody>
 </table>## What to explore next

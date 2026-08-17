@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 2
-keywords: [search sources, Now Assist, Employee Slate, AI Search, conversational search]
+keywords: [search sources, ServiceNow Otto, Employee Slate, AI Search, conversational search]
 breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 

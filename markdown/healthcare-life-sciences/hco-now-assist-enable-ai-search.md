@@ -1,5 +1,5 @@
 ---
-title: Enable Now Assist in AI Search for case intake
+title: Enable ServiceNow Otto for AI Search for case intake
 description: Enable AI search so that users can start the case intake process from the search menu in Care Team Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-enable-ai-search.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
-# Enable Now Assist in AI Search for case intake
+# Enable ServiceNow Otto for AI Search for case intake
 
 Enable AI search so that users can start the case intake process from the search menu in Care Team Portal.
 

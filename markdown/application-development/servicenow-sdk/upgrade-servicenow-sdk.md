@@ -31,15 +31,15 @@ Role required: admin
 
 1.  Complete the following steps depending on whether you're updating a global installation of the ServiceNow SDK or the version used by an application.
 
-<table id="choicetable_q2z_4ms_mgc"><thead><tr><th align="left" id="d292370e86">
+<table id="choicetable_q2z_4ms_mgc"><thead><tr><th align="left" id="d298459e86">
 
 Option
 
-</th><th align="left" id="d292370e89">
+</th><th align="left" id="d298459e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d292370e95">
+</th></tr></thead><tbody><tr><td id="d298459e95">
 
 **Application package**
 
@@ -70,7 +70,7 @@ cd <path/to/directory>
 now-sdk -v
     ```
 
-</td></tr><tr><td id="d292370e146">
+</td></tr><tr><td id="d298459e146">
 
 **Global package**
 

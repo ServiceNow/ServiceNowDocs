@@ -68,7 +68,7 @@ Before creating the Main node configuration record, ensure that you have complet
 
     3.  Select the table from where you want the hierarchy to start, for example, Service.
 
-        Tables are the starting point of the entire tree structure that is received as an output. The Main node configuration starts with a table, such as \[cmdb\_ci\_service\], to generate a tree structure. It scans the table to create a hierarchy for each record. If you do not want to scan the entire table, and if you have specific business requirements, you can apply filter conditions ensuring that only relevant records are scanned.
+        Tables are the starting point of the entire tree structure that is received as an output. The Main node configuration starts with a table, such as \[cmdb\_ci\_service\], to generate a tree structure. It scans the table to create a hierarchy for each record. If you do not want to scan the entire table, you can apply filter conditions. Filter conditions ensure that only relevant records are scanned based on your specific business requirements.
 
     4.  Add conditions to filter the records for which this main node definition is created.
 

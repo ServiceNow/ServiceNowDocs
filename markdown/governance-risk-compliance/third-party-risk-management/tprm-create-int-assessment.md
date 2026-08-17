@@ -42,15 +42,15 @@ When creating an on-demand internal assessment, TPR managers or TPR assessors ca
 
 4.  Associate existing questionnaires with the assessment by performing one of the following.
 
-<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d373358e155">
+<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d373701e155">
 
 Option
 
-</th><th align="left" id="d373358e158">
+</th><th align="left" id="d373701e158">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d373358e164">
+</th></tr></thead><tbody><tr><td id="d373701e164">
 
 **Add a template in the Classic UI**
 
@@ -60,7 +60,7 @@ Description
 2.  Select **Edit**, select the questionnaires you want to use, and then select **Save**.
 
 
-</td></tr><tr><td id="d373358e188">
+</td></tr><tr><td id="d373701e188">
 
 **Add a template in the Vendor Management Workspace**
 

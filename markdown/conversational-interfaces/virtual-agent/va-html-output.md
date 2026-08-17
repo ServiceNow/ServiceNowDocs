@@ -92,7 +92,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Supported|None|
+|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|Since HTML is rendered as an image in Microsoft Teams, other controls are recommended. For example, use images or cards instead of HTML for Microsoft Teams.|
 |Slack|Supported|None|
 |Workplace|Supported|None|
@@ -107,7 +107,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 The HTML bot response shows a static HTML as a chat response. This example includes an image, headings, and paragraph text. The web UI presents this content as HTML. The Slack, Microsoft Teams, and Workplace user interfaces display the same content as a PNG image. URL links within the HTML are extracted and displayed below the image. The URL can be either an absolute or a relative link. If you use a relative link, it must be relative to the ServiceNow instance.
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 

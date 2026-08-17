@@ -1,6 +1,6 @@
 ---
-title: Now Assist in Virtual Agent reference
-description: Virtual Agent topic developers can create topics for use in the Now Assist panel channel. The following Virtual Agent Designer controls are currently supported.
+title: ServiceNow Otto for Virtual Agent reference
+description: Virtual Agent topic developers can create topics for use in the ServiceNow Otto panel channel. The following Virtual Agent Designer controls are currently supported.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-reference.html
 release: australia
@@ -9,14 +9,14 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
-# Now Assist in Virtual Agent reference
+# ServiceNow Otto for Virtual Agent reference
 
-Virtual Agent topic developers can create topics for use in the Now Assist panel channel. The following Virtual Agent Designer controls are currently supported.
+Virtual Agent topic developers can create topics for use in the ServiceNow Otto® panel channel. The following Virtual Agent Designer controls are currently supported.
 
-For more information about the Now Assist panel channel, see [Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-channels-overview.md).
+For more information about the panel channel, see [Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-channels-overview.md).
 
 <table id="table_nhv_kwx_jzb"><thead><tr><th>
 

@@ -39,7 +39,7 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 
     The **Assets at risk** lists locations, datacenters, and core companies that lie within the impacted area of the alert. It also displays the count as to how many of these assets are impacted. You can view the impacted area on the map and take any of the suggested actions.
 
-    The boundary of the impacted area for the alert on the map is marked in mauve color. You can view the assets that are at risk within this impacted area on the map. If one of your location, datacenter, or a core company is impacted by the alert, you can edit the impacted zone to include the asset.
+    The boundary of the impacted area for the alert on the map is marked in mauve color. You can view the assets that are at risk within this impacted area on the map. If one of your locations, datacenter, or core company are impacted by the alert, you can edit the impacted zone to include the asset.
 
 4.  Save or bookmark the URL of the alert to open the detailed view of the alert directly anytime.
 

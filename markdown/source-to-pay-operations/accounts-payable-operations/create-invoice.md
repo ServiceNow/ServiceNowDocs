@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations,, invoice management, integration, inbound integration,, outbound integration]
-breadcrumb: [Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations,, invoice management, integration framework, Source-to-Pay Workspace, Accounts Payable Workspace]
+breadcrumb: [Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create an invoice manually
@@ -49,9 +49,9 @@ Create invoice lines for the invoice. For more information, see [Create an invoi
 -   **[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)**  
 Create invoice lines manually for an invoice when the invoice automation process doesn't capture this information from an incoming invoice.
 -   **[Invoice cost allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-line-cost-allocation.md)**  
-Cost allocation distributes invoice line costs across multiple cost centers or ledger accounts to ensure accurate financial reporting and proper expense tracking in Accounts Payable Operations.
+Cost allocation distributes invoice costs across multiple cost centers or ledger accounts to ensure accurate reporting in Accounts Payable Operations.
 -   **[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)**  
 Tax calculations in Accounts Payable Operations validate supplier-provided taxes against system-calculated amounts to determine the final tax for invoices.
 
-**Parent Topic:**[Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)
+**Parent Topic:**[Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)
 

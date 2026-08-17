@@ -16,6 +16,10 @@ breadcrumb: [HR service configuration, HR services, HR Administration, Configure
 
 Create or modify an HR case template for an HR service to automatically populate fields on the HR case form when a request for that service is made.
 
+## About this task
+
+\[Omitted video\] Description: Configure an HR case template
+
 ## Before you begin
 
 Role required: sn\_hr\_core.admin

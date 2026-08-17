@@ -1,6 +1,6 @@
 ---
-title: Early Warning for Security Exposure Management integration
-description: The Early Warning for Security Exposure Management integration, powered by Armis, enriches the Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit, enabling your security team to prioritize and patch vulnerabilities months before threat actors weaponize them. Verify keyref: UI shows "Security Exposure Management" workspace header — confirm whether var.unified-sec-exp-mgmt is the correct product key or whether a different key applies.
+title: Early Warning for Security Exposure Management
+description: Early Warning for Security Exposure Management, powered by Armis, enriches the Central Vulnerability Database \(CVDB\) in Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit. This enables your security team to prioritize and patch vulnerabilities before threat actors weaponize them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/armis-early-warning-integration.html
 release: australia
@@ -11,19 +11,19 @@ keywords: [Armis Early Warning, CVE enrichment, vulnerability intelligence, Secu
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
-# Early Warning for Security Exposure Management integration
+# Early Warning for Security Exposure Management
 
-The Early Warning for Security Exposure Management integration, powered by Armis, enriches the Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit, enabling your security team to prioritize and patch vulnerabilities months before threat actors weaponize them.
+Early Warning for Security Exposure Management, powered by Armis, enriches the Central Vulnerability Database \(CVDB\) in Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit. This enables your security team to prioritize and patch vulnerabilities before threat actors weaponize them.
 
-The Early Warning for Security Exposure Management integration pulls a curated list of Common Vulnerabilities and Exposures \(CVEs\) into Unified Security Exposure Management, enriching vulnerability records with threat intelligence validated through honeypot activity, Open Source Intelligence Framework \(OSINT\), and Armis research. This enrichment enables security teams to prioritize vulnerabilities before public disclosure and coordinate response through established vulnerability management workflows.
+Early Warning assesses vulnerability intelligence through honeypot activity, open-source research, and operational threat analysis, flagging which vulnerabilities pose immediate risk to your environment. This enrichment helps your team reduce noise and prioritize what truly matters, while accelerating remediation and coordinate patching efforts within your existing vulnerability management workflows.
 
 ## When Early Warning matters
 
-Early Warning shifts vulnerability management from reactive crisis to strategic advantage - detecting which vulnerabilities threat actors are actively trying to exploit.
+Early Warning shifts vulnerability management from reactive crisis to proactive defense, providing strategic advantage by detecting which vulnerabilities threat actors are actively trying to exploit.
 
-**Without early warning**: When a vulnerability is published, threat actors can exploit it within hours. Your team patches reactively under pressure, often with inadequate testing and high risk of failure.
+**Without early warning**: When security teams rely primarily on severity, all critical and high-severity vulnerabilities may appear to require immediate attention. This can create noise, stretch remediation teams, and make it difficult to determine which vulnerabilities pose the most urgent risk to the organization.
 
-**With early warning**: Your team has months to test patches, coordinate across regions, validate against your systems, and deploy during planned maintenance windows. You patch proactively, not in crisis mode.
+**With early warning**: Early Warning enriches Common Vulnerabilities and Exposures \(CVE\) records with vulnerability intelligence derived from signals such as honeypot activity, OSINT, and operational research. When the Early Warning flag is set to **true**, teams can focus first on critical vulnerabilities with evidence of active exploitation or heightened attacker interest, rather than treating every critical or high-severity vulnerability the same. This additional context helps teams reduce noise, prioritize what matters most, validate fixes, coordinate patching across teams and regions, and deploy updates through planned maintenance windows instead of relying only on reactive emergency remediation.
 
 **When Early Warning Is critical**: Early Warning is most valuable for organizations where patching takes time or downtime is costly:
 
@@ -35,50 +35,37 @@ Early Warning shifts vulnerability management from reactive crisis to strategic 
 -   **Regulated industries**: Compliance auditors want to see proactive vulnerability management, not reactive patch-and-pray. Early warning demonstrates a prevention-first security posture.
 -   **High-value targets**: Organizations subject to nation-state or sophisticated cyber attacks. Early warning closes the window where you're undefended before threat actors act.
 
-In these scenarios, detecting exploits before public disclosure allows safe, coordinated patching instead of reactive, high-risk emergency updates.
+Detecting exploitation signals from honeypots, OSINT, and operational research before broader industry recognition or CISA KEV inclusion enables proactive patching and reduces the need for high-risk emergency updates.
 
-## How Early Warning integrates with USEM
+## How it works
 
-When you integrate Early Warning for Security Exposure Managementwith Unified Security Exposure Management \(USEM\), early warning signals automatically feed into your vulnerability prioritization workflow:
+Early Warning for Security Exposure Management performs the following operations when integrated with USEM:
 
-1.  Early Warning detects that threat actors are planning to exploit CVE-XXXX.
-2.  USEM receives early warning signal and automatically elevates the priority of that CVE in your inventory.
-3.  Your team prioritizes patching this vulnerability ahead of others, even if severity scores don't reflect the real-world threat.
-4.  You patch proactively before the vulnerability is published and exploits become available.
-
-This means your security team spends time on the vulnerabilities that actually matter- the ones threat actors are targeting and not just the ones with the highest Common Vulnerability Scoring System \(CVSS\) scores.
+-   **Detection**: Identifies a vulnerability that threat actors are planning to exploit.
+-   **Integration**: Ingests early warning signal automatically ingested into USEM and elevates the priority of that CVE in your vulnerability inventory.
+-   **Prioritization**: Enables your security team to prioritize patching these vulnerabilities ahead of others, even if Common Vulnerability Scoring System \(CVSS\) scores don't reflect the real-world threat.
+-   **Response**: Enables your team to coordinate proactive patch deployment during planned maintenance windows and focus on vulnerabilities threat actors are actively targeting - not just those with the highest CVSS scores.
 
 The integration appears in the Security Exposure Management workspace alongside other enrichment integrations such as the CISA Known Exploited Vulnerabilities integration. You can monitor integration run history, ingestion health, and processing health from the integration overview page.
 
 ## Key benefits
 
-This integration provides the following benefits:
+Early Warning for Security Exposure Management provides the following benefits:
 
--   Earlier risk prioritization: Early warning flags surface alongside your vulnerability risk scores, so remediation teams focus on the threats that matter most. Instead of patching by CVSS score alone, you patch based on real-world threat actor behavior.
--   Faster remediation without extra setup: Early warning CVEs trigger existing Vulnerability Change Management workflows automatically, with no custom integration required
--   Faster identification of at-risk assets: Filter findings by early warning status to surface which assets carry elevated risk
--   Built-in asset correlation: Early warning signals roll up from CVE records to third-party entries automatically, extending risk visibility to the assets already tracked in your Vulnerability Response data with no additional CMDB mapping required
-
-## How it works
-
-The Early Warning for Security Exposure Management integration performs the following operations:
-
-1.  **Detection**: Identifies a vulnerability that threat actors are planning to exploit, often months before it's publicly known.
-2.  **Integration**: The early warning signal is ingested into USEM and automatically elevates the priority of that CVE in your vulnerability inventory.
-3.  **Prioritization**: Your security team sees the early warning flag and prioritizes patching this vulnerability ahead of others, even if CVSS scores don't reflect the real-world threat.
-4.  **Response**: Your team coordinates a patch deployment during a planned maintenance window. By the time the vulnerability is published publicly, your systems are already protected.
-
-Your team spends time on vulnerabilities that threat actors are actually targeting, not just the ones with the highest severity scores.
+-   **Earlier risk prioritization**: Early warning flags surface alongside your vulnerability risk scores, so remediation teams focus on the threats that matter most. Instead of patching by CVSS score alone, you patch based on real-world threat actor behavior.
+-   **Faster remediation without extra setup**: Early warning CVEs trigger existing Vulnerability Change Management workflows automatically, with no custom integration required.
+-   **Faster identification of at-risk assets**: Filter findings by early warning status to surface which assets carry elevated risk.
+-   **Built-in asset correlation**: Early Warning signals roll up from CVE records to third-party entries \(TPEs\) automatically, extending risk visibility to the assets already tracked in USEM with no additional CMDB mapping required.
 
 ## Data available in USEM
 
 When you integrate Early Warning for Security Exposure Management, two new columns appear in your vulnerability records:
 
--   **Armis Early Warning:** A flag indicating that threat actors are planning to exploit this CVE
--   **Armis Early Warning CVD Attributes:** Detailed threat intelligence including:
+-   **Armis Early Warning:** A flag indicating that threat actors are planning to exploit this CVE.
+-   **Armis Early Warning CVD Attributes:** Detailed vulnerability intelligence including:
     -   CVE ID and affected product
     -   Intelligence date \(when Armis detected the threat actor activity\)
-    -   Admiralty score \(confidence rating of the threat intelligence\)
+    -   Admiralty score \(confidence rating of the vulnerability intelligence\)
     -   Honeypot detection date
     -   Research date
 
@@ -92,9 +79,9 @@ Each CVE in the Armis feed includes an Admiralty score - a confidence rating bas
 
 You can use the Admiralty score as an additional condition in a risk rule to refine prioritization. For example, you can configure the rule to apply a weight only to CVEs whose admiralty score meets a defined reliability threshold.
 
-## Customizing risk rules
+## Configuring risk rules
 
-The early warning flag and Admiralty score are available as criteria in your risk rules, allowing you to customize how early warnings influence your vulnerability scores.
+The early warning flag and Admiralty score are available as criteria in your risk rules, allowing you to configure how early warnings influence your vulnerability scores.
 
 In the default risk calculator, you can:
 
@@ -104,15 +91,15 @@ In the default risk calculator, you can:
 
 In the default risk calculator, you can adjust the weight or add the admiralty score as an additional condition to refine prioritization.
 
-Because the early warning flag can be set to **true** even when no known exploit exists in other feeds such as CISA KEV or Exploit Prediction Scoring System \(EPSS\), the integration extends risk coverage to CVEs that have not yet appeared in those other intelligence sources.
+Early Warning extends risk coverage to CVEs which may not yet be identified by intelligence sources such as CISA KEV or EPSS.
 
 ## Key components
 
-The Early Warning for Security Exposure Management integration consists of the following components:
+Early Warning for Security Exposure Management consists of the following components:
 
 -   **Integration plugin**
 
-    Early Warning for Security Exposure Management\(`com.snc.vulnerability.ew`\): Handles data ingestion via the Vulnerability Integration Framework
+    Early Warning for Security Exposure Management \(`sn_vul_ew`\): Handles data ingestion via the Vulnerability Integration Framework
 
 -   **CVD attributes table**
 
@@ -129,20 +116,26 @@ The Early Warning for Security Exposure Management integration consists of the f
 
 ## Dependencies and prerequisites
 
-The Early Warning for Security Exposure Managementintegration requires the following:
+The Early Warning for Security Exposure Management integration requires the following:
 
 -   Unified Security Exposure Management \(Vulnerability Response v30.x\)
 -   Vulnerability Integration Framework plugin
--   Access to Armis threat intelligence feed and valid authentication credentials
+-   Access to Armis vulnerability intelligence feed and valid authentication credentials
 
+-   **[Install the required applications for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/early-warning-install.md)**  
+Install the required applications for Early Warning for Security Exposure Management.
+-   **[Set up requirements for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/early-warning-integration-setup.md)**  
+Complete the following setup steps in your Armis Intelligence Center console environment before you configure Early Warning for Security Exposure Management in your ServiceNow AI Platform® instance.
 -   **[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t-configure_early_warning_integration.md)**  
-Install and configure the Early Warning for Security Exposure Management integration plugin to ingest threat intelligence and enrich your vulnerability database with pre-disclosure threat signals.
+Install and configure the Early Warning for Security Exposure Management integration plugin to ingest vulnerability intelligence and enrich your vulnerability database with threat signals.
+-   **[Add Early Warning criteria to a risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-armis-early-warning-risk-rule.md)**  
+Add the Early Warning flag or Admiralty score as a weighted criterion in a risk rule to prioritize vulnerable items based on vulnerability intelligence data.
+-   **[Schedule the Early Warning for Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/schedule-ew-integration.md)**  
+You can schedule the integration import times on the records in the Vulnerability Integrations \[sn\_vul\_int\_fw\_integration\] table and launch them on-demand.
 -   **[View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-armis-early-warning-health.md)**  
 Monitor the Early Warning for Security Exposure Management integration by reviewing run history, ingestion performance, and processing health from the Security Exposure Management Administration console.
--   **[Add Early Warning criteria to a risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-armis-early-warning-risk-rule.md)**  
-Add the Early Warning flag or Admiralty score as a weighted criterion in a risk rule to prioritize vulnerable items based on threat intelligence data.
 -   **[Early Warning CVD Attributes field reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/r-early-warning-cvd-attributes.md)**  
-The Early Warning CVD Attributes table stores threat intelligence signals for vulnerabilities. Each attribute represents a pre-disclosure threat indicator ingested from the Early Warning feed.
+The Early Warning CVD Attributes table stores vulnerability intelligence signals for vulnerabilities. Each attribute represents a threat indicator ingested from the Early Warning feed.
 
 **Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/integrating-usem.md)
 

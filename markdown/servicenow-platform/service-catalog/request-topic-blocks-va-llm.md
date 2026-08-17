@@ -9,14 +9,14 @@ classification: service-catalog
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [LLM topic blocks, Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Request catalog item through Now LLM
 
 You can design a topic conversation in Virtual Agent powered Now LLM by including reusable topic blocks to perform request submission tasks.
 
-You can use this topic block to request for a catalog item through a conversational and streamlined experience based on generative AI. For information about configuring Now Assist in conversational catalog request, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md).
+You can use this topic block to request for a catalog item through a conversational and streamlined experience based on generative AI. For information about configuring ServiceNow Otto in conversational catalog request, see [Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md).
 
 |Parameter|Description|
 |---------|-----------|

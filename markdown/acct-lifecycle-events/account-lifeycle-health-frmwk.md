@@ -14,7 +14,7 @@ breadcrumb: [Customer success, Explore, Customer Success Management]
 
 Define key business and operational indicators and their impact on the overall health of an engagement.
 
-Customer success managers can use the health score to assess the status of an engagement, whether it’s stable or in decline. They can use key business and operational indicators—sourced from internal data, external data lakes, or integrated via Workflow Data Fabric—to define and measure performance at a global level or for specific engagements based on contractual needs. Any available or reachable data can contribute to deriving this score, providing flexible insights. The health score of an engagement can provide insights and help customer success managers to identify trends and act if necessary.
+Customer success managers can use the health score to assess the status of an engagement, whether it’s stable or in decline. They can use key business and operational indicators—sourced from internal data, external data lakes, or integrated via Workflow Data Fabric—to define and measure performance. Performance can be measured at a global level or for specific engagements based on contractual needs. Any available or reachable data can contribute to deriving this score, providing flexible insights. The health score of an engagement can provide insights and help customer success managers to identify trends and act if necessary.
 
 The health score can be calculated using different metrics like CSAT score and product usage. For example, you can calculate the health score for an engagement using the following metrics:
 

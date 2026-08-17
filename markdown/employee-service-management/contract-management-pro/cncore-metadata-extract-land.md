@@ -1,6 +1,6 @@
 ---
-title: Contract metadata extraction using Now Assist in Contract Management
-description: As a contract fulfiller, use Now Assist in Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+title: Contract metadata extraction using ServiceNow Otto for Contract Management Pro
+description: As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-metadata-extract-land.html
 release: australia
@@ -9,12 +9,12 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Contract metadata extraction using Now Assist in Contract Management
+# Contract metadata extraction using ServiceNow Otto for Contract Management Pro
 
-As a contract fulfiller, use Now Assist in Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
+As a contract fulfiller, use ServiceNow Otto for Contract Management Pro to extract metadata from a signed contract and add the information to the mapped fields in the contract repository.
 
 You can review the extracted information and make necessary corrections on the Document Intelligence workspace before adding the information to the contract repository. On completion of the extraction process, the **Extraction results** tab opens on the contract repository record displaying the status of the extracted metadata.
 
@@ -42,10 +42,10 @@ Review the metadata extracted from a contract and add it to the contract reposit
 -   **[Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md)**  
 The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository.
 
-**Parent Topic:**[Using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
+**Parent Topic:**[Using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
 
 **Related topics**  
 
 
-[Contract analysis using Now Assist in Contract Management]()
+[Contract analysis using ServiceNow Otto for Contract Management Pro]()
 

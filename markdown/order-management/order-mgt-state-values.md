@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-stat
 release: australia
 topic_type: reference
 last_updated: "2025-10-10"
-reading_time_minutes: 11
+reading_time_minutes: 8
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
@@ -162,8 +162,8 @@ All associated customer order line items are complete.**Note:** After your agent
 </td></tr></tbody>
 </table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled customer order states, see the following:
 
--   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+-   
+-   
 
 ## Order line item form states
 
@@ -255,8 +255,8 @@ Revision in progress
 
 </td><td>
 
-Customer order line item revision that is in process but has not been approved. To learn more, see the following:-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+Customer order line item revision that is in process but has not been approved. To learn more, see the following:-   
+-   
 
 </td></tr><tr><td>
 
@@ -280,8 +280,8 @@ Assessing cancellation
 
 </td><td>
 
-As part of the Inflight Order Change functions, when a cancellation request is submitted for the customer order line item, it moves to this state. To learn more, see the following:-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+As part of the Inflight Order Change functions, when a cancellation request is submitted for the customer order line item, it moves to this state. To learn more, see the following:-   
+-   
 
 </td></tr><tr><td>
 
@@ -289,8 +289,8 @@ Cancellation in progress
 
 </td><td>
 
-When the cancellation request is approved, the customer order line item moves to this state. To learn more, see the following:-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+When the cancellation request is approved, the customer order line item moves to this state. To learn more, see the following:-   
+-   
 
 </td></tr><tr><td>
 
@@ -314,8 +314,8 @@ Customer order line item and all associated domain orders and order tasks that a
 </td></tr></tbody>
 </table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled customer order line item states, see the following:
 
--   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
+-   
+-   
 
 ## Product Order, Service Order, and Resource Order form states
 

@@ -74,7 +74,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ITOM Mobile Agent displays a notification similar to `INC0013579 was created from Alert0002468`. You can view the incident in the **My team** tab. For more information about managing incidents in ITOM Mobile Agent, see [Managing incidents and major incidents on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/itom-mobile-incidents.md).
 
-**Note:** If you don't see the option to create an incident from an alert, make sure that the alert is assigned to a team. To assign the alert to a team, see [Assign alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/assign-alerts.md). In the Express List, teams are also known as assignment groups.
+**Note:** If you don't see the option to create an incident from an alert, make sure that the alert is assigned to a team. To assign the alert to a team, see [Assign alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/assign-alerts.md). In the Express List, teams are also known as assignment groups.
 
 ## Reassign an alert
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/som-self-servi
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
@@ -83,7 +83,25 @@ Simplify invoice inquiries and dispute management through a direct, trackable se
  [Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-multiple.md)
 
 </td></tr></tbody>
-</table>## Business Portal and sales agents
+</table>## Generative and agentic AI applications for enabling customer self-service
+
+The ServiceNow Otto for Order Management includes the following applications that enable business-to-business \(B2B\) customers to submit order and invoice cases autonomously in simple conversational format from the Business Portal.
+
+-   **Manage Order Operations**
+
+    The Manage Order Operations application \(com.sn\_ord\_ops\_aias\) includes the following AI agents:
+
+    -   Manage order operations AI agent: Enables B2B customers to submit order cases autonomously from the Business Portal using natural language.
+    -   Order exception AI voice agent: Enables B2B customers to submit order cases using voice calls.
+-   **Manage Invoice Operations**
+
+    The Manage Invoice Operations application \(com.sn\_inv\_ops\_aias\) includes the following AI agents and agentic workflow:
+
+    -   Invoice dispute intake assistant AI agent: Enables B2B customers to submit invoice dispute cases autonomously from the Business Portal using natural language.
+    -   Invoice dispute AI voice agent: Enables customers to submit invoice dispute cases using voice calls.
+    -   Invoice dispute assist agentic workflow: Enables finance agents to validate and resolve invoice disputes using a guided experience from the Now Assist panel in the CSM/FSM Configurable Workspace. Internally, it uses the invoice dispute support assistant AI agent to validate invoice information, trigger API calls to check quantity discrepancies and provide resolutions.
+
+## Business Portal and sales agents
 
 Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CSM Configurable Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
 

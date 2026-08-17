@@ -21,7 +21,7 @@ Define categories and subcategories for success play workflows.
 
 ## About this task
 
-The customer success definition table controls what appears in the success play workflow. The category and sub-categories that appear in the success play correspond to a customer success definition record that matches the selected category. When you select a success play, the selected linked flow runs and creates a record in the target table, triggers a playbook, or performs another action as specified in the subflow.
+The customer success definition table controls what appears in the success play workflow. The category and sub-categories that appear in the success play correspond to a customer success definition record that matches the selected category. When you select a success play, the selected linked flow runs. The flow creates a record in the target table, triggers a playbook, or performs another action as specified in the subflow.
 
 ## Procedure
 

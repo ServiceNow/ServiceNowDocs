@@ -16,6 +16,8 @@ breadcrumb: [ACC installation, ACC deployment - servers, Configuring Agent Clien
 
 System requirements are the fundamental specifications and configuration needed to install and run Agent Client Collector \(ACC\) effectively.
 
+Verify that your server's OS and version is supported. For a list of supported OS's and versions [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1)
+
 Before installing the Agent Client Collector, you must do the following:
 
 -   When working with a MID Server:

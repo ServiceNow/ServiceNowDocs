@@ -1,6 +1,6 @@
 ---
 title: Redact sensitive data from documents
-description: Manually mask sensitive content or data from your PDF documents. Data redaction is available in configurable workspaces.
+description: Manually mask sensitive content or data from your PDF documents and attachments. Data redaction is available in configurable workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/data-redaction-documents.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use, Document Management, Document Services, Manage content capabil
 
 # Redact sensitive data from documents
 
-Manually mask sensitive content or data from your PDF documents. Data redaction is available in configurable workspaces.
+Manually mask sensitive content or data from your PDF documents and attachments. Data redaction is available in configurable workspaces.
 
 ## Data redaction
 

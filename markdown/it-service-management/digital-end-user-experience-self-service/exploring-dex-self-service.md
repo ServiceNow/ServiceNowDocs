@@ -28,7 +28,7 @@ You can access Device health check from the following sources:
 |------|-------|
 |Employee Center|[Check device health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.md)|
 |Desktop Assistant|[Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md)|
-|Now Assist for ITSM Virtual Agent|[Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
+|ServiceNow Otto for ITSM Virtual Agent|[Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
 
 When you install DEX Self-service, several base system components are automatically installed. For more information, see [Components installed with DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/components-installed-with-dex-self-service.md).
 
@@ -37,7 +37,7 @@ When you install DEX Self-service, several base system components are automatica
 1.  Access Device health check from any of the following sources:
     -   Employee Center. See [Check device health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.md).
     -   Desktop Assistant. See [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md).
-    -   Now Assist for ITSM Virtual Agent. See [Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md).
+    -   ServiceNow Otto for ITSM Virtual Agent. See [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md).
 2.  \(Optional\) If there are multiple devices, select a device to check its health.
 3.  View the health of the device by performance category \(Good, Average, or Poor\). For more information about how device health is calculated, see [Device heath check calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/Device-health-check-calculation.md).
 4.  \(Optional\) Trigger device actions for optimal device performance, even when no issues are detected.
@@ -66,7 +66,7 @@ When you install DEX Self-service, several base system components are automatica
 
 ## Operating system support
 
-DEX Self-service supports Windows and macOS devices. Issue configurations related to DEX Self-service device health check and device actions are scoped to Windows, macOS, or both, and only configurations matching the device OS are available on that device.
+DEX Self-service supports Windows and macOS devices. Issue configurations for device health checks and device actions are scoped to Windows, macOS, or both, and only matching configurations are available on that device.
 
 The two operating systems differ in how the Agent Client Collector \(ACC\) agent runs device health checks and device actions.
 
@@ -82,5 +82,5 @@ To learn more about configuring and using Digital End-user Experience Self-servi
 -   [Using Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/using-dex-self-service.md)
 -   [Check device health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.md)
 -   [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md)
--   [Check device health using Now Assist for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
+-   [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)
 

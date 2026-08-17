@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-configure-allowed-websites.html
 release: australia
 topic_type: task
-last_updated: "2025-08-28"
+last_updated: "2026-05-25"
 reading_time_minutes: 2
 breadcrumb: [Adaptive desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
 ---
@@ -16,7 +16,7 @@ Specify a list of websites that AI agents configured with adaptive desktop actio
 
 ## Before you begin
 
-Set your application scope to Now Assist AI web agent.
+Set your application scope to ServiceNow Otto AI web agent.
 
 Role required: admin
 

@@ -48,10 +48,7 @@ The various stages in the asset refresh process are as follows:
 
 **Note:** The Zero Touch Refresh flow requires support from an external provider and is pre-configured to integrate with Insight.
 
-The Zero Touch Refresh flow has the following requirements:
-
--   The employee's organization and the provider must be on the same ServiceNow Cloud.
--   The Service Exchange application must be configured on the ServiceNow instance of the provider and the employee's organization.
+The Zero Touch Refresh flow requires the Service Exchange application to be configured on the ServiceNow instance of both the provider and the employee's organization.
 
 For more details, see [Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md).
 

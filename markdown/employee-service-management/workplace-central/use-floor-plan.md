@@ -71,15 +71,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 6.  Perform any of the following actions based on your requirement.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d497458e252">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d497653e252">
 
 Action
 
-</th><th align="left" id="d497458e255">
+</th><th align="left" id="d497653e255">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d497458e261">
+</th></tr></thead><tbody><tr><td id="d497653e261">
 
 **Zoom in or out on the map**
 
@@ -87,7 +87,7 @@ Steps
 
 Use the zoom options \[Omitted image "zoom-options.png"\] Alt text: on the map.
 
-</td></tr><tr><td id="d497458e275">
+</td></tr><tr><td id="d497653e275">
 
 **Change the map to a different floor and building**
 
@@ -95,7 +95,7 @@ Use the zoom options \[Omitted image "zoom-options.png"\] Alt text: on the map.
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d497458e290">
+</td></tr><tr><td id="d497653e290">
 
 **Search for a user or space**
 
@@ -114,7 +114,7 @@ For more information, see either of the following topics:
     -   [Edit space allocations on the floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-space-allocations-floor-plan.md)
 
 
-</td></tr><tr><td id="d497458e333">
+</td></tr><tr><td id="d497653e333">
 
 **Select spaces**
 
@@ -133,7 +133,7 @@ For example, `Department is Finance`. For more information about conditions, see
 
  The details panel displays information about the selected spaces and their assigned users.
 
-</td></tr><tr><td id="d497458e379">
+</td></tr><tr><td id="d497653e379">
 
 **Select a neighborhood**
 
@@ -150,7 +150,7 @@ All spaces on the floor that are allocated to the neighborhood are selected.
 
  Alternatively, for a single neighborhood, you can select the neighborhood from the legend.
 
-</td></tr><tr><td id="d497458e416">
+</td></tr><tr><td id="d497653e416">
 
 **Select Users**
 
@@ -167,7 +167,7 @@ For example, `Workplace profile is Active`. For more information about condition
 3.  Select the users from the list.
  The details panel displays information about the selected users and their assigned spaces.
 
-</td></tr><tr><td id="d497458e454">
+</td></tr><tr><td id="d497653e454">
 
 **Print the map**
 
@@ -180,7 +180,7 @@ For more information about map printing and its options, see [Print a map](https
 
  To print a map, you need the `sn_map_core.map_printer` role.
 
-</td></tr><tr><td id="d497458e487">
+</td></tr><tr><td id="d497653e487">
 
 **Edit space details**
 
@@ -191,7 +191,7 @@ For more information about map printing and its options, see [Print a map](https
 3.  On the Spaces list, edit the details based on your requirement.
 
 
-</td></tr><tr><td id="d497458e511">
+</td></tr><tr><td id="d497653e511">
 
 **Review move information for a space**
 
@@ -207,7 +207,7 @@ For more information about map printing and its options, see [Print a map](https
 4.  On the user card, select the link icon to view the details of the move case.
 
 
-</td></tr><tr><td id="d497458e555">
+</td></tr><tr><td id="d497653e555">
 
 **Display user assignments on the map**
 
@@ -224,7 +224,7 @@ This option is switched on by default.
 4.  Select **Apply**.
 
 
-</td></tr><tr><td id="d497458e606">
+</td></tr><tr><td id="d497653e606">
 
 **View the map as defined in the Map Studio**
 

@@ -1,5 +1,5 @@
 ---
-title: Exploring AI Control Tower
+title: Exploring AI Control Tower \(legacy\)
 description: Explore and learn about the AI Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, LLM, large language model]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Exploring AI Control Tower
+# Exploring AI Control Tower \(legacy\)
 
 Explore and learn about the AI Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
 
@@ -45,10 +45,10 @@ To learn more about AI Control Tower and other applications integrating with its
 
 -   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-governance.md)
 -   [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
--   
+-   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
 -   [Explore Now Assist AI asset discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.md)
 -   [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.md)
--   [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-gateway-overview.md)
--   [Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
--   [AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-references.md)
+-   
+-   [Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+-   [AI Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-references.md)
 

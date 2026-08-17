@@ -33,7 +33,7 @@ The list shows details like customer name, case number, lodgement date and time,
 
 **Note:** The policy servicing CSR can view only policy-related cases and the claims servicing CSR can view only claims cases.
 
-The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See [Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md) for more information about the Household plugin.
+The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See  for more information about the Household plugin.
 
 **Warning:** AI-generated summaries may not always be accurate. CSRs must review the underlying policy and case data before acting on any AI-generated content.
 
@@ -53,11 +53,11 @@ The following table shows the available actions in the Customer 360 page.
 
 |Name|Description|
 |----|-----------|
-|Ask Now Assist|Opens the Now Assist panel and initiates the Insurance CSR customer insights AI agent. The AI agent uses the customer's profile and policy data to surface contextual responses. For more information, see [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/generate-insurance-customer-insights-customer-360.md).|
+|Ask Otto|Opens the ServiceNow Otto panel and initiates the Insurance CSR customer insights AI agent. The AI agent uses the customer's profile and policy data to surface contextual responses. For more information, see [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-insurance-customer-insights-customer-360.md).|
 |Create case|Opens the Create case window to create a case for the customer.|
 
 **Related topics**  
 
 
-[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[bundle-csm.csm-workspaces-configure]
 

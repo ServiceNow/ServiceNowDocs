@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, model, integration, data hub, zero, copy, connector, sap, system, data, store]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Specifying where ERP system data is saved
@@ -36,6 +36,4 @@ The **Use ERP Data** action returns ERP data in an output data pill called **Res
 You can then add the **Response** data pill or any of the child **record** data pills to a flow to parse the returned JSON.
 
 For example, you can generate a record for each response from the ERP system, making that data available for use on the ServiceNow AI Platform.
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

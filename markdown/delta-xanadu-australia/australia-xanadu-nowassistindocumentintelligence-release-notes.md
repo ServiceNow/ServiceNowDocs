@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistindocumentintelligence-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -167,9 +167,9 @@ Leverage features that enable you to use the document and visual insights AI age
     -   Prompt the AI agent to upload a file to process.
     -   View the results of the AI agent actions in a document view screen.
 
--   **[Document Intelligence for Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=add-document-intelligence&family=zurich&ft:locale=en-US)**
+-   **[Document Intelligence for AI Skill Kit](https://www.servicenow.com/docs/access?context=add-document-intelligence&family=zurich&ft:locale=en-US)**
 
-Use document and visual intelligence to leverage extraction, question answering, and summarization capabilities for a skill created with Now Assist Skill Kit.
+Use document and visual intelligence to leverage extraction, question answering, and summarization capabilities for a skill created with AI Skill Kit.
 
 -   **[Language model selection](https://www.servicenow.com/docs/access?context=languages-supported-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
 
@@ -194,9 +194,9 @@ Enable access control lists \(ACLs\) to improve the security for the document an
 The document and visual insights AI agent and its skills are classified as a worker or helper agent. A worker can act as an AI user with different privileges than the human user. A helper only has the privileges of a human user.
 
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 </td></tr><tr><td>
@@ -211,8 +211,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=australia&ft:locale=en-US)**
@@ -289,9 +289,9 @@ Tools used by the document and visual insights AI agent are consolidated to impr
 
 The file size limit for uploading a file using the attachment summarization feature is changed from 10MB to 20MB.
 
--   **[Document Intelligence for Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=add-document-intelligence&family=zurich&ft:locale=en-US)**
+-   **[Document Intelligence for AI Skill Kit](https://www.servicenow.com/docs/access?context=add-document-intelligence&family=zurich&ft:locale=en-US)**
 
-The document and visual intelligence capabilities used to leverage extraction, question answering, and summarization capabilities for skills created with Now Assist Skill Kit are available to users with the appropriate role\(s\).
+The document and visual intelligence capabilities used to leverage extraction, question answering, and summarization capabilities for skills created with AI Skill Kit are available to users with the appropriate role\(s\).
 
 -   **[Now Assist in Document Intelligence skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
@@ -315,7 +315,7 @@ The page count limit decreases to 20 pages per file for an extraction based on a
 
 Document data extraction and document Q&amp;A capabilities are available in a single Extract information from documents skill.
 
-    -   The Extract information from documents skill is available in the list of Platform skills in the Now Assist Admin console.
+    -   The Extract information from documents skill is available in the list of Platform skills in the AI Admin Hub console.
     -   Data extraction and document Q&amp;A capabilities can be set up for the same use case.
     -   Agents can review the AI predictions for the fields, tables, and questions in the same task.
 -   **[Document and visual insights AI agent enhancements](https://www.servicenow.com/docs/access?context=document-and-visual-insights-ai-agent&family=zurich&ft:locale=en-US)**
@@ -353,7 +353,7 @@ The file size limit for uploading a file using the attachment summarization feat
 
 -   **[Add a tool](https://www.servicenow.com/docs/access?context=add-a-tool&family=australia&ft:locale=en-US)**
 
-Document and visual intelligence capabilities used to leverage extraction, question answering, and summarization for skills created with Now Assist Skill Kit is available to users with the appropriate role\(s\).
+Document and visual intelligence capabilities used to leverage extraction, question answering, and summarization for skills created with AI Skill Kit is available to users with the appropriate role\(s\).
 
 
 </td></tr></tbody>
@@ -391,8 +391,8 @@ Zurich
 
 </td><td>
 
--   The Document extraction skill has been removed from the list of Platform skills in the Now Assist Admin console.
--   The Document Q&amp;A skill has been removed from the list of Platform skills in the Now Assist Admin console.
+-   The Document extraction skill has been removed from the list of Platform skills in the AI Admin Hub console.
+-   The Document Q&amp;A skill has been removed from the list of Platform skills in the AI Admin Hub console.
 
 </td></tr><tr><td>
 
@@ -761,19 +761,19 @@ Zurich
 
 -   View a test document in a larger workspace on a separate browser tab during use case setup.
 -   Use the document and visual insights AI agent to upload files, extract information without a predefined use case using a selected LLM, and display the results in a dedicated document view.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 
  [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
 -   Leverage document data extraction and document Q&amp;A capabilities in a single Extract information from documents skill.
--   Create skills with data extraction, question answering, and summarization capabilities by using document and visual intelligence in Now Assist Skill Kit.
+-   Create skills with data extraction, question answering, and summarization capabilities by using document and visual intelligence in AI Skill Kit.
 -   Choose the language for a use case to help the optical character recognition \(OCR\) model better detect the text to extract from your files.
 -   Extract information from files with text written in Simplified Chinese or Japanese.
 -   Extract information from documents for Operational Sustainability Management \(Operational Sustainability Risk Management\) workflows.
 
  [Early Availability](https://www.servicenow.com/docs/access?context=zurich-all-other-fixes&family=zurich&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
  See [Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&family=zurich&ft:locale=en-US) for more information.
 
@@ -792,7 +792,7 @@ Australia
 -   View citations for multiple attachments using the document and visual insights AI agent.
 -   Create skills with data extraction, question answering, and summarization capabilities using document and visual intelligence in Now Assist Skill Kit.
 
- See [Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&family=australia&ft:locale=en-US) for more information.
+ See [Now Assist in Document Intelligence \(Legacy\)](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

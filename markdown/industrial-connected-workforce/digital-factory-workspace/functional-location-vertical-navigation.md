@@ -1,6 +1,6 @@
 ---
 title: Functional location vertical navigation
-description: The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail so that you can move between sections of a functional location and between locations in the equipment model.
+description: The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail. Use these controls to move between sections of a functional location and between locations in the equipment model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.html
 release: australia
@@ -15,9 +15,9 @@ breadcrumb: [Operational Equipment Model, Industrial Data Models, Use, Digital F
 
 # Functional location vertical navigation
 
-The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail so that you can move between sections of a functional location and between locations in the equipment model.
+The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail. Use these controls to move between sections of a functional location and between locations in the equipment model.
 
-The functional location view in the Digital Factory Workspace arranges the equipment model in a vertical layout. A panel on the left lists the sections that are available for the selected functional location, and the main area shows the content for the section that you select.
+The functional location view in the Digital Factory Workspace arranges the equipment model in a vertical layout. A panel on the left lists the sections available for the selected functional location. The main area shows the content for the section you select.
 
 ## Vertical navigation layout
 
@@ -34,7 +34,7 @@ A breadcrumb trail appears above the page title and shows the full equipment mod
 
 ## Default landing location
 
-When you open the functional location view, the page opens to the functional location that is set in your worker profile. From this default landing location, you can drill down through the equipment model or open the list of functional locations to switch to a different one within your entitlement scope.
+When you open the functional location view, the page opens to the functional location that is set in your worker profile. From this default landing location, you can drill down through the equipment model. You can also open the list of functional locations to switch to a different one within your entitlement scope.
 
 -   **[Navigate the equipment model with the breadcrumb trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/navigate-with-breadcrumb-trail.md)**  
 Use the breadcrumb trail at the top of the page title to open a different level in the equipment model hierarchy from the current functional location.

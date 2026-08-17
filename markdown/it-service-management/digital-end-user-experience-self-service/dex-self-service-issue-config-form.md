@@ -9,7 +9,7 @@ classification: digital-end-user-experience-self-service
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Self-service reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX Self-service issue configuration form
@@ -85,13 +85,13 @@ User applicability
 
 </td><td>
 
-Determines the users who can view and use the issue configuration.-   End user: The action is visible to employees in Employee Center, Desktop Assistant, and Now Assist.
+Determines the users who can view and use the issue configuration.-   End user: The action is visible to employees in Employee Center, Desktop Assistant, and ServiceNow Otto.
 -   Service desk agent: The action is visible to agents in the agent workspace only.
 -   Both end users and service desk agents.
 
 </td></tr><tr><td>
 
-Enabled in DEX Now Assist topic
+Enabled in DEX ServiceNow Otto topic
 
 </td><td>
 

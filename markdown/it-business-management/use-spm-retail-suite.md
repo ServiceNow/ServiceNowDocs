@@ -38,7 +38,7 @@ To set up and manage retail projects in Retail Strategic Portfolio Management Su
 
 Each project template in Retail Strategic Portfolio Management Suite is paired with a stage-gate playbook that walks the project manager through the work from start to finish. When you create a project from a template, the respective playbook is reflected automatically based on the project type. Selecting the Retail New Store Opening template applies the New Store Opening playbook.
 
-Within each stage, the playbook lists the activities the project manager reviews or enters, including checklists for work performed by store operations, IT, finance, or real estate teams, and field inputs for key project dates like the site approval, store go-live, last trading day, or installation completion. Each stage closes with an approval step, where the project manager submits the stage to the leadership for sign-off before the project moves forward.
+Within each stage, the playbook lists the activities the project manager reviews or enters, including checklists for work performed by store operations, IT, finance, or real estate teams. It also includes field inputs for key project dates like the site approval, store go-live, last trading day, or installation completion. Each stage closes with an approval step, where the project manager submits the stage to the leadership for sign-off before the project moves forward.
 
 The following playbooks are available, one for each retail project template:
 

@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-By default, contextual buttons and controls on diagram shapes are hidden and appear only when you hover over a shape. When you enable the  **Show all buttons without the need to hover preference**, all contextual buttons and controls remain visible on shapes at all times This makes it easier to interact with shapes and navigate the canvas, particularly when using assistive technologies.
+By default, contextual buttons and controls on diagram shapes are hidden and appear only when you hover over a shape. When you enable the  **Show all buttons without the need to hover ** toggle, all contextual buttons and controls remain visible on shapes at all times. This makes it easier to interact with shapes and navigate the canvas, particularly when using assistive technologies.
 
 This preference applies to all shape types in the diagram canvas, including General shapes, ArchiMate shapes, AWS shapes, CSDM shapes, and BPMN shapes. The setting is saved per user and does not affect other users on the same instance.
 

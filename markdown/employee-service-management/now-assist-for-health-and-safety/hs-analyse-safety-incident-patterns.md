@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Incident pattern analysis, Use generative AI skills, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Incident pattern analysis, Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Analyzing safety incident patterns
@@ -21,7 +21,7 @@ The tab is designed to help the safety teams quickly understand where risks are 
 ## Prerequisites
 
 -   Verify that the Health and Safety Incident Management application is installed. For more information, see [Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md).
--   Verify that the Now Assist for Health and Safety \[com.snc.sn\_hs\_gen\_ai\] plugin is installed.
+-   Verify that the ServiceNow Otto for Health and Safety \[com.snc.sn\_hs\_gen\_ai\] plugin is installed.
 -   Configure the inclusion of incident records that contain sensitive data. For more information, see [Configure the inclusion of sensitive data in incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-sensitive-data-incident-pattern.md).
 -   Verify that all the jobs are running. For more information on configuring the interval at which these jobs run, see [Configure the generation of incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-generation-incident-pattern.md).
 
@@ -39,7 +39,7 @@ Navigate to **Workspaces** &gt; **Health and safety Workspaces** and select the 
 
 ## Metrics on the incident pattern tab
 
-Users can view the metrics on the dashboard if they have the Health and Safety Incident Management and the Now Assist for Health and Safety plugin installed.
+Users can view the metrics on the dashboard if they have the Health and Safety Incident Management and the ServiceNow Otto for Health and Safety plugin installed.
 
 The agentic workflow to analyze patterns, identify risk drivers, and recommending corrective actions is active by default. For more information, see [Health safety incident patterns assistant agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis-agentic-workflow.md).
 

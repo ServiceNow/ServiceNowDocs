@@ -1,26 +1,26 @@
 ---
 title: Create a chat launcher button in Care Team Mobile
-description: Create a prominent action button that launches Now Assist chat or voice in the Care Team Mobile app.
+description: Create a prominent action button that launches ServiceNow Otto chat or voice in the Care Team Mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-create-launcher-button.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
 reading_time_minutes: 1
-keywords: [Now Assist, chat launcher button, voice assistant, Care Team Mobile, prominent action button]
-breadcrumb: [Configure, Now Assist for Care Team Operations, Healthcare and Life Sciences]
+keywords: [ServiceNow Otto, chat launcher button, voice assistant, Care Team Mobile, prominent action button]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
 # Create a chat launcher button in Care Team Mobile
 
-Create a prominent action button that launches Now Assist chat or voice in the Care Team Mobile app.
+Create a prominent action button that launches ServiceNow Otto chat or voice in the Care Team Mobile app.
 
 ## Before you begin
 
 Role required: admin
 
--   Verify that Now Assist is enabled on your instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+-   Verify that ServiceNow Otto is enabled on your instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a ServiceNow Otto voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 ## Procedure
 
@@ -46,8 +46,10 @@ Role required: admin
 
     |Field|Value|
     |-----|-----|
+    |Name|Enter a name for the button. For example, `Care Team Voice Assistant`.|
+    |Parent|Care Team Mobile App|
     |Parent table|Mobile app config \[sys\_sg\_native\_client\]|
-    |Location|Prominent Action|
+    |Label|Enter a label for the button. For example, `Care Team Voice Assistant PAB`.|
     |Icon|Spark-solid \[AIS\]|
     |Active|True|
 

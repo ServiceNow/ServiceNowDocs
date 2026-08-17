@@ -1,6 +1,6 @@
 ---
-title: Create expense line form
-description: The expense line form information is used to create an expense line for your actual expenses.
+title: Expense line form
+description: The expense line form enables you to create an expense line for the actual expenses for your demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-expense-line-form-ppw.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create expense line form
+# Expense line form
 
-The expense line form information is used to create an expense line for your actual expenses.
+The expense line form enables you to create an expense line for the actual expenses for your demand.
 
 <table id="table_eh4_qrp_c3c"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Number
 
 </td><td>
 
-Auto-generated number for the expense line.
+Automatically generated number for the expense line.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Date
 
 </td><td>
 
-Date on which the expense was generated.
+Date on which the expense is generated.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Process date
 
 </td><td>
 
-Date on which the expense line was processed.
+Date on which the expense line is processed.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Inherited
 
 </td><td>
 
-Indicates if the expense line is inherited from another expense line.
+Indicates whether the expense line is inherited from another expense line.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Parent
 
 </td><td>
 
-The parent expense line from which this expense line is inherited.
+Parent expense line from which the expense line is inherited.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Rate type
 
 </td><td>
 
-Rate type for the expense line.
+Rate type for the expense line.This field is automatically populated based on the selection in the Rate card field.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,10 @@ State
 
 </td><td>
 
-State of the expense line. Only processed expense lines are considered for an investment entity.
+State of the expense line.The available values are:
+
+-   Pending
+-   Processed
 
 </td></tr><tr><td>
 
@@ -110,7 +113,11 @@ Summary type
 
 </td><td>
 
-Business purpose of the expense line.
+Business purpose of the expense line.The available values are:
+
+-   Grow Business
+-   Run Business
+-   Transform Business
 
 </td></tr><tr><td>
 
@@ -118,7 +125,7 @@ Cost plan
 
 </td><td>
 
-Associated cost plan name for recording the expense line.
+Associated cost plan name for recording the expense line.**Note:** This field does not apply to demands.
 
 </td></tr><tr><td>
 
@@ -126,7 +133,10 @@ Expense type
 
 </td><td>
 
-Defines the expense type, internal or external.By default, the expense type is considered from the cost type field entry.
+Expense type of the expense line.The available values are:
+
+-   Opex
+-   Capex
 
 </td></tr><tr><td>
 
@@ -134,7 +144,7 @@ Cost type
 
 </td><td>
 
-Cost type of the expense.By default, the cost type of the cost plan is selected.
+Cost type of the associated cost plan.**Note:** This field does not apply to demands.
 
 </td></tr><tr><td>
 
@@ -142,7 +152,7 @@ Short description
 
 </td><td>
 
-Short description of the expense.Mention unique and specific details to identify the expense line.
+Brief summary of the expense line.
 
 </td></tr><tr><td>
 
@@ -150,7 +160,9 @@ Source
 
 </td><td>
 
-Sources of the expense line. These sources include:-   Asset
+Sources of the expense line. The available values are:
+
+-   Asset
 -   Configuration item
 -   Fixed asset
 -   Task

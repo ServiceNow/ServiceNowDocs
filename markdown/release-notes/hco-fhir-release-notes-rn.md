@@ -41,7 +41,7 @@ See EMR Provider Directory Sync for more information.
 
 ## Activation information
 
-Install EMR Provider Directory Sync by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install EMR Provider Directory Sync by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 This application depends on the HL7 FHIR Spoke and on the Healthcare Operations and Healthcare and Life Sciences data-model applications. For the full list, see Prerequisites for the FHIR integration.
 

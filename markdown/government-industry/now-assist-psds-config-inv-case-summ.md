@@ -1,18 +1,18 @@
 ---
-title: Configure the Investigative case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
-description: Activate and customize the Investigative case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
+title: Configure the Investigative case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: Activate and customize the Investigative case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-inv-case-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Activate Now Assist skills, Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Investigative case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
+# Configure the Investigative case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-Activate and customize the Investigative case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
+Activate and customize the Investigative case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Activate and customize the Investigative case summarization skill in the Now Ass
 
     When you install an AI product, designated generative AI skills, AI agents, or agentic workflows are turned on automatically.
 
--   **Existing customers who are upgrading \(starting with Australia Patch 4\)**
+-   **Existing customers who are upgrading \(starting with Zurich Patch 4\)**
 
     There is no change to skills, agents, or agentic workflows that are currently enabled and customized.
 
@@ -35,20 +35,20 @@ Activate and customize the Investigative case summarization skill in the Now Ass
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 
-    -   Now Assist for Public Sector Digital Services \(PSDS\)
+    -   ServiceNow Otto for Public Sector Digital Services \(PSDS\)
     -   Investigative Case Management
-    **Note:** Now Assist Admin Console \(sn\_nowassist\_admin\) and Now Assist for Platform \(sn\_genai\_platform\) plugins must be installed.
+    **Note:** AI Admin Hub and ServiceNow Otto® for Platform \(sn\_genai\_platform\) plugins must be installed.
 
--   Perform this task in your ServiceNow instance, ensuring the Now Assist for Public Sector Digital Services \(PSDS\) Application scope is selected.
+-   Perform this task in your ServiceNow instance, ensuring the ServiceNow Otto for Public Sector Digital Services \(PSDS\) Application scope is selected.
 -   Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  In the workflow list, select **Customer** &gt; **PSDS**.
 
@@ -68,7 +68,7 @@ For more information, see [Now Assist skills, agents, and agentic workflows on b
 
     Access control lists \(ACLs\) are implemented to identify the users permitted to access this skill, and are generated automatically.
 
-9.  Toggle the Display property to **On** in the In-product card and Now Assist panel to configure where to display the case summarization.
+9.  Toggle the Display property to **On** in the In-product card and ServiceNow Otto panel to configure where to display the case summarization.
 
     This is what allows the case summarization card to show in the Investigative Case Management workspace page.
 
@@ -76,6 +76,6 @@ For more information, see [Now Assist skills, agents, and agentic workflows on b
 
 11. Verify that the skill is activated on the Investigative case summarization skill card.
 
-    \[Omitted image "psds-doc-screening-skill-activated.png"\] Alt text: Document screening Al skill is active.
+    \[Omitted image "psds-doc-screening-skill-activated.png"\] Alt text: Investigative case summary Al skill is active.
 
 

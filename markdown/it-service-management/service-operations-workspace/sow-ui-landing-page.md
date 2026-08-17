@@ -104,7 +104,7 @@ From this section, an agent can get an overview of various assignments from the 
 -   Change
 -   Request
 
- For information about customizing this section, see [Configure the donuts in the tier 1 landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-first-level-cards.md).
+ For information about customizing this section, see [Configure tier 1 landing page metric cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-first-level-cards.md).
 
 </td></tr><tr><td>
 

@@ -1,25 +1,25 @@
 ---
 title: Resolve invoice disputes using agentic workflow
-description: Resolve invoice dispute cases using Now Assist directly from the CSM/FSM Configurable Workspace.
+description: Resolve invoice dispute cases using ServiceNow Otto directly from the CSM/FSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/resolve-invoice-case-now-assist-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-08-04"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management, Sales Customer Relationship Management]
+breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Resolve invoice disputes using agentic workflow
 
-Resolve invoice dispute cases using Now Assist directly from the CSM/FSM Configurable Workspace.
+Resolve invoice dispute cases using ServiceNow Otto directly from the CSM/FSM Configurable Workspace.
 
 ## Before you begin
 
-The invoice dispute assist agentic workflow must be made available on the Now Assist panel. For more information, see [Make the invoice dispute assist workflow available in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
+The invoice dispute assist agentic workflow must be made available on the ServiceNow Otto panel. For more information, see [Make the invoice dispute assist workflow available in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
 
-Now Assist for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see [Install Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm.md).
+ServiceNow Otto for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see [Install ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm.md).
 
 Chat Summarization must be configured to use the summarization and recommendation features. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
@@ -27,11 +27,11 @@ Role required: awa\_agent, sn\_csm\_invoice.agent, sn\_otc.accounts\_receivable\
 
 ## About this task
 
-When a customer escalates an invoice dispute to a human agent either through a Virtual Assistant handoff or by contacting support directly, you can launch the Now Assist panel from the CSM/FSM Configurable Workspace to help accelerate resolution. The invoice dispute assist agentic workflow fetches the invoice case details, finds similar resolved cases, validates the dispute using an API call, and guides you through closing the case with the appropriate resolution.
+When a customer escalates an invoice dispute to a human agent either through a Virtual Agent handoff or by contacting support directly, you can launch the ServiceNow Otto panel from the CSM/FSM Configurable Workspace to help accelerate resolution. The invoice dispute assist agentic workflow fetches the invoice case details, finds similar resolved cases, validates the dispute using an API call, and guides you through closing the case with the appropriate resolution.
 
-When a customer is transferred from the Virtual Assistant, the interaction record opens automatically with a conversation summary, giving you full context of the dispute discussed on the Virtual Assistant side.
+When a customer is transferred from the Virtual Agent, the interaction record opens automatically with a conversation summary, giving you full context of the dispute discussed on the Virtual Agent side.
 
-You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see [Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md) and [Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-chat-reply-recommendations.md).
+You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see [Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md) and [Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-chat-reply-recommendations.md).
 
 ## Procedure
 
@@ -51,13 +51,13 @@ You can also use the summarize and chat recommendation features in the Active Ch
 
         The case number, priority, state, and short description details are displayed for the associated invoice case.
 
-3.  Launch the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
+3.  Launch the ServiceNow Otto chat panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:.
 
-    The Now Assist panel is context-aware. When you launch it from an open interaction record or invoice case record, it tailors its responses to that record.
+    The ServiceNow Otto panel is context-aware. When you launch it from an open interaction record or invoice case record, it tailors its responses to that record.
 
 4.  Launch the invoice dispute assist agentic workflow using either methods.
 
-    -   Select the **Invoice Dispute Assist** pill in the Now Assist panel.
+    -   Select the **Invoice Dispute Assist** pill in the ServiceNow Otto panel.
     -   Type your query in natural language, for example, `Help me resolve this invoice dispute`.
     The invoice dispute assist agentic workflow invokes the invoice dispute support assistant AI agent. The AI agent fetches the invoice case and prompts you to confirm if it's valid.
 
@@ -89,12 +89,12 @@ You can also use the summarize and chat recommendation features in the Active Ch
 
 When the dispute is resolved, the invoice case is closed with the resolution details documented in the case notes, and an email notification is sent to the customer with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 
 **Related topics**  
 
 
-[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-using.md)
+[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-using.md)
 
-[Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
+[Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
 

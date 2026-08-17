@@ -28,7 +28,7 @@ With the Service Graph Connector for Microsoft Excel, you can create import task
 **Related topics**  
 
 
-[IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md)
+[bundle-crint.integrationhub]
 
 [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md)
 

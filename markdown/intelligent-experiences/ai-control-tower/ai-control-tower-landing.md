@@ -1,5 +1,5 @@
 ---
-title: AI Control Tower
+title: AI Control Tower \(legacy\)
 description: The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html
@@ -13,11 +13,13 @@ keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large lang
 breadcrumb: [Enable AI experiences]
 ---
 
-# AI Control Tower
+# AI Control Tower \(legacy\)
 
 The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 
 ## Get started
+
+The following topics describe how to set up and use the legacy AI Control Tower workspace. To get started with the redesigned AI Control Tower experience, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md).
 
 <table id="table_edz_k2y_pcc" class="nav-card presentation"><tbody><tr><td>
 
@@ -37,7 +39,7 @@ The AI Control Tower is a platform that connects different parts of an organizat
 
 </td></tr><tr><td>
 
-Risk and Compliance\[Omitted image "bus-learn.svg"\] Alt text:AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.
+[Risk and Compliance\[Omitted image "bus-learn.svg"\] Alt text:AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
 
 </td><td>
 

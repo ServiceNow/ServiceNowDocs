@@ -1,18 +1,18 @@
 ---
 title: Quote Experience metrics API
-description: Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in ServiceNow CPQ.
+description: Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-metrics-api.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote Experience metrics API
 
-Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in ServiceNow CPQ.
+Reference for the Quote Experience metrics API, including query parameters, default behavior, and metric definitions for views, session time, and stage time in CPQ.
 
 ## Overview of metrics
 

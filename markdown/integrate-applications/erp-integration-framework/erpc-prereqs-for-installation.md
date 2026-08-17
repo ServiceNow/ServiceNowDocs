@@ -26,15 +26,15 @@ You must have a license and get entitlement to Zero Copy Connector for ERP for i
 The following plugins and servers are required for installing Zero Copy Connector for ERP:
 
 -   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)\)
--   Financial Services Remote Tables plugin \(for more information, see \)
+-   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
 
 ## MID Server requirements
 
 **Note:** If you are going to use a cloud solution, such as S/4HANA Cloud or SuccessFactors, MID Server is not required.
 
-Communicating with the system of record through a MID Server requires a valid connection and credential alias.
+Communicating with the ERP system through a MID Server requires a valid connection and credential alias.
 
-**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
+**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the ERP system.
 
 Zero Copy Connector for ERP and ERP Semantic Mining currently support ECC \(minimum SAP Netweaver 7.31\) and SAP S/4HANA systems.
 
@@ -58,7 +58,7 @@ Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The ro
 
 ## Required SAP authorizations in development system
 
-For the credentials, use an SAP service type user account in your system of record that requires the following SAP authorization objects:
+For the credentials, use an SAP service type user account in your ERP system that requires the following SAP authorization objects:
 
 -   S\_RFC with Activity = 16 \(Execute\) for the following Function Modules:
     -   RFCPING
@@ -81,7 +81,7 @@ For the credentials, use an SAP service type user account in your system of reco
 
 ## Required SAP authorizations in production and test system
 
-For the credentials, use an SAP service type user account in your system of record that requires the following SAP authorization objects:
+For the credentials, use an SAP service type user account in your ERP system that requires the following SAP authorization objects:
 
 -   S\_RFC with Activity = 16 \(Execute\) for the following Function Modules:
     -   RFCPING
@@ -100,7 +100,7 @@ Contact the admin of your SAP ECC RFC account to obtain the following SAP propri
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
 -   Create a record called "SAP Eco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
-**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see .
+**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
 
 The MID Server restarts multiple times during this process.
 
@@ -117,6 +117,4 @@ Additionally, you need the following on your ERP system:
 -   SAP ECC \(minimum SAP Netweaver 7.31\)
 -   SAP S/4HANA \(all versions supported\)
 -   SAP Java Connector
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

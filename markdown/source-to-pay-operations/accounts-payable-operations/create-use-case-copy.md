@@ -1,5 +1,5 @@
 ---
-title: Create a copy of the default Invoice Processing use case
+title: Create a copy of the default invoice processing use case
 description: Create a copy of the default invoice processing use case to customize the invoice flow in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.html
@@ -9,11 +9,11 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice processing, AP case]
+keywords: [APO, Accounts Payable Operations, invoice processing, AP case, Document Intelligence, Data Extraction Administration]
 breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Create a copy of the default Invoice Processing use case
+# Create a copy of the default invoice processing use case
 
 Create a copy of the default invoice processing use case to customize the invoice flow in your environment.
 

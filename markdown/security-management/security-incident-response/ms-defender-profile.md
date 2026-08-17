@@ -20,11 +20,15 @@ Determine the Microsoft Defender incidents that are suitable for creating securi
 
 Role required: sn\_si.admin, sn\_si.ingestion\_profile\_admin
 
+## About this task
+
+\[Omitted video\] Description: Create an incident profile in Microsoft Defender integration
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Microsoft Defender Integration** &gt; **Defender Incident Profiles**.
 
-2.  Select **New** to create a new profile.
+2.  Select **New** to create a profile.
 
 3.  On the form, fill in the fields.
 
@@ -62,7 +66,7 @@ Source
 
 </td><td>
 
-Microsoft tenant that you configured to ingest incidents. If you have multiple tenants configured, select the appropriate tenant for the incident types you are planning to ingest for the profile.
+Microsoft tenant that you configured to ingest incidents. If you have multiple tenants configured, select the appropriate tenant for the incident types you're planning to ingest for the profile.
 
 </td></tr><tr><td>
 
@@ -81,9 +85,7 @@ Description
 Optional description of the profile.
 
 </td></tr></tbody>
-</table>    \[Omitted image "ms-def-name.png"\] Alt text: Create an incident profile
-
-4.  Select **Continue**.
+</table>4.  Select **Continue**.
 
     The initial incident profile is created with basic information. Saving the profile at this point enables you to continue with defining the profile in case you’re interrupted.
 

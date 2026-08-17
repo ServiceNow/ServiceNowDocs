@@ -20,7 +20,7 @@ This guide is for a range of people building apps agentically on the ServiceNow 
 
 -   ServiceNow developers who want to use AI to accelerate app development on ServiceNow. You may be:
     -   New to ServiceNow but experienced with full-stack development
-    -   Familiar with AI-assisted coding tools and wanting to understand the capabilities of the ServiceNow AI Platform
+    -   Familiar with agentic coding tools and wanting to understand the capabilities of the ServiceNow AI Platform
     -   Looking to evaluate how AI can fit into your development workflow
     -   Interested in understanding when to use different AI development approaches
 -   ServiceNow developers who want to incorporate AI into their existing workflows. You may be:
@@ -53,7 +53,7 @@ This guide focuses on agentic development tools and workflows. It does not cover
 -   Traditional ServiceNow development without AI assistance
 -   Detailed product-specific documentation \(links are provided to dedicated product docs\)
 
-For comprehensive product documentation, see the dedicated documentation for Build Agent, Now Assist for Creator, and other ServiceNow development tools.
+For comprehensive product documentation, see the dedicated documentation for Build Agent, ServiceNow Otto for Creator, and other ServiceNow development tools.
 
 ## Understanding your needs
 

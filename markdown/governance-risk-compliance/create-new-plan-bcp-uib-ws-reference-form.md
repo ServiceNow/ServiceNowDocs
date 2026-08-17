@@ -1,6 +1,6 @@
 ---
-title: Create New Plan form
-description: Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
+title: Create Plan form
+description: Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Create a business continuity plan, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Plan form
+# Create Plan form
 
-Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
+Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 
-## Create New Plan form
+## Create Plan form
 
 For description of the field values, see the table.
 
@@ -48,7 +48,7 @@ Name
 
 </td><td>
 
-Name of the business continuity plan. You can describe the BCP within 255 characters length.
+Name of the business continuity plan. You can describe the BCP within 255 characters in length.
 
 </td></tr><tr><td>
 

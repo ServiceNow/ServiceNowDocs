@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-16"
 reading_time_minutes: 8
 keywords: [AI Agent, Service Mapping, agentic AI, service map, CMDB, Business App Mapping, ML candidate]
-breadcrumb: [AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # AI Agents for Service Mapping
@@ -111,16 +111,9 @@ To raise the quota and reactivate the agents, first configure the following prop
 2.  For the Business App Mapping AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.CSDMBusinessApplicationtoInfrastructureAISpecialist
 3.  For the Tag-Based Service Map Creation AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.TagBasedServiceMapCreationAISpecialist
 
-You can change the value according to your needs, with consideration of the Now Assist resources. After raising the quota, reactivate the Service Mapping AI Agents in the Service Mapping workspace.
+You can change the value according to your needs, with consideration of your AI resources. After raising the quota, reactivate the Service Mapping AI Agents in the Service Mapping workspace.
 
-**Note:** Raising the quota results in a higher Now Assist resource consumption.
+**Note:** Raising the quota results in a higher AI resource consumption.
 
--   **[Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-ai-specialists.md)**  
-Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from the Service Mapping home page to start automated service map creation.
--   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md)**  
-Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
--   **[Business App Mapping AI Agent confidence thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-confidence-thresholds.md)**  
-Use this reference to understand how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
-
-**Parent Topic:**[AI capabilities in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
+**Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

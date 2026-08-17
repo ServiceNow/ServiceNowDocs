@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Use ITSM Virtual Agent Analytics dashboard
@@ -52,5 +52,5 @@ The ITSM Virtual Agent analytics dashboard displays.
 </table>-   **[ITSM Virtual Agent Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-va-analytics-reference.md)**  
 Reference information for scheduled jobs that collect ITSM Virtual Agent analytics data and scripts that configure topic clustering.
 
-**Parent Topic:**[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+**Parent Topic:**[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Submit Invoice
-description: Submit a new PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
+title: Submit invoice
+description: Submit a PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.html
 release: australia
@@ -13,13 +13,13 @@ keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoi
 breadcrumb: [Working with Supplier Catalog, Using Supplier Collaboration Portal in APO, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Submit Invoice
+# Submit invoice
 
-Submit a new PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
+Submit a PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
 
 ## Before you begin
 
-\[Omitted video\] Description: Submit new invoice lets a supplier or requester enter invoice details and attach supporting documents, creating a record that enables Accounts Payable Operations for processing and payment.
+\[Omitted video\] Description: Submitting an invoice lets a supplier or requester enter invoice details and attach supporting documents, creating a record that enables Accounts Payable Operations for processing and payment.
 
 Role required: Supplier
 
@@ -29,15 +29,15 @@ Role required: Supplier
 
 2.  On the **Submit new invoice** form, enter– the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d146469e103">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d150664e103">
 
 Question
 
-</th><th align="left" id="d146469e106">
+</th><th align="left" id="d150664e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146469e112">
+</th></tr></thead><tbody><tr><td id="d150664e112">
 
 **What type of invoice are you submitting?**
 
@@ -49,7 +49,7 @@ Invoice typeChoose the invoice type for processing from the drop-down list. The 
 **Note:**
 
     -   If you select Invoice type as Non-PO, and upload an invoice copy with purchase order, DocIntel processes the invoice as a valid PO invoice.
-    -   If you select Invoice type as PO invoice and enter purchase order number but Doc Intel is unable to extract the purchase order details, then the purchase order that you selected from the **Purchase order** drop-down list will be considered and processed.
+    -   If you select Invoice type as PO invoice and enter a purchase order number, DocIntel may not extract the purchase order details. In that case, the purchase order from the **Purchase order** list is used.
 For more information on invoice case, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
 
 Supplier- Displays the name of the supplier associated with the supplier contact based on your selection from the **My Company** tab. The **Purchase order** drop-down lists the details associated with the selected supplier.

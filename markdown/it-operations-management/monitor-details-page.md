@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-19"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Details page of a synthetic monitor

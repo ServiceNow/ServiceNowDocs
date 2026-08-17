@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-06"
 reading_time_minutes: 3
 keywords: [configure]
-breadcrumb: [Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring Activity Management

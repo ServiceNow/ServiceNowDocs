@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, accounts payable invoice processing]
+keywords: [APO, Accounts Payable Operations, invoice management, accounts payable invoice processing, ServiceNow store]
 breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

@@ -22,7 +22,7 @@ The major incident workbench has the following UI elements: **Summary**, **Commu
 
 -   **[Major Incident workbench — Summary tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-summary-tab.md)**  
 The **Summary** tab provides a unified view of information in the form of a card layout. The information on impacted services, affected CIs, active outages, locations that are impacted, and child incidents helps to keep you informed about related records associated with an incident.
--   **[Major Incident workbench — the Post Incident Report tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-pir-tab.md)**  
+-   **[Post Incident Report tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-pir-tab.md)**  
 The **Post Incident Report** tab helps you to understand the cause of the major incident, and the actions taken by the teams to resolve the incident.
 -   **[The Communicate tab in the Major Incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-communicate-tab.md)**  
 The **Communicate** tab helps you understand the progress of a communication plan and its related tasks.

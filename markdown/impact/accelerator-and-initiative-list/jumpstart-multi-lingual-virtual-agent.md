@@ -50,7 +50,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 
 |Customer Resource |Responsibilities |
 |------------------|-----------------|
-|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
+|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, confirms team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
 |Virtual Agent Lead \(Required\)|Subject matter expert responsible for ServiceNow Virtual Agent.|
 |System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|
 |Linguist or Localization Expert \(Recommended\)|Subject matter expert responsible for managing ServiceNow localization.|

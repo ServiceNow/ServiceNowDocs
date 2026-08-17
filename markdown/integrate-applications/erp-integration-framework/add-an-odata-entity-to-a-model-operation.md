@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData entity to a model operation
@@ -55,6 +55,4 @@ You must have already added the read, write, or create operation before you can 
 
     \[Omitted image "erp-add-odata-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

@@ -18,11 +18,11 @@ Automate typical business processes with Integration Hub solutions. Solutions co
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Available solutions
 
--   **Access Management Automation**
+-   **[Access Management Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/access-management.md)**
 
     Automates access management request fulfilment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID, and Microsoft Active Directory.
 
@@ -34,23 +34,23 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     Client Software Distribution 2.0 application \(CSD 2.0\) application enables administrators to distribute software from the service catalog using third-party management systems.
 
--   **Cloud Deployment Automation**
+-   **[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/cloud-dep-auto.md)**
 
     Automates the deployment and provisioning of the AWS CloudFormation services using Service Catalog or Service Portal.
 
--   **Microsoft AD Spoke for Password Reset**
+-   **[Microsoft AD Spoke for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/setup-guide-ad.md)**
 
     The Microsoft AD Spoke for Password Reset extends the ServiceNow Password Reset solution to provide password management into Microsoft Active Directory environments.
 
--   **Microsoft Azure AD Spoke for Password Reset**
+-   **[Microsoft Azure AD Spoke for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/setup-guide-azure.md)**
 
     The Microsoft Entra ID Spoke for Password Reset extends the ServiceNow Password Reset solution to provide password management into Microsoft Azure Active Directory environments.
 
--   **Password Reset integration with Google Directory**
+-   **[Password Reset integration with Google Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/google-doc-pwd-reset.md)**
 
     Enables end users to reset their Google passwords using Password Reset and Google Directory spoke.
 
--   **Password Reset integration with Okta**
+-   **[Password Reset integration with Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/okta-pwdreset-spoke.md)**
 
     Use Okta to manage users, passwords, and groups.
 

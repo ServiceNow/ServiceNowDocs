@@ -7,9 +7,9 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-07-28"
 reading_time_minutes: 3
-breadcrumb: [View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Test a voice assistant
@@ -23,7 +23,7 @@ The following are required to access the voice testing experience:
 -   Conversational Studio v7 or later
 -   Zurich Patch 7 or later
 -   Microphone enabled on your device
--   Now Assist for Virtual Agent version 19 or later
+-   ServiceNow Otto for Virtual Agent version 19 or later
 
 Roles required: sn\_aia.admin and sn\_voice\_aia.admin
 
@@ -40,10 +40,12 @@ As the conversation progresses, the Analysis tab shows a turn-by-turn breakdown 
 
 1.  Navigate to **All** &gt; **Assistant Designer** &gt; **Assistants** tab and select **Test** for the voice assistant you wish to test.
 
+    **Note:** The **Test** button is disabled if the voice assistant is not active. To activate it, ensure a provider application is selected, at least one AI voice agent is added, and authentication and identification are configured.
+
     The voice testing interface opens in a new window. The window displays:
 
     -   Left panel: A drop down for testing mode with Voice and Chat options. Live transcription of the conversation along with the assistant greeting and input controls.
-    -   Right panel: Assistant summary showing the assistant name, telephony provider \(if configured\), language, voice personality, and the Analysis tab.
+    -   Right panel: Assistant summary showing the assistant name, primary language and persona, secondary language and persona \(if configured\), and the Analysis tab.
     \[Omitted image "ai-voice-assistant-test-window.png"\] Alt text: Voice assistant testing window
 
 2.  Test your voice assistant.
@@ -61,6 +63,8 @@ As the conversation progresses, the Analysis tab shows a turn-by-turn breakdown 
         \[Omitted image "NAinVA-assistant-designer-analytics-voice-testing-voice-mode.png"\] Alt text: Voice assistant testing in Voice mode
 
     3.  Continue the conversation to test different scenarios and intents.
+
+        If the voice assistant is configured with multiple languages, test in each secondary language to verify that the assistant responds correctly and uses the expected voice persona for that language.
 
     4.  When finished, select **End call** \(red phone button\) to disconnect.
 
@@ -82,6 +86,7 @@ As the conversation progresses, the Analysis tab shows a turn-by-turn breakdown 
 
     -   **Timestamp** — the date and time of the utterance.
     -   **Agent name** — the name of the AI voice agent invoked, or voice assistant if no agent was invoked.
+    -   **Response latency** — the time taken to generate the bot's response for that turn, including any tool calls made during the response.
     -   **Tool name** — the name of the tool invoked, where applicable. Expand a tool name to view:
         -   **Tool inputs**
         -   **Tool execution latency**

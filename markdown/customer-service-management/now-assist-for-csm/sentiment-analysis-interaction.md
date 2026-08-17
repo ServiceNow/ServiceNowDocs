@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 4
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Sentiment analysis for email interactions
@@ -30,7 +30,9 @@ Sentiment analysis for email interactions is generated from the information that
 -   Description
 -   Short Description
 
-Any modifications to the names or labels of these fields can result in issues with sentiment analysis. Sentiment is calculated using several factors:
+Any modifications to the names or labels of these fields can result in issues with sentiment analysis.
+
+Sentiment is calculated using several factors:
 
 -   Latest requester message
 -   Overall conversation between agent and customer captured in transcript
@@ -40,7 +42,7 @@ Any modifications to the names or labels of these fields can result in issues wi
 -   Frequency of updates and response time
 -   Language tone
 
-The Sentiment Reasoning field in the record provides details on which factors were considered for reasoning. This includes:
+The Sentiment Reasoning field provides details on which factors were considered. This includes:
 
 -   Tone of the requester's messages across the transcript.
 -   Feedback or continued frustration in the latest requester's messages.
@@ -48,7 +50,7 @@ The Sentiment Reasoning field in the record provides details on which factors we
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -169,19 +171,19 @@ Assigned to
 
 ## What to do next
 
--   Now Assist Skill Kit is the ServiceNow framework for [cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) and [customizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.md) Now Assist skills. When configuring Sentiment Analysis for email interactions, the base table provides the core email record data. Additional inputs supply the LLM with broader context- such as email thread history, linked case fields, or customer contact data that can improve the accuracy of sentiment output.
+-   AI Skill Kit is the ServiceNow framework for [cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) and [customizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.md) AI skills. When configuring Sentiment Analysis for email interactions, the base table provides the core email record data. Additional inputs supply the LLM with broader context- such as email thread history, linked case fields, or customer contact data that can improve the accuracy of sentiment output.
 -   You can customize the email sentiment prompt. Follow the steps to customize:
     1.  Access the OneExtend Capability Definition record by going to the sys\_generative\_ai\_config table. Here is an example for Azure OpenAI \(other providers like Claude and Gemini will have a different sys\_id\): https://anoway1.service-now.com/sys\_generative\_ai\_config.do?sys\_id=479cdabf93b48310003afba6dd03d606
     2.  Go to the **Prompt Template** field and edit the prompt.
     3.  **Save** the record.
 
-        **Note:** Verify that the user is in Now Assist for Customer Service Management \(CSM\) scope and the record is still in **Published** state.
+        **Note:** Verify that the user is in ServiceNow Otto for Customer Service Management \(CSM\) scope and the record is still in **Published** state.
 
 
 **Related topics**  
 
 
-[Analyze sentiments in Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.md)
+[Analyze sentiments in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.md)
 
 [Enable and configure the Sentiment Analysis](https://support.servicenow.com/kb?sys_kb_id=ec531aab47a48794b6d8aa25126d4322&id=kb_article_view)
 

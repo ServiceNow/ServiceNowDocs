@@ -42,7 +42,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_admin
 
 Use additional features on the Log Viewer to refine your search or define alerts.
 
--   Modify the search query to fine-tune the search and save useful searches. See [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
+-   Modify the search query to fine-tune the search and save useful searches. See [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
 -   If you discover important relationships in the log data, select **Define alert** to define the kind of alert that should be triggered by the data. See [Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md) for instructions.
 
 **Related topics**  

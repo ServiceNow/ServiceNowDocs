@@ -45,6 +45,8 @@ The Retail Store Audit plugin enables store teams to plan, execute, and track au
 
 -   com.sn\_retail\_mobile
 
+-   com.sn\_multi\_case\_creation
+
 -   com.snc.fsm\_work\_types
 
 -   com.sn\_rtl\_str\_plan\_pb
@@ -75,6 +77,9 @@ The application defines six scoped roles. All `sys_name` values are prefixed `sn
 |Display name|sys\_name|Extends|Number prefix|
 |------------|---------|-------|-------------|
 |Store Audit Case|`sn_rtl_store_audit_case`|`sn_retail_case`|SAC|
+
+|Display name|sys\_name|Extends|Number prefix|
+|------------|---------|-------|-------------|
 |Audit Task|`wm_audit_task`|`wm_task`|SACTK|
 
 **Note:** `wm_audit_task` is an out-of-the-box FSM Audit table, not a custom extension introduced by this application.
@@ -85,8 +90,6 @@ The application defines six scoped roles. All `sys_name` values are prefixed `sn
 
 
 [Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
-
-[Data model and case generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-generation-flow.md)
 
 [Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 

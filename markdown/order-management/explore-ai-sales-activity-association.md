@@ -1,5 +1,5 @@
 ---
-title: Explore AI sales activity association
+title: AI sales activity association
 description: AI sales activity association automatically connects incoming and outgoing emails to the correct CRM records using semantic search and agentic AI. Learn how the application works, its benefits, and common use cases for automating email association in your Sales CRM instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/explore-ai-sales-activity-association.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Activity Management, Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Activity Management, Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
-# Explore AI sales activity association
+# AI sales activity association
 
 AI sales activity association automatically connects incoming and outgoing emails to the correct CRM records using semantic search and agentic AI. Learn how the application works, its benefits, and common use cases for automating email association in your Sales CRM instance.
 
@@ -19,7 +19,7 @@ AI sales activity association automatically connects incoming and outgoing email
 
 Using semantic search and AI-powered matching, the AI sales activity association application helps identify relationships between email content and existing accounts, leads, opportunities, and contacts. It automatically captures important communication history without requiring manual association. This automation helps ensure that all relevant customer communications are tracked and visible in your CRM records, even when those conversations begin outside of your organization and later connect to known entities in your system.
 
-The following workflow illustration shows how the system processes and associates an inbound inquiry using the AI sales activity association.
+The following workflow illustration shows how the system processes and associates an inbound inquiry using the AI sales activity association app.
 
 \[Omitted image "ai-sales-activity-association-landing.svg"\] Alt text: Infographic showing how an admin installs and configures the AI sales activity association app and how the system automatically processes the emails. For details, refer to the following description.
 

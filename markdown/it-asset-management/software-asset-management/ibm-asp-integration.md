@@ -1,6 +1,6 @@
 ---
 title: Client Value Acceleration \(CVA\) integrations for IBM
-description: You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
+description: Integrate the Software Asset Management publisher pack for IBM with authorized Software Asset Management providers to track and manage IBM licenses across virtualized VMware vSphere and Nutanix environments, and IBM LPAR infrastructures. These integrations help you to track and manage IBM licensing directly without integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/ibm-asp-integration.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Software Asset Management publisher pack for IBM, Supported softwar
 
 # Client Value Acceleration \(CVA\) integrations for IBM
 
-You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
+Integrate the Software Asset Management publisher pack for IBM with authorized Software Asset Management providers to track and manage IBM licenses across virtualized VMware vSphere and Nutanix environments, and IBM LPAR infrastructures. These integrations help you to track and manage IBM licensing directly without integrating with theIBM License Metric Tool \(ILMT\) or BigFix Inventory.
 
 The CVA Program is a license verification program that allows clients who contract with Authorized SAM Providers \(ASPs\) to report on their IBM license usage independently. For more information on the CVA Program, refer to the [IBM CVA Program](https://www.ibm.com/about/software-licensing/us-en/sam/cva_program) page.
 
-**Important:** As of January 1, 2025, IBM has withdrawn its IBM Authorized SAM Provider \(IASP\) Program and replaced it with the CVA Program. If you are an existing IASP Program user, contact your IBM representative to upgrade to the new CVA agreement and migrate to the CVA Program. For more details, refer to the [IBM IASP Program Verification](https://www.ibm.com/about/software-licensing/us-en/verification/iasp) page.
+**Important:** As of January 1, 2025, IBM has withdrawn its IBM Authorized SAM Provider \(IASP\) Program and replaced it with the CVA Program. If you're an existing IASP Program user, contact your IBM representative to upgrade to the new CVA agreement and migrate to the CVA Program.
 
 The IBM publisher pack supports integrations with the following ASPs:
 
@@ -58,7 +58,7 @@ If you are integrating the IBM publisher pack with Anglepoint, you must also com
 -   Set up the Anglepoint Elevate platform.
 
 -   **[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)**  
-IBM ASP integrations support IBM licensing in VMware vSphere environments and IBM LPAR infrastructures.These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
+IBM ASP integrations support IBM licensing in VMware vSphere, Nutanix, and IBM LPAR infrastructures.These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
 -   **[Licensing for IBM Cloud Paks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/licensing-ibm-cloud-paks.md)**  
 When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
 -   **[IBM reconciliation for IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-reconciliation-iasp-integrations.md)**  
@@ -73,7 +73,7 @@ View the highest daily sub-capacity and full capacity Processor Value Unit \(PVU
 View the breakdown for the highest daily usage of your IBM software products by physical host based on both the edition and license metric of each product.
 -   **[View product classifications for your IBM components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-product-classifications-ibm-components.md)**  
 View the product classifications for all IBM components that are installed in your environment. These product classifications enable you to track and manage licensing for your IBM components.
--   **[Specify the virtual machine managers \(VMMs\) for which you are tracking IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md)**  
+-   **[Specify VMMs for IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md)**  
 Specify the virtual machine managers \(VMMs\), such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VMMs only.
 -   **[Deduplicating IBM software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/deduplicating-ibm-software-installations.md)**  
 To manage your IBM licenses, you can integrate the IBM publisher pack with an Authorized SAM Provider \(ASP\), IBM License Metric Tool \(ILMT\), or BigFix Inventory. If you are switching between an ASP integration and either an ILMT or BigFix Inventory integration, you can deduplicate software installations that have the same edition, version, and language but are discovered through different sources.

@@ -1,24 +1,24 @@
 ---
 title: Override default metric-to-CI binding
-description: Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source by creating your own implementation of the EventFieldMapping extension point and wiring it into an event field mapping rule.
+description: Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source. Create your own implementation of the EventFieldMapping extension point and wire it into an event field mapping rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Override default metric-to-CI binding
 
-Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source by creating your own implementation of the `EventFieldMapping` extension point and wiring it into an event field mapping rule.
+Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source. Create your own implementation of the `EventFieldMapping` extension point and wire it into an event field mapping rule.
 
 ## Before you begin
 
--   Set your application scope to **Telecommunications Service Operations Management Event Management Connectors** \(`sn_tsom_em_conns`\) using the scope switcher. If you work in the Global scope, the implementation you create in step 1 is generated in the wrong scope and the resolver can't find it at run time.
+-   Set your application scope to **Telecommunications Service Operations Management Event Management Connectors** \(`sn_tsom_em_conns`\) using the scope switcher. Working in the Global scope generates the implementation in the wrong scope, preventing the resolver from finding it at run time.
 -   Identify the source name as it appears on the metric and on the corresponding event. The source name is the value used to resolve which scripted extension handles the event.
 -   Decide which rule name your custom implementation will own. Each implementation is identified by a unique combination of source name and rule name. You will use this same rule name in the script include's `getRuleName()` method and in the rule's **Name** field, and the two must match exactly.
 -   Determine which CMDB class and field your implementation should match against, and which event fields contain the values to match.
@@ -29,11 +29,11 @@ For an overview of how metric-to-CI binding works in Telecommunications Service 
 
 ## About this task
 
-When a connector collects metric data, the metric framework stores it and creates a metric-to-CI mapping record. Because the record does not yet have a configuration item \(CI\), the framework automatically generates an event for it. That event triggers the event field mapping rules. A rule whose source matches the event runs a script that resolves the CI and sets the `cmdb_ci` field on the event, and the resolved CI is then reflected in the CI column of the Metric To CI Mappings table:
+When a connector collects metric data, the metric framework stores it and creates a metric-to-CI mapping record. Because the record does not yet have a configuration item \(CI\), the framework automatically generates an event for it. That event triggers the event field mapping rules. A rule whose source matches the event runs a script that resolves the CI and sets the `cmdb_ci` field on the event. The resolved CI is then reflected in the CI column of the Metric To CI Mappings table:
 
 metric-to-CI mapping record → event created → event field mapping rule → `cmdb_ci` set on the event → configuration item shown in the Metric To CI Mappings table
 
-The shipped behavior is provided by an `EventFieldMapping` implementation that the rule's script retrieves through a resolver. The resolver, `EventFieldMappingResolver.getByRule()`, returns the implementation whose `getVendor()` matches the source name you pass and whose `getRuleName()` matches the rule name. That implementation exposes a `mapCi()` method that performs the CI lookup. To override the shipped behavior for a connector source, create your own implementation under the same source name with a new rule name, set its `getVendor()`, `getRuleName()`, and `mapCi()` methods, and wire it into an event field mapping rule whose script delegates to the resolver.
+The shipped behavior is provided by an `EventFieldMapping` implementation that the rule's script retrieves through a resolver. The resolver, `EventFieldMappingResolver.getByRule()`, returns the implementation whose `getVendor()` matches the source name you pass and whose `getRuleName()` matches the rule name. That implementation exposes a `mapCi()` method that performs the CI lookup. To override the shipped behavior for a connector source, create your own implementation under the same source name with a new rule name. Set its `getVendor()`, `getRuleName()`, and `mapCi()` methods. Wire it into an event field mapping rule whose script delegates to the resolver.
 
 **Important:** The resolver matches on names, and a mismatch fails silently: no error is thrown, the CI is simply never set. The source name returned by `getVendor()` must match the literal you pass to `getByRule()` in the rule script, and the rule name returned by `getRuleName()` must match the rule's **Name**. A typo, a case difference, or the wrong application scope all produce the same result: the resolver returns nothing and the CI is not set. The resolver itself doesn't log the mismatch; the “No EventFieldMapping implementation found” message is written by the fallback in the rule script you create in step 3.
 
@@ -61,7 +61,9 @@ The shipped behavior is provided by an `EventFieldMapping` implementation that t
 
         This value must match the **Name** of the rule you create in step 3.
 
-    3.  In `mapCi(eventGr, origEventSysId, fieldMappingRuleName)`, read the values you need from the event \(for example, fields under `additional_info`\), look up the matching configuration item, and set the `cmdb_ci` and `ci_type` fields on the event.
+    3.  In `mapCi(eventGr, origEventSysId, fieldMappingRuleName)`, read values from the event, look up the matching configuration item, and set the `cmdb_ci` and `ci_type` fields.
+
+        For example, read fields under `additional_info`.
 
     4.  Return `true` from `mapCi()` to continue event processing, or `false` to drop the event.
 

@@ -22,3 +22,5 @@ To provide feedback on OT Discovery you can submit a NOW idea on ServiceNow supp
 
 **Note:** To find the **Feedback on OT Discovery** page, enter "OT Discovery" in the **All** menu in your instance or navigate directly to the Create an Idea form: [https://support.servicenow.com/now?id=create\_edit\_idea&amp;sysparm\_module\_id=enhancement\_requests](https://support.servicenow.com/now?id=create_edit_idea&sysparm_module_id=enhancement_requests).
 
+**Parent Topic:**[Operational Technology Native Discovery components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-native-components.md)
+

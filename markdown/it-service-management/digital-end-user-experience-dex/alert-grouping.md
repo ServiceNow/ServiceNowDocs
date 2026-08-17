@@ -38,7 +38,7 @@ In the System Properties table \[sys\_properties\], the property **sn\_dex.alert
 
 Let's consider an example: Alert A1 is generated for rule R1 from device D1. After two minutes, alerts A2 and A3 are generated for the same rule R1, but from devices D2 and D3 respectively. With A1 being the first alert, it's designated as the primary alert, and A2 and A3 are grouped as secondary alerts under A1.
 
-Now, suppose you have set the time duration to 300 seconds \(5 minutes\). If no alerts for rule R1 are generated within five minutes, and then after this period, alerts A4, A5, and A6 are generated for the same rule, a new group is formed. Alert A4 becomes the primary alert, and A5 and A6 are grouped under A4.
+Suppose you set the time duration to 300 seconds \(5 minutes\). If no alerts for rule R1 are generated within five minutes, alerts A4, A5, and A6 are generated for the same rule, a new group is formed. Alert A4 is set to the primary alert, and A5 and A6 are grouped under A4.
 
 However, if any alert is generated for rule R1 within five minutes, it's considered as a secondary alert to A1 and grouped accordingly.
 

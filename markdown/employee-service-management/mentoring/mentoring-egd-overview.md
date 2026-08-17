@@ -16,8 +16,6 @@ breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Managemen
 
 The ServiceNow® Mentoring application is a platform that connects individuals seeking mentorship with experienced mentors. It creates a seamless experience for both mentees and mentors.
 
-\[Omitted image "mentorship-overview.gif"\] Alt text: Mentoring Overview
-
 Mentoring has the following features:
 
 ## Enrollment

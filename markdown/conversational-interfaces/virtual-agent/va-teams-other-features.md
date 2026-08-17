@@ -31,11 +31,11 @@ A user can understand how emojis look like in a chat conversation and in the Age
 
 ## Message pagination
 
-Microsoft Teams has a limit on the maximum message size before paginating the message. You can adjust the number of characters allowed in a message before paginating by going to the system properties \[sys\_properties\] table and setting the number in the system property **sn\_va\_teams.picker\_char\_limit**.
+Microsoft Teams has a limit on the maximum message size before paginating the message. Adjust the number of characters allowed in a message before paginating by going to the system properties \[sys\_properties\] table and setting the number in the system property **sn\_va\_teams.picker\_char\_limit**.
 
 ## AI Search results
 
-Now Assist in Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(Knowledge Base and catalog items\). The user has the option to like or dislike the information presented in the card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md).
+ServiceNow Otto in Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(Knowledge Base and catalog items\). The user has the option to like or dislike the information presented in the card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md).
 
 ## URL navigation for chat links
 
@@ -90,8 +90,8 @@ For more information about the Microsoft Teams supported HTML tags for bot messa
 
 Using the Custom Control utility will cause failure in Microsoft Teams conversations with the message `channel is not supported`. See [Custom control utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-control-util.md) for more information on the utility.
 
--   **[Virtual Agent Designer user input and bot response controls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-bot-controls.md)**  
-The Virtual Agent Designer user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
+-   **[Assistant Designer Asset library user input and bot response controls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-bot-controls.md)**  
+Use the Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
 -   **[Virtual Agent notifications supported in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-notif-msteams.md)**  
 Microsoft Teams app supports Virtual Agent notifications during conversations.
 -   **[Unsupported Virtual Agent features in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/limited-features-msteams.md)**  

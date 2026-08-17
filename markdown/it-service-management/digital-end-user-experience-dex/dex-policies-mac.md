@@ -320,6 +320,47 @@ Latest
 N/A
 
 </td></tr></tbody>
+</table><table id="table_qfc_2ly_ckc"><thead><tr><th>
+
+Field name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Action name
+
+</td><td>
+
+Name of the action that is defined in the policy. Admins can predefine an action name so that SD agents don't need the policy ID to execute any action. The format is &lt;action&gt; &lt;application name&gt; &lt;version&gt;. For example, Reinstall Zoom 3.4.1 or Uninstall Firefox 134.2.
+
+</td></tr><tr><td>
+
+Active true/false
+
+</td><td>
+
+Enables the action to appear in action library.
+
+</td></tr><tr><td>
+
+Application
+
+</td><td>
+
+Identifies the application for which the policy is defined.
+
+</td></tr><tr><td>
+
+Policy ID
+
+</td><td>
+
+ID of the policy defined in Jamf server for the corresponding action.
+
+</td></tr></tbody>
 </table>**Note:** If you upgrade the Content Playbook plugin on an instance and encounter unexpected policy update issues, see the [Troubleshooting: Policy update issues post DEX plugin upgrade \[KB1586917\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1586917) article in the Now Support knowledge base.
 
 **Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)

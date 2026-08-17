@@ -24,7 +24,7 @@ Role required: sn\_icw.action\_user or sn\_icw.action\_expert
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Add\(\[Omitted image "plus-button.png"\] Alt text:\)** &gt; **New Action**.
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Add\(\[Omitted image "plus-button.png"\] Alt text: Plus icon.\)** &gt; **New Action**.
 
 2.  On the Action form, fill in the fields.
 

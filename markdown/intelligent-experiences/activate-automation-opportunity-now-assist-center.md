@@ -1,17 +1,17 @@
 ---
-title: Implement an automation opportunity from Now Assist Center
+title: Implement an automation opportunity from AI Admin Center
 description: Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-automation-opportunity-now-assist-center.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 3
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Using AI Agent Advisor in Now Assist Center, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using AI Agent Advisor in AI Admin Center, Use, AI Admin Center, Enable AI experiences]
 ---
 
-# Implement an automation opportunity from Now Assist Center
+# Implement an automation opportunity from AI Admin Center
 
 Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
 
@@ -27,7 +27,7 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  In the Automation opportunitiessection of the home page or in the automation opportunities list tab, select an automation opportunity to view its details.
 
@@ -36,6 +36,10 @@ Each automation opportunity includes a set of recommended resolution steps that 
     The page displays summary information for the opportunity, a **Resolution steps**tab with editable implementation steps, and an **Example records**tab with example records from the data source.It also displays an **AI Agents** tab showing the agents created from the automation opportunity.
 
     \[Omitted image "now-assist-center-agent-advisor-opportunity-detail-3.png"\] Alt text: Resolution Steps tab showing the opportunity details.
+
+    For an opportunity that has a matching prebuilt AI agent, the page displays the agent name and description.
+
+    \[Omitted image "ai-agent-advisor-matching-prebuilt-agent.png"\] Alt text: Automation opportunity details with a matching prebuilt AI agent.
 
     For more information on finding an automation opportunity, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
@@ -118,7 +122,9 @@ Select **Expand all** to see the available assets for each step.
  Select **Collapse all** to hide the details.
 
 </td></tr></tbody>
-</table>7.  When the steps are ready to implement, select **Continue in AI Agent Studio**.
+</table>7.  When the steps are ready to implementfor a custom AI agent, select **Continue in AI Agent Studio**.
+
+    For an opportunity that has a matching prebuilt AI agent, select **Review and activate in AI Agent Studio**. Select **Review and activate in AI Agent Studio** again to confirm, then skip ahead to step 10.
 
     The Continue building AI agent box opens.
 
@@ -132,14 +138,14 @@ Select **Expand all** to see the available assets for each step.
 
     \[Omitted image "now-assist-center-agent-advisor-opportunity-agent-setup-define.png"\] Alt text: Guided setup of the AI agent.
 
-10. Complete the development of the new agentin the Agent guided setup tab using AI Agent Studio capabilities.
+10. Complete the development of the AI agentin the Agent guided setup tab using AI Agent Studio capabilities.
 
-    The resolution steps are mapped to the set of instructions and added as tools for the new AI agent.
+    The resolution steps are mapped to the set of instructions and added as tools for the AI agent.
 
     For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 
-**Parent Topic:**[Using AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+**Parent Topic:**[Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
 
 **Related topics**  
 

@@ -7,8 +7,8 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-07-27"
+reading_time_minutes: 3
 breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Enable AI experiences]
 ---
 
@@ -180,6 +180,23 @@ glide.platform\_ml.api.max\_clustering\_records
 
 Sets the maximum number of records you can include in a cluster. -   Type: Integer
 -   Default value: 100000
+
+</td></tr><tr><td>
+
+ML Trainer - Glide communication KAA
+
+</td><td>
+
+glide.platform\_ml.kaa\_auth\_enabled
+
+</td><td>
+
+The KAA validation to the ML Trainer server occurs only if mTLS is enabled on the instance. If this property is enabled but mTLS isn't enabled, the KAA validation is skipped.
+
+ For more information see [KB2977679](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB2977679) on the Now Support portal.
+
+-   Type: Boolean
+-   Default value:true \(from the Australia release\)
 
 </td></tr></tbody>
 </table>|Property|Property Name|

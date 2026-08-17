@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Model Context Protocol Client, MCP Client, AI Agents]
-breadcrumb: [Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Model Context Protocol Client

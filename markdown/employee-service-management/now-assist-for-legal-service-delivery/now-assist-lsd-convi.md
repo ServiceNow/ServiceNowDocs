@@ -1,5 +1,5 @@
 ---
-title: Submit COI request using Now Assist conversational intake
+title: Submit COI request using ServiceNow Otto conversational intake
 description: Submit Conflict of Interest \(COI\) requests through natural language conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.html
@@ -9,10 +9,11 @@ classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Use, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Submit COI request using Now Assist conversational intake
+# Submit COI request using ServiceNow Otto conversational intake
 
 Submit Conflict of Interest \(COI\) requests through natural language conversations.
 
@@ -24,8 +25,8 @@ Role required: sn\_lg\_ops.legal\_user
 
 Legal Conflict of Interest \(COI\) enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. You can submit COI requests using any of the following methods in the Employee Center:
 
--   COI intake form.
--   Conversational intake interface from the Now Assist in Virtual Agent.
+-   Employee Center COI intake form.
+-   Conversational intake interface from the ServiceNow Otto in Virtual Agent.
 
 This topic describes how to submit a COI request using the conversational interface. The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\) that is a paid application.
 
@@ -35,7 +36,7 @@ For more information on how to submit a COI request using Employee Center intake
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  Select the Now Assist panel icon \(\[Omitted image "lsd-coi-nap-icon.png"\] Alt text: Now Assist Panel icon\).
+2.  Select the ServiceNow Otto panel icon \(\[Omitted image "lsd-coi-nap-icon.png"\] Alt text: ServiceNow Otto Panel icon\).
 
 3.  Enter a message in the chat to indicate that you want to report disclose a conflict of interest.
 
@@ -68,7 +69,7 @@ For more information on how to submit a COI request using Employee Center intake
 
 ## Result
 
-When an employee submits a COI disclosure the risk assessment utility evaluates the submission against a set of predefined risk factor . Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing. The risk level determines whether the request needs approval or can be auto-approved. For more information in how to manage COI requests, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md).
+When an employee submits a COI disclosure the risk assessment utility evaluates the submission against a set of predefined risk factor. Each risk factor contributes to an overall risk score, which determines the risk level \(Low, Medium, or High\) and the corresponding approval routing. The risk level determines whether the request needs approval or can be auto-approved. For more information in how to manage COI requests, see [Approve or reject a conflict of interest disclosure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/approve-reject-coi-request.md).
 
-**Parent Topic:**[Using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
 

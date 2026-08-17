@@ -1,5 +1,5 @@
 ---
-title: AI driven supplier onboarding using Now Assist for SLO
+title: AI driven supplier onboarding using ServiceNow Otto for SLO
 description: Use the AI driven supplier onboarding playbook to automate onboarding tasks such as supplier registration, information validation, and task list generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.html
@@ -9,11 +9,11 @@ classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, generative AI, AI Agents, agentic AI, SLO AI Agent, SLO agentic AI]
-breadcrumb: [Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+keywords: [Now Assist, generative AI, AI Agents, agentic AI, SLO AI Agent, SLO agentic AI, supplier onboarding playbook, AI driven supplier onboarding, supplier data steward, supplier document strategy generator]
+breadcrumb: [Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# AI driven supplier onboarding using Now Assist for SLO
+# AI driven supplier onboarding using ServiceNow Otto for SLO
 
 Use the AI driven supplier onboarding playbook to automate onboarding tasks such as supplier registration, information validation, and task list generation.
 
@@ -55,7 +55,7 @@ Supplier data steward AI agent
 
 -   Ensures that the supplier data is accurate, compliant, and continuously maintained across systems. During onboarding, this agent also checks for duplicate supplier records.
 
-**Note:** Duplicate supplier onboarding requests can be resolved from the Now Assist panel by updating the legal name or the email domain of the primary contact's email address.
+**Note:** Duplicate supplier onboarding requests can be resolved from the ServiceNow Otto panel by updating the legal name or the email domain of the primary contact's email address.
 
 -   Handles supplier onboarding by creating an invitation case for the supplier contact and assigning the necessary supplier tasks. Additionally, it ensures that the supplier case status is updated appropriately in the system.
 

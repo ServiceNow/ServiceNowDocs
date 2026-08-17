@@ -1,6 +1,6 @@
 ---
 title: Add joins between ERP tables
-description: Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in Zero Copy Connector for ERP using table joins.
+description: Link multiple ERP \(Enterprise Resource Planning\) tables to build an ERP model in Zero Copy Connector for ERP using table joins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.html
 release: australia
@@ -8,14 +8,14 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, join, table, read, operation]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP model operations, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add joins between ERP tables
 
-Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in Zero Copy Connector for ERP using table joins.
+Link multiple ERP \(Enterprise Resource Planning\) tables to build an ERP model in Zero Copy Connector for ERP using table joins.
 
 ## Before you begin
 
@@ -99,6 +99,4 @@ After you're done creating table joins, you can specify where the returned ERP d
 
 -   [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-call-response-data.md)
 -   [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md)
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

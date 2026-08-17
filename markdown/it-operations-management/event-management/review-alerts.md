@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, alerts, Express List, ITOM, AIOps, alert management, operations]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Review alerts
@@ -19,7 +19,7 @@ Access the Express List interface to review and manage alerts in your Event Mana
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you are in the Configure IT Operations Management page.
 
@@ -48,7 +48,7 @@ When reviewing alerts, validate the following to ensure your event pipeline is h
 
     Express List opens with a list of active alerts.
 
-    **Note:** To get more information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents, see [Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/express-list.md).
+    **Note:** To get more information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents, see [Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/express-list.md).
 
 5.  To complete the setup, select **Mark as configured**.
 

@@ -48,3 +48,5 @@ Role required: admin
     \[Omitted image "sgcc-review-ot-devices.png"\] Alt text: Review the imported OT devices
 
 
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+

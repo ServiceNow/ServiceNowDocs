@@ -14,11 +14,11 @@ breadcrumb: [Security Operations Integration Reference, Security Operations comm
 
 Many of the flows associated with third-party integrations include the same activities. For example, activities for beginning and completing processing.
 
--   **[Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)**  
+-   **[Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)**  
 The Execution Tracking - Begin flow action starts the auditing process for a Security Operations Integration flow that operates on observables.
--   **[Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)**  
+-   **[Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-complete.md)**  
 The Capability Execution Tracking - Complete flow action updates the audit record when the flow is complete.
--   **[Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)**  
+-   **[Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/capability-execution-tracking-failure.md)**  
 The Capability Execution Tracking - Failure flow action records a failure to the audit record.
 -   **[Capability - Determine CIs activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/determine-cis-activity.md)**  
 The Capability - Determine CIs workflow activity determines which configuration items \(CIs\) to include in the workflow.
@@ -30,7 +30,7 @@ The **Security Common Orchestration** &gt; **Get Configuration Item FQDN** flow 
 The **Determine Observables** workflow activity determines which observable to include in the workflow
 -   **[Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)**  
 The Get Supported Capabilities flow action retrieves the name and number of integrations that are active and support the requested capability.
--   **[Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)**  
+-   **[Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)**  
 The Capability Execution Tracking - No Impls flow action creates an error record when no integration capability implementation is found.
 -   **[Create Compliance Search Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-email-details-from-exch-server.md)**  
 The Create Compliance Search action creates a compliance search for emails in the designated Exchange server\(s\) using the search queries defined and returns the name of compliance search created.

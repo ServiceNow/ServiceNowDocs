@@ -24,7 +24,7 @@ When you integrate the Crisis map application with the BCM application, you can 
 
 -   **Alert**
 
-    An alert is a notification that reports an incident happened at a particular place and time. First, an incident, or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
+    An alert is a notification that reports that an incident happened at a particular place and time. First, an incident, or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
 
 -   **Event**
 

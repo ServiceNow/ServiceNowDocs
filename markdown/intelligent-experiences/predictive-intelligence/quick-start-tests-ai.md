@@ -16,7 +16,7 @@ breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable 
 
 Validate that Predictive Intelligence still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. In order to execute critical upgrade tests on existing machine learning solutions, you need to create a basic authorization profile named ml\_atfin the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). To run the tests successfully, the user attached to the ml\_atf authorization profile must have the ml\_admin role.
+Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). The user attached to the ml\_atf authorization profile must have the ml\_admin role.
 
 |Test|Description|
 |----|-----------|

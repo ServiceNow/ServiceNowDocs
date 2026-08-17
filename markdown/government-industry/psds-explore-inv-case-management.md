@@ -64,9 +64,9 @@ Key features of Investigative Case Management include:
 
     \[Omitted image "psds-icm-case-summary.jpg"\] Alt text: Investigative Case Management genai case summary view
 
-    Synthesize case narratives, entities, evidence, and activity into a condensed, structured summary using the Now Assist for Public Sector Digital Services \(PSDS\) Investigative Case summarization skill, allowing agents to grasp case context, respond to inquiries, propose solutions, and integrate generated resolution information for investigative outcomes into the case record. This skill integrates into the ICM workspace, allowing agents to generate a summary directly from the case record page.
+    Synthesize case narratives, entities, evidence, and activity into a condensed, structured summary using the ServiceNow Otto for Public Sector Digital Services \(PSDS\) Investigative Case summarization skill, allowing agents to grasp case context, respond to inquiries, propose solutions, and integrate generated resolution information for investigative outcomes into the case record. This skill integrates into the ICM workspace, allowing agents to generate a summary directly from the case record page.
 
-    Refine the case narrative before supervisory review using the ICM Narrative refinement AI skill. This skill, accessible through the Now Assist for Public Sector Digital Services \(PSDS\) context menu directly on the case record page, integrates into the ICM workspace.
+    Refine the case narrative before supervisory review using the ICM Narrative refinement AI skill. This skill, accessible through the ServiceNow Otto for Public Sector Digital Services \(PSDS\) context menu directly on the case record page, integrates into the ICM workspace.
 
 
 ## Key Personas

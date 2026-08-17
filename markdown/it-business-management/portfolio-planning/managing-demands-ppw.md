@@ -30,7 +30,7 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Add and manage work needed to progress a demand to approval or delivery readiness, including time card submissions.
 
-4.  [Docs for demands in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/docs-for-demands-ppw.md)
+4.  [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/docs-for-demands-ppw.md)
 
     Store and manage documentation for demands from a centralized location within the demand record.
 
@@ -42,15 +42,15 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Plan and control financials associated with a demand such as cost plans, labor costs, and expense lines.
 
-7.  [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-financial-baselines-ppw.md)
+7.  [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-financial-baselines-ppw.md)
 
-    Create financial baselines to track variance over time.
+    Create and compare financial baselines to track variance over time.
 
-8.  [Create and manage benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md)
+8.  [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md)
 
     Create and manage monetary and non-monetary benefit plans for a demand and associate them to each other.
 
-9.  [Create and manage resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-resource-assignments-ppw.md)
+9.  [Create resource assignments for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-and-manage-resource-assignments-ppw.md)
 
     Align work capacity with demand scope and timelines.
 
@@ -58,7 +58,11 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Progress qualified demands into downstream delivery entities such as projects, enhancements, and change.
 
-11. [Create AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-ai-systems-from-dw-ppw.md)
+11. [Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/summarize-demands-in-ppw.md)
+
+    Summarize demands and refine them using AI.
+
+12. [Create AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-ai-systems-from-dw-ppw.md)
 
     Link AI systems to a demand directly from Next Experience for Demand Management.
 

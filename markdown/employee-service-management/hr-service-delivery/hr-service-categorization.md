@@ -25,7 +25,7 @@ Create or modify an HR topic category to define the first-level of categorizatio
 -   **[Configure an HR topic detail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-topic-detail.md)**  
 Create or modify an HR topic detail to define the second-level of categorization for HR services. Each topic detail is associated with a single topic category and HR Center of Excellence \(COE\).
 -   **[Configuring HR Service Delivery Center of Excellence \(COE\) security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-coe-security-policies.md)**  
-Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.
+Use COE Security Policy configuration to allow specific groups read or write access to HR cases under a specific COE.
 -   **[Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-coe-security.md)**  
 Place security on a COE to prevent a group from accessing another group's cases.
 -   **[Use COE Security Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/coe-diagnostics-tool.md)**  

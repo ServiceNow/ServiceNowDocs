@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Roles installed with Usage Insights, Usage Insights reference, Usage Insights, Platform Analytics]
+breadcrumb: [Roles installed with Usage Insights, Usage Insights reference, Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Mobile analytics admin\[mobile\_analytics\_admin\]

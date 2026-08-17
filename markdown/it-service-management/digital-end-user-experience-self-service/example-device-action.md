@@ -1,6 +1,6 @@
 ---
 title: Custom device action example
-description: Example of creating a device action that enables end users to reconnect to their VPN on Windows devices and restore access to internal resources from Employee Center without contacting the service desk.
+description: Creating a device action that enables employees to reconnect to their VPN on Windows devices and restore access to internal resources from Employee Center without contacting the service desk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/example-device-action.html
 release: australia
@@ -9,12 +9,12 @@ classification: digital-end-user-experience-self-service
 topic_type: reference
 last_updated: "2026-05-15"
 reading_time_minutes: 2
-breadcrumb: [Reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Self-service reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # Custom device action example
 
-Example of creating a device action that enables end users to reconnect to their VPN on Windows devices and restore access to internal resources from Employee Center without contacting the service desk.
+Creating a device action that enables employees to reconnect to their VPN on Windows devices and restore access to internal resources from Employee Center without contacting the service desk.
 
 ## Example configuration
 
@@ -33,7 +33,7 @@ Creating a device action requires configuring an issue configuration, a remedial
     |Type|`Device`|
     |Device OS|`Windows`|
     |User applicability|`End user`|
-    |Enabled in DEX Now Assist topic|Selecting this check box enables you to view this issue in Now Assist Virtual Agent.|
+    |Enabled in DEX ServiceNow Otto topic|Selecting this check box enables you to view this issue in ServiceNow Otto Virtual Agent.|
     |Enabled in EC Self-service|Selecting this check box enables you to view this issue in Employee Center.|
     |Evaluation metric|`Device VPN status`|
     |Evaluation criteria|Metric configuration ID and the value.|

@@ -36,6 +36,6 @@ Role required: admin
 
 6.  The delegated developer can now access the Source Control menu options.
 
-    For more information on source control options, see [Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md).
+    For more information on source control options, see [Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md).
 
 

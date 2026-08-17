@@ -17,7 +17,7 @@ breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent
 Install Agent Client Collector on a system that uses a Linux OS, either using a single-line command script, or following the installation procedure to embed in your own package distribution mechanism. The installation procedure provides consistency when using package distribution solutions.
 
 -   **[Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md)**  
-Install Agent Client Collector using a package distribution tool. Before installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
+Install Agent Client Collector using a package distribution tool. Before that, you can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
 -   **[Validate Linux installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-validate-linux-install.md)**  
 After installing the Agent Client Collector on a Linux system, validate the installation by ensuring it was completed properly.
 -   **[Upgrade Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-linux-upgrade.md)**  

@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-You can create a diagram with the combination of CSDM and ArchiMate shapes or you can use only the ArchiMate shapes. If you want to create the diagram with only ArchiMate shapes, you can skip including the name of the Business Application in the Create a business hierarchy map form. It creates a empty canvas.
+You can create a diagram with the combination of CSDM and ArchiMate shapes or you can use only the ArchiMate shapes. To create the diagram with only ArchiMate shapes, skip including the Business Application name in the Create a business hierarchy map form. This creates an empty canvas.
 
 ## Procedure
 

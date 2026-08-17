@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice processing, AP case, playbook, guided resolution]
+keywords: [APO, Accounts Payable Operations, invoice case processing, playbook, guided resolution, Process Automation Designer, PAD, workflow tracking, case progress tracking, playbook lifecycle]
 breadcrumb: [Playbook for updating the invoice primary data, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -27,7 +27,7 @@ The stages and activities in a playbook life cycle are configured using [Process
 |---------|-----|-----------|
 |1|Playbook header|Displays the title of the playbook|
 |2|Progress indicators|Displays the state of the playbook|
-|3|Playbook action menu|Allows you to expand or collapse stages in the playbook resulting in focussed view. You can use the filter option to refine activities by the assigned user or by the activity status|
+|3|Playbook action menu|Allows you to expand or collapse stages in the playbook resulting in focused view. You can use the filter option to refine activities by the assigned user or by the activity status|
 |4|Expand and collapse|Allows you to expand or collapse stages in the playbook|
 |5|Show/hide playbook pane|Allows you to view or hide playbook pane|
 

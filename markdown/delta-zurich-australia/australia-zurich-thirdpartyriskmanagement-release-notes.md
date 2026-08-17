@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-thirdpartyriskmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 17
+last_updated: "2026-08-17"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -58,15 +58,13 @@ Australia
 
 If you're a VRM user upgrading to TPRM and upgrading to Australia from an earlier release, you must run each upgrade sequentially to ensure that fix scripts run correctly. For example, you must upgrade from Xanadu to Yokohama, Yokohama to Zurich, and so on. If the scripts don't run in the correct order, you can get data inconsistencies, broken functionalities, and conflicts.
 
- After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(SAE\) by setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property. After setting this property, Smart Assessment Engine \(SAE\) becomes the default assessment engine and replaces the legacy experience. The transition isn't reversible.
+ After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(SAE\) by setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property. After setting this property, Smart Assessment Engine \(SAE\) is set to the default assessment engine and replaces the legacy experience. The transition is irreversible.
 
-**Warning:**
-
-Set this property in your non-production instances and conduct thorough testing before changing your production instances. Failure to do so may result in unexpected issues.
+**Warning:** Set this property in your non-production instances and conduct thorough testing before changing your production instances. Failure to do so can result in unexpected issues.
 
  For more information on upgrading from VRM to TPRM and the differences between the Smart and Classic Assessment engines, see [Third-party Risk Management upgrade information](https://www.servicenow.com/docs/access?context=grc-tprm-upgrade-info&family=australia&ft:locale=en-US).
 
- For existing TPRM customers, after upgrading to version 21.0.3, data from the Industry column in the Company \[core\_company\] table is automatically migrated to the tprm\_industry column. Migration can take several hours depending on the number of records in the Company \[core\_company\] table. After migration, a system log message confirms that the migration is complete. Review the Company \[core\_company\] table content and update any customizations referencing the Industry field to use tprm\_industry. After verifying the migration and updating customizations, you can drop the Industry column.
+ For existing TPRM customers, after upgrading to version 21.0.3, data from the Industry column in the Company \[core\_company\] table is automatically migrated to the tprm\_industry column. Migration can take several hours depending on the number of records in the Company \[core\_company\] table. After migration, a system log message confirms that the migration is complete. Review the Company \[core\_company\] table content. Update any customizations that reference the Industry field to use tprm\_industry. After verifying the migration and updating customizations, you can drop the Industry column.
 
  After upgrading to version 22.3.3, the `grc_business_user` and `grc_reader` roles are no longer directly inherited by TPRM roles. During upgrade, most users are automatically migrated to new feature‑specific roles. Users with custom role combinations may not be migrated automatically and require manual review before the grace period ends.
 
@@ -89,15 +87,15 @@ Zurich
 
 </td><td>
 
--   **[Now Assist for Third-party Risk Management \(TPRM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-tprm-rn&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-tprm-rn&family=zurich&ft:locale=en-US)**
 
-Review the Now Assist for Third-party Risk Management \(TPRM\) \(TPRM\) release notes for full descriptions of the features.
+Review the ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes for full descriptions of the features.
 
 -   **[Document Management system](https://www.servicenow.com/docs/access?context=tprm-dms&family=zurich&ft:locale=en-US)**
 
 Starting with version 21.1.x, you can use the Document Management System \(DMS\) in TPRM, which provides a centralized repository for storing, organizing, and managing third-party documents throughout the vendor life cycle. It can be used by third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_manager\], third-party assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], and third parties to upload, categorize, track, and review documents with metadata, version control, and access permissions. This feature streamlines evidence tracking, reduces duplication, and improves audit readiness by enabling document reuse across assessments, contracts, issues, and tasks.
 
-For information on Now Assist skills for TPRM and Document Management, see [Now Assist for Third-party Risk Management \(TPRM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-tprm-rn&family=zurich&ft:locale=en-US) and [Now Assist in Document Intelligence release notes](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-rn&family=zurich&ft:locale=en-US).
+For information on Now Assist skills for TPRM and Document Management, see [ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-tprm-rn&family=zurich&ft:locale=en-US) and [Now Assist in Document Intelligence release notes](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-rn&family=zurich&ft:locale=en-US).
 
 -   **[Register of information regulatory packages](https://www.servicenow.com/docs/access?context=tprm-dora-roi&family=zurich&ft:locale=en-US)**
 
@@ -137,7 +135,7 @@ Australia
 
 -   **[AI-assisted questionnaire pre-fill](https://www.servicenow.com/docs/access?context=tprm-dms-sae&family=australia&ft:locale=en-US)**
 
-After upgrading to version 22.3.3 and activating the Now Assist for Third-party Risk Management \(TPRM\) application, you can use uploaded documents and responses from previous assessments to generate suggested questionnaire responses with source citations. For internal assessments you need the snc\_internal role. For external assessments, primary contacts can complete all assessment response actions; secondary contacts must be assigned read and write access.
+After upgrading to version 22.3.3 and activating the ServiceNow Otto for Third-party Risk Management \(TPRM\) application, you can use uploaded documents and responses from previous assessments to generate suggested questionnaire responses with source citations. For internal assessments, the snc\_internal role is required. For external assessments, primary contacts can complete all assessment response actions; secondary contacts must be assigned read and write access.
 
 -   **[Software Bill of Materials \(SBOM\) support](https://www.servicenow.com/docs/access?context=tprm-sbom-exploring&family=australia&ft:locale=en-US)**
 
@@ -166,7 +164,12 @@ After upgrading to version 22.0.2 and installing the Unified Content Management 
 
  -   **[Generate TPRM issue recommendations](https://www.servicenow.com/docs/access?context=create-recommendation-tprm-issue&family=australia&ft:locale=en-US)**
 
-After upgrading to version 22.0.8 if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the Now Assist for Third-party Risk Management \(TPRM\) application, you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
+After upgrading to version 22.0.8 if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\) application, you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
+
+
+ -   **[Extended AI model support for Now Assist for TPRM](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-tprm&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.4, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to previously supported models. Model availability depends on your ServiceNow Otto for Third-party Risk Management \(TPRM\) subscription, providing greater flexibility when selecting the AI model that meets your requirements.
 
 
 </td></tr></tbody>
@@ -263,14 +266,28 @@ After upgrading the Digital Resilience Third-party Information Register applicat
 After upgrading to version 22.0.1, third‑party elements are now linked to a single third party and can no longer be shared across third parties. Scoring rollups calculate results from element‑level assessments rather than entity records.
 
 
+ -   **[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)**
+
+Starting with Australia Patch 5, Now Assist for Third-party Risk Management is now ServiceNow Otto® for TPRM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+ -   **[Default AI model for issue recommendation skill](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-tprm&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.4, the issue recommendation skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses Azure OpenAI gpt-4-5-mini as the default model. This update changes the default model for issue recommendations. You can select alternative models, including the newly supported Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini, based on your requirements.
+
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
  -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -450,7 +467,7 @@ Australia
 
 </td><td>
 
-The Vendor Management Workspace and the third-party portal include accessibility improvements in this release, including improved color contrast, enhanced focus indicators, skip navigation links, full keyboard navigation, and ARIA attribute updates for screen reader compatibility.
+The Vendor Management Workspace and the third-party portal include accessibility improvements in this release, including improved color contrast, enhanced focus indicators, skip navigation links, and full keyboard navigation.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -514,7 +531,11 @@ Australia
 
 </td><td>
 
--   Reduce manual data entry by using AI to pre‑fill questionnaires for third-party contacts and business owners.
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+ Starting with Australia Patch 5, Now Assist for Third-party Risk Management is now ServiceNow Otto® for TPRM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ -   Reduce manual data entry by using AI to pre‑fill questionnaires for third-party contacts and business owners.
 -   Use updated Standardized Information Gathering \(SIG\) questionnaire content for 2026.
 -   Automate Software Bill of Materials \(SBOM\) collection, integration, and vulnerability correlation with Unified Security Exposure Management \(USEM\) integration.
 -   Manage SAE assessment template versions to prevent changes from affecting in‑flight assessments.
@@ -526,15 +547,15 @@ Australia
 -   Review the simplified third‑party elements process in the due diligence workflow.
 -   Access the unified content management module in the Vendor Management Workspace to view a centralized library of smart assessment templates.
 
- [Early availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
-
- Use generative AI to recommend TPRM issues for reviewer validation.
-
  [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
  Review the updated AI experience with three licensing tiers.
 
  See [Third-party Risk Management](https://www.servicenow.com/docs/access?context=third-party-risk-mgt-landing-page&family=australia&ft:locale=en-US) for more information.
+
+ [Early availability](https://www.servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
+
+ Use generative AI to recommend TPRM issues for reviewer validation.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

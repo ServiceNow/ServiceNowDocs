@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create AI systems
@@ -24,15 +24,15 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select a demand record from the **All Demands** list.
+3.  Open a demand from the **List** page.
 
-3.  Select **Details** from the L-2 \(level 2\) navigation menu.
+4.  Select **Details** from the navigation menu.
 
-4.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
+5.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
 
     For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 

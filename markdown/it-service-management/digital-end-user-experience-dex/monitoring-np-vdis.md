@@ -9,6 +9,8 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [non-persistent vdi, vdi monitoring, agent client collector, acc, golden image, logon script, logoff script, vmware, persistent storage, certificate registration, desktop session monitoring]
+audience: administrator
 breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -41,10 +43,22 @@ Monitoring non-persistent VDIs with Digital End-User Experience provides the fol
 
 To enable monitoring on a non-persistent VDI pool, complete the following tasks on a reference device used to create the golden image.
 
-1.  [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md). Install Agent Client Collector on the reference device using the MID-less installation method, configure non-persistent mode in `acc.yml`, and verify host data and policy synchronization.
-2.  [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md). Install the DEX browser extension on the reference device for monitoring web applications.
-3.  [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md). Remove the registration certificate, agent identifier, cached databases, and logs from the reference device, and update `acc.yml` so that each duplicate VDI registers with a unique identity.
-4.  [Manage logon and logoff scripts for non-persistent VDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-np-vdis.md). After you seal the reference device as the golden image and configure your VDI pool to use it, place the logon and logoff scripts in your VDI management tool and update the authentication steps to connect to your persistent storage.
+1.  [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md).
+
+    Install Agent Client Collector on the reference device using the MID-less installation method, configure non-persistent mode in `acc.yml`, and verify host data and policy synchronization.
+
+2.  [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
+
+    Install the DEX browser extension on the reference device for monitoring web applications.
+
+3.  [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md).
+
+    Remove the registration certificate, agent identifier, cached databases, and logs from the reference device, and update `acc.yml` so that each duplicate VDI registers with a unique identity.
+
+4.  [Manage logon and logoff scripts for non-persistent VDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-np-vdis.md).
+
+    Place the logon and logoff scripts in your VDI management tool and update the authentication steps to connect to your persistent storage.
+
 
 For policy reference content for non-persistent VDIs, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
 

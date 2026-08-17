@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Stop words
@@ -130,7 +130,7 @@ Interaction with stop words
 
 </td><td>
 
-If a search query term that matches a Genius Result configuration's Term trigger is defined as a stop word, AI Search evaluates the trigger before removing that stop word from the search query. When computing Q&amp;A Genius Results for a search query, AI Search ignores stop words in the query.
+If a search query term that matches a Genius Result configuration's Term trigger is defined as a stop word, AI Search evaluates the trigger before removing that stop word from the search query. When computing Knowledge base articles Genius Results for a search query, AI Search ignores stop words in the query.
 
 </td></tr><tr><td>
 

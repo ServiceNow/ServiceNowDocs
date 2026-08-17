@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-zerocopyconnectors-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -109,15 +109,15 @@ Australia
 
 -   **[Cloudera Hive](https://www.servicenow.com/docs/access?context=cloudera-hive-zcc&family=australia&ft:locale=en-US)**
 
-Retrieve data from Cloudera Hive in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing. This connector is fully supported on the ServiceNow AI Platform®.
+Retrieve data from Cloudera Hive in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing.
 
 -   **[Cloudera Impala](https://www.servicenow.com/docs/access?context=cloudera-impala-zcc&family=australia&ft:locale=en-US)**
 
 Retrieve data from Cloudera Impala in real time without copying or duplicating the data.
 
--   **[Connect to Microsoft OneLake](https://www.servicenow.com/docs/access?context=microsoft-onelake-zcc&family=australia&ft:locale=en-US)**
+-   **[Microsoft OneLake](https://www.servicenow.com/docs/access?context=microsoft-onelake-zcc&family=australia&ft:locale=en-US)**
 
-Retrieve data from Microsoft OneLake in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing. This connector is fully supported on the ServiceNow AI Platform®.
+Retrieve data from Microsoft OneLake in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing.
 
 -   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)**
 
@@ -183,28 +183,14 @@ The Apache Iceberg connector is now certified as a primary connector.
 
 -   **[Primary connectors in preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&family=australia&ft:locale=en-US)**
 
-Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®. The following connectors are now marked with a Preview label:
+Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®.
 
 -   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)**
-
-[Amazon S3 Tables](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&family=australia&ft:locale=en-US)
-
--   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)**
-
-[Apache Iceberg](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&family=australia&ft:locale=en-US)
-
+    -   [Amazon S3 Tables](https://www.servicenow.com/docs/access?context=amazon-s3-tables-zcc&family=australia&ft:locale=en-US)
+    -   [Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US)
 -   **[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)**
-
-[Teradata](https://www.servicenow.com/docs/access?context=teradata-zcc&family=australia&ft:locale=en-US)
-
-The Teradata connector now supports Bearer Token and OAuth authentication methods.
-
--   **[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)**
-
-[Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US)
-
-The Apache Iceberg connector now supports S3-compatible object storage systems.
-
+    -   [Teradata](https://www.servicenow.com/docs/access?context=teradata-zcc&family=australia&ft:locale=en-US): The Teradata connector now supports Bearer Token and OAuth authentication methods.
+    -   [Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US): The Apache Iceberg connector now supports S3-compatible object storage systems.
 
 </td></tr></tbody>
 </table>## Removed

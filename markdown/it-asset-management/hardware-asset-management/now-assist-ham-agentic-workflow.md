@@ -1,6 +1,6 @@
 ---
-title: Using agentic workflows in Now Assist for HAM
-description: Use the Now Assist for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
+title: Using agentic workflows in ServiceNow Otto for HAM
+description: Use the ServiceNow Otto for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-agentic-workflow.html
 release: australia
@@ -13,9 +13,9 @@ keywords: [AI Agents, agentic AI]
 breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Using agentic workflows in Now Assist for HAM
+# Using agentic workflows in ServiceNow Otto for HAM
 
-Use the Now Assist for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
+Use the ServiceNow Otto for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
 
 <table id="table_gfn_c1l_w2c"><thead><tr><th>
 
@@ -31,7 +31,7 @@ Available AI agents
 
 </th><th>
 
-Introduced in Now Assist for HAM version
+Introduced in ServiceNow Otto for HAM version
 
 </th></tr></thead><tbody><tr><td>
 
@@ -49,7 +49,7 @@ Automatically fulfills hardware asset requests by either using the available loc
 
 </td><td>
 
-Now Assist for Hardware Asset Management \(HAM\) v1.0
+ServiceNow Otto for Hardware Asset Management \(HAM\) v1.0
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Automates and optimizes the repair workflow for hardware assets by validating re
 
 </td><td>
 
-Now Assist for Hardware Asset Management \(HAM\) v2.0
+ServiceNow Otto for Hardware Asset Management \(HAM\) v2.0
 
 </td></tr></tbody>
 </table>**Important:** If the agentic workflows and AI agent records are inactive, follow the steps below to activate them
@@ -80,7 +80,7 @@ By default, all agentic workflows and AI agent records are read-only. To customi
 
 After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
-You can implement security in AI agents and the agentic workflow using Access Control Lists \(ACLs\) that specify which users can discover and invoke an agentic workflow or an AI agent. For more details on configuring ACLs, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+You can implement security in AI agents and the agentic workflow using Access Control Lists \(ACLs\) that specify which users can discover and invoke an agentic workflow or an AI agent. For more details on configuring ACLs, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

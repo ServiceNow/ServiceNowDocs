@@ -1,29 +1,29 @@
 ---
-title: ServiceNow CPQ and Salesforce base package overview
-description: The ServiceNow CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in ServiceNow CPQ, launch the ServiceNow CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
+title: CPQ and Salesforce base package overview
+description: The CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in CPQ, launch the CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io-salesforce\_base\_package\_overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Capturing data from a configuration when amending a subscription contract, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [Capturing data from a configuration when amending a subscription contract, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# ServiceNow CPQ and Salesforce base package overview
+# CPQ and Salesforce base package overview
 
-The ServiceNow CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in ServiceNow CPQ, launch the ServiceNow CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
+The CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in CPQ, launch the CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
 
-The base package provides the minimum components and configuration for ServiceNow CPQ interacting with Salesforce. This package allows the user to:
+The base package provides the minimum components and configuration for CPQ interacting with Salesforce. This package allows the user to:
 
--   Enable Salesforce Product2 records to be a ServiceNow CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md).
--   Launch the ServiceNow CPQ Admin from Salesforce, from enabled Product2 records
--   Embed the ServiceNow CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed ServiceNow CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
--   Access ServiceNow CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
+-   Enable Salesforce Product2 records to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md).
+-   Launch the CPQ Admin from Salesforce, from enabled Product2 records
+-   Embed the CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
+-   Access CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
 
 ## Product2 integration
 
-The base package includes the ServiceNow CPQ Enabled checkbox and a link View ServiceNow CPQ Setup that will be populated with a link to the ServiceNow CPQ Admin page when the ServiceNow CPQ Enabled checkbox is checked.
+The base package includes the CPQ Enabled checkbox and a link View CPQ Setup that will be populated with a link to the CPQ Admin page when the CPQ Enabled checkbox is checked.
 
 ## Configuration line item field mapper
 
@@ -37,35 +37,35 @@ If the same field names exist in both Extended Information and Pricing Informati
 
 LGK\_\_ConfigurationLineItem\_\_c stores the product data \(bill of materials\) that comes out of a configuration. \(See below for a complete list of fields.\)
 
-The record stores the unique ServiceNow CPQ configuration ID that ties the data back to a specific ServiceNow CPQ configuration session and can be referenced in other flows or triggers in Salesforce.
+The record stores the unique CPQ configuration ID that ties the data back to a specific CPQ configuration session and can be referenced in other flows or triggers in Salesforce.
 
-Quote line fields can be populated with information from a ServiceNow CPQ configuration using records of this object. For additional information, see the following video: [Populate Quote Line Custom Fields](https://drive.google.com/file/d/1aojT9Pv0BceH2fLbUtEDmBmesn40YSto/view?usp=share_link)
+Quote line fields can be populated with information from a CPQ configuration using records of this object. For additional information, see the following video: [Populate Quote Line Custom Fields](https://drive.google.com/file/d/1aojT9Pv0BceH2fLbUtEDmBmesn40YSto/view?usp=share_link)
 
-ServiceNow CPQ writes the configuration line item objects when a ServiceNow CPQ configuration is saved. The setting in ServiceNow CPQ Admin must be enabled.
+CPQ writes the configuration line item objects when a CPQ configuration is saved. The setting in CPQ Admin must be enabled.
 
-**Note:** ServiceNow CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a ServiceNow CPQ configuration.
+**Note:** CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a CPQ configuration.
 
 \[Omitted image "cpq-fields-and-relationships-1.png"\] Alt text: Configuration line items
 
 ## Configuration field data
 
-LGK\_\_ConfigurationFieldData\_\_c stores the field values set in a configuration and contains the unique ServiceNow CPQ configuration ID. \(See below for a complete list of fields.\)
+LGK\_\_ConfigurationFieldData\_\_c stores the field values set in a configuration and contains the unique CPQ configuration ID. \(See below for a complete list of fields.\)
 
 Creates records for every field from a configuration, even if it has a blank or null value.
 
-Writes the configuration Field Data objects when a ServiceNow CPQ configuration is saved. The setting in ServiceNow CPQ Admin also needs to be enabled.
+Writes the configuration Field Data objects when a CPQ configuration is saved. The setting in CPQ Admin also needs to be enabled.
 
-**Note:** ServiceNow CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a ServiceNow CPQ configuration.
+**Note:** CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a CPQ configuration.
 
 \[Omitted image "cpq-fields-and-relationships-2.png"\] Alt text: Configuration line items
 
 ## Configuration tenant
 
-LGK\_\_ConfigurationTenant\_\_c controls aspects of the ServiceNow CPQ integration with Salesforce.
+LGK\_\_ConfigurationTenant\_\_c controls aspects of the CPQ integration with Salesforce.
 
 \[Omitted image "cpq-logik-tenant.png"\] Alt text: Tenant screen
 
-A single record for org-wide defaults should be created and populated with the Administration URL and Runtime Configuration URL values of your ServiceNow CPQ instance.
+A single record for org-wide defaults should be created and populated with the Administration URL and Runtime Configuration URL values of your CPQ instance.
 
-For security reasons, the Runtime Client Token field is deprecated. The Skip CPQ Post Install Script checkbox disables product updates that run while installing ServiceNow CPQ's CPQ extension package.
+For security reasons, the Runtime Client Token field is deprecated. The Skip CPQ Post Install Script checkbox disables product updates that run while installing CPQ's CPQ extension package.
 

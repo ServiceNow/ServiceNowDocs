@@ -1,6 +1,6 @@
 ---
 title: Scaled Agile Framework \(SAFe\)
-description: The ServiceNow Scaled Agile Framework \(SAFe\) application helps you apply lean and agile principles to your large enterprise enabling you to develop and deliver software products with fewer defects in the shortest viable lead time.
+description: Apply lean and agile principles to your large enterprise enabling you to develop and deliver software products with fewer defects in the shortest viable lead time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/SAFeoverview.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Strategic Portfolio Management]
 
 # Scaled Agile Framework \(SAFe\)
 
-The ServiceNow® Scaled Agile Framework \(SAFe\) application helps you apply lean and agile principles to your large enterprise enabling you to develop and deliver software products with fewer defects in the shortest viable lead time.
+Apply lean and agile principles to your large enterprise enabling you to develop and deliver software products with fewer defects in the shortest viable lead time.
 
 ## SAFe overview
 
@@ -29,10 +29,10 @@ ServiceNow provides applications that support two different configurations of SA
 
 -   **[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)**
 
-    With Essential SAFe, you can apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
+    Apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
 
 -   **[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)**
 
-    With Portfolio SAFe, you can align your organizational goals and strategies with your portfolios, and apply lean and agile principles to seamlessly manage and deliver your portfolio work.
+    Align your organizational goals and strategies with your portfolios, and apply lean and agile principles to seamlessly manage and deliver your portfolio work.
 
 

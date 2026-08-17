@@ -1,18 +1,19 @@
 ---
 title: CoPQ planned line charge form
-description: The CoPQ planned line form enables you to add the required details.
+description: The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-copq-planned-line-charge-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [CoPQ, cost of poor quality, planned line charge, CoPQ financial request, quality issue management]
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
 
 # CoPQ planned line charge form
 
-The CoPQ planned line form enables you to add the required details.
+The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 
 <table id="table_uky_wgq_xhc"><thead><tr><th>
 
@@ -36,7 +37,7 @@ State
 
 </td><td>
 
-State of the preventive action:-   New
+State of the planned line charge:-   New
 -   On hold
 -   In progress
 -   Closed complete
@@ -49,7 +50,7 @@ Financial request
 
 </td><td>
 
-Financial request that inks planned line charge to the parent CoPQ financial request.
+Financial request that links planned line charge to the parent CoPQ financial request.
 
 </td></tr><tr><td>
 

@@ -14,7 +14,7 @@ breadcrumb: [Configure the Node relationship configurations, Configure the Main 
 
 Use the Node relationship configuration form to configure the node relationships. You can also view these settings in the Nexus map.
 
-## Node relationship configuration new record form
+## Node relationship configuration record form
 
 <table id="table_mzj_qpq_4pb"><thead><tr><th>
 

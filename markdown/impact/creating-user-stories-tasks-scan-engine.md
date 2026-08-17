@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Create user stories and tasks for Scan Engine
@@ -43,7 +43,7 @@ Role required: admin
     Ensure that all the findings you select are appropriate for the same project. The system processes bulk requests asynchronously for large selections.
 
 
-If user story or task creation fails, check and ensure the following:
+If user story or task creation fails, validate the following:
 
 -   Your integration credentials are valid
 -   The target project exists and is accessible

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -46,15 +46,15 @@ For existing assessments, the Supports smart assessment option is set automatica
 
 5.  Add a questionnaire or document request template to the assessment template using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d111692e161">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d111930e161">
 
 Option
 
-</th><th align="left" id="d111692e164">
+</th><th align="left" id="d111930e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111692e170">
+</th></tr></thead><tbody><tr><td id="d111930e170">
 
 **Add Questionnaire templates**
 
@@ -67,7 +67,7 @@ In the Vendor Management Workspace, navigate to the Questionnaire templates rela
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d111692e206">
+</td></tr><tr><td id="d111930e206">
 
 **Add Document request templates**
 
@@ -80,7 +80,7 @@ In the Vendor Management Workspace, navigate to the Document request templates r
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d111692e242">
+</td></tr><tr><td id="d111930e242">
 
 **Add SAE Questionnaire templates**
 
@@ -93,7 +93,7 @@ In the Vendor Management Workspace, navigate to the SAE Questionnaire templates 
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d111692e290">
+</td></tr><tr><td id="d111930e290">
 
 **Add SAE Document templates**
 

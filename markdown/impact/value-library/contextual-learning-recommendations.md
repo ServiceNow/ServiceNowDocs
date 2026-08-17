@@ -20,17 +20,13 @@ Outcomes based contextual recommendations analyze the performance of an outcome,
 
 These recommendations are personalized, based on the performance of the outcome and its associated capabilities. For each capability, a single learning recommendation will be generated, with multiple relevant courses included in the same record when applicable.
 
-In the Zurich release, contextual learning recommendations are added for your organizational outcomes insights.
-
-To access an outcomes insight related learning recommendation, navigate to **All** &gt; **Impact Value Management** &gt; **Outcomes Insights**, and then select the desired outcome.
+In the Zurich release, contextual learning recommendations are added for your organizational outcomes insights. These recommendations appear within the Outcomes Insights section, accessible through **All &gt; Impact Value Management &gt; Outcomes Insights**, and are presented when you select a desired outcome.
 
 The **Outcome Recommendations** panel appears on the **Outcome Detail** page. The selected contextual outcome recommendation summary consists of the following:
 
 -   A brief overview of the capability, its adoption status, and why the intended audience should take the learning course.
 -   Tailored ServiceNow University training recommendations derived from the capabilities associated with the selected outcome. Select a course to launch it in an external browser.
 -   Relevant training courses based on the user’s adoption level of each capability.
-
-\[Omitted image "outcomes\_learning\_recommendation.png"\] Alt text: outcomes\_learning\_recommendations
 
 You can provide feedback by selecting thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\]. You can also provide feedback about the recommendation.
 

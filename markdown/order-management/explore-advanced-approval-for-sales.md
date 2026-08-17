@@ -97,6 +97,8 @@ This section describes the tasks involved in configuring and using Advanced Appr
 |Preview the rules, steps, and approvers before submitting a request|[Working with approval requests as a requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-approval-requests.md)|Requesters|
 |Monitor approval workflow and status|[Tracking approval status and history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/tracking-approval-status.md)|Requesters, approvers, and business stakeholders|
 |Approve or reject approval requests|[Working with approval requests as an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)|Approvers|
+|Submit quotes for approval|[Submit a quote for advanced approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-a-quote-for-approval.md)|Requesters|
+|Approve quotes submitted for advanced approval|[Approve an approval request for a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approve-a-quote-approval-request.md)|Approvers|
 
 ## What to explore next
 

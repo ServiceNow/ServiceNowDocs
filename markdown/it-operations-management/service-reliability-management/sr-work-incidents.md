@@ -18,7 +18,7 @@ Plan ahead of service disruptions and have SRM send notifications and create sta
 
 You can manually create incidents within SRM or create an error budget action to do so. See [Manually create an SRM incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-incident.md) or [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more information.
 
--   [Manual creation from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/open-incident.md).
+-   [Manual creation from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/open-incident.md).
 -   [Manual creation from the incident view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-incident.md).
 -   Automatically from Alert automations, if Alert automations are installed.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-integrationhub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -121,6 +121,10 @@ Configure a custom Kafka connection to enable your on-premise instance to connec
 -   **[Create topic aliases for Stream Connect topics](https://www.servicenow.com/docs/access?context=manage-topic-alias&family=australia&ft:locale=en-US)**
 
 Use topic aliases to simplify topic management in Stream Connect. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and, wherever they’re moved, connected to an underlying topic.
+
+-   **[OAUTHBEARER authentication for Stream Connect message replication](https://www.servicenow.com/docs/access?context=hla-data-input-kafka-credentials&family=australia&ft:locale=en-US)**
+
+Authenticate using OAUTHBEARER as part of the SASL credential framework for Stream Connect message replication. OAUTHBEARER authentication lets Stream Connect administrators meet customer requirements, improve security, and align with existing OAuth capabilities on the platform, enabling seamless integration with Kafka environments that require advanced authentication.
 
 -   **[Stream Connect Dashboard updates](https://www.servicenow.com/docs/access?context=stream-connect-dashboard&family=australia&ft:locale=en-US)**
     -   The Topics menu displays topic aliases, Hermes topics, and Direct Kafka topics.

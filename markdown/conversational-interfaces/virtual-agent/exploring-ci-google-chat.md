@@ -20,7 +20,7 @@ Use the Conversational Integration with Google Chat application to connect your 
 
 Enable requesters to chat with Google Chat or live agents using the Google Chat application. Use the Conversational Integration with Google Chat app, available from the ServiceNow Store, to associate your instance with Google Chat
 
-You must have Now Assist in Virtual Agent for Google Chat activated. For more information, see 
+You must have ServiceNow Otto in Virtual Agent for Google Chat activated. For more information, see 
 
 You have two options for integrating Virtual Agent with Google Chat: the Now Virtual Agent bot and a self-configured bot.
 

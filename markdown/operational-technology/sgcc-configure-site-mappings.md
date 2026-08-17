@@ -26,11 +26,11 @@ Role required: admin
 
 1.  In the **Configure site mappings** task, scroll down to review the list of imported sites.
 
-    \[Omitted image "sgcc-configure-site-mappings.png"\] Alt text:
+    \[Omitted image "sgcc-configure-site-mappings.png"\] Alt text: Configure site mappings
 
 2.  Select the first site and in the form that opens, fill in the fields as follows.
 
-    \[Omitted image "window-confgurei-site-mappings-1.png"\] Alt text: Configure site mappings
+    \[Omitted image "window-confgurei-site-mappings-1.png"\] Alt text: Configure site mappings window
 
     1.  All field titles with \* \(asterick\) next to them are mandatory and should be filled in.
 
@@ -50,4 +50,6 @@ Role required: admin
 
 3.  Select **Continue** to move to the next step.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
 

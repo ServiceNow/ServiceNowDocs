@@ -14,7 +14,7 @@ breadcrumb: [Zero Copy Connector for ERP and ERP Semantic Mining glossary, Refer
 
 # ERP system
 
-An ERP system represents a connection to a section of your ERP system of record. The Zero Copy Connector for ERP system plays a crucial role in data synchronization, sharing, and collaboration, enabling seamless integration and operation between the model and the connected ERP system.
+An ERP system represents a connection to a section of your ERP. The Zero Copy Connector for ERP system plays a crucial role in data synchronization, sharing, and collaboration, enabling seamless integration and operation between the model and the connected ERP system.
 
 **Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

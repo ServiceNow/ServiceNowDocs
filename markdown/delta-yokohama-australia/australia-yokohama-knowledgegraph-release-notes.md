@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-knowledgegraph-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 9
+last_updated: "2026-08-17"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -144,20 +144,30 @@ Enter a query and test the Knowledge Graph schema using different LLM options. Y
 Select and configure between Now LLM Service, Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow third-party model strategy.
 
 
+-   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=zurich&ft:locale=en-US)**
+
+A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
+-   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
+
+A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
 -   **[Configuration item relationships and Knowledge Graph](https://www.servicenow.com/docs/access?context=ci-relationships-knowledge-graph&family=australia&ft:locale=en-US)**
 
-CI relationship support in Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+Enables users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
 
 
 -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=australia&ft:locale=en-US)**
 
-The Knowledge landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+The Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 
 
 </td></tr></tbody>
@@ -199,7 +209,7 @@ Zurich
 
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
-Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 </td></tr><tr><td>
@@ -528,7 +538,16 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
+
+ [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+
+-   Knowledge Graph now supports queries with Glidelist references.
+
+ [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
 -   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 -   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.
@@ -567,6 +586,17 @@ Zurich
 Australia
 
 </td><td>
+
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
+-   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Knowledge Graph now supports queries with Glidelist references.
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 
 -   Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 -   Tagging configuration has been enhanced to support table synonyms, column synonyms, data filters and column filters to improve the accuracy of natural language queries.

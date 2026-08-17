@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 1
-breadcrumb: [Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Use the Discovery Console for OT interactive configuration wizard
@@ -52,4 +52,6 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
 
 8.  You can open the configuration wizard on any Console page by selecting the **Tool** wand.
 
+
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md)
 

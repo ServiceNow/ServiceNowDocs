@@ -18,12 +18,14 @@ Validation, sanitization, and encoding addresses input validation to prevent aga
 
 This control ensures input validation and output encoding are in place and correctly configured, such as encoding or escaping output data. This category also includes checks for items such as deserialization of objects and positive validation through allow lists.
 
--   **[Allow HTML Links to Trusted Domains in the Description Fields of the Impact Workspace Module \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-allow-html-links-to-trusted-domains-in-the-description-fields-of-the-impact-workspace-module.md)**  
+-   **[Allow HTML Links to Trusted Domains in the Description Fields of the Impact Workspace Module \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-allow-html-links-to-trusted.md)**  
 Use a system property to help sanitize the HTML allowed in the descriptions fields. This property limits the allowed links to only those from the trusted domains listed in the property.
 -   **[Enable the hardened java security manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-the-hardened-java-security-manager.md)**  
 The **glide.security.manager** property contains the Java classname of the current Java security manager.
 -   **[Enable HTML Sanitizer \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-html-sanitizer.md)**  
 Use the **glide.html.sanitize\_all\_fields** property to enable the HTMLSanitizer script include, which sanitizes HTML input based on exclusion listed and inclusion listed attributes configured in a script.
+-   **[Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.md)**  
+Use the **glide.script.use.sandbox** property to enable script sandboxing.
 -   **[Enforce HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.md)**  
 Use the **com.glide.security.check\_unsanitized\_html** property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 -   **[Ensure Contextual Search Do Not Contain An Unvalidated Redirect \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-ensure-contextual-search-do-not-contain-an-unvalidated-redirect.md)**  
@@ -50,7 +52,7 @@ Manage the interpolation protection on your instance.
 Use the **glide.cms.catalog\_uri\_relative** property to enforce relative links from the URI parameter on `/ess/catalog.do`.
 -   **[Enforce URL allowlist check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-url-allowlist-check.md)**  
 Use the **glide.security.url.whitelist** system property to add extra layer of validation to ensure whether any external URL introduced should be a part of inclusion listed URLs.
--   **[Escape Excel Formulas \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)**  
+-   **[Escape Excel formulas \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)**  
 Use the **glide.export.escape\_formulas** property to prevent Excel Injection, also, known as formula injection.
 -   **[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-html.md)**  
 Use the **glide.ui.escape\_html\_list\_field** property to force HTML escapes for HTML fields in a list view.
@@ -92,7 +94,7 @@ Learn how to configure the **glide.translated\_html.sanitize\_all\_fields** prop
 Sanitize the HTML in the description fields by removing HTML tags that are sources of HTML injection attacks with the **sn\_impact\_common.blacklist\_tags\_HTML\_injection** property.
 -   **[Set safe content security policy for SVG files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-set-safe-content-security-policy-for-svg-files.md)**  
 The **com.glide.csp.self\_script\_src\_svg** property adds the **script-src none** directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
--   **[Validate MIME Type for Multi-Extension Filenames, Polyglot Files, and Null-Byte Injection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-validate-mime-type-for-multi-extension-filenames-polyglot-files-and-null-byte-injection.md)**  
+-   **[Validate MIME Type for Multi-Extension Filenames, Polyglot Files, and Null-Byte Injection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-validate-mime-type-for-multi.md)**  
 Use a system property to prevent attachments from bypassing MIME-type restrictions.
 
 **Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md)

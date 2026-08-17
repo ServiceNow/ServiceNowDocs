@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/installi
 release: australia
 topic_type: task
 last_updated: "2026-03-27"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -20,7 +20,7 @@ The required Windows \(10 or 11\) environment for the OT Discovery Collector is 
 
 Role required: admin
 
-**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information on installing a containerized package, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 
@@ -116,4 +116,6 @@ To update the OT Discovery Collector version, do the following steps.
 4.  Select the **Install/Update OT Discovery Collector** button.
 
 The updated version is installed.
+
+**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)
 

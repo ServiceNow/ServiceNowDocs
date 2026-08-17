@@ -1,26 +1,26 @@
 ---
-title: Using generative AI with Now Assist for Creator
-description: Use the generative AI skills available with Now Assist for Creator to help you build faster and smarter on the ServiceNow AI Platform.
+title: Using generative AI with ServiceNow Otto for Creator
+description: Use the generative AI skills available with ServiceNow Otto for Creator to help you build faster and smarter on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator, Use generative AI, gen AI, Skills in Now Assist for Creator]
-breadcrumb: [Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+last_updated: "2026-07-28"
+reading_time_minutes: 1
+keywords: [ServiceNow Otto for Creator, Use ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, Install Now Assist for Creator, Use generative AI, gen AI, Skills in Now Assist for Creator]
+breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Using generative AI with Now Assist for Creator
+# Using generative AI with ServiceNow Otto for Creator
 
-Use the generative AI skills available with Now Assist for Creator to help you build faster and smarter on the ServiceNow AI Platform.
+Use the generative AI skills available with ServiceNow Otto for Creator to help you build faster and smarter on the ServiceNow AI Platform.
 
-Now Assist for Creator contains generative AI skills that empower you to build more efficiently on the ServiceNow AI Platform. The skills available with Now Assist for Creator are embedded in products across the ServiceNow AI Platform, enabling you to leverage generative AI at every stage of your development process. For example, using Now Assist for Creator, you can summarize applications in ServiceNow Studio, create UI pages in UI Builder, and generate flows in Workflow Studio. The following table highlights the generative AI skills available with Now Assist for Creator and the products the skills work in.
+ServiceNow Otto for Creator contains generative AI skills that empower you to build more efficiently on the ServiceNow AI Platform. The skills available with ServiceNow Otto for Creator are embedded in applications across the ServiceNow AI Platform, enabling you to leverage generative AI at every stage of your development process. For example, using ServiceNow Otto for Creator, you can summarize applications in ServiceNow Studio, create UI pages in UI Builder, and generate flows in Workflow Studio. The following table highlights the generative AI skills available with ServiceNow Otto for Creator and the applications the skills work in.
 
-|Generative AI skill|Product|
-|-------------------|-------|
+|Generative AI skill|Application|
+|-------------------|-----------|
 |App generation|ServiceNow Studio|
 |App summary generation|ServiceNow Studio|
 |Catalog generation|Catalog Builder|
@@ -35,30 +35,11 @@ Now Assist for Creator contains generative AI skills that empower you to build m
 |RPA bot generation|RPA Hub|
 |Test generation|Automated Test Framework|
 |UI generation|UI Builder|
-|Widget generation and updation|Widget Builder|
 
--   **[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-gen-landing.md)**  
-Use the app generation skill available with Now Assist for Creator to create applications through conversation with generative AI. Describe the app you want to build, and Now Assist for Creator generates it so you can review and modify it.
--   **[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-summarize-landing.md)**  
-Use the ServiceNow® Now Assist for Creator application to use generative AI for summarizing an app. With a single button, Now Assist for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
--   **[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-execution-analysis-landing.md)**  
-Analyze flow execution details to identify errors and suggest potential fixes.
--   **[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-generation-landing.md)**  
-Use Now Assist for Creator to create a flow or subflow from a text description.
--   **[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-generation-with-images-landing.md)**  
-Create a flow or a subflow from an image by using Now Assist.
--   **[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-recommendations-landing.md)**  
-Select the next component in your flow from a list of AI-generated recommendations.
--   **[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-summarization-landing.md)**  
-Summarize what a flow or subflow does by using generative AI.
 -   **[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md)**  
 Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 -   **[Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations-landing.md)**  
 Get AI-generated placeholder activities based on an activity's name and description.
--   **[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)**  
-Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with Now Assist for Creator. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
--   **[UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-landing.md)**  
-UI generation in Now Assist for Creator uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
 
-**Parent Topic:**[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
+**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

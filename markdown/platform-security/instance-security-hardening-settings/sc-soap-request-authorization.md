@@ -72,7 +72,8 @@ Default value
 
 </td><td>
 
-false
+-   true
+-   &lt;none&gt;
 
 </td></tr><tr><td>
 
@@ -80,8 +81,8 @@ Fallback value
 
 </td><td>
 
--   &lt;none&gt;
--   &lt;none&gt;
+-   true
+-   false
 
 </td></tr><tr><td>
 

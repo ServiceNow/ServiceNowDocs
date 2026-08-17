@@ -17,7 +17,7 @@ breadcrumb: [Integrate VA with Slack, Conversational Integration with Slack, Int
 
 Enables ServiceNow® Virtual Agent to allow multiple ServiceNow instances to integrate with single Slack workspace. This integration also supports GCC deployments.
 
-The Virtual Agent integration with Slack creates a one-to-one association between the ServiceNow instance that you are installing from and the Slack workspace in which the integration runs. By default, Virtual Agent supports one-click installation that integrates one Slack workspace with one ServiceNow instance. However, by enabling this integration, Virtual Agent allows you to integrate multiple ServiceNow instances with a single Slack workspace. You can integrate multiple ServiceNow instances with a single Slack workspace by creating a bot for each of the instances on the targeted Slack workspace.
+The Virtual Agent integration with Slack creates a one-to-one association between the ServiceNow instance that you're installing from and the Slack workspace in which the integration runs. By default, Virtual Agent supports one-click installation that integrates one Slack workspace with one ServiceNow instance. However, by enabling this integration, Virtual Agent allows you to integrate multiple ServiceNow instances with a single Slack workspace. You can integrate multiple instances with a single Slack workspace by creating a bot for each of the instances on the targeted Slack workspace.
 
 -   **[Create a bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-self-config-bot-slack.md)**  
 You must create a self-configured bot in the targeted workspace in Slack to be able to integrate with the Virtual Agent.

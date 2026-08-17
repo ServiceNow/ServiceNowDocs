@@ -29,6 +29,10 @@ Upload only one font family at a time. Theme Builder does not support variable t
 
 **Note:** Only upload a font that you're licensed to use. Depending on their size, custom fonts can inadvertently adjust the amount of text on the page. Test and preview your fonts before publishing your theme to your instance.
 
+You can also watch a short video on how to upload a custom font to your theme.
+
+\[Omitted video\] Description: Upload a custom font to your theme.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.

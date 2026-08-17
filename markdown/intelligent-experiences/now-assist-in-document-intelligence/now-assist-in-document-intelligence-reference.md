@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Now Assist in Document Intelligence reference
@@ -23,8 +23,6 @@ Components are installed with the activation of Now Assist in Document Intellige
 The extraction mode determines how Now Assist in Document Intelligence processes a document task.
 -   **[Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md)**  
 The document and visual insights AI agent gathers context from user input and document orimage attachments, generates the requested information based on the content, and provides the information along with any relevant task details.
--   **[Document Intelligence tool for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-visual-intelligence-skill-kit-tool.md)**  
-Use the Document Intelligence tool to leverage extraction, question answering, and summarization capabilities for a skill created with Now Assist Skill Kit.
 -   **[Field types in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.md)**  
 The field type specifies the information that is retrieved from a document with Now Assist in Document Intelligence.
 -   **[Now Assist in Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-forms.md)**  
@@ -36,5 +34,5 @@ Now Assist in Document Intelligence uses large language models \(LLMs\) to perfo
 -   **[Languages supported by Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/languages-supported-now-assist-document-intelligence.md)**  
 Now Assist in Document Intelligence supports text in multiple languages.
 
-**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

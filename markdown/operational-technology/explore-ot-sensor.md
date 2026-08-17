@@ -16,7 +16,7 @@ The Discovery Sensor for OT provides you with enhanced scanning and query functi
 
 ## Discovery Sensor for OT overview
 
-This section provides an overview of the Discovery Sensor for OT and its integration with the Discovery Console for OT. For detailed functionality and configuration, refer to [Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md).
+This section provides an overview of the Discovery Sensor for OT and its integration with the Discovery Console for OT. For more information, see [Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md).
 
 ## Sensors on the Discovery Console for OT
 
@@ -24,5 +24,7 @@ The Appliance page displays a list of all Sensors and Collectors that are associ
 
 ## Appliances records
 
-The Discovery Sensor for OT is listed on the Appliances page separately from the Collector. If you select the Sensor name from the list, you can open that Sensor record. You can perform the same actions with the Sensor as you would with the Collector. However, Collectors aren't registered to the Console. See [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and  for more information.
+The Discovery Sensor for OT is listed on the Appliances page separately from the Collector. If you select the Sensor name from the list, you can open that Sensor record. You can perform the same actions with the Sensor as you would with the Collector. However, Collectors aren't registered to the Console. For more information, see [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and [Edit an Appliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-an-appliance.md).
+
+**Parent Topic:**[Discovery Sensor for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-sensor-landing.md)
 

@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 74
+reading_time_minutes: 71
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -21,6 +21,29 @@ The Party Management Open API is a ServiceNow® implementation of the TM Forum P
 This API is provided within the sn\_tmf\_api namespace. The calling user must have the sn\_tmf\_api.party\_integrator role. The Customer Service Base Entities \(com.snc.cs\_base\) plugin is required, particularly for all GET operations.
 
 This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. Sensitive fields like phone numbers may require special ACL permissions for update or retrieval.
+
+## v2: CTK Compliance and Structural Changes
+
+The Party Management Open API has been updated to align with TMF 632 CTK \(Core Transaction Kernel\) compliance standards. These changes improve interoperability with external telecommunications systems and clarify the structure of party and relationship data.
+
+Key changes with v2:
+
+1.  Removal of PartyOrPartyRole Object: In previous versions, a `PartyOrPartyRole` object at the root level was used to determine whether a request would create an Account, Consumer, or Contact. This object is no longer supported and has been removed. Use the `@type` field instead.
+2.  Introduction of @type at Root Level: The `@type` field is now mandatory at the root level of all requests to POST endpoints. This field explicitly declares the type of party object being created:
+    -   `@type: "Account"`: Creates or updates an Account record.
+    -   `@type: "Consumer"`: Creates or updates a Consumer record.
+    -   `@type: "Contact"`: Creates or updates a Contact record.
+
+The v1 API endpoints continue to support the legacy `PartyOrPartyRole` structure. For new integrations or when upgrading existing integrations, use the v2 endpoints with the updated `@type` structure. Both versions are available during the transition period; however, v1 is deprecated and will be sunset in a future release.
+
+## Migration Guide
+
+If you are upgrading from a previous version using `PartyOrPartyRole`:
+
+1.  **Remove** any `PartyOrPartyRole` object from your request payload
+2.  **Add** the `@type` field at the root level with the appropriate value \(`Account`, `Consumer`, or `Contact`\)
+3.  **Update** the `relatedParty` object to include the mandatory `@type` field \(set to `"User"` for Consumer creation\)
+4.  **Retain** the `role` field in `relatedParty` with value `"User"`
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -345,6 +368,20 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium
 
 </td><td>
@@ -492,6 +529,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 familyName
 
 </td><td>
@@ -616,45 +661,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of party role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -664,65 +670,19 @@ List of parties or party roles related to this party.Data type: Array of Objects
 ```
 "relatedParty": [
  {
-  "role": "String",
-  "partyOrPartyRole": {Object}
+  "@type": "User",
+  "role": "String"
  }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Represents information about the related party and the role it plays in the context of the record. For example, if the role is `Company`, then **partyOrPartyRole.id** contains the sys\_id of the Company \[core\_company\] record, and **partyOrPartyRole.name** contains the company’s name. This structure ensures that both the party reference and its role are explicitly defined and easily identifiable.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "id": "String",
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party.-   Possible value for `user`:
-    -   Company
-    -   Department
--   Possible value for `customer`: Account
--   Possible value for `consumer`: User
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -730,7 +690,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -778,6 +738,7 @@ Response body for a Individual Contact party.
 [
 {
    "id": "34d92aaa11f43110f877366201dea67b",
+   "externalId": "LOC-SF-HQ-2026",
    "href": "api/sn_tmf_api/party/individual/34d92aaa11f43110f877366201dea67b",
    "name": "carlos.star",
    "givenName": "Carlos",
@@ -870,28 +831,15 @@ Response body for a Individual Contact party.
    "externalReference": [],
    "relatedParty": [
      {
-       "role": "Company",
-       "partyOrPartyRole": {
-         "id": "9e2fd2ee11b43110f877366201dea674",
-         "name": "Startech svcs",
-         "@type": "Organization"
-       }
+       "@type": "Company",
+       "role": "Company"
      },
      {
-       "role": "Department",
-       "partyOrPartyRole": {
-         "id": "",
-         "name": "",
-         "@type": "Organization"
-       }
+       "role": "Department"
      }
    ],
    "status": "Active",
-   "@type": "Individual",
-   "partyOrPartyRole": {
-     "name": "Contact",
-     "@type": "Party"
-   }
+   "@type": "Individual"
  }
 ]
 ```
@@ -994,20 +942,12 @@ Response body for a Individual Consumer party.
    "externalReference": [],
    "relatedParty": [
      {
-       "role": "User",
-       "partyOrPartyRole": {
-         "id": "",
-         "name": "",
-         "@type": "Individual"
-       }
+       "@type": "User",
+       "role": "User"
      }
    ],
    "status": "Active",
-   "@type": "Individual",
-   "partyOrPartyRole": {
-     "name": "Consumer",
-     "@type": "Party"
-   }
+   "@type": "User"
  }
 ]
 ```
@@ -1133,6 +1073,20 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium
 
 </td><td>
@@ -1280,6 +1234,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 familyName
 
 </td><td>
@@ -1404,45 +1366,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of party role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -1452,65 +1375,19 @@ List of parties or party roles related to this party.Data type: Array of Objects
 ```
 "relatedParty": [
  {
-  "role": "String",
-  "partyOrPartyRole": {Object}
+  "@type": "User",
+  "role": "String"
  }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Represents information about the related party and the role it plays in the context of the record. For example, if the role is `Company`, then **partyOrPartyRole.id** contains the sys\_id of the Company \[core\_company\] record, and **partyOrPartyRole.name** contains the company’s name. This structure ensures that both the party reference and its role are explicitly defined and easily identifiable.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "id": "String",
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party.-   Possible value for `user`:
-    -   Company
-    -   Department
--   Possible value for `customer`: Account
--   Possible value for `consumer`: User
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -1518,7 +1395,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -1565,6 +1442,7 @@ Response body.
 ```
 {
   "id": "12345",
+  "externalId": "LOC-SF-HQ-2026",
   "givenName": "JohnTest6",
   "middleName": "A.",
   "familyName": "Doe",
@@ -1661,24 +1539,16 @@ Response body.
   ],
   "relatedParty": [
     {
-      "role": "User",
-      "partyOrPartyRole": {
-        "id": "36901a6381116a50f8776cfcbee15f3c",
-        "name": "Hr",
-        "@type": "Individual"
-      }
+      "@type": "User",
+      "role": "User"
     }
   ],
   "status": "active",
-  "@type": "Individual",
-  "partyOrPartyRole": {
-    "role": "Consumer",
-    "@type":"Party"
-  }
+  "@type": "User"
 }
 ```
 
-## Party Management – GET/api/ sn\_tmf\_api/v1/party/organization/\{id\}
+## Party Management – GET /api/ sn\_tmf\_api/v1/party/organization/\{id\}
 
 Retrieves a specified record from the Account \[customer\_account\] tables. You can filter results by specific fields or IDs.
 
@@ -1815,8 +1685,6 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-### Response body parameters \(JSON or XML\)
-
 <table id="table_edn_qnn_3hc"><thead><tr><th>
 
 Name
@@ -1831,7 +1699,13 @@ Description
 
 </td><td>
 
-This value is always `Organization`.Data type: String
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1983,6 +1857,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 externalReference
 
 </td><td>
@@ -2110,53 +1992,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in the table. For example, `Company` or `Account`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Account \[customer\_account\] table, then **partyOrPartyRole.role** is set to `Account`. Likewise, if the sys\_id belongs to the Company \[core\_company\] table, then **partyOrPartyRole.role** is set to `Company`.
-
-Data type: Object
-
-```
-"partyOrPartyRole": {
-  "@type": "String",
-  "name":"String",
-  "role":"String",
-}
-```
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.@type
-
-</td><td>
-
-This value is always `party`.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.name
-
-</td><td>
-
-Defines the type of the account or company.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.role
-
-</td><td>
-
-Type of the role.Possible value:
-
--   Account
--   Company
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -2164,9 +1999,9 @@ relatedParty
 List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
-"relatedParty": [ 
- { 
-  "partyOrPartyRole": {Object},
+"relatedParty": [
+ {
+  "@type": "User",
   "role": "String"
  }
 ]
@@ -2174,50 +2009,11 @@ List of parties or party roles related to this party.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Roles related to this party.Data type: Array of Objects
-
-```
-"partyOrPartyRole": [ 
- { 
-  "@type": "String", 
-  "id": "String",
-  "name": "String",
- }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Value is always `Organization`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party. Possible value:
-
--   Contact
--   Other
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -2225,10 +2021,12 @@ relatedParty.role
 
 </td><td>
 
-Role played by the related party or party role in the context of the specific entity it's linked to. Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
--   Contact
--   Other
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
 
 Data type: String
 
@@ -2272,6 +2070,7 @@ Response body.
    "id": "2154376",
    "name": "Advances Super Computing",
    "href": "api/sn_tmf_api/party/organization/2154376",
+   "externalId": "LOC-SF-HQ-2026",
    "legalName": "Hello",
    "tradingName": "World",
    "contactMedium": [
@@ -2404,28 +2203,16 @@ Response body.
    ],
    "relatedParty": [
      {
-       "role": "primary",
-       "partyOrPartyRole": {
-         "@type": "Organization",
-         "id": "b88d14843bc02300bfe04d72f3efc4cd",
-         "name": "Amy Chen"
-       }
+       "type": "User",
+       "role": "primary"
      },
      {
-       "role": "other",
-       "partyOrPartyRole": {
-         "@type": "Organization",
-         "id": "016b7a36ff14a610f8dfffffffffffcb",
-         "name": "Kutty"
-       }
+       "type": "User",
+       "role": "other"
      },
      {
-       "role": "other",
-       "partyOrPartyRole": {
-         "@type": "Organization",
-         "id": "e8bb9d1aff94a210f8dfffffffffff1d",
-         "name": "World"
-       }
+       "type": "User",
+       "role": "other"
      }
    ],
    "organizationChildRelationship": [
@@ -2467,12 +2254,7 @@ Response body.
      }
    },
    "status": "inActive",
-   "@type": "Organization",
-   "partyOrPartyRole": {
-     "name": "customer_partner_vendor_manufacturer",
-     "role": "Account",
-     "@type": "Party"
-   }
+   "@type": "User"
  }
 ```
 
@@ -2573,6 +2355,20 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
 
 contactMedium
 
@@ -2835,96 +2631,28 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of the role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
 
-List of parties and party roles related to this party.Data type: Array of Objects
+List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
 "relatedParty": [
-  {
-    "role": "String",
-    "partyOrPartyRole": {Object}
-  }
+ {
+  "@type": "User",
+  "role": "String"
+ }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole.@type
+relatedParty.@type
 
 </td><td>
 
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-ID for the linked entity in the Party Management or Party Role Management system.
-
--   Possible value for user:
-    -   `Company`
-    -   `Department`
--   Possible value for customer: `Account`
--   Possible value for consumer: `User`
-
- Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -2932,7 +2660,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -2998,11 +2726,374 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-|Name|Description|
-|----|-----------|
-|None||
+<table id="table_edn_qnn_3hc"><thead><tr><th>
 
-### cURL request
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium
+
+</td><td>
+
+List of means for contacting the party. A contact medium represents the way you communicate with or reach a party like an individual or organization. For example, a channel or method of contact associated with that party.Data type: Array of Objects
+
+```
+"contactMedium": [
+ {
+  "@type": "String",
+  "city": "String",
+  "country": "String",
+  "emailAddress": "String",
+  "locationId": "String",
+  "mediumType": "String",
+  "phoneNumber": "String",
+  "postCode": "String",
+  "preferred": "Boolean",
+  "stateOrProvince": "String",
+  "street1": "String",
+  "street2": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+contactMedium.@type
+
+</td><td>
+
+Type of contact medium. Type of contacting party. Indicates the specific schema or subclass type of the object.Possible values:
+
+-   BusinessPhoneContactMedium: Business phone number
+-   EmailContactMedium: Email address
+-   FaxPhoneContactMedium: Fax number
+-   GeographicAddressContactMedium: Physical address \(street, city, state, postal code\)
+-   HomePhoneContactMedium: Home phone number
+-   MobilePhoneContactMedium: Mobile number
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.city
+
+</td><td>
+
+City of the organization.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.country
+
+</td><td>
+
+Country of the organization.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.emailAdress
+
+</td><td>
+
+Email address of the organization contact.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.locationId
+
+</td><td>
+
+Sys\_id of the location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   businessPhone
+-   email
+-   faxPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.phoneNumber
+
+</td><td>
+
+Phone number of the organization contact.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.postCode
+
+</td><td>
+
+Postcode of the organization.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.preferred
+
+</td><td>
+
+This value is always `false`.Data type: Boolean
+
+</td></tr><tr><td>
+
+contactMedium.stateOrProvince
+
+</td><td>
+
+Indicates whether the location is from a state or province.Possible values:
+
+-   state
+-   province
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.street1
+
+</td><td>
+
+Describes the street.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.street2
+
+</td><td>
+
+Complementary street description.Data type: String
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
+externalReference
+
+</td><td>
+
+List of identifiers of the party in an external system.Data type: Array of Objects
+
+```
+"externalReference": [ 
+ { 
+  "externalIdentifierType": "String", 
+  "name": "String" 
+ }
+]
+```
+
+</td></tr><tr><td>
+
+externalReference.externalIdentifierType
+
+</td><td>
+
+Type of entity within the external system.Data type: String
+
+</td></tr><tr><td>
+
+externalReference.name
+
+</td><td>
+
+Human-readable name of the external system or reference.Data type: String
+
+</td></tr><tr><td>
+
+href
+
+</td><td>
+
+Relative link to the account record \(URI\).Table: Account \[customer\_account\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+id
+
+</td><td>
+
+Sys\_id of the external entity account record.Table: Account \[customer\_account\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+legalName
+
+</td><td>
+
+Legal name of the organization.Data type: String
+
+</td></tr><tr><td>
+
+name
+
+</td><td>
+
+Name of the organization.Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics
+
+</td><td>
+
+List of characteristics that a party can take on. Data type: Array of Objects
+
+```
+"partyCharacteristics": [ 
+ { 
+  "@type": "String" 
+  "name": "String",   
+  "value": "String", 
+  "valueType": "String"
+ } 
+]
+```
+
+</td></tr><tr><td>
+
+partyCharacteristics.@type
+
+</td><td>
+
+When subclassing, **@type** defines the subclass extensible name.Possible value:
+
+-   BooleanCharacteristic
+-   IntegerCharacteristic
+-   StringArrayCharacteristic
+-   StringCharacteristic
+
+Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics.name
+
+</td><td>
+
+Name of the party characteristic.Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics.value
+
+</td><td>
+
+Value of the party characteristic.Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics.valueType
+
+</td><td>
+
+Data type of the characteristic's value.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty
+
+</td><td>
+
+List of parties or party roles related to this party.Data type: Array of Objects
+
+```
+"relatedParty": [
+ {
+  "@type": "User",
+  "role": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+relatedParty.@type
+
+</td><td>
+
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.role
+
+</td><td>
+
+Functional, business role that the related party plays in the context of the current entity.Possible values:
+
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
+
+Data type: String
+
+</td></tr><tr><td>
+
+status
+
+</td><td>
+
+Flag that indicates the status of organization.Valid values:
+
+-   active: Organization is active.
+-   inactive: Organization is inactive.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+tradingName
+
+</td><td>
+
+Name that the organization trades under.Data type: String
+
+</td></tr></tbody>
+</table>### cURL request
 
 This returns all organization records related to the enterprise.
 
@@ -3021,6 +3112,7 @@ Response body.
     "id": "0bd6717c184da610f87765359bc696d3",
     "name": "SERVICENOW 144",
     "href": "api/sn_tmf_api/party/organization0bd6717c184da610f87765359bc696d3",
+    "externalId": "LOC-SF-HQ-2026",
     "legalName": "",
     "tradingName": "",
     "contactMedium": [
@@ -3168,17 +3260,12 @@ Response body.
         "@type": "Organization"
       }
     },
-    "@type": "Organization",
-    "partyOrPartyRole": {
-      "name": "customer_partner",
-      "role": "Account",
-      "@type": "Party"
-    }
+    "@type": "User"
   }
 ]
 ```
 
-## Party Management – PATCH/api/sn\_tmf\_api/v1/party/individual/\{id\}
+## Party Management – PATCH /api/sn\_tmf\_api/v1/party/individual/\{id\}
 
 Updates an existing individual party record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] table without replacing the entire resource.
 
@@ -3230,6 +3317,20 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
 
 contactMedium
 
@@ -3492,96 +3593,28 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of the role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
 
-List of parties and party roles related to this party.Data type: Array of Objects
+List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
 "relatedParty": [
-  {
-    "role": "String",
-    "partyOrPartyRole": {Object}
-  }
+ {
+  "@type": "User",
+  "role": "String"
+ }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole.@type
+relatedParty.@type
 
 </td><td>
 
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-ID for the linked entity in the Party Management or Party Role Management system.
-
--   Possible value for user:
-    -   `Company`
-    -   `Department`
--   Possible value for customer: `Account`
--   Possible value for consumer: `User`
-
- Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -3589,7 +3622,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -3664,6 +3697,20 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
 
 contactMedium
 
@@ -3812,6 +3859,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 familyName
 
 </td><td>
@@ -3936,45 +3991,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of party role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -3984,65 +4000,19 @@ List of parties or party roles related to this party.Data type: Array of Objects
 ```
 "relatedParty": [
  {
-  "role": "String",
-  "partyOrPartyRole": {Object}
+  "@type": "User",
+  "role": "String"
  }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Represents information about the related party and the role it plays in the context of the record. For example, if the role is `Company`, then **partyOrPartyRole.id** contains the sys\_id of the Company \[core\_company\] record, and **partyOrPartyRole.name** contains the company’s name. This structure ensures that both the party reference and its role are explicitly defined and easily identifiable.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "id": "String",
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party.-   Possible value for `user`:
-    -   Company
-    -   Department
--   Possible value for `customer`: Account
--   Possible value for `consumer`: User
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -4050,7 +4020,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -4183,28 +4153,16 @@ curl "http://localhost:8080/api/sn_tmf_api/v1/party/Individual/12345" \
   ],
   \"relatedParty\": [
     {
-      \"role\": \"Company\",
-      \"partyOrPartyRole\": {
-        \"id\": \"86c1f3193790200044e0bfc8bcbe5d95\",
-        \"name\": \"Acme Corporation\",
-        \"@type\": \"Organization\"
-      }
+      \"@type\": \"User\",
+      \"role\": \"Company\"
     },
     {
-      \"role\": \"Department\",
-      \"partyOrPartyRole\": {
-        \"id\": \"c3fdd27a7b9822105e0d5494548cb6b0\",
-        \"name\": \"Acme Corporation\",
-        \"@type\": \"Organization\"
-      }
+      \"@type\": \"User\"
+      \"role\": \"Department\"
     }
   ],
   \"status\": \"active\",
-  \"@type\": \"Individual\",
-  \"partyOrPartyRole\": {
-    \"role\": \"Consumer\",
-    \"@type\":\"Party\"
-  }
+  \"@type\": \"User\"
 }" \
 ```
 
@@ -4315,20 +4273,12 @@ Response body.
   ],
   "relatedParty": [
     {
-      "role": "User",
-      "partyOrPartyRole": {
-        "id": "c456def03710200044e0bfc8bcbe5d99",
-        "name": "Global Corp",
-        "@type": "Individual"
-      }
+      "@type": "User",
+      "role": "User"
     }
   ],
   "status": "active",
-  "@type": "Individual",
-  "partyOrPartyRole": {
-    "role": "Consumer",
-    "@type": "Party"
-  },
+  "@type": "User",
    "warning": [
     "relatedParty[0] is incorrect. User does not exist"
   ]
@@ -4382,7 +4332,13 @@ Description
 
 </td><td>
 
-This value is always `Organization`.Data type: String
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -4682,53 +4638,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in the table. For example, `Company` or `Account`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Account \[customer\_account\] table, then **partyOrPartyRole.role** is set to `Account`. Likewise, if the sys\_id belongs to the Company \[core\_company\] table, then **partyOrPartyRole.role** is set to `Company`.
-
-Data type: Object
-
-```
-"partyOrPartyRole": {
-  "@type": "String",
-  "name":"String",
-  "role":"String",
-}
-```
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.@type
-
-</td><td>
-
-This value is always `party`.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.name
-
-</td><td>
-
-Defines the type of the account or company.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.role
-
-</td><td>
-
-Type of the role.Possible value:
-
--   Account
--   Company
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -4736,9 +4645,9 @@ relatedParty
 List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
-"relatedParty": [ 
- { 
-  "partyOrPartyRole": {Object},
+"relatedParty": [
+ {
+  "@type": "User",
   "role": "String"
  }
 ]
@@ -4746,50 +4655,11 @@ List of parties or party roles related to this party.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Roles related to this party.Data type: Array of Objects
-
-```
-"partyOrPartyRole": [ 
- { 
-  "@type": "String", 
-  "id": "String",
-  "name": "String",
- }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Value is always `Organization`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party. Possible value:
-
--   Contact
--   Other
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -4797,10 +4667,12 @@ relatedParty.role
 
 </td><td>
 
-Role played by the related party or party role in the context of the specific entity it's linked to. Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
--   Contact
--   Other
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
 
 Data type: String
 
@@ -4875,7 +4747,13 @@ Description
 
 </td><td>
 
-This value is always `Organization`.Data type: String
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -5027,6 +4905,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 externalReference
 
 </td><td>
@@ -5154,53 +5040,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in the table. For example, `Company` or `Account`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Account \[customer\_account\] table, then **partyOrPartyRole.role** is set to `Account`. Likewise, if the sys\_id belongs to the Company \[core\_company\] table, then **partyOrPartyRole.role** is set to `Company`.
-
-Data type: Object
-
-```
-"partyOrPartyRole": {
-  "@type": "String",
-  "name":"String",
-  "role":"String",
-}
-```
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.@type
-
-</td><td>
-
-This value is always `party`.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.name
-
-</td><td>
-
-Defines the type of the account or company.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.role
-
-</td><td>
-
-Type of the role.Possible value:
-
--   Account
--   Company
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -5208,9 +5047,9 @@ relatedParty
 List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
-"relatedParty": [ 
- { 
-  "partyOrPartyRole": {Object},
+"relatedParty": [
+ {
+  "@type": "User",
   "role": "String"
  }
 ]
@@ -5218,50 +5057,11 @@ List of parties or party roles related to this party.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Roles related to this party.Data type: Array of Objects
-
-```
-"partyOrPartyRole": [ 
- { 
-  "@type": "String", 
-  "id": "String",
-  "name": "String",
- }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Value is always `Organization`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party. Possible value:
-
--   Contact
--   Other
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -5269,10 +5069,12 @@ relatedParty.role
 
 </td><td>
 
-Role played by the related party or party role in the context of the specific entity it's linked to. Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
--   Contact
--   Other
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
 
 Data type: String
 
@@ -5458,20 +5260,11 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   ],
   \"relatedParty\": [
     {
-      \"role\": \"primaryContact\",
-      \"partyOrPartyRole\": {
-        \"id\": \"eaf68911c35420105252716b7d40ddde\",
-        \"name\": \"John Doe\",
-        \"@type\": \"Individual\"
-      }
+      \"@type\": \"User\",
+      \"role\": \"primaryContact\"
     },
     {
-      \"role\": \"other\",
-      \"partyOrPartyRole\": {
-        \"id\": \"776a22ea11f43110f877366201dea6b7\",
-        \"name\": \"Mary Star\",
-        \"@type\": \"Individual\"
-      }
+      \"role\": \"other\" 
     }
   ],
   \"organizationChildRelationship\": [
@@ -5494,12 +5287,7 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
       }
     },
   \"status\": \"active\",
-  \"@type\": \"Organization\",
-  \"partyOrPartyRole\": {
-    \"@type\":\"Party\",
-    \"name\":\"Customer\",
-    \"role\": \"Account\" 
-  }
+  \"@type\": \"User\"
 }" \
 ```
 
@@ -5656,20 +5444,11 @@ Response body.
   ],
   "relatedParty": [
     {
+      "@type": "User",
       "role": "primaryContact",
-      "partyOrPartyRole": {
-        "id": "eaf68911c35420105252716b7d40ddde",
-        "name": "John Doe",
-        "@type": "Individual"
-      }
     },
     {
-      "role": "other",
-      "partyOrPartyRole": {
-        "id": "776a22ea11f43110f877366201dea6b7",
-        "name": "Mary Star",
-        "@type": "Individual"
-      }
+      "role": "other"
     }
   ],
   "organizationChildRelationship": [
@@ -5692,12 +5471,7 @@ Response body.
       }
     },
   "status": "active",
-  "@type": "Organization",
-  "partyOrPartyRole": {
-    "@type":"Party",
-    "name":"Customer",
-    "role": "Account" 
-  }
+  "@type": "User",
 }
 ```
 
@@ -5743,6 +5517,20 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
 
 contactMedium
 
@@ -6005,96 +5793,28 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of the role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
 
-List of parties and party roles related to this party.Data type: Array of Objects
+List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
 "relatedParty": [
-  {
-    "role": "String",
-    "partyOrPartyRole": {Object}
-  }
+ {
+  "@type": "User",
+  "role": "String"
+ }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole.@type
+relatedParty.@type
 
 </td><td>
 
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-ID for the linked entity in the Party Management or Party Role Management system.
-
--   Possible value for user:
-    -   `Company`
-    -   `Department`
--   Possible value for customer: `Account`
--   Possible value for consumer: `User`
-
- Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -6102,7 +5822,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -6177,6 +5897,20 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
 
 contactMedium
 
@@ -6325,6 +6059,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 familyName
 
 </td><td>
@@ -6449,45 +6191,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in table. For example, `User`, `Consumer`, `Customer Contact`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Consumer \[csm\_consumer\] table, then **partyOrPartyRole.role** is set to `Consumer`. Likewise, if the sys\_id belongs to the Contact \[customer\_contact\] table, then **partyOrPartyRole.role** is set to `Contact`.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "role":"String"
-}
-```
-
-</td></tr><tr><td>
-
-partyOrPartyRole.@type
-
-</td><td>
-
-This value is always `Party`.Data type: String
-
-</td></tr><tr><td>
-
-partyOrPartyRole.role
-
-</td><td>
-
-Type of party role. Possible values:
-
--   Consumer
--   Contact
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -6497,65 +6200,19 @@ List of parties or party roles related to this party.Data type: Array of Objects
 ```
 "relatedParty": [
  {
-  "role": "String",
-  "partyOrPartyRole": {Object}
+  "@type": "User",
+  "role": "String"
  }
 ]
 ```
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Represents information about the related party and the role it plays in the context of the record. For example, if the role is `Company`, then **partyOrPartyRole.id** contains the sys\_id of the Company \[core\_company\] record, and **partyOrPartyRole.name** contains the company’s name. This structure ensures that both the party reference and its role are explicitly defined and easily identifiable.
-
-Data type: Object
-
-```
-"partyOrPartyRole":
-{
-  "@type": "String",
-  "id": "String",
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Possible value for user:
-
--   Organization
--   Individual
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party.-   Possible value for `user`:
-    -   Company
-    -   Department
--   Possible value for `customer`: Account
--   Possible value for `consumer`: User
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -6563,7 +6220,7 @@ relatedParty.role
 
 </td><td>
 
-Business role that the related party plays in the context of the current entity.Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
 -   Company \(if related party is User\)
 -   Department \(if related party is User\)
@@ -6709,20 +6366,12 @@ curl "http://instance.servicenow.com/api/sn_tmf_api/v1/party/individual" \
     ],
     \"relatedParty\": [
       {
-        \"role\": \"User\",
-        \"partyOrPartyRole\": {
-          \"id\": \"c456def03710200044e0bfc8bcbe5d99\",
-          \"name\": \"Global Corp\",
-          \"@type\": \"Individual\"
-        }
+        \"@type\": \"User\"
+        \"role\": \"User\"
       }
     ],
     \"status\": \"active\",
-    \"@type\": \"Individual\",
-    \"partyOrPartyRole\": {
-      \"role\": \"Consumer\",
-      \"@type\": \"Party\"
-    }
+    \"@type\": \"User\",
   }" \
 
 ```
@@ -6732,7 +6381,7 @@ Response body.
 ```
 {
   "id": "83e588a17b6062105e0d5494548cb65d",
-"href": "api/sn_tmf_api/party/individual/83e588a17b6062105e0d5494548cb65d",
+  "href": "api/sn_tmf_api/party/individual/83e588a17b6062105e0d5494548cb65d",
   "name": "Jane Smith",
   "givenName": "Jane",
   "middleName": "B.",
@@ -6834,22 +6483,13 @@ Response body.
       "@type": "string"
     }
   ],
-  "relatedParty": [
-    {
-      "role": "User",
-      "partyOrPartyRole": {
-        "id": "c456def03710200044e0bfc8bcbe5d99",
-        "name": "Global Corp",
-        "@type": "Individual"
-      }
-    }
-  ],
+  "relatedParty": {
+    "@type": "User",
+    "role": "User"
+  }
+},
   "status": "active",
-  "@type": "Individual",
-  "partyOrPartyRole": {
-    "role": "Consumer",
-    "@type": "Party"
-  },
+  "@type": "User",
    "warning": [
     "relatedParty[0] is incorrect. User does not exist"
   ]
@@ -6903,7 +6543,13 @@ Description
 
 </td><td>
 
-This value is always `Organization`.Data type: String
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -7203,53 +6849,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in the table. For example, `Company` or `Account`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Account \[customer\_account\] table, then **partyOrPartyRole.role** is set to `Account`. Likewise, if the sys\_id belongs to the Company \[core\_company\] table, then **partyOrPartyRole.role** is set to `Company`.
-
-Data type: Object
-
-```
-"partyOrPartyRole": {
-  "@type": "String",
-  "name":"String",
-  "role":"String",
-}
-```
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.@type
-
-</td><td>
-
-This value is always `party`.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.name
-
-</td><td>
-
-Defines the type of the account or company.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.role
-
-</td><td>
-
-Type of the role.Possible value:
-
--   Account
--   Company
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -7257,9 +6856,9 @@ relatedParty
 List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
-"relatedParty": [ 
- { 
-  "partyOrPartyRole": {Object},
+"relatedParty": [
+ {
+  "@type": "User",
   "role": "String"
  }
 ]
@@ -7267,50 +6866,11 @@ List of parties or party roles related to this party.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Roles related to this party.Data type: Array of Objects
-
-```
-"partyOrPartyRole": [ 
- { 
-  "@type": "String", 
-  "id": "String",
-  "name": "String",
- }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Value is always `Organization`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party. Possible value:
-
--   Contact
--   Other
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -7318,10 +6878,12 @@ relatedParty.role
 
 </td><td>
 
-Role played by the related party or party role in the context of the specific entity it's linked to. Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
--   Contact
--   Other
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
 
 Data type: String
 
@@ -7398,7 +6960,13 @@ Description
 
 </td><td>
 
-This value is always `Organization`.Data type: String
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -7550,6 +7118,14 @@ Complementary street description.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 externalReference
 
 </td><td>
@@ -7677,53 +7253,6 @@ Data type of the characteristic's value.Data type: String
 
 </td></tr><tr><td>
 
-partyOrPartyRole
-
-</td><td>
-
-Roles related to this party are defined where the party is created in the table. For example, `Company` or `Account`.**partyOrPartyRole** indicates which type of record is retrieved in the operation. If the provided sys\_id belongs to the Account \[customer\_account\] table, then **partyOrPartyRole.role** is set to `Account`. Likewise, if the sys\_id belongs to the Company \[core\_company\] table, then **partyOrPartyRole.role** is set to `Company`.
-
-Data type: Object
-
-```
-"partyOrPartyRole": {
-  "@type": "String",
-  "name":"String",
-  "role":"String",
-}
-```
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.@type
-
-</td><td>
-
-This value is always `party`.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.name
-
-</td><td>
-
-Defines the type of the account or company.Data type: String
-
-</td></tr><tr><td>
-
-PartyOrPartyRole.role
-
-</td><td>
-
-Type of the role.Possible value:
-
--   Account
--   Company
-
-Data type: String
-
-</td></tr><tr><td>
-
 relatedParty
 
 </td><td>
@@ -7731,9 +7260,9 @@ relatedParty
 List of parties or party roles related to this party.Data type: Array of Objects
 
 ```
-"relatedParty": [ 
- { 
-  "partyOrPartyRole": {Object},
+"relatedParty": [
+ {
+  "@type": "User",
   "role": "String"
  }
 ]
@@ -7741,50 +7270,11 @@ List of parties or party roles related to this party.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.partyOrPartyRole
+relatedParty.@type
 
 </td><td>
 
-Roles related to this party.Data type: Array of Objects
-
-```
-"partyOrPartyRole": [ 
- { 
-  "@type": "String", 
-  "id": "String",
-  "name": "String",
- }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.@type
-
-</td><td>
-
-Type of the related party. Value is always `Organization`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.id
-
-</td><td>
-
-Sys\_id of the related party. Possible value:
-
--   Contact
--   Other
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.partyOrPartyRole.name
-
-</td><td>
-
-Name of the related party.Data type: String
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
 
 </td></tr><tr><td>
 
@@ -7792,10 +7282,12 @@ relatedParty.role
 
 </td><td>
 
-Role played by the related party or party role in the context of the specific entity it's linked to. Possible values:
+Functional, business role that the related party plays in the context of the current entity.Possible values:
 
--   Contact
--   Other
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
 
 Data type: String
 
@@ -7981,20 +7473,11 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   ],
   "relatedParty": [
     {
-      "role": "primaryContact",
-      "partyOrPartyRole": {
-        "id": "eaf68911c35420105252716b7d40ddde",
-        "name": "John Doe",
-        "@type": "Individual"
-      }
+      "@type": "User",
+      "role": "primaryContact"
     },
     {
-      "role": "other",
-      "partyOrPartyRole": {
-        "id": "776a22ea11f43110f877366201dea6b7",
-        "name": "Mary Star",
-        "@type": "Individual"
-      }
+      "role": "other"
     }
   ],
   "organizationChildRelationship": [
@@ -8016,12 +7499,7 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
     }
   },
   "status": "active",
-  "@type": "Organization",
-  "partyOrPartyRole": {
-    "@type": "Party",
-    "name": "Customer",
-    "role": "Account"
-  }
+  "@type": "Organization"
 }'
 ```
 
@@ -8180,20 +7658,11 @@ Response body.
   ],
   "relatedParty": [
     {
-      "role": "primaryContact",
-      "partyOrPartyRole": {
-        "id": "eaf68911c35420105252716b7d40ddde",
-        "name": "John Doe",
-        "@type": "Individual"
-      }
+      "@type": "User",
+      "role": "primaryContact"
     },
     {
-      "role": "other",
-      "partyOrPartyRole": {
-        "id": "776a22ea11f43110f877366201dea6b7",
-        "name": "Mary Star",
-        "@type": "Individual"
-      }
+      "role": "other"
     }
   ],
   "organizationChildRelationship": [
@@ -8215,12 +7684,7 @@ Response body.
     }
   },
   "status": "active",
-  "@type": "Organization",
-  "partyOrPartyRole": {
-    "@type": "Party",
-    "name": "Customer",
-    "role": "Account"
-  },
+  "@type": "User",
   "createdDate": "2025-06-25T14:32:18.000Z",
   "lastModifiedDate": "2025-06-25T14:32:18.000Z"
 }

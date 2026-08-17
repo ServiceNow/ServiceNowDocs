@@ -30,7 +30,7 @@ Use case\(s\)
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
+[Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
 
 </td><td>
 

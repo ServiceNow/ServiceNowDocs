@@ -7,8 +7,8 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-11"
 reading_time_minutes: 2
-keywords: [AI summarization, email interactions, ServiceNow Otto]
-breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
+keywords: [AI summarization, email interactions]
+breadcrumb: [Email Interaction, Email channel, Configure Omnichannel, Configure, Customer Service Management]
 ---
 
 # AI summarization of email interactions
@@ -19,9 +19,9 @@ Email Interaction uses AI to generate summaries of email threads, reducing the t
 
 ## AI summarization capabilities
 
-AI summarization for email interactions uses ServiceNow Otto generative AI capabilities to analyze email conversation threads, work notes, and comments, and generate summaries. This helps agents quickly grasp the essential information from lengthy email exchanges, reducing the time needed to understand customer issues and responding more efficiently.
+AI summarization for email interactions uses ServiceNow Otto generative AI capabilities to analyze email conversation threads, work notes, and comments, and generate summaries. This helps agents quickly grasp the essential information from lengthy email exchanges, reducing the time needed to understand customer issues and respond more efficiently.
 
-The AI summarization feature processes email content, identifies key topics and action items, then presents this information in a structured format that agents can review briefly.
+The AI summarization feature processes email content, identifies key topics and action items, and presents this information in a structured format that agents can review quickly.
 
 ## How summaries are generated
 
@@ -33,9 +33,9 @@ When an agent is working on an email interaction and needs an on-demand summary,
 
 ## Summary storage and refresh
 
-Summaries are generated on demand and aren't stored on the interaction record. Each time an agent selects **Summarize**, the system generates a new summary based on the current email thread.
+Summaries are generated on demand and are not stored on the interaction record. Each time an agent selects **Summarize**, the system generates a new summary based on the current email thread.
 
-A refresh option is available on the **Interaction Summary** card when new work notes are added after a summary has been generated. The refresh option for emails is not yet available.
+A refresh option is available on the **Interaction Summary** card when new work notes are added after a summary has been generated. The refresh option for emails is not available.
 
 ## Summary components
 

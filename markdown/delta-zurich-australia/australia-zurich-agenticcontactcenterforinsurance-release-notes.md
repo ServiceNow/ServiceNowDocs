@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agenticcontactcenterforinsurance-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -231,7 +231,7 @@ Australia
 
 </td><td>
 
-This application requires Now Assist for Financial Services Operations \(FSO\). For activation and configuration details, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations-rn&family=australia&ft:locale=en-US).
+This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations-rn&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Browser requirements

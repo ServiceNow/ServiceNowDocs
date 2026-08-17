@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Explore the Discovery Console for Operational Technology \(OT\)
@@ -18,7 +18,7 @@ The Discovery Console for OT provides you with enhanced features to discover you
 
 The Discovery Console for OT provides complete operational technology visibility across your entire OT environment. This awareness starts at the Human Machine Interface \(HMI Purdue Reference Model Levels 2 and 3\) and goes down to the field devices \(Level 0\) through the Discovery Console for OT Network and Sensors. From the Discovery Console for OT you can enable and configure device management capabilities. The Discovery Console for OT and Discovery Sensor for OT work together to create a comprehensive device inventory that you can monitor and manage from a single interface.
 
-\[Omitted image "updated-purdue.png"\] Alt text: Purdue levels
+\[Omitted image "updated-purdue.png"\] Alt text: Purdue levels with OT Discovery components
 
 ## Discovery Console for OT uses and benefits
 
@@ -30,7 +30,7 @@ Some of the uses and benefits of the Discovery Console for OT are as follows.
     -   You can manage and monitor several Discovery Sensor for OT and OT Discovery Collector components.
 -   Benefits
     -   Acts as a single source of truth for all OT Devices discovered in the Sites.
-    -   The Console manages OT assets and provides visibility to OT operators.
+    -   The Console manages OT assets and provides visibility to OT operators.\\
 
 ## Accessing the Discovery Console for OT
 
@@ -46,4 +46,6 @@ Access to the Discovery Console for OT requires these steps:
     **Note:** It's recommended that you install the components in this order: Console, then Sensor, and then Collector.
 
 5.  The Console installer packages must be installed on a virtual machine with a Linux distributed OS.
+
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md)
 

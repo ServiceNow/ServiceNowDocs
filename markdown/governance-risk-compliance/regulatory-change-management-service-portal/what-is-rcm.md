@@ -86,8 +86,6 @@ A regulatory event alert informs you of a regulatory change, while a source docu
 The Regulatory Change Management process flow includes the tasks that different users can perform to help your organization manage and comply with regulatory changes.
 -   **[Next Experience Discuss and Chat Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/next-experience-discuss-chat-collaboration.md)**  
 On a regulatory change management case, select **Discuss** from other options. Collaborate with virtual agents by using **Next Experience Chat Collaboration** and Discuss.
--   **[Exploring Now Assist in Regulatory Change Management \(RCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.md)**  
-With Now Assist in Regulatory Change Management, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
 
 **Parent Topic:**[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
 

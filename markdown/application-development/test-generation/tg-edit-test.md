@@ -9,7 +9,7 @@ classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Test generation, Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Using Test generation, Test generation, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Edit a generated test using Test generation
@@ -22,7 +22,7 @@ You can use either of the following methods to edit a test that depends on the c
 
 ## Before the test is saved
 
-1.  Edit your prompt in the **Now Assist directions** field on the Test preview page.
+1.  Edit your prompt in the **Otto directions** field on the Test preview page.
 2.  Click **Regenerate test preview**.
 
 ## After the test is saved

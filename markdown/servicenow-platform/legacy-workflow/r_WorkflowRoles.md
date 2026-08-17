@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,11 +30,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-\[snc\_required\_script\_writer\]
+\[snc\_required\_script\_writer\_permission\]
 
 </td><td>
 
-Provides access to the Workflow UI and allows scripting.
+Provides access to the Workflow UI and allows scripting. To grant UI access, you must also grant someone another workflow role such as workflow\_creator.
 
 </td></tr><tr><td>
 

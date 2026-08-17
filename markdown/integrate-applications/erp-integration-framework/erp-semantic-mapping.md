@@ -1,5 +1,5 @@
 ---
-title: Zero Copy Connector for ERP semantic mapping
+title: Zero Copy Connector for ERP AI semantic field mapping
 description: Semantic field mapping uses AI to match source fields from an external system to target fields in the platform data model, ranked by semantic similarity rather than name or alphabetical order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-semantic-mapping.html
@@ -10,10 +10,10 @@ topic_type: reference
 last_updated: "2026-04-27"
 reading_time_minutes: 1
 keywords: [erp, match, field, map]
-breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Manage model, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP semantic mapping
+# Zero Copy Connector for ERP AI semantic field mapping
 
 Semantic field mapping uses AI to match source fields from an external system to target fields in the platform data model, ranked by semantic similarity rather than name or alphabetical order.
 
@@ -40,6 +40,4 @@ The automatic semantic field mapping is available when the source table has an a
 Each candidate target field is assigned a confidence score that reflects how closely its semantic meaning matches the selected source field. You can review the ranking before confirming the mapping.
 
 **Important:** AI-generated field mapping suggestions may not be accurate in all cases. Review the ranked candidates and confirm the appropriate target field before saving the connector model.
-
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

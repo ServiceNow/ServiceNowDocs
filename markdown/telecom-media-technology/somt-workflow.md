@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -38,9 +38,9 @@ This diagram showcases the following key stages in the lifecycle including lead 
 
     The workflow branches into two parallel paths for specialized handling of complex scenarios and exceptions.
 
-    -   **Instantiate special project**: This path provides specialized handling for orders requiring project management discipline. A project is created with tasks designed for complex fulfillment scenarios, such as large enterprise deployments, multi-site installations, or any orders that require coordinated planning, resource management, and formal project tracking.
+    -   **Instantiate special project**: This path provides specialized handling for orders requiring project management discipline. A project is created with tasks designed for complex fulfillment scenarios. These scenarios include large enterprise deployments, multi-site installations, or any orders that require coordinated planning, resource management, and formal project tracking.
     -   **Fall out management**: This path handles exception management and resolution. When orders encounter issues, errors, or require special intervention, this path ensures proper tracking, escalation, and resolution without blocking the main fulfillment flow. Problematic orders are managed separately while successful orders continue processing normally.
 9.  **Order closure**: The final stage consolidates fulfillment by progressively closing tasks at each level, from sub flows to domain orders to the complete order. Once all tasks are complete, the order closes and services are activated. Integration with the Configuration Management Database \(CMDB\) is established, enabling lifecycle management including monitoring, change control, and incident management.
 
-The Sales CRM for Telecommunications workflow, upon completion, results in activated services ready for customer use, a fulfilled order completing the transaction, CMDB integration for lifecycle management and monitoring, service contracts with defined entitlements, a complete audit trail ensuring compliance, and integrated systems providing end-to-end visibility.
+The Sales CRM for Telecommunications workflow, upon completion, activates services for customer use and fulfills the order. The workflow establishes CMDB integration for lifecycle management and monitoring. It creates service contracts with defined entitlements, maintains a complete audit trail for compliance, and provides end-to-end visibility across integrated systems.
 

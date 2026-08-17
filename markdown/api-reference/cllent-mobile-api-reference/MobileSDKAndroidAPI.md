@@ -30,8 +30,6 @@ The FieldWriteOptions class provides functions that set the options for updating
 The Filter class provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.
 -   **[NotSupportedPushError class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NotSupportedPushErrorAndroidAPI.md)**  
 A function from the NotSupportedPushError class is thrown when the NowPushSDK cannot process the push notification request. When this type of error is thrown, you must parse and handle the push notification outside of the MobileSDK framework.
--   **[NowAnalyticsSDK interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md)**  
-The NowAnalyticsSDK interface provides functions that enable you to configure analytics properties, user settings, and events for managing a collection of user analytics data.
 -   **[NowAPIService interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md)**  
 The NowAPIService interface provides the ability to perform requests on a specified ServiceNow REST API.
 -   **[NowAttachment class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentAndroidAPI.md)**  
@@ -72,6 +70,20 @@ The NowServiceConfiguration class enables you to configure the ServiceNow instan
 The NowServiceError sealed class that returns NowSDK errors.
 -   **[NowTableService interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceAndroidInterface.md)**  
 The NowTableService interface provides functions that enable you to create, read, delete, and update records within a table on a ServiceNow instance.
+-   **[NowVoiceCallbacks interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.md)**  
+Provides callback functions for voice session lifecycle and content events.
+-   **[NowVoiceEndpoint class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)**  
+Describes a voice agent endpoint.
+-   **[NowVoiceSDK object - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md)**  
+The NowVoiceSDK factory object creates NowVoiceService instances.
+-   **[NowVoiceService class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md)**  
+Manages voice agent sessions for a single ServiceNow instance.
+-   **[NowVoiceTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md)**  
+Customizes the visual appearance of the voice agent UI.
+-   **[NowVoiceThemeDark class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md)**  
+A prebuilt dark theme implementation of NowVoiceTheme.
+-   **[NowVoiceUiConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceUiConfigAndroidClass.md)**  
+Specifies presentation options for the voice agent UI.
 -   **[NowWebTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md)**  
 The NowWebTheme interface provides properties that enable you to override the colors used within web pages hosted on your ServiceNow instance in a native web view.
 -   **[NowWebSDK class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebSDKAndroidAPI.md)**  
@@ -82,6 +94,8 @@ The NowWebService class provides a function that launches a NowWebActivity that 
 The NowWebViewServiceDelegate API provides callbacks for notification of issues within the NowWebService processing such as when a flow ends or a navigation fails.
 -   **[Paginator class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/PaginatorAndroidAPI.md)**  
 The Paginator class provides functions for paging through the return results passed back by a REST endpoint call, such as those returned by the NowTableService class.
+-   **[TranscriptMessage class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/TranscriptMsgAndroidClass.md)**  
+Represents a single message in the voice session transcript.
 
 **Parent Topic:**[Mobile SDK API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
 

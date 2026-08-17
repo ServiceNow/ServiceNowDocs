@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Advanced Work Assignment, AWA configuration, service channel setup, work item queue, assignment groups, assignment rules, agent capacity, agent availability, inbox layout, Supplier Lifecycle Operations]
 breadcrumb: [Advanced Work Assignment for Supplier Lifecycle Operations, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -32,7 +33,7 @@ For more information, see [Exploring Advanced Work Assignment](https://raw.githu
 -   **[Configure Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/setup-awa-slm.md)**  
 Configure various components, such as service channels, work item queues, and assignment rules that determine how a chat interaction should be routed to an agent.
 -   **[Configure the Supplier Collaboration Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.md)**  
-Configure the Supplier Collaboration Queue chat queue to ensure that the chat requests are routed and assigned to specific agents that belong to a defined group.
+Configure the Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
 -   **[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.md)**  
 Use Agent Chat Settings to configure Agent Chat for Source-to-Pay Workspace.
 

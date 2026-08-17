@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-06-08"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, content, pack, content pack, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP content packs
@@ -48,15 +48,4 @@ You must have:
 ## Install from the ServiceNow Store
 
 For detailed information about buying and installing Zero Copy Connector for ERP content packs, see the [ServiceNow Store Help](https://store.servicenow.com/$appstore.do#!/store/helpcenter) page.
-
--   **[Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md)**  
- Explore an Zero Copy Connector for ERP content pack to review its models and process extensions, which are read-only examples you can copy and customize.
--   **[Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.md)**  
-Learn how to use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
--   **[Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md)**  
-Learn how to use the process extensions \(subflows\) in Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs. Content pack models and process extensions are examples.
--   **[Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)**  
-These content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

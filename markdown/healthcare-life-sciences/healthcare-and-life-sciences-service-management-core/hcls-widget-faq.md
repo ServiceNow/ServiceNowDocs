@@ -16,14 +16,10 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Faq widget displays a list of frequently asked questions \(FAQ\) articles for a patient.
 
-\[Omitted image "hcls-widget-faq.png"\] Alt text: Infographic displays the FAQ widget with various questions and descriptions listed.
-
 ## Key features
 
 -   Displayed for both logged-in and non-logged-in users.
 -   By default, shows maximum of five FAQ articles from the Healthcare and Life Sciences knowledge base.
-
-\[Omitted image "hcls-widget-io-faq.png"\] Alt text: Screenshot displaying theFaq widget instance options. For the text description, refer to the Faq widget instance options fields section.
 
 <table id="table_vy1_hy2_yrb"><thead><tr><th>
 

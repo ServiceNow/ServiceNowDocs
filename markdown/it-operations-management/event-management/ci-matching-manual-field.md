@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Bind CIs using CI field and column matching
@@ -21,6 +21,8 @@ Bind CIs by matching event **Additional information** fields with CI attributes.
 Role required: evt\_mgmt\_admin
 
 ## About this task
+
+**Note:** Use [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to transform and standardize alert data for better response.
 
 If no match is found using the **Node** field, the system looks at the **Additional information** field in the event record. There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column and add it to the **Additional information** field, ensuring the matching process continues successfully.
 

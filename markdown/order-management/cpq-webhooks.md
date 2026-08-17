@@ -7,26 +7,26 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Webhooks
 
 Webhooks are endpoints that can receive a POST request whenever a configuration is saved.
 
-ServiceNow CPQ supports webhooks: endpoints that can receive a POST request when a configuration is saved. Once a webhook has been configured, it is called on every save configuration action.
+CPQ supports webhooks: endpoints that can receive a POST request when a configuration is saved. Once a webhook has been configured, it is called on every save configuration action.
 
-To enable webhooks, log a case with support. Only one webhook can be created per ServiceNow CPQ environment.
+To enable webhooks, log a case with support. Only one webhook can be created per CPQ environment.
 
 **Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ## Webhook use cases
 
-Webhooks can be used to integrate data from ServiceNow CPQ to other downstream systems. Use cases include:
+Webhooks can be used to integrate data from CPQ to other downstream systems. Use cases include:
 
--   Displaying the ServiceNow CPQ native UI via direct URL and sending the config result, via webhook, to a third-party destination. See:
+-   Displaying the CPQ native UI via direct URL and sending the config result, via webhook, to a third-party destination. See:
 
-    [Use case: Displaying the ServiceNow CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
+    [Use case: Displaying the CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
 
 -   Sending config data directly to a quoting or order management system
 -   Pushing the configuration result to middleware that can manipulate the data and pass it along to downstream systems
@@ -37,7 +37,7 @@ Webhooks can be used to integrate data from ServiceNow CPQ to other downstream s
 
 \[Omitted image "cpq-webhooks-setup-1.png"\] Alt text: Webhook setup
 
--   When webhooks are enabled, they can be found in the Utilities menu in the ServiceNow CPQ Admin screen.
+-   When webhooks are enabled, they can be found in the Utilities menu in the CPQ Admin screen.
 -   Summary: Webhook configuration is similar to external connections. The Name, Description and Integration type can all be defined.
 -   Authentication: Webhooks support both no authentication \(None\) as well as bearer token authentication \(Bearer Token\).
 -   Webhook Details: Additional details of the webhook can be specified as well to control the behavior.
@@ -46,12 +46,12 @@ Webhooks can be used to integrate data from ServiceNow CPQ to other downstream s
 
 \[Omitted image "cpq-webhooks-details.png"\] Alt text: Webhook setup
 
-1.  URL: The endpoint to receive the data from ServiceNow CPQ on save of a configuration. Must be able to receive an HTTP POST request.
+1.  URL: The endpoint to receive the data from CPQ on save of a configuration. Must be able to receive an HTTP POST request.
 2.  Async: When enabled, ensures that the end user is redirected immediately when a configuration is completed and does not wait for a response from the server before exiting. The save process is asynchronous.
 
     When disabled, this ensures that the webhook process is resolved before the user is redirected. The save process is synchronous.
 
-3.  Content: The data that ServiceNow CPQ should send to the endpoint.
+3.  Content: The data that CPQ should send to the endpoint.
     -   Config Data: all admin-created configuration fields and their input values
     -   BOM and System Fields: all system configuration fields and their values; the bill of materials \(as specified in the BOM Types input immediately below\)
 4.  BOM Types: The BOM types to be sent in the request.

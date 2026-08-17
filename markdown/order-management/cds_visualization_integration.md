@@ -6,19 +6,19 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/cds\_visualiza
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [Integrating ServiceNow CPQ with visualization tools, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
+reading_time_minutes: 5
+breadcrumb: [Integrating CPQ with visualization tools, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # Integrating CDS or other third-party visualization tools
 
 Integrate CDS Visual or other third-party tools for technical visualization. Sync configuration inputs with visual updates to enhance user experience.
 
-ServiceNow CPQ can be implemented to share field values with third-party visualization tools so that visualization is updated in real time as the user changes configuration inputs. This article discusses integrating the CDS Visual tool as an example. Depending on the CDS model setup, the visualization may render as CAD drawings, 2D images and 3D interactive images.
+CPQ can be implemented to share field values with third-party visualization tools so that visualization is updated in real time as the user changes configuration inputs. This article discusses integrating the CDS Visual tool as an example. Depending on the CDS model setup, the visualization may render as CAD drawings, 2D images and 3D interactive images.
 
 \[Omitted image "cpq-cds-visualization.png"\] Alt text: Product visual
 
-The integration between ServiceNow CPQ and CDS is accomplished in the Blueprint layout definition. The following layout CSV file contains a sample of how the ServiceNow CPQ administrator defines where the CDS visualization will be rendered. It also specifies the CDS environment and ServiceNow CPQ field data to be sent.
+The integration between CPQ and CDS is accomplished in the Blueprint layout definition. The following layout CSV file contains a sample of how the CPQ administrator defines where the CDS visualization will be rendered. It also specifies the CDS environment and CPQ field data to be sent.
 
 [Layout\_CDS\_in\_sidebar \[Google Sheet\]](https://docs.google.com/spreadsheets/d/1UooX9WcinGssN4VpzEzu0pGTq4n_aTQ_Vp2epyI0kSk/edit?usp=sharing)
 
@@ -26,15 +26,15 @@ The integration between ServiceNow CPQ and CDS is accomplished in the Blueprint 
 
 This article can help you decide how to add the CDS configuration.
 
-1.  Open the layout editor in your ServiceNow CPQ configurator.
+1.  Open the layout editor in your CPQ configurator.
 2.  Download your CSV layout file.
 3.  Open your CSV layout file, and add the CDS layout element fields \(highlighted in detail below\).
-4.  Re-upload your CSV layout file to ServiceNow CPQ. Your CDS layout element should now be present in the layout.
+4.  Re-upload your CSV layout file to CPQ. Your CDS layout element should now be present in the layout.
 5.  Open the configuration options for your CDS layout element and add in the necessary JSON data lines.
 
 ## Technical configuration options
 
-The integration between ServiceNow CPQ and CDS is accomplished in the Blueprint layout definition. The following layout CSV file helps demonstrate how the administrator defines where in the UI the CDS visualization will be rendered. It also specifies the CDS environment and the ServiceNow CPQ field data to be sent.
+The integration between CPQ and CDS is accomplished in the Blueprint layout definition. The following layout CSV file helps demonstrate how the administrator defines where in the UI the CDS visualization will be rendered. It also specifies the CDS environment and the CPQ field data to be sent.
 
 The layout can be updated directly in the layout editor. In the layout editor, create a new section named CDS in your CSV file using the fields highlighted in red below, and upload the new file to layout.
 
@@ -70,9 +70,9 @@ no
 
 Array or object of fields to send to CDS.
 
- An array will assume the contained strings are both ServiceNow CPQ variable names, and CDS variable names.
+ An array will assume the contained strings are both CPQ variable names, and CDS variable names.
 
- An object will have key:value pairs. The Key is the ServiceNow CPQ variable name, and the value is the CDS variable name.
+ An object will have key:value pairs. The Key is the CPQ variable name, and the value is the CDS variable name.
 
  Set fields are allowed to be defined here, using the format:
 
@@ -90,9 +90,9 @@ no
 
 Array or object of sets to send to CDS.
 
- An array will assume the contained strings are both ServiceNow CPQ variable names, and CDS variable names.
+ An array will assume the contained strings are both CPQ variable names, and CDS variable names.
 
- An object will have key:value pairs. The Key is the ServiceNow CPQ variable name, and the value is the CDS variable name.
+ An object will have key:value pairs. The Key is the CPQ variable name, and the value is the CDS variable name.
 
  The set will be sent as a whole, up to 25 indexes long:
 
@@ -121,9 +121,9 @@ no
 
 Sends the entire product picker's data as an array of objects to CDS.
 
- An array will assume the contained strings are both ServiceNow CPQ variable names, and CDS variable names.
+ An array will assume the contained strings are both CPQ variable names, and CDS variable names.
 
- An object will have key:value pairs. The Key is the ServiceNow CPQ variable name, and the value is the CDS variable name.
+ An object will have key:value pairs. The Key is the CPQ variable name, and the value is the CDS variable name.
 
  The product picker will be sent as a whole, up to 25 indexes long.
 
@@ -228,7 +228,7 @@ The final JSON string formatting should resemble the following:
 ## Notes
 
 -   In the layout definition sample, the CDS rendering will display in a BasicContainer sidebar positioned in the upper right.
-    -   CDS can pass ServiceNow CPQ a JSON object to a text field.
+    -   CDS can pass CPQ a JSON object to a text field.
     -   Use advanced rules to parse the JSON responses from CDS.
 -   The JSON provided in the 'value' column \(column I\) of the CDS element row contains the following syntax:
 
@@ -245,14 +245,14 @@ The final JSON string formatting should resemble the following:
 
     `env`: the name of the environment service for your project, as provided by CDS. Example: "qa".
 
-    The eventFields array contains the variable names of the ServiceNow CPQ fields that are passed to CDS. In the past, the norm has been that CDS will match their variables to the ServiceNow CPQ variable names. Confirm that this is the case for your implementation with CDS.
+    The eventFields array contains the variable names of the CPQ fields that are passed to CDS. In the past, the norm has been that CDS will match their variables to the CPQ variable names. Confirm that this is the case for your implementation with CDS.
 
-    `eventFields` must contain all fields that will be communicated between ServiceNow CPQ and CDS \(that is, both ServiceNow CPQ fields that control the CDS visual and fields that are passed back to ServiceNow CPQ based on changes made in the CDS visualization\).
+    `eventFields` must contain all fields that will be communicated between CPQ and CDS \(that is, both CPQ fields that control the CDS visual and fields that are passed back to CPQ based on changes made in the CDS visualization\).
 
 -   Sets can also be passed to CDS, although only the first 25 indexes can be sent. This mirrors the above process except the property name is `eventSets` instead of `eventFields`.
 -   Array or object of sets to send to CDS:
-    -   An array will assume the contained strings are both ServiceNow CPQ variable name and CDS variable names.
-    -   An object will have key:value pairs. The key is the ServiceNow CPQ variable name, and the value is the CDS variable name.
+    -   An array will assume the contained strings are both CPQ variable name and CDS variable names.
+    -   An object will have key:value pairs. The key is the CPQ variable name, and the value is the CDS variable name.
     -   This will be sent as a whole, up to 25 indexes long using the following syntax:
 
         ```
@@ -283,8 +283,8 @@ The final JSON string formatting should resemble the following:
     }
     ```
 
--   CDS can be set up for two-way communication. One-way communication updates the CDS graphic when the user updates relevant ServiceNow CPQ fields. The second mode allows the user to manipulate the CDS graphic, and CDS will update the relevant ServiceNow CPQ field inputs. For standard fields, CDS writes back to the mapped ServiceNow CPQ field. If ServiceNow CPQ sets are being used in a two-way communication setup, ServiceNow CPQ and CDS administrators will need to coordinate the following setup:
-    -   The ServiceNow CPQ Admin will define a distinct event field to which set data will be written from CDS.
+-   CDS can be set up for two-way communication. One-way communication updates the CDS graphic when the user updates relevant CPQ fields. The second mode allows the user to manipulate the CDS graphic, and CDS will update the relevant CPQ field inputs. For standard fields, CDS writes back to the mapped CPQ field. If CPQ sets are being used in a two-way communication setup, CPQ and CDS administrators will need to coordinate the following setup:
+    -   The CPQ Admin will define a distinct event field to which set data will be written from CDS.
     -   The CDS admin will specify this field as the destination for set data.
-    -   The ServiceNow CPQ Admin will define determination rules that parse the field and populate the set.
+    -   The CPQ Admin will define determination rules that parse the field and populate the set.
 

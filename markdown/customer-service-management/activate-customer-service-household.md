@@ -36,5 +36,5 @@ The Customer Household Data Model plugin \(com.snc.household\) enables you to cr
 **Related topics**  
 
 
-[Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-business-location.md)
+[Activate the Business Location plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-business-location.md)
 

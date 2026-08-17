@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-05-29"
-reading_time_minutes: 33
+reading_time_minutes: 34
 breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
 ---
 
@@ -86,7 +86,7 @@ Skill
 
 </td><td>
 
-Skills are user-defined AI capabilities tailored to meet specific business needs. Custom skills are created using Now Assist Skill Kit, which allows for a user to define input data, prompts, LLM providers and deployment areas for custom skills.
+Skills are user-defined AI capabilities tailored to meet specific business needs. Custom skills are created using ServiceNow Otto Skill Kit, which allows for a user to define input data, prompts, LLM providers and deployment areas for custom skills.
 
  For more information, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-new-skill.md).
 
@@ -199,7 +199,7 @@ Decision table
 
 Decision tables decouple decision logic from your code by creating and maintaining decision rules. Decision tables provide a single point where you can create, view, and modify decisions.
 
- For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
+ For more information, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
 
 </td><td>
 
@@ -358,7 +358,7 @@ Assignment Data Lookup
 
 </td><td>
 
-Assignment data lookups assign a record automatically using Data Lookup and Record Matching. For example, you can automatically set a value in the assigned\_to and assignment\_group fields for a record when a set of conditions occurs, such as assigning approvals to a group of managers for users below a certain level.
+Assignment data lookups assign a record automatically using Data Lookup and Record Matching. For example, automatically set a value in the assigned\_to and assignment\_group fields for a record when a set of conditions occurs, such as assigning approvals to a group of managers for users below a certain level.
 
  For more information, see [Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DefineAssignmentRules.md).
 
@@ -2247,11 +2247,11 @@ Primary editing experience
 
 </th></tr></thead><tbody><tr><td>
 
-Application Menu
+Application Module
 
 </td><td>
 
-Application menus are groupings of modules as they appear in the application navigator \(UI16\) or **All** menu \(Next Experience\). You can refer to an Application menu as simply an application.
+Application modules are groupings of modules as they appear in the application navigator \(UI16\) or **All** menu \(Next Experience\). You can refer to an Application menu as simply an application.
 
  For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
@@ -2622,6 +2622,24 @@ cmn\_timeline\_page
 </td><td>
 
 UI16
+
+</td></tr><tr><td>
+
+UI Page
+
+</td><td>
+
+UI pages can be used to create and display forms, dialogs, lists, and other UI components. Use UI pages as widgets on dashboards. To find the UI pages, navigate to System UI &gt; UI Pages.
+
+ For more information, see [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md).
+
+</td><td>
+
+sys\_ui\_page
+
+</td><td>
+
+Fluent source
 
 </td></tr><tr><td>
 

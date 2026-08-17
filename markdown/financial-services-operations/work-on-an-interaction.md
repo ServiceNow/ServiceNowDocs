@@ -33,25 +33,25 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 4.  After verifying the customer's details and identity, select **Verified** in the Interaction form to confirm.
 
-5.  To open the Now Assist panel for agentic AI support for this interaction, select **Ask Now Assist**.
+5.  To open the ServiceNow Otto panel for agentic AI support for this interaction, select **Ask Otto**.
 
-    **Note:** By default, **Ask Now Assist** is available when:
+    **Note:** By default, **Ask Otto** is available when:
 
     -   The interaction **Type** is Phone.
     -   The **Consumer** or **Account** field is not empty.
     -   The interaction **State** is Work in Progress.
     -   The **Assigned to** value is not set to virtual agent.
-    The Now Assist panel displays and the Banking CSR support AI agent analyzes the intent of the conversation, highlights any insights relevant to the customer, and offers next-step guidance.
+    The ServiceNow Otto panel displays and the Banking CSR support AI agent analyzes the intent of the conversation, highlights any insights relevant to the customer, and offers next-step guidance.
 
-    The chat is specific to this interaction record. If you navigate away, you can resume the chat by selecting **Ask Now Assist**.
+    The chat is specific to this interaction record. If you navigate away, you can resume the chat by selecting **Ask Otto**.
 
-    For more information, see [Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/request-ai-agent-interaction-workspace.md).
+    For more information, see [Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md).
 
 6.  After resolving the customer's issues, end the chat or call.
 
 7.  Wrap up the interaction.
 
-    When wrap-up codes are set up and the Wrap Up Completion Now Assist skill is configured, you can generate an AI-powered chat summary. This summary provides a record of what was discussed and any action items in the interaction.
+    When wrap-up codes are set up and the Wrap Up Completion ServiceNow Otto skill is configured, you can generate an AI-powered chat summary. This summary provides a record of what was discussed and any action items in the interaction.
 
 
 ## Result
@@ -65,11 +65,11 @@ The interaction is closed.
 
 [Interaction page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/interaction-workspace-for-agentic-contact-center-for-banking.md)
 
-[Summarize banking customer interaction context in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-customer-context-fso.md)
+[Summarize banking customer interaction context with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-customer-context-fso.md)
 
-[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/request-ai-agent-interaction-workspace.md)
+[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md)
 
 [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
 
-[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+[bundle-csm.ai-generated-wrap-up-codes-and-notes-summary]
 

@@ -24,7 +24,7 @@ Role required: sn\_invst\_pln\_v2.investment\_admin
 
 1.  Navigate to **All** &gt; **Investment Funding** &gt; **Setup** &gt; **Investment Entities**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -101,7 +101,7 @@ Owner field
 
 Any user field in the transaction table mapped to the investment owner field.
 
- The user on the mapped field is automatically assigned as the investment owner when you are creating an investment.
+ The user on the mapped field is automatically assigned as the investment owner when you're creating an investment.
 
  For example, for a Project investment entity, you could map the Project manager field as the investment owner field.
 
@@ -139,7 +139,7 @@ Condition to filter users that are listed in the **Owner** field in the Investme
 </td></tr></tbody>
 </table>4.  Click the **Unlock fundable entities** icon to enable the selection of entities that can be funded by the current entity.
 
-    For example, a portfolio entity can fund a program, a program can fund a project, a project can request from a program, and a program can request from a portfolio.
+    For example, a portfolio entity can fund a program, a program can fund a project, and a project can request from a program. Similarly, a program can request from a portfolio.
 
 5.  Add the entities to the **Fundable entities** list.
 

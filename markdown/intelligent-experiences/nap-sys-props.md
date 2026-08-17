@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-05"
 reading_time_minutes: 1
-breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 ---
 
 # Now Assist panel system properties
@@ -19,5 +19,5 @@ Use system properties to customize Now Assist panel. Some properties are availab
 |sn\_nowassist\_va\_enable\_nap\_aix\_experience|Enabled and integrated chat is available for customers to choose from.|
 |sn\_nowassist\_va\_enable\_nap\_aix\_experience|Disabled, integrated chat is not available for customers to choose from.|
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
 

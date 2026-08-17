@@ -53,6 +53,7 @@ The table lists the keys and values stored on local storage.
 |client|The server assigned ID mapped to the browser key value.|
 |user|Hashed user id, supplied by the customer.|
 |consent|A Boolean \(yes/no\) value that indicates whether the user consents to be tracked.|
+|config|A persistent key that remains in local storage after you log out of on an instance. Stores non-sensitive application-level configuration settings used to support consistent app behavior across sessions.|
 
 ## Deleting local storage
 

@@ -1,6 +1,6 @@
 ---
 title: Recalculate costs of resource assignments of a demand
-description: Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+description: Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Create and manage resource assignments, Create a demand, Use, Deman
 
 # Recalculate costs of resource assignments of a demand
 
-Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 
 ## Before you begin
 

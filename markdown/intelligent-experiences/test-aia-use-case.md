@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aia-use-case.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Manually test the execution of an agentic workflow
@@ -67,7 +67,7 @@ Your AI agents start to execute the test autonomously to resolve the agentic wor
 
 \[Omitted image "aia-test-playground.png"\] Alt text: Output from a tested agentic workflow with the task given to it.
 
--   A simulated chat experience begins on the Now Assist panel between your invoking user and AI agent.
+-   A simulated chat experience begins on the ServiceNow Otto panel between your invoking user and AI agent.
 -   At the top of the canvas, you can see information about the agentic workflow you're testing, including its name, version, and description.
 -   A diagram shows the tasks and communication of the AI agents that are working together to solve the case.
 -   A decision log records the thought process of each AI agent that is involved in solving the agentic workflow.

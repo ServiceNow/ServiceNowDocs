@@ -8,8 +8,8 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
+reading_time_minutes: 4
+keywords: [APO, Accounts Payable Operations, invoice automation, Purchase Order, invoice processing]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -35,7 +35,7 @@ Data in the following key tables should be populated for processing an invoice w
 -   [Organization tax details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/organization-tax-details.md)
 
 -   **[Purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/purchase-order-table.md)**  
-Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used for reviewing or completing purchase order details for invoice processing.
+Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used to review or complete purchase order details for invoice processing.
 -   **[Purchase order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/purchase-order-lines.md)**  
 Field descriptions for the \[sn\_shop\_purchase\_order\_line\] table, which stores individual line items under a purchase requisition or sourcing request.
 -   **[Supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/supplier.md)**  
@@ -49,7 +49,7 @@ Field descriptions for the \[sn\_fin\_legal\_entity\] table, which stores intern
 -   **[Cost center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/cost-center.md)**  
 Field descriptions for the Cost Center \[cmn\_cost\_center\] table used to create and manage cost center records that link financial systems to IT services.
 -   **[Ledger account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ledger-account.md)**  
-Field descriptions for the \[sn\_fin\_gl\_account\] table, which stores ledger account data fetched from an ERP system, and used when viewing or updating general ledger account records associated with invoice generation.
+Field descriptions for the General Ledger Account table \[sn\_fin\_gl\_account\], used to view or update ERP-synchronized ledger accounts for invoice generation.
 -   **[Payment terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/payment-terms.md)**  
 Field descriptions for the \[sn\_shop\_payment\_term\] table, which stores payment terms that apply to invoice transactions.
 -   **[Tax code fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-code-fields.md)**  
@@ -57,7 +57,7 @@ Field descriptions for the Tax code form used to create and review tax codes app
 -   **[Tax type fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-type-fields.md)**  
 Field descriptions for the Tax type form used to define and apply tax types to invoices.
 -   **[Organization tax details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/organization-tax-details.md)**  
-Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\], which stores supplier tax registration details used when reviewing or configuring supplier tax information in Accounts Payable.
+Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\] used to review or configure supplier tax registration details in Accounts Payable.
 
 **Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
@@ -91,6 +91,8 @@ Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\],
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

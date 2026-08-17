@@ -24,23 +24,25 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Open a topic and view the **Flow** tab.
+2.  Select the **Asset library** tab.
 
-3.  Drag the **Decision** utility onto the canvas.
+3.  In the Asset library, open a topic and view the **Flow** tab.
+
+4.  Drag the **Decision** utility onto the canvas.
 
     The **Decision** utility node added to the canvas has a single branch named **Always** by default.
 
     **Note:** If you insert a **Boolean** user input control, you're prompted to add a **Decision** utility directly after the Boolean node on the canvas. Selecting **Yes** on the Boolean node's Decision utility prompt automatically generates two branches named **True** and **False**. The two branches conditions are automatically set through the condition builder.
 
-4.  Click the plus sign \(**+**\) under the node.
+5.  Select the plus sign \(**+**\) under the node.
 
     A second branch named **Always** is added below the Decision utility node.
 
-5.  Click the plus sign \(**+**\) under the node to add additional branches.
+6.  Select the plus sign \(**+**\) under the node to add additional branches.
 
-6.  Click a branch label, and then specify the branch properties in the form.
+7.  Select a branch label, and then specify the branch properties in the form.
 
 <table id="table_yjw_nj3_yrb"><thead><tr><th>
 
@@ -69,9 +71,9 @@ Expression logic to specify a condition for following this branch in the convers
 
 
 </td></tr></tbody>
-</table>7.  Define the properties for each branch in the Decision utility.
+</table>8.  Define the properties for each branch in the Decision utility.
 
-8.  When you're finished with the topic, click **Save** in the topic header bar.
+9.  When you're finished with the topic, Select **Save** in the topic header bar.
 
 
 **Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)

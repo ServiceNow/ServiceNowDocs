@@ -9,8 +9,8 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2025-01-27"
 reading_time_minutes: 3
-keywords: [AI insights skill, Bring Your Own Skill, skill contract, task configuration, Now Assist skill, task details widget, Employee Works]
-breadcrumb: [Configure a custom AI insights skill, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+keywords: [AI insights skill, Bring Your Own Skill, skill contract, task configuration, ServiceNow Otto skill, task details widget, Employee Works]
+breadcrumb: [Configure a custom AI insights skill, Task configuration, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # AI insights skill reference
@@ -19,7 +19,7 @@ Build a custom Now Assist skill that generates AI insights for the task details 
 
 ## AI insights skill overview
 
-Build your skill to match the input and output format in this topic. Administrators select your skill in the **AI insights skill** field \(`aix_ai_insights_skill`\) on the `sn_ex_sp_task_configuration` table.
+Build your skill to match the input and output format in this topic. Administrators select your skill in the **AI insights skill** field \(`aix_ai_insights_skill`\) on the **AI insights** tab of the `sn_ex_sp_task_configuration` table.
 
 To set a skill for a task type, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
 

@@ -36,7 +36,7 @@ The Alerts table displays all of the relevant issues in the system.
 
 3.  Select an alert to receive more information about the alert.
 
-    For details on the displayed additional information, see [Alerts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/view-alert-workspace-itom.md).
+    For details on the displayed additional information, see [Alerts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-alert-workspace-itom.md).
 
 
 **Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)

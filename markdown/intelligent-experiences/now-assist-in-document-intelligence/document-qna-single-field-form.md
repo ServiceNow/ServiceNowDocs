@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Forms, Reference, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Forms, Reference, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Question form for use casesetup

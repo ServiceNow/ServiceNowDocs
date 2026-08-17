@@ -52,7 +52,7 @@ The promoted asset’s **Condition** on the Promoted Skills table shows the defi
 
 The promoted asset now shows **Condition defined** next to the **Promoted** checkmark.
 
-The promoted asset also displays at the top of the list of promoted assets in a Virtual Agent Now Assist panel chat window.
+The promoted asset also displays at the top of the list of promoted assets in a Virtual Agent ServiceNow Otto panel chat window.
 
 \[Omitted image "va-defined-promoted-topic-02.png"\] Alt text: Virtual Agent Now Assist panel chat window showing condition defined asset over other promoted assets.
 

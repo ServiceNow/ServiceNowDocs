@@ -28,15 +28,15 @@ The domain service orders manage the fulfillment of the services that you're ren
 
 2.  Select an existing service order to review or create a service order.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d46051e72">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d47130e72">
 
 Task
 
-</th><th align="left" id="d46051e75">
+</th><th align="left" id="d47130e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d46051e81">
+</th></tr></thead><tbody><tr><td id="d47130e81">
 
 **Review an existing service order**
 
@@ -48,7 +48,7 @@ Action
 -   To filter the existing service orders, select the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d46051e124">
+</td></tr><tr><td id="d47130e124">
 
 **Create a service order**
 

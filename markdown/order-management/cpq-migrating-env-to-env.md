@@ -1,6 +1,6 @@
 ---
 title: Migrate a blueprint between environments
-description: Move blueprints between ServiceNow CPQ environments to maintain consistent configuration management. Export, update, and import blueprint packages using the Matrix Loader to promote tested configurations from development to production.
+description: Move blueprints between CPQ environments to maintain consistent configuration management. Export, update, and import blueprint packages using the Matrix Loader to promote tested configurations from development to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-migrating-env-to-env.html
 release: australia
@@ -8,16 +8,16 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [blueprint migration environment export import Matrix Loader]
-breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Migrate a blueprint between environments
 
-Move blueprints between ServiceNow CPQ environments to maintain consistent configuration management. Export, update, and import blueprint packages using the Matrix Loader to promote tested configurations from development to production.
+Move blueprints between CPQ environments to maintain consistent configuration management. Export, update, and import blueprint packages using the Matrix Loader to promote tested configurations from development to production.
 
 ## Before you begin
 
-Review ServiceNow CPQ upgrade windows, described in [ServiceNow CPQ Upgrade Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_upgrade_schedule.md). Schedule your migration to avoid published upgrade windows. If you have questions regarding this topic, contact your customer Support team.
+Review CPQ upgrade windows, described in [CPQ Upgrade Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_upgrade_schedule.md). Schedule your migration to avoid published upgrade windows. If you have questions regarding this topic, contact your customer Support team.
 
 Role required: admin
 
@@ -100,7 +100,7 @@ Understand the following terms:
 
     Include blueprint.yaml, the blueprints folder, the fields folder, the rules folder, and any other artifacts from the migration package. Do not include the parent folder. \[Omitted image "cpq-blueprints-migration-package.png"\] Alt text: Migration package contents for compression
 
-    **Warning:** When compressing, select only the contents of the unzipped blueprint export, not the parent folder itself. If the parent folder is selected, you receive an error when uploading to the ServiceNow CPQ Admin.
+    **Warning:** When compressing, select only the contents of the unzipped blueprint export, not the parent folder itself. If the parent folder is selected, you receive an error when uploading to the CPQ Admin.
 
     \[Omitted image "cpq-blueprints-upload-error.png"\] Alt text: Import error message
 
@@ -110,7 +110,7 @@ Understand the following terms:
 
 5.  Import the blueprint to the destination environment.
 
-    1.  Log in to the administration area of the ServiceNow CPQ destination environment.
+    1.  Log in to the administration area of the CPQ destination environment.
 
     2.  Open the Matrix Loader.
 
@@ -124,13 +124,13 @@ Understand the following terms:
 
     1.  If your environment is integrated with Salesforce and you are migrating the blueprint for the first time, perform steps 3 and 4 in [Migrate a blueprint to an SFDC-integrated destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-    2.  Review your migrated blueprint from the end-user UI in the destination ServiceNow CPQ environment.
+    2.  Review your migrated blueprint from the end-user UI in the destination CPQ environment.
 
 
 **Related topics**  
 
 
-[ServiceNow CPQ Upgrade Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_upgrade_schedule.md)
+[CPQ Upgrade Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_upgrade_schedule.md)
 
 [Migrate a blueprint to an SFDC-integrated destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

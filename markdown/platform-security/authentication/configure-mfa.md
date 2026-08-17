@@ -22,7 +22,7 @@ After identifying the needs, with ServiceNow's MFA, you can select the right met
 
 Here's some of the important topics related to configuring MFA:
 
--   [Multi-factor Authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
+-   [Multi-factor authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
 -   [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md)
 -   [Multi-factor Authentication criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/multi-factor-authentication-criteria.md)
 

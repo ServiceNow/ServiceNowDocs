@@ -76,7 +76,7 @@ Familiarize yourself with the terminology and artifacts used in Agile Developmen
 
 -   **[Defects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/defect-reports.md)**
 
-    Defects can be used to report and track the resolution of issues that are noticed during the development of a new feature, or as a feedback for existing features. Product owners then review these defects and decides on creating stories for them, which are assigned to the relevant assignment groups.
+    Defects can be used to report and track the resolution of issues noticed during the development of a new feature, or as feedback for existing features. Product owners then review these defects and decides on creating stories for them, which are assigned to the relevant assignment groups.
 
     Using the Agile Development — Unified Backlog, you can set up a triage board to maintain a centralized backlog for records of different task types, such as defects, stories, and enhancements. For more information, see [Agile Development — Unified Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/unified-backlog.md).
 

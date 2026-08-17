@@ -1,6 +1,6 @@
 ---
-title: Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Activate Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
+title: Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Activate Group Action Framework \(GAF\) to enable ServiceNow Otto AI agents to collect information about the related records across your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.html
 release: australia
@@ -9,26 +9,24 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Analyze network incidents, Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Analyze network incidents, Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Activate Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
+Activate Group Action Framework \(GAF\) to enable ServiceNow Otto AI agents to collect information about the related records across your instance.
 
 ## Before you begin
 
-The scope must be a Telecommunications, Media, and Technology AI agent collection.
+The scope must be ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Customer** &gt; **TMT**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Customer** &gt; **TMT**.
 
 2.  In Group &amp; Action - Telecom, select **Activate skill**.
-
-    \[Omitted image "assist-skills-tmt.jpg"\] Alt text: Now Assist skills for TMT.
 
 3.  On the form, select **Edit** to change the values.
 
@@ -39,5 +37,5 @@ Role required: admin
 
 ## Result
 
-GAF is activated on your instance for the Now Assist application and can be used by AI agents to find related records.
+GAF is activated on your instance for the ServiceNow Otto application and can be used by AI agents to find related records.
 

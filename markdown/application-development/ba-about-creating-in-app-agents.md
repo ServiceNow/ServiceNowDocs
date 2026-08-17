@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-about-creating-in-app-agents.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -15,7 +15,7 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
 
-You must install Now Assist for App Engine to create agentic workflows, agents, and skills. For more information, see [Installing Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md).
+Only users with Build Agent - Prime may create agents and skills.
 
 Verify that you have access to ServiceNow Studio or the ServiceNow IDE.
 
@@ -27,7 +27,7 @@ Build Agent supports the following tool creation:
 
 -   Skills:
     -   \*FlowAction
-    -   Now Assist Skill
+    -   ServiceNow Otto Skill
     -   Script - Inline
     -   Script - Explicit
     -   \*SubFlow
@@ -36,7 +36,7 @@ Build Agent supports the following tool creation:
     -   Catalog item: For more information, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-catalog-ai-agent.md).
     -   Conversational topic: For more information, see [Add a conversational topic to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-va-topic-ai-agent.md).
     -   Flow action: For more information, see [Add a flow action to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-flow-action-ai-agent.md).
-    -   Now Assist Skill: For more information, see [Add a Now Assist skill to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-skill-ai-agent.md).
+    -   ServiceNow Otto Skill: For more information, see [Add a generative AI skill to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-skill-ai-agent.md).
     -   Record operations: For more information, see [Add a record operation to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-database-op-ai-agent.md).
     -   Script: For more information, see [Add a script to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-script-ai-agent.md).
     -   \*\*Search retrieval: For more information, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md).
@@ -51,7 +51,7 @@ Build Agent supports the following tool creation:
     **Note:** You must be on Australia Patch 3 or higher to use the search retrieval tool.
 
 
-The agentic capability turns business requirements into fully configured agents, skills, and agentic workflows for custom applications. It evaluates existing app context, such as tables, roles, business rules, and metadata, and applies a four-phase pattern to generate artifacts scoped to your application's data model, roles, and ACLs:
+The agentic capability turns business requirements into fully configured agents, skills, and agentic workflows for custom applications. It first evaluates existing app context, such as tables, roles, business rules, and metadata. Then Build Agent applies a four-phase pattern to generate artifacts scoped to your application's data model, roles, and ACLs:
 
 -   **Assess**
 

@@ -24,8 +24,8 @@ During the threat investigations the analysts collect the data from internal int
 The Workbench Overview page consists of the Case Tasks and Cases that are under Threat Analysts and their team.
 -   **[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)**  
 Cases are used to track information about a campaign or threat actor threatening your organization. After a case is created, you can add artifacts that allow you to review and analyze all related information from a single case or case task.
--   **[Summarize a Case with Now Assist for Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.md)**  
-Use Now Assist for Threat Intelligence Security Center to generate a concise summary of a case, including its key findings and recommended next steps.
+-   **[Summarize a Case using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/now-assist-tisc-case-summarization.md)**  
+Use to generate a concise summary of a case, including its key findings and recommended next steps.
 -   **[Creating case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-case-task.md)**  
 Create case tasks to associate with case\(s\).
 -   **[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)**  

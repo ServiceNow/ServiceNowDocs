@@ -1,6 +1,6 @@
 ---
-title: Generate resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the Now Assist for TMT application.
+title: Generate resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Generate resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Generate resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Generate the resolution notes for a service problem case by using the resolution notes generation skill in the Now Assist for TMT application.
+Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
 
 You can also propose the resolution to the customer, and then add the resolution information to the service problem case record. Generating resolution notes may help you wrap up cases faster and provide information about the service problem case resolution to other agents who might encounter similar issues.
 
-You can also generate resolution information on demand from the Now Assist panel.
+You can also generate resolution information on demand from the ServiceNow Otto panel.
 
 **Note:** The resolution notes generation skill requires a minimum of 50 words in the service problem case record to generate the resolution notes.
 
@@ -40,9 +40,9 @@ You can also generate resolution information on demand from the Now Assist panel
 
     \[Omitted image "resolution-notes-spmc.png"\] Alt text: Generate resolution notes.
 
-5.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\].
+5.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\].
 
-    Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] generates a recommended text that is based on the context of the case.
+    ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] generates a recommended text that is based on the context of the case.
 
 6.  Select **Insert** to add the generated content into the resolution notes field.
 
@@ -63,5 +63,5 @@ You can also generate resolution information on demand from the Now Assist panel
 -   The case moves to the Resolved state.
 -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

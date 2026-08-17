@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-mobileplatform-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 9
+last_updated: "2026-08-17"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -157,7 +157,7 @@ Enable multiple users to securely log into a ServiceNow single account from shar
 
 -   **[Configurable timing for PIN application timeout](https://www.servicenow.com/docs/access?context=pin-timeout&family=australia&ft:locale=en-US)**
 
-Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users are can remain inactive before being required to reenter their PIN.
+Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users can remain inactive before being required to reenter their PIN.
 
 -   **[Dynamic variable support in record screens](https://www.servicenow.com/docs/access?context=record-screen-script-type&family=australia&ft:locale=en-US)**
 
@@ -248,6 +248,10 @@ The following changes have been made:
 
     -   Expanded the supported file types to include all of the following: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, JPG, JPEG, PNG
     -   Field service agents can now upload attachments in the background after submitting a work order task form, eliminating wait time caused by slow or unreliable network connections. Failed uploads retry automatically, so agents can move to their next task without interruption.
+-   **[Redesigned Settings screen](https://www.servicenow.com/docs/access?context=manager-user-settings&family=australia&ft:locale=en-US)**
+
+Navigate the redesigned Settings screen in the Now Mobile and Mobile Agent apps to manage entries like preferences, profile, and account switching in one place. Tap the arrow next to a heading to expand or collapse its related options.
+
 
 </td></tr></tbody>
 </table>## Removed

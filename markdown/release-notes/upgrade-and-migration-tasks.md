@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade-and-migration-tasks.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 97
+last_updated: "2026-08-17"
+reading_time_minutes: 104
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---
 
@@ -42,7 +42,7 @@ AI Control Tower
 
 </td><td>
 
-Not applicable.
+For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
 
 </td><td>
 
@@ -55,6 +55,20 @@ AI Desktop Actions
 </td><td>
 
 Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download installer](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=australia&ft:locale=en-US).
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+Advanced Approval Management
+
+</td><td>
+
+The default value for the **Rule order** field in a chain is now 10. If you have rule orders in chains configured with different order values, review and update them as needed to align with the new default.
+
+ Assign the approval\_request\_submitter role to requesters who submit approval requests only and don't have access to the full advanced approval workflow functionality and interface. Users with this role can't recall recall or update approval requests. For more information, see [Components installed with Advanced Approval Management for Sales](https://servicenow.com/docs/access?context=components-installed-advanced-approval-management-for-sales&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -82,6 +96,10 @@ Application Vulnerability Response
 -   For information about the new features of Vulnerability Response, see the [Vulnerability Response release notes](https://servicenow.com/docs/access?context=secops-vuln-resp-rn&family=australia&ft:locale=en-US).
 -   For more information about the released versions of the Application Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
+ Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 </td><td>
 
 Australia
@@ -106,7 +124,7 @@ Care Team Operations for Biomed
 
 The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
 
- If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.
+ If you have the feature administrator role, you can now complete tasks that were initially reserved for users with the broader administrator role.
 
 </td><td>
 
@@ -168,11 +186,15 @@ Configuration Compliance
 
 </td><td>
 
-If you are currently using Configuration Compliance, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Configuration Compliance and for upgrades to supported third-party integration applications.
+If you're currently using Configuration Compliance, and you don't intend to upgrade to Unified Security Exposure Management \(USEM\), install a version previous v30.x of Configuration Compliance and for upgrades to supported third-party integration applications.
 
- The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=australia&ft:locale=en-US) is deprecated. If you are currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. Please review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+ Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
- For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+ ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=australia&ft:locale=en-US) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, backdate any of your existing Wiz primary integrations by three days and run them. See more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+
+ For more information about the released versions of the Vulnerability Response application and the third party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
 </td><td>
 
@@ -200,11 +222,27 @@ Container Vulnerability Response
 
 </td><td>
 
-Enhancements to Container Vulnerability Response permit you to see enriched container vulnerability data on data imports from your third-party scanners. After you upgrade, you must perform a full import to view the features on discovered container image, container image finding, and container vulnerable item records that are described in the following New in the Australia release section.
+Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ Enhancements to Container Vulnerability Response permit you to see enriched container vulnerability data on data imports from your third-party scanners. After you upgrade, perform a full import to view the features on discovered container image, container image finding, and container vulnerable item records that are described in the following New in the Australia release section.
 
  If you're currently using Container Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Container Vulnerability Response and for upgrades to supported third-party integration applications.
 
  For more information about the released versions of the Container Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+Contract Management Pro
+
+</td><td>
+
+No upgrade actions are required for this release.
 
 </td><td>
 
@@ -224,6 +262,7 @@ Core Business Suite
     -   Prime: Act autonomously with all AI assets, and create your own
 For more information, see [ServiceNow product tiers](https://servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US).
 
+-   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 </td><td>
 
@@ -247,7 +286,7 @@ Dispute Rules Content Pack for Mastercard
 
 </td><td>
 
-The Australia release adds 14 new data fields to the Authorization and Financial Transaction tables to support the new eligibility rules. The `transactionAmountLocal` field already exists in the Financial Transaction table but is being extended to the Financial Transaction Authorization table in this release. No other pre-existing fields are affected. After upgrading, confirm that the new fields are available and populated on your instance. For a full list of new fields, see New in this release.
+The Australia release adds new data fields to the Authorization and Financial Transaction tables to support the new eligibility rules. The `transactionAmountLocal` field already exists in the Financial Transaction table but is being extended to the Financial Transaction Authorization table in this release. No other pre-existing fields are affected. After upgrading, confirm that the new fields are available and populated on your instance.
 
 </td><td>
 
@@ -279,13 +318,15 @@ Australia
 
 </td></tr><tr><td>
 
-Flows, Subflows, and Actions
+Flows, subflows, and actions
 
 </td><td>
 
 An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://servicenow.com/docs/access?context=restore-save-as-you-go-functionality&family=australia&ft:locale=en-US).
 
  The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
+
+ The Australia release restricts the default flow reporting level available on production instances to the basic reporting level. While you can't set all flows to the full reporting level, you can still set individual flows to the full reporting level. For more information about setting a flow's reporting level, see [Activate flow reporting](https://servicenow.com/docs/access?context=enable-flow-reporting&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -320,6 +361,7 @@ Hardware Asset Management
     -   asset\_licensing\_admin: Provides access to the ITAM licensing module.
     -   asset\_recommendation\_admin: Provides access to recommendation actions.
 -   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
+-   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Australia Patch 5, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
 
 </td><td>
 
@@ -359,7 +401,7 @@ Impact
 
 </td><td>
 
-The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configure the Impact Store Application](https://servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -420,77 +462,11 @@ Australia
 
 </td></tr><tr><td>
 
-Now Assist for Configuration Management Database \(CMDB\)
-
-</td><td>
-
-To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see [Configure the CI form contextual help skill](https://servicenow.com/docs/access?context=na-cmdb-skill-form-sense-config&family=australia&ft:locale=en-US).
-
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
-Australia early availability
-
--   To upgrade the Build Agent application, upgrade the Now Assist for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
-
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
 Now Assist for Employee Center Pro
 
 </td><td>
 
 Now Assist for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.
-
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
-
-1.  Go to **Admin** &gt; **Now Assist admin**.
-2.  Select **Now Assist Skills**.
-3.  Select **Platform**.
-4.  Select **Knowledge**.
-5.  Make sure the knowledge content recommendation skill is active.
-
- The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US).
-
- Starting with the [Australia Patch 2](https://servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
-
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
-Now Assist
-
-</td><td>
-
-If you customized actions on the user interface or other items that are associated with Now Assist skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
-
- If you run into issues when you're upgrading a Now Assist product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
-
- The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
-
- The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [Granular admin roles](https://servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -508,6 +484,22 @@ Beginning with Operational Resilience release 22.0.x, the following scheduled jo
 -   **Update CSDM and other dependencies**
 
 For existing installations, these jobs retain their current active or inactive state.
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
+
+</td><td>
+
+To use campaigns, activate the following system properties:
+
+-   sn\_esg.metric\_campaign: Enables campaigns on the Operational Sustainability Management workspace.
+-   sn\_esg.campaign\_bulk\_action\_enabled: Enables bulk submission, approval, and rejection for campaigns.
+-   sn\_esg.metric\_approval: Sets the approval mode for campaigns. Set the value to Simple for a single data owner and approver, or Advanced for multi-level approval chains.
 
 </td><td>
 
@@ -535,6 +527,8 @@ When upgrading, all Core UI reports and dashboards are identified as such in the
 
 **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
+ All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+
  After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
 </td><td>
@@ -559,7 +553,9 @@ Product Catalog Management and Pricing Management
 
 </td><td>
 
-Pricing Management v16.0.0 provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to Pricing Management v16.0.0, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+Pricing Management provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to a new version of Pricing Management, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+
+ If you've been using AI Search for product catalog in a previous release, after upgrading to Product Catalog Management Core v.19.0.0 or higher, republish the stop word dictionary, search profiles, and index tables used by AI Search. To republish, run the **Scheduled job to publish stop words dictionary, search profiles and index tables**. Republishing includes the changes for multilingual support of product catalog entities introduced in the v.19.0.0 release.
 
 </td><td>
 
@@ -572,6 +568,8 @@ Public Sector Digital Services
 </td><td>
 
 After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+ Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
 
 </td><td>
 
@@ -645,7 +643,8 @@ Service Exchange \(Legacy\) version: Before you upgrade to the Australia release
 -   Service Exchange version 1.x.x: When upgrading, consult the [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.
 -   Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.
 -   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.
--   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+-   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+-   If you're upgrading Service Exchange to version 2.3.x, migrate the OAuth grant type on all existing connections from authorization code to client credentials to avoid a "User Not Authenticated" error. Complete this migration on both the provider and consumer instances after the upgrade and before using the connection. For details, see [KB2944968](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2944968).
 -   When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:
     -   Yokohama
     -   Zurich
@@ -676,6 +675,72 @@ ServiceNow IDE
 </td><td>
 
 ServiceNow IDE version 3.2.3 is active by default on instances on the Australia release. Update to ServiceNow IDE version 4.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://servicenow.com/docs/access?context=install-servicenow-ide&family=australia&ft:locale=en-US).
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configuration Management Database \(CMDB\)
+
+</td><td>
+
+To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see [Configure the CI form contextual help skill](https://servicenow.com/docs/access?context=na-cmdb-skill-form-sense-config&family=australia&ft:locale=en-US).
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+[Australia Early Availability](https://servicenow.com/docs/access?context=australia-all-other-fixes&family=australia&ft:locale=en-US)
+
+-   To upgrade the Build Agent application, upgrade the ServiceNow Otto for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
+
+1.  Go to **Admin** &gt; **Now Assist admin**.
+2.  Select **Now Assist Skills**.
+3.  Select **Platform**.
+4.  Select **Knowledge**.
+5.  Make sure the knowledge content recommendation skill is active.
+
+ The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US).
+
+ Starting with the [Australia Patch 2](https://servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+ServiceNow Otto
+
+</td><td>
+
+If you customized actions on the user interface or other items that are associated with ServiceNow Otto skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
+
+ If you run into issues when you're upgrading a ServiceNow Otto product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
+
+ The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
+
+ The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [Granular admin roles](https://servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -763,15 +828,13 @@ Third-party Risk Management
 
 If you're a VRM user upgrading to TPRM and upgrading to Australia from an earlier release, you must run each upgrade sequentially to ensure that fix scripts run correctly. For example, you must upgrade from Xanadu to Yokohama, Yokohama to Zurich, and so on. If the scripts don't run in the correct order, you can get data inconsistencies, broken functionalities, and conflicts.
 
- After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(SAE\) by setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property. After setting this property, Smart Assessment Engine \(SAE\) becomes the default assessment engine and replaces the legacy experience. The transition isn't reversible.
+ After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(SAE\) by setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property. After setting this property, Smart Assessment Engine \(SAE\) is set to the default assessment engine and replaces the legacy experience. The transition is irreversible.
 
-**Warning:**
-
-Set this property in your non-production instances and conduct thorough testing before changing your production instances. Failure to do so may result in unexpected issues.
+**Warning:** Set this property in your non-production instances and conduct thorough testing before changing your production instances. Failure to do so can result in unexpected issues.
 
  For more information on upgrading from VRM to TPRM and the differences between the Smart and Classic Assessment engines, see [Third-party Risk Management upgrade information](https://servicenow.com/docs/access?context=grc-tprm-upgrade-info&family=australia&ft:locale=en-US).
 
- For existing TPRM customers, after upgrading to version 21.0.3, data from the Industry column in the Company \[core\_company\] table is automatically migrated to the tprm\_industry column. Migration can take several hours depending on the number of records in the Company \[core\_company\] table. After migration, a system log message confirms that the migration is complete. Review the Company \[core\_company\] table content and update any customizations referencing the Industry field to use tprm\_industry. After verifying the migration and updating customizations, you can drop the Industry column.
+ For existing TPRM customers, after upgrading to version 21.0.3, data from the Industry column in the Company \[core\_company\] table is automatically migrated to the tprm\_industry column. Migration can take several hours depending on the number of records in the Company \[core\_company\] table. After migration, a system log message confirms that the migration is complete. Review the Company \[core\_company\] table content. Update any customizations that reference the Industry field to use tprm\_industry. After verifying the migration and updating customizations, you can drop the Industry column.
 
  After upgrading to version 22.3.3, the `grc_business_user` and `grc_reader` roles are no longer directly inherited by TPRM roles. During upgrade, most users are automatically migrated to new feature‑specific roles. Users with custom role combinations may not be migrated automatically and require manual review before the grace period ends.
 
@@ -793,11 +856,43 @@ Australia
 
 </td></tr><tr><td>
 
+Unified Security Exposure Management \(USEM\)
+
+</td><td>
+
+Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ To access the new AI native experience in the Unified Security Exposure Management \(USEM\) workspace, you must upgrade to the Australia release.
+
+-   **[ServiceNow product tiers](https://servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response. Migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating to USEM](https://servicenow.com/docs/access?context=migrating-to-usem&family=australia&ft:locale=en-US) and [Migrate to USEM](https://servicenow.com/docs/access?context=migrate-to-usem&family=australia&ft:locale=en-US).
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
 Vulnerability Response
 
 </td><td>
 
-If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
+Starting with Australia Patch 5, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including the Now Assist for Vulnerability Response product name, which will be replaced with ServiceNow Otto for Unified Security Exposure Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
 
  For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base
 
@@ -1415,6 +1510,18 @@ Xanadu
 
 </td></tr><tr><td>
 
+Telecommunications Service Operations Management
+
+</td><td>
+
+TBD.
+
+</td><td>
+
+Xanadu
+
+</td></tr><tr><td>
+
 Third-party Risk Management
 
 </td><td>
@@ -1466,6 +1573,18 @@ Xanadu
 
 </td></tr><tr><td>
 
+AI Analytics
+
+</td><td>
+
+AI Analytics is installed and updated when you install or update any Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -1483,6 +1602,20 @@ AI Search
 </td><td>
 
 When you upgrade to Yokohama from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see [Index or reindex an indexed source](https://servicenow.com/docs/access?context=index-single-source-ais&family=yokohama&ft:locale=en-US) or [Index or reindex multiple indexed sources](https://servicenow.com/docs/access?context=index-multiple-sources-ais&family=yokohama&ft:locale=en-US).
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
+AI Skill Kit
+
+</td><td>
+
+If you customized UI actions or other items that are associated with Now Assist skills, ensure that your customized code is updated with the new skill releases. Otherwise, certain functions may not work as expected.
+
+ If you run into issues when you're upgrading a Now Assist product, see [KB1637452: Issues and mitigation for Now Assist \(Generative AI\) Applications and Plugin updates](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452). You may need to log in to view the article.
 
 </td><td>
 
@@ -1743,116 +1876,15 @@ Yokohama
 
 </td></tr><tr><td>
 
-Now Assist Analytics
-
-</td><td>
-
-Now Assist Analytics is installed and updated when you install or update any Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
-Now Assist Skill Kit
-
-</td><td>
-
-If you customized UI actions or other items that are associated with Now Assist skills, ensure that your customized code is updated with the new skill releases. Otherwise, certain functions may not work as expected.
-
- If you run into issues when you're upgrading a Now Assist product, see [KB1637452: Issues and mitigation for Now Assist \(Generative AI\) Applications and Plugin updates](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452). You may need to log in to view the article.
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
-Now Assist for Hardware Asset Management \(HAM\)
-
-</td><td>
-
-Only users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
-
--   Hardware asset management sourcing AI agent
--   Transfer order creation AI agent
--   Purchase order creation AI agent
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response
-
-</td><td>
-
-For more information about required applications for Now Assist for Security Incident Response, see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=yokohama&ft:locale=en-US).
-
- **Note:**
-
-Upgrading the Now Assist plugins activate any designated skills that were previously untouched by the customer.
-
--   If you have the plugins installed but never touched the configuration \(never activated the skill nor adjusted associated roles\) of a skill, any Default On skill will be activated on a per skill basis upon upgrading.
--   If you have previously toggled a skill from active and then back to inactive or have updated any roles for that skill, that skill remains inactive upon upgrading.
--   You maintain full control over deactivating individual skills at any time after activation.
-
- Starting with version 2.0.1, the name of the Now Assist for Security Operations application in ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to Now Assist for Security Incident Response. You must upgrade to version 2.0.1 to access the following features:
-
--   Generate resolution notes in the Now Assist context menu.
--   Generate correlation insights for a security incident investigation from the Now Assist panel.
-
- The AI Search application must be enabled so that the recommended actions skill works for security incidents. To verify that AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates that AI Search is not enabled.
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
-Now Assist for Vulnerability Response
-
-</td><td>
-
-For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=yokohama&ft:locale=en-US).
-
- **Note:**
-
-Upgrading the Now Assist plugins activate any designated skills that were previously untouched by the customer.
-
--   If you have the plugins installed but never touched the configuration \(never activated the skill nor adjusted associated roles\) of a skill, any Default On skill will be activated on a per skill basis upon upgrading.
--   If you have previously toggled a skill from active and then back to inactive or have updated any roles for that skill, that skill remains inactive upon upgrading.
--   You maintain full control over deactivating individual skills at any time after activation.
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
 Now Assist in Contract Management
 
 </td><td>
 
-If you’re upgrading to Now Assist in Contract Management starting with Yokohama Patch 3 from a previous version and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you’re upgrading to Now Assist in Contract Management starting with Yokohama Patch 3 from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 2.  In the **Name** field, search for `Upsert DI skill config`.
-3.  In the script, add the use case ids that you want to migrate to the Now Assist Admin console.
+3.  In the script, add the use case ids that you want to migrate to the AI Admin Hub console.
 4.  Select **Run Fix Script**.
 
 For more information, see [Post-upgrade steps for Now Assist in Contract Management](https://servicenow.com/docs/access?context=cmpro-na-upgrade-steps&family=yokohama&ft:locale=en-US).
@@ -2024,6 +2056,81 @@ ServiceNow IDE
 </td><td>
 
 ServiceNow IDE version 1.1.4 is active by default on instances on the Yokohama release. Update to ServiceNow IDE version 2.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Updating apps](https://servicenow.com/docs/access?context=updating-apps-app-manager&family=yokohama&ft:locale=en-US).
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+Only users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
+
+-   Hardware asset management sourcing AI agent
+-   Transfer order creation AI agent
+-   Purchase order creation AI agent
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\)
+
+</td><td>
+
+For more information about required applications for ServiceNow Otto for Security Incident Response \(SIR\), see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=yokohama&ft:locale=en-US).
+
+ **Note:**
+
+Upgrading the Now Assist plugins activate any designated skills that were previously untouched by the customer.
+
+-   If you have the plugins installed but never touched the configuration \(never activated the skill nor adjusted associated roles\) of a skill, any Default On skill will be activated on a per skill basis upon upgrading.
+-   If you have previously toggled a skill from active and then back to inactive or have updated any roles for that skill, that skill remains inactive upon upgrading.
+-   You maintain full control over deactivating individual skills at any time after activation.
+
+ Starting with version 2.0.1, the name of the Now Assist for Security Operations application in ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to ServiceNow Otto for Security Incident Response \(SIR\). You must upgrade to version 2.0.1 to access the following features:
+
+-   Generate resolution notes in the Now Assist context menu.
+-   Generate correlation insights for a security incident investigation from the Now Assist panel.
+
+ The AI Search application must be enabled so that the recommended actions skill works for security incidents. To verify that AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates that AI Search is not enabled.
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Unified Security Exposure Management
+
+</td><td>
+
+For more information about required applications for ServiceNow Otto for Unified Security Exposure Management, see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=yokohama&ft:locale=en-US).
+
+ **Note:**
+
+Upgrading the Now Assist plugins activate any designated skills that were previously untouched by the customer.
+
+-   If you have the plugins installed but never touched the configuration \(never activated the skill nor adjusted associated roles\) of a skill, any Default On skill will be activated on a per skill basis upon upgrading.
+-   If you have previously toggled a skill from active and then back to inactive or have updated any roles for that skill, that skill remains inactive upon upgrading.
+-   You maintain full control over deactivating individual skills at any time after activation.
 
 </td><td>
 
@@ -2226,6 +2333,18 @@ Work scheduler
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+AI Control Tower
+
+</td><td>
+
+For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+
+</td><td>
+
+Zurich
 
 </td></tr><tr><td>
 
@@ -2456,9 +2575,9 @@ External Content Connectors
 
 </td><td>
 
-Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
+Starting in version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
 
- When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you've completed both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+ When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you complete both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
 
 </td><td>
 
@@ -2547,6 +2666,7 @@ Hardware Asset Management
     -   sn\_hamp.enable\_shipping\_carrier\_validation\_asn
     -   sn\_hamp.model\_lifecycle\_phase\_order
     -   sn\_hamp.update\_assets\_norm\_model\_name
+-   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
 
 </td><td>
 
@@ -2642,114 +2762,11 @@ Zurich
 
 </td></tr><tr><td>
 
-Now Assist for CMDB
-
-</td><td>
-
-The installation \(activation\) process has changed for the Now Assist for CMDB v2.1 plugin. See [Configure](https://servicenow.com/docs/access?context=now-assist-cmdb-configuring&family=zurich&ft:locale=en-US) for the new instructions.
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
-Now Assist for Hardware Asset Management \(HAM\)
-
-</td><td>
-
-If you have the procurement\_user user role, you can access the help manage hardware asset requests agentic workflow, which includes the following AI agents:
-
--   Hardware asset management sourcing AI agent
--   Transfer order creation AI agent
--   Purchase order creation AI agent
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
-
- The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US).
-
- Starting with the [Australia Patch 2](https://servicenow.com/docs/access?context=zurich-patch-9&family=zurich&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response \(SIR\)
-
-</td><td>
-
-**Note:** The following Now Assist skills, agents, and agentic workflows for Now Assist for Security Incident Response are activated by default:
-
-Skills
-
--   Security incident summarization
--   Resolution notes generation
--   Post incident analysis
--   Security incident recommended actions
--   Correlation insights generation
--   Security incident quality assessment
--   Natural language condition evaluator
--   Generate content for shift handover
--   Quality assessment report NACM
--   Security incident resolution plan
--   Security operations metrics analysis
-
-Agentic workflows
-
--   Wrap up security incident
--   Resolve security incident
--   Generate SIR shift handover report
--   Analyze security operations metrics
-
-Agents
-
--   EDR AI agent
--   Exchange online integration handling AI agent
--   Observable analysis AI agent
--   Security incident activities handling AI agent
--   Security incident resolution AI agent
--   Security incident retrieval AI agent
--   Security incident shift handover AI agent
--   Security incident wrap up generator AI agent
--   Security metrics analysis AI agent
-
-For more information, see [AI assets on by default](https://servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)
-
-**Note:** Upgrading the Now Assist plugins activates any designated skills that were previously untouched by the customer.
-
--   If you installed the plugins for a skill but never configured it, meaning you never activated it nor adjusted associated roles, any skill on by default is activated on a per skill basis when upgrade.
--   If you previously toggled a skill from active and then back to inactive, or updated any roles for that skill, that skill remains inactive when upgrading.
--   You maintain full control over deactivating individual skills at any time after activation.
-
- When you update the Now Assist for Security Incident Response \(SIR\) application, the dependency applications are automatically updated.
-
- For more information about required applications for Now Assist for Security Incident Response, see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=zurich&ft:locale=en-US).
-
- The AI Search application must be enabled so that the recommended actions skill works for security incidents with Now Assist for Security Incident Response. To verify that AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates that AI Search isn’t enabled.
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
 Now Assist for Vulnerability Response
 
 </td><td>
 
-The following Now Assist skills for Now Assist for Vulnerability Response are activated by default.
+The following Now Assist skills for ServiceNow Otto for Unified Security Exposure Management are activated by default.
 
 -   Recommend preferred solution for VIT \(VR\)
 -   Vulnerable item de-duplication \(VR\)
@@ -2757,9 +2774,9 @@ The following Now Assist skills for Now Assist for Vulnerability Response are ac
 -   Security Exposure Management \(SEM\) Insights \(VR\)\(USEM\)
 -   SPC Setup Connector \(Security Posture Control\)
 
- When you update the Now Assist for Vulnerability Response application, the dependency applications are automatically updated.
+ When you update the ServiceNow Otto for Unified Security Exposure Management application, the dependency applications are automatically updated.
 
- For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=zurich&ft:locale=en-US).
+ For more information about required applications for ServiceNow Otto for Unified Security Exposure Management, see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=zurich&ft:locale=en-US).
 
 </td><td>
 
@@ -2771,34 +2788,14 @@ Now Assist in Contract Management
 
 </td><td>
 
-If you're upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you're upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 2.  In the **Name** field, search for `Upsert DI skill config`.
-3.  In the script, add the use case IDs that you want to migrate to the Now Assist Admin console.
+3.  In the script, add the use case IDs that you want to migrate to the AI Admin Hub console.
 4.  Select **Run Fix Script**.
 
 For more information, see [Post upgrade steps](https://servicenow.com/docs/access?context=cmpro-na-upgrade-steps&family=zurich&ft:locale=en-US).
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
-Now Assist
-
-</td><td>
-
-Customers who have not opted into third-party, large language models may be routed to them during skill execution. If the new model is not provisioned or available in your environment, this will result in skill execution failures. Check the models your skills use within Now Assist admin console.
-
- If you customized UI actions or other items that are associated with Now Assist skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
-
- If you run into issues when you're upgrading a Now Assist product, see the [Issues and mitigation for Now Assist \(Generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
-
- The Zurich release introduces enhanced protections for read‑only fields across the ServiceNow® AI Platform. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back-end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. If you have custom client scripts that modify ServiceNow® ‑owned read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122). This article provides additional technical details on how to identify affected fields and adjust their settings.
-
- The existing Access Control Lists \(ACLs\) will be updated to replace the 'admin' role with specific, purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API will be replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the 'admin' role in the code will be substituted with the new feature-specific granular roles for authorization use cases. Read [https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html](https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html) to learn more.
 
 </td><td>
 
@@ -2878,7 +2875,7 @@ Pricing Management v15.0.0 provides a default pricing plan that includes new ste
 
  If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true. When set to true, this property enables the CPQ Configurator.
 
- If you want to use AI Search for product catalog searches, before upgrading install Now Assist for Sales Force Automation \(SFA\), which includes the plugins needed for AI Search functionality. After upgrading, complete various steps to implement AI Search. These steps include running a scheduled job to set up AI Search and enabling AI Search in the product catalog interface by setting the **enable\_ai\_search\_in\_catalog** system property to true. For details on these configuration steps, see [Configuring AI Search for product catalog search](https://servicenow.com/docs/access?context=configure-ai-search-prod-catalog&family=zurich&ft:locale=en-US).
+ If you want to use AI Search for product catalog searches, before upgrading install ServiceNow Otto for Sales Automation, which includes the plugins needed for AI Search functionality. After upgrading, complete various steps to implement AI Search. These steps include running a scheduled job to set up AI Search and enabling AI Search in the product catalog interface by setting the **enable\_ai\_search\_in\_catalog** system property to true. For details on these configuration steps, see [Configuring AI Search for product catalog search](https://servicenow.com/docs/access?context=configure-ai-search-prod-catalog&family=zurich&ft:locale=en-US).
 
 </td><td>
 
@@ -2962,7 +2959,7 @@ Security Posture Control
 
 </td><td>
 
-For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://servicenow.com/docs/access?context=spc-install&family=zurich&ft:locale=en-US).
+For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://servicenow.com/docs/access?context=spc-install&family=zurich&ft:locale=en-US). Starting with Zurich Patch 12, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. The change is reflected in the name of ServiceNow® products, including Now Assist for Vulnerability Response which is called ServiceNow Otto for Unified Security Exposure Management. See [ServiceNow Otto for Unified Security Exposure Management](https://servicenow.com/docs/access?context=now-assist-for-usem-landing-ties&family=zurich&ft:locale=en-US) for more information.
 
 </td><td>
 
@@ -3040,6 +3037,129 @@ ServiceNow IDE
 </td><td>
 
 ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich release. Update to ServiceNow IDE version 3.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://servicenow.com/docs/access?context=install-servicenow-ide&family=zurich&ft:locale=en-US).
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+ServiceNow Otto for CMDB
+
+</td><td>
+
+The installation \(activation\) process has changed for the ServiceNow Otto for CMDB v2.1 plugin. See [Configure](https://servicenow.com/docs/access?context=now-assist-cmdb-configuring&family=zurich&ft:locale=en-US) for the new instructions.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+If you have the procurement\_user user role, you can access the help manage hardware asset requests agentic workflow, which includes the following AI agents:
+
+-   Hardware asset management sourcing AI agent
+-   Transfer order creation AI agent
+-   Purchase order creation AI agent
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
+
+ The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US).
+
+ Starting with the [Australia Patch 2](https://servicenow.com/docs/access?context=zurich-patch-9&family=zurich&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\)
+
+</td><td>
+
+**Note:** The following Now Assist skills, agents, and agentic workflows for ServiceNow Otto for Security Incident Response \(SIR\) are activated by default:
+
+Skills
+
+-   Security incident summarization
+-   Resolution notes generation
+-   Post incident analysis
+-   Security incident recommended actions
+-   Correlation insights generation
+-   Security incident quality assessment
+-   Natural language condition evaluator
+-   Generate content for shift handover
+-   Quality assessment report NACM
+-   Security incident resolution plan
+-   Security operations metrics analysis
+
+Agentic workflows
+
+-   Wrap up security incident
+-   Resolve security incident
+-   Generate SIR shift handover report
+-   Analyze security operations metrics
+
+Agents
+
+-   EDR AI agent
+-   Exchange online integration handling AI agent
+-   Observable analysis AI agent
+-   Security incident activities handling AI agent
+-   Security incident resolution AI agent
+-   Security incident retrieval AI agent
+-   Security incident shift handover AI agent
+-   Security incident wrap up generator AI agent
+-   Security metrics analysis AI agent
+
+For more information, see [AI assets on by default](https://servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)
+
+**Note:** Upgrading the Now Assist plugins activates any designated skills that were previously untouched by the customer.
+
+-   If you installed the plugins for a skill but never configured it, meaning you never activated it nor adjusted associated roles, any skill on by default is activated on a per skill basis when upgrade.
+-   If you previously toggled a skill from active and then back to inactive, or updated any roles for that skill, that skill remains inactive when upgrading.
+-   You maintain full control over deactivating individual skills at any time after activation.
+
+ When you update the ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) application, the dependency applications are automatically updated.
+
+ For more information about required applications for ServiceNow Otto for Security Incident Response \(SIR\), see [Supporting information](https://servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=zurich&ft:locale=en-US).
+
+ The AI Search application must be enabled so that the recommended actions skill works for security incidents with ServiceNow Otto for Security Incident Response \(SIR\). To verify that AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates that AI Search isn’t enabled.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+ServiceNow Otto
+
+</td><td>
+
+Customers who have not opted into third-party, large language models may be routed to them during skill execution. If the new model is not provisioned or available in your environment, this will result in skill execution failures. Check the models your skills use within ServiceNow Otto admin console.
+
+ If you customized UI actions or other items that are associated with ServiceNow Otto skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
+
+ If you run into issues when you're upgrading a ServiceNow Otto product, see the [Issues and mitigation for Now Assist \(Generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
+
+ The Zurich release introduces enhanced protections for read‑only fields across the ServiceNow® AI Platform. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back-end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. If you have custom client scripts that modify ServiceNow® ‑owned read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122). This article provides additional technical details on how to identify affected fields and adjust their settings.
+
+ The existing Access Control Lists \(ACLs\) will be updated to replace the 'admin' role with specific, purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API will be replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the 'admin' role in the code will be substituted with the new feature-specific granular roles for authorization use cases. Read [https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html](https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html) to learn more.
 
 </td><td>
 
@@ -3204,7 +3324,7 @@ Unified Security Exposure Management
 
 </td><td>
 
-Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response, however, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating to USEM](https://servicenow.com/docs/access?context=migrating-to-usem&family=zurich&ft:locale=en-US) and [Migrate to USEM](https://servicenow.com/docs/access?context=migrate-to-usem&family=zurich&ft:locale=en-US).
+Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response. However, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating to USEM](https://servicenow.com/docs/access?context=migrating-to-usem&family=zurich&ft:locale=en-US) and [Migrate to USEM](https://servicenow.com/docs/access?context=migrate-to-usem&family=zurich&ft:locale=en-US).
 
 </td><td>
 
@@ -3216,11 +3336,13 @@ Vulnerability Response
 
 </td><td>
 
-If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
+Starting with Zurich, Patch 12, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. The change is reflected in the name of ServiceNow® products, including Now Assist for Vulnerability Response which is called ServiceNow Otto for Unified Security Exposure Management with these enhancements for the new AI experience. See [ServiceNow Otto for Unified Security Exposure Management](https://servicenow.com/docs/access?context=now-assist-for-usem-landing-ties&family=zurich&ft:locale=en-US) for more information.
 
- The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=zurich&ft:locale=en-US) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to new version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. Review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+ If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
 
- For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Zurich release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
+ The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=zurich&ft:locale=en-US) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to new version 1.1, backdate any of your existing Wiz primary integrations by three days and run them. Review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+
+ For more information about the released versions of the Vulnerability Response application and the third-party and ServiceNow applications that are compatible with the Zurich release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
 </td><td>
 

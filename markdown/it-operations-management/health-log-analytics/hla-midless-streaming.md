@@ -39,7 +39,7 @@ Standard
 
 </td><td>
 
-For typical log volumes, enable ITOM Gateway and the  Hermes  Messaging Service on your instance, configure a JSON Web Token \(JWT\) provider and token, and set up your log source from Integrations Launchpad. For more information, see [Configure a JSON Web Token \(JWT\) provider and token for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md) and [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md).
+For typical log volumes, enable ITOM Gateway and the  Hermes  Messaging Service on your instance, configure a JSON Web Token \(JWT\) provider and token, and set up your log source from Integrations Launchpad. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md) and [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Log sources authenticate to HLA using a JWT token. You must configure a JWT prov
 **Related topics**  
 
 
-[Configure a JSON Web Token \(JWT\) provider and token for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md)
+[Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md)
 
 [Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md)
 

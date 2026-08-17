@@ -1,6 +1,6 @@
 ---
 title: Update dependency details of a BIA in Self Service
-description: Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
+description: Use contributor role to update the disruption duration of impact category results, RPO impact analysis responses, impact dependency group state, and work notes in the Activity related item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/my-self-service-bia.html
 release: australia
@@ -12,13 +12,13 @@ breadcrumb: [Assess impact categories and dependencies of process, Structured wo
 
 # Update dependency details of a BIA in Self Service
 
-Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
+Use contributor role to update the disruption duration of impact category results, RPO impact analysis responses, impact dependency group state, and work notes in the Activity related item.
 
 ## Before you begin
 
 Role required: sn\_bcm.contributor
 
-If you are a BCM contributor and is part of the Contributors list, then you can update the dependency details of a business impact analysis \(BIA\).
+If you are a BCM contributor and part of the Contributors list, then you can update the dependency details of a business impact analysis \(BIA\).
 
 ## Procedure
 
@@ -26,7 +26,7 @@ If you are a BCM contributor and is part of the Contributors list, then you can 
 
 2.  View the list of business impact analysis assigned to you and the BIAs that you can contribute to.
 
-3.  Click a impact analysis record.
+3.  Click an impact analysis record.
 
 4.  Click the Impact Category Results related list.
 

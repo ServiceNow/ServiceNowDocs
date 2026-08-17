@@ -1,5 +1,5 @@
 ---
-title: Exploring insurance claims applications in Financial Services Operations
+title: Insurance claims applications in Financial Services Operations
 description: ServiceNow Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-claims-applications.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
-# Exploring insurance claims applications in Financial Services Operations
+# Insurance claims applications in Financial Services Operations
 
 ServiceNow® Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 

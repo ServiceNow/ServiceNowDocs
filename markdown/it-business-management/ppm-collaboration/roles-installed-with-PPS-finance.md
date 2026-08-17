@@ -55,7 +55,7 @@ PPS admin\[it\_pps\_admin\]
 
 </td><td>
 
-Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, and agile development.
+Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, agile development, and timeline visualization.
 
 </td><td>
 
@@ -234,8 +234,7 @@ Resource manager\[resource\_manager\]
 Users with this role can: -   Review resource plans, confirm, and allocate resources to tasks.
 -   Create skills and view them in the User Skills list.
 -   Read schedules.
--   Create a group of type pps\_resource.
--   Add users to or remove them from any groups.
+-   Create a group.
 -   Update group name, group email, parent, description, manager, average daily FTE hours/hours per person day, and hourly rate.
 
 </td><td>

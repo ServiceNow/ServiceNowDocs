@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist for Manufacturing Commercial Operations \(MCO\)
+title: Using agentic workflows in ServiceNow Otto for Manufacturing Commercial Operations
 description: Use the MCO AI agents within an agentic workflow to extract relevant data from repair documents, enabling the generation of corrective actions and associated charges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-agenetic-workflows.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for MCO, Manufacturing Commercial Operations]
+breadcrumb: [ServiceNow Otto for MCO, Manufacturing Commercial Operations]
 ---
 
-# Using agentic workflows in Now Assist for Manufacturing Commercial Operations \(MCO\)
+# Using agentic workflows in ServiceNow Otto for Manufacturing Commercial Operations
 
 Use the MCO AI agents within an agentic workflow to extract relevant data from repair documents, enabling the generation of corrective actions and associated charges.
 
@@ -41,7 +41,7 @@ Create recall corrective actions AI agent
  Plan and execute recall campaign phases and subphases AI agent
 
 </td></tr></tbody>
-</table>Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
+</table>Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
 
 **Important:** By default, all agent workflow and AI agent records are read-only.
 
@@ -54,9 +54,9 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 **Related topics**  
 
 
-[Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+[Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 
-[Create recall corrective actions using Now Assist for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/execute-recall-campaigns.md)
+[Create recall corrective actions using ServiceNow Otto for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/execute-recall-campaigns.md)
 
 [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)
 

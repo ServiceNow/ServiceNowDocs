@@ -1,5 +1,5 @@
 ---
-title: Report safety incident from ICW Mobile
+title: Report a safety incident from ICW Mobile
 description: Report a safety incident directly from your mobile device when you encounter a safety-related issue on the shop floor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
 
-# Report safety incident from ICW Mobile
+# Report a safety incident from ICW Mobile
 
 Report a safety incident directly from your mobile device when you encounter a safety-related issue on the shop floor.
 

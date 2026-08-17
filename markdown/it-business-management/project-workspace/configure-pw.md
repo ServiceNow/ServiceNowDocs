@@ -16,6 +16,8 @@ breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfoli
 
 Set up and configure the Project Workspace application to initiate and plan your projects, financials, and resources.
 
+-   **[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)**  
+Use the AI Admin Hub console to activate the various AI applications and skills that you’re entitled to.
 -   **[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-projects-pw.md)**  
 Set up the Project Workspace application and start planning on your project.
 -   **[Configuring resources with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-resource-mgmt-prj-wksp.md)**  

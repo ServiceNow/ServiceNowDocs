@@ -58,7 +58,7 @@ Service Catalog is a ServiceNow AI Platform feature that is active by default.
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-catalog-generation.md)**
+-   **[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-catalog-generation.md)**
 
     Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
 

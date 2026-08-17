@@ -67,7 +67,7 @@ Removes one or all attachments associated with a record and deletes the attachme
 -   **[Delete Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/delete-record-flow-designer.md)**  
 Deletes a record on any table.
 -   **[Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/execute-skill-action.md)**  
-Run a published Now Assist skill and use the skill outputs in a flow or subflow.
+Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.
 -   **[Fire Event action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/fire-event-action.md)**  
 Create a system event record in the Event \[sysevent\] table to be processed by a scheduled event handler. Pass event parameters using flow data.
 -   **[Get Attachments on Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-attachments-rec.md)**  

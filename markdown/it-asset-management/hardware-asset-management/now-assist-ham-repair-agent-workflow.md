@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
+title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
 description: Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.html
@@ -13,7 +13,7 @@ keywords: [AI Agents, agentic AI]
 breadcrumb: [Repair order fulfillment in the Hardware Asset Workspace, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
+# ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
 
 Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 
@@ -21,7 +21,7 @@ Use the Help repair hardware assets agentic workflow, driven by AI agents, to ha
 
 ## Help repair hardware assets agentic workflow overview
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The AI agents in the Help repair hardware assets agentic workflow offers these benefits:
 
@@ -49,9 +49,9 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
 
         3.  Assigns a technician for the troubleshooting task, automatically triggering the Help repair hardware assets agentic workflow.
 
-            **Note:** The assigned technician with the inventory\_user role can log in and view the active conversation with the AI agents in the Now Assist panel in the Hardware Asset Workspace by selecting the sparkle icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
+            **Note:** The assigned technician with the inventory\_user role can log in and view the active conversation with the AI agents in the ServiceNow Otto panel in the Hardware Asset Workspace by selecting the Otto icon \[Omitted image "icon-otto-outline-24.svg"\].
 
-            To access the Now Assist panel after it has been activated, you should have the now\_assist\_panel\_user role.
+            To access the panel after it has been activated, you should have the now\_assist\_panel\_user role.
 
     2.  Repair order task validation by the AI agent
         1.  The Asset next best action AI agent retrieves the task details and validates them.
@@ -69,7 +69,7 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
 
                 **Important:** Web searches using third-party large language models \(LLMs\) like Gemini won't be supported for Federal customers.
 
-            2.  Displays the evaluation guide in the Now Assist panel, to help the technician to identify the issue with the asset.
+            2.  Displays the evaluation guide in the panel, to help the technician to identify the issue with the asset.
             3.  Checks with the technician to confirm whether the troubleshooting steps were helpful.
                 -   If the technician confirms that the troubleshooting steps helped, the AI agent performs these steps:
                     1.  Asks the technician to confirm the troubleshoot result \(**Repairable**, **Unrepairable**, or **Redeployable**\) and provide the issue details.
@@ -77,7 +77,7 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
                 -   If the technician confirms that the troubleshooting steps didn't help, the AI agent performs these steps:
                     1.  Requests more details about the issue to refine the web search.
                     2.  Searches the web again to find a detailed evaluation guide that matches with the details provided.
-                    3.  Displays the evaluation guide in the Now Assist panel, to assist the technician in identifying the issue.
+                    3.  Displays the evaluation guide in the panel, to assist the technician in identifying the issue.
                     4.  Checks with the technician to confirm whether the new troubleshooting steps were helpful.
                         -   If the technician confirms that the new troubleshooting steps were helpful, the AI agent updates the task with the troubleshooting result and the issue details provided by the technician, and then closes the task.
                         -   If the technician confirms that the new troubleshooting steps weren't helpful, the agentic workflow stops.
@@ -97,7 +97,7 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
 
                     **Note:** If the model or manufacturer details aren't present on the asset record, the agentic workflow stops.
 
-                2.  Displays the repair instructions in the Now Assist panel, to help the technician to fix the asset issue.
+                2.  Displays the repair instructions in the panel, to help the technician to fix the asset issue.
                 3.  Checks with the technician to confirm whether the repair steps were helpful.
                     -   If the technician confirms that the repair steps were helpful, the AI agent performs these steps:
                         1.  Asks the technician to confirm the repair result \(**Repaired**, **Unrepairable**, or **Redeployable**\) and provide the issue details.
@@ -105,14 +105,14 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
                     -   If the technician confirms that the repair steps weren't helpful, the AI agent performs these steps:
                         1.  Requests more details about the issue to refine the web search.
                         2.  Searches the web again to find repair steps that match with the details provided.
-                        3.  Displays the repair steps in the Now Assist panel, to assist the technician in resolving the issue.
+                        3.  Displays the repair steps in the panel, to assist the technician in resolving the issue.
                         4.  Checks with the technician to confirm whether the new repair steps were helpful.
                             -   If the technician confirms that the new repair steps were helpful, the AI agent updates the task with the details provided by the technician and closes the task.
                             -   If the technician confirms that the new repair steps were not helpful, the agentic workflow stops.
             -   If the issue isn't present on the repair task, the AI agent performs the following actions:
                 1.  Requests more details about the issue to refine the web search.
                 2.  Searches the web again to find repair steps that match with the details provided.
-                3.  Displays the repair steps in the Now Assist panel, to assist the technician in resolving the issue.
+                3.  Displays the repair steps in the panel, to assist the technician in resolving the issue.
                 4.  Checks with the technician to confirm whether the new repair steps were helpful.
                     -   If the technician confirms that the new repair steps were helpful, the AI agent updates the task with the details provided by the technician, and then closes the task.
                     -   If the technician confirms that the new repair steps weren't helpful, the agentic workflow stops.
@@ -121,7 +121,7 @@ The AI agents in the Help repair hardware assets agentic workflow offers these b
 
 Roles required:
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## AI agents used in the Help repair hardware assets agentic workflow
 

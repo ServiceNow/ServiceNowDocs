@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customersuccessmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -128,6 +128,20 @@ Australia
 
 </td><td>
 
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[Product adoption roadmap versioning](https://www.servicenow.com/docs/access?context=account-lifecycle-par-versioning&family=australia&ft:locale=en-US)**
+
+Track the history of published roadmap states and restore an earlier version as needed. Publishing a roadmap creates a version record with a complete snapshot of the lanes and items. You can revert to any previous version without losing the roadmap.
+
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Customer Discovery Hub](https://www.servicenow.com/docs/access?context=account-lifecycle-customer-discovery-hub&family=australia&ft:locale=en-US)**
+
+Customer Discovery Hub provides a structured way to capture and preserve customer business context from pre-sales through the post-sale handoff. Sales teams document business needs, challenges, expectations, and use cases that automatically carry forward to engagement records. This gives customer success managers immediate insight into customer objectives and success criteria.
+
+
 [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[Adaptive desktop actions](https://www.servicenow.com/docs/access?context=now-assist-adaptive-desktop-actions&family=australia&ft:locale=en-US)**
@@ -143,15 +157,15 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 Australia Early Availability
 
 -   **[Squad resource identifier](https://www.servicenow.com/docs/access?context=now-assist-squad-resource-identifier&family=australia&ft:locale=en-US)**
 
-Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations, helping to ensure faster and more effective collaboration across engagements.
+Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations. This helps to promote faster and more effective collaboration across engagements.
 
 -   **[Product release email communication](https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&family=australia&ft:locale=en-US)**
 
@@ -201,7 +215,12 @@ Australia
 
 </td><td>
 
-Australia Early Availability
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
+
+**Australia Early Availability**
 
 -   **[Touchpoint home page](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-home&family=australia&ft:locale=en-US)**
 
@@ -449,11 +468,19 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Capture and preserve customer business context from pre-sales through post-sale handoff with Customer Discovery Hub.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Describes what task you want to accomplish on web at a high level in the tool configuration.
 
- Australia Early Availability
+ **Australia Early Availability**
 
 -   Automatically draft, refine, and publish release announcement emails to the multiple customers regarding the product changes and features adoption.
 -   Identify and match internal experts to customer needs based on engagement context, skills, region, and real-time availability.

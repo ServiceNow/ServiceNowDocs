@@ -47,6 +47,8 @@ If you have manually allocated user-based subscriptions before, you can still ma
 8.  Verify that the subscription is no longer over-allocated by checking the value in the **Status** column on the **Subscriptions** tab.
 
 
+If you can't manually allocate user-based subscriptions despite having manually allocated them in the past, see [Missing subscribed groups and users tabs in subscription management \[KB2974856\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2974856)
+
 ## What to do next
 
 The group is removed from the subscription. If the group still has a measured-role that requires a subscription, add the group to a different subscription or remove the measured-role from the group.

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ema
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction for CSM reference, Reference, Customer Service Management]
 ---
@@ -205,7 +205,7 @@ Summarize this interaction
 
 </td><td>
 
-Displays the AI-generated summary of the email interaction. Agents can refresh the summary, copy it, provide feedback, or save it to the interaction record. **Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature.
+Displays the AI-generated summary of the email interaction. Agents can refresh the summary, copy it, or provide feedback. **Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature.
 
 </td></tr></tbody>
 </table><table id="table_lhx_qz5_zdc"><thead><tr><th>
@@ -292,7 +292,7 @@ Summarize
 
 </td><td>
 
-Generates an AI summary of the email interaction using ServiceNow Otto. The summary appears in the Interaction Summary card and may include Issue, Key Actions Taken, and Next Steps depending on the email content.**Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature. For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md) and [Summarize an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/summarize-email-interaction-eaai.md)
+Generates an AI summary of the email interaction using ServiceNow Otto. The summary appears in the Interaction Summary card and may include Issue, Key Actions Taken, and Next Steps depending on the email content.**Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature. For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md) and [Summarize an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/summarize-email-interaction-eaai.md).
 
 </td></tr><tr><td>
 

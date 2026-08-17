@@ -1,6 +1,6 @@
 ---
 title: Create a derived dataset
-description: Create a smaller, derived dataset from an existing dataset using Now Assist Data Kit. Use derived datasets to isolate specific records for focused ground truth labeling or evaluation without modifying the original dataset.
+description: Create a smaller, derived dataset from an existing dataset using AI Data Kit. Use derived datasets to isolate specific records for focused ground truth labeling or evaluation without modifying the original dataset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/create-derived-dataset.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Create a derived dataset
 
-Create a smaller, derived dataset from an existing dataset using Now Assist Data Kit. Use derived datasets to isolate specific records for focused ground truth labeling or evaluation without modifying the original dataset.
+Create a smaller, derived dataset from an existing dataset using AI Data Kit. Use derived datasets to isolate specific records for focused ground truth labeling or evaluation without modifying the original dataset.
 
 ## Before you begin
 

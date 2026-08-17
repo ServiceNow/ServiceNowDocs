@@ -7,8 +7,8 @@ release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 2
 breadcrumb: [Configure patterns, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
@@ -31,7 +31,7 @@ NER data patterns can be used for:
 
     **Note:** This capability requires adding the NER data pattern to [Active Data Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/dds-active-data-patterns.md).
 
--   Masking NER data patterns when configuring [Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.md).
+-   Masking NER data patterns when configuring [ServiceNow Otto for Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.md).
 
 <table id="table_wfd_1ll_gxb"><thead><tr><th>
 

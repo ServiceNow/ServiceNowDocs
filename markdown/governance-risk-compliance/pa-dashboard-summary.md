@@ -33,7 +33,7 @@ Platform Analytics dashboards are displayed in the Business Continuity Workspace
 
     **Note:** The base system dashboard is read-only and must be duplicated before editing.
 
-    The dashboard is personalized for each signed-in BCM user; When you create a dashboard from the drop-down menu, it is visible only to you.
+    The dashboard is personalized for each signed-in BCM user; when you create a dashboard from the drop-down menu, it is visible only to you.
 
     \[Omitted image "bcm-manager-homepage-dashboard.jpg"\] Alt text: Business continuity management dashboard shown as the home page for a BCM Manager, with My items and My actions sections.
 

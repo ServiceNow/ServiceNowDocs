@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentexperienceforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -243,6 +243,15 @@ Streamline tab management and reduce browser clutter with ServiceNow Link Manage
 -   **[Follow records to receive notifications](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=zurich&ft:locale=en-US)**
 
 Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the [Front-line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US) and the [CSM default record page](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=zurich&ft:locale=en-US).
+
+-   **Information icon**
+
+Select the information icon on a reference field to display additional information about the record in a pop-up window. Starting with CSM Configurable Workspace Bundle version 5.0, the information displays in a pop-up window with an option to open in a separate tab instead of opening directly in a separate tab. This change applies to the following record pages:
+
+    -   CSM Front-line case page
+    -   CSM default record page
+    -   CSM Interaction record page
+Users can use Cmd+click \(Mac\) or Ctrl+click \(Windows\) when selecting the information icon to use the previous behavior.
 
 
 </td></tr><tr><td>

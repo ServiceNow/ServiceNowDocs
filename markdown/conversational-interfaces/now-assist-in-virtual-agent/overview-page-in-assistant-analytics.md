@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Overview page in Assistant analytics
@@ -40,7 +40,7 @@ The visualizations on the Overview page provide the following insights.
 
 -   **Assist Usage Volume**
 
-    This area of the dashboard shows the trend of assists consumed via AI assistants within the selected date range. The assists are determined by the Now Assist actions executed. This metric reveals the assistants that are lowest and highest consumers of assists.
+    This area of the dashboard shows the trend of assists consumed via AI assistants within the selected date range. The assists are determined by the AI actions executed. This metric reveals the assistants that are lowest and highest consumers of assists.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-overview-assist-usage.png"\] Alt text: Assist Usage Volume.
 
@@ -52,7 +52,7 @@ The visualizations on the Overview page provide the following insights.
 
 -   **Total Assist Usage**
 
-    This area of the dashboard shows the total number of assists consumed by the assistants in the selected date range. The assists are determined by the now assist actions executed. Use this metric to optimize assist usage and track progress towards usage goals.
+    This area of the dashboard shows the total number of assists consumed by the assistants in the selected date range. The assists are determined by the AI actions executed. Use this metric to optimize assist usage and track progress towards usage goals.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-overview-total-usage.png"\] Alt text: Total Assist Usage.
 

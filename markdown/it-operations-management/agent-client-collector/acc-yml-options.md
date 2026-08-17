@@ -236,11 +236,11 @@ Boolean
 
 </td><td>
 
-True
+true
 
 </td><td>
 
-Verifies the plugin signature prior to execution. Disable when using self-signed or developmental plugins.
+Verifies the plugin signature before execution. Disable when using self-signed or developmental plugins.
 
 </td><td>
 
@@ -256,11 +256,11 @@ Boolean
 
 </td><td>
 
-True
+true
 
 </td><td>
 
-Determines whether the verify the certificate when connecting to the MID Server.
+Determines whether to verify the certificate when connecting to the MID Server.Set as **false** to enforce full TLS verification.
 
 </td><td>
 
@@ -276,7 +276,7 @@ Boolean
 
 </td><td>
 
-True
+true
 
 </td><td>
 
@@ -296,7 +296,7 @@ Boolean
 
 </td><td>
 
-False
+false
 
 </td><td>
 
@@ -309,6 +309,26 @@ Indicates the preference of executables provided within ACC plugins or executabl
 
 </td></tr><tr><td>
 
+command-log-redaction-regex
+
+</td><td>
+
+String
+
+</td><td>
+
+`'-password[=\s]([^"\s]+)|-[pP]\s([^"\s]+)|--user\s[^":\s]+:([^\s"]+)|-pw\s([^"\s]+)|-u\s[^":\s]+:([^\s"]+)|[^"\s]+/([^\s"]+)@‘`
+
+</td><td>
+
+The regex to search for and to remove potentially sensitive user information from ACC logs and payloads.
+
+</td><td>
+
+`'-password[=\s]([^"\s]+)|-[pP]\s([^"\s]+)|--user\s[^":\s]+:([^\s"]+)|-pw\s([^"\s]+)|-u\s[^":\s]+:([^\s"]+)|[^"\s]+/([^\s"]+)@‘`
+
+</td></tr><tr><td>
+
 powershell\_installed
 
 </td><td>
@@ -317,7 +337,7 @@ Boolean
 
 </td><td>
 
-False
+false
 
 </td><td>
 
@@ -325,7 +345,7 @@ Disables powershell command execution on agents.
 
 </td><td>
 
-`powershell-installed: true`
+`powershell_installed: true`
 
 </td></tr><tr><td>
 
@@ -337,7 +357,7 @@ Boolean
 
 </td><td>
 
-False
+false
 
 </td><td>
 

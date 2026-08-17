@@ -56,7 +56,7 @@ Roles control what everyone you work with can do in Creator Studio. Administrato
 -   **[Creator Studio and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-domain-separation.md)**  
 Domain separation is not supported in Creator Studio. This means that you can't separate data, processes, and administrative tasks into distinct groups, called domains, within the ServiceNow AI Platform.
 -   **[Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-configure-now-assist.md)**  
-Install and configure Now Assist for Creator in Creator Studio.
+Install and configure ServiceNow Otto for Creator in Creator Studio.
 
 **Parent Topic:**[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md)
 

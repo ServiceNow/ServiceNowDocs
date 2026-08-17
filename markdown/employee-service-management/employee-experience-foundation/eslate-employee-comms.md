@@ -63,14 +63,3 @@ You can delete, duplicate, set to published, or inactivate content directly from
 
 \[Omitted image "esa-content-feed-mgmt.png"\] Alt text: Content library showing announcements in grid view with Published and Draft status and context menu options to duplicate, set to published, or delete
 
-**Related topics**  
-
-
-[Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
-
-[Conversational authoring for announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.md)
-
-[Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)
-
-[Employee Slate announcement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.md)
-

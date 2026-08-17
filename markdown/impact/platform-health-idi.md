@@ -16,23 +16,17 @@ Use Impact Platform Health to track Tech Key Performance Indicators \(KPIs\) to 
 
 ## Get started
 
-<table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
+<table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td align="center">
 
-[Scan Engine for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-healthscan-store-app.md)
+[Prevent and resolve technical debt with AI\[Omitted image "bus-optimize-manage.svg"\] Alt text:Improve quality, compliance, and performance with real-time code inspections and solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/prevent-resolve-technical-debt-ai.md)
 
- \[Omitted image "bus-optimize-manage.svg"\] Alt text:Proactive management of instance quality, compliance, and performance with real-time automation of code inspections.
+</td><td align="center">
 
-</td><td>
+[Developer Support\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Access a ServiceNow Support Engineer who can assist in troubleshooting technical issues around existing platform customizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md)
 
-[Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md)
+</td><td align="center">
 
- \[Omitted image "bus-1-1-meetings.svg"\] Alt text: Provides access to a ServiceNow Support Engineer who can assist in troubleshooting technical issues around existing platform customizations.
-
-</td><td>
-
-[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
-
- \[Omitted image "bus-performance-forecasting-1.svg"\] Alt text: Track your instance health and performance in near real-time, while also providing historical insights.
+[Instance Observatory\[Omitted image "bus-performance-forecasting-1.svg"\] Alt text:Track your instance health and performance in near real-time, while also providing historical insights.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
 </td></tr></tbody>
 </table>**Note:** Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.

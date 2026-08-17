@@ -31,7 +31,7 @@ When you use Problem Management with one of the following ServiceNow products, y
 
 -   Discovery provides details about the tangible/physical and software CIs you are using.
 -   Service Portfolio Management provides life-cycle information for a service.
--   Asset Management provides the related product model. Software Asset Management \(SAM Foundation \) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Portfolio Management.
+-   Asset Management provides the related product model. Software Asset Management \(SAM Foundation \) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Lifecycle Management.
 -   Security Management provides initial information to containment, eradication, and recovery of security related problems.
 -   Risk Management provides IT risk and financial risk information.
 

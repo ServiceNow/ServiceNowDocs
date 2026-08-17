@@ -9,8 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, invoice exception, invoice tolerance]
-breadcrumb: [Tolerance Rules and Variances for invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice tolerance, APO Admin, Subflow]
+breadcrumb: [Tolerance rules and variances for invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Map invoice tolerance type with invoice exception definition
@@ -31,10 +31,10 @@ Role required: sn\_ap\_apm.admin
 
     For more information on the tolerance type, see [Define an invoice tolerance type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.md).
 
-3.  You must update the **Subflow** logic to include associated tolerance type logic as per the business requirement.
+3.  Update the **Subflow** logic to include associated tolerance type logic for your business requirement.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

@@ -28,7 +28,7 @@ With Certificate Inventory and Management, you can discover, conduct an inventor
 
 </td><td>
 
-[Certificate Inventory and Management reference\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Familiarize yourself with dashboards, tables, patterns, and terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+[Reference Certificate Inventory and Management\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Familiarize yourself with dashboards, tables, patterns, and terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

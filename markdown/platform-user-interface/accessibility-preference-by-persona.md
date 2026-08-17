@@ -166,7 +166,7 @@ Physical
 
 </td><td>
 
-[Enable voice input for the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-voice-input-pref.md)
+[Enable voice input for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-voice-input-pref.md)
 
 </td><td>
 

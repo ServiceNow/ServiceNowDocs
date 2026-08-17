@@ -1,6 +1,6 @@
 ---
 title: Open DEX Application and Device Health
-description: DEX Application and Device Health provides proactive visibility that helps you understand your organization end-user experience and diagnose any issues. With features such as application and user navigation, trend analysis, and other useful metrics, the DEX Application and Device Health enables you to identify the root cause of an issue, rather than just treating the symptoms.
+description: DEX Application and Device Health provides proactive visibility into your organization's end-user experience and helps you diagnose issues. Use features such as application and user navigation and trend analysis to identify the root cause of an issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/open-dex-workspace.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 
 # Open DEX Application and Device Health
 
-DEX Application and Device Health provides proactive visibility that helps you understand your organization end-user experience and diagnose any issues. With features such as application and user navigation, trend analysis, and other useful metrics, the DEX Application and Device Health enables you to identify the root cause of an issue, rather than just treating the symptoms.
+DEX Application and Device Health provides proactive visibility into your organization's end-user experience and helps you diagnose issues. Use features such as application and user navigation and trend analysis to identify the root cause of an issue.
 
 ## Before you begin
 

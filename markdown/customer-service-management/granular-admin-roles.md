@@ -58,7 +58,7 @@ sn\_service\_org.service\_org\_admin
 
 </td><td>
 
-Provides all CRUD access to service organization entities, which come under Service Model Foundation flows
+Provides all CRUD access to organization core \(formerly service organization\) entities, which come under Service Model Foundation flows
 
 </td><td>
 

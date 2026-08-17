@@ -30,7 +30,7 @@ Before you can [enable dynamic machine translation](https://raw.githubuserconten
 
     **Note:** NLU detection and discovery values are stored in the sys\_cs\_general\_settings table. As of Vancouver, ServiceNow NLU is the available NLU driver.
 
-4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using Now Assist in Virtual Agent.
+4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using ServiceNow Otto in Virtual Agent.
 5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dyn-translation-exclusion-framework.md).
 
 The following translation service providers are pre-configured once the plugins are installed:

@@ -1,6 +1,6 @@
 ---
 title: Plugins installed with Public Sector Digital Services Applications
-description: These plugins are automatically installed with the following Public Sector Digital Services applications, if they are not already active.
+description: These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/plugins-installed-with-psds-addtl-plugins.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Components and roles installed, Reference, Public Sector Digital Se
 
 # Plugins installed with Public Sector Digital Services Applications
 
-These plugins are automatically installed with the following Public Sector Digital Services applications, if they are not already active.
+These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
@@ -26,11 +26,11 @@ The following plugins are activated when you enable the Public Sector Digital Se
 |Business Location \(sn\_bus\_loc\)|Enables support for businesses that interact with customers through physical channels such as stores, branches, franchises, and dealerships. Business locations can also support other service organizations.|
 |Agency Support Model \(com.sn\_agency\_support\_model\)|Provides support for agency services to connect constituents, businesses, and agencies on a single public sector vertical platform. Supports a 360-degree view of agency activity in agent workspaces.|
 |Customer Service Case Types \(com.snc.csm\_case\_types\)|Enables agency customers to manage complex case processes by defining new case types. A case type represents an individual business process and is a collection of diverse inputs and tasks that an agent performs to resolve constituent requests.|
-|Customer Service Portal \(com.glide.service-portal.customer-portal\)|Supports business-to-business \(B2B\) organizations to support their customers. Provides out of the box self-service capabilities for customers to search information or request assistance from a service agent.|
+|Customer Service Portal \(com.glide.service-portal.customer-portal\)|Supports business-to-business \(B2B\) organizations to support their customers. Provides default self-service capabilities for customers to search information or request assistance from a service agent.|
 |Customer Service Install Base Management \(com.snc.install\_base\)|Enables customers to capture the current state of their install base and establish the relationship to any downstream entities that might impact their functioning.|
 |Service Applicant Information \(com.sn\_svc\_appl\_info\)|Enables customers to capture additional information entered during the case creation/application process. Includes a data model and corresponding custom UIs to facilitate storing new applicant information, their associated financial information, and other constituent/business contact data.|
 |Service Applicant Program Management \(com.sn\_svc\_appl\_pgm\_mg\)|The Service Applicant Program Management application, in partnership with Strategic Portfolio Management, empowers organizations to quickly design, configure, and launch applicant-facing programs, such as grants.|
-|Service Request Criteria \(sn\_req\_criteria\)|Allows government service agents to view only relevant service definitions while creating a case. Service definitions can be filtered using user criteria and entity criteria which shows only relevant service definitions for agents and constituents. Admins can create new customer criteria for constituents, accounts. Constituents can see relevant service definitions in the customer portal based on customer criteria setup by admins.|
+|Service Request Criteria \(sn\_req\_criteria\)|Allows government service agents to view only relevant service definitions while creating a case. Service definitions can be filtered using user criteria and entity criteria which shows only relevant service definitions for agents and constituents. Admins can create customer criteria for constituents, accounts. Constituents can see relevant service definitions in the customer portal based on customer criteria setup by admins.|
 
 ## Plugins installed with Investigative Case Management
 
@@ -150,7 +150,7 @@ Expanded Model and Asset Classes \(com.sn\_ent\)
 
 </td><td>
 
-Contains all new, out-of-the-box, expanded model classes, asset classes, and model categories defined by ServiceNow. Installation of the Asset Management \(com.snc.asset\_management\) plugin is a prerequisite for this application.
+Contains all new, default, expanded model classes, asset classes, and model categories defined by ServiceNow. Installation of the Asset Management \(com.snc.asset\_management\) plugin is a prerequisite for this application.
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ Service Applicant Information \(sn\_svc\_appl\_info\)
 
 </td><td>
 
-Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces to capture and manage key information—including financial details—at the point of entry.
+Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces. You can capture and manage key information—including financial details—at the point of entry.
 
 </td></tr><tr><td>
 
@@ -219,7 +219,7 @@ Expanded Model and Asset Classes \(com.sn\_ent\)
 
 </td><td>
 
-Contains all new, out-of-the-box, expanded model classes, asset classes, and model categories defined by ServiceNow. Installation of the Asset Management \(com.snc.asset\_management\) plugin is a prerequisite for this application.
+Contains all new, default, expanded model classes, asset classes, and model categories defined by ServiceNow. Installation of the Asset Management \(com.snc.asset\_management\) plugin is a prerequisite for this application.
 
 </td></tr><tr><td>
 
@@ -244,7 +244,7 @@ Policy as Code Engine \(com.sn\_pace\)
 
 </td><td>
 
-Contains the UI components to support the UI functionality of Policy as Code Engine \(PaCE\), which provides a centralized platform for storing, managing, and using policies, which are pre-defined rule-sets that drive eligibility determination and benefits and can be mapped to one or more social benefit types. This plugin includes the Policy as Code Engine UI \(com.sn\_pace\_builder\).
+Contains the UI components to support the UI functionality of Policy as Code Engine \(PaCE\). PaCE provides a centralized platform for storing, managing, and using policies, which are pre-defined rule-sets that drive eligibility determination and benefits. Policies can be mapped to one or more social benefit types. This plugin includes the Policy as Code Engine UI \(com.sn\_pace\_builder\).
 
 </td></tr></tbody>
 </table>## Plugins installed with License and Permit Playbook
@@ -298,7 +298,7 @@ Expanded Model and Asset Classes \(com.sn\_ent\)
 
 </td><td>
 
-Contains all new, out-of-the-box, expanded model classes, asset classes, and model categories defined by ServiceNow. Installation of the Asset Management \(com.snc.asset\_management\) plugin is a prerequisite for this application.
+Contains all new, default, expanded model classes, asset classes, and model categories defined by ServiceNow. Installation of the Asset Management \(com.snc.asset\_management\) plugin is a prerequisite for this application.
 
 </td></tr><tr><td>
 
@@ -306,7 +306,7 @@ Service Applicant Information \(sn\_svc\_appl\_info\)
 
 </td><td>
 
-Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces to capture and manage key information—including financial details—at the point of entry.
+Extends your application and case intake processes by enabling the collection of detailed applicant data. Designed to support both primary and additional applicants, the plugin provides a flexible data model and user-friendly interfaces. Capture and manage key information—including financial details—at the point of entry.
 
 </td></tr><tr><td>
 
@@ -449,11 +449,11 @@ The following plugins are installed with the Service Portal \(com.glide.service-
 |Service Portal Designer \[com.glide.service-portal.designer\]| |
 |Service Portal Surveys \[com.glide.service-portal.survey\]| |
 
-## Plugins installed with Now Assist for Public Sector Digital Services \(PSDS\)
+## Plugins installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-The following plugins are installed with Now Assist for Public Sector Digital Services \(PSDS\) \(com.sn\_psds\_gen\_ai\) application:
+The following plugins are installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\) \(com.sn\_psds\_gen\_ai\) application:
 
-- Now Assist Platform \(com.sn\_genai\_platform\)
+- ServiceNow Otto Platform \(com.sn\_genai\_platform\)
 
 ## Optional Plugins available for Public Sector Digital Services and related apps
 

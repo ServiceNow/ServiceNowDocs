@@ -81,7 +81,7 @@ To learn more about configuring and using ServiceNow Vault, see:
 
 </td></tr></tbody>
 </table>-   **[AI in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-now-assist-vault.md)**  
-With the Now Assist for Vault application, you can automate many tasks in Vault with the help of AI. These tasks include securing custom applications to improve your security posture, checking role access for an encrypted column to monitor your instance’s encryption access posture, and others.
+With the ServiceNow Otto for Vault application, you can automate many tasks in Vault with the help of AI. These tasks include securing custom applications to improve your security posture, checking role access for an encrypted column to monitor your instance’s encryption access posture, and others.
 -   **[Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-suite.md)**  
 Vault Suite deploys the complete set of ServiceNow Vault capabilities on your instance automatically, eliminating manual plugin setup.
 

@@ -24,7 +24,7 @@ With the Customer Service Management application, you can automate your processe
 
 -   **Establishing real-time visibility into your customers’ products and services**
 
-    Proactively detect and prevent issues by sending preemptive alerts to your affected customers. You can identify and predict trends to drive the actionable improvements and automate the resolutions for the most often recurring problems.
+    Proactively detect and prevent issues by sending preemptive alerts to your affected customers. You can identify and predict trends to improve and automate resolutions for the most often recurring problems.
 
 -   **Identifying and assigning your issues directly**
 
@@ -41,7 +41,7 @@ The following infographic shows a sample Customer Service Management workflow th
 
 ## Benefits
 
-By utilizing CSM, you can streamline operations throughout the front, middle, and back office, resulting in improved efficiency. Additionally, you can implement self-service features across multiple channels and automate issue resolution. Furthermore, CSM empowers agents with real-time information and intelligent guidance, ultimately enhancing their performance.
+With CSM, you can streamline operations across the front, middle, and back office. You can also roll out self-service across multiple channels and automate issue resolution. CSM gives agents real-time information and guidance to help them perform better.
 
 <table id="table_lrg_lmc_kvb"><thead><tr><th>
 

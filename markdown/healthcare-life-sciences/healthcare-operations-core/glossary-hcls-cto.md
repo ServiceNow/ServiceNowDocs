@@ -54,7 +54,7 @@ A service organization record that is automatically created when a healthcare or
 
 For example, when the "Cardiology Department" healthcare organization is created, an associated internal business location with the same name is auto-generated.
 
-To learn more about business locations, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more about business locations, see [Setting up healthcare locations and healthcare organizations]().
 
 ## C
 
@@ -180,7 +180,7 @@ A record in the cmn\_location table that provides the foundational location data
 
 For example, an administrator sets up a common location for "Building A" and then creates a healthcare location that references it and adds the physical type "Building."
 
-To learn more about common locations, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more about common locations, see [Setting up healthcare locations and healthcare organizations]().
 
 ### CSM/FSM Configurable Workspace
 
@@ -285,10 +285,9 @@ For example, an IT agent identifies a broken monitor in PICU Room 204 because th
 
 To learn more, see:
 
--   [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-location.md)
--   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
--   [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
--   [Organizing your healthcare locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/untitled3.md)
+-   [Create a healthcare location]()
+-   [Setting up healthcare locations and healthcare organizations]()
+-   [Associate healthcare locations with a healthcare organizations]()
 -   [Healthcare Operations Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.md)
 
 ### Healthcare Operations Case
@@ -329,11 +328,10 @@ For example, a hierarchy is configured as: HQ → City Hospital → Nursing Depa
 
 To learn more, see:
 
--   [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-organizations.md)
--   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
--   [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
--   [Create organizational teams in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-organizational-teams.md)
--   [Organizing your healthcare organizations for Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/example-organizing-hcls-organizations.md)
+-   [Create a healthcare organization]()
+-   [Setting up healthcare locations and healthcare organizations]()
+-   [Associate healthcare locations with a healthcare organizations]()
+-   [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-create-healthcare-organization.md)
 
 ### Healthcare Organization Location Association
 
@@ -343,8 +341,8 @@ For example, the ICU unit organization is associated with rooms 301–310 so tha
 
 To learn more, see:
 
--   [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
--   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
+-   [Associate healthcare locations with a healthcare organizations]()
+-   [Setting up healthcare locations and healthcare organizations]()
 -   [Healthcare Operations Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.md)
 
 ## I
@@ -425,6 +423,8 @@ For example, the Care Team Member responsibility in HCO maps to the "Service loc
 
 To learn more, see:
 
+-   [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md)
+-   [Service Model Foundation data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models-smf.md)
 -   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
 -   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
 -   [Setting up roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.md)

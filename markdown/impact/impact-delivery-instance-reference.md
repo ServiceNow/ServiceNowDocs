@@ -33,12 +33,10 @@ If you choose not to connect to the Impact Delivery Instance, refer to the follo
 
 Impact Store Application features supported without the connection to the Impact Delivery Instance:
 
--   [Scan Engine for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-healthscan-store-app.md)
--   [Real-time prevention monitoring for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring-combined.md)
+-   [Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/prevent-resolve-technical-debt-ai.md)
 -   [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-diagnostic-dashboards.md)
 -   [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
--   [Now Assist for Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-health-agent.md)
--   [Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+-   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
 Impact Store Application features that require a connection to the Impact Delivery Instance:
 
@@ -48,7 +46,7 @@ Impact Store Application features that require a connection to the Impact Delive
 -   [Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-recommendations-iip-ws.md)
 -   [Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
 -   [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/impact-in-platform-business-outcomes.md)
--   [Consumption Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-consumption-report.md)
+-   [Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-consumption-report.md)
 
 -   **[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)**  
 The Impact Delivery Instance is delivered to you with minimal technical configuration required. Many of the setup steps involve planning within your organization and with your Impact Squad.
@@ -63,15 +61,15 @@ Review and approve Initiative and Accelerator activities access using **Manage P
 -   **[Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/request-accelerator.md)**  
 Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators, from the IDI.
 -   **[Objectives and Outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/objectives-and-outcomes-in-impact-delivery-instance.md)**  
-The value management lifecycle starts with the creation of the Objectives and outcomes, which captures your objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
+The value management lifecycle starts with the creation of the Objectives and outcomes that are high-level goals tied to measurable outcomes that help illustrate value over time.
 -   **[Value Reports in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-reports-in-impact-delivery-instance.md)**  
 Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a **Value Report.**
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/outcomes-insights-in-impact-delivery-model.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/outcomes-insights-in-impact-delivery-model.md)**  
-
 -   **[Manage product adoption roadmaps for Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-and-publish-a-product-adoption-roadmap.md)**  
 Create a product Adoption Roadmap \(PAR\) with a single click by selecting the template that best supports your specific business outcome.
 -   **[Manage capabilities maps in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-capabilities.md)**  
 Manage the usage status for capabilities and how they’re being used in your instance. The information in the capabilities status fields feeds the capabilities maps summary bar.
+-   **[Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-consumption-report.md)**  
+Get an overview of your Impact tier features and their usage.
 -   **[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/subscriptions.md)**  
 See a list of your subscriptions for all of your instances and the list of applications that you’re entitled to, as part of those subscriptions, in one comprehensive view.
 -   **[Training Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/training-insights.md)**  

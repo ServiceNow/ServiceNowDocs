@@ -1,5 +1,5 @@
 ---
-title: Usage Limitations for SQL API
+title: Usage limitations for SQL API
 description: The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/usage-limitations.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Usage Limitations for SQL API
+# Usage limitations for SQL API
 
 The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 

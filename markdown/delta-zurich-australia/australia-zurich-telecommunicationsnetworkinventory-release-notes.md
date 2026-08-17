@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-telecommunicationsnetworkinventory-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -150,19 +150,18 @@ Enable your customers to request services such as power usage enquiries, equipme
 Remote Hands Request Summarization generates contextual summary of a Remote Hands case by combining current case data with insights from similar historical cases, using information submitted by the DCIM user through the CSM portal.
 
 
- [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   **[IP address management](https://www.servicenow.com/docs/access?context=ip-address-management&family=australia&ft:locale=en-US)**
 
 Multi-layer nested IP Subnetworks with CIDR validation: You can now create IP Subnetworks within IP Subnetworks, supporting recursive nesting for both IPv4 and IPv6. When creating a subnetwork at any level, the system validates that the CIDR is correctly formatted, falls within the parent's range, is more specific than the parent, and is unique within the parent.
 
 
--   **[Naming patterns in inventory templates](https://www.servicenow.com/docs/access?context=naming-patterns-in-inventory-templates&family=australia&ft:locale=en-US)**
+-   **[Inventory template naming patterns](https://www.servicenow.com/docs/access?context=naming-patterns-in-inventory-templates&family=australia&ft:locale=en-US)**
 
 Author patterns from a variable library with real-time validation, verify resolved names across the full template hierarchy from a new Overview tab at design time, and add custom validation rules.
 
-
--   **[Assign user role](https://www.servicenow.com/docs/access?context=telecom-inventory-roles&family=australia&ft:locale=en-US)**
+-   **[Roles](https://www.servicenow.com/docs/access?context=telecom-inventory-roles&family=australia&ft:locale=en-US)**
 
 Standard ServiceNow platform roles no longer have read access to specific TNI tables. This change affects both new installations and upgrades.
 
@@ -173,8 +172,20 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   **[Rack allocation workflow](https://www.servicenow.com/docs/access?context=rack-allocation-workflow&family=australia&ft:locale=en-US)**
+
+The rack allocation agentic workflow reserves rack unit space in a datacenter by evaluating placement policies, capacity metrics, and change request requirements to find suitable rack allocations.
+
+
+-   **[TNI Data Model Navigator](https://www.servicenow.com/docs/access?context=data-model-navigator&family=australia&ft:locale=en-US)**
+
+A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 
 
 </td></tr></tbody>
@@ -211,7 +222,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -460,6 +474,11 @@ Australia Early Availability
 -   Create IP addresses directly within an IP subnetwork.
 -   Define reusable naming patterns using the new TNI CI Naming application with real-time validation, hierarchical name construction, and interactive preview before applying to the inventory.
 -   Access control update — TNI table permissions
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+
+-   Reserves rack unit space in a datacenter with rack allocation agentic workflow
+-   TNI Data Model Navigator, a CMDB framework that presents a curated, domain-specific view of telecom
 
  See [Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=telecom-network-inventory&family=australia&ft:locale=en-US) for more information.
 

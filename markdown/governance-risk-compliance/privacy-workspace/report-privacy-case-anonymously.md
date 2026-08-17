@@ -1,6 +1,6 @@
 ---
 title: Report a privacy case anonymously
-description: Use the Anonymous Reporting Center \(ARC\) to submit any suspected or confirmed privacy case without disclosing your identity.
+description: Submit any suspected or confirmed privacy case without having to disclose your identity using the Anonymous Reporting Center \(ARC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.html
 release: australia
@@ -14,27 +14,23 @@ breadcrumb: [Report a privacy case, Use, Privacy Case Management, Privacy Manage
 
 # Report a privacy case anonymously
 
-Use the Anonymous Reporting Center \(ARC\) to submit any suspected or confirmed privacy case without disclosing your identity.
+Submit any suspected or confirmed privacy case without having to disclose your identity using the Anonymous Reporting Center \(ARC\).
 
 ## Before you begin
 
-Role required: sn\_privacy\_case.privacy\_case\_business\_user
-
-**Note:** This role is only required to access the **Employee Center**. No role is required to submit a report directly through ARC.
+Role required: To access Employee Center, you must have the sn\_privacy\_case.privacy\_case\_business\_user role.
 
 ## About this task
 
-ARC enables you to report suspected misconduct safely and confidentially, encouraging early disclosure of privacy issues that might otherwise go unreported. You can report a case anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it.
+When submitting an anonymous report, don't include personal data about yourself or other individuals that could directly or indirectly reveal an identity. For example, do not include names, email addresses, or phone numbers.
 
-**Note:** When submitting an anonymous report, don't include personal data about yourself or other individuals that could directly or indirectly reveal an identity. For example, names, email addresses, or phone numbers.
-
-Anonymous reports accept standard text characters. Avoid including executable code, scripts, or unsupported special characters, because they may be removed automatically during submission. For more information, refer to [Overview of Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
+Avoid including executable code, scripts, or unsupported special characters, which will be removed automatically during submission. For more information, refer to [Overview of Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  On the **Employee Center** landing page, select **Risk and compliance**.
+2.  On the Employee Center landing page, select the **Risk and compliance** tab.
 
 3.  Select the **Visit Anonymous Report Center** card.
 
@@ -46,11 +42,11 @@ Anonymous reports accept standard text characters. Avoid including executable co
 
 6.  Select **Report a privacy case**.
 
-7.  On the form, fill in the fields.
+7.  On the Report a Privacy Case form, fill in the fields.
 
-    For a description of the field values on the **Report a Privacy Case** form, see [Anonymous privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md).
+    For a description of the field values, see [Report a privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md).
 
-8.  Enter the CAPTCHA verification code on the screen.
+8.  Enter the CAPTCHA verification code displayed on the screen in the **Text verification** field.
 
 9.  Select **Submit**.
 
@@ -61,12 +57,12 @@ Anonymous reports accept standard text characters. Avoid including executable co
 
 ## Result
 
-A privacy case is created and routed to the privacy case team for review. Your identity remains anonymous and is recorded as a guest. If the assigned case analyst needs more details, they may add comments to the report.
+A privacy case is created and routed to the privacy case team for review. Your identity remains anonymous and is recorded as a guest. If the assigned case analyst needs more details, they might add comments to the report.
 
 To respond to their comments, refer to [Follow up on a case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md).
 
--   **[Anonymous privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md)**  
-The fields in the **Report a privacy case** form capture information about the suspected or confirmed privacy issue while keeping the reporter's identity confidential.
+-   **[Report a privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md)**  
+The Report a privacy case form enables you to provide information about a suspected or confirmed privacy issue while keeping your identity confidential.
 
 **Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

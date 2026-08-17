@@ -19,7 +19,7 @@ Managing digital integrations and interfaces in the Enterprise Architecture Work
 -   **[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integrations.md)**  
 Add or edit a digital integration, manage architectural artifacts, and information objects of a digital integration in Enterprise Architecture Workspace.
 -   **[Working with digital interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-interfaces.md)**  
-Add or edit a digital interface, connect a digital interface to a CMDB API, manage artifacts, relate an SDLC component, information object, and credentials to a digital interface in the Enterprise Architecture Workspace.
+Add or edit digital interfaces, connect them to CMDB APIs, manage artifacts, and relate SDLC components, information objects, and credentials in the Enterprise Architecture Workspace.
 
 **Parent Topic:**[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
 

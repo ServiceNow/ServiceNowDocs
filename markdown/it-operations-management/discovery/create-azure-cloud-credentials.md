@@ -94,15 +94,15 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     -   Management group: Use this option to grant Reader access to all subscriptions under the management group
     -   Individual subscription: Use this option to grant Reader access to a specific subscription only
-<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d608164e353">
+<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d611162e353">
 
 Option
 
-</th><th align="left" id="d608164e356">
+</th><th align="left" id="d611162e356">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d608164e362">
+</th></tr></thead><tbody><tr><td id="d611162e362">
 
 **Management group**
 
@@ -120,7 +120,7 @@ Steps
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d608164e434">
+</td></tr><tr><td id="d611162e434">
 
 **Individual subscription**
 

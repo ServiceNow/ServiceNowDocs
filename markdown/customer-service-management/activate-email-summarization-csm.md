@@ -1,26 +1,26 @@
 ---
 title: Activate email interaction summarization for CSM
-description: Activate the Email Interaction Summarization skill in Now Assist Skill Kit to generate AI-powered summaries of email interactions for CSM agents, reducing the time spent reviewing full email conversation histories.
+description: Activate the Email Interaction Summarization skill in AI Skill Kit to generate AI-powered summaries of email interactions for CSM agents, reducing the time spent reviewing full email conversation histories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-email-summarization-csm.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 keywords: [email interaction summarization, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, AI summarization, generative AI]
-breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Email channel, Configure Omnichannel, Configure, Customer Service Management]
 ---
 
 # Activate email interaction summarization for CSM
 
-Activate the Email Interaction Summarization skill in Now Assist Skill Kit to generate AI-powered summaries of email interactions for CSM agents, reducing the time spent reviewing full email conversation histories.
+Activate the Email Interaction Summarization skill in AI Skill Kit to generate AI-powered summaries of email interactions for CSM agents, reducing the time spent reviewing full email conversation histories.
 
 ## Before you begin
 
 Confirm the following prerequisites are met before you begin:
 
 -   The Email Interaction for CSM plugin must be installed and active on your instance.
--   A Now Assist for CSM license must be active on your instance.
+-   A ServiceNow Otto for CSM license must be active on your instance.
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

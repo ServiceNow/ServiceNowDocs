@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicereliabilitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -141,7 +141,7 @@ Zurich
 
 -   **[Auto-generate SLOs for SRM services](https://www.servicenow.com/docs/access?context=now-assist-itom-manage-generated-slos&family=zurich&ft:locale=en-US)**
 
-Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the Now Assist for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
+Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the ServiceNow Otto for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
 
 -   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
 

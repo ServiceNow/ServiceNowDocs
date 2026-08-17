@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, query]
-breadcrumb: [Connect to SAP with OData, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # OData capabilities supported by Zero Copy Connector for ERP
@@ -48,5 +48,4 @@ Available in the **Use ERP Data** flow.
 Specify the order, ascending or descending, in which data should be returned from an output variable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
-
+</table>

@@ -21,7 +21,7 @@ A search interface enables agents to find and select a queue, and then choose to
 -   Set it as default for all outbound dialing methods
 -   Apply it to the current call only
 
-\[Omitted image "int-select-outbound-queue.png"\] Alt text: Contact Center panel in CSM/FSM Configurable Workspace showing the Select Outbound Queue search field above a dial pad
+\[Omitted image "int-select-outbound-queue.png"\] Alt text: Contact Center panel in CSM/FSM Configurable Workspace showing the Select Outbound Queue search field a dial pad
 
 Agents can modify queue settings during the idle state or during active calls. The default queue selection persists until changed or until the agent logs out, and applies across keypad, phone directory, and click-to-dial workflows. This feature is available for CCaaS partner integration.
 

@@ -1,6 +1,6 @@
 ---
 title: Exploring Collaborative Work Management
-description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace, helping knowledge workers, project managers, and agile teams manage work without switching between applications.
+description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/exploring-cwm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 
 # Exploring Collaborative Work Management
 
-Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace, helping knowledge workers, project managers, and agile teams manage work without switching between applications.
+Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 
 ## Collaborative Work Management overview
 
@@ -30,7 +30,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 
 |User|Description|
 |----|-----------|
-|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
+|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
 |SPM team member|Views and updates project and demand tasks from Project Workspace and Next Experience for Demand Management directly in CWM using the team member read or team member read-write role.|
@@ -82,7 +82,7 @@ All users
 
 </td></tr><tr><td>
 
-Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PDF without recreating them row by row. Now Assist proposes the column mapping, you adjust it, preview the result, and confirm the import.
+Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PDF without recreating them row by row. ServiceNow Otto proposes the column mapping, you adjust it, preview the result, and confirm the import.
 
 </td><td>
 
@@ -98,7 +98,7 @@ Create and collaborate on meeting notes, technical specifications, or feature re
 
  -   Create rich text docs and add action items to users from within and outside the team.
 -   Collaborate on docs in real-time with multiple concurrent editors.
--   Use AI to summarize page content for quick insights, generate and refine content using custom prompts, or generate tasks directly from the information in your Doc and add them to Boards.
+-   Use AI to summarize page content for quick insights. You can also generate and refine content using custom prompts, or generate tasks directly from the information in your Doc and add them to Boards.
 
 </td><td>
 
@@ -136,7 +136,7 @@ Agile practitioner
 
 Break user stories into granular scrum tasks to improve sprint execution and estimation. Assign tasks to team members and track daily progress through a sprint.
 
- Using Now Assist to accelerate sprint preparation, you can generate acceptance criteria for your stories from the story description, then generate an initial set of scrum tasks based on that description and criteria. Review and refine both before adding them to your sprint, or create scrum tasks manually from the story form.
+ Using Now Assist to accelerate sprint preparation, you can generate acceptance criteria for your stories from the story description. Then, generate an initial set of scrum tasks based on that description and criteria. Review and refine both before adding them to your sprint, or create scrum tasks manually from the story form.
 
 </td><td>
 

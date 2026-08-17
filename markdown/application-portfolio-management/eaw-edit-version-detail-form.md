@@ -1,6 +1,6 @@
 ---
 title: Edit version detail form
-description: Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability and ensure that all stakeholders are aligned on the diagram’s context and timelines.
+description: Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability. This ensures that all stakeholders are aligned on the diagram’s context and timelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-version-detail-form.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architectur
 
 # Edit version detail form
 
-Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability and ensure that all stakeholders are aligned on the diagram’s context and timelines.
+Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability. This ensures that all stakeholders are aligned on the diagram’s context and timelines.
 
 |Field|Description|
 |-----|-----------|

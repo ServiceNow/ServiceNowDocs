@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [agile, scrum, sprint planning, CWM agile, stories, scrum tasks, backlog]
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 
 Run your agile workflow in Collaborative Work Management \(CWM\), from building and refining a backlog to planning sprints, executing work as stories and scrum tasks, and collaborating with your team.
 
-CWM is a unified workspace where agile teams can manage their delivery cycle. Teams transitioning to CWM can continue to run the Scrum workflow they’re familiar with, which includes managing a backlog, planning and executing sprints, and tracking daily progress, while also benefiting from CWM's flexible work item model, AI assistance, and broader collaboration features.
+CWM is a unified workspace where agile teams can manage their delivery cycle. Teams transitioning to CWM can continue to run the Scrum workflow they’re familiar with, which includes managing a backlog, planning and executing sprints, and tracking daily progress. They also benefit from CWM's flexible work item model, AI assistance, and broader collaboration features.
 
 ## Agile workflow in CWM
 
@@ -58,7 +58,7 @@ The following end-to-end workflow shows how agile teams use CWM to plan and exec
 
 Agile teams often work on more than just stories. Incidents must be resolved, defects must be fixed, and enhancement requests must be delivered. The Connected work feature in CWM lets you bring records from any ServiceNow application into your Board by defining filter conditions. Once connected, you can plan those records into sprints and manage them alongside your stories from a single backlog.
 
-Teams who previously used the Unified Backlog and triage boards in Agile Development 2.0 to manage defects, incidents, and other work records can use Connected work to achieve a similar centralized view in CWM. For more information, see [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md).
+Teams who previously used the Unified Backlog and triage boards in Agile Development 2.0 to manage defects, incidents, and other work records. These teams can use Connected work to achieve a similar centralized view in CWM. For more information, see [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md).
 
 ## Comparing CWM to Agile Development 2.0
 
@@ -132,7 +132,7 @@ Sprint, story points, and acceptance criteria in the CWM story panel are managed
 -   **[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)**  
 Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
 -   **[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)**  
-Extend your agile workflow in CWM by breaking user stories into scrum tasks, giving your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
+Extend your agile workflow in CWM by breaking user stories into scrum tasks. This gives your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
 -   **[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)**  
 Increase visibility into how work is connected by linking work items directly in Collaborative Work Management \(CWM\), eliminating the need to track dependencies in spreadsheets or notes fields.
 

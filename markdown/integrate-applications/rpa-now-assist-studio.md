@@ -1,6 +1,6 @@
 ---
-title: Now Assist for RPA Hub
-description: Use Now Assist for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
+title: ServiceNow Otto for RPA Hub
+description: Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-now-assist-studio.html
 release: australia
@@ -11,14 +11,9 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Now Assist for RPA Hub
+# ServiceNow Otto for RPA Hub
 
-Use Now Assist for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
+Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
 
 For more information, see [AI in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-now-assist-rpa-hub.md).
-
-**Related topics**  
-
-
-[bundle-crworkflow.now-assist-for-creator-landing]
 

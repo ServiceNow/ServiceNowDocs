@@ -1,5 +1,5 @@
 ---
-title: Configure your base API URL for EJBCA ACME
+title: Configure base API URL for EJBCA ACME
 description: Configure your base API URL for EJBCA ACME to your organization's root URL address.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ACME integration with KeyFactor EJBCA, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Integration with KeyFactor EJBCA, Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure your base API URL for EJBCA ACME
+# Configure base API URL for EJBCA ACME
 
 Configure your base API URL for EJBCA ACME to your organization's root URL address.
 

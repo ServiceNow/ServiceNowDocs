@@ -27,7 +27,7 @@ The App details page shows information about your app and provides access to com
 5.  **File records**: Select a file to open it, select **Add** to create files of that type, or bookmark files directly from the record. For more information, see [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
 6.  **Scope and update set**: View the scope and update set associated with the current app at the bottom of the page. The scope switches automatically when you switch between tabs in ServiceNow Studio. Create an update set and associate app changes to it so your changes are ready to deploy. For more information, see [Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md) and [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
 
-\[Omitted image "sn-studio-app-details-full-page-zs2.png"\] Alt text: The App details page shows information about your application and enables you to perform tasks directly from the app.
+\[Omitted image "sn-studio-app-details-full-page-as2.png"\] Alt text:
 
 ## What can you do from the App details page?
 
@@ -35,7 +35,7 @@ Use the App details page to perform the following actions directly on your app:
 
 -   [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 -   [Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
--   [Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/summarize-an-app-in-servicenow-studio.md)
+-   [Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)
 -   [Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/modify-an-apps-settings-in-servicenow-studio.md)
 -   [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md)
 -   [Create an update set in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-update-set.md)

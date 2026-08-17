@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Configure incident patterns
@@ -21,5 +21,5 @@ Configure the scheduled jobs that generate the incident patterns from the safety
 -   **[Configure the inclusion of sensitive data in incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-sensitive-data-incident-pattern.md)**  
 Configure whether safety incident records with sensitive data should be included in the incident pattern analysis.
 
-**Parent Topic:**[Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

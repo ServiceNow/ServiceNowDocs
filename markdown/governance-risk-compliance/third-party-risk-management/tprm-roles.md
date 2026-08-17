@@ -48,7 +48,7 @@ Third-party editor \[vendor\_editor\]
 
 </td><td>
 
-Create/update/delete third-party contact records.
+Create, update, or delete third-party contact records.
 
 </td><td>
 
@@ -60,7 +60,7 @@ Third-party assessment reviewer\[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewe
 
 </td><td>
 
-View assessment and questionnaire data. In addition to viewing, they can leave comments on the following tables:
+View assessment and questionnaire data. Users with this role can also leave comments on the following tables:
 
 -   Tiering assessment
 -   Internal assessment
@@ -93,12 +93,12 @@ TPR assessor \(Third-party risk assessor\)
 
 </td><td>
 
--   Includes all permissions of the Third-party assessment reviewer role plus: Manage third parties, third-party contacts, external risk assessments, and issues.
+-   All permissions of the Third-party assessment reviewer role, plus the ability to manage third parties, third-party contacts, external risk assessments, and issues.
 -   You can set the following options for the sn\_svdp.allow\_assessor\_edit property:
 
     -   Enable TPR assessors to answer questions or modify responses in third-party questionnaires \(default\).
     -   Enable TPR assessors to modify responses.
-    -   Don’t enable TPR assessors to answer questions or modify responses.
+    -   Don't enable TPR assessors to answer questions or modify responses.
 See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 
@@ -163,7 +163,7 @@ Includes all permissions of the TPR manager role plus:
 -   Document request templates
 -   Post assessment automation rules
 
- **Note:** All the templates include both classic and SAE templates.
+ **Note:** Templates include both classic and SAE templates.
 
 </td><td>
 
@@ -183,7 +183,7 @@ Contract risk negotiator\[sn\_vdr\_risk\_asmt.contract\_negotiator\]
 
 Includes all permissions of the TPR assessor role plus:
 
- Gives users in the legal department access to modify contract status and the start and expiration dates.
+ Users in the legal department can modify contract status and the start and expiration dates.
 
  You can add users with this role to the **Contract risk negotiators** user group. See [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
 
@@ -196,10 +196,12 @@ Contains:
 
 </td></tr><tr><td>
 
-\[vendor\_contact\]
+Third-party / engagement contact
 
--   Called a third-party contact when responding to an external questionnaire/task/issue for a third party.
--   Called an engagement contact when responding to a questionnaire/task/issue for an engagement.
+ \[vendor\_contact\]
+
+ -   Called a third-party contact when responding to an external questionnaire or task or issue for a third party.
+-   Called an engagement contact when responding to a questionnaire or task or issue for an engagement.
 
 </td><td>
 
@@ -267,21 +269,17 @@ A user with one of the following roles can respond to questionnaires in the Vend
 
 A user with the TPRM SAE admin \[sn\_smart\_asmt.assessment\_admin\] role can create SAE templates in the Vendor Management Workspace and Assessment Workspace.
 
-Third-party admin contains this role.
+A user with the sn\_smart\_imp\_auto.automation\_creator role can create post assessment impact automation rules. The TPR admin contains this role.
 
-A user with the sn\_smart\_imp\_auto.automation\_creator role can create post assessment impact automation rules.
-
-Third-party admin contains this role.
-
-**Important:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role that you must have to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
+**Note:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role required to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
 
 For more information on SAE related roles, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
-## Roles required for using Now Assist for Third-party Risk Management \(TPRM\)
+## Roles required for using ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
-A user with the Third-party Assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role can use the Now Assist for TPRM skills.
+A user with the Third-party Assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role can use the ServiceNow Otto for TPRM skills.
 
-The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] automatically after you install the Now Assist for TPRM application. For more information about a Now Assist for TPRM, see [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md).
+The system automatically grants the TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after the ServiceNow Otto for TPRM application is installed. For more information about a ServiceNow Otto for TPRM, see [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md).
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

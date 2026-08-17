@@ -34,9 +34,3 @@ HR e-signature is a **non-embedded signature** capability for managed documents,
 -   HR e-signature must be used for internal, non-legal acknowledgment use cases.
 -   HR e-signature is a legacy product with no active development.
 
-
-
-HR document templates provides embedded signature and supports both internal and external e-signing use cases. It supports two document types, HTML and PDF.
-
-**Note:** HR document templates is a legacy product and being prepared for deprecation. Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md) instead.
-

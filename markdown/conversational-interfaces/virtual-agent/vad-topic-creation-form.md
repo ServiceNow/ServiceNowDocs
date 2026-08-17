@@ -46,7 +46,7 @@ Model Type
 
 The **LLM** value is used for topic discovery within LLMs, and the **NLU/Keywords** value is used for either keyword or NLU discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
 
- **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+ **Note:** If this field doesn't appear, verify that both the ServiceNow Otto panel and ServiceNow Otto in Virtual Agent are turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Select LLM assistants to make topics available to them and any primary assistant
 
 </td><td>
 
-The LLM assistant that you associate with the topic for more accurate topic discovery. If you established primary and secondary assistants during the Now Assist in Virtual Agent guided setup, an on-screen message explains whether the selected assistant is a primary or secondary assistant. When testing a primary LLM assistant, topics from the secondary assistants are included in topic discovery. To view the LLM assistants and their hierarchy, select **Manage assistants**.
+The LLM assistant that you associate with the topic for more accurate topic discovery. If you established primary and secondary assistants during the ServiceNow Otto in Virtual Agent guided setup, an on-screen message explains whether the selected assistant is a primary or secondary assistant. When testing a primary LLM assistant, topics from the secondary assistants are included in topic discovery. To view the LLM assistants and their hierarchy, select **Manage assistants**.
 
  If you associate a topic block and a related topic with the same LLM assistant, both are shown as associated with that assistant.
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist Analytics roles
-description: Now Assist Analytics requires the following roles to view and manage the dashboard functionality.Users with the Now Assist Analytics Viewer role can view the Now Assist Analytics dashboard in the Now Assist Admin console, and have read access to data source tables.Users with Now Assist Analytics Admin role can view the Now Assist Analytics dashboard in the Now Assist Admin console, and read and write to some data source tables.
+title: AI Analytics roles
+description: AI Analytics requires the following roles to view and manage the dashboard functionality.Users with the AI Analytics Viewer role can view the AI Analytics dashboard in the AI Admin Hub console, and have read access to data source tables.Users with AI Analytics Admin role can view the AI Analytics dashboard in the AI Admin Hub console, and read and write to some data source tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-roles.html
 release: australia
@@ -8,16 +8,16 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, roles, dashboard functionality, Generative AI, Gen AI, Now Assist Analytics, admin, roles, groups, special considerations, sn\_na\_analytics\_viewer, Now Assist Analytics, admin, roles, groups, special considerations, sn\_na\_analytics\_viewer]
-breadcrumb: [Now Assist Analytics reference, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [AI Analytics reference, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Now Assist Analytics roles
+# AI Analytics roles
 
-Now Assist Analytics requires the following roles to view and manage the dashboard functionality.
+AI Analytics requires the following roles to view and manage the dashboard functionality.
 
-## Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\]
+## AI Analytics Viewer \[sn\_na\_analytics.viewer\]
 
-Users with the Now Assist Analytics Viewer role can view the Now Assist Analytics dashboard in the Now Assist Admin console, and have read access to data source tables.
+Users with the AI Analytics Viewer role can view the AI Analytics dashboard in the AI Admin Hub console, and have read access to data source tables.
 
 ### Contains Roles
 
@@ -35,15 +35,15 @@ None.
 
 None.
 
-## Now Assist Analytics Admin \[sn\_na\_analytics.admin\]
+## AI Analytics Admin \[sn\_na\_analytics.admin\]
 
-Users with Now Assist Analytics Admin role can view the Now Assist Analytics dashboard in the Now Assist Admin console, and read and write to some data source tables.
+Users with AI Analytics Admin role can view the AI Analytics dashboard in the AI Admin Hub console, and read and write to some data source tables.
 
 ### Contains Roles
 
 List of roles contained within the role.
 
-Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\].
+AI Analytics Viewer \[sn\_na\_analytics.viewer\].
 
 ### Groups
 

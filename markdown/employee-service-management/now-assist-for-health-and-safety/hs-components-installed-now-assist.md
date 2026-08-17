@@ -1,6 +1,6 @@
 ---
 title: Components installed with Now Assist for Health and Safety
-description: Several types of components are installed with activation of the Now Assist for Health and Safety plugin, including tables, user roles, and scheduled jobs.
+description: Several types of components are installed with activation of the ServiceNow Otto for Health and Safety plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-components-installed-now-assist.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-health-and-safety
 topic_type: reference
 last_updated: "2026-06-04"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Components installed with Now Assist for Health and Safety
 
-Several types of components are installed with activation of the Now Assist for Health and Safety plugin, including tables, user roles, and scheduled jobs.
+Several types of components are installed with activation of the ServiceNow Otto for Health and Safety plugin, including tables, user roles, and scheduled jobs.
 
 ## Store applications installed
 

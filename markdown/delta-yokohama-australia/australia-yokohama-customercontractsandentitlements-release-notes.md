@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customercontractsandentitlements-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -341,7 +341,7 @@ Australia
 
 </td><td>
 
-Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=australia&ft:locale=en-US).
+Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements

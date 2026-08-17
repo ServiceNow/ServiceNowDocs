@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -29,6 +29,8 @@ Streamline task management for teams by bringing in various work items from acro
 Run your agile workflow in Collaborative Work Management \(CWM\), from building and refining a backlog to planning sprints, executing work as stories and scrum tasks, and collaborating with your team.
 -   **[Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-integration-with-eap.md)**  
 Enhance visibility and streamline planning for your Agile teams by connecting Enterprise Agile Planning \(EAP\) with Collaborative Work Management \(CWM\).
+-   **[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)**  
+View and manage project tasks alongside CWM work without switching applications. Team members can see assigned project tasks, break down work, and manage connections while project managers track execution in Project Workspace.
 -   **[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md)**  
 Manage your work from all ServiceNow applications from a centralized view in the Collaborative Work Management workspace.
 -   **[Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md)**  

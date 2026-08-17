@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-quali
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Quality management, Explore, Manufacturing Commercial Operations]
 ---
 

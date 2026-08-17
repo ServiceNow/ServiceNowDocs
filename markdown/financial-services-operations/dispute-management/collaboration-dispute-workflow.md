@@ -16,11 +16,11 @@ breadcrumb: [Initiate chargeback, Processing a Visa dispute, Managing disputes i
 
 In the collaboration workflow, dispute agents work to resolve consumer disputes and processing errors. In this workflow, issuers can choose to initiate pre-arbitration and arbitration, and acquirers can respond to these events.
 
-The transaction **Dispute Workspace** helps dispute agents in handling **Consumer disputes** and **Processing errors** within the Visa collaboration workflow. The **Dispute Workspace** includes key activities such as initiating chargebacks, reviewing dispute responses, and managing pre-arbitration and arbitration tasks.
+The transaction **Dispute Workspace** helps dispute agents in handling **Consumer disputes** and **Processing errors** within the Visa collaboration workflow. The **Dispute Workspace** includes key tasks such as initiating chargebacks, reviewing dispute responses, and managing pre-arbitration and arbitration tasks.
 
 <table id="table_kbh_msz_m2c"><thead><tr><th>
 
-Activity
+Tasks
 
 </th><th>
 

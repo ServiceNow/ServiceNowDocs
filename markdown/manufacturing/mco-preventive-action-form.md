@@ -1,18 +1,19 @@
 ---
 title: Preventive action form
-description: The preventive action form enables you to add the details for QI.
+description: The preventive action form captures the remediation plan, cost, priority, and status details for a quality issue \(QI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-preventive-action-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [preventive action form, preventive action, remediation action plan]
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Preventive action form
 
-The preventive action form enables you to add the details for QI.
+The preventive action form captures the remediation plan, cost, priority, and status details for a quality issue \(QI\).
 
 <table id="id_ur4_sw3_xhc"><thead><tr><th>
 
@@ -116,7 +117,7 @@ Assignment group
 
 </td><td>
 
-Organizational units or teams responsible for handling specific tasks, cases, or issues
+Organizational units or teams responsible for handling specific tasks, cases, or issues.
 
 </td></tr><tr><td>
 

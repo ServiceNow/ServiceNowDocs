@@ -16,9 +16,9 @@ Beginning with the Yokohama release, you can use the latest assessment template 
 
 ## Integrating BIA with the Smart Assessment Engine
 
-Integrating business impact analysis \(BIA\) with the Smart Assessment Engine allows you to configure impact analysis assessments with various question types, set up multiple impact assessment templates for a single BIA, and calculate metrics such as Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier \(RT\), Maximum tolerable period of disruption \(MTPD\), and other based on user responses.
+Integrating business impact analysis \(BIA\) with the Smart Assessment Engine allows you to configure impact assessments with various question types and set up multiple templates. You can calculate metrics such as Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier \(RT\), and Maximum Tolerable Period of Disruption \(MTPD\) based on user responses.
 
-A BIA created with the Smart Assessment template includes Smart Assessment instances in the assessment section. The assessment template introduced with the Smart Assessment Engine allows you to create various question types and automate responses from existing data sources. BCM users can complete the assessment, and upon submission, the automation set up by BCM administrators updates impact analysis data, including recovery time objective \(RTO\), recovery point objective \(RPO\), recovery tier, or maximum tolerable downtime, based on the defined configuration.
+A BIA created with the Smart Assessment template includes Smart Assessment instances in the assessment section. The assessment template introduced with the Smart Assessment Engine allows you to create various question types. You can automate responses from existing data sources. BCM users can complete the assessment. Upon submission, the BCM administrator-configured automation updates impact analysis data, including RTO, RPO, recovery tier, and maximum tolerable downtime, based on the defined configuration.
 
 ## Components used for the integration
 
@@ -42,7 +42,7 @@ The workflow for integrating BIA with the Smart Assessment Engine is shown in th
 
 ## Configuring BIA templates
 
-You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions, while the Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md).
+You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md).
 
 ## Managing life cycle of Smart Assessment templates in BIAs
 
@@ -60,13 +60,13 @@ BIAs that use Smart Assessment templates inherit the template life cycle control
     -   In-progress assessments are cancelled or retained as open, based on the **Assessment handling on version retirement** configuration on the template category.
     -   Completed and cancelled assessments are unaffected.
     -   Future assessments are triggered from the new version of the template.
-    Impact on Copy Response and reporting: When a new version is published, responses are copied from the previous version to the new one and reporting is unaffected — provided no structural changes were made to the questions. Structural changes include modifications to question type, question label, choice labels, or multiselect settings, as well as moving a question across sections or changing the reference table on a reference question.
+    Impact on Copy Response and reporting: When a new version is published, responses are copied from the previous version and reporting is unaffected if no structural changes were made to questions. Structural changes include modifications to question type, label, choice labels, or multi-select settings, moving questions across sections, or changing reference tables on reference questions.
 
-    Impact on Post Assessment Actions: When a new version is published, a copy of the existing Post Assessment Actions is created in Draft state and must be reviewed and published before the new version becomes fully operational. Post Assessment Actions execute based on the template version from which the assessment was triggered — assessments from earlier versions continue to follow the Post Assessment Actions of those versions.
+    Impact on Post Assessment Actions: When a new version is published, a copy of the existing Post Assessment Actions is created in Draft state. It must be reviewed and published before the new version becomes fully operational. Post Assessment Actions execute based on the template version from which the assessment was triggered. Assessments from earlier versions continue to follow the Post Assessment Actions of those versions.
 
 -   **Quick edit**
 
-    Quick edit allows template managers to make minor, non-contextual corrections to a published template question — such as fixing typos, correcting grammar, or improving phrasing clarity — without creating a new version. Changes take effect immediately across past, in-progress, and future assessments, with no impact to question meaning, scoring, or logic.
+    Quick edit allows template managers to make minor, non-contextual corrections to published template questions—such as fixing typos, correcting grammar, or improving clarity—without creating a new version. Changes take effect immediately across past, in-progress, and future assessments, with no impact to question meaning, scoring, or logic.
 
     Every quick edit is logged at the template level, time-stamped, and user-attributed, making all changes fully traceable for audit and governance purposes. Template managers are accountable for ensuring that quick edits preserve the original context and intent of the question. Quick edit is optional and can be enabled or disabled at the template category level.
 

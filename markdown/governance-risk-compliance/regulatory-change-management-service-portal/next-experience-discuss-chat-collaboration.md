@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -31,6 +31,4 @@ On a regulatory change management case, select **Discuss** from other options. C
 [Differences between regulatory event alert and source document alert]()
 
 [Regulatory process flow and tasks]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
 

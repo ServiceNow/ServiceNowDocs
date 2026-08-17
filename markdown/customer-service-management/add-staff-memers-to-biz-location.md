@@ -1,28 +1,30 @@
 ---
-title: Add staff members to a business location in the Business Location Service Portal
-description: Add users as staff members to a business location to support accounts, contacts, consumers, and households.
+title: Add staff members to a business organization in the Business Organization Support Portal
+description: Add users as staff members to a business organization \(formerly business location\) to support accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-staff-memers-to-biz-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Add staff members to a business location in the Business Location Service Portal
+# Add staff members to a business organization in the Business Organization Support Portal
 
-Add users as staff members to a business location to support accounts, contacts, consumers, and households.
+Add users as staff members to a business organization \(formerly business location\) to support accounts, contacts, consumers, and households.
 
 ## Before you begin
 
 Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and sn\_bus\_loc.location\_relationship\_manager
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 ## About this task
 
-Add internal and external members to a business location. You can add both internal users with the snc\_internal role and external users with the snc\_external role as staff members to an external business location.
+Add internal and external members to a business organization. You can add both internal users with the snc\_internal role and external users with the snc\_external role as staff members to an external organization \(formerly external business location\).
 
--   Administrators and customer service managers can add staff members to any business location.
+-   Administrators and customer service managers can add staff members to any business organization.
 -   Location managers can add staff members to the business locations that they have access to.
 
 **Note:** As a user with the sn\_customerservice.svc\_location\_manager role, you can create both internal and external staff members. However, as a user with the sn\_customerservice.svc\_location\_manager\_contributor role, you can only create external staff members.
@@ -31,7 +33,7 @@ Add internal and external members to a business location. You can add both inter
 
 1.  Navigate to **Home** &gt; **Busines Location Support** &gt; **Services**.
 
-2.  Select **Register Member at External Business Location** to open the Register Member at External Business Location record.
+2.  Select **Register Member at External Organization** to open the Register Member at External Organization record.
 
     You can use the record to register new location staff or move existing staff between locations managed by the Location manager, and assign responsibilities to staff accordingly.
 
@@ -101,7 +103,7 @@ Member
 
 </td><td>
 
-Field used to select an external staff member from the list of service organization external staff record.**Note:** The **Member** field appears only when **Existing Staff** is selected from the **Register staff** field.
+Field used to select an external staff member from the list of external organization staff \(formerly service organization external staff\) record.**Note:** The **Member** field appears only when **Existing Staff** is selected from the **Register staff** field.
 
 </td></tr><tr><td>
 
@@ -117,14 +119,14 @@ Field used to assign responsibility for the selected business location.-   **Non
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    Additionally, the external business location record is created in the **Service Organization** field of the service organization external staff \[sn\_csm\_service\_organization\_external\_staff\] table.
+    Additionally, the external organization record is created in the **Organization** field \(formerly service organization field\) of the External organization staff \(formerly service organization external staff\) \[sn\_csm\_service\_organization\_external\_staff\] table.
 
-    A new external staff member record is created for the selected external business location. The admin must assign responsibilities to the staff members. However, if you have selected **None** as a member type, then you must not create a responsibility record.
+    A new external staff member record is created for the selected external organization. The admin must assign responsibilities to the staff members. However, if you have selected **None** as a member type, then you must not create a responsibility record.
 
 
 ## Result
 
-Once a staff member is added to a business location, the following details can be accessed from the **Business Location Details** tab:
+Once a staff member is added to a business organization, the following details can be accessed from the **Business Location Details** tab:
 
 -   Cases Requested
 -   Members
@@ -138,7 +140,7 @@ Once a staff member is added to a business location, the following details can b
 **Related topics**  
 
 
-[Create cases for a business location in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
+[Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
 [Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

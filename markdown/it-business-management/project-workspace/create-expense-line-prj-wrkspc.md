@@ -24,7 +24,7 @@ Role required: it\_project\_manager
 
 An expense line is part of the project cost plans that can be associated with a specific source. You can create multiple expense lines for a cost plan. Only the expense lines that are in the processed state are considered for roll-ups on the work item.
 
-For unplanned expense lines which aren't associated to any cost plan, system automatically creates an cost plan or associates to an existing system generated cost plan of the same expense type.
+For unplanned expense lines that aren't associated to any cost plan, the system automatically creates a cost plan. Otherwise, it associates the expense line to an existing system-generated cost plan of the same expense type.
 
 ## Procedure
 
@@ -34,15 +34,15 @@ For unplanned expense lines which aren't associated to any cost plan, system aut
 
 3.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d56001e82">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d56292e85">
 
 Choice
 
-</th><th align="left" id="d56001e85">
+</th><th align="left" id="d56292e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56001e91">
+</th></tr></thead><tbody><tr><td id="d56292e94">
 
 **Select a cost plan**
 
@@ -52,7 +52,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d56001e112">
+</td></tr><tr><td id="d56292e115">
 
 **Select options**
 
@@ -62,7 +62,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d56001e139">
+</td></tr><tr><td id="d56292e142">
 
 **Select new expense line option**
 

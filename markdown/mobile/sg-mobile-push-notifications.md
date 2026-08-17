@@ -18,7 +18,7 @@ Non-actionable notifications are created by configuring a mobile push notificati
 
 Actionable push notifications require you to perform additional steps, such as mapping functions for each push action. For more information about actionable notifications, see [Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md).
 
-Define push notifications as critical when you require users to be immediately alerted to an event. Critical alerts override Do Not Disturb or Silent mode settings on your users' mobile device. For more information, see [Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-critical-alerts-create.md).
+Define push notifications as critical when you require users to be immediately alerted to an event. Critical alerts override Do Not Disturb or Silent mode settings on your users' mobile device. For more information, see [Create mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-critical-alerts-create.md).
 
 You can target mobile push notifications for any of the specific ServiceNow Mobile Platform mobile apps.
 
@@ -50,7 +50,7 @@ Enter your Google Firebase Cloud Messaging push token authentication in your pus
 Include actions with your push notifications. Users can perform push notification actions without opening the app.
 -   **[Configure notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/notification-activity-stream.md)**  
 Configure your instance to send an email notification or a push notification when a user mentions a contact’s name within a mobile activity stream record.
--   **[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-critical-alerts-create.md)**  
+-   **[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/critical-alerts1.md)**  
 Send your users critical alerts, even if they set their mobile device to Do Not Disturb or Silent mode. Configure these visual and audio alerts to be sent when an issue needs immediate attention. Example scenarios can be to inform the user of an essential update, or to publicize a major incident that requires a speedy response.
 
 **Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/imp-considerations.md)

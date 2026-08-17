@@ -89,6 +89,10 @@ Short description of the card.
 
     3.  Select **OK**.
 
+    **Note:**
+
+    Uploaded images for icons are automatically resized to 48 px for consistency across all cards.
+
 5.  Select **Submit**.
 
 

@@ -1,21 +1,21 @@
 ---
-title: Use Now Assist for Zero Copy Connector agentic workflows and AI agents
-description: Use Now Assist for Zero Copy Connector agentic workflows and AI agents to improve and enhance working with ERP data.
+title: Use ServiceNow Otto for Zero Copy Connector agentic workflows and AI agents
+description: Use ServiceNow Otto for Zero Copy Connector agentic workflows and AI agents to improve and enhance working with ERP data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist for Zero Copy Connector, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
-# Use Now Assist for Zero Copy Connector agentic workflows and AI agents
+# Use ServiceNow Otto for Zero Copy Connector agentic workflows and AI agents
 
-Use Now Assist for Zero Copy Connector agentic workflows and AI agents to improve and enhance working with ERP data.
+Use ServiceNow Otto for Zero Copy Connector agentic workflows and AI agents to improve and enhance working with ERP data.
 
-The sn\_erp\_integration.erp\_ai\_user role is required to work with generative and agentic AI in Now Assist for ZCC.
+The sn\_erp\_integration.erp\_ai\_user role is required to work with generative and agentic AI in Otto for ZCC.
 
 <table id="table_cxs_mpl_vfc"><thead><tr><th>
 
@@ -78,9 +78,9 @@ Identifies the most relevant OData service and endpoint, and can create a data m
 
 ## Role masking
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 ## Standalone AI agents
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

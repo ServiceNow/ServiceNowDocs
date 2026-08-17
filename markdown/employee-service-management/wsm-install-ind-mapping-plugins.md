@@ -22,7 +22,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 **Note:** Install the Workplace Indoor Mapping Core plugin \(sn\_wsd\_indoor\_map\) in your ServiceNow instance before you install Indoor Mapping plugin \(sn\_map\_core\).
 
-For cumulative release notes and information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+For cumulative release notes and information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Procedure
 

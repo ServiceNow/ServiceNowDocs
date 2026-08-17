@@ -1,6 +1,6 @@
 ---
-title: Let Now Assist help you to manage duplicate CIs
-description: Resolve deduplication tasks with support from the Now Assist Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template.
+title: Let ServiceNow Otto help you to manage duplicate CIs
+description: Resolve deduplication tasks with support from the ServiceNow Otto Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Let Now Assist help you to manage duplicate CIs
+# Let ServiceNow Otto help you to manage duplicate CIs
 
-Resolve deduplication tasks with support from the Now Assist Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template.
+Resolve deduplication tasks with support from the ServiceNow Otto Manage duplicate CIs skill. CMDB administrators follow step-by-step guidance to perform remediation, and can preview remediation results before applying a template.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: cmdb\_dedup\_admin and now\_assist\_panel\_user
 
 This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
 
-When a Now Assist skill is enabled, the Now Assist icon \[Omitted image "icon-now-assist-sparkle.png"\] appears in the toolbar of the workspace.
+When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] appears in the toolbar of the workspace.
 
 ## Procedure
 
-1.  On the Service Graph Workspace orCMDB Workspace or in any form or list view, select the Now Assist icon \[Omitted image "icon-now-assist-sparkle.png"\] and then select **Manage duplicate CIs** in the Now Assist panel \(or enter similar text\).
+1.  On the Service Graph Workspace orCMDB Workspace or in any form or list view, select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] and then select **Manage duplicate CIs** in the ServiceNow Otto panel \(or enter similar text\).
 
-2.  Follow the guidance on the Now Assist panel to remediate duplication.
+2.  Follow the guidance on the ServiceNow Otto panel to remediate duplication.
 
     As you select options to remediate duplication, the skill adjusts the options and guides you through the process.
 
@@ -62,24 +62,24 @@ Decide which de-duplication template to apply: Select **Review existing template
 
 </td></tr><tr><td>
 
-\[Omitted image "na-cmdb-prevw-tmplt-results.png"\] Alt text: Now Assist generates a preview of the results of applying a template.
+\[Omitted image "na-cmdb-prevw-tmplt-results.png"\] Alt text: ServiceNow Otto generates a preview of the results of applying a template.
 
 </td><td>
 
-Without actually running the remediation process, Now Assist generates a preview of the results of applying a template. You can preview the results for any existing template. When you see the desired result in a preview, you can specify that template and proceed with the de-duplication process.
+Without actually running the remediation process, ServiceNow Otto generates a preview of the results of applying a template. You can preview the results for any existing template. When you see the desired result in a preview, you can specify that template and proceed with the de-duplication process.
 
 </td></tr></tbody>
 </table>3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d514264e234">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d516658e234">
 
 Option
 
-</th><th align="left" id="d514264e237">
+</th><th align="left" id="d516658e237">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d514264e243">
+</th></tr></thead><tbody><tr><td id="d516658e243">
 
 **Provide feedback for the summary**
 
@@ -87,7 +87,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d514264e258">
+</td></tr><tr><td id="d516658e258">
 
 **Copy the summary**
 
@@ -95,7 +95,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d514264e269">
+</td></tr><tr><td id="d516658e269">
 
 **Refresh the summary**
 
@@ -107,11 +107,11 @@ If you think that data might have changed after you viewed the response, select 
 </table>
 ## What to do next
 
--   For more information, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+-   For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   To start over, select **Reset conversation** in the More menu \(\[Omitted image "Ellipses.png"\] Alt text: More menu icon\).
 
-    **Warning:** If you reset the conversation, all existing messages are deleted and an entirely new conversation starts. To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    **Warning:** If you reset the conversation, all existing messages are deleted and an entirely new conversation starts. To learn more about using the ServiceNow Otto panel, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   [See how IRE detects duplicate CIs and generates de-duplication tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
 -   [See how to manage and remediate the de-duplication tasks by using de-duplication templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
@@ -119,7 +119,7 @@ If you think that data might have changed after you viewed the response, select 
 **Related topics**  
 
 
-[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
 
 [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

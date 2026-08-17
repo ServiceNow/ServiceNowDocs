@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,13 +22,13 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  To update an active exercise or crisis event from the Home page of the Business continuity workspace, click the link to the event record in the **Event** column of the **My exercises** section.
+2.  To update an active exercise or crisis event from the Home page of the Business continuity workspace, select the link to the event record in the **Event** column.
 
-3.  To update the event from the lists view of the workspace, click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
+3.  To update the event from the lists view of the workspace, select the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
-4.  If the record is an exercise event and is in pending state, Click **Pending** link in the Exercises list.
+4.  If the record is an exercise event and is in pending state, select **Pending** link in the Exercises list.
 
-5.  Click the link to the event record in the **Number** column.
+5.  Select the link to the event record in the **Number** column.
 
 6.  Review the event details in the **Details** tab.
 
@@ -36,19 +36,19 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     A crisis manager should be able to report a crisis event with the information provided in the details tab. For more information, see [Manage a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-crisis-event.md).
 
-7.  Click the **Impacts** tab to add impacted items.
+7.  Select the **Impacts** tab to add impacted items.
 
     To add a list of impacted items and activated plans to the event, see [Add impacted assets and plans to an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/associate-plan-task-event.md).
 
-8.  Click **Event Tasks** tab.
+8.  Select **Event Tasks** tab.
 
-    This tab appears for all crisis events but exercises that are of **Functional** type events only.
+    This tab appears for all crisis events but exercises that are of **Functional** type only.
 
     The Plans section, which appears as a side panel, displays all the activated plans that are added to the event.
 
-    When a plan is activated, all the recovery tasks where the scope is empty and tasks where the scope match with the impacted asset of the plan that is activated are added as event tasks for that activated plan.
+    When a plan is activated, all recovery tasks with empty scope and tasks whose scope matches the plan's impacted assets are added as event tasks.
 
-    Each activated plan is an interactive card that shows you the number of assets that are in the process of being recovered and the number of event tasks that are completed for that activated plan. When you add an activated plan to the event task, all the recovery tasks of the plan are added as event tasks to the event.
+    Each activated plan is an interactive card that shows the number of assets being recovered and the number of completed event tasks. When you add an activated plan to the event task, all the recovery tasks of the plan are added as event tasks to the event.
 
     You can also create a task for the event that is not covered in any of the existing plans for the event as an ad hoc task.
 
@@ -98,9 +98,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     Actual duration to recover an event asset is calculated by `Actual end – Actual start of an event asset`
 
-    -   the actual start of an event asset is the minimum start time of the event task executed for the event asset that is, event task that has the event asset as impacted asset. And the minimum start time of the activated plan without a task.
-    -   the actual end of an event asset is the maximum end time of the event task executed for the event asset that is, event task that has the event asset as impacted asset. And the maximum end time of the activated plan without a task.
-    Total effort of an event asset is calculated by rolling up the actual time taken by all the event tasks that are executed for the event asset that is, the impacted asset in event task that contains the event asset. And the total effort of all activated plans associated with the asset without a task.
+    -   The actual start of an event asset is the minimum start time of event tasks executed for that asset. It also includes the minimum start time of activated plans without tasks.
+    -   The actual end of an event asset is the maximum end time of event tasks executed for that asset. It also includes the maximum end time of activated plans without tasks.
+    Total effort equals the actual time from all event tasks for the asset plus effort from associated activated plans without tasks.
 
     -   **Actual duration of an event task**
 

@@ -39,7 +39,7 @@ Prior to the Yokohama release, the Regulatory Change Management users had the op
 -   Risk framework
 -   Risk
 
-**Note:** Impacted areas can be added to regulatory alerts that are of type regulatory event. For more information, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-impacted-area-reg-alert.md)
+**Note:** Impacted areas can be added to regulatory alerts that are of type regulatory event. For more information, see [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
 
 ## Impact radius calculation
 

@@ -1,27 +1,27 @@
 ---
 title: Exploring External Content Connectors
-description: Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content makes it easier and faster for search users to locate the information they need.
+description: Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content helps search users locate the information they need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/exploring-ext-cont-connectors.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-07-03"
-reading_time_minutes: 9
+last_updated: "2026-07-24"
+reading_time_minutes: 10
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring External Content Connectors
 
-Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content makes it easier and faster for search users to locate the information they need.
+Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content helps search users locate the information they need.
 
 ## External Content Connectors overview
 
 The External Content Connectors application adds support for indexing content and metadata from external source systems to make those systems searchable in AI Search applications. Indexing preserves the content's original user access permissions from the source system using AI Search's content security model.
 
-The current release includes these external content connectors:
+This release includes the following external content connectors:
 
 -   Adobe Acrobat Sign external content connector
 -   Adobe Experience Manager as a Cloud Service external content connector
@@ -66,9 +66,13 @@ Connector administrators can schedule content and user permission crawls to suit
 
 **Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-the-integration-hub-usage-dashboard.md).
 
-Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
-
 All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md).
+
+## External Content Connectors indexed sources and search sources
+
+Each external content connector has its own indexed source for crawled content. It also has a default search source that specifies no filter conditions and so includes all items from its indexed source. If you want to apply filter conditions to an external content connector's indexed content, you can create your own search sources for that connector's indexed source.
+
+To make a connector's content searchable in an AI Search application, include one of its search sources in the search profile used for that application. For more information about creating and using indexed sources and search sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md) and [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
 
 ## External Content Connectors availability
 
@@ -76,16 +80,16 @@ The External Content Connectors application is only supported on cloud-hosted Se
 
 ## External Content Connectors workflow
 
-In this infographic, see a sample workflow of how different users in an organization interact with External Content Connectors to enable indexing and search of content and metadata from supported external sources.
+The following illustration shows a sample workflow of how users in an organization interact with External Content Connectors to enable indexing and search of content and metadata from supported external sources.
 
 \[Omitted image "exploring-external-content-connectors.svg"\] Alt text: Infographic showing how connector admins, AI Search users, and AI Search high security administrators work with the External Content Connectors to enable search for content from source systems. For details, refer to the following description.
 
 In this External Content Connectors workflow:
 
-1.  Connector administrators configure connection settings for external content connectors, configure crawl start points and inclusion/exclusion filters to define the scope of connector crawls, and define schedules that specify when crawls run.
+1.  Connector administrators configure connection settings for external content connectors. They configure crawl start points and inclusion/exclusion filters to define the scope of connector crawls. They define schedules that specify when crawls run.
 2.  The system runs connectors at their scheduled times or when connector administrators start one-time crawls. When crawling, connectors retrieve searchable content and security principals from their source systems and feed them to AI Search for indexing.
 3.  Search users are presented with content and metadata from external content source systems when interacting with AI Search applications. AI Search's content security model retains user and group access permissions set in the source system, so users can only view content that they have permission to access.
-4.  Connector administrators review and analyze crawl metrics, crawl histories, and user permission data to understand how external data is crawled and indexed, allowing for more effective tuning of crawl settings for their external content connectors.
+4.  Connector administrators review and analyze crawl metrics, crawl histories, and user permission data. They use this information to understand how external data is crawled and indexed, allowing for more effective tuning of crawl settings for their external content connectors.
 
 **Important:**
 
@@ -110,11 +114,11 @@ If one of your connectors reaches the content indexing limit, you can update its
 |Review user and group access permissions retrieved by user permission crawls|[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
 |Search content and metadata indexed from external data source systems|[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)|AI Search users|
 
-## Interaction with Now Assist Genius Results
+## Interaction with ServiceNow Otto® Genius Results
 
-If you have the Now Assist in AI Search and Now Assist in Virtual Agent ServiceNow Store applications installed, external content search results are eligible for inclusion in Now Assist Multi-Content Response Genius Result answers. This includes answers generated in Now Assist in Virtual Agent chat.
+If you have the ServiceNow Otto for AI Search and ServiceNow Otto for Virtual Agent ServiceNow Store applications installed, external content search results are eligible for inclusion in Summary Genius Result answers. This includes answers generated in ServiceNow Otto for Virtual Agent chats.
 
-External content search results are ignored when generating Now Assist Q&amp;A or Now Assist Actions Genius Result answers.
+External content search results are ignored when generating answers for Knowledge base articles Genius Results and Actions Genius Results.
 
 -   **[Estimating document volume for source systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/estimating-doc-volume-src-sys.md)**  
 Source system tools allow you to estimate the number of documents available for retrieval by external content connectors. By estimating the available document count for a source system, you can determine whether you need to apply crawl scope restrictions when configuring an external content connector for that source system.

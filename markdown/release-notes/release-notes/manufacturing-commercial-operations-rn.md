@@ -1,6 +1,6 @@
 ---
 title: Manufacturing Commercial Operations release notes
-description: The ServiceNow Manufacturing Commercial Operations enables manufacturers, agents, and Dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
+description: The ServiceNow Manufacturing Commercial Operations enables manufacturers, agents, and dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -10,15 +10,19 @@ reading_time_minutes: 3
 
 # Manufacturing Commercial Operations release notes
 
-The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and Dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
+The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
 
 ## Manufacturing Commercial Operations highlights for the Australia release
 
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Now Assist for Manufacturing Commercial Operations. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
 -   The CSM/FSM workspace landing page surfaces assigned claims, pre-authorization requests, and dashboard widgets with claims volume and value insights.
 -   Anomaly-detection rules enable auto-approval or flagging of repair claim case lines for human review based on eligibility thresholds and historical claim averages.
--   Repair claim case lines displays a suggested action and reason on the panel, giving claim reviewers job-level and claim-level analysis in a single view.
+-   Repair claim case lines display a suggested action and reason on the panel, giving claim reviewers job-level and claim-level analysis in a single view.
 -   QIM playbook enables creation of remediation action plans and use of system-recommended containment actions.
--   QIM enables auto-triage of non-conformance records, assigning owners, and generating tasks based on historical patterns.
+-   QIM auto-triages non-conformance records, assigns owners, and generates tasks based on historical patterns.
 -   QIM integrates with FSM, enabling work order creation directly from NC and QI records for on-site verification, containment, or remediation action.
 
 See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md) for more information.
@@ -62,7 +66,7 @@ See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/Serv
 
 ## Activation information
 
-Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Browser requirements
 
@@ -86,10 +90,6 @@ ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Mic
 -   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
 
     The ServiceNow Field Service Management application enables you to manage work orders and related tasks, resources, skills, assets, and locations.
-
--   **[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)**
-
-    Align work with strategy to deliver products and services in a way that supports your business goals and priorities. The ServiceNow Strategic Portfolio Management \(SPM\) application enables you to use digital transformation to drive customer value.
 
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Creating AI assets
@@ -26,5 +26,5 @@ Create AI assets to track and manage the life cycles of your prompts.
 -   **[Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-dataset-assets.md)**  
 Create AI assets to track and manage the life cycles of your datasets.
 
-**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

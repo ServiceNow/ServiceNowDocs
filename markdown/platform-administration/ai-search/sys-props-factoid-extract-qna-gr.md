@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Q&amp;A Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Knowledge base articles Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # System properties for factoid extraction in Q&amp;A Genius Results
@@ -41,5 +41,5 @@ Specifies the factoid extraction mode that you want Q&amp;A Genius Results to us
     -   **snippet**: Q&amp;A Genius Result answer cards display the full extracted snippet from the source HTML article, with the factoid highlighted if possible.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)
+</table>**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)
 

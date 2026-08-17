@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Financial Services Operations \(FSO\) release notes
-description: The ServiceNow Now Assist for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. Now Assist for FSO was enhanced and updated in the Australia release.
+title: ServiceNow Otto for Financial Services Operations \(FSO\) release notes
+description: The ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -8,35 +8,37 @@ last_updated: "2026-03-12"
 reading_time_minutes: 4
 ---
 
-# Now Assist for Financial Services Operations \(FSO\) release notes
+# ServiceNow Otto for Financial Services Operations \(FSO\) release notes
 
-The ServiceNow® Now Assist for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. Now Assist for FSO was enhanced and updated in the Australia release.
+The ServiceNow® ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.
 
-## Now Assist for FSO highlights for the Australia release
+## ServiceNow Otto for FSO highlights for the Australia release
+
+Australia Patch 5
+
+-   Starting with Australia Patch 5, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Financial Services Operations \(FSO\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 Australia Patch 3
 
--   Extend AI-powered CSR capabilities to insurance with two new skills and two new AI agents that surface customer insurance profiles, policy details, and interaction context for personal and commercial lines customers in Agentic Contact Center for Insurance.
+-   Extend AI-powered CSR capabilities to insurance with two new skills and two new AI agents. Surface customer insurance profiles, policy details, and interaction context for personal and commercial lines customers in Agentic Contact Center for Insurance.
 
 Australia Patch 1
 
 -   Accelerate customer service for banking with a CSR support AI agent, which provides intent detection, call insights, and AI-generated suggestions displayed to CSRs during active calls.
 -   Reduce handle time with automatic call summarization: when a call is transferred to a human agent, a contextual summary of the customer's issue is made available.
--   Research and prepare for customer outreach with a customer profile summary skill and a customer insights AI agent, which answers natural-language queries about a customer by dynamically drawing on data from defined data sources.
+-   Research and prepare for customer outreach with a customer profile summary skill and a customer insights AI agent. The AI agent answers natural-language queries about a customer by dynamically drawing on data from defined data sources.
 
-See [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations.md) for more information.
+See [AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md) for more information.
 
-**Important:** Now Assist for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
-
-Australia Patch 3
 
 -   **[Insurance CSR support AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.md)**
 
     Provides insurance CSRs with AI-driven live assistance during voice calls in Agentic Contact Center for Insurance. The agent monitors the call transcript and, when prompted, identifies the customer's intent and surfaces relevant insurance data and knowledge base content. The agent responds to typed queries, or the CSR can request to have the agent read the latest transcript to infer the customer's most recent question.
 
--   **[Insurance interaction context summary skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-now-assist-for-financial-services-operations-fso.md)**
+-   **[Insurance interaction context summary skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-insurance.md)**
 
     Generates a call-contextual summary in the Interaction page in Agentic Contact Center for Insurance. When a call is assigned to a CSR, the skill surfaces the customer's likely reason for calling, related cases, and relevant insurance products in the **Relevant details for this call** card.
 
@@ -44,18 +46,16 @@ Australia Patch 3
 
     Enables insurance CSRs to ask natural-language questions about a customer's insurance relationship directly from the Customer 360 page. The agent retrieves data from insurance policy, claims, and servicing sources, and returns contextual responses to the CSR.
 
--   **[Insurance Customer Profile Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-now-assist-for-financial-services-operations-fso.md)**
+-   **[Insurance Customer Profile Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-insurance.md)**
 
     Provides AI-generated summaries of an insurance customer's profile, status, and policy portfolio directly in the Customer 360 page in Agentic Contact Center for Insurance.
 
-
-Australia Patch 1
 
 -   **[Banking CSR support AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)**
 
     Provides CSRs with AI-driven live assistance during voice calls. This AI agent monitors the transcript of the call. When prompted, the agent identifies customer intent, surfaces knowledge-based recommendations, and suggests next-best actions.
 
--   **[Customer interaction context summary skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-now-assist-for-financial-services-operations-fso.md)**
+-   **[Banking customer interaction context summary skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)**
 
     Generates a call-contextual customer summary in the Interaction workspace in the Agentic Contact Center for Banking. This summary is scoped to the intent of the inbound call, providing the agent with a snapshot of the customer's situation when the call begins.
 
@@ -63,7 +63,7 @@ Australia Patch 1
 
     Enables CSRs to ask natural-language questions about a customer directly from the Customer 360 workspace. The agent aggregates data from predefined sources, then uses the information to generate accurate, contextually relevant answers.
 
--   **[Customer profile summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-now-assist-for-financial-services-operations-fso.md)**
+-   **[Banking customer profile summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)**
 
     Provides AI-generated summaries directly on the Customer 360 workspace in the Agentic Contact Center for Banking, reducing navigation across multiple systems.
 
@@ -79,16 +79,19 @@ Australia Patch 1
 
 ## Changed in this release
 
-Australia Patch 4
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
--   **[Updated default model provider for Now Assist for FSO skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md)**
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+-   **[Updated default model provider for ServiceNow Otto for FSO skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md)**
 
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 ## Activation information
 
-Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -96,7 +99,7 @@ Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the
 
     Leverage the new skills and AI agents in the Customer 360 and Interaction pages in Agentic Contact Center for Banking.
 
--   ****
+-   **[Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/landing-agentic-contact-centre-for-insurance.md)**
 
     Leverage the new insurance skills and AI agents in the Customer 360 and Interaction pages in Agentic Contact Center for Insurance.
 

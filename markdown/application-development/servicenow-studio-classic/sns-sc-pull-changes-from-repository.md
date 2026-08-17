@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Pull changes from a repository
@@ -34,15 +34,15 @@ Role required: admin
 
 5.  Choose whether to stash or discard local changes before pulling.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d170057e152">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d174619e152">
 
 Option
 
-</th><th align="left" id="d170057e155">
+</th><th align="left" id="d174619e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d170057e161">
+</th></tr></thead><tbody><tr><td id="d174619e161">
 
 **Stash local changes**
 
@@ -50,7 +50,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d170057e170">
+</td></tr><tr><td id="d174619e170">
 
 **Discard local changes**
 

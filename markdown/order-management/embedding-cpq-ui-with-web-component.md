@@ -1,35 +1,35 @@
 ---
-title: Embedding the ServiceNow CPQ UI with the ServiceNow CPQ Web Component
-description: By using the ServiceNow CPQ Web Component, you can embed the ServiceNow CPQ UI in a web page without using an iframe. Because the component's UI is compatible with themes, users can easily edit the look of the UI.
+title: Embedding the CPQ UI with the CPQ Web Component
+description: By using the CPQ Web Component, you can embed the CPQ UI in a web page without using an iframe. Because the component's UI is compatible with themes, users can easily edit the look of the UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/embedding-cpq-ui-with-web-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Embedding the ServiceNow CPQ UI with the ServiceNow CPQ Web Component
+# Embedding the CPQ UI with the CPQ Web Component
 
-By using the ServiceNow CPQ Web Component, you can embed the ServiceNow CPQ UI in a web page without using an iframe. Because the component's UI is compatible with themes, users can easily edit the look of the UI.
+By using the CPQ Web Component, you can embed the CPQ UI in a web page without using an iframe. Because the component's UI is compatible with themes, users can easily edit the look of the UI.
 
-The ServiceNow CPQ Web Component allows a user to embed the ServiceNow CPQ UI directly to a web page without an iframe. The UI of the Web Component is compatible with themes to allow users to easily edit the look of the UI.
+The CPQ Web Component allows a user to embed the CPQ UI directly to a web page without an iframe. The UI of the Web Component is compatible with themes to allow users to easily edit the look of the UI.
 
 To use the Web Component, you must have:
 
 -   A configurable product associated to a deployed blueprint
--   A ServiceNow CPQ runtime token that includes the destination URL as the origin Website URL white-listed in the GCP properties
+-   A CPQ runtime token that includes the destination URL as the origin Website URL white-listed in the GCP properties
 
 Contextual information on the page \(such as a SKU in the page URL\) is accessible to the Web Component with minimal customization. The Web Component also:
 
--   Removes the need to use an iframe to embed ServiceNow CPQ UI, avoiding security restrictions and issues inherent to iframes
+-   Removes the need to use an iframe to embed CPQ UI, avoiding security restrictions and issues inherent to iframes
 -   Dispatches native HTML events that can be listened for anywhere on a page
 -   Reduces integration complexity; for example, its Web component orchestrates API calls for UI display and configuration
--   Provides greater control over ServiceNow CPQ on your site with access to the HTML directly on the page, more seamlessly integrating with the parent page
+-   Provides greater control over CPQ on your site with access to the HTML directly on the page, more seamlessly integrating with the parent page
 -   Is compatible with custom themes
 
-## Embedding the ServiceNow CPQ Web Component
+## Embedding the CPQ Web Component
 
 The Web Component can be added to any page where you can add HTML. The only required fields to initialize the Web Component are the URL, the runtime token, and the configurable product ID.
 

@@ -118,7 +118,7 @@ No-code condition statement or low-code script that specifies a condition for le
 </td></tr></tbody>
 </table>## Example Boolean user input control for LLM topic discovery
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_kml_drq_11c"><thead><tr><th>
 
@@ -259,12 +259,12 @@ Skip reprompting if
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or Dialog Act, Virtual Agent bypasses this node and automatically retains its original value.
 
 </td></tr></tbody>
 </table>## Example Boolean user input control for NLU topic discovery
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -293,7 +293,7 @@ Input prompt
 |-------|-----------|-------------------|-----------|
 |Web UI|Not Supported|Supported|None|
 |Mobile UI|Not Supported|Supported|None|
-|Now Assist panel|Not Supported|Supported|None|
+|ServiceNow Otto panel|Not Supported|Supported|None|
 |Microsoft Teams|Supported|Supported|None|
 |Slack|Not Supported|Supported|None|
 |Workplace|Not Supported|Supported|None|

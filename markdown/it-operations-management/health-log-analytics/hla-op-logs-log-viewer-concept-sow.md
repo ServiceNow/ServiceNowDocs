@@ -29,7 +29,7 @@ You can perform the following tasks on the **Log Viewer**:
 
     View a chart of the frequency of anomalous log lines and the associated log data.
 
--   [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md)
+-   [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md)
 
     Fine-tune the search query to help determine the causes of the issue, and save and share useful searches.
 

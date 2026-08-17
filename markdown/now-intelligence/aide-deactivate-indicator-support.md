@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-19"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Deactivate indicator support
@@ -20,11 +20,11 @@ Roles required: now\_assist\_explorer\_admin or higher
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the product area pane, select **Data and Analytics** &gt; **Analytics**.
 
-3.  In Now Assist skills for Analytics, search for the analytics exploration skill.
+3.  In AI skills for Analytics, search for the analytics exploration skill.
 
 4.  If the **Activate skill** button is visible for this skill, press it to activate the skill.
 
@@ -45,5 +45,5 @@ Roles required: now\_assist\_explorer\_admin or higher
 
 **Note:** To deactivate queries on indicator data for all AI applications on an instance, deactivate the Query Generation "analytics query generation for indicators" skill.
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-subscriptionmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -176,6 +176,10 @@ Zurich
 
 </td><td>
 
+-   **[Streamlined user-based subscription allocation starting in Zurich Path 11](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&family=zurich&ft:locale=en-US)**
+
+To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions has been removed for administrators who have never used it. Administrators who have manually allocated user-based subscriptions before can still make manual allocations.
+
 -   **[Assist usage excludes demo data](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 Demonstration instances are excluded from the total Assist usage count to improve tracking of Assist consumption.
@@ -321,7 +325,7 @@ Australia
 
 </td><td>
 
-Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [\[Placeholder link text to key external.sn-app-store\]](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -508,6 +512,10 @@ Zurich
 -   View and filter subscribers by domain for user-based subscriptions in domain-separated instances.
 -   View and filter Now Assist usage by domain in domain-separated instances.
 -   Monitor Workflow Data Fabric usage and view token use rate of each capability.
+
+ Zurich Path 11
+
+-   Automatically manage user-based allocations by user roles if you have never used the manual allocation workflow before.
 
  See [Subscription Management](https://www.servicenow.com/docs/access?context=subscription-management-landing-page-v2&family=zurich&ft:locale=en-US) for more information.
 

@@ -22,8 +22,8 @@ The default base system dashboard, the All instance health dashboard, is the Ins
 
 \[Omitted image "io-user-conf-dashboard.png"\] Alt text: All Instances Summary Dashboard.
 
--   Instance availability: The availability across all instances
--   Alerts: The alerts for that account for the last 24 hours
+-   Instance availability: The availability across all instances.
+-   Alerts: The **Monitoring Alerts** display alerts that ServiceNow is proactively monitoring on behalf of customers. The **Self-Service Alerts** are your self configured alerts.
 -   Open cases: All open cases for that account
 -   Performance insights: The customizable widget gives the performance insights that are updated every 15 minutes.
 -   Known Issues \(ePRBs\): All known issues with ServiceNow
@@ -39,5 +39,5 @@ Create a dashboard that serves as a home page to assess the health of your insta
 -   **[Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md)**  
 The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

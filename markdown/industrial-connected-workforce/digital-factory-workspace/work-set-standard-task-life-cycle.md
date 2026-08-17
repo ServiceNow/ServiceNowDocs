@@ -42,7 +42,7 @@ A life cycle is the list of states that a work set standard or work set task can
 |State|Description|
 |-----|-----------|
 |Ready|The work set task is created and waiting to be picked up.|
-|Work in Progress|The work set task is being executed. The system records the actual start time on entry to this state and moves the task to this state automatically when a child task starts or a child action closes.|
+|Work in Progress|The work set task is executing. The system records the actual start time when the task enters this state. The task moves here automatically when a child task starts or a child action closes.|
 |On Hold|The work set task is paused. Operators can resume it by setting it back to **Work in Progress**.|
 |Closed Complete|All child records are submitted or closed and the operator has submitted the work set task. The system records the actual end time.|
 |Closed Skipped|The work set task has expired. Active child tasks move to **Closed Skipped** and active child actions move to **Canceled**.|
@@ -51,7 +51,7 @@ A life cycle is the list of states that a work set standard or work set task can
 **Important:** A work set task can't be closed while it has active child tasks. Complete or cancel the remaining child records first.
 
 -   **[Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)**  
-Create and update a work set standard or create a copy of a published or retired work set standard, and use it as a template for a new one.
+Create and update a work set standard. You can also copy a published or retired work set standard to use as a template for a new one.
 -   **[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)**  
 Run a work set task to complete all sub-activities of the underlying work set standard as part of one guided flow.
 -   **[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)**  
@@ -67,10 +67,6 @@ Create a work set standard, add sub-activities, and request approval to publish 
 [Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)
 
 [Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)
-
-[Components installed with work set standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/components-installed-with-work-set-standards.md)
-
-[Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md)
 
 [Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md)
 

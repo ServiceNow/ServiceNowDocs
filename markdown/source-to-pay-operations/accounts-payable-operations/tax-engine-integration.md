@@ -1,6 +1,6 @@
 ---
-title: Tax Engine Integration
-description: Integrate an external tax engine to validate supplier-provided taxes against calculated from external tax engines resulting in accurate, conforming, straight through processing and improving efficiency.
+title: Tax engine integration
+description: Integrate an external tax engine to validate supplier taxes and enable accurate, conforming straight-through processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-engine-integration.html
 release: australia
@@ -8,21 +8,45 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
+keywords: [APO, Tax Engine Integration, Accounts Payable invoice, Accounts Payable Operation, Tax Calculation, System tax]
 breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Tax Engine Integration
+# Tax engine integration
 
-Integrate an external tax engine to validate supplier-provided taxes against calculated from external tax engines resulting in accurate, conforming, straight through processing and improving efficiency.
+Integrate an external tax engine to validate supplier taxes and enable accurate, conforming straight-through processing.
 
-The Accounts Payable invoice processing invokes the external tax engine to validate supplier tax \(based on ship to, item, service, category, amounts, jurisdiction, exemptions, other tax configuration\) against system tax and drive straight through processing for matching outcomes. During invoice data extraction, the tax rate and tax amount will be stored as supplier tax rate and supplier tax amount at both header and invoice line levels. Tax integration is applicable for invoices of type PO, Non-PO and credit memo; supporting automatic, manual, and scheduled tax validation ensuring taxes remain correct even when invoices change or temporary integration issues occur.
+Invoice processing invokes the external tax engine to validate supplier tax against system tax. Supplier tax factors include ship-to location, item, service, category, amounts, jurisdiction, exemptions, and other tax configuration. Matching outcomes drive straight-through processing.
+
+During invoice data extraction, the tax rate and tax amount are stored as supplier tax rate and supplier tax amount at both header and line levels.
+
+Tax integration applies to PO, Non-PO, and credit memo invoices. It supports automatic, manual, and scheduled tax validation, keeping taxes correct when invoices change or temporary integration issues occur.
+
+The Vertex tax integration \(sn\_fsc\_vertex plugin\) connects the invoice tax verification process to the Vertex tax system, calculates the jurisdiction aware tax on buyer invoices automatically. The calculated tax is written back to the invoice staging record.
 
 ## How system tax is calculated
 
-How system tax is calculated-Accounts Payable Operations captures supplier-declared tax amounts exactly as provided and validates them against independently calculated system tax. Internal tax line breakdowns roll up to system tax only, which is then compared against the supplier-declared amount. If the difference is not within the configured tolerance threshold or if the difference is lower or more than threshold, then tax exception is raised. Roll up logic applies only to system tax, not to supplier-declared tax.
+System tax can be handled either through an external tax engine such as Vertex or manually by the AP specialist using tax lines.
 
-Example: A supplier sends an invoice with a sales tax amount for each line item. When recording the corresponding liability, the buyer may internally calculate tax and split into State, County, and District tax components. These components are recorded as internal tax lines. The sum of these internal tax lines \(roll up to invoice line or header as system tax\) is then validated against the supplier tax declared at the invoice line level.
+External Tax System \(Vertex\)
+
+When Vertex tax system integration is enabled, the system:
+
+-   Sends invoice line-item details \(amount, line description\) to Vertex's tax determination engine
+-   Passes relevant tax context \(supplier name, address, bill-to location, ship-to location, transaction type\)
+-   Receives calculated tax amounts back based on jurisdictional rules, exemptions, and tax codes
+-   Stores the Vertex response in the same tax staging table and process
+-   Automatically populates the tax lines in the invoice with Vertex-determined amounts
+
+Manual Tax Calculation Path \(AP Specialist\)
+
+When Vertex is unavailable, disabled, or not applicable the AP specialist:
+
+-   Reviews the invoice line items and determines applicable tax rates manually
+-   Enters tax lines directly into the invoice \(tax amount, tax rate, jurisdiction\) via the APO UI
+
+Example: A supplier sends an invoice with a sales tax amount for each line item. During invoice processing, the AP specialist must validate the supplier-declared tax by comparing it against the system-calculated tax. The system tax is calculated at the invoice line and header levels through internal tax lines. These tax lines are created either through integration with an external tax system \(such as Vertex, when enabled\) or manually by the AP specialist. The individual tax lines roll up to create system tax amounts at the invoice line or header level. The rolled-up system tax is then validated against the supplier-declared tax amount shown on the invoice line.
 
 Tax integration is triggered for invoices:
 
@@ -65,12 +89,12 @@ Key functions
 
 </th></tr></thead><tbody><tr><td>
 
-The Accounts Payable Operations serves as entry point for tax calculation. When an invoice is in PO matching or accepted state in the Accounts Payable Operations, the system determines if tax calculation is required or not.
+The Accounts Payable Operations serves as entry point for tax calculation. When an invoice is in PO matching or accepted state in the Accounts Payable Operations, the system determines if tax calculation from external tax system is required or not.
 
 </td><td>
 
--   If tax calculation is required, then a record is created in the tax staging table \[sn\_spend\_intg\_tax\_staging\], and the tax status is set to in progress. For more information on tax status, see [Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-status.md)
--   If tax calculation isn’t required, then the invoice processing continues through the regular exception flow and proceeds to payment.
+-   If tax calculation from external tax system is required, a record is created in the tax staging table \[sn\_spend\_intg\_tax\_staging\]. The tax status is set to in progress. For more information on tax status, see [Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-status.md)
+-   If tax calculation isn’t required from external tax system, then the invoice processing continues through the regular exception flow and proceeds to approval or payment.
 
 </td></tr><tr><td>
 
@@ -78,11 +102,11 @@ The Source-to-Pay integration framework is a processing layer between Accounts P
 
 </td><td>
 
--   The vendor defines the data mapping required by the external tax engine.
--   Mapping tables are used during request creation \(outbound\) and response processing \(inbound\) between APO attributes and Accounts Payable Operations.
--   Responses from the tax engine are sent back to the staging table.
+-   The out-of-the-box \(OOTB\) data mapping for the Vertex tax engine is available. Review and identify any configuration changes required. For alternative tax engines, specify the corresponding field mapping and verify format alignment.
+-   Mapping tables are used during request creation \(outbound\) and response processing \(inbound\) between APO attributes and external tax system fields.
+-   Responses from the tax engine stored in the same staging table.
 -   Invoice tax status is updated based on the response.
--   Failed records are processed manually. For more information on the tables, see [Configuration tables and prerequisites for Tax integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-tax-integ.md).
+-   Failed records are processed manually. For more information on the tables, see [Configuration tables and prerequisites for tax integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-tax-integ.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +117,19 @@ The external tax engine computes the tax.
 Calculates the tax and returns the response. The response is processed, tax lines are created automatically for the applicable invoice in Accounts Payable Operations. The system triggers exception engine based on the response from tax engine. Tax exception is raised when supplier tax and system tax mismatch in the invoice. Invoice tax status is set to integration error and Accounts Payable specialist investigates the case manually. If the invoice is modified after last execution \(change amounts, add lines or adjust tax codes\), then the tax is recalculated. The tax processing is re-initiated. on successful validation, the invoice processing proceeds to payment.
 
 </td></tr></tbody>
-</table>## Tax validation modes
+</table>## How the Vertex integration works
+
+The Tax Engine Integration with Vertex \(com.sn\_fsc\_vertex\) enables seamless connectivity between ServiceNow and Vertex tax system to automate tax calculation and validation.
+
+The integration processes an invoice through the following stages:
+
+-   Connectivity - The integration authenticates to Vertex over OAuth by using the client-credentials grant, through a reusable connection template and a connection alias. The connection attributes for product and API version are configurable for each environment.
+-   Transformation - The integration converts the staging record into the Vertex request format, sends it to Vertex, and converts the response back into the staging format by using a shared field-mapping table.
+
+    For more information on the mappings and jurisdictions, see [Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md), [Jurisdictions main table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.md).
+
+
+## Tax validation modes
 
 Tax calculation and validation can be triggered in multiple ways:
 

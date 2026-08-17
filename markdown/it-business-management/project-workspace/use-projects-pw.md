@@ -465,13 +465,15 @@ Use Project Workspace to create a project and start planning for your project ta
 -   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
 -   **[Ask project questions using the Project Answers agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/ask-question-answers-chatbot-pw.md)**  
-Use Ask Now Assist to open the Now Assist panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+Use Ask Otto to open an AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 -   **[Generate and track project details from AI insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-ai-project-insights-pw.md)**  
 Generate and monitor project insights directly from AI insights page in Project Workspace.
 -   **[Generate a project plan using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-project-using-ai-pw.md)**  
 Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
 -   **[Generate tasks using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-tasks-using-ai-pw.md)**  
 Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
+-   **[Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)**  
+Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 -   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-asset-project-requests-pw.md)**  
 Create a new asset project request directly from Project Workspace and associate it to a project for tracking and reporting purpose.
 -   **[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-playbooks-pw.md)**  
@@ -493,7 +495,7 @@ Create a schedule baseline and financial baseline of a project. A baseline is a 
 -   **[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
 -   **[Generate a project status report with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-ai-project-status-report.md)**  
-Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
+Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 -   **[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)**  
 Create a status report in Project Workspace for your projects. Your team can view the report and be updated on project health, metrics, risks, issues, and milestones.
 -   **[Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md)**  
@@ -501,7 +503,7 @@ Add comments and attachments to the project or a project task and share them wit
 -   **[Collaborate on projects using Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/collaborative-project-planning-with-docs.md)**  
 Collaborate with team members, save notes, create project charters, and project briefs using Docs.
 -   **[Summarize content with project doc generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)**  
-Quickly learn the details of the documents from the summary that is generated by Now Assist in Strategic Planning.
+Quickly learn the details of the documents from the summary that is generated by AI in Strategic Planning.
 -   **[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/email-project-summary-pw.md)**  
 Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
 -   **[Project financials and Source-to-Pay Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/pws-fin-spo-integration.md)**  

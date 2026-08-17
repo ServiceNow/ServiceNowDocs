@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Auto Query page
@@ -40,9 +40,7 @@ The following image shows an example of the Auto Query page.
 
 **Note:** When a query is enabled but not running, the Status column displays idle icon \[Omitted image "idle.png"\] Alt text: to indicate it is idle. When related or all Sensors are offline, the All Sensors Offline icon \[Omitted image "offline.png"\] Alt text: displays.
 
-## Actions
-
-The **Actions** button is a drop-down menu that includes the following options.
+Use the drop-down **Actions** button to select additional options.
 
 \[Omitted image "actions-menu-quick-scan-small.png"\] Alt text: Auto Query Action button
 
@@ -64,5 +62,16 @@ The **Actions** button is a drop-down menu that includes the following options.
     -   **Location Set**: Sets a label and a location field using the Site name.
     -   **SNMP**: Queries to discover SNMP service. This tries only the SNMP port.
     -   **OS Detection**: Use with caution, especially in production environments. This query can disrupt or crash poorly configured or sensitive assets. Queries Linux / Windows endpoint for any discoverable services.
--   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. See [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-quick-scan.md) for more information on Quick Scans.
+-   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. For more information on Quick Scans, see [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-quick-scan.md).
+
+-   **[Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md)**  
+Create an Auto Query that you can run on demand for different Discovery Console for OT Assets.
+-   **[Create an Auto Query ignore list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-ignore-auto-query.md)**  
+Create an Auto Query to exclude specified asset IP addresses from receiving scanning traffic.
+-   **[Edit an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/editing-an-auto-query.md)**  
+Edit an Auto Query to change or add parameters to your scan.
+-   **[Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-quick-scan.md)**  
+Create a **Quick Scan** from the Auto Query page.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
 

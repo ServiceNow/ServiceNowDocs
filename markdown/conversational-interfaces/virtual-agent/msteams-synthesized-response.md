@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist in VA conversations with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use ServiceNow Otto for Virtual Agent in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Synthesized response in Microsoft Teams conversations
@@ -30,5 +30,5 @@ When you enable the synthesized response picker on Microsoft Teams, users who st
 
 Mid-topic switching is also possible during a conversation with synthesized responses and user can continue with their original request or switch the conversation. When the user selects the **View other options** button they get the list of available Knowledge Base articles and catalogs, which the user can select and go through the details.
 
-**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-teams.md)
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-teams.md)
 

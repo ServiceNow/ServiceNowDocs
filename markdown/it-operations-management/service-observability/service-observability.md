@@ -30,7 +30,7 @@ The ServiceNow® Service Observability application enables operators to triage a
 
 </td></tr><tr><td>
 
-[Monitor and investigate\[Omitted image "icon-managing.png"\] Alt text:Learn how to find the source of issues and view the health of services and their related infrastructure entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/using-service-observability.md)
+[Monitor and investigate\[Omitted image "bus-management-console.svg"\] Alt text:Learn how to find the source of issues and view the health of services and their related infrastructure entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/using-service-observability.md)
 
 </td><td>
 

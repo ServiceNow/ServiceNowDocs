@@ -1,6 +1,6 @@
 ---
-title: Setup Hub \(SPM\)
-description: Setup Hub \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
+title: ServiceNow Otto for Setup \(SPM\)
+description: ServiceNow Otto for Setup \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/spm-config-console-landing.html
 release: australia
@@ -10,15 +10,15 @@ reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
 
-# Setup Hub \(SPM\)
+# ServiceNow Otto for Setup \(SPM\)
 
-Setup Hub \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
+ServiceNow Otto for Setup \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
 
 ## Get started
 
 <table id="table_spm-config-console-landing-nav" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Setup Hub \(SPM\) and how it enables your SPM rollout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Setup \(SPM\) and how it enables your SPM rollout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-explore.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Some ServiceNow resources that can provide helpful information:
 **Related topics**  
 
 
-[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)
+[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)
 
-[Explore Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)
+[Explore ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)
 

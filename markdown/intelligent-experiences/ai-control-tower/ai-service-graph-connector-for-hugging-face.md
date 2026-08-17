@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-04-30"
 reading_time_minutes: 3
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for Hugging Face
@@ -44,26 +44,24 @@ Complete the following setup steps once when configuring the connector for the f
 
 **Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
 
-Update Data Source Access
+Update Data Source Access:
 
 The connector requires write permissions to the Data Source table to create data sources.
 
 To enable data source creation:
 
-1.  Select Global from the application picker
-2.  Navigate to Application Access
-3.  Select the Can create, Can update, and Can delete check boxes.
-4.  Select Update
-5.  Switch to the connector application scope
-
-Clear cache
+1.  Select **Global** from the application picker.
+2.  Navigate to **Application Access**.
+3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
+4.  Select **Update**.
+5.  Switch to the connector application scope.
 
 Clear the cached data for the Data Source and Tables.
 
 To clear the cache:
 
-1.  Navigate to System Definition &gt; Background Scripts
-2.  Paste the following script into the Run Script text box:
+1.  Navigate to **System Definition** &gt; **Background Scripts**.
+2.  Enter the following script in the **Run Script** text box:
 
     ```
     GlideTableManager.invalidateTable('sys_data_source');
@@ -73,18 +71,17 @@ To clear the cache:
     
     ```
 
-3.  Select Run Script.
+3.  Select **Run Script**.
 
-    **Note:** The script may take several minutes to complete.
+    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
 
-4.  After completion, switch to the connector application scope
 
 ## Hugging Face Prerequisites
 
 Complete the following steps in your Hugging Face environment before creating a connection.
 
--   Hugging Face account \(If you don't have a Hugging Face account, create one at https://huggingface.co\)
--   Generate API Tokens
+-   Hugging Face account \(If you don't have a Hugging Face account, create one at https://huggingface.co\).
+-   Generate API Tokens.
 
 ## Discovery Scope
 
@@ -136,10 +133,10 @@ Prompt templates and configuration strings.
 -   Space Discovery – Identifies Hugging Face Spaces based on organization membership or public visibility.
 -   Code Analysis – Downloads and analyzes Python files from each Space.
 -   Pattern Matching – Identifies these components:
-    -   Agent implementations \(for example, LangChain agents, custom frameworks\)
-    -   Model references \(for example, model\_id parameters, API calls\)
-    -   Tool definitions \(for example, function decorators, tool classes\)
-    -   Prompt templates \(for example, PromptTemplate, string templates\)
+    -   Agent implementations \(for example, LangChain agents, custom frameworks\).
+    -   Model references \(for example, model\_id parameters, API calls\).
+    -   Tool definitions \(for example, function decorators, tool classes\).
+    -   Prompt templates \(for example, PromptTemplate, string templates\).
 -   Relationship Mapping – Links AI systems to their sub-components such as models, tools, and prompts.
 -   Incremental Updates – Processes only Spaces modified since the last successful import.
 
@@ -162,16 +159,16 @@ The connector maps Hugging Face AI assets to ServiceNow staging tables and targe
 
 The Hugging Face connector populates the following target tables in ServiceNow.
 
-Digital Asset Tables
+Digital Asset Tables:
 
 -   alm\_ai\_system\_digital\_asset – Stores AI System digital assets discovered from Hugging Face Spaces.
 -   alm\_ai\_model\_digital\_asset – Stores AI Model digital assets including language models and embeddings.
 -   alm\_ai\_prompt\_digital\_asset – Stores AI Prompt digital assets including prompt templates and configurations.
 
-Entity Tables
+Entity Tables:
 
--   sn\_ent\_ai\_tool: Stores AI Tools including function definitions and tool implementations
--   sn\_ent\_ai\_system\_subcomponent\_m2m: Stores many-to-many relationships between AI systems and their subcomponents \(models, tools, prompts\)
+-   sn\_ent\_ai\_tool: Stores AI Tools including function definitions and tool implementations.
+-   sn\_ent\_ai\_system\_subcomponent\_m2m: Stores many-to-many relationships between AI systems and their subcomponents \(models, tools, prompts\).
 
 **Note:** The Hugging Face connector currently focuses on discovery of AI assets. Usage and execution tracking capabilities may be added in future versions.
 

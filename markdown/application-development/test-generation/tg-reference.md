@@ -9,7 +9,7 @@ classification: test-generation
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test generation, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Test generation references

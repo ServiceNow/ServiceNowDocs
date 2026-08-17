@@ -82,7 +82,7 @@ Y
 
 </td><td>
 
-[Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md)
+[Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md)
 
 </td></tr><tr><td>
 

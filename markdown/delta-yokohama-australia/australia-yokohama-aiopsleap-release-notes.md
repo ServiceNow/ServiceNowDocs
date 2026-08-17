@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aiopsleap-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -94,9 +94,9 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 </td></tr><tr><td>
@@ -277,7 +277,7 @@ Zurich
 
 </td><td>
 
-Install AIOps LEAP by requesting Now Assist for ITOM from the ServiceNow Store. 
+Install AIOps LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. 
 
 </td></tr><tr><td>
 
@@ -317,7 +317,7 @@ Zurich
 
 </td><td>
 
-You should have Now Assist for Creator installed to generate playbooks.
+You should have ServiceNow Otto for Creator installed to generate playbooks.
 
 </td></tr><tr><td>
 

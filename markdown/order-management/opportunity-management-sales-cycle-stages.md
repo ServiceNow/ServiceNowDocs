@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a sales cycle, Install and configure Opportunity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create a sales cycle, Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate a sales cycle with the opportunity stage

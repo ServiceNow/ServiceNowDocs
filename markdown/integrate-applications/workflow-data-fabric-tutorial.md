@@ -15,13 +15,13 @@ breadcrumb: [Explore, Workflow Data Fabric Home, Workflow Data Fabric]
 
 Workflow Data Fabric Home provides a unified, guided experience for connecting, understanding, and using enterprise data to power workflows, analytics, and AI. Access the tools needed to build trusted data assets, govern them, and make them available for consumption.
 
-## Now Assist for Workflow Data Fabric \(WDF\)
+## ServiceNow Otto for Workflow Data Fabric \(WDF\)
 
 Select the Home icon \[Omitted image "wdf-home-icon.png"\] Alt text: to return to the home page.
 
-From the Workflow Data Fabric Home landing page, use the Now Assist search field with the icon \[Omitted image "now-assist-sparkle-icon-dark.png"\] Alt text: for guidance on setting up integrations.
+From the Workflow Data Fabric Home landing page, use the ServiceNow Otto conversational interface for guidance on setting up integrations.
 
-The Now Assist panel embedded on the top-right corner in the page header of Workflow Data Fabric Home also provides AI-guided assistance for data integration, discovery, and action-taking tasks without leaving your current work context. For more information, see [Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-workflow-data-fabric.md).
+The ServiceNow Otto panel embedded on the top-right corner in the page header of Workflow Data Fabric Home provides AI-guided assistance for data integration, discovery, and action-taking tasks. You can use it without leaving your current work context. For more information, see [ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-workflow-data-fabric.md).
 
 Use **Quick links** to navigate to selected capabilities.
 

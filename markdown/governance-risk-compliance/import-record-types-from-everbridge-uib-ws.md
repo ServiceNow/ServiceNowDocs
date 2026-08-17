@@ -24,7 +24,7 @@ Record types are information stored in Everbridge that are required to create th
 
 ## Procedure
 
-1.  Navigate to **Business Continuity** &gt; **Everbridge notification Configuration** &gt; **Record Types**.
+1.  Navigate to **Business Continuity** &gt; **Everbridge Notification Configuration** &gt; **Record Types**.
 
 2.  Select **Import**.
 

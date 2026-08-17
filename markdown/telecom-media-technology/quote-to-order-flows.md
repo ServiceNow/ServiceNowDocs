@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/quote-to-order-flows.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -25,8 +25,8 @@ Q2O produces the following outcomes:
 
 ## Benefits
 
--   Automated order decomposition reduces time-to-activation and eliminates manual order construction.
--   Catalog-embedded decomposition rules promote consistent order structure and escalate failed orders automatically.
+-   Automated order decomposition reduces time to activation and eliminates manual order construction.
+-   Catalog embedded decomposition rules promote consistent order structure and escalate failed orders automatically.
 -   Consistent order structure reduces manual errors, rework, and missed SLAs.
 -   Fulfillment systems receive properly formatted orders automatically, removing manual handoffs between sales and fulfillment teams.
 -   Dynamic decomposition rules handle variant products and complex bundles without additional catalog entries.

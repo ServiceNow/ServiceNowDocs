@@ -32,19 +32,19 @@ If the plan was created from a plan template, loss scenarios may already be pre-
 
     You can add a loss scenario to the business continuity plan. For example, you can add the "Loss of Datacenters" loss scenario to a business continuity plan.
 
-    The loss of scenario record is displayed as shown in the example.
+    The loss scenario record is displayed as shown in the example.
 
-    \[Omitted image "loss-scenarios-details-tab.png"\] Alt text: Loss of scenario record with the tabs.
+    \[Omitted image "loss-scenarios-details-tab.png"\] Alt text: Loss scenario record with the tabs.
 
 4.  Navigate to **Related asset dependencies** tab and select **Add**.
 
-    You can add the related asset dependencies to the loss of scenario as shown in the example.
+    You can add the related asset dependencies to the loss scenario as shown in the example.
 
-    \[Omitted image "loss-scenarios-add-rel-asset-dep.png"\] Alt text: Add the related asset dependencies to the loss of scenario.
+    \[Omitted image "loss-scenarios-add-rel-asset-dep.png"\] Alt text: Add the related asset dependencies to the loss scenario.
 
 5.  Select the dependencies from the list and select **Add**.
 
-    You can add the dependencies to the loss of scenario as shown in the example.
+    You can add the dependencies to the loss scenario as shown in the example.
 
     \[Omitted image "loss-scenarios-add-dep.png"\] Alt text: Add the dependencies that are related to the assets.
 

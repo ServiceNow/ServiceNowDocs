@@ -1,19 +1,21 @@
 ---
-title: MCO core implementation
-description: MCO core implementation provides foundational configuration for Manufacturing Commercial Operations.
+title: Manufacturing Commercial Operations core implementation
+description: Configure the baseline settings that establish Manufacturing Commercial Operations in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-core-implementation.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 keywords: [MCO, Manufacturing Commercial Operations, core implementation, foundational configuration, implementation planning]
 breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
 
-# MCO core implementation
+# Manufacturing Commercial Operations core implementation
 
-MCO core implementation provides foundational configuration for Manufacturing Commercial Operations.
+Configure the baseline settings that establish Manufacturing Commercial Operations in your instance.
 
-This is the recommended implementation for Manufacturing Commercial Operations.
+This implementation provides the foundation for configuring Manufacturing Commercial Operations core applications.
+
+\[Omitted image "MCO-core-implementation.png"\] Alt text: Implementation steps for configuring Manufacturing Commercial Operations core features.
 

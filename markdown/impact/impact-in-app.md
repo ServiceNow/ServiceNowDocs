@@ -111,7 +111,7 @@ Captures your objectives, which are high-level goals tied to measurable outcomes
 
 </td><td>
 
-[Consumption Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-consumption-report.md)
+[Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-consumption-report.md)
 
 </td><td>
 

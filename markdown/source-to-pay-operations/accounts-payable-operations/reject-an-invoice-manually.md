@@ -9,7 +9,8 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-05-29"
 reading_time_minutes: 1
-breadcrumb: [Create an invoice line manually, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice processing case, AP specialist, Review exceptions, auto rejection]
+breadcrumb: [Create an invoice line manually, Create an invoice manually, Invoice processing, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Reject an invoice manually

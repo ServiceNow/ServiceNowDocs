@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Open the form context menu and select **Configure** &gt; **UI Policies**.
 
-3.  Click **New**.
+3.  Select **New**.
 
 4.  Enter the following values on the **UI Policy** form.
 
@@ -67,7 +67,7 @@ Conditions
 
     The **UI Policy Actions** related list appears.
 
-6.  Click **New** in the **UI Policy Actions** related list.
+6.  Select **New** in the **UI Policy Actions** related list.
 
 7.  Enter the following values.
 

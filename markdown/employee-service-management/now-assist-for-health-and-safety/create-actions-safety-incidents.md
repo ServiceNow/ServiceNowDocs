@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Create actions for safety incidents agentic workflow
@@ -21,9 +21,9 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Create actions for safety incidents**.
 
-Safety agents and managers with the \[now\_assist\_panel\_user\] role can view the Now Assist panel. This panel can automatically trigger responses and create actions once an incident is opened. Once the actions are suggested by agentic AI, the safety agents and managers can enter the preferred action number or description. Entering the action number automatically creates that specific action record in the health and safety action-related item in an open incident record.
+Safety agents and managers with the \[now\_assist\_panel\_user\] role can view the ServiceNow Otto panel. This panel can automatically trigger responses and create actions once an incident is opened. Once the actions are suggested by agentic AI, the safety agents and managers can enter the preferred action number or description. Entering the action number automatically creates that specific action record in the health and safety action-related item in an open incident record.
 
-For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For more information on the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 The AI agents and tools used for the **Create actions for safety incidents** agentic workflow are as follows:
 

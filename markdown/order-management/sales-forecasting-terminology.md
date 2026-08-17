@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sales Forecasting, Lead and opportunity management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Forecasting terminology

@@ -1,6 +1,6 @@
 ---
 title: Configure dealer portal
-description: Configure the dealer portal in Manufacturing Commercial Operations to enable dealers to access recalls, submit claims, and manage self-service workflows.
+description: Configure the dealer portal in MCO to enable dealers to access recalls, submit claims, and manage self-service workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-configure-dealer-portal.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Configure, Manufacturing Commercial Operations]
 
 # Configure dealer portal
 
-Configure the dealer portal in Manufacturing Commercial Operations to enable dealers to access recalls, submit claims, and manage self-service workflows.
+Configure the dealer portal in MCO to enable dealers to access recalls, submit claims, and manage self-service workflows.
 
 ## Before you begin
 
@@ -21,13 +21,13 @@ Role required: admin
 
 ## About this task
 
-Dealers require portal access to view recall campaigns, submit warranty claims, and access reporting dashboards. Configure the portal environment before granting user access.
+Dealers require portal access to view recall campaigns, submit warranty claims, and access reporting dashboards. The portal environment must be configured before you grant user access.
 
 ## Procedure
 
 1.  Enable the dealer portal in MCO setup.
 
-    In the MCO module, navigate to **Setup** and activate the dealer portal feature flag.
+    In the MCO module, navigate to **MCO Setup** and activate the dealer portal feature flag.
 
 2.  Configure the dealer portal theme and branding.
 
@@ -43,7 +43,7 @@ Dealers require portal access to view recall campaigns, submit warranty claims, 
 
 5.  Verify dealers can access recall campaigns and submit claims.
 
-    Sign in as a dealer user and confirm that recall campaigns are visible and the claim submission form is accessible from the portal.
+    Log in as a dealer user and confirm that recall campaigns are visible and the claim submission form is accessible from the portal.
 
 6.  Test the dealer claim submission workflow.
 

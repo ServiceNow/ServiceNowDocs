@@ -49,6 +49,8 @@ Enable agents to effectively manage their active WhatsApp chat conversations by 
 Other ServiceNow applications and features can use the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application.
 -   **[Configure WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-whatsapp-cloud-api-provider-properties.md)**  
 You can customize the behavior of the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application by configuring its provider properties.
+-   **[WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/whatsapp-cloud-api-provider-properties.md)**  
+Use provider properties to customize the behavior of the Conversational Integration with Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application.
 
 **Parent Topic:**[Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp.md)
 

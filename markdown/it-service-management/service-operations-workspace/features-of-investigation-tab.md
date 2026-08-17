@@ -28,7 +28,7 @@ You can select the following drop-down options to view the metrics information f
 
 **Note:** The metrics information for the CI is retrieved in any one of the following conditions:
 
--   When the primary CI is updated or added to the incident. You can also configure when and how the metric information is retrieved for a CI by configuring the collection rule. For more information, see [Configure the collection rules for the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+-   When the primary CI is updated or added to the incident. You can also configure when and how the metric information is retrieved for a CI by configuring the collection rule. For more information, see [Configure Investigate tab collection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 -   When you select the Get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\), it refreshes, retrieves, and displays the latest metrics on demand. This option is available only when you’re viewing data in the Recent Metrics.
 
 The metrics data includes the following information:

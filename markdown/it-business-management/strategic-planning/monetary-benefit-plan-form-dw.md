@@ -1,6 +1,6 @@
 ---
 title: Monetary benefit plan form
-description: The benefit plan form information is used to create monetary and non-monetary benefit plans for a demand.
+description: The benefit plan form enables you to create monetary benefit plans for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategi
 
 # Monetary benefit plan form
 
-The benefit plan form information is used to create monetary and non-monetary benefit plans for a demand.
+The benefit plan form enables you to create monetary benefit plans for a demand.
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Name
 
 </td><td>
 
-Descriptive name of the benefit plan.
+Name of the benefit plan.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Work
 
 </td><td>
 
-Demand number to which the benefit plan belongs.
+Demand associated with the cost plan. This field is automatically set to the associated demand.
 
 </td></tr><tr><td>
 
@@ -54,8 +54,10 @@ Category
 
 </td><td>
 
-Type of benefit:-   **Hard**: Benefits measured in terms of revenue.
--   **Soft**: Benefits measured in terms of value.
+Type of the monetary benefit.The available values are:
+
+-   Hard: Benefits measured in terms of revenue.
+-   Soft: Benefits measured in terms of value.
 
 </td></tr><tr><td>
 
@@ -63,7 +65,7 @@ Sub category
 
 </td><td>
 
-Subcategories of hard and soft benefits. The selection in the **Category** field determines the available options in this field.
+Subcategories of hard and soft benefits. The selection in the Category field determines the available options in this field.
 
 </td></tr><tr><td>
 
@@ -71,7 +73,10 @@ Benefit type
 
 </td><td>
 
-Type of the benefit: monetary or non-monetary.
+Type of the benefit.The available values are:
+
+-   Monetary benefits
+-   Non-monetary benefits
 
 </td></tr><tr><td>
 
@@ -79,7 +84,14 @@ Offset type
 
 </td><td>
 
-Indicates when the benefits start realizing. If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to End Date and the demand due date changes, the benefit plan start date shifts to align with the new due date.
+Indicates when the benefits start realizing. If the value in the selected offset type changes, the benefit plan start date shifts accordingly.The available values are:
+
+-   None
+-   Milestone
+-   Start Date
+-   End Date
+
+For example, set the offset type to End Date. If the demand due date changes, the benefit plan start date shifts to align with the new due date.
 
 </td></tr><tr><td>
 
@@ -87,7 +99,7 @@ Start fiscal period
 
 </td><td>
 
-Starting fiscal period. Populated based on values in the Offset field relative to the selected Project or Demand start date or Project or Demand end date, and the Duration in period values.The field is editable if you select **None** in the **Offset type** field.
+Starting fiscal period. Populated based on values in the Offset field relative to the selected demand start date or demand end date, and the Duration in period values.The field is editable if you select None in the Offset type field.
 
 When you change the start fiscal period, the associated benefit breakdown values also change.
 
@@ -113,7 +125,7 @@ Description
 
 </td><td>
 
-Description of the benefit plan.
+Summary of the benefit plan.
 
 </td></tr></tbody>
 </table><table id="table_svx_dn3_fdc"><thead><tr><th>
@@ -146,7 +158,7 @@ Functional currency
 
 </td><td>
 
-Default currency configured in the Financial Management application and used for managing the demand or project.
+Default currency configured in the Financial Management application and used for managing the demand.
 
 </td></tr><tr><td>
 
@@ -162,7 +174,7 @@ Benefit in functional currency
 
 </td><td>
 
-Benefit incurred from demand in functional currency. The value in this field changes if the **Entered currency** differs from the functional currency.
+Benefit incurred from the demand in functional currency. The value in this field changes if the Entered currency differs from the functional currency.
 
 </td></tr><tr><td>
 

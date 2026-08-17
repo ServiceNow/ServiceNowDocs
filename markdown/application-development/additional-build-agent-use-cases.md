@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/additional-build-agent-use-cases.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-07-27"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -25,7 +25,7 @@ Build Agent can automate the creation of readme files for source code repositori
 
 Use Build Agent as a resource for learning ServiceNow application development practices. You can ask about a wide range of topics, including development techniques, available APIs, and the overall functionality of the ServiceNow AI Platform.
 
-Build Agent supports continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts, which helps developers grasp and apply general guidelines in their work.
+Build Agent supports continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts. All of this helps developers grasp and apply general guidelines in their work.
 
 ## Brainstorming sessions
 
@@ -53,11 +53,11 @@ Use the following scenarios to identify specific ways to apply Build Agent in yo
 
 -   **Common workflow patterns**
 
-    Describe a common business process — such as intake and approval, escalation routing, or SLA monitoring with dashboards — and Build Agent scaffolds the full workflow, including tables, flows, catalog items, notifications, and reporting.
+    Describe a common business process, such as intake and approval, escalation routing, or SLA monitoring with dashboards. Build Agent then scaffolds the full workflow, including tables, flows, catalog items, notifications, and reporting.
 
 -   **Migration acceleration**
 
-    Provide your source system's table definitions, business logic, or data model — pasted as SQL, text, CSV, or screenshots — and Build Agent recreates the equivalent tables, fields, relationships, and automation on the ServiceNow AI Platform.
+    Provide your source system's table definitions, business logic, or data model pasted as SQL, text, CSV, or screenshots. Build Agent then recreates the equivalent tables, fields, relationships, and automation on the ServiceNow AI Platform.
 
 -   **App modernization**
 
@@ -164,7 +164,7 @@ Build \(new development on non-production\)
 
 </td><td>
 
--   Build AI agents and Now Assist skills to bring intelligent automation into your processes
+-   Build AI agents and ServiceNow Otto skills to bring intelligent automation into your processes
 -   Build from design mockups or a detailed PRD, complete with automated test coverage from day one
 
 </td></tr></tbody>

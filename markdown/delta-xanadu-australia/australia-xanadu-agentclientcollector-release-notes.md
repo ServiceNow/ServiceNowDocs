@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-agentclientcollector-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -188,7 +188,7 @@ Starting in version 1.3.0, enable discovery of MSSQL components by running Disco
 
 -   **[Java certification Discovery through file-based discovery](https://www.servicenow.com/docs/access?context=using-enhanced-discovery-and-sam-together&family=yokohama&ft:locale=en-US)**
 
-Starting in version 1.3.0, discover java file information using Agent Client Collector for Visibility - Content \(ACC-VC\) file based discovery. File based discovery locates java files that are installed on the system but not running, enabling retrieval of data used for licensing and auditing.
+Starting in version 1.3.0, discover java file information using Agent Client Collector for Visibility Content \(ACC-VC\) file based discovery. File based discovery locates java files that are installed on the system but not running, enabling retrieval of data used for licensing and auditing.
 
 -   **[Enable high volume upgrade of agents](https://www.servicenow.com/docs/access?context=acc-high-volume-upgrade&family=yokohama&ft:locale=en-US)**
 
@@ -290,7 +290,7 @@ Starting in version 3.15.0, GCP checks provide added support to configure metric
 Starting in version 3.15.0, monitor Linux events using Linux event checks.
 
 
- **Agent Client Collector for Visibility - Content**
+ **Agent Client Collector for Visibility Content**
 
 -   **[Discover MSSQL components using ACC-VC](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
 
@@ -300,9 +300,9 @@ Starting in version 1.5.0, use ACC-VC to discover MSSQL components in your envir
 
 Starting in version 1.5.0, gather software information with ACC-VC using software identification \(SWID\) tags on an agent and a ServiceNow® instance.
 
--   **[Run certificate Discovery using Agent Client Collector for Visibility - Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
+-   **[Run certificate Discovery using Agent Client Collector for Visibility Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
 
-Starting in version 1.3.0, use the Agent Client Collector for Visibility - Content to discover TLS/SSL certificates used by the ports running on the server's configuration items \(CIs\). Certificate Inventory and Management uses the certificate data to manage the TLS/SSL certificate life cycle.
+Starting in version 1.3.0, use the Agent Client Collector for Visibility Content to discover TLS/SSL certificates used by the ports running on the server's configuration items \(CIs\). Certificate Inventory and Management uses the certificate data to manage the TLS/SSL certificate life cycle.
 
 -   **[File-based Discovery is supported in a macOS environment](https://www.servicenow.com/docs/access?context=file-based-discovery&family=zurich&ft:locale=en-US)**
 
@@ -366,7 +366,7 @@ Starting in version 4.1.0, view and monitor metric data with Metric Explorer, ev
 
 -   **[\[Placeholder link text to key acc-visibility-landing-page\]](https://www.servicenow.com/docs/access?context=acc-visibility-landing-page&family=yokohama&ft:locale=en-US)**
 
-Starting in version 1.1.0, ACC for Visibility has been renamed as Kubernetes Visibility Agent and consists only of what is currently CNO for Visibility. The term CNO for Visibility has been deprecated and replaced with Kubernetes Visibility Agent. All other ACC for Visibility functions are now part of Agent Client Collector for Visibility - Content.
+Starting in version 1.1.0, ACC for Visibility has been renamed as Kubernetes Visibility Agent and consists only of what is currently CNO for Visibility. The term CNO for Visibility has been deprecated and replaced with Kubernetes Visibility Agent. All other ACC for Visibility functions are now part of Agent Client Collector for Visibility Content.
 
 
 </td></tr><tr><td>
@@ -733,7 +733,7 @@ Yokohama
 
 </td><td>
 
--   Agent Client Collector for Visibility: Starting in version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility - Content. CNO for Visibility has been extracted from Agent Client Collector for Visibility - Content and is now a separate application.
+-   Agent Client Collector for Visibility: Starting in version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility Content. CNO for Visibility has been extracted from Agent Client Collector for Visibility Content and is now a separate application.
 -   Store instance credentials in the Google Cloud Secret Manager when the Kubernetes Visibility Agent Informer uses Google Kubernetes Engine \(GKE\).
 -   Use a custom CA to enable Kubernetes Visibility Agent Informer to communicate with the instance when using a custom root Certificate Authority \(CA\).
 -   Configure Agent Client Collector without a MID Server by ßusing MID-less configuration.
@@ -746,7 +746,7 @@ Zurich
 
 </td><td>
 
--   Discover TLS/SSL certificates using Agent Client Collector for Visibility - Content certificate Discovery.
+-   Discover TLS/SSL certificates using Agent Client Collector for Visibility Content certificate Discovery.
 -   Enhance data collection by disabling only those checks with high resource usage, allowing data collection to continue for other checks.
 -   Improve troubleshooting capabilities by viewing errors that occur before and after the registration process in the ServiceNow instance.
 -   Use file-based Discovery in a macOS environment.

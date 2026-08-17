@@ -8,9 +8,9 @@ product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Forms, Reference, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Forms, Reference, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Table form for use casesetup
@@ -105,7 +105,7 @@ Column type
 
 The type of field in the table column. For example, a text or date field. For more information, see [Field types in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.md).
 
- Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/data-normalization.md).
+ Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
 
 </td></tr><tr><td>
 

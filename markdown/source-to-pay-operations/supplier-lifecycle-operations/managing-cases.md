@@ -127,13 +127,13 @@ Configure due dates for different case types so that the **Due date** field is a
 -   **[Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md)**  
 Source-to-Pay Workspace includes a generic case playbook to complete supplier cases of specific case types.
 -   **[Create a case on behalf of a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.md)**  
-Create a supplier case to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from a supplier.
+Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 -   **[Assign a supplier case to yourself from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/assign-supp-case.md)**  
-As a supplier manager, assign a case to yourself and start working on it.
+Assign an open supplier case to yourself to begin working on it as supplier manager.
 -   **[Submit a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-case.md)**  
 Submit a supplier case in Draft state to indicate that it is ready to be worked on.
 -   **[Complete a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-case.md)**  
-You can mark a supplier case as complete when you finish all the tasks related to that case.
+Mark a supplier case complete after finishing all associated tasks to close the case record.
 -   **[Reopen a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/reopen-supplier-case.md)**  
 Reopen a closed supplier case if you are not satisfied with the case resolution.
 -   **[Add a related case to a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-related-case.md)**  

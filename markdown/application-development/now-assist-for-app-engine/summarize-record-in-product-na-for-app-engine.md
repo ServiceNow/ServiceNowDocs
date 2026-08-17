@@ -1,5 +1,5 @@
 ---
-title: Summarize a record in-product using Now Assist for App Engine
+title: Summarize a record in-product using ServiceNow Otto for App Engine
 description: Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.html
@@ -7,13 +7,13 @@ release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-24"
 reading_time_minutes: 2
-keywords: [summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
-breadcrumb: [Use, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+keywords: [ServiceNow Otto for App Engine, Summarize record, summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
+breadcrumb: [Use, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Summarize a record in-product using Now Assist for App Engine
+# Summarize a record in-product using ServiceNow Otto for App Engine
 
 Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
 
@@ -29,7 +29,7 @@ The following procedure describes how to summarize a record from a custom applic
 -   [Components documentation for the AI summary card](https://horizon.servicenow.com/workspace/components/now-ai-summary-card?release=zurich)
 -   [UI Builder setup documentation for the AI summary card](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-ai-summary-card/uib-setup)
 
-You can also summarize the contents of a record through chat in the Now Assist panel. For more information, see [Summarize a record through chat using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
+You can also summarize the contents of a record through chat in the ServiceNow Otto panel. For more information, see [Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
 
 ## Procedure
 
@@ -41,15 +41,15 @@ You can also summarize the contents of a record through chat in the Now Assist p
 
 3.  When you're finished summarizing a record, you can copy the summary, expand or collapse the summary, or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d41814e157">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d42603e163">
 
 Option
 
-</th><th align="left" id="d41814e160">
+</th><th align="left" id="d42603e166">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41814e166">
+</th></tr></thead><tbody><tr><td id="d42603e172">
 
 **Expand or collapse the summary**
 
@@ -57,7 +57,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d41814e187">
+</td></tr><tr><td id="d42603e193">
 
 **Provide feedback about the summary**
 
@@ -65,7 +65,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d41814e210">
+</td></tr><tr><td id="d42603e216">
 
 **Copy the record summary**
 
@@ -75,5 +75,5 @@ If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
+**Parent Topic:**[Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 

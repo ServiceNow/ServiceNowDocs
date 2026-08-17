@@ -45,7 +45,7 @@ The work flow described here represents the common practice of creating and mana
 
     Records from a triage board are represented by stories on the Agile board. You can track the status of these stories from the Story board view of the Sprint Tracking tab. See [Track progress of stories for a sprint in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-sprint-story-board.md).
 
-    When you move these stories to different lanes on the story board to update their state, the state of the associated story is updated but the state of the original triaged record remains the same. To change the state of the original record, open the story and switch to the original record tab.
+    When you move these stories to different lanes on the story board to update their state, the state of the associated story is updated. However, the state of the original triaged record remains the same. To change the state of the original record, open the story and switch to the original record tab.
 
 
 **Parent Topic:**[Exploring Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/exploring-agile-development-2.md)

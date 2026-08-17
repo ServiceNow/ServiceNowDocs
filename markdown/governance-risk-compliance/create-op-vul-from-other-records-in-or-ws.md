@@ -50,13 +50,13 @@ When a vulnerability is reported, it is opened in the **New** state, marking the
 
     \[Omitted image "op-vul-service-list-in-assmt-record.png"\] Alt text: Service list.
 
-    When the service is added to the Importance and impact tolerance assessment record, you can add the operational vulnerability and the **New** button is displayed in the Operational vulnerabilities related list.
+    When the service is added to the Importance and impact tolerance assessment record, the **New** button is displayed in the Operational vulnerabilities related list. You can now add the operational vulnerability.
 
 6.  Select **New** in the Operational vulnerabilities related list and add an operational vulnerability.
 
 7.  On the Vulnerability New record form, fill in the fields.
 
-    The source of the vulnerability is the Importance and impact tolerance assessment. Therefore, the **Source** field on the form shows the source as Importance and impact assessment and the **Source table** field on the form shows the table as Importance and impact tolerance assessment.
+    The source of the vulnerability is the Importance and impact tolerance assessment. Therefore, the **Source** field on the form shows the source as Importance and impact assessment. The **Source table** field on the form shows the table as Importance and impact tolerance assessment.
 
     To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-op-vul-form.md).
 

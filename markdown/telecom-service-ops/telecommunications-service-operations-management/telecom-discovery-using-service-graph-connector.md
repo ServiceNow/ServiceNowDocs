@@ -1,6 +1,6 @@
 ---
 title: Indirect Discovery using Service Graph Connectors
-description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
+description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-service-graph-connector.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications 
 
 # Indirect Discovery using Service Graph Connectors
 
-ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
+ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 
 This approach helps Communication Service Providers \(CSPs\) maintain a current and accurate view of their multivendor telecom network resources, services, and configurations.
 
-By leveraging predefined connectors and robust data transformation tools, you can unify your inventory across domains and ensure that the CMDB and Telecom Network Inventory \(TNI\) reflect real-time network insights aligned with your telecom data model.
+By leveraging predefined connectors and robust data transformation tools, you can unify your inventory across domains and confirm that the CMDB and Telecom Network Inventory \(TNI\) reflect real-time network insights aligned with your telecom data model.
 
 **Note:** Telecom Service Graph Connectors are part of the TSOM Visibility subscription and extend the capabilities of the standard Service Graph Connector framework.
 
@@ -96,10 +96,10 @@ Stores structured, accurate telecom infrastructure data for visibility and downs
 </td></tr></tbody>
 </table>## Supported Service Graph Connectors
 
--   Nokia Altiplano SGC \(sn\_sgc\_altiplano\_connector\): Integrates with the Nokia Altiplano Access Network SDN Controller via REST APIs.
--   Cisco Meraki SGC \(sn\_sgc\_meraki\_connector\): Integrates with the Cisco Meraki Dashboard via REST APIs.
--   Fortinet SGC \(sn\_sgc\_fortinet\_connector\): Integrates with FortiManager via REST APIs.
--   Arista VeloCloud SGC \(sn\_sgc\_velocloud\_connector\): Integrates with VeloCloud Orchestrator via REST APIs.
+-   Nokia Altiplano SGC \(sn\_sgc\_altiplano\): Integrates with the Nokia Altiplano Access Network SDN Controller via REST APIs.
+-   Cisco Meraki SGC \(sn\_sgc\_meraki\): Integrates with the Cisco Meraki Dashboard via REST APIs.
+-   Fortinet SGC \(sn\_sgc\_fortinet\): Integrates with FortiManager via REST APIs.
+-   Arista VeloCloud SGC \(sn\_sgc\_vcloud\): Integrates with VeloCloud Orchestrator via REST APIs.
 
 **Note:** The connector can coexist with IT and Cloud Service Graph Connectors \(e.g., for servers, monitoring tools, IoT, etc.\).
 
@@ -107,9 +107,9 @@ Stores structured, accurate telecom infrastructure data for visibility and downs
 
 -   Fast time to value – Use predefined, supported connectors that require minimal configuration.
 -   Multivendor support – Integrate with various management platforms across access, core, and transport networks.
--   Model-aligned visibility – Ensure telecom-specific hierarchy and relationships are accurately modeled in the CMDB.
+-   Model-aligned visibility – verify telecom-specific hierarchy and relationships are accurately modeled in the CMDB.
 -   Discrepancy detection ready – Feed network data directly into Telecom Discrepancy Identification &amp; Reconciliation for CMDB compliance.
--   Scalable integration – Leverage ServiceNow’s proven integration framework built for performance and extensibility.
+-   Scalable integration – Use ServiceNow’s proven integration framework built for performance and extensibility.
 
 ## Telecom Network Inventory \(TNI\) data model
 
@@ -141,4 +141,6 @@ As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 [Telecom Discovery via Cisco Meraki SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.md)
 
 [Telecom Discovery via Fortinet SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.md)
+
+[Telecom discovery via Arista VeloCloud SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.md)
 

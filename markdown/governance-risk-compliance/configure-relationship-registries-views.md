@@ -80,7 +80,7 @@ Relationship
 
 </td><td>
 
-The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many relationship type, the list of relationship tables consists of all many-to-many relationships that apply to the Entity table.
+The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many type, the list shows all applicable many-to-many relationships.
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Order
 
 Based on the **Order** value given the position of element in the 360º view will change.
 
- For example, if you change the order value from 0 to 1 for an element, the position will be moved to next in the 360ºview.
+ For example, if you change the order value from 0 to 1 for an element, the position will be moved to next in the 360º view.
 
 </td></tr></tbody>
 </table>9.  Select **Submit**.

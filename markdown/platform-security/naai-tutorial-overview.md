@@ -30,7 +30,7 @@ Before starting this tutorial, verify the following:
 
 Reviewing the Now Assist security model before you build can help make configuration decisions easier.
 
--   **[Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)**
+-   **[Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)**
 
     Determine who can discover and invoke an agent or agentic workflow. ACLs are configured on the agent itself and are checked before the agent executes.
 
@@ -38,7 +38,7 @@ Reviewing the Now Assist security model before you build can help make configura
 
     Determines what data the agent can access once invoked. A dynamic user agent inherits the invoking user's roles. An AI user agent runs as a dedicated system user with fixed assigned roles.
 
--   **[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)**
+-   **[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)**
 
     Monitors prompts and responses at runtime to detect offensive content, prompt injection attempts, and sensitive subjects. Guardian runs independently of ACLs and user identity.
 
@@ -61,7 +61,7 @@ Complete the following steps in order:
 
 -   **4. [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md)**
 
-    Configure Now Assist Guardian guardrails and data privacy settings.
+    Configure AI Guardian guardrails and data privacy settings.
 
 -   **5. [Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-test-validate.md)**
 
@@ -79,7 +79,7 @@ Define your use case, decide between an base system and custom agent, choose an 
 -   **[Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-build-agent.md)**  
 Create your agent in AI Agent Studio, configure its tools and knowledge sources, and set the access controls that determine who can invoke it and what data it can access.
 -   **[Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md)**  
-Set up Now Assist Guardian guardrails and data privacy controls to protect your AI agent interactions before testing begins.
+Set up AI Guardian guardrails and data privacy controls to protect your AI agent interactions before testing begins.
 -   **[Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-test-validate.md)**  
 Test your agent's execution and access controls, run automated evaluations, and review Guardian logs before approving the agent for production deployment.
 -   **[Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-go-live-monitor.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/set-specific-pae-db-as-home-for-all-users.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-29"
 reading_time_minutes: 1
 breadcrumb: [Set dashboards as home for all users, Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -40,7 +40,7 @@ The dashboard that you configure should be available to all users.
 
 6.  Set the **Type** to `string`.
 
-7.  In the **Value** field, enter the following: `$pa_dashboard.do?sysparm_dashboard=dashboard_sys_id`, but replace `dashboard_sys_id` with the sys\_id you copied before you began.
+7.  In the **Value** field, enter the following: `/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/dashboard_sys_id`, but replace `dashboard_sys_id` with the sys\_id you copied before you began.
 
 8.  Select **Submit**.
 

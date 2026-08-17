@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Advanced Work Assignment, supplier chat, supplier fulfiller, supplier contact, Supplier Collaboration Portal, chat request, Supplier Lifecycle Operations]
 breadcrumb: [Advanced Work Assignment for Supplier Lifecycle Operations, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

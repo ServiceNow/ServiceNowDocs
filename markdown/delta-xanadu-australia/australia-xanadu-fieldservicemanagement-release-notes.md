@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-fieldservicemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 31
+last_updated: "2026-08-17"
+reading_time_minutes: 30
 breadcrumb: [Products combined by family]
 ---
 
@@ -384,12 +384,12 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Manage shifts with Now Assist](https://www.servicenow.com/docs/access?context=now-assist-shift-manage.dita&family=australia&ft:locale=en-US)**
 
-Use Now Assist for FSM to manage shift coverage through a conversational experience, including creating and viewing shifts.
+Use ServiceNow Otto for FSM to manage shift coverage through a conversational experience, including creating and viewing shifts.
 
 
 </td></tr></tbody>
@@ -501,11 +501,11 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key external.sn-app-store\]](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US)**
+-   **[https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US)**
 
 The following plugins are planned for deprecation in the C release. Beginning with the Australia release this plugin will be migrated to a store application. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed.
 
-Beginning with the Australia release, the following applications have been moved to the [\[Placeholder link text to key external.sn-app-store\]](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). Any application enhancements will be delivered through the related store app.
+Beginning with the Australia release, the following applications have been moved to the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). Any application enhancements will be delivered through the related store app.
 
     -   [Advanced Appointment Booking](https://www.servicenow.com/docs/access?context=appintment-booking-day-level-config&family=australia&ft:locale=en-US) \(com.snc.advanced\_appointment\_booking\)
     -   [Field Service Contractor Management](https://www.servicenow.com/docs/access?context=configuring-fsm-contractor-management&family=australia&ft:locale=en-US) \(com.snc.fsm\_contractor\_management\)
@@ -536,7 +536,7 @@ The **google.maps.map\_id** system property enables Field Service Management to 
 
 The **Enable assignments only with preferred/secondary agents** constraint has been renamed to **Enable assignments based on technician assignment preference** and updated to restrict task assignment exclusively to technicians marked as required on the work order task. If no required technician is available or eligible, the task is dropped from optimization and logged in the run summary.
 
--   **[Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&family=australia&ft:locale=en-US)**
+-   **[Access Control Lists \(ACLs\)](https://www.servicenow.com/docs/access?context=access-control-rules&family=australia&ft:locale=en-US)**
 
 Query range ACLs, which prevent unauthorized users from inferring sensitive data through repeated range-based queries, are now shipped by default. If you customized any of these ACLs in a previous release, your version remains active and the out-of-box ACL is set to inactive; otherwise, the default ACL replaces the previously generated one. The affected tables are:
 

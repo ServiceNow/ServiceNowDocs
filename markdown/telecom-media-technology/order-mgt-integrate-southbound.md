@@ -1,6 +1,6 @@
 ---
 title: Integrating Order Management with southbound external systems
-description: If you have a Telecommunications Service Management subscription, you can submit outbound service order requests to various external systems by integrating the Order Management application with the external southbound systems.
+description: Submit outbound service order requests to external systems by integrating Order Management with southbound systems. This integration enables automated order fulfillment across your service provider ecosystem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-integrate-southbound.html
 release: australia
@@ -12,9 +12,9 @@ breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunica
 
 # Integrating Order Management with southbound external systems
 
-If you have a Telecommunications Service Management subscription, you can submit outbound service order requests to various external systems by integrating the Order Management application with the external southbound systems.
+Submit outbound service order requests to external systems by integrating Order Management with southbound systems. This integration enables automated order fulfillment across your service provider ecosystem.
 
-After the decomposition of an order, the Order Management application requires the support from external network activation, network configuration, and resource management systems to manage the fulfillment life cycle of the order.
+After the decomposition of an order, the Order Management application requires support from external systems. These systems manage the fulfillment life cycle of the order. They include network activation, network configuration, and resource management.
 
 Using this integration, a Communications Service Provider \(CSP\) can do the following tasks:
 
@@ -35,8 +35,8 @@ The integration process for Order Management with the external technical order m
     3.  The generated payload is sent to the endpoint of the external fulfillment system. For more information on configuring external system endpoints by creating an integration request, see [Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-integrations.md).
     **Note:**
 
-    -   If the domain order is configured as hierarchical in the decision table, the system sends all the child service domain orders in the hierarchy to the external system that is configured in the application spoke selector.
-    -   If the domain order is configured as non-hierarchical in the decision table, the systems send only the individual domain order to the external system that is configured in the application spoke selector.
+    -   If the domain order is configured as hierarchical, all child service domain orders are sent to the external system configured in the application spoke selector.
+    -   If the domain order is configured as non-hierarchical, only individual domain orders are sent to the external system configured in the application spoke selector.
     To learn more about spokes, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md).
 
 3.  The service order manager selects the Create Outbound Fulfillment Request UI action on the service order form and the system shares the service order details with the external systems.

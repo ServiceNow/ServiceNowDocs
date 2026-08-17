@@ -16,28 +16,14 @@ Use the OT Discovery Collector component to discover devices the Discovery Senso
 
 ## Get started
 
-Use the links to explore, configure, and use the OT Discovery Collector.
+Use the links in the Related Topics section to explore, configure, and use the OT Discovery Collector.
 
-<table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
+-   **[Explore the Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-ot-collectors.md)**  
+The OT Discovery Collector provides you with enhanced features to create an inventory of your assets in your OT environment.
+-   **[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)**  
+The OT Discovery Collector is an application that you can install on a Windows or Linux system.
+-   **[Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-discovery-collector.md)**  
+When your OT Discovery Collector stops or loses power use the next task specific to your OS to restart it.
 
-Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
-
- [Explore the Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-ot-collectors.md)
-
-</td><td>
-
-Configure\[Omitted image "BUS\_64px\_SDLC\_YG.png"\] Alt text:
-
- [Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)
-
-</td></tr><tr><td colspan="2">
-
-Use\[Omitted image "IND\_64px\_Factory-Worker\_YG.png"\] Alt text:
-
- [Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-discovery-collector.md)
-
-</td></tr></tbody>
-</table>## Troubleshoot and get help
-
-If you have any errors or difficulties while using the OT Discovery Collector, [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+**Parent Topic:**[Operational Technology Native Discovery components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-native-components.md)
 

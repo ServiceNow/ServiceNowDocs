@@ -300,7 +300,7 @@ Displays all the associated techniques of a case on the MITRE ATT&amp;CK framewo
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 

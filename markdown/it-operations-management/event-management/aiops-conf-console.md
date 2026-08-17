@@ -1,5 +1,5 @@
 ---
-title: Configure Event Management using Setup Hub
+title: Configure Event Management using ServiceNow Otto for Setup
 description: The ITOM Configuration console gives administrators a single place to complete all Event Management setup steps — from installing plugins to configuring alert automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/aiops-conf-console.html
@@ -7,12 +7,12 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure Event Management using Setup Hub
+# Configure Event Management using ServiceNow Otto for Setup
 
 The ITOM Configuration console gives administrators a single place to complete all Event Management setup steps — from installing plugins to configuring alert automations.
 

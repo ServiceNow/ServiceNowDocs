@@ -1,6 +1,6 @@
 ---
-title: Create New Notification form
-description: Use the Create New Notification form in BCM UIB Workspace to add details about an emergency notification.
+title: Create Notification form
+description: Use the Create Notification form in BCM UIB Workspace to add details about an emergency notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-notification-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Create emergency notifications, Integrate, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Notification form
+# Create Notification form
 
-Use the Create New Notification form in BCM UIB Workspace to add details about an emergency notification.
+Use the Create Notification form in BCM UIB Workspace to add details about an emergency notification.
 
 <table id="table_ot2_4zs_rpb"><thead><tr><th>
 

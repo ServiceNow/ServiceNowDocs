@@ -262,7 +262,7 @@ ESM Foundation plugin is available in the ServiceNow® Store. The following capa
 4.  Now Assist for ITSM - delivers AI-powered skills and agentic workflows for service automation
 5.  Virtual Agent - enables conversational AI support and guided interactions
 6.  Service Portal - supports self-service capabilities across all service domains
-7.  Setup Hub - facilitates guided setup and configuration management
+7.  ServiceNow Otto for Setup - facilitates guided setup and configuration management
 8.  Now Assist for Core Business Suite - provides conversational configuration experience
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
@@ -271,7 +271,7 @@ ESM Foundation plugin is available in the ServiceNow® Store. The following capa
 
 Get started with ESM Foundation by completing the following implementation and configuration tasks:
 
-1.  Install Setup Hub to enable modular admin home dashboard access
+1.  Install ServiceNow Otto for Setup to enable modular admin home dashboard access
 2.  Install and configure Core Business Suite with default configurations for all required business units
 3.  Install Simplified IT Service Management with guided setup and default presets
 4.  Configure Employee Center portal to provide unified access to all service domains

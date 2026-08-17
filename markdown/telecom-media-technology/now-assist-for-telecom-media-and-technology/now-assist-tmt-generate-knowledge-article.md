@@ -1,6 +1,6 @@
 ---
-title: Generate a knowledge article for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+title: Generate a knowledge article for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
 release: australia
@@ -9,26 +9,26 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Generate a knowledge article for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Generate a knowledge article for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with ServiceNow Otto.
 
 ## Before you begin
 
-To generate a knowledge article for a case, the case must be in the resolved and closed state, and must not already have a knowledge article linked to it.
+To generate a knowledge article for a case, the case must be in the resolved and closed state. The case must not already have a knowledge article linked to it.
 
 Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
 
-Make sure that your administrator enables Now Assist experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
+Make sure that your administrator enables ServiceNow Otto experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
 
 -   The knowledge skills are installed.
--   In the Now Assist Admin console, ensure that the following criteria are in place:
+-   In the AI Admin Hub console, ensure that the following criteria are in place:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
-    -   Display the knowledge base generation feature In-product and specify the Now Assist panel.
+    -   Display the knowledge base generation feature In-product and specify the ServiceNow Otto panel.
 -   Configure **Create Article** to apply the supported template; For example, Standard and KCS article HTML.
 
 -   Currently, only the Create Article experience is available.
@@ -37,7 +37,7 @@ Role required: agent
 
 ## About this task
 
-In  CSM Configurable Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
+In  CSM Configurable Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  ServiceNow Otto and review and edit the knowledge article text.
 
 ## Procedure
 
@@ -55,19 +55,19 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
 
 4.  In the Create article modal, select a knowledge base and an Article template, if displayed.
 
-    **Note:** If no options are displayed, the default template selected by your administrator in the Now Assist Admin console is used.
+    **Note:** If no options are displayed, the default template selected by your administrator in the AI Admin Hub console is used.
 
 5.  Select **Create article**.
 
-6.  In the Use Al to draft this article modal, select **Yes, draft with Now Assist**.
+6.  In the Use Al to draft this article modal, select **Yes, draft with ServiceNow Otto**.
 
-    \[Omitted image "serviceproblemcase-knowledge-article.png"\] Alt text: Enable Now Assist in CSM for KB article generation.
+    \[Omitted image "serviceproblemcase-knowledge-article.png"\] Alt text: Enable ServiceNow Otto in CSM for KB article generation.
 
 7.  In the new modal, search for similar cases that can be used to generate the article; otherwise, select **Cancel**.
 
     \[Omitted image "additional-relevant-task-tmt.png"\] Alt text: Select up to five additional relevant cases in the new modal to generate the article.
 
-    The completed article is displayed in the chosen template with a success message "This article was drafted by Now Assist. Be sure to review it for accuracy before saving."
+    The completed article is displayed in the chosen template with a success message "This article was drafted by ServiceNow Otto. Be sure to review it for accuracy before saving."
 
     **Note:**
 
@@ -75,8 +75,8 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
     -   You can select up to five additional relevant cases in the new modal to generate the article.
     -   You can modify the draft before saving it. The article appears in a new tab with a unique ID number for the knowledge article and is attached to the parent record.
     -   If Now LLM Service fails to generate a result, an error message is displayed.
-    -   When creating an article by using Now Assist, after the process is triggered, it can't be stopped. Now Assist continues to generate the article even if you close the modal.
-8.  Select the **Knowledge Base** and the **Language** in the pop-up window **What language should Now Assist draft this article in**.
+    -   When creating an article by using ServiceNow Otto, after the process is triggered, it can't be stopped. ServiceNow Otto continues to generate the article even if you close the modal.
+8.  Select the **Knowledge Base** and the **Language** in the pop-up window **What language should ServiceNow Otto draft this article in**.
 
 9.  Select **Continue**.
 
@@ -84,15 +84,15 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
 
 10. Select **Insert** to paste the generated response.
 
-11. Review the Now Assist generated article and select **Save** or **Publish**.
+11. Review the ServiceNow Otto generated article and select **Save** or **Publish**.
 
-    The Now Assist success message disappears which means that it’s no longer a Now LLM Service generated article.
+    The ServiceNow Otto success message disappears which means that it’s no longer a Now LLM Service generated article.
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 **Related topics**  
 
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
+[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

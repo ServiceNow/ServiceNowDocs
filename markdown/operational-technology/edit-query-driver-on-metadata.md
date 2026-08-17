@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit the Query Driver on Metadata tab
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The **Metadata** tab includes settings for several features related to metadata that enhance analysis and reporting in the Discovery Console for OT. The **Query Driver** settings control your Sensors’ performance and resource usage. These settings manage how quickly Auto Queries are executed and how much load is placed on your network devices. They also regulate how many queries a Sensor can execute simultaneously. The **Delay** setting specifies the interval between consecutive queries. For example, setting the delay to 50% effectively halves the time between queries and operating the query at a faster pace.
+On the Settings page, the **Metadata** tab includes settings for several features related to metadata that enhance analysis and reporting in the Discovery Console for OT. The **Query Driver** settings control your Sensors’ performance and resource usage. These settings manage how quickly Auto Queries are executed and how much load is placed on your network devices. They also regulate how many queries a Sensor can execute simultaneously. The **Delay** setting specifies the interval between consecutive queries. For example, setting the delay to 50% effectively halves the time between queries and operating the query at a faster pace.
 
 ## Procedure
 
@@ -40,4 +40,6 @@ The **Metadata** tab includes settings for several features related to metadata 
 
 6.  Select the **Save Settings** button to save, or the **Cancel** button to discard your changes.
 
+
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
 

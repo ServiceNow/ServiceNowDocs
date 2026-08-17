@@ -153,41 +153,406 @@ View the financial planning of your planning items using the comprehensive view 
 -   Portfolio Planning Workspace: Prioritize, roadmap, and track work when using waterfall methodology. Enhance traditional portfolio planning for demand and project management. To learn more about Portfolio Planning, see [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md).
 -   Strategic Planning Workspace: Prioritize, roadmap, and track work when using traditional, agile, or hybrid methodologies. Align strategy to execution by defining and tracking goals across the organization.
 
-|Feature|Portfolio Planning Workspace|Strategic Planning Workspace|
-|-------|----------------------------|----------------------------|
-|Pre-defined lens: Project Portfolio|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Organization|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Project Program|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Product|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Strategic Investments|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Goals|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Value Stream|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Pre-defined lens: Business Capability|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Lens configuration: Modify existing lens|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Lens configuration: Create new lens|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Portfolio plans: Create and share|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Planning items: Supported planning items|Project, Demand|Project, Demand, Epic, Custom|
-|Supported items for high-level planning|Program \(pm\_program\)|Strategic Program, Initiative, Custom|
-|Planning items: Custom planning item tables|\[Omitted image "icon-error-red-x.png"\] Alt text: No|Five predefined tables|
-|Prioritization|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Hierarchy \(Prioritization\)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Kanban \(Prioritization\)|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Roadmaps: Timeline|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Roadmaps: Kanban|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Scenario planning|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Scoring|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Goals|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Product Feedback|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Capacity planning|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Financials|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Create and share free-form roadmaps|Project, Demand, and Program tables|Any ServiceNow® platform entity|
-|Enterprise Agile Planning|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Dashboards|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Monitor goals and strategies in ServiceNow AI Control Tower|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Strategy and Goals - Managing enterprise goals using boards|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Next Experience for Demand Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+<table id="table_xtf_mzv_dwb"><thead><tr><th>
 
--   **[Lenses in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md)**  
+Feature
+
+</th><th>
+
+Portfolio Planning Workspace
+
+</th><th>
+
+Strategic Planning Workspace
+
+</th></tr></thead><tbody><tr><td>
+
+Pre-defined lens: Project Portfolio
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Organization
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Project Program
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Product
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Strategic Investments
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Goals
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Value Stream
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Pre-defined lens: Business Capability
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Lens configuration: Modify existing lens
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Lens configuration: Create new lens
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Portfolio plans: Create and share
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Planning items: Supported planning items
+
+</td><td>
+
+Project, Demand
+
+</td><td>
+
+Project, Demand, Epic, Custom
+
+</td></tr><tr><td>
+
+Supported items for high-level planning
+
+</td><td>
+
+Program \(pm\_program\)
+
+</td><td>
+
+Strategic Program, Initiative, Custom
+
+</td></tr><tr><td>
+
+Planning items: Custom planning item tables
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+Five predefined tables
+
+</td></tr><tr><td>
+
+Prioritization
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Hierarchy \(Prioritization\)
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Kanban \(Prioritization\)
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Roadmaps: Timeline
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Roadmaps: Kanban
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Scenario planning
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Scoring
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Goals
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Product Feedback
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Capacity planning
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Financials
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Create and share free-form roadmaps
+
+</td><td>
+
+Project, Demand, and Program tables
+
+</td><td>
+
+Any ServiceNow® platform entity
+
+</td></tr><tr><td>
+
+Enterprise Agile Planning
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Dashboards
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Monitor goals and strategies in ServiceNow AI Control Tower
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Strategy and Goals - Managing enterprise goals using boards
+
+</td><td>
+
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+Next Experience for Demand Management
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td></tr><tr><td>
+
+RIDAC: Supported tables
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: YesPlanning items: Project, Demand
+
+</td><td>
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes-   Project, Demand, Epic, Capability, Feature, Custom planning item, Enterprise agile planning item, Initiative, Strategic program
+-   Goal
+-   EAP Iteration
+
+</td></tr></tbody>
+</table>-   **[Lenses in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md)**  
 Lenses represent planning perspectives, which would be different for planning managers at different levels in an organization. Lenses enable you to create personalized portfolio plans through which you prioritize and align work with high-level initiatives and goals.
 -   **[Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md)**  
 Personalized portfolio plans help you align work with your company's objectives and roadmap the right work for the right time. Drive shared strategy using planning insights from portfolio plans and improve enterprise planning.
@@ -207,6 +572,8 @@ The Capacity tab provides portfolio managers a comprehensive view of capacity, a
 Plan, re-forecast, track the financials, and create baselines for all of your planning items.
 -   **[Strategic Planning with PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/executing-work-from-apw-in-ppm-agile2-0-or-safe.md)**  
 Facilitate execution of the work planned in Strategic Planning in ServiceNow applications such as Project Portfolio Management \(PPM\), Agile Development 2.0, or Scaled Agile Framework.
+-   **[ServiceNow Otto skills for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/ai-skills-spw.md)**  
+Use ServiceNow Otto skills to generate portfolio insights, generate goals insights, and targets for goals.
 -   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/better-together-with-other-apps-spw.md)**  
 The integration of Strategic Planning with other ServiceNow applications helps portfolio and product managers to optimize planning, collaboration, and release management for their products.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Configure, Now Assist in Document Intelligence, Enable AI experiences]
+breadcrumb: [Configure, Now Assist in Document Intelligence \(Legacy\), Enable AI experiences]
 ---
 
 # Activate a Now Assist in Document Intelligence skill
@@ -35,14 +35,14 @@ Now Assist in Document Intelligence skills are turned on by default. The skills 
 
     -   The skill was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the skill.
-    For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 
 Before activating a document intelligence skill in Now Assist, the following applications and their respective plugins must be installed.
 
 -   Now Assist
 
-    For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   Document Intelligence
 
@@ -50,7 +50,7 @@ Before activating a document intelligence skill in Now Assist, the following app
 
 -   Now Assist in Document Intelligence
 
-    For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 Role required: admin

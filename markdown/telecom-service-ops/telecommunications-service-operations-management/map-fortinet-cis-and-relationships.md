@@ -1,22 +1,22 @@
 ---
-title: Map Fortinet CIs and relationships
-description: Use the Service Graph Connector \(SGC\) for Fortinet SD-WAN to map discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
+title: Mapping Fortinet CIs and relationships
+description: The Service Graph Connector \(SGC\) for Fortinet SD-WAN maps discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/map-fortinet-cis-and-relationships.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Map Fortinet CIs and relationships
+# Mapping Fortinet CIs and relationships
 
-Use the Service Graph Connector \(SGC\) for Fortinet SD-WAN to map discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
+The Service Graph Connector \(SGC\) for Fortinet SD-WAN maps discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
 
-To confirm accurate CI classification and insertion, the connector uses the Robust Transform Engine \(RTE\) and Identification and Reconciliation Engine \(IRE\).
+The connector uses the Robust Transform Engine \(RTE\) and Identification and Reconciliation Engine \(IRE\) to confirm accurate CI classification and insertion.
 
 The connector classifies and relates discovered CIs using telecom-specific models based on device type, function, and chassis structure. This organization helps maintain a clean and normalized CMDB across vendors. Discovered model names from Fortinet are automatically transformed into ServiceNow AI Platform standard model identifiers and categories for slot and subslot components.
 
@@ -62,7 +62,7 @@ Organization network
 
 </td><td>
 
--   Represents the physical location of IP routers according to their longitude, latitude, and address.
+-   Represents the physical location of IP routers by longitude, latitude, and address.
 -   Network site contains IP routers and network interfaces.
 -   Network site is a member of a group.
 
@@ -219,11 +219,11 @@ Owned by the corresponding CI.
 
 In addition to physical ports, the SGC discovers logical interfaces, such as tunnel and VPN interfaces \(for example, `Hub1-inetVPN`, `inetVPN`, and `mplsVPN`\), from the Fortinet inventory. Each logical interface is created as a network interface CI \(`cmdb_ci_ni_interface`\) and related to its parent device \(IP router\) CI.
 
-Because a CMDB CI exists for each logical interface, metrics that report against a logical interface name are mapped to the corresponding logical interface CI rather than to the parent device CI. This mapping enables interface-level metric correlation and reporting for tunnel and VPN interfaces.
+A CMDB CI exists for each logical interface. Metrics that report against a logical interface name are mapped to the corresponding logical interface CI rather than to the parent device CI. This mapping enables interface-level metric correlation and reporting for tunnel and VPN interfaces.
 
 ## Firmware version calculation
 
-When the SGC discovers an IP router, it sets the firmware version on the `cmdb_ci_ip_router` CI by joining the device `os_ver`, `mr`, and `patch` fields from the Fortinet inventory with periods. For example, a device with `os_ver=7`, `mr=4`, and `patch=11` resolves to `7.4.11`, matching the value shown in the Fortinet GUI. If any of these fields is missing, the firmware version is left empty.
+When the SGC discovers an IP router, it sets the firmware version on the `cmdb_ci_ip_router` CI by joining the device `os_ver`, `mr`, and `patch` fields from the Fortinet inventory with periods. For example, a device with `os_ver=7`, `mr=4`, and `patch=11` resolves to `7.4.11`. This matches the value shown in the Fortinet GUI. If any of these fields is missing, the firmware version is left empty. The firmware value is also left empty if the major version is not a whole number.
 
-To calculate the firmware version differently, override the default with the `sn_sgc_fortinet.FortinetCustomizedFirmwareVersion` extension point. Create an implementation that defines a `formatFirmwareVersion(device)` handler, where `device` is the Fortinet device object returned by the API. Return your own version string from the handler, or return `null` to use the default calculation.
+Override the default with the `sn_sgc_fortinet.FortinetCustomizedFirmwareVersion` extension point to calculate the firmware version differently. Create an implementation that defines a formatFirmwareVersion\(\) handler, where **device** is the Fortinet device object returned by the API. Return your own version string from the handler. A custom firmware handler's return value is used exactly as returned, including an empty result; the built-in calculation is used only when no custom handler is active.
 

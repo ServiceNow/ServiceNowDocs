@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-user-experience.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
-breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
+last_updated: "2026-08-17"
+reading_time_minutes: 9
+breadcrumb: [Scan Engine definitions, Impact reference, Impact]
 ---
 
 # Scan Engine definitions: User Experience
@@ -1239,4 +1239,5 @@ First, upload an image by navigating to System UI &gt; Images &gt; New. Once upl
 [Documentation](https://www.servicenow.com/docs/access?context=customize-favicon)
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md)
+

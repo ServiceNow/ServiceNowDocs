@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-Manage your time cards by performing actions such as submitting the time card, viewing the notes, adding notes, editing resource plan, or deleting the time card using your mobile device.
+Manage your time cards by submitting the time card, viewing or adding notes, editing resource plan, or deleting the time card using your mobile device.
 
 ## Procedure
 
@@ -34,15 +34,15 @@ Manage your time cards by performing actions such as submitting the time card, v
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d216412e82">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d221998e87">
 
 Action
 
-</th><th align="left" id="d216412e85">
+</th><th align="left" id="d221998e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d216412e91">
+</th></tr></thead><tbody><tr><td id="d221998e96">
 
 **Submit time card**
 
@@ -50,7 +50,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d216412e106">
+</td></tr><tr><td id="d221998e111">
 
 **View your time card**
 
@@ -58,7 +58,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view the time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d216412e118">
+</td></tr><tr><td id="d221998e123">
 
 **View notes associated with your time cards**
 
@@ -68,7 +68,7 @@ To view notes associated with the time card:-   Tap **Time card notes**.
 -   Tap back icon to go back to the time sheet.
 
 
-</td></tr><tr><td id="d216412e139">
+</td></tr><tr><td id="d221998e144">
 
 **Add notes to your time cards**
 
@@ -79,7 +79,7 @@ To add notes to the time card:-   Tap **Time card notes**.
 -   Enter the information in the text box and click **Submit**.
 
 
-</td></tr><tr><td id="d216412e170">
+</td></tr><tr><td id="d221998e175">
 
 **Delete a time card**
 

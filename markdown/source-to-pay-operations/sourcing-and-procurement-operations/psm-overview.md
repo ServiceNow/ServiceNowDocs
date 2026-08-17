@@ -1,6 +1,6 @@
 ---
 title: Sourcing and Procurement Operations
-description: With ServiceNow Sourcing and Procurement Operations \(SPO\), you can provide your employees with a simple automated AI-assisted tool that they can use to shop for goods and services that they need at work.
+description: ServiceNow Sourcing and Procurement Operations \(SPO\) is an AI-assisted procurement tool. Employees can use it to shop for the goods and services they need at work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Finance and Supply Chain]
 
 # Sourcing and Procurement Operations
 
-With ServiceNow Sourcing and Procurement Operations \(SPO\), you can provide your employees with a simple automated AI-assisted tool that they can use to shop for goods and services that they need at work.
+ServiceNow Sourcing and Procurement Operations \(SPO\) is an AI-assisted procurement tool. Employees can use it to shop for the goods and services they need at work.
 
 This video provides a visual overview of Sourcing and Procurement Operations and its key capabilities.
 
@@ -26,7 +26,7 @@ Provide a seamless procurement experience with:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Now Assist for Sourcing and Procurement Operations\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+[ServiceNow Otto for SPO\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn more about ServiceNow Otto for SPO.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
 </td><td>
 
@@ -63,7 +63,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **\[Omitted image "dcx-icon.svg"\] Best Practices**
 
-    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation and deployment of Sourcing and Procurement Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation and deployment of Sourcing and Procurement Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/collections/sourcetopay-operations-best-practices).
 
 -   **\[Omitted image "icon-youtube.svg"\] YouTube**
 

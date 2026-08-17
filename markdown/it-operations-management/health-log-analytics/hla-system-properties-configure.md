@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Changing Health Log Analytics system properties affects back-end processes and can produce unexpected results. Therefore, if you need to make changes to these properties, keep a record of your adjustments. For example, note the value before and after a modification and the time of the change.
+Changing Health Log Analytics system properties affects back-end processes and can produce unexpected results. Therefore, if you must make changes to these properties, keep a record of your adjustments. For example, note the value before and after a modification and the time of the change.
 
 **Note:** To modify a Health Log Analytics system property whose **Requires restart** value is **true**, contact ServiceNow support to modify it for you.
 

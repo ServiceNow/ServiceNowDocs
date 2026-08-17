@@ -85,7 +85,9 @@ As a workplace scenario reader, you can view scenarios in a read-only mode.
 
 </td><td>
 
-sn\_wsd\_central.workspace\_user
+-   sn\_wsd\_central.workspace\_user
+-   sn\_wsd\_case.case\_reader
+-   sn\_wsd\_core.location\_reader
 
 </td></tr><tr><td>
 
@@ -184,7 +186,7 @@ Stores information about a neighborhood space.This table is deprecated from Work
 
 </td></tr><tr><td>
 
-View by Configuration\[sn\_wsd\_spcmgmt\_view\_by\_configuration\]
+View by Configuration\[sn\_wsd\_spcmgmt\_viewby\_configuration\]
 
 </td><td>
 
@@ -229,6 +231,14 @@ Space Allocation Type Change Tracker\[sn\_wsd\_spcmgmt\_space\_allocation\_type\
 </td><td>
 
 Stores information about changes made to types of allocation, which can be reviewed to plan and edit scenarios.
+
+</td></tr><tr><td>
+
+KPI Configuration\[sn\_wsd\_spcmgmt\_kpi\_configuration\]
+
+</td><td>
+
+Stores information about the KPIs that are configured for Workplace Space Management.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)

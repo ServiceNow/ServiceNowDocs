@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 breadcrumb: [Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -25,11 +25,14 @@ The following encryption options on the ServiceNow AI Platform are supported in 
 
 ## Column Level Encryption
 
-Column Level Encryption \(CLE\), is a built-in feature which permits encryption in encryption modules. The CLE plugin \(com.glide.encryption\) that enables the encryption of table columns and attachments associated with an EMR system in a service request is activated by default when your administrator installs the EMR Help application.
+Column Level Encryption \(CLE\) encrypts individual columns \(fields\) and attachments associated with an EMR system in a service request. Encryption is most useful for columns in the data table for request parameters that are marked as sensitive data.
 
-Once the CLE plugin \(com.glide.encryption\) is activated, set up an encryption module and associate it with the required roles that use the EMR Help application. You can encrypt tables or fields \(columns within a table\) but encryption is most useful for columns in the data table for request parameters that are marked as sensitive data.
+By default, the EMR Help application encrypts the following fields \(columns\) by using the **sn\_ind\_rmt\_help.emr\_data** encryption module, a Key Management Framework \(KMF\) crypto module that uses the AES-256 algorithm:
 
-By default, the **rmt\_help\_data\_view** encryption module associated with the sn\_ind\_rmt\_help\_viewer role is available for use with the EMR Help application. In addition, the **Additional Info** field \(column\) in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table and **Phone number** and **Email address** fields \(columns\) in the EMR Incident Data \[sn\_ind\_rmt\_help\_incident\_data\] table are encrypted by default.
+-   The **Additional Info** field in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table.
+-   The **Phone number** and **Email address** fields in the EMR Incident Data \[sn\_ind\_rmt\_help\_incident\_data\] table.
+
+The **emr\_data\_viewer** module access policy grants the sn\_ind\_rmt\_help.viewer role permission to decrypt and view these encrypted fields. Users without the sn\_ind\_rmt\_help.viewer role see the encrypted values.
 
 ## Column Level Encryption Enterprise
 

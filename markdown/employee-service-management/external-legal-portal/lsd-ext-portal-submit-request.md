@@ -49,15 +49,15 @@ Verify you have registered with External Legal Service Center before submitting 
     -   From your local computer, copy the files that you want to attach. Click inside the Documents box and paste the files.
 7.  Submit the request or save it as a draft.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d544572e158">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d544209e158">
 
 Action
 
-</th><th align="left" id="d544572e161">
+</th><th align="left" id="d544209e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d544572e167">
+</th></tr></thead><tbody><tr><td id="d544209e167">
 
 **Save as draft**
 
@@ -65,7 +65,7 @@ Steps
 
 Select **Save as Draft**.
 
-</td></tr><tr><td id="d544572e179">
+</td></tr><tr><td id="d544209e179">
 
 **Submit the request**
 

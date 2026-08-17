@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Manufacturing Commercial Operations
-description: Use the ServiceNow Now Assist for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
+title: ServiceNow Otto for Manufacturing Commercial Operations
+description: Use the ServiceNow Otto for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/now-assist-for-MCO.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Manufacturing Commercial Operations]
 ---
 
-# Now Assist for Manufacturing Commercial Operations
+# ServiceNow Otto for Manufacturing Commercial Operations
 
-Use the ServiceNow® Now Assist for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
+Use the ServiceNow Otto for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 

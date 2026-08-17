@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-program-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
 # Partner program table fields
@@ -98,7 +98,7 @@ Domain
 Domain to which the data belongs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 

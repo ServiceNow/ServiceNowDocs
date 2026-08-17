@@ -20,8 +20,6 @@ As a user with the sn\_hcls.patient role, you can access the Patient Portal page
 
 From the Patient Portal, you can request healthcare services, complete your to-do tasks, and receive notifications to provide the required approval or information. You can also check the healthcare information about your household members.
 
-\[Omitted image "hcls-patient-portal.png"\] Alt text: Landing page for Patient Portal showing patient information. For the image description, refer to the text that follows.
-
 Depending on the configurations set by your administrator, as a patient, you can perform the following tasks from the Patient Portal:
 
 -   **View the reminder for the next appointment**

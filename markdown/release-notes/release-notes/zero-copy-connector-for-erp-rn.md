@@ -4,8 +4,8 @@ description: The ServiceNow Zero Copy Connector for ERP application lets you con
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-07-27"
+reading_time_minutes: 3
 ---
 
 # Zero Copy Connector for ERP release notes
@@ -51,6 +51,11 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
 ## Changed in this release
 
+-   **[Simplified process for adding a REST entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-a-rest-entity-to-a-model-operation.md)**
+
+    After specifying the REST service to use, the endpoint and return type are added automatically.
+
+
 -   **[Improved ETL data extractions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-erp-integration-connection.md)**
 
     The ETL process was refactored from Flow Designer to script includes for better performance and reliability.
@@ -66,7 +71,7 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
 ## Activation information
 
-Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
@@ -74,11 +79,11 @@ SAP ECC and SAP S/4 HANA are currently the only available systems that integrate
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)**
+-   **[ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)**
 
-    The Now Assist for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently.
+    The ServiceNow Otto for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently.
 
--   ****
+-   **[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)**
 
     Use ServiceNow Studio to build apps and app files based on ERP data.
 

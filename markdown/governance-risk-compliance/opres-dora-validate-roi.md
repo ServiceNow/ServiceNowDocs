@@ -24,7 +24,7 @@ The validation framework for the Digital Resilience Third-party Information Regi
 
 **Note:** The Data Package Model is used to structure and validate RoI packages.
 
-The DPM business validation rules and report.json, reportPackage.json, FrameworkCodeModuleVersion properties enable Third-party risk admins \[sn\_vdr\_risk\_asmt.vendor\_admin\] to view and maintain validation logic and configuration settings for CSV reporting and automated validation. Third-party risk admins can access these properties by navigating to **All** &gt; **Digital Operational Resilience Management** and then selecting **Properties** or **DPM Business Validation Rules**.
+Operational Resilience administrators can view and maintain validation logic and configuration settings using the DPM business validation rules and the report.json, reportPackage.json, and FrameworkCodeModuleVersion properties. These settings support CSV reporting and automated validation. Operational Resilience administrators can access these properties by navigating to **All** &gt; **Digital Operational Resilience Management** and then selecting **Properties** or **DPM Business Validation Rules**.
 
 ## Validation process
 

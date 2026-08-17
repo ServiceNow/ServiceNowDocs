@@ -19,7 +19,7 @@ The Recommended Actions for HRSD provides real‑time, actionable guidance, and 
 
 ## Recommended Actions for HRSD overview
 
-HR Agents can access Recommended Actions in HR Agent Workspace by selecting the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text: Recommendations icon\) in the contextual side panel of an HR case. The following details are displayed:
+HR Agents can access Recommended Actions in HR Agent Workspace by selecting the Recommendations icon \( \[Omitted image "recommendations-icon.png"\]\) in the contextual side panel of an HR case. The following details are displayed:
 
 -   Relevant KB articles and similar cases in the context of the current case.
 -   Suggestion to add an approval to the case whenever needed.

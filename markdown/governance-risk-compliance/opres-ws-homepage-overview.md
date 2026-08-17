@@ -32,7 +32,7 @@ Administrators or UI Builder administrators can show or hide these tabs from the
 
 ## Third-party Risk Management \(TPRM\) integration
 
-Starting with Operational Resilience, release 21.0.x, you can track third-party risk assessments as red flags in the Operational Resilience reports and the overview pages for business services, service offerings, and business processes.
+Starting with Operational Resilience, release 21.0.x, you can track third-party risk assessments as red flags. Red flags appear in the Operational Resilience reports and the overview pages for business services, service offerings, and business processes.
 
 TPRM risk assessments are integrated into Operational Resilience if they meet the following conditions:
 
@@ -54,7 +54,7 @@ To view Related lists and Red flags data in the Operational Resilience Workspace
     However, if TPRM is installed, Operational Resilience users can access both risk red flags and Third-party Risk Management red flags because they are assigned the TPRM viewer role. The TPRM viewer role includes risk viewer capabilities, thus eliminating the need for IRM roles.
 
 
-For information on the roles required to view the related lists and red flags data, see the "Roles to view related lists and Red flags data" table in the [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/service-form-lists-ws-reference.md) page.
+For information on the roles required to view related lists and red flags data, see the "Roles to view related lists and Red flags data" table in [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/service-form-lists-ws-reference.md).
 
 ## Displaying reports for different user roles
 

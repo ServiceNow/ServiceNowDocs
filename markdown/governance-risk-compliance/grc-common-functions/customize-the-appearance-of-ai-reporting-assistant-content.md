@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [AI reporting assistant, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ When modifying system properties, if a message appears about the application sco
 
 2.  On the System Properties page, in the **Name** field, enter the property name for the customization you want to make and select it.
 
-<table id="choicetable_qpb_3pd_5jc"><thead><tr><th align="left" id="d345563e68">
+<table id="choicetable_qpb_3pd_5jc"><thead><tr><th align="left" id="d346351e68">
 
 Customization
 
-</th><th align="left" id="d345563e71">
+</th><th align="left" id="d346351e71">
 
 Property
 
-</th></tr></thead><tbody><tr><td id="d345563e77">
+</th></tr></thead><tbody><tr><td id="d346351e77">
 
 **Default chart color palette for generated charts**
 
@@ -48,7 +48,7 @@ Property
 
 sn\_doc\_design\_ai.chart\_default\_color\_schemeThe default value is Default.
 
-</td></tr><tr><td id="d345563e88">
+</td></tr><tr><td id="d346351e88">
 
 **Maximum number of columns for generated tables**
 
@@ -56,7 +56,7 @@ sn\_doc\_design\_ai.chart\_default\_color\_schemeThe default value is Default.
 
 sn\_doc\_design\_ai.table\_max\_columnsThe default value is 10.
 
-</td></tr><tr><td id="d345563e99">
+</td></tr><tr><td id="d346351e99">
 
 **Maximum number of data rows for generated tables excluding the header row**
 

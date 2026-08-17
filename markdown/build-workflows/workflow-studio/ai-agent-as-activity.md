@@ -19,13 +19,13 @@ Use an existing AI agent as an activity in your playbook to automate tasks. The 
 
 ## Before you begin
 
-Make sure that Now Assist AI agents plugin is installed and you have AI agents available in your instance. For information about installing the Now Assist AI agents plugin, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+Make sure that ServiceNow Otto® AI agents plugin is installed and you have AI agents available in your instance. For information about installing the ServiceNow Otto® AI agents plugin, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 Role required: playbook.admin or pd\_author.
 
 ## About this task
 
-When you add an AI agent to the activity, you select the agent, provide an objective for the agent to complete, and define the expected outputs. You can also define whether you want to run the agent on behalf of the user who triggered the playbook, or the current user. You can interact with the agent from within the playbook, without opening the Now Assist panel.
+When you add an AI agent to the activity, you select the agent, provide an objective for the agent to complete, and define the expected outputs. You can also define whether you want to run the agent on behalf of the user who triggered the playbook, or the current user. You can interact with the agent from within the playbook, without opening the ServiceNow Otto® panel.
 
 ## Procedure
 
@@ -71,8 +71,9 @@ Run as
 
 </td><td>
 
-The user on behalf of whom you want the agent to run.-   **Active user**: The AI agent runs when the user selects **Start Now Assist**.
--   **The user triggering the playbook**: The AI agent when the playbook is triggered.
+The user on behalf of whom you want the agent to run.-   **Active user**: The AI agent performs the actions on behalf of the active user that starts the conversation.
+-   **User who triggered the playbook**: The AI agent performs the actions on behalf of the user that triggered the playbook.
+-   **User who completed a prior activity**: The AI agent performs the actions on behalf of the user that completed a previous activity.
 
 
 </td></tr><tr><td>

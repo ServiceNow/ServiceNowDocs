@@ -71,7 +71,7 @@ Learn about how and when your instance generates Security Tasks.
 -   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-edit-security-tasks.md)**  
 Learn how to create, edit, delete, or export Security Tasks in Security Center
 -   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/export-security-tasks.md)**  
-Learn how to export Security Tasks into files you can download and use in other software.
+Export Security Tasks into files that you can download and use in other software.
 
 **Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
 

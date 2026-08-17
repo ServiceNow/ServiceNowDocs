@@ -1,5 +1,5 @@
 ---
-title: Deflecting incidents in Now Assist for IT Service Management \(ITSM\) reference
+title: Deflecting incidents in ServiceNow Otto for IT Service Management \(ITSM\) reference
 description: Deflection retrieves user context and sentiment analysis to rephrase search queries for more relevant results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-intent-reference.html
@@ -7,15 +7,24 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-07-29"
 reading_time_minutes: 1
 keywords: [user context, Now Assist for ITSM, incident classification]
-breadcrumb: [In-form deflection, Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [In-form deflection, Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Deflecting incidents in Now Assist for IT Service Management \(ITSM\) reference
+# Deflecting incidents in ServiceNow Otto for IT Service Management \(ITSM\) reference
 
 Deflection retrieves user context and sentiment analysis to rephrase search queries for more relevant results.
+
+## Intent classification types
+
+Deflection classifies the user's intent by analyzing the short description and detailed issue description. The classification determines whether the response recommends troubleshooting steps or a personalized catalog item.
+
+|Intent type|Description|
+|-----------|-----------|
+|Incident|The user reports a problem with an existing item. The response recommends troubleshooting steps from the knowledge base. Examples: `my laptop is not working`, `my laptop screen is freezing`.|
+|Request|The user asks for something new rather than reporting a problem. The response recommends a specific catalog item personalized to the user's assigned hardware. Examples: `I need a new laptop`, `I need new headphones`.|
 
 ## User context information
 
@@ -81,5 +90,5 @@ Outlook overview. **Note:** Here, no context is applied.
 </td></tr></tbody>
 </table>## Sentiment analysis in responses
 
-The system detects the emotional tone in the user's description and incorporates this sentiment in the response. When the user expresses frustration or urgency, Now Assist for ITSM acknowledges the concern in the response. For example, if the user types `I am frustrated. My laptop is broken`, the response begins with `I understand your frustration with your broken MacBook Pro` and returns solutions in order of relevance.
+The system detects the emotional tone in the user's description and incorporates this sentiment in the response. When the user expresses frustration or urgency, ServiceNow Otto for ITSM acknowledges the concern in the response. For example, if the user types `I am frustrated. My laptop is broken`, the response begins with `I understand your frustration with your broken MacBook Pro` and returns solutions in order of relevance.
 

@@ -1,5 +1,5 @@
 ---
-title: Discover root certificates hosted outside your server
+title: Discover root certificates hosted outside servers
 description: Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discover-root-certificate-browser.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Visibility to TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Discover root certificates hosted outside your server
+# Discover root certificates hosted outside servers
 
 Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 
@@ -58,7 +58,7 @@ To discover root certificates stored outside your server, create a special Disco
 
 9.  Select the **\(empty\)** value field, and add a value for each parameter.
 
-    For guidance on what values to set, see [Run Certificate Discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
+    For guidance on what values to set, see [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
 
 10. Collect information on your root certificate by making a unique certificate file.
 
@@ -77,5 +77,5 @@ Your Discovery collects information on your root certificate located outside a s
 
 ## What to do next
 
-[Connect an intermediate certificate to its root certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/connect-intermediate-certificate-to-root.md) to complete your certificate chain.
+[Connect intermediate certificates to root certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/connect-intermediate-certificate-to-root.md) to complete your certificate chain.
 

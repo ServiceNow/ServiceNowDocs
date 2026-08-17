@@ -22,7 +22,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_agent, sn\_ind\_tmt\_orm.ord
 
 ## About this task
 
-If you make any changes in the order properties, such as updating the domain order characteristics through the user updates or inflight changes while the order fulfillment is in progress, you might need to share the updated order details with the external systems. To learn more about managing the inflight order changes, see [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md) and [Cancel orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-review-cust-order-detail.md).
+If you make any changes in the order properties, such as updating the domain order characteristics through the user updates or inflight changes while the order fulfillment is in progress, you might need to share the updated order details with the external systems. To learn more about managing the inflight order changes, see  and .
 
 A new Updates available order attribute tracks for any updates in the service order. If you update an order characteristic or revise the domain order \(Updated or Canceled\) as a part of the inflight revision, the value of the Updates available field is set to true. Also, the Revise Outbound Request UI action appears on the domain order form to trigger the revision of the outbound request.
 

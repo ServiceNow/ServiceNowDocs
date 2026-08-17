@@ -1,6 +1,6 @@
 ---
-title: Create the Asset Refresh topic in Virtual Agent Designer
-description: Create the topic in Virtual Agent Designer using topic blocks that come with the ITSM Virtual Agent Conversations plugin. When the user receives a notification that it's time to upgrade, they will be directed to this topic.
+title: Create the Asset Refresh topic in Assistant Designer Asset library
+description: Create the topic in Assistant Designer Asset library using topic blocks that come with the ITSM Virtual Agent Conversations plugin. When the user receives a notification that it's time to upgrade, they will be directed to this topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.html
 release: australia
@@ -13,9 +13,9 @@ keywords: [Asset, Refresh, Topic, Virtual Agent, Designer, ITSM, Conversations, 
 breadcrumb: [Example Asset Refresh Virtual Agent conversation with notifications, Virtual Agent chat widget interface for NLU, Explore, Virtual Agent, Conversational Interfaces]
 ---
 
-# Create the Asset Refresh topic in Virtual Agent Designer
+# Create the Asset Refresh topic in Assistant Designer Asset library
 
-Create the topic in Virtual Agent Designer using topic blocks that come with the ITSM Virtual Agent Conversations plugin. When the user receives a notification that it's time to upgrade, they will be directed to this topic.
+Create the topic in Assistant Designer Asset library using topic blocks that come with the ITSM Virtual Agent Conversations plugin. When the user receives a notification that it's time to upgrade, they will be directed to this topic.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ Install the following applications:
 
 Determine the application scope for your Virtual Agent topic and actionable notification. They don't have to reside in the same application scope, but it can be easier to maintain if they do.
 
-Publish the following ITSM Virtual Agent components. If you're using an application scope other than ITSM Virtual Agent Conversations, you should duplicate and publish these topic blocks in the scope you intend to use. To do this, change your application scope, and then duplicate the topic blocks in Virtual Agent Designer.
+Publish the following ITSM Virtual Agent components. If you're using an application scope other than ITSM Virtual Agent Conversations, you should duplicate and publish these topic blocks in the scope you intend to use. To do this, change your application scope, and then duplicate the topic blocks in Assistant Designer Asset library.
 
 -   Create Incident topic block
 -   Request Catalog Item topic block
@@ -44,24 +44,24 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-For more information about building topics and the Virtual Agent Designer interface, see the following topics:
+For more information about building topics and the Assistant Designer Asset library interface, see the following topics:
 
 -   [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 -   [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 -   [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
 -   [Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 
-**Tip:** Look through existing conversations to ensure you are not duplicating effort, and familiarize yourself with Virtual Agent and the flow of topics. Additionally, it may be helpful to outline the flow of a conversation before building it in Virtual Agent Designer.
+**Tip:** Look through existing conversations to ensure you are not duplicating effort, and familiarize yourself with Virtual Agent and the flow of topics. Additionally, it may be helpful to outline the flow of a conversation before building it in Assistant Designer Asset library.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assisant Designer**.
 
-2.  On the Topics page, select **Create**.
+2.  Select the **Asset library** tab.
 
-    \[Omitted image "vad-create-tile.png"\] Alt text: Virtual Agent Designer +Create tile on the landing page.
+3.  Select **Create asset** in LLM topic discovery, or **Create topic** if you're using NLU/Keyword topic discovery.
 
-3.  On the Create a topic form, set up your topic.
+4.  On the Create a topic form, set up your topic.
 
     1.  Enter a name, such as `Asset Refresh`.
 
@@ -77,7 +77,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
     The **Flow** tab appears with Start and End nodes. For an overview of this screen and its components, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
 
-4.  Create your initial message to greet the user.
+5.  Create your initial message to greet the user.
 
     1.  From the Components area, drag a Text bot response node onto the canvas.
 
@@ -87,7 +87,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
         \[Omitted image "example-topic-text-response.png"\] Alt text: Enter a unique node name, such as Initial Message. Include a response, such as "You're eligible to upgrade!"
 
-5.  Ask the user if they want to proceed with the asset refresh.
+6.  Ask the user if they want to proceed with the asset refresh.
 
     1.  From the Components area, drag a Static choice input node onto the canvas.
 
@@ -95,13 +95,13 @@ For more information about building topics and the Virtual Agent Designer interf
 
         -   A unique name, such as `Continue or Defer`.
         -   A text prompt, such as `What would you like to do next? Learn more, or continue with the upgrade?`
-        -   In the Choices area, provide a text prompt for each choice and a value for that choice, so you can refer to it later on.
+        -   Provide a text prompt for each choice and a value for that choice, so you can refer to it later.
 
             For example, your choices might be `Learn more` and `Continue with upgrade`. The values should make sense as variable names. For example, `info` and `upgrade`.
 
     \[Omitted image "example-static-choice-continue.png"\] Alt text: Static choice properties for "Continue or Defer" node. It includes a user prompt and two choices: Learn more or Continue with upgrade.
 
-6.  Add a Decision utility to handle the user's choice.
+7.  Add a Decision utility to handle the user's choice.
 
     1.  From the Components area, drag a Decision utility onto the canvas.
 
@@ -115,7 +115,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
         \[Omitted image "continue-defer-decision-condition.png"\] Alt text: Use the condition builder to specify the Continue or Defer choice node and the corresponding user choice that this branch will follow, such as "Continue with upgrade."
 
-7.  For the upgrade branch, add a Lookup utility node to confirm that the user still has the asset.
+8.  For the upgrade branch, add a Lookup utility node to confirm that the user still has the asset.
 
     1.  From the Components area, drag a Lookup utility onto the canvas.
 
@@ -131,7 +131,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
             \[Omitted image "crawl-ex-lookup-condition.png"\] Alt text: Filter assets in the Assign Condition builder using Assigned to is the current user, and the State is In maintenance.
 
-8.  Ask the user if they still have the asset.
+9.  Ask the user if they still have the asset.
 
     1.  From the Components area, drag a Boolean input node onto the canvas.
 
@@ -143,7 +143,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
         \[Omitted image "crawl-ex-boolean-dotwalking.png"\] Alt text: Write a prompt, such as "Do you still have this device?" Then dot-walk to Input Variables &gt; Asset Lookup &gt; Display name.
 
-9.  If the user still has the asset \(the Boolean response is **true**\), we want to search for it in the catalog.
+10. If the user still has the asset \(the Boolean response is **true**\), we want to search for it in the catalog.
 
     1.  From the Components area, drag the Topic Block utility onto the Asset Check **true** branch on the canvas.
 
@@ -155,7 +155,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
     \[Omitted image "crawl-ex-search-output-vars.png"\] Alt text: Output mapping variables for Search Catalog Item are the catalog\_item\_id, item\_type, and is\_conversational.
 
-10. Request the upgraded item.
+11. Request the upgraded item.
 
     1.  From the Components area, drag the Topic Block utility onto the canvas beneath the Search Catalog Item topic block.
 
@@ -167,7 +167,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
     This topic block returns output variables as well. The user will be able to select variables for their new device, as well. You can configure these variables in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md).
 
-11. Ask the user to confirm their choice of device.
+12. Ask the user to confirm their choice of device.
 
     1.  From the Components area, drag the Card bot response node onto the canvas beneath the Request Catalog Item topic block.
 
@@ -185,11 +185,11 @@ For more information about building topics and the Virtual Agent Designer interf
 
             For example, specify **Number**, **Short description**, and **Estimated delivery**.
 
-12. Drag this flow's arrow to the End node to complete this part of the workflow.
+13. Drag this flow's arrow to the End node to complete this part of the workflow.
 
     \[Omitted image "crawl-ex-drag-arrow-end.png"\] Alt text: Drag the flow arrow that follows the Device Request Record node to the End node. This signals the end of the topic for this particular flow.
 
-13. Select **Save**.
+14. Select **Save**.
 
 
 ## What to do next

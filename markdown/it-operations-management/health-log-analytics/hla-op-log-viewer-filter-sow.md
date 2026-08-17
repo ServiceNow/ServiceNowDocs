@@ -33,11 +33,11 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
     -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log Viewer**.
 2.  Define and run a search.
 
-    For more information, see [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
+    For more information, see [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
 
 3.  Filter the search results in one of the following ways.
 
-<table id="choicetable_ymv_1jg_ftb"><tbody><tr><td id="d376819e182">
+<table id="choicetable_ymv_1jg_ftb"><tbody><tr><td id="d377302e182">
 
 **Add filters using the fields list**
 
@@ -64,7 +64,7 @@ For example, to set the filter **\[Level\]\[is\]\[critical\]**, select **Add** f
 
 For example, to set the filter **\[Level\]\[is not\]\[critical\]**, select **Exclude** for the value "critical" in the Level field.
 
-</td></tr><tr><td id="d376819e256">
+</td></tr><tr><td id="d377302e256">
 
 **Add filters from the __Log Viewer__ table**
 

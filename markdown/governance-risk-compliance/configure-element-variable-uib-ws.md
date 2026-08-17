@@ -40,7 +40,7 @@ Element variables are custom elements that are used in the Grid configuration. A
 
 
 -   **[Element variable record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/element-variable-record-form.md)**  
-Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is specific custom columns, which are required for a particular dependency of an element.
+Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is a specific custom column required for a particular dependency of an element.
 
 **Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

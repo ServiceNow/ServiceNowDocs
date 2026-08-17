@@ -1,6 +1,6 @@
 ---
 title: Remote catalogs
-description: As an application developer for the provider, you can create a remote catalog item containing the services for your consumers. After you create these items, an administrator in the consumer’s instance can assign them to the consumer's catalogs and categories and then activate them, just like any other catalog item.
+description: As an application developer for the provider, you can create a remote catalog item containing the services for your consumers. After you create these items, an administrator in the consumer’s instance can assign them to the consumer's catalogs and categories and then activate them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-apps.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Service Exchange]
 
 # Remote catalogs
 
-As an application developer for the provider, you can create a remote catalog item containing the services for your consumers. After you create these items, an administrator in the consumer’s instance can assign them to the consumer's catalogs and categories and then activate them, just like any other catalog item.
+As an application developer for the provider, you can create a remote catalog item containing the services for your consumers. After you create these items, an administrator in the consumer’s instance can assign them to the consumer's catalogs and categories and then activate them.
 
 **Example:**
 

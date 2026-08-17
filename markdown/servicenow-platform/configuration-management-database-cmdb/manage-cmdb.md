@@ -1,6 +1,6 @@
 ---
 title: Configuration Management
-description: The Configuration Management Database \(CMDB\) application is a centralized source that gives you full visibility into your IT environment. By storing information about your organization's infrastructure and how it is configured, this system allows you to monitor your network and ensure stability and best performance. Other ServiceNow applications enhance the effectiveness of the CMDB application or closely overlap to enable needed business goals.
+description: The Configuration Management Database \(CMDB\) application is a centralized source that gives you full visibility into your IT environment. By storing information about your organization's infrastructure and how it is configured, this system allows you to monitor your network and help improve stability and best performance. Other ServiceNow applications enhance the effectiveness of the CMDB application or closely overlap to enable needed business goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.html
 release: australia
@@ -8,13 +8,13 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configuration Management
 
-The Configuration Management Database \(CMDB\) application is a centralized source that gives you full visibility into your IT environment. By storing information about your organization's infrastructure and how it is configured, this system allows you to monitor your network and ensure stability and best performance. Other ServiceNow® applications enhance the effectiveness of the CMDB application or closely overlap to enable needed business goals.
+The Configuration Management Database \(CMDB\) application is a centralized source that gives you full visibility into your IT environment. By storing information about your organization's infrastructure and how it is configured, this system allows you to monitor your network and help improve stability and best performance. Other ServiceNow® applications enhance the effectiveness of the CMDB application or closely overlap to enable needed business goals.
 
 ## Overview of CMDB
 
@@ -63,12 +63,9 @@ Populate the CMDB by importing and integrating third-party data into the CMDB, i
 
 ## Troubleshoot and get help
 
--   [Whitepaper: CMDB Design &amp; Configuration](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552861)
--   [Whitepaper: CMDB Design](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552867)
--   [White Paper: ServiceNow CMDB - Unlocking the Power of Configuration Management](https://www.servicenow.com/community/servicenow-ai-platform-forum/white-paper-servicenow-cmdb-unlocking-the-power-of-configuration/td-p/3037771)
+-   [White Paper: ServiceNow CMDB - Unlocking the Power of Configuration Management](https://www.servicenow.com/community/servicenow-ai-platform-forum/white-paper-servicenow-cmdb-unlocking-the-power-of-configuration/m-p/3037771)
 -   [Whitepaper: CMDB Design Guidance](http://www.servicenow.com/content/dam/servicenow/documents/whitepapers/wp-cmdb-design-guidance.pdf)
 -   [CMDB 101 - What is a configuration management database and why do you need one?](https://community.servicenow.com/community?id=community_blog&sys_id=e913125fdbd9d7404837f3231f9619de) \(ServiceNow® Community post\)
--   [KB0546686: CMDB Resources Page](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0546686)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 

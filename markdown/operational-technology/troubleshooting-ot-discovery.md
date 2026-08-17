@@ -46,3 +46,5 @@ If you encounter a response status of 401, it’s typically an issue with your c
 
 If you encounter any issues with the flattening of the Asset or missing data from the API, you can run a test load and validate the flattened data from the Staging table. Then compare it with the **api\_data** to see if the data was provided from the API.
 
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+

@@ -19,7 +19,7 @@ The Interview health tracker gives recruiters and coordinators a unified view to
 
 The system generates alerts automatically based on built-in scenarios and displays them in the Recruitment workspace and on the affected records.
 
-**Note:** This feature requires Now Assist skills from the HR Talent AI Agent Collection application, available in HR Service Delivery version 2.0.0 and later.
+**Note:** This feature requires generative AI skills from the AI Agents for Talent application, available in HR Service Delivery version 2.0.0 and later.
 
 ## Benefits
 
@@ -48,7 +48,7 @@ An alert moves through the following states:
 
 After an alert is generated for a record, the system does not re-evaluate that record until a configured cool-down period has elapsed. An admin can update the **sn\_ta\_int\_mgmt.naf\_record\_evaluation\_cooldown\_time** property to set the cool-down duration.
 
-During a scheduled job run, if the system identifies that an alert flagged earlier has been resolved, it automatically closes the alert by providing appropriate reason and saves the activity log as well.
+During a scheduled job run, if the system identifies that a previously flagged alert has been resolved, it automatically closes the alert with an appropriate reason. The resolution is saved in the activity log.
 
 ## Default scenarios
 

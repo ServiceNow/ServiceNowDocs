@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Health safety incident patterns assistant agentic workflow
@@ -25,11 +25,11 @@ The **Health safety incident patterns assistant** agentic workflow helps safety 
 -   Retrieve supporting evidence
 -   Recommend corrective actions within the dashboard or pattern-specific contexts.
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-This agentic workflow is automatically available to users with sn\_ohs\_im.manager, sn\_ohs\_im.admin, and sn\_ohs\_im.agent roles and can be used from the Now Assist panel.
+This agentic workflow is automatically available to users with sn\_ohs\_im.manager, sn\_ohs\_im.admin, and sn\_ohs\_im.agent roles and can be used from the ServiceNow Otto panel.
 
-For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For more information on the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## AI agent and tools used in the Health safety incident patterns assistant agentic workflow
 

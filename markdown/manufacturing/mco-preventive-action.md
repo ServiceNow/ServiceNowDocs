@@ -7,6 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [preventive action, product quality issue, quality issue management, product non-conformance, Manufacturing Commercial Operations]
 breadcrumb: [Related list for quality issues, Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 

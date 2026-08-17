@@ -1,6 +1,6 @@
 ---
-title: Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)
-description: Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
+title: Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate a summary of the Virtual Agent chat history and live agent conversations by using the chat summarization skill in ServiceNow Otto for Customer Service Management \(CSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)
+# Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
+Generate a summary of the Virtual Agent chat history and live agent conversations by using the chat summarization skill in ServiceNow Otto for Customer Service Management \(CSM\).
 
 ## Before you begin
 
@@ -26,11 +26,11 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 The chat summarization skill enables you to do the following actions:
 
 -   Summarize the Virtual Agent chat history and provide a summary of the actions taken by the customer before the customer engages with a live agent.
--   Summarize the live agent and customer chat history, including the actions taken by the customer before the live agent hands off the call to another live agent and the customer engages with the new agent.
+-   Summarize the live agent and customer chat history, including customer actions before handoff to another live agent.
 -   Summarize the chat at any point during the conversation using the `/summarize` quick action.
--   Summarize the chat between a live agent and a customer when a chat is handed off to another live agent or when an agent wraps up the conversation and ends the interaction.
+-   Summarize the chat between a live agent and a customer when a chat is handed off to another live agent or when an agent ends the interaction.
 
-**Note:** You can also generate a chat summary on demand from the Now Assist panel.
+**Note:** You can also generate a chat summary on demand from the ServiceNow Otto panel.
 
 ## Procedure
 
@@ -38,9 +38,7 @@ The chat summarization skill enables you to do the following actions:
 
 2.  In CSM Configurable Workspace, open a chat from your inbox.
 
-    The chat summarization skill creates an inline summary in the Active Chat window. This summary includes the customer’s issue and the actions that the customer has taken before the customer engaged with a live agent. The summary appears in the Active Chat window and is identified by the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Now assist icon.\) and the **AI chat summary** label.
-
-    \[Omitted image "now-assist-csm-chat-summary.png"\] Alt text: AI-generated chat summaries for an interaction.
+    The chat summarization skill creates an inline summary in the Active Chat window. This summary includes the customer’s issue and the actions that the customer has taken before the customer engaged with a live agent. The summary appears in the Active Chat window and is identified by the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Now assist icon.\) and the **AI chat summary** label.
 
 3.  Provide feedback for the chat summary by selecting the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\) or not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\) on the summary card.
 
@@ -81,7 +79,7 @@ The chat summarization skill enables you to do the following actions:
 
 If necessary, you can create a case from an interaction record. The system uses the information from the **Short description** and **Chat Summary** fields on the interaction record to populate the **Short description** and **Description** fields on the case record.
 
-The system displays the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Now assist icon.\) next to these fields and removes the icon if the agent makes changes to the fields and saves the record.
+The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon.\) next to these fields and removes the icon if the agent makes changes to the fields and saves the record.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

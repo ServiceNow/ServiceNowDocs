@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-07"
 reading_time_minutes: 1
 keywords: [LEAP, Ansible, automation, integration, MCP]
-breadcrumb: [Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Ansible automation integration

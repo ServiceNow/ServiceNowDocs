@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 4
-breadcrumb: [Reference, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Reference, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Agentic evaluation run results

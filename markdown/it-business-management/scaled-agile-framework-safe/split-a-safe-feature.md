@@ -1,6 +1,6 @@
 ---
 title: Split a SAFe feature
-description: Split a SAFe feature into two separate features so that you can track complete and incomplete stories. You can move the feature with the incomplete stories to your backlog or to a future program increment \(PI\) so that you can maintain accurate metrics of the previous sprints and PIs.
+description: Split a SAFe feature into two separate features so that you can track complete and incomplete stories. Move the feature with the incomplete stories to your backlog or to a future program increment \(PI\). This maintains accurate metrics of the previous sprints and PIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Define a feature in SAFe, SAFe entities, Essential SAFe, Scaled Agi
 
 # Split a SAFe feature
 
-Split a SAFe feature into two separate features so that you can track complete and incomplete stories. You can move the feature with the incomplete stories to your backlog or to a future program increment \(PI\) so that you can maintain accurate metrics of the previous sprints and PIs.
+Split a SAFe feature into two separate features so that you can track complete and incomplete stories. Move the feature with the incomplete stories to your backlog or to a future program increment \(PI\). This maintains accurate metrics of the previous sprints and PIs.
 
 ## Before you begin
 

@@ -1,19 +1,19 @@
 ---
-title: Configure Now Assist for Zero Copy Connector
-description: If you have the admin role, you can configure the Now Assist for Zero Copy Connector application.
+title: Configure ServiceNow Otto for Zero Copy Connector
+description: If you have the admin role, you can configure the ServiceNow Otto for Zero Copy Connector application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-for-zero-copy-connectors.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist for Zero Copy Connector, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
-# Configure Now Assist for Zero Copy Connector
+# Configure ServiceNow Otto for Zero Copy Connector
 
-If you have the admin role, you can configure the Now Assist for Zero Copy Connector application.
+If you have the admin role, you can configure the ServiceNow Otto for Zero Copy Connector application.
 
 ## Before you begin
 
@@ -21,28 +21,26 @@ Role required: admin and sn\_erp\_integration.erp\_ai\_user
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for ZCC. For additional information, see .
+Use the AI Admin Hub console to configure ServiceNow Otto for ZCC. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following skills are included in Now Assist for ZCC:
+The following skills are included in ServiceNow Otto for ZCC:
 
 -   ERP data discovery
 -   ERP data query
 
 ## Procedure
 
-1.  Install the Now Assist for Zero Copy Connector plugin \(sn\_erp\_ai\).
+1.  Install the ServiceNow Otto for Zero Copy Connector plugin \(sn\_erp\_ai\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  View the skills by navigating to **All** &gt; **Now Assist admin** &gt; **Skills** and selecting **Other**.
+2.  View the skills by navigating to **All** &gt; **Otto admin** &gt; **Skills** and selecting **Other**.
 
 3.  Edit skill access by selecting the options icon next to the **Last modified** column and selecting **Edit access**.
 
-    \[Omitted image "erp-na-configure1.png"\] Alt text: Now Assist skills list with other skills displayed and two now assist for zero copy connector skills highlighted.
+    1.  Select the edit \(pencil\) icon \[Omitted image "pencil-outline-24.svg"\].
 
-    1.  Select the edit \(pencil\) icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
-
-        \[Omitted image "erp-edit-access1.png"\] Alt text: Edit access modal with pencil icon highlighted.
+        \[Omitted image "erp-edit-access1.png"\] Alt text: Edit access modal with pencil highlighted.
 
     2.  Select **Any authenticated user** or **Select roles**.
 
@@ -54,7 +52,7 @@ The following skills are included in Now Assist for ZCC:
 
         \[Omitted image "erp-edit-access3.png"\] Alt text: Edit ACL modal with roles drop-down list displayed.
 
-        **Note:** The sn\_erp\_integration.erp\_ai\_user role is required for users to work with generative and agentic AI in Now Assist for ZCC.
+        **Note:** The sn\_erp\_integration.erp\_ai\_user role is required for users to work with generative and agentic AI in ServiceNow Otto for ZCC.
 
     3.  When you're finished, select **Apply**.
 
@@ -64,5 +62,7 @@ The following skills are included in Now Assist for ZCC:
 **Related topics**  
 
 
-[bundle-platai.configuring-now-assist]
+[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+
+[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

@@ -1,36 +1,36 @@
 ---
-title: Using generative AI with Now Assist for Public Sector Digital Services \(PSDS\)
-description: You can use various generative AI skills with the Now Assist for Public Sector Digital Services \(PSDS\) application.
+title: Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: You can use various generative AI skills with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using generative AI with Now Assist for Public Sector Digital Services \(PSDS\)
+# Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-You can use various generative AI skills with the Now Assist for Public Sector Digital Services \(PSDS\) application.
+You can use various generative AI skills with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 Summarize the case details to help you understand the case context quicker. These summaries are useful for long-running or complex cases that include multiple conversations between agents and constituents.
 
-Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
-Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the Now Assist AI Search for CSM Workspace​ plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
+Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the ServiceNow Otto for AI Search for CSM Configurable Workspace plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
 
 ## Skills
 
-The Now Assist for PSDS application includes the generative AI skills that enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
+The ServiceNow Otto for PSDS application includes the generative AI skills that enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
 
 -   **Investigative case summarization**
 
     Synthesizes case narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case context and respond to inquiries. Generates detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record.
 
--   **Investigative case narrative refinement \(via Now Assist Context Menu\)**
+-   **Investigative case narrative refinement \(via ServiceNow Otto Context Menu\)**
 
-    Reviews text and surfaces gaps, inconsistencies, and tone issues before a case narrative is submitted for supervisory review. Delivers real-time refinement suggestions grounded in linked entities, evidence, and case activity, and allows investigators full control over accepting, rejecting, or editing every suggestion. Accessed via the Now Assist Context Menu upon text selection within a case narrative field.
+    Reviews text and surfaces gaps, inconsistencies, and tone issues before a case narrative is submitted for supervisory review. Delivers real-time refinement suggestions grounded in linked entities, evidence, and case activity, and allows investigators full control over accepting, rejecting, or editing every suggestion. Accessed via the ServiceNow Otto Context Menu upon text selection within a case narrative field.
 
 -   **Document screening**
 
@@ -54,7 +54,7 @@ The Now Assist for PSDS application includes the generative AI skills that enabl
 
     Automatically generate summaries of agent-facing chats, capturing the context of conversations between agents and constituents or virtual agents at different points of the handoff, such as when a Virtual Agent chat history is handed off to a live agent, or when one live agent hands off a chat history with a customer to another live agent. This functionality enables critical information from interactions to be readily accessible for future reference and action.
 
--   **Now Assist for AI Search**
+-   **ServiceNow Otto for AI Search**
 
     Leverage single-turn capabilities for legislation and policy summarization, providing agents with succinct overviews of complex documents and enhancing the ability to navigate and comprehend extensive legislative materials. This skill provides actionable AI-generated or AI-selected answers in searches, synthesizing and summarizing information from multiple knowledge bases to deliver relevant answers in a conversational format​.
 
@@ -73,9 +73,9 @@ The Now Assist for PSDS application includes the generative AI skills that enabl
 **Related topics**  
 
 
-[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
+[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
 
-[Using generative AI with Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
+[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
 

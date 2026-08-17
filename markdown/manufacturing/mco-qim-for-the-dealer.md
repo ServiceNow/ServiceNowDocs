@@ -1,6 +1,6 @@
 ---
 title: Quality issue management for the dealer
-description: The dealer portal enables the dealers to view the product non-conformance requested by them. Dealers can also submit the product non-conformance issue reports.
+description: The dealer portal enables dealers to view the product non-conformance issues they requested. Dealers can also submit the product non-conformance issue reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-qim-for-the-dealer.html
 release: australia
@@ -12,5 +12,5 @@ breadcrumb: [Dealer portal, Use, Manufacturing Commercial Operations]
 
 # Quality issue management for the dealer
 
-The dealer portal enables the dealers to view the product non-conformance requested by them. Dealers can also submit the product non-conformance issue reports.
+The dealer portal enables dealers to view the product non-conformance issues they requested. Dealers can also submit the product non-conformance issue reports.
 

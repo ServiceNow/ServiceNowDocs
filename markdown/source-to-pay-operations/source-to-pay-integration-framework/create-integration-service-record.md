@@ -46,5 +46,5 @@ The Integration Service record is created.
 
 ## What to do next
 
-In the ERP Source configuration, Run jobs for active entities.
+In the ERP Source configuration, run jobs for active entities.
 

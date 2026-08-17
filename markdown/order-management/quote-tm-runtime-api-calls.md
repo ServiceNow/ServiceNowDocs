@@ -1,22 +1,22 @@
 ---
 title: ServiceNow Quote Experience runtime API calls
-description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in ServiceNow CPQ.
+description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-runtime-api-calls.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience runtime API calls
 
-Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in ServiceNow CPQ.
+Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in CPQ.
 
 ## API overview
 
-ServiceNow CPQ APIs are divided into two categories: runtime APIs and admin APIs. Runtime APIs are the same APIs used in the runtime quote experience. The following table lists the runtime APIs for ServiceNow Quote Experience.
+CPQ APIs are divided into two categories: runtime APIs and admin APIs. Runtime APIs are the same APIs used in the runtime quote experience. The following table lists the runtime APIs for ServiceNow Quote Experience.
 
 |API action|Purpose|Response|
 |----------|-------|--------|

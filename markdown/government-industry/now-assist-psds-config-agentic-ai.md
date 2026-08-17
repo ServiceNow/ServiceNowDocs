@@ -1,6 +1,6 @@
 ---
 title: Configure AI Agents for Public Sector Digital Services
-description: Configure the Now Assist AI Agents to execute use cases and complete tasks autonomously in Public Sector Digital Services.
+description: Configure the AI Agents to execute use cases and complete tasks autonomously in Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-agentic-ai.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Implement intelligence, Configure, Public Sector Digital Services \
 
 # Configure AI Agents for Public Sector Digital Services
 
-Configure the Now Assist AI Agents to execute use cases and complete tasks autonomously in Public Sector Digital Services.
+Configure the AI Agents to execute use cases and complete tasks autonomously in Public Sector Digital Services.
 
 ## Before you begin
 
@@ -20,13 +20,13 @@ Role required: admin, sn\_aia\_trigger\_configuration
 
 ## About this task
 
-To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin installed, as well as the Now Assist panel and AI Search enabled on your instance.
+To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin installed, and the ServiceNow Otto panel and AI Search enabled on your instance.
 
 ## Procedure
 
-1.  Ensure that the Now Assist Panel and AI Search module are both enabled.
+1.  Confirm that the ServiceNow Otto Panel and AI Search module are both enabled.
 
-    For instructions on how to enable the Now Assist panel and on how to set up AI Search, see [Configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md) and [Configure AI search for Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
+    For instructions on how to enable the ServiceNow Otto panel and on how to set up AI Search, see [Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md) and [Configure AI search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
 
 2.  Navigate to **All** &gt; **AI Search** &gt; **Indexed Sources.**.
 
@@ -34,7 +34,7 @@ To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin inst
 
 4.  Select **Index All Tables** to start the indexing process.
 
-5.  Select **Indexing History** once it is completed to ensure the Keyword Ingestion State has changed from Indexing to Indexed.
+5.  Select **Indexing History** once it is completed to confirm the Keyword Ingestion State has changed from Indexing to Indexed.
 
 6.  Select **Publish** to publish the search source for the Information Request table.
 

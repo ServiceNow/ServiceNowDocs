@@ -4,7 +4,7 @@ description: The ServiceNow Collaborative Work Management \(CWM\) application pr
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-03"
 reading_time_minutes: 7
 ---
 
@@ -14,10 +14,10 @@ The ServiceNow® Collaborative Work Management \(CWM\) application provides a ce
 
 ## Collaborative Work Management highlights for the Australia release
 
+-   Track and break down project tasks on a Board, while your work automatically rolls up to the plan in Project Workspace.
 -   Save time and effort by importing existing tasks and stories into CWM.
 -   Find relevant work easily by using filters in the Kanban view.
 -   Generate scrum tasks for user stories using AI and improve visibility into sprint work.
--   Spot bottlenecks early by linking work items as blocking or related, with visual cues that surface dependencies across Kanban, List, and Gantt views.
 -   Add inline comments and @mention colleagues in Docs and receive email notifications for replies and mentions.
 
 See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cwm-landing.md) for more information.
@@ -35,9 +35,15 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+-   **[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/connect-project-workspace-cwm.md)**
+
+    Deliver your part of a project without leaving CWM or duplicating work progress in Project Workspace. Track project tasks assigned to you in **My Work**, break them down into CWM tasks and stories directly from a Board, and see the project and project task that you're contributing to.
+
+    Save time on status updates because your work rolls up to the project automatically. Any child tasks that you create are automatically linked to the parent project task and its project, you can reassign or remove that connection as work evolves, and project managers see the same updates in Project Workspace.
+
 -   **[Import tasks into CWM Boards using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/importing-tasks-cwm-boards.md)**
 
-    Reduce manual effort when onboarding existing work to CWM by importing tasks or stories from spreadsheets, documents, or images. Upload a file and Now Assist analyzes the data and proposes how each source column maps to a column on your Board.
+    Reduce manual effort when onboarding existing work to CWM by importing tasks or stories from spreadsheets, documents, or images. Upload a file and Now Assist analyzes the data and proposes how each source column maps to a column on your board.
 
     Review and adjust the AI-proposed mapping, add source columns as new custom columns if needed, and preview the full task list before confirming. The import runs in the background and a workspace notification reports the outcome when it completes.
 
@@ -57,7 +63,7 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 
     Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values across your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
-    Build formulas manually using the Formula Builder panel, which guides you through selecting functions and referencing columns with inline suggestions. As you type, the builder validates your formula in real-time and displays clear error messages if corrections are needed.
+    Build formulas manually using the Formula Builder panel, which guides you through selecting functions and referencing columns with inline suggestions. As you type, the builder validates your formula in real time and displays clear error messages if corrections are needed.
 
     You can accelerate formula creation with AI by describing your calculation in natural language. AI generates a valid formula that you can insert directly into the editor, saving you the time to manually build a valid formula.
 
@@ -65,7 +71,7 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 
     Save time finding the work that matters most by applying quick filters directly on your Kanban board.
 
-    As you adjust filter conditions in the header, the quick filter panel stays in sync, and vice versa. Your filter choices automatically apply to saved views and CWM Board templates, so the next time you open the board, your preferences are readily available.
+    As you adjust filter conditions in the header, the quick filter panel stays in sync, and vice versa. Your filter choices automatically apply to saved views and CWM Board templates, so the next time that you open the board, your preferences are readily available.
 
 -   **[Scrum tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-scrum-tasks-for-stories-cwm.md)**
 
@@ -97,19 +103,27 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 
 -   **[Sprint section footer changes in Sprint planning view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-sprint-planning-in-cwm.md)**
 
-    For sprints that are not started yet, the footer of the sprint section in the Sprint planning view now shows only the % of capacity utilized, and the story points remaining for the sprint.
+    In the sprint section footer of the Sprint planning view, unstarted sprints now display only the % of capacity utilized and remaining story points.
 
 
 ## Changed in this release
+
+-   **[AI skills for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-explore.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 -   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
+-   **[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-task-dependencies-relationships-cwm.md)**
+
+    You can now search by task number, in addition to name, when adding a relationship to a work item.
+
 
 ## Activation information
 
-Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -119,16 +133,16 @@ Install Collaborative Work Management by requesting it from the ServiceNow Store
 
 -   **Reflow**
 
-    Docs in CWM Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
+    Docs in CWM Configurable Workspace support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
     This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-landing.md)**
+-   **[ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-landing.md)**
 
-    The ServiceNow®Now Assist for CWM application uses generative AI skills to save time and improve efficiency for the actions you perform within the CWM workspace.
+    The ServiceNow®ServiceNow Otto for CWM application uses generative AI skills to save time and improve efficiency for the actions you perform within the CWM workspace.
 
 -   **[Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/alignment-planner-workspace-landing-page.md)**
 

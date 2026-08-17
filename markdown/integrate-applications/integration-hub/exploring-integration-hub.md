@@ -30,7 +30,7 @@ Build reusable integrations with third-party systems and call them from anywhere
 
 -   **Create spokes**
 
-    Build spokes using Spoke Generator to automate integration tasks by creating a sequence of reusable actions to develop custom integrations. For more information, see .
+    Build spokes using Spoke Generator to automate integration tasks by creating a sequence of reusable actions to develop custom integrations. For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md).
 
 -   **Use spokes for base system integrations**
 
@@ -93,7 +93,7 @@ When developing spokes, flow and action designers typically perform these applic
     -   Publish to the ServiceNow Store as an application that customers can request for their environments.
     -   Publish to ServiceNow Share to provide content to other customers in the ServiceNow community.
 
-Review Workflow Studio design considerations in the Architecture Overview.
+Review Workflow Studio design considerations in the [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-arch-overview.md).
 
 **Parent Topic:**[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
 

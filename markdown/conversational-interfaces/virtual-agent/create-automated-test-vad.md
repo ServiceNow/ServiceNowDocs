@@ -1,6 +1,6 @@
 ---
-title: Create an automated test in Virtual Agent Designer
-description: Create automated tests in Virtual Agent Designer and run tests regularly against ideal conversation topic flows. You can create multiple automated tests for a topic to capture different conversation flows for various situations such as ideal conversation paths or errors.
+title: Create an automated test in Assistant Designer Asset library
+description: Create automated tests in Assistant Designer Asset library, and run tests regularly against ideal conversation topic flows. You can create multiple automated tests for a topic to capture different conversation flows for various situations such as ideal conversation paths or errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-automated-test-vad.html
 release: australia
@@ -13,9 +13,9 @@ keywords: [Automated, Test, Virtual Agent, designer, om.glide.cs.atf]
 breadcrumb: [Automated testing for Virtual Agent topics that use NLU topic discovery, Testing NLU/Keyword topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Create an automated test in Virtual Agent Designer
+# Create an automated test in Assistant Designer Asset library
 
-Create automated tests in Virtual Agent Designer and run tests regularly against ideal conversation topic flows. You can create multiple automated tests for a topic to capture different conversation flows for various situations such as ideal conversation paths or errors.
+Create automated tests in Assistant Designer Asset library, and run tests regularly against ideal conversation topic flows. You can create multiple automated tests for a topic to capture different conversation flows for various situations such as ideal conversation paths or errors.
 
 ## Before you begin
 
@@ -25,45 +25,47 @@ Role required: atf\_test\_designer, atf\_ws\_designer, atf\_test\_admin, virtual
 
 ## About this task
 
-As you work on a published topic, setup topic, or small talk topic, use the **Test** option in the topic header bar to run your conversation in a chat test window. The default test window is the web \(Service Portal\) chat client. Use the **Create test case** button to create a test case and save the test case in the Automated Test Framework.
+As you work on a published topic, setup topic, or small talk topic, select **Test** on the header bar to run your conversation in a chat test window. The default test window is the web \(Service Portal\) chat client. Use the **Create test case** button to create a test case and save the test case in the Automated Test Framework.
 
-**Note:** You can find a list of NLU/Keyword test cases by selecting the **Manage NLU/Keyword test cases** toggle switch on the Assistant Designer Asset library page. Automated tests are also listed on the Automated Test Framework \(ATF\) Tests \[sys\_atf\_test\] table. For more information on managing NLU/Keyword test cases, see [Manage and run automated test cases in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-automated-test-cases.md)
+**Note:** You can find a list of NLU/Keyword test cases by selecting the **Manage NLU/Keyword test cases** toggle switch on the Assistant Designer Asset library page. Automated tests are also listed on the Automated Test Framework \(ATF\) Tests \[sys\_atf\_test\] table. For more information on managing NLU/Keyword test cases, see [Manage and run automated test cases in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-automated-test-cases.md)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Set the discovery type toggle switch to **NLU/keyword**.
+2.  Select the **Asset library** tab.
 
-3.  Select a published topic.
+3.  Set the discovery type toggle switch to **NLU/keyword**.
 
-4.  In the topic's header bar, select **Test**.
+4.  Select a published topic.
 
-5.  In the topic testing window, select **Create test case**.
+5.  In the topic's header bar, select **Test**.
+
+6.  In the topic testing window, select **Create test case**.
 
     **Note:** The **Create test case** button is only available for published topics that are non-read only with one of the following topic types: **Topic**, **Setup Topic**, or **Small talk**.
 
     The topic's test client restarts and the test case begins to capture your ideal conversation. While capturing your test case, the **Include Topic Discovery** and the **Context** tabs are unavailable.
 
-6.  Enter the conversational flow that you want to capture and test.
+7.  Enter the conversational flow that you want to capture and test.
 
     **Tip:** Select **Restart** at any time to restart the topic conversation and test case capture.
 
-7.  Select **Stop**.
+8.  Select **Stop**.
 
     The **Test case name** field displays the topic's name along with the date and timestamp. For example: `[Topic name] 3/28/2022, 3:32:19 PM`.
 
-8.  Perform one of the following actions.
+9.  Perform one of the following actions.
 
-<table id="choicetable_ezr_zt3_w5b"><thead><tr><th align="left" id="d157433e245">
+<table id="choicetable_ezr_zt3_w5b"><thead><tr><th align="left" id="d156015e252">
 
 Option
 
-</th><th align="left" id="d157433e248">
+</th><th align="left" id="d156015e255">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d157433e254">
+</th></tr></thead><tbody><tr><td id="d156015e261">
 
 **Discard the test case**
 
@@ -74,7 +76,7 @@ Description
 
 The test case is discarded and the testing conversation restarts.
 
-</td></tr><tr><td id="d157433e277">
+</td></tr><tr><td id="d156015e284">
 
 **Save the test case**
 

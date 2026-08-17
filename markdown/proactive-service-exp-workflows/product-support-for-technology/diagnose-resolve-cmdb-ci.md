@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-This task helps you to understand how to execute relevant preconfigured diagnostics tests for a specific CI or a service, without any incident or case. This helps the agents to test a CI or Service standalone. If any issues are found, resolution shall follow the standard process like incident or case as applicable. This task doesn't enable the agent to create any repair or diagnostic task, but only help to run the required test on the fly without any case or incident.
+This task helps you to understand how to execute relevant preconfigured diagnostics tests for a specific CI or a service, without any incident or case. This helps the agents to test a CI or Service standalone. If any issues are found, resolution shall follow the standard process like incident or case as applicable. This task doesn't enable the agent to create repair or diagnostic tasks, but only helps run the required test on the fly without a case or incident.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ This task helps you to understand how to execute relevant preconfigured diagnost
 
 5.  Diagnose the service to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see .
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 

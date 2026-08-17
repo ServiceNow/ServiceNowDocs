@@ -14,7 +14,7 @@ breadcrumb: [Configure the Main node configurations, Configure, Operational Resi
 
 Use the Main node configuration form to create a Main node configuration record in the Data Relationships Framework.
 
-## Main node configuration new record form
+## Main node configuration record form
 
 |Field|Description|
 |-----|-----------|

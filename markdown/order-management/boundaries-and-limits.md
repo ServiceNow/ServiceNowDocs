@@ -1,18 +1,18 @@
 ---
 title: Boundaries and limits
-description: View a list of boundaries and limits in ServiceNow CPQ.
+description: View a list of boundaries and limits in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/boundaries-and-limits.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Boundaries and limits
 
-View a list of boundaries and limits in ServiceNow CPQ.
+View a list of boundaries and limits in CPQ.
 
 ## Blueprints
 
@@ -72,5 +72,5 @@ ZIP files over 75 MB cannot be imported.
 
 500 fields can be automatically loaded when the Layout Wizard is initialized. Additional fields must be added manually via the Add Field menu.
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

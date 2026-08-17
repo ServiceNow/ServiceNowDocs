@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 5.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d160714e131">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d160432e131">
 
 Location
 
-</th><th align="left" id="d160714e134">
+</th><th align="left" id="d160432e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d160714e140">
+</th></tr></thead><tbody><tr><td id="d160432e140">
 
 **From internal storage**
 
@@ -59,7 +59,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d160714e167">
+</td></tr><tr><td id="d160432e167">
 
 **From external storage**
 
@@ -70,15 +70,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>6.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d160714e191">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d160432e191">
 
 Review result
 
-</th><th align="left" id="d160714e194">
+</th><th align="left" id="d160432e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d160714e200">
+</th></tr></thead><tbody><tr><td id="d160432e200">
 
 **No change is required**
 
@@ -86,7 +86,7 @@ Action
 
 Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md).
 
-</td></tr><tr><td id="d160714e218">
+</td></tr><tr><td id="d160432e218">
 
 **Changes are required**
 

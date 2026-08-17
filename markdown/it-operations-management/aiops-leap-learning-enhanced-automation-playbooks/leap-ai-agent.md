@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-30"
 reading_time_minutes: 2
 keywords: [LEAP AI agent, knowledge base article, problem record, AIOps LEAP]
-breadcrumb: [Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # LEAP AI agent
@@ -27,7 +27,7 @@ Generative AI may produce inaccurate or incomplete information. Always validate 
 |--------|-------------|
 |LEAP AI agent|Uses the automation opportunities created by LEAP analysis, and creates artifacts \(problem records, knowledge base articles, or playbooks\) requested by users.|
 
-**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## What the LEAP AI agent does
 

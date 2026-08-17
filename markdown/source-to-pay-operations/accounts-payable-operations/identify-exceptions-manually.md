@@ -1,6 +1,6 @@
 ---
 title: Check for invoice exceptions on a single invoice
-description: Manually check for exceptions on a single invoice in the Source-to-Pay Workspace when you want to identify and resolve issues before continuing to process the invoice.
+description: Manually check for exceptions on a single invoice in the Source-to-Pay Workspace to identify and resolve issues before processing the invoice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice exception, AP specialist]
+keywords: [APO, Accounts Payable Operations, invoice exception, AP specialist, Checking exceptions, invoice processing case]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Check for invoice exceptions on a single invoice
 
-Manually check for exceptions on a single invoice in the Source-to-Pay Workspace when you want to identify and resolve issues before continuing to process the invoice.
+Manually check for exceptions on a single invoice in the Source-to-Pay Workspace to identify and resolve issues before processing the invoice.
 
 ## Before you begin
 
@@ -61,7 +61,7 @@ The **Check exceptions** option is available for all invoices that are in **Exce
 
 [Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice]()
+[Enter missing invoice information and submit an invoice]()
 
 [Confirm whether an invoice is a duplicate]()
 
@@ -69,5 +69,5 @@ The **Check exceptions** option is available for all invoices that are in **Exce
 
 [Reset an invoice to the Received status]()
 
-[Start the processing for an invoice imported via integration with third-party applications]()
+[Start processing a third-party invoice]()
 

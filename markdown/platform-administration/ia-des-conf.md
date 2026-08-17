@@ -1,18 +1,18 @@
 ---
 title: General guidelines
-description: Practice the following general guidelines for an enhanced Setup Hub experience.
+description: Practice the following general guidelines for an enhanced ServiceNow Otto for Setup experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-des-conf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-16"
 reading_time_minutes: 2
-breadcrumb: [Reference, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # General guidelines
 
-Practice the following general guidelines for an enhanced Setup Hub experience.
+Practice the following general guidelines for an enhanced ServiceNow Otto for Setup experience.
 
 ## Instance specific configurations
 
@@ -107,5 +107,5 @@ Shows the local update of the update set version available on the production ins
 Select this option to view the update made to the current update set version on the production instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
+</table>**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
 

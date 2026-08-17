@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-08-19"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure Case Summarization
@@ -32,7 +32,7 @@ Any modifications to the names or labels of the fields within these templates ca
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -102,7 +102,6 @@ Default is determined by record state.
 -   Assigned to
 -   Additional comments
 -   Work notes
--   Case lines
 
 
 </td></tr><tr><td>
@@ -116,7 +115,7 @@ Activity is listed as 'Email.'
 </td></tr></tbody>
 </table>6.  Select **Customize prompt** to evaluate the generated outputs of case summaries.
 
-    Evaluate the prompt used for each of the input templates by selecting an existing record to test the output. The review and modify the prompt after evaluating the output results, edit it within the Now Assist Skill Kit.
+    Evaluate the prompt used for each of the input templates by selecting an existing record to test the output. The review and modify the prompt after evaluating the output results, edit it within the AI Skill Kit.
 
 7.  Select **Define availability** to customize how and when the skill capability is active and accessible.
 
@@ -128,11 +127,11 @@ Activity is listed as 'Email.'
     -   Select **User trigger** to create a case summary of a record when the user opens a record page and selects the **Summarize** button.
 9.  Select **Define access** to determine who can access this skill.
 
-    By selecting specific roles, you're controlling who can use it. The roles you choose will also be available in the next step **Select display**.
+    By selecting specific roles, you are controlling who can use it. The roles you choose will also be available in the next step **Select display**.
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent automatically appear in **Define access** and **Select display**.
+    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent automatically appear in **Define access** and **Select display**.
     -   If custom roles were added before the upgrade, they’re updated automatically by a script.
     -   If new roles are created after the upgrade, you can manually add them in both the **Define access** and **Select display**.
 
@@ -140,8 +139,8 @@ Activity is listed as 'Email.'
 
 10. Select **Display** to determine where the skill appears.
 
-    -   Select **In-product desktop** to display Now Assist skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
-    -   Select **Now Assist panel** to display Now Assist skills in the Now Assist panel.
+    -   Select **In-product desktop** to display AI skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
+    -   Select **ServiceNow Otto panel** to display AI skills in the panel.
 11. After selecting **Review and activate** to examine changes, select **Done** to close the case summarization generation settings.
 
 12. Select **Activate** to turn on the skill for agents and complete the configuration.
@@ -150,5 +149,5 @@ Activity is listed as 'Email.'
 **Related topics**  
 
 
-[Summarize a call by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)
+[Summarize a call by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)
 

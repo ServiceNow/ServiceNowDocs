@@ -25,6 +25,7 @@ You can activate the Field Service Advanced Capacity and Reservations management
 
         -   Field Service Capacity and Reservations Management \(com.snc.fsm\_capacity\_management\) plugin.
         -   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\) plugin.
+        -   Enable territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 Role required: admin.
 

@@ -1,6 +1,6 @@
 ---
 title: Creating and reviewing the records
-description: The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. For best results, it is important to create or update the records such as legal entities, branches, functions, contracts, and so on in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
+description: The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. Create or update records such as legal entities, branches, functions, and contracts in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/order-for-creating-records.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configuring Digital resilience third-party registers, Maintaining D
 
 # Creating and reviewing the records
 
-The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. For best results, it is important to create or update the records such as legal entities, branches, functions, contracts, and so on in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
+The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. Create or update records such as legal entities, branches, functions, and contracts in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
 
 ## Order for creating or updating the records
 

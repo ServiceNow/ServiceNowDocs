@@ -34,7 +34,7 @@ To manage task dependencies, you can select **View dependencies** in the Depende
 
 \[Omitted image "sort-plan-rt3.png"\] Alt text: RT3.\[Omitted image "gantt-view-task-dep.png"\] Alt text: View dependencies.
 
-After selecting **View dependencies**, a modal view is shown, displaying the dependency details, including the dependent task \(for example, RT3 is dependent on RT2\), its dependency \(RT2\), and the state of the dependent plan \(activated\). This display provides a clear understanding of task relationships and their current status.
+After selecting **View dependencies**, a modal displays dependency details: the dependent task \(for example, RT3 depends on RT2\), its dependency \(RT2\), and the dependent plan state \(activated\). This display provides a clear understanding of task relationships and their current status.
 
 \[Omitted image "gantt-view-task-dep-details.png"\] Alt text: Details.
 
@@ -46,13 +46,13 @@ To create a new dependency, drag from the end of one task to the start of anothe
 
 \[Omitted image "event-task-dep-drag.png"\] Alt text: Drag.
 
-You can create multiple links between tasks as needed, enabling for flexible dependency management directly within the Gantt chart. However, attempting to create a cyclic dependency \(for example, making Task 2 dependent on Task 1 when Task 1 is already dependent on Task 2\) results in an error, as it can cause cyclic dependencies. The system helps to prevent such configurations to maintain a valid and manageable project structure.
+You can create multiple links between tasks, enabling flexible dependency management directly within the Gantt chart. However, attempting to create a cyclic dependency \(for example, making Task 2 dependent on Task 1 when Task 1 is dependent on Task 2\) results in an error. The system helps to prevent such configurations to maintain a valid and manageable project structure.
 
 \[Omitted image "event-task-dep-error.png"\] Alt text: Error.
 
 ## Color-coded bars
 
-The bars in the chart are color-coded, and selecting the legends reveals the color conventions for different task states, such as Closed complete, Closed duplicate, Closed incomplete, and others. This color-coding system helps to identify the status of tasks quickly.
+The bars in the chart are color-coded. Selecting the legends reveals the color conventions for different task states, such as Closed complete, Closed duplicate, Closed incomplete, and others. This color-coding system helps to identify the status of tasks quickly.
 
 \[Omitted image "event-task-dep-color-code.png"\] Alt text: Color.
 
@@ -62,7 +62,7 @@ The task states are represented by these color codes:
 -   Red: "Closed failed" states
 -   Grey: "Hold" and "Pending" states, indicating a waiting or paused status
 -   Blue: "Open" state, signifying that a task is open and ready for action
--   Yellow: "Working progress" state, indicating that a task is in progress
+-   Yellow: "Work in progress" state, indicating that a task is in progress
 
 This color-coding system provides a clear visual representation of task statuses, making it easier to track progress and identify areas that require attention.
 
@@ -80,7 +80,7 @@ You can view the actual start and end dates in the Gantt chart. To view the date
 
 \[Omitted image "event-task-dep-actual-start.png"\] Alt text: Start.\[Omitted image "event-task-dep-actual-start-end.png"\] Alt text: End date.
 
-You can toggle between viewing planned dates and actual dates using the switch button, enabling for easy comparison and tracking the progress of the project.
+You can toggle between viewing planned dates and actual dates using the switch button, enabling easy comparison and tracking the progress of the project.
 
 **Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

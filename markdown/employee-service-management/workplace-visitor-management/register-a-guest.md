@@ -8,7 +8,7 @@ product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Registering a visitor, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -74,7 +74,7 @@ Location
 
 </td><td>
 
-The location of the visit.
+The location of the visit. **Note:** In Workplace Visitor Management version 2.0.0 or later, this field references the **workplace\_location** field. Verify that all field references and dot-walk expressions in your configuration resolve to **workplace\_location**.
 
 </td></tr><tr><td>
 
@@ -223,7 +223,9 @@ The colleague's license plate details.
 
     3.  In the downloaded file, fill in the visitor information.
 
-        The columns in the file correspond to the fields in the **Add an external visitor** form. The visitor email column is required. If the visitor email is empty for any row, it’s skipped.
+        The columns in the file correspond to the fields in the **Add an external visitor** form. First name, Last name, and Email are required columns. If the visitor email is empty for any row, it’s skipped.
+
+        **Warning:** In Workplace Visitor Management version 2.0.0 or later, Visitor type is optional on bulk upload. In version 1.19 or earlier, Visitor type was a required column.
 
         **Note:** You can only add 50 internal visitors and 50 external visitors in one file. If you want to increase the number of rows that can be imported, configure the global property glide.sc.multirow\_set.rows.size and set it to the desired value which will apply to all portals. For more information, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0818277](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0818277).
 
@@ -244,7 +246,11 @@ The colleague's license plate details.
 
 Your visitor registration is submitted and you can view your requests. The details about the visit are sent to the visitor's email address. The visitors also receive a reminder email with the invite code on the day before the registered date. For recurring invitations, only one email is sent for the visit details, but reminder emails are sent a day before every visit.
 
+**Note:** For Workplace Visitor Management version 2.0.0 or later, visitor emails include the full address of the campus and building locations along with time-zone based date and time.
+
 If any visitor policies are applicable for the visit, the email sent to the visitor contains options to accept or decline the policies. If the visitor declines the policies in the email, they can still accept them while checking in through the Workplace Services Kiosk. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
+
+**Warning:** In Workplace Visitor Management version 2.0.0 or later, the accept and decline policy buttons have been removed from visitor emails. Visitors can acknowledge policies on the visitor portal, or during the check-in process on a kiosk.
 
 ## What to do next
 

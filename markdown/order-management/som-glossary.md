@@ -6,7 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/som-glossary.h
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 16
+keywords: [domain orders, order decomposition, fulfillment domains, orchestration, SOMT, lead qualification, sales cycle, lead management, customer engagement, SOMT, opportunity, sales opportunity, deal, customer pursuit, SOMT, order capture, configuration, order preparation, fulfillment readiness, SOMT, order decomposition, order breakdown, fulfillment orchestration, order structure, SOMT, product inventory, inventory, service inventory, CMDB, SOMT, sales agreement, customer agreement, terms and conditions, SLA, SOMT]
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
 
@@ -118,6 +119,10 @@ A lead that is no longer viable for sales engagement.
 
 An external service for electronic signatures, enabling customers to sign documents digitally.
 
+## Domain Orders
+
+Orders created during order decomposition for each product specification to enable domain-specific orchestration. Domain orders are created as part of a hierarchical structure supporting both parallel and sequential fulfillment across fulfillment domains.
+
 ## enrichment
 
 Enhancing customer orders with additional technical data or attributes necessary for accurate processing and fulfillment.
@@ -192,9 +197,9 @@ A structured process guiding lead progression from creation to opportunity conve
 
 Engaging with leads over time to build relationships and increase conversion likelihood.
 
-## lead qualification
+## Lead Qualification
 
-Determining if a lead meets criteria to be considered sales-qualified.
+The initial stage of the sales cycle where potential customers are identified and assessed for fit. Lead qualification allows sales teams to capture leads without requiring complete customer details, enabling early engagement and assessment before formal opportunity creation.
 
 ## lead routing
 
@@ -264,9 +269,9 @@ Pricing adjustments based on non-product characteristics.
 
 A framework controlling product options in the product configurator.
 
-## opportunity
+## Opportunity
 
-A qualified lead with high potential to become a customer.
+A formal sales pursuit representing a potential customer relationship. An opportunity is created during pre-order qualification, linked to a specific customer account, and contains product line items tailored to the customer's needs and context.
 
 ## opportunity line items
 
@@ -286,15 +291,27 @@ Coordinating order fulfillment through fulfillment flows.
 
 User interfaces tracking domain orders and tasks, providing hierarchical representations.
 
+## Order Capture
+
+The process of capturing non-commercial configuration details and preparing an order for fulfillment. Order capture includes billing account setup, documentation upload, reference creation, and validation to ensure the order is ready for approval and fulfillment.
+
 ## order case
 
 Cases created for order-related issues or changes.
+
+## Order Decomposition
+
+The process of breaking down a customer order into executable components including order line items, product orders, service orders, and domain orders. Decomposition creates a hierarchical structure that supports both parallel and sequential fulfillment orchestration across multiple domains and systems.
 
 ## order fallout
 
 Failures during order fulfillment due to errors or exceptions.
 
 For more information, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
+
+## order fulfillment
+
+The end-to-end process of executing and completing a customer order, from order decomposition through service activation. Order fulfillment includes provisioning resources, configuring services, coordinating across multiple fulfillment teams, and updating the customer on order status. In SOMT, order fulfillment is automated through multi-domain service orchestration.
 
 ## order hierarchy
 
@@ -309,6 +326,10 @@ For more information, see [Using Order Management](https://raw.githubusercontent
 ## order line items \(Order Management\)
 
 Individual items in customer and service orders.
+
+## order management
+
+The process of capturing, validating, decomposing, and tracking customer orders throughout their lifecycle. Order management includes order entry, order validation, order decomposition, fulfillment orchestration, and order completion. In SOMT, order management is catalog-driven and supports complex multi-product, multi-service orders with automated fulfillment workflows.
 
 ## order states
 
@@ -338,7 +359,7 @@ Analyzing sales pipeline progression.
 
 The point after which orders can't be changed or canceled.
 
-For more information, see [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md).
+For more information, see .
 
 ## price list
 
@@ -416,6 +437,10 @@ A user interface embedded within various ServiceNow Sales CRM applications \(Opp
 
 A section within the product configurator that lists the parent and child product relationships for configurable products, helping agents navigate nested bundles.
 
+## Product Inventory
+
+Records that track provisioned products and services for customers following order approval. Product inventory is created but remains inactive until successful order completion. Inventory integration with the CMDB enables lifecycle management, monitoring, and incident tracking.
+
 ## product data model
 
 A structured representation of a business's offerings that separates commercial, service, and technical attributes to support the entire lead-to-cash process.
@@ -439,6 +464,10 @@ Suggestions for additional products that agents can use to up-sell or cross-sell
 ## product offering version
 
 New iterations of published product offerings.
+
+## product specification
+
+A catalog definition that describes the commercial attributes, characteristics, and relationships of a product. Product specifications define what is being sold from a business perspective and are linked to service specifications that define how the product is technically realized. During order decomposition, product specifications generate product orders.
 
 ## propose
 
@@ -488,6 +517,10 @@ A classification indicating sales engagement nature: "Renew" for continuing cont
 
 Extending an existing customer contract.
 
+## resource specification
+
+A catalog definition that describes a physical or logical resource required to deliver a service. Resource specifications define the technical attributes, characteristics, and provisioning requirements for resources such as network devices, IP addresses, bandwidth allocations, or cloud infrastructure. During order decomposition, resource specifications generate resource orders.
+
 ## Return Merchandise Authorization \(RMA\)
 
 Formal authorization for customers to return unwanted or defective items.
@@ -499,6 +532,10 @@ Projecting future sales volumes or revenue based on opportunities, historical pe
 ## risk level \(jeopardy\)
 
 Classification of fulfillment task risk based on delay percentage. Levels include Low, Medium, High, and Critical.
+
+## Sales Agreement
+
+The commercial framework that establishes terms, conditions, and service-level agreements for a customer relationship. A sales agreement is mandatory for the Configure, Price, and Quote process and serves as the reference for all subsequent quotes and contracts. Global SLAs cascade from the sales agreement to service contracts.
 
 ## salesforce automation
 
@@ -549,6 +586,10 @@ Individual activities within sequence tasks, such as customer calls or emails.
 ## sequence task
 
 System-generated tasks including predefined activities for sales agents while engaging with a prospect or customer.
+
+## service order
+
+A domain order created during order decomposition that manages the fulfillment of a specific service specification. A service order outlines the technical realization and delivery of the service, often involving multiple service and resource orders. Service orders can be customer-facing service \(CFS\) orders for customer-visible services or resource-facing service \(RFS\) orders for internal resource provisioning.
 
 ## shipment
 

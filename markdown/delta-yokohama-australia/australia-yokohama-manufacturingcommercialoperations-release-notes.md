@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-manufacturingcommercialoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -160,7 +160,7 @@ Australia
 
 </td><td>
 
--   **[Agents workspace](https://www.servicenow.com/docs/access?context=mco-landing-page&family=australia&ft:locale=en-US)**
+-   **[MCO landing page](https://www.servicenow.com/docs/access?context=mco-landing-page&family=australia&ft:locale=en-US)**
 
 The MCO core landing page surfaces role-based views of claims, pre-authorization requests, and key processing metrics for claims agents and warranty assessors.
 
@@ -182,8 +182,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -532,11 +532,15 @@ Australia
 
 </td><td>
 
--   The CSM/FSM workspace landing page surfaces assigned claims, pre-authorization requests, and dashboard widgets with claims volume and value insights.
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Now Assist for Manufacturing Commercial Operations. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ -   The CSM/FSM workspace landing page surfaces assigned claims, pre-authorization requests, and dashboard widgets with claims volume and value insights.
 -   Anomaly-detection rules enable auto-approval or flagging of repair claim case lines for human review based on eligibility thresholds and historical claim averages.
--   Repair claim case lines displays a suggested action and reason on the panel, giving claim reviewers job-level and claim-level analysis in a single view.
+-   Repair claim case lines display a suggested action and reason on the panel, giving claim reviewers job-level and claim-level analysis in a single view.
 -   QIM playbook enables creation of remediation action plans and use of system-recommended containment actions.
--   QIM enables auto-triage of non-conformance records, assigning owners, and generating tasks based on historical patterns.
+-   QIM auto-triages non-conformance records, assigns owners, and generates tasks based on historical patterns.
 -   QIM integrates with FSM, enabling work order creation directly from NC and QI records for on-site verification, containment, or remediation action.
 
  See [Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=manufacturing-overview&family=australia&ft:locale=en-US) for more information.

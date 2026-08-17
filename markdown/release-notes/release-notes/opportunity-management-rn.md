@@ -4,8 +4,8 @@ description: The ServiceNow Opportunity Management application enables your sale
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-07-07"
-reading_time_minutes: 3
+last_updated: "2026-07-22"
+reading_time_minutes: 4
 ---
 
 # Opportunity Management release notes
@@ -24,6 +24,8 @@ The ServiceNow® Opportunity Management application enables your sales agents an
 -   Summarize an opportunity with Now Assist for a quick snapshot of status, risks, and recent engagement.
 -   Configure a guided selling playbook to enforce mandatory stage activities, surface stage-specific guidance to sales agents, and consolidate all deal-related actions in a unified opportunity workspace.
 -   Manage opportunity line items, competitor details, and touchpoint information conversationally within the conversational interface without navigating to individual records.
+-   Enforce mandatory win or loss reason capture before agents move an opportunity to a closed stage to keep outcome data complete and reportable.
+-   Track quote tasks for the primary quote directly in the opportunity Action Center, and guide agents with contextual empty states when no actions are pending.
 
 See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md) for more information.
 
@@ -40,7 +42,7 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
     Identify and store competitor information for product offerings and product family within an opportunity.​
 
 
--   **Support for opportunity allocation**
+-   **[Support for opportunity allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)**
 
     Divide sales credit across multiple contributors on a single opportunity for accurate attribution and compensation.
 
@@ -70,13 +72,22 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
     Generate AI-powered summaries of opportunity data including emails, tasks, meetings, and notes for a snapshot of current status, identify potential risks early, and reduce ramp-up time when transitioning ownership of an opportunity.
 
 
--   **Guided selling on opportunity**
+-   **[Guided selling on opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-guided-selling-opportunity.md)**
 
     Guided selling on opportunity helps enforce process compliance and manage all deal-related actions from a unified workspace by letting you:
 
     -   Configure mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
     -   Guide sellers with stage-contextual playbook activities, progress indicators, and inline compact playbook views all without leaving the opportunity **Overview** tab.
     -   Consolidate all deal-related tasks, meetings, touchpoints, and stage guidance into a single Action Center panel that updates in real time.
+    -   Display quote tasks for the primary quote as cards in the opportunity Action Center, with the same mark complete and add notes actions as other tasks.
+    -   Guide agents with contextual empty states to create a task when no actions are pending.
+
+-   **[Mandatory reason fields on closed opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md)**
+
+    Enforce completion of the win or loss reason fields before agents move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement for each outcome using system properties.
+
+
+
 
 ## Removed in this release
 
@@ -84,7 +95,7 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
 
 ## Activation information
 
-Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

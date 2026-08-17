@@ -55,6 +55,8 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     
     ```
 
+    **Note:** The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
+
     For complete configuration with branding
 
     ```
@@ -72,10 +74,13 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     }
     ```
 
-    **Note:**
+    **Note:** While installing to a **Moveworks GovCloud** instance, ignore the 'Failed to update config' error. The process installs the required assets.
 
-    The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
+    Complete the setup by following these steps:
 
+    1.  Navigate to the `sys_properties` table and locate the `sn_ex_mw_chat_int.webchat.initialization_options` property.
+    2.  Update its value to `{"serverUrl": "https://webchat.moveworksgov.com"}`.
+    3.  Select **Save**.
 4.  Select **Save configuration**.
 
 

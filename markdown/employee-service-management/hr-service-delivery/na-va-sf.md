@@ -1,6 +1,6 @@
 ---
-title: Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
-description: You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
+title: ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
+description: You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/na-va-sf.html
 release: australia
@@ -8,19 +8,19 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Use, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
+# ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
 
-You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
+You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
 
 ## Virtual Agent topics for HR Service Delivery Integration with SuccessFactors Overview
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure the Now Assist for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
+-   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
 -   Have one of the following roles: sn\_hr\_sp.admin , sn\_hr\_sp.esc\_admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
@@ -187,7 +187,7 @@ You can update personal details in Virtual Agent using one of the following topi
 
 ## Get User Paychecks
 
-The Get User Paychecks Virtual Agent topic enables you to view your payslip details. From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details such as start date and end date, your payslip summary, in the form of pay period, gross pay, deductions, and net pay are displayed. A detailed breakdown of deductions is also displayed.
+The Get User Paychecks Virtual Agent topic enables you to view your payslip details. From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details, your payslip summary displays pay period, gross pay, deductions, and net pay. A detailed breakdown of deductions is also displayed.
 
 \[Omitted image "sf-get-paychecks.png"\] Alt text: Get User Paychecks
 

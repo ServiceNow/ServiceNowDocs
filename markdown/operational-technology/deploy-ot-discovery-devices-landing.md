@@ -16,37 +16,18 @@ Consider deployment options for your Operational Technology Discovery components
 
 ## Where to start
 
-You can use the links to explore, configure, and learn more about deploying Operational Technology Discovery components.
+You can use the links in the Related Topics section to consider and learn more about deploying the Operational Technology Discovery components.
 
-<table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
+-   **[Architectural considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/architect-considerations.md)**  
+This document intends to describe the ServiceNow Operational Technology Discovery architecture and covers how discovery components find, identify, and inventory devices in an Operational Technology environment.
+-   **[Before deploying OT Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/before-ot-deployment.md)**  
+To discover assets in your OT environment, the Operational Technology Discovery solution provides the ServiceNow platform, the Discovery Console for OT, the Discovery Sensor for OT, and the OT Discovery Collector.
+-   **[OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md)**  
+You can review the OT Discovery component resources before setting up your OT network.
+-   **[OT Discovery communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/communications.md)**  
+This section describes how the OT Discovery components should be connected so they can communicate with each other.
+-   **[OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md)**  
+Deployment scenarios for OT Discovery vary based on a network's architecture. Use these scenarios to help determine how to deploy the OT Discovery components in your OT environment.
 
-Architecture\[Omitted image "BUS\_64px\_3-Buildings\_YG.png"\] Alt text:
+**Parent Topic:**[Operational Technology Native Discovery components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-native-components.md)
 
- [Architectural considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/architect-considerations.md)
-
-</td><td>
-
-Decisions\[Omitted image "BUS\_64px\_Service-Portal\_YG.png"\] Alt text:
-
- [Before deploying Operational Technology Discovery \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/before-ot-deployment.md)
-
-</td></tr><tr><td>
-
-Communicate\[Omitted image "BUS\_64px\_Workflow\_YG.png"\] Alt text:
-
- [OT Discovery communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/communications.md)
-
-</td><td>
-
-Deploy\[Omitted image "BUS\_64px\_Release\_YG.png"\] Alt text:
-
- [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md)
-
-</td></tr><tr><td colspan="2">
-
-Resources\[Omitted image "IND\_64px\_Shopping-Cart\_YG.svg"\] Alt text:
-
- [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md)
-
-</td></tr></tbody>
-</table>

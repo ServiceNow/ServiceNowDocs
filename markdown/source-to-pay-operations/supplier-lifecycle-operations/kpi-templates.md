@@ -29,7 +29,7 @@ You can define KPI templates and thresholds to collect the metrics systematicall
 -   **[Create manual KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.md)**  
 Create manual KPI templates to define KPIs that require users to manually input KPI data based on the frequency schedules.
 -   **[Create automated KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-auto-kpi-template.md)**  
-Automated KPI templates can be used to create KPIs that eliminate the dependency on manual input from users. When creating a template for automated KPIs, you can configure the data source and the calculation method.
+Create automated KPI templates to eliminate manual data input by configuring data sources and calculation methods.
 
 **Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

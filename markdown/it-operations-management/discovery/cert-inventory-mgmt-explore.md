@@ -62,7 +62,7 @@ Automated features to streamline tracking, preventing manual oversight of a larg
 
 </td><td>
 
-[Exploring ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-acme.md)
+[Automated certificate management with ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-acme.md)
 
 </td><td>
 

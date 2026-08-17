@@ -20,7 +20,7 @@ Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## About this task
 
-Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains a record for the financial entity submitting the report and that sn\_dora\_accel\_third\_party contains records for any ICT third-party providers involved. The Initial report questionnaire references these tables.
+Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains a record for the financial entity submitting the report. Confirm that sn\_dora\_accel\_third\_party contains records for any ICT third-party providers involved. The Initial report questionnaire references these tables.
 
 Incident Management reporting workflow consists of the following steps:
 
@@ -45,7 +45,7 @@ The incident triggers a Digital resilience incident reporting case in the Operat
 
 2.  Log in as the assigned user into the Operational Resilience Workspace and open the case from the My incident reporting cases module.
 
-    As the assigned user, you can view details such as the case name, description, assigned user, analyst, status, original source record, and whether the incident is potentially reportable to regulatory authorities, as shown in the example.
+    As the assigned user, you can view details such as the case name, description, assigned user, analyst, status, original source record. You can verify if the incident is potentially reportable to regulatory authorities, as shown in the example.
 
     \[Omitted image "dri-incident-case.png"\] Alt text: Record.
 
@@ -67,7 +67,7 @@ The incident triggers a Digital resilience incident reporting case in the Operat
 
     \[Omitted image "asmt-temp-in-incident.png"\] Alt text: Template in incident.\[Omitted image "asmt-ws-q-temp.png"\] Alt text: Questions.
 
-    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients \(including financial counterparts and third parties\), data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident and whether it should be reported to the regulators and responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients, data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident. It helps to verify if it should be reported to the regulators and responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select **Accept work**.
 
@@ -113,7 +113,7 @@ The incident triggers a Digital resilience incident reporting case in the Operat
 
     You can submit the Microsoft Excel sheet to the regulatory authorities.
 
-    The initial report is automatically generated, and an intermediate report is created every third day the incident remains open. Once the incident is closed or resolved in Incident Management, it is moved to a Closed status, and a final report is generated with a due date of 30 days.
+    The initial report is automatically generated, and an intermediate report is created every third day the incident remains open. Once the incident is closed or resolved in Incident Management, it is moved to a Closed status. A final report is generated with a due date of 30 days.
 
     Action tasks are automatically added to the incident, and you can manually add and assign additional tasks to the owner.
 

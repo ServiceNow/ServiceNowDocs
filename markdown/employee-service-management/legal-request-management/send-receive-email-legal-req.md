@@ -1,6 +1,6 @@
 ---
 title: Communicate using emails from Legal Counsel Center
-description: Compose and send emails directly from legal request record form in the Legal Counsel Center. You can also save the email as draft to send it later.
+description: Compose and send emails directly from the legal request record form in the Legal Counsel Center. You can also save the email as a draft to send it later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/send-receive-email-legal-req.html
 release: australia
@@ -8,31 +8,33 @@ product: Legal Request Management
 classification: legal-request-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Communicate using emails from Legal Counsel Center
 
-Compose and send emails directly from legal request record form in the Legal Counsel Center. You can also save the email as draft to send it later.
+Compose and send emails directly from the legal request record form in the Legal Counsel Center. You can also save the email as a draft to send it later.
 
 ## Before you begin
 
 Role required: sn\_lg\_ops.legal\_fulfiller
 
+**Note:** An administrator can define email client recipient qualifiers to control which contacts appear in the **To**, **Cc**, and **Bcc** fields when composing email. For more information, see [Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-client-configuration.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
-3.  In the **Lists** tab, under **Legal Requests**, click **Assigned to Me**.
+3.  In the **Lists** tab, under **Legal Requests**, select **Assigned to Me**.
 
 4.  Open a legal request.
 
-5.  Click the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and select **Compose Email**.
+5.  Select the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and then select **Compose Email**.
 
-    The **Compose Email** button is available only when the legal request is in the Assigned or Work in progress state.
+    The **Compose Email** button is available only when the legal request is in the **Assigned** or **Work in progress** state.
 
 6.  In the **New Email Draft** tab, compose a new email or respond to the email received.
 
@@ -42,17 +44,17 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 7.  Send it right away or save it as a draft to send later.
 
-    -   To send the email instantly, click **Send Email**.
-    -   To save the email as draft, click **Save as draft**.
+    -   To send the email immediately, select **Send Email**.
+    -   To save the email as draft, select **Save as draft**.
 
-        **Note:** You can view the draft emails by clicking the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\), selecting the **Drafts** list item under the **Email** category, and opening a draft email.
+        **Note:** You can view the draft emails by selecting the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\), selecting the **Drafts** list item under the **Email** category, and opening a draft email.
 
 
 ## Result
 
 After the email is sent, it is added to the activity stream on the legal request form. Emails you receive from others are also added to the activity stream.
 
-Legal requests marked as Privileged and Confidential, contain confidentiality markers to comply with legal requirements. This applies to both system-generated notifications and fulfiller-initiated outbound emails.
+Legal requests marked as Privileged and Confidential contain confidentiality markers for both system-generated notifications and fulfiller-initiated outbound emails.
 
 **Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
 

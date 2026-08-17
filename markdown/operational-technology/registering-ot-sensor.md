@@ -89,3 +89,5 @@ Confirm you that you have installed the Sensor. You must register the Sensor to 
 
 The Sensor and the Console can now communicate and generate queries.
 
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+

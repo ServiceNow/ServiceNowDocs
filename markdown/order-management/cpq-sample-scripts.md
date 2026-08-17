@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Sample scripts
@@ -165,7 +165,7 @@ productidArr.forEach((item, index) => {summary += index + " " + item + ". ";});
 return summary;
 ```
 
-How to pull multi-select picklist values from SFDC to twinned multi-select picklist field in ServiceNow CPQ in the On Configure/Reconfigure enrichment:
+How to pull multi-select picklist values from SFDC to twinned multi-select picklist field in CPQ in the On Configure/Reconfigure enrichment:
 
 ```
 let x = (cfgRequest.yourTwinnedLogikField.value).split(";");
@@ -197,5 +197,5 @@ if (yourVariable.includes("CU")) {
 **Related topics**  
 
 
-[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

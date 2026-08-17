@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Activity Management reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Activity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Create new meeting form

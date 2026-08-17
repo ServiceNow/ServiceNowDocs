@@ -1,6 +1,6 @@
 ---
 title: Invoice exceptions
-description: Invoice exceptions are discrepancies identified during invoice processing that must be resolved before payment, such as missing information, tax variances, or supplier issues.
+description: Invoice exceptions are discrepancies during invoice processing that must be resolved before payment, such as missing data, tax variances, or supplier issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.html
 release: australia
@@ -8,14 +8,14 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 15
+reading_time_minutes: 14
 keywords: [APO, Accounts Payable Operations, invoice exception, invoice processing, invoice automation]
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice exceptions
 
-Invoice exceptions are discrepancies identified during invoice processing that must be resolved before payment, such as missing information, tax variances, or supplier issues.
+Invoice exceptions are discrepancies during invoice processing that must be resolved before payment, such as missing data, tax variances, or supplier issues.
 
 The Accounts Payable Operations exception engine automatically identifies discrepancies in invoices and lists them as invoice exceptions in the Source-to-Pay Workspace workspace. The Accounts Payable Specialist can analyze the identified invoice exceptions and take appropriate action to resolve them.
 
@@ -123,7 +123,7 @@ This exception occurs when one or more lines of an invoice don’t have sufficie
 
 -   **Resolving the Insufficient Goods Receipt exception when PSM is installed**
 
-If Sourcing and Procurement Operations \(PSM\) is installed, and if no receipt task exists for the purchase order line, Accounts Payable Invoice Processing creates a receipt task and displays the task in the **Related tasks** tab of the exception form. For more information, see [Invoice exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-fields.md).
+If Sourcing and Procurement Operations \(PSM\) is installed and no receipt task exists for the purchase order line, Accounts Payable Invoice Processing creates a receipt task. The task appears in the **Related tasks** tab of the exception form. For more information, see [Invoice exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-fields.md).
 
 The receipt task is assigned to the user specified in the **Recipient** field on the PO line. The recipient must have the sn\_shop.acknowledgement\_task\_owner role to complete the receipt task from Employee Center.
 
@@ -149,7 +149,7 @@ This exception occurs when one or more lines of an invoice cost is distributed a
 </td><td>
 
 To resolve this invoice line exception, do the following:1.  Log in to the application with the Accounts Payable Specialist \(sn\_ap\_apm.accounts\_payable\_specialist\) role.
-2.  Populate the ledger account, enter the information for invoice lines or cost allocations. For example: You can enter a ledger account in the invoice lines and add multiple cost allocations on the allocations page, or you can enter a cost center in the invoice lines and include several general ledger account allocations on the cost allocations page. You can also choose to enter general ledger and cost center both in the invoice line.
+2.  Populate the ledger account and enter the information for invoice lines or cost allocations. For example, enter a ledger account in the invoice lines and add multiple cost allocations on the allocations page. Alternatively, enter a cost center in the invoice lines and add general ledger account allocations on the cost allocations page. You can also enter both a general ledger account and a cost center in the invoice line.
 
 </td><td>
 
@@ -368,7 +368,7 @@ This exception occurs when purchase order doesn’t have sufficient balance left
 </td><td>
 
 To resolve this invoice exception, do the following:1.  Log in to the application with the Accounts Payable Specialist \(sn\_ap\_apm.accounts\_payable\_specialist\) role.
-2.  Make necessary corrections to invoice amount so that the sum of amount of all invoices related to PO \(in progress or paid\) amount must be less than the total PO amount.
+2.  Correct the invoice amount so that the total of all invoices related to the PO \(in progress or paid\) is less than the total PO amount.
 
 </td><td>
 
@@ -421,7 +421,8 @@ This exception occurs when purchase order doesn't have sufficient billing quanti
 </td><td>
 
 To resolve this invoice exception, do the following:1.  Log in to the application with the Accounts Payable Specialist \(sn\_ap\_apm.accounts\_payable\_specialist\) role.
-2.  Make necessary corrections to invoice line amount such that the line amount doesn’t exceed the sum of PO line amount and other credit memo \(approved or pending approval\) related to the PO line.
+2.  Correct the invoice line amount.
+3.  Verify that the line amount doesn’t exceed the sum of PO line amount and other credit memo \(approved or pending approval\) related to the PO line.
 
 </td><td>
 
@@ -470,7 +471,7 @@ Currency mismatch
 
 </td><td>
 
-This exception occurs when the currency on an invoice does not match the currency on the associated purchase order when purchase order mapping is disabled and the invoice is still in draft state. The cost allocation data is preserved even when the purchase order mapping is turned off.
+This exception occurs when the invoice currency does not match the purchase order currency. This applies when purchase order mapping is disabled and the invoice is in draft state. Cost allocation data is preserved when purchase order mapping is turned off.
 
 </td><td>
 
@@ -503,7 +504,7 @@ To resolve this invoice exception, do the following: 1.  Log in to the applicati
 
 However, you can also run the exception engine manually. For more information, see [Check for invoice exceptions on a single invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.md).
 
-When you run the exception engine manually on a single invoice, it checks for exceptions only on that invoice, whereas the automated exception engine checks for exceptions on all the invoices that are valid for exception check.
+When you run the exception engine manually on a single invoice, it checks for exceptions only on that invoice. The automated exception engine checks for exceptions on all invoices that are valid for exception check.
 
 You can bypass an exception in situations where that exception is not applicable to an invoice. For more information, see [Bypass an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/bypass-invoice-exception.md).
 
@@ -519,10 +520,10 @@ The Accounts Payable Specialist can analyze the invoice exceptions, create excep
 -   **[Activate the Exceptions Monitoring Scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-exception-flow.md)**  
 Activate the **Exception Monitoring Scheduler** to run the exception engine on a regular schedule to identify invoice exceptions.
 -   **[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)**  
-As an Accounts Payable Specialist, analyze the invoice exceptions, create exception tasks, and assign them to the relevant individuals to resolve the invoice exceptions.
+Analyze the invoice exceptions, create exception tasks, and assign them to the relevant individuals to resolve the invoice exceptions.
 -   **[View invoice line details for a line-level invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-igr-exception-lines.md)**  
 View details about invoice lines to understand why a line-level invoice exception has been created.
--   **[View related tasks for an Insufficient Goods Receipt invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-psm-task-inv-exception.md)**  
+-   **[View tasks for an Insufficient Goods Receipt exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-psm-task-inv-exception.md)**  
 View purchase order tasks in Accounts Payable Operations to understand why an Insufficient Goods Receipt invoice exception has been raised.
 -   **[Create an invoice exception definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-new-invoice-exception.md)**  
 Create invoice exception definitions to flag PO, Non-PO, and credit memo invoices based on defined conditions.
@@ -536,11 +537,11 @@ Create invoice exception definitions to flag PO, Non-PO, and credit memo invoice
 
 [Rules based engine]()
 
-[Invoice processing overview]()
+[Invoice processing]()
 
 [Invoice processing cases]()
 
-[Tolerance Rules and Variances for invoices]()
+[Tolerance rules and variances for invoices]()
 
 [Invoice approvals]()
 

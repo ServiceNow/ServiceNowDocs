@@ -89,7 +89,5 @@ Roles required:
 
 Validate these files using the OSCAL CLI validator and import them into other systems or share them with external auditors for assessment planning.
 
-For information about the OSCAL fields exported in the AR file and their corresponding ServiceNow CAM fields, see .
-
 **Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

@@ -25,11 +25,11 @@ After setting up the records in the required tables, Operational Resilience admi
 
 ## Node relationship configurations
 
-You can configure the node relationships such as the sequence, source table, relationship table, target table, and active flag in the Opres with CSDM header Main node configuration as shown in the example.
+You can configure the node relationships in the Opres with CSDM header Main node configuration. Configure the sequence, source table, relationship table, target table, and active flag as shown in the example.
 
 \[Omitted image "node-rel-config-opres-w-csdm-header.png"\] Alt text: Opres with CSDM header Main node configuration.
 
-The following illustration shows the node relationship configurations for Opres with CSDM header Main node configuration, provided as the base version. For each relationship \[cmdb\_rel\_ci\] table, you can set up combined relationship configurations. For example, for a business service as the parent class, you can configure its relationship to a service offering, then to a business process, and to an application service.
+The following illustration shows the node relationship configurations for Opres with CSDM header Main node configuration, provided as the base version. For each relationship \[cmdb\_rel\_ci\] table, you can set up combined relationship configurations. For example, for a business service as the parent class, you can configure its relationship to a service offering. You can then configure relationships to a business process and to an application service.
 
 \[Omitted image "node-rel-example.png"\] Alt text: Relationships.
 

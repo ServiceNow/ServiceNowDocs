@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/manufacturing/manufacturing-com
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
 
@@ -154,7 +154,7 @@ Integrations for Manufacturing Commercial Operations
 
 </td><td>
 
-Integrations for Manufacturing Commercial Operations\[app\_mco\_integrations\]
+Integrations for Manufacturing Commercial Operations\[sn\_mco\_integ\]
 
 </td><td>
 
@@ -195,6 +195,51 @@ Now Assist for Manufacturing Commercial Operations \(MCO\)\[sn\_mfg\_gen\_ai\]
 </td><td>
 
 Now Assist for Manufacturing Commercial Operations \(MCO\) brings ServiceNow's agentic AI capabilities to purpose-built manufacturing workflows.
+
+</td></tr></tbody>
+</table>## Extended setup
+
+You can setup the additional configurations to active Customer Service Management and Order to cash operations capabilities.
+
+<table id="id_vhs_hxl_bgc"><thead><tr><th>
+
+Applications
+
+</th><th>
+
+Tasks
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Customer Service Management
+
+</td><td>
+
+-   [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-internal-business-location.md)
+-   [Add staff members to an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-user-internal-bus-location.md)
+-   [Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)
+
+</td><td>
+
+Customer Service Management capabilities for Manufacturing Commercial Operations are automatically installed with the MCO plugins.
+
+</td></tr><tr><td>
+
+Order Management
+
+</td><td>
+
+-   [Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+-   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md)
+-   [Configuring product pricing with Pricing Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-pricing.md)
+
+</td><td>
+
+Order Management capabilities for Manufacturing Commercial Operations are automatically installed with MCO plugins.
 
 </td></tr></tbody>
 </table>

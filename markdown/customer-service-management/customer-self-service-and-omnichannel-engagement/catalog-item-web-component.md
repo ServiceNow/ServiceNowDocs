@@ -16,5 +16,7 @@ breadcrumb: [Configure web components, Web Embeddables, Set up self-service, Con
 
 Displays a form to request an item or service from your third-party website. A catalog item may be available in more than one catalog and category. After submitting the form, a request is created for an approver to approve or reject.
 
+**Note:** Catalog item component supports a mobile adaptive layout.
+
 \[Omitted image "we-catalog-item-comp.png"\] Alt text: Catalog item component instance displaying a form to create a contact in the Preview tab.
 

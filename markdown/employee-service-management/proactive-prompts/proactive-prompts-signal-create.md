@@ -18,7 +18,7 @@ Configure signals to determine what prompts to send, whom to send them to, where
 
 ## Before you begin
 
-**Note:** You must install and activate both the Proactive Prompts application and Now Assist for HRSD application so that you can use the capability and prompts from the base system. The two signals that are available for use are the Approvals pending prompt, and the High leave balance prompt.
+**Note:** You must install and activate both the Proactive Prompts application and ServiceNow Otto for HRSD application so that you can use the capability and prompts from the base system. The two signals that are available for use are the Approvals pending prompt, and the High leave balance prompt.
 
 Role required: sn\_pp.admin
 

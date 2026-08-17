@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-airiskandcompliance-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 17
+last_updated: "2026-08-17"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -196,6 +196,29 @@ Control the reporting of compliance posture insights that are related to key reg
 Australia
 
 </td><td>
+
+-   **[Continuous controls monitoring](https://www.servicenow.com/docs/access?context=airc-continuous-controls-monitoring&family=australia&ft:locale=en-US)**
+
+Use Continuous Controls Monitoring to automate control verification and gather real-time visibility into control health. After upgrading to version 22.5.x, users with the AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role can create a compliance evaluation configuration. Indicators, that are use metrics from ServiceNow or Traceloop, can run on a schedule and evaluate whether a control associated with the asset is compliant or non-compliant. When an indicator fails, a GRC issue is created so that the product owner of the affected asset can remediate it. Users with the AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] role can access the configurations but can't make changes.
+
+-   **Risk Management tasks for Asset owner in [Activity Center](https://www.servicenow.com/docs/access?context=aict-activity-center&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.5.x, if you have AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\], you can access and act on risk and compliance life cycle tasks, such as impact assessments and control attestations, from the Activity Center in AI Control Tower. The Activity Center surfaces AI asset tasks, issues, policy exceptions, and AI cases for the asset owner. On the asset record page, all life cycle tasks specific to the assigned assets can be accessed and performed.
+
+-   **[AI Risk and Compliance lifecycle tasks in AI Governance](https://www.servicenow.com/docs/access?context=risk-compliance-lifecycle-tasks-aict&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.5.x, if you have the AI Steward \[AI steward \[sn\_ai\_governance.ai\_steward\] and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] role, you may now take and manage risk assessments directly from the playbook within the AI Control Tower workspace, without switching between workspaces.
+
+-   **[Exploring Now Assist in AI Risk and Compliance](https://www.servicenow.com/docs/access?context=airc-exploring-now-assist&family=australia&ft:locale=en-US)**
+
+Use Now Assist for AI Risk and Compliance to get AI-powered assistance throughout the AI asset lifecycle. After upgrading to version 22.4.x, users with the AI Risk and Compliance AI user \[sn\_airc\_gen\_ai.airc\_ai\_user\] and AI Risk and Compliance AI agent user \[sn\_airc\_gen\_ai.airc\_ai\_agent\] roles can access the following capabilities:
+
+    -   Create and document governance, risk, and compliance issues with guided assistance from the employee center.
+    -   Generate concise summaries of complex GRC issues for faster review and decision-making.
+    -   Create executive summaries of risk assessments to communicate findings to stakeholders.
+    -   Generate responses to assessment questions based on past assessments and reference documentation.
+    -   Identify related control objectives from your controls library to reduce duplication.
+Use these capabilities to capture AI risk context early in the development process and address compliance requirements throughout the system lifecycle.
 
 -   **[Risk‑based classification during intake](https://www.servicenow.com/docs/access?context=request-ai-system&family=australia&ft:locale=en-US)**
 

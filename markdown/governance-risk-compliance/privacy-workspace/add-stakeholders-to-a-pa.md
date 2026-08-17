@@ -32,7 +32,7 @@ You can add key stakeholders only when the processing activity is either in the 
 
 2.  Select the List icon \[Omitted image "ListsIcon.jpg"\] Alt text:.
 
-3.  In the **Lists** tab, select **Processing activities** &gt; **All processing activities**
+3.  In the **Lists** tab, select **Processing activities** &gt; **All processing activities**.
 
 4.  Open the processing activity to which you want to add key stakeholders.
 

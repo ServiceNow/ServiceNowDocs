@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 1
+keywords: [sudo banner, sudo banner exclusion list, exclude sudo commands, system properties]
 breadcrumb: [Sudo banner validation, Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
 

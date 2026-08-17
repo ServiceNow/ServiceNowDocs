@@ -31,7 +31,7 @@ Lists are a collection of template documents you can use to create documents tha
 -   **[Document attachments in an activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/activity-stream-for-documents.md)**  
 Include documents in activity streams to include and track updates on attached documents to any record.
 -   **[Redact sensitive data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/data-redaction-documents.md)**  
-Manually mask sensitive content or data from your PDF documents. Data redaction is available in configurable workspaces.
+Manually mask sensitive content or data from your PDF documents and attachments. Data redaction is available in configurable workspaces.
 -   **[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/integration-external-content-providers.md)**  
 Integrate Document Management with external cloud providers for editing, sharing, and collaborating over documents for Core UI.
 -   **[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-management-workspace.md)**  

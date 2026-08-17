@@ -1,20 +1,20 @@
 ---
-title: Assigning non-Admin user permissions for ServiceNow CPQ in Salesforce
-description: You need to apply certain user permissions in Salesforce in order to use ServiceNow CPQ properly.
+title: Assigning non-Admin user permissions for CPQ in Salesforce
+description: You need to apply certain user permissions in Salesforce in order to use CPQ properly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/non-admin\_user\_permissions\_for\_logik\_in\_salesforce.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Assigning non-Admin user permissions for ServiceNow CPQ in Salesforce
+# Assigning non-Admin user permissions for CPQ in Salesforce
 
-You need to apply certain user permissions in Salesforce in order to use ServiceNow CPQ properly.
+You need to apply certain user permissions in Salesforce in order to use CPQ properly.
 
-To use ServiceNow CPQ, users need access to certain objects and fields in Salesforce. These can be assigned using permission sets or by going to Profiles &gt; Select Desired Profile &gt; Object Settings. Users need read/edit access in the Field Permissions section to the following objects:
+To use CPQ, users need access to certain objects and fields in Salesforce. These can be assigned using permission sets or by going to Profiles &gt; Select Desired Profile &gt; Object Settings. Users need read/edit access in the Field Permissions section to the following objects:
 
 For Configuration Attribute:
 
@@ -65,7 +65,7 @@ To check whether the user has the necessary permissions for these fields, go to 
 
 \[Omitted image "cpq-product-option-page.png"\] Alt text: Product Options
 
-The full list of objects and fields contained in the ServiceNow CPQ packages can be found by navigating to SFDC Setup and searching for "Installed Packages". "ServiceNow CPQ Managed Package" is used for parts of our SFDC Integration and custom objects, while ServiceNow CPQ Extension for Salesforce CPQ" contains the fields used in the standard user flow.
+The full list of objects and fields contained in the CPQ packages can be found by navigating to SFDC Setup and searching for "Installed Packages". "CPQ Managed Package" is used for parts of our SFDC Integration and custom objects, while CPQ Extension for Salesforce CPQ" contains the fields used in the standard user flow.
 
-Selecting one of these packages and clicking "View Components" will show a list of SFDC objects and fields created by that package along with their name, type, and parent object \(if any\). Specifically, the fields in **ServiceNow CPQ Extension for Salesforce CPQ** are the fields a user will need to have access to in order to properly configure and reconfigure ServiceNow CPQ - enabled products in Salesforce CPQ.
+Selecting one of these packages and clicking "View Components" will show a list of SFDC objects and fields created by that package along with their name, type, and parent object \(if any\). Specifically, the fields in **ServiceNow CPQ Extension for Salesforce CPQ** are the fields a user will need to have access to in order to properly configure and reconfigure CPQ - enabled products in Salesforce CPQ.
 

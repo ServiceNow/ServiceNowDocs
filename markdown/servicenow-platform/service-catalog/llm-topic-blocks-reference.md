@@ -9,7 +9,7 @@ classification: service-catalog
 topic_type: reference
 last_updated: "2026-06-26"
 reading_time_minutes: 1
-breadcrumb: [Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # LLM topic blocks
@@ -19,7 +19,7 @@ Use this reference to understand the LLM topic blocks capabilities, supported re
 -   **[Catalog Conversational Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)**  
 ServiceNow® Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational status of catalog items configured for the LLM topic block.
 -   **[Guidelines for slot filling in catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_slot_filling_ccr.md)**  
-Now Assist in Conversational Catalog Request uses a large language model \(LLM\) to extract variable values from a requester's input and pre-fill catalog item questions, a capability known as slot filling.
+Conversational Catalog Requests uses a large language model \(LLM\) to extract variable values from a requester's input and pre-fill catalog item questions, a capability known as slot filling.
 -   **[Prefill in conversational catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/prefill-in-conversational-catalog-request.md)**  
 The generalized prefill capability for conversational catalog request automatically populates catalog item form fields using data sourced from the requesting user's profile and from the active chat conversation history. This reduces manual data entry for requesters, improves form completion accuracy, and accelerates time-to-submission for service requests raised through the conversational interface.
 -   **[Fulfillers can request catalog items for others](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/fulfillers-request-catalog-items-for-others.md)**  

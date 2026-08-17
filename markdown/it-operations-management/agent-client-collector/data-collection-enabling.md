@@ -20,7 +20,7 @@ You can perform actions which enhance data collection from the hosts on which Ag
 Create a background script to send an `osquery` request. The `osquery` request enables data collection from your host's operating system.
 -   **[View host data collection for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/collect-agent-host-data.md)**  
 Run data collection on an agent's host to discover the components that are running on the host.
--   **[Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-generate-allow-list.md)**  
+-   **[Generate an Agent Client Collector allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-generate-allow-list.md)**  
 Specify the checks to be included in the list of checks that are enabled to run on the agent.
 -   **[Run host data collection for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/collect-host-data-agent.md)**  
 Collect data on the host being monitored by an agent. Manually collecting host data ensures that the host's files are up to date.

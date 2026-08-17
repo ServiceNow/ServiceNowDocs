@@ -1,24 +1,24 @@
 ---
 title: MPN data model
-description: The Mobile Private Network \(MPN\) data model extends the Telecom data model to represent both the physical hardware and the virtual network functions that make up a mobile private network, along with the relationships that connect them.
+description: The Mobile Private Network \(MPN\) data model extends the Telecom data model to represent the physical hardware and virtual network functions that make up a mobile private network. It also represents the relationships that connect them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/mpn-data-model.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Telecom data model, Explore, Telecommunications Service Operations Management]
 ---
 
 # MPN data model
 
-The Mobile Private Network \(MPN\) data model extends the Telecom data model to represent both the physical hardware and the virtual network functions that make up a mobile private network, along with the relationships that connect them.
+The Mobile Private Network \(MPN\) data model extends the Telecom data model to represent the physical hardware and virtual network functions that make up a mobile private network. It also represents the relationships that connect them.
 
-A mobile private network contains a mix of physical and virtual objects. Physical objects include servers, firewalls, routers, switches, antennas, and radio units. Virtual objects include the network functions that run on those servers, such as the User Plane Function \(UPF\) and the Unified Data Management \(UDM\) function, along with their associated licenses. The MPN data model provides dedicated classes and relationships in the Configuration Management Database \(CMDB\) for these objects so that the physical and virtual components of an MPN can be modeled accurately and consistently. Accurate inventory and relationship data enables faster troubleshooting, supports impact analysis when faults occur, and provides the foundation for automated event and performance monitoring across MPN network elements.
+A mobile private network contains a mix of physical and virtual objects. Physical objects include servers, firewalls, routers, switches, antennas, and radio units. Virtual objects include the network functions that run on those servers, such as the User Plane Function \(UPF\) and the Unified Data Management \(UDM\) function. These virtual objects also include their associated licenses. The MPN data model provides dedicated classes and relationships in the Configuration Management Database \(CMDB\) for these objects. This enables the physical and virtual components of an MPN to be modeled accurately and consistently. Accurate inventory and relationship data enables faster troubleshooting, supports impact analysis when faults occur, and provides the foundation for automated event and performance monitoring across MPN network elements.
 
-The model spans two domains of the mobile network: the Radio Access Network \(RAN\), which connects user equipment to the network over the air interface, and the Mobile Core, which provides packet routing, session management, authentication, and policy control. The model also defines upper‑layer logical objects that group RAN and Core components into end‑to‑end network service instances and assign them to network sites.
+The model spans two domains of the mobile network: the Radio Access Network \(RAN\) and the Mobile Core. The RAN connects user equipment to the network over the air interface. The Mobile Core provides packet routing, session management, authentication, and policy control. The model also defines upper‑layer logical objects that group RAN and Core components into end‑to‑end network service instances and assign them to network sites.
 
 ## Physical hardware classes
 
@@ -56,7 +56,7 @@ Virtual network function classes represent the software components that run on t
 |RAN|vDU \(virtual Distributed Unit\)|5G virtual service that performs lower‑layer baseband processing and connects to one or more radio units.|
 |RAN|vCU-CP \(virtual Centralized Unit, Control Plane\)|5G virtual service \(cmdb\_ci\_5g\_cu\_control\_plane\_network\_function\) that performs higher-layer control plane processing and signaling between the RAN and the Mobile Core.|
 |RAN|vCU-UP \(virtual Centralized Unit, User Plane\)|5G virtual service \(cmdb\_ci\_5g\_cu\_user\_plane\_network\_function\) that performs higher-layer user plane processing and forwards subscriber traffic to the Mobile Core.|
-|Core|4G and 5G VNFs|Virtual services that represent Mobile Core network functions. The 5G Core includes nine functions: AMF \(Access and Mobility Management\), AUSF \(Authentication Server\), SMF \(Session Management\), UPF \(User Plane\), UDM \(Unified Data Management\), PCF \(Policy Control\), NRF \(Network Repository\), NEF \(Network Exposure\), and NSSF \(Network Slice Selection\). The 4G EPC \(Evolved Packet Core\) includes six functions: MME \(Mobility Management Entity\), HSS \(Home Subscriber Server\), PCRF \(Policy and Charging Rules\), AAA \(Authentication, Authorization, and Accounting\), SGW \(Serving Gateway\), and PGW \(Packet Data Network Gateway\).|
+|Core|4G and 5G VNFs|Virtual services that represent Mobile Core network functions. The 5G Core includes AMF \(Access and Mobility Management\), AUSF \(Authentication Server\), SMF \(Session Management\), and UPF \(User Plane\). It also includes UDM \(Unified Data Management\), PCF \(Policy Control\), NRF \(Network Repository\), NEF \(Network Exposure\), and NSSF \(Network Slice Selection\). The 4G EPC \(Evolved Packet Core\) includes MME \(Mobility Management Entity\), HSS \(Home Subscriber Server\), and PCRF \(Policy and Charging Rules\). It also includes AAA \(Authentication, Authorization, and Accounting\), SGW \(Serving Gateway\), and PGW \(Packet Data Network Gateway\).|
 |Core|VNF license|License assigned to a specific virtual network function. Tracks entitlement and consumption per VNF.|
 |RAN|Virtual Machine|Compute instance \(cmdb\_ci\_vm\_object\) that runs on a RAN Server and hosts a vDU or vCU virtual service.|
 |Core|Virtual Machine|Compute instance \(cmdb\_ci\_vm\_object\) that runs on a Core Server and hosts a 4G or 5G VNF.|
@@ -74,7 +74,7 @@ The MPN data model introduces custom classes that represent assets and resources
 
 ## CI attributes
 
-For each CI class in the MPN data model, the pull connector captures and stores relevant data attributes in the CMDB so that detailed information is available for management and troubleshooting. The following table lists the key attributes captured per CI type.
+For each CI class in the MPN data model, the pull connector captures and stores relevant data attributes in the CMDB. This provides detailed information for management and troubleshooting. The following table lists the key attributes captured per CI type.
 
 |CI type|Attribute|Description|
 |-------|---------|-----------|
@@ -96,7 +96,7 @@ Upper‑layer logical classes group the physical and virtual components of an MP
 
 ## Relationships between physical and virtual objects
 
-The MPN data model uses CMDB relationships to express how physical equipment hosts virtual functions, how virtual functions consume each other, and how individual components roll up into network service instances and sites. These relationships make dependencies and connectivity visible in the CMDB and support downstream assurance workflows such as fault management, performance monitoring, and impact analysis.
+The MPN data model uses CMDB relationships to express how physical equipment hosts virtual functions and how virtual functions consume each other. These relationships also show how individual components roll up into network service instances and sites. They make dependencies and connectivity visible in the CMDB and support downstream assurance workflows such as fault management, performance monitoring, and impact analysis.
 
 |Parent CI|Relationship type|Child CI|CMDB type|
 |---------|-----------------|--------|---------|

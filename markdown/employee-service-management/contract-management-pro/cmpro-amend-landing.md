@@ -84,11 +84,11 @@ The contract amendment workflow might progress as follows:
 4.  The contract repository record displays the amendment details in the Contract Documents, Contract Requests, and Amendment Field Changes tabs.
 5.  The signed contract is stored on the ServiceNow instance or an external storage system and referenced in the contract repository. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and manage all related documents from a single location. The field values that have been modified will be updated in the amendment according to the contract configuration mapping.
 
-## Now Assist in Contract Management features for amendment documents
+## ServiceNow Otto for Contract Management Pro features for amendment documents
 
-For amendment documents, Now Assist in Contract Management features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling you to review and analyze amendments effectively.
+For amendment documents, ServiceNow Otto for Contract Management Pro features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling you to review and analyze amendments effectively.
 
-For more information, see [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
+For more information, see [ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
 
 -   **[Approve contracts to allow amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-approve-draft-cntr.md)**  
 Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state and Awaiting Review substate, you need to manually approve it before submitting an amendment request.

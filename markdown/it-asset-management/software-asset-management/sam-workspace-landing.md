@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 7
 breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -502,6 +502,20 @@ Software Entitlements \[alm\_license\]
 </td><td>
 
 Number of entitlements created from purchase orders that have an associated procurement integration profile.**Note:** This notification appears only when the Asset Management - Procurement Integration \(app-itam-procurement-integration\) store application is installed. For more information, see [Install Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/install-proc-int.md).
+
+</td></tr><tr><td>
+
+Review CMDB data quality
+
+</td><td>
+
+SAM Workspace Activity Center Items \[samp\_ws\_activity\_center\_items\]
+
+</td><td>
+
+Opens the CMDB success advisor for SAM dashboard to review software install data quality metrics and remediation actions.
+
+ If the scope isn't configured yet, opens the **Edit dashboard scope** dialog box instead. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-use.md).
 
 </td></tr></tbody>
 </table>

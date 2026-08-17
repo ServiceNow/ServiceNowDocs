@@ -50,7 +50,7 @@ Tool cannot be created because the tool URL is invalid or incorrect. Re-enter th
 
 </td><td>
 
-Re-enter the tool URL.
+Verify that the tool URL is valid and reachable. The URL should follow the official format supported by the tool \(for e.g., Azure DevOps, GitHub, GitLab, Jenkins\). Also verify that there are no trailing spaces or invalid characters.For GitHub, see the About this task section of the [Onboard GitHub to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/playbook-enter-github-instance-details.md) topic.
 
 </td></tr><tr><td>
 

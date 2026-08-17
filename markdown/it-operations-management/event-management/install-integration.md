@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, integrations, monitoring tools]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Install integrations
@@ -19,7 +19,7 @@ Access Integrations Launchpad to configure and install integrations for Event Ma
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you're in the Configure IT Operations Management page.
 
@@ -37,7 +37,7 @@ Role required: evt\_mgmt\_admin or evt\_team\_operator
 
     The Integrations Launchpad page opens.
 
-5.  Follow the steps in [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md) that apply to your integration installation.
+5.  Follow the steps in [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md) that apply to your integration installation.
 
 6.  To complete the setup, select **Mark as configured**.
 

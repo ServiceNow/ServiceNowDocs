@@ -66,7 +66,7 @@ Role required: sn\_bcm.core\_viewer
 
 9.  Confirm that the event task shows the additional configuration details.
 
-    Example shows an event task the additional assignee details.
+    Example shows an event task with additional assignee details.
 
     \[Omitted image "event-task-addi-assignee-list.png"\] Alt text: Additional assignee details.
 

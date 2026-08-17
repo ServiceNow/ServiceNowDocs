@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create an Auto Query ignore list
@@ -72,4 +72,6 @@ Role required: admin
 The Auto Query results are added to the Auto Query page. The **Ignored** column displays the number of IP addresses that were ignored.
 
 \[Omitted image "auto-query-ignore-columns.png"\] Alt text: Number of ignored IP addresses
+
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md)
 

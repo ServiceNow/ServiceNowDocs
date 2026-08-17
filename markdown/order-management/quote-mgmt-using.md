@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-mgmt-using.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-08-04"
+reading_time_minutes: 7
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -17,10 +17,13 @@ Use the Quote Management application to build your quote. The interface includes
 |Quote Management tab|Description|
 |--------------------|-----------|
 |Details tab|Add details of the quote, such as address and contact information.|
-|Line Items tab|Add quote line items to a quote.|
 |Catalog tab|Use product catalogs to add products to your quote.|
+|Line Items tab|Add quote line items to a quote.|
+|Tasks|Displays tasks associated with the quote \(approval or fulfillment tasks\) generated as part of the quoting workflow.|
 |Revisions tab|Create multiple versions of quotes.|
 |Customer Orders tab|Convert quotes to product order sales.|
+|Involved Parties|Add individuals or organizations associated with the quote beyond the primary contact, for example, approvers, stakeholders, or additional decision-makers.|
+|Contacts|Add contact records linked to the account/quote that are relevant to the deal.|
 |Pricing adjustment tab|Add manual pricing adjustments to products in a quote.|
 
 ## Building quotes
@@ -29,6 +32,7 @@ Use these basic steps to create, build, and manage your quotes.
 
 |Step|Description|
 |----|-----------|
+|[Manage quotes using the Quote AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-quote-using-quote-ai-agent.md)|Create, modify, and review quotes using agentic workflow.|
 |[Create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-quote.md)|Start a quote, then [add and view quote details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-details-tab.md)|
 |[Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-catalog-tab.md)|Build your quote by adding products from the product catalogs.|
 |[Create a quote PDF document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-create-pdf-document.md)|Sales agents can create a PDF document from a quote to send to customers.|
@@ -38,6 +42,17 @@ Use these basic steps to create, build, and manage your quotes.
 |[Create quote versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-revisions-tab.md)|Use the Revisions tab to create and view versions of a quote.|
 |[Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-customer-orders-tab.md)|Use the Customer Orders tab to convert quotes to orders.|
 
+Use ServiceNow Otto for CPQ to generate a summary of a quote to:
+
+-   Summarize key quote components during early customer discussions or pre‑discovery.
+-   Provide an updated view of the quote after revisions, without requiring the review of multiple records.
+-   Provide a single, consolidated snapshot of all actions, tasks, and notes derived from a quote in one place.
+-   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
+-   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
+-   Support internal handoffs by summarizing the quoted offer for internal teams.
+
+-   **[Manage quotes using the Quote AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-quote-using-quote-ai-agent.md)**  
+Use the Quote AI Agent to create a quote, modify an existing quote, or review a quote that the agent generated automatically from a trigger condition.
 -   **[Create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-quote.md)**  
 Create a quote in Quote Management to start the quote building process.
 -   **[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-details-tab.md)**  
@@ -61,11 +76,13 @@ Apply a percentage-based discount to the entire quote, or to a selected type of 
 -   **[Approving or rejecting quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-or-rejecting-quotes.md)**  
 Sales agents request approval for quotes, and approvers decide whether quotes can proceed under an advanced approval workflow.
 -   **[Create an order from a quote line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-order-quote-line.md)**  
-Create orders from quote line items by using the **Create new order** UI action.
+You can create an order from all quote line items, or from a subset of top-level line items that you select.
 -   **[Add subscription pricing to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-add-subscription-pricing.md)**  
 Add subscription pricing to a quote or quote line items including start and end dates in Quote Management.
 -   **[Submit a quote for advanced approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-a-quote-for-approval.md)**  
 Submit a quote for advanced approval to route it to required approvers before sharing it with a customer.
+-   **[Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/summarize-quote.md)**  
+Summarize a quote to generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.
 -   **[Recall a quote approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/recall-a-quote-approval-request.md)**  
 Cancel a pending quote approval request to change a quote before resubmitting it for advanced approval.
 -   **[Approve an approval request for a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approve-a-quote-approval-request.md)**  

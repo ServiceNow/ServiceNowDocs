@@ -9,8 +9,8 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-04-30"
 reading_time_minutes: 4
-keywords: [web search, web search tool, Now Assist Skill Kit]
-breadcrumb: [Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+keywords: [web search, web search tool, AI Skill Kit]
+breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a web search tool
@@ -40,7 +40,7 @@ The web search tool queries the web and returns results that the skill prompt ca
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to add web search to.
 

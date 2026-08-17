@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-vr-acticvate-agentic-workflow.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-07-29"
 reading_time_minutes: 2
-breadcrumb: [Configure AI skills and agentic workflows, Implement, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Configure an agentic workflow
@@ -18,9 +18,9 @@ You can configure agentic workflows from the AI Agent Studio, but you must dupli
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-The Now Assist panel must be activated. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) for more information.
+The ServiceNow Otto® panel must be activated. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) for more information.
 
 Role required: aia-admin
 
@@ -30,7 +30,7 @@ Role required: aia-admin
 
 2.  Select the **Agentic workflows** tab
 
-3.  Select the card for the agentic workflow that you want to configure and activate.
+3.  Select the link for the agentic workflow that you want to configure and activate.
 
     You will only see the agentic workflows you're entitled to.
 
@@ -40,7 +40,7 @@ Role required: aia-admin
 
     The Guided setup is displayed. The pages are read-only.
 
-4.  Select the more options menu \[Omitted image "more-actions-icon.png"\] Alt text: Indicates there are more actions available
+4.  Select the more options menu \[Omitted image "icon-menu-square.png"\] Alt text: Indicates there are more actions available
 
 5.  Select **Duplicate**.
 

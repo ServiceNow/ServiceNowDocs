@@ -1,6 +1,6 @@
 ---
 title: Update cost plan related to a resource plan
-description: If a resource plan is associated to a project, project task, or demand and has a related cost plan, then a requester or a resource manager can update the related cost plan after updating the resource plan.
+description: If a resource plan is associated to a project, project task, or demand and has a related cost plan. Then, a requester or a resource manager can update the related cost plan after updating the resource plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_UpdateRelatedCostPlan.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Mana
 
 # Update cost plan related to a resource plan
 
-If a resource plan is associated to a project, project task, or demand and has a related cost plan, then a requester or a resource manager can update the related cost plan after updating the resource plan.
+If a resource plan is associated to a project, project task, or demand and has a related cost plan. Then, a requester or a resource manager can update the related cost plan after updating the resource plan.
 
 ## Before you begin
 
@@ -42,8 +42,8 @@ If a resource plan does not have a related cost plan, the **Update Cost Plan** r
 The cost plan associated to the resource plan is updated as follows:
 
 -   If the resource plan is in Planning or Requested state, planned hours is updated in the cost plan.
--   If the resource plan is in Confirmed/Allocated state and the Confirmed/Allocated hours are less than planned hours, then the higher of the planned cost and Confirmed/Allocated cost is updated in the cost plan.
--   If the resource plan is in Confirmed/Allocated state and the Confirmed/Allocated hours are equal to or more than planned hours, then the Confirmed/Allocated cost is updated in the cost plan.
+-   If the resource plan is in Confirmed/Allocated state and the Confirmed/Allocated hours are less than planned hours. Then, the higher of the planned cost and Confirmed/Allocated cost is updated in the cost plan.
+-   If the resource plan is in Confirmed/Allocated state and the Confirmed/Allocated hours are equal to or more than planned hours. Then, the Confirmed/Allocated cost is updated in the cost plan.
 
 Cost from resource plan will be interfaced to the unit\_cost field on the Cost Plan \[cost\_plan\] table.
 

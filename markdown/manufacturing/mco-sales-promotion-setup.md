@@ -30,7 +30,7 @@ Role required: admin or sn\_sales\_prm\_mgmt.sales\_promotion\_manager
 
     3.  Set up assets and install base items: [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-assets.md) and [Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-install-base-item.md).
 
-    4.  Set up dealers: [Dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-dealer-setup.md).
+    4.  Set up dealers: [Set up Dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-dealer-setup.md).
 
     5.  Assign recall roles: [Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/assign-mco-roles.md).
 

@@ -34,7 +34,9 @@ The service problem case progresses through several stages from start to closure
 
 4.  Open a service problem case that is in the New or Open state.
 
-5.  Review and verify the service problem case.
+5.  Select playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text: Playbook Icon.\) to open the Service Problem case playbook.
+
+6.  Review and verify the service problem case.
 
     1.  In the **Verify** tab, expand **Verify issue**, and then review and verify the general details for the service problem.
 
@@ -46,7 +48,7 @@ The service problem case progresses through several stages from start to closure
 
     The service problem case moves to the Diagnose stage.
 
-6.  Diagnose the service problem case to identify the root-cause of the problem.
+7.  Diagnose the service problem case to identify the root-cause of the problem.
 
     The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
@@ -94,7 +96,7 @@ The service problem case progresses through several stages from start to closure
 
     The case moves to the Repair stage.
 
-7.  Repair the service problem case by creating a new or automated repair task.
+8.  Repair the service problem case by creating a new or automated repair task.
 
     -   Select **Generate automated task** to automatically create a repair task.
     -   Select **Create repair task** to manually create a customize repair task.
@@ -114,7 +116,7 @@ The service problem case progresses through several stages from start to closure
 
     The case moves to the Test and Resolve stage.
 
-8.  Review the test status and resolve the service problem case.
+9.  Review the test status and resolve the service problem case.
 
     1.  Expand the Test summary to review the status of the test that you fixed in the Repair stage.
 
@@ -131,13 +133,13 @@ The service problem case progresses through several stages from start to closure
 
     The Case highlights section is updated with the current state, such as Resolved.
 
-9.  To view the case-related list in the playbook contextual side panel, select the **Related items**.
+10. To view the case-related list in the playbook contextual side panel, select the **Related items**.
 
     The Case playbook: The horizontal stages page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
-    For more information about the related items components, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md).
+    For more information about the related items components, see .
 
-10. Close the service problem case.
+11. Close the service problem case.
 
     1.  Go to the Close stage and fill in the fields.
 

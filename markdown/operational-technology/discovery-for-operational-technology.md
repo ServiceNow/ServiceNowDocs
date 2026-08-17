@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/discover
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Operational Technology Discovery, Operational Technology]
 ---
 
@@ -18,7 +18,7 @@ You can use the IT Discovery for Operational Technology \(OT\) Networks function
 
 The IT Discovery for OT Networks process operates in a manner that is similar to the standard Discovery processes.
 
-\[Omitted image "ot-discovery-targeted-zones.svg"\] Alt text:
+\[Omitted image "ot-discovery-targeted-zones.svg"\] Alt text: Targeted Purdue levels
 
 Standard Discovery processing in the ServiceNow AI Platform® normally takes place in the following Purdue levels in your enterprise:
 
@@ -42,7 +42,7 @@ You typically run IT Discovery for OT Networks in the DMZ \(or IDMZ, Purdue Leve
 
 **Note:** To avoid the possibility of disrupting your industrial operations, you should not run Discovery processes against Purdue levels 0 through 2 in your ICS networks.
 
-\[Omitted image "ot-discovery-schedule-processing.svg"\] Alt text:
+\[Omitted image "ot-discovery-schedule-processing.svg"\] Alt text: IT Discovery for OT Networks processing
 
 When you run an OT discovery schedule, it performs the following processing:
 
@@ -52,6 +52,13 @@ When you run an OT discovery schedule, it performs the following processing:
     -   If one does not exist, it creates one for it.
 3.  And the location attribute, it also pushes the defined attributes from the OT discovery schedule to the CI and to the related OT entity records.
 4.  It also creates OT entity records for the applications installed on discovered OT devices. To view the applications that have OT entity records created through IT Discovery for OT Networks, navigate to the Industrial Workspace list view and open the **Applications** list under **Operational Technology \(OT\)**.
+
+-   **[IT Discovery for OT Networks related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-ot-related-links-lists.md)**  
+IT Discovery for OT Networks contains several related links and lists.
+-   **[Create an OT Discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/run-discovery-for-operational-technology.md)**  
+Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+
+**Parent Topic:**[Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-landing.md)
 
 **Related topics**  
 

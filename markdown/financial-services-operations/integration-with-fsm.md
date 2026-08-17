@@ -33,7 +33,7 @@ The recommended implementation of Financial Services Operations application inte
     **Note:** Financial Services Operations applications have read-only roles, such as sn\_bom.auto\_ins\_policy\_viewer and sn\_bom.b2b\_credit\_card\_account\_viewer, for all objects.
 
 
-To learn more, see [Integration with Industry products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/industry-products-integration.md).
+To learn more, see Integration with Industry products.
 
 **Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
 

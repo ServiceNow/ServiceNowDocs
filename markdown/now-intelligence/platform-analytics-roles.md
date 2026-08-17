@@ -190,7 +190,7 @@ now\_assist\_explorer\_user
 
 </td><td>
 
--   Can view the trigger point to start a AI Data Explorer exploration from data visualizations, Lists, or the Now Assist panel.
+-   Can view the trigger point to start a AI Data Explorer exploration from data visualizations, Lists, or the ServiceNow Otto panel.
 -   Can edit an exploration.
 -   Can create a new exploration
 
@@ -674,7 +674,7 @@ analytics\_filter\_admin or higher
 |--------|----|
 |[Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md)|sn\_process\_optimization\_analyst|
 |[Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-signals-monitor.md)|pa\_kpi\_signal\_admin|
-|Create or edit an exploration in [AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md)|now\_assist\_explorer\_user|
+|Create or edit an exploration in [AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md)|now\_assist\_explorer\_user|
 
 **Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-exp-reference.md)
 

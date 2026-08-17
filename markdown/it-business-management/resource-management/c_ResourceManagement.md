@@ -31,7 +31,7 @@ Resource Management will not be enhanced for performance or functionality.
 
 Resource managers use the application to allocate resources to tasks. The Resource Management application can be used in conjunction with any task on the platform, including project tasks, incidents, problems, or changes.
 
-Watch this four-minute video to learn about the purpose of Resource Management application, creating resource plans, requesting and allocating resources, and analyzing resource availability and capacity for maximum resource utilization.
+Watch this four-minute video to learn about the purpose of Resource Management application. Learn how to create resource plans, request and allocate resources, and analyze resource availability and capacity for maximum resource utilization.
 
 With the Resource Management application:
 

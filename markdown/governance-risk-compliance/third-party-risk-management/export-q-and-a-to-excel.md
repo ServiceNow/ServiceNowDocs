@@ -22,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## About this task
 
-You can export only questionnaires in the **Responses received**
+You can export only questionnaires in the **Responses received** or **Returned** state. This option is available only when using the Classic assessment engine.
 
 ## Procedure
 

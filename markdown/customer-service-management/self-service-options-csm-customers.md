@@ -50,24 +50,41 @@ Web Embeddables offer the following benefits:
 -   Reusability: The ability to modify the global code and component code enables you to reconfigure the components without developing new functionalities from scratch.
 -   Low code configuration: Manage updates to data, event handlers, and the presentation of your components with minimal coding. Configure the component code enables you to trigger updates across your component with minimal effort.
 
-## Customer service, consumer service, business, and consumer self-service portals
+## Self-service portals
 
 By using the Service Portal web application, you can create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
 
-## Portal types
+## Self-service portal types
 
-You can configure four types of portals to support your customers and consumers:
+You can configure four types of portals. The Business Portal and Consumer Portal are enhanced portals built on configurable widgets, while the Customer Service Portal and Consumer Portal are standard portals. New implementations should use the enhanced portals.
 
--   [Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-customer-portal.md): Supports your business-to-business \(B2B\) customers
--   [Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md): Supports your business-to-business \(B2B\) customers and is built using configurable widgets
--   [Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-service-portal.md): Supports your business-to-consumer \(B2C\) customers
--   [Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-portal.md): Supports your business-to-consumer \(B2C\) customers and is built using configurable widgets.
+**Note:** The Business Portal and Consumer Portal plugins are installed automatically when customers install the Customer Service Portal and Consumer Service Portal plugins respectively.
+
+The following table describes the four self-service portals:
+
+|Portal|Description|
+|------|-----------|
+|[Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-customer-portal.md)|Supports your business-to-business \(B2B\) customers|
+|[Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md)|Supports your business-to-business \(B2B\) customers and is built using configurable widgets. The Business Portal is an enhanced version of the Customer Service Portal.|
+|[Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-service-portal.md)|Supports your business-to-consumer \(B2C\) customers|
+|[Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-portal.md)|Supports your business-to-consumer \(B2C\) customers and is built using configurable widgets. The Consumer Portal is an enhanced version of the Consumer Service Portal.|
 
 All the portals offer the same self-service and Virtual Agent assistance features.
 
+**Note:** Existing customers can migrate to the Business Portal \(B2B\) or the Consumer Portal \(B2C\) to experience enhanced features.
+
+-   **Self-service on portals**
+
+    You can configure your self-service portals with the following features:
+
+    \[Omitted image "self-service-portal.png"\] Alt text: Infographic displaying various options for self-service. For the text description, refer to the column in the Self-service on portals table.
+
+    To get started with the portals, see [Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md) and [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
+
+
 ## Engagement Messenger
 
-With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they’re located outside of the ServiceNow environment.
+With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
 
 To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 
@@ -87,7 +104,7 @@ To learn more about searching the Knowledge base, see [Search the knowledge base
 
 With the Virtual Agent platform capability, you can design and build automated conversations that help your customers get the help that they need.
 
-As customers answer questions and select options presented by Virtual Agent, they’re directed to a self-service resource.
+As customers answer questions and select options presented by Virtual Agent, they're directed to a self-service resource.
 
 If customers want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 

@@ -57,3 +57,5 @@ Use the Kiosk Check-in Flow Configuration form to create a check-in flow for the
 
 [Additional requirement form]()
 
+[Differences between Workplace Visitor Management versions]()
+

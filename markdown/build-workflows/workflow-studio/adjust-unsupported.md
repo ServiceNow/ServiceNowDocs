@@ -1,5 +1,5 @@
 ---
-title: Modify Decision Tables in the Classic UI
+title: Modify decision tables in the classic UI
 description: Workflow Studio supports decision tables that were created in the classic environment. However, some data types and conditions from the classic environment aren’t fully supported in Workflow Studio. For unsupported field types and decisions with complex conditional logic, use the decision rule view to modify these condition expressions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/adjust-unsupported.html
@@ -7,12 +7,12 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+last_updated: "2026-07-22"
+reading_time_minutes: 1
+breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
-# Modify Decision Tables in the Classic UI
+# Modify decision tables in the classic UI
 
 Workflow Studio supports decision tables that were created in the classic environment. However, some data types and conditions from the classic environment aren’t fully supported in Workflow Studio. For unsupported field types and decisions with complex conditional logic, use the decision rule view to modify these condition expressions.
 
@@ -36,14 +36,14 @@ Some decision rules may not be supported in Workflow Studio. These decisions are
 
 ## Decision tables with unsupported input data types
 
-If an input has an unsupported data type, you can change only the input label and the **Mandatory** toggle switch. The input data type is read-only, and you cannot add new condition columns.
+If an input has an unsupported data type, you can change only the input label and the **Mandatory** toggle switch. The input data type is read-only, and you can't add new condition columns.
 
 ## Decision tables with unsupported conditions
 
 If a condition column has an unsupported data type, you can still change the label and description. The input and default operator are read-only.
 
--   In an unsupported condition column, cells without values are inactive. Users must use decision rule view to enter a value.
--   When a value is entered for an unsupported condition column, the resulting decision row will be an unsupported decision.
+-   In an unsupported condition column, cells without values are inactive. Use decision rule view to enter a value.
+-   When a value is entered for an unsupported condition column, the resulting decision row is an unsupported decision.
 
-**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

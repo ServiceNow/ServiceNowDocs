@@ -43,7 +43,7 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 
 </td><td>
 
-[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for FSO to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI to enhance user productivity and efficiency through proactive experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
 
 </td><td>
 

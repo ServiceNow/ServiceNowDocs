@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-using-employee-slate.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
@@ -27,7 +27,7 @@ From Employee Slate, an employee can perform the following actions:
 
 **Important:** The Employee Slate experience can be integrated with the following platforms and applications:
 
--   Moveworks. For information about AI-assisted help with this integration, see [Moveworks AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-moveworks-capabilities.md).
+-   Moveworks. For information about AI-assisted help with this integration, see [ServiceNow Otto AI assistant capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-moveworks-capabilities.md).
 -   Now Assist
 
 \[Omitted image "ai-native-submit-incident-empslate.png"\] Alt text: Submit an incident in Employee Slate

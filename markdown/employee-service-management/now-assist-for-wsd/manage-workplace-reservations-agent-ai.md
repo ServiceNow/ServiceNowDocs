@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 5
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Help manage workplace reservations agentic workflow
@@ -24,11 +24,11 @@ The team of AI agents autonomously perform the following:
 
 -   Retrieve the change event request workplace case details when it assigned to a Workplace Event planner.
 -   Analyze the reservation retrieved from the previous step. If the old location is available while updating a reservation's date, time, and duration, AI agents update the reservation. If the old location is not available for reservation, AI agents move the reservation to a new location while updating the reservation date, time, and duration.
--   Send notification to Workplace Event planners using the Now Assist panel conversational interface.
+-   Send notification to Workplace Event planners using the ServiceNow Otto panel conversational interface.
 
-    Workplace Event planners can respond to AI agents queries using the conversational interface of the Now Assist panel. AI agents take confirmation from Workplace planners before updating a reservation to another location if the old location is not available. It shows three workplace locations. You can select the location or ask the AI agents to show more locations. AI agent provide a link for you to click and navigate to the reservation page to manually select a location of your choice.
+    Workplace Event planners can respond to AI agents queries using the conversational interface of the ServiceNow Otto panel. AI agents take confirmation from Workplace planners before updating a reservation to another location if the old location is not available. It shows three workplace locations. You can select the location or ask the AI agents to show more locations. AI agent provides a link for you to select and navigate to the reservation page to manually select a location of your choice.
 
-    For more information, see [Review notifications in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+    For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
 -   Update the change event request case work notes with all the actions taken. Workplace Event planners can review the activity log to see the actions taken by AI agents to update a planned reservation event.
 
@@ -132,13 +132,13 @@ Active**Note:** When the status is Active, the AI agent is triggered autonomousl
 </td></tr></tbody>
 </table>## Select display
 
-In the Select display workflow, select **Display** to display the Now Assist panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered case. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the Select display workflow, select **Display** to display the ServiceNow Otto panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered case. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify Event planners in the Now Assist panel with the case resolution and summarization notes. For more information, see [Review notifications in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
@@ -153,11 +153,11 @@ Select this option to receive and review notifications by AI agents in the Now A
 
 [Workplace Concierge agentic workflow]()
 
-[]()
+[Implement Autonomous L1 Agent for Workplace]()
 
-[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
-[Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
+[Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 

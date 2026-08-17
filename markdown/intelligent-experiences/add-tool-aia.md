@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-tool-aia.html
 release: australia
 topic_type: concept
-last_updated: "2025-11-23"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add tools and information to an AI agent

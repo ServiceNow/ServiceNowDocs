@@ -19,9 +19,9 @@ Configure indexed sources so that AI Search includes content from multiple sourc
 
 ## Before you begin
 
-This task assumes you have completed the Now Assist in AI Search setup and are ready to activate sources for AI-generated responses.
+This task assumes you have completed the ServiceNow Otto for AI Search setup and are ready to activate sources for AI-generated responses.
 
--   The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+-   The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 -   The source must be added to the search profile as a search source. For more information, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
 -   The source must be configured as a hybrid source with semantic fields and semantic indexing configured. For more information, see [Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-hybrid-search-aisac.md).
@@ -45,13 +45,13 @@ Role required: admin
 
 ## Result
 
-The toggle now shows as activated and results from this source are now included in AI-generated responses.
+The toggle now shows as activated and results from this source are now included in AI-generated responses. Citations for the additional sources appear as references within the synthesized answer. Select a citation to view the original record.
 
 ## What to do next
 
 After activating sources, run a test search to confirm AI-generated responses include content from this source. If results from this source don't appear in AI-generated responses, verify that the source still shows as a hybrid source with semantic indexing active and rerun the steps. Configuration changes after initial setup can affect synthesis eligibility.
 
-For more information about multi-content synthesized sources, see [Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/generate_multicontent_sythesized-sources.md).
+For more information about multi-content synthesized sources, see [Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/generate-multi-content-synthesized-sources.md).
 
 **Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ais-admin-console.md)
 

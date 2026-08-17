@@ -16,17 +16,17 @@ breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workfl
 
 Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 
-Now Assist for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
+ServiceNow Otto for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
 
 ## Activation
 
-Playbook generation is a skill that is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. You must enable the Playbook generation skill to generate playbooks using AI.
+Playbook generation is a skill that is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. You must enable the Playbook generation skill to generate playbooks using AI.
 
 ## Supported user interfaces
 
 Access the Playbook generation skill when you’re creating a playbook in Workflow Studio.
 
-\[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
+\[Omitted image "new-playbook-otto.png"\] Alt text: Build a new playbook using AI.
 
 ## Writing prompts
 
@@ -34,7 +34,7 @@ Follow these guidelines when writing prompts to generate playbooks.
 
 -   **Provide a meaningful name for the playbook**
 
-    The more descriptive the playbook name is, the better the playbook that Now Assist can create.
+    The more descriptive the playbook name is, the better the playbook that AI can create.
 
 -   **Be precise and descriptive in the directions**
     -   Describe each stage and activity in as much detail as you can.
@@ -140,8 +140,6 @@ The following examples can help you to generate playbook outlines:
     and generate alerts for low inventory. It must support categorization, bar codes, and seamless integration with sales and procurement systems.
     ```
 
-
-**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 -   **[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)**  
 Generate a playbook using AI by providing text directions or an image.

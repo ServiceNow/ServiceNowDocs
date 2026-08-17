@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Service Graph Connectors for AI Control Tower
@@ -24,10 +24,10 @@ When you access third-party APIs, they return data. This data must be stored in 
 
 Lets explore some of the major benefits:
 
--   Gain trust in your CMDB data
--   Minimize operational risk
--   Minimize custom integrations
--   Accelerate time to value
+-   Gain trust in your CMDB data.
+-   Minimize operational risk.
+-   Minimize custom integrations.
+-   Accelerate time to value.
 
-To understand benefits and features of SGC in detail, see [Service Graph Connectors](https://www.servicenow.com/products/service-graph-connectors.html)
+To understand benefits and features of SGC in detail, see [Service Graph Connectors](https://www.servicenow.com/products/service-graph-connectors.html).
 

@@ -122,5 +122,5 @@ Threads running​
 </td></tr></tbody>
 </table>**Note:** As soon as any of the aforementioned alerts or Critical or Warning performance are identified, the system automatically generates an RCA report after waiting for a maximum of 10 minutes, depending on the conditions.
 
-**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

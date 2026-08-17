@@ -35,6 +35,8 @@ With Operational Technology Incident Management, you can use the following key f
 Operational Technology Incident Management enables engineers to quickly resolve Operational Technology \(OT\) device and production process issues.
 -   **[Integrating with Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/integration-with-manufacturing-process-manager.md)**  
 Integrate Operational Technology Incident Management with Industrial Process Manager to report incidents on equipment model entities.
+-   **[ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/exploring-now-assist-otsm.md)**  
+The ServiceNow Otto for Operational Technology \(OT\) Service Management application enables teams to summarize OT incident details and generate incident resolution notes to share with other users.
 
 **Parent Topic:**[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)
 

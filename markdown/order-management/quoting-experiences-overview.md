@@ -1,6 +1,6 @@
 ---
-title: Quote Experience in ServiceNow CPQ
-description: ServiceNow CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. The experience works wherever your sales teams operate, maintaining consistent workflows, pricing logic, and governance.
+title: Quote Experience in CPQ
+description: CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. The experience works wherever your sales teams operate, maintaining consistent workflows, pricing logic, and governance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quoting-experiences-overview.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
-# Quote Experience in ServiceNow CPQ
+# Quote Experience in CPQ
 
-ServiceNow CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. The experience works wherever your sales teams operate, maintaining consistent workflows, pricing logic, and governance.
+CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. The experience works wherever your sales teams operate, maintaining consistent workflows, pricing logic, and governance.
 
 ## Quote Experience
 
@@ -41,20 +41,18 @@ The product configurator lets users select and configure products directly withi
 
 ## Implementation considerations
 
-ServiceNow CPQ supports a range of deployment models and regulatory requirements:
+CPQ supports a range of deployment models and regulatory requirements:
 
 -   Deploy cloud-first implementations for modern, composable quoting experiences.
 -   Support tailored implementations for on-premises or federally regulated environments.
 -   Configure the solution to align with organizational controls, compliance requirements, and integration constraints.
 
-## Supported use cases for the ServiceNow CPQ
+## Supported use cases for the CPQ
 
-Use the ServiceNow CPQ Quote Experience when you need a scalable, configurable quote solution that supports both simple and complex sales processes, integrates with your existing systems, and provides consistent governance across the quote lifecycle.
+Use the CPQ Quote Experience when you need a scalable, configurable quote solution that supports both simple and complex sales processes, integrates with your existing systems, and provides consistent governance across the quote lifecycle.
 
 **Related topics**  
 
 
-[Configuring Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
-
-[Configuring Quote Management - Basic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-quote-management.md)
+[Configuring CPQ Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

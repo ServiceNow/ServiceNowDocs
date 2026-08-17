@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 1
-breadcrumb: [Set up Solution Configuration, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up Solution Configuration, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Node cloning for solution configuration

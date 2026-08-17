@@ -1,5 +1,5 @@
 ---
-title: Composing emails with predefined content from the Source-to-Pay Workspace
+title: Composing emails with predefined content
 description: Insert predefined email content in the Source-to-Pay Workspace email client to send consistent, professional responses to invoice inquiries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.html
@@ -9,11 +9,11 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [APO, Accounts Payable Operations, Accounts Payable Operations,, Accounts Payable Workspace, email ingestion, invoice automation]
+keywords: [APO, Accounts Payable Operations, Accounts Payable Workspace, Invoice automation, Email composer, Quick messages, Response templates, Invoice inquiry responses, Invoice case communication, Automated email responses, Email templates]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Composing emails with predefined content from the Source-to-Pay Workspace
+# Composing emails with predefined content
 
 Insert predefined email content in the Source-to-Pay Workspace email client to send consistent, professional responses to invoice inquiries.
 
@@ -48,7 +48,7 @@ Compose and send emails directly from an invoice inquiry case or an invoice proc
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 

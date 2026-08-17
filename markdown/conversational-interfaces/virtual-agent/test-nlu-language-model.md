@@ -18,25 +18,27 @@ Test a translated Virtual Agent topic and the localized NLU model to ensure that
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Set the discovery type toggle switch to **NLU/keyword**, followed by the NLU topic you want to test.
+2.  Select the **Asset library** tab.
 
-3.  Under the Languages tab, select **Manage languages**.
+3.  Set the discovery type toggle switch to **NLU/keyword**, followed by the NLU topic you want to test.
 
-4.  In the **Select NLU Model** list, select the model group to test.
+4.  Under the Languages tab, select **Manage languages**.
 
-5.  In the **View language** list, select a language.
+5.  In the **Select NLU Model** list, select the model group to test.
 
-6.  In the **Test** column for an intent, select **Test**.
+6.  In the **View language** list, select a language.
 
-7.  On the test window, run the conversation and review the results in the test tabs.
+7.  In the **Test** column for an intent, select **Test**.
+
+8.  On the test window, run the conversation and review the results in the test tabs.
 
     For more information about using the chat test window, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md).
 
@@ -44,7 +46,7 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "lang-test-window.png"\] Alt text: The test window displays the conversation in French. The fly-out panel displays the test phrase that was entered and the matching intent.
 
-8.  End the test by closing the window.
+9.  End the test by closing the window.
 
 
 ## What to do next
@@ -53,7 +55,7 @@ Use the test results to modify the topic as needed. Continue testing as you adju
 
 When the topic is ready, publish the topic to make it available to users. You can publish all or some of the NLU mappings. For more information about publishing a topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
-**Tip:** You can view localization insights from the **Manage languages** page and the Virtual Agent Designer home page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and then select **Localization Insights** from the Resources.
+**Tip:** You can view localization insights from the **Manage languages** page and the Virtual Agent Designer home page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**, select the **Asset library** tab, and then select **Localization Insights** from the Resources.
 
 **Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)
 

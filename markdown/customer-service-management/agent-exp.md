@@ -22,7 +22,7 @@ To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Wo
 
 ## Advanced Work Assignment
 
-Define criteria and routing conditions to automatically assign work items \(such as chats or cases\) to agents based on their availability, capacity, skills, work history, related tasks, or account team.
+Define criteria and routing conditions to automatically assign work items \(such as chats or cases\) to agents. Assignment is based on their availability, capacity, skills, work history, related tasks, or account team.
 
 To learn more about Advanced Work Assignment, see [Set up an Advanced Work Assignment service channel for assigning case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-awa-channel-case-tasks.md).
 
@@ -34,15 +34,15 @@ To learn more about Customer Central, see [Customer Central](https://raw.githubu
 
 ## Agent Assist
 
-With agent assist, your agents can handle cases in the workspace, perform an automatic search that shows possible solutions in other cases, knowledge base articles, and additional information sources.
+With agent assist, your agents can handle cases in the workspace and perform an automatic search. The search shows possible solutions in other cases, knowledge base articles, and additional information sources.
 
 ## Playbooks
 
 Your agents can use playbooks to provide your customers with the step-by-step guidance that they need for resolving specific types of customer service cases. For example, your agents can use these playbooks to help your customers resolve onboarding, complaint, and product support issues.
 
-A playbook enables your agents to manage the life cycle of a case. The workflows that are associated with a specific type of case and the activities that need to be completed to resolve cases of this type are detailed in the playbook. Playbooks also help your agents to visualize the entire life cycle of a workflow.
+A playbook enables your agents to manage the life cycle of a case. The playbook details the workflows associated with a specific case type. It also outlines the activities needed to resolve cases of this type. Playbooks help your agents visualize the entire life cycle of a workflow.
 
-To learn more about playbooks, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md).
+To learn more about playbooks, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Mobile
 

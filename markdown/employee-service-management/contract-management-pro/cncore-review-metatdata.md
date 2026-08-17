@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Metadata Extraction]
-breadcrumb: [Contract metadata extraction, Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract metadata extraction, Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work with extracted metadata
@@ -31,15 +31,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d622418e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d622081e69">
 
 Method
 
-</th><th align="left" id="d622418e72">
+</th><th align="left" id="d622081e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d622418e78">
+</th></tr></thead><tbody><tr><td id="d622081e78">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d622418e126">
+</td></tr><tr><td id="d622081e126">
 
 **Workspace used by your application**
 
@@ -100,5 +100,5 @@ The information is submitted to be added to the mapped fields in the contract re
 
 When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
 
-**Parent Topic:**[Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Contract metadata extraction using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

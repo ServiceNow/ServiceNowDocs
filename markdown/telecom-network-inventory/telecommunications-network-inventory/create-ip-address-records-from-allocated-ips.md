@@ -1,5 +1,5 @@
 ---
-title: Create IP Address records from allocated IPs
+title: Create an IP Address record from allocated IPs
 description: Create one or more IP Address records by selecting allocated IP slots and promoting them to active CMDB Configuration Items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.html
@@ -7,12 +7,12 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
-# Create IP Address records from allocated IPs
+# Create an IP Address record from allocated IPs
 
 Create one or more IP Address records by selecting allocated IP slots and promoting them to active CMDB Configuration Items.
 
@@ -30,7 +30,7 @@ Role required: `core.dc_ops_agent, sn_ni_core.inventory_agent`
 
 This task is the per-host allocation method. The system creates one IP Address record for each selected allocated IP that is not reserved. Reserved addresses in the selection are skipped automatically and reported in the result banner.
 
-The two IP allocation methods \(from allocated IPs and at subnet level\) are mutually exclusive on a given subnetwork. Once the first IP Address record is created by either method, the other method is locked for that subnetwork until all IP Address records are deleted. To learn more, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
+The two IP allocation methods \(from allocated IPs and at subnet level\) are mutually exclusive on a given subnetwork. After the first IP Address record is created by either method, the other method is locked for that subnetwork until all IP Address records are deleted. To learn more, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
 ## Procedure
 
@@ -38,11 +38,13 @@ The two IP allocation methods \(from allocated IPs and at subnet level\) are mut
 
 2.  Open the IP Subnetwork record.
 
-    \(**Inventory Number Allocation** &gt; **IP Network Subnets** &gt; select the subnetwork.\)
+    1.  Go to **Inventory Number Allocation** &gt; **IP Network Subnets**.
+
+    2.  Select the subnetwork.
 
 3.  Select the **Allocated IP Address** tab.
 
-4.  Select the allocated IP records you want to promote to IP Address records:
+4.  Select the allocated IP records that you want to promote to IP Address records:
 
     1.  Select the check box at the start of each row to select individual records.
 
@@ -60,7 +62,7 @@ The two IP allocation methods \(from allocated IPs and at subnet level\) are mut
 
 7.  Select **OK** to confirm.
 
-    The system processes the selection and displays a result banner. The banner format depends on the outcome.
+    IP Address records are created and a result banner appears. The banner format depends on the outcome.
 
 8.  Review the created IP Address records on the **IP Address** tab.
 
@@ -68,10 +70,10 @@ The two IP allocation methods \(from allocated IPs and at subnet level\) are mut
 
     |Field|Description|
     |-----|-----------|
-    |Name|The address value \(matches the IP Address field\).|
-    |IP Address|The address value.|
+    |Name|Address value that matches the IP Address field.|
+    |IP Address|IP Address value.|
     |IP version|IPv4 or IPv6, inherited from the parent subnetwork.|
-    |Owned By Configuration Item|Optional reference to the CI that owns this address.|
+    |Owned By Configuration Item|Reference to the CI that owns this address.|
     |Netmask|Optional.|
 
 9.  Review the corresponding allocated IP records on the **Allocated IP Address** tab.
@@ -81,7 +83,7 @@ The two IP allocation methods \(from allocated IPs and at subnet level\) are mut
 
 ## Result
 
-The system writes two CMDB relationships for each IP Address record created by this task. The Manages relationship links the new record to its source allocated IP slot. The Contains relationship links it to the parent subnetwork.
+Two CMDB relationships are created for each IP Address record. The Manages relationship links the new record to its source allocated IP slot. The Contains relationship links it to the parent subnetwork.
 
 The corresponding allocated IP record's **Is Managed** flag is set to selected automatically. If you later delete the IP Address record, both relationships are removed and the allocated IP slot's **Is Managed** flag is cleared. The slot itself is preserved and can be promoted again. For more information, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection analyze network incidents agentic workflow
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) analyze network incidents agentic workflow
 description: Use the Analyze network incidents agentic workflow to resolve incidents, helping customer agents to resolve network tickets by tracking them and creating an actionable task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/network-incident-analysis-usecase.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Customer Service Problem Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection analyze network incidents agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) analyze network incidents agentic workflow
 
 Use the Analyze network incidents agentic workflow to resolve incidents, helping customer agents to resolve network tickets by tracking them and creating an actionable task.
 
@@ -32,7 +32,7 @@ To modify the Analyze network incidents agentic workflow, [Duplicate an agentic 
 
 Required role: sn\_tmt\_agentic\_ai.sn\_noc\_incident\_user
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Application dependency
 
@@ -93,7 +93,7 @@ Ticket readiness AI agent
 
 AI agent capable of predicting the incident fields like category, subcategory, priority, description, short description, and estimated time to resolve the incident using GAF on historic incident data.
 
- To activate the GAF, see [Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
+ To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Network ticket actionable steps generation AI agent
 
 AI agent capable of generating actionable resolution steps for incoming incident using the Group Action Framework \(GAF\) and modifies the steps according to the human feedback.
 
- To activate the GAF, see [Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
+ To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-program-deal-type-relationship-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
 # Partner program deal type relationship table fields
@@ -20,5 +20,5 @@ Configure the Partner Program Deal Type Relationship \(sn\_prm\_dr\_pp\_deal\_ty
 |Deal registration type|Reference|Reference to deal registration type \(sn\_prm\_dr\_deal\_registration\_type\) table|
 |Active|Boolean|Determines whether the partner program and deal type relationship is active or not|
 
-**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 

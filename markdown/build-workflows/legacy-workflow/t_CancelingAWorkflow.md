@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-10"
 reading_time_minutes: 2
 breadcrumb: [Administering workflow contexts, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ Canceling a workflow stops the workflow from executing and sets the workflow con
 
 ## Before you begin
 
-Role required: admin or workflow\_admin
+Role required: snc\_required\_script\_writer\_permission and either workflow\_admin or admin
 
 ## About this task
 
@@ -67,7 +67,7 @@ Role required: admin
 
 ### About this task
 
-For more information, see the .
+For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_Workflow_api.md).
 
 ## Define an on-cancel script
 

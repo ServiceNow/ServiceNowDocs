@@ -57,14 +57,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Downloads
-
-</td><td>
-
-Badge Reader Integration client for download to your system.
-
-</td></tr><tr><td>
-
 Badge Readers
 
 </td><td>

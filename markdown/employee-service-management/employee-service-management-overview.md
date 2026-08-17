@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emp
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 ---
 
 # Employee Service Management
@@ -108,11 +108,11 @@ The ServiceNow® Manager Hub increases managers self-service and proactive engag
 
 </td></tr><tr><td>
 
-[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td><td>
 
-The ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application summarize the case information, generates resolution notes, and summarizes the chat information for an interaction.
+The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application summarize the case information, generates resolution notes, and summarizes the chat information for an interaction.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ ServiceNow® Legal Service Delivery provides a unified experience between the em
 
 </td><td>
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
 
 </td></tr><tr><td>
 

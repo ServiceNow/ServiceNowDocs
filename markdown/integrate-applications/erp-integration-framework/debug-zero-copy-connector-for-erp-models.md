@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, model, log, payload, status]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Debug Zero Copy Connector for ERP models
@@ -49,6 +49,4 @@ Keep the following guidance in mind when debugging Zero Copy Connector for ERP m
 
 5.  Select **Confirm**.
 
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

@@ -7,15 +7,19 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
-keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, ServiceNow large scale deployments]
+keywords: [ReleaseOps, deploy changes, deploy apps, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, ServiceNow large scale deployments]
 breadcrumb: [Deploying applications, Building applications]
 ---
 
 # ReleaseOps
 
 ReleaseOps automates deployment of changes across your pipeline, increases predictability and reliability of deployments, and reduces the risk of releasing changes to production.
+
+\[Omitted video\] Description: Overview video of ReleaseOps showing different product features and the deployment workflow.
+
+Learn about ReleaseOps deployments.
 
 ## Get started
 

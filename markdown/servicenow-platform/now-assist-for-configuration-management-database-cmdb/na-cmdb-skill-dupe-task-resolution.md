@@ -1,6 +1,6 @@
 ---
-title: Resolving de-duplication tasks with Now Assist
-description: Now Assist recommends resolutions for duplication tasks by automating the choices that a user would typically make. Now Assist makes recommendations for the main CI, attribute relationship, and related item values to merge, and duplicate CI actions to perform. The process enhances accuracy and greatly reduces the time and effort needed to address CI duplication.
+title: Resolving de-duplication tasks with ServiceNow Otto
+description: ServiceNow Otto recommends resolutions for duplication tasks by automating the choices that a user would typically make. ServiceNow Otto makes recommendations for the main CI, attribute relationship, and related item values to merge, and duplicate CI actions to perform. The process enhances accuracy and greatly reduces the time and effort needed to address CI duplication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.html
 release: australia
@@ -9,16 +9,16 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Use generative AI skills, Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Resolving de-duplication tasks with Now Assist
+# Resolving de-duplication tasks with ServiceNow Otto
 
-Now Assist recommends resolutions for duplication tasks by automating the choices that a user would typically make. Now Assist makes recommendations for the main CI, attribute relationship, and related item values to merge, and duplicate CI actions to perform. The process enhances accuracy and greatly reduces the time and effort needed to address CI duplication.
+ServiceNow Otto recommends resolutions for duplication tasks by automating the choices that a user would typically make. ServiceNow Otto makes recommendations for the main CI, attribute relationship, and related item values to merge, and duplicate CI actions to perform. The process enhances accuracy and greatly reduces the time and effort needed to address CI duplication.
 
 ## Before you begin
 
-The de-duplication task resolution assistant skill used in this process is supported starting with the Australia release. The skill is auto-activated when you activate the Now Assist for Configuration Management Database \(CMDB\) ServiceNow Store app.
+The de-duplication task resolution assistant skill used in this process is supported starting with the Australia release. The skill is auto-activated when you activate the ServiceNow Otto for Configuration Management Database \(CMDB\) ServiceNow Store app.
 
 Role required: cmdb\_dedup\_admin
 
@@ -36,7 +36,7 @@ This procedure describes how you can manually access the skill. In addition, any
 
 2.  Open the de-duplication task to remediate and on the task form, select **Remediate**.
 
-3.  In the Remediate pop-up, select **Use the Duplicate CI Remediator \(Now Assist\)** and then select **Next**.
+3.  In the Remediate pop-up, select **Use the Duplicate CI Remediator \(ServiceNow Otto\)** and then select **Next**.
 
     The Reconcile Duplicate Task page displays the following sections:
 
@@ -54,21 +54,15 @@ This procedure describes how you can manually access the skill. In addition, any
 
         The reports in this section are identical to the reports you see when you remediate manually. The reports display the number of changes and the tabs list the details of changes that would result with the currently proposed remediation actions. The reports are updated whenever you make changes to the proposed actions in the Summary section.
 
-    \[Omitted image "na-cmdb-skill-dupe-task-res-assist.png"\] Alt text: Proposed remediation actions.
-
 4.  In the Summary section, review each recommendation in turn and assess whether to accept the recommended actions or modify them.
 
     See the example of reviewing the recommended attribute merges.
 
-    **Important:** **Unique to main CI:** Each subsequent step depends on the selected main CI. If you change the main CI, then the Now Assist skill cannot proceed and you must perform remediation manually. None of the remaining steps \(merge attribute values, merge relationships, merge related items, and determine duplicate Cl actions\) have dependencies like main CI selection. You can therefore make changes and still proceed with the Now Assist process.
+    **Important:** **Unique to main CI:** Each subsequent step depends on the selected main CI. If you change the main CI, then the ServiceNow Otto skill can't proceed and you must perform remediation manually. None of the remaining steps \(merge attribute values, merge relationships, merge related items, and determine duplicate Cl actions\) have dependencies like main CI selection. You can therefore make changes and still proceed with the ServiceNow Otto process.
 
-    The following caution appears if you change the main CI:
-
-    \[Omitted image "na-cmdb-skill-dupe-change-main-ci.png"\] Alt text: Warning that changing the Main CI cancels the Now Assist process.
+    If you change the main CI, a message appears warning that changing the Main CI cancels the ServiceNow Otto process.
 
 5.  After you determine that all recommended actions are correct, select **Submit** and then select **Proceed** in the confirmation pop-up.
-
-    \[Omitted image "na-cmdb-skill-dupe-task-confirm.png"\] Alt text: Proceed with remediation.
 
     The system performs all remediation actions. The skill updates the Remediate Duplicate Task form with the `Closed Complete` value for **State** and documents all changes in the**Work notes**.
 
@@ -79,17 +73,10 @@ This example follows your work to determine whether the recommended attribute me
 
 1.  Expand the **Merge Attribute Values** step to view the reasoning that led to the recommendations.
 
-    \[Omitted image "na-cmdb-mng-dupe-attr-select.png"\] Alt text: Start the process of reviewing the attribute merge recommendations.
-
 2.  To view the merge recommendations, select the **Merge Attribute Values** tab.
-
-    \[Omitted image "na-cmdb-select-merge-attr-tab.png"\] Alt text: View the merge recommendations.
-
 3.  Use your experienced judgment to evaluate whether the recommendations are the best choices and accept or modify the recommended merge values. Proceed to the next step when you have reviewed and possibly modified each recommendation.
 
 4.  Review, assess, and update each step in turn.
-
-    \[Omitted image "na-cmdb-skill-dupe-task-summary.png"\] Alt text: Be sure to verify or update the Now Assist recommendations in the remaining steps.
 
 
 **Note:** The **Reasoning** text that the skill displays is not updated when you make a change to any recommended step.
@@ -101,7 +88,7 @@ This example follows your work to determine whether the recommended attribute me
 **Related topics**  
 
 
-[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
 
 [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

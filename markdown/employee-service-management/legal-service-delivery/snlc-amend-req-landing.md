@@ -93,13 +93,13 @@ The contract amendment workflow might progress as follows:
     7.  Finalizes the contract amendment using the review, approval, and signature workflow.
 3.  After all signatories have approved the document, the signed amendment is attached to the contract repository record.
 4.  The contract repository record displays the amendment details in the Contract Documents, Contract Requests, and Amendment Field Changes tabs.
-5.  The signed amendment is stored on the ServiceNow instance or an external storage system and referenced in the contract repository. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and manage all related documents from a single location. The field values that have been modified is updated in the amendment according to the contract configuration mapping.
+5.  The signed amendment is stored in the ServiceNow instance or an external storage system and referenced in the contract repository. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and management. The field values that have been modified is updated in the amendment according to the contract configuration mapping.
 
-## Now Assist in Contract Management features for amendment documents
+## AI for amendment documents
 
-For amendment documents, Now Assist in Contract Management features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling users to review and analyze amendments effectively.
+For amendment documents, ServiceNow Otto for Contract Management Pro features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling users to review and analyze amendments effectively.
 
-For more information, see [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
+For more information, see [ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
 
 -   **[Submit amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-inititate-req.md)**  
 Submit an amendment request from the Employee Center.

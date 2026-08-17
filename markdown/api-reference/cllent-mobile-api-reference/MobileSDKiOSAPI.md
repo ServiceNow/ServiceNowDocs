@@ -8,7 +8,7 @@ product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
@@ -24,10 +24,6 @@ The FieldReadConfiguration structure enables you to configure which fields to fe
 The FieldWriteOptions class provides functions that set the options for updating or creating fields in a record on a ServiceNow instance.
 -   **[Filter structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)**  
 The Filter structure provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.
--   **[NowAnalyticsService protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceiOSProtocol.md)**  
-The NowAnalyticsService protocol provides functions that enable you to configure analytics properties, user settings, and events for managing the collection of user analytics data.
--   **[NowAnalyticsServiceDelegate protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceDeliOSProtocol.md)**  
-The NowAnalyticsServiceDelegate protocol provides callback functions that provide information about the starting and ending of a user session and screen change detection.
 -   **[NowAPIEndpoint protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIEndpointiOSProtocol.md)**  
 The NowAPIEndpoint protocol provides an interface for accessing any publicly exposed ServiceNow REST APIs.
 -   **[NowAPIService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md)**  
@@ -44,8 +40,8 @@ The NowAttachmentUploadConfiguration structure enables you to define the configu
 The NowChat API is a top-level global API that enables users to instantiate a NowChat service instance.
 -   **[NowChatColoring protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatColoringiOSProtocol.md)**  
 The NowChatColoring protocol defines default colors for the elements in the Live Agent and Virtual Agent chat UI.
--   **[NowChatConfiguration - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)**  
-The NowChatConfiguration class enables you to configure options on a chat session, such as showing a prompt before closing a chat window, disabling features while using chat, applying different conversation options when using chat, and configuring UI components in NowChat.
+-   **[NowChatConfiguration class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)**  
+Configures options on a chat session.
 -   **[NowChatService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md)**  
 The NowChatService class provides Virtual and Live Agent chat capabilities.
 -   **[NowChatServiceDelegate protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)**  
@@ -78,6 +74,22 @@ The NowService protocol provides a single interface to the NowSDK for all featur
 The NowServiceConfiguration structure defines configuration information for a feature service.
 -   **[NowTableService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)**  
 The NowTableService class provides functions that enable you to perform create, read, update, and delete operations on records of existing ServiceNow tables.
+-   **[NowVoice API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md)**  
+NowVoice is a top-level global API for embedding voice agent sessions in iOS applications.
+-   **[NowVoiceCallbacks structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)**  
+Specifies callbacks for voice session lifecycle and content events.
+-   **[NowVoiceDefaultTheme structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md)**  
+The default implementation of NowVoiceThemeable.
+-   **[NowVoiceEndpoint structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)**  
+Describes a voice agent endpoint.
+-   **[NowVoiceService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md)**  
+The NowVoiceService class manages voice agent sessions for a single ServiceNow instance.
+-   **[NowVoiceThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md)**  
+Sets the colors to apply to NowVoice UI elements.
+-   **[NowVoiceTranscriptMessage typealias - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.md)**  
+Represents a single message in the voice session transcript.
+-   **[NowVoiceUIConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)**  
+Specifies presentation options for the voice agent UI.
 -   **[NowWeb API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebiOSAPI.md)**  
 The NowWeb API is a top-level global API that enables uses to instantiate a NowWeb service instance.
 -   **[NowWebColoring protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebColoringiOSProtocol.md)**  

@@ -56,7 +56,7 @@ Planned Work Schedule Templates
 
 </td><td>
 
-Describe the planned maintenance activities that must be performed for an install base item and the order in which they must occur. To create a planned work schedule template, see [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/associate-work-schedule-to-wotemplate.md).
+Describe the planned maintenance activities that must be performed for an install base item and the order in which they must occur. To create a planned work schedule template, see [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/associate-work-schedule-to-wotemplate.md).
 
 </td></tr><tr><td>
 

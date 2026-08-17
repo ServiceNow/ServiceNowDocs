@@ -1,6 +1,6 @@
 ---
 title: Add and configure the Portal Banner widget
-description: Add a Portal Banner widget to your portal and modify its appearance and behavior. You can use the Portal Banner widget to display announcements, new product or feature highlights, and important information on the portal page.
+description: Add a Portal Banner widget to your portal to display announcements, feature highlights, and important information on the portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Portal Banner widget, Configurable Portal widgets, Set up self-serv
 
 # Add and configure the Portal Banner widget
 
-Add a Portal Banner widget to your portal and modify its appearance and behavior. You can use the Portal Banner widget to display announcements, new product or feature highlights, and important information on the portal page.
+Add a Portal Banner widget to your portal to display announcements, feature highlights, and important information on the portal page.
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
+The UI Components for Customer Portals plugin must be activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
 
 If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
@@ -36,11 +36,11 @@ Role required: sp\_admin
 
 3.  On the Service Portal Designer page, search for and select the page to which you want to add the widget.
 
-4.  Add container.
+4.  Add a container.
 
     1.  Select the **Widgets** tab.
 
-    2.  In the Layouts section, drag the Container layout onto the portal edit page.
+    2.  In the **Layouts** section, drag the Container layout onto the portal edit page.
 
     3.  On the container, select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
@@ -70,7 +70,7 @@ Role required: sp\_admin
          } 
         ```
 
-        If a message appears about the application scope, select **here** to be able to edit the record.
+        If a message appears about the application scope, select the link to edit the record.
 
     5.  Select **Save**.
 

@@ -91,7 +91,7 @@ Adverse-event scenarios from the library \(for example, Cloud service outage, Ne
 
 Historical risk-event records that the statistical model uses as reference data. The Risk events list is empty by default.
 
- Select **Add** to choose the desired risk events. Selected records are captured as a snapshot on the scenario analysis record; events that match your filter and are created after you mark the step as complete, are not added retroactively, and the snapshot does not refresh when the source record is updated.
+ Select **Add** to choose the desired risk events. Selected records are captured as a snapshot on the scenario analysis record. Events that match your filter and are created after you mark the step as complete are not added retroactively. The snapshot does not refresh when the source record is updated.
 
  Once marked complete, you cannot add any further risk events.
 

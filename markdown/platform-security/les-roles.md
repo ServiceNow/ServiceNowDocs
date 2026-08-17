@@ -77,3 +77,8 @@ Admin role is required for the setup of the LES store application.
 
 **Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-references.md)
 
+**Related topics**  
+
+
+[Log Export Service actions and required roles]()
+

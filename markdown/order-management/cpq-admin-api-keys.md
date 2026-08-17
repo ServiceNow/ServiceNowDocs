@@ -7,22 +7,22 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Intro to admin API keys
 
 You can use admin API calls to access Admin functionality without using the Admin UI interface and a browser.
 
-ServiceNow CPQ provides admin API keys that you can use to access admin functionality via API calls instead of using a browser and the ServiceNow CPQ Admin interface.
+CPQ provides admin API keys that you can use to access admin functionality via API calls instead of using a browser and the CPQ Admin interface.
 
-For an introduction to ServiceNow CPQ admin API keys, view the following video:
+For an introduction to CPQ admin API keys, view the following video:
 
 [Admin API keys](https://www.youtube.com/watch?v=8BwQgKw4Dak)
 
 ## Admin API keys page
 
-To get to the Admin API Keys page in ServiceNow CPQ, click the arrow to expand the Utilities section in ServiceNow CPQ Admin. The Admin API Keys tab appears in the menu.
+To get to the Admin API Keys page in CPQ, click the arrow to expand the Utilities section in CPQ Admin. The Admin API Keys tab appears in the menu.
 
 \[Omitted image "cpq-apis-admin-keys-page.png"\] Alt text: Admin keys
 
@@ -48,7 +48,7 @@ Choose the permissions that fit your use case before clicking **Save**.
 1.  Read \(required, default\): read-only access, typically for GET requests
 2.  Edit: create, read, update, and delete access for most objects, including fields and rules
 3.  Deploy: allows the deployment of blueprints and access to deployment history
-4.  Bulk: allows importing and exporting data, such as managed tables, to and from ServiceNow CPQ
+4.  Bulk: allows importing and exporting data, such as managed tables, to and from CPQ
 5.  Admin: full permissions to all Admin functionality
 6.  End User Data: access to end user data APIs
 

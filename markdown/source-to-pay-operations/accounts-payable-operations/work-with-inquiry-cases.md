@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoice inquiry case]
+keywords: [APO, Accounts Payable Operations, Accounts Payable tasks, supplier, invoice inquiry case, Payment inquiry, Expedite payment request, Invoice entry assistance, Payment terms issue]
 breadcrumb: [Using Invoice Case Management, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -53,7 +53,7 @@ Work on an invoice inquiry case to resolve an issue raised by the suppliers or e
 Create invoice inquiry cases to address and respond to questions related to invoices and payment.
 -   **[Create an invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task.md)**  
 Create an invoice task and assign it to a user or group to resolve an invoice inquiry case.
--   **[Request additional information from the requester for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md)**  
+-   **[Request additional information for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md)**  
 Request additional information from the requester to continue working on the case.
 -   **[Submit an invoice inquiry case for an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.md)**  
 Submit an invoice inquiry case for an internal review by creating a review task and assigning it to the reviewers.

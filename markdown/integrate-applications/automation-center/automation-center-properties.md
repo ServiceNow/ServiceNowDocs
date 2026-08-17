@@ -8,7 +8,7 @@ product: Automation Center
 classification: automation-center
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
 
@@ -102,8 +102,28 @@ sn\_ac.use\_recommended\_actions
 
 </td><td>
 
-When turned on \(by setting the value to **True**\), Recommended Actions application is enabled in the Automation Center workspace.-   Type: **True/False**
+When turned on \(by setting the value to **True**\), Recommended Actions application is enabled in the Automation Center workspace.-   Type: **True \| False**
 -   Default value: **False**
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_ac.auto\_onboarding\_catalog\_items
+
+</td><td>
+
+Controls how catalog items are onboarded as automations. Users with sn\_ac.automation\_admin can edit the system property.-   Type: **True \| False**
+-   Default value: **True**
+    -   **True \(default\)**: New catalog items are onboarded automatically and appear on the automation dashboard immediately. However, the time and cost savings aren't displayed.
+    -   **False**: New catalog items are onboarded manually using the Automation Explorer feature. Generating this data takes longer, but the dashboard shows an expanded summary with time and cost savings for each catalog item.
 
 </td></tr></tbody>
 </table><table id="table_ajs_lyf_q3c"><thead><tr><th>
@@ -120,7 +140,7 @@ sn\_ac.max\_number\_of\_actions
 
 </td><td>
 
-Sets the maximum number of actions to show in all actions section in action center.-   Type: **True/False**
+Sets the maximum number of actions to show in all actions section in action center.-   Type: **True\|False**
 -   Default value: **False**
 
 </td></tr><tr><td>

@@ -1,18 +1,18 @@
 ---
-title: Add a TRM product in Enterprise Architecture Workspace
-description: As an Enterprise Architect, you can add a new TRM product to the TRM library.
+title: Create a TRM product in Enterprise Architecture Workspace
+description: Create a TRM product and optionally add one or more product lifecycles in a single operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-prod-lifecycle.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 2
 breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add a TRM product in Enterprise Architecture Workspace
+# Create a TRM product in Enterprise Architecture Workspace
 
-As an Enterprise Architect, you can add a new TRM product to the TRM library.
+Create a TRM product and optionally add one or more product lifecycles in a single operation.
 
 ## Before you begin
 
@@ -26,15 +26,11 @@ Role required: sn\_apm.apm\_analyst
 
 2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
 
-3.  Select the TRM more actions icon \[Omitted image "trm-more-actions-icon.png"\] Alt text: TRM more actions icon next to **Request TRM product**.
+3.  Select the more actions icon \[Omitted image "trm-more-actions-icon.png"\] Alt text: TRM more actions icon next to **Request TRM product**, then select **Create TRM product**.
 
-4.  Select **Create TRM Product**.
+4.  On the form, fill in the fields.
 
-5.  On the form, fill in the fields.
-
-    For field information, see [Create TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-trm-prod-form.md).
-
-6.  Select **Create**.
+5.  Select **Create**.
 
 
 **Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
@@ -52,13 +48,13 @@ Role required: sn\_apm.apm\_analyst
 
 [Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
+[Request a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
 
 [View all TRM products grouped by product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-trm-products-grouped-by-product-category.md)
 
-[Request a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)
+[Request a TRM product lifecycle in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)
 
 [Associate an Architectural Artifact to a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-trm-prod.md)
 
-[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+[Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 

@@ -24,5 +24,5 @@ To learn more about MCO configuring and implementation, see:
 -   [Implement a sales promotion setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion-setup.md)
 -   [Implement a recall campaign set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-setup.md)
 -   [Configure dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dealer-portal.md)
--   
+-   [Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dms.md)
 

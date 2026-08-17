@@ -18,8 +18,6 @@ Reference topics provide additional information about Customer Success Managemen
 
 This section covers information about the data model, installed components, and domain separation information.
 
--   **[Customer Success Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-data-model.md)**  
-Learn about the relationships between tables that Customer Success Management uses to manage engagements, track success objectives and outcomes, monitor risks, and measure product adoption.
 -   **[Domain separation and Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)**  
 Domain separation is supported for Customer Success Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Customer success management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-roles.md)**  

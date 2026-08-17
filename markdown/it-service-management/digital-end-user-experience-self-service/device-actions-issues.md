@@ -9,7 +9,7 @@ classification: digital-end-user-experience-self-service
 topic_type: reference
 last_updated: "2026-05-19"
 reading_time_minutes: 1
-breadcrumb: [Reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Self-service reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # Device action diagnosis and checks
@@ -36,11 +36,11 @@ Confirm the following:-   Employee Center \(ec\_enabled\) is enabled.
 
 </td></tr><tr><td>
 
-Action doesn't appear in Now Assist
+Action doesn't appear in ServiceNow Otto
 
 </td><td>
 
-Check that Now Assist \(va\_enabled\) is enabled or set to true. This setting is inactive by default.
+Check that ServiceNow Otto \(va\_enabled\) is enabled or set to true. This setting is inactive by default.
 
 </td></tr><tr><td>
 

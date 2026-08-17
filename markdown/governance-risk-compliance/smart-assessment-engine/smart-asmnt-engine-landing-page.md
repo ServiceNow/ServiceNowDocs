@@ -18,7 +18,7 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application helps you to reduce
 
 ## Get started
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_bj1_24q_sxb" class="nav-card"><tbody><tr><td>
 
@@ -38,7 +38,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Now assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/now-assist-for-smart-assessment-engine.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Now assist for Smart Assessment Engine
+[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto for Smart Assessment Engine
 
 </td><td>
 

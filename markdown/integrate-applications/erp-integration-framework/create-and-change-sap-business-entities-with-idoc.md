@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [erp, integration, canvas, data hub, sap, zero, copy, connector, entity, idoc]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create and change SAP business entities with IDoc
@@ -34,11 +34,4 @@ Complete the following steps to work with IDoc entities in Zero Copy Connector f
 5.  Manage IDoc outbound messages. For more information, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
 
 **Note:** The Zero Copy Connector for ERP Monitor includes IDoc information on the asynchronous tabs. For more information about the Monitor, see [Monitor Zero Copy Connector for ERP logged extraction and remote lookup transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
-
--   **[Create an IDoc outbound message configuration in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-idoc-outbound-message-configuration.md)**  
-Use IDoc outbound message configurations to create and change some SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
--   **[View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md)**  
-When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
-
-**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

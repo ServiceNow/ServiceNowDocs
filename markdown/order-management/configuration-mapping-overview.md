@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuration linking overview
@@ -25,5 +25,5 @@ When you save the quote, the quote line for the parent level configurable produc
 A Salesforce admin can leverage the fact that these values match to pull information from the Configuration Line Items to the quote \(or its associated opportunity/account\). For more information about pulling information to the quote line, see:
 
 -   [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-case-configuration-line-item-to-quote-line-flow.md) \(if your CPQ Extension for Salesforce CPQ Package is version 1.8 or later\)
--   [Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md) \(for ServiceNow CPQ Extension Package version 1.7 or earlier\)
+-   [Use case: Using the Salesforce Quote Calculator plugin to integrate data from CPQ to Salesforce quotes and quote lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md) \(for CPQ Extension Package version 1.7 or earlier\)
 

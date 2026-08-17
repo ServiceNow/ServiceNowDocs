@@ -24,7 +24,7 @@ Role required: sn\_hr\_workday.admin
 
 1.  Navigate to **All** &gt; **Workday Pull To-dos** &gt; **Configuration Pull To-dos**.
 
-    For information on the Pull to-dos report creation, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=749a27891bed81501e579979b04bcb41).
+    For information on the Pull to-dos report creation, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=78c46dc7475b9a1048cb2920326d43aa).
 
 2.  On the form, fill in the fields:
 

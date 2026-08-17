@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-11-06"
 reading_time_minutes: 1
-breadcrumb: [Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Data sharing and processes
@@ -23,5 +23,5 @@ Configure where Now Assist data is processed during periods of high traffic.
 -   **[Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md)**  
 Select a data steward to make decisions about data sharing with ServiceNow in Now Assist applications.
 
-**Parent Topic:**[Now Assist Admin Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-now-assist-admin-settings.md)
 

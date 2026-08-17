@@ -1,6 +1,6 @@
 ---
 title: Setting up inter-organization support
-description: Provide your agents at a business location with the visibility into other business locations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business location.
+description: Provide your agents at a business organization \(formerly business location\) with the visibility into other business organizations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-bus-loc-serviced-by-bus-loc.html
 release: australia
@@ -12,15 +12,17 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 
 # Setting up inter-organization support
 
-Provide your agents at a business location with the visibility into other business locations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business location.
+Provide your agents at a business organization \(formerly business location\) with the visibility into other business organizations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business organization.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 ## Overview of inter-organization support
 
-The Service Model Foundation enables business locations to request help from others and fulfill such requests. Besides supporting customers, business locations can also support other service organizations.
+The Service Model Foundation enables business organizations to request help from others and fulfill such requests. Besides supporting customers, business organizations can also support other service organizations.
 
-Currently, there’s no easy way for agents who are assigned to a specific business location to access the details they need about other business locations they support, such as contact information, install base items, or existing cases.
+Currently, there’s no easy way for agents who are assigned to a specific business organization to access the details they need about other business organizations they support, such as contact information, install base items, or existing cases.
 
-With the inter-organization support capabilities, you can enable your business location agents to access additional details about the other business locations they serve, facilitating quicker and more efficient support for the requesting service organization.
+With the inter-organization support capabilities, you can enable your business organization agents to access additional details about the other business organizations they serve, facilitating quicker and more efficient support for the requesting service organization.
 
 **Note:** You can activate this capability by enabling the business location \(com.snc.business\_location\) plugin.
 
@@ -41,7 +43,7 @@ This way, the regional support agents can quickly access necessary information a
 
 Inter-organization support offers the following benefits:
 
--   Improve agent experience: Provide agents at a business location with visibility into the other business locations that they support.
+-   Improve agent experience: Provide agents at a business organization with visibility into the other business organizations that they support.
 -   Reduce resolution time: Minimize back-and-forth communication by providing key context alongside cases for service organizations.
 -   Increase operational efficiency: Define support structures for service organizations through hierarchy or relationship-based criteria.
 

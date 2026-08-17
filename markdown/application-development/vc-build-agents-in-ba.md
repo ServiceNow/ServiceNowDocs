@@ -22,7 +22,7 @@ All you need to do is describe the business problem you want to solve, and Build
 
 As part of the agent and skill creation process, Build Agent guides you through defining access controls and permissions alongside the agent itself, keeping governance integrated from the start. Once created, you can test and activate the agent in AI Agent Studio, then monitor and govern it in AI Control Tower.
 
-**Note:** You need Now Assist for App Engine to create agents and skills. For more information, see [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
+**Note:** You need ServiceNow Otto for App Engine to create agents and skills. For more information, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
 
 ## Custom in-app agents
 
@@ -36,7 +36,7 @@ Build Agent can generate agentic workflows that coordinate sequences of automate
 
 Build Agent can generate custom skills scoped to your application's data model, without manually authoring skill definitions. You describe what you want the skill to do, and Build Agent creates skills that align with your existing table structure, field configurations, and access controls.
 
-You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that extend the quality of your agentic development outcomes. For more information, see [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that extend the quality of your agentic development outcomes. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
 
 ## Helpful resources
 
@@ -51,5 +51,5 @@ Some ServiceNow resources that can provide you with helpful information are:
     Pro Dev Academy session recording on building in-app agents agentically.
 
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
 

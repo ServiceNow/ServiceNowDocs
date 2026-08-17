@@ -1,20 +1,20 @@
 ---
-title: Setup Hub terminology
-description: Before getting started with Setup Hub, it's important to understand some key terms used in the application.
+title: ServiceNow Otto for Setup terminology
+description: Before getting started with ServiceNow Otto for Setup, it's important to understand some key terms used in the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-glossary-terms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-17"
 reading_time_minutes: 1
-breadcrumb: [Reference, Setup Hub, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Setup Hub terminology
+# ServiceNow Otto for Setup terminology
 
-Before getting started with Setup Hub, it's important to understand some key terms used in the application.
+Before getting started with ServiceNow Otto for Setup, it's important to understand some key terms used in the application.
 
-**Parent Topic:**[Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
+**Parent Topic:**[ServiceNow Otto for Setup references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
 
 ## application scope
 

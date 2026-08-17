@@ -1,6 +1,6 @@
 ---
 title: Task template form
-description: Use the Task template form to define a reusable recovery task or event task that can be inserted into plans, loss scenarios, recovery strategies, exercise events, crisis events, or activated plans.
+description: Use the Task template form to define a reusable recovery task or event task. It can be inserted into plans, loss scenarios, recovery strategies, exercise events, crisis events, or activated plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/task-template-form.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure Task templates and Task template groups, Configuring plan
 
 # Task template form
 
-Use the Task template form to define a reusable recovery task or event task that can be inserted into plans, loss scenarios, recovery strategies, exercise events, crisis events, or activated plans.
+Use the Task template form to define a reusable recovery task or event task. It can be inserted into plans, loss scenarios, recovery strategies, exercise events, crisis events, or activated plans.
 
 ## Task template form
 

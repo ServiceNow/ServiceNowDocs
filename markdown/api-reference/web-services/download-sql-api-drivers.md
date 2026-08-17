@@ -28,7 +28,7 @@ After configuring the SQL API plugin on your ServiceNow instance, you must downl
 
 1.  Go to [ServiceNow Store](http://store.servicenow.com).
 
-2.  Search for `SQL API`.
+2.  Search for SQL API.
 
     The SQL API Drivers page appears.
 

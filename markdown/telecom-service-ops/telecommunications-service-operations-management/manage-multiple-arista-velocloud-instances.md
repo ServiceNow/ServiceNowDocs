@@ -1,20 +1,20 @@
 ---
 title: Manage multiple Arista VeloCloud instances
-description: Configure and manage multiple Arista VeloCloud instances within a single ServiceNow AI Platform environment. This functionality facilitates the creation of distinct connection aliases and the establishment of independent import schedules that you can customize to accommodate specific data filtering and frequency requirements for administrators and integrators.
+description: Configure and manage multiple Arista VeloCloud instances within a single ServiceNow AI Platform environment. Create distinct connection aliases and establish independent import schedules. Customize data filtering and frequency requirements for each instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/manage-multiple-arista-velocloud-instances.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Manage multiple Arista VeloCloud instances
 
-Configure and manage multiple Arista VeloCloud instances within a single ServiceNow AI Platform® environment. This functionality facilitates the creation of distinct connection aliases and the establishment of independent import schedules that you can customize to accommodate specific data filtering and frequency requirements for administrators and integrators.
+Configure and manage multiple Arista VeloCloud instances within a single ServiceNow AI Platform® environment. Create distinct connection aliases and establish independent import schedules. Customize data filtering and frequency requirements for each instance.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Role required: TSOM Visibility admin
 
 ## About this task
 
-You can configure additional VeloCloud instances or reuse the same VeloCloud instance with different connection aliases and import schedules. To add a new VeloCloud instance, run the guided setup to configure a new connection alias. All connectivity stages within the setup must be completed for each new alias.
+You can configure additional VeloCloud instances or reuse the same VeloCloud instance with different connection aliases and import schedules. To add an VeloCloud instance, run the guided setup to configure a new connection alias. All connectivity stages within the setup must be completed for each new alias.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ You can configure additional VeloCloud instances or reuse the same VeloCloud ins
     2.  Select **Configure**.
     3.  In the **API Key** field, enter the API key created in the Orchestrator.
 
-        **Note:** Other authentication fields might be required depending on the authentication methods used in your Arista VeloCloud instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
+        **Note:** Other authentication fields might be required depending on the authentication methods used in your Arista VeloCloud instance. By default, use basic authentication credentials as part of the guided setup. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
     4.  In the **User name** field, specify your Arista VeloCloud instance user name.
     5.  Retain the default values in the rest of the fields.
@@ -60,9 +60,9 @@ You can configure additional VeloCloud instances or reuse the same VeloCloud ins
     2.  Select **Configure**.
     3.  In the **Name** field, specify the connection name.
     4.  In the **Credentials** and **Connection Alias** fields, choose the items created earlier.
-    5.  In the **Connection URL** field, select the URL for Cisco Meraki.
+    5.  In the **Connection URL** field, select the URL for Arista VeloCloud.
     6.  Select the **Use MID Server** check box and indicate how the MID Server should be selected:
-        -   Auto-select: Automatically chooses the most appropriate MID Server.
+        -   Auto-select: Automatically selects the most appropriate MID Server.
         -   Specific MID Server: Select the name of the MID Server from the **MID Server** field that is displayed.
         -   Specific MID Cluster: Select the name of the MID cluster from the **MID Cluster** field that is displayed.
     7.  Retain the default values in the rest of the fields.
@@ -71,7 +71,7 @@ You can configure additional VeloCloud instances or reuse the same VeloCloud ins
 
     1.  In the Configure Connectivity section, select **Get Started**.
 
-    2.  Select **Configure** to create a new connection alias by entering a unique alias name \(for example, `Velocloud_Prod_01`\).
+    2.  Select **Configure** to create a connection alias by entering a unique alias name \(for example, `Velocloud_Prod_01`\).
 
     3.  Select **Submit** and then select **Mark as Complete**.
 
@@ -105,7 +105,7 @@ You can configure additional VeloCloud instances or reuse the same VeloCloud ins
 
 11. Confirm that your new instance setup is successful by verifying the configuration.
 
-    1.  Navigate to &gt; **All** &gt; **Service Graph Connectors** &gt; **VeloCloud** &gt; **Connection &amp; Credential Aliases**.
+    1.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **VeloCloud** &gt; **Connection &amp; Credential Aliases**.
 
     2.  Confirm that the new alias is listed.
 

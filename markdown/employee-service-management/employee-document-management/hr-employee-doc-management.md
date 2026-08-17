@@ -20,23 +20,23 @@ Your company asks employees to complete and return documents related to benefits
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how Employee Document Management works Learn about how Employee Document Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/exploring-employee-document-management.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how Employee Document Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/exploring-employee-document-management.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/configuring-employee-document-management.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/configuring-employee-document-management.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how to manage employee documents Learn how to manage employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/using-employee-document-management.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how to manage employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/using-employee-document-management.md)
 
 </td></tr><tr><td>
 
-[Dashboard \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: View statistics of your employee documents View statistics of your employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-dashboard.md)
+[Dashboard \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: View statistics of your employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-dashboard.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: More information on other properties of Employee Document Management More information on other properties of Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/reference-employee-document-management.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: More information on other properties of Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/reference-employee-document-management.md)
 
 </td><td>
 

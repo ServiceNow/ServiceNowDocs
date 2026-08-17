@@ -41,7 +41,7 @@ The configurations for the 360° view are stored in **360° View Configurations*
     -   **Activated plans**: Activated plans that are associated with the assets.
     -   **Assets**: Assets that are impacted due to the event.
     -   **Tasks**: Tasks that are associated with the event.
-    When you select the **Assets** capsule in the 360° view, the details of the assets for the event are displayed in the **Assets** panel on the right as shown in the example.
+    When you select **Assets** in the 360° view, the details of the assets for the event are displayed in the **Assets** panel on the right as shown in the example.
 
 4.  Select the event or list view in the breadcrumb navigation to open the original event record.
 

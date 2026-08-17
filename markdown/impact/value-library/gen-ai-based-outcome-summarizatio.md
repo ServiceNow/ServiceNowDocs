@@ -1,5 +1,5 @@
 ---
-title: Summarize outcomes with generative AI
+title: Summarize outcomes with ServiceNow Otto
 description: View a concise summary of your operational outcomes in Impact, including positive or negative outcome trends, adoption of recommended applications, and consumption of related Accelerators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/gen-ai-based-outcome-summarizatio.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---
 
-# Summarize outcomes with generative AI
+# Summarize outcomes with ServiceNow Otto
 
 View a concise summary of your operational outcomes in Impact, including positive or negative outcome trends, adoption of recommended applications, and consumption of related Accelerators.
 
@@ -28,15 +28,15 @@ Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner
 
 2.  Select one of the following to open the desired outcomes page.
 
-<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d37651e81">
+<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d38060e84">
 
 Option
 
-</th><th align="left" id="d37651e84">
+</th><th align="left" id="d38060e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37651e90">
+</th></tr></thead><tbody><tr><td id="d38060e93">
 
 **Outcomes Insights**
 
@@ -47,7 +47,7 @@ Action
 3.  In the Quick links section, select the **Outcome details page** link.
 
 
-</td></tr><tr><td id="d37651e120">
+</td></tr><tr><td id="d38060e123">
 
 **Objectives and Outcomes**
 
@@ -61,7 +61,7 @@ Action
 </td></tr></tbody>
 </table>3.  In the Summarize this Outcome section, select **Summarize**.
 
-    Now Assist generates and displays summary information for the outcome, as shown in the following example.
+    ServiceNow Otto® generates and displays summary information for the outcome, as shown in the following example.
 
     \[Omitted image "outcomes\_summarizationresult.png"\] Alt text: Outcomes Summarization result
 

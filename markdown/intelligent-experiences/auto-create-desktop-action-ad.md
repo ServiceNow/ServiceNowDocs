@@ -162,7 +162,7 @@ Input
 
 </td><td>
 
-Enter any text data such as a user name, an address, a survey response, or in any situation where text entry is accepted.**Note:** If you set a static value for this field, the automation uses it during execution and doesn’t prompt you for input from the Now Assist panel.
+Enter any text data such as a user name, an address, a survey response, or in any situation where text entry is accepted.**Note:** If you set a static value for this field, the automation uses it during execution and doesn’t prompt you for input from the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Input
 
 </td><td>
 
-Perform keyboard shortcuts, such as copying text by entering `Ctrl + C` on fields and elements.**Note:** If you set a static value for this field, the automation uses it during execution and doesn’t prompt you for input from the Now Assist panel.
+Perform keyboard shortcuts, such as copying text by entering `Ctrl + C` on fields and elements.**Note:** If you set a static value for this field, the automation uses it during execution and doesn’t prompt you for input from the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 

@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Detailed information of the initiative.You can refine initiative description using the Refine records skill, if the Now Assist for SPM application is installed.
+Detailed information of the initiative.You can refine initiative description using the Refine records skill, if the ServiceNow Otto for SPM application is installed.
 
 </td></tr><tr><td>
 

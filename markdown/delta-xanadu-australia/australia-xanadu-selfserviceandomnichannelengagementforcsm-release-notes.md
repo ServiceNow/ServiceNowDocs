@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-selfserviceandomnichannelengagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
@@ -251,9 +251,9 @@ Note the following capabilities introduced for wrapping up email interactions:
 
 The new capabilities for outbound interactions initiated by agents through email are:
 
-    -   Initiate outbound email interactions from contact or consumer records by selecting email addresses or using the Compose Email UI option, opening a modeless email composer with the recipient's email address auto-populated.
+    -   Initiate outbound email interactions from contact or consumer records by selecting email addresses or using the Compose Email UI option. This opens a modeless email composer with the recipient's email address auto-populated.
     -   Automatic creation of Work‑In‑Progress \(WIP\) outbound email interactions when agents initiate an email to a customer.
-    -   Preserve email drafts when agents navigate away, and automatically close interactions that show no sent or received email activity and contain only unsent drafts within a rolling 30‑day period. Any agent activity on the draft resets the 30‑day window.
+    -   Preserve email drafts when agents navigate away. The system automatically closes interactions that show no sent or received email activity and contain only unsent drafts within a rolling 30‑day period. Any agent activity on the draft resets the 30‑day window.
     -   Consolidate multiple agent‑initiated drafts into a single, unified interaction within service workflows, with ownership assigned to the sending agent. You can optionally configure the system to create separate interactions for each draft for the same contact.
     -   Configurable reminder windows for sending automated reminder emails when customers don’t respond.
     -   Customer response notifications on the ongoing tab and interaction linking in contact or consumer related lists for seamless conversation tracking.
@@ -270,7 +270,7 @@ The new capabilities for smart email routing and summarization are:
     -   See summaries instantly on page refresh without re-running AI, and refresh with one click when new activity arrives on the interaction.
 **Note:** Check your entitlements to determine whether you have access to summarization and AI-based context matching.
 
--   **[Usage insights for call events enabled using Interaction Controls Component \(ICC\)](https://www.servicenow.com/docs/access?context=usage-insight-for-icc-enabled-call-events&family=australia&ft:locale=en-US)**
+-   **[Usage insights for ICC call events](https://www.servicenow.com/docs/access?context=usage-insight-for-icc-enabled-call-events&family=australia&ft:locale=en-US)**
 
 Monitor call events from ICC enabled agent sessions for the customer, in **Usage Insights** available under **Platform Analytics**. View, filter, and inspect event payloads for actions such as muting, recording, and coaching session initiation. To enable tracking, turn on the Analytics toggle in the agent's profile preferences and add the agent's **sys\_id** to the **sn\_openframe.logger.enabled.users** system property.
 
@@ -318,7 +318,7 @@ Yokohama
 
 Manage and view customer-related information and past conversations while interacting with customers via email.
 
--   **[Using the Now Assist in Virtual Agent enhanced chat in self-service portals](https://www.servicenow.com/docs/access?context=nass-portal&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist conversational experience in self-service portals](https://www.servicenow.com/docs/access?context=nass-portal&family=yokohama&ft:locale=en-US)**
 
 Receive comprehensive and detailed answers with intelligent search and conversational experiences using Now Assist in Virtual Agent. The search results are synthesized from Knowledge Base articles, Virtual Agent articles, and catalog items with links to the sources. The agent retains conversation context across multi-turn questions, promoting continuity and relevance in responses.
 
@@ -400,17 +400,23 @@ Starting with the Australia release, the Subscriptions and Activity Feed Framewo
 
 Starting with the Australia release, the Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Walk-up for CSM store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
 
--   **[\[Placeholder link text to key walkup-checkin-businessportal\]](https://www.servicenow.com/docs/access?context=walkup-checkin-businessportal&family=australia&ft:locale=en-US)**
+-   **[Walk-up Check-in](https://www.servicenow.com/docs/access?context=walkup-checkin-businessportal&family=australia&ft:locale=en-US)**
 
 Initiate a walk-up check-in directly from the Business Portal home page without navigating away from the landing experience.
 
--   **[\[Placeholder link text to key portal-datalist-widget-data-json\]](https://www.servicenow.com/docs/access?context=portal-datalist-widget-data-json&family=australia&ft:locale=en-US)**
+-   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://www.servicenow.com/docs/access?context=messg-integrating-whatsapp-with-csm-whatsapp-cloud&family=australia&ft:locale=en-US)**
 
-Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table and the portal builds the URL with the relevant parameters to render the correct record view at runtime.
+WhatsApp direct integration gives agents richer conversational tools and gives customers more ways to reach for support. The key updates include:
 
--   **[\[Placeholder link text to key port-object-inst-options\]](https://www.servicenow.com/docs/access?context=port-object-inst-options&family=australia&ft:locale=en-US)**
+    -   Access synthesized responses generated from Now Assist Virtual Agent \(NAVA\) in WhatsApp direct conversations.
+    -   Play audio messages directly in the agent chat interface.
+-   **[Portal Data List widget JSON parameters](https://www.servicenow.com/docs/access?context=portal-datalist-widget-data-json&family=australia&ft:locale=en-US)**
 
-Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters and derives the card title, image field, summary view fields, and detail view from the view definition on the extended table without requiring static configuration in the widget instance.
+Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table. The portal builds the URL with the relevant parameters to render the correct record view at runtime.
+
+-   **[Portal Object widget instance options form](https://www.servicenow.com/docs/access?context=port-object-inst-options&family=australia&ft:locale=en-US)**
+
+Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters. The widget derives the card title, image field, summary view fields, and detail view from the view definition on the extended table. This eliminates the need for static configuration in the widget instance.
 
 
 </td></tr></tbody>
@@ -763,7 +769,7 @@ Yokohama
 -   Provide a consistent experience for agents handling omnichannel interactions through email interactions, which preserve the context for agents by associating the email conversation between the agent and the customer.
 -   Improve contact center efficiency by helping avoid the creation of duplicate cases through the use of the Email as an Interaction feature.
 
- See [Omnichannels for communicating with customers](https://www.servicenow.com/docs/access?context=omnichannels-communicating-customers&family=yokohama&ft:locale=en-US), [Self-service for Customer Service Management](https://www.servicenow.com/docs/access?context=self-service-options-csm-customers&family=yokohama&ft:locale=en-US), and [Playbooks for Portals](https://www.servicenow.com/docs/access?context=playbooks-for-portals&family=yokohama&ft:locale=en-US) for more information.
+ See [Omnichannels for communicating with customers](https://www.servicenow.com/docs/access?context=omnichannels-communicating-customers&family=yokohama&ft:locale=en-US), [Self-service](https://www.servicenow.com/docs/access?context=self-service-options-csm-customers&family=yokohama&ft:locale=en-US), and [Playbooks for Portals](https://www.servicenow.com/docs/access?context=playbooks-for-portals&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

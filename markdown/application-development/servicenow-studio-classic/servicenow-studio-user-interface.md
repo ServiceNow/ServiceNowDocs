@@ -22,13 +22,15 @@ ServiceNow Studio is a single interface for building, managing, and deploying ap
 
 The home page provides access to all tools and services in ServiceNow Studio.
 
--   The Navigator panel shows all your apps, files, collections, recents, and tools. Filter or sort the lists, or select **Open list** to open any list in the platform view.
+-   The Navigator panel shows all your apps, files, collections, and recently opened files. Filter or sort the lists, or select **Open list** to open any list in the platform view.
 
     |Icon|Navigation item|Description|
     |----|---------------|-----------|
     |\[Omitted image "sn-studio-menu-icon.png"\] Alt text:|Open/Hide Navigator panel|Expand or collapse the Navigator panel.|
+    |\[Omitted image "sn-studio-explorer-icon.png"\] Alt text:|Explorer|Create workspaces and work on apps in source code.|
+    |\[Omitted image "sn-studio-changes-icon.png"\] Alt text:|Changes|View changes associated with source control.|
     |\[Omitted image "sn-studio-search-icon.png"\] Alt text:|Search|Search for any file, app, metadata, or tool in any scope on the platform.|
-    |\[Omitted image "sn-studio-create-icon.png"\] Alt text:|Create|Create a new app or file.|
+    |\[Omitted image "sn-studio-create-icon.png"\] Alt text:|Create|Create an app or file.|
     |\[Omitted image "sn-studio-apps-icon.png"\] Alt text:|Apps|View all apps.|
     |\[Omitted image "sn-studio-files-icon.png"\] Alt text:|File Categories|View, sort, and filter all files and metadata.|
     |\[Omitted image "sn-studio-bookmark-icon.png"\] Alt text:|Collections|Access organized collections of bookmarks, files, and apps.|
@@ -38,7 +40,7 @@ The home page provides access to all tools and services in ServiceNow Studio.
 
     \[Omitted image "sn-studio-user-menu.png"\] Alt text: The user preferences menu provides access to ServiceNow Studio settings.
 
-    \[Omitted image "sn-studio-preferences-as1.png"\] Alt text: Personalize your interface by choosing light or dark theme. Build Agent is active by default, but you can turn it off to continue using Now Assist for app generation.
+    \[Omitted image "sn-studio-preferences-as1.png"\] Alt text: Personalize your interface by choosing light or dark theme. Build Agent is active by default, but you can turn it off to continue using ServiceNow Otto for app generation.
 
 -   The toolbar provides access to the home page, Tools page, and Deployment.
 
@@ -52,7 +54,7 @@ The home page provides access to all tools and services in ServiceNow Studio.
 
 -   Use the Create button to create apps and app filesor import a new app from source control.
 
-    \[Omitted image "sn-studio-create-options.png"\] Alt text: In the Create menu, you can create a new app or file or import a new app from source control.
+    \[Omitted image "sn-studio-create-options.png"\] Alt text: In the Create menu, you can create an app or file or import a new app from source control.
 
 -   The Resources section at the bottom of the home page links to the ServiceNow Community site, the App Gallery, and the Script Debugger tool. It also provides access to product documentation for ServiceNow Studio and Creator Studio applications.
 

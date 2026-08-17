@@ -1,6 +1,6 @@
 ---
 title: Knowledge Health score
-description: The Knowledge Health Score measures the quality of knowledge articles and your knowledge bases using weighted scan metrics, so you can identify and resolve content gaps that affect discovery and user trust.
+description: The Knowledge Health Score measures the quality of knowledge articles and your knowledge bases using weighted scan metrics. The score helps you to identify and resolve content gaps that affect discovery and user trust.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-health-score.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Exploring Knowledge Center, Knowledge Center, Manage content capabi
 
 # Knowledge Health score
 
-The Knowledge Health Score measures the quality of knowledge articles and your knowledge bases using weighted scan metrics, so you can identify and resolve content gaps that affect discovery and user trust.
+The Knowledge Health Score measures the quality of knowledge articles and your knowledge bases using weighted scan metrics. The score helps you to identify and resolve content gaps that affect discovery and user trust.
 
 ## Benefits
 

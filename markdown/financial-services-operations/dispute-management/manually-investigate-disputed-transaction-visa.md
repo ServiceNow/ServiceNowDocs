@@ -38,7 +38,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 5.  Select the transaction ID from the playbook to open the **Dispute Workspace** of the transaction.
 
-6.  Select the **Investigate transactions** activity under the **Dispute Workspace**.
+6.  Select the **Investigate transactions** task under the **Dispute Workspace**.
 
 7.  Select whether to create a chargeback request in the **Pursue chargeback** drop-down list.
 
@@ -47,8 +47,6 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 8.  Fill in the required fields in the form, and any other related information that you have gathered.
 
 9.  In the **Remarks** field, enter any comments.
-
-    This step is optional.
 
 10. Select **Update** to save your changes.
 

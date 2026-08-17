@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-3
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"
-reading_time_minutes: 157
+reading_time_minutes: 155
 breadcrumb: [Available patches and hotfixes, Learn about the Australia release, Australia release notes]
 ---
 
@@ -54,9 +54,6 @@ Australia Patch 3 includes fixes for security-related problems that affected cer
     The ServiceNow® Clone Admin Console application copies data and metadata from one ServiceNow instance to another ServiceNow instance to easily synchronize your instances. Clone Admin Console was enhanced and updated in the Australia release.
 
 -   **[Code Signing actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cs-actions-roles.md)**
-
-    Reference table of Code Signing actions, their descriptions, and the roles required to perform them.
-
 -   **[Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-universal-request.md)**
 
 
@@ -5134,42 +5131,6 @@ Users are unable to select 'presentational' variables when using the list select
 6.  Scroll on the list of variables and look for 'Legal Section'.
 
  Observe that it can't be found. Users would like to be able to choose presentational variables as well, even if they don't contain any values.
-
-</td></tr><tr><td>
-
-List Administration
-
- PRB2009991
-
-</td><td>
-
-'Workflow'-type fields are displaying as 'Pending - has not started' for all values
-
-</td><td>
-
-This requires a single-line change that adds a defensive .clone\(\) call to deep-copy the choice list before WorkflowIcons.process\(\) mutates it. This prevents the shared cache from being poisoned by in-place label overwrites.
-
-</td><td>
-
-1.  Navigate to the table schema for the 'Incident' table.
-2.  Create a custom field named 'Test column' with the field type set to 'Workflow'.
-3.  Configure 2-3 choice options for the newly created custom field.
-4.  Select 2-3 incident records and set values for the **Test column** field using any of the available options.
-5.  Open UI Builder.
-6.  Create an experience and page by using the 'List Page' template.
-7.  Once the page is created, navigate to it on the instance.
-8.  From the sidebar navigation, navigate to **Incidents** &gt; **All**.
-9.  Select the **Personalize fields** button on the list page.
-10. Add the **Test column** custom field to the visible columns.
-
-Observe that the workflow stages for the custom workflow type field appear empty.
-
-11. Open any incident record that has a value set for this field \(can be opened in classic view as well\). If the field is not visible, add it to the 'Form' view.
-12. Observe that the field displays 'Pending - has not started'. Note that even when the field value is changed via background script, it continues to display 'Pending - has not started'.
-
- Expected behavior: The display value should be as per available choices.
-
- Actual behavior: It displays 'Pending - has not started' even after changing value. 'Pending - has not started' is not even available as a choice option for a field.
 
 </td></tr><tr><td>
 

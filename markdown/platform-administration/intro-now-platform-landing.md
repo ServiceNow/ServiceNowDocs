@@ -58,7 +58,7 @@ Learn about the ServiceNow AI Platform and these important applications:
 
     One location to install, update, and manage licensed applications and plugins for your instance.
 
--   **Setup Hub**
+-   **ServiceNow Otto for Setup**
 
     A guided experience to install, configure, and deploy certain ServiceNow products.
 

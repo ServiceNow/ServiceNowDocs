@@ -38,7 +38,7 @@ Role required: sn\_jira\_int.user
 
 Choose one table from Jira and one from SPW to create a mapping between them.
 
-For example, if your team uses an issue type like Feature that isn’t mapped by default, you can create a new mapping between the Feature issue type in Jira and the Feature \[sn\_align\_core\_feature\] table in SPW.
+For example, if your team uses an issue type like Feature that isn’t mapped by default. You can create a new mapping between the Feature issue type in Jira and the Feature \[sn\_align\_core\_feature\] table in SPW.
 
 ### Procedure
 
@@ -108,7 +108,7 @@ Role required: sn\_jira\_int.user
 
 Select a choice value from a Jira entity and map it to a corresponding choice value in an SPW table.
 
-For example, Jira Stories include default states such as To Do, In Progress, and Done. If your team adds a custom state like Testing, you can create a choice mapping to link **Testing** in Jira to the **Ready for Testing** state in the Story \[rm\_story\] table in SPW.
+For example, Jira Stories include default states such as To Do, In Progress, and Done. If your team adds a custom state like Testing, you can map **Testing** in Jira to the **Ready for Testing** state in the Story \[rm\_story\] table in SPW.
 
 ### Procedure
 

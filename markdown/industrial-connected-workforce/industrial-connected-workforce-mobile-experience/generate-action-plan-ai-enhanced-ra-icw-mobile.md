@@ -1,5 +1,5 @@
 ---
-title: Generate an action plan using AI Enhanced recommended actions for ICW Mobile
+title: Generate an action plan in ICW Mobile
 description: Generate an action plan to document and track remediation steps for an Industrial Connected Workforce Mobile Experience \(ICW Mobile\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.html
@@ -13,7 +13,7 @@ keywords: [action plan, AI enhanced recommended actions, Industrial Connected Wo
 breadcrumb: [Create a deviation, Use, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
 
-# Generate an action plan using AI Enhanced recommended actions for ICW Mobile
+# Generate an action plan in ICW Mobile
 
 Generate an action plan to document and track remediation steps for an Industrial Connected Workforce Mobile Experience \(ICW Mobile\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 
@@ -23,7 +23,7 @@ Role required: sn\_icw.deviation\_user and sn\_ai\_enhanced\_ra.action\_plan\_us
 
 ## About this task
 
-The AI Enhanced recommended actions for ICW Mobile enables you to generate a structured action plan, which you can use to resolve a deviation. Each action plan lists steps to follow, contains assigned owners, and tracking mechanisms for a timely resolution.
+The AI Enhanced Recommended Actions for ICW Mobile enables you to generate a structured action plan, which you can use to resolve a deviation. Each action plan lists steps to follow, contains assigned owners, and tracking mechanisms for a timely resolution.
 
 ## Procedure
 
@@ -31,7 +31,7 @@ The AI Enhanced recommended actions for ICW Mobile enables you to generate a str
 
 2.  In the Action plan section, select **Generate Action Plan**.
 
-3.  Select \[Omitted image "chevron-down-outline-24.svg"\] Alt text:to expand and view the full action plan.
+3.  Select \[Omitted image "chevron-down-outline-24.svg"\] Alt text: Chevron down icon.to expand and view the full action plan.
 
     Review the listed steps. The action plan is created using your uploaded resources and information available in the deviation record.
 
@@ -57,9 +57,9 @@ You can also track and continue working on the follow-up actions.
 **Related topics**  
 
 
-[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)
+[Contextualize an external document in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)
 
-[AI Enhanced recommended actions for Industrial Connected Workforce \( ICW\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/exploring-ai-enhanced-ra-icw.md)
+[AI Enhanced Recommended Actions for Industrial Connected Workforce \(ICW\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/exploring-ai-enhanced-ra-icw.md)
 
-[Configure AI Enhanced recommended actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
+[Configure AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
 

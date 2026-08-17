@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-salescrmfortelecommunications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -90,8 +90,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
 
@@ -106,7 +106,7 @@ Define tasks and their dependencies using the task plan template to orchestrate 
 
 -   **[Move order voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=australia&ft:locale=en-US)**
 
-Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
+Use this agent to create a move order capture journey. The agent collects details such as the customer’s name, current service location, product offering, and new service address.
 
 
 </td></tr></tbody>
@@ -136,7 +136,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -368,7 +371,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   Use the task template generation agent to create a task plan template for the given specification based on the uploaded image file.
 
@@ -385,7 +392,7 @@ Australia
 -   Provide customers with the option to configure product workflows using the data-driven catalog subflow as an alternative to Flow Designer, giving more options for implementing product configurations.
 -   Automate the customer move order capture journey to reduce the manual effort.
 
- See [Sales Customer Relationship Management for Telecommunications](https://www.servicenow.com/docs/access?context=somt&family=australia&ft:locale=en-US) for more information.
+ See [Sales Customer Relationship Management for Telecommunications](https://www.servicenow.com/docs/access?context=sales-crm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

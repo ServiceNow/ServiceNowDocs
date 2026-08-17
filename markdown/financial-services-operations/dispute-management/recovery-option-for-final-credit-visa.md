@@ -52,14 +52,12 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 -   In the **Deny dispute** field, select whether the determination is to deny the dispute.
 10. In the **Remarks** field, enter any comments.
 
-    This step is optional.
-
 11. After you have entered the details in the task, select **Update**.
 
 12. Close the task.
 
-    |Dispute activity|Action|
-    |----------------|------|
+    |Dispute task|Action|
+    |------------|------|
     |**To close the Recovery option task**|Select **Close**.|
 
 

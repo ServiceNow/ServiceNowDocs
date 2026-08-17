@@ -21,7 +21,7 @@ The AI Search Admin console application provides AI Search administrators with a
 
 ## AI Search Admin console overview
 
-The AI Search Admin console is a central hub for managing and monitoring AI Search capabilities across search applications. It provides a streamlined experience for setting up, tracking, and enhancing AI Search configurations. This console supports both AI Search and Now Assist in AI Search, which makes it easy to integrate advanced AI Search features.
+The AI Search Admin console is a central hub for managing and monitoring AI Search capabilities across search applications. It provides a streamlined experience for setting up, tracking, and enhancing AI Search configurations. This console supports both AI Search and ServiceNow Otto for AI Search, which makes it easy to integrate advanced AI Search features.
 
 The following example shows the AI Search Admin console home page.
 
@@ -51,7 +51,7 @@ For more information about the home page and its controls, see [AI Search Admin 
 ## AI Search Admin console benefits
 
 -   Prebuilt AI Search configurations for Service Portal, Now Mobile, Virtual Agent, and other applications that support AI Search.
--   Step-by-step assistance to activate Now Assist Genius Results.
+-   Step-by-step assistance to activate Genius Results.
 -   Easy access to pages that have various configuration settings.
 -   Performance Analytics indicators to track and monitor the search applications.
 

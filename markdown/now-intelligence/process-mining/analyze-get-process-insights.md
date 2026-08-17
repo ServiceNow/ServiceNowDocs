@@ -41,7 +41,7 @@ View metrics and activity transitions you have defined.
 -   **[Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/annotate-project.md)**  
 Add, view, and remove notes for a project to help manage tasks, ideas, and insights. Tag others to notify them to view a note.
 -   **[Export a process to Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/export-to-playbook.md)**  
-Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with Now Assist.
+Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with AI.
 -   **[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/comparing-models.md)**  
 Comparing projects side by side enables you to investigate performance differences or deviations from an ideal route.
 -   **[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/auto-rca.md)**  

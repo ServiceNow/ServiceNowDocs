@@ -1,19 +1,19 @@
 ---
-title: Override audit assignment
-description: As a Store Audit Manager, manually reassign a Store Audit Case or Audit Task to a different Auditor when the automated assignment rules have routed a record incorrectly.
+title: Audit assignment from workspace
+description: As a Store Audit Manager, manually assign a Store Audit Case or Audit Task to a specific Auditor, or change the assignment group set by the automated assignment rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-override-assignment.html
 release: australia
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
 keywords: [override assignment, reassign audit, audit manager, assigned to]
 breadcrumb: [Manage Store Audit, Retail]
 ---
 
-# Override audit assignment
+# Audit assignment from workspace
 
-As a Store Audit Manager, manually reassign a Store Audit Case or Audit Task to a different Auditor when the automated assignment rules have routed a record incorrectly.
+As a Store Audit Manager, manually assign a Store Audit Case or Audit Task to a specific Auditor, or change the assignment group set by the automated assignment rules.
 
 ## Before you begin
 
@@ -22,41 +22,33 @@ As a Store Audit Manager, manually reassign a Store Audit Case or Audit Task to 
 
 ## About this task
 
-Store Audit Cases and Audit Tasks are automatically assigned to Auditors via platform-native assignment rules when generated. Use this procedure when you need to correct routing errors, cover for an unavailable Auditor, or redistribute workload. Store Audit Managers can view all cases and tasks regardless of assignment.
+Assignment rules automatically set the assignment group on Store Audit Cases and Audit Tasks when they're generated—they don't assign an individual Auditor. Use this procedure to assign a specific Auditor, correct a routing error, or redistribute workload. Store Audit Managers can view all cases and tasks regardless of assignment.
 
 ## Procedure
 
-1.  To override a Store Audit Case assignment:
-2.  Log in to CSM/FSM Workspace with your Store Audit Manager credentials and navigate to the Store Audit Cases list.
+1.  Log in to CSM/FSM Workspace with your Store Audit Manager credentials and open the Store Audit Case or Audit Task you want to reassign.
 
-    All cases across all Auditors are visible to Store Audit Managers.
+    Store Audit Cases are in the Store Audit Cases list; Audit Tasks are on the **Audit tasks** tab of the parent case. Both are also visible from the **Retail cases** list.
 
-3.  Open the Store Audit Case you want to reassign.
+2.  Update the **Assigned to** field to the new Auditor.
 
-4.  Update the **Assigned to** field to the new Auditor.
+3.  If needed, update the **Assignment group** field.
 
-5.  If needed, update the **Assignment group** field.
+4.  Click **Save**.
 
-6.  Click **Save**.
-
-    The case is assigned to the new Auditor. If Retail Mobile push notifications are active, the newly assigned Auditor receives a notification with the case number and a deep link to the case record.
-
-7.  To override an Audit Task assignment:
-8.  Open the parent Store Audit Case and click the **Audit tasks** tab.
-
-9.  Open the Audit Task you want to reassign.
-
-10. Update the **Assigned to** field and optionally the **Assignment group** field, then click **Save**.
-
-    The task is reassigned. The newly assigned Auditor receives a push notification if Retail Mobile is active.
+    The newly assigned Auditor receives a push notification if Retail Mobile is active.
 
 
 ## Result
 
 The Store Audit Case or Audit Task is reassigned to the selected Auditor and the assignment change is logged in the activity stream.
 
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
+
 **Related topics**  
 
 
-[Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-reference.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+
+[Create and publish an audit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-create-and-generate.md)
 

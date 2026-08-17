@@ -33,7 +33,7 @@ Type
 Type of log correlator. Choices are as follows.-   **Free text correlator**: The log correlator analyzes text in the log message.
 -   **Log-key correlator**: The log correlator analyzes log metadata. For example, the name of a service instance in your infrastructure. Log property correlators are specific to the business context of your environment.
 
-For more information, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
+For more information, see [Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 </td></tr><tr><td>
 

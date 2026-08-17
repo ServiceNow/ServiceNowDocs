@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
-breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Binding alerts to a specific host CI \(default binding\)
@@ -52,7 +52,7 @@ Imagine a server \(Server-123\) in your network generates an event. The event re
     3.  If a match is found \(e.g., FQDN in the CMDB is also "Server-123.example.com"\), the alert is linked to that CI.
 2.  Applying Event Rules: Even if the Node resolves to Server-123, additional event rules might determine if the alert should be linked differently. For example, an event rule may specify that alerts from Server-123 should be linked to a parent CI \(like a cluster\) instead of the individual server.
 
-**Note:** You can also use Service Operations Workspace to bind alerts. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+**Note:** You can also use Service Operations Workspace to bind alerts. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Fallback CI binding fields
 

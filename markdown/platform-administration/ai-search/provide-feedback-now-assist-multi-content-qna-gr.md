@@ -1,39 +1,39 @@
 ---
-title: Provide feedback on Now Assist Multi-Content Response Genius Result answers
-description: Provide positive or negative feedback on Now Assist Multi-Content Response Genius Result answers.
+title: Provide feedback on Summary Genius Result answers
+description: confirm name throughoutProvide positive or negative feedback on Summary Genius Result answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/provide-feedback-now-assist-multi-content-qna-gr.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-25"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Provide feedback on Now Assist Multi-Content Response Genius Result answers
+# Provide feedback on Summary Genius Result answers
 
-Provide positive or negative feedback on Now Assist Multi-Content Response Genius Result answers.
+Provide positive or negative feedback on Summary Genius Result answers.
 
 ## Before you begin
 
-You can perform this task when viewing a Now Assist Multi-Content Response Genius Result answer in a search portal that uses the faceted search widget.
+You can perform this task when viewing a Summary Genius Result answer in a search portal that uses the faceted search widget.
 
 Role required: none
 
 ## About this task
 
-Use the thumb-up and thumb-down icons in a Now Assist Multi-Content Response Genius Result answer to submit positive or negative feedback on the answer. Positive feedback indicates that the answer provided you with the information you were looking for. Negative feedback indicates that the answer didn't help you with your question.
+Use the thumb-up and thumb-down icons in a Summary Genius Result answer to submit positive or negative feedback on the answer. Positive feedback indicates that the answer provided you with the information you were looking for. Negative feedback indicates that the answer didn't help you with your question.
 
-**Note:** You can only submit feedback once per Now Assist Multi-Content Response Genius Result answer.
+**Note:** You can only submit feedback once per Summary Genius Result answer.
 
-Feedback for Now Assist Multi-Content Response Genius Result answers is stored in the Generative AI Log \[sys\_generative\_ai\_log\] and Genius Result Event Actions \[sys\_search\_genius\_result\_event\_action\] tables. Users with the admin role can view answer feedback metadata in the Gen AI Log Metadata \[sys\_gen\_ai\_log\_metadata\] table.
+Feedback for Summary Genius Result answers is stored in the Generative AI Log \[sys\_generative\_ai\_log\] and Genius Result Event Actions \[sys\_search\_genius\_result\_event\_action\] tables. Users with the admin role can view answer feedback metadata in the Gen AI Log Metadata \[sys\_gen\_ai\_log\_metadata\] table.
 
 ## Procedure
 
-1.  In the Now Assist Multi-Content Response Genius Result answer, select the thumb icon that matches your desired feedback type.
+1.  In the Summary Genius Result answer, select the thumb icon that matches your desired feedback type.
 
     -   If the answer provided the information you wanted, provide positive feedback by selecting the thumb-up icon \[Omitted image "now-assist-mc-qna-gr-thumb-up.png"\] Alt text:.
     -   If the answer did not address your question, provide negative feedback by selecting the thumb-down icon \[Omitted image "now-assist-mc-qna-gr-thumb-down.png"\] Alt text:.

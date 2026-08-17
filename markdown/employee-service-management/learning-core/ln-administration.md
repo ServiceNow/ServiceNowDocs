@@ -49,5 +49,7 @@ Configure the learning system so that the schedule flow pulls learning content f
 **Related topics**  
 
 
+[Install Learning Core]()
+
 [Integrating Learning Core with third-party learning management systems]()
 

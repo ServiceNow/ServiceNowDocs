@@ -113,9 +113,9 @@ A case automatically generated to proactively notify and address impacted custom
 
 Glossary terms are grouped alphabetically.
 
-### service level agreement \(SLA\)
+### Service Level Agreement \(SLA\)
 
-An agreement that specifies the time period that a service must be provided within. SLA definitions are configured to include the necessary information to create and manage SLAs for customer service cases.
+A contractual commitment defining service performance standards and service availability guarantees. In Sales Order Management for Telecommunications, global service-agnostic SLAs are negotiated at the sales agreement level and cascade to all service contracts and service orders.
 
 ### service operations workspace
 

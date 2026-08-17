@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/dri-
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -59,7 +59,7 @@ Reporting cases are triggered and reported in Digital resilience incident report
 
 ## States of the case task
 
-1.  **Draft**: Any DIR user can create a DIR case task and assign it to the DIR managers group. A notification is sent to the managers group to assign it to one of the managers. DIR case task can also be created automatically from the IM incidents or SIR incidents if they meet the criteria defined in the creation flow \(Integration with IM or SIR\)
+1.  **Draft**: Any DIR user can create a DIR case task and assign it to the DIR managers group. A notification is sent to the managers group to assign it to one of the managers. DIR case task can also be created automatically from the IM incidents or SIR incidents if they meet the criteria defined in the creation flow.
 2.  **In progress**:
     1.  An action task is created for the DIR case task and assigned to a DIR user.
 
@@ -69,7 +69,7 @@ Reporting cases are triggered and reported in Digital resilience incident report
 
         **Note:** The "Regulatory reporting status" field is now shown on the Details panel of the case form \(or in the Regulation Mappings related list\) and not in a separate "Reporting status" section in the Workspace view of the case.
 
-    3.  If the DIR case task is identified as Reportable, a new action task is created for the initial report assessment with a due date of 24 hrs and is assigned to any DIR user by the DIR manager handling the case.
+    3.  If the DIR case task is identified as Reportable, a new action task is created for the initial report assessment with a due date of 24 hrs. It is assigned to any DIR user by the DIR manager handling the case.
     4.  After the initial report action task is completed and submitted, a new action task for the intermediate report is created with a due date as three days.
     5.  Intermediate report assessments are generated every three days until the source incident is closed \(Incident Management or Security Incident Response\).
 

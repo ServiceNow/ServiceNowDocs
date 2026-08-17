@@ -1,6 +1,6 @@
 ---
 title: Edit translations for Virtual Agent topics
-description: A Virtual Agent admin user can edit and publish translations directly in Virtual Agent Designer.
+description: A Virtual Agent admin user can edit and publish translations directly in Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/edit-translations-va-topics.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Localizing Virtual Agent conversations, Localization options for Vi
 
 # Edit translations for Virtual Agent topics
 
-A Virtual Agent admin user can edit and publish translations directly in Virtual Agent Designer.
+A Virtual Agent admin user can edit and publish translations directly in Assistant Designer Asset library.
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -26,13 +26,13 @@ Role required: virtual\_agent\_admin or admin
 
 1.  Do one of the following:
 
-    -   Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, open a published topic, and then select the **Languages** tab.
+    -   Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**, select the Asset library tab, open a published topic, and then select the **Languages** tab.
     -   \(NLU only\) Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and slide the discovery type toggle switch to **NLU/keyword**. Select **Manage languages** from Resources, and then choose a model, language, and topic.
 2.  In the **Topic translations** column, select **Edit**.
 
     The Edit Translations form opens.
 
-    \[Omitted image "edit-languages-va-topic.png"\] Alt text: Virtual Agent Designer Languages page Translations tab. Lock/unlock and Machine Translate controls, highlighted here, are visible when configured.
+    \[Omitted image "edit-languages-va-topic.png"\] Alt text: Assistant Designer Languages page Translations tab. Lock/unlock and Machine Translate controls, highlighted here, are visible when configured.
 
 3.  On the Edit Translations form, you can do any of the following:
 

@@ -32,6 +32,8 @@ Role required: none
 
 5.  Select **Submit**.
 
+    -   A requested item is created for a catalog item.
+    -   A request is created for an order guide.
 
 **Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
 

@@ -8,8 +8,8 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Configure metadata extraction, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure an extension point to add contract metadata
@@ -31,8 +31,6 @@ Role required: admin
 4.  Select the **Create implementation** related link.
 
 5.  On the Script Include form, fill in the fields.
-
-    \[Omitted image "cmpro-ext-pt-me.png"\] Alt text: Script for adding metadat extraction values in related table.
 
     For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
@@ -62,5 +60,5 @@ For more information on metadata extraction use case mapping, see [Map a use cas
 
 [Enable notification for contract metadata extraction]()
 
-[Configure the workspace URL for contract metadata extraction notifications]()
+[Configure the URL for metadata extraction notifications]()
 

@@ -1,20 +1,20 @@
 ---
 title: Decision tables workflow
-description: Learn how to create and maintain decision tables in Workflow Studio for use in flows, subflows, playbooks, and anywhere on the ServiceNow AI Platform where you write code.
+description: Create and maintain decision tables in Workflow Studio for use in flows, subflows, playbooks, and anywhere on the ServiceNow AI Platform where you write code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-decision-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 2
 breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision tables workflow
 
-Learn how to create and maintain decision tables in Workflow Studio for use in flows, subflows, playbooks,and anywhere on the ServiceNow AI Platform where you write code.
+Create and maintain decision tables in Workflow Studio for use in flows, subflows, playbooks,and anywhere on the ServiceNow AI Platform where you write code.
 
 Decision tables enable you to decouple decision logic from your code. This means that you can create a decision table in Workflow Studio with your application logic and then reference the decision table to execute the logic elsewhere, such as in a flow, playbook, or script. This decoupling enables you to create more efficient and maintainable flows and scripts and allows the decision logic to be managed directly by the relevant business subject matter expert.
 
@@ -26,14 +26,14 @@ The following illustration depicts the process for creating decision tables in W
 
 The workflow for creating decision tables in Workflow Studio is as follows:
 
-1.  A developer is writing a script or authoring a flow or subflow and realizes there is a need for a decision table. Decision tables are a more maintainable solution than hard-coded logic for the following scenarios:
-    -   There is a complex set of conditional, nested if/else or switch statements in the code.
+1.  A developer writing a script or authoring a flow or subflow determines that a decision table is required. Decision tables are a more maintainable solution than hard-coded logic for the following scenarios:
+    -   The code contains a complex set of conditional, nested if/else or switch statements.
     -   The logic powering the code might change frequently.
-    -   There is a need to share the application logic with non-developers in a readable format.
-    -   There is a need for application logic to be managed independently from where it is implemented.
-    -   There is a need for application logic to be managed by non-developers.
-    -   There is a need to apply the same logic in more than one flow, subflow, or script.
-    -   There is application or business logic the developer wants to manage separately from the code.
+    -   The application logic must be shared with non-developers in a readable format.
+    -   The application logic must be managed independently from where it is implemented.
+    -   Non-developers must manage the application logic.
+    -   The same logic must be applied in more than one flow, subflow, or script.
+    -   The developer must manage application or business logic separately from the code.
 2.  The developer creates the decision table in Workflow Studio and adds inputs and result columns \(outputs for the decisions\).
 3.  A developer or a business subject matter expert \(SME\) can perform the next steps.
     1.  Add condition columns to structure the rules.
@@ -44,7 +44,7 @@ The workflow for creating decision tables in Workflow Studio is as follows:
     -   They can create a code snippet of the decision table and insert it into their code.
     -   They can add **Make a decision** logic in their flow or subflow and reference the decision table.
     -   They can add a decision table to a playbook using the **Make a Decision - First Match** activity.
-5.  If the decision table must be updated to reflect new logic, the developer or business SME can create a new draft of the table. They can test the table using the new logic and then publish the new version. To create a Decision Table, See [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
+5.  If the decision table must be updated to reflect updated logic, the developer or business SME can create a draft of the table. They can test the table using the updated logic and then publish the updated version. To create a decision table, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
 
     **Note:** For any decision table that doesn't use draft authoring, any change the developer or business SME makes is automatically active.
 

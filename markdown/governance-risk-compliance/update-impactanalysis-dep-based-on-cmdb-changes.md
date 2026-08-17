@@ -20,7 +20,7 @@ The video shows how BCM Managers can use the CMDB as a source to update dependen
 
 ## Scheduling an auto-update of the dependencies
 
-The BCM administrators can schedule an auto-update of the BIA dependencies in the Impact analysis dependency update configuration module, based on the source data and relationships in the CMDB. You can access the auto-update configuration module by navigating to **Business Continuity Workspace** &gt; **General Administration** &gt; **Impact analysis dependency update configuration**.
+The BCM administrators can schedule an auto-update of the BIA dependencies in the Impact analysis dependency update configuration module, based on CMDB data and relationships. You can access the auto-update configuration module by navigating to **Business Continuity Workspace** &gt; **General Administration** &gt; **Impact analysis dependency update configuration**.
 
 The Impact analysis dependency update configuration module is shown in the example.
 
@@ -42,7 +42,7 @@ For more information on setting up the Impact analysis dependency update configu
 
 ## Using the updated dependencies with the Xanadu release
 
-Beginning with the Xanadu release, you can use the updated dependencies from the latest BIA record to conduct a dependency assessment on an asset. Information from the columns labeled Related item BIA, Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier is used to ascertain the required recovery timeframe and data backup needs, which are then displayed in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
+Beginning with the Xanadu release, you can use updated dependencies from the latest BIA record to conduct a dependency assessment on an asset. The Related item BIA, Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), and Recovery Tier columns determine required recovery timeframes and data backup needs. The details are then displayed in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
 
 For more information on the source BIA records option in the Dependency configuration modules, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 
@@ -58,7 +58,7 @@ The scheduled job is not marked as Active by default. To run the scheduled job a
 
 The application is configured with an out-of-the-box \(OOB\) limit of 1000 Business Impact Analyses \(BIA\) records, as defined by the **sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit** system property. This means that the system processes up to 1000 BIA records only, as it cannot exceed this threshold.
 
-The 1,000 BIA limit applies only if you have more than 1,000 BIAs in the system and have enabled the **Update BIA dependencies snapshot** scheduled job. This scheduled job is inactive by default. If you have enabled it, you must ensure to review the note. The scheduled job processes records only up to the limit defined in the **sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit** property.
+The 1,000 BIA limit applies only if you have more than 1,000 BIAs in the system and have enabled the **Update BIA dependencies snapshot** scheduled job. This scheduled job is inactive by default. If you have enabled it, you must confirm that you review the note. The scheduled job processes records only up to the limit defined in the **sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit** property.
 
 The scheduled job processes a workflow to check for the changes in the relationships and save the dependency updates automatically as shown in the example.
 
@@ -68,10 +68,10 @@ The scheduled job processes a workflow to check for the changes in the relations
 
     **Note:** By default, the scheduled job checks all the BIA records that are not in the **Archived** state for any updated dependencies.
 
-2.  The scheduled job refers to the filter condition that is set in the configuration \(Impact analysis dependency update configuration module\). If the condition matches the BIA record, the scheduled job fetches and stores the dependencies for the BIA in the snapshot record, according to the sources defined in the configuration. If the filter condition does not match the BIA record, the application skips the record.
+2.  The scheduled job refers to the filter condition that is set in the configuration \(Impact analysis dependency update configuration module\). If the condition matches the BIA record, the scheduled job fetches and stores BIA dependencies in the snapshot record based on sources defined in the configuration. If the filter condition does not match the BIA record, the application skips the record.
 3.  The application combines the assets list into a single list that is based on the priority defined in the Impact analysis dependency update configuration module. The application compares the asset list with the existing asset list and assigns either the **Added**, **Updated**, or **Deleted** state to each asset.
 4.  The application also compares the new assets to the assets listed in the Element definition and verifies the element definition condition. The application creates a snapshot of the asset and auto-completes the dependency updates in the Dependency snapshot record.
-5.  When the **Send notification** option is set to **True** in the Impact analysis dependency update configuration module, the users of the BIA record set in the configuration are notified about the dependency updates through the scheduled job.
+5.  When **Send notification** is set to **True** in the Impact analysis dependency update configuration module, users of the BIA record receive notifications about dependency updates via scheduled job.
 6.  When the **Auto-update dependencies** option is set to **True** in the Impact analysis dependency update configuration module, the scheduled job automatically applies the dependencies snapshot to the BIA record.
 7.  As the final step, the scheduled job updates the BIA record according to the fields to be updated in the configuration.
 

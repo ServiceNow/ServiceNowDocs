@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [application and device health, dex pages, service operations workspace, dashboard, insights, application list, device list, administration page, device details]
 breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 ---
 

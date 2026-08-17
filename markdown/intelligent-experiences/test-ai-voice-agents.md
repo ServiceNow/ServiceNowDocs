@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-23"
 reading_time_minutes: 1
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # Test AI voice agents

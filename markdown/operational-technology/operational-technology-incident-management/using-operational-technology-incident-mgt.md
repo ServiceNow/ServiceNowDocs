@@ -16,6 +16,10 @@ breadcrumb: [Operational Technology Incident Management, Operational Technology]
 
 After you complete all required set up tasks for the Operational Technology Incident Management application, you can begin managing OT incidents.
 
+-   **[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)**  
+You can summarize an Operational Technology \(OT\) incident and generate OT resolution notes by using the ServiceNow Otto for Operational Technology \(OT\) Service Management application.
+-   **[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)**  
+Use the Operational Technology Service Management \(OTSM\) AI agent collection to complete tasks autonomously.
 -   **[Managing OT incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/managing-ot-incidents.md)**  
 Depending on your assigned user role, you can manage OT incidents in the Industrial Workspace.
 -   **[Access control for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/access-control-ot-incidents.md)**  

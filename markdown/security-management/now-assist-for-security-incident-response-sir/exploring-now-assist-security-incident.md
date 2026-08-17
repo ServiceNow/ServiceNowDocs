@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Security Incident Response
-description: Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the Now Assist for Security Incident Response application.
+title: Exploring ServiceNow Otto for Security Incident Response \(SIR\)
+description: Security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with ServiceNow Otto for Security Incident Response \(SIR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.html
 release: australia
@@ -8,15 +8,15 @@ product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Now Assist for Security Incident Response, Security Operations]
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Exploring Now Assist for Security Incident Response
+# Exploring ServiceNow Otto for Security Incident Response \(SIR\)
 
-Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the Now Assist for Security Incident Response application.
+Security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with ServiceNow Otto for Security Incident Response \(SIR\).
 
-## Now Assist for Security Incident Response overview
+## ServiceNow Otto for Security Incident Response \(SIR\) overview
 
 With generative AI skills and agentic workflows, your security analysts have the option to:
 
@@ -25,7 +25,7 @@ With generative AI skills and agentic workflows, your security analysts have the
 -   Generate post-incident analysis data.
 -   Generate performance metrics for your remediation teams with an agentic workflow.
 
-    For this feature, the Security operations metrics analysis skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
+    For this feature, the Security operations metrics analysis skill is activated for use with an AI agent. See [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
 -   Generate a resolution plan.
 -   Generate closure notes.
@@ -35,7 +35,7 @@ With generative AI skills and agentic workflows, your security analysts have the
 
 Security analysts can share findings, incident details, and closure notes with other analysts, managers, and key stakeholders.
 
-## Now Assist for Security Incident Response users
+## Users
 
 <table id="table_vxr_4cq_xbc"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Security analysts and managers
 Preview security incident details, see their potential impact, and view the key remediation actions already taken with security incident summaries using generative AI. Summaries and recommended next steps \(actions\) give analysts and managers a head start with their investigations and help with closing security incidents.Automatically generate a draft of closure notes using generative AI. Closure notes for security incidents are created quickly based on remediation and containment activities, in addition to other relevant details that are related to their closure.
 
 </td></tr></tbody>
-</table>## Now Assist for Security Incident Response benefits
+</table>## Benefits
 
 <table id="table_yxr_4cq_xbc"><thead><tr><th>
 
@@ -151,11 +151,11 @@ Security managers
 
 </td></tr><tr><td>
 
-Learn about the details of a security incident quickly by accessing summaries and closure notes from the Now Assist panel.
+Learn about the details of a security incident quickly by accessing summaries and closure notes from the ServiceNow Otto panel.
 
 </td><td>
 
-Access the generative AI summary and closure notes from the Now Assist panel. Type in requests for more basic information about security incidents in the panel.
+Access the generative AI summary and closure notes from the ServiceNow Otto panel. Type in requests for more basic information about security incidents in the panel.
 
 </td><td>
 
@@ -189,14 +189,14 @@ admin
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist for Security Incident Response, see:
+To learn more about configuring and using ServiceNow Otto for Security Incident Response \(SIR\), see:
 
--   [Configuring Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
--   [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
--   [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
--   [Generate correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md)
--   [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
--   [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
--   [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md)
--   [Inputs and triggers for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.md)
+-   [Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
+-   [Summarize a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+-   [Generate closure notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+-   [Generate correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md)
+-   [Generate recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+-   [Generate a post-incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+-   [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md)
+-   [Inputs and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.md)
 

@@ -35,7 +35,7 @@ To manage RIDAC in your project:
 -   [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/convert-ridac-project-workspace.md)
 
 -   **[Generate, accept, and reject risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-risks-using-ai-pw.md)**  
-Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
+Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, milestones, and work notes.
 -   **[Create RIDAC records from RIDAC by Type page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-ridac-pw.md)**  
 Create and manage RIDAC records organized by type in Project Workspace.
 -   **[Add RIDAC records to projects from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-risk-project-project-workspace.md)**  

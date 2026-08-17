@@ -31,7 +31,7 @@ The SSHCommand probe computes the default path from the following sources.
 The SSHCommand probe supports the following scripting options in the ECC queue name field.
 -   **[Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-probe-commands.md)**  
 These tables display the SSH commands run by Discovery probes on target devices during horizontal discovery. These SSH commands don’t require elevated privileges to run.
--   **[SSH commands requiring a privileged user during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md)**  
+-   **[Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-command-require-priv.md)**  
 These tables display the SSH commands run by Discovery probes during horizontal discovery. These SSH commands require elevated privileges to run.
 
 **Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)

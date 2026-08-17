@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for Process Mining, Use, Process Mining, Platform Analytics]
+breadcrumb: [Use, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
 # Run intent and activity analysis
@@ -55,5 +55,5 @@ You can run an intent and activity analysis from Analyst workbench or Opportunit
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
 

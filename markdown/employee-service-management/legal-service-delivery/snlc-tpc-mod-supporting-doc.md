@@ -36,15 +36,15 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d390504e118">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d390364e118">
 
 Action
 
-</th><th align="left" id="d390504e121">
+</th><th align="left" id="d390364e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d390504e127">
+</th></tr></thead><tbody><tr><td id="d390364e127">
 
 **Add supporting documents**
 
@@ -77,7 +77,7 @@ This option is available only when external storage is enabled. The **External s
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d390504e279">
+</td></tr><tr><td id="d390364e279">
 
 **Reclassify supporting documents**
 
@@ -85,7 +85,7 @@ This option is available only when external storage is enabled. The **External s
 
 [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d390504e293">
+</td></tr><tr><td id="d390364e293">
 
 **Remove the supporting document**
 

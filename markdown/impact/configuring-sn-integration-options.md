@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configuring-sn-integration-options.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-07-27"
 reading_time_minutes: 2
 breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
@@ -16,7 +16,7 @@ Configure the ServiceNow instance user story integration to create stories in a 
 
 ## Before you begin
 
--   My SN Instances registration and authentication must be complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+-   My SN Instances registration and validation must be complete for each instance in this integration. A source instance \(such as development\) and target instance \(such as production\) must be declared and validated. If those instances aren't created and validated, the stories will not be created in the target instance. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
 -   The User Story Table must exist on both the source and target instances before configuring field mappings.
 
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).

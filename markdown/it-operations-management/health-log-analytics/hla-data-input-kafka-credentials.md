@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Apache Kafka data input configuration fields, Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -44,7 +44,62 @@ SASL Mechanism
 
 </td><td>
 
-The SASL authentication mechanism to be used by the Kafka client. Default: PLAIN.
+The SASL authentication mechanism to be used by the Kafka client. The options are: -   PLAIN
+-   SCRAM-SHA-256
+-   SCRAM-SHA-512
+-   OAUTHBEARER
+
+Default: PLAIN.
+
+</td></tr><tr><td>
+
+Token endpoint URL
+
+</td><td>
+
+The token provider URL where credentials are sent to fetch access tokens. This value is defined in the client properties file.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+Client ID
+
+</td><td>
+
+Unique, public identifier for the application. The authorization server uses it to recognize the calling application. This value is defined in the client properties file.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+Client Secret
+
+</td><td>
+
+Private password known only to the application and the authorization server. Used to prove the application's identity. This value is defined in the client properties file.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+Scope
+
+</td><td>
+
+Defines the level of access or permissions requested by the application.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+OAUTH extensions
+
+</td><td>
+
+Custom metadata or additional parameters for the token request or validation process, in key-value pairs.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -102,6 +157,8 @@ User name
 
 The user name, if any, associated with this credential.**Note:** The specified user name is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 
+This field does not appear when the **SASL Mechanism** is **OAUTHBEARER**.
+
 </td></tr><tr><td>
 
 Password
@@ -112,6 +169,8 @@ The password associated with this credential.**Note:**
 
 -   The specified password is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 -   The password you specify is invisible. It is stored in the database in encrypted form.
+
+This field does not appear when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -140,19 +199,66 @@ Semicolon-separated string of additional Kafka consumer properties. For example:
 
 </th></tr></thead><tbody><tr><td>
 
-SASL mechanism
+SASL Mechanism
 
 </td><td>
 
-The SASL authentication mechanism to be used by the Kafka client. Default: PLAIN.
+The SASL authentication mechanism to be used by the Kafka client. The options are: -   PLAIN
+-   SCRAM-SHA-256
+-   SCRAM-SHA-512
+-   OAUTHBEARER
+
+Default: PLAIN.
 
 </td></tr><tr><td>
 
-Use SSL truststore
+Token endpoint URL
 
 </td><td>
 
-Option to use SSL truststore. When checked, an SSL truststore is mandatory.
+The token provider URL where credentials are sent to fetch access tokens. This value is defined in the client properties file.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+Client ID
+
+</td><td>
+
+Unique, public identifier for the application. The authorization server uses it to recognize the calling application. This value is defined in the client properties file.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+Client Secret
+
+</td><td>
+
+Private password known only to the application and the authorization server. Used to prove the application's identity. This value is defined in the client properties file.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+Scope
+
+</td><td>
+
+Defines the level of access or permissions requested by the application.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
+
+</td></tr><tr><td>
+
+OAUTH extensions
+
+</td><td>
+
+Custom metadata or additional parameters for the token request or validation process, in key-value pairs.
+
+This field appears only when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -161,6 +267,8 @@ User name
 </td><td>
 
 The user name, if any, associated with this credential.**Note:** The specified user name is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
+
+This field does not appear when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 
@@ -172,6 +280,8 @@ The password associated with this credential.**Note:**
 
 -   The specified password is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 -   The password you specify is invisible. It is stored in the database in encrypted form.
+
+This field does not appear when the **SASL Mechanism** is **OAUTHBEARER**.
 
 </td></tr><tr><td>
 

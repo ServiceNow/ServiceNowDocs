@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Field settings, Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Field settings, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # List of AI Search indexed source field settings

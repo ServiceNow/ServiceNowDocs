@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-09-10"
 reading_time_minutes: 2
 keywords: [Exploring, Now Assist, Virtual Agent, LLM, NLU, Natural Language Understanding, Large language model]
-breadcrumb: [Exploring Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Exploring ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Assistant Designer
@@ -21,7 +21,7 @@ To access Assistant Designer navigate to **All** &gt; **Assistant Designer**.
 
 Assistant Designer is comprised of three main areas:
 
-1.  Assistants: From the **Assistants** tab, an admin creates, manages, and tests assistants. Voice assistants can't be tested within Assistant Designer at this time. Assistant Designer is only available if you have installed a Now Assist product. Customers who are only using Natural Language Understanding \(NLU\) can't access Assistant Designer. For more information about configuring chat or voice assistants, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+1.  Assistants: From the **Assistants** tab, an admin creates, manages, and tests assistants. Voice assistants can't be tested within Assistant Designer at this time. Assistant Designer is only available if you have installed a ServiceNow Otto product. Customers who are only using Natural Language Understanding \(NLU\) can't access Assistant Designer. For more information about configuring chat or voice assistants, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 2.  Asset library: The **Asset library** tab opens the Virtual Agent Designer home page where you can create NLU/Keyword topics and LLM assets. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 3.  Analytics: Monitor, evaluate, and optimize the performance of your chat and voice assistants from the **Analytics** tab. For more information, see .
 
@@ -43,7 +43,7 @@ Virtual Agent
 
 Virtual Agent provides user assistance through conversations within an intelligent messaging interface. It helps solve ordinary issues and delivers results for common requests, increasing the productivity of agents and technicians. Virtual Agent supports both large language model \(LLM\) and Natural Language Understanding \(NLU\) topic discovery.
 
- Assistant Designer only supports LLM conversations in Now Assist in Virtual Agent.
+ Assistant Designer only supports LLM conversations in ServiceNow Otto for Virtual Agent.
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Assistant
 
 </td><td>
 
-An assistant is the container for the end-to-end administrative configuration for Now Assist in Virtual Agent. It's a Now Assist in Virtual Agent chat or voice conversation. An administrator can create multiple Now Assist in Virtual Agent assistants.
+An assistant is the container for the end-to-end administrative configuration for ServiceNow Otto for Virtual Agent. It's a ServiceNow Otto for Virtual Agent chat or voice conversation. An administrator can create multiple ServiceNow Otto for Virtual Agent assistants.
 
  By placing assistants in various channels such as a portal, mobile app, Microsoft Teams, and Sidebar discussions, any user benefits from the assistants.
 

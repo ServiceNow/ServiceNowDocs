@@ -67,7 +67,7 @@ A JWT key created for Card Data Security. See [Set up a JWT key](https://raw.git
 
 5.  Do the following in the **Standard Claims** related list.
 
-<table id="choicetable_cxk_mzn_kjc"><tbody><tr><td id="d81076e323">
+<table id="choicetable_cxk_mzn_kjc"><tbody><tr><td id="d80103e323">
 
 **Card network \(Visa, Mastercard\)**
 
@@ -78,7 +78,7 @@ A JWT key created for Card Data Security. See [Set up a JWT key](https://raw.git
 3.  In the `sub` record, update the **Claim Value** with a descriptive name.
 
 
-</td></tr><tr><td id="d81076e374">
+</td></tr><tr><td id="d80103e374">
 
 **Verifi**
 

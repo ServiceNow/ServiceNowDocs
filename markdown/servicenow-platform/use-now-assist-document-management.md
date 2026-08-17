@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use Now Assist in Document Management

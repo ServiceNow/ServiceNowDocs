@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Approvals, Procurement Workspace, Source-to-Pay Workspace, Supplier Lifecycle Operations, Approve request, supplier user]
 breadcrumb: [Supplier contact self-registration process, Supplier contact self-registration, Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

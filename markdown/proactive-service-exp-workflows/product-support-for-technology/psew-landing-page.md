@@ -1,6 +1,6 @@
 ---
 title: Proactive Service Experience Workflows
-description: The Proactive Service Experience Workflows application enables service providers to deliver comprehensive support while understanding customer impact and maintaining transparent communication with all parties involved in the support process.
+description: The Proactive Service Experience Workflows application enables service providers to deliver comprehensive support while understanding customer impact and maintaining transparent communication with all parties involved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Product Support for Technology]
 
 # Proactive Service Experience Workflows
 
-The Proactive Service Experience Workflows application enables service providers to deliver comprehensive support while understanding customer impact and maintaining transparent communication with all parties involved in the support process.
+The Proactive Service Experience Workflows application enables service providers to deliver comprehensive support while understanding customer impact and maintaining transparent communication with all parties involved.
 
 ## Get started
 

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Search profiles, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Genius Results
@@ -24,7 +24,7 @@ To use a Genius Result configuration in searches, link it to one or more of your
 
 AI Search evaluates active Genius Result configurations for a search profile in an order determined by their numeric **Order** field values, as defined in the search profile's Genius Results related list. Genius Result configurations with lower **Order** field values are evaluated before those with higher field values. As an example, a Genius Result configuration with **Order** 100 is evaluated before one with **Order** 200. To learn how to change the evaluation order, see [Set the evaluation order for Genius Result configurations in a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/set-gr-eval-order-srch-profile-ais.md).
 
-**Note:** **Order** field values for linked Genius Result configurations are set separately for each search profile. A Genius Result configuration that's linked to multiple search profiles can have a different **Order** field value in each profile. For instance, you might set an **Order** value of 100 for the Q&amp;A Genius Result configuration in one search profile but set a value of 750 for the same Genius Result configuration in a second search profile that it's linked to.
+**Note:** **Order** field values for linked Genius Result configurations are set separately for each search profile. A Genius Result configuration that's linked to multiple search profiles can have a different **Order** field value in each profile. For instance, you might set an **Order** value of 100 for the Knowledge base articles Genius Result configuration in one search profile but set a value of 750 for the same Genius Result configuration in a second search profile that it's linked to.
 
 A search application configuration's **Genius Results Limit** field value specifies the maximum number of Genius Result cards the application can display. For more details on search application configuration settings, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-app-config-form-ais.md).
 

@@ -1,20 +1,21 @@
 ---
-title: Explore Manufacturing Commercial Operations
-description: Learn how the Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
+title: Exploring Manufacturing Commercial Operations
+description: The Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/manufacturing-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [MCO overview, MCO product overview, MCO introduction]
 breadcrumb: [Manufacturing Commercial Operations]
 ---
 
-# Explore Manufacturing Commercial Operations
+# Exploring Manufacturing Commercial Operations
 
-Learn how the Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
+The Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
 
-## Overview of Manufacturing Commercial Operations
+## Overview of MCO
 
 The Manufacturing Commercial Operations product offers a single platform to manage your sales, support, and service operations. You can manage the end-to-end life cycle of your products, promotions, and services. Key benefits of the Manufacturing Commercial Operations include:
 
@@ -36,7 +37,7 @@ The Manufacturing Commercial Operations product offers a single platform to mana
 
 -   **Dealer portal**
 
-    Access real-time information about the ongoing and upcoming product recall and sales promotions. Better engagement with the dealer and channel partner through the dealer portal.
+    Access real-time information about the ongoing and upcoming product recall and sales promotions. Engage dealers and channel partners more effectively through the dealer portal.
 
 -   **Optimize lead-to-cash operations**
 
@@ -44,14 +45,14 @@ The Manufacturing Commercial Operations product offers a single platform to mana
 
 -   **Quality issue management**
 
-    Drive measurable quality and cost improvements by enabling structured issue intake, faster resolution, and prevention of recurring quality issues across the product life cycle.
+    Drive measurable quality and cost improvements by enabling structured issue intake, faster resolution, and help prevent recurring quality issues across the product life cycle.
 
--   **Improve agility and savings with automated exceptions and disputes workflows**
+-   **Improve agility and savings with automated exception and dispute workflows**
 
     Automate the order exception and invoice dispute management processes by fusing customers, ServiceNow® Original Equipment Manufacturers \(OEMs\), channels, and partners with one system of engagement and action.
 
 
-## Manufacturing Commercial Operations users
+## MCO users
 
 <table id="table_jlz_lyt_q2c"><thead><tr><th>
 
@@ -63,6 +64,10 @@ Persona
 
 </th><th>
 
+Internal name
+
+</th><th>
+
 Description
 
 </th></tr></thead><tbody><tr><td>
@@ -71,7 +76,11 @@ Admin
 
 </td><td>
 
-Manufacturing Operations Admin\[sn\_mfg\_cmn.manufacturing\_operations\_admin\]
+Manufacturing Operations Admin
+
+</td><td>
+
+\[sn\_mfg\_cmn.manufacturing\_operations\_admin\]
 
 </td><td>
 
@@ -83,7 +92,11 @@ OEM
 
 </td><td>
 
-Sales Promotion Manager\[sn\_sales\_prm\_mgmt.sales\_promotion\_manager\]
+Sales Promotion Manager
+
+</td><td>
+
+\[sn\_sales\_prm\_mgmt.sales\_promotion\_manager\]
 
 </td><td>
 
@@ -95,7 +108,11 @@ OEM
 
 </td><td>
 
-Claims Agent\[sn\_claim\_cmn.claims\_agent\]
+Claims Agent
+
+</td><td>
+
+\[sn\_claim\_cmn.claims\_agent\]
 
 </td><td>
 
@@ -107,7 +124,11 @@ OEM
 
 </td><td>
 
-Recall Manager\[sn\_rcl\_claim\_mgmt.recall\_manager\]
+Recall Manager
+
+</td><td>
+
+\[sn\_rcl\_claim\_mgmt.recall\_manager\]
 
 </td><td>
 
@@ -119,7 +140,11 @@ OEM
 
 </td><td>
 
-Recall Phase Owner\[sn\_rcl\_claim\_mgmt.recall\_phase\_owner\]
+Recall Phase Owner
+
+</td><td>
+
+\[sn\_rcl\_claim\_mgmt.recall\_phase\_owner\]
 
 </td><td>
 
@@ -131,7 +156,11 @@ OEM
 
 </td><td>
 
-Warranty Specialist\[sn\_claim\_cmn.warranty\_specialist\]
+Warranty Specialist
+
+</td><td>
+
+\[sn\_claim\_cmn.warranty\_specialist\]
 
 </td><td>
 
@@ -143,7 +172,11 @@ Dealer
 
 </td><td>
 
-Dealer Sales Agent\[sn\_dealer\_mgmt.dealer\_sales\_agent\]
+Dealer Sales Agent
+
+</td><td>
+
+\[sn\_dealer\_mgmt.dealer\_sales\_agent\]
 
 </td><td>
 
@@ -155,7 +188,11 @@ Dealer
 
 </td><td>
 
-Dealer Operations Admin\[sn\_dealer\_mgmt.dealer\_operations\_admin\]
+Dealer Operations Admin
+
+</td><td>
+
+\[sn\_dealer\_mgmt.dealer\_operations\_admin\]
 
 </td><td>
 
@@ -167,7 +204,11 @@ Dealer
 
 </td><td>
 
-Dealer Service Advisor\[sn\_dealer\_mgmt.dealer\_service\_advisor\]
+Dealer Service Advisor
+
+</td><td>
+
+\[sn\_dealer\_mgmt.dealer\_service\_advisor\]
 
 </td><td>
 
@@ -184,6 +225,10 @@ Persona
 
 </th><th>
 
+Internal Name
+
+</th><th>
+
 Description
 
 </th></tr></thead><tbody><tr><td>
@@ -192,7 +237,11 @@ Admin
 
 </td><td>
 
-Quality Issue Management Admin\[sn\_mfg\_qm.admin\]
+Quality Issue Management Admin
+
+</td><td>
+
+\[sn\_mfg\_qm.admin\]
 
 </td><td>
 
@@ -204,7 +253,11 @@ OEM
 
 </td><td>
 
-Product Non-conformance Triage\[sn\_mfg\_qm.triager\]
+Product Non-conformance Triager
+
+</td><td>
+
+\[sn\_mfg\_qm.triager\]
 
 </td><td>
 
@@ -216,7 +269,11 @@ OEM
 
 </td><td>
 
-Product Non-conformance Resolver\[sn\_mfg\_qm.resolver\]
+Product Non-conformance Resolver
+
+</td><td>
+
+\[sn\_mfg\_qm.resolver\]
 
 </td><td>
 
@@ -228,7 +285,11 @@ OEM
 
 </td><td>
 
-Product Quality Investigation Member\[sn\_mfg\_qm.investigation\_member\]
+Product Quality Investigation Member
+
+</td><td>
+
+\[sn\_mfg\_qm.investigation\_member\]
 
 </td><td>
 
@@ -240,7 +301,11 @@ OEM
 
 </td><td>
 
-Product Quality Investigation Lead\[sn\_mfg\_qm.investigation\_lead\]
+Product Quality Investigation Lead
+
+</td><td>
+
+\[sn\_mfg\_qm.investigation\_lead\]
 
 </td><td>
 
@@ -252,7 +317,11 @@ OEM
 
 </td><td>
 
-Remediation Plan Approver\[sn\_mfg\_qm.remediation\_plan\_approver\]
+Remediation Plan Approver
+
+</td><td>
+
+\[sn\_mfg\_qm.remediation\_plan\_approver\]
 
 </td><td>
 
@@ -264,7 +333,11 @@ OEM
 
 </td><td>
 
-Finance Approver\[sn\_mfg\_qm.finance\_approver\]
+Finance Approver
+
+</td><td>
+
+\[sn\_mfg\_qm.finance\_approver\]
 
 </td><td>
 
@@ -276,7 +349,11 @@ Dealer
 
 </td><td>
 
-Product Non-conformance Submitter\[sn\_mfg\_qm.submitter\]
+Product Non-conformance Submitter
+
+</td><td>
+
+\[sn\_mfg\_qm.submitter\]
 
 </td><td>
 
@@ -295,7 +372,9 @@ Manufacturing Commercial Operations unifies operational domains on a single plat
 -   Seamless collaboration between dealers, service providers, and customers
 -   Revenue optimization by converting service events into sales opportunities
 
-## Manufacturing Commercial Operations benefits
+## Benefits
+
+The MCO delivers measurable benefits across sales promotions, warranty and recall claims, quality issue resolution, and dealer engagement. The following table maps each benefit to its supporting feature and the personas who use it.
 
 <table id="table_atr_j5s_k2c"><thead><tr><th>
 
@@ -315,7 +394,7 @@ Create, manage, and resolve sales promotion campaigns. Support bulk uploads for 
 
 </td><td>
 
-[Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sls-prom-clms.md)
+[Sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sls-prom-clms.md)
 
 </td><td>
 
@@ -404,7 +483,7 @@ Manage order to cash operations. Launch new services and subscriptions. Capture 
 
 Order to cash operations
 
- See, [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
+ See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
 
 </td></tr><tr><td>
 
@@ -414,7 +493,7 @@ Provide self-service capabilities and support requests for products, subscriptio
 
 Channel Support Operations
 
- See, [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
+ See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/additional-features.md)
 
 </td></tr></tbody>
 </table>## What to explore next

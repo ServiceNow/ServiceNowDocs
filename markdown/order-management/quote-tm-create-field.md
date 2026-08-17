@@ -1,18 +1,18 @@
 ---
 title: Create a transaction field
-description: Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in ServiceNow CPQ.
+description: Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-field.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 5
-breadcrumb: [Fields, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Fields, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction field
 
-Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in ServiceNow CPQ.
+Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
 
 ## Before you begin
 
@@ -71,7 +71,7 @@ Fields created through the ServiceNow Quote Experience administration interface 
 18. Select the form the number field takes.
 
     -   Select **Number** for a plain numeric value.
-    -   Select **Currency** for a monetary value. The unit label defaults to the currency symbol configured for your ServiceNow CPQ site.
+    -   Select **Currency** for a monetary value. The unit label defaults to the currency symbol configured for your CPQ site.
     -   Select **Percentage** for a percentage value. The unit label defaults to the percent symbol \(%\).
 19. In the **Unit Label** field, enter a custom label to display alongside the number value.
 
@@ -111,7 +111,7 @@ Fields created through the ServiceNow Quote Experience administration interface 
     |--------|-----------|
     |**Order**|Controls the position of this option in the picklist. Lower numbers appear higher in the list. Use increments of 10 \(10, 20, 30\) rather than 1, 2, 3 to leave room for inserting options later.|
     |**Option Label**|The option name displayed to users on the quote layout.|
-    |**Option Value**|The internal value that ServiceNow CPQ uses to identify this option in rules and integrations.|
+    |**Option Value**|The internal value that CPQ uses to identify this option in rules and integrations.|
     |**Selected**|When enabled, this option is the default selected value when a new quote is created.|
     |**Description**|An optional description of the option, visible in the administration interface.|
     |**Image URL**|The URL of a image to display in place of the option label text on the quote layout.|

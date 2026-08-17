@@ -34,7 +34,7 @@ For automatic generation of the entities, see [Generate entities automatically u
 
 3.  On the form, fill in the fields.
 
-    The form for creating a business service is shown in the example. For information on the fields in the record form, see [Create New Business Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-service-form.md) and [Create New Business Process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-process-form.md).
+    The form for creating a business service is shown in the example. For information on the fields in the record form, see [Create Business Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-service-form.md) and [Create Business Process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-process-form.md).
 
     \[Omitted image "add-ent-manually-opres-ws-2.png"\] Alt text: Create a new business service.
 

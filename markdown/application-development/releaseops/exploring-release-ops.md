@@ -29,6 +29,12 @@ Releases are managed from your production instance, where the playbook is execut
 
 ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
 
+## AI features in ReleaseOps
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+ReleaseOps contains AI features that enable you to generate release notes and update set descriptions. For more information, see [Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md).
+
 ## ReleaseOps users
 
 <table id="table_o3d_jq4_zfc"><thead><tr><th>

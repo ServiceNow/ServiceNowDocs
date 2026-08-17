@@ -1,5 +1,5 @@
 ---
-title: Discovery's contribution to Tag Governance
+title: Discovering tags
 description: The Discovery and Cloud Discovery features discover all resources in the CMDB as well as cloud resources from cloud providers such as Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud Platform \(GCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/tag-governance-and-discovery.html
@@ -9,10 +9,10 @@ classification: tag-governance
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Explore, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery's contribution to Tag Governance
+# Discovering tags
 
 The Discovery and Cloud Discovery features discover all resources in the CMDB as well as cloud resources from cloud providers such as Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud Platform \(GCP\).
 

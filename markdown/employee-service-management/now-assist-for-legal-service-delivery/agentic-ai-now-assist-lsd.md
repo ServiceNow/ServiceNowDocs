@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)
+title: Using agentic workflow in ServiceNow Otto for Legal Service Delivery \(LSD\)
 description: Use agentic workflows for Legal Service Delivery to analyze general legal requests, predict the appropriate legal category, and initiate a transfer after confirmation from the legal fulfiller or group manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.html
@@ -9,11 +9,11 @@ classification: now-assist-for-legal-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI, AI Agents]
-breadcrumb: [Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI, AI Agents]
+breadcrumb: [ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)
+# Using agentic workflow in ServiceNow Otto for Legal Service Delivery \(LSD\)
 
 Use agentic workflows for Legal Service Delivery to analyze general legal requests, predict the appropriate legal category, and initiate a transfer after confirmation from the legal fulfiller or group manager.
 
@@ -35,7 +35,7 @@ Triage legal requests
 
 </td><td>
 
-Uses AI agents to analyze general legal requests, predict the appropriate legal category, and initiate a transfer upon a confirmation from the legal fulfiller. The agentic workflow enhances response times, reduces manual tasks, and improves overall productivity.**Note:** The agentic workflow is triggered in the Now Assist panel. It is not supported in the Virtual Agent panel.
+Uses AI agents to analyze general legal requests, predict the appropriate legal category, and initiate a transfer upon a confirmation from the legal fulfiller. The agentic workflow enhances response times, reduces manual tasks, and improves overall productivity.**Note:** The agentic workflow is triggered in the ServiceNow Otto panel. It is not supported in the Virtual Agent panel.
 
 </td><td>
 
@@ -45,7 +45,7 @@ Uses AI agents to analyze general legal requests, predict the appropriate legal 
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
 
-For more information on the AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+For more information on the AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 To modify an agentic workflow, you must first duplicate it, and then update it. For more information, see:
 
@@ -58,10 +58,10 @@ To modify an agentic workflow, you must first duplicate it, and then update it. 
 -   When you modify an agentic workflow, AI agents, or tools, make sure that you update all instructions accordingly.
 -   If you have a customized triage legal request agentic use case, update the script include of the business rule with the sys\_id of the customized use case. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.md).
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **[Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/trans-legal-request-agent.md)**  
 Use the Triage legal requests agentic workflow to predict the appropriate legal category and to initiate a transfer after a confirmation from the legal fulfiller or group manager.
 
-**Parent Topic:**[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+**Parent Topic:**[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

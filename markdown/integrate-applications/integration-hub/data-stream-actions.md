@@ -56,13 +56,13 @@ Data Stream actions follow a set structure. Follow prompts to add and remove ste
 
 ## Action error evaluation
 
-Use error evaluation to catch step errors and specify the error behavior of each step you add to a data stream action. You can also create your own error conditions by specifying when an action returns an error state as well as the status codes and messages they return.
+Use [error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md) to catch step errors and specify the error behavior of each step you add to a data stream action. You can also create your own error conditions by specifying when an action returns an error state as well as the status codes and messages they return.
 
 ## Action Preprocessing
 
 Use the Action Preprocessing category to retrieve connection and credential details or to run a preprocessing script.
 
-Select **Retrieve connection info** to retrieve connection and credential details to use in your action. Selecting this option adds the Get Connection Info step as the first step in the action preprocessing. For more information, see .
+Select **Retrieve connection info** to retrieve connection and credential details to use in your action. Selecting this option adds the Get Connection Info step as the first step in the action preprocessing. For more information, see [Get Connection Info step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/get-connection-info-action-designer.md).
 
 Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md).
 
@@ -116,7 +116,7 @@ Use the Parsing category to configure how the action separates data stream eleme
 
 \[Omitted image "data-stream-split-parse.png"\] Alt text: Splitting and parsing a stream of user records.
 
-For more information about complex data, see Complex data. Parsing components provide these configuration options.
+For more information about complex data, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/complex-data.md). Parsing components provide these configuration options.
 
 -   **Splitter step**
 
@@ -172,7 +172,7 @@ You can adjust timeout values for JDBC operations with the following properties.
 
 When designing a Data Stream action, you must create a single output of type Object or Dynamic Object. The Script Parser step maps items in the stream to this object using the `targetObject` global object.
 
-At runtime, the system splits and parses the stream of response data according to the Data Stream configuration. Each item in the stream maps to the complex object structure defined by the Script Parser step and the object output, resulting in a large series of complex objects. For more information about complex data, see Complex data.
+At runtime, the system splits and parses the stream of response data according to the Data Stream configuration. Each item in the stream maps to the complex object structure defined by the Script Parser step and the object output, resulting in a large series of complex objects. For more information about complex data, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/complex-data.md).
 
 ## Data Stream outputs in JDBC step
 

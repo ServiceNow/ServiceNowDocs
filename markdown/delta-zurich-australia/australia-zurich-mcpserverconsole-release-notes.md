@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-mcpserverconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -227,7 +227,7 @@ Zurich
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=zurich&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=zurich&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ Australia
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=australia&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=australia&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -372,7 +372,11 @@ Zurich
 
 </td><td>
 
+-   Unify the MCP Server creation process by embedding OAuth Client registration directly within the MCP Server Console wizard. This eliminates the need for users to switch contexts between multiple consoles.
+-   Enable administrators to configure annotations across all supported tool types. Annotations will be included in the tools/list response per MCP specification, allowing MCP clients like Claude to apply correct permission policies.
 -   Get started with the preconfigured Quickstart Server for looking up and summarizing incident and case records.
+-   Create MCP apps to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
+-   Integrate third-party identity provider \(IDP\) with MCP server to support users authentication through a third-party \(IDP\).
 -   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
 -   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 
@@ -384,7 +388,11 @@ Australia
 
 </td><td>
 
+-   Unify the MCP Server creation process by embedding OAuth Client registration directly within the MCP Server Console wizard. This eliminates the need for users to switch contexts between multiple consoles.
+-   Enable administrators to configure annotations across all supported tool types. Annotations will be included in the tools/list response per MCP specification, allowing MCP clients like Claude to apply correct permission policies.
 -   Get started with the preconfigured Quickstart Server for looking up and summarizing incident and case records.
+-   Create MCP apps to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
+-   Integrate third-party identity provider \(IDP\) with MCP server to support users authentication through a third-party \(IDP\).
 -   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
 -   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 

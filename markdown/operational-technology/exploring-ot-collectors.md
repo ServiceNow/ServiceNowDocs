@@ -20,7 +20,7 @@ The OT Discovery Collector is a lightweight software application that is used to
 
 ## Appliances records
 
-The OT Discovery Collector is listed on the Appliances page separately from the Discovery Sensor for OT. If you select the Collector name from the list, you can open that Collector record. You can perform the same actions with the Collector as you would with the Sensor. However, you aren't required to register a Collector to the Discovery Console for OT. See [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and [Edit an Appliance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for more information.
+The OT Discovery Collector is listed on the Appliances page separately from the Discovery Sensor for OT. If you select the Collector name from the list, you can open that Collector record. You can perform the same actions with the Collector as you would with the Sensor. However, you aren't required to register a Collector to the Discovery Console for OT. For more information see, [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md) and [Edit an Appliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-an-appliance.md)
 
 ## What to explore next
 
@@ -28,4 +28,6 @@ For more information about the OT Discovery Collector or to get help with the ap
 
 -   [Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+
+**Parent Topic:**[Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-collectors-landing.md)
 

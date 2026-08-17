@@ -9,7 +9,7 @@ classification: now-assist-for-fsc-common
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configure, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
+breadcrumb: [Configure, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
 
 # Customize supplier summarization for fulfillers skill
@@ -18,21 +18,23 @@ If you have the admin role, you can customize the supplier summarization for ful
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
+From the AI Admin Hub, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-2.  In the **Finance and Supply Chain** workflow group, select **Common Finance and Supply Chain features** to view the skills for the Now Assist for Common Finance and Supply Chain features.
+2.  Select the **AI Skills** tab.
 
-3.  Create a copy of a skill and customize the input fields.
+3.  In the **Finance and Supply Chain** workflow group, select **Common Finance and Supply Chain features** to view the AI skills for Common Finance and Supply Chain features.
+
+4.  Create a copy of a skill and customize the input fields.
 
     1.  On the Supplier summarization for fulfillers feature card, select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
@@ -40,7 +42,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
 
-4.  In the General details step, fill in the fields.
+5.  In the General details step, fill in the fields.
 
     For information about the inputs and triggers for each skill, see [Skill inputs for Supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-na-fsc-supplier.md).
 
@@ -48,7 +50,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     2.  Select **Save and continue** to go to the next step.
 
-5.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
+6.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
 
     Configure the base input table fields and related lists for the different input templates for the skill.
 
@@ -109,7 +111,7 @@ Description of the base input field value.
 
     4.  Select **Save and continue** to go to the next step.
 
-6.  Customize prompt output.
+7.  Customize prompt output.
 
     Select **Active** and **Save and continue**.
 
@@ -119,7 +121,7 @@ Description of the base input field value.
     -   **Procurement Specialist specific details**
     -   **AP specialist specific details**
     -   **Supplier Manager specific details**
-7.  Define how the skill is available to your users.
+8.  Define how the skill is available to your users.
 
     1.  Configure the skill to be always available to users, or select conditions that must be met before the skill is available.
 
@@ -127,13 +129,13 @@ Description of the base input field value.
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Define who can access this skill.
+9.  Define who can access this skill.
 
     1.  Edit the Access control lists \(ACLs\) to determine who has access to this skill \(optional\).
 
     2.  Select **Save and continue** to go to the next step.
 
-9.  Review and activate the skill.
+10. Review and activate the skill.
 
     Review your choices and select **Activate** to complete the skill customization.
 
@@ -143,10 +145,12 @@ Description of the base input field value.
 -   **[Skill inputs for Supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-na-fsc-supplier.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
-**Parent Topic:**[Configuring Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
 
 **Related topics**  
 
 
-[Customize a Now Assist for Common Finance and Supply Chain features skill]()
+[Customize a generative AI skill]()
+
+[Plugins for AI capabilities in Finance and Supply Chain]()
 

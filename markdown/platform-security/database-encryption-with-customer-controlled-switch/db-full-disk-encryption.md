@@ -16,7 +16,7 @@ breadcrumb: [Encryption]
 
 ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 
-**Important:** Starting with the Washington DC release, Database Encryption is being prepared for future deprecation. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

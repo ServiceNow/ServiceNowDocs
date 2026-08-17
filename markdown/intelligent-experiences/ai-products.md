@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-products.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-14"
 reading_time_minutes: 11
 ---
 
@@ -14,6 +14,8 @@ reading_time_minutes: 11
 Take advantage of artificial intelligence-based tools to prioritize and automate routine tasks,  detect major incidents, and surface insights.
 
 ## Get started
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 Choose one of these tiles to get started.
 
@@ -31,7 +33,7 @@ Choose one of these tiles to get started.
 
 </td></tr><tr><td>
 
-[Now Assist Admin\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use a personalized generative AI assistant and skills to enhance your work on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use a personalized generative AI assistant and skills to enhance your work on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
 </td><td>
 
@@ -39,15 +41,15 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist Data Kit\[Omitted image "bus-database.svg"\] Alt text:Add datasets to a data catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
+[AI Data Kit\[Omitted image "bus-database.svg"\] Alt text:Add datasets to a data catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
 
 </td></tr><tr><td>
 
-[Now Assist Skill Kit\[Omitted image "bus-innovation.svg"\] Alt text:Create custom skills and prompts for your Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+[AI Skill Kit\[Omitted image "bus-innovation.svg"\] Alt text:Create custom skills and prompts for your Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 
 </td><td>
 
-[AI Control Tower\[Omitted image "bus-monitor.svg"\] Alt text:Monitor, manage, and govern AI assets on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
+[AI Control Tower\[Omitted image "bus-monitor.svg"\] Alt text:Monitor, manage, and govern AI assets on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md)
 
 </td><td>
 
@@ -99,7 +101,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist Center\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Set up and manage your AI solutions from a single workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
+[AI Admin Center\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Set up and manage your AI solutions from a single workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
 
 </td></tr></tbody>
 </table>## Now Assist
@@ -114,15 +116,15 @@ ServiceNow AI agents can solve essential business challenges autonomously, accel
 
 Use AI Agent Studio to create, manage, and test AI agents and use cases all in one place. The main Overview page has three sections that give you what you need to understand, begin, and continue developing AI agents and use cases.
 
-## Now Assist Data Kit
+## AI Data Kit
 
-If the base system Now Assist skills don't fit your needs, you can use Now Assist Data Kit to create custom datasets and data collections that can be used in Now Assist Skill Kit for evaluation.
+If the base system Now Assist skills don't fit your needs, you can use AI Data Kit to create custom datasets and data collections that can be used in AI Skill Kit for evaluation.
 
 \[Omitted image "na-data-kit-infographic.png"\] Alt text: Now Assist Data kit workflow
 
-## Now Assist Skill Kit
+## AI Skill Kit
 
-Use Now Assist Skill Kit to create custom skills. These custom skills give you greater flexibility in the Now Assist environment.
+Use AI Skill Kit to create custom skills. These custom skills give you greater flexibility in the Now Assist environment.
 
 \[Omitted image "nask-user-journey.png"\] Alt text: Define your LLM provider, then develop custom skills by specifying input sources and configuring the prompt. Test with data from your instance, and then deploy your new skill.
 
@@ -176,14 +178,14 @@ Achieve faster response and task-solving times for your Agents, by using Task In
 
 \[Omitted image "ti-admin-console.gif"\] Alt text: The Task Intelligence Admin Console displays the available models, key metrics, and helpful information.
 
-## Now Assist Center
+## AI Admin Center
 
-Set up, deploy, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform from a single workspace that consolidates the various Now Assist applications into a single, guided, conversational environment.
+Set up, deploy, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform from a single workspace that consolidates the various AI applications into a single, guided, conversational environment.
 
--   Use Now Assist Center to access and manage Now Assist AI capabilities from a single, unified workspace without switching between tools.
+-   Use AI Admin Center to access and manage AI capabilities from a single, unified workspace without switching between tools.
 -   Describe business objectives in plain language and let the platform translate those objectives into deployable AI solutions, complete with guided configuration steps and automated workflows.
--   Work with a conversational admin companion to complete setup and advanced configuration tasks through natural language, even when you do not know where settings live or which steps come first.
+-   Work with a conversational admin companion to complete setup and advanced configuration tasks through natural language. You can use the AI companion even when you don't know where settings live or which steps come first.
 -   Rely on built‑in governance and safety controls to protect data, filter content, and guard against prompt injection so that your AI solutions are deployed efficiently, consistently, and responsibly.
 
-\[Omitted image "now-assist-center-overview-2.png"\] Alt text: The Now Assist Center workspace displays features that allow you to access and manage your Now Assist solutions from a single place.
+\[Omitted image "ai-admin-center-overview.png"\] Alt text: The AI Admin Center workspace displays features that helps you to access and manage your AI solutions from a single place.
 

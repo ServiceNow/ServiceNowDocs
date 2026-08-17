@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the users based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d336549e101">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d336386e101">
 
 Action
 
-</th><th align="left" id="d336549e104">
+</th><th align="left" id="d336386e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d336549e110">
+</th></tr></thead><tbody><tr><td id="d336386e110">
 
 **Create a workplace profile**
 
@@ -58,7 +58,7 @@ For a description of the field values, see [User Workplace Profile form](https:/
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d336549e146">
+</td></tr><tr><td id="d336386e146">
 
 **Edit user assignments**
 
@@ -76,7 +76,7 @@ The Assign users pop-up opens.
 
 For the **Neighborhood** assignment, you must select the neighborhood you want to assign the users to.
 
-</td></tr><tr><td id="d336549e192">
+</td></tr><tr><td id="d336386e192">
 
 **Remove user assignments**
 
@@ -91,7 +91,7 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d336549e242">
+</td></tr><tr><td id="d336386e242">
 
 **Edit user details**
 
@@ -106,7 +106,7 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d336549e281">
+</td></tr><tr><td id="d336386e281">
 
 **Export user profile details**
 

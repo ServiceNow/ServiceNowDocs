@@ -38,7 +38,7 @@ The following configurations are added for the AI Search experience in Service O
     -   Ensure that the search engine is set to AI Search. To set the AI Search, ensure that the **globalSearchDataConfigId** UX page property value is set to the sys\_id of the AI Search, `6fcaa8d770a45110f877edb72a2fbd2f`.
 -   Genius results display the most relevant information and actions for a search query using Genius Result cards. The genius result cards appear alongside the regular search results. For more information about genius results, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-results-ais.md). By default, Service Operations Workspace supports the Q&amp;A genius result configuration. If it isn’t active, ensure the following:
     -   Ensure that the version of AI Search for Next Experience is 3.0 or later.
-    -   Ensure that the Q&amp;A genius result configuration is in an Active state. For more information about the Q&amp;A genius result configurations, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-q-a-ais.md).
+    -   Ensure that the Q&amp;A genius result configuration is in an Active state. For more information about the Q&amp;A genius result configurations, see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-q-a-ais.md).
 
 \[Omitted image "ai-search-sow.png"\] Alt text: AI Search in Service Operations Workspace.
 

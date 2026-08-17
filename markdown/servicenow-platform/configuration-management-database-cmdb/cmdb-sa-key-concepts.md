@@ -7,8 +7,9 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
+keywords: [CMDB success advisor key concepts, CMDB success advisor glossary, principal class definition, model category definition, scope definition CMDB success advisor, remediation actions definition]
 breadcrumb: [Reference, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -26,7 +27,7 @@ Familiarize yourself with the key terms and concepts to work with CMDB success a
 
 -   **Scope**
 
-    The set of principal classes in Data Foundations or model categories in HAM that CMDB success advisor monitors for your organization.
+    The set of principal classes in Data Foundations, model categories in HAM, or software products in Software Asset Management \(SAM\) that CMDB success advisor monitors for your organization.
 
 -   **Principal class**
 
@@ -35,6 +36,10 @@ Familiarize yourself with the key terms and concepts to work with CMDB success a
 -   **Model category**
 
     A hardware classification used as the scope unit for HAM such as Computers, Servers, Printers.
+
+-   **Software product**
+
+    A licensable software classification, grouped by publisher, used as the scope unit for Software Asset Management \(SAM\).
 
 -   **Service Graph Connectors**
 

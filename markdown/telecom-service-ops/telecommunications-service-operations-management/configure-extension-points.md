@@ -33,13 +33,13 @@ By default, Fortinet SGC stores license expiration dates as separate CI key-valu
 
 2.  Search for Fortinet in the **Extension Points** search field.
 
-3.  From the **API Name** search results list, select **sn\_gnc\_fortinet.FortinetCustomizedContractParsing**.
+3.  From the **API Name** search results list, select **sn\_sgc\_fortinet.FortinetCustomizedContractParsing**.
 
 4.  Select the **Create implementation** related link.
 
-5.  In the **Script** field, modify the `buildLicenseAttributes` function to return an array of `{key, value}` objects containing the CI key-value pairs you want to store.
+5.  In the **Script** field, modify the `buildLicenseAttributes` function to return an array of `{key, value}` objects containing the CI key-value pairs you need to store.
 
-    For example, to store only the earliest expiration date across all devices instead of one key-value pair per device, the script would need to loop through `contractItems`, find the minimum date value, and return it as a single object: `{ key: "license_expiration_date", value: "<earliest_date>" }`.\[Omitted image "contract-items-parsing.png"\] Alt text: Contract items parsing implementation interface
+    For example, you might want to store only the earliest expiration date across all devices instead of one key-value pair per device. The script would loop through `contractItems` and find the minimum date value. It would then return it as a single object: `{ key: "license_expiration_date", value: "<earliest_date>" }`.\[Omitted image "contract-items-parsing.png"\] Alt text: Contract items parsing implementation interface
 
 6.  Run your implementation before the default by setting the **Order** field to a value less than `100`.
 
@@ -50,7 +50,7 @@ By default, Fortinet SGC stores license expiration dates as separate CI key-valu
 
 ## Result
 
-Your custom implementation is saved and active. The next time Fortinet SGCSGC discovers devices, your script runs first and stores the license key-value pairs you defined on the relevant CIs, overriding the default per-device key-value pairs behavior.
+Your custom implementation is saved and active. The next time Fortinet SGC discovers devices, your script runs first and stores the license key-value pairs you defined on the relevant CIs. This overrides the default per-device key-value pairs behavior.
 
 **Related topics**  
 

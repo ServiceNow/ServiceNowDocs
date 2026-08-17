@@ -1,24 +1,24 @@
 ---
 title: Document intelligence for utility invoices
-description: The AI-driven document intelligence for utility invoices feature is designed to automate metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
+description: The AI-driven document intelligence for utility invoices feature automates metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Document intelligence for utility invoices
 
-The AI-driven document intelligence for utility invoices feature is designed to automate metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
+The AI-driven document intelligence for utility invoices feature automates metric data collection. It automates the metric data collection by extracting utility bill data such as consumption, billing dates, amounts, and units of measurement within the Operational Sustainability Workspace.
 
 ## Document intelligence overview
 
 Document Intelligence for Utility Invoices automates utility bill data extraction and processing, removing manual entry for metric reporting. It streamlines the data collection process, improving accuracy and efficiency while reducing the burden on data owners. This capability addresses the challenges of manual data collection, aggregation, and entry from diverse utility bill formats and languages. It promotes consistent and reliable operational sustainability reporting.
 
-The AI-extracted fields are clearly marked for verification, and you can override and justify changes to confirm data integrity. The original bill is attached to the metric data task for traceability and audit. After the extraction is completed, the extracted data is mapped to the correct metric definitions and entities using configurable mapping tables. The system extracts units of measurement from invoices and attempts to match them to existing units in the Metric Unit \(sn\_grc\_metric\_unit\) table. If a matching unit is found, the unit reference is populated in the Metric Data record. If no matching unit is found, the Metric Data record is created without a unit reference, the extraction status shows **Completed with Errors**, and a warning message appears on the Invoice Detail record. Data owners can review, validate, or override extracted data as needed. If the extraction process fails, you can correct the errors and rerun the extraction by selecting reprocess option.
+The AI-extracted fields are clearly marked for verification. You can override and justify changes to confirm data integrity. The original bill is attached to the metric data task for traceability and audit. After the extraction is completed, the extracted data is mapped to the correct metric definitions and entities using configurable mapping tables. The system extracts units of measurement from invoices and attempts to match them to existing units in the Metric Unit \(sn\_grc\_metric\_unit\) table. If a matching unit is found, the unit reference is populated in the Metric Data record. If no matching unit is found, the Metric Data record is created without a unit reference, the extraction status shows **Completed with Errors**, and a warning message appears on the Invoice Detail record. Data owners can review, validate, or override extracted data as needed. If the extraction process fails, you can correct the errors and rerun the extraction by selecting reprocess option.
 
 **Note:** The sn\_esg\_gen\_ai.docintel\_user role is required to view the option to document intelligence for utility bills. This role must be manually assigned to an ESG user.
 
@@ -51,12 +51,12 @@ After the extraction and data mapping you can view the following:
 -   The ability to override extracted data and provide justification if needed.
 -   The original utility bill attached as evidence for audit and compliance.
 
-**Parent Topic:**[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
 
 **Related topics**  
 
 
 [Activate the document intelligence for utility invoices skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.md)
 
-[Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
+[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

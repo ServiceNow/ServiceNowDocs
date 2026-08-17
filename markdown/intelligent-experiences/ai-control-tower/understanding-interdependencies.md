@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Inter-dependencies
@@ -28,7 +28,7 @@ Comprehensive responsible AI governance requires attention to all these componen
 
 For a visual example of how these elements interact, see [Example of an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/example-of-an-ai-system.md)
 
-For information on Model asset classes, see Model asset classes
+For information on Model asset classes, see [Model asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-model-asset-classes-app.md#d396350e744)
 
-For information on AI assets API, see AI Assets API
+For information on AI assets API, see [AI Assets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ai-assets-api.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/con
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Integrate, Customer Service Management]
 ---
 
@@ -65,4 +65,24 @@ Agents using the integration can do the following:
 -   Transfer to another agent​
 -   Transfer to a queue​
 -   Cancel a transfer to another agent
+
+## ServiceNow features available for CCaaS integration
+
+ServiceNow delivers comprehensive customer engagement capabilities including digital channels, intelligent routing, unified agent workspace, workforce optimization, and AI-powered automation for any third-party contact center. For voice telephony and specialized capabilities, ServiceNow integrates seamlessly with leading CCaaS providers to complete the omnichannel experience.
+
+ServiceNow offers the following features for CCaaS integration:
+
+|Digital channels|Core Platform features|
+|----------------|----------------------|
+|Email|Omnichannel routing &amp; queues|
+|Web chat|Unified agent workspace|
+|SMS messaging|Case &amp; workflow management|
+|Social media \(WhatsApp, Facebook\)|Advanced Work Assignment \(AWA\)|
+|Self-service portals|Knowledge management|
+|Mobile app engagement|AI &amp; Virtual Agents \(ServiceNow Otto\)|
+| |AI Voice Agents with CCaaS Voice|
+| |Workforce optimization \(WFO\)|
+| |Analytics &amp; reporting|
+| |Enterprise system integration|
+| |WebRTC Voice|
 

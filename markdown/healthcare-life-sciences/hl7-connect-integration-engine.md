@@ -19,19 +19,19 @@ Configure your integration engine to POST HL7 v2.x messages to the ServiceNow HL
 
 Role required: `sn_hl7_v2.admin`
 
-You need the ServiceNow HL7 endpoint URL and credentials from your ServiceNow administrator. For endpoint URL, supported authentication methods, and request and response schema details, see the HL7 Inbound API reference.
+You need the ServiceNow HL7 endpoint URL and credentials from your ServiceNow administrator. For endpoint URL, supported authentication methods, and request and response schema details, see the [HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md) reference.
 
 ## About this task
 
 The ServiceNow HL7 endpoint accepts HTTP POST requests containing raw HL7 v2.x messages in ER7 format. The endpoint returns a standard HL7 ACK response in the HTTP 200 response body for every message — your integration engine receives the ACK exactly as it would from any HL7-capable system. No custom configuration is required on the integration engine beyond the endpoint URL and credentials.
 
-**For a detailed example of request and response, see the HL7 Inbound API reference.**
+**For a detailed example of request and response, see the [HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md) reference.**
 
 ## Procedure
 
 1.  In your integration engine, create a new outbound HTTPS destination pointing to the ServiceNow HL7 endpoint URL.
 
-    For the endpoint URL, see the HL7 Inbound API reference.
+    For the endpoint URL, see the [HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md) reference.
 
 2.  Set the HTTP method to **POST**.
 
@@ -43,7 +43,7 @@ The ServiceNow HL7 endpoint accepts HTTP POST requests containing raw HL7 v2.x m
 
 4.  Configure authentication using one of the supported methods: Basic Auth, OAuth, or API key.
 
-    For authentication configuration details, see the HL7 Inbound API reference.
+    For authentication configuration details, see the [HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md) reference.
 
 5.  Configure your integration engine to accept an HTTP 200 response with an HL7 ACK body as a successful acknowledgment.
 

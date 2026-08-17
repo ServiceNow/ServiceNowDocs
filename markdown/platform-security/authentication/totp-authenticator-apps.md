@@ -38,5 +38,5 @@ While TOTP authenticator apps are a secure and convenient authentication method,
 -   Device management: Users must re-enroll when devices are replaced or reset.
 -   Phishing risk: One-time codes can be compromised if entered on untrusted or malicious sites.
 
-TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md).
+TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md).
 

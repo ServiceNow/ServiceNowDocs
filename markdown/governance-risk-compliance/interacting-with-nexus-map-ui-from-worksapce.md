@@ -93,7 +93,7 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "find-on-map.png"\] Alt text: Find on map.
 
-    When you initiate a search, the corresponding node is highlighted in the map, and you can select it for further actions. Clearing the search returns the map to its previous state. You can also designate the searched node as the primary node, which updates the map to display the node as the root, along with its upstream and downstream connections.
+    When you initiate a search, the corresponding node is highlighted in the map, and you can select it for further actions. Clearing the search returns the map to its previous state. You can also designate the searched node as the primary node. This updates the map to display the node as the root, along with its upstream and downstream connections.
 
 9.  To view the list of grouped nodes or expand them individually, right-select on the grouped nodes.
 

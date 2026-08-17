@@ -19,10 +19,7 @@ Remove the self-configured bot integration from your ServiceNow instance to disa
 
 ## Before you begin
 
-Roles required:
-
--   Virtual\_agent\_admin and external\_app\_install\_admin or admin
--   Administrator for third-party applications
+Roles required: virtual\_agent\_admin or admin
 
 ## Procedure
 
@@ -32,13 +29,15 @@ Roles required:
 
 3.  On the Channels and integration page, in the Slack tile, select **Manage**.
 
-4.  In the Manage Slack Channel page, find the Self-configured bot integration to remove from your ServiceNow instance, select the manage bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage bot icon., and select **Remove integration**.
+4.  In the Manage Slack Channel page, find the self-configured bot integration to remove from your ServiceNow instance.
 
-    \[Omitted image "remove-self-bot-integration.png"\] Alt text: Remove integration option with Self-configured bot.
+5.  Select the manage bot icon \[Omitted image "manage-bot-icon.png"\], and then select **Remove integration**.
 
-5.  In the Remove integration confirmation message, select **Remove**.\[Omitted image "remove-slack-integ-success.png"\] Alt text: Banner message confirming remove Self-configured bot integration with Slack.
+    \[Omitted image "remove-self-bot-integration.png"\] Alt text: Remove integration option with self-configured bot.
 
-    The Self-configured bot integration with Slack has been removed successfully.
+6.  When prompted to confirm your choice, select **Remove**.\[Omitted image "remove-slack-integ-success.png"\] Alt text: Banner message confirming remove self-configured bot integration with Slack.
+
+    The self-configured bot integration with Slack has been removed successfully.
 
 
 **Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)

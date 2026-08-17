@@ -54,7 +54,7 @@ Advanced
 
 </td><td>
 
-Expand this section to access advanced configuration options for controlling how the related table data is rendered in the PowerPoint export, including field mappings, sort order, and display formatting.
+Expand this section to access advanced configuration options for controlling how the related table data is rendered in the PowerPoint export. These options include field mappings, sort order, and display formatting.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Export to PowerPoint Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)

@@ -351,6 +351,16 @@ Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+Data type: String
+
+</td></tr><tr><td>
+
 name
 
 </td><td>
@@ -813,6 +823,7 @@ Response body.
 [
   {
     "id": "23562ee2e445b5443110f87235736620",
+    "externalId": "LOC-SF-HQ-2026",
     "relatedParty": [
       {
         "id": "9e2fd2ee11b43110f877366201dea674",
@@ -1145,6 +1156,16 @@ billingAccount
 </td><td>
 
 Billing account of the product inventory record.Data type: String
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1629,6 +1650,7 @@ Output:
 ```
 {
   "id": "209aa30421710354f877be98c79c2364",
+  "externalId": "LOC-SF-HQ-2026",
   "relatedParty": [
     {
       "id": "1d253ada77250110531ba8e48f5a996d",
@@ -1910,6 +1932,16 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+externalId
+
+</td><td>
+
+External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+Data type: String
+
+</td></tr><tr><td>
 
 id
 
@@ -2263,6 +2295,7 @@ Response body.
 [
    {
       "id": "075072aec3a83010abc8b5183c40dd44",
+      "externalId": "LOC-SF-HQ-2026",
       "relatedParty": [
          {
             "id": "ffc68911c35420105252716b7d40dd55",
@@ -2549,6 +2582,16 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+externalId
+
+</td><td>
+
+External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+Data type: String
+
+</td></tr><tr><td>
 
 id
 
@@ -2900,6 +2943,7 @@ Output:
 ```
 {
    "id": "074450fc74918d10f877ca57242ff9e3",
+   "externalId": "LOC-SF-HQ-2026",
    "relatedParty": [
       {
          "id": "ffc68911c35420105252716b7d40dd55",

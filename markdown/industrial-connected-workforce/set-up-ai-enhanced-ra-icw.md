@@ -1,18 +1,18 @@
 ---
-title: Set up AI Enhanced recommended actions for Industrial Connected Workforce
-description: Set up AI Enhanced recommended actions for ICW so that you can contextualize external sources related to a deviation.
+title: Set up AI Enhanced Recommended Actions for Industrial Connected Workforce
+description: Set up AI Enhanced Recommended Actions for ICW so that you can contextualize external sources related to a deviation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Enhanced recommended actions for ICW, Industrial Connected Workforce]
+breadcrumb: [Configure, AI Enhanced Recommended Actions for ICW, Industrial Connected Workforce]
 ---
 
-# Set up AI Enhanced recommended actions for Industrial Connected Workforce
+# Set up AI Enhanced Recommended Actions for Industrial Connected Workforce
 
-Set up AI Enhanced recommended actions for ICW so that you can contextualize external sources related to a deviation.
+Set up AI Enhanced Recommended Actions for ICW so that you can contextualize external sources related to a deviation.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  .
+1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-ext-cont-connector-mspo.md).
 
-2.  .
+2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-crawl-settings-spo-ext-cont-connector.md).
 
 3.  Set up the search source.
 
@@ -34,7 +34,7 @@ Role required: admin
     4.  Select **Create and link**.
     5.  In the **Indexed source** field, select **SharePoint Online**.
 
-        For more information about the additional form fields, see .
+        For more information about the additional form fields, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-source-form-ais.md).
 
     6.  Select **Submit**.
 4.  If needed, add or remove the deviation record fields that are later used to produce search results.
@@ -53,7 +53,7 @@ Role required: admin
 
 ## What to do next
 
-After you set up AI Enhanced recommended actions for ICW, you can use the feature in the Digital Factory Workspace. For more information see, [Contextualize an external document for a Deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/use-ai-enhanced-ra-icw.md).
+After you set up AI Enhanced Recommended Actions for ICW, you can use the feature in the Digital Factory Workspace. For more information see, [Contextualize an external document for a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/use-ai-enhanced-ra-icw.md).
 
-**Parent Topic:**[Configure AI Enhanced recommended actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Configure AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
 

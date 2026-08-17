@@ -61,7 +61,7 @@ To see a demonstration of the Virtual Agent API and an FAQ, see [Getting Started
 The Virtual Agent API does not support the following features:
 
 -   Chat branding through this Virtual Agent API integration.
--   Now Assist capabilities are supported only in asynchronous mode.
+-   ServiceNow Otto capabilities are supported only in asynchronous mode.
 
 -   **[Supported features in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-whats-new.md)**  
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the store app version number of the Virtual Agent API.

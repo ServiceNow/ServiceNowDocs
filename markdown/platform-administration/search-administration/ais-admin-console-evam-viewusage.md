@@ -39,7 +39,7 @@ Tracking the usage of view configuration enables you to do the following tasks:
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the view configuration and select the **More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions.\)** &gt; **View usage**.
+5.  Hover over the view configuration and select the **More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More Actions.** &gt; **View usage**.
 
 6.  In the View usage dialog box, review the values.
 

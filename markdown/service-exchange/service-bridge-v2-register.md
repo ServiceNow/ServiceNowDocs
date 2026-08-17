@@ -40,7 +40,7 @@ Before proceeding, the provider should have requested the contact details of an 
     After you save the provider connection record, the state changes to Awaiting Validation while the pre-onboarding scan suite runs validation checks on the background.
 
     -   If all validation checks pass, the state changes to Validated.
-    -   If any validation checks fail, the state changes to Validation Failed. A banner appears at the top of the provider connection record indicating that one or more pre-onboarding suite checks did not pass, along with a link to the Health Dashboard. Review the Health Dashboard to fix the issues. When the all the issues are resolved, the connection automatically moves to Validated.
+    -   If any validation checks fail, the state changes to Validation Failed. A banner appears at the top of the provider connection record. This indicates that one or more pre-onboarding suite checks did not pass, along with a link to the Health Dashboard. Review the Health Dashboard to fix the issues. When the all the issues are resolved, the connection automatically moves to Validated.
 4.  Select **Connect to Provider** in the Provider connection record page.
 
     The **Connect to Provider** button is not available if there are any unresolved validation errors. Resolve all pre-onboarding scan issues before proceeding.

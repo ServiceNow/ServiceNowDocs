@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, erp data, connect, clone, model]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP clone model field descriptions
@@ -41,7 +41,7 @@ ERP module
 
 </td><td>
 
-ERP module in the system of record. For example, sales orders or inventory.ERP modules represent a distinct set of features and functionalities tailored to address business processes or activities.
+ERP module in the ERP system. For example, sales orders or inventory.ERP modules represent a distinct set of features and functionalities tailored to address business processes or activities.
 
 </td></tr><tr><td>
 

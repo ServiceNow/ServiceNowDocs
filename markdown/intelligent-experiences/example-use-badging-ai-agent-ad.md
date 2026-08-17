@@ -1,6 +1,6 @@
 ---
 title: Example: Use AI agents to process badge-related requests automatically
-description: As an HR representative, automatically process various badge requests by triggering AI agents that use desktop action tools from the Now Assist panel.
+description: As an HR representative, automatically process various badge requests by triggering AI agents that use desktop action tools from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-use-badging-ai-agent-ad.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Execute desktop actions, AI Desktop Actions, Enable AI experiences]
 
 # Example: Use AI agents to process badge-related requests automatically
 
-As an HR representative, automatically process various badge requests by triggering AI agents that use desktop action tools from the Now Assist panel.
+As an HR representative, automatically process various badge requests by triggering AI agents that use desktop action tools from the ServiceNow Otto panel.
 
 ## Before you begin
 
@@ -40,31 +40,31 @@ Confirm that the following system requirements are met:
 
 Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
 
-Role required: now\_assist\_panel\_user
+Role required: now\_assist\_panel\_user for the user and sn\_naa.web\_agent\_runtime for the service account the agent runs as
 
 ## About this task
 
-AI agents use desktop actions that are designed in the AI Desktop Actions Design workspace as tools. When an AI agent is triggered from the Now Assist panel, it determines which desktop actions it can use to perform the automation. Once triggered, the automation is executed in the desktop-in-desktop mode within the AI Desktop Actions Execution workspace.
+AI agents use desktop actions that are designed in the AI Desktop Actions Design workspace as tools. When an AI agent is triggered from the ServiceNow Otto panel, it determines which desktop actions it can use to perform the automation. Once triggered, the automation is executed in the desktop-in-desktop mode within the AI Desktop Actions Execution workspace.
 
 \[Omitted image "execution-workspace-ready-ad.png"\] Alt text: AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.
 
 **Note:**
 
-To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
+To avoid conflicts, don't run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Requests** &gt; **Assigned to you** and select all the pending requests that you would like to resolve.
 
-2.  Open the Now Assist panel by using the Now Assist \[Omitted image "wwna-icon.png"\] Alt text: Now Assist icon. icon.
+2.  Open the ServiceNow Otto panel by using the ServiceNow Otto \[Omitted image "icon-otto-outline-24.svg"\] icon.
 
-3.  On the Now Assist panel, enter `Use the badge management tool and process the selected requests`.
+3.  On the ServiceNow Otto panel, enter `Use the badge management tool and process the selected requests`.
 
 4.  Monitor the automation execution.
 
 <table id="table_rhj_4vm_jhc"><thead><tr><th>
 
-On Now Assist panel
+On ServiceNow Otto panel
 
 </th><th>
 
@@ -96,7 +96,7 @@ The AI agent performs the tasks in the Execution workspace that shows the execut
 
 </td></tr><tr><td>
 
-The outcome of the execution is shown in the Now Assist panel.
+The outcome of the execution is shown in the ServiceNow Otto panel.
 
 </td><td>
 
@@ -105,7 +105,7 @@ The Execution workspace returns to the ready state.
 </td></tr></tbody>
 </table>    **Note:** If a pop-up window blocks the automation, select **Step in** to clear it, then select **Step out** to return control to the agent.
 
-    During execution, the agent uses the values configured for each input. Values can come from two sources: static values set during design time, or mapped parameter records. If you also specify values for inputs configured for parameters in the agent instructions or in the Now Assist panel, the mapped parameter values override them.
+    During execution, the agent uses the values configured for each input. Values can come from two sources: static values set during design time, or mapped parameter records. If you also specify values for inputs configured for parameters in the agent instructions or in the ServiceNow Otto panel, the mapped parameter values override them.
 
 5.  Interact with the automation when your inputs are required.
 
@@ -115,15 +115,15 @@ The Execution workspace returns to the ready state.
 
 6.  Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d65951e413">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d89591e407">
 
 Option
 
-</th><th align="left" id="d65951e416">
+</th><th align="left" id="d89591e410">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d65951e422">
+</th></tr></thead><tbody><tr><td id="d89591e416">
 
 **Fit to window**
 
@@ -131,7 +131,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d65951e435">
+</td></tr><tr><td id="d89591e429">
 
 **Original resolution**
 

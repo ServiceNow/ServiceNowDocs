@@ -7,8 +7,9 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-05-25"
-reading_time_minutes: 1
+last_updated: "2026-07-22"
+reading_time_minutes: 2
+keywords: [assign CMDB success advisor roles, CMDB success advisor role requirements, sn\_cmdb\_admin sn\_cmdb\_user roles, scope\_user scope\_editor roles]
 breadcrumb: [Configure, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -48,7 +49,7 @@ Required to access the CMDB success advisor. Users with the sn\_cmdb\_admin role
 
 </td><td>
 
-Data Foundations and HAM dashboards
+Data Foundations, HAM, and SAM dashboards
 
 </td></tr><tr><td>
 
@@ -60,7 +61,7 @@ Provides read-only access to CMDB success advisor from the Insights section in S
 
 </td><td>
 
-Data Foundations and HAM dashboards
+Data Foundations, HAM, and SAM dashboards
 
 </td></tr><tr><td>
 
@@ -72,7 +73,55 @@ Provides read-only access to CMDB success advisor from the Insights section in S
 
 </td><td>
 
-Data Foundations and HAM dashboards
+Data Foundations, HAM, and SAM dashboards
+
+</td></tr><tr><td>
+
+sn\_cmdb\_advisor.scope\_user
+
+</td><td>
+
+Provides read-only access to CMDB success advisor pages and data, including the AI-generated summary and remediation actions on the HAM dashboard.**Note:** Also, requires the sn\_cmdb\_user role.
+
+</td><td>
+
+Data Foundations, HAM, and SAM dashboards
+
+</td></tr><tr><td>
+
+sn\_cmdb\_advisor.scope\_editor
+
+</td><td>
+
+Required to edit dashboard scope and content template settings for SAM. The sn\_cmdb\_advisor.scope\_editor role contains the sn\_cmdb\_advisor.scope\_user role.**Note:** Also, requires the sn\_cmdb\_user role. For Data Foundations and HAM dashboards, editing scope requires the sn\_cmdb\_admin role. The scope\_editor role doesn't grant scope edit access for these products.
+
+</td><td>
+
+SAM dashboard
+
+</td></tr><tr><td>
+
+sam\_user
+
+</td><td>
+
+Required to view the SAM advisor dashboard in read-only mode.
+
+</td><td>
+
+SAM dashboard
+
+</td></tr><tr><td>
+
+sam\_admin
+
+</td><td>
+
+Required to select or edit the software products in the SAM advisor scope.
+
+</td><td>
+
+SAM dashboard
 
 </td></tr><tr><td>
 

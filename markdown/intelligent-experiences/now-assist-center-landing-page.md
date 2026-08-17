@@ -1,33 +1,33 @@
 ---
-title: Now Assist Center
-description: Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform from a single workspace.
+title: AI Admin Center
+description: Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 4
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist Center
+# AI Admin Center
 
-Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform from a single workspace.
+Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform from a single workspace.
 
 ## Get started
 
 <table id="table_sqc_w3w_bhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AI Admin Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-configure-docintel.png"\] Alt text:Set up Now Assist Center to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
+[Configure\[Omitted image "icon-configure-docintel.png"\] Alt text:Set up AI Admin Center to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Use Now Assist Center to implement your Now Assist solutions from a single workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-center.md)
+[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Use AI Admin Center to implement your AI solutions from a single workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-center.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +35,7 @@ Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist Center properties and components, such as roles and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about AI Admin Center properties and components, such as roles and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
 
 </td><td>
 

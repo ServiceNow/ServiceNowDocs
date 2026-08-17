@@ -1,6 +1,6 @@
 ---
 title: Add security incident to shift handover report
-description: Chat with an AI agent in the Now Assist panel to add a security incident details to a shift handover report.
+description: Chat with an AI agent in the ServiceNow Otto panel to add a security incident details to a shift handover report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/add-incident-shift-handover.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Generate SIR Shift Handover Report, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Generate SIR Shift Handover Report, Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Add security incident to shift handover report
 
-Chat with an AI agent in the Now Assist panel to add a security incident details to a shift handover report.
+Chat with an AI agent in the ServiceNow Otto panel to add a security incident details to a shift handover report.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -30,13 +30,13 @@ Role required: sn\_si.analyst
 
 2.  Open the security incident that you want to add to a shift handover report using the AI agent.
 
-3.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
+3.  Select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon.\) icon.
 
     The Generate SIR Shift Handover Report agentic workflow is on-demand. You can enter a query in natural language to add a security incident to a shift handover report.
 
-4.  On the Now Assist panel, ask the agent to add a security incident to a shift handover report `Add this security incident to shift handover`, or `Add this incident to shift handover: SIR0012345` and press the Enter key.
+4.  On the ServiceNow Otto panel, ask the agent to add a security incident to a shift handover report `Add this security incident to shift handover`, or `Add this incident to shift handover: SIR0012345` and press the Enter key.
 
-    The Now Assist panel triggers the "Add Security Incident for Shift Handover" workflow. This workflow fetches details of the security incident.
+    The panel triggers the "Add Security Incident for Shift Handover" workflow. This workflow fetches details of the security incident.
 
     The AI agent finds the in-progress shift handover record that the analyst has access to and adds the security incident details to it. If there are multiple in-progress shift handover records to which the analyst has access, the AI agent lists the top five shift handover records for the analyst to select.
 

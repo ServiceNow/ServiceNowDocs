@@ -9,6 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [review HAM data integrations, discovery pattern fields to monitor, Service Graph Connector fields to monitor, attribute coverage by model category, integration effectiveness evaluation]
 breadcrumb: [Analyze data integrations, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 

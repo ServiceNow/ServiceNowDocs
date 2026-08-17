@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, input, output, value, map, name, edit, model]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Manage model, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Edit input and output mapped value name in Zero Copy Connector for ERP
@@ -71,6 +71,4 @@ Let's step through an example. In Zero Copy Connector for ERP, create a model. F
 -   If a join is used, the changed name should be available on the join fields as well. For more information about joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 -   If the same field exists in both input and output, but they have different mapped values, the name of the output field is given precedence and used.
 -   If you want to revert to the system-generated name at any time, remove the field and then add it again. Another option is to change the mapping type and then change it back.
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

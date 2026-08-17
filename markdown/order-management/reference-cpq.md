@@ -22,16 +22,16 @@ MCP tools are installed with activation of the Advanced Approval Management AI p
 Several types of components are installed with activation of the Pricing Management plugin, including tables and user roles.
 -   **[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)**  
 Reference topics provide additional information about the Quote Management application.
--   **[ServiceNow CPQ Quote header fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Descriptions of the fields available in the quote header in ServiceNow CPQ.
+-   **[CPQ Quote header fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+Descriptions of the fields available in the quote header in CPQ.
 -   **[Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-creation-fields-self-service.md)**  
 Store the main details related to a quote submitted and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation.
 -   **[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)**  
 Reference topics provide additional information on service contract life cycle and forms available within the Customer Contracts and Entitlements application.
 -   **[Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-agreement.md)**  
 Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
--   **[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Reference topics provide additional information about ServiceNow CPQ.
+-   **[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+Reference topics provide additional information about CPQ.
 
 **Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
 

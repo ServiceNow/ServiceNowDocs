@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-projectportfoliomanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -110,7 +110,7 @@ Zurich
 
 </td><td>
 
--   **[Manage Projects](https://www.servicenow.com/docs/access?context=use-projects-pw&family=zurich&ft:locale=en-US)**
+-   **[Manage projects](https://www.servicenow.com/docs/access?context=use-projects-pw&family=zurich&ft:locale=en-US)**
     -   End resource assignments when a project ends, view assignment details, and synchronize assignment dates with project dates.
     -   Access and edit the resource details directly from the Resource page without switching between views.
 -   **[Identify similar records using Now Assist](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=zurich&ft:locale=en-US)**
@@ -136,8 +136,8 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Associate AI systems with demands in Demand Management](https://www.servicenow.com/docs/access?context=associate-ai-systems-with-demands&family=australia&ft:locale=en-US)**
@@ -195,7 +195,15 @@ Australia
 
 </td><td>
 
-[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+
+-   **[AI skills for Demand Management](https://www.servicenow.com/docs/access?context=similar-demand-identification-using-now-assist&family=australia&ft:locale=en-US)**
+
+
+
+-   **[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+
 
 -   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&family=australia&ft:locale=en-US)**
 

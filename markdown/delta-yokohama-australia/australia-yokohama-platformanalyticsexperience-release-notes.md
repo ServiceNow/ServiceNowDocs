@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-platformanalyticsexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -60,6 +60,8 @@ When upgrading, all Core UI reports and dashboards are identified as such in the
 
 **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
+ All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+
  After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
 </td></tr></tbody>
@@ -83,7 +85,7 @@ Yokohama
 
 -   **[Generate data visualizations conversationally](https://www.servicenow.com/docs/access?context=analytics-assist-landing-page&family=yokohama&ft:locale=en-US)**
 
-Generate Platform Analytics artifacts from conversational interactions using Analytics Generation. Analytics Generation is part of the Now Assist for Creator application.
+Generate Platform Analytics artifacts from conversational interactions using Analytics Generation. Analytics Generation is part of the ServiceNow Otto for Creator application.
 
 -   **[Implement filters in groups](https://www.servicenow.com/docs/access?context=create-filter-group&family=yokohama&ft:locale=en-US)**
 
@@ -345,6 +347,10 @@ Moving and resizing dashboard elements no longer opens the configuration panel.
 -   **[Enhanced scheduled exports](https://www.servicenow.com/docs/access?context=schedule-export-dboards-data-viz&family=australia&ft:locale=en-US)**
 
 When scheduling the email of dashboards or data visualizations, limit recipients based on reference qualifiers.
+
+-   **[Public reports are unpublished](https://www.servicenow.com/docs/access?context=report-permission-issues&family=australia&ft:locale=en-US)**
+
+On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
 
 
 </td></tr></tbody>

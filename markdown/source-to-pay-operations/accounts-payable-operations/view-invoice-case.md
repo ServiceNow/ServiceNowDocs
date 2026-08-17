@@ -47,7 +47,7 @@ The invoice processing case opens.
 
 [Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice]()
+[Enter missing invoice information and submit an invoice]()
 
 [Confirm whether an invoice is a duplicate]()
 
@@ -57,5 +57,5 @@ The invoice processing case opens.
 
 [Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications]()
+[Start processing a third-party invoice]()
 

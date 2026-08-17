@@ -30,13 +30,17 @@ You can access incident diagnostics and suggested resolutions for DEX monitored 
 
 ## Device health and metric checklist
 
-Review the overall health and performance of the device associated with the incident record in the Device health section. The Device health checklist shows details of device and application metrics for a specified duration. For more information, see [Reviewing device health metrics in incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/device-health-metrics.md).
+Review the overall health and performance of the device associated with the incident record in the Device health section. The Device health checklist shows details of device and application metrics for a specified duration. For more information, see [Review device health metrics during incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/device-health-metrics.md).
 
 Selecting the Refresh icon \[Omitted image "icon-dex-refresh.png"\] Alt text: displays the latest available data for device and application metrics.
 
 ## Top processes by CPU and memory usage
 
-Monitor the top processes by CPU and memory usage on DEX monitored devices. Automated snapshots captured periodically for different time range options show the top processes by CPU and memory usage on a device and the combined average usage percentages for these processes. For more information, see [Reviewing top processes by resource usage in incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/process-snapshot.md).
+Monitor the top processes by CPU and memory usage on DEX monitored devices. Automated snapshots capture data across different time range options and display the top processes by CPU and memory usage on a device, including the combined average usage percentages. For more information about viewing and interpreting snapshot data, see [Reviewing top processes by resource usage for DEX incident investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/process-snapshot.md).
+
+## Work notes for configuration item updates
+
+When the CI, Business Service, or Service Offering on an incident record is set or updated to an item monitored by DEX, an automatic work note is posted. For more information, see [Work notes for incident field updates with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/ci-update-work-notes.md).
 
 ## Suggested resolutions and remedial actions
 

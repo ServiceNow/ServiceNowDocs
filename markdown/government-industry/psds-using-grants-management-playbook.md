@@ -35,13 +35,13 @@ The process begins with program definition, where agencies establish milestones,
 
 \[Omitted image "psds\_gmp\_program\_setup\_playbook\_initial\_view.png"\] Alt text: grants management playbook setup initial view for agents or managers
 
-This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program, from defining key details, to creating the announcement, to defining budget and milestones, to defining eligibility, to publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-pgr-setup.md).
+This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program. The process includes defining key details, creating the announcement, defining budget and milestones, defining eligibility, and publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-pgr-setup.md).
 
 Once you create a Grant program and publish it using the Program Setup Playbook, you can view the details on the program information record page.
 
 ## Grants Management Program Record page
 
-Once grant program set-up is complete, you can see every case detail \(narrative, evidence, entities, tasks, and case team\) organized into a single grant program record, even before you publish the opportunity to the portal for applicants to submit. And you publish the opportunity, the state will display as **Accepting Proposals** in this view, and you may see all active proposals for the grant program by selecting the **Proposal** tab, and edit some program details by selecting the corresponding tabs.
+After grant program set-up is complete, you can see every case detail \(narrative, evidence, entities, tasks, and case team\) organized into a single grant program record. This view is available even before you publish the opportunity to the portal for applicants to submit. After you publish the opportunity, the state displays as **Accepting Proposals** in this view. You can see all active proposals for the grant program by selecting the **Proposal** tab, and edit some program details by selecting the corresponding tabs.
 
 \[Omitted image "psds\_gmp-case-view-workspace.png"\] Alt text: case record view for agent
 

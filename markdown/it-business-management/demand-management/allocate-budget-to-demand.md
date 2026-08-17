@@ -40,7 +40,7 @@ Role required: it\_portfolio\_manager
 
     **Note:**
 
-    -   If the demand doesn’t have a cost plan, start date, and due date, then demand budget is distributed from the current month until the end of the demand budget fiscal year.
+    -   If the demand doesn’t have a cost plan, start date, and due date, the demand budget is distributed from the current month. Distribution continues until the end of the demand budget fiscal year.
     -   If the demand doesn’t have a cost plan and a due date but has a start date, then the demand budget is distributed from either:
         -   Start date \(if the start date falls in the given budget fiscal year\) until the end of the demand budget fiscal year.
         -   Start of the demand budget fiscal year until the end of the demand budget fiscal year.

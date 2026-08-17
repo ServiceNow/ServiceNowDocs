@@ -35,7 +35,7 @@ The greeting topic of a Virtual Agent includes a **Show me everything** button b
 
 3.  Open the greeting Setup topic you've duplicated.
 
-    The topic opens in Virtual Agent Designer.
+    The topic opens in Assistant Designer Asset library.
 
 4.  In the Flow tab, select the **Send skill picker** node.\[Omitted image "sme-button-greeting-topic-flow.png"\] Alt text: Topic flow tab with Send skill picker node highlighted on canvas.
 

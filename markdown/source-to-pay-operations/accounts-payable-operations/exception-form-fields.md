@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice exception, invoice automation, AP automation]
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice automation, Purchase order, Exception definition]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -35,8 +35,8 @@ Field descriptions for the Invoice Exception form, organized by section, for rev
 
 -   **[Invoice exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-tabs.md)**  
 Descriptions of the tabs on the Invoice exception form, including the invoice exception information available for exception resolution.
--   **[Invoice Exception Rule Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)**  
-Invoice exception rules in Accounts Payable Operations define which invoices trigger exceptions and how they are handled. Use this reference to understand each form field and its configuration options.
+-   **[Invoice Exception Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)**  
+Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 
 **Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
@@ -70,6 +70,8 @@ Invoice exception rules in Accounts Payable Operations define which invoices tri
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 
 [Accounts Payable Operations glossary]()
 

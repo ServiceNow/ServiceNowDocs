@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/track-aia-eval-progress.html
 release: australia
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-07-21"
 reading_time_minutes: 2
 keywords: [agentic evaluation, AI agent monitoring, evaluation progress, execution logs]
-breadcrumb: [Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Track and monitor agentic evaluation progress
@@ -27,7 +27,7 @@ Agentic evaluations can take time to complete, especially for large datasets. Mo
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  Select an evaluation with a trackable status.
 

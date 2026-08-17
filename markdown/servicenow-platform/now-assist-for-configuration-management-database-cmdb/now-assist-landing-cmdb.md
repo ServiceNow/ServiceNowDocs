@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Configuration Management Database \(CMDB\)
-description: Use ServiceNow Now Assist for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
+title: ServiceNow Otto for Configuration Management Database \(CMDB\)
+description: Use ServiceNow ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html
 release: australia
@@ -12,31 +12,31 @@ reading_time_minutes: 5
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Now Assist for Configuration Management Database \(CMDB\)
+# ServiceNow Otto for Configuration Management Database \(CMDB\)
 
-Use ServiceNow® Now Assist for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
+Use ServiceNow® ServiceNow Otto for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, and several other processes.
 
 ## Get started
 
 <table id="table_mzj_vxd_rcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 </td></tr><tr><td>
 
-[Using skills in Now Assist for CMDB\[Omitted image "bus-ai-sparkle.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md)[Use Now Assist for CMDB skills to view a concise summary of key CI data, to help you to resolve deduplication tasks, and several other processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+[Using skills in ServiceNow Otto for CMDB\[Omitted image "bus-ai-otto.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md)[Use ServiceNow Otto for CMDB skills to view a concise summary of key CI data, to help you to resolve deduplication tasks, and several other processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 </td><td>
 
-[Using agentic workflows in Now Assist for CMDB\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Apply AI agentic workflows to accelerate results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+[Using agentic workflows in ServiceNow Otto for CMDB\[Omitted image "bus-ai-otto.svg"\] Alt text:Apply AI agentic workflows to accelerate results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:/&gt; Reference topics provide additional information about the property settings that you use to configure and administer Now Assist for CMDB.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference topics provide additional information about the property settings that you use to configure and administer ServiceNow Otto for CMDB.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 
 ## Available LLMs
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## AI limitations
 

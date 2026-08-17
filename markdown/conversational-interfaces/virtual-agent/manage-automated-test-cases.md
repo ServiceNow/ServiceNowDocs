@@ -1,20 +1,20 @@
 ---
-title: Manage and run automated test cases in Virtual Agent Designer
-description: Run reusable test cases of your published topics using the Automated Test Framework through Virtual Agent Designer to identify performance issues and prevent regressions before production.
+title: Manage and run automated test cases in Assistant Designer Asset library
+description: Run reusable test cases of your published topics using the Automated Test Framework through Assistant Designer Asset library to identify performance issues and prevent regressions before production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/manage-automated-test-cases.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-23"
 reading_time_minutes: 3
 breadcrumb: [Automated testing for Virtual Agent topics that use NLU topic discovery, Testing NLU/Keyword topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Manage and run automated test cases in Virtual Agent Designer
+# Manage and run automated test cases in Assistant Designer Asset library
 
-Run reusable test cases of your published topics using the Automated Test Framework through Virtual Agent Designer to identify performance issues and prevent regressions before production.
+Run reusable test cases of your published topics using the Automated Test Framework through Assistant Designer Asset library to identify performance issues and prevent regressions before production.
 
 ## Before you begin
 
@@ -24,17 +24,19 @@ Role required: atf\_test\_designer, atf\_ws\_designer, atf\_test\_admin, virtual
 
 ## About this task
 
-The **Manage test cases** button opens the **Run test cases** tab. Before you can run a test case, you previously must have created a test case. The **Create test cases** tab displays published topics that don't have associated automated tests. These topics appear in order from their last published date. After you select a topic name, a new window opens and you're directed to that topic in Virtual Agent Designer. From the topic, you can select **Test** to create a test case. For more information, see [Create an automated test in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-automated-test-vad.md).
+The **Manage test cases** button opens the **Run test cases** tab. Before you can run a test case, you previously must have created a test case. The **Create test cases** tab displays published topics that don't have associated automated tests. These topics appear in order from their last published date. After you select a topic name, a new window opens and you're directed to that topic in Assistant Designer. From the topic, you can select **Test** to create a test case. For more information, see [Create an automated test in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-automated-test-vad.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Slide the discovery type toggle switch to **NLU/keyword**, then select **Manage test cases** in the Resources list on the sidebar.
+2.  Select the **Asset library** tab.
+
+3.  Set the discovery type toggle switch to **NLU/keyword**, then select **Manage test cases** in the Resources list on the sidebar.
 
     You either see the **Run test cases** tab or the **Get started** button. The **Run test cases** tab displays topics that have had test cases previously created. The **Get started** button redirects you to the **Create test cases** tab to begin creating your topics' automated testing.
 
-3.  In the list view, review the columns.
+4.  In the list view, review the columns.
 
 <table id="table_mzk_vst_nvb"><thead><tr><th>
 
@@ -58,7 +60,7 @@ Topic
 
 </td><td>
 
-Displays the linked topic name. Selecting the linked name opens a new window and directs you to that topic in Virtual Agent Designer. Topics with multiple test cases are grouped.
+Displays the linked topic name. Selecting the linked name opens a new window and directs you to that topic in Assistant Designer Asset library. Topics with multiple test cases are grouped.
 
 </td></tr><tr><td>
 
@@ -85,7 +87,7 @@ Result
 
 </td><td>
 
-Displays either **Failed** or **Passed**. Pointing to the linked result displays a brief explanation of either the passing or failing step details. Selecting the linked result opens a new window and directs you to that test's **Test Results** in the Automated Test Framework where you can view more specific step fail or pass details. If the test case has passed, no changes happened between the latest published topic and its saved test case. If the test case has failed, a change happened between the latest published topic and its saved test case. For more information, see [View test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-view-results-consolidated.md).**Tip:** You can view the test suite of all topics created and tested through Virtual Agent Designer by navigating to **Automated Test Framework \(ATF\)** &gt; **Suites**, and then selecting **Virtual Agent Topics**. For more information, see [Run an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-run-suite.md).
+Displays either **Failed** or **Passed**. Pointing to the linked result displays a brief explanation of either the passing or failing step details. Selecting the linked result opens a new window and directs you to that test's **Test Results** in the Automated Test Framework where you can view more specific step fail or pass details. If the test case has passed, no changes happened between the latest published topic and its saved test case. If the test case has failed, a change happened between the latest published topic and its saved test case. For more information, see [View test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-view-results-consolidated.md).**Tip:** You can view the test suite of all topics created and tested through Assistant Designer Asset library by navigating to **Automated Test Framework \(ATF\)** &gt; **Suites**, and then selecting **Virtual Agent Topics**. For more information, see [Run an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-run-suite.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +98,7 @@ Actions
 Displays the **Delete** button that deletes the test case from this page and the Automated Test Framework.
 
 </td></tr></tbody>
-</table>4.  Select one, multiple, or all test case check boxes, and then select **Run**.
+</table>5.  Select one, multiple, or all test case check boxes, and then select **Run**.
 
     **Tip:** The **sn\_atf.runner.enabled** property must be turned on to run test cases. After the property is turned on, you can select **Run**. Also, you can select the check box next to the Test case column header to select all test cases to be run.
 

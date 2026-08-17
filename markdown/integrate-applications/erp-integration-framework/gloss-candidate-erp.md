@@ -14,9 +14,9 @@ breadcrumb: [Zero Copy Connector for ERP and ERP Semantic Mining glossary, Refer
 
 # candidate
 
-A candidate is a group of recommended remote tables that you can use to create an application based on a custom transaction \(ERP root\) in the system. Candidates can also be existing applications that sit on top of the legacy ERP system of record.
+A candidate is a group of recommended remote tables that you can use to create an application based on a custom transaction \(ERP root\) in the system. Candidates can also be existing applications that sit on top of the legacy ERP system.
 
-Good candidates for replatforming tend to be smaller applications that use data from the system of record.
+Good candidates for replatforming tend to be smaller applications that use data from the ERP system.
 
 **Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

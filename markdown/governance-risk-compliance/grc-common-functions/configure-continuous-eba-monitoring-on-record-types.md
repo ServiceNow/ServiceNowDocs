@@ -26,7 +26,7 @@ Role required:sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_a
 
 2.  Select **New**.
 
-    \[Omitted image "record-attribute-user-access.png"\] Alt text:
+    \[Omitted image "record-attribute-user-access.png"\] Alt text: Entity-based access rules
 
 3.  From the **Record type** drop-down list, select the type for which you want to configure entity-based record access rules.
 

@@ -7,7 +7,7 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -53,7 +53,7 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   reference
 -   glide\_list
 
-For more information about these fields, see .
+For more information about these fields, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 <table id="table_psc_fs3_mfc"><thead><tr><th>
 

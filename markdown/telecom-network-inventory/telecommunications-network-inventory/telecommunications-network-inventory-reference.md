@@ -57,7 +57,7 @@ The Create Physical Connection form enables you to review, create, and modify th
 -   **[Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md)**  
 Place types are used to categorize the different places on your map. You can use place type to categorize your network assets and facilities on your map in the Telecommunications Network Inventory application.
 -   **[Data center infra allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-rack-allocation.md)**  
-Data center infra allocation change request reserves rack unit using the rack allocation agentic workflow. The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints.
+Data center infra allocation change request reserves rack units using the rack allocation agentic workflow. The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints.
 -   **[Data center infrastructure allocation placement policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md)**  
 Data center policies and rack policies are stored in the Knowledge Base and are applied to racks during the data center infrastructure allocation process.
 -   **[Data center infrastructure allocation failure cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-failure-cases.md)**  
@@ -111,7 +111,7 @@ The Managed network form enables you to manage a network in the Telecommunicatio
 -   **[Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md)**  
 The naming convention for associated templates defines how names are generated automatically when you create an equipment or interface card template.
 -   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)**  
-A naming pattern is a JavaScript expression that defines how a CI \(configuration item\) is named when it is created from an inventory template.
+ A naming pattern is a JavaScript expression that defines how a configuration item \(CI\) is named when it is created from an inventory template.
 -   **[Network inventory change request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-field.md)**  
 The Change Request form enables you to create and modify the change activities for the Telecom Inventory change models in the Design and Assign function.
 -   **[Network inventory facility classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/network-inventory-facility-classes.md)**  

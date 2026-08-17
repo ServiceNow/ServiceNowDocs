@@ -25,7 +25,7 @@ Agentic development encompasses a range of approaches to AI-assisted app buildin
 -   In one approach, developers provide a goal and deploy the generated output without reviewing the underlying code.
 -   In another approach, agentic development is an iterative, conversational process in which developers guide AI generation, review the output, and retain responsibility for the generated code.
 
-ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and Now Assist for Creator.
+ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and ServiceNow Otto for Creator.
 
 Though testing and deployment are not always part of an agentic development workflow, they are covered in this document to account for all phases of development. Governance is also included in apps that are built agentically on the ServiceNow AI Platform.
 

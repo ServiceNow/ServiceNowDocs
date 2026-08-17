@@ -95,7 +95,7 @@ Approval request submitter\[sn\_adv\_appr\_mgmt.approval\_request\_submitter\]
 
 </td><td>
 
-Submit only requests for approval. Requesters with this role can submit approval requests but can't change or recall the request, nor view the approval workflow interface.
+Submits only requests for approval. Requesters with this role can submit approval requests but can't change or recall the request, nor view the approval workflow interface.
 
 </td><td>
 

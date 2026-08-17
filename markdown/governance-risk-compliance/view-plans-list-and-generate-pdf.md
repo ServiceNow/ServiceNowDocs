@@ -20,7 +20,7 @@ Role required: sn\_bcp.plan\_manager, sn\_bcp.plan\_viewer
 
 ## About this task
 
-If you have the Business Continuity Management \(BCM\) plan program manager, BCM program manager, BCM plan manager, BCM Plan Viewer, or BCM plan contributor role, you can view the plan list icon in the BCM mobile application. On accessing the icon, you can view a list of approved plans.
+Users with BCM plan program manager, program manager, plan manager, plan viewer, or plan contributor role can view the plan list icon in the BCM mobile application. On accessing the icon, you can view a list of approved plans.
 
 To access the plan list screen, both the BCM mobile application and the BCM planning application must be installed.
 
@@ -46,7 +46,7 @@ To access the plan list screen, both the BCM mobile application and the BCM plan
 
     The PDF is generated and a message is displayed that the selected plan PDF has been successfully generated for download.
 
-4.  To save a particular plan, tap the **Save** icon in the top toolbar in the plan view, provide a name for the plan in the 'Save the item' dialog box, and tap **Done**.
+4.  To save a plan, tap **Save** icon in the plan view, enter name in the 'Save the item' dialog box, and tap **Done**.
 
     The Save functionality is provided as part of the base version.
 

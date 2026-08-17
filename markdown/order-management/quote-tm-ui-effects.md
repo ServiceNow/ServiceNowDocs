@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Quote Experience layout UI effects
-description: Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in ServiceNow CPQ.
+description: Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-ui-effects.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 4
-breadcrumb: [Quote transaction layouts, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Layouts, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience layout UI effects
 
-Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in ServiceNow CPQ.
+Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
 
 ## UI effects overview
 

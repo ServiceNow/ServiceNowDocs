@@ -1,5 +1,5 @@
 ---
-title: Customize a Now Assist for Security Incident Response skill
+title: Customize a skill
 description: Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Customize a Now Assist for Security Incident Response skill
+# Customize a skill
 
 Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 
@@ -25,7 +25,7 @@ Roles required: sn\_si.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select **Technology** &gt; **Security Operations**.
 
@@ -38,7 +38,7 @@ Roles required: sn\_si.admin
     -   Post incident analysis
     -   Security operations metrics analysis
 
-        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
+        This skill is activated for use with an AI agent. See [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
     -   Correlation insights generation
     -   Security incident summarization
@@ -48,7 +48,7 @@ Roles required: sn\_si.admin
     -   Security Incident Quality Assessment
 3.  Create a copy of a skill and customize the input fields.
 
-    1.  Select **\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.\)** &gt; **Make a copy**.
+    1.  Select **\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.** &gt; **Make a copy**.
 
     2.  Confirm your choice in the modal.
 
@@ -60,13 +60,13 @@ Roles required: sn\_si.admin
 
     5.  Select **Choose input**.
 
-        **Note:** Some skills do not require all the configuration steps listed below. Select the only tasks that are displayed in the left panel and follow the prompts. After you have completed all the tasks, activate the skill.
+        **Note:** Some skills don't require all the configuration steps listed below. Select the only tasks that are displayed in the left panel and follow the prompts. After you have completed all the tasks, activate the skill.
 
         If **Choose input** is selected, these input templates for the skill are listed: Work In Progress, Review, and Closed. The Work In Progress template is selected.
 
         You can configure some of the base input table fields, the conditions, and the related lists for the templates. Select only from the related tables supported on the lists for your input data.
 
-        You can’t modify the base input table \[sn\_si\_incident\] or add a new data source for your copy of the security incident summarization skill.
+        You can’t modify the base input table \[sn\_si\_incident\] or add a data source for your copy of the security incident summarization skill.
 
     6.  Continue to modify the editable fields in the Work In Progress template with the condition builder and filtering conditions.
 
@@ -118,7 +118,7 @@ In-product
 
 </td><td>
 
-Show security incident summarization in all Security products. Now Assist skills are displayed on forms and workspaces.
+Show security incident summarization in all Security products. ServiceNow Otto skills are displayed on forms and workspaces.
 
 </td></tr><tr><td>
 
@@ -130,11 +130,11 @@ Select the expand icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand ic
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+ServiceNow Otto skills are available in the panel. **Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Conversational experiences
 
 </td><td>
 
-Verify where the skill is displayed and add roles for who can view it.Select **Now Assist Panel** in the Conversational experiences field to display the skill in the Now Assist panel.
+Verify where the skill is displayed and add roles for who can view it.Select **ServiceNow Otto Panel** in the Conversational experiences field to display the skill in the panel.
 
 </td></tr></tbody>
 </table>    9.  Select **Save template** to save your changes to the Work In Progress template.

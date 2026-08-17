@@ -26,6 +26,8 @@ Review the following information before you start working with Major Security In
 Before using the ServiceNow® Major Security Incident Management \(MSIM\) application, download the application from the ServiceNow® Store.
 -   **[Major Security Incident Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msi-roles.md)**  
 Assign roles to ensure that users can perform all necessary actions within the MSIM application.
+-   **[Environment reference for MSIM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-environment-reference.md)**  
+Use this reference table to track environment-specific values while you set up Major Security Incident Management. Complete one column per environment.
 
 **Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 

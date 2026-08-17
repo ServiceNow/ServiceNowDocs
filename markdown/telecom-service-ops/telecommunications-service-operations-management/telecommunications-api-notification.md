@@ -24,6 +24,8 @@ Telecommunications API notification receives incoming notifications from the ext
 
 ## Telecommunications API notification data model
 
+The following diagram shows the components in the data model for the API notification.\[Omitted image "kafka\_architecture\_diagram\_v3.svg"\] Alt text: infographic showing the components in the Telecommunications API notification data model.
+
 The Telecommunications API notification enables ServiceNow to receive incoming notifications through the event-driven architectures such as the Publisher/Subscriber \(Pub/Sub\) subscription model, Hermes, and Kafka Stream Connect. While cloud customers have the flexibility to select between both architectures, on-premise customers are limited to using their own Kafka or Pub/Sub subscription model.
 
 -   To learn more about Stream connect for Apache Kafka Stream, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-apache-kafka.md).

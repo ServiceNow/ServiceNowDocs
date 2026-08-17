@@ -1,5 +1,5 @@
 ---
-title: Customize a Now Assist for Field Service Management \(FSM\) work order task summarization skill
+title: Customize a ServiceNow Otto for Field Service Management \(FSM\) work order task summarization skill
 description: As an admin you can clone the Work order task summarization skill, then access the skill in the Now Assist skill kit, and update the prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/cust-now-assist-fsm-wot-summarization-skill.html
@@ -8,11 +8,11 @@ product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Customizing a skill, Configure, Now Assist for FSM]
+reading_time_minutes: 4
+breadcrumb: [Customizing a skill, Configure, ServiceNow Otto for FSM]
 ---
 
-# Customize a Now Assist for Field Service Management \(FSM\) work order task summarization skill
+# Customize a ServiceNow Otto for Field Service Management \(FSM\) work order task summarization skill
 
 As an admin you can clone the Work order task summarization skill, then access the skill in the Now Assist skill kit, and update the prompts.
 
@@ -22,55 +22,47 @@ Role required: wm\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input tables, related lists, and fields for each input template of the work order task summarization skill.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the work order task summarization skill.
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  In the product panel, select **FSM** under **Customer**.
 
-3.  In the **Customer** workflow group, select **FSM** to view the skills for the Now Assist for FSM features.
+    All the skills available for FSM are displayed.
 
-4.  Activate and copy the Now Assist for FSM work order task summarization skill for customization.
+3.  Activate and copy the **Work Order Task Summarization** skill for customization.
 
-    1.  On the work order task summarization feature card, select **View details**.
+    1.  On the skill card, select **View details**.
 
-    2.  In the All available skills section, locate the work order task summarization skill and select **Activate skill**.
+    2.  On the skill card select **Activate skill**.
 
-        You can choose to make a copy of the skill before activating it.
+    3.  To make a copy of the skill before activating it, select the more actions icon \[Omitted image "more\_actions.png"\] Alt text: and select **Make a copy**.
 
-    3.  Select the more actions icon \[Omitted image "more\_actions.png"\] Alt text: for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
-
-        The copy that you make is listed in the Active skills section.
-
-        **Note:** You can only duplicate a work order task summarization skill or the KB generation skill. The fields for the skills that you can’t duplicate have read-only values.
+        The copied skill is displayed in the Active skills section.
 
     4.  Select the copied skill from the Active skills section to open it.
 
         A guided setup leads you through the configuration of the general details, input, availability, display, review, and activation of the customized skill. When you complete the entire walk-through, the skill is activated.
 
-5.  In the General details step, fill in the fields.
+4.  In the **General details** tab, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
-    2.  Select **Save and continue** to go to the next step.
+    2.  Select **Save and continue**.
 
-6.  Choose input data.
+5.  Select the **View input** tab to configure the base input table fields and related lists for the different input templates \(New, Work In Progress, and Closed states\) for the skill.
 
-    Configure the base input table fields and related lists for the different input templates \(New, Work In Progress, and Closed states\) for the skill.
+    Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response. Select only those related tables that are offered with the base system as part of the input data.
 
-    Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
+    1.  To customize the input configurations for each template state, select the required state from the **Template selection** drop-down list.
 
-    Select only those related tables that are offered with the base system as part of the input data.
-
-    1.  For each input template state \(New, WIP, and Closed\), select **+New base input field field** and configure the base input table fields.
+    2.  For each input template state, select **+New base input field** and configure the base input table fields.
 
         Add multiple base input fields if more inputs are needed.
-
-        \[Omitted image "now-assist-wot-summ-skill-view-input.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -103,7 +95,7 @@ Description of the base input field value.
  For example, `Short description of work order task, provides quick info about the work order task.`
 
 </td></tr></tbody>
-</table>    2.  For each input template state \(New, WIP, and Closed\), configure the rule conditions by using the condition builder to filter the data further.
+</table>    3.  For each input template state \(New, WIP, and Closed\), configure the rule conditions by using the condition builder to filter the data further.
 
         The rule conditions determine when the input template is used. By default, the record state determines the input template that the Now LLM Service uses.
 
@@ -117,13 +109,11 @@ Description of the base input field value.
         |WIP|State is Work in Progress.|
         |Closed|State is Closed.|
 
-    3.  For each input template state \(New, WIP, and Closed\), select **+New data source** to configure the additional related table, activity streams, and relationships as needed.
+    4.  For each input template state \(New, WIP, and Closed\), select **+New data source** to configure the additional related table, activity streams, and relationships as needed.
 
         Adding the input data sources, such as the related tables, activity streams, and relationships provides more context to the Now LLM Service.
 
         You can also add the rule conditions to these additional related table, activity stream, and relationship data sources.
-
-        \[Omitted image "now-assist-wot-summ-skill-view-input-2.png"\] Alt text: Choose additional input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the data sources you can add to the input data.
 
@@ -157,13 +147,15 @@ Activity: Email
 Email that is attached to the work order task in the work order task summarization.
 
 </td></tr></tbody>
-</table>    4.  Select **Save and continue** to go to the next step.
+</table>    5.  Select **Save and continue**.
 
-7.  Customize the prompt.
+6.  Select the **Customize prompt** tab.
 
-    Evaluate the prompt utilized for each input template to confirm it meets your expectations. To review and modify the prompt, you can visit the Now Assist Skill Kit.
+    Evaluate the prompt utilized for each input template to confirm it meets your expectations. To review and modify the prompt, you can visit the ServiceNow Otto Skill Kit.
 
-    1.  For each input template state \(New, WIP, and Closed\), select a work order task record in the Test response section, and test the prompt response output format by selecting **Run Test**
+    1.  Test the prompt response output format by selecting **Run Test**.
+
+        For each input template state \(New, WIP, and Closed\), select a work order task record in the Test response section.
 
         The following table lists the mandatory prompt headers.
 
@@ -205,42 +197,38 @@ Closed
 
 
 </td></tr></tbody>
-</table>    2.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.\[Omitted image "now-assist-wot-summ-skill-cust-prompt.png"\] Alt text: Edit prompt screen to modify prompts in the Now Assist Skill Kit.
+</table>    2.  Select **Edit prompt in ServiceNow Otto Skill Kit** to make necessary changes to the prompt in the ServiceNow Otto Skill Kit.
 
-    3.  Select **Save and continue** to go to the next step.
+    3.  Select **Save and continue**.
 
-8.  Define availability.
+7.  Select the **Define availability** tab.
 
-    Define how the skill will be available to users.
-
-    1.  Configure the skill to be always available to users, or select the conditions that must be met before the skill is available.
+    1.  Select if the skill must be always available or customize its availability.
 
         Selecting **Customize skill availability** displays a condition builder to filter the data further.
 
-    2.  Select **Save and continue** to go to the next step.
+    2.  Select **Save and continue**.
 
-9.  Select display.
+8.  Select the **Select display** tab.
 
-    Configure where to display the work order task summarization.
+    1.  Select either **In-product**, or **Servicenow Otto panel**.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+        -   **In-product**: When selected, ServiceNow Otto skills are displayed in all FSM products \(on forms and in workspaces\).
 
-        -   **In-product**: When selected, Now Assist skills are displayed in all FSM products \(on forms and in workspaces\).
+            To identify the roles that can use the skill, select the down arrow.
 
-            For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
+        -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel.
 
-        -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+    2.  Select **Save and continue**.
 
-    2.  Select **Save and continue** to go to the next step.
+9.  In the **Review and activate** page, review your choices and select **Activate** to complete the skill customization.
 
-10. Review and activate.
 
-    Review your choices and select **Activate** to complete the skill customization.
+## Result
 
-    You can now select **Summarize** from a work order task record and generate the custom work order task summary.
-
+You can now select **Summarize** from a work order task record and generate the custom work order task summary.
 

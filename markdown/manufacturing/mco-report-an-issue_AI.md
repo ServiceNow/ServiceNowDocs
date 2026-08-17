@@ -1,5 +1,5 @@
 ---
-title: Report an issue using Now Assist for Manufacturing Commercial Operations \(MCO\)
+title: Report an issue using ServiceNow Otto
 description: Use the MCO portal to submit product non-conformance issues with AI-guided playbook workflows for duplicate detection, completeness assessment, cost tracking, and review. This improves data consistency, traceability, and efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-report-an-issue\_AI.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI, Now Assist for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
 ---
 
-# Report an issue using Now Assist for Manufacturing Commercial Operations \(MCO\)
+# Report an issue using ServiceNow Otto
 
 Use the MCO portal to submit product non-conformance issues with AI-guided playbook workflows for duplicate detection, completeness assessment, cost tracking, and review. This improves data consistency, traceability, and efficiency.
 
@@ -40,7 +40,7 @@ The Enhance non conformance description AI skill evaluates the non-conformance d
 
     The description is evaluated for 5W2H that is what, where, when, who, why, and how. Based on the information provided.
 
-    1.  Select **Suggestions for improvement** to get assistance from Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
+    1.  Select **Suggestions for improvement** to get assistance from ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
 
     2.  Select + to add the supporting document and work orders.
 
@@ -50,7 +50,7 @@ The Enhance non conformance description AI skill evaluates the non-conformance d
 
 4.  Proceed without entering the details in the **Follow-up** activity.
 
-    -   Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: analyzes the issue description and attachments to auto-populate answers to the follow-up questions.
+    -   ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: analyzes the issue description and attachments to auto-populate answers to the follow-up questions.
     -   You can edit the auto-populated answers by selecting the form fields and **Continue**.
 5.  In the **Identify duplicate**, check if there's any existing NCC for the same install base item.
 

@@ -1,5 +1,5 @@
 ---
-title: Plan and execute recall campaign phases and sub-phases using Now Assist for Manufacturing Commercial Operations \(MCO\)
+title: Plan and execute recall campaign phases and sub-phases using ServiceNow Otto
 description: Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, Now Assist for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
 ---
 
-# Plan and execute recall campaign phases and sub-phases using Now Assist for Manufacturing Commercial Operations \(MCO\)
+# Plan and execute recall campaign phases and sub-phases using ServiceNow Otto
 
 Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 
@@ -20,13 +20,13 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 ## About this task
 
-Plan and Execute Recall Campaign Phases AI agent generates and manages recall campaign phase plans based on user inputs, asset and parts data, and regulatory conditions. It supports plan creation, updates, approvals, execution, and Knowledge Graph integration for both phases and sub-phases.
+The Plan and Execute Recall Campaign Phases AI agent generates and manages recall campaign phase plans based on user inputs, asset and parts data, and regulatory conditions. It supports plan creation, updates, approvals, execution, and knowledge graph integration for phases and sub-phases.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **Phases &amp; Sub-phases**.
 
-2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the Now Assist panel.
+2.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the ServiceNow Otto panel.
 
 3.  Submit a request to create phases for my recall campaign.
 
@@ -36,7 +36,7 @@ Plan and Execute Recall Campaign Phases AI agent generates and manages recall ca
 
 5.  The agent reviews the recall campaign, which is selected.
 
-    The agent displays existing phases and sub-phases on the recall campaign and prompts you to confirm whether draft phases should be cancelled and their associated assets included in the new plan.
+    The agent displays existing phases and sub-phases on the recall campaign. It prompts you to confirm whether draft phases should be cancelled and their associated assets included in the new plan.
 
     The agent checks if a plan exists. Also, it provides the list on what basis the phases can be organized.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up pricing display, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up pricing display, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Show rollup pricing in the shopping cart
@@ -20,7 +20,7 @@ Role required: Admin
 
 ## About this task
 
-When a bill of materials \(BOM\) is represented with hierarchy, such as a parent-child relationship, you may prefer to total the prices of the child items and display them on the parent line as a sum. ServiceNow CPQ rollup pricing totals direct child and parent extended list values. Rollup pricing delivers the sum of all child line prices to the shopping cart, including the price of the parent, and displays it at the parent line.
+When a bill of materials \(BOM\) is represented with hierarchy, such as a parent-child relationship, you may prefer to total the prices of the child items and display them on the parent line as a sum. CPQ rollup pricing totals direct child and parent extended list values. Rollup pricing delivers the sum of all child line prices to the shopping cart, including the price of the parent, and displays it at the parent line.
 
 To view a script that illustrates how a hierarchical bill of materials might be generated, see [Adv Product Action with Product List](https://docs.google.com/document/d/1DmVwr1NTJyFLWM0RJB4wUWcA7fI-Jg4iikv9Cji3OVI/edit?usp=sharing).
 
@@ -34,7 +34,7 @@ The next example shows a 2-tier roll-up, with a child product \(child1B and chil
 
 ## Procedure
 
-1.  In ServiceNow CPQ administration, create a rule by clicking **+ New**.
+1.  In CPQ administration, create a rule by clicking **+ New**.
 
     \[Omitted image "cpq-rollup-pricing-3.png"\] Alt text: Rules
 

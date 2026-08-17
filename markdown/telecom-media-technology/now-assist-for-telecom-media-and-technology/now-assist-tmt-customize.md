@@ -1,6 +1,6 @@
 ---
-title: Customize a skill in Now Assist for TMT
-description: If you have the admin role, you can customize a Now Assist for Telecommunications, Media and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+title: Customize a skill in ServiceNow Otto for TMT
+description: If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configure, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Customize a skill in Now Assist for TMT
+# Customize a skill in ServiceNow Otto for TMT
 
-If you have the admin role, you can customize a Now Assist for Telecommunications, Media and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the account onboarding and service problem management, and then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the account onboarding and service problem management. You can then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** and select the **AI Skills** tab.
 
-2.  In the **Customer** workflow group, select **TMT** to view the skills for the Now Assist for TMT features.
+2.  In the **Customer** workflow group, select **TMT** to view the skills for the ServiceNow Otto for TMT features.
 
-3.  Activate and copy the Now Assist for TMT feature case summarization skill for customization.
+3.  Activate and copy the ServiceNow Otto for TMT feature case summarization skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
@@ -48,7 +48,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -141,11 +141,9 @@ Description of the base input field value.
 
     \[Omitted image "customize-prompt-customer-service-skill.png"\] Alt text: customize prompt output.
 
-    1.  Select **Edit prompt in Now Assist Skill Kit** to visit Now Assist Skill Kit.
+    1.  Select **Edit prompt in AI Skill Kit** o make necessary changes to the prompt in the AI Skill Kit.
 
-        \[Omitted image "edit-prompt-now-assist-skill-kit.png"\] Alt text: edit prompt.
-
-    2.  Select **Go to Now Assist Skill Kit** to review and modify the prompt.
+    2.  Select **Save and Continue** to go the next step.
 
 8.  Customize the prompt for risk signal and issues summary skill.
 
@@ -153,11 +151,9 @@ Description of the base input field value.
 
     \[Omitted image "customize-prompt-risk-signals.png"\] Alt text: customize prompt output.
 
-    1.  Select **Edit prompt in Now Assist Skill Kit** to visit Now Assist Skill Kit.
+    1.  Select **Edit prompt in AI Skill Kit** o make necessary changes to the prompt in the AI Skill Kit.
 
-        \[Omitted image "edit-prompt-risk-signals.png"\] Alt text: edit prompt.
-
-    2.  Select **Go to Now Assist Skill Kit** to review and modify the prompt.
+    2.  Select **Save and Continue** to go the next step.
 
 9.  Select **Save and continue** to go to the next step.
 
@@ -173,15 +169,15 @@ Description of the base input field value.
 
     1.  Select either **In-product**, or **Now Assist panel**.
 
-        -   **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+        -   **In-product**: When selected, the ServiceNow Otto skills are displayed on the forms and workspaces.
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, the ServiceNow Otto skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 

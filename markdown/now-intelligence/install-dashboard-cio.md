@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cio.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
@@ -17,6 +17,8 @@ The Chief Information Officer \(CIO\) Dashboard provides a decision-making frame
 ## Before you begin
 
 Role required: admin, platform\_analytics\_admin, cio\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The CIO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 

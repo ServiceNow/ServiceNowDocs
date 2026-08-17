@@ -1,6 +1,6 @@
 ---
 title: Organization tax details
-description: Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\], which stores supplier tax registration details used when reviewing or configuring supplier tax information in Accounts Payable.
+description: Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\] used to review or configure supplier tax registration details in Accounts Payable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/organization-tax-details.html
 release: australia
@@ -9,13 +9,13 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [APO, Accounts Payable Operations, supplier, tax, invoice automation]
+keywords: [APO, Accounts Payable Operations, supplier, tax, Organization tax]
 breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Organization tax details
 
-Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\], which stores supplier tax registration details used when reviewing or configuring supplier tax information in Accounts Payable.
+Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\] used to review or configure supplier tax registration details in Accounts Payable.
 
 ## Organization tax table
 

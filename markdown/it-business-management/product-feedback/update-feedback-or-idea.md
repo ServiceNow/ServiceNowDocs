@@ -9,7 +9,7 @@ classification: product-feedback
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Managing Feedback application in Strategic Planning, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update Feedback or Product idea records from the list page
@@ -34,15 +34,15 @@ Modify feedback or product idea records within the list view or side panel using
 
 3.  Update the record details, attach files, or delete the feedback or product idea record.
 
-<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d257274e88">
+<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d264041e88">
 
 Choice
 
-</th><th align="left" id="d257274e91">
+</th><th align="left" id="d264041e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d257274e97">
+</th></tr></thead><tbody><tr><td id="d264041e97">
 
 **Update feedback or product idea record**
 
@@ -52,7 +52,7 @@ Double-click on the feedback or product idea field on the grid to make inline ed
 
  **Note:** You can’t make inline edits for read-only fields.
 
-</td></tr><tr><td id="d257274e135">
+</td></tr><tr><td id="d264041e135">
 
 **Add worknotes or attachments**
 
@@ -64,7 +64,7 @@ From the full details page:
 -   Compose work notes and select **Post Work notes**.
 
 
-</td></tr><tr><td id="d257274e161">
+</td></tr><tr><td id="d264041e161">
 
 **Delete feedback or product idea record**
 

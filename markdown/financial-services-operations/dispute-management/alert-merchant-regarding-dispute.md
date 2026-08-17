@@ -42,7 +42,7 @@ During the investigation stage of a transaction dispute, this task alerts the me
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Review participating merchant alerts** activity under the **Investigation** playbook stage.
+6.  Select the **Review participating merchant alerts** task under the **Investigation** playbook stage.
 
 7.  On the form, fill in the required fields and any other related information.
 
@@ -54,10 +54,10 @@ During the investigation stage of a transaction dispute, this task alerts the me
 
 9.  Select one of the following actions.
 
-    |Dispute activity|Action|
-    |----------------|------|
-    |**To save changes to the activity**|Select **Update**.|
-    |**To close the activity**|Select **Close task**.|
+    |Dispute task|Action|
+    |------------|------|
+    |**To save changes to the task**|Select **Update**.|
+    |**To close the task**|Select **Close task**.|
 
 
 ## Result

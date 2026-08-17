@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-06-02"
 reading_time_minutes: 3
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # How alerts work with CIs in maintenance

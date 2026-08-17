@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Supplier Relationship and Performance Management, primary data tables, KPI configurations, KPI data, generated scores]
 breadcrumb: [Supplier Relationship and Performance Management reference, Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 

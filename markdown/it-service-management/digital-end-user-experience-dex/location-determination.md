@@ -16,7 +16,7 @@ breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT 
 
 Identify and determine the number of impacted devices based on the location by defining a custom logic.
 
-Identify and determine the number of impacted devices based on the location by configuring a custom logic for location determination. Device location can be set using three predefined configurations. DEX administrators can select an option in the system properties and `sn_dex.location_determination`. The property controls how DEX identifies the positioning of the device used to establish the device's location \(in the cmdb\_ci\_computer table\) and throughout DEX for reporting and alerting purposes.
+Identify the number of impacted devices by location by configuring custom logic for location determination. Device location can be set using three predefined configurations. DEX administrators configure this behavior using the **sn\_dex.location\_determination** system property. This property controls how DEX determines the location of each device in the \[cmdb\_ci\_computer\] table, which is used for reporting and alerting.
 
 ## default\_gateway\_determined\_location
 

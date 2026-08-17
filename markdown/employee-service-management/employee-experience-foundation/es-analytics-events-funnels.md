@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [User Experience Analytics, conversion funnels, Employee Slate, analytics navigation, user behavior tracking]
 breadcrumb: [Analytics and reporting, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
@@ -79,6 +79,8 @@ You can now access conversion funnel data to analyze user behavior patterns in E
 ## What to do next
 
 To create custom funnels for specific workflows, see the funnel configuration documentation. To analyze funnel data trends over time, use the date range filters and export options available in the interface.
+
+Employee Slate for Moveworks provides similar analytics. Navigate to **Platform Analytics** &gt; **User Experience Analytics**, and select **Employee Slate for Moveworks**. There, you can review retention, cohort analysis, navigation paths, and session details.
 
 **Related topics**  
 

@@ -25,13 +25,20 @@ See [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     Dynamic Guidance provides an assistance that is fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
 
 
+## Changed in this release
+
+-   **[genai\_admin role in Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure.md)**
+
+    The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
+
+
 ## Deprecated features
 
 Starting with the Australia release, Guided Setup is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Activation information
 
-Adoption Services is active by default with the plugins. Do not activate this feature.
+Adoption Services is a ServiceNow AI Platform feature that is active by default.
 
 ## Accessibility information
 
@@ -41,7 +48,7 @@ Adoption Services is active by default with the plugins. Do not activate this fe
 
     -   Descriptive page titles
     -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
+    -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
 
 **Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

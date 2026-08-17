@@ -14,27 +14,26 @@ breadcrumb: [Reference, Customer Service Management]
 
 The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
 
-**Note:** The entity name changes are available in the Business Location 5.2.0 store app.
-
-|Table name|Previous label|New label|
-|----------|--------------|---------|
-|sn\_customer\_service\_organization|Service Organization|Organization Core|
-|sn\_csm\_business\_location|Business Location|Business Organization|
-|sn\_csm\_business\_location\_internal|Internal Business Location \(IBL\)|Internal Organization|
-|sn\_csm\_business\_location\_external|External Business Location \(EBL\)|External Organization|
-|sn\_outsourced\_service\_provider|Outsourced Service Provider|No change|
-|sn\_csm\_service\_organization\_external\_staff|Service Organization External Staff|External Organization Staff|
-|service\_organizations\_offering\_service|Service Organizations offering Service|Organizations offering Service|
-|service\_organization\_criteria|Service Organization Criteria|Organization Criteria|
-|service\_organization\_customer\_criteria|Service Organization Customer Criteria|Organization Customer Criteria|
-|sn\_csm\_svc\_org\_member\_responsibility|Service Organization Member Responsibility|Organization Member Responsibility|
-|sn\_service\_org.service\_org\_assignment\_group|Service Organization Assignment Group|Organization Assignment Group|
+|Table name|Previous label|New label|Effective from|
+|----------|--------------|---------|--------------|
+|sn\_customer\_service\_organization|Service Organization|Organization Core|Service Organization 2.4|
+|sn\_csm\_business\_location|Business Location|Business Organization|Business Location 5.2|
+|sn\_csm\_business\_location\_internal|Internal Business Location \(IBL\)|Internal Organization|Business Location 5.2|
+|sn\_csm\_business\_location\_external|External Business Location \(EBL\)|External Organization|Business Location 5.2|
+|sn\_outsourced\_service\_provider|Outsourced Service Provider|No change|-|
+|sn\_csm\_service\_organization\_external\_staff|Service Organization External Staff|External Organization Staff|Service Organization 2.4|
+| |Service Organization Member|Organization Member|Service Organization 2.4|
+|service\_organizations\_offering\_service|Service Organizations offering Service|Organizations offering Service|Service Organization 2.4|
+|service\_organization\_criteria|Service Organization Criteria|Organization Criteria|Service Organization 2.4|
+|service\_organization\_customer\_criteria|Service Organization Customer Criteria|Organization Customer Criteria|Service Organization 2.4|
+|sn\_csm\_svc\_org\_member\_responsibility|Service Organization Member Responsibility|Organization Member Responsibility|Service Organization 2.4|
+|sn\_service\_org.service\_org\_assignment\_group|Service Organization Assignment Group|Organization Assignment Group|Service Organization 2.4|
 
 ## Field label renaming
 
 The following foreign key field labels have been updated across impacted entities.
 
-**Note:** The entity name changes are available in the Business Locations 5.2.0 store app.
+**Note:** The entity name changes are effective from v2.4 of the Service Organization store app.
 
 |Table name|Field name|Previous label|New label|
 |----------|----------|--------------|---------|
@@ -42,7 +41,7 @@ The following foreign key field labels have been updated across impacted entitie
 |Service Organization External Staff|service\_organization|Service Organization|Organization|
 |Service Organization Member|service\_organization|Service Organization|Organization|
 |Case|requesting\_service\_organization|Requesting Service Organization|Requestor Organization|
-|Case|service\_organization|Provider Service Organization|Provider Organization|
+|Case|service\_organization|Service Organization|Provider Organization|
 |Interaction|requesting\_service\_organization|Requesting Service Organization|Requestor Organization|
 |Sold Product|provider\_service\_organization|Provider Service Organization|Seller Organization|
 |Sold Product|service\_organization|Service Organization|Buyer Organization|

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-07"
 reading_time_minutes: 1
 keywords: [Ansible Discovery Agent, automation discovery, job templates, semantic matching]
-breadcrumb: [Ansible automation integration, Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Ansible automation integration, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Ansible discovery agent

@@ -30,7 +30,7 @@ Select a tile to get started.
 
 </td></tr><tr><td>
 
-[Now Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist in Virtual Agent in your Slack integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
+[ServiceNow Otto®\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use ServiceNow Otto for Virtual Agent in your Slack integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
 
 </td><td>
 
@@ -41,16 +41,16 @@ Select a tile to get started.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-slack.md)**  
 The Virtual Agent integration with Slack creates a one-to-one association between the ServiceNow instance that you are installing from and the Slack workspace in which the integration runs. By default, Virtual Agent supports one-click installation that integrates one Slack workspace with one ServiceNow instance.
 -   **[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)**  
-Configure your Slack bots that are integrated with the Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.
--   **[Using Now Assist in Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-slack.md)**  
-The Now Assist provides you with the large language model \(LLM\)-based conversational experience during your conversations with a Now Virtual Agent bot or a Self-configured bot that is integrated with Slack.
+Configure your Slack bots that are integrated with Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.
+-   **[Using ServiceNow Otto for Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-slack.md)**  
+ServiceNow Otto provides a large language model \(LLM\)-based conversational experience in your conversations with a Virtual Agent bot or a self-configured bot that is integrated with Slack.
 -   **[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-slack-other-features.md)**  
-Virtual Agent features, such as AI Search results, Virtual Agent notifications, and Virtual Agent Designer controls for creating Virtual Agent conversations are supported in Slack bot conversations.
+Virtual Agent features, such as AI Search results, Virtual Agent notifications, and controls for creating Virtual Agent conversations are supported in Slack bot conversations.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

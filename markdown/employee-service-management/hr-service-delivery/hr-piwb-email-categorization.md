@@ -144,5 +144,3 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 
 [Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-predictive-intelligence.md)
 
-[bundle-itsm.itsm-piwb-integ-implem-custom]
-

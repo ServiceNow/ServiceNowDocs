@@ -1,6 +1,6 @@
 ---
 title: Integration errors
-description: Integration errors occur when invoices fail to post to the ERP system due to data connection issues or missing data, and the ERP integration framework tracks these failures as system-generated error tasks for specialist review and resubmission.
+description: Integration errors occur when invoices fail to post to the ERP system and are tracked as tasks for specialist review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.html
 release: australia
@@ -8,16 +8,16 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice management, ERP integration, invoice automation]
 breadcrumb: [Accounts Payable Operations integration framework, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Integration errors
 
-Integration errors occur when invoices fail to post to the ERP system due to data connection issues or missing data, and the ERP integration framework tracks these failures as system-generated error tasks for specialist review and resubmission.
+Integration errors occur when invoices fail to post to the ERP system and are tracked as tasks for specialist review.
 
-When the invoice is posted to an outbound staging table in the Accounts Payable Operations application, sometimes due to poor data connection, or missing data, the ERP integration can fail. Such integration failures are tracked in the form of system-generated integration error tasks. The integration error tasks are created and auto-assigned to the Accounts Payable Operations specialist involved in the processing of invoice case. With playbooks, Accounts Payable Operations specialist uses the **Review integration errors** activity card to review the error tasks associated with the invoice processing case, make required changes to the invoice header, invoice lines and resubmits the invoice to ERP by integration.
+When the invoice is posted to an outbound staging table in the Accounts Payable Operations application, sometimes due to poor data connection, or missing data, the ERP integration can fail. Such integration failures are tracked in the form of system-generated integration error tasks. The integration error tasks are created and auto-assigned to the Accounts Payable Operations specialist involved in the processing of invoice case. With playbooks, the Accounts Payable Operations specialist uses the **Review integration errors** activity card to review the associated error tasks. The specialist makes the required changes to the invoice header and invoice lines, then resubmits the invoice to ERP.
 
 When invoices are ingested through DocIntel or integration, you can determine the ERP source for certain fields like Purchase order, Legal entity, Original invoice, Supplier tax id and Supplier. You can populate the reference fields matching the ERP source.
 

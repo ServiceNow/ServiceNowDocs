@@ -1,6 +1,6 @@
 ---
 title: Configure service desk groups to access the Service Operations Workspace landing page
-description: Ensure that the right users have access to the Service Operations Workspace landing page.
+description: Confirm that the right users have access to the Service Operations Workspace landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Access controls in Service Operations Workspace for ITSM, Getting s
 
 # Configure service desk groups to access the Service Operations Workspace landing page
 
-Ensure that the right users have access to the Service Operations Workspace landing page.
+Confirm that the right users have access to the Service Operations Workspace landing page.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ It is applicable only for an instance that has Service Operations Workspace 1.1 
 
     1.  From the **All** menu, navigate to **sys\_properties.list**.
 
-    2.  To ensure that the user criteria records are used instead of roles to access the landing page, set the **glide.ux.user\_criteria\_enabled** property to `true`.
+    2.  To verify that the user criteria records are used instead of roles to access the landing page, set the **glide.ux.user\_criteria\_enabled** property to `true`.
 
     3.  Select **Update**.
 
@@ -41,6 +41,8 @@ It is applicable only for an instance that has Service Operations Workspace 1.1 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Building Blocks** &gt; **Audiences**.
 
     2.  Select an audience and perform the following steps, for example, **SOW Service Desk Audience**.
+
+        **Note:** If the **User Criteria Inclusions** related list is read-only after setting the **glide.ux.user\_criteria\_enabled** property to `true`, open the audience record directly in the classic ServiceNow AI Platform user interface by navigating to the record URL with the sys\_id of the audience. Editing user criteria records require write access to the **sys\_user\_criteria** table, which may require the admin role.
 
         1.  From the **User Criteria Inclusions** related list, open the audience, for example, **Service Desk Group Inclusion**.
         2.  For the **Groups** field, add the required service desk group that the user is part of.

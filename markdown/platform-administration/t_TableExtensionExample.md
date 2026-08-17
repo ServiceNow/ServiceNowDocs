@@ -14,10 +14,6 @@ breadcrumb: [Table extension, Applying database rotation techniques, Data Manage
 
 Preserve data sets using table extension.
 
-## Before you begin
-
-Role required: admin
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Table Rotations**.
@@ -68,7 +64,7 @@ The days and hours during which data is written to each shard.
 
 A schedule is created and new shards are added indefinitely to preserve data.
 
-**Note:** Deleting a rotation deletes the additional tables and all the data. Do not delete the rotation if you still need the data.
+**Note:** Deleting a rotation deletes the additional tables and all the data. Don't delete the rotation if you still need the data.
 
 **Parent Topic:**[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension.md)
 

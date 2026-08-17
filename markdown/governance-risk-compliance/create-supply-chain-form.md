@@ -1,6 +1,6 @@
 ---
-title: Create New ICT service supply chain form
-description: On the Create New ICT service supply chain form, fill in the fields.
+title: Create an ICT service supply chain form
+description: On the Create an ICT service supply chain form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-supply-chain-form.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Create a supply chain and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New ICT service supply chain form
+# Create an ICT service supply chain form
 
-On the Create New ICT service supply chain form, fill in the fields.
+On the Create an ICT service supply chain form, fill in the fields.
 
 <table id="table_nt2_kj4_ycc"><thead><tr><th>
 

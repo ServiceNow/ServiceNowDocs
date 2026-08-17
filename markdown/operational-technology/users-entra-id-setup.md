@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 2
-breadcrumb: [Users page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Set up a Microsoft Entra ID
@@ -96,4 +96,6 @@ Once configured, user can log in by doing:
 -   The redirect URI in Entra must exactly match the Console URL.
 -   Incorrect Tenant ID or Client ID results in authentication failures.
 -   Admin consent may be required when configuring permissions in Entra.
+
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
 

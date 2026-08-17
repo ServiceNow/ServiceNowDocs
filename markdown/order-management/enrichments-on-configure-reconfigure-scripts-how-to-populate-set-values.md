@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Scripting: How to populate set values
@@ -22,14 +22,14 @@ This example shows making a SOQL call to Salesforce using an external connection
 
 To complete this example you need:
 
--   Enrichments enabled in your ServiceNow CPQ instance
--   External connections enabled in your ServiceNow CPQ instance
+-   Enrichments enabled in your CPQ instance
+-   External connections enabled in your CPQ instance
 -   A set created and associated with the blueprint
 -   A text field associated with the set
 
 ## External connection: SOQL call
 
-In the ServiceNow CPQ Admin screen, find the external connections under Utilities.
+In the CPQ Admin screen, find the external connections under Utilities.
 
 \[Omitted image "cpq-admin-external-connections.png"\] Alt text: Admin screen
 

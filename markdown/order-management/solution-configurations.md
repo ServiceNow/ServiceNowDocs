@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-26"
 reading_time_minutes: 3
 keywords: [solution configuration, CPQ, blueprints, solution root]
-breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Solution configurations
@@ -36,14 +36,14 @@ Solution configuration enables you to create interconnected blueprint hierarchie
 
 ## Benefits of solution configuration
 
-Solution configuration provides distinct advantages for both ServiceNow CPQ administrators and end users.
+Solution configuration provides distinct advantages for both CPQ administrators and end users.
 
 -   **For administrators**
     -   Independent deployment: Each blueprint can be deployed independently, allowing for finer granularity when making changes or updates to a blueprint.
     -   Separation of concerns: Segment logical components from a configuration and allow different teams to work on blueprints without conflicting.
     -   Blueprint reusability: Blueprints can be reused as part of a solution, multiple solutions, or as independently configurable products, reducing duplication and maintenance overhead.
 -   **For end users**
-    -   End users can seamlessly work through multiple configurations without needing to relaunch ServiceNow CPQ each time.
+    -   End users can seamlessly work through multiple configurations without needing to relaunch CPQ each time.
     -   Users can clone valid child configurations in set-based solutions, with cloned nodes being fully independent of the original.
     -   Users can add blank nodes or remove nodes from the solution navigation sidebar as needed.
 

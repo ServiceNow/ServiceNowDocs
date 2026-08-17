@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -51,6 +51,25 @@ Description
 
 </th><th>
 
+API response
+
+</th></tr></thead><tbody><tr><td>
+
+Licenses overview API response`URL: /organizations/{orgId}/licenses/overview`
+
+Called for organizations with a CO-TERM licensing model \(`org.licensing.model === "co-term"`\) to collect the license expiration date, which is not available on a per-device basis for these organizations.
+
+</td><td>
+
+
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Description
+
+</th><th>
+
 Endpoint
 
 </th></tr></thead><tbody><tr><td>
@@ -67,6 +86,31 @@ Networks API response`URL:/organizations/{orgId}/networks`
 │    "notes": "Network description"                                     │
 │  } 
 ```
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Description
+
+</th><th>
+
+Endpoint
+
+</th></tr></thead><tbody><tr><td>
+
+Uplink selection endpoint`URL: /networks/{networkId}/appliance/trafficShaping/uplinkSelection`
+
+</td><td>
+
+
+
+</td></tr><tr><td>
+
+Uplink bandwidth endpoint`URL: /networks/{networkId}/appliance/trafficShaping/uplinkBandwidth`
+
+</td><td>
+
+
 
 </td></tr></tbody>
 </table><table><thead><tr><th>

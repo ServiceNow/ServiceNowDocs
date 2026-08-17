@@ -20,17 +20,17 @@ ServiceNow teams work together to offer models that apply the artificial intelli
 
 Following is a listing of some ServiceNow products that use Predictive Intelligence functionality.
 
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
+-   [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/machine-learning-csm.md)
+-   [Machine learning solutions for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/ml-solutions-em.md)
+-   [Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issue-assignment-using-predictive-intelli.md)
+-   [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/predictive-intelligence-for-hr-service-delivery.md)
+-   [Predictive Intelligence for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/predictive-intelligence-for-innovation.md)
+-   [Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/machine-learning-itsm.md)
+-   [Machine learning solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/machine-learning-km.md)
+-   [Machine learning solutions for Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/machine-learning-search.md)
+-   [Machine Learning solutions for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ml_vr.md)
+-   [Work order insights powered by Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/machine-learning-fsm.md)
+-   [Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/predictive-intelligence-spoke.md)
 
 **Parent Topic:**[Explore Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 

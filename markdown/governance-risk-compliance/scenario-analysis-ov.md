@@ -1,6 +1,6 @@
 ---
 title: Scenario analysis
-description: Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience, version 22.3.1, you can use the advanced scenario analysis with simulation in the Operational Resilience Workspace, apply statistical modelling to quantify financial impact, and record a treatment decision.
+description: Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience, version 22.3.1, you can use advanced scenario analysis with simulation in the Operational Resilience Workspace. Apply statistical modelling to quantify financial impact and record a treatment decision.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scenario-analysis-ov.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 
 # Scenario analysis
 
-Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience, version 22.3.1, you can use the advanced scenario analysis with simulation in the Operational Resilience Workspace, apply statistical modelling to quantify financial impact, and record a treatment decision.
+Conduct a scenario analysis to assess how a critical service performs under adverse conditions. Starting with Operational Resilience, version 22.3.1, you can use advanced scenario analysis with simulation in the Operational Resilience Workspace. Apply statistical modelling to quantify financial impact and record a treatment decision.
 
 ## What is a scenario analysis
 
@@ -40,7 +40,7 @@ When you create a scenario analysis record, select **Statistical Modelling** —
 
 The base configuration includes an annual loss model driven by risk events, which references input and output templates managed through the Smart Assessment Engine \(SAE\).
 
-Before selecting a method, verify with your administrator that Smart Assessment templates have been created and published in the Assessment Workspace, using the purpose *Scenario Analysis \(advanced\)* or *Scenario Analysis - Manual*. For more information, see the following topics:
+Before selecting a method, verify with your administrator that Smart Assessment templates have been created and published in the Assessment Workspace. Use the purpose Scenario Analysis \(advanced\) or Scenario Analysis - Manual. For more information, see the following topics:
 
 -   [Verify the Smart Assessment templates setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-sae-templates-for-sca.md)
 -   [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md)

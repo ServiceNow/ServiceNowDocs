@@ -1,30 +1,30 @@
 ---
-title: Passing data from Salesforce to ServiceNow CPQ fields
-description: Learn how to pass information from Salesforce into ServiceNow CPQ using the On Configuration/Reconfigure enrichment.
+title: Passing data from Salesforce to CPQ fields
+description: Learn how to pass information from Salesforce into CPQ using the On Configuration/Reconfigure enrichment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments\_on\_pass\_data\_from\_salesforce\_to\_logik\_io\_fields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Passing data from Salesforce to ServiceNow CPQ fields
+# Passing data from Salesforce to CPQ fields
 
-Learn how to pass information from Salesforce into ServiceNow CPQ using the On Configuration/Reconfigure enrichment.
+Learn how to pass information from Salesforce into CPQ using the On Configuration/Reconfigure enrichment.
 
-Sometimes a ServiceNow CPQ configuration needs information from outside the configuration passed into the configuration on initialization. There are several ways to do this.
+Sometimes a CPQ configuration needs information from outside the configuration passed into the configuration on initialization. There are several ways to do this.
 
 \[Omitted image "cpq-enrichments-info-in-info-out.png"\] Alt text: Workflow
 
-If the information can be found on the Salesforce quote, use the twinning method of data transfer. External data would be assigned to a field in ServiceNow CPQ.
+If the information can be found on the Salesforce quote, use the twinning method of data transfer. External data would be assigned to a field in CPQ.
 
-In this example, ServiceNow CPQ uses the On Configuration/Reconfigure enrichment \(called “Init enrichment” here\) to send an API call to the website “FakerAPI.it”. This website sends an API response with fake credit card information.
+In this example, CPQ uses the On Configuration/Reconfigure enrichment \(called “Init enrichment” here\) to send an API call to the website “FakerAPI.it”. This website sends an API response with fake credit card information.
 
 \[Omitted image "cpq-enrichments-faker-api.png"\] Alt text: API
 
-Our goal is to populate a field in ServiceNow CPQ with the credit card type \(Visa, MasterCard, or other\).
+Our goal is to populate a field in CPQ with the credit card type \(Visa, MasterCard, or other\).
 
 ## Setup
 
@@ -41,7 +41,7 @@ The following information is used for our external connection to FakerAPI.it.
 |Authentication Type|None|
 |timeout|500|
 
-Next, the field in ServiceNow CPQ must be created and associated with the blueprint that uses the enrichment. All four ServiceNow CPQ field types can be assigned data from the enrichment. The data assigned to the field from the API response just needs to match the field.
+Next, the field in CPQ must be created and associated with the blueprint that uses the enrichment. All four CPQ field types can be assigned data from the enrichment. The data assigned to the field from the API response just needs to match the field.
 
 ## Scripting the Init enrichment
 
@@ -61,7 +61,7 @@ Var {varName} = Salesforce.{externalConnectionVariableName}(inputs)
 
 If there are no inputs, use empty parentheses.
 
-In the Init enrichment, the Fields item changes to Configuration Request, which is referenced in the script as `cfgRequest`. This item is used to define fields in the ServiceNow CPQ configuration that is being initialized. Therefore, if external data is passed to ServiceNow CPQ, it is assigned from the `cfgRequest` JSON object and values have to be programmed into it. That can be scripted two ways \(Items in curly braces \( \{ \} \) and in italics are determined by the user\):
+In the Init enrichment, the Fields item changes to Configuration Request, which is referenced in the script as `cfgRequest`. This item is used to define fields in the CPQ configuration that is being initialized. Therefore, if external data is passed to CPQ, it is assigned from the `cfgRequest` JSON object and values have to be programmed into it. That can be scripted two ways \(Items in curly braces \( \{ \} \) and in italics are determined by the user\):
 
 ```
 cfgRequest.{LogikVariableName}.set(“value”, “{value}”) ;
@@ -80,7 +80,7 @@ cfgRequest.sqft.set(“value”, 500);
 
 Notice that the number does not need quotes around it.
 
-The Configuration Request item contains all the requests on the configuration. This includes fields that are twinned into ServiceNow CPQ. Moreover, `cfgRequest` is populated with the twinned fields before the Init enrichment script runs. This means that twinned fields can be used as variables \(inputs\) for the enrichment script and external connection, which can affect the output from the script and external connection. The following snippet shows the formatting options when getting values from `cfgRequest`.
+The Configuration Request item contains all the requests on the configuration. This includes fields that are twinned into CPQ. Moreover, `cfgRequest` is populated with the twinned fields before the Init enrichment script runs. This means that twinned fields can be used as variables \(inputs\) for the enrichment script and external connection, which can affect the output from the script and external connection. The following snippet shows the formatting options when getting values from `cfgRequest`.
 
 ```
 var x = cfgRequest.{varName}.get(“value”);
@@ -139,13 +139,13 @@ return cfgRequest;
 } 
 ```
 
-So in ServiceNow CPQ, the cardType\_adv field is defined as “American Express”.
+So in CPQ, the cardType\_adv field is defined as “American Express”.
 
 ## Query data from Salesforce \(SOQL\)
 
-As mentioned earlier, data that is in a Salesforce quote can be twinned into ServiceNow CPQ. However, if the data is found elsewhere in Salesforce, the Init enrichment has Salesforce as the external connection, and you perform a query using Salesforce Object Query Language \(SOQL\). If you are unfamiliar with the SOQL language, you can find out more at Salesforceʼs Trailhead site.
+As mentioned earlier, data that is in a Salesforce quote can be twinned into CPQ. However, if the data is found elsewhere in Salesforce, the Init enrichment has Salesforce as the external connection, and you perform a query using Salesforce Object Query Language \(SOQL\). If you are unfamiliar with the SOQL language, you can find out more at Salesforceʼs Trailhead site.
 
-To use SOQL in the enrichment, the only difference from the examples above is a change to the external connection. In ServiceNow CPQ Admin, click **Utilities**, click **External Connections**, and then click **New**. This is how you normally create an external connection.
+To use SOQL in the enrichment, the only difference from the examples above is a change to the external connection. In CPQ Admin, click **Utilities**, click **External Connections**, and then click **New**. This is how you normally create an external connection.
 
 For the field integration type, select **Salesforce**. This provides a box for you to enter your SOQL query.
 
@@ -154,5 +154,5 @@ For the field integration type, select **Salesforce**. This provides a box for y
 **Related topics**  
 
 
-[Twinning: pulling Salesforce CPQ quote information into ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/twinning_how_to_pull_salesforce_cpq_quote_information_into_logik_io.md)
+[Twinning: pulling Salesforce CPQ quote information into CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/twinning_how_to_pull_salesforce_cpq_quote_information_into_logik_io.md)
 

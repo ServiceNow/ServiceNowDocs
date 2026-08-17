@@ -39,7 +39,7 @@ Business glossary terms define business concepts and can be linked to catalog as
 
     -   Lifecycle status: Current state of the glossary term. Possible values are: Approved, Deprecated, Draft, In review, Rejected.
     -   Version: Provide a version number or label for the term.
-    -   Status message: Description of why the data asset is in its status.
+    -   Status message: Description of why the glossary term is in its status.
     -   Owner: Person responsible for the term definition.
     -   Reviewer: Person responsible for reviewing the glossary term.
 6.  Complete the classification details.

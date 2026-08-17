@@ -20,7 +20,7 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist for Integration Toolkit** &gt; **SIR Integration Builder**.
+1.  Navigate to **All** &gt; **ServiceNow Otto for Security Incident Response integration Toolkit** &gt; **SIR Integration Builder**.
 
 2.  On the **Custom integrations** page, select **New**.
 

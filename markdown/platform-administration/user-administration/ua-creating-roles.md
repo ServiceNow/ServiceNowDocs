@@ -16,6 +16,8 @@ breadcrumb: [User administration, Configure core features, Administer the Servic
 
 Administrators can create and configure roles that grant specific permissions, which govern what users and groups with that role can do.
 
+-   **[All ServiceNow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/roles-summary.md)**  
+Use this filterable table to review a complete list of roles used in ServiceNow instances. The table includes important details for all base system roles as well as any roles added by installed plugins.
 -   **[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)**  
 Administrators can assign one or more base system user roles to grant access to base system platform features and applications.
 -   **[System roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/base-system-roles.md)**  

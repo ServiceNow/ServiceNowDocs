@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowaiplatformcorefeature-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 16
+last_updated: "2026-08-17"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,6 +115,10 @@ Insert, update, and delete data in an external data source from a remote table o
 Zurich
 
 </td><td>
+
+-   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=zurich&ft:locale=en-US)**
+
+The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
 -   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=zurich&ft:locale=en-US)**
 
@@ -376,6 +380,10 @@ Export your lists to Google Sheets directly from the Export menu.
 Australia
 
 </td><td>
+
+-   **[Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=inbound-api-integration-usage-dashboard&family=australia&ft:locale=en-US)**
+
+View data volumes returned in integration responses and monitor domain-level usage.
 
 -   **[Country setting added to Language and Region preferences](https://www.servicenow.com/docs/access?context=next-experience-language-preferences&family=australia&ft:locale=en-US)**
 
@@ -790,6 +798,8 @@ Zurich
 -   Define dynamic categories and dynamic attributes once and reuse them using dynamic namespaces across multiple tables and dynamic attribute store fields.
 
  See [Administer](https://www.servicenow.com/docs/access?context=intro-now-platform-landing&family=zurich&ft:locale=en-US) for more information.
+
+ Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
 
 </td></tr><tr><td>
 

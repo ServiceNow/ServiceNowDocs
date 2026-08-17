@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-27"
 reading_time_minutes: 2
-breadcrumb: [Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure Omnichannel, Configure, Customer Service Management]
 ---
 
 # Consumer messaging apps

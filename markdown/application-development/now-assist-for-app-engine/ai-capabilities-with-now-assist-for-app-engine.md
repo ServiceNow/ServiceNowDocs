@@ -1,23 +1,23 @@
 ---
 title: AI capabilities for enhancing custom applications
-description: Learn about the AI capabilities available with Now Assist for App Engine that you can use to enhance custom applications, including skills, AI agents, and agentic workflows.
+description: Learn about the AI capabilities available with ServiceNow Otto for App Engine that you can use to enhance custom applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-24"
 reading_time_minutes: 5
-keywords: [Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
-breadcrumb: [Explore, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
+breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # AI capabilities for enhancing custom applications
 
-Learn about the AI capabilities available with Now Assist for App Engine that you can use to enhance custom applications, including skills, AI agents, and agentic workflows.
+Learn about the AI capabilities available with ServiceNow Otto for App Engine that you can use to enhance custom applications.
 
-There are several types of AI capabilities that you can add to custom applications with Now Assist for App Engine:
+There are several types of AI capabilities that you can add to custom applications:
 
 -   Skills
 -   AI agents
@@ -35,13 +35,13 @@ There are several important components of a skill.
 -   The prompt is the instruction to the underlying large language model \(LLM\) that tells the skill what to do with the input. Prompts define the task, tone, and structure of the output.
 -   The output is the generated response from the LLM based on the prompt and input. Outputs can be plain text, structured data, or even formatted responses depending on how the skill is configured.
 
-Skills also contain activation methods, which define how the skill can be accessed on the ServiceNow AI Platform. Skills can be called conversationally in the Now Assist panel, through UI actions such as buttons, and through conversations with Virtual Agent. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md).
+Skills also contain activation methods, which define how the skill can be accessed on the ServiceNow AI Platform. Skills can be called conversationally in the ServiceNow Otto® panel, through UI actions such as buttons, and through conversations with Virtual Agent. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md).
 
-**Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.
+**Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them. To learn more, see [Governing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-governing-ai-assets.md).
 
-## Now Assist Platform skills and custom skills
+## Platform skills vs. custom skills
 
-With Now Assist for App Engine, you have access to several kinds of skills: Now Assist Platform skills and custom skills. While both are able to be used in custom applications, the following table provides more information about each skill type and the ease of using the skill in custom applications.
+With ServiceNow Otto for App Engine, you have access to several kinds of skills: Platform generative AI skills and custom skills. While you might be able to use both kinds of skills in custom applications, the following table provides more information about each skill type and the ease of using the skill in custom applications.
 
 <table id="table_o3m_tn4_xgc"><thead><tr><th>
 
@@ -61,7 +61,7 @@ More information
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist Platform skills
+Platform generative AI skills
 
 </td><td>
 
@@ -73,7 +73,7 @@ Must be duplicated and reconfigured significantly for use within custom apps
 
 </td><td>
 
-[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md)
+[Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md)
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Custom skills
 
 </td><td>
 
-Skills that you create custom for your use case with Now Assist Skill Kit
+Skills that you create custom for your use case with AI Skill Kit
 
 </td><td>
 
@@ -89,13 +89,13 @@ Can be designed to work within custom apps during the creation process, when you
 
 </td><td>
 
--   [General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-skill-kit-guidelines.md)
+-   [General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-skill-kit-guidelines.md)
 -   [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-new-skill.md)
 
 </td></tr></tbody>
-</table>## Now Assist for App Engine custom app record summarization skill
+</table>## ServiceNow Otto for App Engine custom app record summarization skill
 
-Starting with version 28.2.4 of Now Assist for App Engine, you can also use the custom app record summarization skill, which is a template skill available with Now Assist for App Engine. The skill enables you to generate AI summaries of records within custom apps and tables. You can configure the skill to summarize the tables and fields that you need, and you can choose how your app users interact with the skill through in-product UI or conversation in the Now Assist panel. For more information about the custom app record summarization skill, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+Starting with version 28.2.4 of ServiceNow Otto for App Engine, you can use the custom app record summarization skill. The skill is a template skill available with ServiceNow Otto for App Engine that enables you to generate AI summaries of records within custom apps and tables. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
 ## AI agents
 
@@ -107,9 +107,9 @@ There are several important components of an AI agent.
 -   The list of steps are the instructions are sent to the large language model \(LLM\) that describe the necessary steps the AI agent follows while carrying out its role.
 -   The tools are the additional resources, such as skills, and data sources that you can provide your AI agent to accomplish its role.
 -   The trigger defines how the AI agent is activated.
--   The availability determines how your AI agent is displayed, either in the Now Assist panel or Virtual Agent.
+-   The availability determines how your AI agent is displayed, either in the ServiceNow Otto® panel or Virtual Agent.
 
-For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
+For more information about AI agents, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 
 ## Agentic workflows
 
@@ -119,9 +119,9 @@ An agentic workflow is controlled by an AI Agent Orchestrator that coordinates t
 
 For more information about agentic workflows, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
 
-## Now Assist AI agents, Platform agentic workflows, and custom AI agents and agentic workflows
+## Platform AI agents and agentic workflows vs. custom AI agents and agentic workflows
 
-With Now Assist for App Engine, you enhance custom applications with Now Assist AI agents and Platform agentic workflows, in addition to custom AI agents and agentic workflows. Like with Now Assist skills, configuring Now Assist AI agents and Platform agentic workflows to fit custom applications often takes more time than just building custom AI agents and agentic workflows. The following table provides additional information about Now Assist AI agents, Platform agentic workflows, custom AI agents, and custom agentic workflows.
+With ServiceNow Otto for App Engine, you enhance custom applications with Platform and custom AI agents and agentic workflows. Similar to adding generative AI skills, configuring Platform AI agents and agentic workflows to fit custom applications often takes more time than just building custom AI agents and agentic workflows from the start. The following table provides additional information about Platform and custom AI agents agentic workflows.
 
 <table id="table_ykz_ws4_xgc"><thead><tr><th>
 
@@ -141,7 +141,7 @@ More information
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist AI agents and agentic workflows
+Platform AI agents and agentic workflows
 
 </td><td>
 
@@ -153,7 +153,7 @@ Must be duplicated and modified significantly for use in custom applications
 
 </td><td>
 
--   [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+-   [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 -   [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md)
 
 </td></tr><tr><td>

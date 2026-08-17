@@ -1,6 +1,6 @@
 ---
 title: Configuring impact analysis dependency updates
-description: The BCM administrators configure the Impact analysis dependency update configuration record so that an auto-update of the BIA dependencies can be scheduled based on the source data and relationships in the CMDB.
+description: The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/imp-ana-dep-update-config-module.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Dependency Configuration records, General administration setup for 
 
 # Configuring impact analysis dependency updates
 
-The BCM administrators configure the Impact analysis dependency update configuration record so that an auto-update of the BIA dependencies can be scheduled based on the source data and relationships in the CMDB.
+The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
 
 ## Impact analysis dependency update configuration record
 

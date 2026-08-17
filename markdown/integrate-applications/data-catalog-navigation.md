@@ -18,7 +18,7 @@ Both areas are accessed from the same starting point: navigate to **All** &gt; *
 
 ## Connect Hub
 
-Connect Hub is accessed from **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home** by selecting the Connect Hub icon in the left sidebar in the sidebar. Connection Admins create and manage metadata collectors in Connect Hub. These automated scanners connect to external data sources, harvest table schemas, column definitions, lineage, and other metadata, and publish them to the Data Catalog. Collectors can be run on demand or scheduled to keep catalog content current as source systems evolve. Runtime logs for each collector run are also available in Connect Hub for monitoring and troubleshooting. \[Omitted image "dc-navigation-metadata-collectors.gif"\] Alt text: Connect Hub in Workflow Data Fabric Home showing a list of configured metadata collectors with their connection status.
+Connect Hub is accessed from **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home** by selecting the Connect Hub icon in the sidebar. Connection Admins create and manage metadata collectors in Connect Hub. These automated scanners connect to external data sources, harvest table schemas, column definitions, lineage, and other metadata, and publish them to the Data Catalog. Collectors can be run on demand or scheduled to keep catalog content current as source systems evolve. Runtime logs for each collector run are also available in Connect Hub for monitoring and troubleshooting. \[Omitted image "dc-navigation-metadata-collectors.gif"\] Alt text: Connect Hub in Workflow Data Fabric Home showing a list of configured metadata collectors with their connection status.
 
 ## Data Catalog
 

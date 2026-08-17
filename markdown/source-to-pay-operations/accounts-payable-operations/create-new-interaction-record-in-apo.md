@@ -1,5 +1,5 @@
 ---
-title: Create a new interaction
+title: Create an interaction
 description: Create and manage interaction records in Accounts Payable Operations to track supplier requests received through chat, email, or the Supplier Collaboration Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.html
@@ -13,7 +13,7 @@ keywords: [APO, Accounts Payable Operations, supplier, supplier portal, invoice 
 breadcrumb: [Interaction management in Accounts Payable Operations, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Create a new interaction
+# Create an interaction
 
 Create and manage interaction records in Accounts Payable Operations to track supplier requests received through chat, email, or the Supplier Collaboration Portal.
 

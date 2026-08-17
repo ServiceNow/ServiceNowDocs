@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Testing in non-production environments before migration
 
 Test configurators in a non-production environment before migrating them to production. The configurators support revenue-critical processes, validate all changes outside production and promote them using controlled environment-to-environment migrations.
 
-ServiceNow CPQ configurators should be tested in non-production environments before they are migrated to a production environment and made available to end users.
+CPQ configurators should be tested in non-production environments before they are migrated to a production environment and made available to end users.
 
-ServiceNow CPQ configurators are key to organizations' revenue production processes. Therefore, you must take care to ensure all configurators work as expected before they are introduced to sales users, partners, and customers. All ServiceNow CPQ implementations have at least one non-production environment for this purpose. Some customer IT organizations have development processes that require a larger development stack.
+CPQ configurators are key to organizations' revenue production processes. Therefore, you must take care to ensure all configurators work as expected before they are introduced to sales users, partners, and customers. All CPQ implementations have at least one non-production environment for this purpose. Some customer IT organizations have development processes that require a larger development stack.
 
 \[Omitted image "cpq-logik-development-stacks.png"\] Alt text: Workflow
 

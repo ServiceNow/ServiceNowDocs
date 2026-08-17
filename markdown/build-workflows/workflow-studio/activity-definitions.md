@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 5
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -67,27 +67,22 @@ Options include:-   **All application scopes** - Users can access this activity 
 
 </td></tr><tr><td>
 
-Description
-
-</td><td>
-
-Optional description for the activity.
-
-</td></tr><tr><td>
-
 Required Roles
 
 </td><td>
 
 A list of user roles that are allowed to access activities that use this activity definition.
 
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Optional description for the activity.
+
 </td></tr></tbody>
-</table>## Automation plan
-
-Each activity definition has an automation plan. The automation plan for an activity definition specifies:
-
--   The Workflow Studio flow or action, which drives the activity's automation
--   The activity's inputs, which are the data that the activity needs to run your playbook
+</table>## Visibility for activity inputs
 
 Activity designers can configure the visibility of each activity input.
 
@@ -104,17 +99,24 @@ Activity designers can configure the visibility of each activity input.
     Displays the input in the properties panel when users with the playbook.admin role select **Show additional option**. The input is hidden for any other users.
 
 
+## Automation plan
+
+Each activity definition has an automation plan. The automation plan for an activity definition specifies:
+
+-   The Workflow Studio flow or action, which drives the activity's automation
+-   The activity's inputs, which are the data that the activity needs to run your playbook
+
 ## Activity experience
 
 Each activity also has an optional activity experience. The activity experience specifies an experience type, associated record, and details for what data to render in the activity's associated playbook card. Activity experience configurations only apply to activities that you add to a playbook which has an associated Playbook user experience.
 
 -   **Experience type**
 
-    An experience type defines the data, or properties, that describe how the activity renders as a playbook card at runtime. For example, a Record experience type tells the system that the activity can display a title, tagline, description, footer, and service level agreement \(SLA\) information in the Playbook card when your activated playbook runs. For more information, see [UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).
+    An experience type defines the data, or properties, that describe how the activity renders as a playbook card at runtime. For example, a Record experience type can display a title, tagline, description, footer, and service level agreement \(SLA\) information in the Playbook card. This information displays when your activated playbook runs. For more information, see [UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).
 
 -   **Associated record**
 
-    The associated record defines the record whose data can render within a Playbook card at runtime. The associated record is dynamic, which means that it changes frequently as the playbook progresses. Because of this dynamic nature, you may want to use the data pill picker \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker\) to map the associated record to output record data within the underlying subflow or action specified in the automation plan.
+    The associated record defines the record whose data can render within a Playbook card at runtime. The associated record is dynamic, which means that it changes frequently as the playbook progresses. You can use the data pill picker \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker\) to map the associated record to output record data. The output record data is within the underlying subflow or action specified in the automation plan.
 
 -   **Data to render in the Playbook card**
 
@@ -127,6 +129,19 @@ Each activity also has an optional activity experience. The activity experience 
     You can specify the Playbook actions that you want to render in an activity's Playbook card using the Playbook Experience Action Assignment Map related list. A Playbook action displays as a button in the Playbook card's footer. Playbook actions can run server scripts, dispatch client actions, or render UI components. For more information.
 
     To add a Playbook action to your activity definition, select **New** in the Playbook Experience Action Assignment Map related list. Then, choose a Playbook action from the **Action Assignment** list. Next, choose a Playbook user experience that you want the Playbook action to appear in from the **Playbook Experience** list, and then click **Submit**.
+
+
+## AI agents
+
+You can enable and configure AI Agents for all form-based activities. If you enable AI Agents for an activity definition, playbook authors can choose how to use AI Agents for the activity. The AI Agents can be used in either of the following modes:
+
+-   **Collaborative**
+
+    The AI Agents generate and fill the values, then wait until a human reviews and approves the AI-generated value.
+
+-   **Autonomous**
+
+    The AI Agents can update the record, complete the activity, and automatically move the playbook to the next activity. In the activity definition, you can specify which actions you want the AI Agents to perform autonomously. For example, you can remove the option for AI Agents to complete an activity autonomously.
 
 
 ## Design considerations

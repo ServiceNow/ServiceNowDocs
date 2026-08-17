@@ -57,7 +57,7 @@ To view the current table configurations, view `sys_dsb_table_config`. Table con
 
 Records created in a sandbox on a Shared table are immediately available on the base instance and any other sandbox that shares that table. For isolated tables \(Full Copy, Zero Copy, or Partial Copy\), record changes remain isolated to that sandbox. Making a schema change also isolates the table, and any records added after that point are isolated.
 
-To generate synthetic test data, use Now Assist Data Kit. For more information, see [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit-landing.md).
+To generate synthetic test data, use AI Data Kit. For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit-landing.md).
 
 ## Developer Sandboxes and business rules
 

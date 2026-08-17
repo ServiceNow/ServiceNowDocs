@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-commoncore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -85,7 +85,7 @@ Optimize the GRC issue resolution agentic AI workflow in the Integrated Risk Man
 
 -   **[Gen AI issue summarization](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)**
 
-Summarize an issue by using the Now Assist for IRM application to provide quicker context gathering and contextual awareness. You can quickly analyze the issue records, including the description, activity log, and remediation tasks, and then generate a concise summary that provides you with a concise context of the issue to help you resolve it. Check your entitlements to determine whether you have access to issue summarization.
+Summarize an issue by using the ServiceNow Otto for IRM application to provide quicker context gathering and contextual awareness. You can quickly analyze the issue records, including the description, activity log, and remediation tasks, and then generate a concise summary that provides you with a concise context of the issue to help you resolve it. Check your entitlements to determine whether you have access to issue summarization.
 
 -   **[Searching user groups to understand the licensing treatment](https://www.servicenow.com/docs/access?context=grc-licensing-summary-dashboard&family=yokohama&ft:locale=en-US)**
 
@@ -327,7 +327,7 @@ Yokohama
 
 </td><td>
 
-Install Integrated Risk Management and Now Assist for IRM by requesting them from ServiceNow Store. 
+Install Integrated Risk Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. 
 
 </td></tr><tr><td>
 
@@ -335,7 +335,7 @@ Zurich
 
 </td><td>
 
-Install Integrated Risk Management and Now Assist for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Integrated Risk Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr><tr><td>
 

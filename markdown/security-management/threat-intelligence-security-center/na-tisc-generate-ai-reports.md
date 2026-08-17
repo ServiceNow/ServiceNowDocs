@@ -18,7 +18,7 @@ Generate an AI-based, structured, threat intelligence case report from the data 
 
 ## Before you begin
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Generative AI driven report generation is available only when the following prerequisites are met:
 
@@ -66,7 +66,7 @@ Generate an AI-based, structured, threat intelligence case report from the data 
 
     -   If the report generates within five seconds, the window closes and the report editor opens automatically.
     -   If it takes longer, the window closes and a notification appears in the list view. The report editor opens when the report is ready.
-10. Use the report editor to build the report content.
+10. Edit the AI-generated report content in the report editor.
 
     -   Select the \[Omitted image "icon-tisc-report-edit.png"\] Alt text: Edit report details icon**Edit report details** icon to edit the report name and description.
     -   Select the \[Omitted image "icon-tisc-report-expand.png"\] Alt text: Expand icon**Expand** icon to insert additional content — for example, Observables or Indicators — into the report.
@@ -87,7 +87,7 @@ Generate an AI-based, structured, threat intelligence case report from the data 
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+[Summarize a Case using generative AI]()
 
 [Creating case task using Threat Analyst Workbench]()
 

@@ -42,6 +42,8 @@ When you open the Capacity Console, the calendar appears to present the capacity
 
 5.  Use the unit filter to choose between **Hours** for hour-based capacity assignments \(for example, agent schedules and hour-type definitions\) or **Tasks** for task-based capacity assignments, focusing on task distribution.
 
+    **Note:** When unit is set to **Hours**, you can view Hour and Agent schedule capacity definitions based assignments only. Task-based capacity assignments aren't available when **Hours** is selected. When unit is set to **Tasks**, only task-based capacity assignments are displayed.
+
 6.  Use the advanced filter to view data specific to territories and demand channels based on performance.
 
     Choose either of the following.

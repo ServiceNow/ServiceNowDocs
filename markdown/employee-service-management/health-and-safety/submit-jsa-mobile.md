@@ -26,15 +26,15 @@ Role required: sn\_hs\_rm.jsa\_reporter
 
 2.  Create a JSA.
 
-<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d372493e62">
+<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d372320e62">
 
 Option
 
-</th><th align="left" id="d372493e65">
+</th><th align="left" id="d372320e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d372493e71">
+</th></tr></thead><tbody><tr><td id="d372320e71">
 
 **From Home tab**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the **Quick links** section on the page, tap **Create a job safety analysis**.
 
 
-</td></tr><tr><td id="d372493e98">
+</td></tr><tr><td id="d372320e98">
 
 **From Support tab**
 
@@ -54,7 +54,7 @@ Steps
 2.  In the **Browse from all topics** section on the page, tap **Health and Safety** and then tap **Job safety analysis**.
 
 
-</td></tr><tr><td id="d372493e128">
+</td></tr><tr><td id="d372320e128">
 
 **From a previously submitted JSA**
 

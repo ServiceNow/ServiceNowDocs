@@ -40,7 +40,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Select the Triaging Dashboard icon \(\[Omitted image "triaging-dashboard-icon.png"\]\).
 
-3.  Select the Settings icon \[Omitted image "triage-settings.png"\] Alt text: Settings.
+3.  Select the Settings icon \[Omitted image "triage-settings.png"\].
 
 4.  In the Settings section, perform the following steps:
 

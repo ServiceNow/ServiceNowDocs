@@ -8,7 +8,7 @@ product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [SAFe Board — ART level, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,7 @@ The SAFe PI planning board contains the following components that guide you duri
 
 -   **Story dependencies**
 
-    Visually analyze dependencies between stories of different sprints and teams by using the story dependency lines. Use the dependencies icon \(\[Omitted image "hide-dependencies.png"\] Alt text: Dependencies icon.\) to show or hide these dependency lines. If you choose to hide the dependencies or if the dependencies involve a story that is not present on the board, you can see a colored border on the story card.
+    Visually analyze dependencies between stories of different sprints and teams by using the story dependency lines. Use the dependencies icon \(\[Omitted image "hide-dependencies.png"\] Alt text: Dependencies icon.\) to show or hide these dependency lines. When dependencies are hidden or involve a story not on the board, a colored border appears on the story card.
 
     The color of the dependency indicates the way you've scheduled the stories. Possible colors are the following:
 
@@ -59,7 +59,7 @@ The SAFe PI planning board contains the following components that guide you duri
 
     See the stories that are assigned to the team but that aren't scheduled yet into any sprint.
 
-    If you know which stories must be assigned to the team but you don't know what sprints to use, then you can move these stories from the feature backlog lane to the team's backlog lane. By doing so, you can have a clear idea of the team's workload for the upcoming sprints and then eventually add these stories to the correct sprints.
+    If you know which stories must be assigned to the team but you don't know what sprints to use, move these stories from the feature backlog lane to the team's backlog lane. This gives you a clear idea of the team's workload for the upcoming sprints. You can then add these stories to the correct sprints.
 
     You can also unplan a story that has already been scheduled to a sprint by dragging the story card back to the team's backlog. When you later revisit the planning board, you know which team has this story and you can decide on which sprint to use.
 

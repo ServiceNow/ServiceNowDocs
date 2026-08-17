@@ -16,6 +16,8 @@ Set the questions that the alumni can choose to receive tailored job recommendat
 
 Role required: sn\_asc.admin
 
+**Note:** The Hiring core \(sn\_ta\_hiring\_core\) plugin is required to provide job recommendations to alumni.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Tables** &gt; **Alumni job preference configs**.

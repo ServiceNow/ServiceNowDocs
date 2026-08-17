@@ -1,6 +1,6 @@
 ---
 title: Enhanced search results in IAR with Virtual Agent
-description: The Issue Auto Resolution application for HR has enhanced its search results with the introduction of Virtual Agent to the IAR pipeline flow. The employee can now receive a matching Virtual Agent topic as a recommendation for a noncritical case, when the topic is available in the database, before the application performs a general AI search.
+description: The Issue Auto Resolution application enhances search by adding Virtual Agent to the pipeline flow. Employees now receive topic recommendations for noncritical cases before general AI search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/iar-recommend-matching-va-topic.html
 release: australia
@@ -8,13 +8,13 @@ product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
 
 # Enhanced search results in IAR with Virtual Agent
 
-The Issue Auto Resolution application for HR has enhanced its search results with the introduction of Virtual Agent to the IAR pipeline flow. The employee can now receive a matching Virtual Agent topic as a recommendation for a noncritical case, when the topic is available in the database, before the application performs a general AI search.
+The Issue Auto Resolution application enhances search by adding Virtual Agent to the pipeline flow. Employees now receive topic recommendations for noncritical cases before general AI search.
 
 In the previous version of Issue Auto Resolution for HR, all the noncritical HR cases were sent recommendations that were based only on the AI search results. With this enhanced version, the IAR application first checks if a matching Virtual Agent topic is available for that particular HR case. If there’s a matching Virtual Agent topic, the IAR application recommends the identified Virtual Agent topic to the employee. If no matching Virtual Agent topic is found, the application performs an AI search, and the recommendations are sent to the employee based on the AI search results.
 

@@ -40,7 +40,7 @@ To add forms to an app, you must be given permission to work on the app.
 
 6.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions to provide a description for the form you want. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use AI, stay on the **Build with AI** tab and enter directions to provide a description for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **Generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 

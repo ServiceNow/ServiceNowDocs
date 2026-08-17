@@ -1,5 +1,5 @@
 ---
-title: Install ITOM Visibility using Setup Hub
+title: Install ITOM Visibility using ServiceNow Otto for Setup
 description: Install all required ITOM Visibility applications and plugins from the IT Operations Management Product Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.html
@@ -7,12 +7,12 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
-# Install ITOM Visibility using Setup Hub
+# Install ITOM Visibility using ServiceNow Otto for Setup
 
 Install all required ITOM Visibility applications and plugins from the IT Operations Management Product Hub.
 
@@ -21,25 +21,25 @@ Install all required ITOM Visibility applications and plugins from the IT Operat
 Verify the following:
 
 -   You're using the Australia Patch 3, Zurich Patch 10, or later version of the ServiceNow AI Platform.
--   You have installed the Now Assist for Platform plugin \(sn\_genai\_platform\).
+-   You have installed the ServiceNow Otto for Platform plugin \(sn\_genai\_platform\).
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
--   You have installed the Now Assist Skill Kit plugin \(sn\_skill\_builder\).
--   You have installed the Now Assist for ITOM plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
--   You have activated the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   You have installed the AI Skill Kit plugin \(sn\_skill\_builder\).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+-   You have activated the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   You have activated the following assistants:
 
-    -   Now Assist - Platform assistant
-    -   Now Assist in Virtual Agent
+    -   ServiceNow Otto - Platform assistant
+    -   ServiceNow Otto for Virtual Agent
     For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 -   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
--   You have set up AI Search. For more information, see [AI Search readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
--   You have installed the following Setup Hub applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
-    -   Setup Hub \(sn\_ia\)
-    -   Setup Hub Common \(sn\_ia\_common\)
-    -   Setup Hub Content \(sn\_ia\_content\)
-    -   Setup Hub Core \(sn\_ia\_now\_assist\)
-    -   Setup Hub Configuration \(sn\_ia\_config\)
+-   You have set up AI Search. For more information, see [AI Search readiness for ServiceNow Otto on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
+-   You have installed the following ServiceNow Otto for Setup applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
+    -   ServiceNow Otto for Setup \(sn\_ia\)
+    -   ServiceNow Otto for Setup Common \(sn\_ia\_common\)
+    -   ServiceNow Otto for Setup Content \(sn\_ia\_content\)
+    -   ServiceNow Otto for Setup Core \(sn\_ia\_now\_assist\)
+    -   ServiceNow Otto for Setup Configuration \(sn\_ia\_config\)
 
 Role required: admin
 
@@ -51,9 +51,9 @@ Role required: admin
 
 1.  Navigate to **Admin** &gt; **Admin Home** on your instance.
 
-2.  On the IT Operations Management tile, select **View product overview**.
+2.  Select the IT Operations Management tile.
 
-3.  In the ITOM Product Hub, select **Start setup**.
+3.  In the IT Operations Management Product Hub, select **Start setup**.
 
     \[Omitted image "nowassist-setup-start-setup.png"\] Alt text: IT Operations Management Product Hub start setup screen
 

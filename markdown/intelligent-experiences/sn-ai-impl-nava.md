@@ -1,6 +1,6 @@
 ---
-title: Now Assist in Virtual Agent readiness on the ServiceNow AI Platform
-description: Now Assist enhances Virtual Agent with AI-driven capabilities that understand natural language, guide users through complex tasks, and deliver high-confidence answers without relying on rigid keyword matching or manual configurations.
+title: ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform
+description: ServiceNow Otto for Virtual Agent with AI-driven capabilities that understand natural language, guide users through complex tasks, and deliver high-confidence answers without relying on rigid keyword matching or manual configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-nava.html
 release: australia
@@ -11,15 +11,15 @@ keywords: [Now Assist, agentic AI, AI readiness]
 breadcrumb: [Application readiness, ServiceNow AI implementation, Enable AI experiences]
 ---
 
-# Now Assist in Virtual Agent readiness on the ServiceNow AI Platform
+# ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform
 
-Now Assist enhances Virtual Agent with AI-driven capabilities that understand natural language, guide users through complex tasks, and deliver high-confidence answers without relying on rigid keyword matching or manual configurations.
+ServiceNow® Otto for Virtual Agent with AI-driven capabilities that understand natural language, guide users through complex tasks, and deliver high-confidence answers without relying on rigid keyword matching or manual configurations.
 
-Now Assist in Virtual Agent provides the following features:
+ServiceNow® Otto for Virtual Agent provides the following features:
 
 -   AI asset discovery
 
-    Say goodbye to time-consuming keyword or NLU configurations. Now Assist uses LLMs to automatically discover and match user intents to Virtual Agent topics and other AI assets, including generative AI skills, AI agents and agentic workflows, and subflows and actions.
+    Say goodbye to time-consuming keyword or NLU configurations. ServiceNow Otto uses LLMs to automatically discover and match user intents to Virtual Agent topics and other AI assets, including generative AI skills, AI agents and agentic workflows, and subflows and actions.
 
 -   Simplified deployment
 
@@ -33,24 +33,24 @@ Now Assist in Virtual Agent provides the following features:
 
     Users can request Service Catalog items using natural conversation. Virtual Agent asks clarifying questions and confirms the user's intent before completing the request.
 
-    **Note:** Service Catalog items must be marked as conversational to work with Virtual Agent. For details, see .
+    **Note:** Service Catalog items must be marked as conversational to work with Virtual Agent. For details, see [Catalog item conversational details page overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-catalog-conversational-experience.md).
 
 -   Multi-turn Q&amp;A
 
     Follow-up questions are handled seamlessly, allowing users to refine their queries and get better answers.
 
 
-Setting up Now Assist in Virtual Agent requires customizing or creating a new LLM assistant. You can assign an assistant to one or more portals. If LLM Virtual Agent topics aren't associated with an LLM assistant, they aren't discoverable.
+Setting up ServiceNow® Otto for Virtual Agent requires customizing or creating a new LLM assistant. You can assign an assistant to one or more portals. If LLM Virtual Agent topics aren't associated with an LLM assistant, they aren't discoverable.
 
 ## High-level checklist
 
--   **1. Install Now Assist in Virtual Agent**
+-   **1. Install ServiceNow® Otto for Virtual Agent**
 
-    You can install it from the Conversational Interfaces admin console once you have installed a Now Assist product such as Now Assist for IT Service Management \(ITSM\).
+    You can install it from the Conversational Interfaces admin console once you have installed a ServiceNow Otto product such as ServiceNow Otto for IT Service Management \(ITSM\) or the appropriate product tier.
 
-    To set up Now Assist in Virtual Agent, you configure an assistant.
+    To set up ServiceNow® Otto for Virtual Agent, you configure an assistant.
 
-    See: 
+    See: [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
 -   **2. Review your Virtual Agent topic inventory**
 
@@ -60,7 +60,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     See:
 
-    -   [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
+    -   [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ai-engagement-analytics.md)
     -   [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-auto-discovry-report.md)
 -   **Review your knowledge base**
 
@@ -68,7 +68,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? This simplifies topic management and enables self-service.
 
-    See: [Knowledge Base readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md)
+    See: [Knowledge Base readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md)
 
 -   **4. Migrate NLU topics to LLM**
 
@@ -76,7 +76,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? Leverage existing Virtual Agent topics with minimal effort.
 
-    See: 
+    See: [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/llm-topic-migration.md)
 
 -   **5. Review Service Catalog items**
 
@@ -84,7 +84,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? To avoid redundancy and eliminate the need to create new Virtual Agent topics.
 
-    See: [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md)
+    See: [Service Catalog readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md)
 
 -   **Review LLM Virtual Agent topics that come with Now Assist**
 
@@ -92,30 +92,30 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? New LLM versions of older NLU Virtual Agent topics reduce rework.
 
-    See: 
+    See: [ITSM Virtual Agent pre-built LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-va-prebuilt-topics.md)
 
 
 ## Tips
 
 -   When migrating legacy NLU topics, ensure that you optimize topic descriptions so that the topic is clearly described and aligned with the intent and expected results.
 
-    For details, see .
+    For details, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-llm-instruction-guidelines.md).
 
 -   You can customize the look of your assistant and the chat experience during guided setup.
 
-    For details, see .
+    For details, see [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md).
 
 -   You can choose the chat experience you want for each assistant:
-    -   
-    -   
--   You can integrate Now Assist in Virtual Agent with Microsoft Teams.
+    -   [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-standard-chat.md)
+    -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md)
+-   You can integrate ServiceNow® Otto for Virtual Agent with Microsoft Teams.
 
-    For details, see .
+    For details, see [Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md).
 
 
 For more information about conversational catalogs in AI, see the following information from ServiceNow Community and YouTube:
 
--   [How to request catalog items in Now Assist in Virtual Agent](https://www.servicenow.com/community/virtual-agent-nlu-articles/how-to-request-catalog-items-in-now-assist-in-virtual-agent/ta-p/2747811)
+-   [How to request catalog items in ServiceNow Otto for Virtual Agent](https://www.servicenow.com/community/virtual-agent-nlu-articles/how-to-request-catalog-items-in-now-assist-in-virtual-agent/ta-p/2747811)
 -   [Microsoft Copilot integration with Now Assist FAQ - Zurich release](https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238)
--   [AI Academy: Enhanced chat experience with Now Assist in Virtual Agent](https://www.youtube.com/watch?v=UD7IneCtpxk)
+-   [AI Academy: Enhanced chat experience with ServiceNow Otto for Virtual Agent](https://www.youtube.com/watch?v=UD7IneCtpxk)
 

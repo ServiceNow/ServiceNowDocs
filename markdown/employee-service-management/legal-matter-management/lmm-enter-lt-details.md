@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a legal matter task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d96313e84">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d95974e84">
 
 Method
 
-</th><th align="left" id="d96313e87">
+</th><th align="left" id="d95974e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d96313e93">
+</th></tr></thead><tbody><tr><td id="d95974e93">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d96313e143">
+</td></tr><tr><td id="d95974e143">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d96313e209">
+</td></tr><tr><td id="d95974e209">
 
 **Using platform view**
 

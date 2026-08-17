@@ -60,7 +60,7 @@ For more information about remediating duplicate CIs, see [CI de-duplication exp
 
 A de-duplication remediation tool, that is wizard-like and that lets you reconcile a set of duplicate CIs associated with a single de-duplication task. You can choose one of the duplicate CIs to retain as an active CI \(main CI\), and then decide how to process the rest of the duplicate CIs. The Duplicate CI Remediator lets you set reconciliation options for attributes, relationships, and related items.
 
-If Now Assist for CMDB version 3.0 or later is installed on the instance, then the Duplicate CI Remediator provides a remediation option that uses the Now Assist for CMDB De-duplication task resolution assistant skill. For information about setting up Now Assist for CMDB 3.0, see [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+If ServiceNow Otto for CMDB is installed on the instance, then the Duplicate CI Remediator provides a remediation option that uses the De-duplication task resolution assistant skill. For information about setting up ServiceNow Otto, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
 
 For information about using the Duplicate CI Remediator, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 

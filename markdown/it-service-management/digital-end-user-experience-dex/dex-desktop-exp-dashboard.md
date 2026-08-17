@@ -1,20 +1,20 @@
 ---
 title: Desktop Assistant usage metrics
-description: Usage metrics dashboard enables you to monitor the connection status of your device, user login status, application version, and the number of incidents created using the Desktop Assistant application, ensuring smooth communication with the ServiceNow instance.
+description: The usage metrics dashboard helps you track device connection status, user login status, application version, and the number of incidents created in the Desktop Assistant application. These metrics help you monitor activity between the application and your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
 # Desktop Assistant usage metrics
 
-Usage metrics dashboard enables you to monitor the connection status of your device, user login status, application version, and the number of incidents created using the Desktop Assistant application, ensuring smooth communication with the ServiceNow instance.
+The usage metrics dashboard helps you track device connection status, user login status, application version, and the number of incidents created in the Desktop Assistant application. These metrics help you monitor activity between the application and your ServiceNow instance.
 
 <table id="table_hqf_5xk_1xb"><thead><tr><th>
 

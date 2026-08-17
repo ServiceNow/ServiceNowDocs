@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-quotemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 11
+last_updated: "2026-08-17"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -205,6 +205,24 @@ Generate a summary of a quote to:
     -   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
     -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
     -   Support internal handoffs by summarizing the quoted offer for internal teams.
+
+-   **[Transaction Manager Quote AI Agent](https://www.servicenow.com/docs/access?context=now-assist-for-cpq-landing&family=australia&ft:locale=en-US)**
+
+Use a conversational AI agent to manage quote-level operations directly in Transaction Manager. The agent handles a broad range of quoting tasks through a single interface:
+
+    -   Search for products and match them to your request, then delegate configuration to Config AI for configurable products.
+    -   Update line items and header fields, apply discounts, and trigger events.
+    -   Generate a visible execution plan before acting on complex requests, so you can see what will happen and why.
+    -   Run independent operations in parallel, so multiple configurations can complete simultaneously without blocking other changes.
+
+-   **[Derived pricing on quotes](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=australia&ft:locale=en-US)**
+
+Improve pricing accuracy by letting the system automatically manage derived quote lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing on system-generated lines to preserve pricing integrity.
 
 </td></tr></tbody>
 </table>## Changes
@@ -662,8 +680,10 @@ Australia
 -   Enable greater flexibility in managing amendment quotes by splitting active ramp segments into shorter intervals, adjusting quantities, and maintaining accurate line types throughout the quote life cycle.
 -   Enhance quote approval workflows with automated reminders, escalations, override capabilities, and ad-hoc approvals for greater control and accountability throughout the approval process.
 -   [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)Summarize a quote with Now Assist for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
+-   Use a conversational AI agent to handle the full spectrum of quoting tasks, from simple line-item updates to complex multi-product configurations, through a single interface.
+-   Improve pricing accuracy on quotes by automatically adding, updating, and removing system-generated lines in response to pricing rule changes, without requiring manual edits.
 
- See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&family=australia&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-omgmt.quote-management\]](https://www.servicenow.com/docs/access?context=quote-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

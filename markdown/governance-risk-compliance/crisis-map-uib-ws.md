@@ -40,7 +40,7 @@ For more information on the feeds, alerts, and events in Crisis map, see [Crisis
 With the BCM administrator role, perform these setup tasks for Crisis map:
 
 -   Enable threat feed integrations that are provided by the base system.
--   Configure additional threat feeds into the Crisis Management application. These configurations alert the crisis managers about the threats and aids them to take an appropriate action on time.
+-   Configure additional threat feeds into the Crisis Management application. These configurations alert the crisis managers about the threats and aid them to take an appropriate action on time.
 
 For more information on the setup tasks for Crisis map, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md) in the configuration section.
 
@@ -65,7 +65,7 @@ You can open or dismiss an alert in the alerts panel. You can also subscribe to 
 
 ## Alerts panel
 
-When you select an alert in the **Alerts** panel, it launches a zoomed-in view with the alert details such as category, event, and so on as shown in the example.
+When you select an alert in the **Alerts** panel, it launches a zoomed-in view with the alert details such as category and event.
 
 \[Omitted image "single-alert-zoomed-in-view.png"\] Alt text: Focussed view for an alert.
 
@@ -113,7 +113,7 @@ Description
 
 </td><td>
 
-Search bar in the Map view. You can enter a location or a datacenter that is impacted by an alert. When you search for a location, a mixed list of your company results with the display value of the records along with their icons, and the Google map pin icons is displayed.
+Search bar in the Map view. You can enter a location or a datacenter that is impacted by an alert. When you search for a location, a mixed list displays company results with record display values and icons, along with Google map pin icons.
 
 </td></tr><tr><td>
 

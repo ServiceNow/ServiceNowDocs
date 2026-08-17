@@ -25,7 +25,7 @@ Role required: none
 
 2.  Edit or delete favorites.
 
-<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d75062e87">
+<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d75102e87">
 
 **Edit a favorite**
 
@@ -41,7 +41,7 @@ Role required: none
 4.  Select **Save edits**.
 
 
-</td></tr><tr><td id="d75062e136">
+</td></tr><tr><td id="d75102e136">
 
 **Delete a favorite**
 

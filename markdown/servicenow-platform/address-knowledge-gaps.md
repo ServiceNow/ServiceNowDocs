@@ -18,7 +18,7 @@ Learn how to review and resolve potential knowledge gaps in the Knowledge Center
 
 Role required: admin.
 
-Suggested reading: [Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+Suggested reading: [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
 ## About this task
 

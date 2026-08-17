@@ -22,19 +22,21 @@ Role required: sn\_customerservice.customer\_admin
 
 1.  Log in to the customer portal.
 
-2.  Click **Support** &gt; **Assets** from the portal header menu.
+2.  Select **Support** &gt; **Assets** from the portal header menu.
 
-3.  Click the desired asset.
+3.  Select the desired asset.
 
-4.  Click **New** in the **Asset Contacts** related list.
+4.  Select **Asset Contacts** in Related Lists.
+
+5.  Select **New** in Asset Contacts.
 
     This displays a new Asset Contact form. The **Asset** field displays the selected asset and is read-only.
 
-5.  Select a **Contact**.
+6.  Select a **Contact**.
 
     The contacts available for selection are the contacts from the asset's account.
 
-6.  Click **Submit**.
+7.  Select **Save**.
 
     The contact is added to the **Asset Contacts** related list.
 

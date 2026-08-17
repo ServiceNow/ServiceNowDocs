@@ -1,6 +1,6 @@
 ---
 title: Non-persistent VDI parameters, scripts, and settings
-description: Use this reference to find the Agent Client Collector mid-less installation command syntax, logon and logoff script file names and locations, and an installation command example when setting up a non-persistent VDI golden image.
+description: Find the Agent Client Collector mid-less installation command syntax, logon and logoff script file names and locations, and an installation command example when setting up a non-persistent VDI golden image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [DEX Application and Device Health reference, Reference, Digital End
 
 # Non-persistent VDI parameters, scripts, and settings
 
-Use this reference to find the Agent Client Collector mid-less installation command syntax, logon and logoff script file names and locations, and an installation command example when setting up a non-persistent VDI golden image.
+Find the Agent Client Collector mid-less installation command syntax, logon and logoff script file names and locations, and an installation command example when setting up a non-persistent VDI golden image.
 
 ## Agent Client Collector mid-less installation command
 

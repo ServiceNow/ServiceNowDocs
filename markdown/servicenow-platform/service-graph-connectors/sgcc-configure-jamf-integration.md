@@ -27,7 +27,14 @@ When using client credentials for authentication, obtain the OAuth credentials f
 
 If using Client Credentials authentication in Jamf Pro, you need to use the API Roles and Clients functionality. For more details, refer to the [API Roles and Clients](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/API_Roles_and_Clients.html) section in the Jamf documentation. When creating a new API client in the Jamf environment, the **Access token lifetime** field on the form for creating a client enables setting how long the token remains valid. The default is `60` seconds, but due to ServiceNow AI Platform limitations, the value must be set to more than `60` seconds. Setting the token lifetime to `3600` seconds \(1 hour\) helps prevent potential issues.
 
-Role required: admin
+Role required: The following table shows the roles required for each stage of the playbook.
+
+|Stage|Role|
+|-----|----|
+|Prerequisites|admin|
+|Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
+
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 

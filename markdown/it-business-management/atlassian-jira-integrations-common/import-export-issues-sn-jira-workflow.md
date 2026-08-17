@@ -20,7 +20,7 @@ To export and import issues between Agile Development 2.0 and Jira, you must com
 
 ## Importing to Agile Development 2.0 from Jira
 
--   When you create an issue of type epic in a Jira project, an epic is created for the assignment group according to the team integration settings that you configured.
+-   When you create an issue of type epic in a Jira project, an epic is created for the assignment group according to the team integration settings you configured.
 -   When you create an issue of type story in a Jira project, a story is created for the assignment group according to the team integration settings that you configured.
     -   The relationship between the story and its epic is retained as it is in Jira.
     -   The **Assigned To** field in the story displays the user from Jira, only if a user with the same email address is found in Agile Development 2.0.

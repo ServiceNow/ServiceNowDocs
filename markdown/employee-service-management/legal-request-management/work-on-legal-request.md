@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d213057e116">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d212738e116">
 
 Option
 
-</th><th align="left" id="d213057e119">
+</th><th align="left" id="d212738e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d213057e125">
+</th></tr></thead><tbody><tr><td id="d212738e125">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d213057e154">
+</td></tr><tr><td id="d212738e154">
 
 **As a collaborator**
 
@@ -135,7 +135,7 @@ Initiate an ad hoc approval for a legal request or its attachments from a user o
 -   **[Approve or reject a legal request or its attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/approve-reject-legal-request-attach.md)**  
 Review a legal request or attachment and approve or reject it.
 -   **[Communicate using emails from Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/send-receive-email-legal-req.md)**  
-Compose and send emails directly from legal request record form in the Legal Counsel Center. You can also save the email as draft to send it later.
+Compose and send emails directly from the legal request record form in the Legal Counsel Center. You can also save the email as a draft to send it later.
 -   **[Promote a legal request to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/promote-legal-request-to-matter.md)**  
 Promote a legal request to a legal matter when the request needs additional investigation and cross-departmental collaboration that might take more time to resolve.
 -   **[Transfer a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/transfer-existing-legal-request.md)**  

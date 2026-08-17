@@ -155,7 +155,7 @@ None
 
 </td></tr><tr><td>
 
-Now Assist panel
+ServiceNow Otto panel
 
 </td><td>
 
@@ -276,7 +276,7 @@ Not applicable
 </td></tr></tbody>
 </table>## Example Video bot response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="id_irz_szc_54b"><thead><tr><th>
 

@@ -1,6 +1,6 @@
 ---
 title: Create a service problem case from the workspace
-description: Create a service problem case for a customer raised issue so that an agent can work on it and resolve the service-related problem.
+description: Create a service problem case using playbook for a customer raised issue so that an agent can work on it and resolve the service-related problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-service-problem-case.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Use, Customer Service Problem Management, Telecommunications, Media
 
 # Create a service problem case from the workspace
 
-Create a service problem case for a customer raised issue so that an agent can work on it and resolve the service-related problem.
+Create a service problem case using playbook for a customer raised issue so that an agent can work on it and resolve the service-related problem.
 
 ## Before you begin
 
@@ -38,11 +38,9 @@ Role required: sn\_sprb\_mgmt.agent
 
 7.  Select **Create case**.
 
-    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see [Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-record-generator-for-case-type.md).
+    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see .
 
 8.  On the intake form of verify issue, fill in the fields.
-
-    \[Omitted image "create-new-service-problem-case.png"\] Alt text: Create new service problem case.
 
 <table id="table_x4b_pvh_pbc"><thead><tr><th>
 
@@ -122,4 +120,8 @@ Brief description of the customer issue or problem.
 </td></tr></tbody>
 </table>9.  Select **Continue**.
 
+
+## Result
+
+The service problem case is created with details of the customer information and issue.
 

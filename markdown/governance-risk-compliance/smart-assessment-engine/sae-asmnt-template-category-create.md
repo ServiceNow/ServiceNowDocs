@@ -80,7 +80,7 @@ Is AI response enabled
 
 </td><td>
 
-Option to activate automated AI-generated responses for assessments associated with that category. When this option is selected, responders working on assessments triggered from templates in this category see the **Draft responses with AI** action and can run the Smart Assessment Response Assist skill on those assessments. The Smart Assessment Response Assist skill must also be turned on in the Now Assist Admin console for the action to be functional. For more information, see [Activate smart assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
+Option to activate automated AI-generated responses for assessments associated with that category. When this option is selected, responders working on assessments triggered from templates in this category see the **Draft responses with AI** action and can run the Smart Assessment Response Assist skill on those assessments. The Smart Assessment Response Assist skill must also be turned on in the AI Admin Hub console for the action to be functional. For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

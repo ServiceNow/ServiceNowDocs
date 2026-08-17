@@ -1,6 +1,6 @@
 ---
 title: Generate synthetic data
-description: Create synthetic data using the Standard data generator in Now Assist Data Kit. Use synthetic data to imitate real-world records so you can run evaluations or create training for a test model without using production data.
+description: Create synthetic data using the Standard data generator in AI Data Kit. Use synthetic data to imitate real-world records so you can run evaluations or create training for a test model without using production data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Generate synthetic data
 
-Create synthetic data using the Standard data generator in Now Assist Data Kit. Use synthetic data to imitate real-world records so you can run evaluations or create training for a test model without using production data.
+Create synthetic data using the Standard data generator in AI Data Kit. Use synthetic data to imitate real-world records so you can run evaluations or create training for a test model without using production data.
 
 ## Before you begin
 

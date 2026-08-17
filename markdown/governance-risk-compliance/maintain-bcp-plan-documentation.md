@@ -44,9 +44,9 @@ Document all additional information such as the goals, objectives, and scope tha
 
 8.  To undo all your updates and revert to the original text of the documentation section, click **Reset to template** and click **Reset** to confirm your action.
 
-    **Note:** **Reset to template** button is enabled only when the document section is in Pending state and not in Complete state.
+    **Note:** The **Reset to template** button is enabled only when the document section is in Pending state and not in Complete state.
 
-    When you reset, both the title and description along with the text in the documentation section are reset to the title, description, and documentation content in the plan template.
+    When you reset, both the title and description along with text in the documentation section are reset to the title, description, and documentation content in the plan template.
 
 9.  To delete a documentation section, click the delete icon \(\[Omitted image "DeleteIcon.png"\] Alt text: Delete icon.\).
 
@@ -70,7 +70,7 @@ Document all additional information such as the goals, objectives, and scope tha
 
     -   **Change section order at the plan level**
 
-        You can change the order in which the sections appear in the **Documentation** related list to help the user review the sections in a logical sequence. However, you must set the order preference for the sections by entering an integer value in the **Order** field of the Plan Documentation form for each documentation section in the plan. This customization overrides the order preference set at the plan template level.
+        You can change the order in which the sections appear in the **Documentation** related list to help the user review the sections in a logical sequence. However, you must set the section order by entering an integer value in the **Order** field of the Plan Documentation form for each documentation section in the plan. This customization overrides the order preference set at the plan template level.
 
     -   **Change section order at the plan template level**
 

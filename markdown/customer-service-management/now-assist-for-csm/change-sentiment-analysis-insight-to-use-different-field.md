@@ -1,21 +1,21 @@
 ---
 title: Change an insight to use a different field for sentiment analysis
-description: Change a sentiment analysis insight to display sentiment data from a different field, such as changing from channel to consumer, requiring updates to both the UI Builder component and Now Assist Skill Kit.
+description: Change a sentiment analysis insight to display sentiment data from a different field. This requires updates to both the UI Builder component and AI Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-sentiment-analysis-insight-to-use-different-field.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-12-01"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
-breadcrumb: [Sentiment analysis case, Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Sentiment analysis case, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Change an insight to use a different field for sentiment analysis
 
-Change a sentiment analysis insight to display sentiment data from a different field, such as changing from channel to consumer, requiring updates to both the UI Builder component and Now Assist Skill Kit.
+Change a sentiment analysis insight to display sentiment data from a different field. This requires updates to both the UI Builder component and AI Skill Kit.
 
 ## Before you begin
 
@@ -25,9 +25,17 @@ General ServiceNow platform knowledge is required for this procedure.
 
 ## About this task
 
-For sentiment analysis insights, changing the field requires modifications to both the UI Builder component and the associated Now Assist Skill Kit skill. It involves cloning components, creating new skills, and modifying scripts. This procedure ensures proper configuration of the sentiment analysis insight with a different field.
+For sentiment analysis insights, changing the field requires modifications to both the UI Builder component and the associated AI Skill Kit skill. It involves cloning components, creating new skills, and modifying scripts. This procedure confirms proper configuration of the sentiment analysis insight with a different field.
 
-The different UI Builder Component names for Sentiment analysis dashboard are OOB Sentiment Analysis Dashboard, Sentiment Over Time Visualization, Sentiment Breakdown Visualization, Sentiment Top Drivers Insight \(Negative sentiment and Positive sentiment drivers\), Sentiment by Assignment Group Insight, Sentiment After Escalation Insight, Sentiment by Channel Insight.
+The Sentiment analysis dashboard includes the following UI Builder components:
+
+-   Default Sentiment Analysis Dashboard
+-   Sentiment Over Time Visualization
+-   Sentiment Breakdown Visualization
+-   Sentiment Top Drivers Insight \(Negative sentiment and Positive sentiment drivers\)
+-   Sentiment by Assignment Group Insight
+-   Sentiment After Escalation Insight
+-   Sentiment by Channel Insight
 
 ## Procedure
 
@@ -49,7 +57,7 @@ The different UI Builder Component names for Sentiment analysis dashboard are OO
 
     For example, consumer.
 
-6.  In a new tab or window, navigate to **All** &gt; **Now Assist Skill Kit**.
+6.  In a new tab or window, navigate to **All** &gt; **AI Skill Kit**.
 
 7.  Under **ServiceNow skills**, search for **Sentiment by Channel Insight**.
 
@@ -69,7 +77,7 @@ The different UI Builder Component names for Sentiment analysis dashboard are OO
 
 15. **Publish** the prompt.
 
-16. Navigate to the sys\_one\_extend\_capability table and find the record corresponding to the Now Assist Skill Kit skill you just created.
+16. Navigate to the sys\_one\_extend\_capability table and find the record corresponding to the AI Skill Kit skill you just created.
 
     Right click to copy the sys\_id.
 
@@ -77,15 +85,15 @@ The different UI Builder Component names for Sentiment analysis dashboard are OO
 
 18. Select **Save**.
 
-    Now [add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-components.md) the newly created component to any base system dashboard page or your own custom page, using other nearby insights as reference for the correct event handler and optimization setup.
+    Now [add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-components.md) the newly created component to any base system dashboard page or your own custom page. Use other nearby insights as reference for the correct event handler and optimization setup.
 
-    The sentiment analysis insight now uses the specified field to display data and the associated Now Assist skill has been properly configured.
+    The sentiment analysis insight now uses the specified field to display data and the associated AI skill has been properly configured.
 
 
 **Related topics**  
 
 
-[Add a new filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 
 [Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 

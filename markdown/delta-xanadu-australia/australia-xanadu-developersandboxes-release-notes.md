@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-developersandboxes-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -565,6 +565,7 @@ Zurich
 
 </td><td>
 
+-   Support for Build Agent in sandboxes.
 -   Enable your administrators and delegated developers to request, access, and manage the isolated development environments on top of the same underlying development instance.
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
@@ -577,6 +578,7 @@ Australia
 
 </td><td>
 
+-   Support for Build Agent in sandboxes.
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 

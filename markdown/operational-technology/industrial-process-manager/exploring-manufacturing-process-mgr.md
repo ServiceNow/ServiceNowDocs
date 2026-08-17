@@ -19,7 +19,7 @@ Learn more about the common terminology, acronyms, and ISA-95 Equipment Model in
 -   **[Industrial Process Manager common terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/common-manufacturing-process-manager-terminology.md)**  
 Before getting started with the Industrial Process Manager, let's look at some common terminology and acronyms that are used in this content.
 -   **[ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/isa-95-equipment-model.md)**  
-The ISA-95 Equipment Model is an industry standard that represents an industrial facility and the production equipment in it. You can describe the Equipment Model entities in your facilities by defining an equipment model template that has different levels and level types.
+The ISA-95 equipment model is an industry standard that represents an industrial facility and the production equipment in it. Describe the equipment model entities in your facilities by defining an equipment model template with different levels and level types.
 -   **[Equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-templates.md)**  
 You can create equipment model templates you use to characterize an equipment model, or to structure the data that describes your physical industrial facility by grouping similar types of equipment model entities.
 

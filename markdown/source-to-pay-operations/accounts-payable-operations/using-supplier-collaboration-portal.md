@@ -23,7 +23,7 @@ APO grants supplier contacts access to the Supplier Collaboration Portal to mana
 
 APO does not include workflows to onboard suppliers or to add and update supplier contacts. These workflows are part of SLO. If your instance has APO without SLO, import supplier and supplier contact records into ServiceNow from your ERP or other system of record instead of using the SLO onboarding workflow. For more information, see [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md) and [Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md).
 
-Each supplier contact record requires a linked user record. When you import a supplier contact, create a corresponding user record that stores the contact's user ID and password so the contact can log in to the Supplier Collaboration Portal with credentials set up outside ServiceNow.
+Each supplier contact record requires a linked user record. When you import a supplier contact, create a corresponding user record that stores the contact's user ID and password. The contact uses these credentials, set up outside ServiceNow, to log in to the Supplier Collaboration Portal.
 
 ## Supplier Portal Collaboration header
 
@@ -75,7 +75,7 @@ Invoices
 
 </td><td>
 
-Lists the invoices for supplier to view the invoice details and raise invoice related inquiry case. For more information on invoice inquiry see [Submit an Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md).**Note:** From the invoice form, you can submit an inquiry case. For more details on inquiry case, see [Submit an Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)
+Lists the invoices for supplier to view the invoice details and raise invoice related inquiry case. For more information on invoice inquiry see [Submit an invoice inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md).**Note:** From the invoice form, you can submit an inquiry case. For more details on inquiry case, see [Submit an invoice inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md)
 
 .
 
@@ -99,14 +99,14 @@ Create a Universal Request \(UR\) from the Supplier Collaboration Portal to subm
 -   **[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)**  
 Suppliers use the Supplier Catalog to submit invoice inquiries and new invoices to the Accounts Payable Operations team for evaluation and resolution.
 -   **[Virtual agent flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/virtual-agent-flows.md)**  
-Suppliers can check the invoice and inquiry statuses, create inquiry cases in the supplier portal using the chat channel. Suppliers can also use the virtual agent to view predefined chatbot topics.
+Suppliers can check invoice and inquiry statuses, create cases via chat, and use the virtual agent for chatbot topics.
 
 **Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice]()
+[Create a knowledge base article for invoices]()
 
 [Invoice case categories and subcategories]()
 
@@ -124,7 +124,7 @@ Suppliers can check the invoice and inquiry statuses, create inquiry cases in th
 
 [Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace]()
+[Composing emails with predefined content]()
 
 [Universal Request in Accounts Payable Operations]()
 

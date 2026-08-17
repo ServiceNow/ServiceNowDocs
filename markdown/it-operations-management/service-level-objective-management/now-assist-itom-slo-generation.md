@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Exploring SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [AI in SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # SLO creator agent
@@ -19,7 +19,7 @@ Use the service level objective \(SLO\) creator agent to auto-generate SLOs for 
 
 ## SLO creator agent overview
 
-The SLO creator agent requires Now Assist for ITOMand Service Reliability Management \(SRM\). It automatically generates SLOs by analyzing operational data for services and CIs.
+The SLO creator agent requires ServiceNow Otto for ITOMand Service Reliability Management \(SRM\). It automatically generates SLOs by analyzing operational data for services and CIs.
 
 -   **Schedule and scope:** The SLO creator agent runs every 14 days and processes up to 25 services or CIs. It only processes items without auto-generated SLOs in any state.
 -   **Evaluation process:** To generate SLOs, the agent analyzes historical alerts, incidents, and outages associated with a service or CI. If the service or CI has related CIs, the agent also evaluates data from those items to identify recurring reliability issues and create SLOs.
@@ -52,5 +52,5 @@ One agent is used to create SLOs in SRM.
 |--------|-------------|
 |SLO creator agent|Creates SLOs for SRM services and CIs by examining historical incidents, outages, and alerts.|
 
-**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 

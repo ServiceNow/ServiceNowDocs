@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 2
-breadcrumb: [Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate the Platform Multimodal Service plugin

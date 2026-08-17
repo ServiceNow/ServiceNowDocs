@@ -1,5 +1,5 @@
 ---
-title: Configuration tables and prerequisites for Tax integration
+title: Configuration tables and prerequisites for tax integration
 description: Use the configuration tables to enable tax integration with third-party tax engines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/config-tax-integ.html
@@ -9,10 +9,11 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Tax Engine Integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [Tax Integration, third-party tax engine, tax configuration, tax field mapping, tax type mapping, ERP source, tax recalculation, Vertex integration, invoice tax processing, external tax engine, APO, Accounts Payable Operations]
+breadcrumb: [Tax engine integration, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configuration tables and prerequisites for Tax integration
+# Configuration tables and prerequisites for tax integration
 
 Use the configuration tables to enable tax integration with third-party tax engines.
 

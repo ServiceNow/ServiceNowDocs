@@ -18,7 +18,7 @@ The ServiceNow platform provides several methods for serving your international 
 
 ## Direct and dynamic language support
 
-If your chat audience is diverse, you want to support them in their own language whenever possible. One option is to localize everything professionally using linguists who can translate your topics into the desired languages. While this option produces the best user outcomes, it is often the most expensive. Another option available to you is language detection combined with dynamic machine translation. Instead of using translated topics and models, dynamic translation connects to a third-party machine translator. During the conversation, user utterances and responses are translated into the primary language on the instance, and all results are translated back into the user's language for the session. There are benefits and drawbacks for all options, as described in the following list. Before activating machine translations, you should carefully weigh the costs and benefits and set proper expectations for your deployment objectives.
+If your chat audience is diverse, you should support them in their own language whenever possible. One option is to localize everything professionally using linguists who can translate your topics into the desired languages. While this option produces the best user outcomes, it is often the most expensive. Another option is language detection combined with dynamic machine translation. Instead of using translated topics and models, dynamic translation connects to a third-party machine translator. During the conversation, user utterances and responses are translated into the primary language on the instance. All results are translated back into the user's language for the session. There are benefits and drawbacks for all options, as described in the following list. Before activating machine translations, you should carefully weigh the costs and benefits and set proper expectations for your deployment objectives.
 
 -   **[Direct language support \(professional localization\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)**
 
@@ -54,7 +54,7 @@ Constraints
 </td></tr></tbody>
 </table>-   **[Dynamic language detection and machine translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)**
 
-    Dynamic machine translation relies on the translation service to translate all content in real time. The accuracy of the translations is dependent on the translation service. Although translation services typically leverage algorithms to translate words based on the context of the conversation or sentence, there may be times when there is minimal context for the algorithm to leverage. Accuracy may be diminished in this situation. Check with your translation service provider about the ability to exclude words from translation or associate vocabulary with specific synonyms.
+    Dynamic machine translation relies on the translation service to translate all content in real time. The accuracy of the translations is dependent on the translation service. Translation services typically use algorithms to translate words based on the context of the conversation or sentence. There may be times when there is minimal context for the algorithm to use. Accuracy may be diminished in this situation. Check with your translation service provider about the ability to exclude words from translation or associate vocabulary with specific synonyms.
 
 <table id="table_bw2_f3g_jtb"><thead><tr><th>
 
@@ -121,13 +121,13 @@ In the following example, French, German, and Spanish are professionally localiz
 
 ## Localization insights
 
-You can view dynamic translation and localization insights from the Virtual Agent Designer page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and select **Localization Insights**from the list of links in the side panel.
+You can view dynamic translation and localization insights from the Virtual Agent Designer page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**, and select the **Asset library** tab. Select **Localization Insights**from the list of links in the side panel.
 
 For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-insights-dashboard.md).
 
--   **[Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md)**  
+-   **[Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md)**  
 Enable a combination of language detection and machine translation for Virtual Agent to improve the chat experience for diverse users. You can designate fallback languages for locales or dynamically translate languages that are not professionally localized or are not supported in topic discovery.
--   **[Using language detection and dynamic machine translation in Virtual Agent NLU and LLM standard chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-standard-chat-nlu.md)**  
+-   **[Language detection and dynamic translation in Virtual Agent NLU and LLM standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-standard-chat-nlu.md)**  
 Enable a combination of language detection and machine translation for Virtual Agent to improve the chat experience for diverse users. You can designate fallback languages for locales or dynamically translate languages that are not professionally localized or are not supported in topic discovery.
 -   **[Prerequisites for using Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prereq-using-dt-va.md)**  
 To enable dynamic machine translation, install ServiceNow® language plugins and Dynamic Translation plugins. Then configure Dynamic Translation for your instance.
@@ -137,8 +137,8 @@ Configure the credential and connection for your translation service.
 Activate your preferred Dynamic Translation provider and mark it as the default service for both translation and language detection.
 -   **[Enable Dynamic Translation for languages in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md)**  
 Enable Dynamic Translation for one or more languages in Chat Settings for Virtual Agent.
--   **[Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md)**  
-Turn on multilingual service for user-entered text with native translation or Dynamic Translation in Now Assist applications.
+-   **[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md)**  
+Turn on multilingual service for user-entered text with native translation or Dynamic Translation in ServiceNow Otto applications.
 -   **[Enable Dynamic Translation for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dt-unsupported-language.md)**  
 The ServiceNow® platform supports several languages, but you can enable dynamic machine translation for additional languages in Virtual Agent.
 -   **[Specify a fallback language for locale-specific languages and NLU prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/specify-fallback-language-nlu-prediction.md)**  

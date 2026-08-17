@@ -48,7 +48,7 @@ For more information, see [Structured workflows for Crisis events](https://raw.g
 
     The dialog filters groups by **Active** = true. Filters that are currently applied to the **Event tasks** list — for example, **Phase** = **Recovery validation** — are applied as default values on the created tasks. Phase values that are already set on a task template take precedence over the list filter.
 
-    \[Omitted image "event-task-more-actions-menu.png"\] Alt text: Crisis event Event tasks tab More Actions menu showing Add groups, Add tasks, Export to Excel, and New ad-hoc task.
+    \[Omitted image "event-task-more-actions-menu.png"\] Alt text: Crisis event in Event tasks tab, More Actions menu showing Add groups, Add tasks, Export to Excel, and New ad-hoc task.
 
     \[Omitted image "exercise-event-select-task-template-groups-step-one.png"\] Alt text: Select task template groups wizard with step 1 active and step 2 upcoming.
 
@@ -66,13 +66,13 @@ For more information, see [Structured workflows for Crisis events](https://raw.g
 
 7.  To save a set of crisis event tasks as a reusable task template group, select the tasks in the **Event tasks** list and then select **Save as group** &gt; **Save tasks**.
 
-    To append them to an existing group, you can select **Save as group** &gt; **Add to group**. Event tasks are saved as task templates that can later be applied from a crisis event, an exercise event, an activated plan, a plan, a loss scenario, or a recovery strategy. The element definition associated with each event task is preserved on the resulting templates so element-definition filtering still applies when the group is reused.
+    To append them to an existing group, you can select **Save as group** &gt; **Add to group**. Event tasks are saved as task templates that can be applied to crisis events, exercise events, activated plans, plans, loss scenarios, or recovery strategies. The element definition associated with each event task is preserved on the resulting templates so element-definition filtering still applies when the group is reused.
 
     \[Omitted image "save-as-group-create-dialog.png"\] Alt text: Create task template group modal showing You selected 2 task\(s\) and the Group name field.
 
 8.  To add an ad-hoc task to the event, select **New ad-hoc task**.
 
-    **Note:** An ad-hoc task is added to the crisis event so that you can take corrective actions for the crisis event. When you add an ad-hoc task to the crisis event that is in the **Work in progress** state and if the activated plan is in the **Work in progress** state, the tasks will be in the **Open** state. If the activated plan is the **Pending** state, the task will be in the **Pending** state.
+    **Note:** An ad-hoc task is added to the crisis event so that you can take corrective actions for the crisis event. When you add an ad-hoc task to the crisis event that is in the **Work in progress** state and if the activated plan is in the **Work in progress** state, the tasks will be in the **Open** state. If the activated plan is in the **Pending** state, the task will be in the **Pending** state.
 
     For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 

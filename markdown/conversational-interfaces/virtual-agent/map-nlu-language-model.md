@@ -18,7 +18,7 @@ Map a Virtual Agent topic to a secondary model in the model group or to a standa
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 If you're using ServiceNow NLU, review [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md) for an understanding of NLU model groups.
 
@@ -38,31 +38,33 @@ For more information, see [NLU model mapping in Virtual Agent Designer](https://
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Slide the discovery type toggle switch to **NLU/keyword** toggle, and open a topic.
+2.  Select the **Asset library** tab.
 
-3.  Open the **Languages** tab, and then select the **NLU language mapping** tab.
+3.  Set the discovery type toggle switch to **NLU/keyword**, and open a topic.
+
+4.  Open the **Languages** tab, and then select the **NLU language mapping** tab.
 
     The first column is the NLU mapping that is based on your current session language. For example, if you're using English, the first column is **English**.
 
-4.  In the **Language to edit** list, select the language to map.
+5.  In the **Language to edit** list, select the language to map.
 
     The languages listed are based on the NLU languages that you enabled in Virtual Agent settings. After you select a language, a column displays in the Intent mapping section and, if applicable, in the Entity mapping section. For example, if you select **Français**, a French language column displays.
 
     \[Omitted image "nlu-lang-mapping.png"\] Alt text: The NLU Language Mapping tab displays a column for English and a column for French language mappings. The English model and intent are mapped to a French model and intent.
 
-5.  Update the Intent mapping section.
+6.  Update the Intent mapping section.
 
     1.  In the Model row, select an NLU model for the language that you selected.
 
     2.  In the Intent row, select an NLU intent for the language that you selected.
 
-6.  If applicable, update the Entity mapping section.
+7.  If applicable, update the Entity mapping section.
 
     For each language, map an entity from the model to an input node in the topic. In a conversation, these nodes are populated automatically with the entity value.
 
-7.  Click **Save**.
+8.  Click **Save**.
 
 
 ## What to do next

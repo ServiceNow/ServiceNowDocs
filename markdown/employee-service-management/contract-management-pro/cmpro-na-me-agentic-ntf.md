@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Enable notifications for AI extracted metadata and obligations
@@ -30,7 +30,7 @@ The **AgenticAIMetadata extraction - Completed** and **AgenticAIObligationExtrac
 
 2.  In the Name column, search for `AgenticAI`.
 
-3.  Select the notification.Select .
+3.  Select the notification.
 
     -   To activate notifications for metadata extraction, select **AgenticAIMetadata extraction - Completed**.
     -   To activate notifications for obligation extraction, select **AgenticAIObligationExtractionCompleted**.
@@ -43,9 +43,9 @@ The **AgenticAIMetadata extraction - Completed** and **AgenticAIObligationExtrac
 
 ## What to do next
 
-[Configure the workspace URL for contract metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
+[Configure the URL for metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 
 **Related topics**  
 

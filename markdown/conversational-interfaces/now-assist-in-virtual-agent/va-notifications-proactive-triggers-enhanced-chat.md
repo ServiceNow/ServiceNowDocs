@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Proactive triggers, Notifications, genius results, generative AI]
-breadcrumb: [Enhanced chat, Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Enhanced chat, Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Proactive triggers and Virtual Agent notifications in enhanced chat
@@ -19,7 +19,7 @@ Proactive triggers and Virtual Agent notifications can be selected and completed
 
 Proactive triggers and simple Virtual Agent notifications are displayed the same way on the portal as a pop-up rectangle box.
 
-\[Omitted image "pt-va-notification-nass-only.png"\] Alt text: A pop-up rectangle box appears near the Now Assist in Virtual Agent enhanced chat button.
+\[Omitted image "pt-va-notification-nass-only.png"\] Alt text: A pop-up rectangle box appears near the button.
 
 Proactive triggers and Virtual Agent notifications only display on the portal pages with the chat button and are unavailable in the full-page experience view. Selecting a proactive trigger redirects you to a new chat. If you switch to a new chat while another active chat is ongoing, a pop-up message on the chats icon \[Omitted image "nass-chats-icon.png"\] Alt text: Chats icon. appears: `Your previous chat was saved. You can revisit all of your past chats and continue ones that are still active.`For more information on Proactive Triggers, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers.md).
 

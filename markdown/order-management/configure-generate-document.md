@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [PDF template for Quotes, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure quote document generation
@@ -24,7 +24,7 @@ Before you configure the document generation feature, complete the following ins
 2.  Submit a support ticket requesting to enable the **Document Generation** tenant setting.
 3.  When the tenant setting is enabled, export and import the transaction blueprint.
 
-You must also create a document template before you configure this feature. Document templates are created and managed outside ServiceNow CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md).
+You must also create a document template before you configure this feature. Document templates are created and managed outside CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md).
 
 ## About this task
 

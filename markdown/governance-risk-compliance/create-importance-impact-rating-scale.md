@@ -41,12 +41,12 @@ A user with the sn\_oper\_res.admin role can change the rating scale for the ind
 
     \[Omitted image "importance-and-impact-rating-scale-module.png"\] Alt text: Importance and Impact Tolerance Rating Scales module.
 
-2.  Click **New**.
+2.  Select **New**.
 
-    You can define new parameters such as the importance, impact tolerance, impact tolerance icon and its color, minimum and maximum tolerance value, and the tolerance order for your business service.
+    You can define new parameters such as the importance, impact tolerance, impact tolerance icon and color, minimum and maximum tolerance value, and tolerance order.
 
 3.  On the form, fill in the fields and click **Submit**.
 
-    For a description of the field values on the Rating Scale New Record form, see [Rating Scale New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/importance-and-impact-rating-scale-reference.md).
+    For a description of the field values on the Rating Scale New Record form, see [Rating Scale Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/importance-and-impact-rating-scale-reference.md).
 
 

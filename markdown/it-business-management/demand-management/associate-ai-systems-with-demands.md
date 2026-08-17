@@ -8,7 +8,7 @@ product: Demand Management
 classification: demand-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -59,6 +59,10 @@ You can select the impacted AI systems for the demand. If the required AI system
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -74,8 +78,4 @@ You can select the impacted AI systems for the demand. If the required AI system
 [Train the similarity solution for Demand Management to find similar demands]()
 
 [PPM PIWB template - Find similar demands]()
-
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
-
-[Summarize demands with demand summarization skill]()
 

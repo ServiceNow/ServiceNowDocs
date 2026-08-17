@@ -20,9 +20,9 @@ Configure Docker discovery to collect image CIs only, instead of both image and 
 ## Before you begin
 
 -   Verify that you have at least version 1.31.0 of Discovery and Service Mapping Patterns.
--   Check your entitlements to determine whether you have access to 2026 Container Packaging.
+-   Check your entitlements to determine whether you have access to 2026 Packaging SKU.
 
-Role required: discovery\_admin \(granted automatically with 2026 Container Packaging\)
+Role required: discovery\_admin \(granted automatically with 2026 Packaging SKU\)
 
 ## About this task
 

@@ -28,7 +28,7 @@ Set up Public Sector Digital Services to enable government agents and service ma
 
 </td></tr><tr><td>
 
-[Implement intelligence\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Set up Intelligence features to automate routine tasks and provide recommended content to agents, such as Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-imp-intel.md)
+[Implement intelligence\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Set up Intelligence features to automate routine tasks and provide recommended content to agents, such as ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-imp-intel.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ In addition to installing the public sector application and playbooks, you can c
 
 -   **Service definitions**
 
-    A service definition enables you to map a public service, information service, or license and permit request service to the list of services your agency offers for resolving that request.
+    A service definition enables you to map a public service, information service, or license and permit request service to your agency's service list. You can use service definitions to resolve constituent requests.
 
     As an admin, you can create service definitions that connect the services your agency offers to the services being requested by a constituent or business. When you create a service definition, you can configure the case management processes, such as the case types, for executing those services.
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, flow, reference]
-breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use ERP Data action details for flows
@@ -48,13 +48,13 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Template**
 
-    Fields that are required for the operation. Fields must already be defined as required input parameters when you manage the model in Zero Copy Connector for ERP. For more information, see [Manage input parameters for a Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
+    Fields that are required for the operation. Fields must already be defined as required input parameters when you manage the model in Zero Copy Connector for ERP. For more information, see [Manage input parameters for a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
 
 -   **Optional Fields**
 
     Data type: **Dynamic Template**
 
-    Fields that are optional for the operation. Fields must already be defined as optional input parameters when you managed the model. For more information, see [Manage input parameters for a Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
+    Fields that are optional for the operation. Fields must already be defined as optional input parameters when you managed the model. For more information, see [Manage input parameters for a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
 
 -   **System**
 
@@ -91,6 +91,4 @@ You can use these outputs as inputs for other items.
 
     Requested data that's returned from the ERP system. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

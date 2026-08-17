@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-23"
 reading_time_minutes: 1
 keywords: [Smart Documents skill, activate skill, Now Assist]
-breadcrumb: [Configure, Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Activate the smart documents skill
@@ -52,5 +52,5 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## What to do next
 
-To configure system properties for the smart Documents skill, see [System property for Smart Documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/system-property-smart-documents.md).
+To configure system properties for the Smart Documents skill, see [System property for Smart Documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/system-property-smart-documents.md).
 

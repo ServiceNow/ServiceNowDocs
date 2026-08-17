@@ -25,7 +25,7 @@ Now Assist for UI Builder enables you to leverage the generative and agentic AI 
 
 \[Omitted image "now-assist-page-build-demo.png"\] Alt text: Request to build a basic record page
 
-**Note:** You must install the Now Assist for Creator plugin in the Now Assist Admin console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+**Note:** You must install the ServiceNow Otto for Creator plugin in the AI Admin Hub console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
 For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
@@ -67,7 +67,7 @@ Ask questions and get quick answers without leaving UI Builder.
 ### Before you begin
 
 -   Role required: ui\_builder\_admin
--   The Now Assist for Creator plugin is activated
+-   The ServiceNow Otto for Creator plugin is activated
 
 ### About this task
 

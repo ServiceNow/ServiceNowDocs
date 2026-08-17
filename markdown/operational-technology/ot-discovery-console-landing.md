@@ -16,42 +16,18 @@ Use the Discovery Console for OT component to discover, monitor, and query devic
 
 ## Get started
 
-Use the links to explore, configure, and learn more about the ServiceNow Discovery Console for OT.
+Use the links in the Related Topics section to explore, configure, and learn more about the ServiceNow Discovery Console for OT.
 
-<table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
+-   **[Explore the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-console.md)**  
+The Discovery Console for OT provides you with enhanced features to discover your assets in the OT environment.
+-   **[Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/console-onboarding-wizard.md)**  
+The Discovery Console for OT provides an interactive configuration wizard that steps you through setting up your Console, Sensor, Collector, assets, queries, and sites.
+-   **[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)**  
+This section is an overview of the steps for installing the Discovery Console for OT.
+-   **[Upgrade the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/upgrade-discovery-console.md)**  
+These are the instructions for upgrading the Discovery Console for OT. The scope of this document does not include how to upgrade the containerized version of the Console.
+-   **[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)**  
+Get started with the Discovery Console for OT application after it is installed and configured.
 
-Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
-
- [Explore the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-console.md)
-
-</td><td>
-
-Configure\[Omitted image "BUS\_64px\_SDLC\_YG.png"\] Alt text:
-
- [Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
-
-</td></tr><tr><td>
-
-Interact\[Omitted image "BUS\_64px\_Manage\_YG.png"\] Alt text:
-
- [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/console-onboarding-wizard.md)
-
-</td><td>
-
-Use\[Omitted image "BUS\_64px\_Optimize-Manage\_YG.png"\] Alt text:
-
- [Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
-
-</td></tr><tr><td colspan="2">
-
-Air-gapped Networks
-
-\[Omitted image "BUS\_64px\_Endpoint\_YG.png"\] Alt text:[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md)
-
-</td></tr></tbody>
-</table>## Troubleshoot and get help
-
-If you have any errors or difficulties while using the Operational Technology applications, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
-
-If you have any errors or difficulties while using the Discovery Console for Operational Technology \(OT\), you can use [Download Console log files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/download-console-log-files.md) to help you troubleshoot the problem.
+**Parent Topic:**[Operational Technology Native Discovery components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-native-components.md)
 

@@ -15,7 +15,7 @@ breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, 
 
 # Resolve an out-of-sync principal class state in the Data Foundations advisor
 
-Resolve a principal class sync discrepancy by reviewing and updating the Data Foundations advisor scope in the **Set principal classes** dialog box.
+Resolve a principal class sync discrepancy by reviewing and updating the Data Foundations advisor scope in the Set principal classes dialog box.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ When other tools or processes change principal class designations outside the ad
 
     See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
-2.  Open the **Set principal classes** dialog box.
+2.  Open the Set principal classes dialog box.
 
     -   From the out-of-sync notification banner on the dashboard, select **Manage principal classes**.
     -   From the Data Foundations advisor dashboard, select **Manage principal classes**.
@@ -46,5 +46,5 @@ When other tools or processes change principal class designations outside the ad
 
 ## Result
 
-The advisor scope is updated, and the out-of-sync notification no longer appears on the dashboard. For more information about selecting and managing principal classes, see [Get started with Data Foundations advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.md).
+The advisor scope is updated, and the out-of-sync notification no longer appears on the dashboard. For more information about selecting and managing principal classes, see [Getting started with Data Foundations advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.md).
 

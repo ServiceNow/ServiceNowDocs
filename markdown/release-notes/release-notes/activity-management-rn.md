@@ -4,8 +4,8 @@ description: ServiceNow Activity Management helps customer-focused teams to plan
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-06-18"
-reading_time_minutes: 5
+last_updated: "2026-07-21"
+reading_time_minutes: 6
 ---
 
 # Activity Management release notes
@@ -38,6 +38,10 @@ CRM Touchpoints
 -   **[Activity capture and tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)**
 
     Capture emails, calls, meetings, and tasks within touchpoints such as discovery, demo, business value assessment, or CBRs in a single system of record. Track metrics such as primary channel and time spent for every interaction, providing leadership with visibility into the activity volume per sales representative.
+
+-   **Responsibility-based access roles for touchpoints**
+
+    Enable record-level access to touchpoints through the responsibility framework. The new CRM Touchpoints responsibility read granular and CRM Touchpoints responsibility write granular roles enables admins to configure and limit sales territory members and opportunity team members to the touchpoints on the leads, opportunities, and accounts they are responsible for, rather than the blanket access provided by the touchpoint reader and writer roles.
 
 
 CRM Outlook Add-in
@@ -96,7 +100,7 @@ CRM Outlook Add-in
 
 ## Activation information
 
-Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 

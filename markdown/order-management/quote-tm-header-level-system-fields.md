@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 7
-breadcrumb: [Fields, Configuring Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Fields, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Transaction-level system fields

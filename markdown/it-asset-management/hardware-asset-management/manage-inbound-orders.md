@@ -26,3 +26,5 @@ Completing the following tasks in the Inbound asset order workflow results in th
 6.  [Ship the prepared asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ship-daas-asset.md)
 7.  [Receive the shipped asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-daas-asset.md)
 
+In a DaaS inbound asset order, the DaaS provider and the consumer are two separate organizations. The provider accepts an order from a consumer account, then prepares and ships the asset. When the consumer acknowledges receipt, the asset record in the provider's instance is set to **In use**. The **Assigned to** field on the provider's asset record remains empty because assignment is handled by the consumer's organization, not the provider.
+

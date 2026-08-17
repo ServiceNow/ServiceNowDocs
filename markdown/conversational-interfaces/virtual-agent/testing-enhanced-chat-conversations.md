@@ -32,16 +32,16 @@ You can test assistants directly from the Asset library.
 
 Depending on the chat experience set up for the assistant, you can test using [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) experience or [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md) experience. For more information about setting up the chat experience for an assistant, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
-**Note:** The Now Assist Panel - Platform \(default\) assistant can also use the [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md) experience. The premium experience is configured by default.
+**Note:** The ServiceNow Otto Panel - Platform \(default\) assistant can also use the [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md) experience. The premium experience is configured by default.
 
 **Note:** Enhanced chat experience is the default for Assistant Designer test panels. To change the default experience to standard chat, set the value of the system property **sn\_nowassist\_va.standard\_chat\_enabled** to true.
 
-For all the Now Assist for Virtual Agent assistants and the Now Assist Panel - Platform Assistant, when testing the assistant:
+For all the ServiceNow Otto for Virtual Agent assistants and the ServiceNow Otto Panel - Platform Assistant, when testing the assistant:
 
 -   If the assistant has the Standard Chat experience configured for any display location, you can choose between Standard Chat, Enhanced Chat, or Integrated Chat.
 -   If the assistant only has the Enhanced Chat or Integrated Chat experience configured across all display locations, when you select **Test Assistant**, you can choose between those options.
 
-For the Now Assist Panel - Developer Assistant, when testing the assistant by selecting **Test Assistant**, you're directed to test the Standard Chat experience.
+For the ServiceNow Otto Panel - Developer Assistant, when testing the assistant by selecting **Test Assistant**, you're directed to test the Standard Chat experience.
 
 **Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

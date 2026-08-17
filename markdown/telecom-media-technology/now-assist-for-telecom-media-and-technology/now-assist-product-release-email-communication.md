@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Product release email communication agentic workflow
-description: Use the product release email communication agentic workflow to automatically draft, refine, and distribute the release announcement emails to designated recipients by retrieving the most recent product release information.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Product release email communication agentic workflow
+description: Automatically draft, refine, and distribute product release announcement emails to designated recipients using the most recent release information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-product-release-email-communication.html
 release: australia
@@ -9,18 +9,18 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Customer Success Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Customer Success Management, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Product release email communication agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Product release email communication agentic workflow
 
-Use the product release email communication agentic workflow to automatically draft, refine, and distribute the release announcement emails to designated recipients by retrieving the most recent product release information.
+Automatically draft, refine, and distribute product release announcement emails to designated recipients using the most recent release information.
 
 ## Prerequisites
 
 To access the agentic workflow and product release content generator skill, install the plugin AI Agents for Customer Success Management \(sn\_cust\_succ\_ai\_ag\) in your instance.
 
-**Important:** In the Now Assist skills page, make sure to Activate the product release content generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md) for more details.
+**Important:** In the ServiceNow Otto skills page, make sure to Activate the product release content generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md) for more details.
 
 ## Product release email communication agentic workflow overview
 
@@ -30,7 +30,7 @@ The agentic workflow automatically drafts, refine, and publish release announcem
 -   Identify the stakeholders, ensures consistent messaging, and streamline distribution.
 -   Focus on driving adoption and customer value instead of repetitive communication tasks.
 
-This agentic workflow is delivered as part of the out-of-the-box \(OOB\) product offering and is preconfigured to operate with the Digital Product Release \(DPR\) application. This enables customers to get started quickly using the default setup. However, the workflow is designed with flexibility in mind and isn’t limited to DPR. Organizations using alternative release management or related systems can seamlessly adopt this capability by integrating their existing applications with minimal customization. That ensures the workflow can be adapted to diverse system landscapes and specific business requirements.
+This agentic workflow is delivered as part of the base system and is preconfigured to operate with the Digital Product Release \(DPR\) application. This enables customers to get started quickly using the default setup. However, the workflow is designed with flexibility in mind and isn’t limited to DPR. Organizations using alternative release management or related systems can seamlessly adopt this capability by integrating their existing applications with minimal customization. That ensures the workflow can be adapted to diverse system landscapes and specific business requirements.
 
 When the DPR \(sn\_dpr\_model\_release\) record moves to the completed state, the agentic workflow triggers automatically. For more information about DPR, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-landing-page.md).
 

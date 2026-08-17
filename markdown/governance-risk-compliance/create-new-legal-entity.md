@@ -1,6 +1,6 @@
 ---
-title: Create New Legal entity form
-description: On the Create New Legal entity form, fill in the fields to set up the digital resilience information.
+title: Create a legal entity form
+description: On the Create a legal entity form, fill in the fields to set up the digital resilience information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-legal-entity.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 2
 breadcrumb: [Create a legal entity and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Legal entity form
+# Create a legal entity form
 
-On the Create New Legal entity form, fill in the fields to set up the digital resilience information.
+On the Create a legal entity form, fill in the fields to set up the digital resilience information.
 
-## Create New Legal entity form
+## Create a legal entity form
 
 <table id="table_omg_5d5_ddc"><thead><tr><th>
 

@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Configure security controls for a skill
@@ -28,7 +28,7 @@ Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
     A modal appears to explain ACLs. You can select **Got it** or **View skills without ACLs**.
 
@@ -84,7 +84,7 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
     4.  Continue creating the skill.
 
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

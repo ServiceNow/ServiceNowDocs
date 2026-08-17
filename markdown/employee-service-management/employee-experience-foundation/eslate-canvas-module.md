@@ -17,13 +17,23 @@ breadcrumb: [Personalized canvas, Working with Employee Slate capabilities, Empl
 
 Canvas module provides a customizable workspace where employees can add, resize, and arrange widgets from a library to create personalized dashboards for their daily work.
 
-Canvas module is accessible from the side navigation menu and provides employees with a customizable workspace. Employees can personalize their canvas by adding widgets from an administrator-curated library, resizing widgets, and arranging them according to their preferences.
+Canvas module is accessible from the side navigation menu and provides a customizable workspace. Employees can add widgets from an administrator-curated library, resize them, and arrange them according to their preferences. Canvas automatically saves layout changes.
 
-\[Omitted image "es-canvas.png"\] Alt text: Canvas module
+## Canvas widgets
 
-## Default canvas widgets
+Canvas includes default widgets and supports adding widgets from the administrator-curated library:
 
-Canvas includes three default widgets:
+-   **__Inbox__**
+
+    Displays to-do items that require immediate attention with due dates and assignee information.
+
+-   **__Featured Apps__**
+
+    Shows an administrator-curated set of applications. Employees can go to a full-page view to see all available apps, recently opened apps, and sort them alphabetically.
+
+-   **__Kudos &amp; recognition__**
+
+    Displays recognition messages from colleagues with point values and timestamps.
 
 -   **__Calendar__**
 
@@ -33,25 +43,26 @@ Canvas includes three default widgets:
 
     Displays all requests sorted by recently updated ones. Employees can view all requests or select individual items for more details.
 
--   **__Featured Apps__**
 
-    Shows an administrator-curated set of applications. Employees can go to a full-page My Applications experience to view all available apps, recently opened apps, and sort them alphabetically.
+**Note:** You may see different widgets based on your configuration.
 
+## Administrator capabilities
 
-## Widget customization
+Administrators configure the canvas experience and validate changes before deployment:
 
-Canvas supports the following customization capabilities:
+-   Curate the widget library that employees can add to their canvas.
+-   Set the default canvas layout and initial widgets.
+-   Configure refresh intervals for widgets that sync with external systems.
+-   Preview the canvas as any role or individual employee using the **View by** menu. The preview is read-only, displays a banner indicating preview mode, and reflects employee customizations when present.
+-   Publish updates using additive logic that adds new widgets in default positions without overwriting employee customizations.
+-   View confirmation messages showing the number of employees who received updates and warnings when changes cannot be applied additively.
+-   Access audit trail logs with timestamps and administrator names for all updates.
 
--   Widget addition: Employees can select the plus icon to select and add widgets from the administrator-provided library.
--   Widget resizing: Employees can resize widgets to fit their preferences and information density requirements.
--   Widget arrangement: Employees can drag and position widgets anywhere on the canvas.
--   Save changes: Employees can save their canvas configuration after making position and size adjustments.
+## Employee customization
 
-## Administrator control
+Employees can customize their canvas workspace:
 
-Administrators control the canvas experience through:
-
--   Widget library: Administrators curate the available widgets that employees can add to their canvas.
--   Default configuration: Administrators set the initial canvas layout and default widgets.
--   Synchronization settings: Administrators configure refresh intervals for widgets that sync with external systems.
+-   Add widgets by selecting the plus icon and choosing from the administrator-provided library.
+-   Resize widgets by dragging widget corners to fit information density preferences.
+-   Reposition the widgets by dragging them to any location on the canvas.
 

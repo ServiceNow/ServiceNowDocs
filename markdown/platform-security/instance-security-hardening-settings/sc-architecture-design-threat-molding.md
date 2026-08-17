@@ -16,7 +16,7 @@ breadcrumb: [Hardening settings, Platform Security]
 
 This broad control addresses high level design considerations and key elements to implement a secure application. This covers the tenants of availability, confidentiality processing integrity, non-repudiation and privacy. Additionally, elements of a secure software development lifecycle are included.
 
--   **[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl-evaluation-in-hr-app-plugin-applicability-human-resources-scoped-app.md)**  
+-   **[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl.md)**  
 Use the **sn\_hr\_core.impersonateCheck** property to prevent a user from impersonating another user and accessing their HR information.
 -   **[Reduce the Scope of the IP Allow List for an Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)**  
 Use the **glide.ip.authenticate.strict** property to specify IP ranges that can make inbound connections on an instance.
@@ -48,7 +48,7 @@ Use a system property to ensure that any choice field value, when passed via a U
 Use a system property to define a list of IP ranges that are appended to the outbound IP allow list.
 -   **[Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/performance-monitoring-ip-restriction.md)**  
 Use a system property to define a list of IP ranges that are appended to the outbound IP allow list.
--   **[For Self-Hosted Instance, Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-for-self-hosted-instance-ensure-only-trusted-ip-addresses-are-allowed-to-connect-to-an-instance.md)**  
+-   **[For Self-Hosted Instance, Ensure only Trusted IP Addresses are Allowed to Connect to An Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-for-self-hosted-instance-en.md)**  
 Use system properties to control which inbound IP addresses can connect to self-hosted instances.
 -   **[Require authorization for data broker rest API \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)**  
 Use the **glide.basicauth.required.databrokerrestapiprocessor** property to require basic authorization for all inbound Data Broker Rest API requests.

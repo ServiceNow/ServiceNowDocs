@@ -48,11 +48,11 @@ Validation reports are only generated when errors or warnings are present. If no
 
     \[Omitted image "level-4-lei-validation-report.png"\] Alt text: Level 4 LEI validation report opened in Microsoft Excel.
 
-    In the report, each row identifies a sheet, row, column from the uploaded package, the LEI checks performed \(format, checksum, GLEIF lookup, status, country match, corroboration\), and a human-readable validation message.
+    In the report, each row identifies a sheet, row, and column from the uploaded package. It also shows the LEI checks performed \(format, checksum, GLEIF lookup, status, country match, corroboration\) and a human-readable validation message.
 
 4.  Cross-reference the validation report with the Microsoft Excel template to identify and correct issues.
 
-    If the validation report contains errorCode=INVALID\_VALUE with an errorMessage of "LEI not found in GLEIF database", the identification code value for that branch record is not found in the GLEIF \(Global Legal Entity Identifier Foundation\) registry as shown in the example.
+    If the validation report contains errorCode=INVALID\_VALUE with an errorMessage of "LEI not found in GLEIF database", the identification code value is invalid. That branch record is not found in the GLEIF \(Global Legal Entity Identifier Foundation\) registry as shown in the example.
 
     \[Omitted image "lei-validation-upload-error-messages.png"\] Alt text: LEI validation upload error messages.
 

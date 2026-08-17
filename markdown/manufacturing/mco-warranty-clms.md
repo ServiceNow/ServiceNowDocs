@@ -14,7 +14,7 @@ breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 
 In the Repair claims workflow, the customer approaches the dealer with issues related to one or more products. The dealer diagnoses and fixes the issue​ and raises the reimbursement for the repair work performed.
 
-\[Omitted image "repair-claim-wf.png"\] Alt text:
+\[Omitted image "repair-claim-wf.png"\] Alt text: Workflow for repair claims
 
 ## What to explore next
 

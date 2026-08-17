@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-16"
 reading_time_minutes: 2
 breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -50,11 +50,7 @@ After configuring the JDBC driver, your applications can execute SQL queries aga
 
     For example, `jdbc:servicenow://https://exampleinstance.service-now.com`.
 
-4.  Enter the Service Account credentials:
-
-    -   **Username**: Enter the User ID of the Service Account with the sn\_jdbc\_rest\_access role.
-    -   **Password**: Enter the password for the Service Account.
-5.  Test the connection to confirm that the JDBC driver can successfully connect to your ServiceNow instance.
+4.  Test the connection to confirm that the JDBC driver can successfully connect to your ServiceNow instance.
 
     Most BI tools and database clients provide a **Test Connection** button. Use this feature to validate your configuration before proceeding.
 

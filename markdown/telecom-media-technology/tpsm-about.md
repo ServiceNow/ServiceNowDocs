@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/tpsm-about.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -39,7 +39,7 @@ TPSM combines purpose-built applications for technology providers with Customer 
 
 |Application|Value|
 |-----------|-----|
-|[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
+|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
 |[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/account-lifecycle-events-landing.md)|Drive adoption, mitigate risk, and maximize customer value with proactive success strategies, real-time health monitoring, and intelligent automation.|
 |[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-service-bridge-both-landing-page.md)|Quickly connect enterprise customers and suppliers running ServiceNow® to optimize work across the value chain.|
 |[Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/assurance-workflows.md)|Proactively notify customers of service disruptions and provide real-time resolution tracking.|

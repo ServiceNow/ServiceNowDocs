@@ -24,8 +24,6 @@ ServiceNow Studio is available for you to use on the ServiceNow AI Platform. You
 Manage access to ServiceNow Studio by assigning delegated development permissions. Admins, delegated developers, and users with Guided Application Creator \(GAC\) roles can develop apps and app files in ServiceNow Studio.
 -   **[Managing access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/managing-access-experience-switcher.md)**  
 The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level.
--   **[Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-integration.md)**  
-Link your application to a Git source control repository in ServiceNow Studio to save, manage, and share multiple versions of a global or scoped application from a non-production instance.
 -   **[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)**  
 Collaborate with other developers on app development in ServiceNow Studio by inviting them to co-create and develop apps with you.
 

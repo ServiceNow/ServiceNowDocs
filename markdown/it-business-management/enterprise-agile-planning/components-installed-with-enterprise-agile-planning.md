@@ -40,7 +40,7 @@ Can add teams to EAP configurations or remove them.
 
 </td><td>
 
-sn\_apw\_advanced.eap\_user
+sn\_apw\_advanced.eap\_scrum\_master
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ EAP user \[sn\_apw\_advanced.eap\_user\]
 </td><td>
 
 -   Can create, update, and delete work items
--   Can create and modify iterations like Planning Intervals and Sprints
+-   Can create iterations such as Planning Intervals and Sprints when a timeline already exists for the team, but can't change iteration dates
 -   Can access the team's Backlog and Planning Board
 
 </td><td>
@@ -58,8 +58,23 @@ EAP user \[sn\_apw\_advanced.eap\_user\]
 -   sn\_apw\_advanced.eap\_read\_only
 -   now\_assist\_panel\_user
 
-This role is available only with the Now Assist for SPM plugin.
+This role is available only with the ServiceNow Otto for SPM plugin.
 
+
+</td></tr><tr><td>
+
+EAP scrum master \[sn\_apw\_advanced.eap\_scrum\_master\]
+
+</td><td>
+
+-   Can create, edit, and delete planning calendars and calendar spans
+-   Can create and edit iterations such as Planning Intervals and Sprints. Only the EAP admin can delete them.
+-   In the workspace Settings menu, can view only the Planning calendars sub-page
+-   Is the only role that can change the start date or end date of an iteration
+
+</td><td>
+
+sn\_apw\_advanced.eap\_user
 
 </td></tr><tr><td>
 

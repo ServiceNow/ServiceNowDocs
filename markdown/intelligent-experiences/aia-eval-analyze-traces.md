@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-analyze-traces.html
 release: australia
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-07-21"
 reading_time_minutes: 1
-breadcrumb: [Review results, Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Review results, Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Analyze traces found in agentic evaluation run results
@@ -22,11 +22,11 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-If you are already in the flow for identifying issues, skip to step 5.
+If you're already in the flow for identifying issues, skip to step 5.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  Select the automated evaluation you want to review the results of.
 

@@ -7,10 +7,10 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 keywords: [Sentiment analysis, Analyze sentiment, Procurement cases]
-breadcrumb: [Use, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Analyze sentiment in procurement cases
@@ -40,18 +40,18 @@ Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
     A red dot indicates that the sentiment was updated due to recent activity. Sentiment updates automatically every 30 minutes.
 
 
-**Parent Topic:**[Use Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace]()
+[Summarize a procurement record in Source-to-Pay Workspace]()
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
+[Summarize a procurement record in Shopping Hub]()
 
-[Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel]()
+[Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using ServiceNow Otto panel]()
 
-[Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
+[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Virtual Agent]()
 
-[Generate email responses]()
+[Generate an email response for procurement cases]()
 

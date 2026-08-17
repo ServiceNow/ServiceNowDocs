@@ -1,6 +1,6 @@
 ---
-title: Installed with Now Assist for Workflow Data Fabric \(WDF\)
-description: Several tables are installed with activation of the Now Assist for Workflow Data Fabric \(WDF\) plugin.
+title: Installed with ServiceNow Otto for Workflow Data Fabric \(WDF\)
+description: Several tables are installed with activation of the ServiceNow Otto for Workflow Data Fabric \(WDF\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/installed-with-now-assist-for-wdf.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
-# Installed with Now Assist for Workflow Data Fabric \(WDF\)
+# Installed with ServiceNow Otto for Workflow Data Fabric \(WDF\)
 
-Several tables are installed with activation of the Now Assist for Workflow Data Fabric \(WDF\) plugin.
+Several tables are installed with activation of the ServiceNow Otto for Workflow Data Fabric \(WDF\) plugin.
 
 ## Tables installed
 
@@ -32,7 +32,7 @@ Quicklink
 
 </td><td>
 
-Contains quick link parameters for Now Assist for WDF.
+Contains quick link parameters for ServiceNow Otto for WDF.
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Search Result Route Config
 
 </td><td>
 
-Contains routing configurations for search results for Now Assist for WDF.
+Contains routing configurations for search results for ServiceNow Otto for WDF.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)

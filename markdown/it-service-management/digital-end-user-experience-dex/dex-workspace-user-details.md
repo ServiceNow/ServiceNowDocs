@@ -1,6 +1,6 @@
 ---
 title: Device details
-description: Monitor the health of the user device, installed or web applications, running processes on the device, application and device performance metrics, network configuration, user access details, and the ability to run custom SQL queries to retrieve OS information.
+description: Device details in Service Operations Workspace provide operational status and configuration information for devices in your environment. Use this view to review asset tags, serial numbers, model IDs, manufacturers, and connected component details for a selected device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [DEX Application and Device Health pages, Monitor, Digital End-User 
 
 # Device details
 
-Monitor the health of the user device, installed or web applications, running processes on the device, application and device performance metrics, network configuration, user access details, and the ability to run custom SQL queries to retrieve OS information.
+Device details in Service Operations Workspace provide operational status and configuration information for devices in your environment. Use this view to review asset tags, serial numbers, model IDs, manufacturers, and connected component details for a selected device.
 
 To access a user and device details, **Workspaces** &gt; **Service Operations Workspace** and select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text: The Devices icon.\) in the primary navigation pane, then select a device from the list.
 

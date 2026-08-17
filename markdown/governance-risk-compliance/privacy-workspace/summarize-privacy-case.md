@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Case summarization for privacy cases, Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Case summarization for privacy cases, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Summarize a privacy case using the GRC case summarization skill
@@ -18,19 +18,19 @@ Use the GRC case summarization skill to generate an AI summary of a privacy case
 
 ## Before you begin
 
-Install the Now Assist for Privacy Management application. For more information, see [Install Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
+Install the ServiceNow Otto for Privacy Management application. For more information, see [Install ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
 
 Role required:
 
 -   sn\_privacy\_case.privacy\_case\_analyst: Grants access to privacy case records.
--   sn\_prm\_gen\_ai.user: Grants access to the Now Assist for Privacy Management skills.
+-   sn\_prm\_gen\_ai.user: Grants access to the ServiceNow Otto for Privacy Management skills.
 
     **Note:** Users with the sn\_prm\_gen\_ai.user role automatically have the sn\_grc\_sharegenai.grc\_case\_ai\_user role, which is the minimum role required to use the GRC case summarization skill.
 
 
 ## About this task
 
-**Important:** This skill is turned on by default if you have Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This skill is turned on by default if you have ServiceNow Otto for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Privacy cases can involve multiple coordinators, complex activity logs, and breach assessments. The GRC case summarization skill generates a concise AI summary of key case details, so assignees and approvers can quickly understand the context and support efficient decision-making.
 
@@ -38,7 +38,7 @@ The skill collects data from predefined fields and related lists across the priv
 
 **Important:** Be sure to check AI-generated summaries for accuracy.
 
-If the **Summarize** option isn’t visible, an admin has to activate the skill from the Now Assist Admin console. For more information, refer to [Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-grc-case-summarization-skill.md).
+If the **Summarize** option isn’t visible, an admin has to activate the skill from the AI Admin Hub console. For more information, refer to [Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md).
 
 ## Procedure
 
@@ -58,15 +58,15 @@ If the **Summarize** option isn’t visible, an admin has to activate the skill 
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d106664e228">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d106849e222">
 
 Option
 
-</th><th align="left" id="d106664e231">
+</th><th align="left" id="d106849e225">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106664e237">
+</th></tr></thead><tbody><tr><td id="d106849e231">
 
 **Edit or save the summary**
 
@@ -78,17 +78,17 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d106664e275">
+</td></tr><tr><td id="d106849e269">
 
 **View information about the summary**
 
 </td><td>
 
-Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: Info icon\) next to **Privacy case summarized by Now Assist** to view a disclaimer about AI-generated content:
+Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: Info icon\) to view a disclaimer about AI-generated content:
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d106664e300">
+</td></tr><tr><td id="d106849e291">
 
 **Expand or collapse the summary card**
 
@@ -98,7 +98,7 @@ Select **View less** to partially collapse the summary, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(\[Omitted image "164fe1c5eda92aad2befbb60e8509a01e885bcfc.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "6a261d6b6d99f1a5f95b7b28731bb51ed5601259.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d106664e342">
+</td></tr><tr><td id="d106849e333">
 
 **Provide feedback**
 
@@ -108,7 +108,7 @@ Select the helpful icon \(\[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93
 
  **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d106664e374">
+</td></tr><tr><td id="d106849e365">
 
 **Copy the summary**
 
@@ -116,7 +116,7 @@ Select the helpful icon \(\[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93
 
 Select the copy icon \(\[Omitted image "b39b43a47f9751945329be2990af4b95d5e09f7b.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d106664e392">
+</td></tr><tr><td id="d106849e383">
 
 **Regenerate the summary**
 

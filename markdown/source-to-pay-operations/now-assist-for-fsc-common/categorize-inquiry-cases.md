@@ -1,6 +1,6 @@
 ---
 title: Categorize inquiry cases
-description: Categorize invoice inquiry cases into sub-categories, based on case descriptions, using the Inquiry Classifier skill in Now Assist to route cases accurately and improve resolution speed.
+description: Categorize invoice inquiry cases into sub-categories, based on case descriptions, using the Inquiry Classifier skill in ServiceNow Otto to route cases accurately and improve resolution speed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/categorize-inquiry-cases.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case]
-breadcrumb: [Use, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
+breadcrumb: [Use, ServiceNow Otto for Finance and Procurement, ServiceNow Otto applications for Finance and Supply Chain, Finance and Supply Chain]
 ---
 
 # Categorize inquiry cases
 
-Categorize invoice inquiry cases into sub-categories, based on case descriptions, using the Inquiry Classifier skill in Now Assist to route cases accurately and improve resolution speed.
+Categorize invoice inquiry cases into sub-categories, based on case descriptions, using the Inquiry Classifier skill in ServiceNow Otto to route cases accurately and improve resolution speed.
 
 ## Before you begin
 
@@ -36,10 +36,10 @@ Incoming invoice inquiry case.
 
 The invoice inquiry case is auto-populated with sub-category without any manual intervention by an AP agent.
 
-**Parent Topic:**[Using Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
 
 **Related topics**  
 
 
-[Summarize a purchase order by using Now Assist for Common Finance and Supply Chain features in Source-to-Pay Workspace]()
+[Summarize a procurement case]()
 

@@ -1,34 +1,34 @@
 ---
-title: Create multiple Now Assist context menu skill configurations
-description: Create multiple Now Assist context menu configuration for the same field and table.
+title: Create multiple ServiceNow Otto context menu skill configurations
+description: Create multiple ServiceNow Otto context menu configuration for the same field and table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-multple-nacm-skill-configuration.html
 release: australia
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist context menu for custom skill deployment, Now Assist context menu, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Use ServiceNow Otto context menu for custom skill deployment, ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Create multiple Now Assist context menu skill configurations
+# Create multiple ServiceNow Otto context menu skill configurations
 
-Create multiple Now Assist context menu configuration for the same field and table.
+Create multiple ServiceNow Otto context menu configuration for the same field and table.
 
 ## Before you begin
 
-You can now have multiple Now Assist context menu configurations on the same record form and field. You just have to create the required configuration and add to the form or field.
+You can now have multiple ServiceNow Otto context menu configurations on the same record form and field. You just have to create the required configuration and add to the form or field.
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Experiences** &gt; **Now Assist Context Menu**.
+1.  Navigate to **All** &gt; **Admin center** &gt; **AI Admin Hub** &gt; **AI Experiences** &gt; **ServiceNow Otto context menu**.
 
-2.  Select **Configurations** tab in the Now Assist context menu home page.
+2.  Select **Configurations** tab in the ServiceNow Otto context menu home page.
 
 3.  Select **Create New**.
 
-4.  Enter values for the following fields on the Configure Now Assist context menu form.
+4.  Enter values for the following fields on the Configure ServiceNow Otto context menu form.
 
     -   Workflow
     -   Product
@@ -42,7 +42,7 @@ Role required: admin
     -   Table name
     The UI now allows you to add multiple configurations to the same field without any errors. This is applicable only if you select Record form field.
 
-7.  Select Record form field as the location, to add the trigger for the Now Assist context menu on the UI16 form.
+7.  Select Record form field as the location, to add the trigger for the ServiceNow Otto context menu on the UI16 form.
 
 8.  Add and select one or multiple form fields in the **Form Fields** field.
 
@@ -81,5 +81,5 @@ Role required: admin
 13. Select **Preview** and **Done**.
 
 
-**Parent Topic:**[Use Now Assist context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
+**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

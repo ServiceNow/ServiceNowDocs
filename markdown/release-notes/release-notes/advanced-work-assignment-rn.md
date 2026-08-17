@@ -39,7 +39,7 @@ Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge brow
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     The Now Assist application uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 

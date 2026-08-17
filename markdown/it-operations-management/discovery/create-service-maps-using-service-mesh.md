@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enabling application service maps, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable service maps using service meshes
@@ -30,15 +30,15 @@ If you use a service mesh, a pod running on every node \(Informer\) communicates
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d510926e89">
+<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d512859e89">
 
 Method
 
-</th><th align="left" id="d510926e92">
+</th><th align="left" id="d512859e92">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d510926e98">
+</th></tr></thead><tbody><tr><td id="d512859e98">
 
 **During Helm installation**
 
@@ -60,7 +60,7 @@ If your Prometheus server URL is not the default one, use the following paramete
 --set connectionsDiscovery.prometheusUrl
 ```
 
-</td></tr><tr><td id="d510926e124">
+</td></tr><tr><td id="d512859e124">
 
 **Modify the `k8s_informer.yaml` script**
 

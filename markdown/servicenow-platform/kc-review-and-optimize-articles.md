@@ -20,7 +20,7 @@ Role required: agent
 
 ## About this task
 
-Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configuring Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
+Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
 
 ## Procedure
 
@@ -34,16 +34,16 @@ Review and optimize knowledge articles in the Knowledge Center \(KC\) by running
 
 5.  Select the **Article Optimization** icon to view the list of issues identified in the article, along with the suggestions to fix them.
 
-    **Important:** Two types of article optimization scans are available. One is a script-based scan and the other is a Now Assist based scan. If you’re subscribed to Now Assist, article optimization feature runs both the scans. If you aren’t subscribed to Now Assist, then article optimization runs only the script-based scan.
+    **Important:** Two types of article optimization scans are available. One is a script-based scan and the other is an AI-based scan. If you’re subscribed to ServiceNow Otto, article optimization feature runs both the scans. If you aren’t subscribed to ServiceNow Otto, then article optimization runs only the script-based scan.
 
-6.  Review each of the feedback cards and select the suggested action \(such as Review, Add alt attribute, and so on\) to accept the changes or, select **Ignore** to reject the feedback.
+6.  Review each of the feedback cards.
 
-    \[Omitted image "article-optimization.png"\] Alt text: Article optimization panel in Knowledge Center.
+7.  Select the suggested action \(such as Review, Add alt attribute, and so on\) to accept the changes or, select **Ignore** to reject the feedback.
 
-7.  Select **Save** to save the changes made to the article.
+8.  Select **Save** to save the changes made to the article.
 
     **Note:**
 
-    -   Selecting suggested action opens the description for the issue. Only Now Assist subscribers can see these suggestions.
-    -   Select **Update** to implement the solution in the relevant section. If you aren’t subscribed to Now Assist, you can manually rectify the identified issue and **Update** the card.
+    -   Selecting suggested action opens the description for the issue. Only ServiceNow Otto subscribers can see these suggestions.
+    -   Select **Update** to implement the solution in the relevant section. If you aren’t subscribed to ServiceNow Otto, you can manually rectify the identified issue and **Update** the card.
 

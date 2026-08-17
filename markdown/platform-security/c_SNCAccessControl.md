@@ -16,25 +16,25 @@ The SNC Access Control plugin \(com.snc.snc\_access\_control\) enables you to co
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore ServiceNow access control\[Omitted image "icon-explore.png"\] Alt text: Explore access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-access-control.md)
+[Explore ServiceNow access control\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-access-control.md)
 
  [Learn about the features of ServiceNow® access control.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-access-control.md)
 
 </td><td>
 
-[Activate ServiceNow access control\[Omitted image "icon-workspace.png"\] Alt text: Activate access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateSNCAccessControl.md)
+[Activate ServiceNow access control\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Activate access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateSNCAccessControl.md)
 
  [Active ServiceNow® access control.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateSNCAccessControl.md)
 
 </td></tr><tr><td>
 
-[Configure ServiceNow access control\[Omitted image "icon-set-up.png"\] Alt text: Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureAccessControl.md)
+[Configure ServiceNow access control\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureAccessControl.md)
 
  [Understand how to configure ServiceNow® access control.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureAccessControl.md)
 
 </td><td>
 
-[Audit Logging\[Omitted image "icon-reference.png"\] Alt text: Reference access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_AuditLogging.md)
+[Audit Logging\[Omitted image "bus-audit-management.svg"\] Alt text: Reference access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_AuditLogging.md)
 
  [Learn and review the ServiceNow® access control audit logging.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_AuditLogging.md)
 

@@ -23,7 +23,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager
 
 ## About this task
 
-Copying a resource assignment opens a new assignment form with values from the source such as named resource or resource attributes, planning item link, date range, and the allocated effort. You can modify any field before saving. The copy is an independent record, any changes to the copy don't affect the source, and later changes to the source don't flow into copies that are already created.
+Copying a resource assignment opens a new assignment form with values from the source. These values include named resource or resource attributes, planning item link, date range, and the allocated effort. You can modify any field before saving. The copy is an independent record. Changes to the copy don't affect the source, and later changes to the source don't flow into copies that are already created.
 
 Use copy when:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-syntheticmonitoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -568,7 +568,7 @@ Zurich
 -   As of 1.4, use tags on a monitor's alerts.
 -   As of 1.4, use synthetic monitoring with endpoints that support OAuth credentials.
 
- See [Synthetic monitoring](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Landing page](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

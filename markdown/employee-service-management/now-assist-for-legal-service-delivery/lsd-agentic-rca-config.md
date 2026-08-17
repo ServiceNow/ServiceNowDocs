@@ -1,6 +1,6 @@
 ---
 title: Add restricted caller access privileges for accessing the legal request table
-description: Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the Now Assist for Legal Service Delivery \(LSD\) application.
+description: Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-rca-config.html
 release: australia
@@ -9,12 +9,13 @@ classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure agentic workflow, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Configure agentic workflow, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add restricted caller access privileges for accessing the legal request table
 
-Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the Now Assist for Legal Service Delivery \(LSD\) application.
+Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 ## Before you begin
 
@@ -46,7 +47,7 @@ Source Scope
 
 </td><td>
 
-Scope of the calling application. Select **Now Assist AI Agents**.
+Scope of the calling application. Select **AI Agents**.
 
 </td></tr><tr><td>
 

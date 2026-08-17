@@ -33,7 +33,7 @@ Role required: sn\_oper\_res.manager
 
 3.  On the form, fill in the fields.
 
-    You can fill in the details of the application service in the form. For information on the fields, see [Create New Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-appl-service-form.md).
+    You can fill in the details of the application service in the form. For information on the fields, see [Create Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-appl-service-form.md).
 
 4.  Select **Save**.
 

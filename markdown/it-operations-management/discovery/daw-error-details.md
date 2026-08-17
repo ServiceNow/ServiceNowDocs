@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ The Error Details page displays the root cause and remediation steps for a speci
 
 To access Discovery error details in Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Diagnostics** &gt; **Errors**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0. This page is only accessible when the **sn\_disco\_workspace.enable\_error\_framework** system property is enabled. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. This page is only accessible when the **sn\_disco\_workspace.enable\_error\_framework** system property is enabled. Specific version requirements are noted for individual features where applicable.
 
 After selecting an error card, the header displays key information including the error title, severity, refined code, and category.
 
@@ -44,7 +44,7 @@ After selecting an error card, the header displays key information including the
     |IP address / Error key|The IP address or unique key that identifies the affected device or target. Select the hyperlink to view additional details and perform actions on this error in a side panel.|
     |State|The current state of the error instance. Possible values are Open, Closed, and Ignored.|
     |Error re-opened|The number of times this error instance has re-opened after being closed.|
-    |Impacted schedule|The Discovery schedule associated with the error instance. Select the schedule name to navigate to its [schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md) page.|
+    |Impacted schedule|The Discovery schedule associated with the error instance. Select the schedule name to navigate to its [schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md) page.|
     |Last occurrence|The date and time when the error was most recently detected.|
     |Consecutive \#|The number of consecutive Discovery runs in which this error has occurred.|
     |Refined on|The date and time when the error classification was last refined.|
@@ -55,11 +55,11 @@ After selecting an error card, the header displays key information including the
 
     The **Context** section of the panel displays metadata collected during the Discovery run for the affected device, such as probe results, lookup parameters, and CMDB match data. Select the **Actions** drop-down to perform an action on the error instance. The fields and actions in this section vary by error type.
 
-    You can also select the Now Assist \(\[Omitted image "now-assist-icon.png"\]\) icon to open the panel chat and ask Now Assist to analyze the error code. Now Assist generates a summary and remediation steps based on the error context.
+    You can also select the ServiceNow Otto icon \(\[Omitted image "now-assist-icon.png"\]\) to open the panel chat and ask Otto to analyze the error code. Otto generates a summary and remediation steps based on the error context.
 
     **Note:**
 
-    -   Now Assist for Error Framework \(com.sn\_ef\_gen\_ai\) is available in Australia Patch 3 and requires the Now Assist for Platform \(sn\_genai\_platform\) plugin.
-    -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the Now Assist for Error Framework plugin.
-    -   To interact with an agent, you must first [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   ServiceNow Otto for Error Framework \(com.sn\_ef\_gen\_ai\) is available starting with Australia Patch 3 and requires the ServiceNow Otto for Platform \(sn\_genai\_platform\) plugin.
+    -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the ServiceNow Otto for Error Framework plugin.
+    -   To interact with an agent, you must first [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

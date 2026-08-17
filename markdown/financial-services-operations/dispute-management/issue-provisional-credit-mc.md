@@ -44,7 +44,7 @@ A temporary credit is provided to the card holder to notify that the case is und
 
 6.  In the **Processing** tab, select the transaction ID.
 
-7.  In the **Issue provisional credit** activity, enter the refund amount and details.
+7.  In the **Issue provisional credit** task, enter the refund amount and details.
 
 8.  Select **Add file** to attach supporting documents to the task.
 

@@ -68,7 +68,7 @@ In addition to **mid.version.override**, the MID Server version can also be cont
 
 -   **Manual**
 
-    Manually start the upgrade by clicking a related link on the MID Server record. Use this method when you do not want to wait until the next hourly automatic update or if your upgrade failed and you want to force an upgrade. See [Upgrade the MID Server manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_UpgradeTheMIDServerManually.md) for instructions.
+    Manually start the upgrade by clicking a related link on the MID Server record. Use this method when you do not want to wait until the next hourly automatic update or if your upgrade failed and you want to force an upgrade. See [Trigger MID Server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) for instructions.
 
 
 ## Upgrade process
@@ -150,11 +150,12 @@ For example, the default timeout may not be long enough for certain JVM level co
 
 -   **Upgrade Failed**
 
-    If the upgrade failed in pre-upgrade check step or download/extract packages step, failed upgrades are handled differently based on the version you are upgrading.
+    The MID Server handles upgrade failures differently based on which step fails:
 
-    -   Upgrade to another major release \(such as Istanbul to the next full release\): the status changes to **Upgrade Failed**.
-    -   Upgrade from a minor version within a release \(such as Jakarta patch 1 to patch 2\): the MID Server continues using the version it is currently running. It does not perform the upgrade and the status eventually changes to **Up**, assuming the MID Server was already functioning properly.
-    -   If the upgrade failed in last step, replacing old version of packages with the new version of packages, the MID Server stays **Down**.
+    -   Failure during the pre-upgrade check or package download/extract step: The outcome depends on the type of upgrade:
+        -   Major release upgrade \(for example, Istanbul to the next full release\): The status changes to **Upgrade Failed**.
+        -   Minor version upgrade \(for example, Jakarta Patch 1 to Patch 2\): The MID Server continues using the version it is currently running. It does not perform the upgrade and the status eventually changes to **Up**, assuming the MID Server was already functioning properly before the upgrade attempt.
+    -   Failure during the package replacement step: If the upgrade fails while replacing the old packages with the new ones, the MID Server status stays **Down**.
 
 ## MID Server upgrade history
 
@@ -176,7 +177,7 @@ The MID Server identifies when a JRE upgrade is about to take place and begins t
 Prior to an upgrade, the MID Server runs tests to identify issues that could cause the upgrade process to fail or result in a MID Server outage.
 -   **[Pinning a MID Server to a specific version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-version-selection.md)**  
 You can pin all the MID Servers in your environment to a specific version by setting a system property, or you can configure specific versions for individual MID Servers.
--   **[Upgrade the MID Server manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_UpgradeTheMIDServerManually.md)**  
+-   **[Trigger MID Server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md)**  
 MID Servers automatically upgrade to match the instance build the next time they communicate with the instance after an instance upgrade. Use this procedure only if you want to upgrade a MID Server immediately or retry the upgrade after an Upgrade failed status.
 
 **Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)

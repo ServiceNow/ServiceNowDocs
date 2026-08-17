@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-retriever-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a search retrieval to an AI agent
@@ -66,7 +66,7 @@ Search profile
 
 </td><td>
 
-Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see .
+Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Search sources
 
 </td><td>
 
-One or multiple sources that you want to add to your search profile. To learn more about the search sources, see .
+One or multiple sources that you want to add to your search profile. To learn more about the search sources, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Display output
 
 </td><td>
 
-Permission to display the output of the tool execution in the Now Assist panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the tool execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
 -   **No**
 If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 

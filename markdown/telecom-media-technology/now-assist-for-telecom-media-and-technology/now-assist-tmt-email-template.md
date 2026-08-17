@@ -1,6 +1,6 @@
 ---
-title: Create touchpoints and meeting records using Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Send the email to instance to create the touchpoint and meeting records directly from the inbound email using Now Assist for Telecommunications, Media and Technology \(TMT\).
+title: Create touchpoints and meeting records using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Send the email to instance to create the touchpoint and meeting records directly from the inbound email using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-email-template.html
 release: australia
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Create touchpoints and meeting records using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Create touchpoints and meeting records using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Send the email to instance to create the touchpoint and meeting records directly from the inbound email using Now Assist for Telecommunications, Media and Technology \(TMT\).
+Send the email to instance to create the touchpoint and meeting records directly from the inbound email using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ To enable the email receiving, see [Inbound email configuration](https://raw.git
 
 2.  Select **New Email**.
 
-    The new Email must contain the following information:
+    The new email must contain the following information:
 
     \[Omitted image "touchpoint-mail-example.png"\] Alt text: touchpoint and meeting records.
 
@@ -103,5 +103,5 @@ For Touchpoints, the Email message must contain the required fields:
 -   If the validation passes, a record is created in the touchpoint and you receive a success email with the link to the created record.
 -   The emails are prepared and pushed to the outbound queue where they’re scheduled to be sent.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

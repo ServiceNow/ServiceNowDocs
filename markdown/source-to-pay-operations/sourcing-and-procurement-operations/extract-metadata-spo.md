@@ -27,7 +27,7 @@ By default, the following use cases are available for Sourcing and Procurement O
 -   CM Pro - Contract Analysis
 -   CM Pro - Contract Metadata Extraction
 
-For more information, see [Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-metadata-extract-land.md).
+For more information, see [Contract metadata extraction using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-metadata-extract-land.md).
 
 ## Procedure
 

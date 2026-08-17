@@ -73,9 +73,9 @@ These messages describe failing a mandatory test and are published to the MID Se
 
     This message indicates an exception has occurred when checking file permissions, such as a file that does not exist or access failure.
 
--   **MID Server Windows Service is not running as LocalSystem or a local Administrator**
+-   **The MID Server Windows service runs as LocalSystem or a user that is part of the Administrators group.**
 
-    This message warns that the Windows service is not running with the desired permissions.
+    This message warns that the Windows service is running with elevated privileges, which increases the risk of unintended access or actions.
 
 -   **Upgrade Failure: The host machine does not meet the minimum system requirements to upgrade the MID server.**
 

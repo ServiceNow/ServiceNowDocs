@@ -44,7 +44,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
 
 4.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-action-item-crisis-event-form.md).
+    For descriptions of all these fields, see [Create Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-action-item-crisis-event-form.md).
 
     1.  Add the description and short description of the action item.
 
@@ -114,7 +114,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
     This step completes the workflow of the action item record.
 
 
--   **[Create New Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-action-item-crisis-event-form.md)**  
+-   **[Create Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-action-item-crisis-event-form.md)**  
 Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 
 **Parent Topic:**[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-action-items-in-crisis.md)

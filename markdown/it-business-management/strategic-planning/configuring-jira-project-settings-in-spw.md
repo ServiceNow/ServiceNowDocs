@@ -24,7 +24,7 @@ For each Jira project, perform the following tasks:
 
 2.  [Review default data mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/review-default-map-config-jira-projects-spw.md).
 
-    Predefined data mapping configurations for Epics, Sprints, and Stories between the two applications are available but if these default mappings don't fit your team's requirements, you can edit them or create new ones. See [Create custom mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md).
+    Predefined data mapping configurations for Epics, Sprints, and Stories between the two applications are available. However, if these default mappings don't fit your team's requirements, you can edit them or create new ones. See [Create custom mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md).
 
 3.  [Enable bidirectional data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-bidirectional-sync-spw-jira.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Create an announcement
+title: Create announcements
 description: Create announcements to highlight important content on the Employee Slate home page, such as new policies, required actions, or featured knowledge articles as a carousel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-create-employee-slate-announcement.html
@@ -8,12 +8,12 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-05-28"
-reading_time_minutes: 3
-keywords: [employee communications, announcements, employee slate, content library]
+reading_time_minutes: 4
+keywords: [employee communications, announcements, employee slate, content library, content versioning, version history, activate deactivate]
 breadcrumb: [Employee communications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Create an announcement
+# Create announcements
 
 Create announcements to highlight important content on the Employee Slate home page, such as new policies, required actions, or featured knowledge articles as a carousel.
 
@@ -86,6 +86,8 @@ You can create announcements from scratch or from existing knowledge articles an
 
     **Note:** For a list of fields, see [Employee Slate announcement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.md).
 
+    **Note:** Publishing creates a version of the announcement and locks the published content from further inline edits.
+
 
 ## Result
 
@@ -94,6 +96,16 @@ The announcement is now visible to employees who match the targeting criteria du
 **Note:** When you create from existing content, the system inherits user criteria from the original knowledge article or catalog item.
 
 You can also create an announcement from an existing knowledge article or catalog item by selecting **Create from article** or **Create from catalog item**.
+
+## What to do next
+
+After publishing an announcement, you can manage versions and visibility:
+
+-   To change a published announcement, select **Edit** to create a new draft version, make your changes, and select **Publish** again. Publishing locks the announcement content.
+-   To review prior versions, select the version history icon next to the editor title. An announcement can have a live version, a draft version awaiting publish, and one or more retired versions. Publishing a draft retires the previous live version.
+-   To remove a live announcement from view without deleting it, select **Deactivate**. To restore it, select **Activate**.
+-   To locate a specific version, filter announcements by active, inactive, or retired state.
+-   To update a linked homepage promotion, edit it separately. Editing and publishing the announcement content doesn't automatically update the promotion.
 
 **Related topics**  
 

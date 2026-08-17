@@ -1,6 +1,6 @@
 ---
 title: Invoice ingestion using the AP Invoice API
-description: The AP Invoice API enables bulk import of AP invoices from external systems, such as supplier billing platforms and OCR solutions, into Accounts Payable Operations using cXML, JSON, or XML.
+description: The AP Invoice API enables bulk import of AP invoices from external systems to Accounts Payable Operations using cXML, JSON, or XML.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-ingestion-using-api.html
 release: australia
@@ -8,14 +8,14 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice processing, invoice ingestion, AP case, email ingestion]
+reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice processing, invoice ingestion, email ingestion, AP Invoice API, API integration, rate limiting]
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice ingestion using the AP Invoice API
 
-The AP Invoice API enables bulk import of AP invoices from external systems, such as supplier billing platforms and OCR solutions, into Accounts Payable Operations using cXML, JSON, or XML.
+The AP Invoice API enables bulk import of AP invoices from external systems to Accounts Payable Operations using cXML, JSON, or XML.
 
 Invoice ingestion via API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) and Source-to-Pay Integration Framework \(sn\_spend\_intg\) applications, which are available on the ServiceNow Store.
 
@@ -46,13 +46,13 @@ For more information about the AP Invoice API, see:
 
 [Rules based engine]()
 
-[Invoice processing overview]()
+[Invoice processing]()
 
 [Invoice processing cases]()
 
 [Invoice exceptions]()
 
-[Tolerance Rules and Variances for invoices]()
+[Tolerance rules and variances for invoices]()
 
 [Invoice approvals]()
 

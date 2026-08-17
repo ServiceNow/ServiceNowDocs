@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/dat
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -14,25 +14,27 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 The Service Model Foundation data model defines the underlying structure that supports data consistency and relationships across Service Model Foundation. The data model explains its purpose, including how entities such as services, locations, and accounts are organized and connected through the entity-relationship Diagram \(ERD\) and reference architecture. It provides a unified view of data design, confirming scalability, integrity, and seamless integration across Service Model Foundation components.
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
 Service Model Foundation provides a framework that your customers can use to create structured yet flexible data models that represent their business structure. Central support represents the supporting entity within the main organization. Service organizations represent additional entities providing customer support.
 
 There are three types of service organizations:
 
--   Internal Business Locations \(IBL\)
--   External Business Locations \(EBL\)
+-   Internal Organizations \(formerly Internal Business Locations \(IBL\)\)
+-   External Organizations \(formerly External Business Locations \(EBL\)\)
 -   Outsourced Service Providers \(OSP\)
 
-Note: These business locations can also be logical entities and not necessarily physical locations.
+Note: These business organizations can also be logical entities and not necessarily physical locations.
 
 ## Entity relationship model
 
 The following entity-relationship diagram \(ERD\) shows the tables and their relationships that comprise the Service Model Foundation data model.
 
-\[Omitted image "smf-data-model.png"\] Alt text: Entity relationship diagram showing how service organizations connect to internal and external business locations and outsourced service providers, each linked to employees or staff.
+\[Omitted image "smf-data-model.png"\] Alt text: Entity relationship diagram showing how service organizations connect to internal and external organizations and outsourced service providers, each linked to employees or staff.
 
-This ERD illustrates the structural relationships among service organizations, business locations, and staff or employees within the Service Model Foundation. A service organization manages multiple internal \(IBL\), external \(EBL\), and outsourced \(OSP\) locations, each associated with its own workforce, that is employees or external staff, who perform service activities.
+This ERD illustrates the structural relationships among business organizations \(formerly business locations\), and staff or employees within the Service Model Foundation. A service organization manages multiple internal organizations, external organizations, and outsourced service providers \(OSP\), each associated with its own workforce, that is employees or external staff, who perform service activities.
 
-The model differentiates internal versus external service delivery contexts while maintaining a unified link through the sys\_user and service organization staff tables. It provides the foundation for access control, visibility, and data consistency across all Service Model Foundation entities.
+The model differentiates internal versus external service and sales delivery contexts while maintaining a unified link through the sys\_user and external organization staff \(formerly service organization external staff\) tables. It provides the foundation for access control, visibility, and data consistency across all Service Model Foundation entities.
 
 ## Reference architecture and data flow model
 
@@ -40,7 +42,7 @@ The following reference architecture diagram illustrates the technical framework
 
 \[Omitted image "smf-reference-architecture.png"\] Alt text: Reference diagram highlighting how various system components, tables, and services interact to deliver and manage service operations.
 
-This reference architecture highlights how various system components, tables, and services interact to deliver and manage service operations. It shows the flow of data between primary data tables, transaction tables, and custom tables, emphasizing the integration points between internal and external business locations, service offerings, and case management processes.
+This reference architecture highlights how various system components, tables, and services interact to deliver and manage service operations. It shows the flow of data between primary data tables, transaction tables, and custom tables, emphasizing the integration points between internal and external organizations, service offerings, and case management processes.
 
 The reference architecture ensures a clear understanding of how information is processed, routed, and stored across the Service Model Foundation system.
 
@@ -62,13 +64,13 @@ Examples
 
 </th></tr></thead><tbody><tr><td>
 
-Service organizations
+Organization Cores \(formerly Service organizations\)
 
 </td><td>
 
 The internal and external entities that are involved in providing a service to customers.
 
- A service organization provides the base framework that supports the customer service value chain. This framework includes internal and external service organizations.
+ A service organization provides the base framework that supports the customer service value chain. This framework includes internal and external organizations.
 
  You can extend the service organization to create entities as needed.
 
@@ -80,11 +82,11 @@ The internal and external entities that are involved in providing a service to c
 
 </td></tr><tr><td>
 
-Internal business locations
+Internal organizations
 
 </td><td>
 
-The internal entities that belong to a service organization and are involved in providing goods and services.
+The internal entities that belong to a business organization and are involved in providing goods and services.
 
 </td><td>
 
@@ -94,11 +96,11 @@ The internal entities that belong to a service organization and are involved in 
 
 </td></tr><tr><td>
 
-External business locations
+External organizations
 
 </td><td>
 
-The external entities that belong to a service organization and are involved in providing goods and services.
+The external entities that belong to a business organization and are involved in providing goods and services.
 
 </td><td>
 
@@ -137,7 +139,7 @@ Employees and staff members
 
 </td><td>
 
-The people who work at internal and external service organizations and assist customers.
+The people who work at internal and external organizations and assist customers.
 
 </td><td>
 
@@ -151,7 +153,7 @@ The people who work at internal and external service organizations and assist cu
 
 </td><td>
 
-Job functions that are performed by various users in the service organization.
+Job functions that are performed by various users in the business organization.
 
 </td><td>
 
