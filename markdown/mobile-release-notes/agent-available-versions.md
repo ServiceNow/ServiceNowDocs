@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/agent-available-versions.html
 release: mobile
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
+last_updated: "2026-08-12"
+reading_time_minutes: 8
 breadcrumb: [Mobile app version history for iOS and Android]
 ---
 
@@ -24,7 +24,11 @@ To download the latest release, visit the [Apple App Store](https://apps.apple.c
 
 |Release version|Release type|Released in|Availability|
 |---------------|------------|-----------|------------|
-|[Mobile Agent for iOS v21.5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-5-0.md)|Version|July 2026|Available|
+|[Mobile Agent for iOS v22.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v22-0-1.md)|Hotfix|August 2026|Available|
+|[Mobile Agent for iOS v22.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v22-0-0.md)|Version|August 2026|Available|
+|[Mobile Agent for iOS v21.5.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-5-2.md)|Hotfix|July 2027|Unavailable|
+|[Mobile Agent for iOS v21.5.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-5-1.md)|Hotfix|July 2026|Unavailable|
+|[Mobile Agent for iOS v21.5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-5-0.md)|Version|July 2026|Unavailable|
 |[Mobile Agent for iOS v21.4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-4-0.md)|Version|June 2026|Unavailable|
 |[Mobile Agent for iOS v21.3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-3-1.md)|Hotfix|May 2026|Unavailable|
 |[Mobile Agent for iOS v21.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-ios-v21-3-0.md)|Version|May 2026|Unavailable|
@@ -68,9 +72,8 @@ To download the latest release, visit the [Google Play store](https://play.googl
 
 |Release version|Release type|Released in|Availability|
 |---------------|------------|-----------|------------|
-|[Mobile Agent for Android v21.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-3-0.md)|Version|May 2026|Available|
-|[Mobile Agent for Android v21.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-2-0.md)|Version|April 2026|Unavailable|
-|[Mobile Agent for Android v21.5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-5-0.md)|Version|July 2026|Available|
+|[Mobile Agent for Android v22.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v22-0-0.md)|Version|August 2026|Available|
+|[Mobile Agent for Android v21.5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-5-0.md)|Version|July 2026|Unavailable|
 |[Mobile Agent for Android v21.4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-4-0.md)|Version|June 2026|Unavailable|
 |[Mobile Agent for Android v21.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-3-0.md)|Version|May 2026|Unavailable|
 |[Mobile Agent for Android v21.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/agent-android-v21-2-0.md)|Version|April 2026|Unavailable|
