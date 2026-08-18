@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/other-release-notes/oob-rn-logi
 release: other
 topic_type: reference
 last_updated: "2023-08-24"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [OOB Other release notes]
 ---
 
@@ -51,6 +51,8 @@ Logik.ai 2025/02/21 release notes include minor bug fixes.
 Logik.ai 2025/03/07 release notes include minor bug fixes.
 -   **[Logik.ai 2025/03/21 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2025-03-21.md)**  
 Logik.ai 2025/23/21 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/07/10 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-07-10-.md)**  
+Logik.ai 2026/07/10 release notes include new enhancements and minor bug fixes.
 -   **[Logik.ai 2025/04/04 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2025-04-04.md)**  
 Logik.ai 2025/04/04 release notes include new features, enhancements, and minor bug fixes.
 -   **[Logik.ai 2025/04/18 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2025-04-18.md)**  
@@ -89,6 +91,16 @@ Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce
 Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
 -   **[Logik.ai 2026/06/19 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-06-19-.md)**  
 Logik.ai is a high-performance Commerce Logic Engine that complements Salesforce CPQ and eCommerce applications. This document outlines everything you need to know about new features and fixes made in the upcoming Logik.ai release.
+-   **[Logik.ai 2026/07/17 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-07-17-.md)**  
+Logik.ai 2026/07/17 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/07/24 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-07-24-.md)**  
+Logik.ai 2026/07/24 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/07/31 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-07-31-.md)**  
+Logik.ai 2026/07/31 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/08/07 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-08-07-.md)**  
+Logik.ai 2026/08/07 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/08/14 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-08-14-.md)**  
+Logik.ai 2026/08/14 release notes include new enhancements and minor bug fixes.
 
 **Parent Topic:**[OOB Other release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/sn-oob-rn.md)
 
