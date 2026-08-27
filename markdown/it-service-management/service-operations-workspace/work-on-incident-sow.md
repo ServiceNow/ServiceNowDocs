@@ -28,15 +28,15 @@ Role required: itil, sn\_service\_desk\_agent, sn\_sow\_inc.sn\_incident\_sow\_a
 
 2.  Perform any of the following actions on the incident record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d75369e71">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d75640e71">
 
 Option
 
-</th><th align="left" id="d75369e74">
+</th><th align="left" id="d75640e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75369e80">
+</th></tr></thead><tbody><tr><td id="d75640e80">
 
 **Create a change request**
 
@@ -44,7 +44,7 @@ Description
 
 Select **Create change request**. See [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-change-sow.md).
 
-</td></tr><tr><td id="d75369e99">
+</td></tr><tr><td id="d75640e99">
 
 **Create an incident task**
 
@@ -52,7 +52,7 @@ Select **Create change request**. See [Create a change request in Service Operat
 
 From the drop-down next to **Create incident task**, select **Create incident task**.
 
-</td></tr><tr><td id="d75369e114">
+</td></tr><tr><td id="d75640e114">
 
 **Create an outage**
 
@@ -60,7 +60,7 @@ From the drop-down next to **Create incident task**, select **Create incident ta
 
 From the drop-down next to **Create outage**, select **Create outage**.
 
-</td></tr><tr><td id="d75369e129">
+</td></tr><tr><td id="d75640e129">
 
 **Create a problem**
 
@@ -68,7 +68,7 @@ From the drop-down next to **Create outage**, select **Create outage**.
 
 From the drop-down next to **Create problem**, select **Create problem**. See [Create a problem in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-problem-sow.md).
 
-</td></tr><tr><td id="d75369e152">
+</td></tr><tr><td id="d75640e152">
 
 **Create a request**
 
@@ -76,7 +76,7 @@ From the drop-down next to **Create problem**, select **Create problem**. See [C
 
 From the drop-down next to **Create request**, select **Create request**. See [Create a catalog request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-catalog-request-sow.md).
 
-</td></tr><tr><td id="d75369e180">
+</td></tr><tr><td id="d75640e180">
 
 **Resolve the incident**
 
@@ -84,7 +84,7 @@ From the drop-down next to **Create request**, select **Create request**. See [C
 
 Select **Resolve** and provide the resolution code and notes.
 
-</td></tr><tr><td id="d75369e192">
+</td></tr><tr><td id="d75640e192">
 
 **Assign the incident to you**
 
@@ -92,7 +92,7 @@ Select **Resolve** and provide the resolution code and notes.
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d75369e204">
+</td></tr><tr><td id="d75640e204">
 
 **Book a walk-up appointment**
 
@@ -100,7 +100,7 @@ Select **Assign to me**.
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Book Walk-up Appointment**.
 
-</td></tr><tr><td id="d75369e225">
+</td></tr><tr><td id="d75640e225">
 
 **Compose an email**
 
@@ -108,7 +108,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Compose Email**.
 
-</td></tr><tr><td id="d75369e246">
+</td></tr><tr><td id="d75640e246">
 
 **Copy the record page URL to easily access the record**
 
@@ -116,7 +116,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Copy URL**. You can then share the URL with other agents.
 
-</td></tr><tr><td id="d75369e268">
+</td></tr><tr><td id="d75640e268">
 
 **Copy the incident**
 
@@ -124,7 +124,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Copy Incident**.
 
-</td></tr><tr><td id="d75369e289">
+</td></tr><tr><td id="d75640e289">
 
 **Promote the incident to major incident**
 
@@ -132,7 +132,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Promote to Major Incident**.
 
-</td></tr><tr><td id="d75369e310">
+</td></tr><tr><td id="d75640e310">
 
 **Propose the incident as major incident**
 
@@ -140,7 +140,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Propose Major Incident**.
 
-</td></tr><tr><td id="d75369e331">
+</td></tr><tr><td id="d75640e331">
 
 **Report knowledge gap**
 
@@ -148,7 +148,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Report Knowledge Gap** to create a Knowledge Feedback Task \(KFT\) record. When the record is created, the success message containing the link to the KFT record, is displayed. You can select the link to open the KFT record on a separate tab within the incident view. You can also view the KFT record from the Knowledge Gaps related list on the **Related records** tab. You can use the KFT record to create a knowledge article.
 
-</td></tr><tr><td id="d75369e357">
+</td></tr><tr><td id="d75640e357">
 
 **Delete the incident**
 
@@ -156,7 +156,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and then select **Delete**.
 
-</td></tr><tr><td id="d75369e378">
+</td></tr><tr><td id="d75640e378">
 
 **View recommendations for the incident**
 
@@ -164,7 +164,7 @@ Select the **More actions** icon \(\[Omitted image "more-actions-icon.png"\] Alt
 
 From the contextual side panel, select the **Recommendations** icon \(\[Omitted image "recommendation-icon.png"\] Alt text: recommendations icon\). See [Recommendation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommendation-framework-sow.md).
 
-</td></tr><tr><td id="d75369e404">
+</td></tr><tr><td id="d75640e404">
 
 **View record information and perform relevant actions**
 
@@ -189,7 +189,7 @@ If the logged-in user is a member of multiple assignment groups, the following s
     -   If the user is not a member of that assignment group, the **Assigned to** field becomes empty.
 For more information, see [Viewing incident record information using the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.md).
 
-</td></tr><tr><td id="d75369e495">
+</td></tr><tr><td id="d75640e495">
 
 **Attach a record that helps in quick resolution of the change**
 
@@ -199,7 +199,7 @@ For more information, see [Viewing incident record information using the Context
 2.  Search for a resource and perform the required action, for example, link the change to an incident.
 
 
-</td></tr><tr><td id="d75369e522">
+</td></tr><tr><td id="d75640e522">
 
 **Reach out to experts on-call**
 
@@ -207,7 +207,7 @@ For more information, see [Viewing incident record information using the Context
 
 From the contextual side panel, select the **Experts on-call** icon \(\[Omitted image "experts-on-call.png"\] Alt text: experts on-call icon\). See [On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/on-call-sow.md).
 
-</td></tr><tr><td id="d75369e547">
+</td></tr><tr><td id="d75640e547">
 
 **View dynamic tracking of an on-call escalation**
 
@@ -215,7 +215,7 @@ From the contextual side panel, select the **Experts on-call** icon \(\[Omitted 
 
 From the contextual side panel, select the **On-call escalations** icon \[Omitted image "on-call-escalation.png"\] Alt text: on-call escalations icon\). See [On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/on-call-sow.md).
 
-</td></tr><tr><td id="d75369e572">
+</td></tr><tr><td id="d75640e572">
 
 **Collaborate using Microsoft Teams**
 
@@ -223,7 +223,7 @@ From the contextual side panel, select the **On-call escalations** icon \[Omitte
 
 From the contextual side panel, select the **Collaborate** icon \(\[Omitted image "collaborate-sidebar.png"\] Alt text: collaborate icon\). See [ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/msteams-sow.md).
 
-</td></tr><tr><td id="d75369e609">
+</td></tr><tr><td id="d75640e609">
 
 **Add attachments**
 
@@ -231,7 +231,7 @@ From the contextual side panel, select the **Collaborate** icon \(\[Omitted imag
 
 From the contextual side panel, select the **Attachments** icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\).**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d75369e636">
+</td></tr><tr><td id="d75640e636">
 
 **Action library**
 
@@ -239,7 +239,7 @@ From the contextual side panel, select the **Attachments** icon \(\[Omitted imag
 
 From the contextual side panel, select the **Action library** \(\[Omitted image "icon-action-library.png"\]\) icon to open a sidepanel that contains all the DEX actions that you can perform on the CIs such as clearing the cache.**Note:** You can perform DEX actions on the affected CIs or caller CIs that are associated with the incident record. The caller CIs are the CIs that are assigned to the caller.
 
-</td></tr><tr><td id="d75369e659">
+</td></tr><tr><td id="d75640e659">
 
 **Create templates for reuse**
 
@@ -247,7 +247,7 @@ From the contextual side panel, select the **Action library** \(\[Omitted image 
 
 From the contextual side panel, select the **Templates** icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d75369e677">
+</td></tr><tr><td id="d75640e677">
 
 **Playbook**
 
@@ -255,7 +255,7 @@ From the contextual side panel, select the **Templates** icon \(\[Omitted image 
 
 From the contextual side panel, select the **Playbook** icon \(\[Omitted image "playbook\_icon.png"\] Alt text: Playbook icon\) to open the playbook and execute the remedial actions on a separate panel. For more information, see [Remedial actions using Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/remedial-actions-playbook.md).
 
-</td></tr><tr><td id="d75369e702">
+</td></tr><tr><td id="d75640e702">
 
 **Response templates**
 

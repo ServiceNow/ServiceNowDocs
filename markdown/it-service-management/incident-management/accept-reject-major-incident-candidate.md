@@ -24,15 +24,15 @@ Role required: major\_incident\_manager
 
 1.  Perform any of the following actions.
 
-<table id="choicetable_r21_xbw_3db"><thead><tr><th align="left" id="d171703e50">
+<table id="choicetable_r21_xbw_3db"><thead><tr><th align="left" id="d172833e50">
 
 Option
 
-</th><th align="left" id="d171703e53">
+</th><th align="left" id="d172833e53">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d171703e59">
+</th></tr></thead><tbody><tr><td id="d172833e59">
 
 **Accept a major incident candidate**
 
@@ -47,7 +47,7 @@ Description
 -   The incident is assigned to the user who approves the major incident.
 
 
-</td></tr><tr><td id="d171703e120">
+</td></tr><tr><td id="d172833e120">
 
 **Reject a major incident candidate**
 

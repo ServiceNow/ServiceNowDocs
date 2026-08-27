@@ -66,15 +66,15 @@ This AI capability for generating change risk assessment answers and reasoning r
     -   Select **Generate** to create a new risk assessment.
 6.  After you submit the risk assessment in Service Operations Workspace for ITSM, view, edit, or regenerate the saved answers.
 
-<table id="choicetable_sow_options"><thead><tr><th align="left" id="d460073e359">
+<table id="choicetable_sow_options"><thead><tr><th align="left" id="d462718e359">
 
 Option
 
-</th><th align="left" id="d460073e362">
+</th><th align="left" id="d462718e362">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d460073e368">
+</th></tr></thead><tbody><tr><td id="d462718e368">
 
 **View the saved answers**
 
@@ -82,7 +82,7 @@ Procedure
 
 In the **Record information** panel, select **View risk assessment**. The **Change Risk Assessment** dialog opens in read-only mode and shows the saved answers and reasoning for each question.
 
-</td></tr><tr><td id="d460073e386">
+</td></tr><tr><td id="d462718e386">
 
 **Edit the saved answers**
 
@@ -90,7 +90,7 @@ In the **Record information** panel, select **View risk assessment**. The **Chan
 
 Select **Assess Risk** again. The **Change Risk Assessment** dialog opens with the answers from the previous assessment copied in. Update any answers as needed, then submit the assessment.When you edit an assessment, the plain assessment page opens with the existing answers and no **Reasoning** field.
 
-</td></tr><tr><td id="d460073e406">
+</td></tr><tr><td id="d462718e406">
 
 **Regenerate the answers with the current change request context**
 

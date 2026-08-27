@@ -25,15 +25,15 @@ Role required: itil
 
 1.  Navigate to the incident list or incident form in the Core UI or in Service Operations Workspace for ITSM.
 
-<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d380984e88">
+<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d382871e88">
 
 To
 
-</th><th align="left" id="d380984e91">
+</th><th align="left" id="d382871e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d380984e97">
+</th></tr></thead><tbody><tr><td id="d382871e97">
 
 **Navigate in Core UI**
 
@@ -55,7 +55,7 @@ The incident form view appears.
 
 **Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md) and add the **Sentiment** field.
 
-</td></tr><tr><td id="d380984e170">
+</td></tr><tr><td id="d382871e170">
 
 **Navigate in Service Operations Workspace for ITSM**
 

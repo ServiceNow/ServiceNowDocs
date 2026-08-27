@@ -36,15 +36,15 @@ Role required: sn\_vlm.vendor\_manager, sn\_vlm.vendor\_admin, or admin
 
 5.  Create an improvement initiative.
 
-<table id="choicetable_l32_bbl_zkb"><thead><tr><th align="left" id="d160630e132">
+<table id="choicetable_l32_bbl_zkb"><thead><tr><th align="left" id="d161663e132">
 
 To create an initiative
 
-</th><th align="left" id="d160630e135">
+</th><th align="left" id="d161663e135">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d160630e141">
+</th></tr></thead><tbody><tr><td id="d161663e141">
 
 **From the vendor profile**
 
@@ -54,7 +54,7 @@ Do this
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d160630e165">
+</td></tr><tr><td id="d161663e165">
 
 **From an indicator**
 
@@ -64,7 +64,7 @@ Do this
 2.  On the indicator screen, click the ellipses icon and then select **Create CIM Initiative**.
 The Improvement KPI field is automatically populated with the name of the selected indicator.
 
-</td></tr><tr><td id="d160630e186">
+</td></tr><tr><td id="d161663e186">
 
 **From a vendor success indicator**
 

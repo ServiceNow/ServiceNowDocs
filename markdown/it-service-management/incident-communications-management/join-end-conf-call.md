@@ -35,15 +35,15 @@ Role required:
 
 5.  In the related links, perform any of the following actions.
 
-<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d198939e89">
+<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d200440e89">
 
 Option
 
-</th><th align="left" id="d198939e92">
+</th><th align="left" id="d200440e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198939e98">
+</th></tr></thead><tbody><tr><td id="d200440e98">
 
 **Join Conference Call**
 
@@ -51,7 +51,7 @@ Description
 
 If the logged in user is not already a part of the conference call, the user can join the conference.
 
-</td></tr><tr><td id="d198939e107">
+</td></tr><tr><td id="d200440e107">
 
 **End Conference Call**
 
