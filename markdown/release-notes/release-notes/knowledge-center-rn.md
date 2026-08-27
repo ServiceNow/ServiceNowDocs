@@ -145,7 +145,7 @@ To use auto-merge, enable the **Identify duplicate articles** and **Merge Articl
 
 -   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
 
-    The ServiceNow® CSM Configurable Workspace and ServiceNow® CSM Agent Workspace enable customer service agents to read Knowledge articles attached to their cases and gain additional information that helps them resolve cases more efficiently.
+    The ServiceNow® Customer Service Workspace and ServiceNow® CSM Agent Workspace enable customer service agents to read Knowledge articles attached to their cases and gain additional information that helps them resolve cases more efficiently.
 
 -   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
 

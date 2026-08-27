@@ -14,18 +14,18 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
 
 ## Agent experience highlights for the Australia release
 
--   Minimize drafts of comments, work notes, and emails to a dock at the bottom of CSM Configurable Workspace and keep track of documents in this centralized location.
--   Enable agents to work from a single location with the ability to view CSM Configurable Workspace record pages in other workspaces.
+-   Minimize drafts of comments, work notes, and emails to a dock at the bottom of Customer Service Workspace and keep track of documents in this centralized location.
+-   Enable agents to work from a single location with the ability to view Customer Service Workspace record pages in other workspaces.
 -   Populate interaction wrap-up codes and notes by using AI, saving agents time.
 -   Auto-populate record fields and email drafts with dynamic values using form templates.
 
 See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) for more information.
 
-**Important:** CSM Configurable Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Customer Service Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Dock in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md)**
+-   **[Dock in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md)**
 
     Enable agents to minimize drafts of comments, work notes, or emails to a dock at the bottom of the workspace page. This centralized location provides agents with the ability to see all current drafts at a glance.
 
@@ -35,7 +35,7 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Workspace record page interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md#section_q4z_fm3_23c)**
 
-    Enable agents to use record pages between CSM Configurable Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:
+    Enable agents to use record pages between Customer Service Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:
 
     -   Incident page
     -   Change page
@@ -45,19 +45,19 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Highlight fields with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md#section_zzp_dn3_23c)**
 
-    Use visual indicators in CSM Configurable Workspace such as icons and background colors to indicate form fields with unsaved changes.
+    Use visual indicators in Customer Service Workspace such as icons and background colors to indicate form fields with unsaved changes.
 
--   **[Knowledge Center article editor available in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)**
+-   **[Knowledge Center article editor available in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)**
 
-    Use the Knowledge Center article editor to create and edit knowledge articles in CSM Configurable Workspace. Agents can access the editing capabilities available in the article editor to format knowledge article content such as text, images, and media.
+    Use the Knowledge Center article editor to create and edit knowledge articles in Customer Service Workspace. Agents can access the editing capabilities available in the article editor to format knowledge article content such as text, images, and media.
 
 -   **[Unread email count on interaction tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-email-interaction-record-page.md#section_rfs_4lt_13c)**
 
-    Displays the number of unread email messages on interaction tabs in CSM Configurable Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
+    Displays the number of unread email messages on interaction tabs in Customer Service Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
 
 -   **[Activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-time-tracking.md)**
 
-    Track the time that agents spend working on cases and interactions in CSM Configurable Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
+    Track the time that agents spend working on cases and interactions in Customer Service Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
 
 
 ## Changed in this release
@@ -69,9 +69,9 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
     -   Front-line case page
     -   CSM Interaction record page
     -   CSM default record page
--   **[Collaborate component in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
+-   **[Collaborate component in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
 
-    Use the Collaborate component in the contextual side panel in CSM Configurable Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
+    Use the Collaborate component in the contextual side panel in Customer Service Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
 
 -   **[SLA component on the Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)**
 
@@ -99,11 +99,11 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 -   **[Maximum number of active tabs in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)**
 
-    Agents can open up to 20 active tabs \(previously 10\) in CSM Configurable Workspace to handle multiple tasks simultaneously without losing context.
+    Agents can open up to 20 active tabs \(previously 10\) in Customer Service Workspace to handle multiple tasks simultaneously without losing context.
 
 -   **[Open multiple lists in separate primary tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-list-views.md)**
 
-    Agents can now open multiple lists in different CSM Configurable Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
+    Agents can now open multiple lists in different Customer Service Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
 
 -   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)**
 
@@ -121,9 +121,9 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 ## Activation information
 
-CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
+Customer Service Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install Customer Service Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -176,7 +176,7 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
 -   **[Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
 
-    ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents need to find, research, and resolve issues. CSM Configurable Workspace is a customer service-specific implementation that provides tier 1 agents with the tools that they need to respond to customers and to resolve cases.
+    ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents need to find, research, and resolve issues. Customer Service Workspace is a customer service-specific implementation that provides tier 1 agents with the tools that they need to respond to customers and to resolve cases.
 
 
 **Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)

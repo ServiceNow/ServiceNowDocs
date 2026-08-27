@@ -34,7 +34,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d347307e106">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d349114e106">
 
 **Create a blackout schedule**
 
@@ -44,7 +44,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d347307e139">
+</td></tr><tr><td id="d349114e139">
 
 **Create a maintenance schedule**
 

@@ -226,7 +226,7 @@ Starting with the Australia release, data management for Customer Service Manage
 
 -   **[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
 
-    ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to identify, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are customer service implementations that provide tier-1 agents with the tools that they use to respond to customers and to resolve cases.
+    ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to identify, research, and resolve issues. Customer Service Workspace and CSM Agent Workspace are customer service implementations that provide tier-1 agents with the tools that they use to respond to customers and to resolve cases.
 
 -   **[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)**
 

@@ -230,7 +230,7 @@ Field Service Management is a ServiceNow AI Platform feature that is active by d
 
 -   **[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
 
-    ServiceNow® Workspace is a graphical user interface that provides multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are Customer Service-specific implementations that provide tier-1 agents with the tools needed to respond to customers and resolve cases.
+    ServiceNow® Workspace is a graphical user interface that provides multiple tools on one page, including the tools that agents use to find, research, and resolve issues. Customer Service Workspace and CSM Agent Workspace are Customer Service-specific implementations that provide tier-1 agents with the tools needed to respond to customers and resolve cases.
 
 
 -   **[ServiceNow Otto for FSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-fsm-rn.md)**  

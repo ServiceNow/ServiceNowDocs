@@ -33,15 +33,15 @@ Role required: admin
 
 4.  Choose one or more of the following options to configure how you want to monitor the compliance of your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d182588e112">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d184052e112">
 
 Option
 
-</th><th align="left" id="d182588e115">
+</th><th align="left" id="d184052e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d182588e121">
+</th></tr></thead><tbody><tr><td id="d184052e121">
 
 **Manage compliance policy**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d182588e145">
+</td></tr><tr><td id="d184052e145">
 
 **Manage applications**
 
@@ -61,7 +61,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
  **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-new-application.md) or [New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/admin-new-app-form.md).
 
-</td></tr><tr><td id="d182588e186">
+</td></tr><tr><td id="d184052e186">
 
 **Manage metric rules**
 

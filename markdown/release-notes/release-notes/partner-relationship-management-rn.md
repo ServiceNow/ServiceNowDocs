@@ -23,7 +23,7 @@ The ServiceNow® Partner Relationship Management application provides a unified 
 
 See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md) for more information.
 
-**Important:** The Partner Relationship Management app for CSM Configurable Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** The Partner Relationship Management app for Customer Service Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 

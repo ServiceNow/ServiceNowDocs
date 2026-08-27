@@ -12,6 +12,8 @@ reading_time_minutes: 2
 
 AI Experiences has new and updated features in the Australia release.
 
+-   **[Autonomous Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/autonomous-workforce-rn.md)**  
+Your ServiceNow® Autonomous Workforce is made up of AI specialists, coordinated systems of AI agents that collaborate, reason, and execute end-to-end work as a collective. See the following sections for release notes by version.
 -   **[AI Desktop Actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/agentic-desktop-rn.md)**  
 The ServiceNow® AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions was enhanced and updated in the Australia release.
 -   **[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)**  

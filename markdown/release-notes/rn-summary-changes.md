@@ -307,9 +307,9 @@ Enables agents to edit the short description of a record directly from the heade
     -   Front-line case page
     -   CSM Interaction record page
     -   CSM default record page
--   **[Collaborate component in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
+-   **[Collaborate component in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
 
-Use the Collaborate component in the contextual side panel in CSM Configurable Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
+Use the Collaborate component in the contextual side panel in Customer Service Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
 
 -   **[SLA component on the Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)**
 
@@ -337,11 +337,11 @@ Reduce visual clutter through auto-dismissible alerts, which are enabled by defa
 
 -   **[Maximum number of active tabs in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)**
 
-Agents can open up to 20 active tabs \(previously 10\) in CSM Configurable Workspace to handle multiple tasks simultaneously without losing context.
+Agents can open up to 20 active tabs \(previously 10\) in Customer Service Workspace to handle multiple tasks simultaneously without losing context.
 
 -   **[Open multiple lists in separate primary tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-list-views.md)**
 
-Agents can now open multiple lists in different CSM Configurable Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
+Agents can now open multiple lists in different Customer Service Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
 
 -   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)**
 
@@ -874,7 +874,7 @@ Enable customers to request quantity changes and shipping location updates for e
 
 -   **[Voice assistant intake for order exception requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)**
 
-Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the CSM Configurable Workspace.
+Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the Customer Service Workspace.
 
 -   **[Scripted extension points for order exception checks and quote thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-atp-api-call.md)**
 

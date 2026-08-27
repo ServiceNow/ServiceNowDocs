@@ -49,6 +49,10 @@ Unified Security Exposure Management is available to all customers who are entit
 
 ## New in the Australia release
 
+-   **[NVD integration enriches CVEs with SSVC decision data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/nvd-ssvc-enrichment.md)**
+
+    USEM enriches CVE entries with Stakeholder-Specific Vulnerability Categorization \(SSVC\) decision values from the National Vulnerability Database \(NVD\), including Exploitation, Automatable, and Technical Impact. Use these additional risk signals to analyze vulnerabilities and prioritize remediation.
+
 -   **[Enhancements to ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)**
 
     USEM was enhanced and updated in the Australia release to support the new AI native experience.

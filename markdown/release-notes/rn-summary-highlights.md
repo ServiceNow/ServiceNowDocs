@@ -384,8 +384,8 @@ Agent experience for CSM
 
 </td><td>
 
--   Minimize drafts of comments, work notes, and emails to a dock at the bottom of CSM Configurable Workspace and keep track of documents in this centralized location.
--   Enable agents to work from a single location with the ability to view CSM Configurable Workspace record pages in other workspaces.
+-   Minimize drafts of comments, work notes, and emails to a dock at the bottom of Customer Service Workspace and keep track of documents in this centralized location.
+-   Enable agents to work from a single location with the ability to view Customer Service Workspace record pages in other workspaces.
 -   Populate interaction wrap-up codes and notes by using AI, saving agents time.
 -   Auto-populate record fields and email drafts with dynamic values using form templates.
 
@@ -2710,7 +2710,7 @@ SQL API
 -   Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see [Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
+For more information, see [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
 
 </td></tr><tr><td>
 

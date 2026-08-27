@@ -149,15 +149,15 @@ Attachment added to the change request.
 
     Review and test the prompt for each input template configuration.
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d359922e428">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d361729e428">
 
 To
 
-</th><th align="left" id="d359922e431">
+</th><th align="left" id="d361729e431">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d359922e437">
+</th></tr></thead><tbody><tr><td id="d361729e437">
 
 **Evaluate a prompt for each input template**
 
@@ -171,7 +171,7 @@ Do this
 2.  Select **Run Test**.
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the change state selections and retest as needed.
 
-</td></tr><tr><td id="d359922e471">
+</td></tr><tr><td id="d361729e471">
 
 **Edit the prompt in the AI Skill Kit and then test the prompt**
 

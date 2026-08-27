@@ -37,7 +37,7 @@ See [Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/
 
 ## Important information for upgrading Public Sector Digital Services to Australia
 
-After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+After the upgrade, certain public sector menus and menu items in Customer Service Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
 
 Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
 
@@ -161,9 +161,9 @@ Install Public Sector Digital Services by requesting it from the ServiceNow Stor
 
     The ServiceNow®Customer Service Management application enables customer service organizations and service operations to collaborate and resolve customer problems.
 
--   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
+-   **[Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
 
-    The ServiceNow®CSM Configurable Workspace application provides government agents with the tools to research information, respond to questions from the public, and resolve cases.
+    The ServiceNow®Customer Service Workspace application provides government agents with the tools to research information, respond to questions from the public, and resolve cases.
 
 -   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 

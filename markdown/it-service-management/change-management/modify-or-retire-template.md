@@ -41,7 +41,7 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 3.  Either modify the change template directly or copy it and then modify it.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d91548e134">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d91820e134">
 
 **Modify a change template**
 
@@ -49,7 +49,7 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 Modify any field or field policy information available in the template.You can modify only templates in the Draft state.
 
-</td></tr><tr><td id="d91548e153">
+</td></tr><tr><td id="d91820e153">
 
 **Create a copy of a published template for modification**
 

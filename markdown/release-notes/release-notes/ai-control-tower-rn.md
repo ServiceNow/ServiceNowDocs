@@ -132,7 +132,7 @@ For details on upgrading to the redesigned AI Control Tower experience, see the 
 
     Review assessments, risks, controls, attestations, issues, and policy exceptions for an AI asset directly from its **Risk &amp; Compliance** tab, without leaving the asset record.
 
--   **[AI Service Graph Connector for Anthropic connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-connectors.md)**
+-   **AI Service Graph Connector for Anthropic connector**
 
     Discover and import Anthropic AI Models and track usage data \(per-user AI asset cost\).
 

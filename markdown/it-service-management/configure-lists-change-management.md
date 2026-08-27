@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-lists-change-management.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [Change Management, list configuration, admin experience]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]

@@ -38,15 +38,15 @@ Role required: none
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d247930e121">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d249432e121">
 
 Choice
 
-</th><th align="left" id="d247930e124">
+</th><th align="left" id="d249432e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d247930e130">
+</th></tr></thead><tbody><tr><td id="d249432e130">
 
 **If the related content is relevant**
 
@@ -54,7 +54,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d247930e142">
+</td></tr><tr><td id="d249432e142">
 
 **If the related content is not relevant**
 

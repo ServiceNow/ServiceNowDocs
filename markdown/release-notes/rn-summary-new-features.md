@@ -273,7 +273,7 @@ Compare inherent risk, residual risk, and control effectiveness for AI systems u
 
 Review assessments, risks, controls, attestations, issues, and policy exceptions for an AI asset directly from its **Risk &amp; Compliance** tab, without leaving the asset record.
 
--   **[AI Service Graph Connector for Anthropic connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-connectors.md)**
+-   **AI Service Graph Connector for Anthropic connector**
 
 Discover and import Anthropic AI Models and track usage data \(per-user AI asset cost\).
 
@@ -1385,7 +1385,7 @@ Before submitting requests for approval, see the required approvals, approver na
 Monitor approval progress and access approval history that provides detailed status for each approval step including assigned approvers, actual approvers \(for completed steps\), approval comments, and assignment and completion timestamps.
 
 -   **[Approval management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)**
-    -   Accept or reject approvals using multiple channels, such as email, push notifications, the CSM Configurable Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.
+    -   Accept or reject approvals using multiple channels, such as email, push notifications, the Customer Service Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.
     -   Assign backup approvers with date-specific coverage periods for seamless continuity of the approval process.
 
 </td></tr><tr><td>
@@ -1511,7 +1511,7 @@ Agent experience for CSM
 
 </td><td>
 
--   **[Dock in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md)**
+-   **[Dock in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md)**
 
 Enable agents to minimize drafts of comments, work notes, or emails to a dock at the bottom of the workspace page. This centralized location provides agents with the ability to see all current drafts at a glance.
 
@@ -1521,7 +1521,7 @@ Save time and promote consistency by creating conditional templates, setting fie
 
 -   **[Workspace record page interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md#section_q4z_fm3_23c)**
 
-Enable agents to use record pages between CSM Configurable Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:
+Enable agents to use record pages between Customer Service Workspace and ITSM Service Operations Workspace. The following ITSM pages are interoperable across CSM:
 
     -   Incident page
     -   Change page
@@ -1531,19 +1531,19 @@ Provide agents with AI assistance during the interaction wrap-up period. This fe
 
 -   **[Highlight fields with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md#section_zzp_dn3_23c)**
 
-Use visual indicators in CSM Configurable Workspace such as icons and background colors to indicate form fields with unsaved changes.
+Use visual indicators in Customer Service Workspace such as icons and background colors to indicate form fields with unsaved changes.
 
--   **[Knowledge Center article editor available in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)**
+-   **[Knowledge Center article editor available in Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-create-knowledge.md)**
 
-Use the Knowledge Center article editor to create and edit knowledge articles in CSM Configurable Workspace. Agents can access the editing capabilities available in the article editor to format knowledge article content such as text, images, and media.
+Use the Knowledge Center article editor to create and edit knowledge articles in Customer Service Workspace. Agents can access the editing capabilities available in the article editor to format knowledge article content such as text, images, and media.
 
 -   **[Unread email count on interaction tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-email-interaction-record-page.md#section_rfs_4lt_13c)**
 
-Displays the number of unread email messages on interaction tabs in CSM Configurable Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
+Displays the number of unread email messages on interaction tabs in Customer Service Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
 
 -   **[Activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-time-tracking.md)**
 
-Track the time that agents spend working on cases and interactions in CSM Configurable Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
+Track the time that agents spend working on cases and interactions in Customer Service Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
 
 
 </td></tr><tr><td>
@@ -3461,7 +3461,7 @@ Improve accessibility by allowing admins to configure widget heading levels \(H1
 
 Improve the Enhanced Requests Experience functionality by enabling specific tabs created for specific filters. Help employees find relevant requests faster while giving admins, experience owners, and service owners greater control over curating page design for specific purposes.
 
--   **[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
+-   **[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
 
 Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
@@ -3480,7 +3480,7 @@ Employee Center Pro
 
 Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
--   **[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
+-   **[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
 
 Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
@@ -3547,7 +3547,7 @@ Tracks session details, page visits, and widget interactions in a dedicated Empl
 
 Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **[Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-moveworks.md)**
+-   **[Employee Slate \(built for Moveworks\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-moveworks.md)**
 
 Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
@@ -6667,11 +6667,11 @@ You can configure and embed the following ServiceNow components on the third-par
     -   Object list: Display records from different tables with their related actions in a list format.
 -   **[Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/amazon-connect-for-voice-calls.md)**
 
-Manage Amazon Connect calls in the CSM Configurable Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
+Manage Amazon Connect calls in the Customer Service Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
 
 -   **[Supervisor call monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supervisor-monitoring-for-voice.md)**
 
-Monitor, coach, and join agent calls from the CSM Configurable Workspace without having to switch to the CCaaS desktop. All supervisor actions are automatically logged for auditing and reporting purpose.
+Monitor, coach, and join agent calls from the Customer Service Workspace without having to switch to the CCaaS desktop. All supervisor actions are automatically logged for auditing and reporting purpose.
 
 -   **[Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md)**
 
@@ -8758,6 +8758,10 @@ As of UI Builder version 29.2, the UI interaction diagram editor now supports in
 Unified Security Exposure Management \(USEM\)
 
 </td><td>
+
+-   **[NVD integration enriches CVEs with SSVC decision data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/nvd-ssvc-enrichment.md)**
+
+USEM enriches CVE entries with Stakeholder-Specific Vulnerability Categorization \(SSVC\) decision values from the National Vulnerability Database \(NVD\), including Exploitation, Automatable, and Technical Impact. Use these additional risk signals to analyze vulnerabilities and prioritize remediation.
 
 -   **[Enhancements to ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)**
 
