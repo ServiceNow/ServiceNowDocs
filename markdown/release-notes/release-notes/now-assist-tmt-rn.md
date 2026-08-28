@@ -87,7 +87,7 @@ Now Assist features are available with activation of the ServiceNow Otto for TMT
 
 -   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-    Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
+    Use this conversational interface in Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
 -   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
 

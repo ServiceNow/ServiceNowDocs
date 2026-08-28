@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-08-27"
 reading_time_minutes: 5
 keywords: [dex architecture, cloud-native services, endpoint agents, agent client collector \(acc\), browser extension, dex desktop assistant, shared services architecture, mtls authentication, grpc connection, data security, data isolation, data retention, role-based access, agent registration, certificate signing, hermes messaging service, stream connect]
 breadcrumb: [Explore, Digital End-User Experience, IT Service Management]

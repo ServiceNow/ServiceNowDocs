@@ -115,15 +115,15 @@ If you want to check some details about the resolution notes, select the more in
 
 5.  In Core UI or Service Operations Workspace for ITSM, resolve the incident by changing its state.
 
-<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d192139e399">
+<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d193641e399">
 
 Interface
 
-</th><th align="left" id="d192139e402">
+</th><th align="left" id="d193641e402">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d192139e408">
+</th></tr></thead><tbody><tr><td id="d193641e408">
 
 **Core UI**
 
@@ -133,7 +133,7 @@ Procedure
 2.  Update the resolution code and select **Resolve**. The resolution summary is displayed in the **Resolution Information** tab on the Incident form.
 
 
-</td></tr><tr><td id="d192139e433">
+</td></tr><tr><td id="d193641e433">
 
 **Service Operations Workspace for ITSM**
 

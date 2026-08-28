@@ -34,7 +34,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 4.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d153726e126">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d154760e126">
 
 **Approve or reject a change request**
 
@@ -42,7 +42,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Open the approval record from the **Self-Service** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d153726e159">
+</td></tr><tr><td id="d154760e159">
 
 **Implement a change request**
 
@@ -56,7 +56,7 @@ The system creates theses tasks when the change request enters to **Implement** 
 
 Tasks remain open until you close or cancel them. Canceling a task does not affect the parent change request.
 
-</td></tr><tr><td id="d153726e203">
+</td></tr><tr><td id="d154760e203">
 
 **Review a change request**
 
@@ -64,7 +64,7 @@ Tasks remain open until you close or cancel them. Canceling a task does not affe
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d153726e224">
+</td></tr><tr><td id="d154760e224">
 
 **Close a change request**
 
@@ -72,7 +72,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d153726e248">
+</td></tr><tr><td id="d154760e248">
 
 **Cancel a change request**
 

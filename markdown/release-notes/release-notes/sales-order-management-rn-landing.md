@@ -42,7 +42,7 @@ Sales and Order Management \(SOM\) is now known as Sales Customer Relationship M
 
 Sales Customer Relationship Management includes workflows for Customer Lifecycle Operations \(Customer Life Cycle Management\). For details on these features in the Australia release, see the [Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-management-rn.md) release notes.
 
-Also, agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases and case line items in CSM Configurable Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
+Also, agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases and case line items in Customer Service Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
 
 -   **[Activity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/activity-management-rn.md)**  
 ServiceNow® Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.

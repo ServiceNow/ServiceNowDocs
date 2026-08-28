@@ -44,7 +44,7 @@ You can update the calendar only for the time zone specified in your user profil
 
 5.  Select an **Action**, as appropriate.
 
-<table id="choicetable_cvj_ztc_55"><tbody><tr><td id="d220066e137">
+<table id="choicetable_cvj_ztc_55"><tbody><tr><td id="d221568e137">
 
 **Provide coverage**
 
@@ -56,7 +56,7 @@ Select details of the member who will provide on-call coverage for another roste
 -   Shift end: Select the date on which the coverage will end.
  **Note:** The coverage is created between the start and end date of the shift based on its schedule time.
 
-</td></tr><tr><td id="d220066e164">
+</td></tr><tr><td id="d221568e164">
 
 **Schedule extra time**
 
@@ -67,7 +67,7 @@ Specify extra coverage for the selected shift. The following options appear when
 -   Shift end: Select the date on which the extra time will end.
 
 
-</td></tr><tr><td id="d220066e185">
+</td></tr><tr><td id="d221568e185">
 
 **Schedule time off**
 

@@ -40,8 +40,8 @@ The ServiceNow AI Platform® core features provide configurations for applicatio
 The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Australia release.
 -   **[Upgrade Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade-console-rn.md)**  
 The ServiceNow® Upgrade Console application guides you for a comprehensive and efficient upgrade experience. Upgrade Console was enhanced and updated in the Australia release.
--   **[SQL API Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sql-api-rn.md)**  
-The ServiceNow® SQL API enables RaptorDB Professional users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. SQL API is only available with RaptorDB Professional.
+-   **[Live Connect Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sql-api-rn.md)**  
+The ServiceNow® Live Connect enables RaptorDB Professional users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Professional.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

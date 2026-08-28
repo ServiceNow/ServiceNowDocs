@@ -43,11 +43,11 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
     -   Object list: Display records from different tables with their related actions in a list format.
 -   **[Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/amazon-connect-for-voice-calls.md)**
 
-    Manage Amazon Connect calls in the CSM Configurable Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
+    Manage Amazon Connect calls in the Customer Service Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
 
 -   **[Supervisor call monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supervisor-monitoring-for-voice.md)**
 
-    Monitor, coach, and join agent calls from the CSM Configurable Workspace without having to switch to the CCaaS desktop. All supervisor actions are automatically logged for auditing and reporting purpose.
+    Monitor, coach, and join agent calls from the Customer Service Workspace without having to switch to the CCaaS desktop. All supervisor actions are automatically logged for auditing and reporting purpose.
 
 -   **[Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md)**
 
@@ -124,7 +124,7 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
 
 -   **[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)**
 
-    The following UI components are available in the Active Call window, enabled via ICC in the CSM Configurable Workspace:
+    The following UI components are available in the Active Call window, enabled via ICC in the Customer Service Workspace:
 
     -   A **Help Request** button to seek supervisor assistance during an active call.
     -   A **Cancel Help Request** or **End Help Request** button to cancel and end a submitted help request at any time during the active call.
@@ -152,7 +152,7 @@ See , [Self-service for Customer Service Management](https://raw.githubuserconte
     -   Feedback icons and copy icon on the summary card to indicate whether the summary is helpful and to copy the summary text.
 -   **[Call Wrap-Up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-during-active-call.md)**
 
-    Manage wrap-up during active calls using new UI components in the Active Call window in the CSM Configurable Workspace:
+    Manage wrap-up during active calls using new UI components in the Active Call window in the Customer Service Workspace:
 
     -   An **Open Wrap-Up** button to initiate the wrap-up process during an active call.
     -   **Minimize** and **Expand** controls on the wrap-up modal to manage screen space while remaining on the call.

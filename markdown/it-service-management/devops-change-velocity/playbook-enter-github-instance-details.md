@@ -90,15 +90,15 @@ Only enter a different hostname if you run a self-hosted GitHub Enterprise Serve
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitHub.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d369650e238">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d371457e238">
 
 Option
 
-</th><th align="left" id="d369650e241">
+</th><th align="left" id="d371457e241">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d369650e247">
+</th></tr></thead><tbody><tr><td id="d371457e247">
 
 **Homepage**
 
@@ -108,7 +108,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category \(Orchestration, Code, Plan, or Software quality\). For example, if you want to connect to GitHub as coding tool, you'd select the **Coding tools** category.
 
 
-</td></tr><tr><td id="d369650e274">
+</td></tr><tr><td id="d371457e274">
 
 **Applications module**
 
@@ -120,7 +120,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitHub as coding tool, select GitHub under the **Code** category.
 
 
-</td></tr><tr><td id="d369650e329">
+</td></tr><tr><td id="d371457e329">
 
 **Tools module**
 

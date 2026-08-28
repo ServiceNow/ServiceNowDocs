@@ -91,7 +91,7 @@ Assign the approval\_request\_submitter role to requesters who submit approval r
     Monitor approval progress and access approval history that provides detailed status for each approval step including assigned approvers, actual approvers \(for completed steps\), approval comments, and assignment and completion timestamps.
 
 -   **[Approval management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)**
-    -   Accept or reject approvals using multiple channels, such as email, push notifications, the CSM Configurable Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.
+    -   Accept or reject approvals using multiple channels, such as email, push notifications, the Customer Service Workspace, or approval centers, such as My Approvals in the ServiceNow AI Platform®.
     -   Assign backup approvers with date-specific coverage periods for seamless continuity of the approval process.
 
 ## Activation information

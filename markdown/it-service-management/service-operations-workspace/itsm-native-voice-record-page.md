@@ -18,7 +18,7 @@ The ITSM voice interaction record page provides a component that customers can u
 
 \[Omitted image "chat-hidden-ims.png"\] Alt text:
 
-The ITSM voice interaction record page enables CCaaS providers to display native voice integrations in CSM Configurable Workspace. Using CCaaS call controls integrated in the page, agents can do the following:
+The ITSM voice interaction record page enables CCaaS providers to display native voice integrations in Customer Service Workspace. Using CCaaS call controls integrated in the page, agents can do the following:
 
 -   Accept calls directly from the agent inbox.
 -   Manage call transfers and conferences.
@@ -296,11 +296,11 @@ The action bar component contains the actions available to users while working o
     -   **Discuss**: Opens a pop-up window to start a Sidebar discussion.
     -   **Associate Record**: Opens a new record in a sub tab that the agent can use to link a record to the current interaction. This new record is displayed in the Related Tasks related list.
 
-The ITSM voice interaction record page supports actions from the following Customer Service Management and CSM Configurable Workspace plugins:
+The ITSM voice interaction record page supports actions from the following Customer Service Management and Customer Service Workspace plugins:
 
 -   Customer Service \(com.sn\_customerservice\)
 -   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
--   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   Customer Service Workspace \(com.snc.uib.csm\_agent\_workspace\)
 -   CSM Workspace \(com.snc.agent\_workspace.csm
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)

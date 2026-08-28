@@ -246,7 +246,7 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
 -   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-    Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
+    Use this conversational interface in Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
 -   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
 

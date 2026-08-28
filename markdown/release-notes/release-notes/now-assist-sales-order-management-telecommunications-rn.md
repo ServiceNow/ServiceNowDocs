@@ -62,7 +62,7 @@ Now Assist features are available with activation of the Now Assist for Sales CR
 
 -   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
-    Use this conversational interface in the CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
+    Use this conversational interface in the Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
 -   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
 

@@ -4,7 +4,7 @@ description: The ServiceNow ITSM Employee Slate for Moveworks application surfac
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-08-27"
 reading_time_minutes: 2
 ---
 

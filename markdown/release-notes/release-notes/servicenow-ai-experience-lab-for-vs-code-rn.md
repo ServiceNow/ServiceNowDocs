@@ -1,6 +1,6 @@
 ---
-title: ServiceNow® AI Experience Lab for VS Code release notes
-description: The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
+title: ServiceNow AI Experience Lab for VS Code release notes
+description: The ServiceNow AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 locale: en-US
 release: australia
 topic_type: topic
@@ -9,7 +9,7 @@ reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Lab for VS Code, ServiceNow AI Experience Lab for VS Code release notes, AI Experience Framework, Extend ServiceNow experiences]
 ---
 
-# ServiceNow® AI Experience Lab for VS Code release notes
+# ServiceNow AI Experience Lab for VS Code release notes
 
 The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 
