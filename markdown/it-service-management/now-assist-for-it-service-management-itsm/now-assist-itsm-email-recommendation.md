@@ -38,15 +38,15 @@ As an agent, you can do these actions using the ServiceNow Otto icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d358707e125">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d360513e125">
 
 Method
 
-</th><th align="left" id="d358707e128">
+</th><th align="left" id="d360513e128">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d358707e134">
+</th></tr></thead><tbody><tr><td id="d360513e134">
 
 **Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
@@ -65,7 +65,7 @@ ServiceNow Otto creates an email response as a recommendation.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d358707e196">
+</td></tr><tr><td id="d360513e196">
 
 **Compose an email from Activity stream**
 
@@ -79,15 +79,15 @@ Get an email response as a recommendation for the agent to ask more questions or
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response or leave it empty, and then select the ServiceNow Otto \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: Otto icon icon.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d358707e253">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d360513e253">
 
 Email message window
 
-</th><th align="left" id="d358707e256">
+</th><th align="left" id="d360513e256">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d358707e265">
+</th></tr></thead><tbody><tr><td id="d360513e265">
 
 **Typed response**
 
@@ -97,7 +97,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d358707e282">
+</td></tr><tr><td id="d360513e282">
 
 **Left blank**
 

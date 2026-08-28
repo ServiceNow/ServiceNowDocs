@@ -109,15 +109,15 @@ Enter a description of how this risk calculation is applied.
     -   If **Use script values** is selected, the script assigns both the **Risk** and **Impact** values.
 4.  Specify the rule based on your selected rule method.
 
-<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d224798e260">
+<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d226299e260">
 
 Choice
 
-</th><th align="left" id="d224798e263">
+</th><th align="left" id="d226299e263">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d224798e269">
+</th></tr></thead><tbody><tr><td id="d226299e269">
 
 **Condition**
 
@@ -125,7 +125,7 @@ Action
 
 Use the condition builder to add conditions. Do not use the Keywords field as a filter condition. Risk and impact values are not calculated for keywords. To achieve equivalent filtering, use the **Use advanced condition** option and write a script that performs the text comparison explicitly.**Note:** The **Condition** section is hidden if you selected **Use advanced condition**.
 
-</td></tr><tr><td id="d224798e289">
+</td></tr><tr><td id="d226299e289">
 
 **Use advanced conditions**
 
@@ -133,7 +133,7 @@ Use the condition builder to add conditions. Do not use the Keywords field as a 
 
 Write the script in the **Advanced condition** field using standard business rule syntax. The condition must set the global variable answer to *true* or *false*.
 
-</td></tr><tr><td id="d224798e307">
+</td></tr><tr><td id="d226299e307">
 
 **Use script values**
 

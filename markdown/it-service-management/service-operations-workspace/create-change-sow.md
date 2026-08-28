@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d173932e57">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d175062e57">
 
 Source
 
-</th><th align="left" id="d173932e61">
+</th><th align="left" id="d175062e61">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d173932e67">
+</th></tr></thead><tbody><tr><td id="d175062e67">
 
 **Change list**
 
@@ -50,7 +50,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d173932e101">
+</td></tr><tr><td id="d175062e101">
 
 **Incident**
 
@@ -60,7 +60,7 @@ Description
 2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d173932e128">
+</td></tr><tr><td id="d175062e128">
 
 **Interaction**
 
@@ -70,7 +70,7 @@ Description
 2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d173932e152">
+</td></tr><tr><td id="d175062e152">
 
 **Problem**
 

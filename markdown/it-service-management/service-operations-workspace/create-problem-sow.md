@@ -24,15 +24,15 @@ Role required: itil or problem\_coordinator
 
 1.  Create a problem from any of the following sources.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d331127e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d332933e52">
 
 Option
 
-</th><th align="left" id="d331127e55">
+</th><th align="left" id="d332933e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d331127e61">
+</th></tr></thead><tbody><tr><td id="d332933e61">
 
 **From any Problem list**
 
@@ -52,7 +52,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d331127e108">
+</td></tr><tr><td id="d332933e108">
 
 **From an incident**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Create problem**.
 
 
-</td></tr><tr><td id="d331127e135">
+</td></tr><tr><td id="d332933e135">
 
 **From a customer interaction regarding an issue with a cause that must be investigated**
 

@@ -32,15 +32,15 @@ Role required: admin
 
 4.  Choose one or more of the following options to configure how you want to monitor the compliance of your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d178899e101">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d180362e101">
 
 Option
 
-</th><th align="left" id="d178899e104">
+</th><th align="left" id="d180362e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d178899e110">
+</th></tr></thead><tbody><tr><td id="d180362e110">
 
 **Manage compliance policy**
 
@@ -50,7 +50,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d178899e134">
+</td></tr><tr><td id="d180362e134">
 
 **Manage applications**
 
@@ -60,7 +60,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
  **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/add-new-application.md) or [New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/admin-new-app-form.md).
 
-</td></tr><tr><td id="d178899e175">
+</td></tr><tr><td id="d180362e175">
 
 **Manage metric rules**
 
