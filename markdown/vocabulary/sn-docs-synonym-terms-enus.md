@@ -6,7 +6,7 @@ Each row maps a **canonical term** to its known **synonyms** — including abbre
 
 - Source: `enus-vocabulary-deployed.csv`
 - Term groups: 234
-- Last generated: 2026-08-17
+- Last generated: 2026-09-10
 
 | Canonical Term | Synonyms |
 |---|---|
